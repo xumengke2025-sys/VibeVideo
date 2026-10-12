@@ -1,0 +1,70 @@
+{
+  "original": true,
+  "description": "Original instrumental composition and synthesized effects; no voice or external recording",
+  "bpm": 96,
+  "chords": [
+    [
+      50,
+      57,
+      61,
+      66,
+      69
+    ],
+    [
+      47,
+      54,
+      57,
+      62,
+      66
+    ],
+    [
+      43,
+      50,
+      54,
+      59,
+      62
+    ],
+    [
+      45,
+      52,
+      57,
+      59,
+      64
+    ]
+  ],
+  "events": [
+    {
+      "t": 1,
+      "type": "flush"
+    },
+    {
+      "t": 10.1,
+      "type": "rake"
+    },
+    {
+      "t": 12.6,
+      "type": "rake"
+    },
+    {
+      "t": 18.5,
+      "type": "air"
+    },
+    {
+      "t": 31.4,
+      "type": "return"
+    },
+    {
+      "t": 36.6,
+      "type": "filter"
+    },
+    {
+      "t": 38.7,
+      "type": "disinfect"
+    },
+    {
+      "t": 41.5,
+      "type": "resolve"
+    }
+  ],
+  "rawPeak": 0.14659355580806732
+}

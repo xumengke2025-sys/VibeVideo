@@ -1,0 +1,54 @@
+{
+  "errors": [],
+  "blocked": [],
+  "requests": [
+    "http://127.0.0.1:57353/?render",
+    "http://127.0.0.1:57353/film.js",
+    "http://127.0.0.1:57353/node_modules/three/build/three.module.js",
+    "http://127.0.0.1:57353/node_modules/three/examples/jsm/postprocessing/EffectComposer.js",
+    "http://127.0.0.1:57353/node_modules/three/examples/jsm/postprocessing/RenderPass.js",
+    "http://127.0.0.1:57353/node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js",
+    "http://127.0.0.1:57353/node_modules/three/examples/jsm/postprocessing/OutputPass.js",
+    "http://127.0.0.1:57353/node_modules/three/examples/jsm/environments/RoomEnvironment.js",
+    "http://127.0.0.1:57353/node_modules/three/build/three.core.js",
+    "http://127.0.0.1:57353/node_modules/three/examples/jsm/postprocessing/Pass.js",
+    "http://127.0.0.1:57353/node_modules/three/examples/jsm/shaders/CopyShader.js",
+    "http://127.0.0.1:57353/node_modules/three/examples/jsm/postprocessing/ShaderPass.js",
+    "http://127.0.0.1:57353/node_modules/three/examples/jsm/postprocessing/MaskPass.js",
+    "http://127.0.0.1:57353/node_modules/three/examples/jsm/shaders/LuminosityHighPassShader.js",
+    "http://127.0.0.1:57353/node_modules/three/examples/jsm/shaders/OutputShader.js",
+    "http://127.0.0.1:57353/assets/antarctica.jpg"
+  ],
+  "info": {
+    "duration": 15,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "cuts": [
+      2.6,
+      6.1,
+      11.2
+    ],
+    "continuousCuts": []
+  },
+  "seek": {
+    "sequence": [
+      2.25,
+      8.25,
+      11.55,
+      2.25,
+      8.25,
+      11.55
+    ],
+    "hashes": [
+      "678904d7011985595f94fa913a66a38039faae55f889d0cb55cbe53b91019b60",
+      "352dedc9c8be707778bb9de597f1b5a112a50eecc378e4a26119f535e84bf8d9",
+      "ccc1e46218d3eb110ec71e61ff338e85e345c8430af1ae9f475ca7b428ad228b",
+      "678904d7011985595f94fa913a66a38039faae55f889d0cb55cbe53b91019b60",
+      "352dedc9c8be707778bb9de597f1b5a112a50eecc378e4a26119f535e84bf8d9",
+      "ccc1e46218d3eb110ec71e61ff338e85e345c8430af1ae9f475ca7b428ad228b"
+    ],
+    "identical": true
+  },
+  "camera": null
+}

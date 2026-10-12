@@ -1,0 +1,33 @@
+{
+  "id": "lemo-opuscar/living-screencast",
+  "packageId": "lemo-opuscar",
+  "styleId": "living-screencast",
+  "title": "Lemo / 动态录屏",
+  "filename": "living-screencast.mp4",
+  "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/living-screencast.mp4",
+  "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+  "releaseTag": "films",
+  "releaseId": 397205472,
+  "assetId": 590516441,
+  "assetUpdated": "2026-09-26T11:15:20Z",
+  "expectedBytes": 11491720,
+  "expectedSha256": "7955f1cc7b4cb33ca80b293861e5685e160022f467f1aa59bf6d4c27bae10a29",
+  "entry": null,
+  "remoteCode": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/living-screencast/STYLE.md",
+  "representation": "author-master",
+  "note": "作者films发布的原始高码率版本；发布附件与本地固定源码的逐像素一致性未确认",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/living-screencast.mp4",
+  "status": "downloaded",
+  "bytes": 11491720,
+  "sha256": "7955f1cc7b4cb33ca80b293861e5685e160022f467f1aa59bf6d4c27bae10a29",
+  "verifiedGitBlob": null,
+  "metadata": {
+    "duration": 59.4,
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "codec": "h264",
+    "audio": true
+  },
+  "downloadedAt": "2026-10-10T03:00:57.416Z"
+}

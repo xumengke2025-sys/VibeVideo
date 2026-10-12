@@ -1,0 +1,45 @@
+{
+  "repository": "https://github.com/Aureliengmz/clearwater",
+  "commit": "4bc826134321043a25df3c2b6fed16fb7b9241e8",
+  "commit_date": "2026-09-23T13:20:07Z",
+  "repository_created": "2026-09-23T13:20:08Z",
+  "checked": "2026-10-09",
+  "license": "MIT，原LICENSE及程序化鹅卵石生成脚本保留。",
+  "reference_role": "component",
+  "quality_evidence": "source_inspected_video_unreviewed",
+  "scope": "保存4文件；光学/循环关键源码已读，未运行。不是完整导演影片；没有核实对应图库原帖或编码模型。固定t不会重建涟漪历史。",
+  "inspected": [
+    "README.md:1-52",
+    "index.html:1-45,49-100,277-321,490-529,865-919"
+  ],
+  "excluded": [
+    "展示媒体与未采用文档；HTML内嵌程序化纹理保持原样；重生成纹理的Python依赖未安装"
+  ],
+  "runtime_verification": "not run; no video reviewed",
+  "files": [
+    {
+      "source_path": "LICENSE",
+      "local_path": "LICENSE",
+      "sha256": "43443eda9f19bc42c27bfc877ba233bdebdd0a17a86f3fe4204a1816cfcc3185",
+      "bytes": 1064
+    },
+    {
+      "source_path": "README.md",
+      "local_path": "README.md",
+      "sha256": "2c4960d9ff156bcd35c049578525f9d5f61c995c5f1defd662ecca756feff891",
+      "bytes": 2238
+    },
+    {
+      "source_path": "tools/make_pebbles.py",
+      "local_path": "tools/make_pebbles.py",
+      "sha256": "0c4a2a5d761e1499fb46ba8ff3e69aefe08d1ab521b48fc43c0d3886fcde51e0",
+      "bytes": 4635
+    },
+    {
+      "source_path": "index.html",
+      "local_path": "index.html",
+      "sha256": "3d410a0cddd9344e95935e238e956cc14a5ff53d147e94fb8a196399025543ec",
+      "bytes": 401537
+    }
+  ]
+}

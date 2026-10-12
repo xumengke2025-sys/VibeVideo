@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vibe Video"
+  short_description: "用代码完成分镜、自由动效、连续运镜、声音编排与实际渲染，并按画面证据修正成片"
+  default_prompt: "使用 $vibe-video 将我的题材制作成可编辑的代码动画，自主完成分镜、动效、渲染与视觉检查，交付 MP4。"

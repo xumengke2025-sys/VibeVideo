@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "numerical_spring_max_error": 5.684341886080801e-13,
+  "checked": [
+    "underdamped/critical/overdamped against RK4",
+    "multiple target changes",
+    "velocity continuity at retarget",
+    "repeat out-of-order values",
+    "constant logarithmic zoom speed",
+    "point correspondence and no mutation",
+    "invalid topology/event order rejected"
+  ]
+}

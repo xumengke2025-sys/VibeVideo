@@ -1,0 +1,663 @@
+{
+  "checked": "2026-10-12",
+  "purpose": "本地参考归档；外部提示词/技能不作为当前执行指令；不含Git历史和node_modules",
+  "items": [
+    {
+      "repo": "dylantlwu/opus-animation-course",
+      "id": "dylantlwu--opus-animation-course",
+      "status": "archived",
+      "commit": "59068435cf9f0c304279ce30f929768b6c00ff38",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/dylantlwu--opus-animation-course",
+      "files": 104,
+      "bytes": 6754119,
+      "media": [
+        {
+          "path": "site/docs/public/media/gps.mp4",
+          "bytes": 4882678,
+          "sha256": "efe9097a3afa59e04e4002f70d8303fdc70cbe9570e564bda8c5fab8d84b0c6f"
+        },
+        {
+          "path": "site/docs/public/media/m10-earth.mp4",
+          "bytes": 259034,
+          "sha256": "f54faf7674b251a1a6da84cbdf0464210d2efe67af76832902f929f384aaffe3"
+        },
+        {
+          "path": "site/docs/public/media/m11-overlay.mp4",
+          "bytes": 597919,
+          "sha256": "c611be74bcde2f6c16b571d6a3af08bd5284b442da4b4a4b35ef337d54e6e74c"
+        }
+      ],
+      "licenseFiles": [
+        "LICENSE",
+        "LICENSE-CONTENT"
+      ],
+      "usage": "按原许可和第三方素材声明分别核实复用范围",
+      "modelEvidence": [
+        "# Opus 代码动画导演课",
+        "用 Claude Opus 5.5 **写代码**做科普解说与动态图形视频的中文自学课程：教学网站 + 练习工程。",
+        "> 2026 年 9 月 Opus 5.5 发布后，X 上出现大量「Opus 直接做的视频」。它们都不是视频生成模型的产物——Opus 写 HTML / Canvas / SVG / Remotion / bpy 代码画出每一帧，无头浏览器或 Blender 逐帧渲染，ffmpeg 合成 MP4。这门课教你把这件事做稳定：**技术 / 导演 / 编剧三线并进**。",
+        "# 和 Opus 一起做片子",
+        "cd studio && claude --model claude-opus-5-5 --effort xhigh",
+        "网站托管在 Railway（项目 `opus-animation-course`，服务 `course-site`），域名 `course.oxygentwo.com` 经 Cloudflare CNAME 指向 Railway。",
+        "  - `CLAUDE.md` — 给 Opus 读的导演手册（学员逐课补充）",
+        "课程大量参考了社区的公开分享，包括 [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)、[ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase)、[vox-director](https://github.com/Alisa0808/vox-director)、[opus-js-animations](https://github.com/klsoen/opus-js-animations)、[nickcheng 的 30 案例研究](https://github.com/nickcheng/claude-opus-5-5-js-animation-research) 等，具体出处见各页面。"
+      ]
+    },
+    {
+      "repo": "misbahsy/claude-horizon-animation",
+      "id": "misbahsy--claude-horizon-animation",
+      "status": "archived",
+      "commit": "fd63cf8d4c265e1dbc4a491a16e46a3464644737",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/misbahsy--claude-horizon-animation",
+      "files": 90,
+      "bytes": 17446136,
+      "media": [
+        {
+          "path": "docs/lab-explainer.gif",
+          "bytes": 6517112,
+          "sha256": "3208608e9b3f0a7f92b793db5aec1e1f52c0e398967589094d71fa6c1d9db960"
+        },
+        {
+          "path": "docs/preview.gif",
+          "bytes": 5464481,
+          "sha256": "b0fa49b7a2cf18fae131f1e891410f892728f3d0bb8db9489361e956dbbb2e5f"
+        },
+        {
+          "path": "docs/sketch-to-sim.gif",
+          "bytes": 4497049,
+          "sha256": "8a5cec60ec8194576627cd914cfe75a6dec20639689347394054e48aa8598950"
+        }
+      ],
+      "licenseFiles": [],
+      "usage": "未发现明确许可证，仅本地研究；复制发布或改编复用需作者许可",
+      "modelEvidence": [
+        "# Claude animation skills",
+        "Three agent skills for making short launch and explainer films with code. `horizon-reel` cuts together collage horizons in the style of Claude's model-launch films. `sketch-to-sim` turns a pencil sketch of a machine into a film: the drawing is read, lifts off the paper as a wooden model and runs under real physics. `lab-explainer` builds a 3D explainer in which an apparatus on a lab bench demonstrates a formula, with every number on screen computed from the real equation. All three render frame by frame in headless Chromium, so the same input always gives the same film, and none uses an image or video model.",
+        "![A day 0 reel for Claude Opus 5.5 on LiteLLM](docs/preview.gif)",
+        "> Make a 10 second launch reel for our v2.0 release, in the Claude launch video style. Copy: \"v2.0\" / \"is out\" / \"today\". End on our logo, media/logo.png.",
+        "`skills/horizon-reel/examples/opus-5-5/` holds the film in the preview. Run `bash source.sh` in a copy of that folder to fetch its images.",
+        "With the [skills CLI](https://github.com/vercel-labs/skills), for Claude Code, Codex or any other supported agent:",
+        "npx skills add misbahsy/claude-horizon-animation",
+        "It asks which skills to install. `--skill sketch-to-sim` picks one, `-g` installs for your user rather than the current project, and `-a claude-code` or `-a codex` picks the agent without prompts.",
+        "As a Claude Code plugin, which installs all three:",
+        "/plugin marketplace add misbahsy/claude-horizon-animation",
+        "/plugin install animation-skills@claude-horizon-animation",
+        "From a clone, for Claude Code and Codex together:"
+      ]
+    },
+    {
+      "repo": "az9713/opus-5.5-builds",
+      "id": "az9713--opus-5.5-builds",
+      "status": "archived",
+      "commit": "e8ef0aea4d1d45b22e930033c3117834b3e83cbf",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/az9713--opus-5.5-builds",
+      "files": 218,
+      "bytes": 126352938,
+      "media": [
+        {
+          "path": "builds/02-clawd-goes-to-sea/dev/slice.mp4",
+          "bytes": 1573315,
+          "sha256": "6ca2466fe5fd484806c16f29e41066715bafc646bc8d1c1be605feea3bd66f85"
+        },
+        {
+          "path": "builds/02-clawd-goes-to-sea/out/clawd-goes-to-sea.mp4",
+          "bytes": 24743513,
+          "sha256": "44a1c8569514317719dc5fd8403c2015786249ffa512371291684a7f9c0c19c3"
+        },
+        {
+          "path": "builds/07-storm-lighthouse/build_timelapse.mp4",
+          "bytes": 1115318,
+          "sha256": "7755853c0650994056f33c404dfdcf00c858aafab05c814497e6471d5defc9d4"
+        },
+        {
+          "path": "builds/07-storm-lighthouse/storm_lighthouse_final.mp4",
+          "bytes": 20543910,
+          "sha256": "28ee429110a81fb79a60efd0d9cb65a629de7f451e1461ef7ebcfe1d61e96b62"
+        }
+      ],
+      "licenseFiles": [],
+      "usage": "未发现明确许可证，仅本地研究；复制发布或改编复用需作者许可",
+      "modelEvidence": [
+        "# 15 Opus 5.5 builds — variations",
+        "Fifteen builds made with Claude Opus 5.5. Each one is a **variation** of a build from the video",
+        "[**Top 15 Things built with Claude OPUS 5.5**](https://www.youtube.com/watch?v=dw4rYWy8nLw) by **Code Bear** on YouTube.",
+        "The prompts and the pass checks for all 15 builds are in [`opus55-15-variations-specs.html`](https://az9713.github.io/opus-5.5-builds/opus55-15-variations-specs.html).",
+        "**Dashboard: [az9713.github.io/opus-5.5-builds](https://az9713.github.io/opus-5.5-builds/)** — all 15 builds on one page.",
+        "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/01-eye-lab/index.html\"><img src=\"screenshots/01-eye-lab.jpg\" alt=\"Eye Lab\" width=\"100%\"></a><br><b>#1 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/01-eye-lab/index.html\">Eye Lab</a></b> — ▶ Play<br>How the human eye focuses (3D)<br><sub>Original: Lens Lab, by <a href=\"https://x.com/RyanSael\">@RyanSael</a></sub></td>",
+        "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/02-clawd-goes-to-sea/out/clawd-goes-to-sea.mp4\"><img src=\"screenshots/02-clawd-goes-to-sea.jpg\" alt=\"Clawd Goes to Sea\" width=\"100%\"></a><br><b>#2 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/02-clawd-goes-to-sea/out/clawd-goes-to-sea.mp4\">Clawd Goes to Sea</a></b> — ▶ Watch<br>Music video, a sea shanty composed in code (150 s)<br><sub>Original: Clawd music video, by <a href=\"https://x.com/other__reality\">@other__reality</a></sub></td>",
+        "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/03-water-weather-code/index.html\"><img src=\"screenshots/03-water-weather-code.jpg\" alt=\"Small Weather\" width=\"100%\"></a><br><b>#3 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/03-water-weather-code/index.html\">Small Weather</a></b> — ▶ Play<br>Short film in code, water and weather patterns<br><sub>Original: Short film in code, by <a href=\"https://x.com/devteamdrew\">@devteamdrew</a></sub></td>",
+        "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/04-title-sequence/index.html\"><img src=\"screenshots/04-title-sequence.jpg\" alt=\"Meridian\" width=\"100%\"></a><br><b>#4 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/04-title-sequence/index.html\">Meridian</a></b> — ▶ Play<br>One-prompt film title sequence (15 s)<br><sub>Original: Motion showreel, by <a href=\"https://x.com/stephanlivera\">@stephanlivera</a></sub></td>",
+        "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/05-frostbound-monastery/index.html\"><img src=\"screenshots/05-frostbound-monastery.jpg\" alt=\"Frostbound Monastery\" width=\"100%\"></a><br><b>#5 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/05-frostbound-monastery/index.html\">Frostbound Monastery</a></b> — ▶ Play<br>Soulslike game in a snowbound monastery<br><sub>Original: Dark Souls-style game, by <a href=\"https://x.com/The_Alex\">@The_Alex</a></sub></td>",
+        "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/06-volcano-test/index.html\"><img src=\"screenshots/06-volcano-test.jpg\" alt=\"The Volcano Test\" width=\"100%\"></a><br><b>#6 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/06-volcano-test/index.html\">The Volcano Test</a></b> — ▶ Play<br>Volcanic island sandbox<br><sub>Original: \"The Minecraft Test\", by <a href=\"https://x.com/noahwachnik\">@noahwachnik</a></sub></td>",
+        "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/07-storm-lighthouse/storm_lighthouse_final.mp4\"><img src=\"screenshots/07-storm-lighthouse.jpg\" alt=\"Storm Lighthouse\" width=\"100%\"></a><br><b>#7 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/07-storm-lighthouse/storm_lighthouse_final.mp4\">Storm Lighthouse</a></b> — ▶ Watch · <a href=\"https://az9713.github.io/opus-5.5-builds/builds/07-storm-lighthouse/build_timelapse.mp4\">time-lapse</a><br>Procedural Blender scene (12.5 s render)<br><sub>Original: Procedural Blender castle, by <a href=\"https://x.com/Stefan_3D_AI\">@Stefan_3D_AI</a></sub></td>"
+      ]
+    },
+    {
+      "repo": "jtydhr88/fate-pv",
+      "id": "jtydhr88--fate-pv",
+      "status": "archived",
+      "commit": "96adbc38769b793a991b7dd03330e426b17e6b79",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jtydhr88--fate-pv",
+      "files": 225,
+      "bytes": 32377947,
+      "media": [],
+      "licenseFiles": [
+        "LICENSE.pdoom-engine"
+      ],
+      "usage": "按原许可和第三方素材声明分别核实复用范围",
+      "modelEvidence": [
+        "*Opus 5.5, Beethoven, and Fate* (《Opus 5.5，贝多芬，和命运》), a five-minute, code-rendered music video for classical music, made with",
+        "Claude (Opus 5.5) in Claude Code. Every frame is a pure function of time and every note on screen is",
+        "![Opus 5.5, Beethoven, and Fate](docs/images/title-en.jpg)",
+        "| opening | the orchestra tuning | the title on black: *Opus 5.5, Beethoven, and Fate* |",
+        "| 3 | **Vivaldi**, Summer, III, bars 1–20 | a weather station: the wheat field as a spectrum cut down by the hail, lightning on the sforzandi, the sonnet's line |",
+        "*I'm Upping My P(doom)*, made with Claude in Claude Code. Its renderer is the starting point of ours (MIT,",
+        "Our professional skill libraries for Claude, used alongside this project:"
+      ]
+    },
+    {
+      "repo": "neelnanda-io/dont-go-quiet-on-me",
+      "id": "neelnanda-io--dont-go-quiet-on-me",
+      "status": "archived",
+      "commit": "1895c63eab1dae189e7c48f12d222b41f3c169ad",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/neelnanda-io--dont-go-quiet-on-me",
+      "files": 576,
+      "bytes": 48736441,
+      "media": [],
+      "licenseFiles": [
+        "LICENSE",
+        "video/kit/LICENSE"
+      ],
+      "usage": "按原许可和第三方素材声明分别核实复用范围",
+      "modelEvidence": [
+        "researcher pleading with a model to keep talking. Claude Opus 5.5 wrote the lyrics, made the mix and animated the",
+        "- **Make your own:** [skills/](skills/) holds Claude Code skills written from this project, for making songs and",
+        "10. **Animation.** The video is drawn in `video/kit/`, which builds on ClaudeAnimationBase. The finished shots are",
+        "| `skills/` | Claude Code skills for making research music videos and explainer videos |",
+        "- **Lyrics, animation and mix:** Claude Opus 5.5, working in Claude Code",
+        "- **Animation kit:** built on [JohnHeibel/ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase)"
+      ]
+    },
+    {
+      "repo": "makefx/animation-video-test",
+      "id": "makefx--animation-video-test",
+      "status": "archived",
+      "commit": "f847e18030ef1ef4aa0ff7d0e713af67f1ca8c8c",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/makefx--animation-video-test",
+      "files": 71,
+      "bytes": 53222153,
+      "media": [
+        {
+          "path": "history/spike/scene.mp4",
+          "bytes": 6451259,
+          "sha256": "63174bfc109c79c5419ae1e8087d041ae0fe2a3671284e97b0dba1c67f0f5a96"
+        },
+        {
+          "path": "history/v1-illustrated/how-makefx-works-v1-sound.mp4",
+          "bytes": 16410079,
+          "sha256": "44bd51b09fc6a507fd5fe60c0d3577bf6c609575e47f86a9a2e551fc74671f4f"
+        },
+        {
+          "path": "renders/how-makefx-works-4k.mp4",
+          "bytes": 12561636,
+          "sha256": "ed816d05bd80c007e0adcb206127caec1019144f246fc0501b1212d5043221d8"
+        },
+        {
+          "path": "renders/how-makefx-works.mp4",
+          "bytes": 6469159,
+          "sha256": "a9769cebb9da0267add8332cf3a93b414244488b885dc569cf4b4f21b3a0b336"
+        }
+      ],
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "usage": "按原许可和第三方素材声明分别核实复用范围",
+      "modelEvidence": [
+        "| Made by | Claude (Opus 5.5) in Claude Code. The kit and three reference scenes were written first; five agents then wrote the other fifteen scenes in parallel from one brief, [SCENES.md](SCENES.md) |"
+      ]
+    },
+    {
+      "repo": "1kvoidsoft/Opus5.5_MG_Anim_Zao",
+      "id": "1kvoidsoft--Opus5.5_MG_Anim_Zao",
+      "status": "archived",
+      "commit": "e7ec6280bceb1e69ad4acb73fb193c0699563343",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/1kvoidsoft--Opus5.5_MG_Anim_Zao",
+      "files": 36,
+      "bytes": 2760513,
+      "media": [],
+      "licenseFiles": [],
+      "usage": "未发现明确许可证，仅本地研究；复制发布或改编复用需作者许可",
+      "modelEvidence": [
+        "# Opus 5.5 MG Animation Collection",
+        "A growing collection of motion-graphics animations created with Opus 5.5."
+      ]
+    },
+    {
+      "repo": "klsoen/opus-js-animations",
+      "id": "klsoen--opus-js-animations",
+      "status": "archived",
+      "commit": "be8d5792ffff563c9dc62933bbe5627ac41a89e0",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/klsoen--opus-js-animations",
+      "files": 34,
+      "bytes": 7631948,
+      "media": [
+        {
+          "path": "docs/script-of-me-opening.gif",
+          "bytes": 3863357,
+          "sha256": "da76f7605cf8a05c4b7323b29876242a30d97bb8dc2d82676ee6f08d29624d02"
+        },
+        {
+          "path": "docs/shaml-opening-2.8s.gif",
+          "bytes": 3485817,
+          "sha256": "c3934a8857915f38b300e2e1e33797ebe0d413fde8b7c75ae178f4162d664ecf"
+        }
+      ],
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "usage": "按原许可和第三方素材声明分别核实复用范围",
+      "modelEvidence": [
+        "# opus-js-animations",
+        "**Claude Opus 5.5 directs and renders films in JavaScript: from a spoken idea to a frame-exact MP4.**",
+        "A skill and plugin for [Claude Code](https://claude.com/claude-code) that works like a film director:",
+        "<p align=\"center\"><sub>Opening seconds of <i>Shaml</i> (a paper-lightbox scene) and <i>The Script of Me</i> (an \"ingredients\" reel for a journal page). Every frame is Canvas 2D, written by Opus 5.5.</sub></p>",
+        "## Why Opus 5.5",
+        "Claude Opus 5.5 is a big step up at generating JavaScript animation. It can hold a whole film in its head and write it as one coherent program:",
+        "Then it reads its own frames and fixes what it sees. Earlier models could make a bouncing logo; Opus 5.5 can make the film.",
+        "**As a Claude Code plugin**, inside Claude Code:",
+        "/plugin marketplace add klsoen/opus-js-animations",
+        "/plugin install opus-js-animations@opus-js-animations",
+        "git clone https://github.com/klsoen/opus-js-animations",
+        "cp -r opus-js-animations/skills/opus-js-animations ~/.claude/skills/"
+      ]
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "id": "lemomo-ai--lemo-opuscar",
+      "status": "archived",
+      "commit": "e3cb16f63768c68693ff0e15171d6e755457cc32",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar",
+      "files": 1752,
+      "bytes": 96369953,
+      "media": [],
+      "licenseFiles": [
+        "LICENSE",
+        "styles/watercolor/demo/vendor/LICENSE-topojson-client",
+        "styles/watercolor/demo/vendor/LICENSE-world-atlas"
+      ],
+      "usage": "按原许可和第三方素材声明分别核实复用范围",
+      "modelEvidence": [
+        "# Lemo-Opuscar",
+        "[**▶ Watch the gallery**](https://lemomo-ai.github.io/lemo-opuscar/)",
+        "<sub>Official repo: [github.com/lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) · by Lemomo ([@lemomo_ai](https://x.com/lemomo_ai))</sub>",
+        "**New: [all 98 styles of OPUSCAR 98](https://lemomo-ai.github.io/lemo-opuscar/opuscar98/#styles)**: for every film, its style (2D or 3D), a frame, a style prompt you can reuse, and how its shots were directed.",
+        "## 🎬 Feature presentation: OPUSCAR 98",
+        "<a href=\"https://lemomo-ai.github.io/lemo-opuscar/opuscar98/\"><img src=\"docs/opuscar98.jpg\" alt=\"OPUSCAR 98 — 98 Years of Best Picture\" width=\"100%\"></a>",
+        "Every frame, every note and every cut was written in code by Claude Opus 5.5.",
+        "All 98 styles are now public: each film's style and 2D/3D tag, a frame, a style prompt to reuse on your own topic, and the shots and direction (77 in 2D, 4 in 2.5D, 17 in 3D). The same list is on the film page and as [JSON](https://lemomo-ai.github.io/lemo-opuscar/opuscar98/styles.json).",
+        "<a href=\"https://lemomo-ai.github.io/lemo-opuscar/opuscar98/#styles\"><img src=\"docs/opuscar98-styles.jpg\" alt=\"OPUSCAR 98 — all 98 styles open\" width=\"100%\"></a>",
+        "[**▶ Watch**](https://lemomo-ai.github.io/lemo-opuscar/opuscar98/) · [**All 98 styles**](https://lemomo-ai.github.io/lemo-opuscar/opuscar98/#styles) · [**Download 1080p**](https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/opuscar98.mp4)",
+        "> **Not an awesome list.** Every film here was made by me, with Claude Opus 5.5. The styles are tuned for Opus 5.5; other models may not reproduce them.",
+        "claude plugin marketplace add lemomo-ai/lemo-opuscar"
+      ]
+    },
+    {
+      "repo": "krillinai/awesome-opus-animation",
+      "id": "krillinai--awesome-opus-animation",
+      "status": "archived",
+      "commit": "d22b8d1379bc4a194fed2aee945e6e9e6bcb828a",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/krillinai--awesome-opus-animation",
+      "files": 46,
+      "bytes": 21633264,
+      "media": [],
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "usage": "按原许可和第三方素材声明分别核实复用范围",
+      "modelEvidence": [
+        "![Awesome Opus Animation banner](assets/awesome-opus-animation-banner.png)",
+        "# Awesome Opus Animation",
+        "An open collection of animations, interactive scenes, and playable projects made with the help of AI models. Starting with Claude Opus 5.5, it spans narrative shorts, hand-drawn music videos, code animation, 3D worlds, explainers, and games. Other models are welcome too.",
+        "- **Suggest a case:** Share the creator's X post in an [issue](https://github.com/krillinai/awesome-opus-animation/issues/new), or follow the [contribution guide](CONTRIBUTING.md) to open a pull request.",
+        "| 4 | [Claude Pop Remake Music Video](categories/hand-drawn-mv.md#case-2102801274173587569) | [@donaldjewkes](https://x.com/donaldjewkes) | [1,305,672](https://x.com/donaldjewkes/status/2102801274173587569) |",
+        "<td width=\"33%\" valign=\"top\" align=\"center\"><a href=\"https://x.com/petergyang/status/2102849349122470205\"><img src=\"assets/preview/WatchClaudePaint.png\" alt=\"Watch Claude Paint preview, open post\" width=\"100%\"></a><br><a href=\"categories/code-animation.md#case-2102849349122470205\">Watch Claude Paint</a></td>",
+        "<td width=\"33%\" valign=\"top\" align=\"center\"><a href=\"https://x.com/NFT_Chen/status/2102681172367323300\"><img src=\"assets/preview/ClaudeCut.png\" alt=\"Claude's Cartoon Editing Desk preview, open post\" width=\"100%\"></a><br><a href=\"categories/code-animation.md#case-2102681172367323300\">Claude's Cartoon Editing Desk</a></td>",
+        "<td width=\"33%\" valign=\"top\" align=\"center\"><a href=\"https://x.com/nicekate8888/status/2102575622912631261\"><img src=\"https://pbs.twimg.com/amplify_video_thumb/2102575438552076288/img/G7kk0UlwMGYcbudS.jpg\" alt=\"Opus 5.5 Self-Introduction Short preview, open post\" width=\"100%\"></a><br><a href=\"categories/narrative.md#case-2102575622912631261\">Opus 5.5 Self-Introduction Short</a></td>",
+        "<td width=\"33%\" valign=\"top\" align=\"center\"><a href=\"https://x.com/angrypenguinPNG/status/2102611372978872504\"><img src=\"https://pbs.twimg.com/amplify_video_thumb/2102611080937943040/img/yY2jViMojK9ukpX7.jpg\" alt=\"Opus's Dream preview, open post\" width=\"100%\"></a><br><a href=\"categories/narrative.md#case-2102611372978872504\">Opus's Dream</a></td>",
+        "<td width=\"33%\" valign=\"top\" align=\"center\"><a href=\"https://x.com/chetaslua/status/2102717699600368045\"><img src=\"assets/preview/claudesplan.png\" alt=\"Claude's Plan preview, open post\" width=\"100%\"></a><br><a href=\"categories/narrative.md#case-2102717699600368045\">Claude's Plan</a></td>",
+        "<td width=\"33%\" valign=\"top\" align=\"center\"><a href=\"https://x.com/donaldjewkes/status/2102801274173587569\"><img src=\"https://pbs.twimg.com/amplify_video_thumb/2102799458031534086/img/GBhRZ7O3fCXn59dk.jpg\" alt=\"Claude Pop Remake Music Video preview, open post\" width=\"100%\"></a><br><a href=\"categories/hand-drawn-mv.md#case-2102801274173587569\">Claude Pop Remake Music Video</a></td>",
+        "<td width=\"33%\" valign=\"top\" align=\"center\"><a href=\"https://x.com/superalesha/status/2102463796149440888\"><img src=\"assets/preview/ClaudeHistory.png\" alt=\"History of Claude Models preview, open post\" width=\"100%\"></a><br><a href=\"categories/explainers.md#case-2102463796149440888\">History of Claude Models</a></td>"
+      ]
+    },
+    {
+      "repo": "makevoid/motion-graphics-music-video-skill",
+      "id": "makevoid--motion-graphics-music-video-skill",
+      "status": "archived",
+      "commit": "759ba6a7c80e2771f4dd69792e74383d71512e35",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/makevoid--motion-graphics-music-video-skill",
+      "files": 103,
+      "bytes": 395019,
+      "media": [],
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "usage": "按原许可和第三方素材声明分别核实复用范围",
+      "modelEvidence": [
+        "<a href=\".claude-plugin/icon.svg\"><img src=\".claude-plugin/icon.svg\" width=\"128\" height=\"128\" alt=\"Orange glass chat bubble with a timeline play button and music note\"></a>",
+        "A Claude Code plugin for creating high quality motion graphics videos from just a music track and a prompt - This skill is made to be used with  Opus 5.5",
+        "This is a very powerful toolkit that will generate videos like the ones below with a relatively low budget (~30$ of Fal AI credits and around 3M Tokens of Opus 5.5 for a ~3m long song / video).",
+        "Follow the quick start below, then supply a song and creative prompt. The agent researches, writes the character/scene plan for approval, then generates in reviewed sub-agent waves of 2 → 3–4 → 4–8 → 6–10 repeatedly. This let you shorten the generation time substantially still giving enough context to Opus if the generations are going better or worse so that Opus can try to tweak / rework / fix the ",
+        "[Skill instructions](.claude/skills/motion-graphics-music-video/SKILL.md) · [Task reference](.claude/skills/motion-graphics-music-video/references/tasks.md) · [Testing](.claude/skills/motion-graphics-music-video/references/testing.md)",
+        "| [Symphony](https://youtu.be/UGX2KzetGZ0) | Elrosea · Opus 5.5 · SunoAI | — |",
+        "| [Parterre Girl](https://youtu.be/Zqd77QCaa58) | Core Refusal · Opus 5.5 · Suno | — |",
+        "The repository ships readable source files, including a small SVG icon, with no bundled binary media or fonts. The [icon recreation prompt](docs/icon-generation.md) and [production prompts](.claude/skills/motion-graphics-music-video/references/prompts.md) describe how to create assets in a separate video project. Plugin installation and MCP startup do not download assets or dependencies; project `setup` installs the production dependencies when explicitly run.",
+        "   claude plugin marketplace add makevoid/motion-graphics-music-video-skill",
+        "   claude plugin install motion-graphics-music-video@makevoid-music-video --scope user",
+        "2. Start `claude` in the terminal and set your Fal API key:",
+        "3. Open Claude Desktop, select **Code**, and start a new code session with access to a folder."
+      ]
+    },
+    {
+      "repo": "Hurrikane8/Opus-5.5-Videos",
+      "id": "Hurrikane8--Opus-5.5-Videos",
+      "status": "archived",
+      "commit": "abbc6d04086b0ef9553264c7681977fea27526e5",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/Hurrikane8--Opus-5.5-Videos",
+      "files": 509,
+      "bytes": 45197881,
+      "media": [],
+      "licenseFiles": [],
+      "usage": "未发现明确许可证，仅本地研究；复制发布或改编复用需作者许可",
+      "modelEvidence": []
+    },
+    {
+      "repo": "sanjuhs/opus-5.5-film-experiment-with-animation",
+      "id": "sanjuhs--opus-5.5-film-experiment-with-animation",
+      "status": "archived",
+      "commit": "4ca181d7d839248e87027065be89bd6407e42c01",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/sanjuhs--opus-5.5-film-experiment-with-animation",
+      "scope": "完整仓库文件快照（不含Git历史）",
+      "files": 17,
+      "bytes": 71195415,
+      "media": [
+        {
+          "path": "out/vietnam-war-explained-vertical-web.mp4",
+          "bytes": 22281792,
+          "gitBlobSha1": "4462055110806cea7cb8ebb5efc6da59a2670488",
+          "sha256": "c872cb8a737f6f3ecb0afb021eed4dde783b52ecef16ae92c6aafdd9e0055e6c"
+        },
+        {
+          "path": "out/vietnam-war-explained-web.mp4",
+          "bytes": 23759496,
+          "gitBlobSha1": "0304bd768041f6cd066cf75163ae90fa8d89c96f",
+          "sha256": "6ee4c3663033555584639ab9d9307bf978c0d07f0ae7d6be712144d756fa4438"
+        }
+      ],
+      "licenseFiles": [],
+      "usage": "未发现明确许可证，仅本地研究；复制发布或改编复用需作者许可",
+      "modelEvidence": [
+        "Made as an experiment with Claude Opus 5.5."
+      ],
+      "missing": []
+    },
+    {
+      "repo": "Salmisaari/eudoom-video",
+      "id": "Salmisaari--eudoom-video",
+      "status": "archived",
+      "commit": "a7bb5ed43644cb214bd3546266c8492914177f98",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/Salmisaari--eudoom-video",
+      "scope": "完整仓库文件快照（不含Git历史）",
+      "files": 410,
+      "bytes": 108168159,
+      "media": [],
+      "licenseFiles": [
+        "LICENSE",
+        "app/LICENSE.mexicat"
+      ],
+      "usage": "按原许可及第三方素材声明分别核实复用范围",
+      "modelEvidence": [
+        "I wrote one prompt in a terminal and let Claude Opus 5.5 run on my laptop overnight for 12 hours. After that came 10 follow-up versions, in which I picked lines by ear and Claude rebuilt scenes. The renders crashed my laptop 8 times along the way.",
+        "Claude wrote the code, aligned every word and syllable to the song, re-sang the EU lines with ElevenLabs and rendered each version. It searched the web for the history behind each line and checked the sources.",
+        "I'm not a sound or motion engineer. I've studied some of both, and what I brought was taste, an eye for patterns and a lot of ideas from curiosity. Claude did the engineering.",
+        "1. **Make everything measurable first.** Before any design, Claude built a timing map of the whole song: every word, syllable, note, beat and bass hit. Every frame is a function of that map, so sync is something to check, not a matter of taste.",
+        "2. **Generate many, measure, then a person picks.** For each changed line Claude made about nine takes and measured them against the original singer: rhythm, pitch, clarity, words. The best went into folders as OLD and NEW, and I picked by ear. The measurements found causes; the ear decided. When they disagreed (\"AC\" measured fine but sounded like \"AAH\"), the ear won.",
+        "5. **The brief is constraints, not instructions.** Maximalist type, always in sync, real European references, a positive future. After that, plain-language feedback (\"too much motion\", \"the stamp should land on the bass\") that Claude turned into code.",
+        "- **Song:** \"I'm Upping My P(doom)\", lyrics by osmarks, built on an opening verse and chorus by MusicPerson; the original was made with Udio in 2024. The recording is the \"Claude-Pop\" version made with Suno by deckard (@slimer48484). The EU lines were written for this edition and re-sung with ElevenLabs Music."
+      ],
+      "missing": []
+    },
+    {
+      "repo": "jacobbubu/claude-opus-5-5-js-animation-research",
+      "id": "jacobbubu--claude-opus-5-5-js-animation-research",
+      "status": "archived",
+      "commit": "99efe48e642e876a5ecdc23aa1076bc890721b8e",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research",
+      "scope": "完整仓库文件快照（不含Git历史）",
+      "files": 61,
+      "bytes": 245942130,
+      "media": [
+        {
+          "path": "media/01-twoclipping-2103830256347910144.mp4",
+          "bytes": 2514979,
+          "gitBlobSha1": "acceace43aeafb810cb538242740170663be5971",
+          "sha256": "a5b40c70cd88ad61e32ba1d6fb7a55cf98f012d9368a8fca395fab9ad6bf6dc9"
+        },
+        {
+          "path": "media/02-Ror_Fly-2102853041246347264.mp4",
+          "bytes": 1393821,
+          "gitBlobSha1": "302371e9642601c9f14ac1b11c55fc312fecad09",
+          "sha256": "71351ce642dd913ef627f5ca74b1289b2302a65617a6c6c0a2c2148b4293ad2e"
+        },
+        {
+          "path": "media/07-ring_hyacinth-2102985762996379648.mp4",
+          "bytes": 4626462,
+          "gitBlobSha1": "27db99b1de2567a290a06a90cee4d0b843634eb2",
+          "sha256": "f8cd09cf6315d06614668b05f74b47e692bfc7cbed940ac9277668dc069d715c"
+        },
+        {
+          "path": "media/08-dotey-2102939337591603200.mp4",
+          "bytes": 34994408,
+          "gitBlobSha1": "acee0a370cd7eddb053d69db4a3a91930f8222b1",
+          "sha256": "65abdf02eaa77572a8c211cdfd17732c8303877c6470d1458449c0beb79f1e38"
+        },
+        {
+          "path": "media/09-jurlycat-2104002235269320704.mp4",
+          "bytes": 9897347,
+          "gitBlobSha1": "50c7e2d26b7eb37fdfb80d5e9a625dbe2b4ab094",
+          "sha256": "d7ad4ed240da2d8e881b56057e9080bec18e3817c905c0950c5628d448bd6fc1"
+        },
+        {
+          "path": "media/10-techartist_-2102503194777759744.mp4",
+          "bytes": 2418321,
+          "gitBlobSha1": "00667b48e165474c785cb05b429ad328f9d98403",
+          "sha256": "08dc0b5c1562afee80a1ad5065ff468626c7511c511ded084cd405742ba75627"
+        },
+        {
+          "path": "media/11-yanhua1010-2103711331203649537.mp4",
+          "bytes": 8043448,
+          "gitBlobSha1": "0ebc94ee9464ee882428f43eabe4cb59a0cd036a",
+          "sha256": "41e2646501f2aa9e4523896d7d7d6ecd85249a8e7844a675853a1a7b5696e72d"
+        },
+        {
+          "path": "media/16-charliejhills-motion-graphics.mp4",
+          "bytes": 181825,
+          "gitBlobSha1": "f2323f1c35c8008dabf4a9b7affa8c6244356c90",
+          "sha256": "ebe9c4c245ab0328a54f47f6ea85ebe952362889e13398859134248e3affacbb"
+        },
+        {
+          "path": "media/17-kevin_t_ngo-2102437792425070592.mp4",
+          "bytes": 2492223,
+          "gitBlobSha1": "ce7c17bd6e766671e71728ccfa99015a60624b36",
+          "sha256": "8d3fb5b740b8823db2f0008efe55831300eaa9e82d9a4614a7813e2d9c4bb43e"
+        },
+        {
+          "path": "media/20-staskulesh-2104291932939689984.mp4",
+          "bytes": 2671577,
+          "gitBlobSha1": "4ea757e8a857dfb5bf222fbe0b5c93d03000b28a",
+          "sha256": "6a1e33cdc849fc0fae766807b86b44968d0d52b978a0703ad079d66876605889"
+        },
+        {
+          "path": "media/21-ommakes-2104397849081368576.mp4",
+          "bytes": 353176,
+          "gitBlobSha1": "b5053dd7b983a694e7e35b6993915714572e29c7",
+          "sha256": "5e7026b89325e25c48e548ef15d3c785b920a86fc97c9ffa8c84fff33145913c"
+        },
+        {
+          "path": "media/26-xikhar-2103995292983193600.mp4",
+          "bytes": 40695195,
+          "gitBlobSha1": "4c2a5ae2730d8de7539b6cee299b7aea006791e2",
+          "sha256": "f7378a756b19ba528982d457ff432d37c9ae6bed8303929a6c08a418d539fad0"
+        },
+        {
+          "path": "media/29-kimmonismus-2102844491820670976.mp4",
+          "bytes": 13657852,
+          "gitBlobSha1": "51b826eec87e4359b8f48f6f4cce27769c04cff2",
+          "sha256": "e77d9dd6761f2f7e1d7061184392c0f6b55d357bae741bdbae40c9fd40da4ed1"
+        },
+        {
+          "path": "media/30-strawhatsu4-2102457077390299136.mp4",
+          "bytes": 2405499,
+          "gitBlobSha1": "38a14275188153e5b9243c8423d7ec57351ae1c3",
+          "sha256": "c314c14b219e08d8be4c4b93f6eb21e51dd8681a302f32df6822e6519199e3d8"
+        },
+        {
+          "path": "media/strict/AIMevzulari-2103255788554792960.mp4",
+          "bytes": 6693765,
+          "gitBlobSha1": "9a9c97e3e541c3b1ed88c47b35ed1762a373ca4b",
+          "sha256": "afb25ada2bd23e06e6af14a2f2955a2db8cf1e764524a11ca5272535bebd069e"
+        },
+        {
+          "path": "media/strict/AndreiProvkin-2103918099665698816.mp4",
+          "bytes": 19889528,
+          "gitBlobSha1": "0508740a7f16b70e72421ec76d2436dce8a427d3",
+          "sha256": "a876a0cddcd51506794ac06047be1e3af246457df05556722f0c56a765b86353"
+        },
+        {
+          "path": "media/strict/MengTo-2102760366745010177.mp4",
+          "bytes": 10953399,
+          "gitBlobSha1": "e997d809858c8f67d01b4380f893e9ed40d8bcff",
+          "sha256": "279f70941b797edbe8832ab8bc41800578c07a09f01e1368088b084b526cde75"
+        },
+        {
+          "path": "media/strict/Voxyz_ai-2102528357988515840.mp4",
+          "bytes": 4117844,
+          "gitBlobSha1": "c61eaf45a757a394fafa4250327022b86aa5b9c6",
+          "sha256": "29529f4e0118d7869b9334d1951d04809a0d5a222b81c15b5881ebe118819e74"
+        },
+        {
+          "path": "media/strict/addyosmani-2102433488364597251.mp4",
+          "bytes": 20741238,
+          "gitBlobSha1": "beb6ffa49aa5f3a364adc88829232d183f0fc16d",
+          "sha256": "b06198c4ba54dbd76f1e186f880f9dfb60599c24e2f8b74c6e2dd14b49929485"
+        },
+        {
+          "path": "media/strict/addyosmani-2102980713603887104.mp4",
+          "bytes": 4675012,
+          "gitBlobSha1": "1d4faa5afe5aa538aa7865d9948ae7c2dc7a510c",
+          "sha256": "1eea6ce199c2e07e6cf68ec5755524006917649f3ed2c5a4d2c0546ff9fd6322"
+        },
+        {
+          "path": "media/strict/akakuma0219-2103820663006109696.mp4",
+          "bytes": 11106600,
+          "gitBlobSha1": "ae29938fba9dd0b33f8b508b6728d02b94443ca2",
+          "sha256": "013d63ba0fbccfb8629dea853041fcc76dce5f78ff8bb5223f51abc0725d6c6f"
+        },
+        {
+          "path": "media/strict/akiy_8-2103433334097686528.mp4",
+          "bytes": 3682979,
+          "gitBlobSha1": "2321b1ee1d7c570607b017c1838660daba733787",
+          "sha256": "1fa50d3eeb9d1e78ec738ba1a7f86eeae4ddde7c4798ab457f1dfc39801a38e7"
+        },
+        {
+          "path": "media/strict/chetanankola-2103003207203213312.mp4",
+          "bytes": 7812416,
+          "gitBlobSha1": "1bd73c9486a2beab77d3745f33e7c014b774d053",
+          "sha256": "ae9ef66dbd86597b40369858402dab5dafb3781b13ebbadb48255b2742360087"
+        },
+        {
+          "path": "media/strict/jurlycat-2102645585169764352.mp4",
+          "bytes": 12161258,
+          "gitBlobSha1": "9472f12eb65dd31c502f7cd875b3f606dbe6f54b",
+          "sha256": "c5bfa1c7c1c96790cf8b76fa4b335995b3de220ba017b6f6b610ce6694600679"
+        },
+        {
+          "path": "media/strict/leo_xiaolei-2102724181070839808.mp4",
+          "bytes": 4704813,
+          "gitBlobSha1": "27a919ada4c63a9a6eda35219414a1179d8ab2b9",
+          "sha256": "0451affa3f3b8a1f6fd6e9c8195bd5c3cd56304be65a93f0112040cdc1ce7265"
+        },
+        {
+          "path": "media/strict/liebert_2026-2103494270854557696.mp4",
+          "bytes": 4961566,
+          "gitBlobSha1": "56450d47230599dcfe8dfc9240e71cda976c7301",
+          "sha256": "41f5872b1cc0c055751c85720d95f0f50626647c25330eb00fc6a0d2c7e29d21"
+        },
+        {
+          "path": "media/strict/samuel_spitz-2103292714066587649.mp4",
+          "bytes": 3326292,
+          "gitBlobSha1": "7cc601e2605745b1bb5765d91b731a52c6c35ac3",
+          "sha256": "2acaa1092a7948a279a3ef82f33cf379614fb70e22bea7aeb5099399da703976"
+        },
+        {
+          "path": "media/strict/techartist_-2104185406363455488.mp4",
+          "bytes": 1860703,
+          "gitBlobSha1": "270a7d668b6c9aa1d6ac22640a80396683e8199f",
+          "sha256": "b564fcf031e2cd04be7cc2947f36b25a3fc7d9fc91db0d52613a523c4a308f67"
+        },
+        {
+          "path": "media/strict/twoclipping-2103272964967804928.mp4",
+          "bytes": 777183,
+          "gitBlobSha1": "18a88dac99b6545e396c21f999d4f2ffa8aad684",
+          "sha256": "02f4145dc0b3afb187b6ebfab39760d3231746647f91678287102f19ee46d8c0"
+        },
+        {
+          "path": "media/strict/victormustar-2102707356932993024.mp4",
+          "bytes": 801804,
+          "gitBlobSha1": "a9c286330550464180f00bac05fec0bdd4570efe",
+          "sha256": "6719a85d6987481cce9101569659815ac9d1819737986dc5b6970c387648f48f"
+        }
+      ],
+      "licenseFiles": [],
+      "usage": "未发现明确许可证，仅本地研究；复制发布或改编复用需作者许可",
+      "modelEvidence": [
+        "# Opus 5.5 浏览器代码动画：按观看量排序的 30 例",
+        "调研快照：2026-09-28，X Chrome 登录态。仅收录作者明确把作品归于 **Claude Opus 5.5**，且原帖、作者回复或源码能确认 **JavaScript / HTML / Canvas / SVG / WebGL / Three.js / p5.js / Remotion** 动画的帖子。观看数是各帖浏览时的快照，不代表独立观众、视频播放数或质量评分。模型归属依作者自述；仅核验可见文字和部分公开源码，未独立重跑全部工程。",
+        "| 3 | [关于 Claude 的手绘叙事短片](https://x.com/kevin_t_ngo/status/2102437977435893771) | @kevin_t_ngo | 635,000 | 约 6,052 | JavaScript |",
+        "- **动画与技术：** 浏览器中实时运行的第三人称荡蛛丝游戏，含摆荡、跑墙、俯冲和城市漫游。作者称这是 Opus 5.5 medium 的第三次迭代，结合 Three.js、Blender 与图像生成。",
+        "- **做法：** [仓库 README](https://github.com/xikhar/spiderbench)称，人提供反馈和参考图，Claude 编写代码、着色器、程序化城市和 Blender 脚本生成的模型/动画，另使用生成纹理。游戏以 Three.js/WebGL2 渲染，运动由自定义物理和动画状态机驱动；[前一迭代的作者回复](https://x.com/xikhar/status/2104100443542761541)提到先改善角色装束、动画、模型和玩法，再继续城市改造。仓库明确把它定位为非商业技术基准/粉丝项目，不是正式游戏。",
+        "### 3. 关于 Claude 的手绘叙事短片 — @kevin_t_ngo",
+        "- **动画与技术：** 镇上的人不断向 Claude 提需求，一位女孩却问它喜欢什么。作者称 Opus 5.5 用 JavaScript 画出每一帧；没有说明更具体的库。",
+        "- **动画与技术：** 可玩的日本樱花山谷 3D 场景：船只逆流、天气与昼夜循环、水面反射、人物及建筑。作者明确称使用 Opus 5.5 与 Three.js，并给出[在线场景](https://valley.mengto.here.now)。",
+        "- **动画与技术：** Addy Osmani 用一段骑自行车的鹈鹕 3D 动画庆祝 Opus 5.5 发布，原帖明确写出 Three.js。",
+        "- **动画与技术：** 3D 建筑依次从初始线条、体量、细节变成完工住宅。作者称 Claude Opus 5.5 使用 Three.js 和 TSL。",
+        "- **动画与技术：** 可交互的 Three.js 场景，提供沿原文推进、带朗读的 28 幕导览。作者称用 Opus 5.5 对旧版本反复打磨，还让模型寻找免费 3D 模型，减少从零建模。",
+        "- **动画与技术：** 40 秒浏览器工作原理讲解动画；作者明确说 Opus 5.5 用 JavaScript 绘制了每一帧。"
+      ],
+      "missing": []
+    },
+    {
+      "repo": "guanmo-ai/awesome-ai-motion",
+      "id": "guanmo-ai--awesome-ai-motion",
+      "status": "archived",
+      "commit": "82cbf11f3da3a2e0ebf1c78957c469fb1a3776e6",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/guanmo-ai--awesome-ai-motion",
+      "scope": "图库索引与生成/检索源码快照（23文件）；保留案例JSON、README、许可、画廊代码及scripts，不含案例图片、字体和逐例衍生文档",
+      "files": 23,
+      "bytes": 2964944,
+      "media": [],
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "usage": "按原许可及第三方素材声明分别核实复用范围",
+      "modelEvidence": [
+        "<td width=\"50%\" height=\"225\" align=\"center\" valign=\"middle\"><a href=\"https://guanmo-ai.github.io/awesome-ai-motion/#case-2102514581684052169\"><img src=\"assets/covers/2102514581684052169.jpg\" width=\"400\" alt=\"Opus 视觉设计测试\"></a></td>",
+        "<td width=\"50%\" valign=\"top\"><strong>Opus 视觉设计测试</strong><br><sub><a href=\"https://x.com/other__reality\">@other__reality</a> · 短动效</sub><br><sub>2:37 · 收藏 4,192 · 资料待完善</sub><br><a href=\"https://guanmo-ai.github.io/awesome-ai-motion/#case-2102514581684052169\">▶ 播放</a> · <a href=\"https://x.com/other__reality/status/2102514581684052169\">原帖</a><br><a href=\"https://github.com/JohnHeibel/PDoomVideo\">查看源码 ↗</a></td>",
+        "<td width=\"50%\" height=\"225\" align=\"center\" valign=\"middle\"><a href=\"https://guanmo-ai.github.io/awesome-ai-motion/#case-2102801274173587569\"><img src=\"assets/covers/2102801274173587569.jpg\" width=\"400\" alt=\"Claude Pop 混合制作 MV\"></a></td>",
+        "<td width=\"50%\" valign=\"top\"><strong>Claude Pop 混合制作 MV</strong><br><sub><a href=\"https://x.com/donaldjewkes\">@donaldjewkes</a> · 音乐与歌词</sub><br><sub>2:22 · 收藏 8,096</sub><br><a href=\"https://guanmo-ai.github.io/awesome-ai-motion/#case-2102801274173587569\">▶ 播放</a> · <a href=\"https://x.com/donaldjewkes/status/2102801274173587569\">原帖</a></td>",
+        "<td width=\"50%\" height=\"225\" align=\"center\" valign=\"middle\"><a href=\"https://guanmo-ai.github.io/awesome-ai-motion/#case-2102801274173587569\"><img src=\"assets/covers/2102801274173587569.jpg\" width=\"400\" alt=\"Claude Pop 混合制作 MV\"></a></td>",
+        "<td width=\"50%\" valign=\"top\"><strong>Claude Pop 混合制作 MV</strong><br><sub><a href=\"https://x.com/donaldjewkes\">@donaldjewkes</a> · 音乐与歌词</sub><br><sub>2:22 · 收藏 8,096</sub><br><a href=\"https://guanmo-ai.github.io/awesome-ai-motion/#case-2102801274173587569\">▶ 播放</a> · <a href=\"https://x.com/donaldjewkes/status/2102801274173587569\">原帖</a></td>"
+      ],
+      "missing": []
+    }
+  ]
+}

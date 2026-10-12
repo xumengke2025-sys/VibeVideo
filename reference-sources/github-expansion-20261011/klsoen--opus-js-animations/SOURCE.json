@@ -1,0 +1,205 @@
+{
+  "repo": "klsoen/opus-js-animations",
+  "repository": "https://github.com/klsoen/opus-js-animations",
+  "commit": "be8d5792ffff563c9dc62933bbe5627ac41a89e0",
+  "commitDate": null,
+  "snapshotUrl": "https://codeload.github.com/klsoen/opus-js-animations/zip/be8d5792ffff563c9dc62933bbe5627ac41a89e0",
+  "archiveSha256": "fdf36be8ad4334b46ce7d064d0c6392fa29f585c4558678699691fc518995cff",
+  "checked": "2026-10-11",
+  "upstreamLicense": null,
+  "licenseFiles": [
+    "LICENSE"
+  ],
+  "usage": "按原许可和第三方素材声明分别核实复用范围",
+  "modelEvidence": [
+    "# opus-js-animations",
+    "**Claude Opus 5.5 directs and renders films in JavaScript: from a spoken idea to a frame-exact MP4.**",
+    "A skill and plugin for [Claude Code](https://claude.com/claude-code) that works like a film director:",
+    "<p align=\"center\"><sub>Opening seconds of <i>Shaml</i> (a paper-lightbox scene) and <i>The Script of Me</i> (an \"ingredients\" reel for a journal page). Every frame is Canvas 2D, written by Opus 5.5.</sub></p>",
+    "## Why Opus 5.5",
+    "Claude Opus 5.5 is a big step up at generating JavaScript animation. It can hold a whole film in its head and write it as one coherent program:",
+    "Then it reads its own frames and fixes what it sees. Earlier models could make a bouncing logo; Opus 5.5 can make the film.",
+    "**As a Claude Code plugin**, inside Claude Code:",
+    "/plugin marketplace add klsoen/opus-js-animations",
+    "/plugin install opus-js-animations@opus-js-animations",
+    "git clone https://github.com/klsoen/opus-js-animations",
+    "cp -r opus-js-animations/skills/opus-js-animations ~/.claude/skills/"
+  ],
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "bytes": 880,
+      "sha256": "865dfd7c7b1fb867965f45c5c80a491d778489f5be5beb8964ec6897b16c2bed"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 766,
+      "sha256": "e6a7d97c3cfe8fed0d386e2ae0059f2aad3f3075f14e183ff9b5e7d2809a47f9"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 75,
+      "sha256": "eb6343d3d3d53f627b5540a56ca28cdbc7d7a90560810ead136834625dae35dd"
+    },
+    {
+      "path": "docs/script-of-me-opening.gif",
+      "bytes": 3863357,
+      "sha256": "da76f7605cf8a05c4b7323b29876242a30d97bb8dc2d82676ee6f08d29624d02"
+    },
+    {
+      "path": "docs/shaml-opening-2.8s.gif",
+      "bytes": 3485817,
+      "sha256": "c3934a8857915f38b300e2e1e33797ebe0d413fde8b7c75ae178f4162d664ecf"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1063,
+      "sha256": "89cf1ba7c5b1d790181293b893030795242b5f2189ddf2e878f5be2eead2272c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8361,
+      "sha256": "41659f46921656760221a127d497525ffabe4e541cbb9353904ec8b1841e6fda"
+    },
+    {
+      "path": "skills/opus-js-animations/assets/film-template.html",
+      "bytes": 14272,
+      "sha256": "d5b779f3066805500ecc99c8ca0b6ae8e3fc0e12516110d62a80e84a32ca155f"
+    },
+    {
+      "path": "skills/opus-js-animations/assets/watermark.js",
+      "bytes": 6384,
+      "sha256": "0a9e93650b318a73a2a7467ceb321f4c3caeeffdb5309af0d803396059dc16fe"
+    },
+    {
+      "path": "skills/opus-js-animations/references/audio.md",
+      "bytes": 14437,
+      "sha256": "d74aa0ff2e52150f8c9f650eae100714e2c810640e65a87b669ded8099cb994f"
+    },
+    {
+      "path": "skills/opus-js-animations/references/delivery.md",
+      "bytes": 11746,
+      "sha256": "b98858c2598fc37da032d321d6ad84fee3346a22e879a8cb01e9284ecaaeb00b"
+    },
+    {
+      "path": "skills/opus-js-animations/references/design.md",
+      "bytes": 16229,
+      "sha256": "228bcd34e376faea52ef527f7ca8ecacb4971a3886491c8849fcbe0811663af1"
+    },
+    {
+      "path": "skills/opus-js-animations/references/directing.md",
+      "bytes": 10460,
+      "sha256": "6b5567f49473e6a4afe8b06b2592e0275b3af8e254a0e096cb1236494d6430fe"
+    },
+    {
+      "path": "skills/opus-js-animations/references/examples.md",
+      "bytes": 4044,
+      "sha256": "cef61cd3cef3a23f4b30799b377ee569e598002c653cb92a2974e54dd2b4c565"
+    },
+    {
+      "path": "skills/opus-js-animations/references/painting.md",
+      "bytes": 11091,
+      "sha256": "a92ea5d1d3a7f6b90ddeaff2db98132d7cc233167ae4630a1d97f68855821d28"
+    },
+    {
+      "path": "skills/opus-js-animations/references/pitfalls.md",
+      "bytes": 10465,
+      "sha256": "d77ea983152d796c4fefbdb97400734a80562a9639647ffd502d0315574754d9"
+    },
+    {
+      "path": "skills/opus-js-animations/references/production.md",
+      "bytes": 7108,
+      "sha256": "b0cd468190a44e9292524dbad72fca48608e87ffd63909e92448d3184bd0b5c1"
+    },
+    {
+      "path": "skills/opus-js-animations/references/quoted-text.md",
+      "bytes": 2514,
+      "sha256": "bc005b20a0c927a4d1eef2ef37d4eeed3eb4139141ba8669431e163b2d7d2e8a"
+    },
+    {
+      "path": "skills/opus-js-animations/references/shaders.md",
+      "bytes": 27451,
+      "sha256": "9295a8614a75ba355c52ea2121a1f976985c4640d021cbd7ea78fecda7319021"
+    },
+    {
+      "path": "skills/opus-js-animations/references/styles.md",
+      "bytes": 15791,
+      "sha256": "3e30ec11a3c117ea7ade358afe52ad3cbb881790a784f8cafd634335b1c1dcc2"
+    },
+    {
+      "path": "skills/opus-js-animations/references/threejs.md",
+      "bytes": 18205,
+      "sha256": "cb3c4fa06a4f3b0678631fe76f0ed09fc3e34e6da18574e5f2074d61942ec0be"
+    },
+    {
+      "path": "skills/opus-js-animations/references/tiles-and-flocks.md",
+      "bytes": 10977,
+      "sha256": "fe6a97549b4cc8a383a474586126ab088a5ecadfc5443b5ad5acbf9642b9a33d"
+    },
+    {
+      "path": "skills/opus-js-animations/scripts/align_audio.py",
+      "bytes": 3194,
+      "sha256": "107804dff15d2d722888b3601f08ff27692645b9cb4ca72f91dca5540a647166"
+    },
+    {
+      "path": "skills/opus-js-animations/scripts/analyze_audio.py",
+      "bytes": 7488,
+      "sha256": "e45af7ea540403e1038b25bd6b8b701bcb7d39822d462a7030041c53c6a712e3"
+    },
+    {
+      "path": "skills/opus-js-animations/scripts/embed_audio.py",
+      "bytes": 715,
+      "sha256": "604357a0bb53337f00e2a8c265b2bd6e17dc2cc0fc7973459494a6394ac1c37a"
+    },
+    {
+      "path": "skills/opus-js-animations/scripts/get_audio.py",
+      "bytes": 8079,
+      "sha256": "7fd6f13c4dfb6991fed56334a4709cea63c4716bf813028a53d2302ab9cc29b6"
+    },
+    {
+      "path": "skills/opus-js-animations/scripts/lib.mjs",
+      "bytes": 6849,
+      "sha256": "5106b2e5df5fe22a168ee840a4966750a887f331e464336f55c0c4681adb750c"
+    },
+    {
+      "path": "skills/opus-js-animations/scripts/page_audio.mjs",
+      "bytes": 1682,
+      "sha256": "0a14811c939a54eb44a64424b705fe2a713ab9a40e9eb01849126def34d40e22"
+    },
+    {
+      "path": "skills/opus-js-animations/scripts/paint.py",
+      "bytes": 18481,
+      "sha256": "d48d326a415667c7d04c6029c6621ef76903dbd3d57e88a744636987eecbea9f"
+    },
+    {
+      "path": "skills/opus-js-animations/scripts/render.mjs",
+      "bytes": 14164,
+      "sha256": "2b18a95e14921d8463194ec9942b7c01e66256ccce5eb7d7cd46c538597805cf"
+    },
+    {
+      "path": "skills/opus-js-animations/scripts/stills.mjs",
+      "bytes": 3811,
+      "sha256": "bbd2a42c7343c681e63106ea6daf83dec3cc73dcff1c2fed37db1702a5b965b7"
+    },
+    {
+      "path": "skills/opus-js-animations/scripts/verify.mjs",
+      "bytes": 1820,
+      "sha256": "6ab7bcac5dbbcc6bc623a8de85f5476db6fbab4beea3688cd161b06fd41e71c1"
+    },
+    {
+      "path": "skills/opus-js-animations/scripts/voiceover.py",
+      "bytes": 10873,
+      "sha256": "c084b647d05c608d1f9faed2ea4c9d9dee2d90c4e8c7c44cfe505f124b202db1"
+    },
+    {
+      "path": "skills/opus-js-animations/SKILL.md",
+      "bytes": 13299,
+      "sha256": "1c8b06cb4fd93268813586b4a36e3cbfa0698323ddeeaf4f01358cbec7e2184d"
+    }
+  ],
+  "verification": {
+    "snapshotExtracted": true,
+    "sourceExecuted": false,
+    "avReviewed": false
+  }
+}

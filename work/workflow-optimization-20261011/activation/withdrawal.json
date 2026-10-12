@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-11",
+  "status": "withdrawn_at_user_request",
+  "active_project_model_configuration": false,
+  "reason": "User canceled dual-model configuration and requested all other project improvements remain implemented.",
+  "archived_files": [
+    {"project_path": ".codex/config.toml", "archive_path": "activation/withdrawn-config/.codex/config.toml"},
+    {"project_path": ".codex/agents/video-director.toml", "archive_path": "activation/withdrawn-config/.codex/agents/video-director.toml"},
+    {"project_path": ".codex/agents/video-reviewer.toml", "archive_path": "activation/withdrawn-config/.codex/agents/video-reviewer.toml"}
+  ],
+  "role_model_policy": "Inherit the user's current model and reasoning settings; do not follow historical model dispatch instructions.",
+  "preserved": ["portrait video format", "reference transfer", "creative failure conditions", "key poses and shared anchors", "semantic transitions", "role handoff", "independent all-frame and full-audio review", "two repair round limit", "review evidence consistency checker"],
+  "global_configuration_modified": false,
+  "new_video_generated": false,
+  "historical_activation_record": "activation/activation.json",
+  "effective_configuration_check": "activation/effective-config-after-withdrawal.json",
+  "effective_project_model_and_agents": {},
+  "effective_user_default_at_check": {"model": "gpt-6-astra", "reasoning_effort": "high"},
+  "picker_catalog_check": "Standalone local app-server returned multiple non-hidden models and reasoning levels; no model invocation or desktop UI reproduction.",
+  "user_confirmation": "After withdrawal the user confirmed model switching works again.",
+  "causal_limit": "Restoration followed withdrawal; the precise error and failure mechanism were not captured."
+}

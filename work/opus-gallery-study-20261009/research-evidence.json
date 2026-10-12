@@ -1,0 +1,275 @@
+{
+  "checked_date": "2026-10-09",
+  "objective": "Study the public gallery, migrate reusable mechanisms into vibe-video and verify a local Codex implementation path.",
+  "status": "complete",
+  "upstream": {
+    "repository": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+    "commit": "756290289742535eb0ac3817548f152e9759cc70",
+    "entries": 513,
+    "partial_prompts": 234,
+    "unique_raw_prompt_texts": 459,
+    "technology_tags_describe": "Skillry remakes, not verified original engines"
+  },
+  "skill": {
+    "path": "D:\\Codex\\skills\\vibe-video",
+    "version": "0.5.0",
+    "format_validation": "quick_validate.py passed in the earlier task execution",
+    "sha256": {
+      "SKILL.md": "a482d17b2d464a4cb77cd454768853711d13d5e1da8d7237735196f25b06b886",
+      "agents/openai.yaml": "9f210f2cf5a3bdfc27373ff62afa23b30c1781e6a48cfe9ea481e9603c9188c9",
+      "scripts/opus_gallery.py": "4d8c64507374ac570ccfc6d3c4a37b1d8d0b2f316a8e2a58fd60e76854a5a5ad",
+      "assets/opus-gallery.json": "b7c2cf81f03a18a0ead07323545f16fba4cf7d4e5ec84f43c33322155b09500f",
+      "assets/opus-gallery-LICENSE.txt": "953617edacce774a82a2aabf26964c6ed6f854f44e7c6777a121466ea2b703ca",
+      "assets/continuity.mjs": "06a907ffc60ee51bf44be92e7352cae51aa7ffa2bbb00e5be1d0c9acab593b24",
+      "references/opus-gallery.md": "7e0756e130e82343b143f0bc65cc57956a7d698fd4a1ebf25c35186872e61aec",
+      "references/verified-experience.md": "ec9ed036d5e36e93e41d2c369d8ea3c31746e747a33bf79314b0b2e8dd878746",
+      "references/sources.md": "83ee19aae90612f96e89f72be8eeca32d455d452dd06c6ab468996027e4e5b27"
+    }
+  },
+  "gallery_verification": {
+    "status": "passed",
+    "entries_preserved": 513,
+    "all_prompt_files_correspond": true,
+    "checked": [
+      "full data fidelity",
+      "bounded category/query/AND tag search",
+      "partial/full filtering",
+      "single prompt equality",
+      "pinned source URLs",
+      "import roundtrip",
+      "duplicate slug rejection"
+    ]
+  },
+  "motion_verification": {
+    "status": "passed",
+    "numerical_spring_max_error": 5.684341886080801e-13,
+    "checked": [
+      "underdamped/critical/overdamped against RK4",
+      "multiple target changes",
+      "velocity continuity at retarget",
+      "repeat out-of-order values",
+      "constant logarithmic zoom speed",
+      "point correspondence and no mutation",
+      "invalid topology/event order rejected"
+    ]
+  },
+  "source_media_observation": [
+    {
+      "id": "twoclipping-original",
+      "video_sha256": "8b5f37f318f069454dcdbd451c969497402e72dcf6c2ee2845cbd4b504f1bbe9",
+      "media_report": "evidence/twoclipping-original/media-evidence.json",
+      "duration": 14.0,
+      "fps": 60.0,
+      "audio_streams": 1,
+      "full_decode": "passed",
+      "inspected_sparse_times_seconds": [
+        0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0
+      ],
+      "contact_sheet_inspected": "evidence/twoclipping-original/contact-sheet.jpg"
+    },
+    {
+      "id": "twoclipping-remake",
+      "video_sha256": "944b839c668301d521c5005f399b6822005993857d2e6086db4994913b7dc539",
+      "media_report": "evidence/twoclipping-remake/media-evidence.json",
+      "duration": 14.066667,
+      "fps": 30.0,
+      "audio_streams": 0,
+      "full_decode": "passed",
+      "inspected_sparse_times_seconds": [
+        0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0
+      ],
+      "contact_sheet_inspected": "evidence/twoclipping-remake/contact-sheet.jpg"
+    },
+    {
+      "id": "koldo2k-original",
+      "video_sha256": "c8527deb0faa8f58801e801f8d5da610f333d6e983dddb0247adf7bc36106a2f",
+      "media_report": "evidence/koldo2k-original/media-evidence.json",
+      "duration": 19.966667,
+      "fps": 30.0,
+      "audio_streams": 1,
+      "full_decode": "passed",
+      "inspected_sparse_times_seconds": [
+        0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0,
+        16.0,
+        18.0
+      ],
+      "contact_sheet_inspected": "evidence/koldo2k-original/contact-sheet.jpg"
+    },
+    {
+      "id": "ror-fly-original",
+      "video_sha256": "ccaed62515000b49f9ba080c1180c67ae19d588ef0c566f293d44e2bafe14769",
+      "media_report": "evidence/ror-fly-original/media-evidence.json",
+      "duration": 30.0,
+      "fps": 30.0,
+      "audio_streams": 0,
+      "full_decode": "passed",
+      "inspected_sparse_times_seconds": [
+        0,
+        3.0,
+        6.0,
+        9.0,
+        12.0,
+        15.0,
+        18.0,
+        21.0,
+        24.0,
+        27.0
+      ],
+      "contact_sheet_inspected": "evidence/ror-fly-original/contact-sheet.jpg"
+    }
+  ],
+  "source_continuous_windows": [
+    {
+      "id": "ui-handoff",
+      "video_sha256": "8b5f37f318f069454dcdbd451c969497402e72dcf6c2ee2845cbd4b504f1bbe9",
+      "inspected_window_frames_inclusive": [
+        180,
+        240
+      ],
+      "inspected_atlases": [
+        "evidence/ui-handoff/atlas-000.jpg",
+        "evidence/ui-handoff/atlas-001.jpg",
+        "evidence/ui-handoff/atlas-002.jpg"
+      ],
+      "coverage": "All thumbnail states in the listed continuous windows were visually inspected."
+    },
+    {
+      "id": "portal-handoff",
+      "video_sha256": "c8527deb0faa8f58801e801f8d5da610f333d6e983dddb0247adf7bc36106a2f",
+      "inspected_window_frames_inclusive": [
+        120,
+        165
+      ],
+      "inspected_atlases": [
+        "evidence/portal-handoff/atlas-000.jpg",
+        "evidence/portal-handoff/atlas-001.jpg"
+      ],
+      "coverage": "All thumbnail states in the listed continuous windows were visually inspected."
+    },
+    {
+      "id": "portal-crossing",
+      "video_sha256": "c8527deb0faa8f58801e801f8d5da610f333d6e983dddb0247adf7bc36106a2f",
+      "inspected_window_frames_inclusive": [
+        210,
+        240
+      ],
+      "inspected_atlases": [
+        "evidence/portal-crossing/atlas-000.jpg",
+        "evidence/portal-crossing/atlas-001.jpg"
+      ],
+      "coverage": "All thumbnail states in the listed continuous windows were visually inspected."
+    },
+    {
+      "id": "portal-exit",
+      "video_sha256": "c8527deb0faa8f58801e801f8d5da610f333d6e983dddb0247adf7bc36106a2f",
+      "inspected_window_frames_inclusive": [
+        270,
+        309
+      ],
+      "inspected_atlases": [
+        "evidence/portal-exit/atlas-000.jpg",
+        "evidence/portal-exit/atlas-001.jpg"
+      ],
+      "coverage": "All thumbnail states in the listed continuous windows were visually inspected."
+    }
+  ],
+  "final_demo": {
+    "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\demo\\out\\continuity-study.mp4",
+    "sha256": "b99871da8b1973622af17ca047ea5f85844dcca8ce468d1df972ff1e868311c1",
+    "media_report": "demo/out/evidence/media-evidence.json",
+    "frame_report": "demo/out/frame-audit-final/frame-audit.json",
+    "render_report": "demo/out/render-check.json",
+    "source_sha256": {
+      "index.html": "b199e2f6819b9afcc2ca31c1a1a508d329688cc8cb3deac0bfde1c40b1dda10a",
+      "continuity.mjs": "06a907ffc60ee51bf44be92e7352cae51aa7ffa2bbb00e5be1d0c9acab593b24",
+      "render.mjs": "f1f5ca624efde2cd0281cf7224b0abdf1242118caa7dc48455845fb64bc073f3"
+    },
+    "duration_seconds": 8.0,
+    "size": [
+      1280,
+      720
+    ],
+    "fps": 30.0,
+    "frames": 240,
+    "audio": false,
+    "full_decode": "passed",
+    "review": {
+      "method": "Agent visual inspection of continuous-frame contact sheets and selected full-size frames",
+      "inspected_atlases": [
+        "demo/out/frame-audit-final/atlas-000.jpg",
+        "demo/out/frame-audit-final/atlas-001.jpg",
+        "demo/out/frame-audit-final/atlas-002.jpg",
+        "demo/out/frame-audit-final/atlas-003.jpg",
+        "demo/out/frame-audit-final/atlas-004.jpg",
+        "demo/out/frame-audit-final/atlas-005.jpg",
+        "demo/out/frame-audit-final/atlas-006.jpg",
+        "demo/out/frame-audit-final/atlas-007.jpg"
+      ],
+      "thumbnail_frame_coverage_inclusive": [
+        0,
+        239
+      ],
+      "full_size_frames_inspected": [
+        "demo/out/frame-audit-final/frames/frame-000173.jpg"
+      ],
+      "observations": [
+        "One container persists through button, loading, slider, graph, check and button.",
+        "One point-corresponded line persists through slider, graph and check.",
+        "The final 5.767-second frame keeps both curve endpoints inside the rounded mask.",
+        "First and final contact-sheet states agree; both ends hold still."
+      ],
+      "repair": {
+        "issue": "Container shrink outpaced line morph; endpoints touched the rounded clipping mask.",
+        "before": "demo/out/evidence/line-clipping-before.jpg",
+        "after": "demo/out/frame-audit-final/frames/frame-000173.jpg",
+        "change": "Curve-to-check morph duration adjusted from 0.42 to 0.36 seconds."
+      },
+      "realtime_playback": false,
+      "audio_listened": false,
+      "all_full_size_frames_inspected": false,
+      "independent_reviewer": false
+    }
+  },
+  "limits": [
+    "No complete original-author animation project was obtained.",
+    "Most gallery entries were indexed or read as public text rather than watched.",
+    "No equivalent-budget cross-model comparison was performed.",
+    "Glass, physical refraction/caustics, arbitrary glyph morphing and complex 3D were not implemented in this demo.",
+    "Logarithmic zoom was numerically tested; a complete portal scene was not rendered in this demo.",
+    "Source videos were decoded and inspected as sampled or continuous frame images, without realtime playback or listening.",
+    "The final demo validates specific continuity mechanisms and export, not parity with every gallery work."
+  ]
+}

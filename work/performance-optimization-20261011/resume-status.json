@@ -1,0 +1,229 @@
+{
+  "snapshot_utc": "2026-10-11T08:45:06.218266+00:00",
+  "projects": [
+    {
+      "project": "matcha-morph-20261011",
+      "session_file": "rollout-2026-10-11T16-25-41-01a1281a-0df8-7473-a697-489f61e2dccf_01a12a11-567b-7ae3-8547-c1836ff393dc.jsonl",
+      "file_mtime_utc": "2026-10-11T08:41:17.871260+00:00",
+      "last_record": "2026-10-11T08:41:17.872Z",
+      "recent_events": [
+        {
+          "time": "2026-10-11T08:25:42.489Z",
+          "kind": "task_started",
+          "tool": null,
+          "call_id": null
+        },
+        {
+          "time": "2026-10-11T08:25:44.799Z",
+          "kind": "message",
+          "role": "user",
+          "channel": null,
+          "text": "继续执行，先读取本项目的 `PERFORMANCE-HANDOFF.md` 和最新 `CHECKPOINT.md`，按更新后的流程续接"
+        },
+        {
+          "time": "2026-10-11T08:35:27.155Z",
+          "kind": "message",
+          "role": "assistant",
+          "channel": null,
+          "text": "我先读取本项目的交接、最新检查点和审核记录，沿用已有视频与帧证据，按更新后的流程续接。"
+        },
+        {
+          "time": "2026-10-11T08:35:28.208Z",
+          "kind": "function_call",
+          "tool": "glob",
+          "call_id": "call_xb3p9Kx4J7P59MsoQZlvCuYG"
+        },
+        {
+          "time": "2026-10-11T08:35:30.675Z",
+          "kind": "function_call_output",
+          "tool": null,
+          "call_id": "call_xb3p9Kx4J7P59MsoQZlvCuYG"
+        },
+        {
+          "time": "2026-10-11T08:41:17.158Z",
+          "kind": "function_call",
+          "tool": "inspect_local_file",
+          "call_id": "call_7845320fb98e497a8372c5e0f4e5f425"
+        },
+        {
+          "time": "2026-10-11T08:41:17.870Z",
+          "kind": "function_call_output",
+          "tool": null,
+          "call_id": "call_7845320fb98e497a8372c5e0f4e5f425"
+        }
+      ],
+      "last_usage": {
+        "time": "2026-10-11T08:41:17.872Z",
+        "usage": {
+          "input_tokens": 119429,
+          "cached_input_tokens": 118528,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 111,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 119540
+        }
+      },
+      "selected_model": {
+        "model": "gpt-6.1-sol",
+        "effort": "high"
+      },
+      "model": {
+        "model": "gpt-6.1-sol",
+        "effort": "high"
+      }
+    },
+    {
+      "project": "wastewater-isometric-20261011",
+      "session_file": "rollout-2026-10-11T16-25-17-01a1294e-2c8b-78b0-9771-95b2e949020e_01a12a10-f928-7080-bf34-ea7cc4d711af.jsonl",
+      "file_mtime_utc": "2026-10-11T08:41:53.177858+00:00",
+      "last_record": "2026-10-11T08:41:53.178Z",
+      "recent_events": [
+        {
+          "time": "2026-10-11T08:25:18.578Z",
+          "kind": "task_started",
+          "tool": null,
+          "call_id": null
+        },
+        {
+          "time": "2026-10-11T08:25:19.833Z",
+          "kind": "message",
+          "role": "user",
+          "channel": null,
+          "text": "继续执行，先读取本项目的 `PERFORMANCE-HANDOFF.md` 和最新 `CHECKPOINT.md`，按更新后的流程续接"
+        },
+        {
+          "time": "2026-10-11T08:35:15.799Z",
+          "kind": "message",
+          "role": "assistant",
+          "channel": null,
+          "text": "我会先读取交接文件、最新检查点和审核进度，再从未完成的位置继续，复用已有的有效证据。\n"
+        },
+        {
+          "time": "2026-10-11T08:35:16.972Z",
+          "kind": "function_call",
+          "tool": "glob",
+          "call_id": "call_0266c30c47724f719ce47bb4d1b133a6"
+        },
+        {
+          "time": "2026-10-11T08:35:17.654Z",
+          "kind": "function_call_output",
+          "tool": null,
+          "call_id": "call_0266c30c47724f719ce47bb4d1b133a6"
+        },
+        {
+          "time": "2026-10-11T08:38:37.730Z",
+          "kind": "function_call",
+          "tool": "inspect_local_file",
+          "call_id": "call_b6f1301666ce46569914da4bf62c19a8"
+        },
+        {
+          "time": "2026-10-11T08:38:38.999Z",
+          "kind": "function_call_output",
+          "tool": null,
+          "call_id": "call_b6f1301666ce46569914da4bf62c19a8"
+        },
+        {
+          "time": "2026-10-11T08:41:52.506Z",
+          "kind": "function_call",
+          "tool": "list_agents",
+          "call_id": "call_QasQq8MEHtKVwvv9pkjU4JUp"
+        },
+        {
+          "time": "2026-10-11T08:41:53.175Z",
+          "kind": "function_call_output",
+          "tool": null,
+          "call_id": "call_QasQq8MEHtKVwvv9pkjU4JUp"
+        }
+      ],
+      "last_usage": {
+        "time": "2026-10-11T08:41:53.178Z",
+        "usage": {
+          "input_tokens": 114895,
+          "cached_input_tokens": 111872,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 92,
+          "reasoning_output_tokens": 75,
+          "total_tokens": 114987
+        }
+      },
+      "selected_model": {
+        "model": "gpt-6.1-sol",
+        "effort": "high"
+      },
+      "model": {
+        "model": "gpt-6.1-sol",
+        "effort": "high"
+      }
+    },
+    {
+      "project": "napoleon-egypt-ink-20261009",
+      "session_file": "rollout-2026-10-11T13-03-21-01a12958-186a-7ca3-8186-e232c238898d.jsonl",
+      "file_mtime_utc": "2026-10-11T05:03:23.216376+00:00",
+      "last_record": "2026-10-11T08:24:59.984Z",
+      "recent_events": [
+        {
+          "time": "2026-10-11T07:29:23.811Z",
+          "kind": "custom_tool_call",
+          "tool": "exec",
+          "call_id": "call_5ff725c8f1af45b88c02e485bbfdd2ed"
+        },
+        {
+          "time": "2026-10-11T07:29:47.623Z",
+          "kind": "custom_tool_call_output",
+          "tool": null,
+          "call_id": "call_5ff725c8f1af45b88c02e485bbfdd2ed"
+        },
+        {
+          "time": "2026-10-11T07:40:25.763Z",
+          "kind": "custom_tool_call",
+          "tool": "exec",
+          "call_id": "call_9b9a70218473407da7a0793e62a4a45a"
+        },
+        {
+          "time": "2026-10-11T07:40:28.325Z",
+          "kind": "custom_tool_call_output",
+          "tool": null,
+          "call_id": "call_9b9a70218473407da7a0793e62a4a45a"
+        },
+        {
+          "time": "2026-10-11T07:59:15.219Z",
+          "kind": "turn_aborted",
+          "tool": null,
+          "call_id": null
+        },
+        {
+          "time": "2026-10-11T08:24:59.866Z",
+          "kind": "task_started",
+          "tool": null,
+          "call_id": null
+        },
+        {
+          "time": "2026-10-11T08:24:59.981Z",
+          "kind": "message",
+          "role": "user",
+          "channel": null,
+          "text": "继续执行，先读取本项目的 `PERFORMANCE-HANDOFF.md` 和最新 `CHECKPOINT.md`，按更新后的流程续接  \n"
+        }
+      ],
+      "last_usage": {
+        "time": "2026-10-11T07:40:28.327Z",
+        "usage": {
+          "input_tokens": 115199,
+          "cached_input_tokens": 113280,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 870,
+          "reasoning_output_tokens": 37,
+          "total_tokens": 116069
+        }
+      },
+      "selected_model": {
+        "model": "gpt-6-astra",
+        "effort": "medium"
+      },
+      "model": {
+        "model": "gpt-6-astra",
+        "effort": "medium"
+      }
+    }
+  ]
+}

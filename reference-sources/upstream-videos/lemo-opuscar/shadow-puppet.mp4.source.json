@@ -1,0 +1,33 @@
+{
+  "id": "lemo-opuscar/shadow-puppet",
+  "packageId": "lemo-opuscar",
+  "styleId": "shadow-puppet",
+  "title": "Lemo / 皮影戏",
+  "filename": "shadow-puppet.mp4",
+  "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/shadow-puppet.mp4",
+  "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+  "releaseTag": "films",
+  "releaseId": 397205472,
+  "assetId": 590522230,
+  "assetUpdated": "2026-09-26T11:19:20Z",
+  "expectedBytes": 34586806,
+  "expectedSha256": "1468ad469dafbdfcb43ee563b36a6f8f9f63acaf418054742279eaa4cce243d8",
+  "entry": null,
+  "remoteCode": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/shadow-puppet/STYLE.md",
+  "representation": "author-master",
+  "note": "作者films发布的原始高码率版本；发布附件与本地固定源码的逐像素一致性未确认",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/shadow-puppet.mp4",
+  "status": "downloaded",
+  "bytes": 34586806,
+  "sha256": "1468ad469dafbdfcb43ee563b36a6f8f9f63acaf418054742279eaa4cce243d8",
+  "verifiedGitBlob": null,
+  "metadata": {
+    "duration": 54.4,
+    "width": 1920,
+    "height": 1080,
+    "fps": "24/1",
+    "codec": "h264",
+    "audio": true
+  },
+  "downloadedAt": "2026-10-10T03:07:34.993Z"
+}

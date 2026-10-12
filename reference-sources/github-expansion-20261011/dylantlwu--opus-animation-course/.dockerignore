@@ -1,0 +1,12 @@
+**/node_modules
+**/out
+site/docs/.vitepress/cache
+site/docs/.vitepress/dist
+.git
+.claude
+TODO.md
+private
+studio/examples/*/audio/*.wav
+**/.venv
+studio/refs
+studio/breakdowns

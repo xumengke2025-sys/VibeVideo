@@ -1,0 +1,58 @@
+{
+  "kind": "read-only runtime configuration check; no thread created or model call",
+  "initialize_ok": true,
+  "effective": {
+    "model": "gpt-6.1-sol",
+    "model_reasoning_effort": "high",
+    "agents": {
+      "enabled": null,
+      "max_concurrent_threads_per_session": 2,
+      "max_depth": null,
+      "default_subagent_model": null,
+      "default_subagent_reasoning_effort": null,
+      "job_max_runtime_seconds": null,
+      "interrupt_message": null
+    }
+  },
+  "layers": [
+    {
+      "name": {
+        "type": "project",
+        "dotCodexFolder": "D:\\ai项目\\ai动画\\VibeVideo项目\\.codex"
+      },
+      "version": "sha256:97ae886d2383b8dca9e01d14bbe0caaf347b6d2776ccb6fb90757e5de12e6755",
+      "model_and_agents": {
+        "model": "gpt-6.1-sol",
+        "model_reasoning_effort": "high",
+        "agents": {
+          "max_concurrent_threads_per_session": 2
+        }
+      }
+    },
+    {
+      "name": {
+        "type": "user",
+        "file": "C:\\Users\\67236\\.codex\\config.toml",
+        "profile": null
+      },
+      "version": "sha256:4da80df1146183317dcbe8fe8bf2b3a745e1db941228931a055a4e85876d428e",
+      "model_and_agents": {
+        "model": "gpt-6-astra",
+        "model_reasoning_effort": "medium"
+      }
+    },
+    {
+      "name": {
+        "type": "system",
+        "file": "C:\\ProgramData\\OpenAI\\Codex\\config.toml"
+      },
+      "version": "sha256:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "model_and_agents": {}
+    }
+  ],
+  "returned_fields": [
+    "config",
+    "origins",
+    "layers"
+  ]
+}

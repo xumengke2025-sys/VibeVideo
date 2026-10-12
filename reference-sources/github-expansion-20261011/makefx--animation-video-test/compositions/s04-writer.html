@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s04-root { position: absolute; inset: 0; }
+        #s04-queue-head { left: 110px; top: 406px; }
+        .s04-req { left: 110px; font-size: 20px; }
+        #s04-writer { left: 540px; top: 360px; width: 520px; height: 420px; }
+        #s04-w-micro { left: 28px; top: 26px; }
+        #s04-w-name { left: 28px; top: 56px; font: 600 30px/1 var(--k-display); letter-spacing: -0.02em; color: var(--k-ink); white-space: nowrap; }
+        #s04-slot { left: 28px; top: 108px; width: 464px; height: 56px; border-radius: 9999px; background: var(--k-surface-field); box-shadow: inset 0 0 0 1.5px var(--k-line-soft); }
+        .s04-row { left: 76px; font-size: 24px; color: var(--k-ink-3); white-space: nowrap; }
+        .s04-box { left: 28px; width: 32px; height: 32px; }
+        #s04-w-foot { left: 28px; top: 372px; }
+        .s04-canvas { width: 240px; height: 210px; border-radius: 16px; background: radial-gradient(circle, var(--k-dot) 1.4px, transparent 1.6px) 0 0 / 24px 24px, var(--k-void); box-shadow: 0 0 0 1.5px var(--k-line); }
+        .s04-canvas .k-micro { position: absolute; left: 20px; top: 16px; font-size: 15px; }
+      </style>
+      <div id="s04-root" data-composition-id="s04-writer" data-width="1920" data-height="1080">
+        <div id="s04-scene" class="k-scene">
+          <div id="s04-queue-head" class="k-abs k-micro">requests</div>
+          <div id="s04-writer" class="k-panel">
+            <div id="s04-w-micro" class="k-abs k-micro">the writer · one per space</div>
+            <div id="s04-w-name" class="k-abs">space · alv/salt-harbour</div>
+            <div id="s04-slot" class="k-abs"></div>
+            <div id="s04-w-foot" class="k-abs k-micro">in order · one at a time</div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s04-scene");
+          const writer = document.getElementById("s04-writer");
+          K.chrome(scene, tl, { title: "One space, one writer", step: 2, animateStep: true });
+
+          // What the writer does with every request, in order.
+          const STEPS = ["validate", "balance · 2,000 cr ≥ 80 cr", "write · queued · 80 cr"];
+          const ROW = (i) => 196 + i * 60;
+          const rows = STEPS.map((s, i) => {
+            K.el(writer, "svg", { class: "k-abs s04-box", width: 32, height: 32, viewBox: "0 0 32 32", style: { top: ROW(i) - 2 + "px" } },
+              `<rect x="1" y="1" width="30" height="30" rx="8" fill="none" stroke="rgba(255,255,255,.24)" stroke-width="1.5"/><path d="M9 17 L14 22 L24 10" fill="none" stroke="#f5f5f4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>`);
+            const t = K.el(writer, "div", { class: "k-abs k-mono s04-row", style: { top: ROW(i) + "px" } });
+            t.textContent = s;
+            return { t, tick: writer.querySelectorAll(".s04-box path")[i] };
+          });
+          rows.forEach((r) => { const L = r.tick.getTotalLength(); r.tick.setAttribute("stroke-dasharray", `${L} ${L}`); r.tick.setAttribute("stroke-dashoffset", L); });
+
+          // Three requests at the one writer; ours is at the front.
+          const REQ = ["create_asset · video/h3-max", "create_asset · image/flux-2", "create_asset · image/frame"];
+          const QY = [460, 530, 600];
+          const reqs = REQ.map((r, i) => K.el(scene, "div", { class: "k-pill s04-req" + (i ? "" : " k-amber"), style: { top: QY[i] + "px" } }, r));
+
+          // The card the write makes: queued, nothing generated yet.
+          const card = K.card(scene, { id: "s04-card", left: 1110, top: 480, scale: 1.6, name: "harbour flight", cr: "80 cr", state: "wait" });
+          const { cx, mediaCy } = card.k, cardR = card.k.left + card.k.W;
+
+          // Two open canvases on the same space.
+          const CV = [[1590, 350], [1590, 650]];
+          const minis = CV.map(([x, y], i) => {
+            const c = K.el(scene, "div", { class: "k-abs s04-canvas", style: { left: x + "px", top: y + "px" } }, `<div class="k-micro">open canvas · ${i + 1}</div>`);
+            return K.card(c, { id: `s04-mini${i}`, left: 24, top: 50, scale: 0.8, name: "harbour flight", cr: "80 cr", state: "wait" });
+          });
+          const edges = CV.map(([x, y]) => K.edge(scene, `M${cardR} ${mediaCy} C ${cardR + 70} ${mediaCy}, ${x - 70} ${y + 105}, ${x} ${y + 105}`, { alpha: 0.35 }));
+
+          // b0: three requests queue at the writer
+          reqs.forEach((r, i) => i
+            ? tl.fromTo(r, { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.4, ease: K.ease, data: "follow" }, K.t(0) + i * 0.04)
+            : K.pop(tl, r, 0));
+          // b1: it takes one at a time: the front one goes in, the others step up
+          const WX = 540, WY = 360, SX = WX + 28 + 232, SY = WY + 108 + 28;
+          tl.fromTo(reqs[0], { x: 0, y: 0 }, { x: SX - 110 - 180, y: SY - QY[0] - 20, duration: 0.22, ease: K.easeMove, immediateRender: false }, K.t(1));
+          reqs.slice(1).forEach((r, i) => tl.to(r, { y: -70, duration: 0.2, ease: K.easeMove, data: "follow" }, K.t(1) + 0.04 + i * 0.03));
+          // b2–b4: validate, balance, write: one tick a beat
+          rows.forEach((r, i) => {
+            K.draw(tl, r.tick, 2 + i, 0.16);
+            tl.set(r.t, { color: "#f5f5f4", data: "follow" }, K.t(2 + i));
+          });
+          // b5: the card fades up, queued; the request has become it
+          K.pop(tl, card, 5);
+          tl.to(reqs[0], { opacity: 0, duration: 0.12, data: "follow" }, K.t(5));
+          // b6: the writer broadcasts the change to every open canvas
+          K.draw(tl, edges[0], 6, 0.2);
+          tl.fromTo(edges[1], { attr: { "stroke-dashoffset": edges[1].getTotalLength() } }, { attr: { "stroke-dashoffset": 0 }, duration: 0.2, ease: "power2.out", data: "follow" }, K.t(6));
+          edges[1].setAttribute("stroke-dasharray", `${edges[1].getTotalLength()} ${edges[1].getTotalLength()}`);
+          // b7: the queued card appears on both
+          K.pop(tl, minis, 7);
+
+          K.focus(scene, tl, "s04", [
+            [0, 290, 530], [1, 540, 490], [2, WX + 76 + 70, WY + ROW(0) + 16], [3, WX + 76 + 180, WY + ROW(1) + 16],
+            [4, WX + 76 + 330, WY + ROW(2) + 16], [5, cx, mediaCy], [6, 1540, mediaCy], [7, 1710, 600],
+          ]);
+          K.check(tl, "s04");
+          window.__timelines["s04-writer"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

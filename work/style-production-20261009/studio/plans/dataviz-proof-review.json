@@ -1,0 +1,107 @@
+{
+  "clip": "dataviz-proof",
+  "scope": "Sampling schedule, not a visual or listening verdict.",
+  "states": [
+    {
+      "shot": "trace",
+      "state": "establish",
+      "time": 1.9,
+      "frame": 46
+    },
+    {
+      "shot": "trace",
+      "state": "action",
+      "time": 3,
+      "frame": 72
+    },
+    {
+      "shot": "trace",
+      "state": "result",
+      "time": 5,
+      "frame": 120
+    },
+    {
+      "shot": "bars",
+      "state": "establish",
+      "time": 6,
+      "frame": 144
+    },
+    {
+      "shot": "bars",
+      "state": "action",
+      "time": 6.8,
+      "frame": 163
+    },
+    {
+      "shot": "bars",
+      "state": "result",
+      "time": 9,
+      "frame": 216
+    }
+  ],
+  "windows": [
+    {
+      "event": "draw",
+      "anchor": "same-eight-values",
+      "start": 0,
+      "end": 2.2,
+      "step": 0.2
+    },
+    {
+      "event": "trace",
+      "anchor": "same-eight-values",
+      "start": 2,
+      "end": 3.8000000000000003,
+      "step": 0.2
+    },
+    {
+      "event": "highlight",
+      "anchor": "maximum-value",
+      "start": 3.8,
+      "end": 5,
+      "step": 0.2
+    },
+    {
+      "event": "morph",
+      "anchor": "same-eight-values",
+      "start": 5.8,
+      "end": 7.7,
+      "step": 0.2
+    },
+    {
+      "event": "settle",
+      "anchor": "maximum-value",
+      "start": 7.3999999999999995,
+      "end": 8.399999999999999,
+      "step": 0.2
+    }
+  ],
+  "captions": [],
+  "sound": [
+    {
+      "event": "draw",
+      "time": 0,
+      "kind": "paper"
+    },
+    {
+      "event": "trace",
+      "time": 2.2,
+      "kind": "tone"
+    },
+    {
+      "event": "highlight",
+      "time": 4,
+      "kind": "tone"
+    },
+    {
+      "event": "morph",
+      "time": 6,
+      "kind": "paper"
+    },
+    {
+      "event": "settle",
+      "time": 7.6,
+      "kind": "click"
+    }
+  ]
+}

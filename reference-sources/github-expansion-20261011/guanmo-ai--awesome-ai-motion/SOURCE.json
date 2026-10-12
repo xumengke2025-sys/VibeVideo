@@ -1,0 +1,167 @@
+{
+  "repo": "guanmo-ai/awesome-ai-motion",
+  "repository": "https://github.com/guanmo-ai/awesome-ai-motion",
+  "commit": "82cbf11f3da3a2e0ebf1c78957c469fb1a3776e6",
+  "checked": "2026-10-12",
+  "archiveMethod": "raw-files with Git blob SHA1 + SHA256",
+  "scope": "图库索引与生成/检索源码快照（23文件）；保留案例JSON、README、许可、画廊代码及scripts，不含案例图片、字体和逐例衍生文档",
+  "licenseFiles": [
+    "LICENSE"
+  ],
+  "usage": "按原许可及第三方素材声明分别核实复用范围",
+  "modelEvidence": [
+    "<td width=\"50%\" height=\"225\" align=\"center\" valign=\"middle\"><a href=\"https://guanmo-ai.github.io/awesome-ai-motion/#case-2102514581684052169\"><img src=\"assets/covers/2102514581684052169.jpg\" width=\"400\" alt=\"Opus 视觉设计测试\"></a></td>",
+    "<td width=\"50%\" valign=\"top\"><strong>Opus 视觉设计测试</strong><br><sub><a href=\"https://x.com/other__reality\">@other__reality</a> · 短动效</sub><br><sub>2:37 · 收藏 4,192 · 资料待完善</sub><br><a href=\"https://guanmo-ai.github.io/awesome-ai-motion/#case-2102514581684052169\">▶ 播放</a> · <a href=\"https://x.com/other__reality/status/2102514581684052169\">原帖</a><br><a href=\"https://github.com/JohnHeibel/PDoomVideo\">查看源码 ↗</a></td>",
+    "<td width=\"50%\" height=\"225\" align=\"center\" valign=\"middle\"><a href=\"https://guanmo-ai.github.io/awesome-ai-motion/#case-2102801274173587569\"><img src=\"assets/covers/2102801274173587569.jpg\" width=\"400\" alt=\"Claude Pop 混合制作 MV\"></a></td>",
+    "<td width=\"50%\" valign=\"top\"><strong>Claude Pop 混合制作 MV</strong><br><sub><a href=\"https://x.com/donaldjewkes\">@donaldjewkes</a> · 音乐与歌词</sub><br><sub>2:22 · 收藏 8,096</sub><br><a href=\"https://guanmo-ai.github.io/awesome-ai-motion/#case-2102801274173587569\">▶ 播放</a> · <a href=\"https://x.com/donaldjewkes/status/2102801274173587569\">原帖</a></td>",
+    "<td width=\"50%\" height=\"225\" align=\"center\" valign=\"middle\"><a href=\"https://guanmo-ai.github.io/awesome-ai-motion/#case-2102801274173587569\"><img src=\"assets/covers/2102801274173587569.jpg\" width=\"400\" alt=\"Claude Pop 混合制作 MV\"></a></td>",
+    "<td width=\"50%\" valign=\"top\"><strong>Claude Pop 混合制作 MV</strong><br><sub><a href=\"https://x.com/donaldjewkes\">@donaldjewkes</a> · 音乐与歌词</sub><br><sub>2:22 · 收藏 8,096</sub><br><a href=\"https://guanmo-ai.github.io/awesome-ai-motion/#case-2102801274173587569\">▶ 播放</a> · <a href=\"https://x.com/donaldjewkes/status/2102801274173587569\">原帖</a></td>"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 484,
+      "gitBlobSha1": "9eeab4b4969a7fd32b4258fcbf85dde3e4148653",
+      "sha256": "6b567904d4f56144be84ef139c4816e787506b2c7d7f1ac2c3d2de213d6b9999"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1894,
+      "gitBlobSha1": "c53e69ed0b2c83ccebe0907a3a4751be00cf0d11",
+      "sha256": "470c02a579fdb59ca58994a30fda099874913c12f8195eca2ed2c90ee6505147"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 2676,
+      "gitBlobSha1": "edc8ad1ef2e6a8f34e16f7542e329251fa0ddb2a",
+      "sha256": "b5d6ec96093bfeb4cb8a5083a273053ae13e2c484e0077f5477eb84a90994bc0"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2306,
+      "gitBlobSha1": "75c4f3cc688d38040993af0ea00e6e2f5433bcf9",
+      "sha256": "67413e8aa05e536dda4102d68cfdc6d4782860f69062df9dc35c6f5f05073816"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1230,
+      "gitBlobSha1": "a5e5acc5e8bf5dda6d8f71de436421887c4ae319",
+      "sha256": "4236cbda23d42b333fe2644fc062cb12e17d4097a9b5a27963683ae9c50028cb"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 29089,
+      "gitBlobSha1": "1064c9d4f57594e2a9145560dd50a9ae3073e0db",
+      "sha256": "cc838ab6bd2485b715923288ff2902080c06ab801429a0bb90c39bca15b40836"
+    },
+    {
+      "path": "README.md",
+      "bytes": 27203,
+      "gitBlobSha1": "b36e950b95cf5f6d2840a6145d76a9be79b8afd1",
+      "sha256": "abc65b6cf7ee6f9462cc8a12326fa7e458db5038eed1339b0de1188674d02afb"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 2448,
+      "gitBlobSha1": "947dd27c676c93c43d71c6d69ea0fb11d43cf060",
+      "sha256": "a1c2761fc77c0ec5abde0b019ef81466114f7686105455543e7eeb415c6624ce"
+    },
+    {
+      "path": "assets/gallery-model.mjs",
+      "bytes": 9653,
+      "gitBlobSha1": "3c094466b30309d81ae1dbc7a945d5391e898858",
+      "sha256": "bf2d38dfb76e1e0a4cef91a6fa005cbb4feffafd6101682a0f8489887a6fcf42"
+    },
+    {
+      "path": "assets/gallery.css",
+      "bytes": 25892,
+      "gitBlobSha1": "38d17b47f2e0f2e8b7c06f7d3a17aa26ed3aa54f",
+      "sha256": "cef63e8860d6625d4a7f25755476c745448249deaf8392ca94150c3f443fc63d"
+    },
+    {
+      "path": "assets/gallery.mjs",
+      "bytes": 43511,
+      "gitBlobSha1": "7e039810cb1bedae586cd1b866c00976bc7750fa",
+      "sha256": "072d5ad4d75a9d1c7cab1b71da0b813fadcdfe71a43fc23c78372acdc629466e"
+    },
+    {
+      "path": "data/cases.json",
+      "bytes": 2743107,
+      "gitBlobSha1": "27084992fca62b501af74d344c6f599facfda71a",
+      "sha256": "64795a1bf5ff293f8ff58749a42b39f911668e5aa2ba5bac579689d7a5a449b2"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6923,
+      "gitBlobSha1": "0e3bbd87e22652d15912e6de110889f5e29761ef",
+      "sha256": "c514061ad5eb1233107d8b2ff943f0b6ace7ed465882b8cde763e309873a004a"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 37280,
+      "gitBlobSha1": "f8b5f424289e73a112cf4db418411b0d33ba62d6",
+      "sha256": "e9d09bae69678ce90718a20540dfaa786220a51fd2a62bbc21770ba9353cbe6d"
+    },
+    {
+      "path": "scripts/catalog-privacy.mjs",
+      "bytes": 3168,
+      "gitBlobSha1": "11d594e0c0e2a586d8b90a7ca843cef18e1902c7",
+      "sha256": "bc498b0fa53bb6cff6398be02e988b6afef2e4fc18c30b473f4df14f852fe5ca"
+    },
+    {
+      "path": "scripts/check-media.mjs",
+      "bytes": 4839,
+      "gitBlobSha1": "1eb53c732b39c7fd6ef69f30d746e0bb32f37444",
+      "sha256": "c08184cdd3c32f31276e88dd721afaf6070e2190447e4432d62ff1772bfadea7"
+    },
+    {
+      "path": "scripts/check-release.mjs",
+      "bytes": 5278,
+      "gitBlobSha1": "2259b3105ebf389810e6544d01a148d5772c89ee",
+      "sha256": "c268e6472606a1ccca5265b0e32674de15db063eac992ca3a3c7d62f1add0edf"
+    },
+    {
+      "path": "scripts/check-target.mjs",
+      "bytes": 965,
+      "gitBlobSha1": "64c4cd0ba947423d392ce5b1bfaa0487103571be",
+      "sha256": "e74ecf31be0f87a26e4018ba9db2eb64bafcdddfe7f7835709a6a4602874a7fc"
+    },
+    {
+      "path": "scripts/curation.mjs",
+      "bytes": 5812,
+      "gitBlobSha1": "395fb781f9a7b7e492ee6fbcbb22de627621d2b8",
+      "sha256": "799281b288839bb35fbd6c8aa21a9edd50afc0812a814ab28834e3b0a4cf9039"
+    },
+    {
+      "path": "scripts/metrics.mjs",
+      "bytes": 598,
+      "gitBlobSha1": "ce14e17ac3a8d4f5f1b55e17ae696e9a2631a5b5",
+      "sha256": "2ffdf56bd83ed8c5f29f3b8435b452c209b49c35f93b22db396ca3140af67b0c"
+    },
+    {
+      "path": "scripts/package-site.mjs",
+      "bytes": 3181,
+      "gitBlobSha1": "4272db7dc423619a8e5f229ea51b5eae1313097c",
+      "sha256": "fa06e9f5690cc57103131df6bb773f27ad2c562ccaeec0384c4d62147c0e6d48"
+    },
+    {
+      "path": "scripts/privacy.mjs",
+      "bytes": 3288,
+      "gitBlobSha1": "ba0f3258576aa2d66f390e34d3a98a1a83c6791c",
+      "sha256": "6b7fe9d3d6e944a46d60e8a885848717511d1901e72fe8c8fb267d9c1537285d"
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "bytes": 4119,
+      "gitBlobSha1": "8c22125cda88dd54a78f9df4745bca488d1bb238",
+      "sha256": "1152aa9e25a44f936974d86a8fabc667a8bd958ae1b35c7570e4963328612a5f"
+    }
+  ],
+  "missing": [],
+  "verification": {
+    "snapshotExtracted": true,
+    "gitBlobVerified": true,
+    "sourceExecuted": false,
+    "avReviewed": false
+  }
+}

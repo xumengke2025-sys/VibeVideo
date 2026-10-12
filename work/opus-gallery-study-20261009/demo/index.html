@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><title>Continuity · Codex motion study</title>
+<style>html,body{margin:0;background:#e9e7e2;width:100%;height:100%;overflow:hidden}canvas{display:block;width:100%;height:100%}</style>
+<canvas id="film" width="1280" height="720"></canvas>
+<script type="module">
+import {springTrack,morphPoints} from './continuity.mjs';
+const canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d');
+const clamp=v=>Math.max(0,Math.min(1,v));
+const ease=v=>{const p=clamp(v);return p*p*p*(10+p*(-15+6*p));};
+const lerp=(a,b,p)=>a+(b-a)*p;
+const states=[
+ {at:0,w:300,h:94,r:47,x:640,y:360},
+ {at:1.05,w:106,h:106,r:53,x:640,y:360},
+ {at:2.0,w:640,h:118,r:59,x:640,y:360},
+ {at:3.75,w:650,h:320,r:32,x:640,y:360},
+ {at:5.65,w:146,h:146,r:73,x:640,y:360},
+ {at:6.85,w:300,h:94,r:47,x:640,y:360},
+];
+const geometry=t=>{
+ const state={};
+ for(const prop of ['w','h','r','x','y'])state[prop]=springTrack(t,states[0][prop],states.slice(1).map(s=>({time:s.at,value:s[prop]})),{frequency:3.5,damping:1});
+ return state;
+};
+function rr(x,y,w,h,r){ctx.beginPath();ctx.roundRect(x,y,w,h,Math.min(r,w/2,h/2));}
+function text(str,x,y,size=24,color='#f7f5ef',align='left'){ctx.fillStyle=color;ctx.font=`500 ${size}px "Microsoft YaHei",sans-serif`;ctx.textAlign=align;ctx.textBaseline='middle';ctx.fillText(str,x,y);}
+function alpha(t,a,b,c,d){return ease((t-a)/(b-a))*(1-ease((t-c)/(d-c)));}
+function layer(opacity,draw){if(opacity<=0)return;ctx.save();ctx.globalAlpha=opacity;draw();ctx.restore();}
+const flat=Array.from({length:81},(_,i)=>({x:400+i*6,y:388}));
+const curve=flat.map((p,i)=>({x:p.x,y:430-135*i/80+13*Math.sin(i/80*9)}));
+const slider=flat.map((_,i)=>({x:458+i*378/80,y:360}));
+const check=flat.map((_,i)=>{const p=i/80;return p<.45?{x:lerp(611,632,p/.45),y:lerp(360,380,p/.45)}:{x:lerp(632,670,(p-.45)/.55),y:lerp(380,337,(p-.45)/.55)};});
+function cursor(t){
+ const points=[{at:0,x:800,y:475},{at:.65,x:646,y:371},{at:1.35,x:818,y:470},{at:2.4,x:458,y:360},{at:3.3,x:836,y:360},{at:4,x:835,y:434},{at:4.7,x:768,y:322},{at:5.5,x:832,y:469},{at:7.4,x:800,y:475}];
+ let a=points[0],b=points[points.length-1];for(let i=1;i<points.length;i++){if(t<=points[i].at){a=points[i-1];b=points[i];break;}a=points[i];b=a;}
+ const p=b.at>a.at?ease((t-a.at)/(b.at-a.at)):1;return{x:lerp(a.x,b.x,p),y:lerp(a.y,b.y,p)};
+}
+window.seek=async time=>{
+ const t=((time%8)+8)%8,g=geometry(t),x=g.x-g.w/2,y=g.y-g.h/2;
+ ctx.clearRect(0,0,1280,720);ctx.fillStyle='#e9e7e2';ctx.fillRect(0,0,1280,720);
+ const ambient=ctx.createRadialGradient(640,330,80,640,330,700);ambient.addColorStop(0,'#f8f6f0');ambient.addColorStop(1,'#dfded8');ctx.fillStyle=ambient;ctx.fillRect(0,0,1280,720);
+ text('一种形状，一段连续的变化',640,95,26,'#353a3f','center');
+ ctx.save();ctx.shadowColor='rgba(25,33,37,.24)';ctx.shadowBlur=36;ctx.shadowOffsetY=20;rr(x,y,g.w,g.h,g.r);ctx.fillStyle='#182125';ctx.fill();ctx.restore();
+ ctx.save();rr(x,y,g.w,g.h,g.r);ctx.clip();
+ const face=ctx.createLinearGradient(x,y,x,y+g.h);face.addColorStop(0,'#27343a');face.addColorStop(1,'#162025');ctx.fillStyle=face;ctx.fillRect(x,y,g.w,g.h);
+ layer(1-ease((t-.85)/.23)+ease((t-7.05)/.22),()=>{text('开始探索',640,360,30,'#f8f6f0','center');});
+ layer(alpha(t,1.12,1.25,1.74,1.94),()=>{ctx.strokeStyle='#a9e9db';ctx.lineWidth=5;ctx.lineCap='round';ctx.beginPath();ctx.arc(640,360,24,t*5,t*5+Math.PI*1.45);ctx.stroke();});
+ const sliderOpacity=alpha(t,2.06,2.3,3.6,3.86);
+ layer(sliderOpacity,()=>{
+  const drag=ease((t-2.4)/.9),v=lerp(458,836,drag);
+  text('调节',382,360,22,'#a9e9db');ctx.lineCap='round';ctx.lineWidth=9;ctx.strokeStyle='#53636b';ctx.beginPath();ctx.moveTo(458,360);ctx.lineTo(836,360);ctx.stroke();ctx.fillStyle='#e5fff8';ctx.beginPath();ctx.arc(v,360,14,0,Math.PI*2);ctx.fill();
+ });
+ const chartOpacity=alpha(t,3.87,4.12,5.34,5.58);
+ layer(chartOpacity,()=>{
+  text('调节变成一条轨迹',378,266,24);text('动作演示',901,266,17,'#a5b8bd','right');
+  ctx.strokeStyle='#40545d';ctx.lineWidth=1;
+  for(let i=0;i<4;i++){ctx.beginPath();ctx.moveTo(397,325+i*42);ctx.lineTo(895,325+i*42);ctx.stroke();}
+ });
+ // One line persists through slider → plot → check, with explicit point correspondence.
+ layer(alpha(t,2.06,2.3,6.72,6.94),()=>{
+  const base=morphPoints(slider,flat,ease((t-3.67)/.38));
+  const graph=morphPoints(base,curve,ease((t-3.94)/.72));
+  const line=morphPoints(graph,check,ease((t-5.56)/.36));
+  const limit=t<3.3?Math.max(1,Math.round(ease((t-2.4)/.9)*80)):80;
+  ctx.beginPath();line.slice(0,limit+1).forEach((point,i)=>i?ctx.lineTo(point.x,point.y):ctx.moveTo(point.x,point.y));ctx.strokeStyle='#a9e9db';ctx.lineWidth=lerp(9,5,ease((t-3.75)/.4));ctx.lineCap='round';ctx.lineJoin='round';ctx.stroke();
+  layer(chartOpacity,()=>{const m=clamp((t-4.42)/.48),point=line[Math.round(m*60)];ctx.fillStyle='#e5fff8';ctx.beginPath();ctx.arc(point.x,point.y,8,0,Math.PI*2);ctx.fill();});
+ });
+ ctx.restore();ctx.strokeStyle='rgba(255,255,255,.11)';ctx.lineWidth=1;rr(x+.5,y+.5,g.w-1,g.h-1,g.r);ctx.stroke();
+ const c=cursor(t);ctx.save();ctx.translate(c.x,c.y);ctx.shadowColor='rgba(0,0,0,.24)';ctx.shadowBlur=5;ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(1,24);ctx.lineTo(7,18);ctx.lineTo(13,28);ctx.lineTo(18,25);ctx.lineTo(12,16);ctx.lineTo(21,15);ctx.closePath();ctx.fillStyle='#f8f6ef';ctx.fill();ctx.strokeStyle='#182125';ctx.lineWidth=1.5;ctx.stroke();ctx.restore();
+ // Hold both ends, so the exported last-to-first step also has near-zero velocity.
+ return {time:t,geometry:g,cursor:c};
+};
+window.__film={duration:8,fps:30,width:1280,height:720,ready:true,renderAt:window.seek};
+await window.seek(0);
+if(!new URLSearchParams(location.search).has('export')){
+ const start=performance.now();const play=async now=>{await window.seek((now-start)/1000);requestAnimationFrame(play);};requestAnimationFrame(play);
+}
+</script></html>

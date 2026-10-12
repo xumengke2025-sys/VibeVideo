@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s11-root { position: absolute; inset: 0; }
+        #s11-panel { left: 620px; top: 290px; width: 900px; height: 580px; }
+        #s11-head { position: absolute; left: 32px; right: 32px; top: 28px; display: flex; justify-content: space-between; align-items: baseline; }
+        #s11-head .s11-kind { font: 500 20px/1 var(--k-mono); color: var(--k-ink-3); }
+        .s11-row { position: absolute; left: 32px; right: 32px; height: 40px; display: flex; align-items: center; }
+        .s11-k { width: 200px; flex: none; }
+        .s11-v { position: relative; flex: 1; height: 40px; }
+        .s11-ph { position: absolute; left: 0; top: 14px; height: 12px; border-radius: 6px; background: var(--k-surface-field); }
+        .s11-t { position: absolute; left: 0; top: 4px; font: 500 24px/32px var(--k-mono); color: var(--k-ink); white-space: pre; }
+        #s11-rule { position: absolute; left: 32px; right: 32px; top: 470px; height: 1.5px; background: var(--k-line-soft); }
+        #s11-lock { left: 32px; top: 500px; display: flex; gap: 12px; align-items: center; font-size: 22px; }
+        #s11-lock svg { display: block; }
+      </style>
+      <div id="s11-root" data-composition-id="s11-recipe" data-width="1920" data-height="1080">
+        <div id="s11-scene" class="k-scene">
+          <div id="s11-panel" class="k-panel">
+            <div id="s11-head"><span class="k-micro">recipe</span><span class="s11-kind">video · ready · 8 s · 480p</span></div>
+            <div id="s11-rule"></div>
+            <div id="s11-lock" class="k-pill k-amber"><svg width="18" height="22" viewBox="0 0 18 22"><path d="M4.5 10 V6.5 a4.5 4.5 0 0 1 9 0 V10" fill="none" stroke="#1a1300" stroke-width="2.4"/><rect x="1" y="9.5" width="16" height="12" rx="3" fill="#1a1300"/></svg>immutable once generated</div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s11-scene");
+          const panel = document.getElementById("s11-panel");
+
+          // The protagonist, landed, and the still it started from (start_frame).
+          const card = K.card(scene, { id: "s11-card", left: 150, top: 290, scale: 1.8, art: K.harbourArt({ boat: 12 }), name: "harbour flight", cr: "80 cr" });
+          const still = K.card(scene, { id: "s11-still", left: 222, top: 700, scale: 1.2, art: K.harbourArt({ boat: -20 }), name: "quay at low tide", cr: "3 cr" });
+          const edge = K.edge(scene, `M${still.k.cx} ${still.k.top} L${card.k.cx} ${card.k.bottom + 2}`, { alpha: 0.2 });
+          K.leader(scene, card.k.cx, (still.k.top + card.k.bottom) / 2, card.k.cx + 40, (still.k.top + card.k.bottom) / 2, "start_frame");
+          K.leader(scene, 660, 290, 680, 236, "written at queued, before anything runs");
+          // The day sky's glow runs a hair past the media's top edge; the media clips it.
+          scene.querySelectorAll(".k-thumb, .k-thumb svg").forEach((e) => e.setAttribute("data-layout-allow-overflow", ""));
+          scene.appendChild(panel); // opens over the canvas, above the cards
+
+          // The recipe's fields, empty until they fill. [field, value, beat]
+          const ROWS = [
+            ["provider", "fal", 2],
+            ["model", "video/h3-max", 2],
+            ["prompt", "camera flight over the harbour at low tide", 3],
+            ["params", "8 s · 480p", 4],
+            ["references", "as_s02 · start_frame", 5],
+            ["price", "80 cr · 10 cr/s", 6],
+          ];
+          const rowY = (i) => 84 + i * 62;
+          const rows = ROWS.map(([k, v, b], i) => {
+            const r = K.el(panel, "div", { class: "s11-row", style: { top: rowY(i) + "px" } });
+            K.el(r, "div", { class: "s11-k k-micro" }).textContent = k;
+            const cell = K.el(r, "div", { class: "s11-v" });
+            const ph = K.el(cell, "div", { class: "s11-ph", style: { width: Math.min(560, v.length * 14.4) + "px" } });
+            const t = K.el(cell, "div", { class: "s11-t" });
+            return { v, b, ph, t, y: 290 + rowY(i) + 20 };
+          });
+
+          K.chrome(scene, tl, { title: "Every asset keeps its recipe", step: 4, balance: "1,920 cr", animateStep: false });
+
+          // b0: the card is selected
+          K.ring(tl, card, "selected", K.t(0));
+          // b1: its recipe opens beside it
+          K.pop(tl, panel, 1, { y: 8 });
+          // b2–b6: the fields fill, top to bottom: who made it, with what, from what, for how much
+          rows.forEach((r) => {
+            K.type(tl, r.t, r.v, r.b, r.v.length > 20 ? 0.24 : 0.14);
+            tl.to(r.ph, { opacity: 0, duration: 0.06, data: "follow" }, K.t(r.b));
+          });
+          // b5: the reference it names is the still below; their edge brightens
+          tl.to(edge, { attr: { stroke: "rgba(255,255,255,0.5)" }, duration: 0.16, data: "follow" }, K.t(5) + 0.06);
+          // b7: locked: immutable once generated
+          K.pop(tl, "#s11-lock", 7);
+
+          const [, , , params, refs, price] = rows;
+          K.focus(scene, tl, "s11", [
+            [0, card.k.cx, card.k.mediaCy], [1, 760, 350], [2, 900, rows[0].y + 30], [3, 1060, rows[2].y],
+            [4, 920, params.y], [5, 980, refs.y], [6, 940, price.y], [7, 800, 810],
+          ]);
+          K.check(tl, "s11");
+          window.__timelines["s11-recipe"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

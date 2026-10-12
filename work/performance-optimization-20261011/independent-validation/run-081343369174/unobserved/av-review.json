@@ -1,0 +1,29 @@
+{
+  "video_path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\run-081343369174\\fixture.mp4",
+  "video_sha256": "070b471e86b352c8afaec87e9b445c1c7b84c5d1bc45540aa0b426a442835014",
+  "reviewer": {
+    "id": "batch-report-merge",
+    "mode": "report_aggregation"
+  },
+  "coverage": {
+    "decoded_frames": 6,
+    "visual_ranges": [],
+    "audio_listened_ranges_seconds": [],
+    "realtime_viewed_ranges_seconds": [],
+    "audio_status": "pending",
+    "unreviewed_frame_ranges": [
+      [
+        0,
+        5
+      ]
+    ]
+  },
+  "findings": [],
+  "limitations": [
+    "Aggregate is not final creative/AV acceptance."
+  ],
+  "verdict": "incomplete",
+  "repair_round": 1,
+  "report_sources": [],
+  "blind_observations": []
+}

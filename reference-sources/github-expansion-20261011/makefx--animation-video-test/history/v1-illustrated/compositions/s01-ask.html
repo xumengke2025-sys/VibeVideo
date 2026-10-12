@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s01-root { position: absolute; inset: 0; }
+        #s01-desk { left: 40px; top: 800px; width: 1840px; height: 40px; border-radius: 12px; background: #d9b98a; border: 5px solid var(--k-ink); }
+        #s01-desk-front { left: 80px; top: 836px; width: 1760px; height: 244px; background: #c9a877; border-left: 5px solid var(--k-ink); border-right: 5px solid var(--k-ink); }
+        #s01-term { left: 150px; top: 250px; width: 1080px; height: 540px; border-radius: 26px; background: #fffaf0; border: 5px solid var(--k-ink); box-shadow: 0 10px 0 var(--k-ink); overflow: hidden; }
+        #s01-bar { height: 60px; border-bottom: 5px solid var(--k-ink); background: #f3e2b8; display: flex; align-items: center; gap: 14px; padding: 0 24px; }
+        #s01-bar i { width: 20px; height: 20px; border-radius: 50%; border: 4px solid var(--k-ink); display: block; }
+        #s01-bar span { margin-left: 18px; font: 500 22px/1 var(--k-mono); color: var(--k-ink-2); }
+        #s01-body { padding: 40px 44px; font: 500 38px/1.7 var(--k-mono); color: var(--k-ink); }
+        #s01-dim { color: var(--k-ink-2); }
+        #s01-hint { color: var(--k-ink-2); font-size: 26px; margin-top: 150px; }
+        #s01-line { position: relative; display: inline-block; white-space: pre; }
+        #s01-hl { left: -10px; top: 6px; right: -10px; bottom: 6px; background: var(--k-accent); border-radius: 10px; transform-origin: 0 50%; }
+        #s01-caret { display: inline-block; width: 22px; height: 44px; background: var(--k-ink); vertical-align: -8px; margin-left: 2px; }
+        #s01-slip { padding: 8px 20px; border-radius: 12px; background: var(--k-accent); border: 4px solid var(--k-ink); font: 500 36px/1.2 var(--k-mono); color: var(--k-accent-ink); white-space: nowrap; }
+        #s01-enter { padding: 6px 16px; border-radius: 12px; background: #fffaf0; border: 4px solid var(--k-ink); box-shadow: 0 5px 0 var(--k-ink); font: 500 30px/1.2 var(--k-mono); color: var(--k-ink); }
+      </style>
+      <div id="s01-root" data-composition-id="s01-ask" data-width="1920" data-height="1080">
+        <div id="s01-scene" class="k-scene k-warm">
+          <div id="s01-desk-front" class="k-abs"></div>
+          <div id="s01-desk" class="k-abs"></div>
+          <div id="s01-term" class="k-abs">
+            <div id="s01-bar"><i></i><i></i><i></i><span>agent · ~/launch</span></div>
+            <div id="s01-body">
+              <div id="s01-dim">$ claude</div>
+              <div>&gt; <span id="s01-line"><span id="s01-hl" class="k-abs"></span><span id="s01-text" style="position:relative"></span></span><span id="s01-caret"></span></div>
+              <div id="s01-hint">makefx connected · 1 tool call away</div>
+            </div>
+          </div>
+          <div id="s01-enter" class="k-abs">⏎</div>
+          <div id="s01-slip" class="k-abs">create_asset</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s01-scene");
+          K.grain(scene, "s01");
+          // still props: the desk the terminal sits on, a sky outside
+          K.cloud(scene, 560, 120, 0.9); K.cloud(scene, 1260, 170, 0.6); K.cloud(scene, 1560, 260, 0.8);
+          K.plant(scene, 1760, 640, 0.95);
+          K.mug(scene, 1262, 700);
+          K.chrome(scene, tl, { title: "ask your agent", chapter: "1 · ask", step: 1 });
+
+          const PROMPT = "make a camera flight over the harbour";
+          const S = 1.5, CL = 1400, CT = 800 - 202 * S; // the card, and where its thumbnail centre sits
+          const thumbX = CL + 110 * S, thumbY = CT + 76 * S, feetY = CT + 202 * S;
+          const card = K.card(scene, { id: "s01-card", theme: "warm", left: CL, top: CT, scale: S });
+          const eyes = K.part(card, "k-eyes");
+          gsap.set(K.part(card, "k-bar"), { opacity: 0 });
+
+          // Line geometry: the prompt starts after "> " (2 mono cells) on the second body line.
+          const CELL = 38 * 0.6, lineX = 150 + 5 + 44 + 2 * CELL, lineY = 250 + 5 + 60 + 40 + 38 * 1.7 * 1.5;
+          const endX = lineX + PROMPT.length * CELL;
+
+          // b0: the terminal arrives with the cut
+          tl.fromTo("#s01-term", { scale: 0.94, opacity: 0, transformOrigin: "50% 60%" }, { scale: 1, opacity: 1, duration: 0.22, ease: "back.out(1.8)" }, K.t(0));
+          // b1–b3: the prompt types itself; the caret is the focus
+          K.type(tl, document.getElementById("s01-text"), PROMPT, 1, 0.7);
+          // b4: enter is pressed; the line lights up
+          tl.fromTo("#s01-enter", { x: endX + 30, y: lineY - 28, opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.1, ease: "back.out(3)" }, K.t(4));
+          tl.to("#s01-enter", { y: lineY - 22, boxShadow: "0 1px 0 #2a2118", duration: 0.06, data: "follow" }, K.t(4) + 0.1);
+          tl.to("#s01-enter", { opacity: 0, duration: 0.08, data: "follow" }, K.t(4) + 0.2);
+          tl.fromTo("#s01-hl", { scaleX: 0, opacity: 1 }, { scaleX: 1, duration: 0.14, ease: "power2.out", data: "follow" }, K.t(4) + 0.04);
+          tl.to("#s01-caret", { opacity: 0, duration: 0.05, data: "follow" }, K.t(4));
+          // b5: the prompt leaves as a tool call, from the enter key to where the card will stand
+          tl.fromTo("#s01-slip", { x: endX + 20, y: lineY - 34, scale: 0.5, rotation: 0, opacity: 0 }, { opacity: 1, scale: 1, duration: 0.06, ease: "back.out(3)" }, K.t(5));
+          tl.to("#s01-slip", { x: thumbX - 150, y: thumbY - 40, scale: 0.55, rotation: 10, duration: 0.18, ease: "power1.in", data: "follow" }, K.t(5) + 0.06);
+          tl.to("#s01-slip", { opacity: 0, duration: 0.03, data: "follow" }, K.t(6) - 0.02);
+          tl.to("#s01-hl", { opacity: 0.35, duration: 0.2, data: "follow" }, K.t(5));
+          // b6: the card drops in where the slip landed, eyes shut
+          gsap.set(eyes, { scaleY: 0.1, transformOrigin: "50% 50%" });
+          tl.fromTo(card, { y: -160, opacity: 0 }, { y: 0, opacity: 1, duration: 0.14, ease: "power2.in" }, K.t(6));
+          K.land(tl, card, K.t(6) + 0.14, { follow: true });
+          K.puff(tl, scene, thumbX, feetY, K.t(6) + 0.14, { spread: 120 });
+          // b7: it opens its eyes
+          tl.fromTo(eyes, { scaleY: 0.1 }, { scaleY: 1, duration: 0.12, ease: "back.out(3)" }, K.t(7));
+          K.sparkle(tl, scene, thumbX, CT + 10, K.t(7), { r: 90, seed: 1 });
+
+          K.focus(scene, tl, "s01", [
+            [0, 690, 520], [1, lineX + 150, lineY], [2, lineX + 450, lineY], [3, lineX + 750, lineY],
+            [4, endX + 60, lineY], [5, endX + 60, lineY - 20], [6, thumbX, thumbY + 40], [7, thumbX, thumbY],
+          ]);
+          K.check(tl, "s01");
+          window.__timelines["s01-ask"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

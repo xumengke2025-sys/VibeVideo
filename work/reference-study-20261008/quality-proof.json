@@ -1,0 +1,25 @@
+{
+  "source": "mexicat/pdoom-video",
+  "commit": "fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+  "time": 11,
+  "shutter": 0.2,
+  "measurements": [
+    {
+      "samples": 4,
+      "render_call_ms": 644
+    },
+    {
+      "samples": 36,
+      "render_call_ms": 20
+    }
+  ],
+  "resourceFailures": [],
+  "browserErrors": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "http://127.0.0.1:8913/favicon.ico"
+    }
+  ],
+  "meaningfulErrors": [],
+  "sceneErrors": []
+}

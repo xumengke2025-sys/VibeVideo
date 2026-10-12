@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "entries_preserved": 513,
+  "all_prompt_files_correspond": true,
+  "checked": [
+    "full data fidelity",
+    "bounded category/query/AND tag search",
+    "partial/full filtering",
+    "single prompt equality",
+    "pinned source URLs",
+    "import roundtrip",
+    "duplicate slug rejection"
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "repository": "https://github.com/20q2/i-like-ur-look-lyric-video",
+  "commit": "573a5c7ff19a4ac46fec145a060368e381d9ba50",
+  "commit_date": "2026-10-08T20:04:35Z",
+  "repository_created": "2026-10-08T20:02:57Z",
+  "checked": "2026-10-09",
+  "license": "代码MIT，保留app/LICENSE的引擎来源署名；版权歌曲不随库。",
+  "reference_role": "film",
+  "quality_evidence": "source_inspected_video_unreviewed",
+  "scope": "保存72个选定文本文件；歌曲、歌词/节拍数据、字体和依赖未随包。README成片链接coming soon；未运行或审片。",
+  "inspected": [
+    "README.md:1-70",
+    "app/LICENSE:1-24",
+    "app/src/engine/curl.ts:1-57",
+    "app/src/engine/page.ts:1-115",
+    "app/src/engine/scene.ts:1-83",
+    "app/src/scenes/magazine/focus.ts:1-107",
+    "app/src/scenes/magazine/view.ts:1-30",
+    "app/src/scenes/magazine/handheld.ts:1-32",
+    "app/src/scenes/magazine/schedule.ts:1-105"
+  ],
+  "excluded": [
+    "unselected source paths, external assets, audio, video, installed dependencies; not a complete offline build"
+  ],
+  "runtime_verification": "not run; no video reviewed",
+  "files": [
+    {
+      "source_path": "app/LICENSE",
+      "local_path": "app/LICENSE",
+      "sha256": "8734d5c9053cf473d4150a321792f8955f44d5dd165a8649de71c6b2dc4eb5c9",
+      "bytes": 1161
+    },
+    {
+      "source_path": "README.md",
+      "local_path": "README.md",
+      "sha256": "b3b64a3af6c94d25faaad5a3b7ed9bcc7c86bbb43a7ffc13a8c674ae8f9740cf",
+      "bytes": 4622
+    },
+    {
+      "source_path": "app/scripts/render.ts",
+      "local_path": "app/scripts/render.ts",
+      "sha256": "234f1e65e98847be3c82fc132d392122f143515d75c718d93c777a3f4805dc79",
+      "bytes": 20557
+    },
+    {
+      "source_path": "app/index.html",
+      "local_path": "app/index.html",
+      "sha256": "238b5d096e08d5eab58d54f9dd2382601bb4eba1e36f285a2867eb1b40fe804c",
+      "bytes": 2257
+    },
+    {
+      "source_path": "app/src/engine/audio.ts",
+      "local_path": "app/src/engine/audio.ts",
+      "sha256": "b6a6b931be61939fd1dc2a38d74266810434d79e2ffeb11484e88ae82daca7e0",
+      "bytes": 5475
+    },
+    {
+      "source_path": "LICENSE",
+      "local_path": "LICENSE",
+      "sha256": "aef0db476f41df6b09de8c54524440e8f8247d450739672b1d4d60065f4cdc9e",
+      "bytes": 1065
+    },
+    {
+      "source_path": "app/src/engine/cutout.ts",
+      "local_path": "app/src/engine/cutout.ts",
+      "sha256": "bfc2bd1fa6ecbecbe5c23330ff8c91bb9d57d82d9c5e0393cde15052ef97da80",
+      "bytes": 11693
+    },
+    {
+      "source_path": "app/src/engine/engine.ts",
+      "local_path": "app/src/engine/engine.ts",
+      "sha256": "58e3e7375d7aef00c07fdc6b62305bf2079aa61dfcf9de1e89aee70b41a26175",
+      "bytes": 17624
+    },
+    {
+      "source_path": "app/package.json",
+      "local_path": "app/package.json",
+      "sha256": "3777cd55cd61e60c1b4e6c63fe235313de94a16e1e911f8aff7a16ff4621baf6",
+      "bytes": 507
+    },
+    {
+      "source_path": "app/src/engine/drawing.ts",
+      "local_path": "app/src/engine/drawing.ts",
+      "sha256": "f40c29de05aea186b865dbba0c8962e78bc49bb64ba070fef4e5202d8f885db5",
+      "bytes": 8759
+    },
+    {
+      "source_path": "app/scripts/legibility.py",
+      "local_path": "app/scripts/legibility.py",
+      "sha256": "08ab087b3dee641f4cdad84ae7ac1e1546d1a4372525b39f3471f8115a6e8e19",
+      "bytes": 15160
+    },
+    {
+      "source_path": "app/src/engine/curl.ts",
+      "local_path": "app/src/engine/curl.ts",
+      "sha256": "b45ddaed53535bd2e34d775bb75462a66283e4e380b8d9fe47e57630eae5f249",
+      "bytes": 4423
+    },
+    {
+      "source_path": "app/src/engine/glsl/common.ts",
+      "local_path": "app/src/engine/glsl/common.ts",
+      "sha256": "85affda439b4d5f8041051973e279471a7849ddc5c514bff4a2104b06282cb26",
+      "bytes": 10437
+    },
+    {
+      "source_path": "app/src/engine/gl.ts",
+      "local_path": "app/src/engine/gl.ts",
+      "sha256": "05126116d767ba87875274664ace6dd7e4b93ed917166a6f0dec7f93ae50dc46",
+      "bytes": 11491
+    },
+    {
+      "source_path": "app/src/engine/lamp.ts",
+      "local_path": "app/src/engine/lamp.ts",
+      "sha256": "099cfb5035d9af3f9aa2d759915265334ff8880a2fac797593da8f88aeb175f4",
+      "bytes": 5415
+    },
+    {
+      "source_path": "app/src/engine/kiss.ts",
+      "local_path": "app/src/engine/kiss.ts",
+      "sha256": "3463acbab4d658c9f3cc452818af0a11e204220b7083cc0447f45b444a1ae37e",
+      "bytes": 13889
+    },
+    {
+      "source_path": "app/src/engine/lyrics.ts",
+      "local_path": "app/src/engine/lyrics.ts",
+      "sha256": "71162dc556a17cefa526686ba10ffd29f4ac121ff2238231d7a5e638ad28bdd0",
+      "bytes": 4317
+    },
+    {
+      "source_path": "app/src/engine/page.ts",
+      "local_path": "app/src/engine/page.ts",
+      "sha256": "e8dca377b7859f4427cf0f8790b0e1645252afdac19b8f4df9f691c6a0f4ec9f",
+      "bytes": 32123
+    },
+    {
+      "source_path": "app/src/engine/layout.ts",
+      "local_path": "app/src/engine/layout.ts",
+      "sha256": "36269ff1614f8ae7625175b945b8addc19ba7bc91bd2e86f4f2522f8a78d80fd",
+      "bytes": 9680
+    },
+    {
+      "source_path": "app/src/engine/pagesize.ts",
+      "local_path": "app/src/engine/pagesize.ts",
+      "sha256": "c7e59fdef44385d583482e3beab72ff221ec3ce6420b0027fdb71bd0292de91c",
+      "bytes": 367
+    },
+    {
+      "source_path": "app/src/engine/lines.ts",
+      "local_path": "app/src/engine/lines.ts",
+      "sha256": "afd4d20fb5d0d472b2f05585917388047e7f2297b9cb08adcc8bdac6e3763a27",
+      "bytes": 7778
+    },
+    {
+      "source_path": "app/src/engine/lipstick.ts",
+      "local_path": "app/src/engine/lipstick.ts",
+      "sha256": "746fbdd7b026bee2ec43fdfa2fe1ccffe813f98aa5da4624b296eacf60e01714",
+      "bytes": 25264
+    },
+    {
+      "source_path": "app/src/engine/print.ts",
+      "local_path": "app/src/engine/print.ts",
+      "sha256": "fac94328d4ff614a04eeb60c48656f467e7ee29fb5afe41cf7382d462ab28155",
+      "bytes": 4037
+    },
+    {
+      "source_path": "app/src/engine/palette.ts",
+      "local_path": "app/src/engine/palette.ts",
+      "sha256": "6227cce9e634758152b96f655cfd4b3774527bb4faba4f1263a44cbf84418730",
+      "bytes": 1128
+    },
+    {
+      "source_path": "app/src/engine/scale.ts",
+      "local_path": "app/src/engine/scale.ts",
+      "sha256": "868ae545b1414e01f9a50a395bcd84081b84653a19485a7599f8a894eac5a9b0",
+      "bytes": 615
+    },
+    {
+      "source_path": "app/src/engine/paper.ts",
+      "local_path": "app/src/engine/paper.ts",
+      "sha256": "06ace6ee0a3f89fdbc31920dfb4587bce05c3add08b80284462ebcfa05b2c831",
+      "bytes": 14353
+    },
+    {
+      "source_path": "app/src/engine/scene.ts",
+      "local_path": "app/src/engine/scene.ts",
+      "sha256": "496286017ce64400c50f063536db03ec26dd7da66722d636c13a37e24f79567b",
+      "bytes": 2998
+    },
+    {
+      "source_path": "app/src/engine/util.ts",
+      "local_path": "app/src/engine/util.ts",
+      "sha256": "3ee09f426621491c4416e04d15a878109899ae4257395a1aad6e264cc910cf3f",
+      "bytes": 10347
+    },
+    {
+      "source_path": "app/src/engine/type.ts",
+      "local_path": "app/src/engine/type.ts",
+      "sha256": "c0856bf1c0013e003d3a6cdd79ccf9bfb2fadb3e4a97ef9b72993a43f42850b4",
+      "bytes": 9813
+    },
+    {
+      "source_path": "app/src/engine/stroke.ts",
+      "local_path": "app/src/engine/stroke.ts",
+      "sha256": "f85ca53fe3ad111bf2d4da45e493b1691fe48ef8833552376ec55d2515d4145d",
+      "bytes": 14589
+    },
+    {
+      "source_path": "app/src/engine/post.ts",
+      "local_path": "app/src/engine/post.ts",
+      "sha256": "212785c0dea28cbd1ec1bfcd934f1abb3db5a231336046d1affce64fa3e4a7cf",
+      "bytes": 13977
+    },
+    {
+      "source_path": "app/src/main.ts",
+      "local_path": "app/src/main.ts",
+      "sha256": "a50970324f997b20ae015594f5c2174882ddb5f3c8393d896073aebe6f9a6d46",
+      "bytes": 14172
+    },
+    {
+      "source_path": "app/src/engine/waxgl.ts",
+      "local_path": "app/src/engine/waxgl.ts",
+      "sha256": "98d07ebdde06affc6b0a360add5157ac4cb2cdd6d9e535314a43f69b371574ed",
+      "bytes": 12630
+    },
+    {
+      "source_path": "app/src/keycheck.ts",
+      "local_path": "app/src/keycheck.ts",
+      "sha256": "7863b9260b942aeab623b59e4869c8eea7abb8eb5d73f977d1271c9839b63d35",
+      "bytes": 12468
+    },
+    {
+      "source_path": "app/src/scenes/magazine/faces.ts",
+      "local_path": "app/src/scenes/magazine/faces.ts",
+      "sha256": "6c6cfcde208d71024a952e5af99e521d32d2ec6d2a5a6ac65fd9663904bc30b1",
+      "bytes": 5275
+    },
+    {
+      "source_path": "app/src/scenes/magazine.ts",
+      "local_path": "app/src/scenes/magazine.ts",
+      "sha256": "23ca61ca5415e62c7c3365c29d803572b3792775a2dd173912d62ef6060b9d50",
+      "bytes": 7337
+    },
+    {
+      "source_path": "app/src/scenes/magazine/focus.ts",
+      "local_path": "app/src/scenes/magazine/focus.ts",
+      "sha256": "d6b9dac2cb218c211e0314b596bb675b48dcf668ae84d76657284cf3f1839588",
+      "bytes": 7751
+    },
+    {
+      "source_path": "app/src/scenes/lipsticktest.ts",
+      "local_path": "app/src/scenes/lipsticktest.ts",
+      "sha256": "ca42b34fd55ca7114d3cbb56203e8e60207212c93901bb0fad0efc91e9fa9c1d",
+      "bytes": 2654
+    },
+    {
+      "source_path": "app/src/review.ts",
+      "local_path": "app/src/review.ts",
+      "sha256": "c99622c7bff81664e52d0343aad10bce5b91044ed06541a7e65d8253876b6815",
+      "bytes": 1604
+    },
+    {
+      "source_path": "app/src/scenes/magazine/sheets.ts",
+      "local_path": "app/src/scenes/magazine/sheets.ts",
+      "sha256": "bff44c50418018cfae5c9feaa185c2844d3c5063f9f8a92ffc1916b779768056",
+      "bytes": 3366
+    },
+    {
+      "source_path": "app/src/scenes/magazine/groove.ts",
+      "local_path": "app/src/scenes/magazine/groove.ts",
+      "sha256": "25c30a63bee753fdb6eca823d5bec554f2e6d4c0fdbc8b109d0af0a5bcfe91aa",
+      "bytes": 8691
+    },
+    {
+      "source_path": "app/src/scenes/magazine/handheld.ts",
+      "local_path": "app/src/scenes/magazine/handheld.ts",
+      "sha256": "3c422d0a6fccc65f00b31ad97b2acc25bd1280508ee4c8b6392e54a1a8d21afd",
+      "bytes": 2581
+    },
+    {
+      "source_path": "app/src/spreads/art.ts",
+      "local_path": "app/src/spreads/art.ts",
+      "sha256": "d29651c471d9bc551dd8627d27154825c59786ce3e9be760928922216c94e88c",
+      "bytes": 25902
+    },
+    {
+      "source_path": "app/src/spreads/accessories.ts",
+      "local_path": "app/src/spreads/accessories.ts",
+      "sha256": "36c177dc3764f37d9c05ab9b3f7a9622811182e1040f4b536a3928a6cba16188",
+      "bytes": 17727
+    },
+    {
+      "source_path": "app/src/scenes/magazine/view.ts",
+      "local_path": "app/src/scenes/magazine/view.ts",
+      "sha256": "76fe0bc88b2dc9bb1c5650cec7f6bbfe41b794f5888134d7ffc93bfcac76a07d",
+      "bytes": 2094
+    },
+    {
+      "source_path": "app/src/spreads/cover.ts",
+      "local_path": "app/src/spreads/cover.ts",
+      "sha256": "82496b84eb8c38fa0d8ec3e2b5a2326c3ff0483b32f3add5888859646c16d9c6",
+      "bytes": 11604
+    },
+    {
+      "source_path": "app/src/spreads/backcover.ts",
+      "local_path": "app/src/spreads/backcover.ts",
+      "sha256": "9dbd51111aa5eb5217aa30431fc188cb1bd08e114e54cbc11ec612e5e613af13",
+      "bytes": 11468
+    },
+    {
+      "source_path": "app/src/scenes/testcard.ts",
+      "local_path": "app/src/scenes/testcard.ts",
+      "sha256": "4c30e1a1980ef82a4d5d38ce2a609a6cf409963f87ca1a2232d449bf869baf93",
+      "bytes": 4463
+    },
+    {
+      "source_path": "app/src/spreads/corrections.ts",
+      "local_path": "app/src/spreads/corrections.ts",
+      "sha256": "34e20c2cbdaba94f7d395d845ad465cacf568e85541c16a16d4572d15fcf2e36",
+      "bytes": 20188
+    },
+    {
+      "source_path": "app/src/spreads/coverstory.ts",
+      "local_path": "app/src/spreads/coverstory.ts",
+      "sha256": "12d9f603393ed1e220de6e3fc95219af904da8286b97c8b178123d4c14ae05b8",
+      "bytes": 31215
+    },
+    {
+      "source_path": "app/src/spreads/contactsheet.ts",
+      "local_path": "app/src/spreads/contactsheet.ts",
+      "sha256": "d3ef677477b482735de611ac93b4ed1501e1bd25c8e297c64ac7f6008532b11f",
+      "bytes": 40725
+    },
+    {
+      "source_path": "app/src/spreads/classifieds.ts",
+      "local_path": "app/src/spreads/classifieds.ts",
+      "sha256": "2a375168d435542675fef95934f316168c126370b73b5530ca30576f6ccf0044",
+      "bytes": 20098
+    },
+    {
+      "source_path": "app/src/scenes/magazine/schedule.ts",
+      "local_path": "app/src/scenes/magazine/schedule.ts",
+      "sha256": "552c71e2d055fb5d0af83a47edee9d76c085f61976ec54baf3cc46b3024e3c61",
+      "bytes": 9054
+    },
+    {
+      "source_path": "app/src/spreads/insideback.ts",
+      "local_path": "app/src/spreads/insideback.ts",
+      "sha256": "3e7818702a0003fc9a0a132b2ddfa676ba3dcda7a6b16bfb65783c82458b3c58",
+      "bytes": 5765
+    },
+    {
+      "source_path": "app/src/spreads/perfume.ts",
+      "local_path": "app/src/spreads/perfume.ts",
+      "sha256": "e628bf66b2bdc6f3b5e8a043b58ad1a41938421ce37ebec0cd6b28f23265acb8",
+      "bytes": 15961
+    },
+    {
+      "source_path": "app/src/spreads/cues.ts",
+      "local_path": "app/src/spreads/cues.ts",
+      "sha256": "d68c3d8c034f11571a06147aa3ee5803a8893ed55625b3b4f6b94074936ff1c5",
+      "bytes": 3564
+    },
+    {
+      "source_path": "app/src/spreads/flatplan.ts",
+      "local_path": "app/src/spreads/flatplan.ts",
+      "sha256": "5b0379c20a98cc363c253f3e88222206a8390bcb6720eb5222e19525072cb0dc",
+      "bytes": 8035
+    },
+    {
+      "source_path": "app/src/spreads/marks.ts",
+      "local_path": "app/src/spreads/marks.ts",
+      "sha256": "eac51d65d8faf402f3b61743c6e90de9c239b54ccbd5877cfbd38320ef5a7589",
+      "bytes": 3690
+    },
+    {
+      "source_path": "app/src/spreads/memoriam.ts",
+      "local_path": "app/src/spreads/memoriam.ts",
+      "sha256": "3ce92f75d16f374e49ca7dfe55f599c1377dd24cf5156ce5ec0288b32dc4869b",
+      "bytes": 29092
+    },
+    {
+      "source_path": "app/src/spreads/registry.ts",
+      "local_path": "app/src/spreads/registry.ts",
+      "sha256": "fa266f081bc5460ef71fd927b4b5f4617e8654386facfb080dc62ec8dc9c20f9",
+      "bytes": 4029
+    },
+    {
+      "source_path": "app/src/spreads/ransom.ts",
+      "local_path": "app/src/spreads/ransom.ts",
+      "sha256": "822f09028961839410d17cb2e94a3e498da7170251db8283546d7f272277f6d3",
+      "bytes": 39109
+    },
+    {
+      "source_path": "app/src/spreads/getthelook.ts",
+      "local_path": "app/src/spreads/getthelook.ts",
+      "sha256": "aca639b6ad6cff83d09196eb82626099c6733a043d451cd98683652b293579a8",
+      "bytes": 24453
+    },
+    {
+      "source_path": "app/src/spreads/shots.ts",
+      "local_path": "app/src/spreads/shots.ts",
+      "sha256": "4e036ef31f9423d24ba6d257998c2bd11f3b76ede2dd8f15c29d53f0b6df864f",
+      "bytes": 16542
+    },
+    {
+      "source_path": "app/src/spreads/specimen.ts",
+      "local_path": "app/src/spreads/specimen.ts",
+      "sha256": "4fd733886a396355c5b17159ff397c80dd3df1b443aef90438b448a67d487481",
+      "bytes": 23460
+    },
+    {
+      "source_path": "app/src/spreads/spread.ts",
+      "local_path": "app/src/spreads/spread.ts",
+      "sha256": "5f970087a8d6c056b1be17543d41985b6e5d7918b101a726d8ad7b4ec1f25c8b",
+      "bytes": 9571
+    },
+    {
+      "source_path": "app/src/spreads/whoworeit.ts",
+      "local_path": "app/src/spreads/whoworeit.ts",
+      "sha256": "e866169096f066092dfa811a0fb7d98c3c0ba6c758dd5b9cb76c2a551ed6bc03",
+      "bytes": 28061
+    },
+    {
+      "source_path": "app/src/timeline.ts",
+      "local_path": "app/src/timeline.ts",
+      "sha256": "1ca6a62c781939ca1f65985d2322cd5c341f67451221a2c06a74b8e6b009edf0",
+      "bytes": 1250
+    },
+    {
+      "source_path": "app/tsconfig.json",
+      "local_path": "app/tsconfig.json",
+      "sha256": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762",
+      "bytes": 456
+    },
+    {
+      "source_path": "docs/ENGINE.md",
+      "local_path": "docs/ENGINE.md",
+      "sha256": "e200f4948c2dd43dbb0c1da0e34c18c16d07432b3bf37168e4e88cb850a73717",
+      "bytes": 56101
+    },
+    {
+      "source_path": "app/src/spreads/placeholder.ts",
+      "local_path": "app/src/spreads/placeholder.ts",
+      "sha256": "5c2b94dd547d62144f10abf50ad2eb4745aee5090a22d5433a8a9a41e06c5ad5",
+      "bytes": 3258
+    },
+    {
+      "source_path": "docs/TREATMENT.md",
+      "local_path": "docs/TREATMENT.md",
+      "sha256": "585f43bd4a27c27f835977ec0d92b8e8d15499ede81551648e348a33d136e88c",
+      "bytes": 25248
+    },
+    {
+      "source_path": "app/vite.config.ts",
+      "local_path": "app/vite.config.ts",
+      "sha256": "c21d485ab9a0015ac16d634c0bbf5f94c0820ecf186640a4070f6bf5d7ea69e7",
+      "bytes": 1851
+    }
+  ]
+}

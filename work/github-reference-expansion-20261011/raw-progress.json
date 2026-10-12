@@ -1,0 +1,36 @@
+[
+  {
+    "repo": "sanjuhs/opus-5.5-film-experiment-with-animation",
+    "completed": 16,
+    "planned": 17,
+    "failed": [
+      {
+        "path": "audio/final_mix.wav",
+        "error": "curl: (28) Operation timed out after 180020 milliseconds with 6144000 out of 25020620 bytes received\r\ncurl: (28) Operation timed out after 180005 milliseconds with 3190144 out of 25020620 bytes received\r\n"
+      }
+    ]
+  },
+  {
+    "repo": "Salmisaari/eudoom-video",
+    "completed": 410,
+    "planned": 410,
+    "failed": []
+  },
+  {
+    "repo": "jacobbubu/claude-opus-5-5-js-animation-research",
+    "completed": 60,
+    "planned": 61,
+    "failed": [
+      {
+        "path": "media/26-xikhar-2103995292983193600.mp4",
+        "error": "curl: (28) Operation timed out after 180025 milliseconds with 21610496 out of 40695195 bytes received\r\ncurl: (28) Operation timed out after 180000 milliseconds with 13128128 out of 40695195 bytes received\r\n"
+      }
+    ]
+  },
+  {
+    "repo": "guanmo-ai/awesome-ai-motion",
+    "completed": 23,
+    "planned": 23,
+    "failed": []
+  }
+]

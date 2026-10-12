@@ -1,0 +1,18 @@
+{
+  "name": "animation-video-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.71 preview",
+    "check": "npx --yes hyperframes@0.8.71 check",
+    "render": "npx --yes hyperframes@0.8.71 render",
+    "publish": "npx --yes hyperframes@0.8.71 publish",
+    "cues": "node tools/extract-cues.mjs",
+    "soundtrack": "uv run tools/make-bgm.py",
+    "thumbnail": "node tools/thumbnail.mjs",
+    "render:4k": "npx --yes hyperframes@0.8.71 render -f 24 -q high --resolution landscape-4k -o renders/how-makefx-works-4k.mp4"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24"
+  }
+}

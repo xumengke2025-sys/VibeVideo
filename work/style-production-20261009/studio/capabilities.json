@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "skill_version": "0.7.0",
+  "evidence_project": "D:\\ai项目\\ai动画\\VibeVideo项目",
+  "outputs": [
+    {
+      "clip": "blueprint-proof",
+      "video": "work\\style-production-20261009\\studio\\out-approved\\blueprint-proof\\blueprint-proof.mp4",
+      "sha256": "42578a7c3e1c066abaa93a3a652535079135f7eea62261c01b60f5adb661bae0",
+      "rendered": true,
+      "media_decode_pass": true,
+      "sampled_sequence_observed": true,
+      "sampled_frames": 55,
+      "seek_same_page_forward_reverse_and_fresh_page": true,
+      "seek_fresh_browser_process": false,
+      "realtime_playback": false,
+      "listened": false,
+      "review": "work\\style-production-20261009\\studio\\out-approved\\blueprint-proof\\review\\observations.json",
+      "source": [
+        {
+          "path": "index.html",
+          "sha256": "35be1d9e69bc3657f83fc1f6d124655d903eeee4f13d58ccdaf2b2504d063438"
+        },
+        {
+          "path": "film.mjs",
+          "sha256": "d152d98e4889733507167162e58b81aeff0d61d448099d7eea103da21d472189"
+        },
+        {
+          "path": "timeline.mjs",
+          "sha256": "3347d9c35c57c301769080d913e4c2e8f1ca46b6dd410f6d8e52c5de8c29cc6e"
+        },
+        {
+          "path": "render.mjs",
+          "sha256": "f2cb8aee318e711f0318a91878ca77291917537e37b7664245169b9a4c8c494b"
+        },
+        {
+          "path": "clips/blueprint-proof.json",
+          "sha256": "e65b1399e5ba3e9333ed41cc38692801b974fa942d16a89e9e713245527b8b3a"
+        }
+      ]
+    },
+    {
+      "clip": "dataviz-proof",
+      "video": "work\\style-production-20261009\\studio\\out-approved\\dataviz-proof\\dataviz-proof.mp4",
+      "sha256": "ed3729c138df82f89fdc84ecc0e5b350845e555520e640c9611820da97c32bfb",
+      "rendered": true,
+      "media_decode_pass": true,
+      "sampled_sequence_observed": true,
+      "sampled_frames": 45,
+      "seek_same_page_forward_reverse_and_fresh_page": true,
+      "seek_fresh_browser_process": false,
+      "realtime_playback": false,
+      "listened": false,
+      "review": "work\\style-production-20261009\\studio\\out-approved\\dataviz-proof\\review\\observations.json",
+      "source": [
+        {
+          "path": "index.html",
+          "sha256": "35be1d9e69bc3657f83fc1f6d124655d903eeee4f13d58ccdaf2b2504d063438"
+        },
+        {
+          "path": "film.mjs",
+          "sha256": "d152d98e4889733507167162e58b81aeff0d61d448099d7eea103da21d472189"
+        },
+        {
+          "path": "timeline.mjs",
+          "sha256": "3347d9c35c57c301769080d913e4c2e8f1ca46b6dd410f6d8e52c5de8c29cc6e"
+        },
+        {
+          "path": "render.mjs",
+          "sha256": "f2cb8aee318e711f0318a91878ca77291917537e37b7664245169b9a4c8c494b"
+        },
+        {
+          "path": "clips/dataviz-proof.json",
+          "sha256": "1c32ad436ad8224774278403ff19bdaee1b79706bdb4ac061320b4098e2ae34a"
+        }
+      ]
+    },
+    {
+      "clip": "one-way",
+      "video": "work\\style-production-20261009\\studio\\out-approved\\one-way\\one-way.mp4",
+      "sha256": "e11f158decf13ff6ea148384285ac76b63df7210f597f50cf54bb70dcad01703",
+      "rendered": true,
+      "media_decode_pass": true,
+      "sampled_sequence_observed": true,
+      "sampled_frames": 77,
+      "seek_same_page_forward_reverse_and_fresh_page": true,
+      "seek_fresh_browser_process": false,
+      "realtime_playback": false,
+      "listened": false,
+      "review": "work\\style-production-20261009\\studio\\out-approved\\one-way\\review\\observations.json",
+      "source": [
+        {
+          "path": "index.html",
+          "sha256": "35be1d9e69bc3657f83fc1f6d124655d903eeee4f13d58ccdaf2b2504d063438"
+        },
+        {
+          "path": "film.mjs",
+          "sha256": "d152d98e4889733507167162e58b81aeff0d61d448099d7eea103da21d472189"
+        },
+        {
+          "path": "timeline.mjs",
+          "sha256": "3347d9c35c57c301769080d913e4c2e8f1ca46b6dd410f6d8e52c5de8c29cc6e"
+        },
+        {
+          "path": "render.mjs",
+          "sha256": "f2cb8aee318e711f0318a91878ca77291917537e37b7664245169b9a4c8c494b"
+        },
+        {
+          "path": "clips/one-way.json",
+          "sha256": "ae03122de4d3e20ad8f86b645da6b36ddf5e5fed14b9cab5e5fb2e9e7c5c9799"
+        }
+      ]
+    },
+    {
+      "clip": "dataviz-variant",
+      "video": "work\\style-production-20261009\\studio\\out-approved\\dataviz-variant\\dataviz-variant.mp4",
+      "sha256": "fdcb0dce0d2b02edbe5058c850e9e81d71d09b4e5b11fe9b97c6ed8e00556a9e",
+      "rendered": true,
+      "media_decode_pass": true,
+      "sampled_sequence_observed": true,
+      "sampled_frames": 45,
+      "seek_same_page_forward_reverse_and_fresh_page": true,
+      "seek_fresh_browser_process": false,
+      "realtime_playback": false,
+      "listened": false,
+      "review": "work\\style-production-20261009\\studio\\out-approved\\dataviz-variant\\review\\observations.json",
+      "source": [
+        {
+          "path": "index.html",
+          "sha256": "35be1d9e69bc3657f83fc1f6d124655d903eeee4f13d58ccdaf2b2504d063438"
+        },
+        {
+          "path": "film.mjs",
+          "sha256": "d152d98e4889733507167162e58b81aeff0d61d448099d7eea103da21d472189"
+        },
+        {
+          "path": "timeline.mjs",
+          "sha256": "3347d9c35c57c301769080d913e4c2e8f1ca46b6dd410f6d8e52c5de8c29cc6e"
+        },
+        {
+          "path": "render.mjs",
+          "sha256": "f2cb8aee318e711f0318a91878ca77291917537e37b7664245169b9a4c8c494b"
+        },
+        {
+          "path": "clips/dataviz-variant.json",
+          "sha256": "56f8b50ceff0a441fceace4f8683cf9516e7880e4532e6a46b2452e00a898128"
+        }
+      ]
+    }
+  ],
+  "validated_capabilities": {
+    "blueprint": [
+      "section sweep",
+      "housing separation and reassembly",
+      "disc/spring/gap linkage",
+      "world-space notes"
+    ],
+    "dataviz": [
+      "eight-point draw and trace",
+      "input-derived maximum",
+      "line-to-zero-baseline bars",
+      "alternate values/scale/maximum position rebuild"
+    ]
+  },
+  "limitations": [
+    "Simplified axial valve schematic; no engineering dimensions or fluid simulation.",
+    "Fictitious labeled data, no statistical inference.",
+    "No realtime playback or listening performed.",
+    "No fresh-browser-process seek test.",
+    "No original lemo-opuscar film viewed or reproduced."
+  ]
+}

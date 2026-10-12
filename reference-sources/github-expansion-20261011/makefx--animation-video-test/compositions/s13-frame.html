@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s13-root { position: absolute; inset: 0; }
+        #s13-panel { left: 120px; top: 590px; width: 760px; height: 118px; }
+        .s13-f { position: absolute; top: 22px; width: 76px; height: 43px; border-radius: 6px; overflow: hidden; box-shadow: 0 0 0 1.5px var(--k-line); }
+        .s13-f svg { display: block; width: 100%; height: 100%; }
+        #s13-rail { left: 24px; top: 80px; width: 490px; height: 4px; border-radius: 2px; background: var(--k-ink-4); }
+        #s13-head { width: 4px; height: 76px; border-radius: 2px; background: var(--k-accent); }
+        #s13-knob { position: absolute; left: -6px; top: 58px; width: 16px; height: 16px; border-radius: 50%; background: var(--k-accent); }
+        #s13-tc { left: 24px; top: 88px; font-size: 18px; color: var(--k-ink-2); }
+        #s13-btn { left: 548px; top: 36px; font-size: 22px; padding: 14px 22px; }
+        #s13-recipe { font-size: 19px; }
+        #s13-slot { font-size: 18px; }
+      </style>
+      <div id="s13-root" data-composition-id="s13-frame" data-width="1920" data-height="1080">
+        <div id="s13-scene" class="k-scene">
+          <div id="s13-panel" class="k-panel">
+            <div id="s13-rail" class="k-abs"></div>
+            <div id="s13-play" class="k-abs"><div id="s13-head"></div><div id="s13-knob"></div></div>
+            <div id="s13-tc" class="k-abs k-mono">00:00.0 / 00:08.0</div>
+            <div id="s13-btn" class="k-button">Pull frame · 0 cr</div>
+          </div>
+          <div id="s13-recipe" class="k-pill">image/frame · t 4.8 s · 0 cr</div>
+          <div id="s13-slot" class="k-chip">start_frame</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s13-scene");
+          const panel = document.getElementById("s13-panel");
+
+          // The video, selected: its frames stacked so scrubbing changes what it shows.
+          const BOATS = [-40, -22, -4, 14, 32, 50], PICK = 3;
+          const video = K.card(scene, { id: "s13-video", left: 120, top: 210, scale: 1.9, name: "harbour flight", cr: "80 cr", state: "selected" });
+          const layers = BOATS.map((b, i) => K.el(K.part(video, "k-thumb"), "div", { class: "k-abs", style: { inset: "0", opacity: i ? 0 : 1 } }, K.harbourArt({ boat: b })));
+          // The scrub strip: six frames over the rail.
+          BOATS.forEach((b, i) => K.el(panel, "div", { class: "s13-f", style: { left: 24 + i * 82.5 + "px" } }, K.harbourArt({ boat: b })));
+          const fx = (i) => 120 + 24 + i * 82.5 + 38; // frame centre, scene x
+          const PICKX = fx(PICK);
+
+          // The frame card and the next clip, where they will appear.
+          const frame = K.card(scene, { id: "s13-frame-card", left: 940, top: 230, scale: 1.7, art: K.harbourArt({ boat: BOATS[PICK] }), name: "frame 4.8 s", cr: "0 cr", state: "selected" });
+          const next = K.card(scene, { id: "s13-next", left: 1420, top: 600, scale: 1.6, name: "next clip", cr: "40 cr", state: "wait" });
+          const slot = document.getElementById("s13-slot");
+          scene.appendChild(slot); // above the card it labels
+          gsap.set(slot, { x: next.k.cx - 66, y: next.k.mediaCy - 16 });
+          const edge = K.edge(scene, `M${frame.k.left + frame.k.W} ${frame.k.mediaCy} C 1560 ${frame.k.mediaCy}, ${next.k.cx - 60} 460, ${next.k.cx} ${next.k.top}`, { alpha: 0.5 });
+          // The frame's source slot points back at the video: a faint reference edge.
+          K.edge(scene, `M${video.k.left + video.k.W} ${video.k.mediaCy} C ${video.k.left + video.k.W + 150} ${video.k.mediaCy}, ${frame.k.left - 150} ${frame.k.mediaCy}, ${frame.k.left} ${frame.k.mediaCy}`, { alpha: 0.2 });
+          K.el(scene, "div", { class: "k-abs k-micro", style: { left: (video.k.left + video.k.W + frame.k.left) / 2 - 36 + "px", top: (video.k.mediaCy + frame.k.mediaCy) / 2 - 34 + "px" } }).textContent = "source";
+
+          K.chrome(scene, tl, { title: "Pull a frame, free", step: 5, balance: "1,920 cr" });
+
+          // b0: the scrubber opens under the video
+          K.pop(tl, panel, 0);
+          // b1–b2: scrub to 4.8 s; the video shows each frame it passes; the timecode follows
+          const play = document.getElementById("s13-play"), tc = document.getElementById("s13-tc"), p = { u: 0 };
+          const x0 = 24, x1 = PICKX - 120 - 2;
+          gsap.set(play, { x: x0, y: 6 });
+          tl.fromTo(p, { u: 0 }, { u: 1, duration: 0.5, ease: K.easeMove, onUpdate: () => {
+            const x = x0 + (x1 - x0) * p.u, i = Math.max(0, Math.min(5, Math.round((x - 62) / 82.5)));
+            gsap.set(play, { x });
+            layers.forEach((l, k) => (l.style.opacity = k === i ? 1 : 0));
+            tc.textContent = `00:0${(4.8 * p.u).toFixed(1)} / 00:08.0`;
+          } }, K.t(1));
+          K.sound(tl, "tick", K.t(2));
+          // b3: pull frame; one press
+          tl.fromTo("#s13-btn", { scale: 1 }, { scale: 0.96, duration: 0.06, yoyo: true, repeat: 1, ease: "power1.out" }, K.t(3));
+          // b4: the frame arrives as its own card, and takes the selection
+          K.pop(tl, frame, 4);
+          K.ring(tl, video, "rest", K.t(4), { follow: true });
+          // b5: its recipe: an internal model, the time, and the price, nothing
+          const recipe = document.getElementById("s13-recipe");
+          Object.assign(recipe.style, { left: frame.k.left + "px", top: frame.k.bottom + 18 + "px" });
+          K.pop(tl, recipe, 5);
+          // b6: the next clip appears, waiting for a start frame
+          K.pop(tl, next, 6);
+          tl.fromTo(slot, { opacity: 0 }, { opacity: 1, duration: 0.16, data: "follow" }, K.t(6) + 0.06);
+          // b7: the frame fills its start_frame slot; the reference edge draws
+          K.draw(tl, edge, 7, 0.2);
+          K.pulse(tl, next, K.t(7) + 0.12, { back: "wait" });
+          tl.to(slot, { backgroundColor: "#f2c14e", color: "#1a1300", boxShadow: "0 0 0 0 rgba(0,0,0,0)", duration: 0.08, data: "follow" }, K.t(7) + 0.14);
+
+          K.focus(scene, tl, "s13", [
+            [0, 500, 670], [1, 330, 690], [2, PICKX, 690], [3, 780, 670],
+            [4, frame.k.cx, frame.k.mediaCy], [5, frame.k.cx, frame.k.bottom + 40], [6, next.k.cx, next.k.mediaCy], [7, 1560, 500],
+          ]);
+          K.check(tl, "s13");
+          window.__timelines["s13-frame"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

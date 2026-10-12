@@ -1,0 +1,93 @@
+{
+  "executable": "C:\\Users\\67236\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": {
+      "present": true,
+      "version": "2.3.5"
+    },
+    "Pillow": {
+      "present": true,
+      "version": "12.3.0"
+    },
+    "torch": {
+      "present": false,
+      "version": null
+    },
+    "torchaudio": {
+      "present": false,
+      "version": null
+    },
+    "demucs": {
+      "present": false,
+      "version": null
+    },
+    "librosa": {
+      "present": false,
+      "version": null
+    },
+    "scipy": {
+      "present": false,
+      "version": null
+    },
+    "soundfile": {
+      "present": false,
+      "version": null
+    },
+    "numba": {
+      "present": false,
+      "version": null
+    },
+    "faster-whisper": {
+      "present": false,
+      "version": null
+    },
+    "pypinyin": {
+      "present": false,
+      "version": null
+    },
+    "matplotlib": {
+      "present": false,
+      "version": null
+    },
+    "pedalboard": {
+      "present": false,
+      "version": null
+    },
+    "mido": {
+      "present": false,
+      "version": null
+    },
+    "fonttools": {
+      "present": false,
+      "version": null
+    },
+    "dashscope": {
+      "present": false,
+      "version": null
+    },
+    "requests": {
+      "present": false,
+      "version": null
+    },
+    "edge-tts": {
+      "present": false,
+      "version": null
+    },
+    "yt-dlp": {
+      "present": false,
+      "version": null
+    }
+  },
+  "smoke": {
+    "numpy": true,
+    "PIL": true
+  },
+  "opus_home": "C:\\Users\\67236\\opus-video",
+  "opus_home_exists": false,
+  "optional_api_env_present": {
+    "OPENAI_API_KEY": false,
+    "OPUS_IMAGE_KEY_FILE": false,
+    "DASHSCOPE_API_KEY": false
+  }
+}

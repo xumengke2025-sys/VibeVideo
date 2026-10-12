@@ -1,0 +1,23 @@
+[
+  {
+    "label": "upstream-wsl-flags",
+    "args": [
+      "--use-gl=angle",
+      "--use-angle=gl",
+      "--disable-accelerated-2d-canvas",
+      "--ignore-gpu-blocklist",
+      "--enable-gpu-rasterization"
+    ],
+    "webgl2": false
+  },
+  {
+    "label": "windows-d3d11",
+    "args": [
+      "--use-gl=angle",
+      "--use-angle=d3d11"
+    ],
+    "webgl2": true,
+    "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A788) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (Intel)"
+  }
+]

@@ -1,0 +1,23 @@
+node_modules/
+out/
+.DS_Store
+
+# VitePress 构建产物
+site/docs/.vitepress/cache/
+site/docs/.vitepress/dist/
+
+# 个人文件，不公开
+TODO.md
+private/
+.claude/
+
+# 构建时由 site/scripts/sync-demos.mjs 从 studio/templates 复制，唯一来源是 studio/templates
+site/docs/public/demos/tpl-*.html
+.venv/
+site/docs/public/demos/gps/
+# 可由 audio/tts.py 和 audio/mix.py 重新生成
+studio/examples/*/audio/*.wav
+
+# 参考片：仅个人学习，不入库、不发布
+studio/refs/
+studio/breakdowns/

@@ -1,0 +1,167 @@
+{
+  "cases": [
+    {
+      "name": "pending",
+      "expected": "reject",
+      "exit_code": 2,
+      "result": {
+        "ok": false,
+        "video_sha256": "b7d5f84612f1e891ef185b0b4488650e9011db9e22d87ef5fb98b2c07090f748",
+        "errors": [
+          "threshold/establish: missing note or evidence file",
+          "threshold/action: missing note or evidence file",
+          "threshold/result: missing note or evidence file",
+          "review is pending (must be based on actual observation)",
+          "unobserved/mismatched continuous window 12:36",
+          "unobserved/mismatched continuous window 45:57",
+          "missing timed dimension evidence: idea",
+          "missing timed dimension evidence: reveal",
+          "missing timed dimension evidence: motion",
+          "missing timed dimension evidence: camera",
+          "missing timed dimension evidence: composition",
+          "missing timed dimension evidence: correctness"
+        ],
+        "scope": "Evidence consistency only; actual observation and quality remain the reviewer responsibility."
+      }
+    },
+    {
+      "name": "observed",
+      "expected": "accept consistency only",
+      "exit_code": 2,
+      "result": {
+        "ok": false,
+        "video_sha256": "b7d5f84612f1e891ef185b0b4488650e9011db9e22d87ef5fb98b2c07090f748",
+        "errors": [
+          "unobserved/mismatched continuous window 12:36",
+          "unobserved/mismatched continuous window 45:57"
+        ],
+        "scope": "Evidence consistency only; actual observation and quality remain the reviewer responsibility."
+      }
+    },
+    {
+      "name": "observed-native-paths",
+      "expected": "accept consistency only",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "video_sha256": "b7d5f84612f1e891ef185b0b4488650e9011db9e22d87ef5fb98b2c07090f748",
+        "errors": [],
+        "scope": "Evidence consistency only; actual observation and quality remain the reviewer responsibility."
+      }
+    },
+    {
+      "name": "old-hash",
+      "expected": "reject",
+      "exit_code": 2,
+      "result": {
+        "ok": false,
+        "video_sha256": "b7d5f84612f1e891ef185b0b4488650e9011db9e22d87ef5fb98b2c07090f748",
+        "errors": [
+          "review hash does not match video"
+        ],
+        "scope": "Evidence consistency only; actual observation and quality remain the reviewer responsibility."
+      }
+    },
+    {
+      "name": "missing-continuous",
+      "expected": "reject",
+      "exit_code": 2,
+      "result": {
+        "ok": false,
+        "video_sha256": "b7d5f84612f1e891ef185b0b4488650e9011db9e22d87ef5fb98b2c07090f748",
+        "errors": [
+          "unobserved/mismatched continuous window 12:36",
+          "unobserved/mismatched continuous window 45:57"
+        ],
+        "scope": "Evidence consistency only; actual observation and quality remain the reviewer responsibility."
+      }
+    },
+    {
+      "name": "unviewed-pages",
+      "expected": "reject",
+      "exit_code": 2,
+      "result": {
+        "ok": false,
+        "video_sha256": "b7d5f84612f1e891ef185b0b4488650e9011db9e22d87ef5fb98b2c07090f748",
+        "errors": [
+          "unobserved/mismatched continuous window 12:36",
+          "unobserved/mismatched continuous window 45:57"
+        ],
+        "scope": "Evidence consistency only; actual observation and quality remain the reviewer responsibility."
+      }
+    },
+    {
+      "name": "no-risks-static-only",
+      "expected": "reject",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "video_sha256": "b7d5f84612f1e891ef185b0b4488650e9011db9e22d87ef5fb98b2c07090f748",
+        "errors": [],
+        "scope": "Evidence consistency only; actual observation and quality remain the reviewer responsibility."
+      }
+    },
+    {
+      "name": "idea-only-no-correctness",
+      "expected": "reject",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "video_sha256": "b7d5f84612f1e891ef185b0b4488650e9011db9e22d87ef5fb98b2c07090f748",
+        "errors": [],
+        "scope": "Evidence consistency only; actual observation and quality remain the reviewer responsibility."
+      }
+    },
+    {
+      "name": "invalid-weights",
+      "expected": "reject",
+      "exit_code": 2,
+      "result": {
+        "ok": false,
+        "video_sha256": "b7d5f84612f1e891ef185b0b4488650e9011db9e22d87ef5fb98b2c07090f748",
+        "errors": [
+          "dimension weights must sum to 100"
+        ],
+        "scope": "Evidence consistency only; actual observation and quality remain the reviewer responsibility."
+      }
+    },
+    {
+      "name": "stale-dynamic-hash",
+      "expected": "reject",
+      "exit_code": 2,
+      "result": {
+        "ok": false,
+        "video_sha256": "b7d5f84612f1e891ef185b0b4488650e9011db9e22d87ef5fb98b2c07090f748",
+        "errors": [
+          "unobserved/mismatched continuous window 12:36"
+        ],
+        "scope": "Evidence consistency only; actual observation and quality remain the reviewer responsibility."
+      }
+    }
+  ],
+  "index": {
+    "validate": {
+      "exit_code": 0
+    },
+    "recommend": {
+      "exit_code": 0
+    },
+    "mechanical-card": {
+      "exit_code": 0
+    },
+    "mixed-source": {
+      "exit_code": 0
+    },
+    "film-only": {
+      "exit_code": 0
+    }
+  },
+  "skill_hashes_at_test": {
+    "SKILL.md": "6dc6c050d0c551187532a4c270254b7397bf7247e84da65747324b91107cb14a",
+    "scripts\\creative_review.py": "8767cab885aaef8f461d54f3367fb311c9002f283040d5e045d6d7ccf97fd268",
+    "scripts\\shot_contract.py": "1e75f38f69311d505206c058f300876bd5f7679aa2b2d6930148ba3791506294",
+    "assets\\mechanical.mjs": "d6b142bfed13261e4ff79fc77a3a096ae69069baa6d4b16a709555b0ceb14db4",
+    "assets\\motion.mjs": "e8090b5f84579ededbb69d82189fc830a11b3674a33b2877464ffc18fa0af242"
+  },
+  "scope": "Exit status is evidence consistency, never proof of visual or motion quality."
+}

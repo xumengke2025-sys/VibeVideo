@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s09-root { position: absolute; inset: 0; }
+        #s09-win { left: 110px; top: 200px; width: 1700px; height: 830px; border-radius: 26px; background: #08080a; border: 5px solid var(--k-ink); box-shadow: 0 10px 0 var(--k-ink); overflow: hidden; }
+        #s09-chrome { height: 62px; background: #fffaf0; border-bottom: 5px solid var(--k-ink); display: flex; align-items: center; gap: 14px; padding: 0 24px; }
+        #s09-chrome i { width: 20px; height: 20px; border-radius: 50%; border: 4px solid var(--k-ink); display: block; }
+        #s09-url { margin-left: 18px; width: 620px; height: 38px; border-radius: 19px; border: 4px solid var(--k-ink); background: #f6efdf; font: 500 20px/30px var(--k-mono); color: var(--k-ink); padding: 0 18px; }
+        #s09-bal { margin-left: auto; font: 500 20px/1 var(--k-mono); color: var(--k-ink); }
+        #s09-grid { top: 62px; left: 0; right: 0; bottom: 0; background:
+          linear-gradient(rgba(245,245,244,.05) 1px, transparent 1px) 0 0 / 40px 40px,
+          linear-gradient(90deg, rgba(245,245,244,.05) 1px, transparent 1px) 0 0 / 40px 40px; }
+        .s09-old { width: 230px; height: 176px; border-radius: 14px; background: #0f0f13; border: 2px solid rgba(245,245,244,.22); overflow: hidden; }
+        .s09-old svg { display: block; opacity: .85; }
+        .s09-meta { height: 38px; font: 500 16px/38px var(--k-mono); color: #a8a8a3; padding: 0 14px; display: flex; justify-content: space-between; }
+        #s09-socket { left: 1270px; top: 128px; }
+        #s09-packet { padding: 4px 14px; border-radius: 999px; background: var(--k-accent); border: 3px solid var(--k-ink); font: 500 22px/1.2 var(--k-mono); color: var(--k-accent-ink); }
+        #s09-chip-a, #s09-chip-b { left: 1180px; top: 404px; }
+        #s09-price { left: 1284px; top: 790px; font-size: 26px; }
+      </style>
+      <div id="s09-root" data-composition-id="s09-lands" data-width="1920" data-height="1080">
+        <div id="s09-scene" class="k-scene k-warm">
+          <div id="s09-win" class="k-abs">
+            <div id="s09-chrome"><i></i><i></i><i></i><div id="s09-url">makefx.app/alv/salt-harbour</div><div id="s09-bal">1,920 cr</div></div>
+            <div id="s09-grid" class="k-abs"></div>
+          </div>
+          <svg id="s09-wire" class="k-abs" width="1920" height="1080" data-layout-allow-overflow>
+            <path id="s09-wire-path" d="M1334 176 C 1334 270, 1334 330, 1334 470" fill="none" stroke="#f2c14e" stroke-width="4" stroke-dasharray="3 10" stroke-linecap="round" />
+          </svg>
+          <div id="s09-socket" class="k-pill">socket</div>
+          <div id="s09-packet" class="k-abs">ready</div>
+          <div id="s09-chip-a" class="k-pill">generating</div>
+          <div id="s09-chip-b" class="k-pill k-amber">ready</div>
+          <div id="s09-price" class="k-pill k-amber">80 cr</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s09-scene");
+          K.grain(scene, "s09");
+          K.chrome(scene, tl, { title: "it lands, live", chapter: "4 · land", step: 4 });
+
+          // The space so far: product-styled cards and reference edges, all still.
+          const win = document.getElementById("s09-win");
+          const OLD = [[120, 110, -30, "still", "3 cr", "day"], [120, 420, 20, "still", "3 cr", "dusk"], [450, 260, 50, "clip", "40 cr", "day"], [450, 560, -10, "frame", "0 cr", "night"], [780, 400, 70, "clip", "40 cr", "dusk"]];
+          OLD.forEach(([x, y, boat, kind, cr, mood]) => {
+            K.el(win, "div", { class: "k-abs s09-old", "data-layout-allow-overflow": "", style: { left: x + "px", top: y + "px" } },
+              `<svg width="230" height="138" viewBox="24 24 172 104" preserveAspectRatio="xMidYMid slice">${K.harbourArt({ boat, mood })}</svg><div class="s09-meta"><span>${kind}</span><span>${cr}</span></div>`);
+          });
+          K.el(win, "svg", { class: "k-abs", "data-layout-allow-overflow": "", width: 1690, height: 820, style: { pointerEvents: "none" } },
+            ["M350 200 C 400 210, 410 320, 450 340", "M350 510 C 400 500, 410 380, 450 360",
+             "M680 350 C 730 350, 740 470, 780 480", "M680 650 C 730 650, 740 500, 780 500",
+             "M1010 480 C 1040 480, 1050 500, 1070 500"]
+              .map((d) => `<path d="${d}" stroke="rgba(245,245,244,.3)" stroke-width="2.5" fill="none"/>`).join(""));
+
+          // Canvas furniture: tool rail, zoom, minimap, an edge label, and you, watching.
+          K.el(win, "div", { class: "k-abs", style: { left: "20px", top: "92px", width: "64px", height: "300px", borderRadius: "16px", background: "#0f0f13", border: "2px solid rgba(245,245,244,.18)" } },
+            [0, 1, 2, 3, 4].map((i) => `<div style="position:absolute;left:16px;top:${18 + i * 56}px;width:28px;height:28px;border-radius:8px;border:2px solid rgba(245,245,244,${i === 0 ? ".8" : ".3"})"></div>`).join(""));
+          K.el(win, "div", { class: "k-abs k-mono", style: { left: "1540px", top: "86px", padding: "6px 14px", borderRadius: "10px", background: "#0f0f13", border: "2px solid rgba(245,245,244,.18)", color: "#a8a8a3", fontSize: "16px" } }).textContent = "− 100% +";
+          K.el(win, "div", { class: "k-abs", style: { left: "1460px", top: "640px", width: "200px", height: "130px", borderRadius: "12px", background: "#0f0f13", border: "2px solid rgba(245,245,244,.18)" } },
+            [[20, 20], [20, 60], [60, 40], [60, 80], [100, 60], [140, 60]].map(([x, y], i) => `<div style="position:absolute;left:${x}px;top:${y}px;width:${i === 5 ? 26 : 22}px;height:16px;border-radius:3px;background:${i === 5 ? "#f2c14e" : "rgba(245,245,244,.3)"}"></div>`).join("") +
+            '<div style="position:absolute;left:8px;top:10px;width:176px;height:106px;border:1.5px solid rgba(245,245,244,.4);border-radius:6px"></div>');
+          K.el(win, "div", { class: "k-abs k-mono", style: { left: "690px", top: "566px", padding: "3px 10px", borderRadius: "999px", background: "#1a1a20", color: "#a8a8a3", fontSize: "14px" } }).textContent = "start_frame";
+          K.cursor(scene, 1560, 700, "you");
+
+          // The protagonist, generating: eyes squeezed, progress bar along the thumb's bottom.
+          const S = 1.4, CL = 1180, CT = 470;
+          const cx = CL + 110 * S, thumbY = CT + 76 * S, feetY = CT + 202 * S;
+          const card = K.card(scene, { id: "s09-card", theme: "warm", left: CL, top: CT, scale: S, thumb: K.harbourArt({ boat: 12 }) });
+          const thumb = K.part(card, "k-thumb"), bar = K.part(card, "k-bar"), eyes = K.part(card, "k-eyes");
+          gsap.set(bar, { transformOrigin: "0 50%" });
+          gsap.set(eyes, { scaleY: 0.15, transformOrigin: "50% 50%" });
+
+          // b0–b1: the bar finishes
+          tl.fromTo(bar, { scaleX: 0.55 }, { scaleX: 1, duration: 0.5, ease: "power1.inOut" }, K.t(0));
+          // b2: a message comes down the socket
+          const packet = document.getElementById("s09-packet");
+          tl.fromTo(packet, { opacity: 0 }, { opacity: 1, duration: 0.03 }, K.t(2));
+          K.travel(tl, packet, document.getElementById("s09-wire-path"), 2, 0.25, "power2.in", 96, 38);
+          tl.to(packet, { opacity: 0, scale: 0.6, duration: 0.06, data: "follow" }, K.t(3) - 0.02);
+          // b3: the picture arrives, top to bottom
+          tl.fromTo(thumb, { clipPath: "inset(0 0 100% 0)" }, { clipPath: "inset(0 0 0% 0)", duration: 0.2, ease: "power2.out" }, K.t(3));
+          tl.to(bar, { opacity: 0, duration: 0.1, data: "follow" }, K.t(3));
+          const ring = K.part(card, "k-ring");
+          tl.fromTo(ring, { opacity: 0 }, { opacity: 1, duration: 0.05, data: "follow" }, K.t(3));
+          tl.to(ring, { opacity: 0, duration: 0.35, ease: "power1.in", data: "follow" }, K.t(3) + 0.1);
+          // b4: it lands, and opens its eyes
+          K.land(tl, card, K.t(4));
+          K.puff(tl, scene, cx, feetY, K.t(4), { spread: 110 });
+          tl.to(eyes, { scaleY: 1, duration: 0.12, ease: "back.out(3)", data: "follow" }, K.t(4) + 0.05);
+          // b5: generating → ready
+          tl.fromTo("#s09-chip-b", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.24, ease: "back.out(2.6)" }, K.t(5));
+          tl.to("#s09-chip-a", { opacity: 0, scale: 0.6, duration: 0.1, data: "follow" }, K.t(5));
+          K.sparkle(tl, scene, 1240, 420, K.t(5), { r: 60, n: 2, seed: 9 });
+          // b6: charged when it lands
+          K.pop(tl, "#s09-price", 6, { origin: "50% 0%" });
+          // b7: a small hop of relief
+          tl.to(card, { y: -26, duration: 0.12, ease: "power2.out" }, K.t(7));
+          tl.to(card, { y: 0, duration: 0.12, ease: "power2.in", data: "follow" }, K.t(7) + 0.12);
+
+          K.focus(scene, tl, "s09", [
+            [0, cx, thumbY + 60], [2, 1334, 250], [3, cx, thumbY], [4, cx, thumbY + 40],
+            [5, 1260, 424], [6, 1334, 810], [7, cx, thumbY + 20],
+          ]);
+          K.check(tl, "s09");
+          window.__timelines["s09-lands"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

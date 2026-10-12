@@ -1,0 +1,115 @@
+[
+  {
+    "id": "carina",
+    "local_path": "public/carina-nasa.png",
+    "kind": "real_observation",
+    "source_page": "https://science.nasa.gov/asset/webb/cosmic-cliffs-in-the-carina-nebula-nircam-image/",
+    "download_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2022/07/STScI-01GA6KKWG229B16K4Q38CH3BXS.png?fit=clip&w=3840",
+    "creator_credit": "NASA, ESA, CSA, STScI",
+    "reuse_basis": "Educational/informational use under the NASA media guidelines; source credit preserved; no NASA endorsement asserted.",
+    "reuse_reference": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "source_release_date": "2022-07-12",
+    "retrieved_at": "2026-10-07 Asia/Shanghai",
+    "derivatives": [
+      {
+        "type": "editorial_cover_crop",
+        "display_size": [
+          1920,
+          1080
+        ],
+        "max_scale": 1.24
+      },
+      {
+        "type": "six_vertical_editorial_slices",
+        "width_per_slice": 320,
+        "coordinate_space": [
+          1920,
+          1080
+        ],
+        "gray_source": "desaturation of published RGB image, not original filter observations",
+        "purpose": "illustrate alignment and color assignment only"
+      }
+    ],
+    "used_in": [
+      [
+        0,
+        89
+      ],
+      [
+        90,
+        179
+      ],
+      [
+        180,
+        299
+      ]
+    ],
+    "sha256": "9fce68469830c8437589a46a658e631286836d6072f1cacc25914b1bf8089215",
+    "bytes": 19913960,
+    "dimensions": [
+      3840,
+      2223
+    ],
+    "mode": "RGB"
+  },
+  {
+    "id": "optical-concept",
+    "local_path": "public/optical-mirror-concept.png",
+    "kind": "generated_concept",
+    "creator_credit": "Built-in imagegen in Codex",
+    "source_page": null,
+    "original_tool_output": "C:/Users/67236/.codex/generated_images/01a1166c-4f61-7bb3-9832-6d6668874450/exec-f4bc5563-7351-41d0-8589-252a88934411.png",
+    "prompt_file": "image-prompt.txt",
+    "reuse_basis": "User-authorized generation for this test project",
+    "generated_at": "2026-10-07 Asia/Shanghai",
+    "derivatives": [
+      {
+        "type": "frame-driven editorial placement",
+        "display_width": 1500,
+        "max_scale": 1.035,
+        "preserve_alpha": true,
+        "notes": "Intentional right-edge crop; two-dimensional motion, not a 3D reconstruction"
+      }
+    ],
+    "used_in": [
+      [
+        90,
+        179
+      ]
+    ],
+    "accuracy": "Conceptual instrument, not accurate named-spacecraft geometry",
+    "sha256": "9d906e6ab80f8367954ce5a2ee699f316e17c90cfa4c43c9cf917f7b75076a91",
+    "bytes": 1821586,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox": [
+      0,
+      0,
+      1598,
+      941
+    ]
+  },
+  {
+    "id": "sound",
+    "local_path": "public/study-sound.wav",
+    "kind": "original_code",
+    "creator_credit": "Original synthesis in make_sound.py",
+    "reuse_basis": "Created for this test",
+    "used_in": [
+      [
+        0,
+        299
+      ]
+    ],
+    "notes": "Test sound design, not commissioned music or narration",
+    "sha256": "9991b195cd2e568d4527c271eb57662a1dae22b34e41969fbb91584aaab799c4",
+    "bytes": 1764044
+  }
+]

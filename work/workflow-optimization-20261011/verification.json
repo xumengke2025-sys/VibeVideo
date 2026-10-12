@@ -1,0 +1,306 @@
+{
+  "kind": "skill/evidence checks, not creative video acceptance",
+  "checks": {
+    "historical_config_drafts": {
+      "active": false,
+      "files": [
+        {
+          "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\workflow-optimization-20261011\\config-draft\\.codex\\agents\\video-director.toml",
+          "sha256": "77cad8b9f04c88cde6268a9f16afec60ca736c74e505133ac3729de4f191eb86",
+          "syntax_valid": true
+        },
+        {
+          "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\workflow-optimization-20261011\\config-draft\\.codex\\agents\\video-reviewer.toml",
+          "sha256": "e55dd5ca9eadfc682b421435354f3d883c047642249b81591f26d2616ffc9b59",
+          "syntax_valid": true
+        },
+        {
+          "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\workflow-optimization-20261011\\config-draft\\.codex\\config.toml",
+          "sha256": "fc4adff65e3520a228121aae46c9b90c90fe628405a6279252659e3b3a696872",
+          "syntax_valid": true
+        }
+      ]
+    },
+    "model_configuration": {
+      "date": "2026-10-11",
+      "status": "withdrawn_at_user_request",
+      "active_project_model_configuration": false,
+      "reason": "User canceled dual-model configuration and requested all other project improvements remain implemented.",
+      "archived_files": [
+        {
+          "project_path": ".codex/config.toml",
+          "archive_path": "activation/withdrawn-config/.codex/config.toml"
+        },
+        {
+          "project_path": ".codex/agents/video-director.toml",
+          "archive_path": "activation/withdrawn-config/.codex/agents/video-director.toml"
+        },
+        {
+          "project_path": ".codex/agents/video-reviewer.toml",
+          "archive_path": "activation/withdrawn-config/.codex/agents/video-reviewer.toml"
+        }
+      ],
+      "role_model_policy": "Inherit the user's current model and reasoning settings; do not follow historical model dispatch instructions.",
+      "preserved": [
+        "portrait video format",
+        "reference transfer",
+        "creative failure conditions",
+        "key poses and shared anchors",
+        "semantic transitions",
+        "role handoff",
+        "independent all-frame and full-audio review",
+        "two repair round limit",
+        "review evidence consistency checker"
+      ],
+      "global_configuration_modified": false,
+      "new_video_generated": false,
+      "historical_activation_record": "activation/activation.json",
+      "effective_configuration_check": "activation/effective-config-after-withdrawal.json",
+      "effective_project_model_and_agents": {},
+      "effective_user_default_at_check": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "high"
+      },
+      "picker_catalog_check": "Standalone local app-server returned multiple non-hidden models and reasoning levels; no model invocation or desktop UI reproduction.",
+      "user_confirmation": "After withdrawal the user confirmed model switching works again.",
+      "causal_limit": "Restoration followed withdrawal; the precise error and failure mechanism were not captured."
+    },
+    "skill_sync_changed_files": [],
+    "skill_sync_total_compared": 774,
+    "update_files": [
+      {
+        "relative_path": "SKILL.md",
+        "sha256": "cba15bc1e0b0878d5f474c30b5d6945381558c06ae7af8333540b007b8708242"
+      },
+      {
+        "relative_path": "references/director-design.md",
+        "sha256": "4f2991c29c153ceab94fe874b541cb076fbee9d0853666a6041e60dd2789ef56"
+      },
+      {
+        "relative_path": "references/motion-craft.md",
+        "sha256": "27709e06685d2b7c99b11131639201c4af53431503c11a6e3ba5d6a34385b453"
+      },
+      {
+        "relative_path": "references/independent-av-review.md",
+        "sha256": "8e248e1e4b8e2e4a4213931f854f32e4fcad6d57f4221bc66b48f28982fdc175"
+      },
+      {
+        "relative_path": "references/reference-transfer.md",
+        "sha256": "844733f5985dce2db037520b2233b579fd699e873cf9782b9c225e6dc3b41c7d"
+      },
+      {
+        "relative_path": "references/role-orchestration.md",
+        "sha256": "45c04bd4174c3bcefb80d07ab078563bcc37670e6a511b82ae7674f2d7f8188d"
+      },
+      {
+        "relative_path": "scripts/check_av_review.py",
+        "sha256": "a29896f039fc77f0d4c21fff905a2b73c04be7dc6487ae9a0becf787d7df18c7"
+      }
+    ],
+    "snapshot_extra_files": [],
+    "local_links": {
+      "passed": true,
+      "count": 39
+    },
+    "quick_validate": {
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    "real_media_cli": {
+      "exit_code": 0,
+      "result": {
+        "evidence_consistent": true,
+        "review_verdict": "incomplete",
+        "visual_gaps": [
+          [
+            0,
+            191
+          ]
+        ],
+        "audio_gaps": [],
+        "errors": [],
+        "limitation": "Checks declared records and files only; cannot prove viewing, hearing, creative quality, or scientific correctness."
+      }
+    },
+    "synthetic_consistency_tests": {
+      "kind": "synthetic validation tests, not video acceptance",
+      "cases": [
+        {
+          "case": "complete declared ranges",
+          "passed": true,
+          "validator_accepts": true,
+          "detected": []
+        },
+        {
+          "case": "single missing frame",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "Pass declared with unreviewed frames"
+          ]
+        },
+        {
+          "case": "overlap merges without false gap",
+          "passed": true,
+          "validator_accepts": true,
+          "detected": []
+        },
+        {
+          "case": "stale media hash",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "Review hash does not match current video",
+            "visual_ranges[0]: evidence is not bound to the current media hash",
+            "audio_listened_ranges_seconds[0]: evidence is not bound to the current media hash",
+            "Pass declared with unreviewed frames",
+            "Pass declared without complete actual audio listening coverage"
+          ]
+        },
+        {
+          "case": "audio has small gap",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "Pass declared without complete actual audio listening coverage"
+          ]
+        },
+        {
+          "case": "ASR without listening range",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "Pass declared without complete actual audio listening coverage"
+          ]
+        },
+        {
+          "case": "audio present marked inapplicable",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "Audio track exists; cannot mark hearing not_applicable",
+            "Pass declared without complete actual audio listening coverage"
+          ]
+        },
+        {
+          "case": "unresolved major",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "Pass declared with unresolved blocker/major finding"
+          ]
+        },
+        {
+          "case": "resolved major",
+          "passed": true,
+          "validator_accepts": true,
+          "detected": []
+        },
+        {
+          "case": "out of range frame",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "visual_ranges[0]: invalid or out-of-bounds range",
+            "Pass declared with unreviewed frames"
+          ]
+        },
+        {
+          "case": "missing evidence file",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "visual_ranges[0]: evidence must name existing absolute file paths",
+            "Pass declared with unreviewed frames"
+          ]
+        },
+        {
+          "case": "count mismatch",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "Declared frame count does not match decoded frame count"
+          ]
+        },
+        {
+          "case": "honest incomplete is consistent",
+          "passed": true,
+          "validator_accepts": true,
+          "detected": []
+        },
+        {
+          "case": "silent without brief authorization",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "No audio track: explicit brief-based --allow-silent is required"
+          ]
+        },
+        {
+          "case": "intentional silent",
+          "passed": true,
+          "validator_accepts": true,
+          "detected": []
+        },
+        {
+          "case": "ASR-only falsely declared complete",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "audio_listened_ranges_seconds[0]: ASR/waveform/link/unknown methods cannot count as actual hearing",
+            "Pass declared without complete actual audio listening coverage"
+          ]
+        },
+        {
+          "case": "audio perception unavailable",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "Pass declared without an identified actual audio perception tool"
+          ]
+        },
+        {
+          "case": "old unrelated evidence binding",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "visual_ranges[0]: evidence is not bound to the current media hash",
+            "Pass declared with unreviewed frames"
+          ]
+        },
+        {
+          "case": "changed evidence hash",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "visual_ranges[0]: evidence hashes missing or changed",
+            "Pass declared with unreviewed frames"
+          ]
+        },
+        {
+          "case": "text evidence cannot be hearing",
+          "passed": true,
+          "validator_accepts": false,
+          "detected": [
+            "audio_listened_ranges_seconds[0]: evidence files have the wrong modality",
+            "Pass declared without complete actual audio listening coverage"
+          ]
+        }
+      ]
+    },
+    "independent_source_study": {
+      "report": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\workflow-optimization-20261011\\source-study\\RESEARCH.md",
+      "manifest": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\workflow-optimization-20261011\\source-study\\source-manifest.json",
+      "scope": "source read only, no upper film playback or hearing"
+    },
+    "new_video_quality": "not tested; no video generated this turn",
+    "doctor_metadata": {
+      "cli_version": "0.159.2",
+      "desktop_version": "26.1007.2314.0",
+      "existing_config_parse": "ok",
+      "active_thread_overrides": "not inspected",
+      "unrelated_global_setting": "disable_response_storage ignored; left unchanged"
+    },
+    "project_model_overrides_removed": true
+  }
+}

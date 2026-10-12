@@ -1,0 +1,1302 @@
+{
+  "title": "拿破仑在埃及 水墨短片修改时间契约",
+  "status": "v3_implemented_pending_actual_av_review",
+  "duration": 60,
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "aspect": "9:16",
+  "text": false,
+  "narration": false,
+  "map": false,
+  "renderThisTurn": true,
+  "detailDocument": "D:/ai项目/ai动画/VibeVideo项目/work/napoleon-egypt-ink-20261009/REVISION-PLAN-20261010.md",
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 4,
+      "intent": "脚跨艇舷落地，建立登陆",
+      "states": {
+        "establish": 0.4,
+        "action": 2.35,
+        "result": 3.3
+      },
+      "action": "靴抬起→接触湿沙→重心移到岸上",
+      "camera": {
+        "purpose": "微侧移后停在靴底接触",
+        "subjectId": "boot-contact",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "boat-rim",
+        "sand",
+        "water"
+      ],
+      "risks": [
+        [
+          2.1,
+          2.7
+        ]
+      ],
+      "implementation": "film-v3.mjs / generated full-pose assets, uniform group scale",
+      "reads": [
+        {
+          "at": 0.4,
+          "meaning": "establish"
+        },
+        {
+          "at": 2.35,
+          "meaning": "action"
+        },
+        {
+          "at": 3.3,
+          "meaning": "result"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "start": 4,
+      "end": 9,
+      "intent": "将军与队伍从艇进入陆地",
+      "states": {
+        "establish": 4.5,
+        "action": 6.2,
+        "result": 8.2
+      },
+      "action": "全身离艇→箱笼交岸→队伍进入内陆",
+      "camera": {
+        "purpose": "伴随将军，末段交给前排队伍",
+        "subjectId": "napoleon-land",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "landing-boat",
+        "landing-cast",
+        "crate",
+        "shore"
+      ],
+      "risks": [
+        [
+          4,
+          4.5
+        ],
+        [
+          7.3,
+          8.8
+        ]
+      ],
+      "implementation": "film-v3.mjs / generated full-pose assets, uniform group scale",
+      "reads": [
+        {
+          "at": 4.5,
+          "meaning": "establish"
+        },
+        {
+          "at": 6.2,
+          "meaning": "action"
+        },
+        {
+          "at": 8.2,
+          "meaning": "result"
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "start": 9,
+      "end": 14,
+      "intent": "军队在旱地中真正移动并发现前方威胁",
+      "states": {
+        "establish": 9.4,
+        "action": 11.2,
+        "result": 13.3
+      },
+      "action": "走过沟脊→触地尘土→停步看向前端",
+      "camera": {
+        "purpose": "低位侧后世界偏移跟拍，末段减速",
+        "subjectId": "infantry-lead",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "infantry-variants",
+        "terrain",
+        "distant-antiquity"
+      ],
+      "risks": [
+        [
+          12.5,
+          13.8
+        ]
+      ],
+      "implementation": "film-v3.mjs / generated full-pose assets, uniform group scale",
+      "reads": [
+        {
+          "at": 9.4,
+          "meaning": "establish"
+        },
+        {
+          "at": 11.2,
+          "meaning": "action"
+        },
+        {
+          "at": 13.3,
+          "meaning": "result"
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "start": 14,
+      "end": 19,
+      "intent": "法军从队列结成有内部空间的方阵",
+      "states": {
+        "establish": 14.4,
+        "action": 16.3,
+        "result": 18.2
+      },
+      "action": "列兵转位→刺刀向外→方阵完成骑兵逼近",
+      "camera": {
+        "purpose": "独立位置/目标轨迹升高揭示，末段停机",
+        "subjectId": "square-front",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "square-cast",
+        "cavalry-variants",
+        "flag",
+        "terrain"
+      ],
+      "risks": [
+        [
+          14.7,
+          17.5
+        ]
+      ],
+      "implementation": "film-v3.mjs / generated full-pose assets, uniform group scale",
+      "reads": [
+        {
+          "at": 14.4,
+          "meaning": "establish"
+        },
+        {
+          "at": 16.3,
+          "meaning": "action"
+        },
+        {
+          "at": 18.2,
+          "meaning": "result"
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "start": 19,
+      "end": 24,
+      "intent": "方阵守住骑兵冲击，陆上获胜",
+      "states": {
+        "establish": 19.5,
+        "action": 20.6,
+        "result": 23
+      },
+      "action": "骑兵接近→齐射受阻转向→骑兵退却方阵保持",
+      "camera": {
+        "purpose": "同侧斜全景固定读接触与结果",
+        "subjectId": "square-and-cavalry",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "square-cast",
+        "cavalry-variants",
+        "thin-smoke"
+      ],
+      "risks": [
+        [
+          20.3,
+          22.5
+        ]
+      ],
+      "implementation": "film-v3.mjs / generated full-pose assets, uniform group scale",
+      "reads": [
+        {
+          "at": 19.5,
+          "meaning": "establish"
+        },
+        {
+          "at": 20.6,
+          "meaning": "action"
+        },
+        {
+          "at": 23,
+          "meaning": "result"
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "start": 24,
+      "end": 28,
+      "intent": "将军看向完整军阵，旗立稳",
+      "states": {
+        "establish": 24.4,
+        "action": 25.6,
+        "result": 27.2
+      },
+      "action": "视线指向队伍→军旗重新立稳→布面受风",
+      "camera": {
+        "purpose": "侧移露出旗，目标由人物交给旗",
+        "subjectId": "napoleon-victory",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "flag",
+        "square-distance"
+      ],
+      "risks": [
+        [
+          25.4,
+          26.8
+        ]
+      ],
+      "implementation": "film-v3.mjs / generated full-pose assets, uniform group scale",
+      "reads": [
+        {
+          "at": 24.4,
+          "meaning": "establish"
+        },
+        {
+          "at": 25.6,
+          "meaning": "action"
+        },
+        {
+          "at": 27.2,
+          "meaning": "result"
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "start": 28,
+      "end": 33,
+      "intent": "锚泊舰队遭来自海面的进攻",
+      "states": {
+        "establish": 28.5,
+        "action": 31.1,
+        "result": 32.4
+      },
+      "action": "船列锚泊→进攻舰炮击→受击前帆破损",
+      "camera": {
+        "purpose": "舰间低位穿行，跟进攻舰后交给受击帆",
+        "subjectId": "attacking-ship",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "french-ships",
+        "anchor-ropes",
+        "intact-sails",
+        "damaged-sails",
+        "sea"
+      ],
+      "risks": [
+        [
+          29.3,
+          31.7
+        ]
+      ],
+      "implementation": "film-v3.mjs / generated full-pose assets, uniform group scale",
+      "reads": [
+        {
+          "at": 28.5,
+          "meaning": "establish"
+        },
+        {
+          "at": 31.1,
+          "meaning": "action"
+        },
+        {
+          "at": 32.4,
+          "meaning": "result"
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "start": 33,
+      "end": 38,
+      "intent": "断桅与残帆证明海上损失",
+      "states": {
+        "establish": 33.3,
+        "action": 34.1,
+        "result": 36.7
+      },
+      "action": "索具松→主桅折落→舰列损伤持续",
+      "camera": {
+        "purpose": "断点近景停机后退，目标交给损伤舰列",
+        "subjectId": "french-ship-A-mast",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "french-ships",
+        "broken-mast",
+        "damaged-sails",
+        "rigging",
+        "smoke",
+        "sea"
+      ],
+      "risks": [
+        [
+          33.7,
+          35.8
+        ]
+      ],
+      "implementation": "film-v3.mjs / generated full-pose assets, uniform group scale",
+      "reads": [
+        {
+          "at": 33.3,
+          "meaning": "establish"
+        },
+        {
+          "at": 34.1,
+          "meaning": "action"
+        },
+        {
+          "at": 36.7,
+          "meaning": "result"
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "start": 38,
+      "end": 43,
+      "intent": "考察者主动观察和测量古代结构",
+      "states": {
+        "establish": 38.6,
+        "action": 41.1,
+        "result": 42.2
+      },
+      "action": "通过门洞→调器具抬眼观察→助手记录",
+      "camera": {
+        "purpose": "伴随测量者过门洞，揭示建筑后停",
+        "subjectId": "standing-surveyor",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "assistant-paper",
+        "survey-tool",
+        "temple-doorway"
+      ],
+      "risks": [
+        [
+          39.4,
+          41.5
+        ]
+      ],
+      "implementation": "film-v3.mjs / generated full-pose assets, uniform group scale",
+      "reads": [
+        {
+          "at": 38.6,
+          "meaning": "establish"
+        },
+        {
+          "at": 41.1,
+          "meaning": "action"
+        },
+        {
+          "at": 42.2,
+          "meaning": "result"
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "start": 43,
+      "end": 49,
+      "intent": "石面被清理后露出刻痕，观察被记录",
+      "states": {
+        "establish": 43.5,
+        "action": 44.6,
+        "result": 48.3
+      },
+      "action": "石已在环境中→刷去尘土→手将形状分区记在纸上",
+      "camera": {
+        "purpose": "石面近景微退，接触停机，目标交纸",
+        "subjectId": "stone-and-hands",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "stone-face",
+        "brush-hand",
+        "pen-hand",
+        "paper",
+        "ruler",
+        "fort-rubble"
+      ],
+      "risks": [
+        [
+          44.3,
+          47.8
+        ]
+      ],
+      "implementation": "film-v3.mjs / generated full-pose assets, uniform group scale",
+      "reads": [
+        {
+          "at": 43.5,
+          "meaning": "establish"
+        },
+        {
+          "at": 44.6,
+          "meaning": "action"
+        },
+        {
+          "at": 48.3,
+          "meaning": "result"
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "start": 49,
+      "end": 55,
+      "intent": "将军登艇离开，守军仍在岸上",
+      "states": {
+        "establish": 49.5,
+        "action": 51.2,
+        "result": 54.4
+      },
+      "action": "走向艇→登艇转重心→划桨远离岸",
+      "camera": {
+        "purpose": "伴随背面人物后留在岸上，注意回岸",
+        "subjectId": "napoleon-depart",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "departure-tender",
+        "oars",
+        "shore-guards",
+        "distant-vessel",
+        "shore"
+      ],
+      "risks": [
+        [
+          50.6,
+          52.6
+        ]
+      ],
+      "implementation": "film-v3.mjs / generated full-pose assets, uniform group scale",
+      "reads": [
+        {
+          "at": 49.5,
+          "meaning": "establish"
+        },
+        {
+          "at": 51.2,
+          "meaning": "action"
+        },
+        {
+          "at": 54.4,
+          "meaning": "result"
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "start": 55,
+      "end": 60,
+      "intent": "空岸与潮水回收开场脚印",
+      "states": {
+        "establish": 55.4,
+        "action": 56.3,
+        "result": 58.6
+      },
+      "action": "脚印可见→潮水覆盖→空岸停留",
+      "camera": {
+        "purpose": "轻升退后57.8秒停机",
+        "subjectId": "shore-footprint",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "shore",
+        "water",
+        "distant-tender"
+      ],
+      "risks": [
+        [
+          55.6,
+          57.7
+        ]
+      ],
+      "implementation": "film-v3.mjs / generated full-pose assets, uniform group scale",
+      "reads": [
+        {
+          "at": 55.4,
+          "meaning": "establish"
+        },
+        {
+          "at": 56.3,
+          "meaning": "action"
+        },
+        {
+          "at": 58.6,
+          "meaning": "result"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "time": 4,
+      "kind": "action-cut",
+      "anchor": "同一靴与右上行进方向",
+      "window": [
+        3.7,
+        4.4
+      ]
+    },
+    {
+      "time": 9,
+      "kind": "occlusion-time-ellipsis",
+      "anchor": "近兵背囊与右上方向，明确地理省略",
+      "window": [
+        8.7,
+        9.5
+      ]
+    },
+    {
+      "time": 14,
+      "kind": "same-scene-cut",
+      "anchor": "同一前排兵与止步枪杆",
+      "window": [
+        13.7,
+        14.5
+      ]
+    },
+    {
+      "time": 19,
+      "kind": "same-axis-cut",
+      "anchor": "完整方阵和右上骑兵",
+      "window": [
+        18.6,
+        19.4
+      ]
+    },
+    {
+      "time": 24,
+      "kind": "result-cut",
+      "anchor": "法阵保持和将军视线",
+      "window": [
+        23.6,
+        24.5
+      ]
+    },
+    {
+      "time": 28,
+      "kind": "shape-hard-cut",
+      "anchor": "旗面/帆折线方向，非同一物体",
+      "window": [
+        27.6,
+        28.8
+      ]
+    },
+    {
+      "time": 33,
+      "kind": "detail-cut",
+      "anchor": "同一受击主桅和破帆状态",
+      "window": [
+        32.6,
+        33.5
+      ]
+    },
+    {
+      "time": 38,
+      "kind": "time-place-ellipsis",
+      "anchor": "海声退干风入，海战结果后独立考察",
+      "window": [
+        37.5,
+        38.8
+      ]
+    },
+    {
+      "time": 43,
+      "kind": "observation-cut",
+      "anchor": "观察/记录工作关系，另处清理现场",
+      "window": [
+        42.6,
+        43.6
+      ]
+    },
+    {
+      "time": 49,
+      "kind": "semantic-action-cut",
+      "anchor": "记录手落定到登艇手，非石碑装船",
+      "window": [
+        48.6,
+        49.7
+      ]
+    },
+    {
+      "time": 55,
+      "kind": "same-scene-cut",
+      "anchor": "同岸岩/足迹/艇去向",
+      "window": [
+        54.6,
+        55.5
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "v3-000",
+      "at": 1.625,
+      "target": "landing-boots",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.12
+      }
+    },
+    {
+      "id": "v3-001",
+      "at": 2.975,
+      "target": "landing-boots",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.12
+      }
+    },
+    {
+      "id": "v3-002",
+      "at": 4,
+      "target": "general",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-003",
+      "at": 4.625,
+      "target": "general",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-004",
+      "at": 5.25,
+      "target": "general",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-005",
+      "at": 5.875,
+      "target": "general",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-006",
+      "at": 6.5,
+      "target": "general",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-007",
+      "at": 7.125,
+      "target": "general",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-008",
+      "at": 7.75,
+      "target": "general",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-009",
+      "at": 8.375,
+      "target": "general",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-010",
+      "at": 9,
+      "target": "march",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-011",
+      "at": 9.575,
+      "target": "march",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-012",
+      "at": 10.15,
+      "target": "march",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-013",
+      "at": 10.725,
+      "target": "march",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-014",
+      "at": 11.3,
+      "target": "march",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-015",
+      "at": 11.875,
+      "target": "march",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-016",
+      "at": 12.45,
+      "target": "march",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-017",
+      "at": 13.025,
+      "target": "march",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-018",
+      "at": 13.6,
+      "target": "march",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-019",
+      "at": 14,
+      "target": "formation",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-020",
+      "at": 14.65,
+      "target": "formation",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-021",
+      "at": 15.3,
+      "target": "formation",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-022",
+      "at": 15.95,
+      "target": "formation",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-023",
+      "at": 16.6,
+      "target": "formation",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-029",
+      "at": 18.0,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-030",
+      "at": 18.29,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-031",
+      "at": 18.58,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-032",
+      "at": 18.87,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-033",
+      "at": 19.16,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-034",
+      "at": 19.45,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-035",
+      "at": 19.74,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-028",
+      "at": 19.8,
+      "target": "firing-line",
+      "sound": {
+        "kind": "齐射",
+        "offset": 0,
+        "gain": 0.17
+      }
+    },
+    {
+      "id": "v3-036",
+      "at": 20.03,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-037",
+      "at": 20.32,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-038",
+      "at": 20.61,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-039",
+      "at": 20.9,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-040",
+      "at": 21.19,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-041",
+      "at": 21.48,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-042",
+      "at": 21.77,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-043",
+      "at": 22.06,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-044",
+      "at": 22.35,
+      "target": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-024",
+      "at": 24,
+      "target": "general-result",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-025",
+      "at": 24.6,
+      "target": "general-result",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-026",
+      "at": 25.2,
+      "target": "general-result",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-027",
+      "at": 25.8,
+      "target": "general-result",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.065
+      }
+    },
+    {
+      "id": "v3-045",
+      "at": 30,
+      "target": "fleet",
+      "sound": {
+        "kind": "远炮",
+        "offset": 0,
+        "gain": 0.15
+      }
+    },
+    {
+      "id": "v3-046",
+      "at": 33.55,
+      "target": "mainmast",
+      "sound": {
+        "kind": "帆和木材受击",
+        "offset": 0,
+        "gain": 0.16
+      }
+    },
+    {
+      "id": "v3-047",
+      "at": 34.05,
+      "target": "mainmast",
+      "sound": {
+        "kind": "木断",
+        "offset": 0,
+        "gain": 0.18
+      }
+    },
+    {
+      "id": "v3-048",
+      "at": 35.7,
+      "target": "mast-water",
+      "sound": {
+        "kind": "水面闷响",
+        "offset": 0,
+        "gain": 0.17
+      }
+    },
+    {
+      "id": "v3-049",
+      "at": 43.15,
+      "target": "brush-hand",
+      "sound": {
+        "kind": "刷石",
+        "offset": 0,
+        "gain": 0.11
+      }
+    },
+    {
+      "id": "v3-050",
+      "at": 44.25,
+      "target": "brush-hand",
+      "sound": {
+        "kind": "刷石",
+        "offset": 0,
+        "gain": 0.11
+      }
+    },
+    {
+      "id": "v3-051",
+      "at": 45.35,
+      "target": "brush-hand",
+      "sound": {
+        "kind": "刷石",
+        "offset": 0,
+        "gain": 0.11
+      }
+    },
+    {
+      "id": "v3-052",
+      "at": 46.1,
+      "target": "writing-hand",
+      "sound": {
+        "kind": "笔端接触记录",
+        "offset": 0,
+        "gain": 0.1
+      }
+    },
+    {
+      "id": "v3-053",
+      "at": 47.3,
+      "target": "writing-hand",
+      "sound": {
+        "kind": "笔端接触记录",
+        "offset": 0,
+        "gain": 0.1
+      }
+    },
+    {
+      "id": "v3-054",
+      "at": 49.5,
+      "target": "boarding-general",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-055",
+      "at": 50.77,
+      "target": "boarding-general",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-056",
+      "at": 51.4,
+      "target": "boarding-general",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-057",
+      "at": 52.03,
+      "target": "boarding-general",
+      "sound": {
+        "kind": "footstep",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-058",
+      "at": 52.65,
+      "target": "bench-contact",
+      "sound": {
+        "kind": "纸边落定",
+        "offset": 0,
+        "gain": 0.07
+      }
+    },
+    {
+      "id": "v3-059",
+      "at": 54.1,
+      "target": "launch",
+      "sound": {
+        "kind": "划桨",
+        "offset": 0,
+        "gain": 0.09
+      }
+    },
+    {
+      "id": "v3-060",
+      "at": 56,
+      "target": "footprints",
+      "sound": {
+        "kind": "浅浪覆盖",
+        "offset": 0,
+        "gain": 0.12
+      }
+    }
+  ],
+  "presentationPolicy": {
+    "firstView": "user",
+    "beforeShow": [
+      "exists",
+      "decodable",
+      "correct_dimensions_duration",
+      "runtime_errors",
+      "audio_presence"
+    ],
+    "noAutonomousReview": true,
+    "afterFeedback": "modify named issue and show new playable version",
+    "oldVersionPreserved": true
+  },
+  "evidence": {
+    "sourceRead": true,
+    "rendered": true,
+    "watched": false,
+    "listened": false,
+    "visualAccepted": false
+  },
+  "visualAccepted": false,
+  "gait": {
+    "stride": 0.58,
+    "landingSpeed": 1.1,
+    "marchSpeed": 1.25,
+    "horseRate": 3.6799999999999997,
+    "oarPeriod": 1.1,
+    "oarOrigin": 52.5
+  },
+  "entry": "index-v3.html"
+}

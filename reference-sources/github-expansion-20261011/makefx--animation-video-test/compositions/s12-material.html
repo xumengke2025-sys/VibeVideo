@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s12-root { position: absolute; inset: 0; }
+        #s12-model { font-size: 20px; }
+        .s12-slot { font-size: 20px; background: #0c0c10; }
+        #s12-price { font-size: 22px; }
+        #s12-price b { color: var(--k-ink); font-weight: 500; }
+        #s12-charge { font-size: 20px; padding: 6px 14px; }
+      </style>
+      <div id="s12-root" data-composition-id="s12-material" data-width="1920" data-height="1080">
+        <div id="s12-scene" class="k-scene">
+          <div id="s12-model" class="k-pill">video/h3-max · two slots, one image each</div>
+          <div id="s12-slot-a" class="k-chip s12-slot">start_frame</div>
+          <div id="s12-slot-b" class="k-chip s12-slot">end_frame</div>
+          <div id="s12-price" class="k-pill">4 s · 480p · 10 cr/s = <b>40 cr</b></div>
+          <div id="s12-charge" class="k-pill k-amber">40 cr</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s12-scene");
+
+          // Material already in the space: a still and a frame pulled from a video.
+          const still = K.card(scene, { id: "s12-still", left: 330, top: 250, scale: 1.4, art: K.harbourArt({ boat: -20 }), name: "quay at low tide", cr: "3 cr" });
+          const frame = K.card(scene, { id: "s12-frame", left: 330, top: 590, scale: 1.4, art: K.harbourArt({ boat: 60, mood: "night" }), name: "last frame", cr: "0 cr" });
+
+          // The next clip, a draft on video/h3-max: no media yet, no price yet.
+          const next = K.card(scene, { id: "s12-next", left: 1000, top: 330, scale: 2.2, name: "next clip", cr: "40 cr", state: "hover" });
+          const N = next.k, right = still.k.left + still.k.W; // sources' right edge
+          const YA = 420, YB = 540; // where each reference meets the next clip's left edge
+          const edgeA = K.edge(scene, `M${right} ${still.k.mediaCy} C ${(right + N.left) / 2} ${still.k.mediaCy}, ${(right + N.left) / 2} ${YA}, ${N.left} ${YA}`, { alpha: 0.5 });
+          const edgeB = K.edge(scene, `M${right} ${frame.k.mediaCy} C ${(right + N.left) / 2} ${frame.k.mediaCy}, ${(right + N.left) / 2} ${YB}, ${N.left} ${YB}`, { alpha: 0.5 });
+
+          // The model's only two slots, named on the card; each chip sits at the target end of its edge.
+          const model = document.getElementById("s12-model");
+          Object.assign(model.style, { left: N.left + "px", top: N.top - 58 + "px" });
+          const slotA = document.getElementById("s12-slot-a"), slotB = document.getElementById("s12-slot-b");
+          const price = document.getElementById("s12-price"), charge = document.getElementById("s12-charge");
+          [slotA, slotB, price, charge].forEach((e) => scene.appendChild(e)); // above edges and cards
+          Object.assign(slotA.style, { left: N.left - 150 + "px", top: YA - 17 + "px" });
+          Object.assign(slotB.style, { left: N.left - 128 + "px", top: YB - 17 + "px" });
+          Object.assign(price.style, { left: N.left + "px", top: N.bottom + 22 + "px" });
+          gsap.set([slotA, slotB], { opacity: 0 });
+
+          // Media art bleeds past its viewBox by design; the thumb clips it.
+          scene.querySelectorAll(".k-thumb svg, .s15-fr svg").forEach((s) => s.setAttribute("data-layout-allow-overflow", ""));
+          K.chrome(scene, tl, { title: "Every asset is material", step: 5, balance: "1,920 cr" });
+
+          const fill = (chip, at) => {
+            K.sound(tl, "land", at);
+            tl.to(chip, { backgroundColor: "#f2c14e", color: "#1a1300", boxShadow: "0 0 0 1.5px rgba(242,193,78,0)", duration: 0.08, ease: "power1.out" }, at);
+          };
+
+          // b0: the still is picked
+          K.pulse(tl, still, K.t(0));
+          // b1: its reference edge draws into the next clip; the slot it fills is named at the end
+          K.draw(tl, edgeA, 1, 0.2);
+          tl.fromTo(slotA, { opacity: 0 }, { opacity: 1, duration: 0.08, data: "follow" }, K.t(1) + 0.14);
+          // b2: start_frame is filled, one image
+          fill(slotA, K.t(2));
+          // b3: the pulled frame is picked
+          K.pulse(tl, frame, K.t(3));
+          // b4: its edge draws to the other slot
+          K.draw(tl, edgeB, 4, 0.2);
+          tl.fromTo(slotB, { opacity: 0 }, { opacity: 1, duration: 0.08, data: "follow" }, K.t(4) + 0.14);
+          // b5: end_frame is filled; both slots the model has are taken
+          fill(slotB, K.t(5));
+          // b6: the next clip is quoted: 4 s at 10 cr/s
+          K.pop(tl, price, 6);
+          // b7: the 40 cr goes onto the card's meta row
+          const fromX = N.left + 330, fromY = N.bottom + 42, toX = N.left + N.W - 12 * N.s - 30, toY = N.bottom - 20 * N.s;
+          const path = K.el(K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } }), "path",
+            { d: `M${fromX} ${fromY} C ${fromX + 60} ${fromY}, ${toX} ${toY + 40}, ${toX} ${toY}`, fill: "none", stroke: "none" });
+          tl.fromTo(charge, { opacity: 0 }, { opacity: 1, duration: 0.04 }, K.t(7));
+          K.travel(tl, charge, path, 7, 0.16, K.easeMove, 76, 34);
+          tl.to(charge, { opacity: 0, duration: 0.05, data: "follow" }, K.t(7) + 0.16);
+          const cr = K.part(next, "k-cr");
+          tl.fromTo(cr, { opacity: 0 }, { opacity: 1, duration: 0.08, data: "follow" }, K.t(7) + 0.16);
+
+          K.focus(scene, tl, "s12", [
+            [0, still.k.cx, still.k.mediaCy], [1, N.left - 80, YA], [2, N.left - 80, YA], [3, frame.k.cx, frame.k.mediaCy],
+            [4, N.left - 70, YB], [5, N.left - 70, YB], [6, N.left + 200, N.bottom + 42], [7, toX - 20, toY],
+          ]);
+          K.check(tl, "s12");
+          window.__timelines["s12-material"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

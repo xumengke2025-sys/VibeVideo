@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s08-root { position: absolute; inset: 0; }
+        .s08-node .k-micro { position: absolute; left: 28px; top: 26px; }
+        .s08-name { position: absolute; left: 28px; top: 60px; font: 600 54px/1 var(--k-display); letter-spacing: -0.02em; color: var(--k-ink); white-space: nowrap; }
+        .s08-sub { position: absolute; left: 28px; top: 146px; font: 500 22px/1.2 var(--k-mono); color: var(--k-ink-2); white-space: nowrap; }
+        #s08-prov { left: 160px; top: 600px; width: 380px; height: 210px; }
+        #s08-wf { left: 700px; top: 310px; width: 520px; height: 210px; }
+        #s08-wf .s08-name { font-size: 48px; top: 64px; }
+        #s08-r2 { left: 1380px; top: 600px; width: 380px; height: 210px; }
+        #s08-done { left: 282px; top: 22px; font-size: 20px; }
+        #s08-rail { left: 28px; top: 160px; width: 324px; height: 6px; border-radius: 3px; background: var(--k-ink-4); overflow: hidden; }
+        #s08-fill { position: absolute; inset: 0; background: var(--k-accent); transform-origin: 0 50%; }
+        #s08-poll { left: 470px; top: 380px; }
+        #s08-none { left: 806px; top: 580px; font-size: 22px; }
+        #s08-key { left: 1200px; top: 860px; font-size: 24px; color: var(--k-ink); }
+      </style>
+      <div id="s08-root" data-composition-id="s08-stream" data-width="1920" data-height="1080">
+        <div id="s08-scene" class="k-scene">
+          <div id="s08-wf" class="k-panel s08-node">
+            <div class="k-micro">workflow · harbour flight</div>
+            <div class="s08-name">poll &amp; persist</div>
+            <div class="s08-sub">bytes returned · 0 B</div>
+          </div>
+          <div id="s08-prov" class="k-panel s08-node">
+            <div class="k-micro">provider</div>
+            <div class="s08-name">fal</div>
+            <div class="s08-sub">video/h3-max</div>
+            <div id="s08-done" class="k-chip">done</div>
+          </div>
+          <div id="s08-r2" class="k-panel s08-node">
+            <div class="k-micro">storage</div>
+            <div class="s08-name">r2</div>
+            <div id="s08-rail" class="k-abs"><div id="s08-fill"></div></div>
+          </div>
+          <div id="s08-poll" class="k-abs k-micro">poll</div>
+          <div id="s08-none" class="k-pill">no step returns bytes</div>
+          <div id="s08-key" class="k-pill"><span id="s08-key-t"></span></div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s08-scene");
+          const $ = (id) => document.getElementById(id);
+
+          // The stream's track: provider → r2, under the workflow, which it never enters.
+          const Y = 705, X0 = 540, X1 = 1380;
+          K.edge(scene, `M${X0} ${Y} L${X1} ${Y}`, { alpha: 0.12 });
+          const dotsSvg = K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } });
+          const N = 8, GAP = 0.035, RUN = 0.4;
+          const dots = Array.from({ length: N }, () => K.el(dotsSvg, "circle", { cx: X0, cy: Y, r: 7, fill: K.accent, opacity: 0 }));
+          // The poll: the workflow asks the provider; a control line, not a data line.
+          const poll = K.edge(scene, "M700 415 C 520 415, 350 450, 350 600", { alpha: 0.35 });
+          // Nodes above the stream, so the dots come out of the provider and go into r2.
+          ["s08-prov", "s08-r2", "s08-poll", "s08-none", "s08-key"].forEach((id) => scene.appendChild($(id)));
+
+          K.chrome(scene, tl, { title: "Bytes go straight to storage", step: 3, balance: "2,000 cr", held: "−80", animateStep: false });
+
+          // b0: the workflow's step starts: poll & persist; its ring warms
+          tl.fromTo("#s08-wf", { boxShadow: "0 0 0 1.5px rgba(255,255,255,.12), 0 24px 64px -24px rgba(0,0,0,.9)" },
+            { boxShadow: "0 0 0 1.5px rgba(242,193,78,.55), 0 24px 64px -24px rgba(0,0,0,.9)", duration: 0.12, ease: "power1.out" }, K.t(0));
+          // b1: it polls the provider
+          K.draw(tl, poll, 1, 0.22);
+          tl.fromTo("#s08-poll", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.16, data: "follow" }, K.t(1) + 0.06);
+          // b2: the provider answers: done
+          K.pop(tl, "#s08-done", 2);
+          // b3–b5: the bytes leave the provider and run straight to r2
+          K.sound(tl, "whoosh", K.t(3), { dur: RUN + GAP * (N - 1) });
+          const p = { t: 0 }, span = RUN + GAP * (N - 1);
+          const flow = () => dots.forEach((d, i) => {
+            const u = (p.t - i * GAP) / RUN;
+            d.setAttribute("cx", X0 + (X1 - X0) * Math.max(0, Math.min(1, u)));
+            d.setAttribute("opacity", u > 0 && u < 1 ? 1 : 0);
+          });
+          tl.fromTo(p, { t: 0 }, { t: span, duration: span, ease: "none", onUpdate: flow }, K.t(3));
+          // b4: they pass the workflow, which holds none
+          K.pop(tl, "#s08-none", 4);
+          // b5: they land in r2; it fills
+          K.land(tl, "#s08-r2", K.t(5));
+          tl.fromTo("#s08-fill", { scaleX: 0 }, { scaleX: 1, duration: 0.3, ease: "power1.out", data: "follow" }, K.t(5) - 0.08);
+          tl.to("#s08-fill", { backgroundColor: "rgba(245,245,244,.68)", duration: 0.16, data: "follow" }, K.t(6));
+          tl.to("#s08-wf", { boxShadow: "0 0 0 1.5px rgba(255,255,255,.12), 0 24px 64px -24px rgba(0,0,0,.9)", duration: 0.16, data: "follow" }, K.t(5));
+          // b6: the key it lands at types out under r2
+          K.type(tl, $("s08-key-t"), "media/{account}/{space}/{asset}.mp4", 6, 0.3);
+          tl.fromTo("#s08-key", { opacity: 0 }, { opacity: 1, duration: 0.04, data: "follow" }, K.t(6));
+          // b7: the key is the file's address; it lights once
+          K.sound(tl, "stamp", K.t(7));
+          tl.to("#s08-key", { backgroundColor: K.accent, color: "#1a1300", boxShadow: "0 0 0 0 rgba(0,0,0,0)", duration: 0.08, ease: "power1.out" }, K.t(7));
+
+          K.focus(scene, tl, "s08", [
+            [0, 960, 415], [1, 530, 440], [2, 380, 640], [3, 640, 705],
+            [4, 960, 602], [5, 1420, 705], [6, 1330, 882], [7, 1480, 882],
+          ]);
+          K.check(tl, "s08");
+          window.__timelines["s08-stream"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

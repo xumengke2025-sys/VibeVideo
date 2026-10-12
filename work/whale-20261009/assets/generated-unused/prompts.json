@@ -1,0 +1,28 @@
+{
+  "status": "unused-in-film",
+  "boundary_note": "用户能力边界于 2026-10-09 生效：本片成片不使用直接生图素材，画面全部由代码绘制。以下 4 张图在边界生效前生成，现仅作研究与比例参考留存，不进入成片、不进入任何交付版本。",
+  "tool": "Qoder 内置 imagegen",
+  "date": "2026-10-09",
+  "items": [
+    {
+      "file": "krill.png",
+      "intended_use": "开场磷虾微距（已弃用）",
+      "prompt": "Extreme macro underwater photograph of a single Antarctic krill (Euphausia superba), a tiny translucent shrimp-like crustacean about 5 cm long, floating in pitch-dark deep ocean water. Its delicate translucent body glows faintly cyan-white from backlight; visible dark compound eye, thin antennae, tiny feathery legs. A few marine snow specks drift around. Volumetric light from above, cinematic deep-sea documentary style, ultra sharp detail, deep navy-black background, centered composition with generous dark space around the creature. No text, no watermark, no illustration style."
+    },
+    {
+      "file": "mouth.png",
+      "intended_use": "巨口吞食主镜头（已弃用）",
+      "prompt": "Cinematic underwater photograph: a colossal blue whale lunge-feeding directly toward the camera, its enormous mouth wide open filling most of the frame. Jaws expanded, throat pleats stretching like an accordion, rows of baleen plates hanging from the upper jaw like a giant dark comb curtain. Seawater rushes inward with streaks of bubbles and swirling krill, the throat receding into blackness. Faint cyan rim light traces the lips and baleen edges, deep dark blue-black water, overwhelming sense of scale, photorealistic National Geographic deep-sea style. Portrait orientation. No text, no watermark."
+    },
+    {
+      "file": "rise.png",
+      "intended_use": "巨影上升揭示（已弃用）",
+      "prompt": "Cinematic underwater photograph, a colossal blue whale rising from pitch-black depths toward the viewer, seen from below and slightly in front. Its enormous head is mostly silhouetted against a faint blue glow from the distant surface light far above; subtle rim light traces the jawline and the tips of its long pectoral fins. The mouth is just beginning to open. Tiny krill specks swirl around. Deep indigo water, extremely dark moody exposure, sense of overwhelming scale, National Geographic deep-sea documentary style, portrait orientation. No text, no watermark."
+    },
+    {
+      "file": "glide.png",
+      "intended_use": "结尾全鲸游弋（已弃用）",
+      "prompt": "Cinematic wide underwater photograph, full side profile of a giant blue whale gliding slowly through a vast expanse of deep, dark blue water. Mottled blue-grey skin dimly lit from above by soft god rays, long slender body and tail flukes visible. Surrounded by huge empty darkness and drifting marine snow particles far away. Solemn, majestic, minimal composition with the whale centered, deep indigo-black palette, National Geographic style, ultra detailed skin texture. Portrait orientation. No text, no watermark."
+    }
+  ]
+}

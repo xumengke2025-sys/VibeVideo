@@ -1,0 +1,408 @@
+{
+  "version": "0.7.0",
+  "installed": "D:\\Codex\\skills\\vibe-video",
+  "snapshot": "D:\\ai项目\\ai动画\\VibeVideo项目\\skill\\vibe-video",
+  "files": [
+    {
+      "path": "agents\\openai.yaml",
+      "sha256": "9f210f2cf5a3bdfc27373ff62afa23b30c1781e6a48cfe9ea481e9603c9188c9"
+    },
+    {
+      "path": "assets\\cinematic-starter\\brief.json",
+      "sha256": "28e65717bb6e70c71c2b4b73d1cf24f64cf2da4691660b5b61a76b365b5078c1"
+    },
+    {
+      "path": "assets\\cinematic-starter\\camera-kit.mjs",
+      "sha256": "872790cdbd549b0c41d67010ebdc784e3c9d14ed6b2d10bc5fc590da2f2728c5"
+    },
+    {
+      "path": "assets\\cinematic-starter\\film.js",
+      "sha256": "fd4af4ebe6953512983576a601216c6588da3a6330d7a15cfc4fc74964c2ffb3"
+    },
+    {
+      "path": "assets\\cinematic-starter\\index.html",
+      "sha256": "b76c444599502bf83960f54b546d0657affb7d5d487fd083f62d4ff314fde6a6"
+    },
+    {
+      "path": "assets\\cinematic-starter\\package.json",
+      "sha256": "22b9aa48319343d6717fbbd4f6b7fbd3ac461cb1b722b841e28cecad01b60c72"
+    },
+    {
+      "path": "assets\\cinematic-starter\\render.mjs",
+      "sha256": "5edcf846ffd9fec096ee650db2e64299760d8ab361bf61b9b351afa5b927860c"
+    },
+    {
+      "path": "assets\\cinematic-starter\\score.py",
+      "sha256": "dccdf88c9467c1c7442ecd7eb791ae409c76acd2bb42822d2f3af0c064b710e5"
+    },
+    {
+      "path": "assets\\code-studies\\package.json",
+      "sha256": "f96986854001ebbcdce5bc84dbcbd1aef67864a6f914ccb826305a5e4249f91d"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\index.html",
+      "sha256": "9117c7a47f5f0faff9715089b0b9567ae067e710ccce94e394440a353203ddfd"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\astro.js",
+      "sha256": "b5581be9f567b01a1ba55a794c897400cc05ba0855646f560c93561eac8b9928"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\beach.js",
+      "sha256": "25a2b1d8c072880419f55c6e534185abd6556e8e4e05c352bcf438b39599e233"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\breakers.js",
+      "sha256": "205f35cc68499b497ecc26b8fc7cf0f2f50dd1ae038578ad38059b5f6c2ec613"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\build.js",
+      "sha256": "3eca838949e37b4cbc5f78e76b2eed48f9251019b60f32ac8d3fc7e10ed261df"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\core.js",
+      "sha256": "9cf3c37085638acb7416f9e910570f2031e1551ed8232f278b69d8a6962e51b3"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\crowd.js",
+      "sha256": "b89dbb0f3971b26c54b1dda9b5807940b6bc77ef3c18de99d0d32c495b9e4361"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\distance.js",
+      "sha256": "097aacb24da77f9de55558fbb538e56aba626600b812ed8a7b5cf40aab8227e7"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\field.js",
+      "sha256": "70bb8da3ec6695a0cb7299e7fc7ae99c4de890b5b81e848b7dc87043f02687f6"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\gear.js",
+      "sha256": "f711bce39561571278538fb31d3f8f6b96cdd255d17bf0e6ca19e10793a93764"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\inst.js",
+      "sha256": "f76afd811b2564aebce60dc46496c93f2953da94ccbaec1c828de3da43fe42a2"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\main.js",
+      "sha256": "c5b099782ee8d181dee0e467afea05229f0288cbaf9ed1f94d46fd7abedeaa5c"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\palette.js",
+      "sha256": "51893e5e45dd4686276c9fa841069c90bf499547cccf99766d833a14e0f051b8"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\park.js",
+      "sha256": "ab49e74219a17dfd563b496f454847ce364113e18f65e7337d00cf86d0e34169"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\people.js",
+      "sha256": "868cd869c6051c4728c17fde01f7fc24802bb1a7d32c91f486fe1fd22400bc35"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\pier.js",
+      "sha256": "913870cce3d357db7bc5be22a944b5e1a0608d19f15682434202248b438d668a"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\pierlife.js",
+      "sha256": "89cc44f100dd74a4fd9552694ae265aa06e3cf24810acacf411bab815c53500d"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\play.js",
+      "sha256": "707096a0eb8ac35f7dcc7ad1e0e877ae05faba58374f78f296925274233153b3"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\ribbons.js",
+      "sha256": "4d216100bb392576bfb77aa8c3e11b73f9df341d542a18a7737a904e525a9930"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\rigs.js",
+      "sha256": "104e7d696546e33289080cbaa5a73b3b94f3b42cb62da90e998f619697e39fd9"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\sea.js",
+      "sha256": "6440381baae451b6d0e4c0a795abcf6a16d62d458f3638a1be03d8693456e7f8"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\shore.js",
+      "sha256": "78381c7fb4853f9d72e2549e17ab10503ed62aadcb90243976dbabb79dd06ffe"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\site.js",
+      "sha256": "8056727cb8a3a43d2f2606e31e2f09f955b37dcd18204444a2b15413c7efd62f"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\sky.js",
+      "sha256": "392a3bedd796ee5a78610afd923465f7125fff790d176665ca7ec5453d4ff233"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\surf.js",
+      "sha256": "17b9aeef851d8b910f0ddba528d6261c41f593afd6e95a3e0a5ba5f919230c1b"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\text.js",
+      "sha256": "508f3ffd2c9c91fb0bc787bcb028738106e7de43d88d44029d4e09f8c77667f3"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\traffic.js",
+      "sha256": "ac3bfb0e975f4b9b6a2283ca56d71ba74c4599669157af332f6d4597a2c59d7b"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\trailer-audio.js",
+      "sha256": "81485514df573c0aa1e768e464b5b2ebdfd00732e71e1972c3a29360ec0613d3"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\trailer-shots.js",
+      "sha256": "d985b0579de42c93f958cf43d141f045bb3595e440330327408ce99f06b89162"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\trailer.js",
+      "sha256": "60caab0c416f3d5d6e8c87795c3fcfda2a08f39369cbc59ba347d8c2a7135dec"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\walk.js",
+      "sha256": "b9d3caafe5b54d1cac2533d49ab12cb326824b91a8cf01895523abfceb4ad079"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\water.js",
+      "sha256": "4d20c9cec53f4c464e0ae27fa23a00222017f4c79e6909c984f12074a9e2b4b7"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\js\\wildlife.js",
+      "sha256": "cbdbd1014decfd875b2401fd7622f6e7739328a8f4d0b15b5a02f25bd68c7359"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\LICENSE",
+      "sha256": "863ec388aa85ef90518993ae50cf7a0b7aa802cf448b8f951335819766f667d9"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\record.mjs",
+      "sha256": "cad4e8215474a1d51db5ddca410ab8f0d4de41f5727bb8698cb014183d102fda"
+    },
+    {
+      "path": "assets\\code-studies\\particle-beach\\SOURCE.json",
+      "sha256": "a792884238e8bfbce1e1b9abaaf22687683a61fa7d77b70905756b5b2fd28bea"
+    },
+    {
+      "path": "assets\\code-studies\\work-reel-26\\LICENSE",
+      "sha256": "a71d9f4f8c5dbe2c9f46decb2822800530c856dc1c16abb7831396f4bc8b441d"
+    },
+    {
+      "path": "assets\\code-studies\\work-reel-26\\skills\\kinetic-reel\\examples\\work-reel-26\\cues.js",
+      "sha256": "73633c965a0e5306d4479608a321434a8f8893600a9fd16132582c88186975af"
+    },
+    {
+      "path": "assets\\code-studies\\work-reel-26\\skills\\kinetic-reel\\examples\\work-reel-26\\reel.js",
+      "sha256": "f910485286611530f22fc84625318405c8a12ba4b6503e16988078de76bea38e"
+    },
+    {
+      "path": "assets\\code-studies\\work-reel-26\\skills\\kinetic-reel\\template\\reel\\index.html",
+      "sha256": "f5c0210fa5c1f4952df6d10872072b2f58fba9d66ada07f8e5e4db4f91a2443e"
+    },
+    {
+      "path": "assets\\code-studies\\work-reel-26\\SOURCE.json",
+      "sha256": "ab577d8be4707a0f7c9688fae55334c06500bbde4df90eb0374fd9dcd1159283"
+    },
+    {
+      "path": "assets\\CodeMotionStudy.jsx",
+      "sha256": "c649fb7b5ff3934726e3a50c4342ee1e169ae611a4d2e04613ae17b5d7b727ea"
+    },
+    {
+      "path": "assets\\continuity.mjs",
+      "sha256": "06a907ffc60ee51bf44be92e7352cae51aa7ffa2bbb00e5be1d0c9acab593b24"
+    },
+    {
+      "path": "assets\\motion.mjs",
+      "sha256": "e8090b5f84579ededbb69d82189fc830a11b3674a33b2877464ffc18fa0af242"
+    },
+    {
+      "path": "assets\\opus-gallery-LICENSE.txt",
+      "sha256": "953617edacce774a82a2aabf26964c6ed6f854f44e7c6777a121466ea2b703ca"
+    },
+    {
+      "path": "assets\\opus-gallery.json",
+      "sha256": "b7c2cf81f03a18a0ead07323545f16fba4cf7d4e5ec84f43c33322155b09500f"
+    },
+    {
+      "path": "assets\\sdf-glass-lab\\index.html",
+      "sha256": "c7e58ada8841ed0fb906971d0cfb8f6fbcd568121cdc704ef5403312195d2b30"
+    },
+    {
+      "path": "assets\\style-studio\\audit.py",
+      "sha256": "759dbffa5659d09e592116f0fb870fb435732caf74be003abb8898ac44e6ee50"
+    },
+    {
+      "path": "assets\\style-studio\\build.ps1",
+      "sha256": "1943d21c872bea5c1fcbb29ec573be5d2ad2c19bf89ab83df1dfbecad2ddc649"
+    },
+    {
+      "path": "assets\\style-studio\\capabilities.json",
+      "sha256": "46657ada8a7039c9c0df324adfa65079e46b15d1107abbaa949f58560da2f57e"
+    },
+    {
+      "path": "assets\\style-studio\\check.mjs",
+      "sha256": "8b24b46a42e51cc0d53a7dd2bd474edb5479ec05be4eadb595d979d37f8e643a"
+    },
+    {
+      "path": "assets\\style-studio\\clips\\blueprint-proof.json",
+      "sha256": "e65b1399e5ba3e9333ed41cc38692801b974fa942d16a89e9e713245527b8b3a"
+    },
+    {
+      "path": "assets\\style-studio\\clips\\dataviz-proof.json",
+      "sha256": "1c32ad436ad8224774278403ff19bdaee1b79706bdb4ac061320b4098e2ae34a"
+    },
+    {
+      "path": "assets\\style-studio\\clips\\dataviz-variant.json",
+      "sha256": "56f8b50ceff0a441fceace4f8683cf9516e7880e4532e6a46b2452e00a898128"
+    },
+    {
+      "path": "assets\\style-studio\\clips\\one-way.json",
+      "sha256": "ae03122de4d3e20ad8f86b645da6b36ddf5e5fed14b9cab5e5fb2e9e7c5c9799"
+    },
+    {
+      "path": "assets\\style-studio\\CREDITS.md",
+      "sha256": "d4faf52692a8634aa339dcf18e88ef03aac238ec9c09fab99b39ed0c54a161cd"
+    },
+    {
+      "path": "assets\\style-studio\\film.mjs",
+      "sha256": "d152d98e4889733507167162e58b81aeff0d61d448099d7eea103da21d472189"
+    },
+    {
+      "path": "assets\\style-studio\\index.html",
+      "sha256": "35be1d9e69bc3657f83fc1f6d124655d903eeee4f13d58ccdaf2b2504d063438"
+    },
+    {
+      "path": "assets\\style-studio\\package.json",
+      "sha256": "a4fb74802651fcb2826cfca60f439ce0cf594be68c9ca6a957cd7701f84d73a0"
+    },
+    {
+      "path": "assets\\style-studio\\README.md",
+      "sha256": "033e986a5aaaa0f6c9308329e9aba518481e78ddcb292f6acc01e5f87a2209ae"
+    },
+    {
+      "path": "assets\\style-studio\\render.mjs",
+      "sha256": "f2cb8aee318e711f0318a91878ca77291917537e37b7664245169b9a4c8c494b"
+    },
+    {
+      "path": "assets\\style-studio\\requirements.txt",
+      "sha256": "ee803130a97df61ddc693c1dcaf7aebdc151d0a8eb638a70a5be52de27143d17"
+    },
+    {
+      "path": "assets\\style-studio\\score.py",
+      "sha256": "6456d107afd85eb9feed2603c032a151a8c1603130b15511c0ec2709405920d9"
+    },
+    {
+      "path": "assets\\style-studio\\test-contract.mjs",
+      "sha256": "0a2dbd40705c19808b50d62029f83e3043569d1c2cf7ee2df1766401e4a845ce"
+    },
+    {
+      "path": "assets\\style-studio\\timeline.mjs",
+      "sha256": "3347d9c35c57c301769080d913e4c2e8f1ca46b6dd410f6d8e52c5de8c29cc6e"
+    },
+    {
+      "path": "assets\\style-studio\\variant.mjs",
+      "sha256": "13acc544d5aaf50d061e5f87883798261ac1ed34a8deb4021a5c81e3a04f7abf"
+    },
+    {
+      "path": "references\\art-direction.md",
+      "sha256": "2cfd17df31c9ba1c238b1e6cccff09f4181a947f35c2d8f3929a921561995921"
+    },
+    {
+      "path": "references\\asset-pipeline.md",
+      "sha256": "cd98f40ea3b96d256382d0430b4119c6ba9ee525f8ab8a0037961dd2f46cb1c8"
+    },
+    {
+      "path": "references\\capability-evidence.md",
+      "sha256": "bacea8e623c86511c31e4bee7ace948fc82844be5a0e783cabf8fe16c5398dcc"
+    },
+    {
+      "path": "references\\code-cinema.md",
+      "sha256": "2c0ac03587c614d2ecf13f1c9608a862c81af7a1e093cce01871300523ff347a"
+    },
+    {
+      "path": "references\\director-design.md",
+      "sha256": "484ecf7502b752af4f5ba582c52eae5b6b367bf245cb53a6ed7f417ad12fb2d9"
+    },
+    {
+      "path": "references\\event-timeline.md",
+      "sha256": "fd9e8ab4a1da92cfa8b89eeaf015b01a58e50793b71de5948f956a333aef6d78"
+    },
+    {
+      "path": "references\\motion-craft.md",
+      "sha256": "15cb82bebf6dc9b054825fe05ec0dbd5ade00f56c9ae6abd3fddb38e785e9856"
+    },
+    {
+      "path": "references\\opus-gallery.md",
+      "sha256": "7e0756e130e82343b143f0bc65cc57956a7d698fd4a1ebf25c35186872e61aec"
+    },
+    {
+      "path": "references\\reference-study.md",
+      "sha256": "fe59b5e1723aa5cac86ff6c6461b3d228e78acafa3f5eb470f3c9942817b0db8"
+    },
+    {
+      "path": "references\\sources.md",
+      "sha256": "83ee19aae90612f96e89f72be8eeca32d455d452dd06c6ab468996027e4e5b27"
+    },
+    {
+      "path": "references\\style-packs\\blueprint\\DEMO.md",
+      "sha256": "8c49d79e4beb69ad316c9ec06c8ff09315a85dbf77b41dd7f1fe72985ee98c45"
+    },
+    {
+      "path": "references\\style-packs\\blueprint\\STYLE.md",
+      "sha256": "19e0a269c8ca16bb8d9344de0cfbebab067306ac5740c2e60def1c6fc9487861"
+    },
+    {
+      "path": "references\\style-packs\\dataviz\\DEMO.md",
+      "sha256": "8dca6c6aa49ec9d6a0c9d16d2ec7b097f525521cd335dc83249685123741cbf5"
+    },
+    {
+      "path": "references\\style-packs\\dataviz\\STYLE.md",
+      "sha256": "fa37d809a5bf5e9c923f44bee6b3c827333786382b89d0b535fbcd697ae75707"
+    },
+    {
+      "path": "references\\style-production.md",
+      "sha256": "f38eaf3cad0443ea6da376e3be82b1d325f3c7cbd9a56aa3e995ce3228d7c0c4"
+    },
+    {
+      "path": "references\\verified-experience.md",
+      "sha256": "152727d947eee1ea43333ab8078c85aa8c4011296d9da1a2365bbcdad551e3b7"
+    },
+    {
+      "path": "references\\visual-review.md",
+      "sha256": "f1a619dec88b5ba867685fafb6ebf13132651da66a4d678d213fbd84e342e43f"
+    },
+    {
+      "path": "scripts\\__pycache__\\opus_gallery.cpython-312.pyc",
+      "sha256": "fb841225bb5bb5fc8df2ff1581ced7e2f67b2089bfec387260f1fbda34258955"
+    },
+    {
+      "path": "scripts\\__pycache__\\video_evidence.cpython-312.pyc",
+      "sha256": "ba2014c3d2d4d8d1f9496692d0e2d7d9861c558e04954bc9f734892473b1d6a0"
+    },
+    {
+      "path": "scripts\\capture_code_study.mjs",
+      "sha256": "5cd5b724b16b50943bce0994208149f8f6c4b9fef26e3d8b238e1b90145357b1"
+    },
+    {
+      "path": "scripts\\frame_audit.py",
+      "sha256": "6a076dda16b893be3a329c2f77b79987243376e1914fa786af9c6caf7ddae80d"
+    },
+    {
+      "path": "scripts\\opus_gallery.py",
+      "sha256": "4d8c64507374ac570ccfc6d3c4a37b1d8d0b2f316a8e2a58fd60e76854a5a5ad"
+    },
+    {
+      "path": "scripts\\shot_contract.py",
+      "sha256": "1e75f38f69311d505206c058f300876bd5f7679aa2b2d6930148ba3791506294"
+    },
+    {
+      "path": "scripts\\video_evidence.py",
+      "sha256": "853139b8c285245190035f5aee1638e612b6cd2bce6220cd04b8ec83f0da26a9"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "7cef67cc530feb596bce3d586213a9e42f44638c2cf782894c736381fd9b8954"
+    }
+  ],
+  "copy_verified": true
+}

@@ -1,0 +1,151 @@
+{
+  "scope": "Textual isolated fixtures; no real media generated, decoded, watched or heard.",
+  "results": [
+    {
+      "case": "export_is_pending",
+      "actual": [
+        [
+          0,
+          5
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          5
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": "partial_visual_gaps",
+      "actual": [
+        [
+          3,
+          5
+        ]
+      ],
+      "expected": [
+        [
+          3,
+          5
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": "full_visual_does_not_grant_AV_pass",
+      "actual": [
+        [],
+        [
+          [
+            0,
+            6
+          ]
+        ],
+        "incomplete"
+      ],
+      "expected": [
+        [],
+        [
+          [
+            0,
+            6
+          ]
+        ],
+        "incomplete"
+      ],
+      "passed": true
+    },
+    {
+      "case": "accepted_reports_cannot_be_dropped",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "case": "repair_round_preserved",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "case": "wrong_hash_rejected",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "case": "out_of_batch_coverage_rejected",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "case": "paused_no_delivery",
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "case": "paused_without_explicit_resume_stays_paused",
+      "actual": [
+        true,
+        false
+      ],
+      "expected": [
+        true,
+        false
+      ],
+      "passed": true
+    },
+    {
+      "case": "resume_starts_fresh_wait",
+      "actual": [
+        false,
+        0.0
+      ],
+      "expected": [
+        false,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "case": "active_cannot_restart_clock",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "case": "poll_no_reset",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "case": "reorder_no_reset",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "case": "duplicate_report_no_reset",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "case": "waveform_not_hearing",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "case": "missing_audio_tool_cannot_count_complete",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,1155 @@
+{
+  "repo": "jtydhr88/fate-pv",
+  "repository": "https://github.com/jtydhr88/fate-pv",
+  "commit": "96adbc38769b793a991b7dd03330e426b17e6b79",
+  "commitDate": "2026-10-04T01:16:31Z",
+  "snapshotUrl": "https://codeload.github.com/jtydhr88/fate-pv/zip/96adbc38769b793a991b7dd03330e426b17e6b79",
+  "archiveSha256": "5ea3d7771b02c6823b30913977a0142c2de9fdd1f9e30c5e66ed1d6f0c2fe575",
+  "checked": "2026-10-11",
+  "upstreamLicense": "MIT",
+  "licenseFiles": [
+    "LICENSE.pdoom-engine"
+  ],
+  "usage": "按原许可和第三方素材声明分别核实复用范围",
+  "modelEvidence": [
+    "*Opus 5.5, Beethoven, and Fate* (《Opus 5.5，贝多芬，和命运》), a five-minute, code-rendered music video for classical music, made with",
+    "Claude (Opus 5.5) in Claude Code. Every frame is a pure function of time and every note on screen is",
+    "![Opus 5.5, Beethoven, and Fate](docs/images/title-en.jpg)",
+    "| opening | the orchestra tuning | the title on black: *Opus 5.5, Beethoven, and Fate* |",
+    "| 3 | **Vivaldi**, Summer, III, bars 1–20 | a weather station: the wheat field as a spectrum cut down by the hail, lightning on the sforzandi, the sonnet's line |",
+    "*I'm Upping My P(doom)*, made with Claude in Claude Code. Its renderer is the starting point of ours (MIT,",
+    "Our professional skill libraries for Claude, used alongside this project:"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 555,
+      "sha256": "8f29a649226e3f05d99f21bd8cb6ff05010cadfc089df9a0f1a46fd757d10fe7"
+    },
+    {
+      "path": "analysis/b9_world.py",
+      "bytes": 2889,
+      "sha256": "00f5d5f5af44058dc9a62ad9043f692b773572e411d994075c07c66e2ef8cb39"
+    },
+    {
+      "path": "analysis/build.py",
+      "bytes": 26067,
+      "sha256": "58c9660266b37b2e1bde06dfbbcdd32e3f367182eeccd3cf24b03ee7c39df467"
+    },
+    {
+      "path": "analysis/fonts.py",
+      "bytes": 1893,
+      "sha256": "3b145cb9536e8cf0ee7bdef4d12d01caae16872b388ad3011ae04ba3ad31dd73"
+    },
+    {
+      "path": "analysis/omr_b9.py",
+      "bytes": 2224,
+      "sha256": "fa1956148ddb406638c72235c8a3ea8224094e4dce1779540f198126e5563381"
+    },
+    {
+      "path": "analysis/omr_heads.py",
+      "bytes": 6155,
+      "sha256": "a80ed7a842f00eaf5eda5fb43f1e7ab60a6620d7f6637291f76eb7bd3a999964"
+    },
+    {
+      "path": "analysis/opening.py",
+      "bytes": 5589,
+      "sha256": "cbc90cffbd70a8a3b05f87520d8b5c52828cabf9d4f11e95e826556719ae630c"
+    },
+    {
+      "path": "analysis/paths.py",
+      "bytes": 1109,
+      "sha256": "dd49feb83aaf134d29f8e85a6de39f524f2bca963efa5b9463f4da8641e18143"
+    },
+    {
+      "path": "analysis/pyproject.toml",
+      "bytes": 357,
+      "sha256": "a04f9175ae4b5e136b12b425d6fe3686713aa3a9229aa6259edf6925f41b83c2"
+    },
+    {
+      "path": "analysis/scores/beethoven9_4.py",
+      "bytes": 8788,
+      "sha256": "512d1f4ecc4205bca064dc4ff2f9a7d7aa64faab7a64019ca6af62bb939b3de0"
+    },
+    {
+      "path": "analysis/scores/mozart40_1.py",
+      "bytes": 7156,
+      "sha256": "f5f6e7c8fc38503a8e079a49f734c26edf5a9266d2f54000fcae51fc719faee6"
+    },
+    {
+      "path": "analysis/setlist.py",
+      "bytes": 16359,
+      "sha256": "469d0bb5775bb614f8505f2db729b20431415c81f97e1c72289fb06e451071b9"
+    },
+    {
+      "path": "analysis/uv.lock",
+      "bytes": 245452,
+      "sha256": "2d3dddebf9a8b105c4e878f6e34070abbc179f998c68a63cdc03595bb269ffd4"
+    },
+    {
+      "path": "analysis/vsco.py",
+      "bytes": 12392,
+      "sha256": "91bb425d108438291ac2f87d162d1beff6768b1a0247cd0cf113b03dcf44f1dc"
+    },
+    {
+      "path": "app/.gitignore",
+      "bytes": 18,
+      "sha256": "c8015948b6eaefde5eaa3862f2fe5ce0245fcde4d6e66f7441dcdcbbed46e652"
+    },
+    {
+      "path": "app/index.html",
+      "bytes": 1935,
+      "sha256": "53266f73ca67dedafcc3cf1fb91fab94667c26edb137cfb9bb1cfdc9f1425b17"
+    },
+    {
+      "path": "app/package.json",
+      "bytes": 640,
+      "sha256": "6851e6feba7d508aff64a3a848d59dd603901f8cea8f0833ba053d206feb7b05"
+    },
+    {
+      "path": "app/pnpm-lock.yaml",
+      "bytes": 18060,
+      "sha256": "fb77c53c3ba3468e2a27a57c41443121ee1ad7ff2a5a49a8bcab47369e8419b1"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1000-300.ttf",
+      "bytes": 121492,
+      "sha256": "863ec9a266154b483ca2fb544a1ae886b2c2e725894ba14a7dd642ecff08836a"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1000-500.ttf",
+      "bytes": 121588,
+      "sha256": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1000-700.ttf",
+      "bytes": 121440,
+      "sha256": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1000-900.ttf",
+      "bytes": 120740,
+      "sha256": "df7f620345ceaf9307c4c021d486d567035c3c3af9e29b12a892f7e5d4d8be48"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1125-300.ttf",
+      "bytes": 121740,
+      "sha256": "318687751c75f16b2f911d736179926da7b2edb48c6cc3a8083d93beefa31b08"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1125-500.ttf",
+      "bytes": 121788,
+      "sha256": "141642530cf681535aad885f5384ec6b5a355daa221ea64f06d0405448708a73"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1125-700.ttf",
+      "bytes": 121716,
+      "sha256": "57510ee1a63a64549244cdaa829a245795e1a901c48cb57891e2ac0ce530e9bd"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1125-900.ttf",
+      "bytes": 121268,
+      "sha256": "6b04492e0ff1dbf8e39c286cd8d32420a12363661dd331c4705c0822a8683318"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1250-300.ttf",
+      "bytes": 121648,
+      "sha256": "4fd218920884877281f203b81d2ddbb8af90cf1e58ab81830f2b4dc8cb06b377"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1250-500.ttf",
+      "bytes": 121652,
+      "sha256": "36a7bf442a40583b42272084a7fd036467dea5a54a9a106820083e48413851d3"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1250-700.ttf",
+      "bytes": 121628,
+      "sha256": "55a4492a5a97a6134ec83e289fbc2510d40031a432881a72ef6dd8ae302a380c"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1250-900.ttf",
+      "bytes": 121220,
+      "sha256": "97954352b2fcb9d4a5917d658fc71a27db5bd6dad4fe1a8a77c171211860f286"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w620-300.ttf",
+      "bytes": 120484,
+      "sha256": "5a97cc5a200d8ab7e459c77ab8055fe06e7b3eaa3b04016a1333797f9a7f2cab"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w620-500.ttf",
+      "bytes": 120416,
+      "sha256": "c5a9c17c1ac8fbbb47345f805a73d933615db56ed4b2ca2ca84e9b9b3273b1e4"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w620-700.ttf",
+      "bytes": 120376,
+      "sha256": "6526f0939a591a3092368ffa5f9ec77e82d8cbbcf044dab17b9a0dfbaa4c151c"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w620-900.ttf",
+      "bytes": 120080,
+      "sha256": "7bf041853788deafccaf6626af105d63a2c4e9bfe90ed8f3722e49e635520e22"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w750-300.ttf",
+      "bytes": 120988,
+      "sha256": "2920a8b658d4fa4c596bd79f94577c36e8fc63a60e3260e9eaab3bacc911d4f0"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w750-500.ttf",
+      "bytes": 120968,
+      "sha256": "12a3814c240d98fbd3e12db49d87d9e8f7d303241450d2ce7a0d78fc2aff877d"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w750-700.ttf",
+      "bytes": 120888,
+      "sha256": "dd9741079f1f5dd5ad9842bc5152dcab9b01e52f1f1b545bcf347edd6858fcb7"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w750-900.ttf",
+      "bytes": 120588,
+      "sha256": "e544dc863d11d50b6b159f2459204b4f994fecf46f75d428c8ebfc118cc9e00f"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w875-300.ttf",
+      "bytes": 121144,
+      "sha256": "b6ddedcb6a7d5ae535f593bd4c84edf685c7c30fa8d57d61b03c1b956156d0fe"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w875-500.ttf",
+      "bytes": 121328,
+      "sha256": "838d87c7f772488cdb67ad2c719a42c716d52ebcfaae1068e5fde10bd1d0ba99"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w875-700.ttf",
+      "bytes": 121212,
+      "sha256": "c37e23695fc6352f35ef9efcb64e86cfbcf124e235cccda9fa83cde88792ac79"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w875-900.ttf",
+      "bytes": 120844,
+      "sha256": "3f2011e473d614bf899e2c2f1c7b67e4fbf61b505dfc0543a0547a35c18c5adf"
+    },
+    {
+      "path": "app/public/fonts/ArchivoItalic-w1000-400.ttf",
+      "bytes": 133740,
+      "sha256": "e458ef98ab695b2dbcb53441edcbbb7d8b86fda2dbd7542513a6aa37762c8750"
+    },
+    {
+      "path": "app/public/fonts/ArchivoItalic-w1000-800.ttf",
+      "bytes": 133828,
+      "sha256": "9e8c5abbb79942428dee6a133483a146f223c790b5f0ee3c0cb3280c8776e99c"
+    },
+    {
+      "path": "app/public/fonts/ArchivoItalic-w750-400.ttf",
+      "bytes": 133472,
+      "sha256": "70d6ff465ae66aa0cb424c5452e13b1dbb19b913adf3ed80b9bc59575cb90203"
+    },
+    {
+      "path": "app/public/fonts/ArchivoItalic-w750-800.ttf",
+      "bytes": 133296,
+      "sha256": "bc7fa2efc9a4aa22960cfcfbe50025c8d82ff177f4e9a3e016cf0665dbee918c"
+    },
+    {
+      "path": "app/public/fonts/Cormorant-400.ttf",
+      "bytes": 774016,
+      "sha256": "4e7958f688e875a0073febb1fdbcc87d85babedf7705ae9e70ecc9513eae9c3e"
+    },
+    {
+      "path": "app/public/fonts/Cormorant-600.ttf",
+      "bytes": 774032,
+      "sha256": "6cdad32e7e609276adf97085c6fc21a259f311e3b8bdc880784222bdf8911727"
+    },
+    {
+      "path": "app/public/fonts/CormorantItalic-400.ttf",
+      "bytes": 454392,
+      "sha256": "272bae4becdd77c6f8cf3a252a775212b88c1c8c5a28a0cf8ef799d6887cacda"
+    },
+    {
+      "path": "app/public/fonts/CormorantItalic-600.ttf",
+      "bytes": 454472,
+      "sha256": "436ab920355e6f186f19183c749a2c0bb2592ebf86fabe4bcffd83b17b3fbc5a"
+    },
+    {
+      "path": "app/public/fonts/didot/GFSDidot.ttf",
+      "bytes": 191168,
+      "sha256": "4fc784ab824e8866eeef8ad55976b93e7e170fb1b8237fd4f8781b5b4dd297f9"
+    },
+    {
+      "path": "app/public/fonts/didot/OFL.txt",
+      "bytes": 4449,
+      "sha256": "bd6f68cef92d9b95b61702a9d83f416594bc9b7bcc5a094e906eac44dc62b6d5"
+    },
+    {
+      "path": "app/public/fonts/notoserifsc/OFL.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+    },
+    {
+      "path": "app/public/fonts/NotoSerifSC-500.ttf",
+      "bytes": 127880,
+      "sha256": "d337e9c97a3af4f70f8dff578c59d93d3860bbd99b859e65a55aef6e88378925"
+    },
+    {
+      "path": "app/public/fonts/NotoSerifSC-900.ttf",
+      "bytes": 128024,
+      "sha256": "8f7fcfa09a399f480a249c486219cb212d1f7d1fc1fd8b442f94476d456a0bf7"
+    },
+    {
+      "path": "app/public/fonts/smufl/Bravura.otf",
+      "bytes": 512924,
+      "sha256": "dca2d90c88437a701b1c2e71fa54e76f9fa41d7deee935d74dc871ea66ecfdd2"
+    },
+    {
+      "path": "app/public/fonts/smufl/bravura_metadata.json",
+      "bytes": 733542,
+      "sha256": "5c18a034a857c69be2720fe0cab655a17df934556b51925690789d5530c9881c"
+    },
+    {
+      "path": "app/public/fonts/smufl/glyphnames.json",
+      "bytes": 301683,
+      "sha256": "1d05352599a20983d1c901635dc75d76f063c0987a7bee65f145325fc3e0d29f"
+    },
+    {
+      "path": "app/public/fonts/smufl/OFL.txt",
+      "bytes": 4420,
+      "sha256": "c24929be7028026a65ee8894da1e3c36d2a4ccce0548d9ba8ba64509f46319ee"
+    },
+    {
+      "path": "app/public/fonts/src/Archivo-Italic[wdth,wght].ttf",
+      "bytes": 741368,
+      "sha256": "305d13b4eb80e62f7d517f78d7c045250d977552a420f2dbed906f314e761305"
+    },
+    {
+      "path": "app/public/fonts/src/Archivo[wdth,wght].ttf",
+      "bytes": 658596,
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053"
+    },
+    {
+      "path": "app/public/fonts/src/CormorantGaramond-Italic[wght].ttf",
+      "bytes": 715644,
+      "sha256": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d"
+    },
+    {
+      "path": "app/public/fonts/src/CormorantGaramond[wght].ttf",
+      "bytes": 1195560,
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Bold.ttf",
+      "bytes": 137784,
+      "sha256": "ac27abd6450a64dd94467580a02fe6235156d5b92f2926ebbc8e7489df64e0be"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Italic.ttf",
+      "bytes": 143920,
+      "sha256": "3362fc791b0652193328b862c1c5f23a789bc7288b1617fa63302f88689a2a34"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Light.ttf",
+      "bytes": 135216,
+      "sha256": "780bcf65509d72a35ec114b57bcbe220dc6b77d8ea2e9b25e294be3c570c5025"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Medium.ttf",
+      "bytes": 136704,
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-SemiBold.ttf",
+      "bytes": 140216,
+      "sha256": "d3c38e55c78f5b0f28009fddba4834ec503278936a5986032424c9bd2d23aa46"
+    },
+    {
+      "path": "app/public/fonts/src/OFL.txt",
+      "bytes": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSAllure.svg",
+      "bytes": 57469,
+      "sha256": "55ed2de9c602229f32dd2784aae704023a5594eb8d208131f2552fae330a2a67"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSFelix.svg",
+      "bytes": 48819,
+      "sha256": "e7b2463c6cb2a2cbef59db9b1f9f5a20a0ecd9158eeb8f01f2015c9e5be7dca4"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSOsmotron.svg",
+      "bytes": 30158,
+      "sha256": "158b0f247a005ca5b6b8556f85684ad10cbb04c41ebbd394b9090c8ea2f16c52"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSReadability.svg",
+      "bytes": 41926,
+      "sha256": "eebece4f2a47b9d3a8f40cab2b0f689ca60902997abd5c81064ef0d2a3a05522"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSTech.svg",
+      "bytes": 40777,
+      "sha256": "7b5a420d4e16285213e7e2b1d187d086835c2dd7a7f64c5b8057434f082fc46f"
+    },
+    {
+      "path": "app/public/fonts/stroke/HersheySans1.svg",
+      "bytes": 40196,
+      "sha256": "a7b9cb8f6465a66d7b1b2f774579749edf1f960b0ed929f0908bd97211f479fa"
+    },
+    {
+      "path": "app/public/fonts/stroke/HersheyScript1.svg",
+      "bytes": 60060,
+      "sha256": "bc0cbdca869d455d000e9961cca0191843cc1c2d7e134a732be2b5081b32eb3b"
+    },
+    {
+      "path": "app/public/fonts/stroke/HersheySerifMed.svg",
+      "bytes": 60544,
+      "sha256": "63e5c88e6fd3a1c2b9a3c90b239c7af3086a15df80373cac80daedbf29b0c04a"
+    },
+    {
+      "path": "app/scripts/render.ts",
+      "bytes": 25645,
+      "sha256": "1c5550be6b0ade72be809c90cc92b318ee536f211ec1f2e0bd3d853cfd9151ad"
+    },
+    {
+      "path": "app/src/engine/audio.ts",
+      "bytes": 6059,
+      "sha256": "2ea2ef2c7209f343fa21ffaf3ba81a5e4864b3e5a64ae05328af3e3281daf2ec"
+    },
+    {
+      "path": "app/src/engine/engine.ts",
+      "bytes": 19607,
+      "sha256": "29b2c2ede18505203c8cafc8c0b3779ff89764ed6efb0fca11e8c723955317e1"
+    },
+    {
+      "path": "app/src/engine/gl.ts",
+      "bytes": 11491,
+      "sha256": "05126116d767ba87875274664ace6dd7e4b93ed917166a6f0dec7f93ae50dc46"
+    },
+    {
+      "path": "app/src/engine/glsl/common.ts",
+      "bytes": 11064,
+      "sha256": "5d968b7710d06756336ccd6dbdca65c5a823e7bb37b46cfc017056198cf23420"
+    },
+    {
+      "path": "app/src/engine/hud.ts",
+      "bytes": 3987,
+      "sha256": "eff74e9e43fa5b722e53fa700a8eafe099cf879a13067b4fa3d2a34a5c33ac18"
+    },
+    {
+      "path": "app/src/engine/lines.ts",
+      "bytes": 7778,
+      "sha256": "afd4d20fb5d0d472b2f05585917388047e7f2297b9cb08adcc8bdac6e3763a27"
+    },
+    {
+      "path": "app/src/engine/music.ts",
+      "bytes": 4230,
+      "sha256": "ae75624252bcc5e85530b202ed834ecc31b72ffff3c0a2591c5e1dc4624c1f40"
+    },
+    {
+      "path": "app/src/engine/palette.ts",
+      "bytes": 4210,
+      "sha256": "e3176b66249566b6a0a98ed297a6e42c4b5f21ae0a6a8bf910183dfbb54ad8f6"
+    },
+    {
+      "path": "app/src/engine/post.ts",
+      "bytes": 14148,
+      "sha256": "c415b5befaa1deea84f8ec4159222f33a0b116d37619eee2fbb0740eea4e1098"
+    },
+    {
+      "path": "app/src/engine/scale.ts",
+      "bytes": 615,
+      "sha256": "868ae545b1414e01f9a50a395bcd84081b84653a19485a7599f8a894eac5a9b0"
+    },
+    {
+      "path": "app/src/engine/scene.ts",
+      "bytes": 2994,
+      "sha256": "9f60a41fdd0e9e293440d72833ebd4f954e37a1499106bf675f1c07dca35636a"
+    },
+    {
+      "path": "app/src/engine/score.ts",
+      "bytes": 6900,
+      "sha256": "51d43dd0beb4b5c2df63186b692f2df59a5aa97d7498183ea40ef452c0729f91"
+    },
+    {
+      "path": "app/src/engine/stroke.ts",
+      "bytes": 14549,
+      "sha256": "1a59c766f50eb85883c318d19780e037f6fa5122c8844689c60bef656f896ee5"
+    },
+    {
+      "path": "app/src/engine/style.ts",
+      "bytes": 1674,
+      "sha256": "1ec25e2808e947c855e213408d835ef3d5a35693b7b6dcf29dcd9fa9990f197b"
+    },
+    {
+      "path": "app/src/engine/type.ts",
+      "bytes": 10187,
+      "sha256": "3047fc4f82a4450b46cfc2ad2294babc912cebd461fd907b63e57e26917c77ab"
+    },
+    {
+      "path": "app/src/engine/util.ts",
+      "bytes": 7537,
+      "sha256": "717fff8fc177040fc038067725e13b6f7ef7670b7a466f268404672dfaa44a4c"
+    },
+    {
+      "path": "app/src/main.ts",
+      "bytes": 9681,
+      "sha256": "37509fb536ff6ed1fc561c034c0142fd546ad53ffaa33b71d467acf5526bc313"
+    },
+    {
+      "path": "app/src/scenes/b5-hall.ts",
+      "bytes": 14769,
+      "sha256": "bd76effd6630e3a30ab9a9b08ed2c4b029efaeced85a5d8b30ca4b253579bc54"
+    },
+    {
+      "path": "app/src/scenes/b5-light.ts",
+      "bytes": 36771,
+      "sha256": "59d1c408e9455ecd5a916309c3c1d23cccbe5ba0e68f79bcae4cf4fa1ec5e75c"
+    },
+    {
+      "path": "app/src/scenes/b7-layers.ts",
+      "bytes": 35330,
+      "sha256": "1e30358220ad3f7d94cfb9e4dfe2bdc2ef5da9e682b7da1c9f9f8be3d2ab0399"
+    },
+    {
+      "path": "app/src/scenes/b9-joy.ts",
+      "bytes": 30190,
+      "sha256": "b62b55f58d5c6e0f3c8aafbeb448170af44aae1d3e47593d039f8293e3470083"
+    },
+    {
+      "path": "app/src/scenes/b9-world.ts",
+      "bytes": 104903,
+      "sha256": "a753522a49b339f5a95ae82f976c8356e98ed2cdbf7acf0b84cf463167934913"
+    },
+    {
+      "path": "app/src/scenes/bach-models.ts",
+      "bytes": 10578,
+      "sha256": "cb992804cd3a2fae6621712fe9ad68832f05c3b76083b6f41f4348a1c41acc17"
+    },
+    {
+      "path": "app/src/scenes/bach-organ.ts",
+      "bytes": 51259,
+      "sha256": "2daf3ea9058a09d1fece5f67ca24cea89b4690c21f262b3a160b536f036cdbb1"
+    },
+    {
+      "path": "app/src/scenes/bach-ornate.ts",
+      "bytes": 18495,
+      "sha256": "b3c9318deb76785673c810a598fd03b050fc8fac1a4c936e55ac7960c2192247"
+    },
+    {
+      "path": "app/src/scenes/bach-page.ts",
+      "bytes": 12370,
+      "sha256": "c12ddf2dc26199643a7aafbe448f55dcdd81354c2b4dca96f395489b38d0c5bd"
+    },
+    {
+      "path": "app/src/scenes/epilogue.ts",
+      "bytes": 4147,
+      "sha256": "c5a0363416794ef5f01c609700ccc56d747bfc6d558cb3d0cdb2da413e064e6b"
+    },
+    {
+      "path": "app/src/scenes/grieg-models.ts",
+      "bytes": 18293,
+      "sha256": "6fc4279c7a8afb6e2d059796656428ee572923797c22818d6816a22eaae53265"
+    },
+    {
+      "path": "app/src/scenes/grieg-mountain.ts",
+      "bytes": 66663,
+      "sha256": "7a001cda1b841f9af2da4040c7cf8c52faa7017c5c0676ca9d19fd20b24e9180"
+    },
+    {
+      "path": "app/src/scenes/hammer.ts",
+      "bytes": 10095,
+      "sha256": "755cce264d211eb43e7fdb587f9bb11b53a2f2416fd4a9bfe88a018a22827d6b"
+    },
+    {
+      "path": "app/src/scenes/imitation-plan.ts",
+      "bytes": 11980,
+      "sha256": "e3313fa46f03cd576e60819e5dc5bf74065869392050fd2852e1802e1997e303"
+    },
+    {
+      "path": "app/src/scenes/imitation.ts",
+      "bytes": 17444,
+      "sha256": "8546bc2e10c4cc61d0f78b56b6c89dd5ae0b2c2802cbdac8f4f043feda337e96"
+    },
+    {
+      "path": "app/src/scenes/keys.ts",
+      "bytes": 7494,
+      "sha256": "335428c9647bb4a9cb2202f6900160752a6cea63c8d5b5e33b09baaf5e403753"
+    },
+    {
+      "path": "app/src/scenes/knock.ts",
+      "bytes": 19277,
+      "sha256": "2e93e9e6511f5cc6d4025bac1215102cb356d76a079371bfb381d166aed43bf4"
+    },
+    {
+      "path": "app/src/scenes/m40-dice.ts",
+      "bytes": 19113,
+      "sha256": "4b5598313e46d6ffccac779388acab783ccfa603a091ca98406ba5d1a0c8a013"
+    },
+    {
+      "path": "app/src/scenes/m40-models.ts",
+      "bytes": 48781,
+      "sha256": "3e148e7fac9daa9657b10437013283c043c745e732361e56472bab834246a683"
+    },
+    {
+      "path": "app/src/scenes/m40-rococo.ts",
+      "bytes": 36914,
+      "sha256": "cd948d2619e3a57744ca8ca4a557b90983a373af489826371e85615a52dd4f78"
+    },
+    {
+      "path": "app/src/scenes/m40-strings.ts",
+      "bytes": 15024,
+      "sha256": "1d988ddc08ebc5159e1360c7ad66bab1a0145bcbe9be417a786d8e8e1fdcab81"
+    },
+    {
+      "path": "app/src/scenes/m40-todo.ts",
+      "bytes": 793,
+      "sha256": "5ad040c79ce53eaa45230d68ba451ff04f8753b55da174714f49882ea99c8018"
+    },
+    {
+      "path": "app/src/scenes/m40-winds.ts",
+      "bytes": 15521,
+      "sha256": "7ca08ab4bb28c228cc792b9585a526b9b0a5697e224430a8621246af4d06a0e2"
+    },
+    {
+      "path": "app/src/scenes/opening-text.ts",
+      "bytes": 1909,
+      "sha256": "fc1851a3a6667b40a1ea071d480318ce762efebaac05a318dad1e446e70f0b78"
+    },
+    {
+      "path": "app/src/scenes/opening.ts",
+      "bytes": 2454,
+      "sha256": "1fe758157f5b467469cc88640b8e5b614069f10dcff0c1afd9f08d6e8f84cfce"
+    },
+    {
+      "path": "app/src/scenes/rise-roll.ts",
+      "bytes": 9424,
+      "sha256": "73cd455d7701e2d22322ffa2ee09396a1e8a29483478f0d292345f9c284b0ed8"
+    },
+    {
+      "path": "app/src/scenes/rise.ts",
+      "bytes": 17050,
+      "sha256": "7d183a013e5af9e1a80bb121cf20c5da5f0e694ec62cb4acbcf135f402f922ee"
+    },
+    {
+      "path": "app/src/scenes/viv-models.ts",
+      "bytes": 19602,
+      "sha256": "d94c2073be784e31b3df2e4fada67c16eb1e74a9451e39db6721f505e166e684"
+    },
+    {
+      "path": "app/src/scenes/viv-storm.ts",
+      "bytes": 58360,
+      "sha256": "57a42cf737b55ec16d4d5d77fbc0c5135e64b9e519da639a1c143aefe310c9ea"
+    },
+    {
+      "path": "app/src/scenes/_instruments.ts",
+      "bytes": 14871,
+      "sha256": "80f13b014580d2eefd79d35ef00e3ff0432cee46fdcc97c64cfda2952d543841"
+    },
+    {
+      "path": "app/src/scenes/_kit.ts",
+      "bytes": 13055,
+      "sha256": "fcb5082980bdc17a341b5a738edcf2ea0f5be848e11e95049d84a1843647ce18"
+    },
+    {
+      "path": "app/src/scenes/_piano.ts",
+      "bytes": 12432,
+      "sha256": "e7a17184914baaf4e38f81c91a43ca7d40dedeb37c5c8da268af367c0241d615"
+    },
+    {
+      "path": "app/src/timeline.ts",
+      "bytes": 4701,
+      "sha256": "44496bfa02ae8471dbc2d3f0301cb7799de5b4727412248cbb90b431693b3963"
+    },
+    {
+      "path": "app/tsconfig.json",
+      "bytes": 456,
+      "sha256": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+    },
+    {
+      "path": "app/tsconfig.scripts.json",
+      "bytes": 141,
+      "sha256": "675999e664ccd44252f0d3526997c6083ce914b7ee2a5ff72941c829a03187e4"
+    },
+    {
+      "path": "app/vite.config.ts",
+      "bytes": 1350,
+      "sha256": "6fd0a68d6a257802548f4cd00db9ea545dfdc24d9d377dbaa28706b7471ac004"
+    },
+    {
+      "path": "audio/fate.mp3",
+      "bytes": 9423350,
+      "sha256": "677a9c65a7d841ae76ffbb30117673ad6bde912c7bdaa552fb5961890b869862"
+    },
+    {
+      "path": "audio/opening.mp3",
+      "bytes": 113728,
+      "sha256": "cf9b28439d20c9bf5351f3e6371a4d972c0cb4d6265a7cb5c76f46a77a447ed9"
+    },
+    {
+      "path": "data/audio.json",
+      "bytes": 2227019,
+      "sha256": "a1e152246f46d24f3d57d79ee38d1b3c0d348a720e0d829595ea55af35a9f18a"
+    },
+    {
+      "path": "data/opening.json",
+      "bytes": 52,
+      "sha256": "86ad1b20db1b65f37a7b1fa196ab773b1b47492acf07bd0d52ad8151604090e1"
+    },
+    {
+      "path": "data/score.json",
+      "bytes": 618319,
+      "sha256": "7e6bbebe410b70a361b13748ff0e3375fbb27d1e7d1e6921b635099b6ce06368"
+    },
+    {
+      "path": "docs/images/bach-page.jpg",
+      "bytes": 79069,
+      "sha256": "9fabf9519afe17ff643dde09c17b50ad58e8a8e46dace7ca382179e5b652a24d"
+    },
+    {
+      "path": "docs/images/bach.jpg",
+      "bytes": 162389,
+      "sha256": "2df617d49ede77c3947727b4232005082b26b67dd901eaff3c8e97f9bd3aff32"
+    },
+    {
+      "path": "docs/images/beethoven7.jpg",
+      "bytes": 238899,
+      "sha256": "5e9fe1c6dd660222e224d2e326ee4dea793e2904988ea0e4867f8b0aaaad95b8"
+    },
+    {
+      "path": "docs/images/city.jpg",
+      "bytes": 172342,
+      "sha256": "f4bd685e6f8ca67c0541924db106e2faa927fdd869e8d15d266bd3ff98d36470"
+    },
+    {
+      "path": "docs/images/dice.jpg",
+      "bytes": 162167,
+      "sha256": "db32ef684f9cac6a6980a99bbda599f92b9a7c400ab8323a9e4e45aca812de10"
+    },
+    {
+      "path": "docs/images/epilogue-en.jpg",
+      "bytes": 28757,
+      "sha256": "dc68c112e72677d51596a6d8c8ef602a5bb50b781ee0e9cb31d2930ac8578a02"
+    },
+    {
+      "path": "docs/images/epilogue-zh.jpg",
+      "bytes": 25803,
+      "sha256": "4fee443efe5e80fc1e884cde6a911a7832a3e43b087a34138686e41bf9701e47"
+    },
+    {
+      "path": "docs/images/finale-dark.jpg",
+      "bytes": 134559,
+      "sha256": "e50aa01d100e564c3fc50e037e3b623c24ca58b5206e59b39940e6b947a2152a"
+    },
+    {
+      "path": "docs/images/finale.jpg",
+      "bytes": 160869,
+      "sha256": "b24d6c8026e7dd9c9dfa51b29e717df1ecd47cfd7b8b337024cacc9b8d94cb6d"
+    },
+    {
+      "path": "docs/images/grieg-puppets.jpg",
+      "bytes": 86477,
+      "sha256": "6ac2a4ac7eef14b47e70f5df915a91456467ed1b8445a37a26a5af1d48cd0539"
+    },
+    {
+      "path": "docs/images/grieg.jpg",
+      "bytes": 156294,
+      "sha256": "f8dda5130f9bba95de559e6d75493989d33f68eca88425df2d08c2c1f250a18e"
+    },
+    {
+      "path": "docs/images/keys.jpg",
+      "bytes": 81036,
+      "sha256": "91b9b3747ea61a02477ab6c5e5b5a517f7fcb59f54bd0c73884bf112f026b9e8"
+    },
+    {
+      "path": "docs/images/knock.jpg",
+      "bytes": 134350,
+      "sha256": "75883f56c42d4f1d0aa83c3c6818ca285f2726922ec8f038311b8f183e488174"
+    },
+    {
+      "path": "docs/images/mozart-winds.jpg",
+      "bytes": 257768,
+      "sha256": "19340a4365f404d3ea2f82d5c14790b72186997ba3b5bc336a80c6986ea17cb9"
+    },
+    {
+      "path": "docs/images/mozart.jpg",
+      "bytes": 300933,
+      "sha256": "f48b8d4d9fabbabc341fba6ef9a645aee5049d17afea9a2e2f8e700734c4e373"
+    },
+    {
+      "path": "docs/images/ode.jpg",
+      "bytes": 164534,
+      "sha256": "ce5a1c435afe52caea60f086ebff3bce577f9e5e3efef3aec2dd3103bdab00b0"
+    },
+    {
+      "path": "docs/images/roll.jpg",
+      "bytes": 98069,
+      "sha256": "6e2f3a78b58d82285abcdd86f7e1ecc5c24cf5e1db1717faff925f965ab8b38a"
+    },
+    {
+      "path": "docs/images/seating.jpg",
+      "bytes": 82899,
+      "sha256": "819aada85ac6ff9576fa46a4825612d119677b106d423257e87e7a7543cd2c43"
+    },
+    {
+      "path": "docs/images/title-en.jpg",
+      "bytes": 279669,
+      "sha256": "0ec7553b3ec907c25206d6097dc16697afdad50b2e5c83a8909e3df530353473"
+    },
+    {
+      "path": "docs/images/title-zh.jpg",
+      "bytes": 253125,
+      "sha256": "bbaaf7c0e122f93201b01d344a45140f91799c4062d55e939d0ff6a91003f137"
+    },
+    {
+      "path": "docs/images/vivaldi.jpg",
+      "bytes": 203712,
+      "sha256": "74853d9e6bc7bd5530f9d438699407ffb7c5c7adbe6bb91a7016e2e542ed3cee"
+    },
+    {
+      "path": "docs/NEXT-PIECES.md",
+      "bytes": 12040,
+      "sha256": "75b9cb0e9233fff92ff6929d2e7c0ebbf29c2fcb3b0325c972f3f3f85c0271e9"
+    },
+    {
+      "path": "docs/TREATMENT.md",
+      "bytes": 4719,
+      "sha256": "ff3a9ea18adeda20c187293784e9054e52720b356b21377f1779d872fc37c54d"
+    },
+    {
+      "path": "LICENSE.pdoom-engine",
+      "bytes": 1074,
+      "sha256": "5fc212466ce7183be5d85a3ee34fea461712842d5cd256b470978a83577083cb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14145,
+      "sha256": "b2f3d81cced3988d856758c33d66fc7bd2afc0387b886f221b735549a4ed1750"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 14235,
+      "sha256": "0d9d27f3d7b6c3ff1331e73f4101ed2014a0b105101fd66ae35ffc1a97aac97e"
+    },
+    {
+      "path": "score/bach565/bwv565.ly",
+      "bytes": 29556,
+      "sha256": "1640bbd2bf11a95e18db03fea285d30718254af0a694e1c36533d8109d71718c"
+    },
+    {
+      "path": "score/bach565/bwv565.mid",
+      "bytes": 30267,
+      "sha256": "1aabd00967aded08d6633482c211af46f679d97f01cfeaca43c83a59dfeeeb6b"
+    },
+    {
+      "path": "score/beethoven5-1.mid",
+      "bytes": 74649,
+      "sha256": "0ce1bca911ba8e6234fd2e474a9b6da4c968c5cfe85b0cccfe7e56505df52046"
+    },
+    {
+      "path": "score/beethoven5-4/b5-superrestore.mxl",
+      "bytes": 359072,
+      "sha256": "82d71a3cc83a1c4c843341918acc4e17fea606304dc099cd3b949b3ccd695fba"
+    },
+    {
+      "path": "score/beethoven5-4/b5-superrestore.pdf",
+      "bytes": 1278536,
+      "sha256": "bcbefa2fc4e43908aa7e918ef98b986c9ebf21c92fd304626660e68cf761a3ec"
+    },
+    {
+      "path": "score/beethoven7-2/Symphony7_2.mid",
+      "bytes": 60426,
+      "sha256": "7cf810b4625b9a272d3a0a9153d8beb5750fa3ee64122dc9f27b7661e997b903"
+    },
+    {
+      "path": "score/beethoven9/heads.txt",
+      "bytes": 24678,
+      "sha256": "7559edab09a95742bf1482d1b70d0eaf6a4294c8f6c7cbd9bca738f107bade46"
+    },
+    {
+      "path": "score/grieg-mountainking/mountainking.ly",
+      "bytes": 14420,
+      "sha256": "5ce52c65f3a019062baa72d8c85313274d2542dbf68a759d8712df4bea827b95"
+    },
+    {
+      "path": "score/grieg-mountainking/mountainking.mid",
+      "bytes": 15156,
+      "sha256": "0c256a809b5af1faef81b6aad6106088a71d76b12435d5f0775d4ceee60c917e"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/basso.ly",
+      "bytes": 4277,
+      "sha256": "ca160d07a023c7511ef927b10272f3e4830acbd0c05221a84304acbf0cd7acb0"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/beethoven-s5.1-cb.ly",
+      "bytes": 715,
+      "sha256": "59c64ba185dcf0ccd7ee0ada04ab9ba0c11b37c5b90a38e0ac8ae56ed0f13471"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/beethoven-s5.1-v1.ly",
+      "bytes": 1022,
+      "sha256": "adf86f2f408aff8f69beecc7b5b3bbcf803f8c6f920f2535ba38927eb6075777"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/beethoven-s5.1-v2.ly",
+      "bytes": 1004,
+      "sha256": "8a83c724bcc8c696da7ef2ec4a4865d9127a04b5303a7a850af89724bb191dfb"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/beethoven-s5.1-va.ly",
+      "bytes": 746,
+      "sha256": "0229a9a2f8cb5e0231f558301fd22cfc151499d6835ec63d80b80c83d3ddd550"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/beethoven-s5.1-vc.ly",
+      "bytes": 980,
+      "sha256": "ebabf4caeeabdd7b8ef37ad525d09b0c60d5ea8c54a54bc00be9bfd9dde9dc7f"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/clarinetti.ly",
+      "bytes": 8236,
+      "sha256": "9db1a5027fe0d61fa7ed2442274119dcb30313d7f353f9e1ab2313b18311d4f3"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/cornies.ly",
+      "bytes": 6590,
+      "sha256": "e80a20fe8012babd3df9b960df92c7c85aa8cedcf54125140954cadcab57f311"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/fagotti.ly",
+      "bytes": 7758,
+      "sha256": "7706313ea0c3d22fb41ae75be4425f3790d354e10cd4783215cb5c136fbe505d"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/flauti.ly",
+      "bytes": 8406,
+      "sha256": "2d1936f7d0a715b2f117124d499a67b7587c75dcbf5953f92608b19e97e9fb71"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/jhe-title.ly",
+      "bytes": 4276,
+      "sha256": "e121f6e8fdbf5ec61999150051b20336b22b16103f08a09ffe9783baaea7f6e2"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/oboi.ly",
+      "bytes": 8032,
+      "sha256": "1e970367ba6979a49c53be83ccb4b6623390ea9b8e3b7cd478d203f5473f21ce"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/struktur.ly",
+      "bytes": 1131,
+      "sha256": "05acb565321760a0e7270afcd64650fc8c295e04a43b21129e856ab6dc550931"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/Symphony5_1.ly",
+      "bytes": 5329,
+      "sha256": "e8fa1a0a28b6869cc1edaab732193903a6d82732dd690d8daffd2095afada01d"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/timpani.ly",
+      "bytes": 2912,
+      "sha256": "b7f1a1409d3fa083ebbaf2d276ebdf79647b077f66fb56d448d0864871209976"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/trombec.ly",
+      "bytes": 4344,
+      "sha256": "5bae3939165eb146a2186e3b65a4710c904e549a68db2736907a598126d30cde"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/viola.ly",
+      "bytes": 5590,
+      "sha256": "6688802068e55d145e889579852f450afc9aa980d63e7ac05969a4db5599453e"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/violinoone.ly",
+      "bytes": 8194,
+      "sha256": "44203988de3cb8664db15cb52c9049f086d3a6180dd7b593b837a252b2e29c59"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/violinotwo.ly",
+      "bytes": 7272,
+      "sha256": "dab5138d5915e3667ff108fac3a6fd9f3a0428e422c79c7d401088a01edf1b46"
+    },
+    {
+      "path": "score/ly/Symphony5_1-lys/violoncello.ly",
+      "bytes": 5447,
+      "sha256": "2625a9512dec4cb8da87267e3978c566e7120979b91330b85f3b966a09bebbd3"
+    },
+    {
+      "path": "score/mozart-turca/KV331_3_RondoAllaTurca.mid",
+      "bytes": 13772,
+      "sha256": "c14299cbdd34c8b2081da84dc06519ef8a52a0d589ee53c758d28b8e3d727d1c"
+    },
+    {
+      "path": "score/mozart40/k550-1.mxl",
+      "bytes": 4694,
+      "sha256": "3d42e0d47e608d12120038d840629e001639d28ddca242044c3ab3d46c13e717"
+    },
+    {
+      "path": "score/mozart40/k550-full-concert.pdf",
+      "bytes": 830232,
+      "sha256": "416294edd968012527cc59db0699bba4eebba70b8d2217390e04f33313762a94"
+    },
+    {
+      "path": "score/SOURCES.md",
+      "bytes": 2932,
+      "sha256": "4512dde24d301a0833120145cb97d4766f50297e894e1c77669d060a9d5156d8"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/Makefile",
+      "bytes": 2017,
+      "sha256": "d3320a180588cccb0b6252039966e1c01be55f93e9f310671d3785e952567844"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer-cello.ly",
+      "bytes": 1377,
+      "sha256": "e2a63dfe917b525f09ab9581a8a44a961af34e88bffbabb9d3f7757a87d9fc31"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer-header.ly",
+      "bytes": 1500,
+      "sha256": "cd909844b53a1eed64338a6511ec4b8c013e409d3c5c1bc99ce6a0dd68802a64"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer-score.ly",
+      "bytes": 4590,
+      "sha256": "998efe5801fb12e6f500a7e5356e40fdcdd70f43c490fa14f18e6b23b28d777a"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer-solo.ly",
+      "bytes": 1746,
+      "sha256": "472a5e3d35cd7d9edffe93c283dd19b651088252b641716f612aafbd3e4c448a"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer-sonnet.ly",
+      "bytes": 1846,
+      "sha256": "a72ea0c6f961c1fb6f64dff0a5416041e81fd63eea3343a359c9e38ed0ba955d"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer-viola.ly",
+      "bytes": 1291,
+      "sha256": "1b719a81b0f14ae4dd667f56e910377c8fb98fba1da6fd3ae11f2763ade9aa6d"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer-violin1.ly",
+      "bytes": 1324,
+      "sha256": "dfee991076080fa8ee680c6a1b70c155fc4f033aa3258ce01476fbf9c476d706"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer-violin2.ly",
+      "bytes": 1336,
+      "sha256": "cf5ba220866153ae046810eef8ebbb7c7da1a70fe08221eb0503f941fb492820"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer1.ly",
+      "bytes": 6140,
+      "sha256": "af1b955c9adef94c7824874f3e228821a8ee0958120601b4cbaae7b31f3dcd50"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer1a.ly",
+      "bytes": 3728,
+      "sha256": "15fa54a36bc5bf6ef0de1e65d9468392664ce2dcb1d7693e09cef80812069631"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer1b.ly",
+      "bytes": 3649,
+      "sha256": "4dcc4d04f519fdeaead75bdc27b40848892c0087573db0954fde833dd35d216d"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer1c.ly",
+      "bytes": 2353,
+      "sha256": "6cd3912a7f368c44e0a6263750fa8b3b5f3596769f9bcc5f7bbcb24e8a531411"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer1d.ly",
+      "bytes": 3272,
+      "sha256": "42329d5fd94c6a7f2b54de420cf1f2725897518611d49c41a7a1ea6fe607ad62"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer1f.ly",
+      "bytes": 1853,
+      "sha256": "f561cec7e5fb97e53ac53e2dcfb64ddaa1c1389b8e8650f4a362e0db6578937a"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer2.ly",
+      "bytes": 636,
+      "sha256": "27c006ef013d3ba9c3027d72d6402776961f4b6b9bd1b4aa6296bffe18bfb197"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer2a.ly",
+      "bytes": 1447,
+      "sha256": "2fbfe6f947860e204710d7eefe976a9df1913fc7cc6e0cf4002d9344863994ff"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer2b.ly",
+      "bytes": 1437,
+      "sha256": "77ec51f50f98e6cb49498290aed9faccac6d69dcc15e3d050f859af3ee935cbc"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer2c.ly",
+      "bytes": 497,
+      "sha256": "48ca68911b6b568a30412a9dc6434dbd333fd042300b93f6c646da5a7436a82a"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer2d.ly",
+      "bytes": 542,
+      "sha256": "92e7e0a9000fd895438c74d9333259a447410f9491d97b9f04bf1c5872d9dff5"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer3.ly",
+      "bytes": 5796,
+      "sha256": "86c5523503c93534a7932450b039743d6d52848cf79d88a03e3294e1528a260d"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer3a.ly",
+      "bytes": 3634,
+      "sha256": "2941df50917d8e00f4cb74613dabd2778a786b333acea3844384227cff3eeb7a"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer3b.ly",
+      "bytes": 3587,
+      "sha256": "f4189814e3c420380496d4c748fa709fbe0fb3e8a6a2ed7f8618f738357ec0af"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer3c.ly",
+      "bytes": 2998,
+      "sha256": "53cf7c454e9e4a81d3796e22f6a73f7a364b600c035d00458d1a81e252169d0e"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer3d.ly",
+      "bytes": 3308,
+      "sha256": "219945520043d07e6712f6947cbd32f28084aa1b9bbc6814b5fae2e18e366036"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-lys/summer3f.ly",
+      "bytes": 1076,
+      "sha256": "ca1d5a2a0dcaa462275b727e94b55619fba0d41319d0a2240c1145e081ee66fc"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-score-1.mid",
+      "bytes": 5694,
+      "sha256": "a8cd55fef5f2a65748b3bf42b97ea0fbe05f979d277b6de0627c849d55162055"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-score-2.mid",
+      "bytes": 42304,
+      "sha256": "d6e8b3523b367455f0a3fa0080009bddddb742042d5b9b2c0432a25d5c8273b3"
+    },
+    {
+      "path": "score/vivaldi-summer/summer-score.mid",
+      "bytes": 30065,
+      "sha256": "a477f24156cbc0068f5c02a045a4cb870f6f128a291618e56b3ad45db51d689f"
+    }
+  ],
+  "verification": {
+    "snapshotExtracted": true,
+    "sourceExecuted": false,
+    "avReviewed": false
+  }
+}

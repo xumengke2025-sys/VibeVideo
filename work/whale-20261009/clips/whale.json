@@ -1,0 +1,33 @@
+{
+ "id":"whale","style":"whale","title":"5 厘米的噩梦","duration":15,"fps":24,"timingDriver":"action","seed":2718,
+ "facts":{"classification":"鲸鱼习性代码示意演示；画面全部为 Canvas 代码绘画，深度与速度为示意值","source":"sources.json：NOAA / PNAS 2019 / Stanford 2016 / BAS（2026-10-09 核实）","claim":"尺度链：磷虾最长约 6 厘米；蓝鲸约 30 米、几乎只吃磷虾；一口吞入的水可超过自身体重；深潜时心率最低约 2 次/分；条件理想时歌声可传约 1600 公里。"},
+ "events":[
+  {"id":"drift","at":0,"duration":3.4,"anchor":"krill","action":"磷虾在光束中漂浮","result":"建立最小主角","sound":{"kind":"spark","duration":3.0,"offset":0.1,"gain":1.0}},
+  {"id":"rumble","at":2.6,"duration":1.8,"anchor":"krill","action":"远处闷响传来，水流震动","result":"磷虾受惊，上方弹出感叹号","sound":{"kind":"rumble","duration":1.9,"gain":0.5}},
+  {"id":"rise","at":3.4,"duration":3.4,"anchor":"whale-head","action":"巨影从黑暗中升起并遮住光","result":"鲸首进入视野，口微张","sound":{"kind":"air","duration":2.2,"gain":0.4}},
+  {"id":"engulf","at":6.8,"duration":1.6,"anchor":"whale-mouth","action":"双颚合拢吞下整口水","result":"水与虾群被吞入","sound":{"kind":"gulp","duration":1.6,"offset":0.4,"gain":0.55}},
+  {"id":"filter","at":8.4,"duration":1.8,"anchor":"whale-baleen","action":"水从鲸须缝里喷出","result":"只剩虾，滤食完成","sound":{"kind":"spray","duration":2.0,"gain":0.42}},
+  {"id":"stamp","at":9.7,"duration":0.6,"anchor":"annotation","action":"盖上“只留虾”的章","result":"幽默落定","sound":{"kind":"stamp","duration":0.25,"offset":0.18,"gain":0.5}},
+  {"id":"glide","at":10.6,"duration":4.4,"anchor":"whale-body","action":"拉远看到整头鲸缓缓游过","result":"尺度回收，深海空间打开"},
+  {"id":"beat","at":11.5,"duration":1.0,"anchor":"whale-heart","action":"一次极慢的心搏，身体微光脉动","result":"深潜心跳低至 2 次每分","sound":{"kind":"thump","duration":1.0,"offset":0.15,"gain":0.5}},
+  {"id":"call","at":12.3,"duration":2.6,"anchor":"whale-call","action":"低频歌声扩散出涟漪","result":"声音传到极远处","sound":{"kind":"moan","duration":2.7,"gain":0.5}}
+ ],
+ "captions":[
+  {"start":0,"end":3.4,"event":"drift","text":"磷虾：6 厘米。"},
+  {"start":3.4,"end":6.8,"event":"rise","text":"蓝鲸：30 米。"},
+  {"start":6.8,"end":10.6,"event":"engulf","text":"吞下的水，比它还重。"},
+  {"start":11.5,"end":15.0,"event":"beat","text":"心跳：2 次/分。"}
+ ],
+ "silences":[],
+ "shots":[
+  {"id":"krill","start":0,"end":3.4,"intent":"从最小的主角建立尺度链","action":"磷虾漂浮、闷响震动、感叹号弹出","camera":"微距近景缓慢推近，末段轻微震动","states":{"establish":0.4,"action":2.8,"result":3.3},"risks":[[2.55,3.1]]},
+  {"id":"rise","start":3.4,"end":6.8,"intent":"黑暗里有一个 30 米的巨影","action":"光被吞掉，鲸首上升、口渐张，逼近镜头","camera":"机身不动，由鲸的上升完成尺度揭示，末端向口部逼近","states":{"establish":3.5,"action":5.2,"result":6.6},"risks":[[6.0,6.7]]},
+  {"id":"engulf","start":6.8,"end":10.6,"intent":"一口吞下整池水，只留虾","action":"水流与虾群卷入、双颚合拢、喷射过滤、盖上印章","camera":"朝向口内，吞合接触处停机，喷射后轻微上抬","states":{"establish":6.9,"action":7.5,"result":9.9},"risks":[[7.0,7.6],[8.35,9.0]]},
+  {"id":"song","start":10.6,"end":15.0,"intent":"巨物的心跳与歌声，尺度回收","action":"拉远见整鲸、心搏微光、歌声涟漪扩散、落定","camera":"缓慢横移跟随，末段固定留出阅读","states":{"establish":10.9,"action":12.0,"result":14.6},"risks":[[11.5,12.2],[12.3,12.9]]}
+ ],
+ "connections":[
+  {"time":3.4,"kind":"continuous-darken","anchor":"光源被吞掉→黑场即鲸体阴影","window":[3.3,3.6]},
+  {"time":6.8,"kind":"occlusion-enter","anchor":"巨口黑暗延续为口内视野","window":[6.6,7.0]},
+  {"time":10.6,"kind":"continuous-pullback","anchor":"口部缩回深水，雪粒与鲸影连续","window":[10.4,11.0]}
+ ]
+}

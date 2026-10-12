@@ -1,0 +1,647 @@
+{
+  "repository": "Vincentwei1021/mg-styles-15",
+  "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "checked": "2026-10-09",
+  "scope": "text retrieval only; no media or execution",
+  "files": [
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\01-flat-vector\\cues.json",
+      "bytes": 906
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\LICENSE",
+      "bytes": 1071
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\README.zh-CN.md",
+      "bytes": 15975
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\README.md",
+      "bytes": 16239
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\assets\\fonts\\README.md",
+      "bytes": 4014
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\02-line-art\\film.js",
+      "bytes": 46982
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\01-flat-vector\\index.html",
+      "bytes": 76739
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\02-line-art\\audio.py",
+      "bytes": 9978
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\01-flat-vector\\audio.py",
+      "bytes": 7610
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\02-line-art\\cues.json",
+      "bytes": 3214
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\02-line-art\\index.html",
+      "bytes": 566
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\02-line-art\\tools\\dump_timing.mjs",
+      "bytes": 2188
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\02-line-art\\tools\\retime.py",
+      "bytes": 4430
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\02-line-art\\out\\timing.json",
+      "bytes": 8840
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\03-isometric\\index.html",
+      "bytes": 1019
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\03-isometric\\js\\anim.js",
+      "bytes": 3953
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\03-isometric\\audio.py",
+      "bytes": 14263
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\03-isometric\\js\\main.js",
+      "bytes": 13582
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\03-isometric\\js\\title5.js",
+      "bytes": 16517
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\03-isometric\\js\\title.js",
+      "bytes": 8529
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\03-isometric\\cues.json",
+      "bytes": 1240
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\03-isometric\\js\\render.js",
+      "bytes": 9205
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\04-3d-render\\README.md",
+      "bytes": 899
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\03-isometric\\js\\world.js",
+      "bytes": 80534
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\04-3d-render\\audio.py",
+      "bytes": 10817
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\04-3d-render\\assets\\mesh\\glyphs.json",
+      "bytes": 1187
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\03-isometric\\js\\night5.js",
+      "bytes": 11868
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\04-3d-render\\blender\\render.py",
+      "bytes": 2997
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\04-3d-render\\blender\\make_letters.py",
+      "bytes": 6310
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\04-3d-render\\cues.json",
+      "bytes": 1125
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\04-3d-render\\blender\\sim.py",
+      "bytes": 28728
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\03-isometric\\js\\ui.js",
+      "bytes": 9547
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\04-3d-render\\blender\\common.py",
+      "bytes": 2378
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\05-cel-boil\\cues.json",
+      "bytes": 2188
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\05-cel-boil\\index.html",
+      "bytes": 1447
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\04-3d-render\\index.html",
+      "bytes": 15454
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\04-3d-render\\blender\\scene.py",
+      "bytes": 34690
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\05-cel-boil\\audio.py",
+      "bytes": 24290
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\05-cel-boil\\tools\\gen_paper.py",
+      "bytes": 2360
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\05-cel-boil\\tools\\hitmax.py",
+      "bytes": 4168
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\04-3d-render\\out\\events.json",
+      "bytes": 419481
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\06-collage\\assets\\gen\\layout.json",
+      "bytes": 1621
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\05-cel-boil\\js\\engine.js",
+      "bytes": 13778
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\06-collage\\audio.py",
+      "bytes": 10279
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\05-cel-boil\\tools\\gen_dust.py",
+      "bytes": 707
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\05-cel-boil\\js\\scene.js",
+      "bytes": 117394
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\06-collage\\cues.json",
+      "bytes": 1310
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\06-collage\\work\\prep.py",
+      "bytes": 16663
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\06-collage\\index.html",
+      "bytes": 66536
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\07-liquid\\index.html",
+      "bytes": 6401
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\06-collage\\work\\prep_birds.py",
+      "bytes": 819
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\07-liquid\\js\\engine.js",
+      "bytes": 9770
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\07-liquid\\audio.py",
+      "bytes": 11884
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\07-liquid\\js\\lookdev.js",
+      "bytes": 2622
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\07-liquid\\cues.json",
+      "bytes": 1702
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\07-liquid\\js\\links.js",
+      "bytes": 4420
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\07-liquid\\js\\shaders.js",
+      "bytes": 31758
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\06-collage\\work\\prep_hand.py",
+      "bytes": 1788
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\07-liquid\\js\\scene.js",
+      "bytes": 56751
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\07-liquid\\js\\type.js",
+      "bytes": 2638
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\07-liquid\\out\\cues_derived.json",
+      "bytes": 5548
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\08-morph\\audio.py",
+      "bytes": 8665
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\08-morph\\glyphs.json",
+      "bytes": 24462
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\07-liquid\\js\\textsdf.js",
+      "bytes": 5558
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\08-morph\\cues.json",
+      "bytes": 1541
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\09-bauhaus\\audio.py",
+      "bytes": 9344
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\09-bauhaus\\cues.json",
+      "bytes": 3719
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\09-bauhaus\\film.js",
+      "bytes": 44809
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\08-morph\\tools\\glyphs.py",
+      "bytes": 2387
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\09-bauhaus\\index.html",
+      "bytes": 487
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\10-synthwave\\audio.py",
+      "bytes": 11743
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\10-synthwave\\cues.json",
+      "bytes": 1312
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\12-aurora-glass\\audio.py",
+      "bytes": 10545
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\10-synthwave\\index.html",
+      "bytes": 82744
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\12-aurora-glass\\cues.json",
+      "bytes": 881
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\08-morph\\index.html",
+      "bytes": 81267
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\12-aurora-glass\\index.html",
+      "bytes": 461
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\12-aurora-glass\\main.js",
+      "bytes": 64655
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\12-aurora-glass\\out\\env.json",
+      "bytes": 7901
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\18-hanazi\\assets\\prep_r2b.py",
+      "bytes": 4162
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\18-hanazi\\assets\\prep_r2.py",
+      "bytes": 8193
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\12-aurora-glass\\shaders.js",
+      "bytes": 27353
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\18-hanazi\\cues.json",
+      "bytes": 1116
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\19-paperclip\\assets\\stickers\\meta.json",
+      "bytes": 351
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\18-hanazi\\assets\\prep.py",
+      "bytes": 8811
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\18-hanazi\\index.html",
+      "bytes": 51425
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\18-hanazi\\audio.py",
+      "bytes": 12031
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\19-paperclip\\assets\\countries-110m.json",
+      "bytes": 107761
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\19-paperclip\\audio.py",
+      "bytes": 10067
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\19-paperclip\\cues.json",
+      "bytes": 3076
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\19-paperclip\\tools\\stickers.py",
+      "bytes": 4468
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\20-pixel\\cues.json",
+      "bytes": 888
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\20-pixel\\audio.py",
+      "bytes": 11101
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\19-paperclip\\index.html",
+      "bytes": 69789
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\20-pixel\\film.js",
+      "bytes": 70973
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\22-hud\\cues.json",
+      "bytes": 1411
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\22-hud\\audio.py",
+      "bytes": 7573
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\22-hud\\index.html",
+      "bytes": 9805
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\20-pixel\\index.html",
+      "bytes": 882
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\22-hud\\js\\holo.js",
+      "bytes": 17026
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\22-hud\\assets\\land-50m.json",
+      "bytes": 545534
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\22-hud\\js\\util.js",
+      "bytes": 3182
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\22-hud\\js\\hud.js",
+      "bytes": 65650
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\22-hud\\js\\v5.js",
+      "bytes": 9217
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\harness\\preview.html",
+      "bytes": 4403
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\demos\\22-hud\\js\\post.js",
+      "bytes": 8773
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\__init__.py",
+      "bytes": 1172
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\_dsp.py",
+      "bytes": 14307
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\README.md",
+      "bytes": 21602
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\index.html",
+      "bytes": 7273
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\harness\\render.mjs",
+      "bytes": 16899
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\__main__.py",
+      "bytes": 128
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\fm.py",
+      "bytes": 8872
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\filters.py",
+      "bytes": 8021
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\drums.py",
+      "bytes": 22645
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\chip.py",
+      "bytes": 7890
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\fx.py",
+      "bytes": 23398
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\master.py",
+      "bytes": 6567
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\osc.py",
+      "bytes": 5740
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\mix.py",
+      "bytes": 23510
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\pluck.py",
+      "bytes": 11325
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\core.py",
+      "bytes": 18092
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\qc.py",
+      "bytes": 13295
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\recipes\\__init__.py",
+      "bytes": 4298
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\recipes\\base.py",
+      "bytes": 14122
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\recipes\\fun.py",
+      "bytes": 10176
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\recipes\\retro.py",
+      "bytes": 16580
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\recipes\\chill.py",
+      "bytes": 12260
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\samples.py",
+      "bytes": 8685
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\recipes\\club.py",
+      "bytes": 23775
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\recipes\\world.py",
+      "bytes": 7049
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\sync.py",
+      "bytes": 3249
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\wind.py",
+      "bytes": 6420
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\seq.py",
+      "bytes": 5073
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\theory.py",
+      "bytes": 14131
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\sfx.py",
+      "bytes": 58321
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\samples\\index.json",
+      "bytes": 125557
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\tools\\build_samples.py",
+      "bytes": 5394
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\package.json",
+      "bytes": 386
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\01-flat-vector.md",
+      "bytes": 8245
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\mgaudio\\synth.py",
+      "bytes": 21224
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\02-line-art.md",
+      "bytes": 7766
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\04-3d-render.md",
+      "bytes": 7877
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\03-isometric.md",
+      "bytes": 7969
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\lib\\audio\\tools\\select_vcsl.py",
+      "bytes": 3593
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\07-liquid.md",
+      "bytes": 7615
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\09-bauhaus.md",
+      "bytes": 7960
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\05-cel-boil.md",
+      "bytes": 7791
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\06-collage.md",
+      "bytes": 7740
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\08-morph.md",
+      "bytes": 7432
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\10-synthwave.md",
+      "bytes": 7933
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\22-hud.md",
+      "bytes": 7756
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\12-aurora-glass.md",
+      "bytes": 7829
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\18-hanazi.md",
+      "bytes": 7923
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\19-paperclip.md",
+      "bytes": 8016
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\prompts\\20-pixel.md",
+      "bytes": 7601
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\rubric.md",
+      "bytes": 3676
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\mg-styles-15\\template.md",
+      "bytes": 1945
+    }
+  ]
+}

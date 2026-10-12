@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s11-root { position: absolute; inset: 0; }
+        #s11-back { left: 56px; top: 48px; width: 460px; height: 400px; opacity: 0; }
+        #s11-back-h { display: flex; justify-content: space-between; align-items: baseline; height: 44px; border-bottom: 2px solid var(--k-line-dim); }
+        #s11-back-h span:first-child { font: 600 32px/1 var(--k-display); color: var(--k-bp-ink); }
+        #s11-back-h span:last-child { font: 500 20px/1 var(--k-mono); color: var(--k-bp-ink-2); }
+        .s11-row { position: absolute; left: 0; width: 460px; display: flex; font: 500 22px/32px var(--k-mono); }
+        .s11-k { width: 160px; flex: none; color: #8a8a86; }
+        .s11-v { position: relative; flex: 1; color: var(--k-bp-ink); white-space: pre; }
+        .s11-ph { position: absolute; left: 0; top: 10px; height: 12px; border-radius: 6px; background: rgba(245,245,244,.1); }
+        .s11-tick { position: absolute; left: -20px; top: 12px; width: 9px; height: 9px; border-radius: 50%; background: var(--k-accent); }
+        #s11-status { left: 752px; top: 716px; font-size: 20px; }
+        #s11-lock { left: 1104px; top: 344px; width: 112px; height: 134px; }
+        #s11-stamp { left: 1236px; top: 410px; font-size: 24px; }
+        #s11-edge-label { left: 404px; top: 446px; font-size: 18px; padding: 3px 10px; }
+        .s11-small-l { font: 500 18px/1 var(--k-mono); color: #8a8a86; white-space: nowrap; }
+      </style>
+      <div id="s11-root" data-composition-id="s11-recipe" data-width="1920" data-height="1080">
+        <div id="s11-scene" class="k-scene k-bp">
+          <svg id="s11-edges" class="k-abs" width="1920" height="1080">
+            <path d="M360 505 C 470 505, 540 492, 652 490" fill="none" stroke="rgba(245,245,244,.35)" stroke-width="2.5" stroke-dasharray="8 9" />
+            <path id="s11-edge-hot" d="M360 505 C 470 505, 540 492, 652 490" fill="none" stroke="#f2c14e" stroke-width="4" stroke-dasharray="8 9" opacity="0" />
+          </svg>
+          <div id="s11-edge-label" class="k-pill">start_frame</div>
+          <div id="s11-status" class="k-pill">ready · 8 s · 480p</div>
+          <div id="s11-lock" class="k-abs"></div>
+          <div id="s11-stamp" class="k-pill k-amber">immutable once generated</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s11-scene");
+          K.chrome(scene, tl, { title: "every asset keeps its recipe", chapter: "4 · land", step: 4 });
+
+          // Registration and annotations: still.
+          K.cross(scene, 110, 170); K.cross(scene, 1810, 170); K.cross(scene, 110, 1000); K.cross(scene, 1810, 1000);
+          K.leader(scene, 1150, 250, 1280, 230, "written at queued, before anything runs");
+          K.leader(scene, 1150, 600, 1280, 640, "the next card continues from this one");
+
+          // The start frame this clip was made from, wired to it.
+          const ref = K.card(scene, { id: "s11-ref", theme: "bp", left: 170, top: 420, scale: 0.9, thumb: K.harbourArt({ boat: -20, line: true }) });
+          gsap.set(K.part(ref, "k-bar"), { opacity: 0 });
+          K.el(scene, "div", { class: "k-abs s11-small-l", style: { left: "236px", top: "624px" } }).textContent = "as_s02";
+          scene.appendChild(document.getElementById("s11-edge-label"));
+
+          // The rest of the space, along the bottom: every card has a recipe of its own.
+          K.el(scene, "div", { class: "k-abs s11-small-l", style: { left: "200px", top: "770px", color: "#a8a8a3" } }).textContent = "alv/salt-harbour";
+          [["still", "3 cr"], ["clip", "40 cr"], ["frame", "0 cr"], ["clip", "40 cr"], ["still", "3 cr"], ["cut", "0 cr"]].forEach(([k, cr], i) => {
+            const x = 200 + i * 270, c = K.card(scene, { id: `s11-m${i}`, theme: "bp", left: x, top: 804, scale: 0.5, thumb: K.harbourArt({ boat: -30 + i * 14, line: true }) });
+            gsap.set(K.part(c, "k-bar"), { opacity: 0 });
+            K.el(scene, "div", { class: "k-abs s11-small-l", style: { left: x + 122 + "px", top: "846px", lineHeight: "1.5" } }, `<div>${k}</div><div>${cr}</div><div>recipe ✓</div>`);
+          });
+
+          // The protagonist, large, front up.
+          const S = 2.6, cx = 900, CL = cx - 110 * S, CT = 175;
+          const card = K.card(scene, { id: "s11-card", theme: "bp", left: CL, top: CT, scale: S, thumb: K.harbourArt({ boat: 12, line: true }) });
+          gsap.set(K.part(card, "k-bar"), { opacity: 0 });
+          const svg = card.querySelector("svg");
+          const front = [K.part(card, "k-thumb-bg"), svg.querySelector("g[clip-path]"), K.part(card, "k-face")];
+
+          // The back: the recipe's fields, empty until they fill.
+          const back = K.el(card, "div", { id: "s11-back", class: "k-abs" }, '<div id="s11-back-h"><span>recipe</span><span>video</span></div>');
+          // [field, value, top, beat]: provider and model fill together on b2.
+          const ROWS = [
+            ["provider", "fal", 60, 2],
+            ["model", "video/h3-max", 96, 2],
+            ["prompt", "camera flight over the\nharbour at low tide", 132, 3],
+            ["params", "8 s · 480p", 208, 4],
+            ["references", "as_s02 · start_frame", 244, 5],
+            ["price", "80 cr · 10 cr/s", 280, 6],
+          ];
+          const rows = ROWS.map(([k, v, y, b]) => {
+            const r = K.el(back, "div", { class: "s11-row", style: { top: y + "px" } });
+            K.el(r, "div", { class: "s11-k" }).textContent = k;
+            const cell = K.el(r, "div", { class: "s11-v" });
+            const phs = v.split("\n").map((line, i) => K.el(cell, "div", { class: "s11-ph", style: { width: line.length * 11 + "px", top: 10 + i * 32 + "px" } }));
+            const val = K.el(cell, "div", { style: { position: "relative" } });
+            const tick = K.el(r, "div", { class: "s11-tick" });
+            gsap.set(tick, { scale: 0 });
+            return { v, val, phs, tick, y, b };
+          });
+          K.el(back, "div", { class: "k-abs k-mono", style: { top: "360px", fontSize: "20px", color: "#8a8a86" } }).textContent = "alv/salt-harbour";
+
+          // The lock.
+          const lock = document.getElementById("s11-lock");
+          lock.innerHTML = `<svg width="112" height="134" viewBox="0 0 80 96" overflow="visible"><g id="s11-shackle"><path d="M22 46 V30 a18 18 0 0 1 36 0 V46" fill="none" stroke="#f2c14e" stroke-width="9"/></g>
+            <rect x="6" y="42" width="68" height="50" rx="10" fill="#f2c14e" stroke="#08080a" stroke-width="3"/>
+            <circle cx="40" cy="62" r="7" fill="#08080a"/><rect x="37" y="64" width="6" height="14" rx="2" fill="#08080a"/></svg>`;
+
+          scene.appendChild(lock); scene.appendChild(document.getElementById("s11-stamp"));
+          const rowFocus = (r) => CT + 48 + r.y + 16;
+          // b0: the card lifts, about to turn over
+          tl.fromTo(card, { y: 0 }, { y: -24, duration: 0.2, ease: "power2.out" }, K.t(0));
+          // b1: it turns over, and settles
+          tl.fromTo(card, { rotationY: 0 }, { rotationY: 90, transformPerspective: 1800, duration: 0.1, ease: "power2.in" }, K.t(1));
+          tl.set(front, { opacity: 0, data: "follow" }, K.t(1) + 0.1);
+          tl.set(back, { opacity: 1, data: "follow" }, K.t(1) + 0.1);
+          tl.set(card, { rotationY: -90, data: "follow" }, K.t(1) + 0.1);
+          tl.to(card, { rotationY: 0, y: 0, duration: 0.14, ease: "back.out(1.4)", data: "follow" }, K.t(1) + 0.1);
+          // b2–b6: the fields fill, top to bottom
+          rows.forEach((r) => {
+            const b = r.b;
+            K.type(tl, r.val, r.v, b, r.v.length > 20 ? 0.2 : 0.14);
+            tl.to(r.phs, { opacity: 0, duration: 0.08, data: "follow" }, K.t(b));
+            tl.to(r.tick, { scale: 1, duration: 0.14, ease: "back.out(3)", data: "follow" }, K.t(b));
+          });
+          tl.fromTo("#s11-edge-hot", { opacity: 0 }, { opacity: 1, duration: 0.1, data: "follow" }, K.t(5));
+          // b7: a lock snaps on
+          tl.fromTo(lock, { y: -70, opacity: 0 }, { y: 0, opacity: 1, duration: 0.1, ease: "power2.in" }, K.t(7));
+          tl.fromTo("#s11-shackle", { y: -14 }, { y: 0, duration: 0.05, ease: "power3.in", data: "follow" }, K.t(7) + 0.1);
+          tl.fromTo("#s11-stamp", { opacity: 0, scale: 1.5, rotation: -6 }, { opacity: 1, scale: 1, rotation: -2, duration: 0.1, ease: "power3.in", data: "follow" }, K.t(7) + 0.12);
+
+          K.focus(scene, tl, "s11", [
+            [0, cx, CT + 76 * S], [1, cx, CT + 110 * S], ...rows.filter((r) => r.v !== "fal").map((r) => [r.b, 930, rowFocus(r)]), [7, 1200, 420],
+          ]);
+          K.check(tl, "s11");
+          window.__timelines["s11-recipe"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

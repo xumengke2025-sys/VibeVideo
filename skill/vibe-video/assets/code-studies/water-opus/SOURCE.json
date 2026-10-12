@@ -1,0 +1,179 @@
+{
+  "repository": "https://github.com/AiondaDotCom/ai-sim-benchmark",
+  "commit": "680f87e6d54984199525dd12005bd95711bb47bb",
+  "checked": "2026-10-09",
+  "license": "MIT; original LICENSE retained",
+  "scope": "Pinned source reference archive; not a reproduced film or complete offline asset/dependency bundle",
+  "excluded": [
+    "other model runs, lobby, media, installed dependencies, output logs"
+  ],
+  "inspected": [
+    "runs/claude-code-opus-5-5/src/main.ts:1-55",
+    "runs/claude-code-opus-5-5/src/sim/water.ts:1-320",
+    "runs/claude-code-opus-5-5/src/sim/world.ts:1-108",
+    "runs/claude-code-opus-5-5/src/render/waterMesh.ts:1-212",
+    "runs/claude-code-opus-5-5/src/render/cameraRig.ts:1-30"
+  ],
+  "runtime_verification": "not run in this study",
+  "files": [
+    {
+      "source_path": "LICENSE",
+      "local_path": "LICENSE",
+      "sha256": "f4740a370d7d6447c06651b23fa569579fc3935db58ff335427e44dd95d20506",
+      "bytes": 1085
+    },
+    {
+      "source_path": "README.md",
+      "local_path": "README.md",
+      "sha256": "f0c31f5c63d39e4f10f9d6e013f69cf2a00de3e29342086e36fba44ce6a3584b",
+      "bytes": 27311
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/index.html",
+      "local_path": "runs/claude-code-opus-5-5/index.html",
+      "sha256": "34476dbd8512663f6d875e39f24c02a44afb2ff84b48abee455fa3ef6ffdcc5c",
+      "bytes": 912
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/package-lock.json",
+      "local_path": "runs/claude-code-opus-5-5/package-lock.json",
+      "sha256": "246013e86230b08b70bad48cb002c2f42029cde89273d014c7a5125b4ebaec16",
+      "bytes": 52274
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/package.json",
+      "local_path": "runs/claude-code-opus-5-5/package.json",
+      "sha256": "313c01c3f4cc8cbb9d315ca836e812c424c0c2c6b7ad72582c4dfd3827757a40",
+      "bytes": 588
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/README.md",
+      "local_path": "runs/claude-code-opus-5-5/README.md",
+      "sha256": "5daec15d56bf3fe4bac6f06b8915d4ffb7c4de91e86e08b44ca4dea67332b966",
+      "bytes": 12124
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/config.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/config.ts",
+      "sha256": "572804dbc0f004c8ef11e3c3d32eff83a7bd6fa1f2339cb5d8b4560319ed19bd",
+      "bytes": 2073
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/main.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/main.ts",
+      "sha256": "594cf2ea5477d0a4ebeea294a9ef0e89170cd32337cccf0ef150cb0136271932",
+      "bytes": 1604
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/render/cameraRig.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/render/cameraRig.ts",
+      "sha256": "305df8a0a8c86fad241691b32bfbf83b6483ded7f1e3acc9b86eb575c771485e",
+      "bytes": 1205
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/render/palette.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/render/palette.ts",
+      "sha256": "26e2312f4498a92a5e35a30551af1ecf49dcadd1aa7a74a2a239a8b4e514351d",
+      "bytes": 409
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/render/rain.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/render/rain.ts",
+      "sha256": "3a39ec9bb0454d252ec96e2c8b1f179501e7736449a98448116a1af0e09da2b3",
+      "bytes": 2880
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/render/sceneView.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/render/sceneView.ts",
+      "sha256": "94c21e76644bef78d1be72a4b662329e43b0be4b64d5ad9a53d4f472e08af880",
+      "bytes": 4035
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/render/sky.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/render/sky.ts",
+      "sha256": "70a40295e4c49cbdcb369037e7ded87f7078fcad563ea1ad1a3d2e86e94fe0c4",
+      "bytes": 2076
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/render/terrainMesh.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/render/terrainMesh.ts",
+      "sha256": "01a4bf78c09bc7da060025b87d9e67a21a759a4ca7fa9d7a05612f1a0572a432",
+      "bytes": 5608
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/render/waterMesh.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/render/waterMesh.ts",
+      "sha256": "86ffbbdd8353efb7d72c660dbb20aab3ce5d0014e5ef1069b033c8a93139eb0c",
+      "bytes": 8384
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/sim/noise.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/sim/noise.ts",
+      "sha256": "5a6a7d24388f84792c7e33e9a6946b9414349d37cf3ffa8dc88804d798fcd6d3",
+      "bytes": 3351
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/sim/random.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/sim/random.ts",
+      "sha256": "17e2f5cee3f41277bc4e4ca9b006b87e8f0e4ea4b08181a57fd193dcc0ecd5b7",
+      "bytes": 1308
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/sim/terrain.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/sim/terrain.ts",
+      "sha256": "2a7686e1e63b2f7fcc3223411db51f790b91905dfb6ad0c3f44b9f867b08a335",
+      "bytes": 8958
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/sim/water.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/sim/water.ts",
+      "sha256": "18dbbc2ed0af6c61d1d08814f93f739c69ad1af66f29bb39e399208a934e3121",
+      "bytes": 11106
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/src/sim/world.ts",
+      "local_path": "runs/claude-code-opus-5-5/src/sim/world.ts",
+      "sha256": "032080ccdc1c0106fa35e52e3efcd8ede142881d87ea6b28f2c80b21fd29edbb",
+      "bytes": 3975
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/start.sh",
+      "local_path": "runs/claude-code-opus-5-5/start.sh",
+      "sha256": "773d679420599bfe790e98ac02037ed0374b82444cf4b1f0398597ecd10cf29c",
+      "bytes": 1999
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/tests/config.test.ts",
+      "local_path": "runs/claude-code-opus-5-5/tests/config.test.ts",
+      "sha256": "fbeafa7c3a4eab7560cc7f17c6bbcd9e4826d70cec2792d6082b0cb56d1a729d",
+      "bytes": 1021
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/tests/terrain.test.ts",
+      "local_path": "runs/claude-code-opus-5-5/tests/terrain.test.ts",
+      "sha256": "995fc140c512f646a2170aeafe33e1078ccef4930f1f09807a008b7537a8c0c9",
+      "bytes": 4744
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/tests/water.test.ts",
+      "local_path": "runs/claude-code-opus-5-5/tests/water.test.ts",
+      "sha256": "bc49fd47b420f0b88bc80753f41c0a1b7ef421d6322def98d8a05f5e98aef2fd",
+      "bytes": 7400
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/tsconfig.json",
+      "local_path": "runs/claude-code-opus-5-5/tsconfig.json",
+      "sha256": "22cf175536fc06d4bbf18385b899ab731adfef0b0dcc7dfbd94f7e323cbbccd6",
+      "bytes": 483
+    },
+    {
+      "source_path": "runs/claude-code-opus-5-5/vite.config.ts",
+      "local_path": "runs/claude-code-opus-5-5/vite.config.ts",
+      "sha256": "ad5f6aadf582115cc601d1d984348b189c0ec388abea651323cfed364f9ac800",
+      "bytes": 288
+    }
+  ],
+  "commit_date": "2026-09-24T07:04:05Z",
+  "reference_role": "component",
+  "quality_evidence": "source_inspected_video_unreviewed"
+}

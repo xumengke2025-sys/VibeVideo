@@ -1,0 +1,111 @@
+{
+  "executable": "C:\\Users\\67236\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "python": "3.12.7",
+  "packages": {
+    "numpy": {
+      "present": true,
+      "version": "2.4.2"
+    },
+    "Pillow": {
+      "present": true,
+      "version": "10.4.0"
+    },
+    "torch": {
+      "present": true,
+      "version": "2.10.0"
+    },
+    "torchaudio": {
+      "present": false,
+      "version": null
+    },
+    "demucs": {
+      "present": false,
+      "version": null
+    },
+    "librosa": {
+      "present": false,
+      "version": null
+    },
+    "scipy": {
+      "present": true,
+      "version": "1.17.0"
+    },
+    "soundfile": {
+      "present": true,
+      "version": "0.13.1"
+    },
+    "numba": {
+      "present": true,
+      "version": "0.65.1"
+    },
+    "faster-whisper": {
+      "present": false,
+      "version": null
+    },
+    "pypinyin": {
+      "present": false,
+      "version": null
+    },
+    "matplotlib": {
+      "present": false,
+      "version": null
+    },
+    "pedalboard": {
+      "present": false,
+      "version": null
+    },
+    "mido": {
+      "present": false,
+      "version": null
+    },
+    "fonttools": {
+      "present": false,
+      "version": null
+    },
+    "dashscope": {
+      "present": false,
+      "version": null
+    },
+    "requests": {
+      "present": true,
+      "version": "2.32.5"
+    },
+    "edge-tts": {
+      "present": true,
+      "version": "7.2.8"
+    },
+    "yt-dlp": {
+      "present": false,
+      "version": null
+    }
+  },
+  "smoke": {
+    "numpy": true,
+    "PIL": true
+  },
+  "opus_home": "C:\\Users\\67236\\opus-video",
+  "opus_home_exists": false,
+  "optional_api_env_present": {
+    "OPENAI_API_KEY": false,
+    "OPUS_IMAGE_KEY_FILE": false,
+    "DASHSCOPE_API_KEY": false
+  },
+  "import_checks": {
+    "torch": {
+      "ok": false,
+      "error": "[WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\67236\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\torch\\lib\\shm.dll\" or one of its dependencies."
+    },
+    "scipy": {
+      "ok": true,
+      "version": "1.17.0"
+    },
+    "soundfile": {
+      "ok": true,
+      "version": "0.13.1"
+    },
+    "numba": {
+      "ok": false,
+      "error": "Could not find/load shared object file 'llvmlite.dll' from resource location: 'llvmlite.binding'. This could mean that the library literally cannot be found, but may also mean that the permissions are incorrect or that a dependency of/a symbol in the library could not be resolved."
+    }
+  }
+}

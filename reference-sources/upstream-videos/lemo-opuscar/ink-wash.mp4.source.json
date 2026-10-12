@@ -1,0 +1,33 @@
+{
+  "id": "lemo-opuscar/ink-wash",
+  "packageId": "lemo-opuscar",
+  "styleId": "ink-wash",
+  "title": "Lemo / 中国水墨",
+  "filename": "ink-wash.mp4",
+  "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/ink-wash.mp4",
+  "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+  "releaseTag": "films",
+  "releaseId": 397205472,
+  "assetId": 590515937,
+  "assetUpdated": "2026-09-26T11:15:09Z",
+  "expectedBytes": 46053216,
+  "expectedSha256": "79d6584aa097bf4a2559d5fb8b6fe0a30a973f34cc6f0240cbc1e0f76f8633a8",
+  "entry": "D:/Codex/skills/vibe-video/assets/code-studies/lemo-opuscar/styles/ink-wash/STYLE.md",
+  "remoteCode": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ink-wash/STYLE.md",
+  "representation": "author-master",
+  "note": "作者films发布的原始高码率版本；发布附件与本地固定源码的逐像素一致性未确认",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/ink-wash.mp4",
+  "status": "downloaded",
+  "bytes": 46053216,
+  "sha256": "79d6584aa097bf4a2559d5fb8b6fe0a30a973f34cc6f0240cbc1e0f76f8633a8",
+  "verifiedGitBlob": null,
+  "metadata": {
+    "duration": 48,
+    "width": 1920,
+    "height": 1080,
+    "fps": "24/1",
+    "codec": "h264",
+    "audio": true
+  },
+  "downloadedAt": "2026-10-10T03:00:56.047Z"
+}

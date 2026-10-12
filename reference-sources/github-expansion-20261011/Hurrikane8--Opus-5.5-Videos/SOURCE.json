@@ -1,0 +1,2565 @@
+{
+  "repo": "Hurrikane8/Opus-5.5-Videos",
+  "repository": "https://github.com/Hurrikane8/Opus-5.5-Videos",
+  "commit": "abbc6d04086b0ef9553264c7681977fea27526e5",
+  "commitDate": null,
+  "snapshotUrl": "https://codeload.github.com/Hurrikane8/Opus-5.5-Videos/zip/abbc6d04086b0ef9553264c7681977fea27526e5",
+  "archiveSha256": "49f2697559b3dd774186f05d22ca5dd4a4979c0660990645bf485d74645867d9",
+  "checked": "2026-10-11",
+  "upstreamLicense": null,
+  "licenseFiles": [],
+  "usage": "未发现明确许可证，仅本地研究；复制发布或改编复用需作者许可",
+  "modelEvidence": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 44,
+      "sha256": "d39da976fa58df52a7b9416251b31f4aa82ca67a2cfa8f4fae94e9adfd32dd9f"
+    },
+    {
+      "path": "keynes/audio/vo.mp3",
+      "bytes": 1056672,
+      "sha256": "127c0e990eedfd537468a8533fa5bccd09b226f5f1dd7bcfeaaa1ee3ba56af28"
+    },
+    {
+      "path": "keynes/audio/words.json",
+      "bytes": 22390,
+      "sha256": "9dd7484d35bbfe19017b962d87fed9c1a70f4d06e252928972a04edfc1a9eff5"
+    },
+    {
+      "path": "keynes/build_vo.py",
+      "bytes": 824,
+      "sha256": "4e27e0784d86e5680638a8fb32ac8db7d0aa73cf308b264637e30d33000ca7c0"
+    },
+    {
+      "path": "keynes/script.md",
+      "bytes": 6286,
+      "sha256": "42471fbb8826d0c6d5dfca9a1f062cc3886e45f905c7fafd0a35cc955c1d54c5"
+    },
+    {
+      "path": "keynes/vo.txt",
+      "bytes": 2522,
+      "sha256": "0fa3ea8991b77a18311a20d6d1ec4fb45faf0aaed6cc42e3d040f7f2ad5da911"
+    },
+    {
+      "path": "videos/in-the-long-run/AGENTS.md",
+      "bytes": 8002,
+      "sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/audio/glitch-1.mp3",
+      "bytes": 84427,
+      "sha256": "760b72bdaad71f83350e2ef3a9d037daf58f44855a05a6cce25d990f1ffb888a"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/audio/glitch-2.mp3",
+      "bytes": 112128,
+      "sha256": "b326efdf687f18f68f0df7443a65b0ea7a4a1287dfe3143ea23707cc645257f1"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/audio/impact-bass-1.mp3",
+      "bytes": 67709,
+      "sha256": "634d5eda5eb7b501aca98393a64f3815eccf24157cd1d95df55aaec1b5000bd7"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/audio/impact-bass-2.mp3",
+      "bytes": 82944,
+      "sha256": "fb832995477784f44ba8533359d20caf706195b52117ecc2a33b3e63e3c1307b"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/audio/key-press.mp3",
+      "bytes": 3909,
+      "sha256": "bcc892df0898bf466162f14233c3e92a8c1ea351f6affd8a3a7e56c9a760bb72"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/audio/riser.mp3",
+      "bytes": 321024,
+      "sha256": "d2f29d49f27dee7d3b25af22ffe5bebc39390cc5d5fb3b3e1c433499c77f3d1d"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/audio/typing.mp3",
+      "bytes": 26852,
+      "sha256": "944160652faeb7b32acc9341ede4d735a5c9a4ce3fe8509ef7eab91efb430487"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/audio/vo.mp3",
+      "bytes": 1056672,
+      "sha256": "127c0e990eedfd537468a8533fa5bccd09b226f5f1dd7bcfeaaa1ee3ba56af28"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/audio/whoosh-cinematic.mp3",
+      "bytes": 177408,
+      "sha256": "0a0f3505856fdfa84ac6b86b3c55ccd0ef1eb4ff0907d7b6934002218a73404e"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/audio/whoosh-short.mp3",
+      "bytes": 18390,
+      "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/fonts/eb-garamond-latin-400-italic.woff2",
+      "bytes": 25388,
+      "sha256": "fc5851c4466e73bec048bb62d65f8abadf70d602816687e6d364214e35fa8abb"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/fonts/eb-garamond-latin-400-normal.woff2",
+      "bytes": 23820,
+      "sha256": "912929dba0faab5e151849ea5e988adba3080ad6d2bcc4dbff27aa427896498d"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/fonts/eb-garamond-latin-500-italic.woff2",
+      "bytes": 26952,
+      "sha256": "b2698d7de0e52f3f195589dde4fb09b5c4ee52771f7e4a65a3f32beb9c162fb7"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/fonts/eb-garamond-latin-500-normal.woff2",
+      "bytes": 25264,
+      "sha256": "7b252686ba2797f0a376a4ce7e56534dfc2007fba8b50546bb11b24f9279b5c7"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/fonts/ibm-plex-mono-latin-400-normal.woff2",
+      "bytes": 14708,
+      "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/fonts/ibm-plex-mono-latin-500-normal.woff2",
+      "bytes": 14888,
+      "sha256": "01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/fonts/inter-latin-400-normal.woff2",
+      "bytes": 23664,
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/fonts/inter-latin-500-normal.woff2",
+      "bytes": 24272,
+      "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/fonts/inter-latin-600-normal.woff2",
+      "bytes": 24452,
+      "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/bep_printing.jpg",
+      "bytes": 403511,
+      "sha256": "41071eb41a5cf3540e962ed36cda00261fce69d8d0f271dc61785a805f228cd5"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/capitol.jpg",
+      "bytes": 145689,
+      "sha256": "e04171135fa028328f245558c85a2eacbc86c01625dc744760d7462f4d525d3b"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/eccles_1937.jpg",
+      "bytes": 475133,
+      "sha256": "f57076d167171d7c95b110be6b15591b3f914b4d435ea9b8da92de3456683d63"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/friedman.jpg",
+      "bytes": 141057,
+      "sha256": "f9ed15f0dd87b9733b792896a24c36af7d44c7dcb15fc59e6a5fbe8fb19fd8b6"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/gas_line.jpg",
+      "bytes": 412791,
+      "sha256": "59214e127fd824705993df669c2e94f094d7e20235a118be19b58e8e2cf4a918"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/hayek_1981.jpg",
+      "bytes": 503488,
+      "sha256": "a311db05f16895e0a1b34099efc6275e4a3468d7f83e13762d7efdd1e26f963f"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/hayek_portrait.jpg",
+      "bytes": 47316,
+      "sha256": "87403e96f9dd312e73e9626c37bdf3fa449f4ca935c8d32b9efa06e4f644f699"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/keynes.jpg",
+      "bytes": 14909,
+      "sha256": "6eb93bc08e1f536cce931429555eaf73728ce82888aea7c72772c7ba5112eaa8"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/keynes_1933.jpg",
+      "bytes": 31285,
+      "sha256": "205420754a34a829aa5f835ea189f342f4317ee4adf28db21a11de4a6b4d9734"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/migrant_mother.jpg",
+      "bytes": 849360,
+      "sha256": "2d9fd1d5d174fac5fd86b90dd958d580bdb2d994a8f095facd88f5c2f19137e8"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/nixon.jpg",
+      "bytes": 825906,
+      "sha256": "85cf154a28662a4b5e748e3446a369a5bc0858609f16575d60e47a5a623de3f9"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/reagan_volcker.jpg",
+      "bytes": 336674,
+      "sha256": "69e897f953a722081be941bd4d722ee6de1b6c6a1e1ee549f7b96359435372ef"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/soup_kitchen.jpg",
+      "bytes": 619112,
+      "sha256": "bfe25e8830e0d2f93d5c587420a07262891c9dfcb40c497b908083674cc2185f"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/img/white_keynes.jpg",
+      "bytes": 64947,
+      "sha256": "98daf38ce359a65d03dd9c8dbb05a7a6fa4f5136eb1044e783add91597327a05"
+    },
+    {
+      "path": "videos/in-the-long-run/assets/js/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "path": "videos/in-the-long-run/build.py",
+      "bytes": 27013,
+      "sha256": "f77e14797b67d6d6f7c2105f19c3593d3da6e7834425d35297704156c1ca5154"
+    },
+    {
+      "path": "videos/in-the-long-run/CLAUDE.md",
+      "bytes": 8002,
+      "sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3"
+    },
+    {
+      "path": "videos/in-the-long-run/credits.md",
+      "bytes": 2849,
+      "sha256": "bce78cde84b0bf9c94f414429aa265fd144411211ea8cc3fb1cac2c2b2beeaa6"
+    },
+    {
+      "path": "videos/in-the-long-run/hyperframes.json",
+      "bytes": 355,
+      "sha256": "ad5dadeef78a520800a9e5cdd27a92ff5ac37f11b6a07f611b6b52b9f8c79a17"
+    },
+    {
+      "path": "videos/in-the-long-run/index.html",
+      "bytes": 112377,
+      "sha256": "b12558879844871803ec84a495391521db4e710c797c1bba00774c35cdeb85ec"
+    },
+    {
+      "path": "videos/in-the-long-run/meta.json",
+      "bytes": 101,
+      "sha256": "eed8be70fb5ce17a91b85f798d584b9a43ae2b5c67d5f557aad33fad8eefb60d"
+    },
+    {
+      "path": "videos/in-the-long-run/package.json",
+      "bytes": 300,
+      "sha256": "b920385759da49b414a0abff7663c015df454c6a2a6c1a1c1040db6a92765175"
+    },
+    {
+      "path": "videos/in-the-long-run/snapshots/frame-00-at-3.5s.png",
+      "bytes": 2014296,
+      "sha256": "19af162610075f2c0e3ab3d7f22dc8ce9348055edaccbe0bd919c4d6342acd91"
+    },
+    {
+      "path": "videos/in-the-long-run/snapshots/frame-01-at-7.5s.png",
+      "bytes": 1795916,
+      "sha256": "9435e937f3369b36531d95c821548c296f0609a75f9dd615f93ca197b122a6ba"
+    },
+    {
+      "path": "videos/in-the-long-run/snapshots/frame-02-at-13.5s.png",
+      "bytes": 2163593,
+      "sha256": "d765ca0746d28f997f46bdaf976c4230d29116200f44ebf894b93f71276cebb3"
+    },
+    {
+      "path": "videos/in-the-long-run/snapshots/frame-03-at-17.5s.png",
+      "bytes": 1939578,
+      "sha256": "9eb3d6758b52bfe48f47e7520920ba8d9e8a9e8dbf8fca8918ca95d54d6902eb"
+    },
+    {
+      "path": "videos/in-the-long-run/snapshots/frame-04-at-34.8s.png",
+      "bytes": 2110097,
+      "sha256": "e2721b2a015434a0559fb1c9e96b18d9cb9c87dae9093ec2999af0c918024d38"
+    },
+    {
+      "path": "videos/in-the-long-run/snapshots/frame-05-at-44.8s.png",
+      "bytes": 1865538,
+      "sha256": "8c894b669103577f46794bc92858e96e070e7633ace3a6d7738de3624fc9670d"
+    },
+    {
+      "path": "videos/in-the-long-run/snapshots/frame-06-at-64.5s.png",
+      "bytes": 1907227,
+      "sha256": "1a810cd7495ee78c944a07a9f979a56353366b4644830df0e1a63ddff328155b"
+    },
+    {
+      "path": "videos/in-the-long-run/snapshots/frame-07-at-81.5s.png",
+      "bytes": 1595429,
+      "sha256": "b0066cbdc5b373e97db98ca59c586f7b32b217dcbfe7bba5b21d27794d4e926d"
+    },
+    {
+      "path": "videos/in-the-long-run/snapshots/frame-08-at-102.9s.png",
+      "bytes": 1843504,
+      "sha256": "8b97806e13c2a2e62ba0956043b0a24020aed604d772974ed6c9065f7640b271"
+    },
+    {
+      "path": "videos/in-the-long-run/snapshots/frame-09-at-141.5s.png",
+      "bytes": 1956301,
+      "sha256": "e13720dc8789bc2d83ccda2a500f22ba5051eec7f163b5dcf4dc4b11466a702c"
+    },
+    {
+      "path": "videos/in-the-long-run/snapshots/preview-10-frames.jpg",
+      "bytes": 230567,
+      "sha256": "97a32658cd34e456984437bf89e1b19006f5b4beed1bafece08bad8857a49a0c"
+    },
+    {
+      "path": "videos/in-the-long-run/style.css",
+      "bytes": 11688,
+      "sha256": "995c57f6551958957e1357f3b24b9b4fde9f0b3d4fb430a4209bd40fa10732d2"
+    },
+    {
+      "path": "videos/the-hardest-part/.gitignore",
+      "bytes": 81,
+      "sha256": "d9ac2dea33e417378d5fb8545689a84a5061da0ffcd943592bb4b8e38d91f677"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/fonts/eb-garamond-latin-400-italic.woff2",
+      "bytes": 25388,
+      "sha256": "fc5851c4466e73bec048bb62d65f8abadf70d602816687e6d364214e35fa8abb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/fonts/ibm-plex-mono-latin-400-normal.woff2",
+      "bytes": 14708,
+      "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/fonts/ibm-plex-mono-latin-500-normal.woff2",
+      "bytes": 14888,
+      "sha256": "01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/fonts/inter-latin-200-normal.woff2",
+      "bytes": 23920,
+      "sha256": "a95c398b0d5b3d0521ac0a0436469bb0483603dde6c620e37e3005f7d967fbd0"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/fonts/inter-latin-300-normal.woff2",
+      "bytes": 23916,
+      "sha256": "be0276550393a72b94d673505567dceba801511d5e1ca5a87793190dc5d5a6ca"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/fonts/inter-latin-400-normal.woff2",
+      "bytes": 23664,
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/fonts/inter-latin-500-normal.woff2",
+      "bytes": 24272,
+      "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/fonts/inter-latin-600-normal.woff2",
+      "bytes": 24452,
+      "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/fonts/inter-latin-700-normal.woff2",
+      "bytes": 24356,
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0000.png",
+      "bytes": 4087,
+      "sha256": "c9af9a09891b1ceb1da02b78de0683c53d2962d4f8927e80ee435293f5d33210"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0001.png",
+      "bytes": 4873,
+      "sha256": "d966d5d01ddc0c76d4d17f69e594e0b79d56d88ad216ae2c701e90136f6d0371"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0002.png",
+      "bytes": 5991,
+      "sha256": "df7259f387a677e00ee29ccfc26485ff18012ebe3941a211d878750340263a0b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0003.png",
+      "bytes": 7807,
+      "sha256": "ca45755e40682d25cdd6ac3c36e144aa5958e2581864d670358dc5fc028c0b89"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0004.png",
+      "bytes": 9889,
+      "sha256": "0c9806bb1c7ca958a980ec5e49eeb7630c56b7c6cdace4432650164c80f02501"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0005.png",
+      "bytes": 11043,
+      "sha256": "f2feac5d19efa76df7e22220ea2d16d165a515c58fef197e2d2f7c27f7c50be6"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0006.png",
+      "bytes": 11558,
+      "sha256": "15e90f7110c5321c1907c47e9053867997ba346b2ce73ccd9b5b61f1a93ab853"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0007.png",
+      "bytes": 11540,
+      "sha256": "d07cc0413041882b8fd41c4ec89d01908750f24e8bbc84cc1332078b8cd19899"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0008.png",
+      "bytes": 11901,
+      "sha256": "fd1ce2cfe9577e4ef7e885b17f51e925c492ceb8ddaf272fd81c8dcf289a86fb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0009.png",
+      "bytes": 12907,
+      "sha256": "bd1afc152ad0fb6b9422a17b1f75103416a5aab5dd90e471a1e03093a6f07214"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0010.png",
+      "bytes": 13998,
+      "sha256": "e82f3023d2befca49e687ab26ef393520cacd4c7a517b36fc74b2f6dadbfb250"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0011.png",
+      "bytes": 14791,
+      "sha256": "5bf3b4dfb228916c2443b22112925acaee79e5a69c8e9b82b813ddb83b6b3c93"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0012.png",
+      "bytes": 16750,
+      "sha256": "0d55ef01ae2ade998b83ea4ca8b0f843fe64d45bef0828b9e854a2c9d6f0a7fb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0013.png",
+      "bytes": 17482,
+      "sha256": "9d579b43bec7368f1c715c108bed7f40910c37c1e77882b449705e93c3b4219a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0014.png",
+      "bytes": 18868,
+      "sha256": "c1ee8b4e03e5051ad81a3867f7605841cde51503ee0ff6699fc37797bd1e6d47"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0015.png",
+      "bytes": 19971,
+      "sha256": "a9ce907dac9cdc0a7728857e221c866ca860ed70f612158029ac4d16ea3a207b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0016.png",
+      "bytes": 21497,
+      "sha256": "d59517389543c3714fd3095325cafcc312e84d0aab39d3ef7f4d0277e528ca69"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0017.png",
+      "bytes": 22328,
+      "sha256": "b397b853ae40d69eeba9998fab1cd2cb151952126d93c95675accf05a7b1ebe3"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0018.png",
+      "bytes": 22134,
+      "sha256": "d776cda7b24eabd78b860e70218a063d8e78b21a5d2c271363655f4c6174003d"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0019.png",
+      "bytes": 21181,
+      "sha256": "774f1afc319b3fc18047414883567aaa5c9a30c0815bd819e9a672b77fb13f59"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0020.png",
+      "bytes": 20011,
+      "sha256": "952ff4f37884bffe06f13b6c5c461a38d7d96a192fd21980b96b6e5db839d9d6"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0021.png",
+      "bytes": 18856,
+      "sha256": "38fc16a97a4f3bbedf450e88f97166a69938b2d801d8159ecfbdd4502eee09ea"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0022.png",
+      "bytes": 19148,
+      "sha256": "5b2e7799c69bc53532a65d9fb59675909cc30160b0f27350768935b658d551d8"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0023.png",
+      "bytes": 20276,
+      "sha256": "e0b99f03d7f8fdd66067f8b26186058c4f23ef14db3ffa7c8119697fcf537659"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0024.png",
+      "bytes": 21960,
+      "sha256": "e312f1c053d4fbd0b7153669e8d6840edcbf4b4753655af3845173e1e5c424e2"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0025.png",
+      "bytes": 23404,
+      "sha256": "2bce709d115b6028eae7bcd3ab72dc1edd18cb1f53f0ad79806e1e4b2634c595"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0026.png",
+      "bytes": 24323,
+      "sha256": "c23532b444b3a22f46a704e0772d9c6892e7b35ab40b91abe5e8f9080ad9633f"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0027.png",
+      "bytes": 25005,
+      "sha256": "8960d032e0fe138d30c764dba2dcaf68182d3dd2942376e853e2ddf5fb1a4000"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0028.png",
+      "bytes": 25432,
+      "sha256": "f9d5587fd6a11570bf2cd7f0e2a52643daa06edee64bc54a86ff0a26a8f5da7d"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0029.png",
+      "bytes": 27360,
+      "sha256": "c1caab205ddf7fe23c886c5b3e763c952b3f89dd6a9a88f47f45c7d3d4792261"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0030.png",
+      "bytes": 28194,
+      "sha256": "0a95da037be0a987190a1357947730dcf133b9eec6f63b5ae74dc9cefbd2d13d"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0031.png",
+      "bytes": 30383,
+      "sha256": "cd6c0f8600d61175c737c8edd990ff72d9749dea7363344ddf0edc2377297975"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0032.png",
+      "bytes": 31018,
+      "sha256": "e7544cac35c2aae3df6d585c6fa2bcae90f254b02a45d3b1c52a6c45dd1f91fb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0033.png",
+      "bytes": 31146,
+      "sha256": "b2b7ec496795e2626423da397e4090366878e15394d7a54cd4df89352808057b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0034.png",
+      "bytes": 31629,
+      "sha256": "2e3f8bc1c34afad4889604a31d1b5cbe279b1bfb2dab1f39e48091a0404143c7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0035.png",
+      "bytes": 31957,
+      "sha256": "595003abb2f9d0a4f11126deba83169f237dca471e945da643bcc3b3af9c7f56"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0036.png",
+      "bytes": 32544,
+      "sha256": "6b21a969d85971c05b27d0f2994fe86ec43bbf2b55285df5d1e13707b301eb89"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0037.png",
+      "bytes": 33462,
+      "sha256": "b58b7556a539552ff94f3218f31fb5ab43c60ee9e86d892846c5809b90022ded"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0038.png",
+      "bytes": 34119,
+      "sha256": "687ee13a23035fa19a0141cc9dee9ed5bae8f7e6a6b45c3c8189ca48788cfa50"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0039.png",
+      "bytes": 33910,
+      "sha256": "e7e15257bab5ababb0fd15ec7508a5508cf7cec1f25a4550c21b40d35278c670"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0040.png",
+      "bytes": 33569,
+      "sha256": "4f2a3879e9294510dc005961e8de62e0bad334d61ec4d2dcb3a345392bdae7f2"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0041.png",
+      "bytes": 32895,
+      "sha256": "160f7f86841f7d569374a21e371477912cb0504e84b89ec3646cfd520299a637"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0042.png",
+      "bytes": 32501,
+      "sha256": "99e76f4cde66f415c4cecea248ba006f685fc5c7db64c3a96bf993b331e92f99"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0043.png",
+      "bytes": 33514,
+      "sha256": "879533b3377a47b30963eef2c8d9b3b9907f69cec601240bb46e5649a8a3b7ba"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0044.png",
+      "bytes": 34578,
+      "sha256": "35a8cd50762d386f2833e061193c306b67cbaf6403e6a19dfc0fb7f99445e24f"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0045.png",
+      "bytes": 35731,
+      "sha256": "ea18ba0b51002ad19d77bda02f666574166bcddecdaecf37b10f3c26116c8a2b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0046.png",
+      "bytes": 37236,
+      "sha256": "0d2b5c9a6c3659cc96da89485529ec8a9dc9a0be05c9991d30f1e42416e64841"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0047.png",
+      "bytes": 38310,
+      "sha256": "ea1c8f21e4d55b7ec6845740859e06d139ad83efb8bb09cacba4a74148658d83"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0048.png",
+      "bytes": 39026,
+      "sha256": "5735f3f47b3a767374aa0c2d63e7456a1c3f8ebed7846e6e9b3b9a716fe73fa1"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0049.png",
+      "bytes": 39802,
+      "sha256": "f170ea9cb0911548b656e10e04ded9174c45aff4fc0d3674319631ca674fd662"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0050.png",
+      "bytes": 40630,
+      "sha256": "b5e5be26eea4c2dc0d4f22d1ead82e1aae946f63a03b7e644a7a7de281db920b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0051.png",
+      "bytes": 40761,
+      "sha256": "e411716ccde5f33a36f1adb15c5498fe26c83ece188b3614cbc2d075279ec5ff"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0052.png",
+      "bytes": 40886,
+      "sha256": "8835ea3b96eed741bb8f4bb0960be4441dfe6295771ede7c797dab8422b57ca5"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0053.png",
+      "bytes": 40917,
+      "sha256": "ad60d2233ffdf40b29bb799b46ac085ea0a77fd00b6b3d2dd2b32a90e0f8b17a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0054.png",
+      "bytes": 40906,
+      "sha256": "15d7451070c2617f5822c27c38d1c544d693c942ca17b4d871d7cdce48a4c2fa"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0055.png",
+      "bytes": 40782,
+      "sha256": "b5d948031d8990117471c71ba0d64659518a1d70c90f39acad887ee437157de9"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0056.png",
+      "bytes": 40960,
+      "sha256": "9bfe84d4e1e6ab36d31021cf5d8482c8a4d039ae84dc94cf0ea52df17dbea30e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0057.png",
+      "bytes": 40715,
+      "sha256": "169c6b41353fb714c001fca8264259234d6691d7cafabd75650ccaf66141387f"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0058.png",
+      "bytes": 42914,
+      "sha256": "5a65428b344578ec15a51e2965de99a493033a744401e22eb9b0a321c877b905"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0059.png",
+      "bytes": 45070,
+      "sha256": "0f0e45658384f1865552990f787a8d93216b5af164605d2ee8c03e1d15e71467"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0060.png",
+      "bytes": 46860,
+      "sha256": "a440ccff24ee4a17abcd961881a6cc108cf56d327a888f69b20209347abc118d"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0061.png",
+      "bytes": 47626,
+      "sha256": "cad4c52bb18a6567dbf43c18e8ed18432a66765599d35daa1a2a8da3cb88145b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0062.png",
+      "bytes": 48189,
+      "sha256": "fe018722ecf6b89f7df4a3b83fbb615fe4ffe46100e715e324d07884438b88a6"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0063.png",
+      "bytes": 48445,
+      "sha256": "6c521fa5acbabe2357a534526e6f506bf1281a253e5e1311fa748706319e16b3"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0064.png",
+      "bytes": 48471,
+      "sha256": "5c5092ace58736c570868e8e5888b4594f486ce6238f91eb59da613d73ad7cea"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0065.png",
+      "bytes": 48459,
+      "sha256": "221bd885a6c17020445574765fe29f31459020e9209defe066b14a156374788c"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/gear/0066.png",
+      "bytes": 48404,
+      "sha256": "ce43bb3867343d0052dc74d3063e415e58579b720ed038a1583db2cde20dea19"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0000.png",
+      "bytes": 8950,
+      "sha256": "35d570f8f166cc60c5a57796cbbb686084b94959912840dd66a40bcd315002c1"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0001.png",
+      "bytes": 10643,
+      "sha256": "1df70020a0e0181188c32c032fc8767e63cdb67dbfdbec1520119b33e9488038"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0002.png",
+      "bytes": 12557,
+      "sha256": "6fa8130c3cd88c5e3264ddb3cfa0d4af5c2aea9b5f043b0adc239bd400ddef43"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0003.png",
+      "bytes": 14796,
+      "sha256": "a662e60914054366a13b52ce5341f56285fe5ec92c30237bb0c99cf777148f00"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0004.png",
+      "bytes": 17514,
+      "sha256": "6621e6acc11865bb5948ea44cf93a03a2cf4277cd3f4b8b855e2d7570c38e6d6"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0005.png",
+      "bytes": 19457,
+      "sha256": "241b23606f4ec54da0292674e30750583d4a2eb0d7b49e06de2ac6ea0730d9f3"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0006.png",
+      "bytes": 20545,
+      "sha256": "6dc2057ec97929be87f7c404f8e32cdde9f9631760a6d38545323d0b50771666"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0007.png",
+      "bytes": 21915,
+      "sha256": "3587afe5fbb406bc0db277cbbb75e46a77ea44887590e2d92389e6947bf4cb82"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0008.png",
+      "bytes": 22464,
+      "sha256": "c9b14cc9aa19e59d806f7738f9d626a90bb75bee99b4b251719ecf2dcf904e22"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0009.png",
+      "bytes": 22691,
+      "sha256": "d0dcdda274b548438e87b8585dd4d7ba39d0f90e1ce9fe19e57b57695125bf25"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0010.png",
+      "bytes": 23213,
+      "sha256": "5de0e51ef07c6054ce3b3e8baf49dab6c083b5eb460d9a20a674683c84a5797e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0011.png",
+      "bytes": 24272,
+      "sha256": "2b0a8dbbe1386dad06e14e5ae114ddd03c96eec5e565aa5a666713ff2209a45e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0012.png",
+      "bytes": 27751,
+      "sha256": "da53b76ac81176bfb42f45c30574d3d670ae1c43ee920ccacaa29b2581bbaeb5"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0013.png",
+      "bytes": 29562,
+      "sha256": "cf2b88311b834f5f55a151c1d664e07f5c1692787fedc30219eb7d745c4b6b3b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0014.png",
+      "bytes": 31408,
+      "sha256": "a0163f550d179e0a6d19d8552134a32f8fe63530050d9018aebe9e0e60534b75"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0015.png",
+      "bytes": 31375,
+      "sha256": "4d8c051c9e0c89d43d30768b66a8c447161ab69c6c1f77e7dd488aeccd17dd33"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0016.png",
+      "bytes": 29920,
+      "sha256": "74e8c48ce428955b6d7205db508c8da3e8cce0d82c5cf921b4a00486856729c2"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0017.png",
+      "bytes": 27903,
+      "sha256": "ddbdbe23d0ba0a41713fc284e257c24ba8b71e82791f98cb811fb6305ee4cf1b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0018.png",
+      "bytes": 26536,
+      "sha256": "04529953549ecc68be976df6c2fdcf3f1242e74ced4d552ef18a2e615422fdc7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0019.png",
+      "bytes": 27777,
+      "sha256": "bb41fc3a8ca38f2c4688e499626a52197c7903d48bca57d2305440458334a6b8"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0020.png",
+      "bytes": 28896,
+      "sha256": "73f922f44c52e05f2f2df814eb1603e35a9f49d782678ba5251439d3a41689bc"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0021.png",
+      "bytes": 29503,
+      "sha256": "a0901ef3c5f6fdd0ec1f0d5acb68c54816fc51e3afb6960adaec9736ff66f46f"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0022.png",
+      "bytes": 30771,
+      "sha256": "c4ac9c28f608f0a0a959f51f51d65380171372586faf1e0c040607c3c7fe81be"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0023.png",
+      "bytes": 31431,
+      "sha256": "49ad6f4487e579121d48ede1ee0b477d84d4af082b5108307741f2bb90147d67"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0024.png",
+      "bytes": 31727,
+      "sha256": "d1654aee374c90199438a71c760564e5134ddb996f78874fead4039c37fec72e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0025.png",
+      "bytes": 32162,
+      "sha256": "604cfe5d4241c9c3b4921f351d7febf9456b8ccd393bc40737aae7c4c67a0221"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0026.png",
+      "bytes": 33062,
+      "sha256": "656b4ac19d0c908507226e1b18c58f94cdf2c894ae22563806dda597c6603464"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0027.png",
+      "bytes": 33321,
+      "sha256": "8c52bec166025948f1de59c7e31a71e3347e12c8eb089515bc0d15e12dfdf01d"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0028.png",
+      "bytes": 33488,
+      "sha256": "11da0d6b093e8f172dc3e7bff92fea4815f8c5f06d54ba4c218c7ab21118d2d4"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0029.png",
+      "bytes": 33755,
+      "sha256": "d0c6ee16c3a66333808a309b9d9adffb7f49ae68fe6cad3791819088936109de"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0030.png",
+      "bytes": 33726,
+      "sha256": "823f302d3f6f0cf1426bc490c3ab83547a18a95b24b3ac93242a1293fd5c111e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0031.png",
+      "bytes": 33876,
+      "sha256": "a627cae8009d6ca3d59386520f895580d367b0fa222d3919c6673f2f07d947b6"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0032.png",
+      "bytes": 33919,
+      "sha256": "047d9ba1d4d921f550a1cda2f75bfdd9be232bca4b795da9d6f268c879d2646d"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0033.png",
+      "bytes": 33966,
+      "sha256": "fb31d9830b1d1ecd5b19dba8b1f03d5ca1c6bfb40e26b7627f2c79325e3fb475"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0034.png",
+      "bytes": 34073,
+      "sha256": "31eb52c5b1eba9d0a3c083772ee32603c9aeb1a4501ed0698e6c0c4f95fae9bd"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0035.png",
+      "bytes": 34223,
+      "sha256": "bbda9739988388e731cf540f4c175b79f064828855fb56e429fa28f5ac87f99a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0036.png",
+      "bytes": 34470,
+      "sha256": "f0f1e7a2790eeea26949b5f5d91b4cf49564b5e0772fe2963e2713c7bc14e861"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0037.png",
+      "bytes": 35070,
+      "sha256": "06cdb5e9a41a343b19d5f90e465a7869993fc178d4b938f2e5c0ed90cf5f96ac"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0038.png",
+      "bytes": 35840,
+      "sha256": "876c7a5c9979ab54d7521766768550a04a6922b567f934b92d2b88fad86ef8fb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0039.png",
+      "bytes": 37077,
+      "sha256": "3c3b372914a31c86afc802ad88c270851e034d4ee2e0641a960ba73a2b8d3aed"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0040.png",
+      "bytes": 38719,
+      "sha256": "d5f443339e9dd91e3dad4969a2352a0da3549f9be9c3e8dbc7b3f39299ec03d6"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0041.png",
+      "bytes": 40854,
+      "sha256": "3f5a79ffb6540a5724478a01be950b57d443d396b54bbab6ed44f6ffb248ec04"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0042.png",
+      "bytes": 43176,
+      "sha256": "d3202de4af6b711ce26462b19a64fa365d28b17ff169cee2119e47641ee86f9b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0043.png",
+      "bytes": 45351,
+      "sha256": "dabd8dbed06f43ef94e1d0bf72ffb7c9880e72e7f5691fc9ef66fb902204b20e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0044.png",
+      "bytes": 47153,
+      "sha256": "85afa9cadd32d1adae6c09d9f48b2441f101b376751e4a761e4a270aedc5c002"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0045.png",
+      "bytes": 48561,
+      "sha256": "5a2dbc663a28f1600c622a62dab37b0004c842d9f1ed76890f2575165c92cdfb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0046.png",
+      "bytes": 49312,
+      "sha256": "ff7048154b326381e5b6217b19b7c2b3472314dd32567a9d05e1a275e0fa9663"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0047.png",
+      "bytes": 50042,
+      "sha256": "d80fa9673769be1ac9687d588f67e458c75295f718399212390d998a0b2bb7d7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0048.png",
+      "bytes": 50441,
+      "sha256": "cab7c48111294396a8a291267efc58ab957aa4eff1668d6097c8e96a90c4b5c7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0049.png",
+      "bytes": 50639,
+      "sha256": "4024d8d4d7cefe10ef1372df8335fbe1040fa3c4cf6d1b450ab6035a5c22762f"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0050.png",
+      "bytes": 50736,
+      "sha256": "790c9b5646b697b65752e66793f036ce3e91b635862b4add42caee3b726d14af"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0051.png",
+      "bytes": 50783,
+      "sha256": "9014565be28d372c2c20469c0085fbeb42303282e11c88bc4a1c8e3a35719cdf"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0052.png",
+      "bytes": 52011,
+      "sha256": "84196074de379aca6d81758c29d099ae00048c656314401562ab934b420b123b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0053.png",
+      "bytes": 53142,
+      "sha256": "b07b5131d9f98fea4792ff66040ab034edf11fc853543fb62edba3f8e5fe96a8"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0054.png",
+      "bytes": 53930,
+      "sha256": "4bf59b5bbf9b29b71e87ee2eaab860a3a5ad0728809b7da82a3839b1a299d3a8"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0055.png",
+      "bytes": 54550,
+      "sha256": "bccc8fff9985e2760a750a411e65893afcab99029f14c3990c543181af4aff95"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0056.png",
+      "bytes": 54954,
+      "sha256": "2ef140bab06e6dc9741e79e3c810c00510f72d80f715836a67be6b868c161407"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0057.png",
+      "bytes": 55163,
+      "sha256": "b1fd7002a5d79eb523b3fdee5f9834a2a5b1fb7ad7a0ae92ec5f8d386e5973cd"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0058.png",
+      "bytes": 55343,
+      "sha256": "b5fb9f71f69b9d7f4cc440bfe332904a9b2f69390b8d7b5c777118abedfce779"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0059.png",
+      "bytes": 55528,
+      "sha256": "a73662da0cadfe7db7063897843c55ac5ec97ce84463b221ed3c9e83e9712bcb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0060.png",
+      "bytes": 55578,
+      "sha256": "e3d80332fe8b5c20b4cb58fa34184b790a8522f4a7d6e1e02ad190d96ca9db65"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0061.png",
+      "bytes": 56684,
+      "sha256": "2cafdcd8182621e3436559edf972266ef488e6111c5857b4ef7da0e361482c91"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0062.png",
+      "bytes": 57853,
+      "sha256": "a25fe1c768cd64d8aa1bca1d558f77cc00d9832b943956e285a5da9c9f1b736b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0063.png",
+      "bytes": 58805,
+      "sha256": "c0b854e261163f5acaff77a3a73cfe321fd63fd89764f8306a774975a30dcc7c"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0064.png",
+      "bytes": 59322,
+      "sha256": "b8dc55ef2299ec58c9ac019abc5c1668f4d3eb46196d4b8e7846a012d2df9dd4"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0065.png",
+      "bytes": 59801,
+      "sha256": "846804243ac88bafd2e4f71b578955516bcd54a167609807ad70d8d0bf565ed9"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0066.png",
+      "bytes": 60070,
+      "sha256": "207727f8b82fd4faa82be3b1ed705bdfbb26dd81d95d531b9e164fb951d234ff"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0067.png",
+      "bytes": 60080,
+      "sha256": "db582424e7c4a9b344d77053fdb579dffb611fb5b40358f1b98d30704a9344bd"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0068.png",
+      "bytes": 60012,
+      "sha256": "7227b7aee7f40bd95a4e2ba5c5cef1be71d8d735923d897f6b9cd0a18aeb20b4"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0069.png",
+      "bytes": 59757,
+      "sha256": "451e70f56377b0c8b97df584cd02f92d076d7251c3fb0147e4c9bdc8b61bbc28"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0070.png",
+      "bytes": 59630,
+      "sha256": "35fc77274f720d201e86d7d10ab34a3c556e5fe77ed3af329cd76e0c80586f6d"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0071.png",
+      "bytes": 59503,
+      "sha256": "f54349ed7afbcb770b68580e11b7cca3fb50b47f321484283ed969c5f024a795"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0072.png",
+      "bytes": 59503,
+      "sha256": "f54349ed7afbcb770b68580e11b7cca3fb50b47f321484283ed969c5f024a795"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0073.png",
+      "bytes": 61193,
+      "sha256": "5bfccd7e752f4aa736063e81629a8697a7e321b404839e2fce7f075d995c18bd"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0074.png",
+      "bytes": 63551,
+      "sha256": "018644fd9b46d08fd9c0ef5af2c3dfe2a00570a2e2ce86830e9b4992d696fcf8"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0075.png",
+      "bytes": 65448,
+      "sha256": "b4f503cdc174fdeacef0c64cffa8ee521e1a81572c06f47c53b2979f259b6b9d"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0076.png",
+      "bytes": 66512,
+      "sha256": "319cece63dca149eaaa18ab4bcaff865e723331f2c85efb5fb1bcd2afa14bb97"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0077.png",
+      "bytes": 67373,
+      "sha256": "0e75d52275379a5ad4fca89057d67fc1bbcc02835de48474efbe573779cc987b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0078.png",
+      "bytes": 67505,
+      "sha256": "2a80fadb70c4c3d43ee419d53bd44ebcc86e618e8248c45f756bfc8c334ae38e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0079.png",
+      "bytes": 68485,
+      "sha256": "07b2c3e543b14d39f1870ad68b01cadf7d869b305e0743729e78e7530c9c7da7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0080.png",
+      "bytes": 68362,
+      "sha256": "ad5a831147c37b13acc42b06dc1e140e6be2bcafba187b58c5869a41278033fc"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0081.png",
+      "bytes": 68325,
+      "sha256": "ac10fb4cba450c0eb5928f7035c3632143abc8e57a8d9415916e5bab540b3346"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0082.png",
+      "bytes": 68042,
+      "sha256": "c5e7d17bf5f539bc8755d34fcc742c9ffe72f3a96d38bdddc44925a8325b12c5"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0083.png",
+      "bytes": 68082,
+      "sha256": "816a9717699be2fb5cc3b9379432c90c38ac4c7b32316dc04e56cb36d030fa20"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0084.png",
+      "bytes": 68063,
+      "sha256": "f0d77a18971e862cd135d2acec14c753d03e48261ec8dd5c708f3184cdb205ae"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0085.png",
+      "bytes": 67836,
+      "sha256": "35b883fb1189087a5408b79b83c99325c2e47c5bcb8117e8fb0af91cf876b98e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0086.png",
+      "bytes": 67715,
+      "sha256": "c79da6c6d53cdd1fbb47c69d1057378f3cd3a79c6e7e02d9b37723edb9edb3e7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0087.png",
+      "bytes": 70449,
+      "sha256": "c2edaf2a21bcf620bf78763faa1e714ef88f9a0ca3b0ac6ada178d20d9bd9dd7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0088.png",
+      "bytes": 75061,
+      "sha256": "29ccc46269d7f467fb0fb0ee1061526c4d18a58edf70b72087cf6e60c8f71cbb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0089.png",
+      "bytes": 78101,
+      "sha256": "ae482129375741c8b219d8b98f81fa42ff3997b4374ef52d7ddfc1b3a8325a56"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0090.png",
+      "bytes": 80725,
+      "sha256": "9568ba5b5795a34187afea4a6beb95045807f355932ba680d065da0467b123ca"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0091.png",
+      "bytes": 82630,
+      "sha256": "1d2ed1ca331e1462a64f92a9f23508abaebc5c0f3f782edfeec9801265e8d78c"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0092.png",
+      "bytes": 84025,
+      "sha256": "36a55747b44e8c6ce7f2dc4c399f38845f52abb72d31cf3a72823d0f62d7fa56"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0093.png",
+      "bytes": 85181,
+      "sha256": "f017b7cb21f1e411de9fa510342d0bb08e8328280325d46b1be39565a8601ee3"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0094.png",
+      "bytes": 85790,
+      "sha256": "62ca995b5f7ef5bed1c39c2a769f6b43425b85a2762a8e1cf70a7c52a43205a6"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0095.png",
+      "bytes": 86109,
+      "sha256": "ad0291b54e8543374cd5992465ffe6fc802f0c534f5dd36e228e77e7927d8ad2"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0096.png",
+      "bytes": 86176,
+      "sha256": "e8e53b3e05baf8c0bfbe8f812726a0bdcf2f394c9f76fffa0cf051c61f02e904"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0097.png",
+      "bytes": 86075,
+      "sha256": "493facfe7a8c4dd6828d2f3621267c2bf4f953fbd04b955f366cc7d916cf07c8"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0098.png",
+      "bytes": 85802,
+      "sha256": "e2bb209eb0298390b97e72874915aecedab7078da6d67e479df28950da05871b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0099.png",
+      "bytes": 85739,
+      "sha256": "f5ed5b6e0808ca390db7eddf76a37219a0645e4c95a313c885d748559588d566"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/heat/0100.png",
+      "bytes": 85828,
+      "sha256": "b87426cd31bac728c03ea5ab990e9299c26ee3db06b58b778a483413e8e951a8"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0000.png",
+      "bytes": 5383,
+      "sha256": "6c0806480449cae198d00e0490a6afe1aff508420105ae3ac4bf46917e90370d"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0001.png",
+      "bytes": 5893,
+      "sha256": "7536599df2756e40a86701c284075e16ad9ccead9137c7d405c72089e73d08dc"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0002.png",
+      "bytes": 6817,
+      "sha256": "ba7cf5150a051a5d3378b34a605c9500468c377dd26391d7fb2eb7d0ccbeeff7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0003.png",
+      "bytes": 7350,
+      "sha256": "f3fd5b2e43c7ff435c21a8dbe5789e346b01d7eecdc31c690acdc2f08b3d95c1"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0004.png",
+      "bytes": 8108,
+      "sha256": "299c0a57f197358b002ca1b1a84df82fafde0aee95f3c348522b0e2e6a137b28"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0005.png",
+      "bytes": 9081,
+      "sha256": "dc49818912a0a20f072e2f8c1b94b878498dc82f131604acd8a69a8fe482574b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0006.png",
+      "bytes": 11332,
+      "sha256": "2b6742aceb355255bd550261f2df239ae60e203cf5254dbb1a239034c95d081e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0007.png",
+      "bytes": 14406,
+      "sha256": "0ae68de87b8b6f76dcc62efccfd29fe1d91721d2059c5ac072abbd697c63883b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0008.png",
+      "bytes": 17547,
+      "sha256": "c3f695c871bd4b32c63022c6d0e89d74e6f2ea723635f24dafcf704e8b199bfb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0009.png",
+      "bytes": 22122,
+      "sha256": "b93e190867d4388d36afea9f6e1ca3184a045c67e977181728e76710ac5a2208"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0010.png",
+      "bytes": 25120,
+      "sha256": "d0df43511b386c0bcc49393c50e58b7bbd94314ab01d9be5911ee6e9b8613d47"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0011.png",
+      "bytes": 27696,
+      "sha256": "70706d564a46ddb445c9d7e795f8a899206e97aae35b64c4c123cf9f896cc763"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0012.png",
+      "bytes": 29633,
+      "sha256": "2f48ac02cc1cbc6e8115a742f1ca5f4be8ff2eaa8ab688c7e4c93fc00ffcb597"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0013.png",
+      "bytes": 30428,
+      "sha256": "8037697d4f3dc699b092fe4512cc528644aafc2616a4fc26ce74dae4155a9132"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0014.png",
+      "bytes": 31066,
+      "sha256": "bf721b9dcf81a1c935b3ff83ce04974e574594abce5f77548ce23375f4c3c760"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0015.png",
+      "bytes": 31202,
+      "sha256": "e8d63d9455959dd258accc56968fc62bdf7db64723ca7bb4b3fa90540edf7477"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0016.png",
+      "bytes": 31141,
+      "sha256": "8c44fb2c0bca11cc5d2eae9669faec92001b25965f68fbff974d22013a47a8bd"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0017.png",
+      "bytes": 31012,
+      "sha256": "579c0142c082d5cd3be6cae2a5eb2961bc2d4a166e7759aa21fbe07ec9b3fe28"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0018.png",
+      "bytes": 30911,
+      "sha256": "15f4db7a6fd2a63543819981f6ea22aaac964f8eea1b508913ed07747ff83449"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0019.png",
+      "bytes": 30617,
+      "sha256": "b0e97ebf3b663b53a43e4425d361c028a9ab68111df4da6647ffcd0edec6c2bb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0020.png",
+      "bytes": 30618,
+      "sha256": "6324e0bfde1e78f4b2bbdf3e86a2bcf669049ade9f3cbf743224a4949877008c"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0021.png",
+      "bytes": 30605,
+      "sha256": "e8419786db59c0e5537039931f925d75ccbd3356223b2f1abeb676967dfa9071"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0022.png",
+      "bytes": 30619,
+      "sha256": "14e7d01c561e512aacb3d36f5c8969587016ceb0f44dc5a3c1bc7826a5241f9b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0023.png",
+      "bytes": 30646,
+      "sha256": "89595281b322f4a72bed90fa23599b7aecd8c75a1981e12d6baaea55e8bc7e1a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0024.png",
+      "bytes": 30689,
+      "sha256": "1a5860e557db6a0181a97bae1aae85a3543bc2d276d7a5f71849f0a20d53ce47"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0025.png",
+      "bytes": 30811,
+      "sha256": "ca3648a6447168046dbb8cb26a99da8198e2105fdc9d4a0e0b9fe21327e71c50"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0026.png",
+      "bytes": 30936,
+      "sha256": "b8e0b5c9341521305aeea94b3e564523e9dc60bb7259fadb26be0ba7b55eef46"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0027.png",
+      "bytes": 31085,
+      "sha256": "01d6f8d9211c17db33eb257da4f93047e36440051513cf5078f6defcf71d7062"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0028.png",
+      "bytes": 31266,
+      "sha256": "f6a4e92f190eceee50ae80ac23c14c92f8f31b164dacec06e36ffca44944502a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0029.png",
+      "bytes": 31425,
+      "sha256": "9977134a035b7383691c64d6973eb8cac71283ed092c6329f81b4413873dab95"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0030.png",
+      "bytes": 31518,
+      "sha256": "5a75b64abf21ce5b4ffaca509fb2ff609ecbe85743c0b39a38bb1ac128147f68"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0031.png",
+      "bytes": 31615,
+      "sha256": "faf6557d8dfb010fc712ccce3dbb77af1d69a6fe4da34911c4439202c2da8d66"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0032.png",
+      "bytes": 31700,
+      "sha256": "3dcf0a232c0ceb2b8242df47ed847042fe8fde9275fe2d686296bdf249ff067a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0033.png",
+      "bytes": 31735,
+      "sha256": "ffd845302cd3840275ff997b1fa8d7644a5a5782ed02e58460dcb5a3138da2f9"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0034.png",
+      "bytes": 31747,
+      "sha256": "8336f79beecddbe4f1871c6bfcbd8953198271d800a259e6feab3bfcad69de8a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0035.png",
+      "bytes": 31756,
+      "sha256": "b95d7228573c89ec9736c4b42b46f61256759efc2e2bed5677fb5a2c9bf3a396"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0036.png",
+      "bytes": 31725,
+      "sha256": "4bd05d9227de5d709906c688029739bdef49fe6037913587935c68ace963e0a5"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0037.png",
+      "bytes": 32888,
+      "sha256": "6589c3201fca318dcd82df5e5488ebb89162e42aa875cc8b9c5a70ca1ee8589c"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0038.png",
+      "bytes": 33840,
+      "sha256": "e9ed5524523cf9af380ca0adb3cd0b5700c68dc98afd774672de13ff553d32ea"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0039.png",
+      "bytes": 34705,
+      "sha256": "75913cd32f542b54fc2405eea48dadfab51923b0d238f621146501f6825c9c0e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0040.png",
+      "bytes": 36121,
+      "sha256": "2aaf974b6861813c0fa712677b3abc7bbc8d2aaa8b1bbe7d2d9c891c01ceff9c"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0041.png",
+      "bytes": 37105,
+      "sha256": "8502b90d88ee6ea9828df643142f97ead064a6562bbb73c71d0f152dbaad60da"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0042.png",
+      "bytes": 37874,
+      "sha256": "f87a5e06466b4de7a4d3673b8f81e3ad5aa5d7236b165d05eabf2960fa789869"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0043.png",
+      "bytes": 38500,
+      "sha256": "f3cc26612b9fa806ff34da00a8f939f10f61fa3770ade293dd22953590e03427"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0044.png",
+      "bytes": 38921,
+      "sha256": "2e5b74311854fc13bbeb431d8ff7d1219b02a814daf81747aa712f38b2cd9005"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0045.png",
+      "bytes": 39097,
+      "sha256": "fea40cc775e797c04e1de59c512a47f6a9201716f3516f3520528f51cd8a23a4"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0046.png",
+      "bytes": 39186,
+      "sha256": "9105f9e5786223ca0ecd2648be6fff7e3215ed0af0b0ed92bd6282c89c87b635"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0047.png",
+      "bytes": 39251,
+      "sha256": "d08ad03720dec5a7f4b7bb9deb4d017f91da948e610c046cc9d461fe98b0942f"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0048.png",
+      "bytes": 39266,
+      "sha256": "820c3baf4d3c94c1f5c75a93ae9883058a9ecf91a9694d61bb166d8d9087895f"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0049.png",
+      "bytes": 39250,
+      "sha256": "7c2fdcc8b3b59d1d4a0d090ed7c35a0edd11f96aeb43506fd82e63b24d086716"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0050.png",
+      "bytes": 39213,
+      "sha256": "645a478550b2105ac169a6128ce85a5a4186a77404b64c3173fa80d317d66966"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0051.png",
+      "bytes": 40346,
+      "sha256": "02fe2fb9493283999280993a2b242327029c3cb9794bca3a49ef3d50eb201b96"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0052.png",
+      "bytes": 46425,
+      "sha256": "1aee7fd2aee36b07c8a0920755c22ea1ed9ed143decd337576a77dddf06f2756"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0053.png",
+      "bytes": 48282,
+      "sha256": "a5fd2cd6226182879a5dfa16b5e22cdf7ba5afed934bb2b3f7d7ea78935d8eb4"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0054.png",
+      "bytes": 48999,
+      "sha256": "2f195a5c82faf8f034214f221556104f7550b8f26d6c3e5ebed2588804c565a3"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0055.png",
+      "bytes": 49339,
+      "sha256": "e41f64149d7de7d1804de506d90e8d3c18cbd2ba43aac17f5c0551ee3191c59a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0056.png",
+      "bytes": 49715,
+      "sha256": "39555235ce186a81ad5f7dcbd4fff41c11db006ecf47e8fdadc9d8e6ffbfa67e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0057.png",
+      "bytes": 49843,
+      "sha256": "7e6a1ab6a02a152d81350804c86740cd532ccb659623797c244bf0d95cb81359"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0058.png",
+      "bytes": 50797,
+      "sha256": "2ca2a9bb4955b489da54722b13e0dc686fb99e23b6144215909a0dbbf680dbc9"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0059.png",
+      "bytes": 51077,
+      "sha256": "4ba594c892898ae6aa8ca76c2fc636625cf9196666e73fb32f364ad4dc68a57d"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0060.png",
+      "bytes": 51196,
+      "sha256": "80cb48833f3472eda0cbf6c3f135f6138b8fa46db0dd4015b1ac6cf5310f835e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0061.png",
+      "bytes": 50925,
+      "sha256": "d014ed628c40a48de719a8e90cf3637a46b188fb0b6b009c13bbba18ad305a1e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0062.png",
+      "bytes": 51407,
+      "sha256": "0f2bf324dc9fde95ea506ad5a1456de91b46a5afb1ae6cd0d4e63e1d6a7b23a6"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0063.png",
+      "bytes": 51541,
+      "sha256": "09e3e6d9008ed5c67352b249192e62ca1927a0de060088f5368ae7c106a36585"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0064.png",
+      "bytes": 51517,
+      "sha256": "f558545cb6c1f798b3548c10248c612131273afbf13ec3fb6d8bc0a8b5209695"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0065.png",
+      "bytes": 51563,
+      "sha256": "a9b8f98583e5cbcdf15a5e5f45358686d3d881a757b6d2cf9b56dbc5db4daf3f"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0066.png",
+      "bytes": 50583,
+      "sha256": "0f1b9c18c1d5ea2b03e2945005ea812d180d52fa1b47099408941948dad4f7cc"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0067.png",
+      "bytes": 51035,
+      "sha256": "2e7428480ec3cf447939d9527ff1af982f0ed7b0cd00b8075288e15c393bcbfb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0068.png",
+      "bytes": 50610,
+      "sha256": "cb43e8d44a913bc92457f78c62d64f3f363ff7731fa3e8300f1a094371669f71"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0069.png",
+      "bytes": 51102,
+      "sha256": "c4507b81c9538de2e0f3f22bc546e9dd10a6c037681b8878053127d0b4f8c451"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0070.png",
+      "bytes": 51213,
+      "sha256": "6c6dea7002be54e5ff94ee31e2255fa6690084854d8ee9c12ddd8845a8787c09"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0071.png",
+      "bytes": 51197,
+      "sha256": "f55a377ed85d95bc9377103e0a9042540d3ddf0c200bf222a4f7fa027c30dbfa"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0072.png",
+      "bytes": 51243,
+      "sha256": "37c2b76f4cb8cbdc1d4a3a041f2d7941dcf7493dd3856c18752d831d65aabea0"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0073.png",
+      "bytes": 50583,
+      "sha256": "0f1b9c18c1d5ea2b03e2945005ea812d180d52fa1b47099408941948dad4f7cc"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0074.png",
+      "bytes": 51035,
+      "sha256": "2e7428480ec3cf447939d9527ff1af982f0ed7b0cd00b8075288e15c393bcbfb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0075.png",
+      "bytes": 50610,
+      "sha256": "cb43e8d44a913bc92457f78c62d64f3f363ff7731fa3e8300f1a094371669f71"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0076.png",
+      "bytes": 51102,
+      "sha256": "c4507b81c9538de2e0f3f22bc546e9dd10a6c037681b8878053127d0b4f8c451"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0077.png",
+      "bytes": 51213,
+      "sha256": "6c6dea7002be54e5ff94ee31e2255fa6690084854d8ee9c12ddd8845a8787c09"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0078.png",
+      "bytes": 51197,
+      "sha256": "f55a377ed85d95bc9377103e0a9042540d3ddf0c200bf222a4f7fa027c30dbfa"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0079.png",
+      "bytes": 51243,
+      "sha256": "37c2b76f4cb8cbdc1d4a3a041f2d7941dcf7493dd3856c18752d831d65aabea0"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0080.png",
+      "bytes": 50583,
+      "sha256": "0f1b9c18c1d5ea2b03e2945005ea812d180d52fa1b47099408941948dad4f7cc"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0081.png",
+      "bytes": 51035,
+      "sha256": "2e7428480ec3cf447939d9527ff1af982f0ed7b0cd00b8075288e15c393bcbfb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0082.png",
+      "bytes": 50610,
+      "sha256": "cb43e8d44a913bc92457f78c62d64f3f363ff7731fa3e8300f1a094371669f71"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0083.png",
+      "bytes": 51102,
+      "sha256": "c4507b81c9538de2e0f3f22bc546e9dd10a6c037681b8878053127d0b4f8c451"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0084.png",
+      "bytes": 51213,
+      "sha256": "6c6dea7002be54e5ff94ee31e2255fa6690084854d8ee9c12ddd8845a8787c09"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0085.png",
+      "bytes": 51197,
+      "sha256": "f55a377ed85d95bc9377103e0a9042540d3ddf0c200bf222a4f7fa027c30dbfa"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0086.png",
+      "bytes": 51243,
+      "sha256": "37c2b76f4cb8cbdc1d4a3a041f2d7941dcf7493dd3856c18752d831d65aabea0"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/loop/0087.png",
+      "bytes": 50440,
+      "sha256": "3866c767b3c8f7768578fc0e334b7b168ebc901cd00a86595af77400ad5b06d7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/manifest.json",
+      "bytes": 316,
+      "sha256": "b205bdfc721efb310aebb5a912eacc0dbc438fec322093c996c9126102c2d431"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0000.png",
+      "bytes": 6437,
+      "sha256": "9e53da31b9aa02cecbedde806969a5b1a2e518a49532b0b3ab2eaab3acafaacf"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0001.png",
+      "bytes": 6742,
+      "sha256": "929d7bc3fb605e59c203bab09e35bf422060b23220e1061603fb81b8e6b0598d"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0002.png",
+      "bytes": 7050,
+      "sha256": "7e3c9833f483977b0ccc412b58ece83e90dd1fd250041e1d833c094f8117e104"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0003.png",
+      "bytes": 7524,
+      "sha256": "b63952de7b2eb0d39cebbc59dc4e11cb65d019af100b0e4562585f74be0de982"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0004.png",
+      "bytes": 7930,
+      "sha256": "e74cac9334c29b09054f7156503f7a93d37d724ffca13edcb75e89e085913b34"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0005.png",
+      "bytes": 9242,
+      "sha256": "978b9e86ef78fcec6af3924788919137799633aae727236ed36a94d138f71b84"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0006.png",
+      "bytes": 12003,
+      "sha256": "d590f6be36248707f61a1b624afea4449c308113342668d512fbc697a31377d3"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0007.png",
+      "bytes": 13159,
+      "sha256": "a41c7491b6b172e57802cc30012e66e38e5a2153169014d8bf4970684caf7109"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0008.png",
+      "bytes": 14452,
+      "sha256": "243f529ca81ac7ff1b31653a83d4b9e6a95d6ee137a944b7ce81fa599ceb55ce"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0009.png",
+      "bytes": 15650,
+      "sha256": "a95d99c49d8efc06fbbcdc88c8754839117564aebd6f314e58e0b253b15fdee5"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0010.png",
+      "bytes": 16475,
+      "sha256": "c28020197e0776a77059503c832a7d1c742dc0d7cc640b64fa1c624b4f4f591c"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0011.png",
+      "bytes": 18329,
+      "sha256": "6edbed65f4634363a937ec88dbd17315028cefa5528d5c1ef58a4472bdc01512"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0012.png",
+      "bytes": 18438,
+      "sha256": "dbe14737f9807377462dc4de1ca143030f23875df74f7b4ffe50256bcc47ac84"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0013.png",
+      "bytes": 19352,
+      "sha256": "043f06579fe774d1fb8519cbb6ac526ea9a10d91a6d0d543068fab4f6152edfb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0014.png",
+      "bytes": 19510,
+      "sha256": "e629806d7b56165eba7821ffbef23fa49272261cf92c7bbc1c2d79ee12ad8453"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0015.png",
+      "bytes": 19707,
+      "sha256": "dc079fe01e8f0a625f7fa2b741a1a8d39aa14a84068ff691470851bb619b452c"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0016.png",
+      "bytes": 19069,
+      "sha256": "8a907d553b3cf019b32fc5a7936834b4e89ec39367bc3a06ab2a79f214b6862d"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0017.png",
+      "bytes": 18460,
+      "sha256": "7dd58ba994bd56268e4ddb75063508c07d119c5f98bad3fdce37f9530dd757d9"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0018.png",
+      "bytes": 19143,
+      "sha256": "bfdfc210fa1b2c907d218557be323f32707186e20512e1f2cb9c0c2ce5b22ada"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0019.png",
+      "bytes": 18913,
+      "sha256": "b7a7fdbda97218879642da2d70919eda6d6db4b97bde9adb5dcc4b313727cbc3"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0020.png",
+      "bytes": 18565,
+      "sha256": "b4a0e12523842aa5701765859e0fba1659794fca0532d4cf6830f95e9c2bf3a7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0021.png",
+      "bytes": 18311,
+      "sha256": "0c9230364a16b91146bbbae5d32db0462033b316461e70a80141884541818a30"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0022.png",
+      "bytes": 17852,
+      "sha256": "0b400847f877d5edff428211ecf8c1e1a643e8f3769ec3d57fcf1663e73a53f7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0023.png",
+      "bytes": 17342,
+      "sha256": "a438484aaade5f900fa5f4331fdc828ebd5d7550dbb8f908de61237dfc20e038"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0024.png",
+      "bytes": 16933,
+      "sha256": "a4ac4d859dbeb7785ea41d9d1d5d15d902d5aa4264a6973c4bbd3f901b433f3b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0025.png",
+      "bytes": 20289,
+      "sha256": "8186c2ae133549cca191b2f372c2b6965baa48c353c53c57f9423632400d5e3a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0026.png",
+      "bytes": 23806,
+      "sha256": "ab6ea9c8ddded5d180767e59f33b0e11288ebc3f8a19bfb6a661b85c58a9ff3a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0027.png",
+      "bytes": 26705,
+      "sha256": "cf6dc190a3ef727f46ebc1783d55512331bb08f0931a7f443cc67c8e36e75787"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0028.png",
+      "bytes": 28901,
+      "sha256": "d0a26d08352731461172afc51e42f00237d1af691646cf5e1e32973a7e80e5c6"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0029.png",
+      "bytes": 30273,
+      "sha256": "40efcf79c8c50cde621b0cef10e0c5b5cb1cc1fc8240b77dea52a8fbd7f1e271"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0030.png",
+      "bytes": 30550,
+      "sha256": "0cbee53b982d260ead7ccb291ee588b7797ad29875631eec467004fc645f964a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0031.png",
+      "bytes": 30859,
+      "sha256": "04ea07ac7cc8e540af6fed493a3d82e3dccf31ac38bf7e39b403b3406ae32c83"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0032.png",
+      "bytes": 31105,
+      "sha256": "b79bfcb94eee107494aab207a0bfcbca47f7387248d4c5000fc78cbdfb4369f8"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0033.png",
+      "bytes": 30952,
+      "sha256": "113578d1be4609fb68ea07244be6bc60501f227a60463f2a9201545d832f4cae"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0034.png",
+      "bytes": 31504,
+      "sha256": "b7e46ae724e65f3bb761cd117c05e3173dc07ffd16584b9411731f37a552e08f"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0035.png",
+      "bytes": 32041,
+      "sha256": "f67d7769167e2ffe07b6b7e70f459568005c2f582986db8b64c684f0b204fbef"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0036.png",
+      "bytes": 32387,
+      "sha256": "aa9af82564ad601b872f8991fa6fe93709b4cb524dc2ef116bdebd9554b70c33"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0037.png",
+      "bytes": 32730,
+      "sha256": "28056979c5e1f90f67602c22ac8895d015d1e7f42f16eba2e3f374658f6a0d52"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0038.png",
+      "bytes": 33260,
+      "sha256": "169e6917a9dac3ffcccc00cf1b4bafae224e54a9dfea95bab997d2a773d5b9d8"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0039.png",
+      "bytes": 33302,
+      "sha256": "2aeac06521fd1e144ac5216595e598cb6e70520e6dadfc55ed7f93c599424764"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0040.png",
+      "bytes": 33507,
+      "sha256": "b41d8ca998291c7979715753899a676dab2169d022a2c7398e30eda231945685"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0041.png",
+      "bytes": 33685,
+      "sha256": "389933e9456f318983401e42ec8137bb0363d42464c3a91d45403e4e095d8883"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0042.png",
+      "bytes": 34449,
+      "sha256": "09c4901b9f2c6a1508d5f49d67a0777813af7f88fda6b0f821b049b305077ccd"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0043.png",
+      "bytes": 34704,
+      "sha256": "b60a28399d78d541431474134086b609a18a617722250517b165cd81f0b3feb7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0044.png",
+      "bytes": 34821,
+      "sha256": "d53c92fc12e68c582ca254c2e2fb2cac33fff78c48c30cebf9be71bbaa1f3880"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0045.png",
+      "bytes": 35151,
+      "sha256": "e200609b4f1408e02b6472e455b29c68ed13ca7332637dae3606c4492db70c79"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0046.png",
+      "bytes": 35082,
+      "sha256": "2b906abf284123fff55ca39a5182f9e68c0432ae300cf79cdfa466db867f311a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0047.png",
+      "bytes": 35079,
+      "sha256": "2e989ae2eea932b26bc8aa941b05f0bcc21168f77df8af5bbaeb4a0d92958da4"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0048.png",
+      "bytes": 35309,
+      "sha256": "a138bebc8c5cc3af7dc0166f43e595bc56e0b38c6439a090ad891065460c8a0b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0049.png",
+      "bytes": 35606,
+      "sha256": "0c8705ad3f1b768283f7feb992063db83a20fd832aa8e08e77a77252802532e9"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0050.png",
+      "bytes": 36006,
+      "sha256": "cac0378e59afe8e0f7afd28434bde4d3b6e8808ecc5fafed48fc3834cac75d6b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0051.png",
+      "bytes": 36777,
+      "sha256": "c560b68583e288ce932826a2b6e6511815b1c6462c16707fdd4ad52fe09e36dd"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0052.png",
+      "bytes": 38086,
+      "sha256": "bf8f990339a738cfae314f933eb7cbe0075c5b76d6331ecbeeeb2df7e68b737b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0053.png",
+      "bytes": 40058,
+      "sha256": "56726a19f71a796b46d256d5466a14d11fd5dd7bee453fbf1935509ce4a7f5ce"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0054.png",
+      "bytes": 42692,
+      "sha256": "40d81de8922476c4f56f311e5924d7d64f07bc965f9df6d9ffe9eb545a5bb6f2"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0055.png",
+      "bytes": 45589,
+      "sha256": "546dead91adab4f014925c35320131e1c9b2965f75271a476d5cbbda056563c5"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0056.png",
+      "bytes": 48166,
+      "sha256": "e6f2adadd8a2ca28ce206e0f739bacd40af8c804f6aebf906ee1da8de1b2e4df"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0057.png",
+      "bytes": 50068,
+      "sha256": "be2ed144f602ae7f9e3f129aa04c18fb4c8af01f6831dd21149a3c89011e5d9f"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0058.png",
+      "bytes": 51340,
+      "sha256": "68da8258a15b16b9c7b6fd89e6ed88a257e85173dc32b93277c41c74905f39fb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0059.png",
+      "bytes": 52086,
+      "sha256": "0a30605b15a9db790302f55a92d7ddf59c978c33f721f5c28313784d343a88b5"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0060.png",
+      "bytes": 52462,
+      "sha256": "8e1a1119198ad7bd39f14e2709edc26105bde0b8482a6af8e25a9ed2f75e3853"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0061.png",
+      "bytes": 52692,
+      "sha256": "ed4e433f9ec80900e7dfefc0d92311b4f2e7387c3a798eabd3a5ec8a5ae95756"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0062.png",
+      "bytes": 54043,
+      "sha256": "1aa2ccec47eda5844018d3afea2bfc28a81559bfd6bcdf10dc03820ee3eded15"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0063.png",
+      "bytes": 54026,
+      "sha256": "6fa93cde463fcc78181b03e08ea83b56f278ed8c9e03b1d58f8e8a98c8c0411a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0064.png",
+      "bytes": 55165,
+      "sha256": "3c5444a1bf2a218cc5138f132559ba4d53955a268916143b2fa427c27d440892"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0065.png",
+      "bytes": 56086,
+      "sha256": "982b4fdb3658ffb074b199a2a6697b6675c7fc963d3b12ce9b6157cd5373a745"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0066.png",
+      "bytes": 56727,
+      "sha256": "c3d580d3c37ef683eafa357e2b367a17251b0b57c2243d37f86689db82d75666"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0067.png",
+      "bytes": 56927,
+      "sha256": "88feb2d1ce953722eb528e5ac978636151066bc029615b2e904e465c5eb06698"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0068.png",
+      "bytes": 57810,
+      "sha256": "5cf6d47583cb6ec42a1401bb3ebf86b04af04478345e25e8ab942a89efdcb835"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0069.png",
+      "bytes": 58116,
+      "sha256": "55bcbc4939a0e4fedfe582d187317bbc502860dce5c124a475797806a4eca647"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0070.png",
+      "bytes": 58723,
+      "sha256": "184a87cab9fdea47f72635e6ff32f696ba5d556af8bd3682fe14592af650bac3"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0071.png",
+      "bytes": 59350,
+      "sha256": "046470ef14a0ef353fc80f46f7aeed05b12145e53040102111b1ce51d676cd09"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0072.png",
+      "bytes": 59716,
+      "sha256": "eddc28b610f6fccdd68a7bdbd64e364eae15a7e1e81c9e48cf62e767f9fa3458"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0073.png",
+      "bytes": 60165,
+      "sha256": "e18531b2fc4c43017fb3791ab86e83f9ccd08d412e8b364e2c64f449d6902c2b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0074.png",
+      "bytes": 60350,
+      "sha256": "14006acc4c47316ee5835ea8725ba599fd0acc407e6d835b0c6736167de2f97a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0075.png",
+      "bytes": 60394,
+      "sha256": "ef4f0c742c041fa20feec155195b1d39477191edaff6553a827bffb80db6350a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0076.png",
+      "bytes": 61030,
+      "sha256": "4bd711f258747b41642c5cb69f018d3db7f67e955cefac208dc39e280d7f9648"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0077.png",
+      "bytes": 61474,
+      "sha256": "f18ee47c4cda3f36d9cc00260340eecba51edc81ec6a0081786a794fb9df046e"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0078.png",
+      "bytes": 61768,
+      "sha256": "3f6cea3125e0d57edcb9619651eeee369cd77fe1e8ab959c94e29764a6cfee9b"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0079.png",
+      "bytes": 61869,
+      "sha256": "77f74450c59d3ed4ec38c1a1fe1409df40d313bcb83689748e2c5fab3c637a63"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0080.png",
+      "bytes": 62197,
+      "sha256": "fce1106ba755d6fbdb79c7ba4e35eca215b4069160f2831157af69abf60a2bfe"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0081.png",
+      "bytes": 62529,
+      "sha256": "2fd46c650c6721bbd27d988bae0c3118eb6f8ede640039546ae0bccaabb582b5"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0082.png",
+      "bytes": 62591,
+      "sha256": "94a0050cd096a4319a0494289cf666892ddb116a031b79d6a3ab7355c4cbb483"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0083.png",
+      "bytes": 62633,
+      "sha256": "84ae3b2acb38e6407059d97e9efe4b24ac71afdbf3571fe0c3c32cf22588c813"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0084.png",
+      "bytes": 63285,
+      "sha256": "1558e2045267e6151ffb97c13756fe31f1e5f81804d6a25b045156fdaaf9ccc6"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0085.png",
+      "bytes": 63488,
+      "sha256": "4e8830d33b445e188d7351ef99a6eaff4c69fdf8dfb9cb33cea4e8b3fa7c78ff"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0086.png",
+      "bytes": 63146,
+      "sha256": "4b341c4cb0cb1dd8ad9d1a4cbe92a3f4f455249eb2618cda02a33fb4c84a8b3c"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0087.png",
+      "bytes": 63342,
+      "sha256": "e70c47ca92708b7b9517e21c91ebd7d40cbed39729885756b319fcd01399cff7"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0088.png",
+      "bytes": 63458,
+      "sha256": "99e58535e6c746b107704af9dcbe2b0022f6d3e79d8bde6d0329eade20bc54ad"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0089.png",
+      "bytes": 63601,
+      "sha256": "4570a5268d78cace3f19e0d628a3f786f9e1913a158042d64babee27afe17fc5"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0090.png",
+      "bytes": 63036,
+      "sha256": "9117e8be6d0450499d8bbf612ca7ca06b7ce10ba118fb5153312c0c1c81f9097"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0091.png",
+      "bytes": 63611,
+      "sha256": "6f3dca4ad679d501f8735421d20db67719f00fdbf38a9c610f9289c5f9ba2715"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0092.png",
+      "bytes": 63628,
+      "sha256": "4bee7735f37f09a55694879946c81e7c2a65130fe595734bb4edb502a7badd84"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0093.png",
+      "bytes": 63713,
+      "sha256": "6be15c6c7d6490d3273940781f77069393582cf2e9b9e0524451ae795e723110"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0094.png",
+      "bytes": 62953,
+      "sha256": "f330efc468a42c1e69dc3fa1b61cd53817e6ff3c604eda609eef28ac1e65d0f6"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0095.png",
+      "bytes": 62304,
+      "sha256": "63f7738fb0c451cc1218bed2749d89e083bdc3609072397188b48defd8dfdcdb"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0096.png",
+      "bytes": 63775,
+      "sha256": "d27bb01afecd3c2a1ad2bd693b9bd7cb7680fb83a2308c55d3abcbd133edf73f"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0097.png",
+      "bytes": 62996,
+      "sha256": "9a7f565e92cdb4eab013720d9b66cfe3d506f3e150736e12bcb7e6b26dc571f1"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0098.png",
+      "bytes": 63720,
+      "sha256": "b5dc178fa5268c0d7137247d08f41d8bacb47ed9e84cd5e45dbef4c78bae65ba"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0099.png",
+      "bytes": 62912,
+      "sha256": "586e307b5363bf16958eae9529826cd4f7fb8a7258e252963851d3510a96776a"
+    },
+    {
+      "path": "videos/the-hardest-part/assets/plates/torque/0100.png",
+      "bytes": 63730,
+      "sha256": "a913ebccc72a21ddabee42dab9e976c131f8e7314a466fc9b2f1d29a98274138"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/elevenlabs_vo.py",
+      "bytes": 4561,
+      "sha256": "5dec4692442829f72a949083c8370e2ece13f7ebf4796de26c96847b6039995c"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/mix.py",
+      "bytes": 7251,
+      "sha256": "792b87f164a4694a5e308670777ad4caa586020615e33df13125bdae57af16a3"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/score.py",
+      "bytes": 12954,
+      "sha256": "7ebff34378a8b9f457b5b359be64d113b0dd28c5ce6ff83673d23a084638a639"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/scratch_vo.py",
+      "bytes": 1857,
+      "sha256": "5096854924bd481bbe646fd69b28f3315043c70021dd6b02e4cda432ca38faca"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C01.mp3",
+      "bytes": 14400,
+      "sha256": "17346df44b112d4e95acc9bc5982f81dca8c5178710ec08ea545cd5a6da771b9"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C02.mp3",
+      "bytes": 13968,
+      "sha256": "a2cea8cf77dca203969ef03d29e6ec967f077dd729400fd7bc1b60a3d9417cc2"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C03.mp3",
+      "bytes": 11232,
+      "sha256": "811832392cfc620c7410c1af4324f721b83fb1c2704a43587316940697a40ce4"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C04.mp3",
+      "bytes": 22176,
+      "sha256": "cbea36cb77a28b8e78f66b5e27f07cfdd327287fbc8606adeb0ef7547e2b0b51"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C05.mp3",
+      "bytes": 15552,
+      "sha256": "e5d26a6614958af86dd8eee75fdee76be1add78d53c0f9d9e34efaeaef68592a"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C06.mp3",
+      "bytes": 15552,
+      "sha256": "9d8e7d76db3f20bef19d5a5e9275e0d7b20278e667634ef13609cbb2ce1a4b4e"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C07.mp3",
+      "bytes": 17568,
+      "sha256": "218a8e1ed78587be7264b7870f460a68cb7be6b3ea37d1377dbb496455f08a35"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C08.mp3",
+      "bytes": 22752,
+      "sha256": "df71c292a85881d7eac9577abc6212aab15ef111cfbfdba61ea0a2909281674f"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C09.mp3",
+      "bytes": 19008,
+      "sha256": "c0a3fca53547bf3350815fae3c96e30288d77a53cd563c4507f19730dbf4a7f4"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C10.mp3",
+      "bytes": 21312,
+      "sha256": "6ae4bbb7e79ab76106faea1b35d88c2670ddfc60c0992e21997f96ef069064a2"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C11.mp3",
+      "bytes": 11232,
+      "sha256": "ed61677849fa6acbba373e8ab796c7e1b87ee1e0a704aa948f62fed8996c78c8"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C12.mp3",
+      "bytes": 13536,
+      "sha256": "2047fc48b84a3688be8e07477320d5a176b66cbb5716c01758facf2d174748c0"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C13.mp3",
+      "bytes": 22176,
+      "sha256": "dff6d4092f65e34093a8e2cb6f1afc31ffc925c6b40a26a829c2a63f4dad5b97"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C14.mp3",
+      "bytes": 28800,
+      "sha256": "83b31a6f10c031f1a4ca7cfa5385453452d3e7d4719ac01ada07e8fd386d9a8e"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C15.mp3",
+      "bytes": 24768,
+      "sha256": "1d11559b6e28e70345beddea9c083e7edca3a8ede1a50af8630686a5ebe2c75d"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C16.mp3",
+      "bytes": 11232,
+      "sha256": "f689c2867ed2d823885aa13379ca17e5aaf3feb57af9aabca274f6f9bdf80356"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C17.mp3",
+      "bytes": 22896,
+      "sha256": "5478d195c2f39f8bb43f07093471625650b06610729b085117d5b9ce3dd1b7cd"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C18.mp3",
+      "bytes": 14832,
+      "sha256": "29c0cae89ba993b3303257210622325a0220f050dfd357dbefff1d9c2be82edd"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C19.mp3",
+      "bytes": 16560,
+      "sha256": "cd8d3143d9a4ebaf38c709cfd625c388a6ddbde2eff95e33c2575312988fe86d"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C20.mp3",
+      "bytes": 18000,
+      "sha256": "c3256370d26f4aee779f29c9b66b5f2236c9a2319f4ac238350d6b802940742e"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C21.mp3",
+      "bytes": 26064,
+      "sha256": "53d1465de37ae3aff89019054697ea5b017c986d5b4e4e405b41f97837f55814"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C22.mp3",
+      "bytes": 23616,
+      "sha256": "e6e5a0458608c5c6aea99c02d2e64f38b89a946665541b91f56a328d272f6400"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C23.mp3",
+      "bytes": 18000,
+      "sha256": "c1a7ac9195c1485fa44b4d11c94fa56dbc66c70a0ae2105a064ced37948ab3a7"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C24.mp3",
+      "bytes": 11664,
+      "sha256": "a25a81c2595488e7ca3b111beab9cc8baadd0d620844d85d26081f57938baa67"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C25.mp3",
+      "bytes": 11232,
+      "sha256": "2f4c7d8d2129aa7345c7cdbb7eaf835cf24cfb79cd15a7076e1f97804bdb8391"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/C26.mp3",
+      "bytes": 11952,
+      "sha256": "3429ed29df91845dbf17cccc4792415af7769bb656a6a1e0447c2c8a4568229c"
+    },
+    {
+      "path": "videos/the-hardest-part/audio/vo/scratch/durations.json",
+      "bytes": 1804,
+      "sha256": "a63d2c634ece0d0ef8e464d816ff65bdcd1b2d5088d0910e5f2b9cc73cb03d24"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/index.html",
+      "bytes": 1185,
+      "sha256": "69a6050a432ac7a74f1e1e070f7056a37a9ca3ea21df168e503e7bbfb57ad686"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/assets/actuators.js",
+      "bytes": 18229,
+      "sha256": "13fda81ca4e0426819455e05dc6903cfbd1bb598f68089be86ec78b4668dec9b"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/assets/harmonic.js",
+      "bytes": 6452,
+      "sha256": "9cdfc4f3e7fb9eac386c513df4f3ebaa2e5fa761fd73e8d940719200b271c811"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/assets/motion.js",
+      "bytes": 5331,
+      "sha256": "741ab3930991d2427b44e99e95c4113d7679b1149651092cb4108bcca01ba33f"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/assets/motor.js",
+      "bytes": 9048,
+      "sha256": "fb23deba394a8b34d390f9fef20bb3ae5e55484f77f67682834c4c84e0ab0d47"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/assets/muscle.js",
+      "bytes": 4442,
+      "sha256": "397c28989094c7d35f01ca9a6fae9c2b6623b608e6bb3075c88a225c03717665"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/assets/robot.js",
+      "bytes": 18572,
+      "sha256": "b00517cc9fa1a52938eaacfd5a7f649be0f5929ee0206d3b81cfca852c8bb7b6"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/core/geo.js",
+      "bytes": 8619,
+      "sha256": "42bb6f2532fad8a79529bbeaa23c4f5e33dc0e273ad19ea0fed8e67bd8867bbc"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/core/materials.js",
+      "bytes": 9866,
+      "sha256": "83e78503b1f436f847c8cfe10462b1476ac16f3c30d20f3506b2f8b23812a2ee"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/core/overlay.js",
+      "bytes": 12806,
+      "sha256": "d542b89d476b3f23dbd940bc57a1b7e97073ec8d4a3da5d6180a877cdfb73bf5"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/core/plates.js",
+      "bytes": 1921,
+      "sha256": "ef18b4fdc1af032271e34736f1880943bb7dbd9433c9fdfa252592d25f68e5b2"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/core/post.js",
+      "bytes": 11694,
+      "sha256": "8a9928c9d9c2c10195079881fa50fa9b80e15db845bb2a3df4b101238e0b7cf8"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/core/timeline.js",
+      "bytes": 4552,
+      "sha256": "71c8cac8d4c50cc3831e7c3f3f21056d930f6559be5e22ad8bd3c14716039700"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/main.js",
+      "bytes": 7691,
+      "sha256": "3c2bdb99b4c087817850b2399067a329cc9b6f92a7fd4dee7d33fb673fa2931b"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/shots/bottleneck.js",
+      "bytes": 30756,
+      "sha256": "882911793f28c6f4ef0cabe61dc93990c01bb6c2e2aaca7cd609b4b649e94d68"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/shots/closing.js",
+      "bytes": 11974,
+      "sha256": "9debdff0619de27e1f53997b4014e4576958297c5b061f4d25139d29a12495a3"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/shots/common.js",
+      "bytes": 9897,
+      "sha256": "862724d55e148c87596a8071ba8489278b88b69cc0b431bcc3e33818ffc8f8dc"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/shots/debug.js",
+      "bytes": 1767,
+      "sha256": "12007f85ff8135291293685851858aeedbc7112dfa19ebeaee6049a7f7a15b6c"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/shots/global.js",
+      "bytes": 1220,
+      "sha256": "dbe9a7dcd2cecf6fe6b3156fe975a09e761b3c369b2661ea672d9dcfc0ba0edc"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/shots/hook.js",
+      "bytes": 8624,
+      "sha256": "7944f23d25a38592bccdeeb1213cdce2ab866232cea69ef235fec5f150fe4535"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/shots/index.js",
+      "bytes": 2370,
+      "sha256": "c83096f21a92a55e9973461d80c96319cea5a5111ea661a1f35f6351c2d890e4"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/shots/physics.js",
+      "bytes": 21055,
+      "sha256": "eb78be68a17556333c81ca2a97fd21d3c554b9978992c4159e4c6c5da035f986"
+    },
+    {
+      "path": "videos/the-hardest-part/engine/src/shots/what.js",
+      "bytes": 20023,
+      "sha256": "c74bf6a46b4bf517d0dd3dce77b6255fb4a73f8715c4cc6ce86fb62306d75504"
+    },
+    {
+      "path": "videos/the-hardest-part/manim/build_plates.py",
+      "bytes": 1987,
+      "sha256": "ff087886c9f108d9d385c5f411e55f317cf80c06f76dba7831184d8314fca191"
+    },
+    {
+      "path": "videos/the-hardest-part/manim/plates.py",
+      "bytes": 8952,
+      "sha256": "8a682766472c9acce8c03e77c05977c3577ab19563a6ee6675d11d99a06d95e0"
+    },
+    {
+      "path": "videos/the-hardest-part/package-lock.json",
+      "bytes": 946,
+      "sha256": "a355b4142270e5839f6eb2621a208cf231fceda86d9d70d4b409416dcfc5ec08"
+    },
+    {
+      "path": "videos/the-hardest-part/package.json",
+      "bytes": 394,
+      "sha256": "7c67462296ef454d762e69a09041ea425489457020449dd404a3f18db83de602"
+    },
+    {
+      "path": "videos/the-hardest-part/README.md",
+      "bytes": 17589,
+      "sha256": "db8d2a74ed9381a30527df577df6a05cd54d1b3fb6eb2d6b115e4073dbb99473"
+    },
+    {
+      "path": "videos/the-hardest-part/render/render.mjs",
+      "bytes": 8673,
+      "sha256": "7599d0799a0162d522fad9a277749728301b7765bf0dad3412d87077abbab005"
+    },
+    {
+      "path": "videos/the-hardest-part/render/serve.mjs",
+      "bytes": 1598,
+      "sha256": "fa418c2ade228af0e81c8d1a22df8099433f394c554dfcae1e88cfd762b9bac8"
+    },
+    {
+      "path": "videos/the-hardest-part/script/captions.srt",
+      "bytes": 1910,
+      "sha256": "cf7949d02a63ff9918ad70a6171d78f1e928401315b6e2cb8e2095586cf3f3a0"
+    },
+    {
+      "path": "videos/the-hardest-part/script/cues.json",
+      "bytes": 4170,
+      "sha256": "829823b5465977f3b3c9f09736425fb504d1f76741d4d8a1a1687dc74cce6414"
+    },
+    {
+      "path": "videos/the-hardest-part/script/voiceover.md",
+      "bytes": 9563,
+      "sha256": "ea3267996347abd942a86fbdc4b86f43a24abf422c3c332bd7a1d28d42d1ac0f"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/contact-sheet.jpg",
+      "bytes": 364358,
+      "sha256": "9a6f65636b06467a7c6fa9d8dbbe3def39e051ac6e4b2fe772fac2274fab03b4"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-003.2s.jpg",
+      "bytes": 136380,
+      "sha256": "88f743f3ece2b29445c565e33cbc6697d79a697c16798ee9b864808c3af3ef04"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-011.5s.jpg",
+      "bytes": 126325,
+      "sha256": "f038a67b72df0bf988cf77e9541b5a8e38ae5a80dc386a0be66a7d77f9f45532"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-013.8s.jpg",
+      "bytes": 100810,
+      "sha256": "a4a886aa4cbb8ec184c77f2a06e5f15fb5399b7d79783cb52c3bf2fe71f6752e"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-020.6s.jpg",
+      "bytes": 88407,
+      "sha256": "0fe62667a9a7a88e3c20e23733a517115a31906566999e50da162358ce940e47"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-028.6s.jpg",
+      "bytes": 99909,
+      "sha256": "990779b4cfb607d2f9f4b2da608d2992acae7a2fe3ffede7882c6322f37f1866"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-041.5s.jpg",
+      "bytes": 134760,
+      "sha256": "359dccb7184194d245937e5cd30e52e06b4f3f39c0ea31f32b6f6687ffcf2eee"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-047.8s.jpg",
+      "bytes": 97240,
+      "sha256": "b60e83857ad7072ca39e2c2154e7e18eb00aa61878944b9354355acc2062f998"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-052.5s.jpg",
+      "bytes": 104028,
+      "sha256": "8990a8b207ee482dbad657267dc8fd6ebff5841c0c2393f2bbfa5e3a4e03e441"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-063.4s.jpg",
+      "bytes": 111106,
+      "sha256": "07e1043c225323ea441a4715316f88a3156f0efb2a89c0480cf889ceb78050dd"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-069.5s.jpg",
+      "bytes": 98070,
+      "sha256": "431fe4db720bee0367b78fd0ec8edd2e2a16092197adfd1f2b8c566d1ed61fbd"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-074.0s.jpg",
+      "bytes": 133454,
+      "sha256": "ee5651d92f40c642cf65a583b34ac3fec357aa8a18f3344a34ad73a7377c0196"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-077.6s.jpg",
+      "bytes": 96150,
+      "sha256": "4353f5c2f27a94fafd594a9bfc6a00f889425e29f60cc1cfe5693949c4ce600a"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-081.0s.jpg",
+      "bytes": 94170,
+      "sha256": "659bba19a21ac5743315e3f06275fd15682d269c12f9a186763dea2487b7dc60"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-086.6s.jpg",
+      "bytes": 154719,
+      "sha256": "fc7d67516ebda286902a27cf4cc5c5193fa93c38185269981029ecf032490e79"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-103.0s.jpg",
+      "bytes": 93515,
+      "sha256": "cf4b56c85c323f8601f492b46b608a5533dc1744a690c18c08e8688dfdb7908a"
+    },
+    {
+      "path": "videos/the-hardest-part/snapshots/frame-110.8s.jpg",
+      "bytes": 76180,
+      "sha256": "0435bfd73aacd5c0bfe2afd1d80a8e79d25616a2c17582b4eb102bdbdafa09bc"
+    }
+  ],
+  "verification": {
+    "snapshotExtracted": true,
+    "sourceExecuted": false,
+    "avReviewed": false
+  }
+}

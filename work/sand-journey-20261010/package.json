@@ -1,0 +1,1 @@
+{"name":"sand-journey","version":"1.0.0","private":true,"type":"module","scripts":{"preview":"node server.mjs","render":"node render.mjs","audio":"node audio.mjs"},"dependencies":{"three":"0.169.0","playwright-core":"1.62.1"}}

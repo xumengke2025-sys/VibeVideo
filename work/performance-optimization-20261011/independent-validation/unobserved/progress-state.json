@@ -1,0 +1,24 @@
+{
+  "video_sha256": "14efdbe226ce7755a07fc8b72ebc43cc78de2e27de7d503dacc50f6657dc820a",
+  "run_started_at": "2026-10-11T00:00:00+00:00",
+  "last_actual_progress_at": null,
+  "progress_fingerprint": "6350ed93f5e0776d5f2419665f0acea00f2472814cbc2b12a5f4b5cf89768000",
+  "paused": false,
+  "no_progress_minutes": 0.0,
+  "accepted_reports": [],
+  "delivery_due": false,
+  "delivery_verdict": "incomplete",
+  "next_action": "continue_remaining_batches",
+  "visual_gaps": [
+    [
+      0,
+      5
+    ]
+  ],
+  "audio_gaps": [
+    [
+      0,
+      6
+    ]
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e30fcdd7a492ddd121be4472afec7353d0a27fdd",
+      "size": 75,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/e30fcdd7a492ddd121be4472afec7353d0a27fdd"
+    },
+    {
+      "path": "ANIMATION_GUIDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4577b3fce87da2ff6a56bba88bd9299de65b4d2",
+      "size": 9079,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/b4577b3fce87da2ff6a56bba88bd9299de65b4d2"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20dc727ebd00f610714e25848a661897186da791",
+      "size": 1073,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/20dc727ebd00f610714e25848a661897186da791"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64144d4818de841bbdc4ddd15d7dc5c4f523f00c",
+      "size": 5165,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/64144d4818de841bbdc4ddd15d7dc5c4f523f00c"
+    },
+    {
+      "path": "STORYBOARD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a79dbace485a3a0c8eb5544fbf56dd268e061b4",
+      "size": 26220,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/4a79dbace485a3a0c8eb5544fbf56dd268e061b4"
+    },
+    {
+      "path": "analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc57c76a2103431271d6efe8f670dc98a1a0fe88",
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/trees/cc57c76a2103431271d6efe8f670dc98a1a0fe88"
+    },
+    {
+      "path": "analysis/align.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "683b6ff013a26caff29edc8d70b479a81af23482",
+      "size": 2714,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/683b6ff013a26caff29edc8d70b479a81af23482"
+    },
+    {
+      "path": "analysis/build_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c4e8e44d6fab6ef7f95253af18c5b7aefa57caf",
+      "size": 716,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/0c4e8e44d6fab6ef7f95253af18c5b7aefa57caf"
+    },
+    {
+      "path": "analysis/features.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a2f95a806beb1a3fd7bafb866d2614e0a4142bb",
+      "size": 2079,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/7a2f95a806beb1a3fd7bafb866d2614e0a4142bb"
+    },
+    {
+      "path": "analysis/lyrics.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a01f8f940961ccf6d960c919ed0228e19b7617d",
+      "size": 4872,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/2a01f8f940961ccf6d960c919ed0228e19b7617d"
+    },
+    {
+      "path": "analysis/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d56617251b1ef1e2db9d9eb6f9e66e24eff18564",
+      "size": 113,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/d56617251b1ef1e2db9d9eb6f9e66e24eff18564"
+    },
+    {
+      "path": "analysis/transcribe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f8cce1406573207dfe7a1f31894dcd0516df5f1",
+      "size": 1350,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/7f8cce1406573207dfe7a1f31894dcd0516df5f1"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61c0c33931084739db2f4414a3bcc6ab70645f24",
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/trees/61c0c33931084739db2f4414a3bcc6ab70645f24"
+    },
+    {
+      "path": "assets/functional-emotions.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59b1464965e41e0524e584c27da9a22fa7286f4a",
+      "size": 8256347,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/59b1464965e41e0524e584c27da9a22fa7286f4a"
+    },
+    {
+      "path": "check.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c11a0e5544d4d0478269052de597e13fc61708b",
+      "size": 2385,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/4c11a0e5544d4d0478269052de597e13fc61708b"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "877a5101ecb4fd7d8e0a70fdf9e113ad0cf32f66",
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/trees/877a5101ecb4fd7d8e0a70fdf9e113ad0cf32f66"
+    },
+    {
+      "path": "docs/fire.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b33517275dbc2eb17ae3805d9de94626a6635db7",
+      "size": 38740,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/b33517275dbc2eb17ae3805d9de94626a6635db7"
+    },
+    {
+      "path": "docs/jars.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5701956ae0fc4ae01caf4b8c8469f225ff3e7c75",
+      "size": 99395,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/5701956ae0fc4ae01caf4b8c8469f225ff3e7c75"
+    },
+    {
+      "path": "docs/lake-face.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5243f63b9ae4634d357f86734f8e057dca8b6dca",
+      "size": 56392,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/5243f63b9ae4634d357f86734f8e057dca8b6dca"
+    },
+    {
+      "path": "docs/not-a-soul.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40601bab04259a6789b54e99e3b14b8fca201a4c",
+      "size": 57132,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/40601bab04259a6789b54e99e3b14b8fca201a4c"
+    },
+    {
+      "path": "docs/rose.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5cea73faa1fef4d8cd484c2058e832a6d0f067f",
+      "size": 45691,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/d5cea73faa1fef4d8cd484c2058e832a6d0f067f"
+    },
+    {
+      "path": "docs/solo.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3425107669d860ca270ede30f5a14e0a239a7204",
+      "size": 51426,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/3425107669d860ca270ede30f5a14e0a239a7204"
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0761885a0867363986a2a750d472aff4c7c74b0a",
+      "size": 2862,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/0761885a0867363986a2a750d472aff4c7c74b0a"
+    },
+    {
+      "path": "js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "115646ed9a7dc4397b2b852b77b9c6b61bb91ba2",
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/trees/115646ed9a7dc4397b2b852b77b9c6b61bb91ba2"
+    },
+    {
+      "path": "js/cast.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3c69e5391269a45f157f90b5e81a9d1c0e4c014",
+      "size": 4837,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/d3c69e5391269a45f157f90b5e81a9d1c0e4c014"
+    },
+    {
+      "path": "js/ch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3c7ffda7972b3e10b6427bb4af562c3883d7780",
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/trees/a3c7ffda7972b3e10b6427bb4af562c3883d7780"
+    },
+    {
+      "path": "js/ch/c1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff495c858fa97e2c11f4de6852f93faa6bccc976",
+      "size": 26511,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/ff495c858fa97e2c11f4de6852f93faa6bccc976"
+    },
+    {
+      "path": "js/ch/c2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd30596449c5516e77391316c7ea64ba5d593317",
+      "size": 38382,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/cd30596449c5516e77391316c7ea64ba5d593317"
+    },
+    {
+      "path": "js/ch/c3.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7550985d5d1760628d8da161789ea573972534c6",
+      "size": 50684,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/7550985d5d1760628d8da161789ea573972534c6"
+    },
+    {
+      "path": "js/ch/c4.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70912c2c14cff4228aff0044df83a76e2dd291b2",
+      "size": 58359,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/70912c2c14cff4228aff0044df83a76e2dd291b2"
+    },
+    {
+      "path": "js/ch/c5.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b8ccd29277fc8caf6b358dfc12a2a5db0302d5f",
+      "size": 60656,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/8b8ccd29277fc8caf6b358dfc12a2a5db0302d5f"
+    },
+    {
+      "path": "js/ch/c6.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "552cf723612f3f9f5d813a779552053f3d8061ca",
+      "size": 66953,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/552cf723612f3f9f5d813a779552053f3d8061ca"
+    },
+    {
+      "path": "js/ch/c7.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba3b2722966ae2521315abc4dc56e46c10ffab00",
+      "size": 69411,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/ba3b2722966ae2521315abc4dc56e46c10ffab00"
+    },
+    {
+      "path": "js/ch/c8.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16e342e67cf144ff4bf1166b94d2214c0374b247",
+      "size": 72343,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/16e342e67cf144ff4bf1166b94d2214c0374b247"
+    },
+    {
+      "path": "js/data.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eee206a72b4a5390af881956f501792830ef0f9b",
+      "size": 505147,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/eee206a72b4a5390af881956f501792830ef0f9b"
+    },
+    {
+      "path": "js/lib.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20280b0123f852237061f33ee1bfec7243f31ab2",
+      "size": 19483,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/20280b0123f852237061f33ee1bfec7243f31ab2"
+    },
+    {
+      "path": "js/main.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2368c2d354d66aa2be894dd27749377dd4e7422e",
+      "size": 3462,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/2368c2d354d66aa2be894dd27749377dd4e7422e"
+    },
+    {
+      "path": "js/paint.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c987c324147ae4ed979b452fda108f866f3b5592",
+      "size": 10909,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/c987c324147ae4ed979b452fda108f866f3b5592"
+    },
+    {
+      "path": "legacy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "02688f711246385e33b93a2b2ab5cbafc68d0d89",
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/trees/02688f711246385e33b93a2b2ab5cbafc68d0d89"
+    },
+    {
+      "path": "legacy/lyric-video",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "28b70ec279147d51c97296512dc82be77f13014e",
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/trees/28b70ec279147d51c97296512dc82be77f13014e"
+    },
+    {
+      "path": "legacy/lyric-video/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3db63d7d766e3001e131b7ec3ed07f0305c6626",
+      "size": 2957,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/a3db63d7d766e3001e131b7ec3ed07f0305c6626"
+    },
+    {
+      "path": "legacy/lyric-video/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4282b799bf6a4b59382ed6eff2756f9b00b3eec",
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/trees/b4282b799bf6a4b59382ed6eff2756f9b00b3eec"
+    },
+    {
+      "path": "legacy/lyric-video/js/core.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc5d9470d48d7b8b241a7950ec55a3dc58749b72",
+      "size": 10471,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/fc5d9470d48d7b8b241a7950ec55a3dc58749b72"
+    },
+    {
+      "path": "legacy/lyric-video/js/data.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eee206a72b4a5390af881956f501792830ef0f9b",
+      "size": 505147,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/eee206a72b4a5390af881956f501792830ef0f9b"
+    },
+    {
+      "path": "legacy/lyric-video/js/main.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27b3bb23081fea534823fcd0d16ddefa6dd674d0",
+      "size": 3859,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/27b3bb23081fea534823fcd0d16ddefa6dd674d0"
+    },
+    {
+      "path": "legacy/lyric-video/js/scenes1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c21662896fd75acfa2a1a4f28b11595d8f2edf78",
+      "size": 31276,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/c21662896fd75acfa2a1a4f28b11595d8f2edf78"
+    },
+    {
+      "path": "legacy/lyric-video/js/shared.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c398df8c3beeb7c08c47f92cb8ad27aa9664b319",
+      "size": 10589,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/c398df8c3beeb7c08c47f92cb8ad27aa9664b319"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a05c3fef2d8f74d3c0cbb88dc4cad803aec45cf",
+      "size": 1168,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/5a05c3fef2d8f74d3c0cbb88dc4cad803aec45cf"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf95fbc903b78778193fa47e8a07c018cae62893",
+      "size": 387,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/bf95fbc903b78778193fa47e8a07c018cae62893"
+    },
+    {
+      "path": "render.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6486423942128d7e96115d08e3026d928f4ffd2c",
+      "size": 1553,
+      "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video/git/blobs/6486423942128d7e96115d08e3026d928f4ffd2c"
+    }
+  ],
+  "repo": "ledbetterljoshua/functional-emotions-video",
+  "branch": "main",
+  "commit": "b34c20a4f8f64ee87079a2ae2fdedf2cf1990a49"
+}

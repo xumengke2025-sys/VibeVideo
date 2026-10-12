@@ -1,0 +1,26 @@
+{
+  "kind": "technical incomplete fixture, no real viewing or listening",
+  "video_path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\creative-upgrade-20261010\\flight\\out-final\\flight-director.mp4",
+  "video_sha256": "8fb3e7fede86296f64243cb93a42af805674af7ac9cff494b6fc40580bd2829f",
+  "reviewer": {
+    "mode": "technical_fixture",
+    "id": "not-an-actual-reviewer"
+  },
+  "coverage": {
+    "decoded_frames": 192,
+    "visual_ranges": [],
+    "unreviewed_frame_ranges": [
+      [
+        0,
+        191
+      ]
+    ],
+    "audio_status": "not_applicable",
+    "audio_listened_ranges_seconds": []
+  },
+  "findings": [],
+  "limitations": [
+    "No frames observed during this test"
+  ],
+  "verdict": "incomplete"
+}

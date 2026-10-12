@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s05-root { position: absolute; inset: 0; }
+        #s05-est { font-size: 34px; padding: 14px 28px; color: var(--k-ink); }
+        #s05-sum { display: inline-block; color: var(--k-accent); }
+        #s05-res { display: inline-block; width: 5ch; text-align: right; }
+        #s05-est-label { text-align: center; }
+        #s05-chip { font-size: 24px; padding: 6px 14px; }
+        .s05-rule { left: auto; right: 90px; font: 600 30px/1.2 var(--k-display); color: var(--k-ink); padding: 12px 24px; }
+        .s05-rule span { font: 500 17px/1 var(--k-ui); letter-spacing: 0.16em; color: var(--k-ink-3); margin-right: 14px; vertical-align: 3px; }
+      </style>
+      <div id="s05-root" data-composition-id="s05-price" data-width="1920" data-height="1080">
+        <div id="s05-scene" class="k-scene">
+          <div id="s05-est" class="k-pill">8 s × 10 cr/s <span id="s05-sum">= <span id="s05-res">80 cr</span></span></div>
+          <div id="s05-est-label" class="k-abs k-micro">estimate · video/h3-max · 480p</div>
+          <div id="s05-rule1" class="k-pill s05-rule"><span>01</span>priced before it runs</div>
+          <div id="s05-rule2" class="k-pill s05-rule"><span>02</span>charged when it lands</div>
+          <div id="s05-rule3" class="k-pill s05-rule"><span>03</span>refunded if it fails</div>
+          <div id="s05-chip" class="k-pill k-amber" data-layout-allow-overlap>80 cr</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s05-scene");
+
+          // The card the writer just queued: waiting ring, no media yet, no price on it yet.
+          const S = 2.0, CL = 640, CT = 220;
+          const card = K.card(scene, { id: "s05-card", left: CL, top: CT, scale: S, name: "harbour flight", cr: "80 cr", state: "wait" });
+          const { cx, bottom } = card.k;
+          const cr = K.part(card, "k-cr");
+          const metaCy = bottom - 40 * S / 2, crX = CL + card.k.W - 12 * S - 34;
+
+          // The estimate pill under it: duration × the model's rate, from the catalog.
+          const est = document.getElementById("s05-est"), EW = 470, ET = bottom + 42;
+          Object.assign(est.style, { left: cx - EW / 2 + "px", top: ET + "px", width: EW + "px", textAlign: "center" });
+          const label = document.getElementById("s05-est-label");
+          Object.assign(label.style, { left: cx - 300 + "px", top: ET + 86 + "px", width: "600px" });
+          const resX = cx + EW / 2 - 90, resY = ET + 34;
+
+          // Three rules, right-aligned above the balance they describe.
+          const RULES = ["s05-rule1", "s05-rule2", "s05-rule3"].map((id) => document.getElementById(id));
+          RULES.forEach((r, i) => (r.style.top = 676 + i * 84 + "px"));
+
+          K.chrome(scene, tl, { title: "Price first, charged on landing", step: 2, balance: "2,000 cr" });
+          const chip = document.getElementById("s05-chip");
+          scene.appendChild(chip); // travels above the card
+          const CW = 104, CH = 42;
+
+          // b0: the estimate opens under the card: 8 s at the model's rate
+          K.pop(tl, [est, label], 0);
+          // b1: it computes: = 80 cr, in amber while it is the thing being worked out
+          const sum = document.getElementById("s05-sum"), res = document.getElementById("s05-res"), n = { v: 0 };
+          tl.fromTo(sum, { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.14, ease: "power2.out" }, K.t(1));
+          tl.fromTo(n, { v: 0 }, { v: 80, duration: 0.2, ease: "power1.out", data: "follow", onUpdate: () => (res.textContent = Math.round(n.v) + " cr") }, K.t(1));
+          // b2: the price is the card's: 80 cr rises onto its meta row
+          gsap.set(chip, { opacity: 0 });
+          gsap.set(cr, { opacity: 0 });
+          K.sound(tl, "land", K.t(2));
+          tl.fromTo(chip, { opacity: 0, x: resX - CW / 2, y: resY - CH / 2 }, { opacity: 1, duration: 0.04, immediateRender: false }, K.t(2));
+          tl.to(chip, { x: crX - CW / 2, y: metaCy - CH / 2, duration: 0.18, ease: K.easeMove, data: "follow" }, K.t(2));
+          tl.to(sum, { color: "rgba(245,245,244,.68)", duration: 0.12, data: "follow" }, K.t(2));
+          tl.set(cr, { opacity: 1, data: "follow" }, K.t(2) + 0.18);
+          // b3: and it leaves the card for the balance, before anything runs
+          const toBal = K.el(K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } }), "path",
+            { d: `M${crX} ${metaCy} C ${crX + 420} ${metaCy}, 1760 ${820}, 1760 ${1012}`, fill: "none", stroke: "none" });
+          K.travel(tl, chip, toBal, 3, 0.22, K.easeMove, CW, CH);
+          tl.to(chip, { opacity: 0, duration: 0.05, data: "follow" }, K.t(4) - 0.03);
+          // b4: the balance shows it held: the lighter −80 beside 2,000 cr
+          K.balance(tl, scene, K.t(4), { balance: "2,000 cr", held: "−80" });
+          // b5–b7: the three rules of a price, one per beat
+          RULES.forEach((r, i) => K.pop(tl, r, 5 + i));
+
+          K.focus(scene, tl, "s05", [
+            [0, cx - 60, resY], [1, resX, resY], [2, crX, metaCy], [3, 1420, 760],
+            [4, 1760, 1012], [5, 1640, 706], [6, 1640, 790], [7, 1640, 874],
+          ]);
+          K.check(tl, "s05");
+          window.__timelines["s05-price"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

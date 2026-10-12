@@ -1,0 +1,72 @@
+[
+  {
+    "source": "assets/originals/cavalry-atlas.png",
+    "prompt": "Historical-scene asset for an animated ink-wash film about Napoleon's Egyptian expedition. Create ONE transparent sprite atlas with exactly 3 columns and 2 rows, each isolated subject centered in its own cell with ample transparent spacing, no borders no text. Top row: three Mamluk cavalry horse-and-rider in left-facing side view, subtly different horse coat values, turbans, long loose robes, sabres, circa 1798, riding posture. Bottom row: corresponding right-facing views of those three. Complete whole horses and riders including hooves. Very restrained Chinese ink wash: black carbon ink, grey washes, pale grey cloth only, absolutely no vivid colors. Soft broken wet ink edges but clear limb joints, elegant brush detail. Heads and necks anatomically correct, saddles clear. No shadows on a background, no scenery, no paper rectangle. True transparent background. Artwork with natural organic detail, not icons or cartoons. Intended for splitting legs and head into animation components, leave visible clear connections. At least 1536x1024 canvas if available.",
+    "transparent_background": true,
+    "timestamp": "2026-10-10T12:04:16.736Z",
+    "session_line": 84,
+    "call_id": "call_d7997217959b4983b9282abf3abefdb2",
+    "source_sha256": "46aaf0060c73d9d72e4f249f6762c76e43f19556514d933206d4b35aff855ae0",
+    "status": "exact original tool-call prompt recovered from this task session"
+  },
+  {
+    "source": "assets/originals/napoleon-atlas.png",
+    "prompt": "Create a transparent isolated historical character sprite atlas: exactly 3 columns, one row, generous separation. The SAME Napoleon Bonaparte circa Egypt 1798, slender young man, distinct bicorne hat, long dark coat, pale waistcoat and trousers, high black boots, full body with no cropping. First column full body left three-quarter rear view walking toward screen right, separate visible legs and hands free. Second column full body right three-quarter side view at rest, head looking left, one relaxed hand near waist. Third column back view stepping up with left knee lifted, right boot supported, left hand reaching outward to a railing which is NOT drawn. All consistent identity and proportions. Style elegant Chinese wet ink and charcoal wash, black and warm grey only, tiny muted grey-blue on coat, no vivid red or gold, low saturation. Fine organic brush edges, detailed historical clothing, clear joints. No scenery no boat no ground no typography no cell borders. True transparent alpha background, not checkerboard or paper panels. At least 1536x1024 if available.",
+    "transparent_background": true,
+    "timestamp": "2026-10-10T12:07:20.287Z",
+    "session_line": 105,
+    "call_id": "call_e0c3d8b1836f4b759e52bffd24b03c6b",
+    "source_sha256": "e6597e69a04e579946f0c079441e22a004ba750d2a63d840c3a61807052892c1",
+    "status": "exact original tool-call prompt recovered from this task session"
+  },
+  {
+    "source": "assets/originals/scholars-atlas.png",
+    "prompt": "Historical ink-wash animated film sprite atlas, 2 columns one row, distinct isolated full-body adult men circa French scientific expedition Egypt 1798. Left: European civilian surveyor in pale grey linen long coat, loose trousers and boots, simple dark brimmed hat, right-facing three-quarter side view, both forearms reaching gently forward around waist height to adjust an unseen measuring instrument; no instrument fused with hands. Right: assistant in grey loose shirt and simple hat facing left three-quarter, holding a large BLANK sheet on a small rigid writing board in front of abdomen, hands clear, full feet. Thin organic charcoal ink detail, wet dark grey ink wash, restrained monochrome warm grey, softly irregular edges, period clothing. True transparent background, ample gap, no text, no scenery, no border, no modern objects. Full bodies 900 pixels tall if available. Not cartoon icons, anatomically natural.",
+    "transparent_background": true,
+    "timestamp": "2026-10-10T12:43:25.399Z",
+    "session_line": 158,
+    "call_id": "call_956ecef8b3a3450a88f0c7ae8ca1444d",
+    "source_sha256": "8a9625f0d4803e9b0cdfd43855bfd5fff7027e5fa10473e02c67d8b7aee9be51",
+    "status": "exact original tool-call prompt recovered from this task session"
+  },
+  {
+    "source": "assets/originals/hands-stone-atlas.png",
+    "prompt": "Transparent animation component atlas in 3 separated columns on a wide canvas, no labels: LEFT isolated adult right hand and forearm in plain pale linen sleeve seen from oblique above, fingers gently gripping a narrow wooden BRUSH, brush bristles pointing down-left, no stone attached; CENTER a second adult right hand and linen sleeve holding a slender black dip pen, pen nib pointing down-left, no paper attached; RIGHT an isolated thick broken dark grey basalt slab resembling a Rosetta-style stele, irregular broken upper edge, seen obliquely above with clear thick right and lower sides, low-relief engraved weathered marks in three horizontal bands of different density, marks abstract and unreadable, not actual readable writing, stone resting orientation. Historical Egypt expedition around 1799, not Napoleon's hands. Wet ink wash charcoal on warm greys, entirely monochrome, natural organic contour and anatomy, fine brush texture, no vivid hues, soft light upper left. Full objects uncropped with large gaps. True alpha transparent background, no scenery, no typography, no borders.",
+    "transparent_background": true,
+    "timestamp": "2026-10-10T12:51:34.662Z",
+    "session_line": 171,
+    "call_id": "call_5591b023a5344a2284d73de44028bfc7",
+    "source_sha256": "93923e76becca27c904ba457f8c387da552a118bc7e60066509ec7a9bf7884da",
+    "status": "exact original tool-call prompt recovered from this task session"
+  },
+  {
+    "source": "assets/originals/boot-contact.png",
+    "prompt": "One isolated lower right leg and black leather military boot circa French Egyptian expedition 1798, seen from the right side with boot TOE POINTING RIGHT, trouser lower leg enters from the top, whole heel and sole clearly visible. Boot tall to mid-calf, worn black leather, subtle seams and wrinkles, pale grey trouser at top. Natural anatomy. Chinese wet black ink wash, soft charcoal edges, restrained entirely monochrome grey, fine dry brush detail. No person torso, no ground, no other objects, no shadows baked onto background, no text. True transparent alpha background. Large effective boot 900 pixels high in a portrait canvas if possible. Animation component intended to lift, rotate about ankle and plant its sole on wet sand; the sole must form a clear flat contact edge.",
+    "transparent_background": true,
+    "timestamp": "2026-10-10T14:49:36.500Z",
+    "session_line": 347,
+    "call_id": "call_62bf1d1373ab4decbcdcd42bb6a97e16",
+    "source_sha256": "bf2632cbd7f611bf36476dc0336d2db86e4dfebdd6bd81c630100445cf6990f2",
+    "status": "exact original tool-call prompt recovered from this task session"
+  },
+  {
+    "source": "assets/originals/infantry-elevated-atlas.png",
+    "prompt": "Historical French infantry sprite sheet for an ink-wash animation Egypt campaign 1798. Exactly 3 columns x 2 rows with ample transparent separation, no borders no text. SIX single full-body men in the same authentic infantry uniform: dark muted grey coat, pale crossbelts, pale trousers, tall boots, bicorne, canvas knapsack; naturally proportioned adults, organic detailed ink and charcoal wash. Top row three-quarter back, side facing right, three-quarter front; eye-level camera, standing, arms held around chest level as though handling a weapon BUT DO NOT DRAW THE MUSKET OR BAYONET, hands separated clearly. Bottom row same three orientations viewed from a 25-degree elevated oblique camera, feet standing planted, again no weapon. Entire bodies with clear shoes, black and warm grey ONLY, subtle broken wet ink edges, no saturated colors, no scenery or ground shadow. True transparent background. High quality layered-animation component artwork, not icons, not plastic3D. Aim 2048x1536 canvas if available, whole each person at least 600px effective height.",
+    "transparent_background": true,
+    "timestamp": "2026-10-10T15:19:28.211Z",
+    "session_line": 379,
+    "call_id": "call_9ebbec4a056f4ae18936913efc4eae45",
+    "source_sha256": "9f0d28861dc0ada3b29932034234f6d3b060b304d7f5ef44eb38e02ff1385042",
+    "status": "exact original tool-call prompt recovered from this task session"
+  },
+  {
+    "source": "assets/originals/infantry-lead.png",
+    "prompt": "A SINGLE isolated full-body French infantryman of the Egyptian campaign circa1798, seen at low eye-level from three-quarter BACK, walking toward screen right with slight stride, natural adult proportions. Bicorne, grey-dark coat, pale crossbelts, pale trousers, black boots, large canvas backpack with rolled blanket, an authentic long musket on the right shoulder. Hands legs and boots all visible, no scene. Restrained Chinese wet ink and charcoal wash, BLACK and WARM GREY ONLY, soft organic wet ink edges and dry brush texture, anatomically detailed, not cartoon, no saturated hues, no text. True transparent alpha background. Portrait composition, whole effective man preferably 1500–1900px tall, ample transparent space.",
+    "transparent_background": true,
+    "timestamp": "2026-10-10T15:35:04.485Z",
+    "session_line": 390,
+    "call_id": "call_75696ad52ffe45f29ca6ba7742f2686c",
+    "source_sha256": "e17b5c22414f357c9c9837f376255920ca215186b8236344ba5bb960c47b2ec7",
+    "status": "exact original tool-call prompt recovered from this task session"
+  }
+]

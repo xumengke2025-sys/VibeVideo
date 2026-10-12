@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s07-root { position: absolute; inset: 0; }
+        #s07-provider { left: 90px; top: 326px; width: 320px; height: 104px; padding: 20px 22px; }
+        #s07-provider div:last-child { font: 500 24px/1 var(--k-mono); color: var(--k-ink); margin-top: 14px; }
+        #s07-packet { font-size: 22px; padding: 6px 14px; }
+        #s07-never { display: flex; align-items: center; gap: 10px; font-size: 24px; padding: 8px 18px 8px 14px; }
+        #s07-never svg { display: block; }
+        #s07-done { font-size: 24px; padding: 6px 16px; }
+        .s07-wait { text-align: center; font: 500 28px/1 var(--k-mono); color: var(--k-ink-3); }
+        .s07-tick { width: 120px; margin-left: -60px; text-align: center; font: 500 20px/1 var(--k-mono); color: var(--k-ink-3); }
+      </style>
+      <div id="s07-root" data-composition-id="s07-submit" data-width="1920" data-height="1080">
+        <div id="s07-scene" class="k-scene">
+          <div id="s07-provider" class="k-panel"><div class="k-micro">provider</div><div>fal · video/h3-max</div></div>
+          <div id="s07-never" class="k-pill k-amber"><svg width="18" height="22" viewBox="0 0 18 22"><path d="M4 10 V7 Q4 2 9 2 Q14 2 14 7 V10" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="1" y="9" width="16" height="12" rx="3" fill="currentColor"/></svg>never retried</div>
+          <div id="s07-packet" class="k-pill k-amber">submit</div>
+          <div id="s07-done" class="k-pill k-amber">done</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s07-scene");
+
+          // A sequence diagram, time running right: the provider's lane above, the
+          // workflow's lane below, a time axis under both.
+          const PY = 378, WY = 642, AY = 800;
+          const T = (s) => 440 + s * 38; // 38 px per second
+          const POLLS = [5, 15, 35], WAITS = [[0, 5], [5, 15], [15, 35]];
+          const svg = K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } });
+          K.el(svg, "path", { d: `M${T(0)} ${PY} H1830`, stroke: "rgba(255,255,255,.14)", "stroke-width": 2, "stroke-dasharray": "6 8" });
+          K.el(svg, "path", { d: `M${T(0)} ${WY} H1830`, stroke: "rgba(255,255,255,.2)", "stroke-width": 2 });
+          K.el(svg, "path", { d: `M${T(0)} ${AY} H1830`, stroke: "rgba(255,255,255,.2)", "stroke-width": 2 });
+          for (let s = 0; s <= 36; s += 5) K.el(svg, "path", { d: `M${T(s)} ${AY - 5} V${AY + 5}`, stroke: "rgba(255,255,255,.2)", "stroke-width": 2 });
+          const ticks = [0, ...POLLS].map((s) => {
+            K.el(svg, "path", { d: `M${T(s)} ${AY - 12} V${AY + 12}`, stroke: "rgba(255,255,255,.5)", "stroke-width": 2 });
+            const t = K.el(scene, "div", { class: "k-abs s07-tick", style: { left: T(s) + "px", top: AY + 24 + "px" } });
+            t.textContent = s + " s";
+            return t;
+          });
+          K.el(scene, "div", { class: "k-abs k-micro", style: { left: T(0) - 10 + "px", top: AY + 76 + "px" } }).textContent = "03 · submit";
+          K.el(scene, "div", { class: "k-abs k-micro", style: { left: T(5) + "px", top: AY + 76 + "px", width: T(35) - T(5) + "px", textAlign: "center" } }).textContent = "04 · poll & persist · growing waits";
+          K.el(scene, "div", { class: "k-abs k-micro", style: { left: "90px", top: WY - 118 + "px" } }).textContent = "workflow";
+
+          // The card at the head of the workflow lane, generating since its submit.
+          const card = K.card(scene, { id: "s07-card", left: 90, top: WY - 82, scale: 1.2, name: "Generating", cr: "80 cr", state: "generating" });
+          gsap.set(K.part(card, "k-bar"), { scaleX: 0.14 });
+
+          // The submit edge, the waits along the lane, the polls up and back.
+          const sub = K.el(svg, "path", { d: `M${T(0)} ${WY} V${PY}`, stroke: "rgba(255,255,255,.5)", "stroke-width": 2.5, fill: "none" });
+          const SL = WY - PY;
+          sub.setAttribute("stroke-dasharray", `${SL} ${SL}`);
+          gsap.set(sub, { attr: { "stroke-dashoffset": SL } });
+          const waits = WAITS.map(([a, b]) => K.el(svg, "path", { d: `M${T(a) + 6} ${WY} H${T(b) - 6}`, stroke: "#f2c14e", "stroke-width": 6, fill: "none" }));
+          const waitLabels = WAITS.map(([a, b]) => {
+            const l = K.el(scene, "div", { class: "k-abs s07-wait", style: { left: T(a) + "px", top: WY + 22 + "px", width: T(b) - T(a) + "px" } });
+            l.textContent = "wait " + (b - a) + " s";
+            return l;
+          });
+          const polls = POLLS.map((s) => {
+            const x = T(s);
+            return K.el(svg, "path", {
+              d: `M${x - 9} ${WY - 12} V${PY + 12} M${x - 16} ${PY + 22} L${x - 9} ${PY + 12} L${x - 2} ${PY + 22} M${x + 9} ${PY + 12} V${WY - 12} M${x + 2} ${WY - 22} L${x + 9} ${WY - 12} L${x + 16} ${WY - 22}`,
+              stroke: "rgba(245,245,244,.85)", "stroke-width": 2.5, fill: "none", "stroke-linecap": "round", "stroke-linejoin": "round",
+            });
+          });
+          polls.forEach((p) => gsap.set(p, { opacity: 0 }));
+
+          K.chrome(scene, tl, { title: "Submit once, poll many", step: 3, animateStep: false, balance: "2,000 cr", held: "−80" });
+          const [packet, never, doneP] = ["s07-packet", "s07-never", "s07-done"].map((id) => document.getElementById(id));
+          [packet, never, doneP].forEach((e) => scene.appendChild(e));
+
+          // b0: the workflow submits, once: up to the provider
+          const PW = 102, PH = 40;
+          tl.fromTo(packet, { opacity: 0 }, { opacity: 1, duration: 0.04 }, K.t(0));
+          K.travel(tl, packet, sub, 0, 0.22, K.easeMove, PW, PH);
+          tl.to(sub, { attr: { "stroke-dashoffset": 0 }, duration: 0.22, ease: K.easeMove, data: "follow" }, K.t(0));
+          tl.to(packet, { opacity: 0, duration: 0.05, data: "follow" }, K.t(1) - 0.03);
+          // b1: it is locked where it landed: never retried, so a retry can never pay twice
+          Object.assign(never.style, { left: T(0) - 30 + "px", top: PY - 76 + "px" });
+          K.pop(tl, never, 1);
+          const quiet = { backgroundColor: "rgba(10,10,14,.6)", color: "rgba(245,245,244,.68)", boxShadow: "0 0 0 1.5px rgba(255,255,255,.12)", duration: 0.12, data: "follow" };
+          tl.to(never, quiet, K.t(2));
+          // b2, b4, b6: each wait runs along the workflow lane, longer each time
+          const wait = (i, b) => {
+            const w = waits[i], L = T(WAITS[i][1]) - T(WAITS[i][0]) - 12;
+            w.setAttribute("stroke-dasharray", `${L} ${L}`);
+            K.sound(tl, "tick", K.t(b));
+            tl.fromTo(w, { attr: { "stroke-dashoffset": L } }, { attr: { "stroke-dashoffset": 0 }, duration: 0.22, ease: "power1.inOut" }, K.t(b));
+            tl.fromTo(waitLabels[i], { clipPath: "inset(0 100% 0 0)", color: "#f5f5f4" }, { clipPath: "inset(0 0% 0 0)", duration: 0.22, ease: "power1.inOut", data: "follow" }, K.t(b));
+            tl.to(w, { attr: { stroke: "rgba(255,255,255,.5)", "stroke-width": 2.5 }, duration: 0.1, data: "follow" }, K.t(b + 1));
+            tl.to(waitLabels[i], { color: "rgba(245,245,244,.68)", duration: 0.1, data: "follow" }, K.t(b + 1));
+          };
+          // b3, b5, b7: a poll goes up and comes back, stamped with its time
+          const poll = (i, b) => {
+            tl.set(polls[i], { opacity: 1, data: "follow" }, K.t(b));
+            K.draw(tl, polls[i], b, 0.2);
+            tl.to(ticks[i + 1], { color: "#f5f5f4", duration: 0.06, data: "follow" }, K.t(b) + 0.1);
+          };
+          gsap.set(waits, { opacity: 1 });
+          wait(0, 2); poll(0, 3);
+          wait(1, 4); poll(1, 5);
+          wait(2, 6); poll(2, 7);
+          // b7: the third comes back done
+          Object.assign(doneP.style, { left: T(35) - 120 + "px", top: WY - 150 + "px" });
+          tl.fromTo(doneP, { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.2, ease: K.ease, data: "follow" }, K.t(7) + 0.12);
+
+          K.focus(scene, tl, "s07", [
+            [0, T(0), (PY + WY) / 2], [1, T(0) + 90, PY - 54], [2, (T(0) + T(5)) / 2, WY], [3, T(5), (PY + WY) / 2],
+            [4, (T(5) + T(15)) / 2, WY], [5, T(15), (PY + WY) / 2], [6, (T(15) + T(35)) / 2, WY], [7, T(35), (PY + WY) / 2],
+          ]);
+          K.check(tl, "s07");
+          window.__timelines["s07-submit"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

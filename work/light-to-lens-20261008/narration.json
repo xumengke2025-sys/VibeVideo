@@ -1,0 +1,74 @@
+[
+  {
+    "start": 0.6,
+    "end": 12,
+    "text": "先看一张二维图。没有明显引力影响时，光沿直线传播。沿光到达眼睛时的方向反向延长，就能找到光源。",
+    "file": "narration/00.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "synthetic": true
+  },
+  {
+    "start": 12.5,
+    "end": 25,
+    "text": "加入一个有质量的天体，光路会偏折。其他条件相同，掠过天体越近，偏折通常越明显。这里的公式描述弱场近似。",
+    "file": "narration/01.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "synthetic": true
+  },
+  {
+    "start": 25.5,
+    "end": 40,
+    "text": "现在跟着这束光。它从真实光源出发，弯向观察者。但眼睛只知道它最后从哪个方向到达。把这个方向反向延长，就得到偏移后的视位置。",
+    "file": "narration/02.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "synthetic": true
+  },
+  {
+    "start": 40.5,
+    "end": 54,
+    "text": "如果光源不只是一个点呢？把它铺成一片，每一点都产生自己的像。这些像连续排开，就形成明亮的弧线。这是一个简化的透镜模型。",
+    "file": "narration/03.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "synthetic": true
+  },
+  {
+    "start": 54.3,
+    "end": 62,
+    "text": "再把二维图解放回三维。围绕黑洞发光的，是周围热气体形成的吸积盘。",
+    "file": "narration/04.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "synthetic": true
+  },
+  {
+    "start": 62.3,
+    "end": 72,
+    "text": "取背面的一束光。虽然光源在黑洞身后，弯曲的光路仍能让它抵达我们。",
+    "file": "narration/05.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "synthetic": true
+  },
+  {
+    "start": 72.3,
+    "end": 80,
+    "text": "于是，盘背面的光，看起来出现在黑洞上方。亮弧是光源的像，不是另一层盘。",
+    "file": "narration/06.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "synthetic": true
+  },
+  {
+    "start": 80.2,
+    "end": 86,
+    "text": "换个观察角度，同一个盘的表观形状也会改变。",
+    "file": "narration/07.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "synthetic": true
+  },
+  {
+    "start": 86.1,
+    "end": 90,
+    "text": "引力改变光路，也改变我们看见的宇宙。",
+    "file": "narration/08.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "synthetic": true
+  }
+]

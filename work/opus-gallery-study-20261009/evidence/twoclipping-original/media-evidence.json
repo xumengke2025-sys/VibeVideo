@@ -1,0 +1,51 @@
+{
+  "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\twoclipping-original.mp4",
+  "bytes": 811394,
+  "duration": 14.0,
+  "fps": 60.0,
+  "width": 1280,
+  "height": 1280,
+  "codec": "h264",
+  "audio_streams": 1,
+  "audio_levels": {
+    "sampled_seconds": 14.0,
+    "peak_dbfs": -2.12,
+    "rms_dbfs": -16.61
+  },
+  "full_decode": "passed",
+  "keyframe_times": [
+    0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    13.0
+  ],
+  "keyframes": [
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-00-0.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-01-1.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-02-2.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-03-3.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-04-4.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-05-5.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-06-6.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-07-7.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-08-8.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-09-9.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-10-10.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-11-11.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-12-12.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\keyframe-13-13.000s.png"
+  ],
+  "contact_sheet": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\twoclipping-original\\contact-sheet.jpg",
+  "technical_failures": [],
+  "visual_review": "pending human or agent image inspection; this script does not score aesthetics"
+}

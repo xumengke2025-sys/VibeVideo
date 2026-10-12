@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s03-root { position: absolute; inset: 0; }
+        #s03-call { left: 130px; top: 200px; width: 1060px; height: 512px; border-radius: 20px; border: 2px solid var(--k-line); background: var(--k-surface); overflow: hidden; }
+        #s03-bar { height: 52px; border-bottom: 1.5px solid var(--k-line-dim); display: flex; align-items: center; padding: 0 26px; font: 500 20px/1 var(--k-mono); color: var(--k-bp-ink-2); }
+        #s03-bar b { margin-left: auto; font-weight: 500; color: #8a8a86; }
+        #s03-code { padding: 28px 40px; font: 500 26px/40px var(--k-mono); white-space: pre; color: var(--k-bp-ink); }
+        .s03-k { color: #a8a8a3; }
+        .s03-p { color: #a8a8a3; }
+        #s03-band { left: 132px; top: 0; width: 1056px; height: 40px; background: rgba(242,193,78,.13); border-left: 5px solid var(--k-accent); }
+        #s03-space { left: 1290px; top: 200px; width: 520px; height: 620px; border-radius: 20px; border: 2px solid var(--k-line); background: rgba(15,15,19,.85); }
+        #s03-space-head { left: 26px; top: 22px; font: 500 22px/1 var(--k-mono); color: var(--k-bp-ink); }
+        #s03-space-sub { left: 26px; top: 56px; font: 500 18px/1 var(--k-mono); color: #8a8a86; }
+        .s03-old { width: 220px; height: 176px; border-radius: 14px; background: #0f0f13; border: 2px solid rgba(245,245,244,.28); overflow: hidden; }
+        .s03-old svg { display: block; }
+        .s03-meta { height: 38px; font: 500 17px/38px var(--k-mono); color: #a8a8a3; padding: 0 12px; display: flex; justify-content: space-between; }
+        #s03-drop { left: 40px; top: 400px; width: 440px; height: 180px; border-radius: 16px; border: 2px dashed rgba(245,245,244,.35); }
+        #s03-drop-label { left: 0; right: 0; top: 150px; text-align: center; font: 500 18px/1 var(--k-mono); color: #8a8a86; }
+        #s03-slip { padding: 8px 20px; border-radius: 12px; background: var(--k-accent); border: 2px solid var(--k-accent); font: 500 26px/1.2 var(--k-mono); color: var(--k-accent-ink); white-space: nowrap; }
+        #s03-form { left: 130px; top: 790px; width: 520px; height: 220px; border-radius: 16px; border: 1.5px dashed rgba(245,245,244,.3); }
+        .s03-field { left: 24px; width: 300px; height: 34px; border-radius: 8px; border: 1.5px solid rgba(245,245,244,.22); font: 500 17px/31px var(--k-mono); color: #8a8a86; padding: 0 12px; }
+        #s03-nope { left: 360px; top: 26px; font-size: 22px; }
+      </style>
+      <div id="s03-root" data-composition-id="s03-toolcall" data-width="1920" data-height="1080">
+        <div id="s03-scene" class="k-scene k-bp">
+          <div id="s03-call" class="k-abs">
+            <div id="s03-bar">agent → makefx · tool call<b>mcp</b></div>
+            <div id="s03-code"></div>
+          </div>
+          <div id="s03-band" class="k-abs"></div>
+          <div id="s03-space" class="k-abs">
+            <div id="s03-space-head" class="k-abs">alv/salt-harbour</div>
+            <div id="s03-space-sub" class="k-abs">space · salt harbour, low tide</div>
+            <div id="s03-drop" class="k-abs"><div id="s03-drop-label" class="k-abs">space_id → lands here</div></div>
+          </div>
+          <div id="s03-form" class="k-abs">
+            <div class="k-abs s03-field" style="top:24px">model ▾</div>
+            <div class="k-abs s03-field" style="top:70px">prompt</div>
+            <div class="k-abs s03-field" style="top:116px">duration ▾</div>
+            <div class="k-abs s03-field" style="top:162px;width:150px;text-align:center">generate</div>
+            <div id="s03-nope" class="k-pill">no form</div>
+          </div>
+          <svg id="s03-paths" class="k-abs" width="1920" height="1080">
+            <path id="s03-route" d="M1110 640 C 1230 640, 1360 700, 1550 700" fill="none" stroke="rgba(245,245,244,.22)" stroke-width="1.5" stroke-dasharray="4 8" />
+          </svg>
+          <div id="s03-slip" class="k-abs">create_asset · video</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s03-scene");
+          K.chrome(scene, tl, { title: "a tool call, not a form", chapter: "1 · ask", step: 1 });
+
+          // The call, as the agent sends it. Each field is a key (still) and a value (typed on its beat).
+          const LINES = [
+            ["create_asset {", ""],
+            ['  "space_id": ', '"alv/salt-harbour",'],
+            ['  "kind": ', '"video",'],
+            ['  "model": ', '"video/h3-max",'],
+            ['  "prompt": ', '"camera flight over the harbour at low tide",'],
+            ['  "references": [', ""],
+            ["    ", '{"asset_id": "as_s02", "slot": "start_frame"}'],
+            ["  ],", ""],
+            ['  "params": ', '{"duration_seconds": 8, "resolution": "480p"}'],
+            ["}", ""],
+          ];
+          const code = document.getElementById("s03-code");
+          const rows = LINES.map(([k, v], i) => {
+            const row = K.el(code, "div", { id: `s03-row-${i}` });
+            K.el(row, "span", { class: i === 0 || i === 9 ? "" : "s03-k" }).textContent = k;
+            const val = K.el(row, "span", { id: `s03-val-${i}` });
+            val.textContent = v;
+            return { row, val, v };
+          });
+
+          // Still detail: registration marks, the space's existing cards, leaders, the form nobody fills.
+          K.cross(scene, 96, 176); K.cross(scene, 1824, 176); K.cross(scene, 96, 1016); K.cross(scene, 1824, 1016);
+          const space = document.getElementById("s03-space");
+          [[40, 96, 20, "day", "as_s02", "3 cr"], [264, 96, -30, "dusk", "still", "3 cr"]].forEach(([x, y, boat, mood, a, b]) => {
+            K.el(space, "div", { class: "k-abs s03-old", "data-layout-allow-overflow": "", style: { left: x + "px", top: y + "px" } },
+              `<svg width="216" height="134" viewBox="24 24 172 104" preserveAspectRatio="xMidYMid slice">${K.harbourArt({ boat, mood })}</svg><div class="s03-meta"><span>${a}</span><span>${b}</span></div>`);
+          });
+          K.el(space, "svg", { class: "k-abs", width: 520, height: 620, style: { pointerEvents: "none" } },
+            '<path d="M150 274 C 150 330, 190 350, 190 398" stroke="rgba(245,245,244,.4)" stroke-width="2.5" fill="none" stroke-dasharray="6 7"/>');
+          K.el(space, "div", { class: "k-abs k-mono", style: { left: "186px", top: "322px", padding: "3px 10px", borderRadius: "999px", background: "#1a1a20", color: "#a8a8a3", fontSize: "16px" } }).textContent = "start_frame";
+          K.leader(scene, 760, 714, 760, 800, "the agent names every field");
+          K.leader(scene, 1000, 714, 1000, 880, "8 s · 480p · video/h3-max");
+          K.leader(scene, 650, 900, 760, 960, "nothing to click");
+          K.leader(scene, 1550, 820, 1550, 910, "one call · one new card");
+          K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } },
+            '<path d="M150 1000 L630 800" stroke="rgba(240,101,90,.55)" stroke-width="3"/>');
+
+          // Rows start as a ghost of the shape; a band marks the field being written.
+          const CELL = 26 * 0.6, x0 = 130 + 2 + 40, rowY = (i) => 200 + 2 + 52 + 28 + 20 + i * 40;
+          const band = document.getElementById("s03-band");
+          gsap.set(band, { y: rowY(1) - 20, opacity: 0 });
+          const FIELDS = [[0, 1], [1, 2], [2, 3], [3, 4], [4, 6], [5, 8]]; // [beat, row]
+          const ghost = [1, 2, 3, 4, 5, 6, 7, 8];
+          ghost.forEach((i) => gsap.set(rows[i].row, { opacity: 0.32 }));
+          FIELDS.forEach(([b, i]) => {
+            const r = rows[i];
+            tl.to(band, { y: rowY(i) - 20, opacity: 1, duration: b === 0 ? 0.01 : 0.08, ease: "power2.out" }, K.t(b));
+            const rowsLit = i === 6 ? [rows[5].row, rows[6].row, rows[7].row] : [r.row];
+            tl.fromTo(rowsLit, { opacity: 0.32 }, { opacity: 1, duration: 0.06, data: "follow" }, K.t(b));
+            K.type(tl, r.val, r.v, b, 0.18);
+          });
+          const valEnd = (i) => x0 + (LINES[i][0].length + LINES[i][1].length) * CELL;
+
+          // b6: the finished call leaves the page as one slip, along the route into the space
+          const slip = document.getElementById("s03-slip"), route = document.getElementById("s03-route");
+          tl.to(band, { opacity: 0, duration: 0.1 }, K.t(6));
+          tl.fromTo(slip, { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.06, ease: "back.out(3)", data: "follow" }, K.t(6));
+          // Like K.travel, but through gsap's x/y so the slip keeps its own scale tweens.
+          const SW = 356, SH = 51, RL = route.getTotalLength(), ride = { u: 0 };
+          const place = () => { const q = route.getPointAtLength(RL * ride.u); gsap.set(slip, { x: q.x - SW / 2, y: q.y - SH / 2 }); };
+          place();
+          tl.fromTo(ride, { u: 0 }, { u: 1, duration: 0.26, ease: "power2.inOut", onUpdate: place, data: "follow" }, K.t(6));
+          // b7: it lands in the space; the drop zone takes it
+          const drop = document.getElementById("s03-drop");
+          tl.fromTo(slip, { scaleX: 1, scaleY: 1 }, { scaleX: 1.12, scaleY: 0.84, duration: 0.07, ease: "power1.out" }, K.t(7));
+          tl.to(slip, { scaleX: 1, scaleY: 1, duration: 0.4, ease: "elastic.out(1.1, 0.45)", data: "follow" }, K.t(7) + 0.07);
+          tl.fromTo(drop, { borderColor: "rgba(245,245,244,.35)" }, { borderColor: "#f2c14e", duration: 0.05, data: "follow" }, K.t(7));
+          tl.fromTo("#s03-drop-label", { color: "#8a8a86" }, { color: "#f2c14e", duration: 0.05, data: "follow" }, K.t(7));
+          K.sparkle(tl, scene, 1550, 640, K.t(7) + 0.04, { r: 70, n: 3, seed: 3, stroke: "#08080a" });
+
+          K.focus(scene, tl, "s03", [
+            [0, valEnd(1) - 150, rowY(1)], [1, valEnd(2) - 60, rowY(2)], [2, valEnd(3) - 110, rowY(3)], [3, valEnd(4) - 350, rowY(4)],
+            [4, valEnd(6) - 360, rowY(6)], [5, valEnd(8) - 350, rowY(8)], [6, 1150, 650], [7, 1550, 700],
+          ]);
+          K.check(tl, "s03");
+          window.__timelines["s03-toolcall"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

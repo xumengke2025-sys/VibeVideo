@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "commands_exercised": 23,
+  "cards": 35,
+  "indexed_rows": 513,
+  "source_hashes_checked": 688,
+  "errors": [],
+  "local_source_roots": 10,
+  "new_upstream_files": 231,
+  "new_archives_runtime_verified": false,
+  "new_video_rendered": false,
+  "checks": [
+    "CLI errors and unknown query",
+    "Chinese requirement matching",
+    "code-only source provenance",
+    "mixed-source trace",
+    "absolute source paths and line anchors",
+    "relative documentation links",
+    "film-only filtering and source role/quality/date evidence"
+  ]
+}

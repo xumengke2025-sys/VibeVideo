@@ -1,0 +1,59 @@
+{
+  "sample_rate": 48000,
+  "samples": 1680000,
+  "duration": 35,
+  "channels": 2,
+  "peak_dbfs": -4.271510639615965,
+  "rms_dbfs": -23.889066768337837,
+  "bpm": 96,
+  "source": "original deterministic instrumental and process synthesis",
+  "listened": false,
+  "narration": false,
+  "events": [
+    {
+      "start": 3.1,
+      "end": 3.95,
+      "id": "shade-cloth"
+    },
+    {
+      "start": 6.1,
+      "end": 6.75,
+      "id": "picked-leaf"
+    },
+    {
+      "start": 7,
+      "end": 11.6,
+      "id": "steam"
+    },
+    {
+      "start": 10.4,
+      "end": 14.2,
+      "id": "dry-air"
+    },
+    {
+      "start": 15.6,
+      "end": 17.57,
+      "id": "refine"
+    },
+    {
+      "start": 20.15,
+      "end": 22.79,
+      "id": "mill-friction"
+    },
+    {
+      "start": 25.4,
+      "end": 28,
+      "id": "water"
+    },
+    {
+      "start": 29.25,
+      "end": 32.61,
+      "id": "whisk"
+    },
+    {
+      "start": 33.2,
+      "end": 35,
+      "id": "cadence-fade"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "clip": "whale",
+  "scope": "Sampling schedule, not a visual or listening verdict.",
+  "states": [
+    {
+      "shot": "krill",
+      "state": "establish",
+      "time": 0.4,
+      "frame": 10
+    },
+    {
+      "shot": "krill",
+      "state": "action",
+      "time": 2.8,
+      "frame": 67
+    },
+    {
+      "shot": "krill",
+      "state": "result",
+      "time": 3.3,
+      "frame": 79
+    },
+    {
+      "shot": "rise",
+      "state": "establish",
+      "time": 3.5,
+      "frame": 84
+    },
+    {
+      "shot": "rise",
+      "state": "action",
+      "time": 5.2,
+      "frame": 125
+    },
+    {
+      "shot": "rise",
+      "state": "result",
+      "time": 6.6,
+      "frame": 158
+    },
+    {
+      "shot": "engulf",
+      "state": "establish",
+      "time": 6.9,
+      "frame": 166
+    },
+    {
+      "shot": "engulf",
+      "state": "action",
+      "time": 7.5,
+      "frame": 180
+    },
+    {
+      "shot": "engulf",
+      "state": "result",
+      "time": 9.9,
+      "frame": 238
+    },
+    {
+      "shot": "song",
+      "state": "establish",
+      "time": 10.9,
+      "frame": 262
+    },
+    {
+      "shot": "song",
+      "state": "action",
+      "time": 12,
+      "frame": 288
+    },
+    {
+      "shot": "song",
+      "state": "result",
+      "time": 14.6,
+      "frame": 350
+    }
+  ],
+  "windows": [
+    {
+      "event": "drift",
+      "anchor": "krill",
+      "start": 0,
+      "end": 3.6,
+      "step": 0.2
+    },
+    {
+      "event": "rumble",
+      "anchor": "krill",
+      "start": 2.4,
+      "end": 4.6000000000000005,
+      "step": 0.2
+    },
+    {
+      "event": "rise",
+      "anchor": "whale-head",
+      "start": 3.1999999999999997,
+      "end": 7,
+      "step": 0.2
+    },
+    {
+      "event": "engulf",
+      "anchor": "whale-mouth",
+      "start": 6.6,
+      "end": 8.6,
+      "step": 0.2
+    },
+    {
+      "event": "filter",
+      "anchor": "whale-baleen",
+      "start": 8.200000000000001,
+      "end": 10.4,
+      "step": 0.2
+    },
+    {
+      "event": "stamp",
+      "anchor": "annotation",
+      "start": 9.5,
+      "end": 10.499999999999998,
+      "step": 0.2
+    },
+    {
+      "event": "glide",
+      "anchor": "whale-body",
+      "start": 10.4,
+      "end": 15,
+      "step": 0.2
+    },
+    {
+      "event": "beat",
+      "anchor": "whale-heart",
+      "start": 11.3,
+      "end": 12.7,
+      "step": 0.2
+    },
+    {
+      "event": "call",
+      "anchor": "whale-call",
+      "start": 12.100000000000001,
+      "end": 15,
+      "step": 0.2
+    }
+  ],
+  "captions": [
+    {
+      "text": "磷虾：6 厘米。",
+      "start": 0,
+      "end": 3.4
+    },
+    {
+      "text": "蓝鲸：30 米。",
+      "start": 3.4,
+      "end": 6.8
+    },
+    {
+      "text": "吞下的水，比它还重。",
+      "start": 6.8,
+      "end": 10.6
+    },
+    {
+      "text": "心跳：2 次/分。",
+      "start": 11.5,
+      "end": 15
+    }
+  ],
+  "sound": [
+    {
+      "event": "drift",
+      "time": 0.1,
+      "kind": "spark"
+    },
+    {
+      "event": "rumble",
+      "time": 2.6,
+      "kind": "rumble"
+    },
+    {
+      "event": "rise",
+      "time": 3.4,
+      "kind": "air"
+    },
+    {
+      "event": "engulf",
+      "time": 7.2,
+      "kind": "gulp"
+    },
+    {
+      "event": "filter",
+      "time": 8.4,
+      "kind": "spray"
+    },
+    {
+      "event": "stamp",
+      "time": 9.879999999999999,
+      "kind": "stamp"
+    },
+    {
+      "event": "beat",
+      "time": 11.65,
+      "kind": "thump"
+    },
+    {
+      "event": "call",
+      "time": 12.3,
+      "kind": "moan"
+    }
+  ]
+}

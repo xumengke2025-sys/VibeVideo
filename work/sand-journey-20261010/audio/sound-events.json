@@ -1,0 +1,35 @@
+{
+  "sampleRate": 48000,
+  "duration": 20,
+  "channels": 2,
+  "original": true,
+  "source": "deterministic multiband stochastic synthesis and granular foley",
+  "events": [
+    {
+      "time": 1.4,
+      "type": "wind-rise"
+    },
+    {
+      "time": 2.55,
+      "type": "lift"
+    },
+    {
+      "time": 9.6,
+      "type": "reveal"
+    },
+    {
+      "time": 15.35,
+      "type": "spray-pass"
+    },
+    {
+      "time": 18.2,
+      "type": "sand-contact"
+    },
+    {
+      "time": 18.65,
+      "type": "settle"
+    }
+  ],
+  "peak": 0.82,
+  "rms": 0.10056083981566619
+}

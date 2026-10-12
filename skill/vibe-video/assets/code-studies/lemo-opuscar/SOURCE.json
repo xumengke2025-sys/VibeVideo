@@ -1,0 +1,911 @@
+{
+  "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+  "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+  "commit_date": "2026-10-08T14:00:14Z",
+  "repository_created": "2026-09-26T10:10:41Z",
+  "checked": "2026-10-09",
+  "license": "根LICENSE为MIT，第三方字体/音乐/声音/样本等独立许可；GitHub API的NOASSERTION不代表没有LICENSE。",
+  "reference_role": "film",
+  "quality_evidence": "source_inspected_video_unreviewed",
+  "scope": "作者称43种风格；只归档4种选定风格及共享代码共147文件，未逐风格运行/审片。字体、音频、图片、模型与依赖不完整。",
+  "inspected": [
+    "LICENSE:1-26",
+    "styles/art-deco/demo/engine/cam.js:1-28",
+    "styles/art-deco/demo/timeline.js:1-55",
+    "styles/art-deco/demo/film.js:1-70",
+    "styles/blueprint/demo/machine.js:1-135",
+    "styles/blueprint/demo/film.js:1-234",
+    "styles/ink-wash/demo/ink.js:1-165",
+    "styles/ink-wash/demo/story.js:1-32",
+    "styles/hologram-hud/demo/engine/holo.js:1-115,195-259",
+    "styles/hologram-hud/demo/film.js:1-259"
+  ],
+  "excluded": [
+    "unselected source paths, external assets, audio, video, installed dependencies; not a complete offline build"
+  ],
+  "runtime_verification": "not run; no video reviewed",
+  "files": [
+    {
+      "source_path": "LICENSE",
+      "local_path": "LICENSE",
+      "sha256": "f6d14d5ea5f60387eff5e7916f490e9d743986be48138d9ce187d69cbe536756",
+      "bytes": 1253
+    },
+    {
+      "source_path": "core/lib.js",
+      "local_path": "core/lib.js",
+      "sha256": "770c8fde7c43e6a8aa9f69235869eb2a6ef5dc43453d0e56d4ff0da576c83907",
+      "bytes": 2746
+    },
+    {
+      "source_path": "DIRECTOR.md",
+      "local_path": "DIRECTOR.md",
+      "sha256": "317495c3dac573f2e8b0dadfd56511a1b35a7c385e9f75beca1034af05960678",
+      "bytes": 10403
+    },
+    {
+      "source_path": "README.md",
+      "local_path": "README.md",
+      "sha256": "f196474fdeb906c45269a324a373e3eaa02438263284750e08312c8f5d88f131",
+      "bytes": 19251
+    },
+    {
+      "source_path": "TECHNIQUE.md",
+      "local_path": "TECHNIQUE.md",
+      "sha256": "cd456c1d936e9b44cc4e05fa5d3b062cc4d2dc079620e36902cd74cbb0a43fd6",
+      "bytes": 12364
+    },
+    {
+      "source_path": "core/render/browser.mjs",
+      "local_path": "core/render/browser.mjs",
+      "sha256": "3ab7f7310b4280445239ca3de537654531ff2d8bcc362fdd444f0f524c7e8c73",
+      "bytes": 1705
+    },
+    {
+      "source_path": "core/render/page.mjs",
+      "local_path": "core/render/page.mjs",
+      "sha256": "45796dc94e93fec177d3f162886e447292877971b695e6ebb0dbd6af43693d7a",
+      "bytes": 4879
+    },
+    {
+      "source_path": "core/render/events.mjs",
+      "local_path": "core/render/events.mjs",
+      "sha256": "3226d053a30a93ebcb581859799920185b0285721e20e565a036ce12281ce56b",
+      "bytes": 1004
+    },
+    {
+      "source_path": "core/render/slot.mjs",
+      "local_path": "core/render/slot.mjs",
+      "sha256": "d4505223645e430e822288e2bed85966a5e99959e039d6b59b4196654f97077e",
+      "bytes": 6808
+    },
+    {
+      "source_path": "core/render/still.mjs",
+      "local_path": "core/render/still.mjs",
+      "sha256": "64028e6255d5488bbf72d4a3b01c93c41fd9e7523c1effdd15766ec588dcc679",
+      "bytes": 1851
+    },
+    {
+      "source_path": "core/render/srt.py",
+      "local_path": "core/render/srt.py",
+      "sha256": "1ba264baae29927e6061cd8f301e2a7833e0c4117fa48a0bd0a0cf1f40866910",
+      "bytes": 1109
+    },
+    {
+      "source_path": "core/render/serve.mjs",
+      "local_path": "core/render/serve.mjs",
+      "sha256": "4c8cd80108a6aaf3158a0eec06145e9010fc203ea9b0ab094b3c3ff4f030c900",
+      "bytes": 3082
+    },
+    {
+      "source_path": "core/render/readcheck.mjs",
+      "local_path": "core/render/readcheck.mjs",
+      "sha256": "1b686a6734f5298242056034178148b40e200eceeb44b94218f57bb7d5e9382d",
+      "bytes": 4540
+    },
+    {
+      "source_path": "styles/art-deco/DEMO.md",
+      "local_path": "styles/art-deco/DEMO.md",
+      "sha256": "7a13b1552b34de4232012d4f598ba758a115601bda0faca034175bb8bf74567e",
+      "bytes": 13659
+    },
+    {
+      "source_path": "core/render/sheet.py",
+      "local_path": "core/render/sheet.py",
+      "sha256": "a6507f8dac35e31a93d6af7c18f2b9e71fb637135fccd48f88dd86df2cf32d43",
+      "bytes": 849
+    },
+    {
+      "source_path": "styles/art-deco/demo/engine/bulbs.js",
+      "local_path": "styles/art-deco/demo/engine/bulbs.js",
+      "sha256": "1bd1cb1baea9419204bd2f2c3c641799bb0888257bc7e6e19958e480617bccd8",
+      "bytes": 10790
+    },
+    {
+      "source_path": "styles/art-deco/demo/engine/cam.js",
+      "local_path": "styles/art-deco/demo/engine/cam.js",
+      "sha256": "0f1b1e697e4a72d2b1f53d571cc43f4b28995fce6a3e310357326b58354389c6",
+      "bytes": 1706
+    },
+    {
+      "source_path": "core/render/video.mjs",
+      "local_path": "core/render/video.mjs",
+      "sha256": "1615965f62b1eac4696540171d6961bcae53feffd9922d90ce76358d06381755",
+      "bytes": 6804
+    },
+    {
+      "source_path": "styles/art-deco/demo/film.js",
+      "local_path": "styles/art-deco/demo/film.js",
+      "sha256": "3f2b16a0d4487ff135d07e1eb88efa732f1ae7fbe61b6b2aae93f213c6575966",
+      "bytes": 6642
+    },
+    {
+      "source_path": "styles/art-deco/STYLE.md",
+      "local_path": "styles/art-deco/STYLE.md",
+      "sha256": "d73b30c0fa6d153487549d32d8c6c599733cf5e7576badec862a12da6d284761",
+      "bytes": 12196
+    },
+    {
+      "source_path": "styles/art-deco/demo/engine/deco.js",
+      "local_path": "styles/art-deco/demo/engine/deco.js",
+      "sha256": "34d62e71f30288f7b6e0e393b09b79a92dcb0718c365c4134a46551d89a519e4",
+      "bytes": 21500
+    },
+    {
+      "source_path": "styles/art-deco/demo/chars.js",
+      "local_path": "styles/art-deco/demo/chars.js",
+      "sha256": "a8662f0bcb1d6c785adfd146e1cafdeeecc55a2d22449db4447548a4940fd9eb",
+      "bytes": 44498
+    },
+    {
+      "source_path": "styles/art-deco/demo/fonts/OFL-josefinsans.txt",
+      "local_path": "styles/art-deco/demo/fonts/OFL-josefinsans.txt",
+      "sha256": "aee5a4081e8a52f80428b30f178b719d115f18dad3e1fa15a986163e1078a85b",
+      "bytes": 4449
+    },
+    {
+      "source_path": "styles/art-deco/demo/fonts/OFL-italiana.txt",
+      "local_path": "styles/art-deco/demo/fonts/OFL-italiana.txt",
+      "sha256": "486c4d5b9baf0d0ba5546ef3c43fcfe22c062299ab6948045a43efffe4b0f74b",
+      "bytes": 4393
+    },
+    {
+      "source_path": "styles/art-deco/demo/fonts/fonts.css",
+      "local_path": "styles/art-deco/demo/fonts/fonts.css",
+      "sha256": "3b03da525e50c9171b97fe12c51c81d6035063aa8ce135b84913d0e57b70a56d",
+      "bytes": 289
+    },
+    {
+      "source_path": "styles/art-deco/demo/engine/type.js",
+      "local_path": "styles/art-deco/demo/engine/type.js",
+      "sha256": "9e0fca667d1d83cf8344abec286cd356bf50dfb1f54a383f461dd48a0fc816f5",
+      "bytes": 16867
+    },
+    {
+      "source_path": "styles/art-deco/demo/fonts/OFL-limelight.txt",
+      "local_path": "styles/art-deco/demo/fonts/OFL-limelight.txt",
+      "sha256": "6b53fb03a50914cc382f4d025ee595c17c43f24ae870f840bc51969d3e316c7e",
+      "bytes": 4399
+    },
+    {
+      "source_path": "styles/art-deco/demo/frames.js",
+      "local_path": "styles/art-deco/demo/frames.js",
+      "sha256": "d8cf78b7fec35a9819741f3be775c58dcf7c470f25d7770e086d9e723d8ed8f0",
+      "bytes": 13939
+    },
+    {
+      "source_path": "styles/art-deco/demo/music/CREDITS_music.txt",
+      "local_path": "styles/art-deco/demo/music/CREDITS_music.txt",
+      "sha256": "97471f81202e828105ed518a811ac4e466e7b61b78b3f625ff2114174f8f9416",
+      "bytes": 384
+    },
+    {
+      "source_path": "styles/art-deco/demo/lines.json",
+      "local_path": "styles/art-deco/demo/lines.json",
+      "sha256": "833af59bc4b391efb9394af41bcb2fe355c1aff6ba98940358ac7a57c67aa7b5",
+      "bytes": 1039
+    },
+    {
+      "source_path": "styles/art-deco/demo/main.js",
+      "local_path": "styles/art-deco/demo/main.js",
+      "sha256": "52c9985e1d81ac162ba818e80f80a24a30d3f32702ffb9c295ea393ae1229e70",
+      "bytes": 961
+    },
+    {
+      "source_path": "styles/art-deco/demo/mix.py",
+      "local_path": "styles/art-deco/demo/mix.py",
+      "sha256": "f91f7f9d84df7ae5e373d2259bde3437388e675c658cda8ed07b01c025611e08",
+      "bytes": 17241
+    },
+    {
+      "source_path": "styles/art-deco/demo/music/score.json",
+      "local_path": "styles/art-deco/demo/music/score.json",
+      "sha256": "cbdff74ec35fdd0b0b473c8f47ab902be19e1afcd5832d5a4f4fe73ab2f984a6",
+      "bytes": 1775
+    },
+    {
+      "source_path": "styles/art-deco/demo/index.html",
+      "local_path": "styles/art-deco/demo/index.html",
+      "sha256": "4bcec8f994190d3522f759c3a17f2fd3ae4be4a0d57bb52b4702af19de240c86",
+      "bytes": 388
+    },
+    {
+      "source_path": "styles/art-deco/demo/scenes/stairs.js",
+      "local_path": "styles/art-deco/demo/scenes/stairs.js",
+      "sha256": "d834680714eee852ce9e5dd188826e55f1f04a53df62476f8e709cd8952da459",
+      "bytes": 8287
+    },
+    {
+      "source_path": "styles/art-deco/demo/music/score.py",
+      "local_path": "styles/art-deco/demo/music/score.py",
+      "sha256": "6bedd0ac5db9ab1e3da84f78100801374d1d31f17492d96e4fdc14c3320f8c6c",
+      "bytes": 24611
+    },
+    {
+      "source_path": "styles/art-deco/demo/shots_kitchen.js",
+      "local_path": "styles/art-deco/demo/shots_kitchen.js",
+      "sha256": "b2c9af29f39afa114974291172948bbab1222dd27b5eadd095d0b271fb86d3ac",
+      "bytes": 11826
+    },
+    {
+      "source_path": "styles/art-deco/demo/scenes/roof.js",
+      "local_path": "styles/art-deco/demo/scenes/roof.js",
+      "sha256": "cba55df9dbf41670a52c0fadbd3375a8cb67bd1b63d8355d63e647138aaae5cd",
+      "bytes": 7301
+    },
+    {
+      "source_path": "styles/art-deco/demo/scenes/tower.js",
+      "local_path": "styles/art-deco/demo/scenes/tower.js",
+      "sha256": "26f827c567b5438e565122137e28b0b6b092cad4a3b5dcfa0c2db75fa8bb640d",
+      "bytes": 9084
+    },
+    {
+      "source_path": "styles/art-deco/demo/shots_out.js",
+      "local_path": "styles/art-deco/demo/shots_out.js",
+      "sha256": "873149d840fac91e8a5791c904d44af23f426ea8a5b784d2be2228e08cbd3d70",
+      "bytes": 3214
+    },
+    {
+      "source_path": "styles/art-deco/demo/shots_lobby.js",
+      "local_path": "styles/art-deco/demo/shots_lobby.js",
+      "sha256": "086b4879c645650c1cf988614e6ede21917f550dba5acd342c3d5badfbae0620",
+      "bytes": 5677
+    },
+    {
+      "source_path": "styles/art-deco/demo/shots_misc.js",
+      "local_path": "styles/art-deco/demo/shots_misc.js",
+      "sha256": "67e9ed4034721a74cbb16677f894b219be4ec6c755b28c8bcce4c1d5a85b257d",
+      "bytes": 12789
+    },
+    {
+      "source_path": "styles/art-deco/demo/shots_stairs.js",
+      "local_path": "styles/art-deco/demo/shots_stairs.js",
+      "sha256": "ca9aa990494299b6403d80a8bfd98005fa1362fd137fade64adb32acb264c12d",
+      "bytes": 3687
+    },
+    {
+      "source_path": "styles/art-deco/demo/tools/dump_timeline.mjs",
+      "local_path": "styles/art-deco/demo/tools/dump_timeline.mjs",
+      "sha256": "2de5f51555ecafc3632fa13b3237cbab11d8af725ca36cc9176acd0152bdc258",
+      "bytes": 635
+    },
+    {
+      "source_path": "styles/art-deco/demo/timeline.js",
+      "local_path": "styles/art-deco/demo/timeline.js",
+      "sha256": "7eaa8b9fc733006a2237745dbc0c897089b894dfe8c2f53f0a1ba2544325a380",
+      "bytes": 3430
+    },
+    {
+      "source_path": "styles/art-deco/demo/shots_roof.js",
+      "local_path": "styles/art-deco/demo/shots_roof.js",
+      "sha256": "c43b124066f4cbeffeea03cb0956a621a92e05d1405aa0e2dd94739beabf8d26",
+      "bytes": 14889
+    },
+    {
+      "source_path": "styles/art-deco/demo/fonts/OFL-poiretone.txt",
+      "local_path": "styles/art-deco/demo/fonts/OFL-poiretone.txt",
+      "sha256": "708e33bed791c40638926a7577bcef8ff8748f84045f3825277540cbb8d483ba",
+      "bytes": 4389
+    },
+    {
+      "source_path": "styles/art-deco/demo/scenes/lobby.js",
+      "local_path": "styles/art-deco/demo/scenes/lobby.js",
+      "sha256": "b14cb62e1ff9ea60f26c933ab026866aadf5ff6cd519b579020684880115467a",
+      "bytes": 21512
+    },
+    {
+      "source_path": "styles/art-deco/demo/tools/cuecheck.py",
+      "local_path": "styles/art-deco/demo/tools/cuecheck.py",
+      "sha256": "7ffe573c9d43f51b62f7d6cc5d9532ded82b77a055d6d4882241ec0f66b083a4",
+      "bytes": 1808
+    },
+    {
+      "source_path": "styles/art-deco/demo/timeline.json",
+      "local_path": "styles/art-deco/demo/timeline.json",
+      "sha256": "e2da937f9361fd02d52f0a49b00637957a23ca9662782630456cf272d2c2093f",
+      "bytes": 3773
+    },
+    {
+      "source_path": "styles/blueprint/DEMO.md",
+      "local_path": "styles/blueprint/DEMO.md",
+      "sha256": "5ea1681271e44d4d4fe88fd5d7ef907c320b0979cf53dfb93070ab6d0edb61b4",
+      "bytes": 15849
+    },
+    {
+      "source_path": "styles/blueprint/STYLE.md",
+      "local_path": "styles/blueprint/STYLE.md",
+      "sha256": "de01fc7fcb38b17b58eb017c9cdbcb36b9242b029435a33587614c93088e1717",
+      "bytes": 12323
+    },
+    {
+      "source_path": "styles/art-deco/demo/tools/subs.py",
+      "local_path": "styles/art-deco/demo/tools/subs.py",
+      "sha256": "48d8bdd03fe93d0e366429a65df817ca820312f41afc1f861615879727312985",
+      "bytes": 810
+    },
+    {
+      "source_path": "styles/art-deco/demo/voices/dur.json",
+      "local_path": "styles/art-deco/demo/voices/dur.json",
+      "sha256": "6d1ef8ed6c7023fc2a43d4d394b947d9be39468cc1cf3d52092fa17bfec4ed21",
+      "bytes": 100
+    },
+    {
+      "source_path": "styles/blueprint/demo/fonts/fonts.css",
+      "local_path": "styles/blueprint/demo/fonts/fonts.css",
+      "sha256": "ea7079bdc69ef0b17c62b59663f0085e9a864421a3b8d7e7baee07120547f117",
+      "bytes": 489
+    },
+    {
+      "source_path": "styles/blueprint/demo/events.json",
+      "local_path": "styles/blueprint/demo/events.json",
+      "sha256": "c707a96ccd7036f53fa2ab8f4340f529806b2f84d54d5d5a0336ed53ae95a2a2",
+      "bytes": 21654
+    },
+    {
+      "source_path": "styles/blueprint/demo/fonts/OFL.txt",
+      "local_path": "styles/blueprint/demo/fonts/OFL.txt",
+      "sha256": "0e441ae9f18ad0c294cc5b6ae3974c2db1614cab220598578b1b58c4cc334485",
+      "bytes": 4362
+    },
+    {
+      "source_path": "styles/blueprint/demo/film.js",
+      "local_path": "styles/blueprint/demo/film.js",
+      "sha256": "d97a48bb1a3994cee0f43d3251ea85e6bd765b1c60a0865cfc10c8bc784179f8",
+      "bytes": 26512
+    },
+    {
+      "source_path": "styles/art-deco/style.json",
+      "local_path": "styles/art-deco/style.json",
+      "sha256": "0ea0e1866adf9c601ca4118229555a563f0f9f0b2dca433f60c2b70a21bf23d5",
+      "bytes": 497
+    },
+    {
+      "source_path": "styles/art-deco/demo/voices/words.json",
+      "local_path": "styles/art-deco/demo/voices/words.json",
+      "sha256": "03ea1575ad300a472b60447208a5ea691e844f7bb28dcadf1058d35dc4d6b2dd",
+      "bytes": 1366
+    },
+    {
+      "source_path": "styles/blueprint/demo/draw.js",
+      "local_path": "styles/blueprint/demo/draw.js",
+      "sha256": "ba87edc2864d1dfcb32e7798c716e8189fd43ff57926b1309d5f9e2befe0a846",
+      "bytes": 14248
+    },
+    {
+      "source_path": "styles/blueprint/demo/lines.json",
+      "local_path": "styles/blueprint/demo/lines.json",
+      "sha256": "74178c223b2e9521c99d397ec3e1a02408bcd0c837e8ea1eae3ccc19f91da08b",
+      "bytes": 981
+    },
+    {
+      "source_path": "styles/blueprint/demo/index.html",
+      "local_path": "styles/blueprint/demo/index.html",
+      "sha256": "363656cc02058402df3a02546fd24fd07437985fad3c53f8d9a7efa325577d1e",
+      "bytes": 343
+    },
+    {
+      "source_path": "styles/blueprint/demo/music/score.py",
+      "local_path": "styles/blueprint/demo/music/score.py",
+      "sha256": "2d252fb73cf7808b7acab419ac019964117e0fb06017780b24a73c63411a5ad5",
+      "bytes": 13473
+    },
+    {
+      "source_path": "styles/art-deco/demo/tools/pitch.py",
+      "local_path": "styles/art-deco/demo/tools/pitch.py",
+      "sha256": "2efa011134dea85da6523e1966ee89fc7aa0c66b727e24e04713c6a4ed046dde",
+      "bytes": 742
+    },
+    {
+      "source_path": "styles/blueprint/demo/machine.js",
+      "local_path": "styles/blueprint/demo/machine.js",
+      "sha256": "25f9e1ded15ed79c01d7c6392615f7eff14a8f4c70cd83207ce386568bf636fd",
+      "bytes": 24666
+    },
+    {
+      "source_path": "styles/blueprint/demo/main.js",
+      "local_path": "styles/blueprint/demo/main.js",
+      "sha256": "1f7f93d599c741d972a228ed0075b0d381ccadd631c0ce646f8153371f84368c",
+      "bytes": 6469
+    },
+    {
+      "source_path": "styles/blueprint/demo/mix.py",
+      "local_path": "styles/blueprint/demo/mix.py",
+      "sha256": "0054766b9bfc27959f8e0c9a984da25bb4b6bc1d617e893f66fdab48b0bad7d5",
+      "bytes": 8006
+    },
+    {
+      "source_path": "styles/blueprint/demo/subs.json",
+      "local_path": "styles/blueprint/demo/subs.json",
+      "sha256": "9aeedc0a24ab06c88e8dc12206716a07a96aaa72cae76101a054bdaf17e012df",
+      "bytes": 762
+    },
+    {
+      "source_path": "styles/blueprint/demo/tools/subs.mjs",
+      "local_path": "styles/blueprint/demo/tools/subs.mjs",
+      "sha256": "b6eb0fc92574396b5160397b73735aefefe271c2ada8c2ec3ff3956e828c156f",
+      "bytes": 994
+    },
+    {
+      "source_path": "styles/blueprint/demo/music/score.json",
+      "local_path": "styles/blueprint/demo/music/score.json",
+      "sha256": "9f708293e3abfc8e5eaa06bfb0e29d950a87b768a1ac7abfcde7e3e9ef9921d6",
+      "bytes": 1598
+    },
+    {
+      "source_path": "styles/blueprint/demo/tools/check_mix.py",
+      "local_path": "styles/blueprint/demo/tools/check_mix.py",
+      "sha256": "182928c88cdaf1eb0eb92c1db6e359569d0fa113aa9fb3e34d43ea21d8d66336",
+      "bytes": 1120
+    },
+    {
+      "source_path": "styles/blueprint/demo/voices/dur.json",
+      "local_path": "styles/blueprint/demo/voices/dur.json",
+      "sha256": "3b652481bebe2226ff8f0cd5f9c2f40727d30b676c6941df60ac404979dfa3b4",
+      "bytes": 86
+    },
+    {
+      "source_path": "styles/blueprint/demo/sheet.js",
+      "local_path": "styles/blueprint/demo/sheet.js",
+      "sha256": "5dd3c2616071271b562094eae062cd5f646e3cec337f0de5117880f79d42c819",
+      "bytes": 20652
+    },
+    {
+      "source_path": "styles/blueprint/demo/voices/words.json",
+      "local_path": "styles/blueprint/demo/voices/words.json",
+      "sha256": "2bd733a9f758ebd2fefd64dd5945b76c4bd15d5423a027edc53196d4dd4dbf18",
+      "bytes": 1259
+    },
+    {
+      "source_path": "styles/blueprint/demo/tools/video_range.mjs",
+      "local_path": "styles/blueprint/demo/tools/video_range.mjs",
+      "sha256": "ded2019892a943b679a3b14e6e74e312b027ec624bb30b908f83ddbb367791d8",
+      "bytes": 2436
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/content_alt.json",
+      "local_path": "styles/hologram-hud/demo/content_alt.json",
+      "sha256": "4424a45eac944770316e4709beff7019f8755f2dbd269c3401e3be112bae3f46",
+      "bytes": 1920
+    },
+    {
+      "source_path": "styles/blueprint/demo/paper.js",
+      "local_path": "styles/blueprint/demo/paper.js",
+      "sha256": "acb079c0036fa2b7e47e80843bcf422718cde2edd7b5957a5b9b6a7c252f222c",
+      "bytes": 8441
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/content.json",
+      "local_path": "styles/hologram-hud/demo/content.json",
+      "sha256": "32a1180d22efe60d9bf68166eed0210eb566415386229aec766ee6667f36904a",
+      "bytes": 1745
+    },
+    {
+      "source_path": "styles/hologram-hud/DEMO.md",
+      "local_path": "styles/hologram-hud/DEMO.md",
+      "sha256": "f301d8e9e418cc268b5111043f2a3b963cc5af12302c379dffb802ff5f6cd060",
+      "bytes": 18236
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/engine/holo.js",
+      "local_path": "styles/hologram-hud/demo/engine/holo.js",
+      "sha256": "d0bd7052c17640d6ebceb6220dde38fae8129a3b30a9467c7fea9a5fcd1a332f",
+      "bytes": 19375
+    },
+    {
+      "source_path": "styles/blueprint/style.json",
+      "local_path": "styles/blueprint/style.json",
+      "sha256": "6d50613e83879a1741bc1ca60f2ad528c2a0e35778fdac6f55d4af7e67ea4da7",
+      "bytes": 550
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/events.json",
+      "local_path": "styles/hologram-hud/demo/events.json",
+      "sha256": "694c243257ddb34452b886765aa716d7229955336e204238bf21e7e278906ab3",
+      "bytes": 2643
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/engine/hud.js",
+      "local_path": "styles/hologram-hud/demo/engine/hud.js",
+      "sha256": "57905de60ebc48e8a820097e5184508aec6b1c281cf0cb9bb527a3d8345abf02",
+      "bytes": 20703
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/fonts/OFL-rajdhani.txt",
+      "local_path": "styles/hologram-hud/demo/fonts/OFL-rajdhani.txt",
+      "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+      "bytes": 4373
+    },
+    {
+      "source_path": "styles/hologram-hud/STYLE.md",
+      "local_path": "styles/hologram-hud/STYLE.md",
+      "sha256": "81e2c6b0ede2cc211a8dd676417a1ce5efda278514f273c5249165e38ff34573",
+      "bytes": 11833
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/index.html",
+      "local_path": "styles/hologram-hud/demo/index.html",
+      "sha256": "0245235547b1489691fe92a72f6876dded1cdeac0d68277182cdcd0616b9a9c9",
+      "bytes": 374
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/frames.js",
+      "local_path": "styles/hologram-hud/demo/frames.js",
+      "sha256": "ca6e479ee9e479a83ee97ace7740df72ed1f8ca9f9d5107b3d480b4e546cad3b",
+      "bytes": 1557
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/lines.json",
+      "local_path": "styles/hologram-hud/demo/lines.json",
+      "sha256": "eef580f810fc8a01cdd7950121a17a956c397e16e555e27aa82fb216af0a0936",
+      "bytes": 825
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/fonts/OFL-sharetechmono.txt",
+      "local_path": "styles/hologram-hud/demo/fonts/OFL-sharetechmono.txt",
+      "sha256": "9d96f445b6e9c701428811d0177f894874f8d6f07ecc30d568c506542368f3ff",
+      "bytes": 4429
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/main.js",
+      "local_path": "styles/hologram-hud/demo/main.js",
+      "sha256": "c647b930573685c30a882ed33c2b7ac5ff77b22089a1d1a1e59e28c75910dad5",
+      "bytes": 1131
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/fonts/fonts.css",
+      "local_path": "styles/hologram-hud/demo/fonts/fonts.css",
+      "sha256": "11ebafc045d659f5a56e56873d78efd9c9e2501fc2b9e6abe734d4efd5643e43",
+      "bytes": 413
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/models/gen_volt.mjs",
+      "local_path": "styles/hologram-hud/demo/models/gen_volt.mjs",
+      "sha256": "95afe3decb4f6b633d32b3cc73922bdb1fe757b72f5f54965bf00a98b3c9a8cc",
+      "bytes": 7262
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/models/gen_kite.mjs",
+      "local_path": "styles/hologram-hud/demo/models/gen_kite.mjs",
+      "sha256": "40355a5325088410ec88852e5edb3e0dc6e53562dd20b0db092dfa6936f3999d",
+      "bytes": 5416
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/film.js",
+      "local_path": "styles/hologram-hud/demo/film.js",
+      "sha256": "884107c911fe2ac9675414f260fdb46da9bb3f5d8f2f21a02aaa5a1e4d34c58a",
+      "bytes": 25416
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/mix.py",
+      "local_path": "styles/hologram-hud/demo/mix.py",
+      "sha256": "28aa511eaad01255022ef8386e07a38072de1b7a3ca6a3b8acecb692cce6cdf7",
+      "bytes": 13327
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/models/kite.json",
+      "local_path": "styles/hologram-hud/demo/models/kite.json",
+      "sha256": "082656a22cb0a29fc7d8e3c96756079d56c0072e520e379673a7710088f84073",
+      "bytes": 102526
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/music/check.py",
+      "local_path": "styles/hologram-hud/demo/music/check.py",
+      "sha256": "925d5e65caed37132230b058ac09791e8edf1ad529dd611b4e503374830ee8f2",
+      "bytes": 1646
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/models/mkmodel.mjs",
+      "local_path": "styles/hologram-hud/demo/models/mkmodel.mjs",
+      "sha256": "df34b3c2e8451c830d87a20639844953c51b3d8ccd2c0a19d467fd12ec8e72fc",
+      "bytes": 15079
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/models/volt.json",
+      "local_path": "styles/hologram-hud/demo/models/volt.json",
+      "sha256": "37b7eb8d9483dbf2ef26d74d1270a3d6b4ea4076b705ea1bafbd2d7a300f4927",
+      "bytes": 217665
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/tools/final_asr.py",
+      "local_path": "styles/hologram-hud/demo/tools/final_asr.py",
+      "sha256": "9407c2b65349548927a6a6ac72940f6263e2067ba560113d0775bdc1cfd230f2",
+      "bytes": 1874
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/timeline.json",
+      "local_path": "styles/hologram-hud/demo/timeline.json",
+      "sha256": "0357a595f65d90ba484be51c6dcdcc79859f7b6361ea2a666832278f828ba0aa",
+      "bytes": 1070
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/tools/make_lines.mjs",
+      "local_path": "styles/hologram-hud/demo/tools/make_lines.mjs",
+      "sha256": "cb7c803e6adef031795dd9b0227cb775274b4c717631d260d55c9685e10b9260",
+      "bytes": 1019
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/music/score.py",
+      "local_path": "styles/hologram-hud/demo/music/score.py",
+      "sha256": "f4479d2ce2e4cdb7283ec74f59996823cffa953cb22457898784c0b62625620a",
+      "bytes": 14293
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/tools/cuecheck.py",
+      "local_path": "styles/hologram-hud/demo/tools/cuecheck.py",
+      "sha256": "dafd9b70f46efcced75c1d2c1710bc6f9fdcd49be278657df7e0d1d9bd5d0b29",
+      "bytes": 1334
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/music/score.json",
+      "local_path": "styles/hologram-hud/demo/music/score.json",
+      "sha256": "50780756df766815be91f58db5a15e88b90e817cde656d37aec02e35f828f294",
+      "bytes": 18813
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/tools/export.mjs",
+      "local_path": "styles/hologram-hud/demo/tools/export.mjs",
+      "sha256": "66f566cbddbe40ae8499e2d79b0b0257facc12883c498e6b7053c1696c4ce11f",
+      "bytes": 1316
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/voices/dur.json",
+      "local_path": "styles/hologram-hud/demo/voices/dur.json",
+      "sha256": "5ac30ac51d357b87dd640bea600aa549fc7c81c75d84bd433f6d45873c2410d7",
+      "bytes": 77
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/music/CREDITS_music.txt",
+      "local_path": "styles/hologram-hud/demo/music/CREDITS_music.txt",
+      "sha256": "baee3d041e7a94a56f16c14c2824b6b9bf698a4a19dc9f8997c1d10e713a09f9",
+      "bytes": 186
+    },
+    {
+      "source_path": "styles/hologram-hud/demo/voices/words.json",
+      "local_path": "styles/hologram-hud/demo/voices/words.json",
+      "sha256": "6ef9eec513a97c891fd8b0d91b4577c515c35f9560b9a68861ea04c535feaa73",
+      "bytes": 1172
+    },
+    {
+      "source_path": "styles/hologram-hud/style.json",
+      "local_path": "styles/hologram-hud/style.json",
+      "sha256": "4073df5e0dd8b65da243652b92a0406664189881c4d0d5827c5cb520ceb5f238",
+      "bytes": 616
+    },
+    {
+      "source_path": "styles/ink-wash/STYLE.md",
+      "local_path": "styles/ink-wash/STYLE.md",
+      "sha256": "5d71598f0b9cf4034c6461956b0d8bd63bd33750b4045376044f0d956b01d645",
+      "bytes": 11277
+    },
+    {
+      "source_path": "styles/ink-wash/demo/comp.js",
+      "local_path": "styles/ink-wash/demo/comp.js",
+      "sha256": "063b2d9fa079772de016acc99f19aabddd6dbeaa2445119d01ccac5053a281af",
+      "bytes": 9135
+    },
+    {
+      "source_path": "styles/ink-wash/DEMO.md",
+      "local_path": "styles/ink-wash/DEMO.md",
+      "sha256": "4d295adcac64a6052353a5cfcd81519f41403689e06ddb2550210ca1cc1133c3",
+      "bytes": 9223
+    },
+    {
+      "source_path": "styles/ink-wash/demo/cross.js",
+      "local_path": "styles/ink-wash/demo/cross.js",
+      "sha256": "f994045ff45bf3298c24cd256a27063dbb2432d9f24e0007278d7081f6ff176b",
+      "bytes": 6545
+    },
+    {
+      "source_path": "styles/ink-wash/demo/events.json",
+      "local_path": "styles/ink-wash/demo/events.json",
+      "sha256": "200abe83fc93fef8326331311f5316bb3fe4905b2c30795909aec13612f7e299",
+      "bytes": 2119
+    },
+    {
+      "source_path": "styles/ink-wash/demo/cues.json",
+      "local_path": "styles/ink-wash/demo/cues.json",
+      "sha256": "1c6bd83c77149ca513220b54cabaa01daaefc28a53cf5ef896d39319e1568744",
+      "bytes": 362
+    },
+    {
+      "source_path": "styles/ink-wash/demo/cues.mjs",
+      "local_path": "styles/ink-wash/demo/cues.mjs",
+      "sha256": "9b1c422d508414a8b1ff60f0553292870c388d43d99364d0f3a5fcc025679b7e",
+      "bytes": 234
+    },
+    {
+      "source_path": "styles/ink-wash/demo/face.js",
+      "local_path": "styles/ink-wash/demo/face.js",
+      "sha256": "86377f07cd19f02fb1fe295c755a8f76d3692b8d404b10ce112466fcba9ea38e",
+      "bytes": 6729
+    },
+    {
+      "source_path": "styles/ink-wash/demo/climax.js",
+      "local_path": "styles/ink-wash/demo/climax.js",
+      "sha256": "44db202a1592e30391c169ec4a4d19a7bd1731c6a1d8d5394bd46e9cc008b754",
+      "bytes": 7721
+    },
+    {
+      "source_path": "styles/ink-wash/demo/fonts/OFL-MaShanZheng.txt",
+      "local_path": "styles/ink-wash/demo/fonts/OFL-MaShanZheng.txt",
+      "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+      "bytes": 4397
+    },
+    {
+      "source_path": "styles/ink-wash/demo/fonts/fonts.css",
+      "local_path": "styles/ink-wash/demo/fonts/fonts.css",
+      "sha256": "b1678ef5cf035e211444e7604b9af417f74e2901691c0bbb98d7ccf0dd9d6df6",
+      "bytes": 539
+    },
+    {
+      "source_path": "styles/ink-wash/demo/fonts/OFL-ZhiMangXing.txt",
+      "local_path": "styles/ink-wash/demo/fonts/OFL-ZhiMangXing.txt",
+      "sha256": "10947328199e369a3e6b4a67e8e5507ed99d5bbb264a1f156415aa9b665e4d15",
+      "bytes": 4397
+    },
+    {
+      "source_path": "styles/ink-wash/demo/fonts/OFL-Cormorant.txt",
+      "local_path": "styles/ink-wash/demo/fonts/OFL-Cormorant.txt",
+      "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "bytes": 4387
+    },
+    {
+      "source_path": "styles/ink-wash/demo/glyph.js",
+      "local_path": "styles/ink-wash/demo/glyph.js",
+      "sha256": "3397fa07bcf2c4ede5412cc83e8f775aec3ac4d94801b5adbd223fcde8fce47c",
+      "bytes": 4496
+    },
+    {
+      "source_path": "styles/ink-wash/demo/hero.js",
+      "local_path": "styles/ink-wash/demo/hero.js",
+      "sha256": "bea1cb4f77efc89f68cbdd52cccc7c63b340ad9aa905d58453f857b3b553a798",
+      "bytes": 20062
+    },
+    {
+      "source_path": "styles/ink-wash/demo/index.html",
+      "local_path": "styles/ink-wash/demo/index.html",
+      "sha256": "cc09f28cff27a78c3b79715dd02ff04abf9b55e2583a813ccfdf26df2751d809",
+      "bytes": 353
+    },
+    {
+      "source_path": "styles/ink-wash/demo/lines.json",
+      "local_path": "styles/ink-wash/demo/lines.json",
+      "sha256": "6c79e3dbd3db316fc5c547fea94a3b3797e99b9a141c4bfd3d63f46f4d530343",
+      "bytes": 555
+    },
+    {
+      "source_path": "styles/ink-wash/demo/ink.js",
+      "local_path": "styles/ink-wash/demo/ink.js",
+      "sha256": "dbe6474ab0a0798193a7b49be9a8166511bc67ced90594e4390bdb2b70eef399",
+      "bytes": 10890
+    },
+    {
+      "source_path": "styles/ink-wash/demo/land.js",
+      "local_path": "styles/ink-wash/demo/land.js",
+      "sha256": "687c1cc1a848e30cc7e8b2e73984f49925506f20a8500b64aac88059a02b50bb",
+      "bytes": 10216
+    },
+    {
+      "source_path": "styles/ink-wash/demo/mix.py",
+      "local_path": "styles/ink-wash/demo/mix.py",
+      "sha256": "b7bb5d83f3d0c6a2bfa07b0e43a4c9e265825a153d67ef4bebb11ce62e5fdcce",
+      "bytes": 7743
+    },
+    {
+      "source_path": "styles/ink-wash/demo/frames.js",
+      "local_path": "styles/ink-wash/demo/frames.js",
+      "sha256": "4b540d56d4737066c5a93eeed7989345da4005b6f6abc907f9b1dd094f24a9f8",
+      "bytes": 4939
+    },
+    {
+      "source_path": "styles/ink-wash/demo/music/score.json",
+      "local_path": "styles/ink-wash/demo/music/score.json",
+      "sha256": "aaeb69c1f092323032993b8ccf59f02e01b3b6f1897247ec1b6f76137eb5f876",
+      "bytes": 3243
+    },
+    {
+      "source_path": "styles/ink-wash/demo/sheet.js",
+      "local_path": "styles/ink-wash/demo/sheet.js",
+      "sha256": "f4bd5138ad1977d6f0d0c737b86753d0a6b23f8a21360d468e8eed721f08c8be",
+      "bytes": 5033
+    },
+    {
+      "source_path": "styles/ink-wash/demo/music/score.py",
+      "local_path": "styles/ink-wash/demo/music/score.py",
+      "sha256": "9e9deddba6fcb544ca13f3dfe0bc315e1f150d0e496fd9132d0ca043419345a0",
+      "bytes": 10974
+    },
+    {
+      "source_path": "styles/ink-wash/demo/story.js",
+      "local_path": "styles/ink-wash/demo/story.js",
+      "sha256": "39724b30cdc1124c6c07aaca380641e649ebf3056a1542a79157685e58620117",
+      "bytes": 1467
+    },
+    {
+      "source_path": "styles/ink-wash/demo/main.js",
+      "local_path": "styles/ink-wash/demo/main.js",
+      "sha256": "28aa1ced678c3b67d41b367ce8e02bfc84568576a5d84f56e459721a5ef2da98",
+      "bytes": 1992
+    },
+    {
+      "source_path": "styles/ink-wash/demo/voices/words.json",
+      "local_path": "styles/ink-wash/demo/voices/words.json",
+      "sha256": "7b29f1ca23b0b74a848eb5b70b47f22c10456621b6ef883fad0c71aa624550e3",
+      "bytes": 988
+    },
+    {
+      "source_path": "styles/ink-wash/demo/subs.js",
+      "local_path": "styles/ink-wash/demo/subs.js",
+      "sha256": "39aaf1e71063b826f2605db7a105c4a94d34f779b250e569394f555f5a6bbff8",
+      "bytes": 1093
+    },
+    {
+      "source_path": "styles/ink-wash/demo/shots.js",
+      "local_path": "styles/ink-wash/demo/shots.js",
+      "sha256": "768c054801dc962448cfcf5825e00f8930103f6e009addbfcef7132655f5f039",
+      "bytes": 3143
+    },
+    {
+      "source_path": "styles/ink-wash/demo/passage.js",
+      "local_path": "styles/ink-wash/demo/passage.js",
+      "sha256": "1c90a142e4473591815836890469ab5b19d70bf2f5a78edf1d1cb6249108d61b",
+      "bytes": 9206
+    },
+    {
+      "source_path": "styles/ink-wash/demo/seal.js",
+      "local_path": "styles/ink-wash/demo/seal.js",
+      "sha256": "d4f66f324895975a28a02ccad18c93a021d216b0b9365ef306adb7072a1ece98",
+      "bytes": 2150
+    },
+    {
+      "source_path": "styles/ink-wash/demo/test.js",
+      "local_path": "styles/ink-wash/demo/test.js",
+      "sha256": "af1350719d334e5c75504655a3b975c13324d1e7d8c85b825f95e5eb70506c64",
+      "bytes": 3028
+    },
+    {
+      "source_path": "styles/ink-wash/demo/voices/dur.json",
+      "local_path": "styles/ink-wash/demo/voices/dur.json",
+      "sha256": "ae2b327debe0b9626b120076c56459e7eb7a9e917edd341aca06f894058ec10e",
+      "bytes": 72
+    },
+    {
+      "source_path": "styles/ink-wash/demo/world.js",
+      "local_path": "styles/ink-wash/demo/world.js",
+      "sha256": "c58f3846c02227bcf052cc5585e0d16bbb880f0331e0d81d63831c499c0dcff4",
+      "bytes": 9932
+    },
+    {
+      "source_path": "styles/ink-wash/demo/wave.js",
+      "local_path": "styles/ink-wash/demo/wave.js",
+      "sha256": "408faca9dfc67c8fd077b1c25a447d7b49d56319976151457ec1c10e91716397",
+      "bytes": 4235
+    },
+    {
+      "source_path": "styles/ink-wash/style.json",
+      "local_path": "styles/ink-wash/style.json",
+      "sha256": "19fca58eb8e84cecaae62837f88b33e286f4ed8e45942b3395e9a320af172bde",
+      "bytes": 449
+    }
+  ]
+}

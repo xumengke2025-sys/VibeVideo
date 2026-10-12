@@ -1,0 +1,166 @@
+{
+  "kind": "synthetic validation tests, not video acceptance",
+  "cases": [
+    {
+      "case": "complete declared ranges",
+      "passed": true,
+      "validator_accepts": true,
+      "detected": []
+    },
+    {
+      "case": "single missing frame",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "Pass declared with unreviewed frames"
+      ]
+    },
+    {
+      "case": "overlap merges without false gap",
+      "passed": true,
+      "validator_accepts": true,
+      "detected": []
+    },
+    {
+      "case": "stale media hash",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "Review hash does not match current video",
+        "visual_ranges[0]: evidence is not bound to the current media hash",
+        "audio_listened_ranges_seconds[0]: evidence is not bound to the current media hash",
+        "Pass declared with unreviewed frames",
+        "Pass declared without complete actual audio listening coverage"
+      ]
+    },
+    {
+      "case": "audio has small gap",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "Pass declared without complete actual audio listening coverage"
+      ]
+    },
+    {
+      "case": "ASR without listening range",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "Pass declared without complete actual audio listening coverage"
+      ]
+    },
+    {
+      "case": "audio present marked inapplicable",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "Audio track exists; cannot mark hearing not_applicable",
+        "Pass declared without complete actual audio listening coverage"
+      ]
+    },
+    {
+      "case": "unresolved major",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "Pass declared with unresolved blocker/major finding"
+      ]
+    },
+    {
+      "case": "resolved major",
+      "passed": true,
+      "validator_accepts": true,
+      "detected": []
+    },
+    {
+      "case": "out of range frame",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "visual_ranges[0]: invalid or out-of-bounds range",
+        "Pass declared with unreviewed frames"
+      ]
+    },
+    {
+      "case": "missing evidence file",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "visual_ranges[0]: evidence must name existing absolute file paths",
+        "Pass declared with unreviewed frames"
+      ]
+    },
+    {
+      "case": "count mismatch",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "Declared frame count does not match decoded frame count"
+      ]
+    },
+    {
+      "case": "honest incomplete is consistent",
+      "passed": true,
+      "validator_accepts": true,
+      "detected": []
+    },
+    {
+      "case": "silent without brief authorization",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "No audio track: explicit brief-based --allow-silent is required"
+      ]
+    },
+    {
+      "case": "intentional silent",
+      "passed": true,
+      "validator_accepts": true,
+      "detected": []
+    },
+    {
+      "case": "ASR-only falsely declared complete",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "audio_listened_ranges_seconds[0]: ASR/waveform/link/unknown methods cannot count as actual hearing",
+        "Pass declared without complete actual audio listening coverage"
+      ]
+    },
+    {
+      "case": "audio perception unavailable",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "Pass declared without an identified actual audio perception tool"
+      ]
+    },
+    {
+      "case": "old unrelated evidence binding",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "visual_ranges[0]: evidence is not bound to the current media hash",
+        "Pass declared with unreviewed frames"
+      ]
+    },
+    {
+      "case": "changed evidence hash",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "visual_ranges[0]: evidence hashes missing or changed",
+        "Pass declared with unreviewed frames"
+      ]
+    },
+    {
+      "case": "text evidence cannot be hearing",
+      "passed": true,
+      "validator_accepts": false,
+      "detected": [
+        "audio_listened_ranges_seconds[0]: evidence files have the wrong modality",
+        "Pass declared without complete actual audio listening coverage"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "blocked": [],
+  "versions": {
+    "node": "v24.15.0",
+    "chrome": "154.0.8037.98"
+  },
+  "paths": {
+    "CHROME": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "FFMPEG": "D:/ai项目/ai动画/node_modules/@remotion/compositor-win32-x64-msvc/ffmpeg.exe",
+    "PROBE": "D:/ai项目/ai动画/node_modules/@remotion/compositor-win32-x64-msvc/ffprobe.exe"
+  },
+  "status": "complete",
+  "info": {
+    "duration": 20,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "revision": "169",
+    "gpu": "WebKit WebGL"
+  },
+  "recovery": {
+    "initialCheckFailure": "Error: D:/ai项目/ai动画/node_modules/@remotion/compositor-win32-x64-msvc/ffmpeg.exe exited 3165764104 [vost#0:0 @ 00000166f6760680] Automatic encoder selection failed Default encoder for format null (codec wrapped_avframe) is probably disabled. Please choose an encoder manually.\r\n[vost#0:0 @ 00000166f6760680] Error selecting an encoder\r\nError opening output file -.\r\nError opening output files: Encoder not found\r\n\n    at ChildProcess.<anonymous> (file:///D:/ai%E9%A1%B9%E7%9B%AE/ai%E5%8A%A8%E7%94%BB/VibeVideo%E9%A1%B9%E7%9B%AE/work/sand-journey-20261010/render.mjs:13:391)\n    at ChildProcess.emit (node:events:509:28)\n    at ChildProcess._handle.onexit (node:internal/child_process:295:12)",
+    "reason": "Bundled FFmpeg lacks default wrapped_avframe null encoder",
+    "successfulCommand": "ffmpeg -i out-final/sand-journey.mp4 -map 0:v:0 -map 0:a:0 -c:v rawvideo -threads:v 1 -c:a pcm_s16le -f null -",
+    "exitCode": 0
+  },
+  "output": {
+    "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\sand-journey-20261010\\out-final\\sand-journey.mp4",
+    "bytes": 87991290,
+    "sha256": "fee82cbb8d6d9ae5a0af48f2bcca8f7f93da4dc5ee63e849af3d67f16f4815b9",
+    "width": 1080,
+    "height": 1920,
+    "duration": 20,
+    "frames": 600,
+    "fps": "30/1",
+    "video": "h264",
+    "audio": "aac",
+    "fullDecode": true
+  }
+}

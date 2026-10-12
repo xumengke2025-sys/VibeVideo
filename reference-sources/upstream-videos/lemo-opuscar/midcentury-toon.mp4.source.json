@@ -1,0 +1,33 @@
+{
+  "id": "lemo-opuscar/midcentury-toon",
+  "packageId": "lemo-opuscar",
+  "styleId": "midcentury-toon",
+  "title": "Lemo / 世纪中期卡通",
+  "filename": "midcentury-toon.mp4",
+  "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/midcentury-toon.mp4",
+  "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+  "releaseTag": "films",
+  "releaseId": 397205472,
+  "assetId": 598056547,
+  "assetUpdated": "2026-09-29T11:32:26Z",
+  "expectedBytes": 63318063,
+  "expectedSha256": "a73905d12f82a935d75413ef3415e51e5400b0a41dd45a132c2be55f43420ed6",
+  "entry": null,
+  "remoteCode": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/midcentury-toon/STYLE.md",
+  "representation": "author-master",
+  "note": "作者films发布的原始高码率版本；发布附件与本地固定源码的逐像素一致性未确认",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/midcentury-toon.mp4",
+  "status": "downloaded",
+  "bytes": 63318063,
+  "sha256": "a73905d12f82a935d75413ef3415e51e5400b0a41dd45a132c2be55f43420ed6",
+  "verifiedGitBlob": null,
+  "metadata": {
+    "duration": 40,
+    "width": 1920,
+    "height": 1080,
+    "fps": "24/1",
+    "codec": "h264",
+    "audio": true
+  },
+  "downloadedAt": "2026-10-10T03:01:07.758Z"
+}

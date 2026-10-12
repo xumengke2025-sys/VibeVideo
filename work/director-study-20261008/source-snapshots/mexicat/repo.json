@@ -1,0 +1,1722 @@
+{
+  "repo": "mexicat/pdoom-video",
+  "metadata": {
+    "id": 1386391454,
+    "node_id": "R_kgDOUqKnng",
+    "name": "pdoom-video",
+    "full_name": "mexicat/pdoom-video",
+    "private": false,
+    "owner": {
+      "login": "mexicat",
+      "id": 699380,
+      "node_id": "MDQ6VXNlcjY5OTM4MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/699380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mexicat",
+      "html_url": "https://github.com/mexicat",
+      "followers_url": "https://api.github.com/users/mexicat/followers",
+      "following_url": "https://api.github.com/users/mexicat/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mexicat/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mexicat/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mexicat/subscriptions",
+      "organizations_url": "https://api.github.com/users/mexicat/orgs",
+      "repos_url": "https://api.github.com/users/mexicat/repos",
+      "events_url": "https://api.github.com/users/mexicat/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mexicat/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/mexicat/pdoom-video",
+    "description": "Code-rendered music video for \"I'm Upping My P(doom)\"",
+    "fork": false,
+    "url": "https://api.github.com/repos/mexicat/pdoom-video",
+    "forks_url": "https://api.github.com/repos/mexicat/pdoom-video/forks",
+    "keys_url": "https://api.github.com/repos/mexicat/pdoom-video/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/mexicat/pdoom-video/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/mexicat/pdoom-video/teams",
+    "hooks_url": "https://api.github.com/repos/mexicat/pdoom-video/hooks",
+    "issue_events_url": "https://api.github.com/repos/mexicat/pdoom-video/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/mexicat/pdoom-video/events",
+    "assignees_url": "https://api.github.com/repos/mexicat/pdoom-video/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/mexicat/pdoom-video/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/mexicat/pdoom-video/tags",
+    "blobs_url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/mexicat/pdoom-video/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/mexicat/pdoom-video/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/mexicat/pdoom-video/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/mexicat/pdoom-video/languages",
+    "stargazers_url": "https://api.github.com/repos/mexicat/pdoom-video/stargazers",
+    "contributors_url": "https://api.github.com/repos/mexicat/pdoom-video/contributors",
+    "subscribers_url": "https://api.github.com/repos/mexicat/pdoom-video/subscribers",
+    "subscription_url": "https://api.github.com/repos/mexicat/pdoom-video/subscription",
+    "commits_url": "https://api.github.com/repos/mexicat/pdoom-video/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/mexicat/pdoom-video/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/mexicat/pdoom-video/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/mexicat/pdoom-video/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/mexicat/pdoom-video/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/mexicat/pdoom-video/merges",
+    "archive_url": "https://api.github.com/repos/mexicat/pdoom-video/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/mexicat/pdoom-video/downloads",
+    "issues_url": "https://api.github.com/repos/mexicat/pdoom-video/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/mexicat/pdoom-video/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/mexicat/pdoom-video/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/mexicat/pdoom-video/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/mexicat/pdoom-video/labels{/name}",
+    "releases_url": "https://api.github.com/repos/mexicat/pdoom-video/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/mexicat/pdoom-video/deployments",
+    "created_at": "2026-09-24T21:33:53Z",
+    "updated_at": "2026-10-08T13:01:27Z",
+    "pushed_at": "2026-10-05T21:26:25Z",
+    "git_url": "git://github.com/mexicat/pdoom-video.git",
+    "ssh_url": "git@github.com:mexicat/pdoom-video.git",
+    "clone_url": "https://github.com/mexicat/pdoom-video.git",
+    "svn_url": "https://github.com/mexicat/pdoom-video",
+    "homepage": null,
+    "size": 16306,
+    "stargazers_count": 2497,
+    "watchers_count": 2497,
+    "language": "TypeScript",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 273,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 273,
+    "open_issues": 0,
+    "watchers": 2497,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 273,
+    "subscribers_count": 6
+  },
+  "commit": {
+    "sha": "fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+    "node_id": "C_kwDOUqKnntoAKGZhMTY0Yjc0ZmQwYjI2YTk5Mzc1NzE1YjYxOWM1NWI0YTBmYjNkMDU",
+    "commit": {
+      "author": {
+        "name": "Giacomo Magnanini",
+        "email": "gikappa@gmail.com",
+        "date": "2026-10-05T21:24:56Z"
+      },
+      "committer": {
+        "name": "Giacomo Magnanini",
+        "email": "gikappa@gmail.com",
+        "date": "2026-10-05T21:24:56Z"
+      },
+      "message": "Revision 6: burning-line cut into the left turn, no white washes, cleaner type and hatching\n\n- bureau → leftturn: the jagged tear to black is gone. Leftturn's burning critical path now cuts the\n  von Neumann page: the spark glows through the paper from below, comes through on the off-beat,\n  flares on the beat before the cut and zips up the page, which unzips into two charred halves that\n  swing away onto the roadmap, with the line already in place. Bureau renders a real LeftTurn\n  instance under its page (shared map textures, `embedded` flag, `sparkScreen`/`slide`/\n  `renderSpark`), and its post settings ramp into leftturn's, so the cut is seamless. Leftturn's\n  opening is rebuilt around it: a run-in south of YOU ARE HERE (`RUN`, `runIn`), a held camera\n  that picks up the chase, no fade-in from black and no reveal wipe.\n- hook 3: the previous line's last word (\"go\") and its cursor no longer carry over into the\n  hook's pre-roll; it opens on a moment of dark before I'M.\n- White washes removed where they were too evident: \"One E thirty FLOPs a second\" (the Omega\n  Point's cut to the odometer and the 1E30 landing) and loom's twist on \"to recursive\n  self-upgrade\". Those hits are now carried by a zoom punch and colour fringes; the frame keeps\n  its blacks. The other flashes are unchanged.\n- ilya: the lid's top edge no longer crawls as it closes. Its hatching was in world space (so the\n  lines slid across the lid as it turned) and unfiltered on the rounded edges; it's now in\n  lid-local coordinates and limited to the flat back. The moiré in the hatching (keyboard, desk,\n  stage wall and floor) is gone: lines are drawn through an analytic Gaussian pixel filter and\n  fade to their mean before they get finer than ~2.5 px, the line spacing uses the gradient\n  magnitude, and floor seams and key gaps go through the same filter. Less chromatic aberration\n  (0.5) so the fine lines don't fringe. The rewind's ilya plate is re-rendered to match.\n- Type without outlines: \"in your training loss\" (loss) and \"as paperclips fill the room\"\n  (paperclips) lose their ink strokes, and the paperclips line its dark scrim. The clips no\n  longer slide under that line: the camera keeps the group below it during the splits, and the\n  flood fills the line's strip last, as it fades.\n- README: shorter note that the YouTube upload is slightly outdated and that rendering locally\n  gives the latest, best-quality version. TREATMENT: the bureau's new ending.",
+      "tree": {
+        "sha": "1c2ed7634a5a6406b8595a08e3328b05a96fa202",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/1c2ed7634a5a6406b8595a08e3328b05a96fa202"
+      },
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/commits/fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/mexicat/pdoom-video/commits/fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+    "html_url": "https://github.com/mexicat/pdoom-video/commit/fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+    "comments_url": "https://api.github.com/repos/mexicat/pdoom-video/commits/fa164b74fd0b26a99375715b619c55b4a0fb3d05/comments",
+    "author": {
+      "login": "mexicat",
+      "id": 699380,
+      "node_id": "MDQ6VXNlcjY5OTM4MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/699380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mexicat",
+      "html_url": "https://github.com/mexicat",
+      "followers_url": "https://api.github.com/users/mexicat/followers",
+      "following_url": "https://api.github.com/users/mexicat/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mexicat/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mexicat/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mexicat/subscriptions",
+      "organizations_url": "https://api.github.com/users/mexicat/orgs",
+      "repos_url": "https://api.github.com/users/mexicat/repos",
+      "events_url": "https://api.github.com/users/mexicat/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mexicat/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mexicat",
+      "id": 699380,
+      "node_id": "MDQ6VXNlcjY5OTM4MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/699380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mexicat",
+      "html_url": "https://github.com/mexicat",
+      "followers_url": "https://api.github.com/users/mexicat/followers",
+      "following_url": "https://api.github.com/users/mexicat/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mexicat/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mexicat/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mexicat/subscriptions",
+      "organizations_url": "https://api.github.com/users/mexicat/orgs",
+      "repos_url": "https://api.github.com/users/mexicat/repos",
+      "events_url": "https://api.github.com/users/mexicat/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mexicat/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f82c3f0b4f484b13c2ee859c4419906dffd47e48",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/commits/f82c3f0b4f484b13c2ee859c4419906dffd47e48",
+        "html_url": "https://github.com/mexicat/pdoom-video/commit/f82c3f0b4f484b13c2ee859c4419906dffd47e48"
+      }
+    ],
+    "stats": {
+      "total": 649,
+      "additions": 429,
+      "deletions": 220
+    },
+    "files": [
+      {
+        "sha": "b7de7037ebb1d366099dffabb13086fbf6989c8c",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/README.md",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/README.md",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/README.md?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+        "patch": "@@ -4,7 +4,7 @@ A generative, code-rendered music video with word-synced karaoke typography. Eve\n \n **Watch it in 4K on YouTube:** https://www.youtube.com/watch?v=5EoO5413dBY\n \n-The YouTube upload is an earlier render: it averages only 4 sub-frames per frame for motion blur, so fast motion shows stepped copies, and YouTube's compression smears the film grain. For the best version, render it locally (see [Render the video](#render-the-video)): the current code picks up to 324 sub-frames per frame where the motion needs them.\n+The YouTube upload is a slightly outdated render. For the latest and best-quality version, render it locally (see [Render the video](#render-the-video)).\n \n The video was made with Claude (Opus 5.5) in Claude Code: the concept and treatment, the lyric alignment and audio analysis, the renderer, every scene and the renders were all worked out in conversation with Claude.\n "
+      },
+      {
+        "sha": "d10d0db5dcb7f53947dfd9b42489dc801c855c0a",
+        "filename": "app/public/plates/fig14.jpg",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fpublic%2Fplates%2Ffig14.jpg",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fpublic%2Fplates%2Ffig14.jpg",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/app%2Fpublic%2Fplates%2Ffig14.jpg?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05"
+      },
+      {
+        "sha": "7633d1d20010969d109f80acf8106259ab4225f9",
+        "filename": "app/src/scenes/ascent.ts",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 2,
+        "changes": 5,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fascent.ts",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fascent.ts",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/app%2Fsrc%2Fscenes%2Fascent.ts?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+        "patch": "@@ -694,7 +694,7 @@ export default class Ascent extends Scene {\n     c.restore();\n     comp.draw(renderer, L.upload(), out);\n \n-    return { paper: 1 - dark, bloom: 0.8, vignette: 0.45, flash: 0.9 * pulse(t, t1 - 0.03, 0.05) * prog(t, t1 - 0.1, t1), zoom: 1 + 0.02 * bp, ca: 1.2 + 2 * k };\n+    return { paper: 1 - dark, bloom: 0.8, vignette: 0.45, zoom: 1 + 0.02 * bp, ca: 1.2 + 2 * k };\n   }\n \n   // ------------------------------------------------------------------ D: the odometer\n@@ -848,9 +848,10 @@ export default class Ascent extends Scene {\n \n     const sh = pulse(t, tL, 0.07);\n     const intro = pulse(t, t0, 0.06);\n+    // the odometer arrives out of the point: a punch-out from a tight frame, no white-out\n     return {\n       bloom: 0.7, vignette: 0.5, shake: [Math.sin(t * 90) * 18 * sh, Math.cos(t * 70) * 12 * sh],\n-      ca: 1.2 + 3 * sh, flash: 0.12 * sh + 0.3 * intro,\n+      ca: 1.2 + 3 * sh + 4 * intro, zoom: 1 + 0.05 * intro + 0.02 * sh,\n     };\n   }\n }"
+      },
+      {
+        "sha": "e407db2dc4d88117bdbad12d946ac2f77d671a46",
+        "filename": "app/src/scenes/bureau.ts",
+        "status": "modified",
+        "additions": 197,
+        "deletions": 99,
+        "changes": 296,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fbureau.ts",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fbureau.ts",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/app%2Fsrc%2Fscenes%2Fbureau.ts?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+        "patch": "@@ -3,14 +3,18 @@\n //   A. Form 7-B (safety evaluation): the lyric is typewritten into the fields; SAFE ENOUGH stamp slams on \"reckoned\".\n //   B. Annex B (MLP schematic): the pulse sweeps forward on \"Forward M-L-P\", back on \"backward\" (typeset mirrored,\n //      right to left), and \"repeat\" stutters the last beat x3 (the annex is re-rendered at remapped time).\n-//   C. Appendix C (the von Neumann architecture, a textbook figure): struck through in orange marker on \"obsolete\",\n-//      then the page tears in two and falls away to black.\n+//   C. Appendix C (the von Neumann architecture, a textbook figure): struck through in orange marker on \"obsolete\".\n+//      The hand-off: the next plate's spark comes up its critical path under the page (its light shows through),\n+//      bursts through on the beat before the cut and burns the page in two as the camera picks up its chase;\n+//      the halves swing open onto that plate, which is rendered here under the page, line and spark in place.\n // Rendering: all ink is drawn on one Canvas2D layer as channel-coded coverage (R = typewriter/pen ink,\n // G = printed ink, B = orange ink), composited onto procedural paper by a shader (fibres, ink grain, stamp texture),\n-// then a tear pass cuts the page into pieces.\n+// then a burn pass cuts the page along the spark's path and composites the halves over the next plate.\n import * as THREE from 'three';\n import { Scene, type Frame, type PostOverrides } from '../engine/scene';\n import { FSPass, Layer2D, W, H, makeRT } from '../engine/gl';\n+import { DEFAULT_POST, type PostParams } from '../engine/post';\n+import LeftTurn from './leftturn';\n import { type Line, type Word, norm } from '../engine/lyrics';\n import { F, font, measure, layout, glyphX } from '../engine/type';\n import { strokeText, drawStrokeText, type StrokeText } from '../engine/stroke';\n@@ -29,6 +33,14 @@ const ORANGE = (a = 1) => `rgba(0,0,255,${a})`;\n const A = { x: 0, y: 0 };\n const B = { x: 0, y: 1500 };\n const C = { x: 0, y: 3000 };\n+/** The appendix sheet's top edge (relative to C), seen only in the hand-off. */\n+const SHEET_TOP = -625;\n+/**\n+ * The hand-off: how much faster than the next plate's drawing the page slides in the chase (it lies nearer\n+ * the camera), how far the halves peel up behind the spark while the page still holds (rad), and over what\n+ * length (px).\n+ */\n+const HANDOFF = { slideK: 1.25, wake: 0.5, wakeLen: 700 };\n \n const PAPER_FRAG = /* glsl */ `\n uniform sampler2D inkTex;\n@@ -37,6 +49,7 @@ uniform vec2 blurV;                        // motion blur (screen px)\n uniform vec4 st0; uniform vec4 st0b;       // stamp 0: centre.xy, half.xy | angle, strength, seed, -\n uniform vec4 st1; uniform vec4 st1b;\n uniform float zoom;\n+uniform float sheetTop;                    // page y of the appendix sheet's top edge (in the hand-off only)\n \n float fibres(vec2 p, float cs) {\n   float acc = 0.0;\n@@ -136,54 +149,103 @@ void main() {\n   // slight vignette on the sheet\n   vec2 dc = vUv - 0.5;\n   col *= 1.0 - 0.16 * pow(length(dc * vec2(1.0, 0.85)) * 1.5, 2.6);\n-  fragColor = vec4(col, 1.0);\n+  // in the hand-off the appendix is a sheet of its own, lying on the next plate's drawing: its top edge was\n+  // torn off at the perforation (the bridges between the slots stand proud) and slides into view in the chase\n+  float sheet = 1.0;\n+  if (sheetTop > -1e8) {\n+    float f = fract((pp.x + 1400.0) / 18.0);\n+    float edge = sheetTop - 2.2 * smoothstep(0.42, 0.5, f) * smoothstep(1.0, 0.92, f) - 0.5 * snoise(vec2(pp.x * 0.35, 4.0));\n+    float w = 0.7 / (zoom * PX_SCALE);\n+    sheet = smoothstep(edge - w, edge + w, pp.y);\n+  }\n+  fragColor = vec4(col, sheet);\n }`;\n \n \n-const TEAR_FRAG = /* glsl */ `\n+const BURN_FRAG = /* glsl */ `\n uniform sampler2D page;\n-uniform vec3 inv0a; uniform vec3 inv0b;   // piece 0: screen -> original screen\n-uniform vec3 inv1a; uniform vec3 inv1b;\n-uniform float tear;        // 0 = intact\n-uniform float tipY;        // how far down the rip has propagated (original px)\n-uniform vec2 shade;        // per-piece light multiplier\n-uniform float blackout;\n-\n-float tearX(float y) {\n-  return 1000.0 + (y - 540.0) * -0.26 + 52.0 * snoise(vec2(y * 0.0032, 3.1)) + 16.0 * snoise(vec2(y * 0.017, 7.7)) + 4.0 * snoise(vec2(y * 0.07, 1.3));\n-}\n-vec4 piece(vec2 sp, vec3 ia, vec3 ib, float side, float sh) {\n-  vec2 q = vec2(dot(ia, vec3(sp, 1.0)), dot(ib, vec3(sp, 1.0)));\n-  if (q.x < -2.0 || q.x > 1922.0 || q.y < -2.0 || q.y > 1082.0) return vec4(0.0);\n-  float torn = q.y < tipY ? 1.0 : 0.0;\n-  float d = (q.x - tearX(q.y)) * side;     // >0 : inside this piece's half\n-  // fibrous fuzz along the torn edge (each side has its own fibres)\n-  float fuzz = 1.6 * snoise(vec2(q.y * 0.45, side * 5.0)) + 1.2 * snoise(vec2(q.y * 1.7, side * 9.0));\n-  fuzz += 5.0 * pow(sat(snoise(vec2(q.y * 0.9, side * 13.0))), 6.0); // stray fibres\n-  float edge = d + fuzz * torn;\n-  float inside = torn > 0.5 ? smoothstep(-0.7, 0.7, edge) : 1.0;\n-  // outer frame edge (the page border when it moves)\n-  float bx = min(min(q.x, 1920.0 - q.x), min(q.y, 1080.0 - q.y));\n-  inside *= smoothstep(-0.7, 0.7, bx);\n-  if (inside <= 0.0 || (torn < 0.5 && d < 0.0)) return vec4(0.0);\n-  vec3 c = texture(page, vec2(q.x / 1920.0, 1.0 - q.y / 1080.0)).rgb * sh;\n-  // exposed white fibre band along the tear (wider, irregular on one side)\n-  float bw = (side > 0.0 ? 5.5 : 2.2) * (0.6 + 0.8 * sat(0.5 + 0.5 * snoise(vec2(q.y * 0.05, side))));\n-  float band = (1.0 - smoothstep(0.0, bw, edge)) * torn;\n-  c = mix(c, C_BONE * 1.03, band * 0.9);\n-  // a little shading just inside the torn edge\n-  c *= 1.0 - 0.12 * (1.0 - smoothstep(bw, bw + 5.0, edge)) * torn;\n-  return vec4(c, inside);\n+uniform float on;          // 0: the page as it is (opaque); 1: the hand-off, composited over the next plate\n+uniform float lineX;       // screen x of the next plate's critical path, where its spark runs\n+uniform float slide;       // how far the page has slid down the screen in the chase (px)\n+uniform float front;       // the burn front, in page coordinates (screen y before the slide)\n+uniform vec2 spark;        // the spark head on screen\n+uniform float open;        // the halves' swing (rad) once the page is in two\n+uniform float wake;        // their lift behind the spark while the page still holds (rad)\n+uniform float wakeLen;     // over what length behind it (px)\n+uniform float glow;        // its light through the page, faded in from the start of the hand-off (0..1)\n+uniform float flare;       // the flash of light as it flares up through the page (0..1)\n+uniform float time;\n+\n+const float CAMD = 2200.0;   // camera distance (px): the halves' perspective as they swing up\n+const float HINGE = 1250.0;  // the sheet's outer edges, off frame: each half swings about its own\n+\n+// One half of the page (side -1: left, 1: right) seen at screen px sp: colour + coverage.\n+vec4 pageHalf(vec2 sp, float side) {\n+  // the half is a plane hinged on the vertical through h, swung up toward the camera by th (which grows\n+  // behind the spark while the page holds together): find the page point under this pixel\n+  float h = lineX + side * HINGE;\n+  float yf = sp.y, u = 0.0, th = 0.0, z = 0.0;\n+  for (int i = 0; i < 5; i++) {\n+    th = open + wake * smoothstep(0.0, wakeLen, yf - slide - front);\n+    float den = side * CAMD * cos(th) - (sp.x - 960.0) * sin(th);\n+    u = CAMD * (h - sp.x) / den;\n+    z = u * sin(th);\n+    yf = 540.0 + (sp.y - 540.0) * (CAMD - z) / CAMD;\n+  }\n+  float xf = h - side * u;\n+  if (u < 0.0 || z > CAMD * 0.85 || side * (xf - lineX) < 0.0) return vec4(0.0);\n+  vec4 pg = texture(page, vec2(xf / 1920.0, 1.0 - yf / 1080.0));\n+  vec2 q = vec2(xf, yf - slide);           // page coordinates\n+  float r = abs(xf - lineX), dist = q.y - front, back = max(dist, 0.0);\n+\n+  // the burnt gap: a pointed tip at the spark, burning back behind it, ragged\n+  float rag = 1.5 * snoise(vec2(q.y * 0.045, side * 3.1)) + 0.7 * snoise(vec2(q.y * 0.21, side * 7.3));\n+  // (less a px, so that ahead of the tip, where it is 0, the page is whole)\n+  float hw = dist < 0.0 ? 5.0 * sqrt(max(0.0, 1.0 - dist * dist / 81.0)) : 5.0 + 11.0 * (1.0 - exp(-back / 180.0));\n+  hw += rag * smoothstep(0.0, 50.0, back) * (1.0 + back / 400.0) - 1.0;\n+  float e = r - hw;                         // px into the paper from the burnt edge\n+  float cover = smoothstep(-0.7 / PX_SCALE, 0.7 / PX_SCALE, e) * pg.a;\n+  if (cover <= 0.0) return vec4(0.0);\n+  vec3 col = pg.rgb;\n+\n+  // the edge cools behind the spark, like the trail it rides\n+  float heat = exp(-back / 300.0) * smoothstep(-12.0, 0.0, dist);\n+  // scorch: browned paper, wider further back, and a bow wave just ahead of the tip\n+  float sw = 5.0 + 18.0 * (1.0 - exp(-back / 260.0));\n+  float sc = exp(-max(e, 0.0) / sw) * smoothstep(-30.0, 5.0, dist);\n+  sc = max(sc, exp(-r / 12.0) * exp(min(dist, 0.0) / 20.0));\n+  col *= mix(vec3(1.0), vec3(0.58, 0.40, 0.27), sat(sc) * 0.95);\n+  // char: a crumbly black band along the edge\n+  float cw = 1.6 + 3.4 * (1.0 - exp(-back / 220.0));\n+  float ch = (1.0 - smoothstep(0.0, cw, e + 0.8 * snoise(vec2(q.y * 0.6, side * 5.0)))) * smoothstep(-9.0, -3.0, dist);\n+  col = mix(col, C_INK * 0.4, ch);\n+  // the glowing rim: white-hot at the tip, signal, blood, out\n+  float rim = exp(-max(e, 0.0) / 1.2);\n+  float flick = 0.6 + 0.4 * snoise(vec2(q.y * 0.07 + side * 11.0, time * 6.0));\n+  vec3 rc = mix(C_BLOOD * 0.8, C_SIGNAL * 1.6, smoothstep(0.05, 0.4, heat));\n+  rc = mix(rc, C_EMBER * 3.2, smoothstep(0.6, 1.0, heat));\n+  col += rc * rim * smoothstep(0.02, 0.12, heat) * flick;\n+\n+  // the spark's light: through the paper while it is still underneath (the ink stops it), on the paper\n+  // around the hole\n+  float d = length(sp - spark);\n+  float ahead = smoothstep(-2.0, -30.0, dist);\n+  float clear = sat(luma(pg.rgb) / luma(C_BONE)) * (1.0 - ch);\n+  float fl = 1.0 + 1.5 * flare;\n+  col += C_SIGNAL * (0.9 * exp(-d / 80.0) + 0.3 * exp(-d / (260.0 * fl))) * fl * ahead * clear * glow;\n+  col *= 1.0 + C_EMBER * (1.4 * exp(-d / 30.0) + 0.25 * exp(-d / (120.0 * fl))) * fl * (1.0 - ahead);\n+\n+  // the half turns away from the raking light (from the upper left) as it swings up\n+  col *= clamp(mix(1.0, cos(th) - 0.5 * side * sin(th), 0.85), 0.15, 1.2);\n+  return vec4(col, cover);\n }\n+\n void main() {\n   vec2 sp = vec2(vUv.x * 1920.0, (1.0 - vUv.y) * 1080.0);\n-  if (tear <= 0.0) { fragColor = vec4(texture(page, vUv).rgb * (1.0 - blackout), 1.0); return; }\n-  vec3 col = C_INK * 0.45;\n-  vec4 a = piece(sp, inv0a, inv0b, -1.0, shade.x);\n-  col = mix(col, a.rgb, a.a);\n-  vec4 b = piece(sp, inv1a, inv1b, 1.0, shade.y);\n-  col = mix(col, b.rgb, b.a);\n-  fragColor = vec4(col * (1.0 - blackout), 1.0);\n+  if (on < 0.5) { fragColor = vec4(texture(page, vUv).rgb, 1.0); return; }\n+  vec4 a = pageHalf(sp, -1.0), b = pageHalf(sp, 1.0);\n+  float al = a.a + b.a;\n+  fragColor = vec4((a.rgb * a.a + b.rgb * b.a) / max(al, 1e-4), sat(al));\n }`;\n \n type Xf = { a: number; b: number; c: number; d: number; e: number; f: number };\n@@ -212,14 +274,15 @@ export default class Bureau extends Scene {\n     inkTex: { value: null }, camA: { value: new THREE.Vector3() }, camB: { value: new THREE.Vector3() },\n     blurV: { value: new THREE.Vector2() }, zoom: { value: 1 },\n     st0: { value: new THREE.Vector4() }, st0b: { value: new THREE.Vector4() },\n-    st1: { value: new THREE.Vector4() }, st1b: { value: new THREE.Vector4() },\n-  });\n-  tearPass = new FSPass(TEAR_FRAG, {\n-    page: { value: null }, inv0a: { value: new THREE.Vector3(1, 0, 0) }, inv0b: { value: new THREE.Vector3(0, 1, 0) },\n-    inv1a: { value: new THREE.Vector3(1, 0, 0) }, inv1b: { value: new THREE.Vector3(0, 1, 0) },\n-    tear: { value: 0 }, tipY: { value: 0 }, shade: { value: new THREE.Vector2(1, 1) }, blackout: { value: 0 },\n+    st1: { value: new THREE.Vector4() }, st1b: { value: new THREE.Vector4() }, sheetTop: { value: -1e9 },\n   });\n+  burnPass = new FSPass(BURN_FRAG, {\n+    page: { value: null }, on: { value: 0 }, lineX: { value: W / 2 }, slide: { value: 0 }, front: { value: 1e4 },\n+    spark: { value: new THREE.Vector2() }, open: { value: 0 }, wake: { value: 0 }, wakeLen: { value: 1 }, glow: { value: 0 }, flare: { value: 0 }, time: { value: 0 },\n+  }, { blending: THREE.NormalBlending, transparent: true });\n   pdoom!: PDoom;\n+  /** The next plate, rendered here under the last page for the hand-off. */\n+  next!: LeftTurn;\n \n   // lyric anchors\n   L1!: Line; L2!: Line; L3!: Line;\n@@ -231,7 +294,11 @@ export default class Bureau extends Scene {\n \n   // key times\n   T0 = 0; tCR = 0; tStamp = 0; tSig = 0; tFiled = 0; tWhipB = 0; tFwd = 0; tBack0 = 0; tBack1 = 0; tRep0 = 0; tRep1 = 0;\n-  tNow = 0; tReveal = 0; tPunch = 0; tObs = 0; tStrike2 = 0; tTear = 0; tEnd = 0;\n+  tNow = 0; tReveal = 0; tPunch = 0; tObs = 0; tStrike2 = 0; tEnd = 0;\n+  // the hand-off: the spark's light shows through (tGlow), it bursts through (tBurst), the page is in two (tFree)\n+  tGlow = 0; tBurst = 0; tFree = 0;\n+  /** The sheet's top edge in page coordinates (the screen before the slide). */\n+  qTop = 0;\n \n   findings: TypeChar[] = [];\n   conclusion: TypeChar[] = [];\n@@ -287,7 +354,6 @@ export default class Bureau extends Scene {\n     this.tNow = Math.min(this.wNow.start, this.L3.start);\n     this.tObs = this.wObs.start;\n     this.tStrike2 = this.tObs + Math.min(0.22, this.beatLen * 0.5);\n-    this.tTear = clamp(nextDown(this.tObs + 0.3), this.tObs + 0.3, this.tEnd - 0.4);\n     this.tReveal = au.downbeats.find((d) => d > this.wVon.end - 0.15 && d < this.tObs - 0.6) ?? lerp(this.wNeu.start, this.tObs, 0.2);\n     this.tPunch = nearestBeat(lerp(this.tReveal, this.tObs, 0.5));\n \n@@ -326,15 +392,36 @@ export default class Bureau extends Scene {\n \n     this.sig = strokeText('We', 'script', 120);\n     this.obsHand = strokeText('obsolete', 'hscript', 124, 1);\n-    // hand-writing of \"obsolete\": starts with the word and must be done before the tear\n-    const wEnd = Math.min(this.wObs.end, this.tTear + 0.02);\n+    // the next plate, under the last page: its window as the timeline cuts it (on the beat at/before \"Gato\")\n+    const gato = lyrics.get('Gato').words[0]!.start;\n+    this.next = new LeftTurn({ ...this.ctx, id: 'leftturn', params: {}, start: this.ctx.end, end: au.timeOfBeat(Math.floor(au.beatAt(gato + 0.02))) });\n+    this.next.embedded = true;\n+    await this.next.init();\n+    this.tBurst = this.next.T.burst;\n+    this.tGlow = this.tBurst - this.beatLen;\n+\n+    // hand-writing of \"obsolete\": starts with the word and must be done before the burst\n+    const wEnd = Math.min(this.wObs.end, this.tBurst - 0.12);\n     const n = this.obsHand.charRange.length;\n     this.obsCharTimes = Array.from({ length: n }, (_, i) => [lerp(this.tObs + 0.03, wEnd, i / n), lerp(this.tObs + 0.03, wEnd, (i + 1) / n)] as [number, number]);\n \n     // ---- MLP geometry (relative to B)\n     const counts = [4, 6, 6, 3];\n     const xs = [-600, -200, 200, 600];\n     this.layers = counts.map((n, i) => ({ x: xs[i]!, ys: Array.from({ length: n }, (_, j) => (j - (n - 1) / 2) * 78) }));\n+\n+    // ---- the hand-off: the page is in two once the burn front has passed the sheet's top edge (just off the\n+    // top of the frame where the camera stopped)\n+    const m0 = camXf(this.camAt(this.tGlow));\n+    this.qTop = apply(m0, apply(invXf(m0), W / 2, 0).x, C.y + SHEET_TOP).y;\n+    let lo = this.tBurst, hi = this.tEnd;\n+    for (let i = 0; i < 30; i++) { const mid = (lo + hi) / 2; if (this.frontAt(mid) > this.qTop) lo = mid; else hi = mid; }\n+    this.tFree = hi;\n+  }\n+\n+  /** The burn front in page coordinates: the spark's height on screen, less the page's slide. */\n+  frontAt(t: number) {\n+    return this.next.sparkScreen(t).y - HANDOFF.slideK * this.next.slide(t);\n   }\n \n   // ------------------------------------------------------------------ timing helpers\n@@ -355,7 +442,6 @@ export default class Bureau extends Scene {\n     amp += 30 * pulse(t, this.tStamp, 0.07);\n     amp += 11 * pulse(t, this.tFiled, 0.06);\n     amp += 14 * pulse(t, this.tObs, 0.06) + 9 * pulse(t, this.tStrike2, 0.06);\n-    amp += 6 * pulse(t, this.tTear, 0.08);\n     for (const s of this.syl) amp += 5 * pulse(t, s[0], 0.05);\n     if (t >= this.tRep0 && t < this.tRep1 + 0.2) {\n       const seg = (this.tRep1 - this.tRep0) / 3;\n@@ -440,7 +526,8 @@ export default class Bureau extends Scene {\n     let cam = lerpCam(tight, wide, k);\n     const punch: Cam = { x: C.x + 10, y: C.y - 20, z: 0.99, r: -0.004 };\n     cam = lerpCam(cam, punch, prog(t, this.tPunch - 0.03, this.tPunch + 0.25, ease.outExpo));\n-    cam.z *= 1 + 0.03 * prog(t, this.tPunch, this.tTear, ease.linear);\n+    // a slow creep in (3 % a second), held through the hand-off\n+    cam.z *= 1 + 0.031 * clamp(Math.min(t, this.tGlow) - this.tPunch, 0, 2);\n     cam.z *= 1 + 0.04 * pulse(t, this.tObs, 0.08) + 0.03 * pulse(t, this.tStrike2, 0.08);\n     return cam;\n   }\n@@ -449,16 +536,23 @@ export default class Bureau extends Scene {\n   render(f: Frame, out: THREE.WebGLRenderTarget): PostOverrides {\n     const { renderer } = this.ctx;\n     const t = f.t;\n+    // the hand-off: from the first light under the page, the next plate is rendered here, under it\n+    const hand = t >= this.tGlow;\n+    const nextPost = hand ? this.next.render(f, out) ?? {} : {};\n     const cam = this.camAt(t);\n     cam.z *= 1 + 0.05 * pulse(t, this.tStamp, 0.09) + 0.018 * pulse(t, this.tFiled, 0.07);\n     const [shx, shy] = this.shake(t);\n     const m = camXf(cam, shx, shy);\n+    // in the chase the page slides down with the drawing under it\n+    const slide = hand ? HANDOFF.slideK * this.next.slide(t) : 0;\n+    m.f += slide;\n     const im = invXf(m);\n \n-    // motion blur: centre displacement over one frame, only on whips / carriage return (never across cuts)\n+    // motion blur: centre displacement over one frame, only on whips / carriage return (never across cuts;\n+    // the chase is blurred by the sub-frames)\n     let bl: [number, number] = [0, 0];\n     const dtb = 1 / 60;\n-    if (!this.cutBetween(t - dtb, t)) {\n+    if (!hand && !this.cutBetween(t - dtb, t)) {\n       const m2 = camXf(this.camAt(t - dtb));\n       const pc = apply(im, W / 2 + shx, H / 2 + shy);\n       const q = apply(m2, pc.x, pc.y);\n@@ -477,11 +571,11 @@ export default class Bureau extends Scene {\n     const view = this.viewRect(im);\n     if (view.y0 < A.y + 800 && view.y1 > A.y - 800) this.drawForm(c, t);\n     if (view.y0 < A.y + 800 && view.y1 > A.y + 700) this.drawPerforation(c, A.y + 760);\n-    if (view.y0 < B.y + 800 && view.y1 > B.y - 800) {\n+    if (!hand && view.y0 < B.y + 800 && view.y1 > B.y - 800) {\n       const rb = this.remapB(t);\n       this.drawAnnex(c, rb.tr, t, rb.loop);\n     }\n-    if (view.y0 < B.y + 800 && view.y1 > B.y + 700) this.drawPerforation(c, B.y + 760);\n+    if (!hand && view.y0 < B.y + 800 && view.y1 > B.y + 700) this.drawPerforation(c, B.y + 760);\n     if (view.y0 < C.y + 800 && view.y1 > C.y - 800) this.drawAppendix(c, t);\n     c.setTransform(1, 0, 0, 1, 0, 0);\n     c.globalCompositeOperation = 'source-over';\n@@ -493,53 +587,44 @@ export default class Bureau extends Scene {\n     (P.camB!.value as THREE.Vector3).set(im.b, im.d, im.f);\n     (P.blurV!.value as THREE.Vector2).set(bl[0], bl[1]);\n     P.zoom!.value = cam.z;\n+    P.sheetTop!.value = hand ? C.y + SHEET_TOP : -1e9;\n     const sA = this.stampSafe(t), sF = this.stampFiled(t);\n     (P.st0!.value as THREE.Vector4).set(sA.x, sA.y, sA.hw * 1.12, sA.hh * 1.12);\n     (P.st0b!.value as THREE.Vector4).set(sA.rot, sA.on ? sA.strength : 0, 3.7, 0);\n     (P.st1!.value as THREE.Vector4).set(sF.x, sF.y, sF.hw * 1.12, sF.hh * 1.12);\n     (P.st1b!.value as THREE.Vector4).set(sF.rot, sF.on ? 1.0 : 0, 9.1, 0);\n     this.paper.render(renderer, this.pageRT);\n \n-    // ---- tear\n-    const T = this.tearPass.u;\n-    T.page!.value = this.pageRT.texture;\n-    const tt = t - this.tTear;\n-    // the engine HUD (FIG caption, crop marks) is printed in ink while the page is up (paper: 1); it\n-    // blinks off as the page rips and comes back in bone over the black\n-    let hudA = 1, paperA = 1;\n-    if (tt > 0) {\n-      const rip = prog(tt, 0, 0.13, ease.outQuad);\n-      const fall = Math.max(0, tt - 0.1);\n-      const cx = 1000;\n-      const pieceXf = (side: number) => {\n-        // hinge about the rip tip while tearing, then tumble away from camera\n-        const hinge = 0.06 * rip * side;\n-        const sc = 1 / (1 + fall * 1.9 + fall * fall * 3);\n-        const ang = hinge + side * (fall * 1.6 + fall * fall * 5);\n-        const pivot = { x: cx + side * 30, y: lerp(0, 1080, rip) };\n-        const off = { x: side * (40 * rip + 1400 * fall * fall), y: 2600 * fall * fall + 150 * fall };\n-        const cs = Math.cos(ang) * sc, sn = Math.sin(ang) * sc;\n-        const fw = { a: cs, b: sn, c: -sn, d: cs, e: pivot.x + off.x - (cs * pivot.x - sn * pivot.y), f: pivot.y + off.y - (sn * pivot.x + cs * pivot.y) };\n-        return invXf(fw);\n-      };\n-      const i0 = pieceXf(-1), i1 = pieceXf(1);\n-      (T.inv0a!.value as THREE.Vector3).set(i0.a, i0.c, i0.e);\n-      (T.inv0b!.value as THREE.Vector3).set(i0.b, i0.d, i0.f);\n-      (T.inv1a!.value as THREE.Vector3).set(i1.a, i1.c, i1.e);\n-      (T.inv1b!.value as THREE.Vector3).set(i1.b, i1.d, i1.f);\n-      T.tear!.value = 1;\n-      T.tipY!.value = lerp(-20, 1120, rip);\n-      (T.shade!.value as THREE.Vector2).set(1 - 0.4 * clamp(fall * 3), 1 - 0.3 * clamp(fall * 3));\n-      T.blackout!.value = prog(t, this.tEnd - 0.04, this.tEnd, ease.linear);\n-      hudA = tt < 0.1 ? 1 - prog(tt, 0, 0.06) : prog(tt, 0.12, 0.35, ease.inOutCubic);\n-      paperA = tt < 0.1 ? 1 : 0;\n-    } else {\n-      T.tear!.value = 0;\n-      T.blackout!.value = 0;\n+    // ---- the page (in the hand-off: burnt in two along the spark's path, over the next plate)\n+    const U = this.burnPass.u;\n+    U.page!.value = this.pageRT.texture;\n+    U.on!.value = hand ? 1 : 0;\n+    if (hand) {\n+      const sp = this.next.sparkScreen(t);\n+      U.lineX!.value = sp.x;\n+      U.slide!.value = slide;\n+      U.front!.value = sp.y - slide;\n+      (U.spark!.value as THREE.Vector2).set(sp.x, sp.y);\n+      U.open!.value = 1.35 * ease.inQuad(prog(t, this.tFree, this.tEnd - 0.01));\n+      U.wake!.value = HANDOFF.wake;\n+      U.wakeLen!.value = HANDOFF.wakeLen;\n+      U.glow!.value = prog(t, this.tGlow, this.tGlow + 0.25, ease.inQuad);\n+      U.flare!.value = pulse(t, this.tBurst, 0.07);\n+      U.time!.value = t;\n     }\n-    this.tearPass.render(renderer, out);\n-\n-    return { hud: hudA, paper: paperA, bloom: 0.2, bloomThreshold: 1.8, halation: 0.04, vignette: 0.18, grain: 0.045, ca: 0.5 };\n+    this.burnPass.render(renderer, out);\n+\n+    const own: PostOverrides = { hud: 1, paper: 1, bloom: 0.2, bloomThreshold: 1.8, halation: 0.04, vignette: 0.18, grain: 0.045, ca: 0.5 };\n+    if (!hand) return own;\n+    // the spark, over the page: through the hole it burns, then over the next plate's line as the halves part\n+    this.next.renderSpark(out, t);\n+    // the post goes over to the next plate's as the page swings away, exactly by the cut\n+    const k = prog(t, this.tFree - 0.05, this.tEnd - 0.03, ease.inOutQuad);\n+    const post = mixPost(own, nextPost, k);\n+    const kick = (6 * pulse(t, this.tBurst, 0.05) + 5 * pulse(t, this.tFree, 0.05)) * (1 - k);\n+    const ph = frameIdx(t);\n+    post.shake = [post.shake![0] + kick * (hash(ph, 21) - 0.5) * 2, post.shake![1] + kick * (hash(ph, 22) - 0.5) * 2];\n+    return post;\n   }\n \n   viewRect(im: Xf) {\n@@ -1094,6 +1179,19 @@ export default class Bureau extends Scene {\n   }\n }\n \n+/** Post overrides blended from a to b by k (a key one side leaves out is the engine default there). */\n+function mixPost(a: PostOverrides, b: PostOverrides, k: number): PostOverrides {\n+  const out: Record<string, unknown> = {};\n+  for (const key of new Set([...Object.keys(a), ...Object.keys(b)]) as Set<keyof PostParams>) {\n+    const x = a[key] ?? DEFAULT_POST[key], y = b[key] ?? DEFAULT_POST[key];\n+    if (typeof x === 'number' && typeof y === 'number') out[key] = lerp(x, y, k);\n+    else if (Array.isArray(x) && Array.isArray(y)) out[key] = [lerp(x[0], y[0], k), lerp(x[1], y[1], k)];\n+    else out[key] = k < 0.5 ? x : y;\n+  }\n+  out.shake ??= [0, 0];\n+  return out as PostOverrides;\n+}\n+\n /** Written length of a StrokeText with explicit per-char [start, end] times. */\n function writtenLen(st: StrokeText, charTimes: [number, number][], t: number) {\n   let len = 0;"
+      },
+      {
+        "sha": "4afb052b1dab6ff3120eb079187b5e55f950676f",
+        "filename": "app/src/scenes/hook.ts",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 16,
+        "changes": 17,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fhook.ts",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fhook.ts",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/app%2Fsrc%2Fscenes%2Fhook.ts?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+        "patch": "@@ -13,7 +13,7 @@ import type * as THREE from 'three';\n import { Scene, type Frame, type PostOverrides } from '../engine/scene';\n import { FSPass, Layer2D, W, H } from '../engine/gl';\n import { HEX, rgba } from '../engine/palette';\n-import { F, font, measure, layout, plain, type TextLayout } from '../engine/type';\n+import { F, font, measure, layout, type TextLayout } from '../engine/type';\n import { PDoom, formatPDoom } from '../engine/hud';\n import type { Word } from '../engine/lyrics';\n import { clamp, ease, hash, lerp, noise1, prog, pulse, smoothstep, frameIdx } from '../engine/util';\n@@ -58,7 +58,6 @@ export default class Hook extends Scene {\n   /** P( and DOOM sung; the instrument's entrance; its roll; the exit window; hook 1's P(DOOM) burst. */\n   tP = 0; tDoom = 0; tNum = 0; tRoll0 = 0; tRoll1 = 0; tX0 = 0; tX1 = 0; tSlam = 0;\n   dPrev = 0; dNew = 0;\n-  prevWord = '';\n   lw = 1; // hairline width multiplier (kept constant under the exit transforms)\n   f = {\n     im: F.archivo(100, 900), up: F.archivo(125, 900), my: F.archivo(62, 900), doom: F.archivo(100, 900),\n@@ -75,8 +74,6 @@ export default class Hook extends Scene {\n     this.pd = new PDoom(lyrics);\n     const line = lyrics.linesIn(start - 0.3, end).find((l) => /upping/i.test(l.text)) ?? lyrics.linesIn(start, end)[0]!;\n     this.words = line.words.slice(0, 4);\n-    const prev = lyrics.lines[line.i - 1];\n-    this.prevWord = prev ? plain(prev.words[prev.words.length - 1]!.w) : ''; // typed (mono): typewriter quotes\n     this.ws = this.words.map((w) => w.start);\n     const wP = this.words[3] ?? this.words[this.words.length - 1]!;\n     this.tP = wP.start;\n@@ -199,18 +196,6 @@ export default class Hook extends Scene {\n \n   // ------------------------------------------------------------------ words\n   private drawPre(c: CanvasRenderingContext2D, t: number, ink: Col) {\n-    if (this.n === 3) {\n-      // the breakdown: the cursor is still holding on to the last letter, alone in the dark\n-      const a = 1 - smoothstep(this.ws[0]! - 0.12, this.ws[0]!, t);\n-      const size = 40, adv = size * PADV;\n-      const w = this.prevWord.length * adv;\n-      c.font = font(this.f.mono, size);\n-      c.fillStyle = rgba('bone', 0.8 * a);\n-      c.fillText(this.prevWord, W / 2 - w / 2, H / 2 + size * 0.35);\n-      c.fillStyle = rgba('signal', a);\n-      c.fillRect(W / 2 + w / 2 + 3, H / 2 + size * 0.35 - size * 0.78, 3, size * 0.9);\n-      return;\n-    }\n     const k = ease.outExpo(prog(t, this.ctx.start, this.ws[0]!));\n     c.fillStyle = rgba(ink, 0.3);\n     c.fillRect(W / 2 - 400 * k, H / 2, 800 * k, 1);"
+      },
+      {
+        "sha": "ae3240d27d404e14508558cb75211856489e8b45",
+        "filename": "app/src/scenes/ilya-glsl.ts",
+        "status": "modified",
+        "additions": 52,
+        "deletions": 25,
+        "changes": 77,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Filya-glsl.ts",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Filya-glsl.ts",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/app%2Fsrc%2Fscenes%2Filya-glsl.ts?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+        "patch": "@@ -259,33 +259,48 @@ vec3 lightAt(vec3 p, vec3 n) {\n }\n \n // ------------------------------------------------------------------ engraving\n-float hatchW(float u, float cov, float fw) {\n-  // box-filtered coverage of a line of half-width hw (line units) by a footprint of half-width aa\n-  float d = 0.5 - abs(fract(u) - 0.5);           // distance to the nearest line\n-  float hw = 0.5 * clamp(cov, 0.0, 1.0);\n-  float aa = max(fw * 0.5, 1e-3);\n-  float l = clamp(min(d + aa, hw) - max(d - aa, -hw), 0.0, 2.0 * aa) / (2.0 * aa);\n-  return mix(l, clamp(cov, 0.0, 1.0), smoothstep(0.35, 0.8, fw));\n+// The hatching is band-limited where it is drawn, so it can't beat against the pixel grid (moiré) at\n+// any output scale: the line density is LOD'd (the spacing doubles, the in-between lines fading out)\n+// so lines are never closer than HATCH_PX logical px, and each line is drawn as seen through a\n+// Gaussian pixel filter (sd HATCH_SD physical px; ~0.6 px with the 4 rotated-grid taps), which leaves\n+// next to nothing of a pattern's harmonics past the pixel frequency; a pattern finer than that is\n+// its mean ink.\n+const float HATCH_PX = 2.5;  // in-between lines are gone at this spacing, full at twice it\n+const float HATCH_SD = 0.5;\n+float erfA(float x) {        // Abramowitz & Stegun 7.1.27, |error| < 5e-4\n+  float a = abs(x), t = 1.0 + (0.278393 + (0.230389 + 0.078108 * a * a) * a) * a;\n+  t *= t;\n+  return sign(x) * (1.0 - 1.0 / (t * t));\n }\n-/** Lines at integer u (world spacing already divided out), density-LOD'd to >= ~3.2 px apart. */\n+/** Coverage of lines of half-width hw at integer u (period 1), through a Gaussian of sd sig (u units). */\n+float lineG(float u, float hw, float sig) {\n+  float d = fract(u + 0.5) - 0.5, k = 0.7071068 / max(sig, 1e-5);\n+  float c = erfA((d + hw) * k) - erfA((d - hw) * k)                      // the nearest line\n+          + erfA((d - 1.0 + hw) * k) - erfA((d - 1.0 - hw) * k)          // and its neighbours\n+          + erfA((d + 1.0 + hw) * k) - erfA((d + 1.0 - hw) * k);\n+  return mix(0.5 * c, 2.0 * hw, smoothstep(0.18, 0.3, sig));\n+}\n+/** The filter's sd in u units, from fw = |grad u| per logical px. */\n+float hatchSig(float fw) { return HATCH_SD * fw / PX_SCALE; }\n+/** Lines at integer u (world spacing already divided out) with ink cov; fw = |grad u| per logical px. */\n float hatchLOD(float u, float cov, float fw) {\n-  float lv = log2(max(fw * 3.2, 1e-5));\n-  float l0 = max(floor(lv), 0.0);\n-  float k = lv > 0.0 ? fract(lv) : 0.0;\n+  // LOD by the logical-px footprint (the same line density at any output scale), filtered per physical px\n+  float lv = log2(max(fw * HATCH_PX, 1e-6));\n+  float l0 = max(ceil(lv), 0.0);                // the finest level whose lines are >= HATCH_PX apart\n   float s0 = exp2(l0), s1 = s0 * 2.0;\n-  // (LOD by the logical-px footprint fw — the same line density at any output scale; AA per physical px)\n-  float h0 = hatchW(u / s0, cov, fw / (s0 * PX_SCALE)), h1 = hatchW(u / s1, cov, fw / (s1 * PX_SCALE));\n-  return mix(h0, h1, smoothstep(0.1, 0.9, k));\n+  float w = smoothstep(0.0, 1.0, l0 - lv);      // = log2(its spacing / HATCH_PX): its odd lines fade in\n+  float hw = 0.5 * clamp(cov, 0.0, 1.0), sig = hatchSig(fw);\n+  return mix(lineG(u / s1, hw, sig / s1), lineG(u / s0, hw, sig / s0), w);\n }\n-/** Pixel footprint of the world coordinate dot(p, axis) around a planar hit (neighbour-ray/plane intersections). */\n+/** |grad| per logical px of the world coordinate dot(p, axis) around a planar hit (neighbour-ray/plane intersections). */\n float footprint(vec3 p, vec3 n, vec3 axis) {\n   vec3 ro = camPos;\n   float dn = dot(p - ro, n);\n   vec3 rx = normalize(normalize(p - ro) + camR / focal), ry = normalize(normalize(p - ro) + camU / focal);\n   float ax = dot(rx, n), ay = dot(ry, n);\n   vec3 px = ro + rx * (dn / (abs(ax) < 1e-4 ? -1e-4 : ax));\n   vec3 py = ro + ry * (dn / (abs(ay) < 1e-4 ? -1e-4 : ay));\n-  return max(abs(dot(px - p, axis)), abs(dot(py - p, axis)));\n+  return length(vec2(dot(px - p, axis), dot(py - p, axis)));\n }\n float toneOf(vec3 E) { float l = max(E.r, max(E.g, E.b)); return 1.0 - exp(-l * 2.2); }\n \n@@ -298,13 +313,16 @@ vec3 shade(vec3 ro, vec3 rd, float t, float mat) {\n   vec3 lc = E / max(max(E.r, max(E.g, E.b)), 1e-4);     // light hue (normalised)\n   vec3 ink = C_BONE * 0.8;\n   vec3 axis; float sp; float extra = 0.0;\n+  float u0 = 0.0;                        // hatch coordinate origin along axis\n+  float relief = 1.0;                    // 0: mean ink only (where the hatch can't be resolved)\n   vec3 col = C_INK * 0.25;\n   vec4 decal = vec4(0.0);\n   if (mat < 1.5) {                       // stage boards, running up/downstage\n     axis = vec3(1.0, 0.0, 0.0); sp = 0.012;\n     float plank = floor(p.x / 0.15);\n-    float seam = 1.0 - smoothstep(0.004, 0.008, abs(fract(p.x / 0.15 + 0.5) - 0.5) * 0.15);\n-    float butt = 1.0 - smoothstep(0.003, 0.007, abs(fract(p.z / 2.4 + hash11(plank) ) - 0.5) * 2.4);\n+    // seams and butt joints, filtered like the hatch (upstage they thin to sub-pixel slivers)\n+    float seam = lineG(p.x / 0.15, 0.04, hatchSig(footprint(p, n, vec3(1.0, 0.0, 0.0)) / 0.15));\n+    float butt = lineG(p.z / 2.4 + hash11(plank) - 0.5, 0.0021, hatchSig(footprint(p, n, vec3(0.0, 0.0, 1.0)) / 2.4));\n     tone *= (0.82 + 0.3 * hash11(plank * 3.7)) * (1.0 - 0.85 * max(seam, butt));\n     if (stageOn > 0.5 && p.z > 3.6) { axis = vec3(0.0, 0.0, 1.0); tone *= 0.7; }\n     // spike marks where the props stood (only once they have been struck)\n@@ -326,9 +344,11 @@ vec3 shade(vec3 ro, vec3 rd, float t, float mat) {\n   } else if (mat < 3.5) {                // laptop base: keys in the deck, lit when the lid closes\n     axis = vec3(0.0, 0.0, 1.0); sp = 0.0022;\n     if (n.y > 0.7) {\n-      vec2 k = (p.xz - vec2(0.0, -0.035)) / vec2(0.0185, 0.0185);\n-      vec2 kf = abs(fract(k) - 0.5);\n-      float key = step(abs(p.x), 0.135) * step(abs(p.z + 0.035), 0.062) * step(max(kf.x, kf.y), 0.4);\n+      // keys 0.8 of the pitch: the gaps are lines at integer k (filtered: rows crowd at deck level)\n+      vec2 k = (p.xz - vec2(0.0, -0.035)) / 0.0185;\n+      float kx = 1.0 - lineG(k.x, 0.1, hatchSig(footprint(p, n, vec3(1.0, 0.0, 0.0)) / 0.0185));\n+      float kz = 1.0 - lineG(k.y, 0.1, hatchSig(footprint(p, n, vec3(0.0, 0.0, 1.0)) / 0.0185));\n+      float key = step(abs(p.x), 0.135) * step(abs(p.z + 0.035), 0.062) * kx * kz;\n       tone *= 0.55 + 0.6 * key;\n       float pad = step(abs(p.x), 0.05) * step(abs(p.z - 0.07), 0.028);\n       tone *= 1.0 - 0.35 * pad;\n@@ -346,18 +366,23 @@ vec3 shade(vec3 ro, vec3 rd, float t, float mat) {\n       }\n       return C_INK * 0.3 + C_BONE * 0.02 * tone;       // bezel\n     }\n-    axis = lidD(); sp = 0.0035;\n+    // lines fixed to the lid (in world coordinates they would slide over it as it turns)\n+    axis = lidD(); sp = 0.0035; u0 = dot(HINGE, axis);\n     // the back: dark aluminium and the owner's stickers, just caught by the room's faint bounce\n-    // (more toward the top edge, which the screen's halo rims)\n+    // (more toward the top edge, which the screen's halo rims). Only the flat back: the rounded edges\n+    // stay dark and unhatched (seen edge-on as the lid closes, their hatch phase runs through many\n+    // lines within a pixel, which a tangent-plane footprint can't see: a line crawled along the top)\n+    relief = smoothstep(0.9, 0.97, dot(n, -lidN()));\n     float rim = smoothstep(0.35, 1.0, l.y / LID_L);\n     float bounce = clamp(screenI, 0.0, 1.0) * props;\n-    tone = max(tone * 0.5, (0.013 + 0.02 * rim) * bounce);\n+    tone = max(tone * 0.5, (0.013 + 0.02 * rim) * bounce * relief);\n     vec4 sk = texture(stickerTex, vec2(0.5 - l.x / 0.31, l.y / LID_L));\n     decal = vec4(sk.rgb * (0.105 + 0.065 * rim) * bounce * mix(vec3(1.0), C_EMBER / max(C_EMBER.r, 1e-3), 0.12), sk.a);\n   } else if (mat < 5.5) {                // chair\n     axis = vec3(0.0, 1.0, 0.0); sp = 0.006;\n   } else if (mat < 6.5) {                // arch\n     if (abs(n.z) > 0.7 && abs(p.x) > 4.06 && abs(p.x) < 4.78 && p.y < 4.9) { axis = vec3(1.0, 0.0, 0.0); sp = 0.045; }  // fluted pilasters\n+    else if (abs(n.y) > 0.7) { axis = vec3(0.0, 0.0, 1.0); sp = 0.03; }   // soffits and tops\n     else { axis = vec3(0.0, 1.0, 0.0); sp = 0.03; }\n   } else if (mat < 7.5) {                // curtain: blood velvet, lines along the folds\n     float fu; mapCurtain(p, fu);\n@@ -380,7 +405,9 @@ vec3 shade(vec3 ro, vec3 rd, float t, float mat) {\n     tone *= 0.5;\n   }\n   float fp = footprint(p, n, axis) / sp;\n-  float cov = hatchLOD(dot(p, axis) / sp, tone * 1.05, fp);\n+  // a face square to the axis has one hatch phase all over it (all ink or none): mean ink there\n+  relief *= smoothstep(0.15, 0.4, length(axis - n * dot(axis, n)));\n+  float cov = mix(min(tone * 1.05, 1.0), hatchLOD((dot(p, axis) - u0) / sp, tone * 1.05, fp), relief);\n   return mix(mix(col, ink * mix(vec3(1.0), lc, 0.5), cov), decal.rgb, decal.a);\n }\n "
+      },
+      {
+        "sha": "6765fdd3c795b5b0e06d239d511522e83e9dcbeb",
+        "filename": "app/src/scenes/ilya.ts",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Filya.ts",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Filya.ts",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/app%2Fsrc%2Fscenes%2Filya.ts?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+        "patch": "@@ -58,7 +58,8 @@ export default class IlyaScene extends Scene {\n     const endK = smoothstep(T.show.start, this.ctx.end, t);\n     return {\n       bloom: 0.85 + 0.2 * endK, bloomThreshold: 0.9, bloomKnee: 0.25,\n-      vignette: 0.45,\n+      // little colour split: it fringes the fine hatching (and loom's dive hands over at 0.5)\n+      ca: 0.5, vignette: 0.45,\n       shake: [noise1(t * 70, 1) * 7 * slam, noise1(t * 67, 2) * 7 * slam],\n       flash: 0.018 * thunk,\n       grain: 0.06,"
+      },
+      {
+        "sha": "ba4d6ea84d9ace689558d22e058b3336dd21f0f7",
+        "filename": "app/src/scenes/leftturn-map.ts",
+        "status": "modified",
+        "additions": 10,
+        "deletions": 2,
+        "changes": 12,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fleftturn-map.ts",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fleftturn-map.ts",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/app%2Fsrc%2Fscenes%2Fleftturn-map.ts?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+        "patch": "@@ -229,6 +229,13 @@ export function makeMarksTexture(): THREE.DataTexture {\n   return t;\n }\n \n+/** The drawing and the road markings, built once: `bureau` also renders this plate, under its last page. */\n+let shared: { map: THREE.Texture; marks: THREE.DataTexture } | null = null;\n+export function mapTextures() {\n+  shared ??= { map: canvasTex(drawMap(), true), marks: makeMarksTexture() };\n+  return shared;\n+}\n+\n export function canvasTex(cv: HTMLCanvasElement, srgb: boolean) {\n   const t = new THREE.CanvasTexture(cv);\n   t.colorSpace = srgb ? THREE.SRGBColorSpace : THREE.NoColorSpace;\n@@ -326,11 +333,12 @@ vec2 toWorld(vec2 fc, vec4 cam) {\n   return cam.xy + w;\n }\n \n-// distance to the route and arc length at the closest point\n+// distance to the route and arc length at the closest point (negative south of YOU ARE HERE: the run-in\n+// from under the bureau's page)\n vec2 route(vec2 p) {\n   float LA = Y0 - (TY + RT);\n   float LC = RT * 1.5707963;\n-  float yA = clamp(p.y, TY + RT, Y0);\n+  float yA = clamp(p.y, TY + RT, Y0 + 4000.0);\n   float dA = length(p - vec2(PX, yA));\n   float sA = Y0 - yA;\n   vec2 cc = vec2(PX - RT, TY + RT);"
+      },
+      {
+        "sha": "c9122e04c3fec13f846125d588854af5ef7789d5",
+        "filename": "app/src/scenes/leftturn.ts",
+        "status": "modified",
+        "additions": 109,
+        "deletions": 32,
+        "changes": 141,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fleftturn.ts",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fleftturn.ts",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/app%2Fsrc%2Fscenes%2Fleftturn.ts?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+        "patch": "@@ -1,4 +1,7 @@\n // \"Trajectory, revised\". Verse 3, part 2. One continuous drawing sheet, the camera never at rest.\n+//  0. The run-in (drawn by `bureau`, which renders this plate under its last page): the spark comes up\n+//     the critical path from the south, under the page, bursts through it on the beat before the cut and\n+//     burns it in two; the held camera picks up the chase as it nears the top, and the halves swing away.\n //  1. \"Sharp left turn\": a top-down engineering roadmap (SRR · PDR · CDR · TRR · LAUNCH); the\n //     spark runs the planned route, lyrics painted on it as road markings; on \"left\" it swerves\n //     90° and the camera whips round with it (true multi-tap motion blur), leaving the plan.\n@@ -22,7 +25,7 @@ import { F, font, layout } from '../engine/type';\n import { Lyrics, norm, type Line, type Word } from '../engine/lyrics';\n import { clamp, ease, keys, lerp, prog, pulse } from '../engine/util';\n import { sparkHead, sparkParticles } from './_motifs';\n-import { MAP, FACE, EYE_R, routeAt, ROUTE_LA, ROUTE_LC, ROUTE_EYE, drawMap, makeMarksTexture, canvasTex, makeMapPass, WorldLayer } from './leftturn-map';\n+import { MAP, FACE, EYE_R, routeAt, ROUTE_LA, ROUTE_LC, ROUTE_EYE, mapTextures, makeMapPass, WorldLayer } from './leftturn-map';\n import { GANTT, Schedule } from './leftturn-gantt';\n import { PDoom, formatPDoom } from '../engine/hud';\n \n@@ -41,21 +44,42 @@ function mixCam(a: Cam, b: Cam, k: number): Cam {\n /** The gato prompt's caret on its first frame (screen px): the slot lands exactly there. */\n const CARET = { x: 1150, y: 631, w: 5.6, h: 86 };\n \n+/**\n+ * The run-in, under and through the bureau's last page. The camera is held (tilting up by `drift` px over the\n+ * beat before the burst); the spark smoulders north at `creep` (map units/s), its head coming into the frame\n+ * (screen y `enter`) on the off-beat before the burst; on the burst it flares up to `speed`, which it keeps to\n+ * SRR. The camera picks up the chase as the head reaches screen y `park` (`hold`: how softly, map units), then\n+ * eases ahead of it into the roadmap's framing by the turn.\n+ */\n+const RUN = { creep: 800, speed: 3600, zoom: 0.86, enter: 1100, park: 350, drift: 36, hold: 60 };\n+\n+/** Soft max(d, 0): 0 well below, d well above, a smooth knee about 0 of width k (never decreasing). */\n+function softPos(d: number, k: number) {\n+  return d > 0 ? d + k * Math.log1p(Math.exp(-d / k)) : k * Math.log1p(Math.exp(d / k));\n+}\n+\n export default class LeftTurn extends Scene {\n   map!: ReturnType<typeof makeMapPass>;\n   ov = new WorldLayer();\n   glow = new LineBatch(6000);\n   pd!: PDoom;\n   sch!: Schedule;\n+  /** Rendered inside `bureau`'s transition: that plate draws the spark itself, over its page. */\n+  embedded = false;\n+  /** The held camera of the run-in (map y, before its drift), and the lead (map units) it picks the spark up at. */\n+  holdY = 0;\n+  leadPark = 0;\n+  beat = 0.4545;\n   T = {\n     l5: null as unknown as Line, l6: null as unknown as Line,\n     sharp: 0, left: 0, turn: 0, and: 0, there: 0, you: 0, youEnd: 0, are: 0, without: 0, cdr: 0,\n     tPDR: 0, db1: 0, call: 0, whip0: 0, snare: 0, launch: 0, drain0: 0, cdrSyl: [] as number[],\n-    beats: [] as number[],\n+    beats: [] as number[], burst: 0,\n   };\n \n   override init() {\n-    this.map = makeMapPass(canvasTex(drawMap(), true), makeMarksTexture(), this.ov);\n+    const tx = mapTextures();\n+    this.map = makeMapPass(tx.map, tx.marks, this.ov);\n     const ly = this.ctx.lyrics, au = this.ctx.audio;\n     this.pd = new PDoom(ly);\n     const T = this.T;\n@@ -77,6 +101,15 @@ export default class LeftTurn extends Scene {\n     T.cdr = cdr.start;\n     T.cdrSyl = cdr.syl && cdr.syl.length >= 3 ? cdr.syl.map((s) => s[0]) : [0, 1, 2].map((i) => cdr.start + i * 0.4);\n     T.tPDR = beatAfter(T.sharp + 0.12);\n+    // the spark bursts through the bureau's page on the beat before the cut; the camera is held so that\n+    // its head comes into the frame there\n+    T.burst = beatBefore(this.ctx.start - 0.05);\n+    this.beat = au.timeOfBeat(Math.round(au.beatAt(T.burst)) + 1) - T.burst;\n+    // screen y -> camera-relative map units at the run-in zoom (the inverse of the keystone)\n+    const K = this.kAt(T.burst), unproject = (y: number) => (y - H / 2) / (1 + K * (y - H / 2)) / RUN.zoom;\n+    const tIn = T.burst - this.beat / 2;\n+    this.holdY = MAP.Y0 - this.runIn(tIn) - unproject(RUN.enter) + this.driftAt(tIn) / RUN.zoom;\n+    this.leadPark = unproject(RUN.park);\n     T.db1 = downAfter(T.you);\n     T.call = beatAfter(T.are + 0.2);\n     T.whip0 = Math.max(beatBefore(T.without), T.without - 0.3) - 0.03;\n@@ -97,12 +130,27 @@ export default class LeftTurn extends Scene {\n   }\n \n   // ---------------------------------------------------------------- the spark on the route\n+  /**\n+   * Arc length on the run-in (negative: south of YOU ARE HERE): RUN.creep under the page, smoothly up to\n+   * RUN.speed across the burst, at SRR on \"Sharp\". Closed form of the integral of that speed.\n+   */\n+  runIn(t: number) {\n+    const T = this.T, a = T.burst - 0.03, b = T.burst + 0.1, srr = MAP.Y0 - MAP.ms[0]!.y;\n+    const ramp = (t: number) => {\n+      const u = clamp((t - a) / (b - a));\n+      return t >= b ? (b - a) / 2 + (t - b) : (b - a) * (u * u * u - (u * u * u * u) / 2);\n+    };\n+    const dist = (t: number) => RUN.creep * t + (RUN.speed - RUN.creep) * ramp(t);\n+    return srr - (dist(T.sharp) - dist(t));\n+  }\n+\n   sparkS(t: number) {\n-    const T = this.T, s0 = this.ctx.start;\n+    const T = this.T;\n     const srr = MAP.Y0 - MAP.ms[0]!.y, pdr = MAP.Y0 - MAP.ms[1]!.y;\n     const tc = T.left + 0.13, sc = ROUTE_LA + ROUTE_LC + 40;\n+    if (t < T.sharp) return this.runIn(t);\n     if (t < tc) {\n-      return keys(t, [[s0 - 0.1, 0], [T.sharp, srr, ease.inQuad], [T.tPDR, pdr, ease.linear], [T.left, ROUTE_LA - 10, ease.linear], [tc, sc, ease.linear]]);\n+      return keys(t, [[T.sharp, srr], [T.tPDR, pdr, ease.linear], [T.left, ROUTE_LA - 10, ease.linear], [tc, sc, ease.linear]]);\n     }\n     // out of the corner at speed, braking into the crater on \"there\" (cubic Hermite, v1 = 0)\n     const D = ROUTE_EYE - sc, dur = T.there - tc, v0 = (ROUTE_LC + 50) / 0.13;\n@@ -111,19 +159,26 @@ export default class LeftTurn extends Scene {\n   }\n \n   // ---------------------------------------------------------------- camera\n-  /** Chase, brake, land: the camera rides behind the spark, then settles over the crater. */\n+  /** Hold, chase, brake, land: the camera rides behind the spark, then settles over the crater. */\n   camLand(t: number): Cam {\n     const T = this.T;\n     const sp = routeAt(this.sparkS(t));\n     const turn = (Math.PI / 2) * prog(t, T.left - 0.02, T.left + 0.24, ease.inOutCubic);\n     const hx = -Math.sin(turn), hy = -Math.cos(turn); // forward (screen up) in world coords\n-    const lead = keys(t, [[T.turn + 0.25, 230], [T.and, -40, ease.inOutQuad], [T.there, 20, ease.inOutQuad]]);\n-    let zoom = keys(t, [[this.ctx.start, 0.78], [T.sharp, 0.86, ease.outCubic], [T.left, 1.0, ease.inOutQuad], [T.left + 0.2, 1.12, ease.outCubic], [T.turn + 0.3, 0.95, ease.inOutQuad], [T.there, 1.02, ease.inOutCubic]]);\n+    const lead = keys(t, [[T.burst + 0.25, this.leadPark], [T.left - 0.05, 230, ease.inOutCubic], [T.turn + 0.25, 230], [T.and, -40, ease.inOutQuad], [T.there, 20, ease.inOutQuad]]);\n+    let zoom = keys(t, [[T.sharp, RUN.zoom], [T.left, 1.0, ease.inOutQuad], [T.left + 0.2, 1.12, ease.outCubic], [T.turn + 0.3, 0.95, ease.inOutQuad], [T.there, 1.02, ease.inOutCubic]]);\n     // the landing punch, then a slow creep in\n     zoom *= 1 + 0.32 * ease.outExpo(prog(t, T.there, T.there + 0.3)) + 0.07 * prog(t, T.there + 0.3, T.you, ease.inOutQuad);\n     if (t > T.there + 0.2) zoom *= 1 + 0.03 * this.ctx.audio.hit('kick', t, 0.09);\n     const rot = turn + 0.09 * prog(t, T.there, T.you + 0.2, ease.inOutQuad);\n-    return { x: sp.x + hx * lead, y: sp.y + hy * lead, rot, zoom };\n+    let y = sp.y + hy * lead;\n+    // the run-in: held over the bureau's page until the spark has come up to its place, then carried along\n+    // with it (by the turn the knee is thousands of units behind: exactly the chase)\n+    if (t < T.left) {\n+      const hold = this.holdY - this.driftAt(t) / RUN.zoom;\n+      y = hold - softPos(hold - y, RUN.hold);\n+    }\n+    return { x: sp.x + hx * lead, y, rot, zoom };\n   }\n \n   /** The reveal: the whole face, north up. */\n@@ -228,10 +283,49 @@ export default class LeftTurn extends Scene {\n     return { x: W / 2 + fx / d, y: H / 2 + fy / d };\n   }\n \n+  /** The spark head on screen. */\n+  sparkScreen(t: number) {\n+    const p = routeAt(this.sparkS(t));\n+    return this.project(p.x, p.y, this.camAt(t), this.kAt(t));\n+  }\n+\n+  /** The held camera's slow tilt north over the beat before the burst (screen px). */\n+  driftAt(t: number) {\n+    return RUN.drift * ease.inOutQuad(prog(t, this.T.burst - this.beat, this.T.burst));\n+  }\n+\n+  /** How far the sheet has slid down the screen since the run-in's held camera (px, at the run-in zoom). */\n+  slide(t: number) {\n+    return (this.holdY - this.camAt(t).y) * RUN.zoom;\n+  }\n+\n+  /** The spark(s) riding the route and the schedule, additive over `out`. */\n+  renderSpark(out: THREE.WebGLRenderTarget, t: number) {\n+    const T = this.T, cam = this.camAt(t);\n+    const g = this.glow; g.clear();\n+    if (t < T.there + 0.5) {\n+      const headAt = (tt: number) => this.sparkScreen(tt);\n+      const hp = headAt(t);\n+      const I = 1 - prog(t, T.there + 0.05, T.there + 0.45);\n+      sparkParticles(g, t, headAt, { rate: 120, speed: 280, intensity: 1.1 * I, seed: 8, width: 2 });\n+      sparkHead(g, hp.x, hp.y, t, 1.5 * Math.min(cam.zoom, 1.2), 1.3 * I);\n+    }\n+    const S = this.sch.T;\n+    if (t > T.without - 0.1 && t < S.LAUNCH + 0.5) {\n+      const headAt = (tt: number) => this.project(this.sch.playX(tt), GANTT.GL, this.camAt(tt), this.kAt(tt));\n+      const hp = headAt(t);\n+      const I = prog(t, T.without - 0.1, T.without) * (1 - prog(t, S.LAUNCH + 0.1, S.LAUNCH + 0.45));\n+      const stall = t > T.cdr - 0.1 && t < S.zip0;\n+      sparkParticles(g, t, headAt, { rate: stall ? 50 : 110, speed: stall ? 160 : 240, intensity: 0.9 * I, seed: 12, width: 1.6 });\n+      sparkHead(g, hp.x, hp.y, t, 0.9 * Math.min(Math.sqrt(cam.zoom), 1.5), 1.2 * I);\n+    }\n+    g.render(this.ctx.renderer, out);\n+  }\n+\n   // ---------------------------------------------------------------- render\n   render(f: Frame, out: THREE.WebGLRenderTarget): PostOverrides {\n     const { renderer } = this.ctx;\n-    const T = this.T, t = f.t, s0 = this.ctx.start, end = this.ctx.end;\n+    const T = this.T, t = f.t, end = this.ctx.end;\n     const cam = this.camAt(t);\n     const K = this.kAt(t);\n     const whip = this.whipAt(t);\n@@ -246,8 +340,8 @@ export default class LeftTurn extends Scene {\n     u.uTaps!.value = clamp(Math.ceil(motion / 3), 1, 16);\n     u.uK!.value = K;\n     u.uT!.value = t;\n-    // the drawing appears from the south as in the original cut; the north (schedule) is unveiled off-screen\n-    u.uReveal!.value = t < s0 + 0.5 ? lerp(MAP.Y0 + 300, 600, prog(t, s0 - 0.02, s0 + 0.35, ease.outCubic)) : -2000;\n+    // the whole drawing is there from the start: the bureau's page burns open onto it\n+    u.uReveal!.value = -2000;\n     u.uTrail!.value = this.sparkS(t);\n     u.uHeat!.value = 1;\n     u.uHaze!.value = keys(t, [[T.you, 0.55], [T.db1, 0.3], [T.without, 0.2], [end - 0.1, 0]]);\n@@ -297,27 +391,11 @@ export default class LeftTurn extends Scene {\n     (u.uOvCam!.value as THREE.Vector4).set(cam.x, cam.y, cam.rot, cam.zoom);\n     this.map.render(renderer, out);\n \n-    // ---- the spark\n-    const g = this.glow; g.clear();\n-    if (t < T.there + 0.5) {\n-      const headAt = (tt: number) => { const p = routeAt(this.sparkS(tt)); return this.project(p.x, p.y, this.camAt(tt), this.kAt(tt)); };\n-      const hp = headAt(t);\n-      const I = 1 - prog(t, T.there + 0.05, T.there + 0.45);\n-      sparkParticles(g, t, headAt, { rate: 120, speed: 280, intensity: 1.1 * I, seed: 8, width: 2 });\n-      sparkHead(g, hp.x, hp.y, t, 1.5 * Math.min(cam.zoom, 1.2), 1.3 * I);\n-    }\n-    const S = this.sch.T;\n-    if (t > T.without - 0.1 && t < S.LAUNCH + 0.5) {\n-      const headAt = (tt: number) => this.project(this.sch.playX(tt), GANTT.GL, this.camAt(tt), this.kAt(tt));\n-      const hp = headAt(t);\n-      const I = prog(t, T.without - 0.1, T.without) * (1 - prog(t, S.LAUNCH + 0.1, S.LAUNCH + 0.45));\n-      const stall = t > T.cdr - 0.1 && t < S.zip0;\n-      sparkParticles(g, t, headAt, { rate: stall ? 50 : 110, speed: stall ? 160 : 240, intensity: 0.9 * I, seed: 12, width: 1.6 });\n-      sparkHead(g, hp.x, hp.y, t, 0.9 * Math.min(Math.sqrt(cam.zoom), 1.5), 1.2 * I);\n-    }\n-    g.render(renderer, out);\n+    // ---- the spark (inside the bureau's transition that plate draws it, over its page)\n+    if (!this.embedded) this.renderSpark(out, t);\n \n     // ---- post\n+    const S = this.sch.T;\n     const corner = pulse(t, T.left, 0.08);\n     const land = pulse(t, T.there, 0.07);\n     const stampHit = Math.max(pulse(t, S.SRR, 0.06), pulse(t, S.PDR, 0.07), pulse(t, S.LAUNCH, 0.07));\n@@ -326,7 +404,6 @@ export default class LeftTurn extends Scene {\n     return {\n       bloom: lerp(0.75, 0.7, drain) - 0.2 * prog(t, T.there, T.there + 0.2) * (1 - prog(t, T.you, T.db1)), bloomThreshold: lerp(0.85, 0.95, drain), bloomKnee: lerp(0.5, 0.25, drain),\n       vignette: lerp(0.45, 0.6, drain), grain: lerp(0.055, 0.065, drain),\n-      fade: 1 - prog(t, s0 - 0.02, s0 + 0.12),\n       shake: [Math.sin(t * 93) * sh, Math.cos(t * 71) * sh * 0.8],\n       ca: 1.2 + 4 * corner + 5 * whip + 2 * land,\n       zoom: 1 + 0.03 * corner,"
+      },
+      {
+        "sha": "7f55d41e5817e99d378993e73e0b18604cc185c5",
+        "filename": "app/src/scenes/loom.ts",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Floom.ts",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Floom.ts",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/app%2Fsrc%2Fscenes%2Floom.ts?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+        "patch": "@@ -448,8 +448,9 @@ export default class Loom extends Scene {\n     c.restore();\n     this.ctx.comp.draw(renderer, L.upload(), out);\n     const kick = f.a.kick;\n+    // the twist's hit: the lens breathes in and its colours split, the frame never washes\n     const tw = Math.exp(-Math.abs(t - T.twist) / 0.05);\n-    return { zoom: 1 + 0.012 * kick * (1 - dive), ca: 0.5, flash: 0.12 * tw, bloomThreshold: lerp(0.85, 0.9, dive) };\n+    return { zoom: 1 + 0.012 * kick * (1 - dive) + 0.02 * tw, ca: 0.5 + 4 * tw, bloomThreshold: lerp(0.85, 0.9, dive) };\n   }\n }\n void clamp; void smoothstep;"
+      },
+      {
+        "sha": "0c1fb3ce1ab988838ac4575923ba0ff60786c843",
+        "filename": "app/src/scenes/loss.ts",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 3,
+        "changes": 3,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Floss.ts",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Floss.ts",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/app%2Fsrc%2Fscenes%2Floss.ts?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+        "patch": "@@ -875,7 +875,6 @@ export default class LossScene extends Scene {\n     c.save();\n     c.font = font(fam, 100);\n     c.textBaseline = 'alphabetic';\n-    c.lineJoin = 'round';\n     for (const g of this.glyphs3) {\n       if (t < g.t0 || g.ch === ' ') continue;\n       const ap = prog(t, g.t0, g.t0 + 0.16, ease.outBack as (x: number) => number);\n@@ -895,8 +894,6 @@ export default class LossScene extends Scene {\n       c.save();\n       c.translate(qa.x, qa.y); c.rotate(ang);\n       c.scale(clamp(adv / gw, 0.05, (size / 100) * 1.1), (size / 100) * (0.3 + 0.7 * ap));\n-      c.strokeStyle = rgba('ink', 0.9 * fade); c.lineWidth = 16;\n-      c.strokeText(g.ch, 0, 0);\n       c.fillStyle = heatCss(heat, fade);\n       c.fillText(g.ch, 0, 0);\n       c.restore();"
+      },
+      {
+        "sha": "e87afe25c27f97af6eb9b00a0791c61321408955",
+        "filename": "app/src/scenes/paperclips-glsl.ts",
+        "status": "modified",
+        "additions": 16,
+        "deletions": 14,
+        "changes": 30,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fpaperclips-glsl.ts",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fpaperclips-glsl.ts",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/app%2Fsrc%2Fscenes%2Fpaperclips-glsl.ts?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+        "patch": "@@ -13,7 +13,20 @@ ${GLSL_CLIP}\n uniform vec3 camPos, camR, camU, camF; uniform float focal; uniform vec2 res; uniform float time;\n uniform vec3 keyDir; uniform float keyI; uniform vec3 rimDir; uniform float rimI;\n uniform vec3 lampPos; uniform float lampI;\n+uniform float fillT; // seconds since the flood started (<0: none)\n+uniform vec2 groupHalf; // half extent of the CPU group (world)\n+uniform float holdT; // the rows above the group (the lyric's band, seen from above) flood only after this\n vec2 rotv(vec2 v, float a) { float c = cos(a), s = sin(a); return vec2(c * v.x - s * v.y, s * v.x + c * v.y); }\n+/** The flood (0..1) of a cell beyond the group: cells pop in as a wave out from the group. */\n+float floodK(vec2 cell) {\n+  if (fillT < 0.0) return 0.0;\n+  vec2 cc = (cell + 0.5) * ${CELLF};\n+  float dist = max(abs(cc.x) - groupHalf.x, abs(cc.y) - groupHalf.y);\n+  float t0 = dist / 1100.0 + hash12(cell) * 0.1;\n+  if (cc.y > groupHalf.y) t0 = max(t0, holdT + dist / 1100.0 + hash12(cell + 31.7) * 0.08);\n+  float k = clamp((fillT - t0) / 0.22, 0.0, 1.0);\n+  return 1.0 - pow(1.0 - k, 3.0);\n+}\n vec3 camRay(out vec2 px) {\n   px = vUv * res - 0.5 * res;\n   return normalize(camF * focal + camR * px.x + camU * px.y);\n@@ -69,16 +82,10 @@ ${GLSL_SHADE}\n uniform vec4 items[${MAX_ITEMS}];\n uniform int nItems;\n uniform float sT0, sH0, rad0, hot0, rad;\n-uniform float fillT; // seconds since the flood started (<0: none)\n-uniform vec2 groupHalf; // half extent of the CPU group (world)\n float fillK(vec2 cell) {\n   vec2 cc = (cell + 0.5) * ${CELLF};\n   if (abs(cc.x) < groupHalf.x && abs(cc.y) < groupHalf.y) return -1.0; // inside the group\n-  if (fillT < 0.0) return 0.0;\n-  float dist = max(abs(cc.x) - groupHalf.x, abs(cc.y) - groupHalf.y);\n-  float t0 = dist / 1100.0 + hash12(cell) * 0.1;\n-  float k = clamp((fillT - t0) / 0.22, 0.0, 1.0);\n-  return 1.0 - pow(1.0 - k, 3.0);\n+  return floodK(cell);\n }\n vec3 topSample(vec2 px) {\n   vec3 rd = normalize(camF * focal + camR * px.x + camU * px.y);\n@@ -141,16 +148,11 @@ void main() {\n // Phases B–D: raymarched infinite lattice (floor stack + optional ceiling stack), fog, lamp.\n export const FRAG_MARCH = /* glsl */ `\n ${GLSL_SHADE}\n-uniform float rad, pz, ceilZ, lowerOn, fogK, fogFar, fillT, slitK, slitH, horizonY;\n-uniform vec2 groupHalf;\n+uniform float rad, pz, ceilZ, lowerOn, fogK, fogFar, slitK, slitH, horizonY;\n float fillK(vec2 cell) {\n   vec2 cc = (cell + 0.5) * ${CELLF};\n   if (abs(cc.x) < groupHalf.x && abs(cc.y) < groupHalf.y) return 1.0;\n-  if (fillT < 0.0) return 0.0;\n-  float dist = max(abs(cc.x) - groupHalf.x, abs(cc.y) - groupHalf.y);\n-  float t0 = dist / 1100.0 + hash12(cell) * 0.1;\n-  float k = clamp((fillT - t0) / 0.22, 0.0, 1.0);\n-  return 1.0 - pow(1.0 - k, 3.0);\n+  return floodK(cell);\n }\n // one layer of basket-woven cells; q relative to the layer plane; k = layer index (seeds everything)\n // info = (lateral, height, -, k)"
+      },
+      {
+        "sha": "782036da2031a4fed7cc5b6c9a1cdb712ad46cbe",
+        "filename": "app/src/scenes/paperclips.ts",
+        "status": "modified",
+        "additions": 35,
+        "deletions": 23,
+        "changes": 58,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fpaperclips.ts",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/app%2Fsrc%2Fscenes%2Fpaperclips.ts",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/app%2Fsrc%2Fscenes%2Fpaperclips.ts?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+        "patch": "@@ -48,7 +48,7 @@ function project(c: Cam, p: V3): { x: number; y: number; z: number } {\n \n // ------------------------------------------------------------------ scene\n interface Times {\n-  start: number; end: number; db1: number; splits: number[]; fill: number; tilt0: number; tilt1: number;\n+  start: number; end: number; db1: number; splits: number[]; fill: number; clear: number; tilt0: number; tilt1: number;\n   card0: number; card1: number; d0: number; slams: number[];\n }\n \n@@ -57,10 +57,13 @@ const camUniforms = () => ({\n   focal: { value: FOCAL }, res: { value: new THREE.Vector2(W, H) }, time: { value: 0 }, ssTap: SS_TAP,\n   keyDir: { value: new THREE.Vector3() }, keyI: { value: 1 }, rimDir: { value: new THREE.Vector3() }, rimI: { value: 1 },\n   lampPos: { value: new THREE.Vector3() }, lampI: { value: 0 },\n-  fillT: { value: -1 }, groupHalf: { value: new THREE.Vector2(80, 80) },\n+  fillT: { value: -1 }, groupHalf: { value: new THREE.Vector2(80, 80) }, holdT: { value: 0 },\n });\n \n const LEAD = 26; // lead-in length of the spark's line before it bends into the clip\n+// phase A keeps the top of the frame for \"as paperclips fill the room\": the group is framed between\n+// the band and the bottom margin, and the flood leaves the band alone until the line has gone\n+const BAND = 240, FOOT = 56;\n \n export default class Paperclips extends Scene {\n   top = new FSPass(FRAG_TOP, {\n@@ -94,10 +97,13 @@ export default class Paperclips extends Scene {\n     const d0 = this.L3.start - 0.08;\n     const slams = [d0];\n     for (let b = Math.round(au.beatAt(d0)) + 1; au.timeOfBeat(b) < end - 0.3 && slams.length < 4; b++) slams.push(au.timeOfBeat(b));\n+    // the first line has faded out just before the tilt; only then does the flood take its band\n+    const fill = splits[5]! + 0.1, clear = tilt0 - 0.04;\n     this.T = {\n-      start, end, db1, splits, fill: splits[5]! + 0.1, tilt0, tilt1: tilt0 + 1.0,\n+      start, end, db1, splits, fill, clear, tilt0, tilt1: tilt0 + 1.0,\n       card0: this.L2.start - 0.42, card1: this.L3.start - 0.3, d0, slams,\n     };\n+    this.top.u.holdT!.value = this.march.u.holdT!.value = clear - fill;\n   }\n \n   // ---------------------------------------------------------------- split tree (phase A)\n@@ -126,35 +132,49 @@ export default class Paperclips extends Scene {\n     return out;\n   }\n \n-  /** Camera height framing the group (phase A); pulls back a little after each split. */\n-  topHeight(t: number) {\n+  /**\n+   * Top-down camera framing the group (phase A); pulls back a little after each split. The rolled\n+   * group fills 80% of the width or 74% of the height, but never rises into the lyric's band: when it\n+   * would, it sits lower (and a little smaller) between the band and the foot margin.\n+   */\n+  topCam(t: number): Cam {\n     const T = this.T;\n     const ext: [number, number][] = [[17, 5], [17, 10], [17, 20], [40, 20], [40, 40], [80, 40], [80, 80]];\n     let hx = ext[0]![0], hy = ext[0]![1];\n     for (let l = 0; l < 6; l++) {\n       const k = prog(t, T.splits[l]! - 0.2, T.splits[l]! + 0.2, ease.inOutCubic);\n       hx = lerp(hx, ext[l + 1]![0], k); hy = lerp(hy, ext[l + 1]![1], k);\n     }\n+    const roll = lerp(-0.07, 0.04, prog(t, T.start, T.tilt0, ease.inOutQuad)) + noise1(t * 0.6, 3) * 0.015;\n+    const cs = Math.abs(Math.cos(roll)), sn = Math.abs(Math.sin(roll));\n+    const ex = hx * cs + hy * sn, ey = hx * sn + hy * cs;\n     const halfW = W / 2 / FOCAL, halfH = H / 2 / FOCAL;\n     // slow push-in while the single clip is alone, then framing\n     const push = lerp(1.08, 1.0, prog(t, T.db1, T.splits[0]!, ease.outCubic));\n-    return Math.max(hx / (halfW * 0.8), hy / (halfH * 0.74)) * push;\n+    const h = Math.max(ex / (halfW * 0.8), ey / (halfH * 0.74), (2 * ey * FOCAL) / (H - BAND - FOOT)) * push;\n+    // slide the camera so the group's centre lands where its top edge clears the band\n+    const cy = Math.max(H / 2, BAND + (ey * FOCAL) / h);\n+    const cam = lookCam([0, 0, h], [0, 0.0001, -1], roll);\n+    const o = ((cy - H / 2) * h) / FOCAL;\n+    cam.pos = [cam.U[0] * o, cam.U[1] * o, h];\n+    return cam;\n   }\n \n   camera(t: number): Cam {\n     const T = this.T;\n-    const drift = noise1(t * 0.6, 3) * 0.015;\n-    if (t < T.tilt0) {\n-      const roll = lerp(-0.07, 0.04, prog(t, T.start, T.tilt0, ease.inOutQuad)) + drift;\n-      return lookCam([0, 0, this.topHeight(t)], [0, 0.0001, -1], roll);\n-    }\n+    if (t < T.tilt0) return this.topCam(t);\n     // swing down on a crane around a target gliding forward on the floor, ending 16 units up\n-    const hEnd = this.topHeight(T.tilt0);\n+    const drift = noise1(t * 0.6, 3) * 0.015;\n+    const top = this.topCam(T.tilt0);\n+    const hEnd = top.pos[2];\n     const k = prog(t, T.tilt0, T.tilt1, ease.inOutCubic);\n     const el = lerp(Math.PI / 2 - 0.0001, 0.175, k);\n     const dist = lerp(hEnd, 92, ease.inOutQuad(k));\n     const glide = (t - T.tilt0) * 16 * prog(t, T.tilt0, T.tilt0 + 0.6, ease.inQuad);\n-    const target: V3 = [lerp(0, -7, k) + Math.sin((t - T.tilt0) * 0.9) * 3 * k, glide + 40 * k, 0];\n+    const target: V3 = [\n+      lerp(top.pos[0], -7, k) + Math.sin((t - T.tilt0) * 0.9) * 3 * k,\n+      top.pos[1] * (1 - k) + glide + 40 * k, 0,\n+    ];\n     let pos: V3 = [target[0], target[1] - dist * Math.cos(el), dist * Math.sin(el)];\n     let fwd = nrm(sub(target, pos));\n     // after the swing: ease the gaze up toward the horizon\n@@ -292,7 +312,8 @@ export default class Paperclips extends Scene {\n   private drawLyricA(c: CanvasRenderingContext2D, t: number) {\n     const T = this.T;\n     const line = this.L1;\n-    const a = prog(t, line.start - 0.4, line.start) * (1 - prog(t, T.tilt0 - 0.25, T.tilt0));\n+    // set on the empty band above the group (see BAND): gone before the flood reaches it\n+    const a = prog(t, line.start - 0.4, line.start) * (1 - prog(t, T.clear - 0.16, T.clear));\n     if (a <= 0) return;\n     const fam = F.archivo(100, 300), size = 72;\n     let x = 128;\n@@ -301,18 +322,9 @@ export default class Paperclips extends Scene {\n     c.globalAlpha = a;\n     c.font = font(fam, size);\n     c.textBaseline = 'alphabetic';\n-    c.lineJoin = 'round';\n-    // soft scrim so the words stay readable once the clips fill the frame\n-    const g = c.createLinearGradient(0, 40, 0, 280);\n-    g.addColorStop(0, rgba('ink', 0.0)); g.addColorStop(0.35, rgba('ink', 0.55)); g.addColorStop(1, rgba('ink', 0));\n-    c.fillStyle = g;\n-    c.fillRect(0, 40, 1100, 240);\n     for (const w of line.words) {\n       const p = Lyrics.wordProgress(w, t);\n       const ww = c.measureText(w.w).width;\n-      c.strokeStyle = rgba('ink', 0.9);\n-      c.lineWidth = 9;\n-      c.strokeText(w.w, x, y);\n       c.fillStyle = rgba('bone', 0.3);\n       c.fillText(w.w, x, y);\n       if (p > 0) {"
+      },
+      {
+        "sha": "0f2560e1e584dbd2462ec7173c59703b0f653fb3",
+        "filename": "docs/TREATMENT.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/docs%2FTREATMENT.md",
+        "raw_url": "https://github.com/mexicat/pdoom-video/raw/fa164b74fd0b26a99375715b619c55b4a0fb3d05/docs%2FTREATMENT.md",
+        "contents_url": "https://api.github.com/repos/mexicat/pdoom-video/contents/docs%2FTREATMENT.md?ref=fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+        "patch": "@@ -96,7 +96,7 @@ The bland mask (bone disc, two dots, a curve) fills the frame, perfectly friendl\n \"I hear the basilisk boom\": an **engraved serpent eye** (scales as hatch patterns, slit pupil) snaps open on \"boom\" with a shockwave and shake. \"NVDA to the moon\": the slit pupil becomes a vertical line → cut to a **stock chart** (hatched candlesticks, the spark as the price) going exponential, the camera tilting up to follow it vertically until it reaches an **engraved moon** in **banknote guilloché**; the lyric set like banknote lettering. \"The Omega Point's coming soon\": every line converges to one white-hot point; the lyric in Cormorant italic shrinking into it. \"One E thirty flops a second\": a mechanical **odometer** of 31 digit drums rolling to `1,000,000,000,000,000,000,000,000,000,000 FLOP/s`, with a tiny mono footnote.\n \n ### `bureau` — \"Paperwork\"\n-Inverted palette: **bone paper, ink**. \"That was safe enough, we reckoned\": a safety evaluation form (Form 7-B, checkboxes, typewritten fields where the lyric is typed); on \"reckoned\" an orange rubber stamp **SAFE ENOUGH** slams (ink texture, slight rotation, screen shake). \"Forward MLP, backward, repeat\": a technical diagram of an MLP; a pulse sweeps forward as \"Forward MLP\" is typeset left→right; on \"backward\" the pulse sweeps back and the word is set **mirrored right→left**; on \"repeat\" the last beat **stutters** (time-remapped loop ×3). \"Now von Neumann's obsolete\": a textbook von Neumann architecture diagram (CPU/ALU/control, memory, I/O, bus arrows) gets struck through in orange on \"obsolete\" and falls apart / the paper tears to black.\n+Inverted palette: **bone paper, ink**. \"That was safe enough, we reckoned\": a safety evaluation form (Form 7-B, checkboxes, typewritten fields where the lyric is typed); on \"reckoned\" an orange rubber stamp **SAFE ENOUGH** slams (ink texture, slight rotation, screen shake). \"Forward MLP, backward, repeat\": a technical diagram of an MLP; a pulse sweeps forward as \"Forward MLP\" is typeset left→right; on \"backward\" the pulse sweeps back and the word is set **mirrored right→left**; on \"repeat\" the last beat **stutters** (time-remapped loop ×3). \"Now von Neumann's obsolete\": a textbook von Neumann architecture diagram (CPU/ALU/control, memory, I/O, bus arrows) gets struck through in orange on \"obsolete\"; then the next plate's burning critical path comes up from under the page and burns it in two, and the halves swing away onto the roadmap.\n \n ### `leftturn` — \"Trajectory, revised\"\n A top-down **engineering roadmap**: a straight dashed path with milestone markers `SRR · PDR · CDR · TRR · LAUNCH`, the spark travelling along it. \"Sharp left turn\": the spark swerves 90° left and the camera **whip-pans** with it (motion blur), leaving the roadmap behind. \"and there you are\" (revision 3): the spark brakes into a crater on the \"Terra incognita\" survey map; a marker drops on the kick, the camera cranes out and the contour lines turn out to be **the mask as terrain** (two eye craters, a smile groove), with the whole trajectory in shot and YOU / ARE stamped as map labels; an \"UNPLANNED OBJECT · not on roadmap\" callout slams in. \"Without a single CDR\": a whip onto a **review schedule** (a Gantt strip on the same sheet): SRR and PDR are stamped on the beats as the TODAY playhead (the spark) runs, it stalls at an empty, blinking CDR slot (camera punches per syllable, STATUS: NOT HELD), then zips past TRR (SKIPPED) to LAUNCH (AHEAD OF SCHEDULE); the empty slot folds into the Gato prompt's caret."
+      }
+    ]
+  },
+  "tree": {
+    "sha": "fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+    "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1f7af3e593f5521501268359f285363356628f1",
+        "size": 231,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d1f7af3e593f5521501268359f285363356628f1"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ecc957d3fdff1a77e9c4b30ac61ef4a07ccfcdff",
+        "size": 1074,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ecc957d3fdff1a77e9c4b30ac61ef4a07ccfcdff"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7de7037ebb1d366099dffabb13086fbf6989c8c",
+        "size": 7892,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/b7de7037ebb1d366099dffabb13086fbf6989c8c"
+      },
+      {
+        "path": "analysis",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "97611eb253965038314f195ee750ba3e40ec7844",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/97611eb253965038314f195ee750ba3e40ec7844"
+      },
+      {
+        "path": "analysis/align.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2e7a075c9822d27ba1063bb209d4f3ecf648e0a",
+        "size": 19625,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e2e7a075c9822d27ba1063bb209d4f3ecf648e0a"
+      },
+      {
+        "path": "analysis/analyze.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cafd51735b02da754445eb642f654de657ce92cb",
+        "size": 19530,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/cafd51735b02da754445eb642f654de657ce92cb"
+      },
+      {
+        "path": "analysis/common.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d6f1c8a864aca964a4ec09de73a4535015ad147",
+        "size": 3439,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/9d6f1c8a864aca964a4ec09de73a4535015ad147"
+      },
+      {
+        "path": "analysis/ctc_emissions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7eb99e7c5b3eb624b32ff8d50e8840ad538a40f1",
+        "size": 2201,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7eb99e7c5b3eb624b32ff8d50e8840ad538a40f1"
+      },
+      {
+        "path": "analysis/ctcalign.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c15c6cd5d7b2076e2b0c1235f4c8b59c5a0f9193",
+        "size": 6612,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/c15c6cd5d7b2076e2b0c1235f4c8b59c5a0f9193"
+      },
+      {
+        "path": "analysis/make_fonts.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ced31056c67282226c19cf8df7aeecaef598429",
+        "size": 1023,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7ced31056c67282226c19cf8df7aeecaef598429"
+      },
+      {
+        "path": "analysis/pron.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c0364fa251ae1bce3ae804b2020ef365d502f4c",
+        "size": 1469,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7c0364fa251ae1bce3ae804b2020ef365d502f4c"
+      },
+      {
+        "path": "analysis/pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4da0721e123bf5c4764494c31b0791be01c70769",
+        "size": 407,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4da0721e123bf5c4764494c31b0791be01c70769"
+      },
+      {
+        "path": "analysis/qa_plot.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b5c5595718b20d23cc91968d3c370136c2993b33",
+        "size": 3762,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/b5c5595718b20d23cc91968d3c370136c2993b33"
+      },
+      {
+        "path": "analysis/uv.lock",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b27053c8b320a1c6475b8c3affbee741acaecf01",
+        "size": 523093,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/b27053c8b320a1c6475b8c3affbee741acaecf01"
+      },
+      {
+        "path": "analysis/vocal_feats.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eecc151a6afd420649b25154156d53c3d557386c",
+        "size": 1798,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/eecc151a6afd420649b25154156d53c3d557386c"
+      },
+      {
+        "path": "analysis/whisper_run.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f55583e3989d54a5e25c129243dbfbca14ad9632",
+        "size": 1356,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/f55583e3989d54a5e25c129243dbfbca14ad9632"
+      },
+      {
+        "path": "analysis/zoom.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "741f5945001155baa0ed0d24eddfddaa2f8f57ee",
+        "size": 4301,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/741f5945001155baa0ed0d24eddfddaa2f8f57ee"
+      },
+      {
+        "path": "app",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b6356b48863225a83e4af71ac1812dbe26c85026",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/b6356b48863225a83e4af71ac1812dbe26c85026"
+      },
+      {
+        "path": "app/.gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a14702c409d3f34f9ab001e572dfeaf0da434bba",
+        "size": 388,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a14702c409d3f34f9ab001e572dfeaf0da434bba"
+      },
+      {
+        "path": "app/bun.lock",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "936781d653cedba6fa684dbd4cc0f4ddcb5e7538",
+        "size": 19020,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/936781d653cedba6fa684dbd4cc0f4ddcb5e7538"
+      },
+      {
+        "path": "app/index.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97716f2dfdb948b45f4eba3eda973c3889ebe6ab",
+        "size": 1907,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/97716f2dfdb948b45f4eba3eda973c3889ebe6ab"
+      },
+      {
+        "path": "app/package.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab40fab7edfc6d7772ffd956933797e48bfeee07",
+        "size": 397,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ab40fab7edfc6d7772ffd956933797e48bfeee07"
+      },
+      {
+        "path": "app/plates.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6469dcfb892a50c25830418d2114492ac998bd25",
+        "size": 227,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/6469dcfb892a50c25830418d2114492ac998bd25"
+      },
+      {
+        "path": "app/public",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "20a3bbba49dc380bb2d4f8a27a793524b7673005",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/20a3bbba49dc380bb2d4f8a27a793524b7673005"
+      },
+      {
+        "path": "app/public/fonts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "09f803326335c8aca381eb16c21832e1731f4d59",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/09f803326335c8aca381eb16c21832e1731f4d59"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w1000-300.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0bb90312d4ff0998f396f9498c2e80f5f4e7166e",
+        "size": 121492,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/0bb90312d4ff0998f396f9498c2e80f5f4e7166e"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w1000-500.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4441d242aee4e7df8aca736ed34d78321864be05",
+        "size": 121588,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4441d242aee4e7df8aca736ed34d78321864be05"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w1000-700.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ba0d43287924bcf828384dc6b1087daf4fcdcc9",
+        "size": 121440,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3ba0d43287924bcf828384dc6b1087daf4fcdcc9"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w1000-900.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "56633ec809a80fec5871ea913748e910e197f48e",
+        "size": 120740,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/56633ec809a80fec5871ea913748e910e197f48e"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w1125-300.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d056a26bbcbc95a70b12245d9e15e4d364bbc8fc",
+        "size": 121740,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d056a26bbcbc95a70b12245d9e15e4d364bbc8fc"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w1125-500.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a478e5fe2834ca92f9fb1481e7f5f34839f03759",
+        "size": 121788,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a478e5fe2834ca92f9fb1481e7f5f34839f03759"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w1125-700.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "56517a50508614bf67d9b3e364ea2e2f1ee6ac56",
+        "size": 121716,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/56517a50508614bf67d9b3e364ea2e2f1ee6ac56"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w1125-900.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec08b5a643aad26a87ea04fbacbd638c86031e9f",
+        "size": 121268,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ec08b5a643aad26a87ea04fbacbd638c86031e9f"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w1250-300.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ff564393ac5c5ef907dc0470b8c69505c174863",
+        "size": 121648,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3ff564393ac5c5ef907dc0470b8c69505c174863"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w1250-500.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d747f0a85560d5ac8fde2900b852b0bfec49ed68",
+        "size": 121652,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d747f0a85560d5ac8fde2900b852b0bfec49ed68"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w1250-700.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "24495e28588db9f0e53a2d8b28ad1b2e101e5487",
+        "size": 121628,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/24495e28588db9f0e53a2d8b28ad1b2e101e5487"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w1250-900.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ed03d0b1e623436abef2274c440818d4ba7d9b4",
+        "size": 121220,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7ed03d0b1e623436abef2274c440818d4ba7d9b4"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w620-300.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "00810f077436ebde540777346c3a06bc836f81c8",
+        "size": 120484,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/00810f077436ebde540777346c3a06bc836f81c8"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w620-500.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bb7df2fb58766670385ade50073508ea989c658",
+        "size": 120416,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3bb7df2fb58766670385ade50073508ea989c658"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w620-700.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "644309233fbfa5898cae3714c89267aa18da2bdf",
+        "size": 120376,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/644309233fbfa5898cae3714c89267aa18da2bdf"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w620-900.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1b65c6ddf320514b7d25e420292e35d2d332102c",
+        "size": 120080,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/1b65c6ddf320514b7d25e420292e35d2d332102c"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w750-300.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7488a74e8b6d9688af81cb36bfd5de30efcfa759",
+        "size": 120988,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7488a74e8b6d9688af81cb36bfd5de30efcfa759"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w750-500.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cadb57013ef493376f44c46013e4d6b042247161",
+        "size": 120968,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/cadb57013ef493376f44c46013e4d6b042247161"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w750-700.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a12c2af0f96c5c6ab25ca827273853882cbe864",
+        "size": 120888,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/1a12c2af0f96c5c6ab25ca827273853882cbe864"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w750-900.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4143c933a077e90919bdedfb204cc71e6511906d",
+        "size": 120588,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4143c933a077e90919bdedfb204cc71e6511906d"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w875-300.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ce66a27a1ced82923d8db94c1047a577216cf197",
+        "size": 121144,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ce66a27a1ced82923d8db94c1047a577216cf197"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w875-500.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9a7b24c1cd0d066779c643a6b79c4e8fab1e099",
+        "size": 121328,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a9a7b24c1cd0d066779c643a6b79c4e8fab1e099"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w875-700.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2aef2d29ef7f3c440adca525cabd528c3359a877",
+        "size": 121212,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/2aef2d29ef7f3c440adca525cabd528c3359a877"
+      },
+      {
+        "path": "app/public/fonts/Archivo-w875-900.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fbcdc3b359b069a83130b6334d0578860ad5e08d",
+        "size": 120844,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/fbcdc3b359b069a83130b6334d0578860ad5e08d"
+      },
+      {
+        "path": "app/public/fonts/ArchivoItalic-w1000-400.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8133aa3df2129d329081536e8441e99401cc9efb",
+        "size": 133740,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8133aa3df2129d329081536e8441e99401cc9efb"
+      },
+      {
+        "path": "app/public/fonts/ArchivoItalic-w1000-800.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a0bd1bef7a535bc2705be3b84f58698ac076412",
+        "size": 133828,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4a0bd1bef7a535bc2705be3b84f58698ac076412"
+      },
+      {
+        "path": "app/public/fonts/ArchivoItalic-w750-400.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7947f58d829cfde8ed3d2ebcff33a44c1814d424",
+        "size": 133472,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7947f58d829cfde8ed3d2ebcff33a44c1814d424"
+      },
+      {
+        "path": "app/public/fonts/ArchivoItalic-w750-800.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8919d6964bcd41ef8fa3fe6666bce20cdef08a82",
+        "size": 133296,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8919d6964bcd41ef8fa3fe6666bce20cdef08a82"
+      },
+      {
+        "path": "app/public/fonts/Cormorant-400.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "440b356974e41cf8bd697a983ff18431ba3b4d6b",
+        "size": 774016,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/440b356974e41cf8bd697a983ff18431ba3b4d6b"
+      },
+      {
+        "path": "app/public/fonts/Cormorant-600.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a00cc09a90d8a4facb96a39f47f9e6599071125c",
+        "size": 774032,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a00cc09a90d8a4facb96a39f47f9e6599071125c"
+      },
+      {
+        "path": "app/public/fonts/CormorantItalic-400.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "293177bb6948bf80a0a06eb44d799fa4f051b916",
+        "size": 454392,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/293177bb6948bf80a0a06eb44d799fa4f051b916"
+      },
+      {
+        "path": "app/public/fonts/CormorantItalic-600.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1cd3c5ee2669655bb0387ae49dc1de261b457016",
+        "size": 454472,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/1cd3c5ee2669655bb0387ae49dc1de261b457016"
+      },
+      {
+        "path": "app/public/fonts/src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7f2f83ab2285c1fdffd0a5b6713f355a1949b5cb",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/7f2f83ab2285c1fdffd0a5b6713f355a1949b5cb"
+      },
+      {
+        "path": "app/public/fonts/src/Archivo-Italic[wdth,wght].ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "41577c6b91d4c12d6490a6957f7c68f3c226c625",
+        "size": 741368,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/41577c6b91d4c12d6490a6957f7c68f3c226c625"
+      },
+      {
+        "path": "app/public/fonts/src/Archivo[wdth,wght].ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cc64253d36665a5ca0d6719cdf1e32b3de453b51",
+        "size": 658596,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/cc64253d36665a5ca0d6719cdf1e32b3de453b51"
+      },
+      {
+        "path": "app/public/fonts/src/CormorantGaramond-Italic[wght].ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0d914e7663b7a1429d06ec60a5c5bb026031a2ef",
+        "size": 715644,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/0d914e7663b7a1429d06ec60a5c5bb026031a2ef"
+      },
+      {
+        "path": "app/public/fonts/src/CormorantGaramond[wght].ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d992a83ce525c330fad3a19087746bcb2dc038ee",
+        "size": 1195560,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d992a83ce525c330fad3a19087746bcb2dc038ee"
+      },
+      {
+        "path": "app/public/fonts/src/IBMPlexMono-Bold.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17b406d221e7f27179344707bd543fb8470728ac",
+        "size": 137784,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/17b406d221e7f27179344707bd543fb8470728ac"
+      },
+      {
+        "path": "app/public/fonts/src/IBMPlexMono-Italic.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7f69134614ebdcaa10ebd36b0be1a44a035e157",
+        "size": 143920,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d7f69134614ebdcaa10ebd36b0be1a44a035e157"
+      },
+      {
+        "path": "app/public/fonts/src/IBMPlexMono-Light.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61d43577842179cdffeb38b6c1928786981db0da",
+        "size": 135216,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/61d43577842179cdffeb38b6c1928786981db0da"
+      },
+      {
+        "path": "app/public/fonts/src/IBMPlexMono-Medium.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33c546f68b6007a45a3f10e845523abb2db25399",
+        "size": 136704,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/33c546f68b6007a45a3f10e845523abb2db25399"
+      },
+      {
+        "path": "app/public/fonts/src/IBMPlexMono-Regular.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c9770d5183ba60dc4350d3e011b782a320761ae",
+        "size": 135580,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/0c9770d5183ba60dc4350d3e011b782a320761ae"
+      },
+      {
+        "path": "app/public/fonts/src/IBMPlexMono-SemiBold.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f8998a139d8f61d3b96bdd3b512fca501a1f6b9",
+        "size": 140216,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8f8998a139d8f61d3b96bdd3b512fca501a1f6b9"
+      },
+      {
+        "path": "app/public/fonts/src/OFL.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8597481ebc941863ab228e79ea4305507cd73cc6",
+        "size": 4388,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8597481ebc941863ab228e79ea4305507cd73cc6"
+      },
+      {
+        "path": "app/public/fonts/stroke",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e4c6c45906c534d1eed5c022532ed85bded7aad2",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/e4c6c45906c534d1eed5c022532ed85bded7aad2"
+      },
+      {
+        "path": "app/public/fonts/stroke/EMSAllure.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1fb7bef668f675353e3bee6e23c87d8faf0c1fae",
+        "size": 57469,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/1fb7bef668f675353e3bee6e23c87d8faf0c1fae"
+      },
+      {
+        "path": "app/public/fonts/stroke/EMSFelix.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99950b80b30bffafb29ec0c1c3e37bf15bdd8d19",
+        "size": 48819,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/99950b80b30bffafb29ec0c1c3e37bf15bdd8d19"
+      },
+      {
+        "path": "app/public/fonts/stroke/EMSOsmotron.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "821a0e324645d45c0df170ef136f81fc02ecb412",
+        "size": 30158,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/821a0e324645d45c0df170ef136f81fc02ecb412"
+      },
+      {
+        "path": "app/public/fonts/stroke/EMSReadability.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c9c5174edbf3c22ed4611da912ab5984eb6a957e",
+        "size": 41926,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/c9c5174edbf3c22ed4611da912ab5984eb6a957e"
+      },
+      {
+        "path": "app/public/fonts/stroke/EMSTech.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ab5d67c18867458b91cb048a99cf9b7d8f4b311",
+        "size": 40777,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8ab5d67c18867458b91cb048a99cf9b7d8f4b311"
+      },
+      {
+        "path": "app/public/fonts/stroke/HersheySans1.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a49d184d524872505ca5df27bfd5534ad2042e41",
+        "size": 40196,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a49d184d524872505ca5df27bfd5534ad2042e41"
+      },
+      {
+        "path": "app/public/fonts/stroke/HersheyScript1.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe470218d8ae468e13729729a0a44e80b854683c",
+        "size": 60060,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/fe470218d8ae468e13729729a0a44e80b854683c"
+      },
+      {
+        "path": "app/public/fonts/stroke/HersheySerifMed.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "02da42feab93e0a72d3376a8085b224219d531a7",
+        "size": 60544,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/02da42feab93e0a72d3376a8085b224219d531a7"
+      },
+      {
+        "path": "app/public/plates",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2b765847b377c9670d81f9c4ed1407502afd258d",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/2b765847b377c9670d81f9c4ed1407502afd258d"
+      },
+      {
+        "path": "app/public/plates/fig01.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "426a708508a0cb55d09389035de78f6d1bfa8b34",
+        "size": 391085,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/426a708508a0cb55d09389035de78f6d1bfa8b34"
+      },
+      {
+        "path": "app/public/plates/fig02.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "080cd53bb3d1a729b00182d32bf3e3b9a145b7d2",
+        "size": 663931,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/080cd53bb3d1a729b00182d32bf3e3b9a145b7d2"
+      },
+      {
+        "path": "app/public/plates/fig03.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ba1020cd2e6f961f640fb8de0daecfc58f3ee3c",
+        "size": 539407,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7ba1020cd2e6f961f640fb8de0daecfc58f3ee3c"
+      },
+      {
+        "path": "app/public/plates/fig04.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3944af8061fef550c245678b46f19e90ef58dea",
+        "size": 467899,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e3944af8061fef550c245678b46f19e90ef58dea"
+      },
+      {
+        "path": "app/public/plates/fig05.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2771929da3148abfdee4325bc1156023deaaefb1",
+        "size": 473705,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/2771929da3148abfdee4325bc1156023deaaefb1"
+      },
+      {
+        "path": "app/public/plates/fig06.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c9c6387d0bd18f027c41e430db52d132856e7631",
+        "size": 475675,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/c9c6387d0bd18f027c41e430db52d132856e7631"
+      },
+      {
+        "path": "app/public/plates/fig07.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be7b58e12938ff25b8106aff7bf1ab5b6c6e01f5",
+        "size": 315443,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/be7b58e12938ff25b8106aff7bf1ab5b6c6e01f5"
+      },
+      {
+        "path": "app/public/plates/fig08.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f52805f5e17e3efc4136a2abc30e739df50b1c3e",
+        "size": 475323,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/f52805f5e17e3efc4136a2abc30e739df50b1c3e"
+      },
+      {
+        "path": "app/public/plates/fig09.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e3eb58c30c34f6b16c66c40af580f13f0f02f95",
+        "size": 469984,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5e3eb58c30c34f6b16c66c40af580f13f0f02f95"
+      },
+      {
+        "path": "app/public/plates/fig10.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7371bdf2ae7a9661da6ca1141c90534ee2a7a36",
+        "size": 278900,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d7371bdf2ae7a9661da6ca1141c90534ee2a7a36"
+      },
+      {
+        "path": "app/public/plates/fig11.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "70b84ee88f83ad29b5aa9227b75b651eda53c0ea",
+        "size": 351750,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/70b84ee88f83ad29b5aa9227b75b651eda53c0ea"
+      },
+      {
+        "path": "app/public/plates/fig12.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5cb2abfec2058127c6e962b44c05d6f8650f3c6a",
+        "size": 295187,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5cb2abfec2058127c6e962b44c05d6f8650f3c6a"
+      },
+      {
+        "path": "app/public/plates/fig13.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3a284a1cfb27ab2a70e997c6a3bd8ba8ae9ea5e",
+        "size": 335525,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e3a284a1cfb27ab2a70e997c6a3bd8ba8ae9ea5e"
+      },
+      {
+        "path": "app/public/plates/fig14.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d10d0db5dcb7f53947dfd9b42489dc801c855c0a",
+        "size": 359492,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d10d0db5dcb7f53947dfd9b42489dc801c855c0a"
+      },
+      {
+        "path": "app/scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "043428d63f82478ced14a0aeae5a5365ec42ac0e",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/043428d63f82478ced14a0aeae5a5365ec42ac0e"
+      },
+      {
+        "path": "app/scripts/render.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "000d4fff6571db3daefff6ad2e1f3189408204ed",
+        "size": 20522,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/000d4fff6571db3daefff6ad2e1f3189408204ed"
+      },
+      {
+        "path": "app/src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0f788f21feede413fcdf790003f8b099020daa8e",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/0f788f21feede413fcdf790003f8b099020daa8e"
+      },
+      {
+        "path": "app/src/engine",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c9e8e8a0718cc31ce7b43d702eefdf5feeebed29",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/c9e8e8a0718cc31ce7b43d702eefdf5feeebed29"
+      },
+      {
+        "path": "app/src/engine/audio.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc019af8f5f832fd087410ae97b5b115e7b36c4e",
+        "size": 5435,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/bc019af8f5f832fd087410ae97b5b115e7b36c4e"
+      },
+      {
+        "path": "app/src/engine/engine.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4bfb3c85507dacb7330ffcf6b79c19ffb4d3ee6f",
+        "size": 35873,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4bfb3c85507dacb7330ffcf6b79c19ffb4d3ee6f"
+      },
+      {
+        "path": "app/src/engine/gl.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d27d4b6905cb5215908b7d2432c1f902777c73df",
+        "size": 11491,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d27d4b6905cb5215908b7d2432c1f902777c73df"
+      },
+      {
+        "path": "app/src/engine/glsl",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "475e7cfa04bef0d77d01c01c35a0097709f9aa11",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/475e7cfa04bef0d77d01c01c35a0097709f9aa11"
+      },
+      {
+        "path": "app/src/engine/glsl/common.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "261de891e411488035fc77fe2e3cf760424136f8",
+        "size": 11064,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/261de891e411488035fc77fe2e3cf760424136f8"
+      },
+      {
+        "path": "app/src/engine/hud.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a3cc711a9ede34ebaf3335b34b93368e678dd16",
+        "size": 7755,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5a3cc711a9ede34ebaf3335b34b93368e678dd16"
+      },
+      {
+        "path": "app/src/engine/lines.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e21c97d6d7044752ac87097356b1e4dc2435f6a0",
+        "size": 7778,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e21c97d6d7044752ac87097356b1e4dc2435f6a0"
+      },
+      {
+        "path": "app/src/engine/lyrics.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d556d93c9ab411f94988ed40db3b7801f7d3ab0",
+        "size": 4150,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5d556d93c9ab411f94988ed40db3b7801f7d3ab0"
+      },
+      {
+        "path": "app/src/engine/palette.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb7012151a55f0aca7176827bbc4d213a0019ecf",
+        "size": 1290,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/fb7012151a55f0aca7176827bbc4d213a0019ecf"
+      },
+      {
+        "path": "app/src/engine/post.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3f155b086ebed67374515f481760a3884065471",
+        "size": 11047,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e3f155b086ebed67374515f481760a3884065471"
+      },
+      {
+        "path": "app/src/engine/scale.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ce43c887a3aabf86d70d00f492631d428aa7331e",
+        "size": 615,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ce43c887a3aabf86d70d00f492631d428aa7331e"
+      },
+      {
+        "path": "app/src/engine/scene.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db0e538b79ae21c561dfbe9716526f5743727c45",
+        "size": 3985,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/db0e538b79ae21c561dfbe9716526f5743727c45"
+      },
+      {
+        "path": "app/src/engine/stroke.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "08c5c13017f20ba7733240597303d3cba9662d21",
+        "size": 14549,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/08c5c13017f20ba7733240597303d3cba9662d21"
+      },
+      {
+        "path": "app/src/engine/type.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a74cc32764bc0a085d92dfb98b143318631362ef",
+        "size": 9573,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a74cc32764bc0a085d92dfb98b143318631362ef"
+      },
+      {
+        "path": "app/src/engine/util.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c403d739436989a488c960745bc7fe5e75890bff",
+        "size": 7537,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/c403d739436989a488c960745bc7fe5e75890bff"
+      },
+      {
+        "path": "app/src/main.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4fda0e6686be7cd1389693ed735ba79611d749cb",
+        "size": 10932,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4fda0e6686be7cd1389693ed735ba79611d749cb"
+      },
+      {
+        "path": "app/src/scenes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1603e09466a6954dc50082d5bbd81e9a69429228",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/1603e09466a6954dc50082d5bbd81e9a69429228"
+      },
+      {
+        "path": "app/src/scenes/_motifs.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99d2f22e14bb88787d121ae44f826c42a41b093f",
+        "size": 6254,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/99d2f22e14bb88787d121ae44f826c42a41b093f"
+      },
+      {
+        "path": "app/src/scenes/ascent-eye.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c9c00fda4be1793ac8649efb4a79bf63c875155",
+        "size": 10871,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3c9c00fda4be1793ac8649efb4a79bf63c875155"
+      },
+      {
+        "path": "app/src/scenes/ascent-note.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "67fe58bb5bfb3fa2354587e7b38a2ca881463beb",
+        "size": 9652,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/67fe58bb5bfb3fa2354587e7b38a2ca881463beb"
+      },
+      {
+        "path": "app/src/scenes/ascent-odo.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1fdba0fecc7c141db212ec76fecb8f05038c3163",
+        "size": 6063,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/1fdba0fecc7c141db212ec76fecb8f05038c3163"
+      },
+      {
+        "path": "app/src/scenes/ascent.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7633d1d20010969d109f80acf8106259ab4225f9",
+        "size": 39749,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7633d1d20010969d109f80acf8106259ab4225f9"
+      },
+      {
+        "path": "app/src/scenes/bureau.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e407db2dc4d88117bdbad12d946ac2f77d671a46",
+        "size": 57727,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e407db2dc4d88117bdbad12d946ac2f77d671a46"
+      },
+      {
+        "path": "app/src/scenes/dense-askew.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed3f851049a01c65a01e74d63883107ad8a3a45e",
+        "size": 30003,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ed3f851049a01c65a01e74d63883107ad8a3a45e"
+      },
+      {
+        "path": "app/src/scenes/dense-gpu.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5867c0d322c5b2a6556c21b47041e2bde9ed6f1c",
+        "size": 7481,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5867c0d322c5b2a6556c21b47041e2bde9ed6f1c"
+      },
+      {
+        "path": "app/src/scenes/dense-press.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b199e5c341e636996bafae90cafc29dfc5f1abd9",
+        "size": 33362,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/b199e5c341e636996bafae90cafc29dfc5f1abd9"
+      },
+      {
+        "path": "app/src/scenes/dense.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53ed129422f85c7a80463f75f4a07fbdc317e3de",
+        "size": 7328,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/53ed129422f85c7a80463f75f4a07fbdc317e3de"
+      },
+      {
+        "path": "app/src/scenes/fuse-pitch.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54565b1f488a3300c107005d9724908fdbbd2745",
+        "size": 2666,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/54565b1f488a3300c107005d9724908fdbbd2745"
+      },
+      {
+        "path": "app/src/scenes/fuse.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ee43ddd1c7a53740c7e2b5d5180e0d132dbe5e37",
+        "size": 56176,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ee43ddd1c7a53740c7e2b5d5180e0d132dbe5e37"
+      },
+      {
+        "path": "app/src/scenes/hook.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4afb052b1dab6ff3120eb079187b5e55f950676f",
+        "size": 37631,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4afb052b1dab6ff3120eb079187b5e55f950676f"
+      },
+      {
+        "path": "app/src/scenes/ilya-glsl.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae3240d27d404e14508558cb75211856489e8b45",
+        "size": 24235,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ae3240d27d404e14508558cb75211856489e8b45"
+      },
+      {
+        "path": "app/src/scenes/ilya-room.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e18e2181535fc9ee9d05d6ab9dea6235b0988b47",
+        "size": 22459,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e18e2181535fc9ee9d05d6ab9dea6235b0988b47"
+      },
+      {
+        "path": "app/src/scenes/ilya.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6765fdd3c795b5b0e06d239d511522e83e9dcbeb",
+        "size": 9291,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/6765fdd3c795b5b0e06d239d511522e83e9dcbeb"
+      },
+      {
+        "path": "app/src/scenes/leftturn-gantt.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5eddaa32a4472f4da9bf6af5de3f1feb250ea6ad",
+        "size": 15599,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5eddaa32a4472f4da9bf6af5de3f1feb250ea6ad"
+      },
+      {
+        "path": "app/src/scenes/leftturn-map.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba4d6ea84d9ace689558d22e058b3336dd21f0f7",
+        "size": 25008,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ba4d6ea84d9ace689558d22e058b3336dd21f0f7"
+      },
+      {
+        "path": "app/src/scenes/leftturn.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c9122e04c3fec13f846125d588854af5ef7789d5",
+        "size": 27284,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/c9122e04c3fec13f846125d588854af5ef7789d5"
+      },
+      {
+        "path": "app/src/scenes/loom-glsl.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "81c2c683a4a84bc0d160c64a6b3334d83f8abff6",
+        "size": 3689,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/81c2c683a4a84bc0d160c64a6b3334d83f8abff6"
+      },
+      {
+        "path": "app/src/scenes/loom-tree.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8872021e93b6a2b9e9a770353d6565322fa63de8",
+        "size": 14450,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8872021e93b6a2b9e9a770353d6565322fa63de8"
+      },
+      {
+        "path": "app/src/scenes/loom.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7f55d41e5817e99d378993e73e0b18604cc185c5",
+        "size": 22964,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7f55d41e5817e99d378993e73e0b18604cc185c5"
+      },
+      {
+        "path": "app/src/scenes/loss.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c1fb3ce1ab988838ac4575923ba0ff60786c843",
+        "size": 48269,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/0c1fb3ce1ab988838ac4575923ba0ff60786c843"
+      },
+      {
+        "path": "app/src/scenes/open-geo.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3642dc2bf35d650428299b3723ff86171250ebba",
+        "size": 13047,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3642dc2bf35d650428299b3723ff86171250ebba"
+      },
+      {
+        "path": "app/src/scenes/open.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec0e89a853084ed8d52d978494d1ee2894066775",
+        "size": 65398,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ec0e89a853084ed8d52d978494d1ee2894066775"
+      },
+      {
+        "path": "app/src/scenes/outro.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "692a985bda2a5e31186e1de8084395511ac28221",
+        "size": 45393,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/692a985bda2a5e31186e1de8084395511ac28221"
+      },
+      {
+        "path": "app/src/scenes/paperclips-geo.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d70fbfcee3d3c2a48f4b689071b6e4456a861a0",
+        "size": 6251,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/2d70fbfcee3d3c2a48f4b689071b6e4456a861a0"
+      },
+      {
+        "path": "app/src/scenes/paperclips-glsl.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e87afe25c27f97af6eb9b00a0791c61321408955",
+        "size": 12859,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e87afe25c27f97af6eb9b00a0791c61321408955"
+      },
+      {
+        "path": "app/src/scenes/paperclips.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "782036da2031a4fed7cc5b6c9a1cdb712ad46cbe",
+        "size": 21367,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/782036da2031a4fed7cc5b6c9a1cdb712ad46cbe"
+      },
+      {
+        "path": "app/src/scenes/prompt-data.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ca4725db8edbf8a03a84154effc93317262cbbef",
+        "size": 3357,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ca4725db8edbf8a03a84154effc93317262cbbef"
+      },
+      {
+        "path": "app/src/scenes/prompt.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "054c11d190cfbd64b2052c0e4542ec1bc6df5d14",
+        "size": 37436,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/054c11d190cfbd64b2052c0e4542ec1bc6df5d14"
+      },
+      {
+        "path": "app/src/scenes/room-geo.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "583a1f4e6a982282ebbb3902dbfcd5ad292d035d",
+        "size": 12335,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/583a1f4e6a982282ebbb3902dbfcd5ad292d035d"
+      },
+      {
+        "path": "app/src/scenes/room-shrooms.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0792b8944d4f94658c0b54fd6919a206c59d9e9",
+        "size": 2099,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a0792b8944d4f94658c0b54fd6919a206c59d9e9"
+      },
+      {
+        "path": "app/src/scenes/room.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8b9025db08eb48e25109a74e9bb8579d7e4a6b4",
+        "size": 75167,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/c8b9025db08eb48e25109a74e9bb8579d7e4a6b4"
+      },
+      {
+        "path": "app/src/scenes/shoggoth-glsl.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58a7f54b601a64294be2c9bf812b66d300d89bec",
+        "size": 21361,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/58a7f54b601a64294be2c9bf812b66d300d89bec"
+      },
+      {
+        "path": "app/src/scenes/shoggoth.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d5337e9736c73339b7991a4725ff2b79ccf3b7a",
+        "size": 43885,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4d5337e9736c73339b7991a4725ff2b79ccf3b7a"
+      },
+      {
+        "path": "app/src/scenes/spacetime-lens.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6546c5b89e2e1428381a0a42cdf784417880e455",
+        "size": 10274,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/6546c5b89e2e1428381a0a42cdf784417880e455"
+      },
+      {
+        "path": "app/src/scenes/spacetime.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "480b7c18b96f8c8375355831521a81227b50546e",
+        "size": 47201,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/480b7c18b96f8c8375355831521a81227b50546e"
+      },
+      {
+        "path": "app/src/scenes/stack-kit.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "798bae8b5175d2f252e334a4acf47625c760c925",
+        "size": 9401,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/798bae8b5175d2f252e334a4acf47625c760c925"
+      },
+      {
+        "path": "app/src/scenes/stack.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09e2dc78d16c3e43a93606c237cb4a6c4dc94d52",
+        "size": 36610,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/09e2dc78d16c3e43a93606c237cb4a6c4dc94d52"
+      },
+      {
+        "path": "app/src/timeline.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3464c25ddd33a93904af12a76e9035f5bd9b569a",
+        "size": 3875,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3464c25ddd33a93904af12a76e9035f5bd9b569a"
+      },
+      {
+        "path": "app/tsconfig.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29b7c220523863bbdcb381433344555ccfb3d91d",
+        "size": 456,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/29b7c220523863bbdcb381433344555ccfb3d91d"
+      },
+      {
+        "path": "app/tsconfig.scripts.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a09e480b8e7c2e4cf27b717a31f9cad271ac2f86",
+        "size": 104,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a09e480b8e7c2e4cf27b717a31f9cad271ac2f86"
+      },
+      {
+        "path": "app/vite.config.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "03750267a34ac5cd3ecfb8c560eadad814215187",
+        "size": 1352,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/03750267a34ac5cd3ecfb8c560eadad814215187"
+      },
+      {
+        "path": "audio",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9bf2a81426e220455fc80d607dac9c03dcf9fca6",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/9bf2a81426e220455fc80d607dac9c03dcf9fca6"
+      },
+      {
+        "path": "audio/pdoom.mp3",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ef01c1a2b8fab9f871cac6f17e0ebe527109cb0",
+        "size": 3437188,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3ef01c1a2b8fab9f871cac6f17e0ebe527109cb0"
+      },
+      {
+        "path": "data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9bbc3c3d348391645863dc1604ab7c639ba39391",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/9bbc3c3d348391645863dc1604ab7c639ba39391"
+      },
+      {
+        "path": "data/audio.approx.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4330eb6ee6282a2f47be7d4a32a4c7498d679f93",
+        "size": 4628,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4330eb6ee6282a2f47be7d4a32a4c7498d679f93"
+      },
+      {
+        "path": "data/audio.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "32ce16f147eb63685fe823aa1e3c171bbd0054b1",
+        "size": 755529,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/32ce16f147eb63685fe823aa1e3c171bbd0054b1"
+      },
+      {
+        "path": "data/lyrics.approx.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "93e577c624a57ea2d1b0ddbe96657b01efc925ea",
+        "size": 25332,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/93e577c624a57ea2d1b0ddbe96657b01efc925ea"
+      },
+      {
+        "path": "data/lyrics.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "34721511cb45dc41b77c18cd8fcbbbb37d6386c2",
+        "size": 31277,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/34721511cb45dc41b77c18cd8fcbbbb37d6386c2"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4817c77617123ede0bd4d9d29db812b20e694dc0",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/4817c77617123ede0bd4d9d29db812b20e694dc0"
+      },
+      {
+        "path": "docs/ENGINE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab5b2b1bca612d8a69e558c1acf29965717885f4",
+        "size": 16742,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ab5b2b1bca612d8a69e558c1acf29965717885f4"
+      },
+      {
+        "path": "docs/TREATMENT.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f2560e1e584dbd2462ec7173c59703b0f653fb3",
+        "size": 24508,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/0f2560e1e584dbd2462ec7173c59703b0f653fb3"
+      },
+      {
+        "path": "lyrics",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bbae8c0319b921110b37053b981690141710c19c",
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/bbae8c0319b921110b37053b981690141710c19c"
+      },
+      {
+        "path": "lyrics/lyrics.src.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec42a338ec3de96a4c9ccaffba5b9beb7d7942e5",
+        "size": 2160,
+        "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ec42a338ec3de96a4c9ccaffba5b9beb7d7942e5"
+      }
+    ],
+    "truncated": false
+  }
+}

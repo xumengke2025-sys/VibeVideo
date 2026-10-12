@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s03-root { position: absolute; inset: 0; }
+        #s03-call { left: 110px; top: 210px; width: 1060px; height: 580px; }
+        #s03-head { left: 28px; top: 26px; }
+        #s03-mcp { left: auto; right: 24px; top: 20px; font-size: 18px; }
+        #s03-code { position: absolute; left: 40px; top: 84px; font: 500 26px/44px var(--k-mono); color: var(--k-ink); }
+        #s03-code > div { position: relative; white-space: pre; }
+        .s03-k { color: var(--k-ink-3); }
+        #s03-band { left: 26px; top: 0; width: 1008px; height: 44px; border-radius: 8px; background: var(--k-accent-tint); box-shadow: inset 0 0 0 1.5px var(--k-accent-soft); }
+        #s03-where { left: 1290px; top: 210px; }
+        #s03-pill { left: 0; top: 0; font-size: 22px; }
+      </style>
+      <div id="s03-root" data-composition-id="s03-toolcall" data-width="1920" data-height="1080">
+        <div id="s03-scene" class="k-scene">
+          <div id="s03-call" class="k-panel">
+            <div id="s03-band" class="k-abs"></div>
+            <div id="s03-head" class="k-abs k-micro">agent → makefx · tool call</div>
+            <div id="s03-mcp" class="k-chip">mcp</div>
+            <div id="s03-code"></div>
+          </div>
+          <div id="s03-where" class="k-abs k-micro">canvas · alv/salt-harbour</div>
+          <div id="s03-pill" class="k-pill k-amber">create_asset · video/h3-max</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s03-scene");
+          K.chrome(scene, tl, { title: "A tool call, not a form", step: 1, animateStep: false });
+
+          // The call as the agent sends it: every key is there, each value is written on its beat.
+          const LINES = [
+            ["create_asset {", ""],
+            ['  "space_id": ', '"alv/salt-harbour",'],
+            ['  "kind": ', '"video",'],
+            ['  "model": ', '"video/h3-max",'],
+            ['  "prompt": ', '"camera flight over the harbour at low tide",'],
+            ['  "references": [', ""],
+            ["    ", '{"asset_id": "as_s02", "slot": "start_frame"}'],
+            ["  ],", ""],
+            ['  "params": ', '{"duration_seconds": 8, "resolution": "480p"}'],
+            ["}", ""],
+          ];
+          const code = document.getElementById("s03-code");
+          const vals = LINES.map(([k, v], i) => {
+            const row = K.el(code, "div");
+            K.el(row, "span", { class: i === 0 || i === 9 ? "" : "s03-k" }).textContent = k;
+            return K.el(row, "span", { id: `s03-val-${i}` });
+          });
+
+          // The space's canvas, where the call lands: the still it starts from is already there.
+          const still = K.card(scene, { id: "s03-still", left: 1290, top: 260, scale: 1.4, art: K.harbourArt({ boat: -20 }), name: "quay at low tide", cr: "3 cr" });
+          // The art's sun glow is cropped by the media on purpose.
+          K.part(still, "k-thumb").querySelectorAll("svg, svg *").forEach((e) => e.setAttribute("data-layout-allow-overflow", ""));
+          K.leader(scene, still.k.left + still.k.W - 40, still.k.bottom + 8, still.k.left + still.k.W - 10, still.k.bottom + 40, "as_s02");
+
+          // Geometry: 26 px mono (15.6 px a cell), 44 px rows, code from x 150, rows from y 294.
+          const CELL = 26 * 0.6, X = 150, rowY = (i) => 294 + 22 + i * 44;
+          const valMid = (i) => X + (LINES[i][0].length + LINES[i][1].length / 2) * CELL;
+          const band = document.getElementById("s03-band");
+
+          // b0–b5: one field per beat; the band marks the field being written
+          const FIELDS = [1, 2, 3, 4, 6, 8];
+          FIELDS.forEach((i, b) => {
+            if (b === 0) tl.fromTo(band, { opacity: 0, y: 84 + i * 44 }, { opacity: 1, duration: 0.08, ease: "power1.out", data: "follow" }, K.t(0));
+            else tl.to(band, { y: 84 + i * 44, duration: 0.08, ease: K.easeMove, data: "follow" }, K.t(b));
+            K.type(tl, vals[i], LINES[i][1], b, 0.18);
+          });
+
+          // b6: the finished call leaves the panel as one pill, into the canvas
+          const pill = document.getElementById("s03-pill");
+          const PW = 380, PH = 44, DX = still.k.cx, DY = still.k.bottom + 150;
+          const route = K.el(K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } }), "path",
+            { d: `M${valMid(8) + 40} ${rowY(9) + 20} C ${1180} ${rowY(9) + 40}, ${DX - 260} ${DY}, ${DX} ${DY}`, fill: "none", stroke: "none" });
+          tl.to(band, { opacity: 0, duration: 0.08, data: "follow" }, K.t(6));
+          tl.fromTo(pill, { opacity: 0 }, { opacity: 1, duration: 0.06, data: "follow" }, K.t(6));
+          K.travel(tl, pill, route, 6, 0.24, K.easeMove, PW, PH);
+          // b7: it lands in the space's canvas, under the still it starts from
+          K.land(tl, pill, K.t(7));
+          K.sparkle(tl, scene, DX, DY, K.t(7) + 0.02, { r: 60 });
+
+          K.focus(scene, tl, "s03", [
+            [0, valMid(1), rowY(1)], [1, valMid(2), rowY(2)], [2, valMid(3), rowY(3)], [3, valMid(4), rowY(4)],
+            [4, valMid(6), rowY(6)], [5, valMid(8), rowY(8)], [6, 1240, 700], [7, DX, DY],
+          ]);
+          K.check(tl, "s03");
+          window.__timelines["s03-toolcall"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

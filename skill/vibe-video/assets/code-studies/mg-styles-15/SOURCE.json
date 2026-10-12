@@ -1,0 +1,947 @@
+{
+  "repository": "https://github.com/Vincentwei1021/mg-styles-15",
+  "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+  "checked": "2026-10-09",
+  "license": "代码MIT；字体和glyphs等衍生轮廓保留OFL等原许可，见上游README及assets/fonts/README.md。不能把全包统一视为MIT。",
+  "scope": "Pinned source reference archive; not a reproduced film or complete offline asset/dependency bundle",
+  "excluded": [
+    "media, raster/mesh assets, fonts, audio samples, installed dependencies, site, output logs; selected text files only"
+  ],
+  "inspected": [
+    "demos/08-morph/index.html:50-134,273-372",
+    "demos/07-liquid/js/shaders.js:1-200",
+    "demos/05-cel-boil/js/engine.js:1-231",
+    "demos/03-isometric/js/render.js:1-203",
+    "demos/20-pixel/film.js:1-105"
+  ],
+  "runtime_verification": "not run in this study",
+  "files": [
+    {
+      "source_path": "assets/fonts/README.md",
+      "local_path": "assets/fonts/README.md",
+      "sha256": "2ee6b1929b6b5149af6d05417fda70e129eba8259df803bc9c6b056b66e48d18",
+      "bytes": 4014
+    },
+    {
+      "source_path": "demos/01-flat-vector/audio.py",
+      "local_path": "demos/01-flat-vector/audio.py",
+      "sha256": "adf696daf70fedd0eec17eebc254f9bad9616c081c365fbd0783f25037553102",
+      "bytes": 7610
+    },
+    {
+      "source_path": "demos/01-flat-vector/cues.json",
+      "local_path": "demos/01-flat-vector/cues.json",
+      "sha256": "7f215e5413f0f22766f7db0a046dbd10222a90b208d591a641ed0ec454d12d3a",
+      "bytes": 906
+    },
+    {
+      "source_path": "demos/01-flat-vector/index.html",
+      "local_path": "demos/01-flat-vector/index.html",
+      "sha256": "0f30e342c58bbcf3316d1e7cc3763055e247d1d4fdbcf1f1cef650c0be0bf66e",
+      "bytes": 76739
+    },
+    {
+      "source_path": "demos/02-line-art/audio.py",
+      "local_path": "demos/02-line-art/audio.py",
+      "sha256": "2bece12b416c4cf8004127cfc97546efd451cce6d4b06196680ea14d3ef60fe2",
+      "bytes": 9978
+    },
+    {
+      "source_path": "demos/02-line-art/cues.json",
+      "local_path": "demos/02-line-art/cues.json",
+      "sha256": "66bcec8ddafbded69832ef8947d643336054d90ecf282df3e3de35bad9cc15d9",
+      "bytes": 3214
+    },
+    {
+      "source_path": "demos/02-line-art/film.js",
+      "local_path": "demos/02-line-art/film.js",
+      "sha256": "4227fb400377a124ea3f874b6fb66d03c5918e20702274958ab1de1846e97448",
+      "bytes": 46982
+    },
+    {
+      "source_path": "demos/02-line-art/index.html",
+      "local_path": "demos/02-line-art/index.html",
+      "sha256": "b550add4f153964817af82943c59f31a1df539e186537601ffb8c9badaac5ddb",
+      "bytes": 566
+    },
+    {
+      "source_path": "demos/02-line-art/tools/dump_timing.mjs",
+      "local_path": "demos/02-line-art/tools/dump_timing.mjs",
+      "sha256": "c62e777cf6aa91507f371c4e9d18942a75f90b9834c449c5f3f88a45818ca904",
+      "bytes": 2188
+    },
+    {
+      "source_path": "demos/02-line-art/tools/retime.py",
+      "local_path": "demos/02-line-art/tools/retime.py",
+      "sha256": "12cc2630f8128d91d171965c53a61bf256b3d854f7c4ba069cf25793bcb36473",
+      "bytes": 4430
+    },
+    {
+      "source_path": "demos/03-isometric/audio.py",
+      "local_path": "demos/03-isometric/audio.py",
+      "sha256": "d3444c0ecce99c2526906ef27f29d5733d6f74a6dc78e223521efdcab36661eb",
+      "bytes": 14263
+    },
+    {
+      "source_path": "demos/03-isometric/cues.json",
+      "local_path": "demos/03-isometric/cues.json",
+      "sha256": "5619858ffdb9ef0e8110d53a90dc24418602b41bd7708c698e9828d9e9dda6e9",
+      "bytes": 1240
+    },
+    {
+      "source_path": "demos/03-isometric/index.html",
+      "local_path": "demos/03-isometric/index.html",
+      "sha256": "7b19eedbf79e452180c5641fa7ea459382a6c5adc644999ee66b80828530b4f6",
+      "bytes": 1019
+    },
+    {
+      "source_path": "demos/03-isometric/js/anim.js",
+      "local_path": "demos/03-isometric/js/anim.js",
+      "sha256": "244b83e8090cf49d3d6d803390fcace7b442dc61363e37b61736b00a4800f5ed",
+      "bytes": 3953
+    },
+    {
+      "source_path": "demos/03-isometric/js/main.js",
+      "local_path": "demos/03-isometric/js/main.js",
+      "sha256": "ddbffbe057b88a0cda98932ba793ddbe26be6ac37c99fe7fa63e165cc4750d5a",
+      "bytes": 13582
+    },
+    {
+      "source_path": "demos/03-isometric/js/night5.js",
+      "local_path": "demos/03-isometric/js/night5.js",
+      "sha256": "53bdffdf92ae8c883bf81e020d123bbe913eb0c68014762a8c14f451b94efa53",
+      "bytes": 11868
+    },
+    {
+      "source_path": "demos/03-isometric/js/render.js",
+      "local_path": "demos/03-isometric/js/render.js",
+      "sha256": "646086cbe389bab4b0c168b5bf5a7d0a628aee8568ec3996fbf6addfe60950d0",
+      "bytes": 9205
+    },
+    {
+      "source_path": "demos/03-isometric/js/title.js",
+      "local_path": "demos/03-isometric/js/title.js",
+      "sha256": "b9fb0e4dbf8b7f054ab263c22f85c55e6a45d865fe0287ec6985b0ddc4d88a52",
+      "bytes": 8529
+    },
+    {
+      "source_path": "demos/03-isometric/js/title5.js",
+      "local_path": "demos/03-isometric/js/title5.js",
+      "sha256": "5725ab88eb188b54701343836cd00b475b4dc640b4ae5573699788e7219a4c79",
+      "bytes": 16517
+    },
+    {
+      "source_path": "demos/03-isometric/js/ui.js",
+      "local_path": "demos/03-isometric/js/ui.js",
+      "sha256": "e915b89d461b840e10c986948e32667bb2dd263f2c5bf120db8654aa3f9d2f9d",
+      "bytes": 9547
+    },
+    {
+      "source_path": "demos/03-isometric/js/world.js",
+      "local_path": "demos/03-isometric/js/world.js",
+      "sha256": "7542ccf4bae1436da30594ef8ce62ce8f2f4fb13a833dce77cff70f06aac3da6",
+      "bytes": 80534
+    },
+    {
+      "source_path": "demos/04-3d-render/assets/mesh/glyphs.json",
+      "local_path": "demos/04-3d-render/assets/mesh/glyphs.json",
+      "sha256": "dbed13e464f6b25b80755323805c9aa6513043e847d3277fe8b8c01101a797e2",
+      "bytes": 1187
+    },
+    {
+      "source_path": "demos/04-3d-render/audio.py",
+      "local_path": "demos/04-3d-render/audio.py",
+      "sha256": "e9ce5e33bf184ced60cd0470699881933f6c2786492acbd67f601113368af606",
+      "bytes": 10817
+    },
+    {
+      "source_path": "demos/04-3d-render/blender/common.py",
+      "local_path": "demos/04-3d-render/blender/common.py",
+      "sha256": "ec51f336e26f8f6804e628bee0b2fd86d5199c869a491d28b700158c82fc9b0d",
+      "bytes": 2378
+    },
+    {
+      "source_path": "demos/04-3d-render/blender/make_letters.py",
+      "local_path": "demos/04-3d-render/blender/make_letters.py",
+      "sha256": "56ef14b9d66168918e0e87b0cb04d84c0d5a0bb584302f3687d59edb56fe7047",
+      "bytes": 6310
+    },
+    {
+      "source_path": "demos/04-3d-render/blender/render.py",
+      "local_path": "demos/04-3d-render/blender/render.py",
+      "sha256": "b6c0b3715f7da8fcbd13aea9951446a32afb38b27d1c78fb3cca09d525b95173",
+      "bytes": 2997
+    },
+    {
+      "source_path": "demos/04-3d-render/blender/scene.py",
+      "local_path": "demos/04-3d-render/blender/scene.py",
+      "sha256": "27cf1a0149a88151ca90eb68f2a5c0138d8553a3bf18d9f5adde7eae72115071",
+      "bytes": 34690
+    },
+    {
+      "source_path": "demos/04-3d-render/blender/sim.py",
+      "local_path": "demos/04-3d-render/blender/sim.py",
+      "sha256": "ce952c689bf560ff565397ed6c2f02bed80687ca41bf3a067fb4a75361a2fe8a",
+      "bytes": 28728
+    },
+    {
+      "source_path": "demos/04-3d-render/cues.json",
+      "local_path": "demos/04-3d-render/cues.json",
+      "sha256": "83644d7a7546b6ecc0a203e5c829c830e2a12927b818be4c79c21c1b5680783e",
+      "bytes": 1125
+    },
+    {
+      "source_path": "demos/04-3d-render/index.html",
+      "local_path": "demos/04-3d-render/index.html",
+      "sha256": "c544ed5fa901fb48e1659451517f8cb57a26c774f8bb211620b4b3b8ab62c7b7",
+      "bytes": 15454
+    },
+    {
+      "source_path": "demos/04-3d-render/README.md",
+      "local_path": "demos/04-3d-render/README.md",
+      "sha256": "7067308f1d4361fca71a558559b237ebe79fa8a3e2631e1a06dca29271bd66b5",
+      "bytes": 899
+    },
+    {
+      "source_path": "demos/05-cel-boil/audio.py",
+      "local_path": "demos/05-cel-boil/audio.py",
+      "sha256": "77d6df84ae2d2281514c5673df12b50eb521542ad04002bf8e303b6ca56fb303",
+      "bytes": 24290
+    },
+    {
+      "source_path": "demos/05-cel-boil/cues.json",
+      "local_path": "demos/05-cel-boil/cues.json",
+      "sha256": "a2155fa2ce253b492bf566223b56ed06d75a9045d0e377fabfbb199a6811415d",
+      "bytes": 2188
+    },
+    {
+      "source_path": "demos/05-cel-boil/index.html",
+      "local_path": "demos/05-cel-boil/index.html",
+      "sha256": "3f50e10ce0cd152f67ebf140f75752c1964cb9edefd6d5f336dd8042e9f03845",
+      "bytes": 1447
+    },
+    {
+      "source_path": "demos/05-cel-boil/js/engine.js",
+      "local_path": "demos/05-cel-boil/js/engine.js",
+      "sha256": "806ccc3d962d94bb8b4f8c1b78ef68297d36206cd47cce02cf51826f7b643b56",
+      "bytes": 13778
+    },
+    {
+      "source_path": "demos/05-cel-boil/js/scene.js",
+      "local_path": "demos/05-cel-boil/js/scene.js",
+      "sha256": "c26e7f9119d0e74e28cc3159deb496ff161f66a426829871ef76b9b2bc98e250",
+      "bytes": 117394
+    },
+    {
+      "source_path": "demos/05-cel-boil/tools/gen_dust.py",
+      "local_path": "demos/05-cel-boil/tools/gen_dust.py",
+      "sha256": "0c14de134357ea6ae3118b201d11ac52138850329b6c0ce77cc56faebdd3ba3c",
+      "bytes": 707
+    },
+    {
+      "source_path": "demos/05-cel-boil/tools/gen_paper.py",
+      "local_path": "demos/05-cel-boil/tools/gen_paper.py",
+      "sha256": "8592befd5143df7cb35dd1500994ec63225f30c839ce9d64823b09c54d022486",
+      "bytes": 2360
+    },
+    {
+      "source_path": "demos/05-cel-boil/tools/hitmax.py",
+      "local_path": "demos/05-cel-boil/tools/hitmax.py",
+      "sha256": "ee037cc4b58124aaf7e3a2819eff3650641ee003d292635e59261a558e4b3a6d",
+      "bytes": 4168
+    },
+    {
+      "source_path": "demos/06-collage/assets/gen/layout.json",
+      "local_path": "demos/06-collage/assets/gen/layout.json",
+      "sha256": "63eb41f5b30a692e76fe7789b0346a75557280ba2e1c2927651ec755c28748b1",
+      "bytes": 1621
+    },
+    {
+      "source_path": "demos/06-collage/audio.py",
+      "local_path": "demos/06-collage/audio.py",
+      "sha256": "91a587fc2e39bcea41215617ed204c202a2d68ad0de2a9c82ed782d86187be06",
+      "bytes": 10279
+    },
+    {
+      "source_path": "demos/06-collage/cues.json",
+      "local_path": "demos/06-collage/cues.json",
+      "sha256": "d9fdceb8a1da9610d5d82b190c61d9e87e4d9afa5e92915584717c1b384ff35c",
+      "bytes": 1310
+    },
+    {
+      "source_path": "demos/06-collage/index.html",
+      "local_path": "demos/06-collage/index.html",
+      "sha256": "1ce00a0c261735d1fb7338a69b82ffe167cf750e723a27e6e21ec7d53c08c6c4",
+      "bytes": 66536
+    },
+    {
+      "source_path": "demos/06-collage/work/prep.py",
+      "local_path": "demos/06-collage/work/prep.py",
+      "sha256": "ff3147a83c8a00e4e48bfc8f0a54653088dab88d4fe3cb332e0884a64a911186",
+      "bytes": 16663
+    },
+    {
+      "source_path": "demos/06-collage/work/prep_birds.py",
+      "local_path": "demos/06-collage/work/prep_birds.py",
+      "sha256": "5964f7cf940c261f48fc017149ff5ac9c347c35536ac3f79103fd7361041762b",
+      "bytes": 819
+    },
+    {
+      "source_path": "demos/06-collage/work/prep_hand.py",
+      "local_path": "demos/06-collage/work/prep_hand.py",
+      "sha256": "26cc2027a9eab905b82dd153301177299a919d320463f7effa4c05dbfe2bf8b9",
+      "bytes": 1788
+    },
+    {
+      "source_path": "demos/07-liquid/audio.py",
+      "local_path": "demos/07-liquid/audio.py",
+      "sha256": "21f24e19ecb858ac39518fa5aab0f4f30e87ac83698d33697689f70788dd3636",
+      "bytes": 11884
+    },
+    {
+      "source_path": "demos/07-liquid/cues.json",
+      "local_path": "demos/07-liquid/cues.json",
+      "sha256": "db61987daf4e1d4cbea376db8c5c6cf0ce8f0bb589d0330353dadb47a06a3686",
+      "bytes": 1702
+    },
+    {
+      "source_path": "demos/07-liquid/index.html",
+      "local_path": "demos/07-liquid/index.html",
+      "sha256": "81b4aaa0a699f059529b52b0c87ca06ff1872fab09fc1e50f13b8a5a5fd934d6",
+      "bytes": 6401
+    },
+    {
+      "source_path": "demos/07-liquid/js/engine.js",
+      "local_path": "demos/07-liquid/js/engine.js",
+      "sha256": "ba0b5765f838a83ed5b802715c38ffe2726203a81840f72fc93f1a63e7695f1b",
+      "bytes": 9770
+    },
+    {
+      "source_path": "demos/07-liquid/js/links.js",
+      "local_path": "demos/07-liquid/js/links.js",
+      "sha256": "1215809dbedf931d07bd3adbf85515796b1825d38248664a948ae397a23021ab",
+      "bytes": 4420
+    },
+    {
+      "source_path": "demos/07-liquid/js/lookdev.js",
+      "local_path": "demos/07-liquid/js/lookdev.js",
+      "sha256": "6217d80bdf31cf40967735101729026a70b51d9c2c5a6edee79c29431c8f8e62",
+      "bytes": 2622
+    },
+    {
+      "source_path": "demos/07-liquid/js/scene.js",
+      "local_path": "demos/07-liquid/js/scene.js",
+      "sha256": "9502f66dc168e18a854108ef5a887ac3afedfc92e22b616d6b8383c0be207614",
+      "bytes": 56751
+    },
+    {
+      "source_path": "demos/07-liquid/js/shaders.js",
+      "local_path": "demos/07-liquid/js/shaders.js",
+      "sha256": "1860d08aeaad016c95b9ced19963272ca1cedd85fcc56b53345c4efa158c44ed",
+      "bytes": 31758
+    },
+    {
+      "source_path": "demos/07-liquid/js/textsdf.js",
+      "local_path": "demos/07-liquid/js/textsdf.js",
+      "sha256": "380c4b90b0e19db237e51dd41385551f8bf17a6206c3c52737bb7835e11924df",
+      "bytes": 5558
+    },
+    {
+      "source_path": "demos/07-liquid/js/type.js",
+      "local_path": "demos/07-liquid/js/type.js",
+      "sha256": "06be4083a7cd8593cac00cf6bf11e022d0be5649eadf1b68e9070838cab5cb69",
+      "bytes": 2638
+    },
+    {
+      "source_path": "demos/08-morph/audio.py",
+      "local_path": "demos/08-morph/audio.py",
+      "sha256": "29780d788980ae6ffd64681213eaba0b1ae7983d387fb00aa7ade264d72fc7dd",
+      "bytes": 8665
+    },
+    {
+      "source_path": "demos/08-morph/cues.json",
+      "local_path": "demos/08-morph/cues.json",
+      "sha256": "d81d38be1a6712e65a185d12a91642f77bb7e74325e3b678941dc9bddc4f89c0",
+      "bytes": 1541
+    },
+    {
+      "source_path": "demos/08-morph/glyphs.json",
+      "local_path": "demos/08-morph/glyphs.json",
+      "sha256": "548ad1315f89f747271280655972bc7e783261a799666eeb7c70db87c17d7248",
+      "bytes": 24462
+    },
+    {
+      "source_path": "demos/08-morph/index.html",
+      "local_path": "demos/08-morph/index.html",
+      "sha256": "4d104505425b3cc991e9b7b49c8bb3b653a1a5da471d0bce5ccca347d77ce62d",
+      "bytes": 81267
+    },
+    {
+      "source_path": "demos/08-morph/tools/glyphs.py",
+      "local_path": "demos/08-morph/tools/glyphs.py",
+      "sha256": "160d193e10120aa17823e64caea274f44698c36905c8ac92f1877121c6eb35f0",
+      "bytes": 2387
+    },
+    {
+      "source_path": "demos/09-bauhaus/audio.py",
+      "local_path": "demos/09-bauhaus/audio.py",
+      "sha256": "8265a427ec9a5fd4fec00cebb2193996df1d67a1a6e010926b0ff5ded18f7701",
+      "bytes": 9344
+    },
+    {
+      "source_path": "demos/09-bauhaus/cues.json",
+      "local_path": "demos/09-bauhaus/cues.json",
+      "sha256": "c8a67c33b5f3c0a574759a201bfc602a43a024ebf9ca930d7fdd5b418af006e4",
+      "bytes": 3719
+    },
+    {
+      "source_path": "demos/09-bauhaus/film.js",
+      "local_path": "demos/09-bauhaus/film.js",
+      "sha256": "1a7bd377ae13f5b04476fe085f55dc8ed9a9ec8d940881bc78aeee0144edf395",
+      "bytes": 44809
+    },
+    {
+      "source_path": "demos/09-bauhaus/index.html",
+      "local_path": "demos/09-bauhaus/index.html",
+      "sha256": "94855c63ee1a2d38a3811e65f5c9351f525c6a53b68a20edb891027bfb7c0740",
+      "bytes": 487
+    },
+    {
+      "source_path": "demos/10-synthwave/audio.py",
+      "local_path": "demos/10-synthwave/audio.py",
+      "sha256": "ab1f3850c1deaa8be69e20a598aa7a51f32347194ffc0a6c161989afe7391ee1",
+      "bytes": 11743
+    },
+    {
+      "source_path": "demos/10-synthwave/cues.json",
+      "local_path": "demos/10-synthwave/cues.json",
+      "sha256": "49d124ba0b429c69f86f11200de1bf7889a9b0a8076f0e01c120e911921cdeae",
+      "bytes": 1312
+    },
+    {
+      "source_path": "demos/10-synthwave/index.html",
+      "local_path": "demos/10-synthwave/index.html",
+      "sha256": "60603876aa00a08901c085c0834b991895971a40a9c73fda4a0ae10b18b37e91",
+      "bytes": 82744
+    },
+    {
+      "source_path": "demos/12-aurora-glass/audio.py",
+      "local_path": "demos/12-aurora-glass/audio.py",
+      "sha256": "5b521f9eea552eea646060299b90463bce8b194501b06d02f74f5204d9aa1d7b",
+      "bytes": 10545
+    },
+    {
+      "source_path": "demos/12-aurora-glass/cues.json",
+      "local_path": "demos/12-aurora-glass/cues.json",
+      "sha256": "3f8d6f7be6bb2f9453ae54fe4253b3cbd4033cb029a6c566169d7b0b8e91e201",
+      "bytes": 881
+    },
+    {
+      "source_path": "demos/12-aurora-glass/index.html",
+      "local_path": "demos/12-aurora-glass/index.html",
+      "sha256": "0def2223e6949e21fa38093cb6d54752d6606e4edde3ae44b5f52ae05ddd223b",
+      "bytes": 461
+    },
+    {
+      "source_path": "demos/12-aurora-glass/main.js",
+      "local_path": "demos/12-aurora-glass/main.js",
+      "sha256": "18553afb83a9c4c95f7f4c8a996fc816245a9b9e0d218b8bd9bd912ec785b6d6",
+      "bytes": 64655
+    },
+    {
+      "source_path": "demos/12-aurora-glass/shaders.js",
+      "local_path": "demos/12-aurora-glass/shaders.js",
+      "sha256": "a912e968e5c90f25f3919adf572d4fd11231a661eb3b2bd3d1d22db6cf954c59",
+      "bytes": 27353
+    },
+    {
+      "source_path": "demos/18-hanazi/assets/prep.py",
+      "local_path": "demos/18-hanazi/assets/prep.py",
+      "sha256": "72fc366f8578b8b5cf1b3934f172ff009a36bfe94187ccff630862ab35d1b0c3",
+      "bytes": 8811
+    },
+    {
+      "source_path": "demos/18-hanazi/assets/prep_r2.py",
+      "local_path": "demos/18-hanazi/assets/prep_r2.py",
+      "sha256": "28d910144f432bb5e4705a379ae1197ad4290c2007b4fa68f27f3886733c43f2",
+      "bytes": 8193
+    },
+    {
+      "source_path": "demos/18-hanazi/assets/prep_r2b.py",
+      "local_path": "demos/18-hanazi/assets/prep_r2b.py",
+      "sha256": "bbabe94657b652cd0052e6242ad25aa96051317fcb819eb91abf61c63aa9cbfb",
+      "bytes": 4162
+    },
+    {
+      "source_path": "demos/18-hanazi/audio.py",
+      "local_path": "demos/18-hanazi/audio.py",
+      "sha256": "fba0ca5ac2405c4df4ee33b1a8396a588681702f797ce0f1f03ccf17c7b0df29",
+      "bytes": 12031
+    },
+    {
+      "source_path": "demos/18-hanazi/cues.json",
+      "local_path": "demos/18-hanazi/cues.json",
+      "sha256": "643e92bd1734b7cca012ed5c35fa1d3eea39c817f57f3cc0b82e5e1e74f848ba",
+      "bytes": 1116
+    },
+    {
+      "source_path": "demos/18-hanazi/index.html",
+      "local_path": "demos/18-hanazi/index.html",
+      "sha256": "8207f8800f0d5d0189a2ab13c5da1c048578aba47110219ff473a792f3ba1f63",
+      "bytes": 51425
+    },
+    {
+      "source_path": "demos/19-paperclip/assets/countries-110m.json",
+      "local_path": "demos/19-paperclip/assets/countries-110m.json",
+      "sha256": "2516c915867c7baf18ddec727aec46c315541a07cfb3d79a6559b05d5e94eee8",
+      "bytes": 107761
+    },
+    {
+      "source_path": "demos/19-paperclip/assets/stickers/meta.json",
+      "local_path": "demos/19-paperclip/assets/stickers/meta.json",
+      "sha256": "4d97dcb5c9b4c8ac615e7c3aee594c862df839419b1bbfe85ea4dfa3ad42b222",
+      "bytes": 351
+    },
+    {
+      "source_path": "demos/19-paperclip/audio.py",
+      "local_path": "demos/19-paperclip/audio.py",
+      "sha256": "5f398ae5dd5ccca6c4d11d27512341104ce119e176818f247cd60e8055fde1cc",
+      "bytes": 10067
+    },
+    {
+      "source_path": "demos/19-paperclip/cues.json",
+      "local_path": "demos/19-paperclip/cues.json",
+      "sha256": "acd1fff4792684b3d191b96bb5f9201142b90cf2a5c780e5e0c90a3d1a6fe3c8",
+      "bytes": 3076
+    },
+    {
+      "source_path": "demos/19-paperclip/index.html",
+      "local_path": "demos/19-paperclip/index.html",
+      "sha256": "2d50ad0b67c9472557cad5fa60dc27932e6a4fba09c370f267f51e311eeef4b4",
+      "bytes": 69789
+    },
+    {
+      "source_path": "demos/19-paperclip/tools/stickers.py",
+      "local_path": "demos/19-paperclip/tools/stickers.py",
+      "sha256": "d6e6f72a7b4d75136c5c5f874226b9c372af96852a008eabeb9c075ddb1920c8",
+      "bytes": 4468
+    },
+    {
+      "source_path": "demos/20-pixel/audio.py",
+      "local_path": "demos/20-pixel/audio.py",
+      "sha256": "53e7e19843ded917f6110db44e12928bba6a5cfd1f1e4b979dbc10f9a6a6c585",
+      "bytes": 11101
+    },
+    {
+      "source_path": "demos/20-pixel/cues.json",
+      "local_path": "demos/20-pixel/cues.json",
+      "sha256": "64942f482552d900ac4f2aeddc0180d4e6dab3a2128d57c5ead4b029567ed707",
+      "bytes": 888
+    },
+    {
+      "source_path": "demos/20-pixel/film.js",
+      "local_path": "demos/20-pixel/film.js",
+      "sha256": "a11af2464b63b7a3612989425109c219e6a5f59a35d48506e306dc6f24aba4f4",
+      "bytes": 70973
+    },
+    {
+      "source_path": "demos/20-pixel/index.html",
+      "local_path": "demos/20-pixel/index.html",
+      "sha256": "282203861cdd3e9007ede9cfce783a5f5942421d645e160ad505f9c098a8a856",
+      "bytes": 882
+    },
+    {
+      "source_path": "demos/22-hud/assets/land-50m.json",
+      "local_path": "demos/22-hud/assets/land-50m.json",
+      "sha256": "619477ff690c086885e45cb91707d783805561bd75ae8e437b7d4694b0204e0f",
+      "bytes": 545534
+    },
+    {
+      "source_path": "demos/22-hud/audio.py",
+      "local_path": "demos/22-hud/audio.py",
+      "sha256": "664f218a97afbc24ed11418b19236f40b5b880b0bc54c2f45efaf6b177961fba",
+      "bytes": 7573
+    },
+    {
+      "source_path": "demos/22-hud/cues.json",
+      "local_path": "demos/22-hud/cues.json",
+      "sha256": "b5219e1cd06a319e4a004264ddd55a514d17810ab9fa6cb023b81b9fa4030d39",
+      "bytes": 1411
+    },
+    {
+      "source_path": "demos/22-hud/index.html",
+      "local_path": "demos/22-hud/index.html",
+      "sha256": "eefb5aa96fddf47e84efbd9000e521a6b8e7908a7be20f4f42ed14586f0113b2",
+      "bytes": 9805
+    },
+    {
+      "source_path": "demos/22-hud/js/holo.js",
+      "local_path": "demos/22-hud/js/holo.js",
+      "sha256": "992031478d3f55cef7bf247146efabeb60c4429f7dd812273820ed87b55c4afb",
+      "bytes": 17026
+    },
+    {
+      "source_path": "demos/22-hud/js/hud.js",
+      "local_path": "demos/22-hud/js/hud.js",
+      "sha256": "751c05b15e65474b89f55346587c85e9215317e900ecc64a0fce451827ee1c88",
+      "bytes": 65650
+    },
+    {
+      "source_path": "demos/22-hud/js/post.js",
+      "local_path": "demos/22-hud/js/post.js",
+      "sha256": "672ce9b4a1da6f59f2d65bb1f8e337851b7893553dc250aad2192388a0711a53",
+      "bytes": 8773
+    },
+    {
+      "source_path": "demos/22-hud/js/util.js",
+      "local_path": "demos/22-hud/js/util.js",
+      "sha256": "7ec7a52b27659de843f72f65ad4dbfc07e217f528bba5bbff69b31b4293081db",
+      "bytes": 3182
+    },
+    {
+      "source_path": "demos/22-hud/js/v5.js",
+      "local_path": "demos/22-hud/js/v5.js",
+      "sha256": "af2cf92f176962361826fc84593241805628afdf13ca9e88e023712dc6626fcb",
+      "bytes": 9217
+    },
+    {
+      "source_path": "harness/preview.html",
+      "local_path": "harness/preview.html",
+      "sha256": "1252d456a9c4da9a32a65bf6a27ac0ce4b96d274c3bf14428c243c55fd5861e2",
+      "bytes": 4403
+    },
+    {
+      "source_path": "harness/render.mjs",
+      "local_path": "harness/render.mjs",
+      "sha256": "cdab5828c8dc6ef81a6e295dd4c3b8ec85a7c4aa6fa695266eff02a6b849933f",
+      "bytes": 16899
+    },
+    {
+      "source_path": "index.html",
+      "local_path": "index.html",
+      "sha256": "5dcfe29db74444a84d704e3b8ca9f470047e329c80f9f486a98a742f54e36b1f",
+      "bytes": 7273
+    },
+    {
+      "source_path": "lib/audio/mgaudio/__init__.py",
+      "local_path": "lib/audio/mgaudio/__init__.py",
+      "sha256": "89d4f29cb8c3df6ea57b125dbfd87c03bf48cabe7c065a538eb5b9df005dc02c",
+      "bytes": 1172
+    },
+    {
+      "source_path": "lib/audio/mgaudio/__main__.py",
+      "local_path": "lib/audio/mgaudio/__main__.py",
+      "sha256": "6824b3fffb52dc8f9d13cffa6d06180b269171df25bbfc8db8bebf0e9bf4742e",
+      "bytes": 128
+    },
+    {
+      "source_path": "lib/audio/mgaudio/_dsp.py",
+      "local_path": "lib/audio/mgaudio/_dsp.py",
+      "sha256": "064e696309da09f2d3c3da8978fcf37e839d6eea8050cc4f356377b9d26b3716",
+      "bytes": 14307
+    },
+    {
+      "source_path": "lib/audio/mgaudio/chip.py",
+      "local_path": "lib/audio/mgaudio/chip.py",
+      "sha256": "b341891b7af8b904969f2bd957c5c36ac71f3b8f16b511f21091e32dd98b14e9",
+      "bytes": 7890
+    },
+    {
+      "source_path": "lib/audio/mgaudio/core.py",
+      "local_path": "lib/audio/mgaudio/core.py",
+      "sha256": "7d5d767111c44bc51924d7769d36bcf3d79df9be0e8f5f3ff5f9dbbd5862e4a5",
+      "bytes": 18092
+    },
+    {
+      "source_path": "lib/audio/mgaudio/drums.py",
+      "local_path": "lib/audio/mgaudio/drums.py",
+      "sha256": "1d076727d05d8e8c7270bfbaf213806ff665b7415ff9570898a762ad4fa54b31",
+      "bytes": 22645
+    },
+    {
+      "source_path": "lib/audio/mgaudio/filters.py",
+      "local_path": "lib/audio/mgaudio/filters.py",
+      "sha256": "0569aa418c0d75324a2a2c841d303eaf936b84830282dac7ec21ff8e46e9dff2",
+      "bytes": 8021
+    },
+    {
+      "source_path": "lib/audio/mgaudio/fm.py",
+      "local_path": "lib/audio/mgaudio/fm.py",
+      "sha256": "05d6f32df3219cf5ad61873db78f88943da37d09c65f46ee9bd0f39bf98c1c9c",
+      "bytes": 8872
+    },
+    {
+      "source_path": "lib/audio/mgaudio/fx.py",
+      "local_path": "lib/audio/mgaudio/fx.py",
+      "sha256": "a96ea06c0baf8911667d4700040582365f09f2a602d051b38c6b62e11754b774",
+      "bytes": 23398
+    },
+    {
+      "source_path": "lib/audio/mgaudio/master.py",
+      "local_path": "lib/audio/mgaudio/master.py",
+      "sha256": "35937be5aeb25d3f5b2ed90858dec60d9986e2200541d512978be09f6edd32b8",
+      "bytes": 6567
+    },
+    {
+      "source_path": "lib/audio/mgaudio/mix.py",
+      "local_path": "lib/audio/mgaudio/mix.py",
+      "sha256": "a8bb1a8acc08e29684c4cb62734af576b890c36a499d4d74c4932634bd87c3cd",
+      "bytes": 23510
+    },
+    {
+      "source_path": "lib/audio/mgaudio/osc.py",
+      "local_path": "lib/audio/mgaudio/osc.py",
+      "sha256": "30d24e51038533d79ce7da50f4cd813fc4968c2e5a39a2a2c6b5c5a104b3bc83",
+      "bytes": 5740
+    },
+    {
+      "source_path": "lib/audio/mgaudio/pluck.py",
+      "local_path": "lib/audio/mgaudio/pluck.py",
+      "sha256": "38e1ada2e40100213c644e6d41e17b0fe457c61b06bc885b0e0a595bc9aec4b4",
+      "bytes": 11325
+    },
+    {
+      "source_path": "lib/audio/mgaudio/qc.py",
+      "local_path": "lib/audio/mgaudio/qc.py",
+      "sha256": "a712973d24cd778c1b2bd4e7bc76f85307ca7634fee8278d7110d3236851a425",
+      "bytes": 13295
+    },
+    {
+      "source_path": "lib/audio/mgaudio/recipes/__init__.py",
+      "local_path": "lib/audio/mgaudio/recipes/__init__.py",
+      "sha256": "7bece8381e9712168b746fe88c8fb3c4ef1bd8c8169f8f6d6749628794809b63",
+      "bytes": 4298
+    },
+    {
+      "source_path": "lib/audio/mgaudio/recipes/base.py",
+      "local_path": "lib/audio/mgaudio/recipes/base.py",
+      "sha256": "9a7540a975c9e82f3c7e318c4464395684423d2ef64c02a72fd9a57c04349895",
+      "bytes": 14122
+    },
+    {
+      "source_path": "lib/audio/mgaudio/recipes/chill.py",
+      "local_path": "lib/audio/mgaudio/recipes/chill.py",
+      "sha256": "6be32b135b09596aa45b16b5c26aa109f7a93db3d62a450fc019b66e8df48b4b",
+      "bytes": 12260
+    },
+    {
+      "source_path": "lib/audio/mgaudio/recipes/club.py",
+      "local_path": "lib/audio/mgaudio/recipes/club.py",
+      "sha256": "d1039a2f2c416f51c7e8b7614df2324d91118802d8883a1453572aa5f8d49d41",
+      "bytes": 23775
+    },
+    {
+      "source_path": "lib/audio/mgaudio/recipes/fun.py",
+      "local_path": "lib/audio/mgaudio/recipes/fun.py",
+      "sha256": "bb75ffea2e95d89ebc6b8649630fc799bb2a1603517877e543212dfcf522a8ea",
+      "bytes": 10176
+    },
+    {
+      "source_path": "lib/audio/mgaudio/recipes/retro.py",
+      "local_path": "lib/audio/mgaudio/recipes/retro.py",
+      "sha256": "b353d9ab719a4120dbcb67f3c6563d6d76f3ccc779c19dbdc36e39476c9e44b9",
+      "bytes": 16580
+    },
+    {
+      "source_path": "lib/audio/mgaudio/recipes/world.py",
+      "local_path": "lib/audio/mgaudio/recipes/world.py",
+      "sha256": "cdb008a1d28bc37163fdf419b4ddcfabe7a3fd7cbfebe7e1bebc23fe1db00d24",
+      "bytes": 7049
+    },
+    {
+      "source_path": "lib/audio/mgaudio/samples.py",
+      "local_path": "lib/audio/mgaudio/samples.py",
+      "sha256": "b88b7bef8623b4fdbd4359e8d71c370c8570eec90dc4fce4077173c7d8634409",
+      "bytes": 8685
+    },
+    {
+      "source_path": "lib/audio/mgaudio/seq.py",
+      "local_path": "lib/audio/mgaudio/seq.py",
+      "sha256": "2093534a389c6e4ad8b7dc709ca5efb548e11c0f3438632ab21abd2adfb3a996",
+      "bytes": 5073
+    },
+    {
+      "source_path": "lib/audio/mgaudio/sfx.py",
+      "local_path": "lib/audio/mgaudio/sfx.py",
+      "sha256": "7163cebe44d4e0745f448a82e63ad84fff42c06f7e6435af8b7db02027308740",
+      "bytes": 58321
+    },
+    {
+      "source_path": "lib/audio/mgaudio/sync.py",
+      "local_path": "lib/audio/mgaudio/sync.py",
+      "sha256": "5d185cca4e938db6338a322ec433dcea9616ea21f35f259efcd6a9aec9be17b2",
+      "bytes": 3249
+    },
+    {
+      "source_path": "lib/audio/mgaudio/synth.py",
+      "local_path": "lib/audio/mgaudio/synth.py",
+      "sha256": "0aad281c9a9b728868fd055d678e7a9b05b5d84ace0c5b69a2660674ea689ce4",
+      "bytes": 21224
+    },
+    {
+      "source_path": "lib/audio/mgaudio/theory.py",
+      "local_path": "lib/audio/mgaudio/theory.py",
+      "sha256": "5c0376094d39100c2f58e02aa2590909311229e70770301aa4d81854e53ae8b6",
+      "bytes": 14131
+    },
+    {
+      "source_path": "lib/audio/mgaudio/wind.py",
+      "local_path": "lib/audio/mgaudio/wind.py",
+      "sha256": "88703a82af82073c23927354360060d612838a77532ef9aec61e2925dc740366",
+      "bytes": 6420
+    },
+    {
+      "source_path": "lib/audio/README.md",
+      "local_path": "lib/audio/README.md",
+      "sha256": "6fdf2bc87ba66e4bca6d82bdb7fc592748b35f7860899ea985611be4223ff934",
+      "bytes": 21602
+    },
+    {
+      "source_path": "lib/audio/samples/index.json",
+      "local_path": "lib/audio/samples/index.json",
+      "sha256": "ff43dcb0bf61d9263d7b9fc812fcdd9b56cd0b1a4c694eb2d942c96d98eeef64",
+      "bytes": 125557
+    },
+    {
+      "source_path": "lib/audio/tools/build_samples.py",
+      "local_path": "lib/audio/tools/build_samples.py",
+      "sha256": "fd89fec96a8c651c4a8056d26b18fb5449dfd30fed5967a693d6478c5d72e666",
+      "bytes": 5394
+    },
+    {
+      "source_path": "lib/audio/tools/select_vcsl.py",
+      "local_path": "lib/audio/tools/select_vcsl.py",
+      "sha256": "7a5342935268defc198e54d2bcd2e3b4a2818326f7669ec0148466317831ef97",
+      "bytes": 3593
+    },
+    {
+      "source_path": "LICENSE",
+      "local_path": "LICENSE",
+      "sha256": "7f03fee9299a401615e13e2c636ead0394f47395da4f816ae60b35ed2d91a932",
+      "bytes": 1071
+    },
+    {
+      "source_path": "package.json",
+      "local_path": "package.json",
+      "sha256": "c359a063b2d32438ff122661518abdfd29ff3d862a61471cfc5fa289b9adcc01",
+      "bytes": 386
+    },
+    {
+      "source_path": "prompts/01-flat-vector.md",
+      "local_path": "prompts/01-flat-vector.md",
+      "sha256": "0599f4dadbc163066d70e5b98afa190a5580ee00e14bd1ce3473ce8f14c48cf3",
+      "bytes": 8245
+    },
+    {
+      "source_path": "prompts/02-line-art.md",
+      "local_path": "prompts/02-line-art.md",
+      "sha256": "1e61c9fcf80059a20029516f3d0fd016e849d98bb69bdcbf8b63a9e53759d3ce",
+      "bytes": 7766
+    },
+    {
+      "source_path": "prompts/03-isometric.md",
+      "local_path": "prompts/03-isometric.md",
+      "sha256": "5ace3ffa0d9e4a4a701ae442c102762fcd922229003d675a48f4aa5eb54011e2",
+      "bytes": 7969
+    },
+    {
+      "source_path": "prompts/04-3d-render.md",
+      "local_path": "prompts/04-3d-render.md",
+      "sha256": "93e7cb0b54cbc6991d4856140afe050cc84e4c6298ac06e369da6a829904521b",
+      "bytes": 7877
+    },
+    {
+      "source_path": "prompts/05-cel-boil.md",
+      "local_path": "prompts/05-cel-boil.md",
+      "sha256": "ec64b2dea47a557f8506f3e913d2b7a3e4e0efddf9bf0309ffdea40e9116dd68",
+      "bytes": 7791
+    },
+    {
+      "source_path": "prompts/06-collage.md",
+      "local_path": "prompts/06-collage.md",
+      "sha256": "556478d4122d1db0535656998f64da8d1805505b14c9eb623f002d3b6aef688d",
+      "bytes": 7740
+    },
+    {
+      "source_path": "prompts/07-liquid.md",
+      "local_path": "prompts/07-liquid.md",
+      "sha256": "7c41e4409bf83fdb8a53ceae1dafd90efc72b2fb1d42654e30f294169ecee379",
+      "bytes": 7615
+    },
+    {
+      "source_path": "prompts/08-morph.md",
+      "local_path": "prompts/08-morph.md",
+      "sha256": "75c9e2bb8ca1edbba5686b431ff85e5ee99be1188e84184d9a105e12c0da63aa",
+      "bytes": 7432
+    },
+    {
+      "source_path": "prompts/09-bauhaus.md",
+      "local_path": "prompts/09-bauhaus.md",
+      "sha256": "061828b54389f932f7914bdbc6e5afc25c394a401bcdf06111b7f4687d9f89f5",
+      "bytes": 7960
+    },
+    {
+      "source_path": "prompts/10-synthwave.md",
+      "local_path": "prompts/10-synthwave.md",
+      "sha256": "a12b216b68afc2fbe51cfe1a410b6eebd71b5cc82f42a2e8c5ca0d85de8747d5",
+      "bytes": 7933
+    },
+    {
+      "source_path": "prompts/12-aurora-glass.md",
+      "local_path": "prompts/12-aurora-glass.md",
+      "sha256": "c5e68258e5ae0a5e1c5c3a05c4651a9efb5472da6098f17d468442382b3004b3",
+      "bytes": 7829
+    },
+    {
+      "source_path": "prompts/18-hanazi.md",
+      "local_path": "prompts/18-hanazi.md",
+      "sha256": "7d6bc0e6e3712778a2ed849fab1a358055d2dfc88cbddc1a27b5694c2f25be69",
+      "bytes": 7923
+    },
+    {
+      "source_path": "prompts/19-paperclip.md",
+      "local_path": "prompts/19-paperclip.md",
+      "sha256": "808ccae55d57005eefdc78c06007bc324195063faac80d8c47136ff050b4ea05",
+      "bytes": 8016
+    },
+    {
+      "source_path": "prompts/20-pixel.md",
+      "local_path": "prompts/20-pixel.md",
+      "sha256": "6eeeb3d60c6a0a1a52417bc6e71c5600113cb62202a623b408460485c96fa9ef",
+      "bytes": 7601
+    },
+    {
+      "source_path": "prompts/22-hud.md",
+      "local_path": "prompts/22-hud.md",
+      "sha256": "42e7ba11855ecba90ab9bea4f6963d56f725dbbfd32ff637daebf9428fabb2c9",
+      "bytes": 7756
+    },
+    {
+      "source_path": "README.md",
+      "local_path": "README.md",
+      "sha256": "2729498daeeaf5a7bc0a31059a28d20e6bd6ce737df3612a8c7760020adbd8bc",
+      "bytes": 16239
+    },
+    {
+      "source_path": "README.zh-CN.md",
+      "local_path": "README.zh-CN.md",
+      "sha256": "672872ef31e6a1f1ac9f95067e32507a07a3b866e6dd0cf1a8b8a08e492a5843",
+      "bytes": 15975
+    },
+    {
+      "source_path": "rubric.md",
+      "local_path": "rubric.md",
+      "sha256": "1cb93025d54407317c15005ad58bd47389baa9532f4ed359161247fb0def375a",
+      "bytes": 3676
+    },
+    {
+      "source_path": "template.md",
+      "local_path": "template.md",
+      "sha256": "258709df6bfe71a53a1f9e05d6a130dece77751e667e096ed91d9809aaa24370",
+      "bytes": 1945
+    }
+  ],
+  "commit_date": "2026-10-05T11:23:16Z",
+  "reference_role": "film",
+  "quality_evidence": "source_inspected_video_unreviewed"
+}

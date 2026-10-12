@@ -1,0 +1,79 @@
+{
+  "cases": [
+    {
+      "name": "baseline",
+      "exit_code": 0,
+      "expected_reject": false,
+      "pass": true,
+      "stdout": "capture 0/6\n{\"out\":\"D:\\\\ai项目\\\\ai动画\\\\VibeVideo项目\\\\work\\\\creative-upgrade-20261010\\\\other-regression\\\\cache-fixture\\\\out-cache\",\"seek\":true,\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "name": "unchanged-cache-reuse",
+      "exit_code": 0,
+      "expected_reject": false,
+      "pass": true,
+      "stdout": "capture 0/6\n{\"out\":\"D:\\\\ai项目\\\\ai动画\\\\VibeVideo项目\\\\work\\\\creative-upgrade-20261010\\\\other-regression\\\\cache-fixture\\\\out-cache\",\"seek\":true,\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "name": "import-module-change",
+      "exit_code": 1,
+      "expected_reject": true,
+      "pass": true,
+      "stdout": "",
+      "stderr": "node:internal/modules/run_main:107\n    triggerUncaughtException(\n    ^\n\nError: Frame configuration changed; use a new output directory\n    at file:///D:/ai%E9%A1%B9%E7%9B%AE/ai%E5%8A%A8%E7%94%BB/VibeVideo%E9%A1%B9%E7%9B%AE/work/creative-upgrade-20261010/other-regression/cache-render.mjs:45:166\n\nNode.js v24.15.0\n"
+    },
+    {
+      "name": "event-json-change",
+      "exit_code": 1,
+      "expected_reject": true,
+      "pass": true,
+      "stdout": "",
+      "stderr": "node:internal/modules/run_main:107\n    triggerUncaughtException(\n    ^\n\nError: Frame configuration changed; use a new output directory\n    at file:///D:/ai%E9%A1%B9%E7%9B%AE/ai%E5%8A%A8%E7%94%BB/VibeVideo%E9%A1%B9%E7%9B%AE/work/creative-upgrade-20261010/other-regression/cache-render.mjs:45:166\n\nNode.js v24.15.0\n"
+    },
+    {
+      "name": "renderer-change",
+      "exit_code": 1,
+      "expected_reject": true,
+      "pass": true,
+      "stdout": "",
+      "stderr": "node:internal/modules/run_main:107\n    triggerUncaughtException(\n    ^\n\nError: Frame configuration changed; use a new output directory\n    at file:///D:/ai%E9%A1%B9%E7%9B%AE/ai%E5%8A%A8%E7%94%BB/VibeVideo%E9%A1%B9%E7%9B%AE/work/creative-upgrade-20261010/other-regression/cache-render.mjs:45:166\n\nNode.js v24.15.0\n"
+    },
+    {
+      "name": "preview-scale-change",
+      "exit_code": 1,
+      "expected_reject": true,
+      "pass": true,
+      "stdout": "",
+      "stderr": "node:internal/modules/run_main:107\n    triggerUncaughtException(\n    ^\n\nError: Frame configuration changed; use a new output directory\n    at file:///D:/ai%E9%A1%B9%E7%9B%AE/ai%E5%8A%A8%E7%94%BB/VibeVideo%E9%A1%B9%E7%9B%AE/work/creative-upgrade-20261010/other-regression/cache-render.mjs:45:166\n\nNode.js v24.15.0\n"
+    },
+    {
+      "name": "toolchain-mismatch",
+      "exit_code": 1,
+      "expected_reject": true,
+      "pass": true,
+      "stdout": "",
+      "stderr": "node:internal/modules/run_main:107\n    triggerUncaughtException(\n    ^\n\nError: Frame configuration changed; use a new output directory\n    at file:///D:/ai%E9%A1%B9%E7%9B%AE/ai%E5%8A%A8%E7%94%BB/VibeVideo%E9%A1%B9%E7%9B%AE/work/creative-upgrade-20261010/other-regression/cache-render.mjs:45:166\n\nNode.js v24.15.0\n"
+    }
+  ],
+  "cached_outputs_unchanged_on_rejection": true,
+  "baseline_hashes": {
+    "cache.mp4": "7b493014849379d544c0824712672c07e084fbf74bc7921d5273b404fafb832a",
+    "frame-config.json": "7d0eac8f08821162c0c6e217c33e29527a334941ff149ee19bc72f52a50bac2f",
+    "seek-0.png": "b898e4bbfcb4eabc055691a638b6258bc4d22437bf519ae35d6a5a4dea204253",
+    "seek-1.png": "e8a7f55acb46bbb9bb6cb931cfc7164dfb2ad9c36e75ee2f028d796f06d12bdb",
+    "seek-2.png": "3f4089fbcc1b42cb28a3a991c07525d544ee7724d644d9d6d4b630adda230876",
+    "seek-3.png": "b898e4bbfcb4eabc055691a638b6258bc4d22437bf519ae35d6a5a4dea204253",
+    "seek-4.png": "e8a7f55acb46bbb9bb6cb931cfc7164dfb2ad9c36e75ee2f028d796f06d12bdb",
+    "seek-5.png": "3f4089fbcc1b42cb28a3a991c07525d544ee7724d644d9d6d4b630adda230876",
+    "still-0.100.png": "d3e756375b548a90c31e44c90a680026d84b3af0678ba155b4a7764fbef74d5a",
+    "frames/00000.jpg": "3d3665b9d44a3ffd20203b8f79468866fcf513985c5bbe1ec5e6ca1997713248",
+    "frames/00001.jpg": "dc9c0d4cd91b3ab47705e86e84f45ddf16558f22d76689fa4f1ee5e62d6ef884",
+    "frames/00002.jpg": "45831f9a3c65b8a96474444009f56fa110565dac653a43a2122e5a925e882b6d",
+    "frames/00003.jpg": "bcdb03cae734b75c99b0b9f60102a77748e42a0eeee0c38a1926130b1d371d55",
+    "frames/00004.jpg": "d4376c59444a5583a3dce8c6491f8389da9bb5176e866b44e42247a28aa4a49f",
+    "frames/00005.jpg": "40d430bde101d5a5f9adc55e7a334aa5836e7cc55e4cf843485b72dfac641f0c"
+  },
+  "scope": "Engineering cache regression only; no aesthetic review."
+}

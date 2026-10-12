@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s15-root { position: absolute; inset: 0; }
+        /* The editor: docked along the bottom of the canvas, full width. */
+        #s15-ed { left: 110px; top: 470px; width: 1700px; height: 470px; }
+        #s15-elabel { left: 24px; top: 24px; }
+        #s15-tc { left: auto; right: 24px; top: 20px; font-size: 20px; color: var(--k-ink-2); }
+        .s15-th { left: 24px; }
+        .s15-lane { left: 220px; width: 1440px; border-radius: 8px; background: rgba(255, 255, 255, 0.025); }
+        .s15-blk { position: absolute; border-radius: 8px; overflow: hidden; background: #16161b; box-shadow: inset 0 0 0 1.5px var(--k-line); }
+        .s15-fr { position: absolute; top: 8px; width: 114px; height: 64px; border-radius: 6px; overflow: hidden; }
+        .s15-fr svg { display: block; width: 100%; height: 100%; }
+        .s15-hdl { position: absolute; top: 8px; width: 4px; height: 64px; border-radius: 2px; background: var(--k-line-strong); }
+        .s15-tag { position: absolute; left: 10px; top: 9px; font-size: 18px; padding: 3px 8px; }
+        .s15-cap { position: absolute; top: 5px; height: 34px; padding: 0 12px; border-radius: 8px; background: var(--k-surface-pill); box-shadow: inset 0 0 0 1.5px var(--k-line); font: 500 18px/34px var(--k-mono); color: var(--k-ink-2); white-space: nowrap; }
+        #s15-price { left: 24px; top: 392px; font: 500 22px/1 var(--k-mono); color: var(--k-ink-3); white-space: nowrap; }
+        #s15-go { left: auto; right: 24px; top: 380px; width: 400px; height: 48px; border-radius: 9999px; overflow: hidden; background: var(--k-accent); }
+        #s15-go-t { position: absolute; inset: 0; text-align: center; font: 600 24px/48px var(--k-ui); color: var(--k-accent-ink); }
+        #s15-ro { position: absolute; inset: 0; background: #141418; box-shadow: inset 0 0 0 1.5px var(--k-line); border-radius: 9999px; }
+        #s15-ro-t { position: absolute; inset: 0; text-align: center; font: 500 20px/48px var(--k-mono); color: var(--k-ink); white-space: nowrap; }
+        #s15-ro-bar { position: absolute; left: 0; bottom: 0; width: 100%; height: 5px; background: var(--k-accent); transform-origin: 0 50%; }
+        #s15-free { font-size: 22px; }
+      </style>
+      <div id="s15-root" data-composition-id="s15-timeline" data-width="1920" data-height="1080">
+        <div id="s15-scene" class="k-scene">
+          <div id="s15-ed" class="k-panel">
+            <div id="s15-elabel" class="k-abs k-micro">Timeline · video/timeline</div>
+            <div id="s15-tc" class="k-abs k-mono">00:00.0 / 00:12.0</div>
+            <div id="s15-price" class="k-abs">free · renders in this browser</div>
+            <div id="s15-go" class="k-abs">
+              <div id="s15-go-t">Generate</div>
+              <div id="s15-ro"><div id="s15-ro-t" data-layout-allow-overlap>rendering in your browser · 0%</div><div id="s15-ro-bar"></div></div>
+            </div>
+          </div>
+          <div id="s15-free" class="k-pill k-amber">free · 0 cr</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s15-scene");
+          const ed = document.getElementById("s15-ed");
+          const EL = 110, ET = 470; // editor origin in scene pixels
+
+          // The clips on the canvas above the editor: the cut is assembled from them.
+          const flight = K.card(scene, { id: "s15-flight", left: 330, top: 215, scale: 1.2, art: K.harbourArt({ boat: 12 }), name: "harbour flight", cr: "80 cr" });
+          const next = K.card(scene, { id: "s15-next", left: 1290, top: 215, scale: 1.2, art: K.harbourArt({ boat: 44, mood: "dusk" }), name: "next clip", cr: "40 cr" });
+
+          // Lanes: 0 s at local x 220, 120 px a second, 12 s shown.
+          const X0 = 220, PX = 120, lx = (s) => X0 + s * PX;
+          const LANES = { clips: [100, 80], voice: [192, 44], music: [246, 44], captions: [300, 44] };
+          Object.entries(LANES).forEach(([name, [y, h]]) => {
+            const th = K.el(ed, "div", { class: "k-abs k-micro s15-th", style: { top: y + h / 2 - 10 + "px" } });
+            th.textContent = name;
+            K.el(ed, "div", { class: "k-abs s15-lane", style: { top: y + "px", height: h + "px" } });
+          });
+
+          // The ruler: a tick a second, a label every two, and the playhead parked at 0 s.
+          K.el(ed, "svg", { class: "k-abs", width: 1700, height: 470, "data-layout-allow-overflow": "", style: { pointerEvents: "none" } },
+            Array.from({ length: 13 }, (_, s) => `<line x1="${lx(s)}" x2="${lx(s)}" y1="${s % 2 ? 80 : 74}" y2="90" stroke="rgba(245,245,244,.35)" stroke-width="1.5"/>` +
+              (s % 2 ? "" : `<text x="${lx(s) + (s === 12 ? -6 : 6)}" text-anchor="${s === 12 ? "end" : "start"}" y="72" font-family="JetBrains Mono" font-weight="500" font-size="18" fill="rgba(245,245,244,.5)">${s} s</text>`)).join("") +
+            `<path d="M${X0} 92 V350" stroke="rgba(245,245,244,.55)" stroke-width="2"/><path d="M${X0 - 7} 88 h14 l-7 9 z" fill="rgba(245,245,244,.75)"/>`);
+
+          // Clip blocks: a strip of 64 px frames between in/out handles.
+          const clip = (id, s0, s1, frames, mood, b0) => {
+            const [y, h] = LANES.clips, w = (s1 - s0) * PX - 4;
+            const b = K.el(ed, "div", { id, class: "s15-blk", "data-layout-allow-overflow": "", style: { left: lx(s0) + 2 + "px", top: y + "px", width: w + "px", height: h + "px" } });
+            const n = Math.ceil((w - 12) / 118); // the last frame runs under the out handle
+            for (let i = 0; i < n; i++) K.el(b, "div", { class: "s15-fr", "data-layout-allow-overflow": "", style: { left: 12 + i * 118 + "px" } }, K.harbourArt({ boat: b0 + i * 9, mood }));
+            K.el(b, "div", { class: "s15-hdl", style: { left: "4px" } });
+            K.el(b, "div", { class: "s15-hdl", style: { right: "4px" } });
+            return b;
+          };
+          const clipA = clip("s15-clip-a", 0, 8, 8, "day", -30);
+          const clipB = clip("s15-clip-b", 8, 12, 4, "dusk", 20);
+
+          // Voice: narration in phrases; music: one bed at −12 dB; captions: four chips.
+          const [vy, vh] = LANES.voice;
+          const voice = K.el(ed, "div", { id: "s15-voice", class: "s15-blk", style: { left: lx(0.5) + "px", top: vy + "px", width: 10.5 * PX + "px", height: vh + "px" } },
+            `<svg class="k-abs" width="${10.5 * PX}" height="${vh}">` + Array.from({ length: 150 }, (_, i) => {
+              const gap = (i > 44 && i < 52) || (i > 96 && i < 102) || i > 146;
+              const a = gap ? 1.5 : 3 + K.hash(15, i, 3) * 13;
+              return `<rect x="${230 + i * 7}" y="${vh / 2 - a}" width="3" height="${a * 2}" rx="1.5" fill="rgba(245,245,244,.55)"/>`;
+            }).join("") + `</svg><div class="k-chip s15-tag" style="top:5px">narration · 0.5 s</div>`);
+          const [my, mh] = LANES.music;
+          const music = K.el(ed, "div", { id: "s15-music", class: "s15-blk", style: { left: lx(0) + 2 + "px", top: my + "px", width: 12 * PX - 4 + "px", height: mh + "px" } },
+            `<svg class="k-abs" width="${12 * PX - 4}" height="${mh}"><path d="M200 ${mh / 2} ` + Array.from({ length: 61 }, (_, i) => `q10 ${i % 2 ? 9 : -9} 20 0`).join(" ") +
+            `" stroke="rgba(245,245,244,.45)" stroke-width="2" fill="none"/></svg><div class="k-chip s15-tag" style="top:5px">harbour bed · −12 dB</div>`);
+          const [cy] = LANES.captions;
+          const caps = [[0.5, "Salt Harbour"], [3.5, "low tide"], [6.5, "the boats come in"], [9.5, "and out again"]]
+            .map(([s, t]) => K.el(ed, "div", { class: "s15-cap", style: { left: lx(s) + "px", top: cy + 5 + "px" } }, t));
+
+          const go = document.getElementById("s15-go"), ro = document.getElementById("s15-ro"), roT = document.getElementById("s15-ro-t"), roBar = document.getElementById("s15-ro-bar");
+          gsap.set(ro, { opacity: 0 });
+          gsap.set(roBar, { scaleX: 0 });
+          const free = document.getElementById("s15-free");
+          scene.appendChild(free);
+          Object.assign(free.style, { left: EL + 1700 - 24 - 400 - 200 + "px", top: ET + 386 + "px" });
+
+          // Media art bleeds past its viewBox by design; the thumb clips it.
+          scene.querySelectorAll(".k-thumb svg, .s15-fr svg").forEach((s) => s.setAttribute("data-layout-allow-overflow", ""));
+          K.chrome(scene, tl, { title: "The cut happens in your browser", step: 6, balance: "1,918 cr" });
+
+          const S = (lxv, ly) => [EL + lxv, ET + ly]; // local → scene
+          const snap = (el, at, from) => {
+            tl.fromTo(el, { opacity: 0, y: from }, { opacity: 1, y: 0, duration: 0.14, ease: "power3.in" }, at);
+            K.land(tl, el, at + 0.14, { follow: true });
+          };
+
+          // b0: harbour flight snaps into the clip track at 0 s
+          snap(clipA, K.t(0), -60);
+          // b1: the next clip snaps against its end, at 8 s
+          snap(clipB, K.t(1), -60);
+          // b2: the narration goes onto the voice track
+          tl.fromTo(voice, { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.2, ease: "power2.out" }, K.t(2));
+          // b3: the music bed under it
+          tl.fromTo(music, { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.2, ease: "power2.out" }, K.t(3));
+          // b4: captions, left to right
+          caps.forEach((c, i) => tl.fromTo(c, { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.14, ease: K.ease, data: i ? "follow" : undefined }, K.t(4) + i * 0.035));
+          // b5: Generate; the button becomes the progress readout
+          tl.fromTo(go, { scale: 1 }, { scale: 0.96, duration: 0.06, yoyo: true, repeat: 1, ease: "power1.out" }, K.t(5));
+          tl.to(ro, { opacity: 1, duration: 0.08, data: "follow" }, K.t(5) + 0.1);
+          tl.to("#s15-go-t", { opacity: 0, duration: 0.08, data: "follow" }, K.t(5) + 0.1);
+          // b6: it renders here, in the browser
+          const p = { v: 0 };
+          tl.fromTo(roBar, { scaleX: 0 }, { scaleX: 1, duration: 0.24, ease: "power1.inOut" }, K.t(6));
+          tl.fromTo(p, { v: 0 }, { v: 100, duration: 0.24, ease: "power1.inOut", data: "follow", onUpdate: () => (roT.textContent = `rendering in your browser · ${Math.round(p.v)}%`) }, K.t(6));
+          // b7: and it cost nothing
+          K.pop(tl, free, 7);
+
+          const [ax, ay] = S(lx(4), 140), [bx] = S(lx(9.5), 0), [vx, vyy] = S(lx(6), 214), [mx, myy] = S(lx(6), 268), [cx, cyy] = S(lx(9.5), 322);
+          const [gx, gy] = S(1700 - 24 - 200, 404);
+          K.focus(scene, tl, "s15", [
+            [0, ax + 60, ay], [1, bx, ay], [2, vx + 120, vyy], [3, mx, myy],
+            [4, cx, cyy], [5, gx, gy], [6, gx, gy], [7, gx - 280, gy],
+          ]);
+          K.check(tl, "s15");
+          window.__timelines["s15-timeline"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

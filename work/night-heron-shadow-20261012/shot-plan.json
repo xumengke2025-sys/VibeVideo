@@ -1,0 +1,236 @@
+{
+  "size": [
+    1080,
+    1920
+  ],
+  "duration": 50,
+  "poseFps": 12,
+  "outputFps": 24,
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 60,
+      "title": "晨光里出门",
+      "stage": "willow",
+      "heron": [
+        [
+          0,
+          24,
+          "rest"
+        ],
+        [
+          24,
+          36,
+          "look"
+        ],
+        [
+          36,
+          60,
+          "walk"
+        ]
+      ],
+      "x": [
+        260,
+        680
+      ],
+      "scale": 0.6
+    },
+    {
+      "id": "S02",
+      "start": 60,
+      "end": 120,
+      "title": "沿步道来到动物园",
+      "stage": "zoo_gate",
+      "heron": [
+        [
+          0,
+          60,
+          "walk"
+        ]
+      ],
+      "x": [
+        160,
+        700
+      ],
+      "scale": 0.62
+    },
+    {
+      "id": "S03",
+      "start": 120,
+      "end": 180,
+      "title": "看到企鹅和鱼桶",
+      "stage": "penguin_pool",
+      "heron": [
+        [
+          0,
+          60,
+          "look"
+        ]
+      ],
+      "x": [
+        240,
+        240
+      ],
+      "scale": 0.55
+    },
+    {
+      "id": "S04",
+      "start": 180,
+      "end": 252,
+      "title": "缩颈并脚学企鹅",
+      "stage": "penguin_pool",
+      "heron": [
+        [
+          0,
+          24,
+          "disguise_enter"
+        ],
+        [
+          24,
+          72,
+          "disguise_walk"
+        ]
+      ],
+      "x": [
+        240,
+        450
+      ],
+      "scale": 0.55
+    },
+    {
+      "id": "S05",
+      "start": 252,
+      "end": 324,
+      "title": "跟在队尾挪到桶旁",
+      "stage": "bucket_close",
+      "heron": [
+        [
+          0,
+          48,
+          "disguise_walk"
+        ],
+        [
+          48,
+          72,
+          "disguise_hold"
+        ]
+      ],
+      "x": [
+        220,
+        440
+      ],
+      "scale": 0.6
+    },
+    {
+      "id": "S06",
+      "start": 324,
+      "end": 384,
+      "title": "伸颈探桶合嘴抢鱼",
+      "stage": "bucket_contact",
+      "heron": [
+        [
+          0,
+          36,
+          "grab"
+        ],
+        [
+          36,
+          60,
+          "caught"
+        ]
+      ],
+      "x": [
+        360,
+        360
+      ],
+      "scale": 0.62
+    },
+    {
+      "id": "S07",
+      "start": 384,
+      "end": 432,
+      "title": "企鹅回头长嘴露馅",
+      "stage": "penguin_pool",
+      "heron": [
+        [
+          0,
+          48,
+          "caught"
+        ]
+      ],
+      "x": [
+        430,
+        430
+      ],
+      "scale": 0.57
+    },
+    {
+      "id": "S08",
+      "start": 432,
+      "end": 492,
+      "title": "叼鱼快步回家",
+      "stage": "return_path",
+      "heron": [
+        [
+          0,
+          60,
+          "walk"
+        ]
+      ],
+      "x": [
+        180,
+        860
+      ],
+      "scale": 0.6
+    },
+    {
+      "id": "S09",
+      "start": 492,
+      "end": 552,
+      "title": "低头把鱼交入巢中",
+      "stage": "nest_close",
+      "heron": [
+        [
+          0,
+          12,
+          "look"
+        ],
+        [
+          12,
+          48,
+          "feed"
+        ],
+        [
+          48,
+          60,
+          "settle"
+        ]
+      ],
+      "x": [
+        280,
+        280
+      ],
+      "scale": 0.62
+    },
+    {
+      "id": "S10",
+      "start": 552,
+      "end": 600,
+      "title": "幼鸟围食一家安定",
+      "stage": "nest_wide",
+      "heron": [
+        [
+          0,
+          48,
+          "settle"
+        ]
+      ],
+      "x": [
+        270,
+        270
+      ],
+      "scale": 0.52
+    }
+  ]
+}

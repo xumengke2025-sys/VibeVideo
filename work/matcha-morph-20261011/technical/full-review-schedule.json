@@ -1,0 +1,196 @@
+{
+  "duration": 35,
+  "fps": 30,
+  "representatives": [
+    {
+      "shot": "leaf",
+      "state": "establish",
+      "time": 0.2,
+      "frame": 6
+    },
+    {
+      "shot": "leaf",
+      "state": "action",
+      "time": 1.2,
+      "frame": 36
+    },
+    {
+      "shot": "leaf",
+      "state": "result",
+      "time": 2.1,
+      "frame": 63
+    },
+    {
+      "shot": "shade",
+      "state": "establish",
+      "time": 3.6,
+      "frame": 108
+    },
+    {
+      "shot": "shade",
+      "state": "action",
+      "time": 4.2,
+      "frame": 126
+    },
+    {
+      "shot": "shade",
+      "state": "result",
+      "time": 6.2,
+      "frame": 186
+    },
+    {
+      "shot": "steam",
+      "state": "establish",
+      "time": 7.3,
+      "frame": 219
+    },
+    {
+      "shot": "steam",
+      "state": "action",
+      "time": 8.6,
+      "frame": 258
+    },
+    {
+      "shot": "steam",
+      "state": "result",
+      "time": 10.5,
+      "frame": 315
+    },
+    {
+      "shot": "dry",
+      "state": "establish",
+      "time": 11.3,
+      "frame": 339
+    },
+    {
+      "shot": "dry",
+      "state": "action",
+      "time": 12.2,
+      "frame": 366
+    },
+    {
+      "shot": "dry",
+      "state": "result",
+      "time": 14.5,
+      "frame": 435
+    },
+    {
+      "shot": "refine",
+      "state": "establish",
+      "time": 15.5,
+      "frame": 465
+    },
+    {
+      "shot": "refine",
+      "state": "action",
+      "time": 16.5,
+      "frame": 495
+    },
+    {
+      "shot": "refine",
+      "state": "result",
+      "time": 18.5,
+      "frame": 555
+    },
+    {
+      "shot": "mill",
+      "state": "establish",
+      "time": 19.8,
+      "frame": 594
+    },
+    {
+      "shot": "mill",
+      "state": "action",
+      "time": 21,
+      "frame": 630
+    },
+    {
+      "shot": "mill",
+      "state": "result",
+      "time": 23,
+      "frame": 690
+    },
+    {
+      "shot": "water",
+      "state": "establish",
+      "time": 24.6,
+      "frame": 738
+    },
+    {
+      "shot": "water",
+      "state": "action",
+      "time": 26.2,
+      "frame": 786
+    },
+    {
+      "shot": "water",
+      "state": "result",
+      "time": 28.3,
+      "frame": 849
+    },
+    {
+      "shot": "whisk",
+      "state": "establish",
+      "time": 29.55,
+      "frame": 886
+    },
+    {
+      "shot": "whisk",
+      "state": "action",
+      "time": 31.1,
+      "frame": 933
+    },
+    {
+      "shot": "whisk",
+      "state": "result",
+      "time": 33.5,
+      "frame": 1005
+    }
+  ],
+  "continuous_windows": [
+    {
+      "reason": "environment_reveal",
+      "anchor": "同一鲜叶与叶脉",
+      "start_frame": 81,
+      "end_frame": 126
+    },
+    {
+      "reason": "action_match",
+      "anchor": "采下叶片落在竹筛；主体位置与相机终点一致",
+      "start_frame": 180,
+      "end_frame": 225
+    },
+    {
+      "reason": "point_morph",
+      "anchor": "82点蒸汽带→82点气流；叶片持续存在",
+      "start_frame": 309,
+      "end_frame": 378
+    },
+    {
+      "reason": "identity_match",
+      "anchor": "干叶末态保持后精制分片",
+      "start_frame": 435,
+      "end_frame": 492
+    },
+    {
+      "reason": "shape_and_action_match",
+      "anchor": "叶肉碎片环→磨盘圆口，碎片入料；不是材料物理变成磨盘",
+      "start_frame": 549,
+      "end_frame": 624
+    },
+    {
+      "reason": "subject_handoff",
+      "anchor": "出口茶粉跟随到茶碗内",
+      "start_frame": 690,
+      "end_frame": 771
+    },
+    {
+      "reason": "continuous_action",
+      "anchor": "同一碗与液面，注水结束后茶筅击拂",
+      "start_frame": 858,
+      "end_frame": 891
+    }
+  ],
+  "errors": [],
+  "scope": "Plan/evidence consistency only; visual and sound judgments require actual observation."
+}

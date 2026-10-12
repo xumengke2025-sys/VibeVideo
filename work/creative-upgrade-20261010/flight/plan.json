@@ -1,0 +1,132 @@
+{
+  "duration": 8,
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "type": "3D",
+  "events": [
+    {
+      "id": "request",
+      "at": 2.4,
+      "duration": 0.7,
+      "trigger": "drone stopped before closed gate",
+      "receiver": "gate",
+      "result": "signal acknowledged"
+    },
+    {
+      "id": "gate-open",
+      "at": 3.05,
+      "duration": 1.1,
+      "trigger": "request",
+      "receiver": "two door panels",
+      "result": "safe gap"
+    }
+  ],
+  "shots": [
+    {
+      "id": "approach",
+      "start": 0,
+      "end": 2.4,
+      "intent": "前方闭门使主体改变速度",
+      "action": "伴随接近并减速",
+      "camera": "偏后方伴随，闭门在前",
+      "states": {
+        "establish": 0.1,
+        "action": 1.2,
+        "result": 2.25
+      },
+      "risks": [
+        [
+          1.85,
+          2.35
+        ]
+      ]
+    },
+    {
+      "id": "negotiate",
+      "start": 2.4,
+      "end": 4.4,
+      "intent": "请求导致门响应",
+      "action": "等待、扫描、门退让",
+      "camera": "同一伴随位置稳定读相互作用",
+      "states": {
+        "establish": 2.45,
+        "action": 3.3,
+        "result": 4.3
+      },
+      "risks": [
+        [
+          2.4,
+          4.3
+        ]
+      ]
+    },
+    {
+      "id": "cross",
+      "start": 4.4,
+      "end": 6.5,
+      "intent": "主体穿过自己改变的环境",
+      "action": "加速穿越并轻微侧倾",
+      "camera": "伴随通过门，前景视差证明穿越",
+      "states": {
+        "establish": 4.45,
+        "action": 5.15,
+        "result": 6.35
+      },
+      "risks": [
+        [
+          4.5,
+          5.7
+        ]
+      ]
+    },
+    {
+      "id": "consequence",
+      "start": 6.5,
+      "end": 8,
+      "intent": "行动留下开放通道",
+      "action": "上升回看",
+      "camera": "升高揭示门与出口关系",
+      "states": {
+        "establish": 6.55,
+        "action": 7.2,
+        "result": 7.85
+      },
+      "risks": [
+        [
+          7.3,
+          7.95
+        ]
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "time": 2.4,
+      "kind": "continuous",
+      "anchor": "drone / gate",
+      "window": [
+        2.3,
+        2.5
+      ]
+    },
+    {
+      "time": 4.4,
+      "kind": "continuous",
+      "anchor": "drone / gate",
+      "window": [
+        4.300000000000001,
+        4.5
+      ]
+    },
+    {
+      "time": 6.5,
+      "kind": "continuous",
+      "anchor": "drone / gate",
+      "window": [
+        6.4,
+        6.6
+      ]
+    }
+  ]
+}

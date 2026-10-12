@@ -1,0 +1,2512 @@
+{
+  "ship-intact": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/ship-intact-00.png",
+        "w": 778,
+        "h": 490,
+        "root": 389.0,
+        "bottom": 490,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          840,
+          515
+        ],
+        "crop": [
+          62,
+          18,
+          840,
+          508
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 490,
+    "actor": false,
+    "topAnchor": false
+  },
+  "ship-hull": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/ship-hull-00.png",
+        "w": 656,
+        "h": 172,
+        "root": 328.0,
+        "bottom": 172,
+        "top": 0,
+        "box": [
+          840,
+          300,
+          1536,
+          515
+        ],
+        "crop": [
+          3,
+          37,
+          659,
+          209
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 172,
+    "actor": false,
+    "topAnchor": false
+  },
+  "mast": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/mast-00.png",
+        "w": 310,
+        "h": 495,
+        "root": 155.0,
+        "bottom": 495,
+        "top": 0,
+        "box": [
+          210,
+          515,
+          700,
+          1024
+        ],
+        "crop": [
+          53,
+          4,
+          363,
+          499
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 495,
+    "actor": false,
+    "topAnchor": false
+  },
+  "mast-broken": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/mast-broken-00.png",
+        "w": 332,
+        "h": 496,
+        "root": 166.0,
+        "bottom": 496,
+        "top": 0,
+        "box": [
+          1000,
+          515,
+          1400,
+          1024
+        ],
+        "crop": [
+          4,
+          4,
+          336,
+          500
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 496,
+    "actor": false,
+    "topAnchor": false
+  },
+  "walk2": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/walk2-00.png",
+        "w": 281,
+        "h": 465,
+        "root": 129.87369444629718,
+        "bottom": 465,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          417,
+          500
+        ],
+        "crop": [
+          86,
+          19,
+          367,
+          484
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/walk2-01.png",
+        "w": 259,
+        "h": 467,
+        "root": 121.70238662303223,
+        "bottom": 467,
+        "top": 0,
+        "box": [
+          417,
+          0,
+          794,
+          500
+        ],
+        "crop": [
+          61,
+          18,
+          320,
+          485
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/walk2-02.png",
+        "w": 253,
+        "h": 469,
+        "root": 117.64093680836353,
+        "bottom": 469,
+        "top": 0,
+        "box": [
+          794,
+          0,
+          1168,
+          500
+        ],
+        "crop": [
+          62,
+          19,
+          315,
+          488
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/walk2-03.png",
+        "w": 258,
+        "h": 465,
+        "root": 120.19940267756883,
+        "bottom": 465,
+        "top": 0,
+        "box": [
+          1168,
+          0,
+          1536,
+          500
+        ],
+        "crop": [
+          61,
+          19,
+          319,
+          484
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/walk2-04.png",
+        "w": 290,
+        "h": 462,
+        "root": 137.35516228282597,
+        "bottom": 462,
+        "top": 0,
+        "box": [
+          0,
+          500,
+          418,
+          1024
+        ],
+        "crop": [
+          80,
+          12,
+          370,
+          474
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/walk2-05.png",
+        "w": 263,
+        "h": 466,
+        "root": 124.97099896344318,
+        "bottom": 466,
+        "top": 0,
+        "box": [
+          418,
+          500,
+          794,
+          1024
+        ],
+        "crop": [
+          56,
+          12,
+          319,
+          478
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/walk2-06.png",
+        "w": 254,
+        "h": 468,
+        "root": 119.48550969421072,
+        "bottom": 468,
+        "top": 0,
+        "box": [
+          794,
+          500,
+          1165,
+          1024
+        ],
+        "crop": [
+          60,
+          12,
+          314,
+          480
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/walk2-07.png",
+        "w": 272,
+        "h": 464,
+        "root": 125.32585465929682,
+        "bottom": 464,
+        "top": 0,
+        "box": [
+          1165,
+          500,
+          1536,
+          1024
+        ],
+        "crop": [
+          57,
+          13,
+          329,
+          477
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 465.5,
+    "actor": true,
+    "topAnchor": false
+  },
+  "coast": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/coast.png",
+        "w": 304,
+        "h": 1237,
+        "root": 152.0,
+        "bottom": 1237
+      }
+    ],
+    "nominal": 1237,
+    "environment": true
+  },
+  "desert": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/desert.png",
+        "w": 303,
+        "h": 1237,
+        "root": 151.5,
+        "bottom": 1237
+      }
+    ],
+    "nominal": 1237,
+    "environment": true
+  },
+  "temple": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/temple.png",
+        "w": 304,
+        "h": 1237,
+        "root": 152.0,
+        "bottom": 1237
+      }
+    ],
+    "nominal": 1237,
+    "environment": true
+  },
+  "generalWalk": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/generalWalk-00.png",
+        "w": 258,
+        "h": 466,
+        "root": 123.30793480480844,
+        "bottom": 466,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          490
+        ],
+        "crop": [
+          10,
+          9,
+          268,
+          475
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/generalWalk-01.png",
+        "w": 249,
+        "h": 465,
+        "root": 115.62092330977339,
+        "bottom": 465,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          490
+        ],
+        "crop": [
+          267,
+          9,
+          516,
+          474
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/generalWalk-02.png",
+        "w": 201,
+        "h": 466,
+        "root": 103.04959404355463,
+        "bottom": 466,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          490
+        ],
+        "crop": [
+          525,
+          9,
+          726,
+          475
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/generalWalk-03.png",
+        "w": 184,
+        "h": 465,
+        "root": 107.9155187531926,
+        "bottom": 465,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          490
+        ],
+        "crop": [
+          764,
+          9,
+          948,
+          474
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/generalWalk-04.png",
+        "w": 257,
+        "h": 465,
+        "root": 116.07832165434456,
+        "bottom": 465,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          490
+        ],
+        "crop": [
+          1020,
+          10,
+          1277,
+          475
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/generalWalk-05.png",
+        "w": 235,
+        "h": 465,
+        "root": 116.55729376295835,
+        "bottom": 465,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          490
+        ],
+        "crop": [
+          1294,
+          10,
+          1529,
+          475
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/generalWalk-06.png",
+        "w": 249,
+        "h": 463,
+        "root": 116.46562932221656,
+        "bottom": 463,
+        "top": 0,
+        "box": [
+          0,
+          490,
+          1536,
+          1024
+        ],
+        "crop": [
+          4,
+          16,
+          253,
+          479
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/generalWalk-07.png",
+        "w": 256,
+        "h": 463,
+        "root": 114.02323827890149,
+        "bottom": 463,
+        "top": 0,
+        "box": [
+          0,
+          490,
+          1536,
+          1024
+        ],
+        "crop": [
+          259,
+          17,
+          515,
+          480
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/generalWalk-08.png",
+        "w": 194,
+        "h": 462,
+        "root": 106.38748429784698,
+        "bottom": 462,
+        "top": 0,
+        "box": [
+          0,
+          490,
+          1536,
+          1024
+        ],
+        "crop": [
+          521,
+          18,
+          715,
+          480
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/generalWalk-09.png",
+        "w": 182,
+        "h": 462,
+        "root": 100.31127260566734,
+        "bottom": 462,
+        "top": 0,
+        "box": [
+          0,
+          490,
+          1536,
+          1024
+        ],
+        "crop": [
+          780,
+          18,
+          962,
+          480
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/generalWalk-10.png",
+        "w": 266,
+        "h": 462,
+        "root": 129.94271241785054,
+        "bottom": 462,
+        "top": 0,
+        "box": [
+          0,
+          490,
+          1536,
+          1024
+        ],
+        "crop": [
+          1026,
+          18,
+          1292,
+          480
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/generalWalk-11.png",
+        "w": 234,
+        "h": 462,
+        "root": 110.0050181075344,
+        "bottom": 462,
+        "top": 0,
+        "box": [
+          0,
+          490,
+          1536,
+          1024
+        ],
+        "crop": [
+          1300,
+          18,
+          1534,
+          480
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 464.0,
+    "actor": true,
+    "topAnchor": false
+  },
+  "boat": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/boat-00.png",
+        "w": 959,
+        "h": 273,
+        "root": 479.5,
+        "bottom": 273,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1030,
+          390
+        ],
+        "crop": [
+          34,
+          106,
+          993,
+          379
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 273,
+    "actor": false,
+    "topAnchor": false
+  },
+  "oar": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/oar-00.png",
+        "w": 895,
+        "h": 114,
+        "root": 447.5,
+        "bottom": 114,
+        "top": 0,
+        "box": [
+          0,
+          665,
+          1000,
+          820
+        ],
+        "crop": [
+          61,
+          20,
+          956,
+          134
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 114,
+    "actor": false,
+    "topAnchor": false
+  },
+  "flag": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/flag-00.png",
+        "w": 409,
+        "h": 600,
+        "root": 204.5,
+        "bottom": 600,
+        "top": 0,
+        "box": [
+          1040,
+          385,
+          1536,
+          1024
+        ],
+        "crop": [
+          49,
+          5,
+          458,
+          605
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 600,
+    "actor": false,
+    "topAnchor": false
+  },
+  "hands": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/hands-00.png",
+        "w": 355,
+        "h": 319,
+        "root": 177.5,
+        "bottom": 319,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          380,
+          361
+        ],
+        "crop": [
+          22,
+          28,
+          377,
+          347
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/hands-01.png",
+        "w": 331,
+        "h": 323,
+        "root": 165.5,
+        "bottom": 323,
+        "top": 0,
+        "box": [
+          380,
+          0,
+          731,
+          361
+        ],
+        "crop": [
+          3,
+          25,
+          334,
+          348
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/hands-02.png",
+        "w": 252,
+        "h": 325,
+        "root": 126.0,
+        "bottom": 325,
+        "top": 0,
+        "box": [
+          731,
+          0,
+          1086,
+          361
+        ],
+        "crop": [
+          19,
+          24,
+          271,
+          349
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/hands-03.png",
+        "w": 303,
+        "h": 333,
+        "root": 151.5,
+        "bottom": 333,
+        "top": 0,
+        "box": [
+          0,
+          361,
+          355,
+          722
+        ],
+        "crop": [
+          23,
+          15,
+          326,
+          348
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/hands-04.png",
+        "w": 327,
+        "h": 336,
+        "root": 163.5,
+        "bottom": 336,
+        "top": 0,
+        "box": [
+          355,
+          361,
+          730,
+          722
+        ],
+        "crop": [
+          30,
+          12,
+          357,
+          348
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/hands-05.png",
+        "w": 328,
+        "h": 328,
+        "root": 164.0,
+        "bottom": 328,
+        "top": 0,
+        "box": [
+          730,
+          361,
+          1086,
+          722
+        ],
+        "crop": [
+          20,
+          20,
+          348,
+          348
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/hands-06.png",
+        "w": 268,
+        "h": 315,
+        "root": 134.0,
+        "bottom": 315,
+        "top": 0,
+        "box": [
+          0,
+          722,
+          337,
+          1066
+        ],
+        "crop": [
+          22,
+          19,
+          290,
+          334
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/hands-07.png",
+        "w": 251,
+        "h": 322,
+        "root": 125.5,
+        "bottom": 322,
+        "top": 0,
+        "box": [
+          337,
+          722,
+          696,
+          1066
+        ],
+        "crop": [
+          48,
+          15,
+          299,
+          337
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/hands-08.png",
+        "w": 295,
+        "h": 319,
+        "root": 147.5,
+        "bottom": 319,
+        "top": 0,
+        "box": [
+          696,
+          722,
+          1086,
+          1066
+        ],
+        "crop": [
+          54,
+          15,
+          349,
+          334
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/hands-09.png",
+        "w": 254,
+        "h": 315,
+        "root": 127.0,
+        "bottom": 315,
+        "top": 0,
+        "box": [
+          0,
+          1066,
+          333,
+          1448
+        ],
+        "crop": [
+          22,
+          10,
+          276,
+          325
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/hands-10.png",
+        "w": 248,
+        "h": 321,
+        "root": 124.0,
+        "bottom": 321,
+        "top": 0,
+        "box": [
+          333,
+          1066,
+          696,
+          1448
+        ],
+        "crop": [
+          52,
+          11,
+          300,
+          332
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/hands-11.png",
+        "w": 297,
+        "h": 304,
+        "root": 148.5,
+        "bottom": 304,
+        "top": 0,
+        "box": [
+          696,
+          1066,
+          1086,
+          1448
+        ],
+        "crop": [
+          54,
+          25,
+          351,
+          329
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 321.5,
+    "actor": false,
+    "topAnchor": false
+  },
+  "salvo": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/salvo-00.png",
+        "w": 191,
+        "h": 483,
+        "root": 88.17320970497707,
+        "bottom": 483,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          350,
+          512
+        ],
+        "crop": [
+          81,
+          6,
+          272,
+          489
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/salvo-01.png",
+        "w": 323,
+        "h": 439,
+        "root": 96.74873977284045,
+        "bottom": 439,
+        "top": 0,
+        "box": [
+          350,
+          0,
+          747,
+          512
+        ],
+        "crop": [
+          57,
+          50,
+          380,
+          489
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/salvo-02.png",
+        "w": 360,
+        "h": 436,
+        "root": 116.4306849132704,
+        "bottom": 436,
+        "top": 0,
+        "box": [
+          747,
+          0,
+          1130,
+          512
+        ],
+        "crop": [
+          22,
+          53,
+          382,
+          489
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/salvo-03.png",
+        "w": 393,
+        "h": 458,
+        "root": 147.74519083653763,
+        "bottom": 458,
+        "top": 0,
+        "box": [
+          1130,
+          0,
+          1536,
+          512
+        ],
+        "crop": [
+          2,
+          54,
+          395,
+          512
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/salvo-04.png",
+        "w": 356,
+        "h": 423,
+        "root": 121.42333178657489,
+        "bottom": 423,
+        "top": 0,
+        "box": [
+          0,
+          512,
+          418,
+          1024
+        ],
+        "crop": [
+          54,
+          32,
+          410,
+          455
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/salvo-05.png",
+        "w": 355,
+        "h": 427,
+        "root": 116.45786092649888,
+        "bottom": 427,
+        "top": 0,
+        "box": [
+          418,
+          512,
+          805,
+          1024
+        ],
+        "crop": [
+          28,
+          29,
+          383,
+          456
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/salvo-06.png",
+        "w": 332,
+        "h": 433,
+        "root": 91.32591275584323,
+        "bottom": 433,
+        "top": 0,
+        "box": [
+          805,
+          512,
+          1180,
+          1024
+        ],
+        "crop": [
+          29,
+          26,
+          361,
+          459
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/salvo-07.png",
+        "w": 192,
+        "h": 463,
+        "root": 84.71567583116592,
+        "bottom": 463,
+        "top": 0,
+        "box": [
+          1180,
+          512,
+          1536,
+          1024
+        ],
+        "crop": [
+          44,
+          0,
+          236,
+          463
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 437.5,
+    "actor": true,
+    "topAnchor": false
+  },
+  "boarding": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/boarding-00.png",
+        "w": 160,
+        "h": 371,
+        "root": 98.57125718967697,
+        "bottom": 371,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          354,
+          380
+        ],
+        "crop": [
+          116,
+          9,
+          276,
+          380
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boarding-01.png",
+        "w": 247,
+        "h": 369,
+        "root": 125.53198544764126,
+        "bottom": 369,
+        "top": 0,
+        "box": [
+          354,
+          0,
+          714,
+          380
+        ],
+        "crop": [
+          72,
+          11,
+          319,
+          380
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boarding-02.png",
+        "w": 257,
+        "h": 363,
+        "root": 133.69266892800013,
+        "bottom": 363,
+        "top": 0,
+        "box": [
+          714,
+          0,
+          1056,
+          380
+        ],
+        "crop": [
+          41,
+          14,
+          298,
+          377
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boarding-03.png",
+        "w": 250,
+        "h": 365,
+        "root": 129.48518174051128,
+        "bottom": 365,
+        "top": 0,
+        "box": [
+          1056,
+          0,
+          1448,
+          380
+        ],
+        "crop": [
+          44,
+          13,
+          294,
+          378
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boarding-04.png",
+        "w": 268,
+        "h": 371,
+        "root": 152.7323026296657,
+        "bottom": 371,
+        "top": 0,
+        "box": [
+          0,
+          380,
+          383,
+          756
+        ],
+        "crop": [
+          81,
+          0,
+          349,
+          371
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boarding-05.png",
+        "w": 259,
+        "h": 362,
+        "root": 141.60040487840388,
+        "bottom": 362,
+        "top": 0,
+        "box": [
+          383,
+          380,
+          726,
+          756
+        ],
+        "crop": [
+          35,
+          5,
+          294,
+          367
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boarding-06.png",
+        "w": 220,
+        "h": 353,
+        "root": 113.07101533055956,
+        "bottom": 353,
+        "top": 0,
+        "box": [
+          726,
+          380,
+          1070,
+          756
+        ],
+        "crop": [
+          51,
+          5,
+          271,
+          358
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boarding-07.png",
+        "w": 189,
+        "h": 359,
+        "root": 93.85835426242966,
+        "bottom": 359,
+        "top": 0,
+        "box": [
+          1070,
+          380,
+          1448,
+          756
+        ],
+        "crop": [
+          66,
+          1,
+          255,
+          360
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boarding-08.png",
+        "w": 195,
+        "h": 300,
+        "root": 122.69958251595125,
+        "bottom": 300,
+        "top": 0,
+        "box": [
+          0,
+          756,
+          367,
+          1086
+        ],
+        "crop": [
+          104,
+          6,
+          299,
+          306
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boarding-09.png",
+        "w": 213,
+        "h": 285,
+        "root": 134.5246381001661,
+        "bottom": 285,
+        "top": 0,
+        "box": [
+          367,
+          756,
+          716,
+          1086
+        ],
+        "crop": [
+          69,
+          19,
+          282,
+          304
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boarding-10.png",
+        "w": 236,
+        "h": 297,
+        "root": 109.87118191975281,
+        "bottom": 297,
+        "top": 0,
+        "box": [
+          716,
+          756,
+          1080,
+          1086
+        ],
+        "crop": [
+          67,
+          6,
+          303,
+          303
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boarding-11.png",
+        "w": 233,
+        "h": 287,
+        "root": 68.65645583226276,
+        "bottom": 287,
+        "top": 0,
+        "box": [
+          1080,
+          756,
+          1448,
+          1086
+        ],
+        "crop": [
+          63,
+          17,
+          296,
+          304
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 364.0,
+    "actor": true,
+    "topAnchor": false
+  },
+  "horse": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/horse-00.png",
+        "w": 355,
+        "h": 328,
+        "root": 131.27095792659694,
+        "bottom": 328,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          378,
+          349
+        ],
+        "crop": [
+          18,
+          12,
+          373,
+          340
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/horse-01.png",
+        "w": 360,
+        "h": 329,
+        "root": 118.39923759053299,
+        "bottom": 329,
+        "top": 0,
+        "box": [
+          378,
+          0,
+          742,
+          349
+        ],
+        "crop": [
+          4,
+          11,
+          364,
+          340
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/horse-02.png",
+        "w": 348,
+        "h": 315,
+        "root": 119.96501619058127,
+        "bottom": 315,
+        "top": 0,
+        "box": [
+          742,
+          0,
+          1090,
+          349
+        ],
+        "crop": [
+          0,
+          13,
+          348,
+          328
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/horse-03.png",
+        "w": 349,
+        "h": 330,
+        "root": 124.69181643759426,
+        "bottom": 330,
+        "top": 0,
+        "box": [
+          1090,
+          0,
+          1448,
+          349
+        ],
+        "crop": [
+          0,
+          11,
+          349,
+          341
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/horse-04.png",
+        "w": 348,
+        "h": 325,
+        "root": 122.32435005306658,
+        "bottom": 325,
+        "top": 0,
+        "box": [
+          0,
+          349,
+          374,
+          708
+        ],
+        "crop": [
+          26,
+          10,
+          374,
+          335
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/horse-05.png",
+        "w": 357,
+        "h": 327,
+        "root": 122.98982349003892,
+        "bottom": 327,
+        "top": 0,
+        "box": [
+          374,
+          349,
+          731,
+          708
+        ],
+        "crop": [
+          0,
+          14,
+          357,
+          341
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/horse-06.png",
+        "w": 353,
+        "h": 335,
+        "root": 126.72241181836145,
+        "bottom": 335,
+        "top": 0,
+        "box": [
+          731,
+          349,
+          1084,
+          708
+        ],
+        "crop": [
+          0,
+          10,
+          353,
+          345
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/horse-07.png",
+        "w": 361,
+        "h": 343,
+        "root": 124.6588056531625,
+        "bottom": 343,
+        "top": 0,
+        "box": [
+          1084,
+          349,
+          1448,
+          708
+        ],
+        "crop": [
+          0,
+          9,
+          361,
+          352
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/horse-08.png",
+        "w": 371,
+        "h": 332,
+        "root": 138.1840819068732,
+        "bottom": 332,
+        "top": 0,
+        "box": [
+          0,
+          708,
+          384,
+          1086
+        ],
+        "crop": [
+          13,
+          6,
+          384,
+          338
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/horse-09.png",
+        "w": 356,
+        "h": 329,
+        "root": 129.20795909716762,
+        "bottom": 329,
+        "top": 0,
+        "box": [
+          384,
+          708,
+          740,
+          1086
+        ],
+        "crop": [
+          0,
+          9,
+          356,
+          338
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/horse-10.png",
+        "w": 361,
+        "h": 329,
+        "root": 127.35448445026978,
+        "bottom": 329,
+        "top": 0,
+        "box": [
+          740,
+          708,
+          1103,
+          1086
+        ],
+        "crop": [
+          2,
+          10,
+          363,
+          339
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/horse-11.png",
+        "w": 337,
+        "h": 331,
+        "root": 122.79170693382946,
+        "bottom": 331,
+        "top": 0,
+        "box": [
+          1103,
+          708,
+          1448,
+          1086
+        ],
+        "crop": [
+          0,
+          10,
+          337,
+          341
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 329.0,
+    "actor": true,
+    "topAnchor": false
+  },
+  "boot": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/boot-00.png",
+        "w": 232,
+        "h": 382,
+        "root": 116.0,
+        "bottom": 382,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          467
+        ],
+        "crop": [
+          20,
+          7,
+          252,
+          389
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot-01.png",
+        "w": 779,
+        "h": 386,
+        "root": 389.5,
+        "bottom": 386,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          467
+        ],
+        "crop": [
+          277,
+          7,
+          1056,
+          393
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot-02.png",
+        "w": 779,
+        "h": 386,
+        "root": 389.5,
+        "bottom": 386,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          467
+        ],
+        "crop": [
+          277,
+          7,
+          1056,
+          393
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot-03.png",
+        "w": 779,
+        "h": 386,
+        "root": 389.5,
+        "bottom": 386,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          467
+        ],
+        "crop": [
+          277,
+          7,
+          1056,
+          393
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot-04.png",
+        "w": 265,
+        "h": 406,
+        "root": 132.5,
+        "bottom": 406,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          467
+        ],
+        "crop": [
+          1033,
+          7,
+          1298,
+          413
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot-05.png",
+        "w": 243,
+        "h": 428,
+        "root": 121.5,
+        "bottom": 428,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          467
+        ],
+        "crop": [
+          1289,
+          7,
+          1532,
+          435
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot-06.png",
+        "w": 251,
+        "h": 439,
+        "root": 125.5,
+        "bottom": 439,
+        "top": 0,
+        "box": [
+          0,
+          467,
+          1536,
+          1024
+        ],
+        "crop": [
+          27,
+          33,
+          278,
+          472
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot-07.png",
+        "w": 245,
+        "h": 436,
+        "root": 122.5,
+        "bottom": 436,
+        "top": 0,
+        "box": [
+          0,
+          467,
+          1536,
+          1024
+        ],
+        "crop": [
+          273,
+          34,
+          518,
+          470
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot-08.png",
+        "w": 245,
+        "h": 436,
+        "root": 122.5,
+        "bottom": 436,
+        "top": 0,
+        "box": [
+          0,
+          467,
+          1536,
+          1024
+        ],
+        "crop": [
+          519,
+          33,
+          764,
+          469
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot-09.png",
+        "w": 266,
+        "h": 437,
+        "root": 133.0,
+        "bottom": 437,
+        "top": 0,
+        "box": [
+          0,
+          467,
+          1536,
+          1024
+        ],
+        "crop": [
+          775,
+          34,
+          1041,
+          471
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot-10.png",
+        "w": 259,
+        "h": 435,
+        "root": 129.5,
+        "bottom": 435,
+        "top": 0,
+        "box": [
+          0,
+          467,
+          1536,
+          1024
+        ],
+        "crop": [
+          1035,
+          34,
+          1294,
+          469
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot-11.png",
+        "w": 234,
+        "h": 435,
+        "root": 117.0,
+        "bottom": 435,
+        "top": 0,
+        "box": [
+          0,
+          467,
+          1536,
+          1024
+        ],
+        "crop": [
+          1287,
+          34,
+          1521,
+          469
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 431.5,
+    "actor": false,
+    "topAnchor": true
+  },
+  "surveyor": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/surveyor-00.png",
+        "w": 231,
+        "h": 440,
+        "root": 100.5554192313092,
+        "bottom": 440,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          478
+        ],
+        "crop": [
+          32,
+          18,
+          263,
+          458
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/surveyor-01.png",
+        "w": 246,
+        "h": 441,
+        "root": 105.52579352891689,
+        "bottom": 441,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          478
+        ],
+        "crop": [
+          284,
+          18,
+          530,
+          459
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/surveyor-02.png",
+        "w": 137,
+        "h": 444,
+        "root": 66.29851365590741,
+        "bottom": 444,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          478
+        ],
+        "crop": [
+          582,
+          16,
+          719,
+          460
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/surveyor-03.png",
+        "w": 172,
+        "h": 441,
+        "root": 93.75276182122673,
+        "bottom": 441,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          478
+        ],
+        "crop": [
+          810,
+          18,
+          982,
+          459
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/surveyor-04.png",
+        "w": 250,
+        "h": 443,
+        "root": 120.84412679085176,
+        "bottom": 443,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          478
+        ],
+        "crop": [
+          1036,
+          18,
+          1286,
+          461
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/surveyor-05.png",
+        "w": 233,
+        "h": 443,
+        "root": 107.3753519010404,
+        "bottom": 443,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          1536,
+          478
+        ],
+        "crop": [
+          1303,
+          18,
+          1536,
+          461
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/surveyor-06.png",
+        "w": 127,
+        "h": 482,
+        "root": 59.890842733731944,
+        "bottom": 482,
+        "top": 0,
+        "box": [
+          0,
+          478,
+          1536,
+          1024
+        ],
+        "crop": [
+          51,
+          18,
+          178,
+          500
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/surveyor-07.png",
+        "w": 267,
+        "h": 478,
+        "root": 103.69171032373004,
+        "bottom": 478,
+        "top": 0,
+        "box": [
+          0,
+          478,
+          1536,
+          1024
+        ],
+        "crop": [
+          273,
+          22,
+          540,
+          500
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/surveyor-08.png",
+        "w": 279,
+        "h": 450,
+        "root": 112.72996232038827,
+        "bottom": 450,
+        "top": 0,
+        "box": [
+          0,
+          478,
+          1536,
+          1024
+        ],
+        "crop": [
+          514,
+          51,
+          793,
+          501
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/surveyor-09.png",
+        "w": 252,
+        "h": 436,
+        "root": 111.20155364030393,
+        "bottom": 436,
+        "top": 0,
+        "box": [
+          0,
+          478,
+          1536,
+          1024
+        ],
+        "crop": [
+          766,
+          63,
+          1018,
+          499
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/surveyor-10.png",
+        "w": 210,
+        "h": 449,
+        "root": 102.90246096147621,
+        "bottom": 449,
+        "top": 0,
+        "box": [
+          0,
+          478,
+          1536,
+          1024
+        ],
+        "crop": [
+          1033,
+          50,
+          1243,
+          499
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/surveyor-11.png",
+        "w": 122,
+        "h": 482,
+        "root": 59.89170225960288,
+        "bottom": 482,
+        "top": 0,
+        "box": [
+          0,
+          478,
+          1536,
+          1024
+        ],
+        "crop": [
+          1334,
+          18,
+          1456,
+          500
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 443.5,
+    "actor": true,
+    "topAnchor": false
+  },
+  "instrument": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/instrument-00.png",
+        "w": 532,
+        "h": 532,
+        "root": 266.0,
+        "bottom": 532,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          682,
+          564
+        ],
+        "crop": [
+          103,
+          26,
+          635,
+          558
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 532,
+    "actor": false,
+    "topAnchor": false
+  },
+  "stone": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/stone-00.png",
+        "w": 539,
+        "h": 487,
+        "root": 269.5,
+        "bottom": 487,
+        "top": 0,
+        "box": [
+          722,
+          0,
+          1312,
+          546
+        ],
+        "crop": [
+          20,
+          48,
+          559,
+          535
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 487,
+    "actor": false,
+    "topAnchor": false
+  },
+  "book": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/book-00.png",
+        "w": 723,
+        "h": 474,
+        "root": 361.5,
+        "bottom": 474,
+        "top": 0,
+        "box": [
+          0,
+          588,
+          748,
+          1127
+        ],
+        "crop": [
+          19,
+          53,
+          742,
+          527
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 474,
+    "actor": false,
+    "topAnchor": false
+  },
+  "sailor": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/sailor-00.png",
+        "w": 475,
+        "h": 603,
+        "root": 237.5,
+        "bottom": 603,
+        "top": 0,
+        "box": [
+          787,
+          558,
+          1312,
+          1199
+        ],
+        "crop": [
+          33,
+          8,
+          508,
+          611
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 603,
+    "actor": false,
+    "topAnchor": false
+  },
+  "boot2": {
+    "frames": [
+      {
+        "path": "assets/v3/frames/boot2-00.png",
+        "w": 241,
+        "h": 302,
+        "root": 81.33556659674278,
+        "bottom": 302,
+        "top": 0,
+        "box": [
+          0,
+          0,
+          395,
+          336
+        ],
+        "crop": [
+          82,
+          9,
+          323,
+          311
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot2-01.png",
+        "w": 265,
+        "h": 304,
+        "root": 92.03512750458461,
+        "bottom": 304,
+        "top": 0,
+        "box": [
+          395,
+          0,
+          788,
+          336
+        ],
+        "crop": [
+          72,
+          10,
+          337,
+          314
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot2-02.png",
+        "w": 298,
+        "h": 305,
+        "root": 77.24533925784291,
+        "bottom": 305,
+        "top": 0,
+        "box": [
+          788,
+          0,
+          1188,
+          336
+        ],
+        "crop": [
+          56,
+          9,
+          354,
+          314
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot2-03.png",
+        "w": 261,
+        "h": 313,
+        "root": 82.69659404354184,
+        "bottom": 313,
+        "top": 0,
+        "box": [
+          1188,
+          0,
+          1536,
+          336
+        ],
+        "crop": [
+          51,
+          11,
+          312,
+          324
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot2-04.png",
+        "w": 267,
+        "h": 314,
+        "root": 86.6782229828327,
+        "bottom": 314,
+        "top": 0,
+        "box": [
+          0,
+          336,
+          407,
+          675
+        ],
+        "crop": [
+          81,
+          14,
+          348,
+          328
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot2-05.png",
+        "w": 255,
+        "h": 312,
+        "root": 82.60309876457404,
+        "bottom": 312,
+        "top": 0,
+        "box": [
+          407,
+          336,
+          784,
+          675
+        ],
+        "crop": [
+          60,
+          13,
+          315,
+          325
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot2-06.png",
+        "w": 239,
+        "h": 312,
+        "root": 87.95016068505757,
+        "bottom": 312,
+        "top": 0,
+        "box": [
+          784,
+          336,
+          1150,
+          675
+        ],
+        "crop": [
+          62,
+          12,
+          301,
+          324
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot2-07.png",
+        "w": 264,
+        "h": 311,
+        "root": 120.61377351841008,
+        "bottom": 311,
+        "top": 0,
+        "box": [
+          1150,
+          336,
+          1536,
+          675
+        ],
+        "crop": [
+          65,
+          13,
+          329,
+          324
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot2-08.png",
+        "w": 269,
+        "h": 302,
+        "root": 115.12005709339923,
+        "bottom": 302,
+        "top": 0,
+        "box": [
+          0,
+          675,
+          400,
+          1024
+        ],
+        "crop": [
+          64,
+          12,
+          333,
+          314
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot2-09.png",
+        "w": 251,
+        "h": 302,
+        "root": 95.56159847595487,
+        "bottom": 302,
+        "top": 0,
+        "box": [
+          400,
+          675,
+          784,
+          1024
+        ],
+        "crop": [
+          66,
+          13,
+          317,
+          315
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot2-10.png",
+        "w": 207,
+        "h": 300,
+        "root": 75.83897919348942,
+        "bottom": 300,
+        "top": 0,
+        "box": [
+          784,
+          675,
+          1156,
+          1024
+        ],
+        "crop": [
+          85,
+          14,
+          292,
+          314
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      },
+      {
+        "path": "assets/v3/frames/boot2-11.png",
+        "w": 209,
+        "h": 301,
+        "root": 75.6135179062785,
+        "bottom": 301,
+        "top": 0,
+        "box": [
+          1156,
+          675,
+          1536,
+          1024
+        ],
+        "crop": [
+          99,
+          14,
+          308,
+          315
+        ],
+        "scalePolicy": "group-fixed-uniform"
+      }
+    ],
+    "nominal": 304.5,
+    "actor": true,
+    "topAnchor": false
+  }
+}

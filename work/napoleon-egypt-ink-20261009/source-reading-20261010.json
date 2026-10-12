@@ -1,0 +1,248 @@
+{
+  "date": "2026-10-10",
+  "scope": "实际文件和选定实现已读；非全库掌握，非本片运行验证。",
+  "noExternalVideoReference": true,
+  "noSourceExecution": true,
+  "sources": [
+    {
+      "source": "beach",
+      "path": "D:/Codex/skills/vibe-video/assets/code-studies/particle-beach/js/trailer-shots.js",
+      "readRanges": [
+        [
+          49,
+          90
+        ],
+        [
+          133,
+          180
+        ],
+        [
+          214,
+          277
+        ]
+      ],
+      "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+      "thisTurn": "read_only",
+      "migrationStatus": "not_implemented",
+      "sha256": "d985b0579de42c93f958cf43d141f045bb3595e440330327408ce99f06b89162"
+    },
+    {
+      "source": "beach",
+      "path": "D:/Codex/skills/vibe-video/assets/code-studies/particle-beach/js/core.js",
+      "readRanges": [
+        [
+          255,
+          265
+        ]
+      ],
+      "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+      "thisTurn": "read_only",
+      "migrationStatus": "not_implemented",
+      "sha256": "9cf3c37085638acb7416f9e910570f2031e1551ed8232f278b69d8a6962e51b3"
+    },
+    {
+      "source": "codex-tools",
+      "path": "D:/Codex/skills/vibe-video/assets/subject-camera.mjs",
+      "readRanges": [
+        [
+          1,
+          84
+        ]
+      ],
+      "commit": null,
+      "thisTurn": "read_only",
+      "migrationStatus": "not_implemented",
+      "sha256": "efb8045f16f950276f2d7dd48fc5392b29bdbc3ea19850ecdb55f1bdf98d2906"
+    },
+    {
+      "source": "codex-tools",
+      "path": "D:/Codex/skills/vibe-video/assets/cinematic-starter/camera-kit.mjs",
+      "readRanges": [
+        [
+          1,
+          27
+        ]
+      ],
+      "commit": null,
+      "thisTurn": "read_only",
+      "migrationStatus": "not_implemented",
+      "sha256": "872790cdbd549b0c41d67010ebdc784e3c9d14ed6b2d10bc5fc590da2f2728c5"
+    },
+    {
+      "source": "paper",
+      "path": "D:/Codex/skills/vibe-video/assets/code-studies/papermotion/examples/cast/Child.ts",
+      "readRanges": [
+        [
+          19,
+          115
+        ],
+        [
+          134,
+          165
+        ]
+      ],
+      "commit": "aafddbe2dbc2b594bcd57c19c4a5a75c5c271be8",
+      "thisTurn": "read_only",
+      "migrationStatus": "not_implemented",
+      "sha256": "a0c6e6bf9d1c3d53d0a6b149ab80977aef0ba6121e9dfe58685f3ef9ffea2186"
+    },
+    {
+      "source": "paper",
+      "path": "D:/Codex/skills/vibe-video/assets/code-studies/papermotion/examples/kite/main.ts",
+      "readRanges": [
+        [
+          55,
+          167
+        ]
+      ],
+      "commit": "aafddbe2dbc2b594bcd57c19c4a5a75c5c271be8",
+      "thisTurn": "read_only",
+      "migrationStatus": "not_implemented",
+      "sha256": "13bd2ba0cc2b77df102b7ac09081cfdff3afa2f75bcad3912956172f2a0b0afe"
+    },
+    {
+      "source": "paper",
+      "path": "D:/Codex/skills/vibe-video/assets/code-studies/papermotion/src/stage/Stage.ts",
+      "readRanges": [
+        [
+          1,
+          166
+        ]
+      ],
+      "commit": "aafddbe2dbc2b594bcd57c19c4a5a75c5c271be8",
+      "thisTurn": "read_only",
+      "migrationStatus": "not_implemented",
+      "sha256": "77d6aa763d70a2cbd756a8479306cf48e41b7982812515a4d469b0e0d6875504"
+    },
+    {
+      "source": "lemo",
+      "path": "D:/Codex/skills/vibe-video/assets/code-studies/lemo-opuscar/styles/ink-wash/demo/ink.js",
+      "readRanges": [
+        [
+          1,
+          208
+        ]
+      ],
+      "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+      "thisTurn": "read_only",
+      "migrationStatus": "not_implemented",
+      "sha256": "dbe6474ab0a0798193a7b49be9a8166511bc67ced90594e4390bdb2b70eef399"
+    },
+    {
+      "source": "lemo",
+      "path": "D:/Codex/skills/vibe-video/assets/code-studies/lemo-opuscar/styles/ink-wash/demo/comp.js",
+      "readRanges": [
+        [
+          1,
+          130
+        ]
+      ],
+      "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+      "thisTurn": "read_only",
+      "migrationStatus": "not_implemented",
+      "sha256": "063b2d9fa079772de016acc99f19aabddd6dbeaa2445119d01ccac5053a281af"
+    },
+    {
+      "source": "mg",
+      "path": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/05-cel-boil/js/engine.js",
+      "readRanges": [
+        [
+          145,
+          169
+        ]
+      ],
+      "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+      "thisTurn": "read_only",
+      "migrationStatus": "not_implemented",
+      "sha256": "806ccc3d962d94bb8b4f8c1b78ef68297d36206cd47cce02cf51826f7b643b56"
+    },
+    {
+      "source": "lyric",
+      "path": "D:/Codex/skills/vibe-video/assets/code-studies/i-like-ur-look-lyric-video/app/src/engine/curl.ts",
+      "readRanges": [
+        [
+          1,
+          56
+        ]
+      ],
+      "commit": "573a5c7ff19a4ac46fec145a060368e381d9ba50",
+      "thisTurn": "read_only",
+      "migrationStatus": "not_implemented",
+      "sha256": "b45ddaed53535bd2e34d775bb75462a66283e4e380b8d9fe47e57630eae5f249"
+    },
+    {
+      "source": "lyric",
+      "path": "D:/Codex/skills/vibe-video/assets/code-studies/i-like-ur-look-lyric-video/app/src/engine/page.ts",
+      "readRanges": [
+        [
+          35,
+          119
+        ]
+      ],
+      "commit": "573a5c7ff19a4ac46fec145a060368e381d9ba50",
+      "thisTurn": "read_only",
+      "migrationStatus": "not_implemented",
+      "sha256": "e8dca377b7859f4427cf0f8790b0e1645252afdac19b8f4df9f691c6a0f4ec9f"
+    }
+  ],
+  "localProjectFilesRead": [
+    "D:/ai项目/ai动画/VibeVideo项目/work/napoleon-egypt-ink-20261009/film.js",
+    "D:/ai项目/ai动画/VibeVideo项目/work/napoleon-egypt-ink-20261009/timeline.js",
+    "D:/ai项目/ai动画/VibeVideo项目/work/napoleon-egypt-ink-20261009/render.mjs",
+    "D:/ai项目/ai动画/VibeVideo项目/work/napoleon-egypt-ink-20261009/score.py",
+    "D:/ai项目/ai动画/VibeVideo项目/work/napoleon-egypt-ink-20261009/README.md",
+    "D:/ai项目/ai动画/VibeVideo项目/work/napoleon-egypt-ink-20261009/package.json",
+    "D:/ai项目/ai动画/VibeVideo项目/work/napoleon-egypt-ink-20261009/HANDOFF-20261010.md",
+    "D:/ai项目/ai动画/VibeVideo项目/work/napoleon-egypt-ink-20261009/out/delivery-evidence.json"
+  ],
+  "assetInspection": {
+    "imagesSeen": [
+      "napoleon",
+      "desert",
+      "ship",
+      "infantry",
+      "scholar",
+      "stone"
+    ],
+    "metadataMeasured": true
+  },
+  "runtime": {
+    "three": "0.186.1",
+    "mixedRendererTested": false
+  },
+  "contractCheck": {
+    "status": "passed",
+    "shots": 12,
+    "connections": 11,
+    "frames": 1440,
+    "events": 20,
+    "errors": []
+  },
+  "preservedFiles": [
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\napoleon-egypt-ink-20261009\\film.js",
+      "sha256": "4a6f01407119dd2194130c8928dfd131dc13bbc61ade8d0c34590d982ec3d838"
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\napoleon-egypt-ink-20261009\\timeline.js",
+      "sha256": "14925c38ef207a95b0707e9722f2c56dc8e325d8ae64ce77b8cbf3b0040cadd7"
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\napoleon-egypt-ink-20261009\\render.mjs",
+      "sha256": "daefb05be8efc0539c5f02bf018963c3a65b00e6bed07355bc0f6222e4f1f843"
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\napoleon-egypt-ink-20261009\\score.py",
+      "sha256": "5c91ce3b5107825015551db493668f9a00e09d748a5b5ddf2aa9545d7fa7cf5b"
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\napoleon-egypt-ink-20261009\\out\\napoleon-egypt-ink.mp4",
+      "sha256": "acc25e3ac188ff7a314f8c2ca79f27da1957e696035809821e2af52bfe1a94b5"
+    }
+  ],
+  "pathChecks": {
+    "sourceCount": 12,
+    "errors": [],
+    "note": "读取器显示的文件末尾空白行已按真实splitlines行数归一化"
+  }
+}

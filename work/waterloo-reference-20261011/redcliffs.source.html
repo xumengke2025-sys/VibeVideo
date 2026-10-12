@@ -1,0 +1,2182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Battle of Red Cliffs — 208 CE | Interactive 3D Battle Documentary</title>
+<style>
+  /* ==================== UI : GLOBAL ==================== */
+  :root{
+    --cao:#3b82f6; --cao-dark:#1d4ed8;
+    --sun:#ef4444; --sun-dark:#b91c1c;
+    --liu:#22c55e; --liu-dark:#15803d;
+    --panel:rgba(12,14,20,0.82);
+    --panel-border:rgba(255,255,255,0.14);
+    --gold:#d8b25c;
+    --fire:#f97316; --wind:#38bdf8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{width:100%;height:100%;overflow:hidden;background:#0a0c10;
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;color:#e8e6e0;}
+  #scene-container{position:fixed;inset:0;}
+  canvas{display:block;}
+
+  .letterbox{position:fixed;left:0;right:0;height:0;background:#000;z-index:5;
+    transition:height 1.2s ease;pointer-events:none;}
+  #letterbox-top{top:0;} #letterbox-bottom{bottom:0;}
+  body.cinematic #letterbox-top{height:46px;} body.cinematic #letterbox-bottom{height:46px;}
+  #vignette{position:fixed;inset:0;pointer-events:none;z-index:4;
+    background:radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.45) 100%);}
+
+  /* ==================== UI : TITLE ==================== */
+  #title-block{position:fixed;top:18px;left:22px;z-index:10;max-width:430px;
+    text-shadow:0 2px 8px rgba(0,0,0,0.9);pointer-events:none;}
+  #title-block h1{font-family:Georgia,"Times New Roman",serif;font-size:26px;
+    letter-spacing:3px;color:var(--gold);text-transform:uppercase;}
+  #title-block h2{font-size:13px;font-weight:400;letter-spacing:2px;color:#cfc9bb;margin-top:2px;}
+  #title-block p{font-size:11.5px;color:#b8b2a4;margin-top:6px;line-height:1.45;}
+
+  /* ==================== UI : LEGEND ==================== */
+  #legend{position:fixed;top:18px;right:22px;z-index:10;background:var(--panel);
+    border:1px solid var(--panel-border);border-radius:8px;padding:10px 14px;
+    font-size:11.5px;backdrop-filter:blur(6px);min-width:235px;}
+  #legend h3{font-size:11px;letter-spacing:2px;color:var(--gold);text-transform:uppercase;
+    margin-bottom:7px;border-bottom:1px solid var(--panel-border);padding-bottom:5px;}
+  .legend-row{display:flex;align-items:center;gap:8px;margin:4px 0;}
+  .swatch{width:13px;height:13px;border-radius:3px;flex:0 0 auto;box-shadow:0 0 6px rgba(0,0,0,0.5);}
+  .line-swatch{width:22px;height:0;border-top:3px solid;flex:0 0 auto;}
+  .dashed{border-top-style:dashed !important;}
+  .alliance-box{border:1px solid rgba(255,255,255,0.10);border-radius:6px;
+    padding:5px 8px;margin:6px 0;}
+  .alliance-box.allied{border-color:rgba(239,98,98,0.5);background:rgba(239,68,68,0.08);}
+  .alliance-box.cao{border-color:rgba(96,140,255,0.5);background:rgba(59,130,246,0.10);}
+  .alliance-title{font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;
+    margin-bottom:3px;color:#f0b0a0;}
+  .alliance-box.cao .alliance-title{color:#9fb6e8;}
+
+  /* ==================== UI : ACT PANEL ==================== */
+  #act-panel{position:fixed;left:22px;bottom:118px;z-index:10;max-width:440px;
+    background:var(--panel);border:1px solid var(--panel-border);border-left:3px solid var(--gold);
+    border-radius:8px;padding:13px 16px;backdrop-filter:blur(6px);transition:opacity .5s;}
+  #act-label{font-size:10.5px;letter-spacing:2.5px;color:var(--gold);text-transform:uppercase;}
+  #act-title{font-family:Georgia,serif;font-size:18px;margin:3px 0 6px;}
+  #act-desc{font-size:12px;line-height:1.5;color:#cfc9bd;}
+  #act-event{font-size:11px;margin-top:8px;color:#ffd9a0;min-height:14px;}
+  #act-event::before{content:"⚑ ";}
+  #act-event:empty{display:none;}
+
+  /* ==================== UI : STATUS BARS ==================== */
+  #status-panel{position:fixed;right:22px;bottom:118px;z-index:10;width:240px;
+    background:var(--panel);border:1px solid var(--panel-border);border-radius:8px;
+    padding:11px 14px;backdrop-filter:blur(6px);font-size:11px;}
+  #status-panel h3{font-size:10.5px;letter-spacing:2px;color:var(--gold);
+    text-transform:uppercase;margin-bottom:8px;}
+  .bar-row{margin:7px 0;}
+  .bar-row label{display:flex;justify-content:space-between;margin-bottom:3px;color:#cfc9bd;}
+  .bar-track{height:7px;background:rgba(255,255,255,0.1);border-radius:4px;overflow:hidden;}
+  .bar-fill{height:100%;border-radius:4px;transition:width 1.4s ease;}
+  #status-note{font-size:9.5px;color:#8d887c;margin-top:8px;font-style:italic;line-height:1.4;}
+
+  /* ==================== UI : TIMELINE & CONTROLS ==================== */
+  #control-deck{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:11;
+    background:var(--panel);border:1px solid var(--panel-border);border-radius:12px;
+    padding:10px 16px;backdrop-filter:blur(8px);width:min(980px,96vw);}
+  #timeline{display:flex;gap:5px;margin-bottom:9px;}
+  .act-btn{flex:1;background:rgba(255,255,255,0.06);border:1px solid var(--panel-border);
+    color:#bdb7aa;font-size:10px;padding:7px 3px;border-radius:6px;cursor:pointer;
+    text-align:center;transition:all .25s;line-height:1.3;}
+  .act-btn .num{display:block;font-size:9px;letter-spacing:1.5px;color:#8d887c;}
+  .act-btn:hover{background:rgba(255,255,255,0.14);color:#fff;}
+  .act-btn.active{background:rgba(216,178,92,0.22);border-color:var(--gold);color:#ffe9bb;}
+  .act-btn.active .num{color:var(--gold);}
+  #transport{display:flex;align-items:center;gap:8px;justify-content:center;}
+  .ctl-btn{background:rgba(255,255,255,0.08);border:1px solid var(--panel-border);
+    color:#e8e6e0;font-size:12px;padding:6px 14px;border-radius:6px;cursor:pointer;transition:all .2s;}
+  .ctl-btn:hover{background:rgba(255,255,255,0.18);}
+  .ctl-btn.toggled{background:rgba(216,178,92,0.25);border-color:var(--gold);color:#ffe9bb;}
+  .speed-group{display:flex;gap:3px;}
+  .speed-btn{padding:6px 8px;font-size:11px;}
+  #act-progress{flex:1;height:5px;background:rgba(255,255,255,0.1);border-radius:3px;overflow:hidden;max-width:240px;}
+  #act-progress-fill{height:100%;width:0%;background:var(--gold);transition:width .3s linear;}
+
+  /* wind indicator chip (appears when the east wind rises) */
+  #wind-chip{position:fixed;top:18px;left:50%;transform:translateX(-50%);z-index:10;
+    background:rgba(8,30,44,0.85);border:1px solid var(--wind);border-radius:20px;
+    padding:6px 18px;font-size:12px;color:#bfe8ff;letter-spacing:1px;display:none;
+    box-shadow:0 0 20px rgba(56,189,248,0.35);backdrop-filter:blur(6px);}
+  #wind-chip.visible{display:block;}
+  #wind-chip .arrow{display:inline-block;animation:windPulse 1.2s ease-in-out infinite;}
+  @keyframes windPulse{0%,100%{transform:translateX(0);}50%{transform:translateX(-6px);}}
+  #wind-chip.nw{border-color:#8aa0b8;background:rgba(28,36,50,0.85);color:#c8d4e2;
+    box-shadow:0 0 14px rgba(140,160,190,0.25);}
+  #wind-chip.nw .arrow{animation:windPulseSE 1.6s ease-in-out infinite;}
+  @keyframes windPulseSE{0%,100%{transform:translate(0,0);}50%{transform:translate(5px,3px);}}
+  #wind-chip.calm{border-color:#6a7282;background:rgba(20,24,30,0.85);color:#9aa2ae;box-shadow:none;}
+  #wind-chip.calm .arrow{animation:none;}
+
+  /* victory banner (end of Act 7) */
+  #victory-banner{position:fixed;left:50%;top:24%;transform:translate(-50%,-50%) scale(0.92);
+    z-index:30;text-align:center;background:rgba(10,12,18,0.88);border:2px solid var(--gold);
+    border-radius:10px;padding:22px 46px;opacity:0;pointer-events:none;
+    transition:opacity 1.4s ease, transform 1.4s ease;backdrop-filter:blur(8px);
+    box-shadow:0 0 60px rgba(216,178,92,0.25);}
+  #victory-banner.visible{opacity:1;transform:translate(-50%,-50%) scale(1);}
+  #victory-banner .laurel{font-size:30px;}
+  #victory-banner h2{font-family:Georgia,serif;font-size:28px;letter-spacing:4px;
+    color:var(--gold);text-transform:uppercase;margin:6px 0 4px;}
+  #victory-banner p{font-size:13px;color:#cfc9bd;letter-spacing:1px;}
+  #victory-banner .sub{font-size:11px;color:#8d887c;margin-top:6px;}
+  #victory-banner .vb-sides{display:flex;align-items:center;justify-content:center;
+    gap:12px;margin:10px 0 8px;font-size:12.5px;color:#e8e2d2;}
+  #victory-banner .vb-team{display:inline-flex;align-items:center;gap:3px;
+    padding:4px 10px;border-radius:6px;letter-spacing:0.5px;}
+  #victory-banner .vb-team.winner{border:1px solid rgba(239,98,98,0.6);
+    background:rgba(239,68,68,0.12);}
+  #victory-banner .vb-team.loser{border:1px solid rgba(96,140,255,0.55);
+    background:rgba(59,130,246,0.10);color:#b8c8e8;}
+  #victory-banner .vb-sw{display:inline-block;width:13px;height:13px;border-radius:3px;
+    margin-right:2px;box-shadow:0 0 6px rgba(0,0,0,0.6);}
+  #victory-banner .vb-def{color:#8d887c;font-size:10.5px;letter-spacing:2px;
+    text-transform:uppercase;}
+
+  /* ==================== UI : INFO CARD ==================== */
+  #info-card{position:fixed;z-index:20;width:272px;background:rgba(10,12,18,0.94);
+    border:1px solid var(--gold);border-radius:9px;padding:13px 15px;display:none;
+    box-shadow:0 8px 30px rgba(0,0,0,0.7);font-size:12px;backdrop-filter:blur(8px);}
+  #info-card.visible{display:block;}
+  #info-card h3{font-family:Georgia,serif;font-size:16px;margin-bottom:2px;}
+  #info-card .faction-tag{display:inline-block;font-size:9.5px;letter-spacing:1.5px;
+    text-transform:uppercase;padding:2px 7px;border-radius:4px;margin:4px 0 7px;}
+  #info-card p{line-height:1.45;color:#cfc9bd;}
+  #info-card .stat{display:flex;justify-content:space-between;margin:3px 0;color:#bdb7aa;font-size:11px;}
+  #info-card .close-x{position:absolute;top:7px;right:11px;cursor:pointer;color:#8d887c;font-size:14px;}
+  #info-card .close-x:hover{color:#fff;}
+  #ic-status.state-Normal{color:#9fe8a8;} #ic-status.state-Ignited{color:#ffd97a;}
+  #ic-status.state-Burning{color:#ff9a4a;} #ic-status.state-Charred{color:#b88a6a;}
+  #ic-status.state-Destroyed{color:#8d887c;}
+
+  /* ==================== 3D LABELS (CSS2D) ==================== */
+  .map-label{font-size:11px;letter-spacing:1.5px;color:#f0ead9;text-transform:uppercase;
+    text-shadow:0 1px 4px #000,0 0 10px rgba(0,0,0,0.9);pointer-events:none;white-space:nowrap;
+    font-family:Georgia,serif;}
+  .map-label.minor{font-size:9.5px;color:#cdc6b4;letter-spacing:1px;}
+  .map-label.water{color:#a8c8e8;font-style:italic;}
+  .map-label.windlbl{color:#9fe0ff;font-size:12px;}
+  .unit-label{font-size:10px;padding:2px 8px;border-radius:4px;white-space:nowrap;cursor:pointer;
+    pointer-events:auto;background:rgba(8,10,14,0.78);border:1px solid;letter-spacing:0.5px;
+    text-shadow:0 1px 2px #000;transition:transform .15s;}
+  .unit-label:hover{transform:scale(1.12);}
+  .unit-label.cao{border-color:var(--cao);color:#bcd6ff;}
+  .unit-label.sun{border-color:var(--sun);color:#ffc4c4;}
+  .unit-label.liu{border-color:var(--liu);color:#bff5cd;}
+
+  /* battle switcher (popup above the control deck) */
+  #bs-wrap{position:relative;}
+  #bs-menu{position:absolute;bottom:120%;left:0;background:var(--panel);
+    border:1px solid var(--panel-border);border-radius:9px;padding:6px;display:none;
+    min-width:225px;backdrop-filter:blur(8px);z-index:60;box-shadow:0 10px 30px rgba(0,0,0,0.6);}
+  #bs-wrap.open #bs-menu{display:block;}
+  #bs-menu a{display:block;padding:7px 11px;color:#cfc9bd;text-decoration:none;
+    font-size:12px;border-radius:6px;letter-spacing:0.5px;white-space:nowrap;}
+  #bs-menu a:hover{background:rgba(255,255,255,0.12);color:#fff;}
+  #bs-menu a.current{color:var(--gold);pointer-events:none;opacity:0.65;}
+  #bs-menu .bs-head{font-size:9.5px;letter-spacing:2px;color:#8d887c;
+    text-transform:uppercase;padding:4px 11px 5px;}
+
+  /* loading screen */
+  #loader{position:fixed;inset:0;background:#0a0c10;z-index:100;display:flex;
+    flex-direction:column;align-items:center;justify-content:center;gap:14px;
+    transition:opacity .8s;}
+  #loader.done{opacity:0;pointer-events:none;}
+  #loader h1{font-family:Georgia,serif;letter-spacing:4px;color:var(--gold);font-size:30px;}
+  #loader p{color:#8d887c;font-size:12px;letter-spacing:2px;}
+
+  @media (max-width:900px){
+    #title-block{max-width:300px;} #title-block h1{font-size:19px;}
+    #title-block p{display:none;}
+    #legend{display:none;}
+    #act-panel{max-width:300px;bottom:132px;}
+    #status-panel{display:none;}
+    .act-btn{font-size:8.5px;}
+  }
+</style>
+</head>
+<body>
+
+<div id="scene-container"></div>
+<div id="vignette"></div>
+<div class="letterbox" id="letterbox-top"></div>
+<div class="letterbox" id="letterbox-bottom"></div>
+
+<!-- ==================== LOADING ==================== -->
+<div id="loader">
+  <h1>RED CLIFFS</h1>
+  <p>208 CE &mdash; RECONSTRUCTING THE YANGTZE&hellip;</p>
+</div>
+
+<!-- ==================== TITLE ==================== -->
+<div id="title-block">
+  <h1>The Battle of Red Cliffs</h1>
+  <h2>WINTER 208 CE &mdash; THE YANGTZE &mdash; SUN QUAN &amp; LIU BEI vs. CAO CAO</h2>
+  <p>Cao Cao&rsquo;s vast northern army descends on the Yangtze. Against it, the
+     Sun&ndash;Liu alliance answers with the river itself: a chained enemy fleet,
+     a false surrender, an east wind &mdash; and fire. The defeat fixes the
+     tripod of the Three Kingdoms.</p>
+</div>
+
+<!-- ==================== LEGEND ==================== -->
+<div id="legend">
+  <h3>Forces &amp; Lines</h3>
+  <div class="alliance-box allied">
+    <div class="alliance-title">★ Sun&ndash;Liu Alliance — same side</div>
+    <div class="legend-row"><span class="swatch" style="background:var(--sun)"></span>Sun Quan&rsquo;s Army — Zhou Yu</div>
+    <div class="legend-row"><span class="swatch" style="background:var(--liu)"></span>Liu Bei&rsquo;s Army — Zhuge Liang</div>
+  </div>
+  <div class="alliance-box cao">
+    <div class="alliance-title">♔ Cao Cao — northern invader</div>
+    <div class="legend-row"><span class="swatch" style="background:var(--cao)"></span>Cao Cao&rsquo;s Army &amp; Fleet</div>
+  </div>
+  <div class="legend-row"><span class="line-swatch" style="border-color:var(--cao)"></span>Chained Fleet (linked hulls)</div>
+  <div class="legend-row"><span class="line-swatch" style="border-color:var(--fire)"></span>Fire Attack Route</div>
+  <div class="legend-row"><span class="line-swatch dashed" style="border-color:var(--wind)"></span>Eastern Wind</div>
+</div>
+
+<!-- ==================== WIND CHIP ==================== -->
+<div id="wind-chip"><span class="arrow" id="wind-arrow">⬅</span> <span id="wind-text">WIND</span></div>
+
+<!-- ==================== ACT PANEL ==================== -->
+<div id="act-panel">
+  <div id="act-label">Prologue</div>
+  <div id="act-title">The Road to Red Cliffs</div>
+  <div id="act-desc">Winter, 208 CE. Having unified the north, Cao Cao marches south
+    to finish the war in one stroke — if he can cross the Yangtze.</div>
+  <div id="act-event"></div>
+</div>
+
+<!-- ==================== STATUS BARS ==================== -->
+<div id="status-panel">
+  <h3>Army Strength &mdash; Estimated</h3>
+  <div class="bar-row"><label><span>♔ Cao Cao's Host</span><span id="v-cao"></span></label>
+    <div class="bar-track"><div class="bar-fill" id="b-cao" style="background:var(--cao);width:100%"></div></div></div>
+  <div class="bar-row"><label><span>★ Sun Quan / Zhou Yu</span><span id="v-wu"></span></label>
+    <div class="bar-track"><div class="bar-fill" id="b-wu" style="background:var(--sun);width:14%"></div></div></div>
+  <div class="bar-row"><label><span>★ Liu Bei</span><span id="v-liu"></span></label>
+    <div class="bar-track"><div class="bar-fill" id="b-liu" style="background:var(--liu);width:9%"></div></div></div>
+  <div class="bar-row"><label><span>Eastern Wind</span><span id="v-wind"></span></label>
+    <div class="bar-track"><div class="bar-fill" id="b-wind" style="background:var(--wind);width:5%"></div></div></div>
+  <div class="bar-row"><label><span>Fire Spread</span><span id="v-fire"></span></label>
+    <div class="bar-track"><div class="bar-fill" id="b-fire" style="background:var(--fire);width:0%"></div></div></div>
+  <div id="status-note">Cao Cao claimed 800,000 men; modern estimates run far lower
+    (~220,000 incl. the surrendered Jing fleet) vs Zhou Yu&rsquo;s ~30,000 and Liu Bei&rsquo;s
+    ~20,000. All figures approximate / estimated. Huang Gai&rsquo;s ruse and &ldquo;borrowing
+    the east wind&rdquo; follow <i>Romance of the Three Kingdoms</i> (dramatized).</div>
+</div>
+
+<!-- ==================== TIMELINE / CONTROLS ==================== -->
+<div id="control-deck">
+  <div id="timeline"></div>
+  <div id="transport">
+    <div id="bs-wrap">
+      <button class="ctl-btn" id="bs-btn" title="Switch battle">⚔ Battles ▾</button>
+      <div id="bs-menu">
+        <div class="bs-head">Interactive 3D Battle Documentaries</div>
+        <a href="./">🏛 Main Menu — all battles</a>
+        <a href="alesia.html">⚔ Alesia — 52 BCE</a>
+        <a href="redcliffs.html" class="current">🔥 Red Cliffs — 208 CE</a>
+        <a href="yorktown.html">🎆 Yorktown — 1781</a>
+      </div>
+    </div>
+    <button class="ctl-btn" id="btn-prev" title="Previous act">⏮ Prev</button>
+    <button class="ctl-btn" id="btn-play" title="Auto play">▶ Auto Play</button>
+    <button class="ctl-btn" id="btn-next" title="Next act">Next ⏭</button>
+    <div class="speed-group" title="Playback speed">
+      <button class="ctl-btn speed-btn" data-speed="1">1×</button>
+      <button class="ctl-btn speed-btn" data-speed="2">2×</button>
+      <button class="ctl-btn speed-btn" data-speed="3">3×</button>
+      <button class="ctl-btn speed-btn" data-speed="4">4×</button>
+    </div>
+    <div id="act-progress"><div id="act-progress-fill"></div></div>
+    <button class="ctl-btn toggled" id="btn-camera" title="Toggle camera mode">🎬 Cinematic Camera</button>
+  </div>
+</div>
+
+<!-- ==================== VICTORY BANNER ==================== -->
+<div id="victory-banner">
+  <div class="laurel">🔥 ⚔ 🌊</div>
+  <h2>Sun&ndash;Liu Alliance Victorious</h2>
+  <div class="vb-sides">
+    <span class="vb-team winner">
+      <span class="vb-sw" style="background:var(--sun)"></span><span
+        class="vb-sw" style="background:var(--liu)"></span>
+      Red &amp; Green Allies — WIN</span>
+    <span class="vb-def">defeat</span>
+    <span class="vb-team loser">
+      <span class="vb-sw" style="background:var(--cao)"></span>
+      Blue — Cao Cao retreats</span>
+  </div>
+  <p>The chained fleet burns; Cao Cao&rsquo;s navy is crippled and he withdraws north</p>
+  <div class="sub">The Three Kingdoms — Wei, Shu and Wu — begin to take shape</div>
+</div>
+
+<!-- ==================== INFO CARD ==================== -->
+<div id="info-card">
+  <span class="close-x" id="info-close">✕</span>
+  <h3 id="ic-name"></h3>
+  <span class="faction-tag" id="ic-faction"></span>
+  <div class="stat"><span>Side</span><span id="ic-side"></span></div>
+  <div class="stat"><span>Role</span><span id="ic-role"></span></div>
+  <div class="stat"><span>Strength</span><span id="ic-strength"></span></div>
+  <div class="stat"><span>Status</span><span id="ic-status"></span></div>
+  <p id="ic-desc" style="margin-top:7px"></p>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
+
+/* =====================================================================
+   SECTION 1 : SCENE SETUP
+   ===================================================================== */
+const container = document.getElementById('scene-container');
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x9cb4c4);
+scene.fog = new THREE.Fog(0x9cb4c4, 800, 2300);
+
+const camera = new THREE.PerspectiveCamera(50, innerWidth/innerHeight, 1, 6000);
+camera.position.set(0, 900, 900);
+
+const renderer = new THREE.WebGLRenderer({ antialias:true });
+renderer.setSize(innerWidth, innerHeight);
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+container.appendChild(renderer.domElement);
+
+const labelRenderer = new CSS2DRenderer();
+labelRenderer.setSize(innerWidth, innerHeight);
+labelRenderer.domElement.style.position = 'fixed';
+labelRenderer.domElement.style.top = '0';
+labelRenderer.domElement.style.pointerEvents = 'none';
+labelRenderer.domElement.style.zIndex = '3';
+document.body.appendChild(labelRenderer.domElement);
+
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.target.set(0, 5, 0);
+controls.enableDamping = true;
+controls.dampingFactor = 0.06;
+controls.maxPolarAngle = Math.PI * 0.49;
+controls.minDistance = 50;
+controls.maxDistance = 1900;
+
+/* --- lighting (winter river light; turns to firelit night) --- */
+const hemi = new THREE.HemisphereLight(0xd0e0f0, 0x44402f, 0.8);
+scene.add(hemi);
+const sun = new THREE.DirectionalLight(0xfff0d6, 1.45);
+sun.position.set(-380, 600, 340);
+sun.castShadow = true;
+sun.shadow.mapSize.set(2048, 2048);
+sun.shadow.camera.left = -650; sun.shadow.camera.right = 650;
+sun.shadow.camera.top = 650;  sun.shadow.camera.bottom = -650;
+sun.shadow.camera.far = 1900;
+sun.shadow.bias = -0.0004;
+scene.add(sun);
+
+const lighting = {
+  sky: new THREE.Color(0x9cb4c4), sunColor: new THREE.Color(0xfff0d6),
+  sunIntensity: 1.45, hemiIntensity: 0.8,
+  targetSky: new THREE.Color(0x9cb4c4), targetSunColor: new THREE.Color(0xfff0d6),
+  targetSunIntensity: 1.45, targetHemiIntensity: 0.8
+};
+function setMood(skyHex, sunHex, sunI, hemiI){
+  lighting.targetSky.set(skyHex); lighting.targetSunColor.set(sunHex);
+  lighting.targetSunIntensity = sunI; lighting.targetHemiIntensity = hemiI;
+}
+
+const updateHooks = [];
+const clock = new THREE.Clock();
+
+/* simulation clock: pause freezes EVERYTHING; speed scales the show (1x-4x). */
+let playing = true;
+let simSpeed = 1;
+let simT = 0;
+
+/* =====================================================================
+   SECTION 2 : TERRAIN & THE YANGTZE
+   Stylized for narrative legibility:
+   - The Yangtze runs W -> E as a broad band across the middle.
+   - NORTH bank (z < 0): Wulin & Cao Cao's camp — flat marshy ground.
+   - SOUTH bank (z > 0): the Red Cliffs — a reddish bluff — and,
+     downstream (east), the Sun-Liu allied anchorage.
+   ===================================================================== */
+const WORLD = 1700;
+function smoothstep(a, b, x){ x = Math.min(1, Math.max(0, (x-a)/(b-a))); return x*x*(3-2*x); }
+
+function riverCenter(x){ return Math.sin(x * 0.0019) * 45; }
+const RIVER_HALF = 205;
+
+function terrainHeight(x, z){
+  let h = 7 + 2.0 * Math.sin(x*0.009) * Math.cos(z*0.011)
+        + 1.2 * Math.sin(x*0.025 + 1) * Math.cos(z*0.021 + 2);
+  // southern hills rising away from the bank
+  h += 9 * smoothstep(240, 620, z);
+  // the Red Cliffs: a steep reddish bluff on the south bank
+  const dRC = Math.hypot((x - 120) * 0.7, z - 255);
+  h += 34 * Math.exp(-(dRC*dRC) / (2*95*95));
+  // gentler northern shore (Wulin marshes)
+  h -= 2.5 * smoothstep(-240, -520, z) * (1 - smoothstep(-520, -750, z));
+  // the Yangtze channel
+  const d = Math.abs(z - riverCenter(x));
+  const w = 1 - smoothstep(RIVER_HALF*0.8, RIVER_HALF*1.18, d);
+  h = h * (1 - w) + (-10) * w;
+  return h;
+}
+
+const terrainGeo = new THREE.PlaneGeometry(WORLD, WORLD, 250, 250);
+terrainGeo.rotateX(-Math.PI/2);
+{
+  const pos = terrainGeo.attributes.position;
+  const colors = [];
+  const cGrass  = new THREE.Color(0x6e8a52);
+  const cGrass2 = new THREE.Color(0x85995c);
+  const cMarsh  = new THREE.Color(0x6e7a4e);
+  const cMud    = new THREE.Color(0x6b614a);
+  const cCliff  = new THREE.Color(0x9e5a40);   // the red cliffs
+  const cCliff2 = new THREE.Color(0xb87050);
+  for(let i=0;i<pos.count;i++){
+    const x = pos.getX(i), z = pos.getZ(i);
+    const h = terrainHeight(x, z);
+    pos.setY(i, h);
+    const c = new THREE.Color();
+    const n = Math.sin(x*0.04)*Math.cos(z*0.055)*0.5+0.5;
+    if(h < 0.6) c.copy(cMud);
+    else if(h < 2.4) c.copy(cMarsh);
+    else c.lerpColors(cGrass, cGrass2, n);
+    // reddish rock on the cliff face
+    const dRC = Math.hypot((x - 120) * 0.7, z - 255);
+    if(dRC < 150 && h > 8) c.lerpColors(cCliff, cCliff2, n).lerp(c, smoothstep(120, 150, dRC));
+    // pale winter reeds along the north marsh
+    if(z < -230 && z > -480 && h > 1 && h < 7) c.lerp(new THREE.Color(0xa89a62), 0.3);
+    colors.push(c.r, c.g, c.b);
+  }
+  terrainGeo.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
+  terrainGeo.computeVertexNormals();
+}
+const terrain = new THREE.Mesh(terrainGeo,
+  new THREE.MeshStandardMaterial({ vertexColors:true, roughness:0.95, metalness:0 }));
+terrain.receiveShadow = true;
+scene.add(terrain);
+
+function groundY(x, z){ return terrainHeight(x, z); }
+
+/* --- the Yangtze surface, gently rippling --- */
+const waterGeo = new THREE.PlaneGeometry(WORLD, WORLD, 110, 110);
+waterGeo.rotateX(-Math.PI/2);
+const waterBase = waterGeo.attributes.position.array.slice();
+const water = new THREE.Mesh(waterGeo, new THREE.MeshStandardMaterial({
+  color:0x3d6478, roughness:0.7, metalness:0.06, transparent:true, opacity:0.93 }));
+water.position.y = 0;
+scene.add(water);
+updateHooks.push((dt, t) => {
+  const p = waterGeo.attributes.position;
+  for(let i = 0; i < p.count; i++){
+    const x = waterBase[i*3], z = waterBase[i*3+2];
+    p.setY(i, Math.sin(x*0.018 + t*0.8) * 0.4 + Math.cos(z*0.022 + t*0.65) * 0.32);
+  }
+  p.needsUpdate = true;
+});
+
+/* --- the Huarong road: a muddy track winding NW through the marshes.
+   Act 7's Romance episode (Guan Yu letting Cao Cao pass) plays out on it. --- */
+const HUARONG_PTS = [[-200,-385],[-300,-440],[-380,-470],[-440,-515],[-490,-562],
+                     [-560,-620],[-640,-690],[-710,-745]];
+function huarongDist(x, z){
+  let best = 1e9;
+  for(let i = 0; i < HUARONG_PTS.length - 1; i++){
+    const a = HUARONG_PTS[i], b = HUARONG_PTS[i+1];
+    for(let k = 0; k <= 4; k++){
+      const px = a[0] + (b[0]-a[0]) * k/4, pz = a[1] + (b[1]-a[1]) * k/4;
+      best = Math.min(best, Math.hypot(x - px, z - pz));
+    }
+  }
+  return best;
+}
+{
+  const verts = [], idx = [];
+  const W = 9;
+  for(let i = 0; i < HUARONG_PTS.length; i++){
+    const [x, z] = HUARONG_PTS[i];
+    const nx = HUARONG_PTS[Math.min(i+1, HUARONG_PTS.length-1)];
+    const pr = HUARONG_PTS[Math.max(i-1, 0)];
+    let dx = nx[0]-pr[0], dz = nx[1]-pr[1];
+    const L = Math.hypot(dx, dz); dx/=L; dz/=L;
+    const px = -dz, pz = dx;
+    for(const sgn of [-1, 1]){
+      const vx = x + px*W*sgn, vz = z + pz*W*sgn;
+      verts.push(vx, terrainHeight(vx, vz) + 0.5, vz);
+    }
+    if(i < HUARONG_PTS.length-1){ const a = i*2; idx.push(a, a+1, a+2, a+1, a+3, a+2); }
+  }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.Float32BufferAttribute(verts, 3));
+  geo.setIndex(idx); geo.computeVertexNormals();
+  scene.add(new THREE.Mesh(geo,
+    new THREE.MeshStandardMaterial({ color:0x4f4534, roughness:1 })));
+}
+
+/* --- trees on the banks --- */
+{
+  const trunkG = new THREE.CylinderGeometry(0.5, 0.7, 4, 5);
+  const crownG = new THREE.ConeGeometry(3.2, 8.5, 6);
+  const trunkM = new THREE.MeshStandardMaterial({ color:0x55432e, roughness:1 });
+  const crownM = new THREE.MeshStandardMaterial({ color:0x415c38, roughness:1 });
+  const N = 380;
+  const trunks = new THREE.InstancedMesh(trunkG, trunkM, N);
+  const crowns = new THREE.InstancedMesh(crownG, crownM, N);
+  const dummy = new THREE.Object3D();
+  let placed = 0, guard = 0;
+  let seed = 17; const rnd = () => (seed = (seed*16807)%2147483647) / 2147483647;
+  while(placed < N && guard++ < 8000){
+    const x = (rnd()-0.5)*WORLD*0.92, z = (rnd()-0.5)*WORLD*0.92;
+    const h = terrainHeight(x, z);
+    if(h < 3.2) continue;
+    if(huarongDist(x, z) < 34) continue;                     // keep the Huarong road clear
+    if(z < 0 && z > -460 && x > -420 && x < 160) continue;   // keep Cao camp clear
+    if(z > 0 && z < 420 && x > 180 && x < 620) continue;     // keep allied shore clear
+    const s = 0.7 + rnd()*0.9;
+    dummy.position.set(x, h+2*s, z); dummy.scale.setScalar(s); dummy.rotation.y = rnd()*6.28;
+    dummy.updateMatrix(); trunks.setMatrixAt(placed, dummy.matrix);
+    dummy.position.y = h + 7.4*s; dummy.updateMatrix();
+    crowns.setMatrixAt(placed, dummy.matrix);
+    placed++;
+  }
+  trunks.count = crowns.count = placed;
+  trunks.castShadow = crowns.castShadow = true;
+  scene.add(trunks, crowns);
+}
+
+/* =====================================================================
+   SECTION 3 : MAP LABELS
+   ===================================================================== */
+function addMapLabel(text, x, z, yOff = 8, cls = ''){
+  const div = document.createElement('div');
+  div.className = 'map-label' + (cls ? ' ' + cls : '');
+  div.textContent = text;
+  const obj = new CSS2DObject(div);
+  obj.position.set(x, Math.max(groundY(x, z), 0) + yOff, z);
+  scene.add(obj);
+  return obj;
+}
+addMapLabel('YANGTZE RIVER', -480, 10, 8, 'water');
+addMapLabel('RED CLIFFS', 120, 258, 48);
+addMapLabel('Wulin', -240, -290, 14, 'minor');
+addMapLabel("Cao Cao's Camp", -130, -345, 18, 'minor');
+addMapLabel('to Jiangling (upriver) →', -640, -260, 10, 'minor');
+addMapLabel('Huarong Road', -495, -570, 12, 'minor');
+const lblChain  = addMapLabel("Cao Cao's Chained Fleet", -110, -112, 26, 'minor');
+const lblAllied = addMapLabel('Sun-Liu Allied Fleet', 420, 105, 26, 'minor');
+const lblWind   = addMapLabel('⟵ ⟵ EASTERN WIND — the night it turned', 430, -40, 30, 'windlbl');
+const lblWindNW = addMapLabel('NORTHWEST WIND (prevailing) ⬊ ⬊', -380, -235, 26, 'windlbl');
+const lblRoute  = addMapLabel('Fire Attack Route', 190, 10, 16, 'minor');
+lblChain.visible = lblWind.visible = lblWindNW.visible = lblRoute.visible = false;
+
+/* =====================================================================
+   SECTION 4 : FACTIONS, LAND UNITS & FLAGS
+   ===================================================================== */
+const FACTIONS = {
+  cao: { color:0x3b82f6, dark:0x1d4ed8, css:'cao', name:"Cao Cao's Army",
+         side:'♔ Cao Cao (north)', sideIcon:'♔' },
+  sun: { color:0xef4444, dark:0xb91c1c, css:'sun', name:"Sun Quan's Army",
+         side:'★ Sun-Liu Alliance', sideIcon:'★' },
+  liu: { color:0x22c55e, dark:0x15803d, css:'liu', name:"Liu Bei's Army",
+         side:'★ Sun-Liu Alliance', sideIcon:'★' },
+};
+
+function makeFlagTexture(hex, symbol){
+  const cv = document.createElement('canvas');
+  cv.width = 128; cv.height = 96;
+  const c = cv.getContext('2d');
+  c.fillStyle = '#' + hex.toString(16).padStart(6, '0');
+  c.fillRect(0, 0, 128, 96);
+  c.strokeStyle = 'rgba(255,255,255,0.85)'; c.lineWidth = 5;
+  c.strokeRect(5, 5, 118, 86);
+  c.fillStyle = '#fff'; c.font = 'bold 46px Georgia'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.fillText(symbol, 64, 52);
+  const tx = new THREE.CanvasTexture(cv);
+  tx.colorSpace = THREE.SRGBColorSpace;
+  return tx;
+}
+
+function makeStandard(factionKey, symbol, big = false){
+  const f = FACTIONS[factionKey];
+  const g = new THREE.Group();
+  const poleH = big ? 26 : 18;
+  const pole = new THREE.Mesh(
+    new THREE.CylinderGeometry(0.35, 0.45, poleH, 6),
+    new THREE.MeshStandardMaterial({ color:0x4a3a26, roughness:0.9 }));
+  pole.position.y = poleH / 2;
+  const flagW = big ? 14 : 10, flagH = big ? 9 : 7;
+  const flagGeo = new THREE.PlaneGeometry(flagW, flagH, 8, 4);
+  const flag = new THREE.Mesh(flagGeo,
+    new THREE.MeshStandardMaterial({ map: makeFlagTexture(f.color, symbol),
+      side: THREE.DoubleSide, roughness:0.85 }));
+  flag.position.set(flagW / 2 + 0.4, poleH - flagH / 2 - 0.5, 0);
+  g.add(pole, flag);
+  const pos = flagGeo.attributes.position;
+  const base = pos.array.slice();
+  updateHooks.push((dt, t) => {
+    if(!g.visible || !g.parent?.visible) return;
+    for(let i = 0; i < pos.count; i++){
+      const x0 = base[i*3], y0 = base[i*3+1];
+      pos.setZ(i, Math.sin(x0 * 0.55 + t * 4.2) * 0.55 * ((x0 + flagW/2) / flagW));
+      pos.setY(i, y0 + Math.sin(x0 * 0.4 + t * 3.1) * 0.18);
+    }
+    pos.needsUpdate = true;
+  });
+  return g;
+}
+
+const clickables = [];
+
+/* CSS2DRenderer ignores ancestor visibility — cascade it to labels by hand.
+   When showing, a label only reappears if every group between it and g is
+   itself visible (e.g. a hidden surrender flag inside a visible unit). */
+function setGroupVisible(g, v){
+  g.visible = v;
+  g.traverse(o => {
+    if(!o.isCSS2DObject) return;
+    if(!v){ o.visible = false; return; }
+    let p = o.parent, ok = true;
+    while(p && p !== g){ if(p.visible === false){ ok = false; break; } p = p.parent; }
+    o.visible = ok;
+  });
+}
+
+class Unit {
+  constructor(opts){
+    const f = FACTIONS[opts.faction];
+    this.opts = opts;
+    this.faction = opts.faction;
+    this.group = new THREE.Group();
+    const soldierG = new THREE.CapsuleGeometry(0.85, 2.0, 3, 8);
+    const soldierM = new THREE.MeshStandardMaterial({ color:f.color, roughness:0.7 });
+    const n = opts.count;
+    const mesh = new THREE.InstancedMesh(soldierG, soldierM, n);
+    mesh.castShadow = true;
+    const dummy = new THREE.Object3D();
+    let seed = opts.key.length * 977 + 13;
+    const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+    const cols = Math.ceil(Math.sqrt(n * opts.w / opts.d));
+    const rows = Math.ceil(n / cols);
+    for(let i = 0; i < n; i++){
+      const cx = ((i % cols) / (cols - 1 || 1) - 0.5) * opts.w + (rnd() - 0.5) * 1.6;
+      const cz = ((Math.floor(i / cols)) / (rows - 1 || 1) - 0.5) * opts.d + (rnd() - 0.5) * 1.6;
+      dummy.position.set(cx, 1.9, cz);
+      dummy.rotation.y = (rnd() - 0.5) * 0.4;
+      dummy.updateMatrix();
+      mesh.setMatrixAt(i, dummy.matrix);
+    }
+    mesh.userData.unit = this;
+    this.mesh = mesh;
+    this.group.add(mesh);
+    clickables.push(mesh);
+    this.standard = makeStandard(opts.faction, opts.symbol, opts.big);
+    this.standard.position.set(0, 0, -opts.d / 2 - 2);
+    this.group.add(this.standard);
+    const div = document.createElement('div');
+    div.className = 'unit-label ' + f.css;
+    div.textContent = f.sideIcon + ' ' + opts.label;
+    div.addEventListener('click', (e) => { e.stopPropagation(); showInfoCard(this, e); });
+    this.labelObj = new CSS2DObject(div);
+    this.labelObj.position.set(0, opts.big ? 30 : 22, 0);
+    this.group.add(this.labelObj);
+    this.pos = new THREE.Vector3();
+    this.from = new THREE.Vector3();
+    this.to = new THREE.Vector3();
+    this.moveT = 1; this.moveDur = 1;
+    this.status = opts.info.status;
+    scene.add(this.group);
+    updateHooks.push((dt) => this.update(dt));
+  }
+  placeAt(x, z){
+    this.pos.set(x, 0, z);
+    this.from.copy(this.pos); this.to.copy(this.pos); this.moveT = 1;
+    this.applyPos();
+  }
+  moveTo(x, z, dur = 8, faceTarget = true){
+    this.from.copy(this.pos);
+    this.to.set(x, 0, z);
+    this.moveDur = dur; this.moveT = 0;
+    if(faceTarget && this.to.distanceTo(this.from) > 1){
+      this.group.rotation.y = Math.atan2(
+        -(this.to.z - this.from.z), this.to.x - this.from.x) - Math.PI / 2;
+    }
+  }
+  applyPos(){
+    const y = Math.max(groundY(this.pos.x, this.pos.z), 0.5);
+    this.group.position.set(this.pos.x, y, this.pos.z);
+  }
+  update(dt){
+    if(this.moveT < 1){
+      this.moveT = Math.min(1, this.moveT + dt / this.moveDur);
+      const e = this.moveT < 0.5 ? 2*this.moveT*this.moveT : 1 - Math.pow(-2*this.moveT + 2, 2) / 2;
+      this.pos.lerpVectors(this.from, this.to, e);
+      this.applyPos();
+    }
+  }
+  setVisible(v){ setGroupVisible(this.group, v); }
+  setStatus(s){ this.status = s; }
+}
+
+/* =====================================================================
+   SECTION 5 : SHIPS & THE STATE MACHINE
+   Every warship carries a visible damage state:
+     Normal -> Ignited -> Burning -> Charred -> Destroyed
+   States swap hull/sail/flag materials, grow fire & smoke, char the
+   wood, collapse the rig and finally heel the wreck over.
+   ===================================================================== */
+const SHIP_COLORS = {
+  hull:    0x6e4f33, hullTrim: 0x8a6a42,
+  ignited: 0x5e432c, burning: 0x3c2c1e,
+  charred: 0x16120e, sailOk:  0xe8ddc4,
+  sailBurn:0x6a4a30, sailGone:0x1c1714,
+};
+const TEXFLAG = {};   // faction flag textures, cached
+function flagTex(fk, sym){ const k = fk + sym;
+  if(!TEXFLAG[k]) TEXFLAG[k] = makeFlagTexture(FACTIONS[fk].color, sym);
+  return TEXFLAG[k]; }
+
+class Warship {
+  constructor(factionKey, big, idx, label){
+    this.faction = factionKey;
+    this.idx = idx;
+    this.state = 'Normal';
+    this.fireT = -1;             // <0 = untouched; counts up once ignited
+    this.status = 'Normal';
+    this.opts = { label,
+      info: { role: big ? 'Flagship / command vessel' : 'River warship',
+        strength: 'crew ~' + (big ? '300' : '80') + ' (estimated)',
+        status: 'Normal',
+        desc: '' } };
+    const g = new THREE.Group();
+    this.group = g;
+    const L = big ? 40 : 27, B = big ? 11 : 7.5;
+    this.len = L;
+    // hull (own material instance so it can char)
+    this.hullM = new THREE.MeshStandardMaterial({ color:SHIP_COLORS.hull, roughness:0.85 });
+    const hull = new THREE.Mesh(new THREE.BoxGeometry(B, 4.6, L), this.hullM);
+    hull.position.y = 2.0; hull.castShadow = true;
+    const bow = new THREE.Mesh(new THREE.ConeGeometry(B/2, 7, 4), this.hullM);
+    bow.rotation.x = -Math.PI/2; bow.rotation.y = Math.PI/4;
+    bow.position.set(0, 2.0, -L/2 - 3);
+    const deck = new THREE.Mesh(new THREE.BoxGeometry(B + 0.4, 1.0, L * 0.85),
+      new THREE.MeshStandardMaterial({ color:SHIP_COLORS.hullTrim, roughness:0.9 }));
+    deck.position.y = 3.6;
+    this.deckM = deck.material;
+    g.add(hull, bow, deck);
+    // castle (towered river warship look)
+    if(big){
+      const castle = new THREE.Mesh(new THREE.BoxGeometry(B*0.8, 7, L*0.3), this.hullM);
+      castle.position.set(0, 7, L*0.12); castle.castShadow = true;
+      g.add(castle);
+    }
+    // masts + battened sails
+    this.sailM = new THREE.MeshStandardMaterial({ color:SHIP_COLORS.sailOk,
+      roughness:0.85, side:THREE.DoubleSide, transparent:true, opacity:1 });
+    this.mastM = new THREE.MeshStandardMaterial({ color:0x4a3a26, roughness:0.9 });
+    this.masts = [];
+    const nMast = big ? 2 : 1;
+    for(let m = 0; m < nMast; m++){
+      const mh = (big ? 26 : 19) - m * 3;
+      const mastG = new THREE.Group();
+      const mast = new THREE.Mesh(new THREE.CylinderGeometry(0.4, 0.55, mh, 5), this.mastM);
+      mast.position.y = mh/2 + 3.5;
+      mastG.add(mast);
+      const sail = new THREE.Mesh(new THREE.PlaneGeometry(big ? 12 : 9, mh * 0.55, 1, 4), this.sailM);
+      sail.position.y = mh * 0.62 + 3.5;
+      mastG.add(sail);
+      mastG.position.z = (m - (nMast-1)/2) * L * 0.3;
+      g.add(mastG);
+      this.masts.push(mastG);
+    }
+    // faction flag at the stern
+    this.flagM = new THREE.MeshStandardMaterial({ map: flagTex(factionKey, big ? '帥' : '兵'),
+      side:THREE.DoubleSide, roughness:0.85, transparent:true, opacity:1 });
+    const fpole = new THREE.Mesh(new THREE.CylinderGeometry(0.25, 0.3, 12, 5), this.mastM);
+    fpole.position.set(0, 9.5, L/2 - 1);
+    const flag = new THREE.Mesh(new THREE.PlaneGeometry(7, 4.6), this.flagM);
+    flag.position.set(3.7, 13, L/2 - 1);
+    g.add(fpole, flag);
+    // fire & smoke sprites (hidden until ignited)
+    this.flames = [];
+    for(let i = 0; i < 3; i++){
+      const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: TEX_FIRE,
+        transparent:true, depthWrite:false, blending:THREE.AdditiveBlending, opacity:0 }));
+      s.position.set((i-1) * L*0.25, 5, (i-1) * 2);
+      g.add(s); this.flames.push(s);
+    }
+    this.smokes = [];
+    for(let i = 0; i < 3; i++){
+      const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: TEX_SMOKE,
+        transparent:true, depthWrite:false, opacity:0 }));
+      s.userData.k = i / 3;
+      g.add(s); this.smokes.push(s);
+    }
+    this.light = new THREE.PointLight(0xff8a30, 0, big ? 160 : 110, 1.8);
+    this.light.position.y = 7;
+    this.light.visible = false;          // lit only while burning — keeps the light count low
+    g.add(this.light);
+    // clickable
+    hull.userData.unit = this; clickables.push(hull);
+    if(big){ }
+    this.baseY = 0;
+    this.bobPhase = idx * 1.37;
+    this.pos = new THREE.Vector3(); this.from = new THREE.Vector3(); this.to = new THREE.Vector3();
+    this.moveT = 1; this.moveDur = 1;
+    this.home = new THREE.Vector3(); this.homeRotY = 0;
+    scene.add(g);
+  }
+  placeAt(x, z){
+    this.pos.set(x, 0, z); this.from.copy(this.pos); this.to.copy(this.pos); this.moveT = 1;
+    this.group.position.x = x; this.group.position.z = z;
+  }
+  moveTo(x, z, dur = 10){
+    this.from.copy(this.pos); this.to.set(x, 0, z);
+    this.moveDur = dur; this.moveT = 0;
+  }
+  setShipDesc(desc){ this.opts.info.desc = desc; }
+  igniteNow(){ if(this.fireT < 0) this.fireT = 0; }
+  reset(){
+    this.fireT = -1;
+    this.applyState('Normal');
+    this.placeAt(this.home.x, this.home.z);
+    this.group.rotation.y = this.homeRotY;
+  }
+  /* advance the burn clock & derive the visual state */
+  tick(dt, t){
+    if(this.moveT < 1){
+      this.moveT = Math.min(1, this.moveT + dt / this.moveDur);
+      const e = this.moveT < 0.5 ? 2*this.moveT*this.moveT : 1 - Math.pow(-2*this.moveT + 2, 2) / 2;
+      this.pos.lerpVectors(this.from, this.to, e);
+      this.group.position.x = this.pos.x;
+      this.group.position.z = this.pos.z;
+    }
+    // gentle bobbing unless destroyed
+    const sink = this.state === 'Destroyed' ? -3.2 : this.state === 'Charred' ? -1.2 : 0;
+    const heel = this.state === 'Destroyed' ? 0.34 : this.state === 'Charred' ? 0.15 : 0;
+    this.group.position.y = this.baseY + sink +
+      (this.state === 'Destroyed' ? 0 : Math.sin(t * 0.8 + this.bobPhase) * 0.45);
+    this.group.rotation.z += (heel * (this.idx % 2 ? 1 : -1) - this.group.rotation.z) * Math.min(1, dt * 0.8);
+    if(this.fireT >= 0){
+      this.fireT += dt;
+      const ft = this.fireT;
+      let target = 'Ignited';
+      if(ft > 48 && this.idx % 3 === 0) target = 'Destroyed';
+      else if(ft > 30) target = 'Charred';
+      else if(ft > 3) target = 'Burning';
+      if(target !== this.state) this.applyState(target);
+      this.animateFire(ft, t, dt);
+    }
+  }
+  applyState(s){
+    this.state = s;
+    this.status = s;
+    this.opts.info.status = s;
+    const C = SHIP_COLORS;
+    if(s === 'Normal'){
+      this.hullM.color.set(C.hull); this.deckM.color.set(C.hullTrim);
+      this.sailM.color.set(C.sailOk); this.sailM.opacity = 1;
+      this.mastM.color.set(0x4a3a26);
+      this.flagM.opacity = 1;
+      this.flames.forEach(f => f.material.opacity = 0);
+      this.smokes.forEach(f => f.material.opacity = 0);
+      this.light.intensity = 0;
+      this.light.visible = false;
+      this.group.rotation.z = 0;
+      this.masts.forEach(m => { m.rotation.x = 0; m.scale.y = 1; });
+    } else if(s === 'Ignited'){
+      this.hullM.color.set(C.ignited);
+    } else if(s === 'Burning'){
+      this.hullM.color.set(C.burning); this.deckM.color.set(0x2c2118);
+      this.sailM.color.set(C.sailBurn); this.sailM.opacity = 0.85;
+      this.flagM.opacity = 0.55;                    // colours scorching away
+    } else if(s === 'Charred'){
+      this.hullM.color.set(C.charred); this.deckM.color.set(0x141009);
+      this.sailM.color.set(C.sailGone); this.sailM.opacity = 0.22;  // sails burned through
+      this.mastM.color.set(0x18130d);
+      this.flagM.opacity = 0;                       // flag burned away
+      this.masts.forEach((m, i) => { m.rotation.x = (i % 2 ? 0.5 : -0.4); m.scale.y = 0.75; });
+    } else if(s === 'Destroyed'){
+      this.hullM.color.set(0x100c08); this.deckM.color.set(0x0e0a06);
+      this.sailM.opacity = 0;
+      this.flagM.opacity = 0;
+      this.masts.forEach((m, i) => { m.rotation.x = (i % 2 ? 1.1 : -1.0); m.scale.y = 0.5; });
+    }
+  }
+  animateFire(ft, t, dt){
+    // flame size envelope: a LONG full blaze (the whole chained grid burns
+    // together), then dying embers — though a few hulls burn on into the dawn
+    let f = 0;
+    if(ft < 3) f = ft / 3 * 0.5;
+    else if(ft < 30) f = 0.7 + 0.3 * Math.sin((ft - 3) / 27 * Math.PI);
+    else if(this.state === 'Destroyed') f = 0;
+    else if(this.idx % 4 === 1) f = 0.42 + 0.1 * Math.sin(t * 2 + this.idx); // still burning
+    else f = Math.max(0.08, 0.3 - (ft - 30) * 0.02);               // dying embers
+    this.flames.forEach((fl, i) => {
+      const n = Math.sin(t * 11 + i * 2.1 + this.idx) * 0.5 + 0.5;
+      fl.material.opacity = f > 0.01 ? (0.5 + n * 0.4) * Math.min(1, f * 1.6) : 0;
+      fl.scale.setScalar((5 + i * 3) * (0.4 + f) );
+      fl.position.y = 4 + f * 6 + i * 2.4;
+    });
+    const smokeAmt = ft < 30 ? Math.min(1, ft / 4) : (this.state === 'Destroyed' ? 0.25 : 0.55);
+    this.smokes.forEach(s => {
+      s.userData.k = (s.userData.k + dt * 0.14) % 1;
+      const k = s.userData.k;
+      s.position.set(Math.sin(k * 8 + this.idx) * 5 - k * 18, 8 + k * 44, Math.cos(k * 6) * 4);
+      s.scale.setScalar(9 + k * 26);
+      s.material.opacity = 0.36 * (1 - k) * smokeAmt;
+    });
+    this.light.intensity = 170 * f * (0.8 + Math.sin(t * 13 + this.idx) * 0.2);
+    // burning ships cast light — including hulls still aflame after charring
+    this.light.visible = f > 0.2 && this.state !== 'Destroyed';
+  }
+}
+
+/* one shared ticker for all ships (created later) */
+const allShips = [];
+updateHooks.push((dt, t) => { for(const s of allShips) s.tick(dt, t); });
+
+/* =====================================================================
+   SECTION 6 : EFFECT TEXTURES & AMBIENT EFFECTS
+   (defined before the fleets, which use them)
+   ===================================================================== */
+function makeGlowTexture(r, g, b){
+  const cv = document.createElement('canvas'); cv.width = cv.height = 64;
+  const c = cv.getContext('2d');
+  const gr = c.createRadialGradient(32, 32, 2, 32, 32, 30);
+  gr.addColorStop(0, `rgba(${r},${g},${b},1)`);
+  gr.addColorStop(0.4, `rgba(${r},${g},${b},0.55)`);
+  gr.addColorStop(1, `rgba(${r},${g},${b},0)`);
+  c.fillStyle = gr; c.fillRect(0, 0, 64, 64);
+  return new THREE.CanvasTexture(cv);
+}
+const TEX_SOFT  = makeGlowTexture(255, 255, 255);
+const TEX_FIRE  = makeGlowTexture(255, 170, 60);
+const TEX_SMOKE = makeGlowTexture(110, 105, 100);
+const TEX_WIND  = makeGlowTexture(140, 210, 255);
+
+/* ---------- WIND : the prevailing northwest wind, and the night it turned.
+   In deep winter the wind blows FROM the northwest, INTO any southern
+   attacker's face — fire is impossible. The drama of Act 5 is the moment
+   it dies and turns hard east (Romance: Zhuge Liang's borrowed wind). */
+const WIND_MODES = {
+  nw:   { dir: new THREE.Vector3(0.82, 0, 0.57).normalize(), color: 0xd8e2ea, speed: 60,
+          arrow: '⬊', cls: 'nw',
+          chip: 'NORTHWEST WIND (prevailing) — any fire would blow back on the attacker' },
+  calm: { dir: new THREE.Vector3(-1, 0, 0), color: 0x8a929e, speed: 10,
+          arrow: '◦', cls: 'calm',
+          chip: 'THE WIND HAS DIED — the river goes still\u2026' },
+  east: { dir: new THREE.Vector3(-1, 0, -0.42).normalize(), color: 0x9fdcff, speed: 120,
+          arrow: '⬅', cls: '',
+          chip: 'EASTERN WIND — the wind has TURNED! Blowing straight at Cao Cao\u2019s fleet' },
+};
+let windMode = 'nw';
+const windField = (() => {
+  const N = 460;
+  const geo = new THREE.BufferGeometry();
+  const pos = new Float32Array(N * 3);
+  const seedArr = [];
+  let seed = 31; const rnd = () => (seed = (seed*16807)%2147483647) / 2147483647;
+  for(let i = 0; i < N; i++){
+    pos[i*3]   = (rnd() - 0.5) * 1300;
+    pos[i*3+1] = 4 + rnd() * 46;
+    pos[i*3+2] = (rnd() - 0.5) * 620;
+    seedArr.push(0.6 + rnd() * 0.8);
+  }
+  geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+  const pts = new THREE.Points(geo, new THREE.PointsMaterial({
+    color:0xd8e2ea, size:3.2, map:TEX_WIND, transparent:true, opacity:0.0,
+    depthWrite:false, blending:THREE.AdditiveBlending }));
+  scene.add(pts);
+  const state = { strength: 0, target: 0, pts };
+  updateHooks.push((dt) => {
+    state.strength += (state.target - state.strength) * Math.min(1, dt * 0.9);
+    pts.material.opacity = state.strength * 0.75;
+    if(state.strength < 0.02) return;
+    const M = WIND_MODES[windMode];
+    const p = geo.attributes.position;
+    for(let i = 0; i < N; i++){
+      let x = p.getX(i) + M.dir.x * dt * M.speed * seedArr[i] * (0.4 + state.strength);
+      let z = p.getZ(i) + M.dir.z * dt * M.speed * seedArr[i] * (0.4 + state.strength);
+      if(x > 740 || x < -740 || z > 540 || z < -540){
+        x = -M.dir.x * 600 + (Math.random() - 0.5) * 700;
+        z = -M.dir.z * 600 + (Math.random() - 0.5) * 480;
+      }
+      p.setX(i, x); p.setZ(i, z);
+      p.setY(i, 4 + (Math.sin(x * 0.01 + i) * 0.5 + 0.5) * 42);
+    }
+    p.needsUpdate = true;
+  });
+  return state;
+})();
+const windChip = document.getElementById('wind-chip');
+const windArrowEl = document.getElementById('wind-arrow');
+const windTextEl = document.getElementById('wind-text');
+function setWind(mode, strength, showChip = strength > 0.3){
+  windMode = mode;
+  const M = WIND_MODES[mode];
+  windField.target = strength;
+  windField.pts.material.color.set(M.color);
+  windArrowEl.textContent = M.arrow;
+  windTextEl.textContent = M.chip;
+  windChip.className = (showChip ? 'visible' : '') + (M.cls ? ' ' + M.cls : '');
+  lblWind.visible = mode === 'east' && strength > 0.3;
+  lblWindNW.visible = mode === 'nw' && showChip;
+}
+
+/* ---------- arrow volleys (period: bows & fire-arrows) ---------- */
+class Volley {
+  constructor(colorHex, n = 100, size = 2.1){
+    this.n = n;
+    this.from = new THREE.Vector3(); this.to = new THREE.Vector3();
+    this.spreadF = 26; this.spreadT = 30; this.arc = 26; this.speed = 0.6;
+    this.t = new Float32Array(n);
+    this.offF = []; this.offT = [];
+    for(let i = 0; i < n; i++){
+      this.t[i] = Math.random();
+      this.offF.push([(Math.random()-0.5), (Math.random()-0.5)]);
+      this.offT.push([(Math.random()-0.5), (Math.random()-0.5)]);
+    }
+    const geo = new THREE.BufferGeometry();
+    geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(n * 3), 3));
+    this.points = new THREE.Points(geo, new THREE.PointsMaterial({
+      color: colorHex, size, map: TEX_SOFT, transparent: true, opacity: 0.95,
+      depthWrite: false, blending: THREE.AdditiveBlending }));
+    this.points.visible = false;
+    this.active = false;
+    scene.add(this.points);
+    updateHooks.push((dt) => this.update(dt));
+  }
+  fireBetween(fx, fz, tx, tz){
+    this.from.set(fx, Math.max(groundY(fx, fz), 0) + 5, fz);
+    this.to.set(tx, Math.max(groundY(tx, tz), 0) + 2, tz);
+    this.active = true; this.points.visible = true;
+  }
+  stop(){ this.active = false; this.points.visible = false; }
+  update(dt){
+    if(!this.active) return;
+    const p = this.points.geometry.attributes.position;
+    for(let i = 0; i < this.n; i++){
+      this.t[i] += dt * this.speed * (0.8 + (i % 7) * 0.06);
+      if(this.t[i] > 1) this.t[i] -= 1;
+      const k = this.t[i];
+      const fx = this.from.x + this.offF[i][0] * this.spreadF;
+      const fz = this.from.z + this.offF[i][1] * this.spreadF;
+      const tx = this.to.x + this.offT[i][0] * this.spreadT;
+      const tz = this.to.z + this.offT[i][1] * this.spreadT;
+      const x = fx + (tx - fx) * k;
+      const z = fz + (tz - fz) * k;
+      const y = this.from.y + (this.to.y - this.from.y) * k + Math.sin(k * Math.PI) * this.arc;
+      p.setXYZ(i, x, y, z);
+    }
+    p.needsUpdate = true;
+  }
+}
+const volleys = {
+  fireArrows: new Volley(0xffb060, 110, 2.6),   // allied fire-arrows into the fleet
+  caoArrows:  new Volley(0x9ec3ff),             // Cao Cao's archers answering
+  pursuit:    new Volley(0xff8a7a, 100, 2.2),   // Zhou Yu's squadrons sweeping in
+};
+
+/* ---------- assault / route arrows ---------- */
+function makeAssaultArrow(fx, fz, tx, tz, colorHex){
+  const from = new THREE.Vector2(fx, fz), to = new THREE.Vector2(tx, tz);
+  const dir = to.clone().sub(from); dir.normalize();
+  const perp = new THREE.Vector2(-dir.y, dir.x);
+  const STEPS = 24, bodyFrac = 0.78, wBody = 8, wHead = 18;
+  const verts = [], idx = [];
+  const yAt = (x, z) => Math.max(terrainHeight(x, z), 0) + 2.4;
+  for(let i = 0; i <= STEPS; i++){
+    const k = i / STEPS;
+    const p = from.clone().lerp(to, k * bodyFrac);
+    const w = wBody * (0.35 + 0.65 * k);
+    for(const s of [-1, 1]){
+      const vx = p.x + perp.x * w * s, vz = p.y + perp.y * w * s;
+      verts.push(vx, yAt(vx, vz), vz);
+    }
+    if(i < STEPS){ const a = i*2; idx.push(a, a+1, a+2, a+1, a+3, a+2); }
+  }
+  const hb = from.clone().lerp(to, bodyFrac);
+  const hl = [hb.x + perp.x * wHead, hb.y + perp.y * wHead];
+  const hr = [hb.x - perp.x * wHead, hb.y - perp.y * wHead];
+  const base = verts.length / 3;
+  verts.push(hl[0], yAt(hl[0], hl[1]), hl[1]);
+  verts.push(hr[0], yAt(hr[0], hr[1]), hr[1]);
+  verts.push(to.x, yAt(to.x, to.y), to.y);
+  idx.push(base, base + 2, base + 1);
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.Float32BufferAttribute(verts, 3));
+  geo.setIndex(idx);
+  geo.computeVertexNormals();
+  const mat = new THREE.MeshBasicMaterial({ color: colorHex, transparent: true,
+    opacity: 0.55, side: THREE.DoubleSide, depthWrite: false });
+  const mesh = new THREE.Mesh(geo, mat);
+  mesh.visible = false;
+  mesh.userData.phase = Math.random() * 6.28;
+  scene.add(mesh);
+  updateHooks.push((dt, t) => {
+    if(!mesh.visible) return;
+    mat.opacity = 0.32 + 0.3 * (0.5 + 0.5 * Math.sin(t * 3 + mesh.userData.phase));
+  });
+  return mesh;
+}
+const assaultArrows = {
+  marchCao:  makeAssaultArrow(-180, -640, -130, -390, 0x6ea8ff),   // Cao Cao south to Wulin
+  fireRoute: makeAssaultArrow(400, 80, -60, -95, 0xff8c40),        // fire-ship run
+  retreat:   makeAssaultArrow(-150, -330, -460, -520, 0x6ea8ff),   // Huarong road retreat
+  alliedAdv: makeAssaultArrow(380, 130, 40, -60, 0xff6060),        // allied fleet advance
+};
+
+/* ---------- shore camps & torch fires ---------- */
+class FireEmitter {
+  constructor(x, z, scale = 1, smoke = true){
+    this.group = new THREE.Group();
+    const y = Math.max(groundY(x, z), 0);
+    this.group.position.set(x, y, z);
+    this.flames = [];
+    for(let i = 0; i < 3; i++){
+      const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: TEX_FIRE,
+        transparent: true, depthWrite: false, blending: THREE.AdditiveBlending,
+        opacity: 0.85 }));
+      s.scale.setScalar((6 + i * 3) * scale);
+      s.position.y = (3 + i * 2.5) * scale;
+      this.group.add(s); this.flames.push(s);
+    }
+    this.smoke = [];
+    if(smoke){
+      for(let i = 0; i < 4; i++){
+        const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: TEX_SMOKE,
+          transparent: true, depthWrite: false, opacity: 0.3 }));
+        s.userData.k = i / 4;
+        this.group.add(s); this.smoke.push(s);
+      }
+    }
+    this.light = new THREE.PointLight(0xff9a3c, 0, 90 * scale, 1.8);
+    this.light.position.y = 8 * scale;
+    this.group.add(this.light);
+    this.scaleF = scale;
+    this.group.visible = false;
+    scene.add(this.group);
+    updateHooks.push((dt, t) => this.update(dt, t));
+  }
+  set(on){ this.group.visible = on; this.light.visible = on;
+    this.light.intensity = on ? 120 * this.scaleF : 0; }
+  update(dt, t){
+    if(!this.group.visible) return;
+    this.flames.forEach((f, i) => {
+      const n = Math.sin(t * 11 + i * 2.1) * 0.5 + Math.sin(t * 17 + i) * 0.3;
+      f.material.opacity = 0.65 + n * 0.25;
+      f.scale.setScalar((6 + i * 3) * this.scaleF * (1 + n * 0.12));
+    });
+    this.light.intensity = (110 + Math.sin(t * 13) * 30) * this.scaleF;
+    this.smoke.forEach(s => {
+      s.userData.k = (s.userData.k + dt * 0.12) % 1;
+      const k = s.userData.k;
+      s.position.set(Math.sin(k * 9) * 4 * this.scaleF, (8 + k * 55) * this.scaleF, Math.cos(k * 7) * 4);
+      s.scale.setScalar((10 + k * 30) * this.scaleF);
+      s.material.opacity = 0.34 * (1 - k);
+    });
+  }
+}
+const fires = {
+  caoCamp1: new FireEmitter(-180, -330, 0.8), caoCamp2: new FireEmitter(-80, -360, 0.7),
+  allied1:  new FireEmitter(430, 170, 0.7),   allied2:  new FireEmitter(490, 220, 0.6),
+  campBlaze1: new FireEmitter(-160, -345, 1.7), campBlaze2: new FireEmitter(-100, -372, 1.4),
+};
+function setFires(keys){ for(const k in fires) fires[k].set(keys.includes(k)); }
+
+/* ---------- camps (tents) ---------- */
+function buildCamp(x, z, rows, colorHex){
+  const g = new THREE.Group();
+  g.position.set(x, groundY(x, z), z);
+  const tentG = new THREE.ConeGeometry(2.6, 3.4, 4);
+  const tentM = new THREE.MeshStandardMaterial({ color: colorHex, roughness:0.9 });
+  let seed = Math.abs(Math.round(x * 31 + z * 17)) + 7;
+  const rnd = () => (seed = (seed * 16807 + 11) % 2147483647) / 2147483647;
+  for(let i = 0; i < rows; i++) for(let j = 0; j < rows; j++){
+    if(rnd() < 0.2) continue;
+    const tent = new THREE.Mesh(tentG, tentM);
+    tent.position.set((i - rows/2 + 0.5) * 8, 1.7, (j - rows/2 + 0.5) * 8);
+    tent.rotation.y = Math.PI/4;
+    tent.castShadow = true;
+    g.add(tent);
+  }
+  g.visible = false;
+  scene.add(g);
+  return g;
+}
+const campCao = buildCamp(-140, -350, 8, 0xb8c4d8);
+const campSun = buildCamp(450, 190, 5, 0xd8b8b0);
+const campLiu = buildCamp(540, 290, 4, 0xb8d8b8);
+
+/* =====================================================================
+   SECTION 7 : THE FLEETS
+   ===================================================================== */
+
+/* ---------- Cao Cao's chained fleet: a 6x4 grid of warships ---------- */
+const CHAIN_COLS = 6, CHAIN_ROWS = 4;
+const CHAIN_X0 = -250, CHAIN_DX = 46;
+const CHAIN_Z0 = -158, CHAIN_DZ = 36;
+const chainedShips = [];
+for(let r = 0; r < CHAIN_ROWS; r++){
+  for(let c = 0; c < CHAIN_COLS; c++){
+    const i = r * CHAIN_COLS + c;
+    const big = (r === 1 && c === 2);            // one towered flagship in the block
+    const ship = new Warship('cao', big, i,
+      big ? 'Chained Flagship' : 'Chained Warship ' + (i + 1));
+    ship.setShipDesc(big
+      ? 'A towered command ship at the heart of the chained formation. Linked to its neighbours by chains and planking, it cannot manoeuvre when fire comes with the wind.'
+      : 'One of Cao Cao\'s river warships, chained and planked to its neighbours so northern soldiers can fight as if on land — and so fire can walk from deck to deck.');
+    ship.home.set(CHAIN_X0 + c * CHAIN_DX, 0, CHAIN_Z0 + r * CHAIN_DZ);
+    ship.homeRotY = Math.PI / 2 + (((i * 37) % 10) - 5) * 0.01;
+    ship.placeAt(ship.home.x, ship.home.z);
+    ship.group.rotation.y = ship.homeRotY;
+    ship.gridRC = [r, c];
+    chainedShips.push(ship);
+    allShips.push(ship);
+  }
+}
+
+/* chains & planks LINKING the hulls — the visual heart of Act 3 */
+const chainGroup = new THREE.Group();
+{
+  const chainM = new THREE.MeshStandardMaterial({ color:0x2e2e34, roughness:0.5, metalness:0.7 });
+  const plankM = new THREE.MeshStandardMaterial({ color:0x8a6a42, roughness:0.9 });
+  for(let r = 0; r < CHAIN_ROWS; r++){
+    for(let c = 0; c < CHAIN_COLS; c++){
+      const a = chainedShips[r * CHAIN_COLS + c];
+      // link to the eastern neighbour
+      if(c < CHAIN_COLS - 1){
+        const b = chainedShips[r * CHAIN_COLS + c + 1];
+        const mid = a.group.position.clone().lerp(b.group.position, 0.5);
+        const len = a.group.position.distanceTo(b.group.position) - 24;
+        const chain = new THREE.Mesh(new THREE.CylinderGeometry(0.5, 0.5, len, 5), chainM);
+        chain.position.set(mid.x, 2.6, mid.z);
+        chain.rotation.z = Math.PI / 2;
+        const plank = new THREE.Mesh(new THREE.BoxGeometry(len, 0.7, 4.6), plankM);
+        plank.position.set(mid.x, 4.0, mid.z);
+        chainGroup.add(chain, plank);
+      }
+      // link to the southern neighbour
+      if(r < CHAIN_ROWS - 1){
+        const b = chainedShips[(r + 1) * CHAIN_COLS + c];
+        const mid = a.group.position.clone().lerp(b.group.position, 0.5);
+        const len = a.group.position.distanceTo(b.group.position) - 16;
+        const chain = new THREE.Mesh(new THREE.CylinderGeometry(0.5, 0.5, len, 5), chainM);
+        chain.position.set(mid.x, 2.6, mid.z);
+        chain.rotation.x = Math.PI / 2;
+        const plank = new THREE.Mesh(new THREE.BoxGeometry(4.6, 0.7, len), plankM);
+        plank.position.set(mid.x, 4.0, mid.z);
+        chainGroup.add(chain, plank);
+      }
+    }
+  }
+  chainGroup.visible = false;
+  scene.add(chainGroup);
+}
+function setChained(v){ chainGroup.visible = v; lblChain.visible = v; }
+
+/* fire spreads outward through the chained grid from the impact point */
+const fireWave = { active:false, t:0, origin:new THREE.Vector3(-60, 0, -95), speed:30 };
+function startFireWave(preT = 0){
+  fireWave.active = true; fireWave.t = preT;
+}
+updateHooks.push((dt) => {
+  if(!fireWave.active) return;
+  fireWave.t += dt;
+  for(const s of chainedShips){
+    if(s.fireT >= 0) continue;
+    const d = s.group.position.distanceTo(fireWave.origin);
+    const delay = d / fireWave.speed + (s.idx % 5) * 0.4;
+    if(fireWave.t >= delay) s.fireT = Math.min(fireWave.t - delay, 0.1);
+  }
+  // Fire Spread bar tracks how much of the fleet is alight
+  const burnt = chainedShips.filter(s => s.fireT >= 0).length;
+  const fEl = document.getElementById('b-fire');
+  const vEl = document.getElementById('v-fire');
+  const pct = Math.round(burnt / chainedShips.length * 100);
+  if(fEl){ fEl.style.width = pct + '%'; vEl.textContent = '~' + pct + '%'; }
+});
+function resetChainedFleet(){
+  fireWave.active = false; fireWave.t = 0;
+  for(const s of chainedShips) s.reset();
+}
+/* pre-burn helper for deep links / later acts: advance the whole wave */
+function preburnFleet(seconds){
+  startFireWave(seconds);
+  for(const s of chainedShips){
+    const d = s.group.position.distanceTo(fireWave.origin);
+    const delay = d / fireWave.speed + (s.idx % 5) * 0.4;
+    if(seconds > delay){ s.fireT = seconds - delay; s.tick(0.001, 0); }
+  }
+}
+
+/* ---------- the Sun-Liu allied fleet (red + a green flotilla) ---------- */
+const alliedShips = [];
+function spawnAlliedShip(fk, big, x, z, rotY, label, desc){
+  const ship = new Warship(fk, big, 100 + alliedShips.length, label);
+  ship.setShipDesc(desc);
+  ship.home.set(x, 0, z);
+  ship.homeRotY = rotY;
+  ship.placeAt(x, z);
+  ship.group.rotation.y = rotY;
+  alliedShips.push(ship);
+  allShips.push(ship);
+  return ship;
+}
+const zhouYuFlag = spawnAlliedShip('sun', true, 400, 120, Math.PI/2 + 0.2, "Zhou Yu's Flagship",
+  'Zhou Yu, grand commander of the allied fleet, directs the battle from this towered ship anchored off the Red Cliffs.');
+for(let i = 0; i < 5; i++)
+  spawnAlliedShip('sun', false, 430 + (i%3)*42, 70 + Math.floor(i/3)*46 + (i%2)*8, Math.PI/2 + 0.15,
+    'Wu Warship ' + (i+1), 'A warship of Sun Quan\'s river navy — crews raised on the Yangtze, fighting on home water.');
+for(let i = 0; i < 3; i++)
+  spawnAlliedShip('liu', false, 530 + (i%2)*40, 190 + Math.floor(i/2)*44, Math.PI/2 + 0.1,
+    'Liu Bei Warship ' + (i+1), 'A vessel of Liu Bei\'s smaller flotilla, holding the downstream wing of the allied line.');
+
+/* labels that sail with the ships, so the attack reads at a glance */
+function attachShipLabel(ship, text, cls){
+  const div = document.createElement('div');
+  div.className = 'unit-label ' + cls;
+  div.textContent = text;
+  div.addEventListener('click', (e) => { e.stopPropagation(); showInfoCard(ship, e); });
+  const lbl = new CSS2DObject(div);
+  lbl.position.set(0, 28, 0);
+  ship.group.add(lbl);
+}
+attachShipLabel(zhouYuFlag, '★ Zhou Yu — Allied Flagship', 'sun');
+attachShipLabel(alliedShips[2], "★ Wu Squadron — Sun Quan's navy", 'sun');
+attachShipLabel(alliedShips[6], "★ Liu Bei's Flotilla", 'liu');
+attachShipLabel(chainedShips[8], "♔ Cao Cao's Chained Flagship", 'cao');
+
+/* ---------- Huang Gai's fire ships ---------- */
+const fireShips = [];
+class FireShip {
+  constructor(idx){
+    this.idx = idx;
+    this.faction = 'sun';
+    this.status = 'Disguised as defectors';
+    this.opts = { label: 'Fire Ship ' + (idx + 1),
+      info: { role: 'Fire ship — false surrender squadron',
+        strength: 'skeleton crew (estimated)', status: '',
+        desc: 'Packed with dry reeds, oil and kindling, rigged to burn. It flies surrender colours until the last moment — a ruse dramatized in Romance of the Three Kingdoms.' } };
+    const g = new THREE.Group();
+    this.group = g;
+    this.hullM = new THREE.MeshStandardMaterial({ color:0x6e4f33, roughness:0.85 });
+    const hull = new THREE.Mesh(new THREE.BoxGeometry(5.5, 3.4, 18), this.hullM);
+    hull.position.y = 1.6; hull.castShadow = true;
+    const bow = new THREE.Mesh(new THREE.ConeGeometry(2.7, 5, 4), this.hullM);
+    bow.rotation.x = -Math.PI/2; bow.rotation.y = Math.PI/4;
+    bow.position.set(0, 1.6, -11);
+    g.add(hull, bow);
+    this.sailM = new THREE.MeshStandardMaterial({ color:0xe8ddc4, roughness:0.85,
+      side:THREE.DoubleSide, transparent:true });
+    const mast = new THREE.Mesh(new THREE.CylinderGeometry(0.3, 0.4, 14, 5),
+      new THREE.MeshStandardMaterial({ color:0x4a3a26 }));
+    mast.position.y = 9;
+    const sail = new THREE.Mesh(new THREE.PlaneGeometry(7, 8), this.sailM);
+    sail.position.y = 11;
+    g.add(mast, sail);
+    // cargo piled high: straw bundles, brushwood and oil jars — built to burn
+    const strawM  = new THREE.MeshStandardMaterial({ color:0xc8a85a, roughness:1 });
+    const strawM2 = new THREE.MeshStandardMaterial({ color:0xa8854a, roughness:1 });
+    for(let b = 0; b < 6; b++){
+      const bale = new THREE.Mesh(new THREE.CylinderGeometry(1.1, 1.1, 4.4, 6),
+        b % 2 ? strawM : strawM2);
+      bale.rotation.z = Math.PI/2; bale.rotation.y = (b % 3) * 0.5;
+      bale.position.set((b % 2) * 1.7 - 0.85, 3.3 + Math.floor(b / 3) * 1.5, (b % 3 - 1) * 4.6);
+      g.add(bale);
+    }
+    const hay = new THREE.Mesh(new THREE.ConeGeometry(2.5, 3.6, 7), strawM);
+    hay.position.set(0, 5.2, -5.5); g.add(hay);
+    const jarM = new THREE.MeshStandardMaterial({ color:0x3a2c20, roughness:0.6 });
+    for(let b = 0; b < 3; b++){
+      const jar = new THREE.Mesh(new THREE.SphereGeometry(0.95, 7, 6), jarM);
+      jar.scale.y = 1.25; jar.position.set(b * 1.8 - 1.8, 3.1, 6.8);
+      g.add(jar);
+    }
+    // white parley flag while disguised
+    this.whiteFlag = new THREE.Mesh(new THREE.PlaneGeometry(4.5, 3),
+      new THREE.MeshStandardMaterial({ color:0xf5f2e8, side:THREE.DoubleSide,
+        emissive:0x444036, transparent:true }));
+    this.whiteFlag.position.set(2.4, 15.5, 0);
+    g.add(this.whiteFlag);
+    // flames (lit at launch) — a running banner of fire, stem to stern
+    this.flames = [];
+    for(let i = 0; i < 5; i++){
+      const s = new THREE.Sprite(new THREE.SpriteMaterial({ map:TEX_FIRE, transparent:true,
+        depthWrite:false, blending:THREE.AdditiveBlending, opacity:0 }));
+      s.position.set((i % 2 - 0.5) * 2, 4 + (i % 3) * 2.5, (i - 2) * 4.5);
+      g.add(s); this.flames.push(s);
+    }
+    this.light = new THREE.PointLight(0xff8a30, 0, 130, 1.7);
+    this.light.position.y = 6;
+    this.light.visible = false;
+    g.add(this.light);
+    hull.userData.unit = this; clickables.push(hull);
+    this.burning = false;
+    this.pos = new THREE.Vector3(); this.from = new THREE.Vector3(); this.to = new THREE.Vector3();
+    this.moveT = 1; this.moveDur = 1;
+    g.visible = false;
+    scene.add(g);
+    updateHooks.push((dt, t) => this.update(dt, t));
+  }
+  placeAt(x, z){ this.pos.set(x, 0, z); this.from.copy(this.pos); this.to.copy(this.pos);
+    this.moveT = 1; this.group.position.set(x, 0, z); }
+  moveTo(x, z, dur){
+    this.from.copy(this.pos); this.to.set(x, 0, z);
+    this.moveDur = dur; this.moveT = 0;
+    this.group.rotation.y = Math.atan2(-(z - this.pos.z), x - this.pos.x) - Math.PI/2;
+  }
+  ignite(){
+    this.burning = true;
+    this.status = 'Burning — fire ship running before the wind';
+    this.opts.info.status = this.status;
+    this.whiteFlag.material.opacity = 0;          // ruse dropped
+    this.sailM.color.set(0x6a4a30);
+  }
+  setVisible(v){ setGroupVisible(this.group, v); }
+  update(dt, t){
+    if(this.moveT < 1){
+      this.moveT = Math.min(1, this.moveT + dt / this.moveDur);
+      this.pos.lerpVectors(this.from, this.to, this.moveT);  // linear: a running ship
+      this.group.position.set(this.pos.x, 0, this.pos.z);
+    }
+    if(!this.group.visible) return;
+    this.group.position.y = Math.sin(t * 1.1 + this.idx * 2) * 0.4;
+    if(this.burning){
+      this.flames.forEach((f, i) => {
+        const n = Math.sin(t * 12 + i * 2 + this.idx) * 0.5 + 0.5;
+        f.material.opacity = 0.65 + n * 0.3;
+        f.scale.setScalar(9 + n * 5 + i * 3);
+        f.position.y = 4 + (i % 3) * 2.5 + n * 2.5;
+      });
+      this.light.intensity = 190 + Math.sin(t * 14 + this.idx) * 50;
+      this.light.visible = true;
+    } else {
+      this.flames.forEach(f => f.material.opacity = 0);
+      this.light.intensity = 0;
+      this.light.visible = false;
+    }
+  }
+}
+for(let i = 0; i < 4; i++) fireShips.push(new FireShip(i));
+{ // squadron label so the fire ships read at a glance
+  const div = document.createElement('div');
+  div.className = 'unit-label sun';
+  div.textContent = '★ Huang Gai — Fire Ships (kindling & oil)';
+  div.addEventListener('click', (e) => { e.stopPropagation(); showInfoCard(fireShips[0], e); });
+  const lbl = new CSS2DObject(div);
+  lbl.position.set(0, 24, 0);
+  fireShips[0].group.add(lbl);
+}
+function resetFireShips(){
+  fireShips.forEach((fs, i) => {
+    fs.burning = false;
+    fs.status = 'Disguised as defectors';
+    fs.opts.info.status = fs.status;
+    fs.whiteFlag.material.opacity = 1;
+    fs.sailM.color.set(0xe8ddc4);
+    fs.setVisible(false);
+    fs.placeAt(420 + (i%2)*30, 90 + i*22);
+  });
+}
+resetFireShips();
+
+/* =====================================================================
+   SECTION 8 : LEADERS (land units)
+   ===================================================================== */
+const U = {};
+U.caocao = new Unit({ key:'caocao', faction:'cao', label:'Cao Cao', symbol:'曹',
+  count:60, w:18, d:14, big:true,
+  info:{ role:'Imperial Chancellor — commander of the northern host',
+    strength:'~200,000 claimed; modern estimates far lower (approximate)',
+    status:'Marching south',
+    desc:'Having unified northern China, Cao Cao drives south to crush Liu Bei and overawe Sun Quan in a single campaign. His weakness: a hastily absorbed navy and northern soldiers who cannot stomach the river.' }});
+U.caoInf = new Unit({ key:'caoinf', faction:'cao', label:'Northern Army', symbol:'魏',
+  count:130, w:38, d:14,
+  info:{ role:'Veteran northern infantry & absorbed Jing provincial navy',
+    strength:'~150,000–250,000 claimed (likely exaggerated)',
+    status:'Marching south',
+    desc:'Cao Cao\'s veterans, joined by the surrendered fleet of Jing Province. Disease and seasickness gnaw at them through the winter campaign.' }});
+U.sunquan = new Unit({ key:'sunquan', faction:'sun', label:'Sun Quan', symbol:'吳',
+  count:55, w:17, d:13, big:true,
+  info:{ role:'Lord of the Southland (Jiangdong)',
+    strength:'~30,000 committed to Zhou Yu (estimated)',
+    status:'Weighing war or surrender',
+    desc:'Master of the lower Yangtze. Against the advice of many counsellors, Sun Quan stakes his realm on resistance, giving Zhou Yu his best troops and ships.' }});
+U.zhouyu = new Unit({ key:'zhouyu', faction:'sun', label:'Zhou Yu', symbol:'周',
+  count:55, w:17, d:13, big:true,
+  info:{ role:'Grand Commander of the allied fleet',
+    strength:'~30,000 marines & sailors (estimated)',
+    status:'Preparing the river defence',
+    desc:'Sun Quan\'s brilliant admiral and the architect of the victory. He sees the chained fleet for what it is: kindling waiting for a wind.' }});
+U.huanggai = new Unit({ key:'huanggai', faction:'sun', label:'Huang Gai', symbol:'黃',
+  count:45, w:15, d:11,
+  info:{ role:'Veteran Wu officer — leader of the fire-ship squadron',
+    strength:'fire-ship squadron + escort (estimated)',
+    status:'Proposing the fire attack',
+    desc:'A veteran of three Sun rulers. He feigns defection to bring his fire ships alongside the enemy — the famous ruse (and the "battered-body stratagem") as told in Romance of the Three Kingdoms.' }});
+U.liubei = new Unit({ key:'liubei', faction:'liu', label:'Liu Bei', symbol:'劉',
+  count:55, w:17, d:13, big:true,
+  info:{ role:'Warlord — the alliance\'s western partner',
+    strength:'~20,000 with Liu Qi\'s troops (estimated)',
+    status:'Rallying after Changban',
+    desc:'Driven from the north and harried at Changban, Liu Bei joins Sun Quan in alliance. Victory at Red Cliffs gives him the breathing room that becomes the kingdom of Shu.' }});
+U.zhuge = new Unit({ key:'zhuge', faction:'liu', label:'Zhuge Liang', symbol:'亮',
+  count:45, w:15, d:11,
+  info:{ role:'Strategist — envoy who sealed the alliance',
+    strength:'—',
+    status:'Advising the alliance',
+    desc:'Liu Bei\'s strategist, who argued Sun Quan into the war. The tale of him summoning the east wind from an altar is a Romance of the Three Kingdoms dramatization — the wind itself made the fire attack possible.' }});
+
+U.guanyu = new Unit({ key:'guanyu', faction:'liu', label:'Guan Yu', symbol:'關',
+  count:50, w:16, d:12, big:true,
+  info:{ role:'Liu Bei\'s sworn brother — ambush commander at Huarong',
+    strength:'~500 picked men (Romance figure)',
+    status:'Awaiting orders',
+    desc:'In Romance of the Three Kingdoms, Zhuge Liang posts Guan Yu astride the Huarong road — knowing Guan Yu owes Cao Cao an old debt of mercy, and knowing he will repay it by letting him pass. The episode is dramatization, not attested history.' }});
+U.guanyuL = new Unit({ key:'guanyuL', faction:'liu', label:'Ambush — Left Wing', symbol:'劉',
+  count:60, w:22, d:9,
+  info:{ role:'Ambush infantry, left of the road', strength:'(Romance dramatization)',
+    status:'In hiding',
+    desc:'Half of Guan Yu\'s ambush, drawn up in the marsh scrub on the left of the muddy track. When their commander relents, they ground their spears and stand aside.' }});
+U.guanyuR = new Unit({ key:'guanyuR', faction:'liu', label:'Ambush — Right Wing', symbol:'劉',
+  count:60, w:22, d:9,
+  info:{ role:'Ambush infantry, right of the road', strength:'(Romance dramatization)',
+    status:'In hiding',
+    desc:'The other half of the ambush, blocking the road from the right. At the signal they open their ranks and let the beaten column file through.' }});
+
+U.caocao.placeAt(-160, -680);
+U.caoInf.placeAt(-240, -700);
+U.sunquan.placeAt(470, 215);
+U.zhouyu.placeAt(415, 165);
+U.huanggai.placeAt(465, 115);
+U.liubei.placeAt(565, 265);
+U.zhuge.placeAt(520, 305);
+U.guanyu.placeAt(-520, -600); U.guanyuL.placeAt(-472, -583); U.guanyuR.placeAt(-508, -541);
+[U.guanyu, U.guanyuL, U.guanyuR].forEach(u => u.setVisible(false));
+
+const victoryBanner = document.getElementById('victory-banner');
+
+/* ---------- info card ---------- */
+const infoCard = document.getElementById('info-card');
+const SHIP_STATES = ['Normal','Ignited','Burning','Charred','Destroyed'];
+function showInfoCard(unit, ev){
+  const f = FACTIONS[unit.faction];
+  document.getElementById('ic-name').textContent = unit.opts.label;
+  const tag = document.getElementById('ic-faction');
+  tag.textContent = f.name;
+  tag.style.background = '#' + f.dark.toString(16).padStart(6,'0');
+  const sideEl = document.getElementById('ic-side');
+  sideEl.textContent = f.side;
+  sideEl.style.color = f.css === 'cao' ? '#9fb6e8' : '#f0b0a0';
+  document.getElementById('ic-role').textContent = unit.opts.info.role;
+  document.getElementById('ic-strength').textContent = unit.opts.info.strength;
+  const st = document.getElementById('ic-status');
+  st.textContent = unit.status;
+  st.className = SHIP_STATES.includes(unit.status) ? 'state-' + unit.status : '';
+  document.getElementById('ic-desc').textContent = unit.opts.info.desc;
+  infoCard.classList.add('visible');
+  const x = Math.min(innerWidth - 297, (ev?.clientX ?? innerWidth/2) + 14);
+  const y = Math.min(innerHeight - 280, (ev?.clientY ?? innerHeight/2) - 30);
+  infoCard.style.left = x + 'px'; infoCard.style.top = y + 'px';
+}
+document.getElementById('info-close').addEventListener('click',
+  () => infoCard.classList.remove('visible'));
+
+const raycaster = new THREE.Raycaster();
+const mouseV = new THREE.Vector2();
+let downXY = null;
+renderer.domElement.addEventListener('pointerdown', e => { downXY = [e.clientX, e.clientY]; });
+renderer.domElement.addEventListener('pointerup', (e) => {
+  if(!downXY || Math.hypot(e.clientX - downXY[0], e.clientY - downXY[1]) > 6) return;
+  mouseV.set((e.clientX/innerWidth)*2 - 1, -(e.clientY/innerHeight)*2 + 1);
+  raycaster.setFromCamera(mouseV, camera);
+  const hits = raycaster.intersectObjects(clickables, false);
+  const hit = hits.find(h => h.object.userData.unit);
+  if(hit) showInfoCard(hit.object.userData.unit, e);
+  else infoCard.classList.remove('visible');
+});
+
+function stopAllEffects(){
+  Object.values(volleys).forEach(v => v.stop());
+  Object.values(assaultArrows).forEach(a => a.visible = false);
+  setFires([]);
+  victoryBanner.classList.remove('visible');
+  lblRoute.visible = false;
+}
+
+/* =====================================================================
+   SECTION 9 : TIMELINE / ACTS
+   ===================================================================== */
+/* army-strength readout: the huge blue host against a small allied force,
+   bars drawn to the same scale so the mismatch — and the post-fire collapse —
+   reads at a glance. Counts drain smoothly toward their targets. */
+const STRENGTH_MAX = 220000;
+const strength = { cao: 220000, wu: 30000, liu: 20000,
+  caoT: 220000, wuT: 30000, liuT: 20000, drawn: false };
+function fmtMen(n){ return '~' + (Math.round(n / 1000) * 1000).toLocaleString('en-US'); }
+updateHooks.push((dt) => {
+  let moving = false;
+  for(const k of ['cao', 'wu', 'liu']){
+    const t = strength[k + 'T'];
+    if(strength[k] !== t){
+      strength[k] = Math.abs(strength[k] - t) < 400
+        ? t : strength[k] + (t - strength[k]) * Math.min(1, dt * 0.9);
+      moving = true;
+    }
+  }
+  if(!moving && strength.drawn) return;
+  strength.drawn = true;
+  for(const k of ['cao', 'wu', 'liu']){
+    document.getElementById('b-' + k).style.width =
+      Math.max(2, strength[k] / STRENGTH_MAX * 100) + '%';
+    document.getElementById('v-' + k).textContent = fmtMen(strength[k]);
+  }
+});
+function setBars(cao, wu, liu, wind, fire){
+  strength.caoT = cao; strength.wuT = wu; strength.liuT = liu;
+  const set = (id, v) => {
+    document.getElementById('b-' + id).style.width = v + '%';
+    document.getElementById('v-' + id).textContent = '~' + v + '%';
+  };
+  set('wind', wind); set('fire', fire);
+}
+
+const ACTS = [
+{
+  id: 1, title: 'Cao Cao Marches South', duration: 26,
+  desc: 'Winter, 208 CE. Cao Cao sweeps through Jing Province, absorbs its fleet, and presses down the Yangtze toward the Southland. His armada anchors off Wulin on the north bank — a claimed 200,000 men (almost certainly exaggerated) against a fraction of that number.',
+  event: 'The northern host reaches the river it cannot simply walk across',
+  camera: [ [620,840,720, -100,0,-100], [-60,420,420, -180,0,-220],
+            [-300,170,-140, -160,5,-340], [-150,120,-10, -150,4,-140] ],
+  enter(){
+    setMood(0x9cb4c4, 0xfff0d6, 1.45, 0.8);
+    resetChainedFleet(); resetFireShips();
+    setChained(false); setWind('nw', 0.5, false);
+    stopAllEffects();
+    campCao.visible = true; campSun.visible = campLiu.visible = false;
+    lblAllied.visible = false;
+    assaultArrows.marchCao.visible = true;
+    // the captured Jing armada sweeps in from upstream in sailing columns
+    chainedShips.forEach((sh, i) => {
+      sh.placeAt(sh.home.x - 340 - (i % 4) * 22, sh.home.z + 30 + (i % 3) * 12);
+      sh.group.rotation.y = -Math.PI / 2 + (((i * 29) % 10) - 5) * 0.015;
+      sh.moveTo(sh.home.x, sh.home.z, 13 + (i % 6) * 1.7);
+    });
+    U.caocao.placeAt(-160, -680); U.caocao.moveTo(-140, -320, 13);
+    U.caoInf.placeAt(-240, -700); U.caoInf.moveTo(-220, -360, 14);
+    U.caocao.setStatus('Advancing on the Yangtze');
+    U.caoInf.setStatus('Marching south');
+    U.sunquan.setStatus('Weighing war or surrender');
+    U.zhouyu.setStatus('Urging resistance');
+    U.huanggai.setStatus('With the fleet');
+    U.liubei.setStatus('Rallying after Changban');
+    U.zhuge.setStatus('Travelling to Sun Quan\'s court');
+    setFires(['caoCamp1', 'caoCamp2']);
+    setBars(220000, 30000, 20000, 5, 0);
+  },
+  triggers: [
+    { at: 8, fn(){ document.getElementById('act-event').textContent =
+        'Hundreds of hulls round the upstream bend under sail — the river turns blue with banners'; } },
+    { at: 16, fn(){ document.getElementById('act-event').textContent =
+        'The armada drops anchor off Wulin; the northwest wind blows steady at its back'; } }
+  ]
+},
+{
+  id: 2, title: 'The Sun-Liu Alliance Forms', duration: 24,
+  desc: 'Zhuge Liang crosses to Sun Quan\'s court and, with Zhou Yu, argues down the voices urging surrender. Sun Quan commits 30,000 men under Zhou Yu; Liu Bei adds his surviving forces. The allied fleet anchors downstream of the Red Cliffs, facing the invader across the water.',
+  event: 'Zhuge Liang and Zhou Yu persuade Sun Quan: fight on the river',
+  camera: [ [720,320,520, 440,5,160], [520,130,340, 440,8,180],
+            [330,100,260, 490,8,240], [140,280,340, 150,0,-20] ],
+  enter(){
+    setMood(0x9cb4c4, 0xffeccc, 1.4, 0.78);
+    resetChainedFleet(); resetFireShips();
+    setChained(false); setWind('nw', 0.5, false);
+    stopAllEffects();
+    campCao.visible = campSun.visible = campLiu.visible = true;
+    lblAllied.visible = true;
+    // the allied fleet beats upriver from Chaisang to its battle anchorage
+    alliedShips.forEach((sh, i) => {
+      sh.placeAt(sh.home.x + 250 + (i % 3) * 34, sh.home.z + 120 + (i % 2) * 34);
+      sh.moveTo(sh.home.x, sh.home.z, 11 + (i % 4) * 1.5);
+      sh.status = 'Taking battle stations'; sh.opts.info.status = sh.status;
+    });
+    U.zhuge.placeAt(300, 380); U.zhuge.moveTo(520, 305, 10);
+    U.zhuge.setStatus('Sealing the alliance');
+    U.sunquan.setStatus('Committed — war');
+    U.zhouyu.setStatus('Appointed Grand Commander');
+    U.huanggai.setStatus('Drilling the fleet');
+    U.liubei.setStatus('Joining the alliance');
+    U.caocao.placeAt(-140, -320); U.caocao.setStatus('Demanding surrender by letter');
+    U.caoInf.placeAt(-220, -360); U.caoInf.setStatus('Camped at Wulin');
+    setFires(['caoCamp1', 'caoCamp2', 'allied1', 'allied2']);
+    setBars(220000, 30000, 20000, 5, 0);
+  },
+  triggers: [
+    { at: 14, fn(){ document.getElementById('act-event').textContent =
+        'The allied fleet — outnumbered but at home on the water — takes station off the Red Cliffs'; } }
+  ]
+},
+{
+  id: 3, title: "Cao Cao's Chained Fleet", duration: 26,
+  desc: 'Northern soldiers, sick and unsteady on the water, cannot fight from rolling decks. The fleet is lashed together — hull to hull with chains and boarding planks — into a stable floating fortress. Steady as dry land… and exactly as flammable as one continuous deck of timber.',
+  event: 'Chains and planking link the hulls — stability bought at a terrible price',
+  camera: [ [-380,100,40, -210,4,-120], [-200,38,-25, -140,5,-120],
+            [-40,42,-60, -110,6,-128], [40,200,90, -115,4,-115] ],
+  enter(){
+    setMood(0x8a9cb4, 0xffd9a8, 1.2, 0.7);     // late, low winter light
+    resetChainedFleet(); resetFireShips();
+    setChained(true); setWind('nw', 0.7);
+    stopAllEffects();
+    campCao.visible = campSun.visible = campLiu.visible = true;
+    lblAllied.visible = true;
+    U.caocao.setStatus('Orders the hulls chained');
+    U.caoInf.setStatus('Seasick — drilling on planked decks');
+    U.zhouyu.setStatus('Watching the enemy anchorage');
+    U.huanggai.setStatus('Sees the weakness — proposes fire');
+    U.zhuge.setStatus('Advising the alliance');
+    setFires(['caoCamp1', 'caoCamp2']);
+    setBars(220000, 30000, 20000, 5, 0);
+  },
+  triggers: [
+    { at: 13, fn(){ document.getElementById('act-event').textContent =
+        'Huang Gai to Zhou Yu: "Chained ships cannot scatter — attack them with fire"'; } },
+    { at: 20, fn(){ document.getElementById('act-event').textContent =
+        'But the winter wind blows FROM the northwest — fire loosed now would burn the allies themselves'; } }
+  ]
+},
+{
+  id: 4, title: "Huang Gai's False Surrender", duration: 26,
+  desc: 'Huang Gai sends Cao Cao a letter of defection — a ruse (dramatized, with the "battered-body stratagem", in Romance of the Three Kingdoms). His squadron loads with dry reeds and oil, hoists surrender colours, and stands slowly up the river toward the unsuspecting fleet.',
+  event: 'White flags at the masthead — the fire ships pass for defectors',
+  camera: [ [540,150,240, 430,5,110], [400,70,150, 310,4,60],
+            [270,55,95, 190,4,30], [120,210,170, -20,5,-70] ],
+  enter(){
+    setMood(0x2a3448, 0x8a90c0, 0.5, 0.4);     // night falls
+    resetChainedFleet(); resetFireShips();
+    setChained(true); setWind('nw', 0.85);
+    stopAllEffects();
+    campCao.visible = campSun.visible = campLiu.visible = true;
+    lblAllied.visible = true;
+    fireShips.forEach((fs, i) => {
+      fs.setVisible(true);
+      fs.moveTo(320 - (i%2)*20, 65 + i*16, 20);   // slow, innocent approach
+    });
+    U.huanggai.setStatus('Aboard the fire ships — the ruse is on');
+    U.caocao.setStatus('Believes the defection');
+    U.caoInf.setStatus('Watching the "defectors" approach');
+    U.zhouyu.setStatus('Fleet ready behind the ruse');
+    U.zhuge.setStatus('Watching the weather (Romance: praying for wind)');
+    setFires(['caoCamp1', 'caoCamp2']);
+    setBars(220000, 30000, 20000, 10, 0);
+  },
+  triggers: [
+    { at: 8, fn(){ document.getElementById('act-event').textContent =
+        'The hard northwest wind still holds — no one aboard the blue fleet fears fire tonight'; } },
+    { at: 16, fn(){ document.getElementById('act-event').textContent =
+        'Cao Cao\'s lookouts wave the surrender squadron in — no alarm is raised'; } }
+  ]
+},
+{
+  id: 5, title: 'The East Wind & the Fire Attack', duration: 30,
+  desc: 'In deep winter the wind should blow FROM the northwest — into any southern attacker\'s face. Then, for one night, it turns: a hard east wind, straight up the river at the chained fleet. (Romance has Zhuge Liang summon it from an altar.) Huang Gai lights his ships and runs before it.',
+  event: 'The wind turns east — the one night the fire can fly upriver',
+  camera: [ [620,210,110, 300,10,0], [360,90,70, 110,5,-40],
+            [150,70,25, -60,5,-95], [-30,140,60, -130,5,-115],
+            [10,340,190, -110,0,-110] ],
+  enter(){
+    setMood(0x1a2438, 0x7080b8, 0.4, 0.32);    // the night of the attack
+    resetChainedFleet(); resetFireShips();
+    setChained(true); setWind('nw', 0.85);
+    stopAllEffects();
+    campCao.visible = campSun.visible = campLiu.visible = true;
+    lblAllied.visible = true; lblRoute.visible = true;
+    assaultArrows.fireRoute.visible = true;
+    fireShips.forEach((fs, i) => { fs.setVisible(true); fs.placeAt(320 - (i%2)*20, 65 + i*16); });
+    // Zhuge Liang has already read the night: Guan Yu is ferried over
+    // downstream and marches through the northern marshes to Huarong,
+    // arcing wide around Cao Cao's camp — in position before the rout
+    [U.guanyu, U.guanyuL, U.guanyuR].forEach(u => u.setVisible(true));
+    U.guanyu.placeAt(140, -430);  U.guanyu.moveTo(-520, -600, 22);
+    U.guanyuL.placeAt(175, -405); U.guanyuL.moveTo(-472, -583, 22);
+    U.guanyuR.placeAt(110, -460); U.guanyuR.moveTo(-508, -541, 22);
+    [U.guanyu, U.guanyuL, U.guanyuR].forEach(u => u.setStatus('Night march to Huarong (Romance)'));
+    U.zhuge.setStatus('On the altar hill (Romance dramatization)');
+    U.huanggai.setStatus('Squadron loaded — waiting on the wind');
+    U.zhouyu.setStatus('Fleet at battle stations');
+    U.caocao.setStatus('Asleep in the Wulin camp');
+    setFires(['caoCamp1', 'caoCamp2']);
+    setBars(220000, 30000, 20000, 5, 0);
+  },
+  triggers: [
+    { at: 2, fn(){ document.getElementById('act-event').textContent =
+        'Foreseeing the rout, Zhuge Liang has already sent Guan Yu north to wait at Huarong (Romance)'; } },
+    { at: 4, fn(){
+        setWind('calm', 0.15, true);
+        document.getElementById('act-event').textContent =
+          'Past midnight the northwest wind falters\u2026 and DIES. The river goes utterly still'; } },
+    { at: 8, fn(){
+        setWind('east', 1);
+        setBars(220000, 30000, 20000, 95, 0);
+        document.getElementById('act-event').textContent =
+          'THE WIND TURNS — a hard east wind howls upriver (Romance: Zhuge Liang\'s borrowed wind)'; } },
+    { at: 12, fn(){
+        fireShips.forEach((fs, i) => {
+          fs.ignite();
+          fs.moveTo(-60 + (i%2)*26 - 10, -95 + (i%2)*18 + (i>=2 ? 30 : -8), 8);
+        });
+        U.huanggai.setStatus('Fire ships lit — running before the wind');
+        document.getElementById('act-event').textContent =
+          'Huang Gai fires the kindling — the blazing squadron surges ahead of the wind'; } },
+    { at: 20, fn(){
+        startFireWave(0);
+        volleys.fireArrows.fireBetween(330, 90, -80, -100);
+        volleys.caoArrows.fireBetween(-150, -130, 200, 60);
+        assaultArrows.alliedAdv.visible = true;
+        setBars(205000, 30000, 20000, 95, 10);
+        document.getElementById('act-event').textContent =
+          'IMPACT — flame leaps from hull to chained hull'; } },
+    { at: 24, fn(){
+        alliedShips.forEach((sh, i) => {
+          sh.moveTo(180 + (i % 3) * 40, 20 - (i % 4) * 25, 12 + (i % 3) * 2);
+          sh.status = 'Advancing behind the fire'; sh.opts.info.status = sh.status;
+        });
+        U.zhouyu.setStatus('Signal up — the whole fleet advances');
+        document.getElementById('act-event').textContent =
+          'War-drums roll down the allied line — Zhou Yu\'s squadrons follow the fire in'; } }
+  ]
+},
+{
+  id: 6, title: "Cao Cao's Fleet Burns & Collapses", duration: 30,
+  desc: 'Chained together, the ships cannot scatter. Fire walks the planking from deck to deck; burning hulks pin their neighbours; smoke rolls over the anchorage and the flames reach the shore camps. The "floating fortress" becomes one continuous pyre, and the army on the bank breaks.',
+  event: 'Fire spreads down the chains — the anchorage becomes a single blaze',
+  camera: [ [-50,120,50, -130,6,-115], [-210,80,-15, -150,6,-130],
+            [-290,140,-170, -210,8,-310], [-160,420,110, -180,0,-150] ],
+  enter(){
+    setMood(0x141420, 0xff8a50, 0.5, 0.25);    // the river lit by fire
+    resetChainedFleet(); resetFireShips();
+    setChained(true); setWind('east', 1);
+    stopAllEffects();
+    campCao.visible = campSun.visible = campLiu.visible = true;
+    lblAllied.visible = true;
+    preburnFleet(16);                          // the blaze is well advanced
+    fireShips.forEach((fs, i) => {
+      fs.setVisible(true); fs.ignite();
+      fs.placeAt(-60 + (i%2)*26 - 10, -95 + (i%2)*18 + (i>=2 ? 30 : -8));
+    });
+    // Guan Yu reached Huarong during the night — the trap is already set
+    [U.guanyu, U.guanyuL, U.guanyuR].forEach(u => u.setVisible(true));
+    U.guanyu.placeAt(-520, -600);  U.guanyu.setStatus('Lying in ambush at Huarong (Romance)');
+    U.guanyuL.placeAt(-472, -583); U.guanyuL.setStatus('Hidden in the scrub — left of the track');
+    U.guanyuR.placeAt(-508, -541); U.guanyuR.setStatus('Hidden in the scrub — right of the track');
+    // the allied fleet is already driving upriver hard behind the fire
+    alliedShips.forEach((sh, i) => {
+      sh.placeAt(230 + (i % 3) * 40, 30 - (i % 4) * 25);
+      sh.moveTo(95 + (i % 3) * 36, -40 - (i % 4) * 24, 12 + (i % 3) * 2);
+      sh.status = 'Attacking the burning anchorage'; sh.opts.info.status = sh.status;
+    });
+    volleys.fireArrows.fireBetween(330, 90, -80, -100);
+    volleys.pursuit.fireBetween(200, -10, -60, -110);
+    volleys.caoArrows.fireBetween(-150, -130, 150, -20);
+    assaultArrows.alliedAdv.visible = true;
+    setFires(['caoCamp1', 'caoCamp2']);
+    U.caocao.setStatus('Ordering the remaining hulls burned');
+    U.caoInf.setStatus('Routing — fire reaches the shore camp');
+    U.zhouyu.setVisible(false);                 // aboard the flagship, leading the attack
+    U.zhouyu.setStatus('Aboard the flagship — leading the assault');
+    U.sunquan.setStatus('At Chaisang — the fleet carries the battle');
+    U.huanggai.setStatus('Rejoining the fleet (Romance: wounded by his own ruse)');
+    U.huanggai.moveTo(390, 140, 9);
+    U.liubei.moveTo(120, 330, 14);  U.liubei.setStatus('Marching upstream to harry the retreat');
+    U.zhuge.moveTo(160, 360, 14);   U.zhuge.setStatus('Posting ambushes on the roads (Romance)');
+    setBars(160000, 30000, 20000, 95, 70);
+  },
+  triggers: [
+    { at: 7, fn(){
+        setFires(['caoCamp1', 'caoCamp2', 'campBlaze1', 'campBlaze2']);
+        document.getElementById('act-event').textContent =
+          'Burning hulks drift ashore — the fire leaps into the Wulin camp itself'; } },
+    { at: 12, fn(){
+        assaultArrows.retreat.visible = true;
+        U.caocao.moveTo(-420, -500, 12); U.caocao.setStatus('Retreating up the Huarong road');
+        U.caoInf.moveTo(-380, -470, 13); U.caoInf.setStatus('Fleeing through the marshes');
+        setBars(125000, 29000, 20000, 95, 85);
+        document.getElementById('act-event').textContent =
+          'Cao Cao abandons the anchorage and retreats overland through Huarong'; } },
+    { at: 15, fn(){
+        document.getElementById('act-event').textContent =
+          'Far ahead of the fleeing column, Guan Yu\'s ambush already waits in silence at Huarong (Romance)'; } },
+    { at: 18, fn(){
+        alliedShips.forEach((sh, i) => {
+          sh.moveTo(25 + (i % 3) * 34, -68 - (i % 4) * 22, 10 + (i % 3) * 2);
+        });
+        volleys.pursuit.fireBetween(60, -60, -180, -140);
+        document.getElementById('act-event').textContent =
+          'Allied squadrons drive in among the wrecks, boarding and burning what remains'; } },
+    { at: 23, fn(){
+        volleys.caoArrows.stop();
+        setBars(100000, 29000, 19000, 90, 90);
+        document.getElementById('act-event').textContent =
+          'The northern army streams away from the river, harried by allied pursuit'; } }
+  ]
+},
+{
+  id: 7, title: 'Aftermath — The Three Kingdoms Take Shape', duration: 36,
+  desc: 'Dawn shows a river of charred, listing hulks. Cao Cao\'s bid to unify China in one campaign is finished; he holds the north but never again mounts such a stroke. Sun Quan keeps the Southland; Liu Bei takes root in the west. Wei, Wu and Shu — the Three Kingdoms — take shape.',
+  event: 'RED & GREEN ALLIES VICTORIOUS — BLUE Cao Cao retreats north, his navy destroyed',
+  camera: [ [-110,210,160, -130,4,-115], [-40,110,30, -200,6,-200],
+            [-300,140,-330, -460,8,-545], [-450,60,-480, -495,9,-565],
+            [-520,75,-440, -545,8,-610], [-260,420,-160, -350,0,-350],
+            [90,840,260, -120,0,-180] ],
+  enter(){
+    setMood(0xb8c0cc, 0xfff4e0, 1.35, 0.85);   // grey winter dawn
+    resetChainedFleet(); resetFireShips();
+    setChained(true); setWind('east', 0.2, false);
+    stopAllEffects();
+    campCao.visible = false; campSun.visible = campLiu.visible = true;
+    lblAllied.visible = true;
+    preburnFleet(60);                          // burned out: charred & destroyed
+    assaultArrows.retreat.visible = true;
+    // the allied fleet rides at anchor amid the wreckage it made
+    alliedShips.forEach((sh, i) => {
+      sh.placeAt(65 + (i % 3) * 42, -48 - (i % 4) * 26);
+      sh.status = 'Holding the burned anchorage'; sh.opts.info.status = sh.status;
+    });
+    U.caocao.placeAt(-355, -448); U.caocao.setStatus('Stumbling up the muddy road');
+    U.caoInf.placeAt(-310, -415); U.caoInf.setStatus('Exhausted — mud, hunger, disease');
+    // Guan Yu's ambush stands astride the road ahead of them
+    [U.guanyu, U.guanyuL, U.guanyuR].forEach(u => u.setVisible(true));
+    U.guanyu.placeAt(-520, -600);  U.guanyu.setStatus('Holding the Huarong road (Romance)');
+    U.guanyuL.placeAt(-472, -583); U.guanyuL.setStatus('Blocking the road — left of the track');
+    U.guanyuR.placeAt(-508, -541); U.guanyuR.setStatus('Blocking the road — right of the track');
+    U.sunquan.setStatus('Victorious — the Southland stands');
+    U.zhouyu.placeAt(190, 165);  U.zhouyu.setStatus('Victorious commander, ashore at the won anchorage');
+    U.huanggai.placeAt(390, 140); U.huanggai.setStatus('The fire attack succeeded');
+    U.liubei.placeAt(120, 330);  U.liubei.setStatus('Victorious — turns west to Jing & Shu');
+    U.zhuge.placeAt(160, 360);   U.zhuge.setStatus('The tripod of three kingdoms is set');
+    setBars(60000, 29000, 19000, 25, 100);
+  },
+  triggers: [
+    { at: 6, fn(){
+        U.caocao.moveTo(-438, -512, 7); U.caoInf.moveTo(-405, -482, 7);
+        document.getElementById('act-event').textContent =
+          'The fugitive column rounds the bend — and walks straight into Guan Yu\'s ambush'; } },
+    { at: 13, fn(){
+        // the ranks part: each wing steps aside, opening the road between them
+        U.guanyuL.moveTo(-430, -628, 5); U.guanyuL.setStatus('Standing aside');
+        U.guanyuR.moveTo(-550, -496, 5); U.guanyuR.setStatus('Standing aside');
+        U.guanyu.moveTo(-565, -635, 6);  U.guanyu.setStatus('Repaying an old debt of mercy');
+        document.getElementById('act-event').textContent =
+          'Guan Yu remembers Cao Cao\'s old kindness — his ranks open and stand aside (Romance dramatization)'; } },
+    { at: 18, fn(){
+        U.caocao.moveTo(-635, -700, 9); U.caocao.setStatus('Spared — escaping north');
+        U.caoInf.moveTo(-600, -668, 10); U.caoInf.setStatus('Filing through the parted ranks');
+        document.getElementById('act-event').textContent =
+          'The blue column files through the gap and vanishes north toward Jiangling (Romance)'; } },
+    { at: 26, fn(){ victoryBanner.classList.add('visible'); } },
+    { at: 31, fn(){ document.getElementById('act-event').textContent =
+        'Wei in the north, Wu in the southeast, Shu in the west — the Three Kingdoms era begins'; } }
+  ]
+}];
+
+/* =====================================================================
+   SECTION 10 : UI WIRING, CAMERA DIRECTOR & PLAYBACK
+   ===================================================================== */
+let actIndex = -1;
+let actT = 0;
+let camMode = 'cinematic';
+let firedTriggers = new Set();
+let camCurvePos = null, camCurveLook = null, camPathDur = 1;
+
+const elActLabel = document.getElementById('act-label');
+const elActTitle = document.getElementById('act-title');
+const elActDesc  = document.getElementById('act-desc');
+const elActEvent = document.getElementById('act-event');
+const elProgress = document.getElementById('act-progress-fill');
+
+const tl = document.getElementById('timeline');
+ACTS.forEach((act, i) => {
+  const b = document.createElement('button');
+  b.className = 'act-btn';
+  b.innerHTML = `<span class="num">ACT ${act.id}</span>${act.title}`;
+  b.addEventListener('click', () => { setAct(i); });
+  tl.appendChild(b);
+});
+
+function buildCameraPath(act){
+  const ps = [], ls = [];
+  for(const k of act.camera){
+    ps.push(new THREE.Vector3(k[0], k[1], k[2]));
+    ls.push(new THREE.Vector3(k[3], k[4], k[5]));
+  }
+  camCurvePos = ps.length > 1 ? new THREE.CatmullRomCurve3(ps, false, 'centripetal', 0.6) : { getPoint: () => ps[0] };
+  camCurveLook = ls.length > 1 ? new THREE.CatmullRomCurve3(ls, false, 'centripetal', 0.6) : { getPoint: () => ls[0] };
+  camPathDur = act.duration * 0.92;
+}
+
+/* allied ships sail in Acts 2, 5-7; every act entry re-anchors them */
+function restoreAlliedFleet(){
+  alliedShips.forEach(s => {
+    s.reset();
+    s.status = 'At anchor'; s.opts.info.status = 'At anchor';
+  });
+  U.zhouyu.setVisible(true);     // back ashore unless an act puts him aboard
+  [U.guanyu, U.guanyuL, U.guanyuR].forEach(u => u.setVisible(false));   // Huarong acts re-show
+}
+
+function setAct(i){
+  actIndex = ((i % ACTS.length) + ACTS.length) % ACTS.length;
+  const act = ACTS[actIndex];
+  actT = 0;
+  firedTriggers = new Set();
+  restoreAlliedFleet();
+  act.enter();
+  buildCameraPath(act);
+  elActLabel.textContent = 'ACT ' + act.id + ' OF ' + ACTS.length;
+  elActTitle.textContent = act.title;
+  elActDesc.textContent = act.desc;
+  elActEvent.textContent = act.event;
+  document.querySelectorAll('.act-btn').forEach((b, j) => b.classList.toggle('active', j === actIndex));
+  infoCard.classList.remove('visible');
+}
+
+/* transport buttons */
+const btnPlay = document.getElementById('btn-play');
+const btnCam  = document.getElementById('btn-camera');
+function setPlaying(v){
+  playing = v;
+  btnPlay.textContent = v ? '⏸ Pause' : '▶ Play';
+  btnPlay.classList.toggle('toggled', v);
+}
+function setSpeed(s){
+  simSpeed = s;
+  document.querySelectorAll('.speed-btn').forEach(b =>
+    b.classList.toggle('toggled', parseInt(b.dataset.speed, 10) === s));
+}
+document.querySelectorAll('.speed-btn').forEach(b =>
+  b.addEventListener('click', () => setSpeed(parseInt(b.dataset.speed, 10))));
+function setCamMode(m){
+  camMode = m;
+  const cine = m === 'cinematic';
+  btnCam.textContent = cine ? '🎬 Cinematic Camera' : '🕹 Free Camera';
+  btnCam.classList.toggle('toggled', cine);
+  document.body.classList.toggle('cinematic', cine);
+  controls.enabled = !cine;
+}
+btnPlay.addEventListener('click', () => setPlaying(!playing));
+btnCam.addEventListener('click', () => setCamMode(camMode === 'cinematic' ? 'free' : 'cinematic'));
+document.getElementById('btn-prev').addEventListener('click', () => setAct(actIndex - 1));
+document.getElementById('btn-next').addEventListener('click', () => setAct(actIndex + 1));
+addEventListener('keydown', (e) => {
+  if(e.key === ' '){ e.preventDefault(); setPlaying(!playing); }
+  if(e.key === 'ArrowRight') setAct(actIndex + 1);
+  if(e.key === 'ArrowLeft') setAct(actIndex - 1);
+  if(e.key.toLowerCase() === 'c') setCamMode(camMode === 'cinematic' ? 'free' : 'cinematic');
+  if(['1','2','3','4'].includes(e.key)) setSpeed(parseInt(e.key, 10));
+});
+
+/* playback + camera director */
+const camPosNow = new THREE.Vector3();
+const camLookNow = new THREE.Vector3(0, 20, 0);
+updateHooks.push((dt) => {
+  if(actIndex < 0) return;
+  const act = ACTS[actIndex];
+  actT += dt;                       // dt is 0 while paused — everything freezes
+  for(let k = 0; k < (act.triggers?.length ?? 0); k++){
+    const tr = act.triggers[k];
+    if(actT >= tr.at && !firedTriggers.has(k)){ firedTriggers.add(k); tr.fn(); }
+  }
+  elProgress.style.width = Math.min(100, actT / act.duration * 100) + '%';
+  if(actT >= act.duration) setAct(actIndex + 1);
+  if(camMode === 'cinematic'){
+    const k = Math.min(1, actT / camPathDur);
+    camPosNow.copy(camCurvePos.getPoint(k));
+    camLookNow.lerp(camCurveLook.getPoint(k), Math.min(1, dt * 5));
+    camera.position.lerp(camPosNow, Math.min(1, dt * 2.2));
+    camera.lookAt(camLookNow);
+    controls.target.copy(camLookNow);
+  }
+});
+
+/* boot (?act=N deep-links into a chapter, &t=S jumps mid-act) */
+setCamMode('cinematic');
+setPlaying(true);
+setSpeed(1);
+const bootParams = new URLSearchParams(location.search);
+const actParam = parseInt(bootParams.get('act'), 10);
+if(actParam >= 1 && actParam <= ACTS.length){
+  setAct(actParam - 1);
+  const tParam = parseFloat(bootParams.get('t'));
+  if(tParam > 0) actT = Math.min(tParam, ACTS[actIndex].duration - 0.5);
+  camera.position.copy(camCurvePos.getPoint(Math.min(1, actT / camPathDur)));
+} else {
+  setAct(0);
+}
+
+/* =====================================================================
+   SECTION 11 : MAIN LOOP
+   ===================================================================== */
+function animate(){
+  requestAnimationFrame(animate);
+  const rawDt = Math.min(clock.getDelta(), 0.05);
+  const dt = playing ? rawDt * simSpeed : 0;   // frozen while paused
+  simT += dt;
+  const t = simT;
+
+  lighting.sky.lerp(lighting.targetSky, dt*1.2);
+  lighting.sunColor.lerp(lighting.targetSunColor, dt*1.2);
+  lighting.sunIntensity += (lighting.targetSunIntensity - lighting.sunIntensity)*dt*1.2;
+  lighting.hemiIntensity += (lighting.targetHemiIntensity - lighting.hemiIntensity)*dt*1.2;
+  scene.background.copy(lighting.sky);
+  scene.fog.color.copy(lighting.sky);
+  sun.color.copy(lighting.sunColor);
+  sun.intensity = lighting.sunIntensity;
+  hemi.intensity = lighting.hemiIntensity;
+
+  for(const fn of updateHooks) fn(dt, t);
+
+  controls.update();
+  renderer.render(scene, camera);
+  labelRenderer.render(scene, camera);
+}
+
+addEventListener('resize', () => {
+  camera.aspect = innerWidth/innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight);
+  labelRenderer.setSize(innerWidth, innerHeight);
+});
+
+document.getElementById('loader').classList.add('done');
+animate();
+</script>
+<script>
+(function(){
+  const w = document.getElementById('bs-wrap');
+  document.getElementById('bs-btn').addEventListener('click',
+    (e) => { e.stopPropagation(); w.classList.toggle('open'); });
+  addEventListener('click', () => w.classList.remove('open'));
+})();
+</script>
+</body>
+</html>

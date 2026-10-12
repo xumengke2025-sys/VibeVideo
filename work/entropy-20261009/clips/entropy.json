@@ -1,0 +1,64 @@
+{
+ "id":"entropy","style":"entropy","title":"熵增：为什么“混乱”更容易出现？","duration":66,"fps":30,"timingDriver":"narration","seed":314160,
+ "width":1920,"height":1080,
+ "readingRate":5.8,"readingBuffer":0.2,
+ "facts":{"classification":"粗粒化统计计数示意：只记录8个可区分粒子位于左区还是右区","source":"计数模型 2^8=256；C(8,k)；本片为统计示意，非真实气体模拟；旁白为合成语音"},
+ "model":{"particles":8,"counts":[1,8,28,56,70,56,28,8,1],"allOnOneSide":2,"init":"LLLLLLLL",
+  "choreography":{
+   "s1":[{"at":1.5,"duration":0.85,"movers":[5,6]},{"at":2.65,"duration":0.85,"movers":[7,8]},{"at":4.5,"duration":1.0,"movers":[6],"highlight":true},{"at":6.15,"duration":0.85,"movers":[6]}],
+   "s2":[{"at":11.7,"duration":1.2,"movers":[2,5],"highlight":true},{"at":13.0,"duration":1.2,"movers":[4,7],"highlight":true}]},
+  "walk":{"dt":0.38,"flipDelay":0.05,"flipDur":0.26,"resetLead":0.42,"resetDur":0.36,
+   "runs":[{"start":44.3,"steps":8,"seed":3141601},{"start":48.0,"steps":8,"seed":3141602},{"start":51.6,"steps":8,"seed":3141603}]},
+  "tail":{"seed":3141604,"ops":[{"at":57.8,"duration":0.85},{"at":59.4,"duration":0.85},{"at":61.0,"duration":0.85}]}},
+ "events":[
+  {"id":"start","at":0,"duration":1.8,"anchor":"container","action":"八个粒子全部在左区，出示可移动隔板","result":"计数模型建立"},
+  {"id":"diverge","at":1.2,"duration":2.2,"anchor":"particles","action":"隔板移除，粒子开始进入右区","result":"左右各四","sound":{"kind":"whoosh","gain":0.5,"duration":1.1,"offset":0.1}},
+  {"id":"reverse","at":4.4,"duration":1.9,"anchor":"particle6","action":"一个粒子从右区返回左区","result":"反向运动同样发生","sound":{"kind":"whoosh","gain":0.45,"duration":0.9,"offset":0.15}},
+  {"id":"rebalance","at":6.1,"duration":1.6,"anchor":"particle6","action":"它又返回右区","result":"计数回到左4右4"},
+  {"id":"establishA","at":8.5,"duration":1.9,"anchor":"container","action":"建立排列A：左区1、2、3、4","result":"微观成员清晰可辨"},
+  {"id":"mark","at":10.6,"duration":1.1,"anchor":"particles","action":"标出要换边的四个粒子","result":"2、4、5、7被高亮","sound":{"kind":"tick","gain":0.4,"duration":0.5,"offset":0.05}},
+  {"id":"swap1","at":11.7,"duration":1.2,"anchor":"particles","action":"2与5交换归属","result":"成员改变","sound":{"kind":"whoosh","gain":0.4,"duration":0.9,"offset":0.05}},
+  {"id":"swap2","at":13.0,"duration":1.2,"anchor":"particles","action":"4与7交换归属","result":"左区变为1、3、5、7","sound":{"kind":"whoosh","gain":0.4,"duration":0.9,"offset":0.05}},
+  {"id":"sameCount","at":14.4,"duration":2.4,"anchor":"counts","action":"全程计数是左4右4","result":"成员不同，宏观计数相同"},
+  {"id":"shrink","at":18.9,"duration":1.4,"anchor":"container","action":"容器缩小到左侧","result":"右侧展开排列示意"},
+  {"id":"oneWay","at":20.4,"duration":2.9,"anchor":"stripA","action":"全部在左只有一种归属排列","result":"8:0 对应 1 种","sound":{"kind":"pluck","gain":0.5,"duration":1.2,"offset":0.2,"frequency":392}},
+  {"id":"seventy","at":23.3,"duration":5.4,"anchor":"strips","action":"展开左右各四的全部归属排列","result":"4:4 对应70种互不重复的排列","sound":{"kind":"whoosh","gain":0.45,"duration":1.5,"offset":0.1}},
+  {"id":"axes","at":30.9,"duration":1.2,"anchor":"chart","action":"建立坐标，纵轴从0开始","result":"排列数分布可读"},
+  {"id":"bars","at":32.1,"duration":1.7,"anchor":"chart","action":"九根柱按真实计数升起","result":"两端低，中心高","sound":{"kind":"pluck","gain":0.45,"duration":1.2,"offset":0.15,"frequency":440}},
+  {"id":"ends","at":33.9,"duration":1.8,"anchor":"chart","action":"突出两端：各只有1种","result":"极端状态排列最少","sound":{"kind":"tick","gain":0.35,"duration":0.5,"offset":0.1}},
+  {"id":"center","at":35.8,"duration":2.0,"anchor":"chart","action":"突出中心：70种，只占约27%","result":"单个状态不过半","sound":{"kind":"pluck","gain":0.45,"duration":1.2,"offset":0.1,"frequency":587}},
+  {"id":"middle","at":37.9,"duration":3.3,"anchor":"chart","action":"合并3、4、5组：182种","result":"近均匀合计约71.1%","sound":{"kind":"chime","gain":0.42,"duration":2.0,"offset":0.15,"frequency":659}},
+  {"id":"walk1","at":44.3,"duration":3.4,"anchor":"walk","action":"从全部在左出发的第一条短轨迹","result":"计数向中间回落","sound":{"kind":"tick","gain":0.3,"duration":0.5,"offset":0.05}},
+  {"id":"walk2","at":48.0,"duration":3.0,"anchor":"walk","action":"第二条短轨迹","result":"计数在中间附近波动","sound":{"kind":"tick","gain":0.3,"duration":0.5,"offset":0.05}},
+  {"id":"walk3","at":51.6,"duration":3.3,"anchor":"walk","action":"第三条短轨迹","result":"波动包含短暂偏离","sound":{"kind":"tick","gain":0.3,"duration":0.5,"offset":0.05}},
+  {"id":"return","at":55.4,"duration":1.3,"anchor":"container","action":"回到大容器","result":"粒子继续在两侧运动","sound":{"kind":"sub","gain":0.5,"duration":1.2,"offset":0.1}},
+  {"id":"slow","at":57.6,"duration":3.8,"anchor":"particles","action":"运动持续，方向没有偏好","result":"仍在波动"},
+  {"id":"formula","at":60.0,"duration":2.5,"anchor":"panel","action":"右侧给出简化关系","result":"S = k_B ln Ω","sound":{"kind":"chime","gain":0.35,"duration":1.8,"offset":0.1,"frequency":440}},
+  {"id":"closing","at":64.4,"duration":1.6,"anchor":"statement","action":"停留结论","result":"更容易出现，因为对应的微观排列更多。"}
+ ],
+ "captions":[
+  {"start":0.5,"end":7.65,"text":"粒子可以向右走，也可以向左走。那为什么，它们散开以后，却很少全部回到一边？"},
+  {"start":9.2,"end":18.2,"text":"我们用八个可区分的粒子，只记录它们在哪一侧。同样是左四、右四，具体是哪四个，可以完全不同。"},
+  {"start":19.6,"end":29.73,"text":"全部在左，只有一种归属排列。但左右各四，有七十种。宏观看起来一样，背后能对应的微观排列，却多得多。"},
+  {"start":31.7,"end":43.15,"text":"如果这些归属排列等可能，接近均匀的状态，就占了大多数。不过，恰好四比四只占百分之二十七左右。平衡附近，仍然会有波动。"},
+  {"start":44.0,"end":54.37,"text":"这里的规则没有偏爱左右，但从少见的集中状态出发，系统更容易进入排列更多的状态。它仍会波动，也并非绝不能回去。"},
+  {"start":56.0,"end":64.38,"text":"熵不只是看起来乱不乱。粒子数量巨大时，整体回到集中状态的机会极小，这就是熵增的统计含义。"}
+ ],
+ "narration":[
+  {"file":"narration/00.mp3","start":0.5,"end":7.65,"duration":7.15,"text":"粒子可以向右走，也可以向左走。那为什么，它们散开以后，却很少全部回到一边？"},
+  {"file":"narration/01.mp3","start":9.2,"end":18.2,"duration":9.0,"text":"我们用八个可区分的粒子，只记录它们在哪一侧。同样是左四、右四，具体是哪四个，可以完全不同。"},
+  {"file":"narration/02.mp3","start":19.6,"end":29.73,"duration":10.13,"text":"全部在左，只有一种归属排列。但左右各四，有七十种。宏观看起来一样，背后能对应的微观排列，却多得多。"},
+  {"file":"narration/03.mp3","start":31.7,"end":43.15,"duration":11.45,"text":"如果这些归属排列等可能，接近均匀的状态，就占了大多数。不过，恰好四比四只占百分之二十七左右。平衡附近，仍然会有波动。"},
+  {"file":"narration/04.mp3","start":44.0,"end":54.37,"duration":10.37,"text":"这里的规则没有偏爱左右，但从少见的集中状态出发，系统更容易进入排列更多的状态。它仍会波动，也并非绝不能回去。"},
+  {"file":"narration/05.mp3","start":56.0,"end":64.38,"duration":8.38,"text":"熵不只是看起来乱不乱。粒子数量巨大时，整体回到集中状态的机会极小，这就是熵增的统计含义。"}
+ ],
+ "shots":[
+  {"id":"s1","start":0,"end":8.5,"intent":"先提出矛盾：粒子可双向运动，为什么很少整体回到一边","action":"八粒子全部在左，隔板移除后开始进入右区，随后一个粒子反向返回","camera":"固定全景","states":{"establish":0.6,"action":4.9,"result":7.8}},
+  {"id":"s2","start":8.5,"end":18.9,"intent":"建立微观/宏观两个观察尺度","action":"两种4:4排列间切换成员，计数不变","camera":"固定全景","states":{"establish":9.6,"action":12.6,"result":16.5}},
+  {"id":"s3","start":18.9,"end":30.9,"intent":"揭示排列数量：1种与70种","action":"容器缩小，右侧展示8:0的1行与4:4的70行归属编码","camera":"容器移左，右侧展开","states":{"establish":20.8,"action":24.0,"result":28.9}},
+  {"id":"s4","start":30.9,"end":43.4,"intent":"形成概率分布：两端少，近均匀多","action":"九根柱升起，依次突出两端、中心与近均匀三组","camera":"图表全幅","states":{"establish":32.4,"action":36.0,"result":41.5}},
+  {"id":"s5","start":43.4,"end":55.4,"intent":"解释熵增的统计含义","action":"固定种子随机模型的三条短轨迹，计数在中间附近波动","camera":"左容器右轨迹图","states":{"establish":44.5,"action":49.7,"result":54.2}},
+  {"id":"s6","start":55.4,"end":66.0,"intent":"纠正误解并落定结论","action":"回到大容器，右侧保留简化分布与S=k_B ln Ω，停留结论句","camera":"固定全景","states":{"establish":57.5,"action":61.2,"result":65.0}}
+ ],
+ "silences":[]
+}

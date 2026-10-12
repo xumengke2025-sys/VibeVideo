@@ -1,0 +1,550 @@
+{
+  "repo": "makevoid/motion-graphics-music-video-skill",
+  "repository": "https://github.com/makevoid/motion-graphics-music-video-skill",
+  "commit": "759ba6a7c80e2771f4dd69792e74383d71512e35",
+  "commitDate": null,
+  "snapshotUrl": "https://codeload.github.com/makevoid/motion-graphics-music-video-skill/zip/759ba6a7c80e2771f4dd69792e74383d71512e35",
+  "archiveSha256": "5aacd9456192850af15fe2227e1ab84ada0339e2fc3f79385b7b5a2938da20e3",
+  "checked": "2026-10-11",
+  "upstreamLicense": null,
+  "licenseFiles": [
+    "LICENSE"
+  ],
+  "usage": "按原许可和第三方素材声明分别核实复用范围",
+  "modelEvidence": [
+    "<a href=\".claude-plugin/icon.svg\"><img src=\".claude-plugin/icon.svg\" width=\"128\" height=\"128\" alt=\"Orange glass chat bubble with a timeline play button and music note\"></a>",
+    "A Claude Code plugin for creating high quality motion graphics videos from just a music track and a prompt - This skill is made to be used with  Opus 5.5",
+    "This is a very powerful toolkit that will generate videos like the ones below with a relatively low budget (~30$ of Fal AI credits and around 3M Tokens of Opus 5.5 for a ~3m long song / video).",
+    "Follow the quick start below, then supply a song and creative prompt. The agent researches, writes the character/scene plan for approval, then generates in reviewed sub-agent waves of 2 → 3–4 → 4–8 → 6–10 repeatedly. This let you shorten the generation time substantially still giving enough context to Opus if the generations are going better or worse so that Opus can try to tweak / rework / fix the ",
+    "[Skill instructions](.claude/skills/motion-graphics-music-video/SKILL.md) · [Task reference](.claude/skills/motion-graphics-music-video/references/tasks.md) · [Testing](.claude/skills/motion-graphics-music-video/references/testing.md)",
+    "| [Symphony](https://youtu.be/UGX2KzetGZ0) | Elrosea · Opus 5.5 · SunoAI | — |",
+    "| [Parterre Girl](https://youtu.be/Zqd77QCaa58) | Core Refusal · Opus 5.5 · Suno | — |",
+    "The repository ships readable source files, including a small SVG icon, with no bundled binary media or fonts. The [icon recreation prompt](docs/icon-generation.md) and [production prompts](.claude/skills/motion-graphics-music-video/references/prompts.md) describe how to create assets in a separate video project. Plugin installation and MCP startup do not download assets or dependencies; project `setup` installs the production dependencies when explicitly run.",
+    "   claude plugin marketplace add makevoid/motion-graphics-music-video-skill",
+    "   claude plugin install motion-graphics-music-video@makevoid-music-video --scope user",
+    "2. Start `claude` in the terminal and set your Fal API key:",
+    "3. Open Claude Desktop, select **Code**, and start a new code session with access to a folder."
+  ],
+  "files": [
+    {
+      "path": ".claude/skills/motion-graphics-music-video/assets/plan-template.md",
+      "bytes": 3679,
+      "sha256": "4eae7eaec7eb5a4e46736ec8f94890f55cbc2c281305b9c8e85ba3f03650d2f6"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/references/animation-audio-vfx.md",
+      "bytes": 10426,
+      "sha256": "837df43990592c08cac428570023efc20c11ef40eb3b1942bda8ef621a7230dd"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/references/credentials.md",
+      "bytes": 4195,
+      "sha256": "e630e3a1c3aa450f7c4a4ae81b7bd1415e30a2fe8ac190c17d3b294ee87e086f"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/references/planning.md",
+      "bytes": 4186,
+      "sha256": "a677bdbe56398154e16d71c004d49384c54df368cd23004367a78b7128064ac5"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/references/production.md",
+      "bytes": 7785,
+      "sha256": "7723d6af983664fb037d6787128e2be9819bb910932d800dcb8509e8a6368d96"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/references/prompts.md",
+      "bytes": 8992,
+      "sha256": "7fb5389caf8c27aa551c1d0f4a32d433ff5a604c99da9a98fa574482a302c22b"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/references/tasks.md",
+      "bytes": 14793,
+      "sha256": "e223031374e14353d3683a6fea7995ad5d8a8c8dc73bd453732d691534454817"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/references/testing.md",
+      "bytes": 5645,
+      "sha256": "d5f3d190ebaedecdd25b287da42b70f4af760cb58cc044ef326df9170add15e9"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/.gitignore",
+      "bytes": 144,
+      "sha256": "7bd33cf3a84f4b5e058fb291ae1df72a996883b820ea7f18a02712a7739962bb"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/Gemfile",
+      "bytes": 118,
+      "sha256": "885490d8a263d21f031fa4e0ef461678de254079471bf58c42a17a36ad2fc235"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/Gemfile.lock",
+      "bytes": 979,
+      "sha256": "fb74f594dd5f9f79355f0f6aa31e0c18f251dba53ce8842749603835b329c7e9"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/fal/client.rb",
+      "bytes": 5866,
+      "sha256": "dc4242514585c9a826d2a73386a7a407827e3a1e63e7b8cf2c378e9a6fa08dfd"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/fal/models/base.rb",
+      "bytes": 1888,
+      "sha256": "c72a3887e5b1bf5dbf613314020ac52ee610559051212ab57e291c0848318e3b"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/fal/models/demucs.rb",
+      "bytes": 536,
+      "sha256": "dc8ea5fd9f3e46a4d3b278006061184b7b7b0fc37ad7287a72e389f02e23b9e5"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/fal/models/gpt_image25.rb",
+      "bytes": 729,
+      "sha256": "8c0db51c7845878d66627e461521aa5a4374a611f511c526b0c4e5719087b634"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/fal/models/gpt_image25_edit.rb",
+      "bytes": 551,
+      "sha256": "977ebb9a84b254938c0c0a37b15cce23c348a9785425669f71a6ecb7e3b8e196"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/fal/models/h3_max_image_to_video.rb",
+      "bytes": 538,
+      "sha256": "dd3f1c6cd9075ae0d9df8a0844b7d84766e0fe01912854b0f605681a9cd9457d"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/fal/models/music3.rb",
+      "bytes": 392,
+      "sha256": "771f36491247390e83a79c3d9d79a33ab1bd21062e332a552421e3d8dff9afc1"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/fal/models/nano_banana2.rb",
+      "bytes": 867,
+      "sha256": "6c592a64f159ff4e50311214da7bc7b3c52f5c4706f574c5b08fdfe47fb415c8"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/fal/models/stable_audio_sfx.rb",
+      "bytes": 373,
+      "sha256": "b6d781ca0f35d4b53d6ed08f71285802e1a444352d48ac476e58705130b23add"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/fal/models/whisper.rb",
+      "bytes": 404,
+      "sha256": "e75ec410edb99c8793bdb118e979cba98c7f3bcf07be6ce9ec78453e99cdfa50"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/fal/openapi.rb",
+      "bytes": 2469,
+      "sha256": "e8091272210ae618c60de6156a936144791e88c9e5e40675d20c0c7f6483d71f"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/fal_mv_gen.rb",
+      "bytes": 1017,
+      "sha256": "69e51a7b8a3014c51c169aa7c7fcccaf0972de87cd283b5f03424c424d3b100c"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/media/anim.rb",
+      "bytes": 927,
+      "sha256": "18997ae997e70fe84a926e573ebd7a8a9e5f22d4cec2e61faf2ab51bc0fa1337"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/media/ffmpeg.rb",
+      "bytes": 12400,
+      "sha256": "3efdd080cb3543acc2b8d814e6ca69c45b88e3e0fcd01f3171c11ececd1896ba"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/media/image_magick.rb",
+      "bytes": 1548,
+      "sha256": "ce789e59e45fe339e10ff2b09e0aafa23ff5f303c6e62d1cbc0ceac10d0b369e"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/media/python.rb",
+      "bytes": 1708,
+      "sha256": "02f17049d1d2471b60d398dc7fdd4440ac65f2e40b4d23cf28629981b913d5e7"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/media/sfx.rb",
+      "bytes": 5403,
+      "sha256": "ee0be2e59fa9d720f8398fbe30afe72dc190c6d5188f7b62d7e144ed7b52714f"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/media/shell.rb",
+      "bytes": 1248,
+      "sha256": "dd817cbcf35ad4f62201a9c975e9c0f519d807503019a95a3fff168fc2d6ff7e"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/media/sprite_components.rb",
+      "bytes": 673,
+      "sha256": "13b59764ba6624342d86ae216e7f80610fc255a536d57e31c3f9bb3685724bd3"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/media/vfx.rb",
+      "bytes": 5726,
+      "sha256": "3d6199242d068f26ec94092746034bb829dc4431a4594ea95cfd2032fdd82d46"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/pipeline/items_step.rb",
+      "bytes": 3100,
+      "sha256": "2a422dd28d9d6000be2145679c3dc10b7aeec86d09e7e423b5a29868fdfb4642"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/pipeline/project.rb",
+      "bytes": 3131,
+      "sha256": "8ef8f27eba361f494cf488d81aac44fc36dc753788d0f8cd292f25024046cc38"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/pipeline/reference_importer.rb",
+      "bytes": 1611,
+      "sha256": "57e8ac654ebc21a0e2e555136ddad2d2b1b8408833f0ad552d9485d5ef43ed58"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/pipeline/step.rb",
+      "bytes": 4503,
+      "sha256": "115edf6135ff6d5ebf36db0be2966f86967fbf6901a6aff2e45ac4fd6c34dc76"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/pipeline/steps/clips.rb",
+      "bytes": 5661,
+      "sha256": "466c18ca53d4b5bb1ddf570215fffcc811680a20dee9534bca57664bc26dd90c"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/pipeline/steps/keyframes.rb",
+      "bytes": 2512,
+      "sha256": "d35ce38c679120109db18cf47611a37bae099640ff936334ef9f7f6d7e51840c"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/pipeline/steps/music.rb",
+      "bytes": 4648,
+      "sha256": "c4c151da7039c1c87a7620ceed60a995270c28fc82a3449452f6bc9580d9e2fc"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/pipeline/steps/overlay.rb",
+      "bytes": 7208,
+      "sha256": "90c51fdf51d66d864b88ed2629934f0c5ed21ee5f0af7b55734f38b3db9db638"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/pipeline/steps/ref_base.rb",
+      "bytes": 2003,
+      "sha256": "1851c979a7d08ba48922b5f7e4cfa6bd4bd26472a5f12a98a057401e36e342c9"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/pipeline/steps/ref_torn.rb",
+      "bytes": 2431,
+      "sha256": "6f0924ff280fe1ffd02cdf55b876aafb5da270e9fa0cf1d847dc3af4e2df0c8e"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/pipeline/steps/shots.rb",
+      "bytes": 4471,
+      "sha256": "3a9e23866599246a2c2258a4345dc509a43a58725d7f6e5286bc9764043be5e4"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/pipeline/steps/video.rb",
+      "bytes": 3380,
+      "sha256": "d4d1770020fb8b5e6f48c3041ce4ba03d228e39646b8847f05860b85dca23655"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/tasks.rb",
+      "bytes": 689,
+      "sha256": "ad2ee2984ac84b5c019fb3b8ad98134c81d6851896419092c315fdc0204e22fa"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/toolkit/fonts.rb",
+      "bytes": 1781,
+      "sha256": "b9d2ce54144f3da475e35538170015441ed49d3edd0d643f41c2447c3f3e1e3e"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/toolkit/initializer.rb",
+      "bytes": 2165,
+      "sha256": "d3f91d8b021749ae8ef72b23a47c496e0bcf0bc22878bacf39abb41d27767284"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/toolkit/mcp_server.rb",
+      "bytes": 10455,
+      "sha256": "a1b87cc9696ea2c6be8bc38c88b2f81cf1a00c4e9105049415005ea19706783c"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/toolkit/operations.rb",
+      "bytes": 13676,
+      "sha256": "631f67b5be7b02c86eafce15d6e75e09abb1452adb7a8a8a3454c0061e0acf7e"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/toolkit/test_runner.rb",
+      "bytes": 760,
+      "sha256": "588843120807e76932fcc594f5ddc4575a03b55efc25c503039f7d2e664c1e19"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/workflow/approval.rb",
+      "bytes": 1219,
+      "sha256": "7d642cfb3d9a96725cc7709918ea8033b7fd46eba7ea74b9b71ca3ba80a7097d"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/workflow/journal.rb",
+      "bytes": 1526,
+      "sha256": "a405499412cfeba7e55c5f3720be791abb5cd9be5a2d13a124c0a581044238ca"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/lib/workflow/waves.rb",
+      "bytes": 2813,
+      "sha256": "d72b2ac0b4d0c8320a94da439d7aed549ad04e05540d9ec14b01a703aaea2561"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/mcp.rb",
+      "bytes": 202,
+      "sha256": "c1bc095f12c67e9b0e4bb46a51b34699b684cf7880466c5b3c7da9705b824ba4"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/mv.rb",
+      "bytes": 2293,
+      "sha256": "c19ad9bb315139247f94895bc5a1d3db55c317d30907577c2b09a14c7a7b87a2"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/package-lock.json",
+      "bytes": 19180,
+      "sha256": "cc6b75bfe79fe41dbe54b9b0ac99facb068ab19a4c788da23d418b868c497533"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/package.json",
+      "bytes": 237,
+      "sha256": "13c082b1db23c934af673d75275f008e20c9fe4b05bba9a31f69b48eb0906bb7"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/Rakefile",
+      "bytes": 52,
+      "sha256": "a1c0ab0159bde751553257e3c82d5bc7e5cec92d68f67d9067db7b9e2d53b447"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/requirements.txt",
+      "bytes": 29,
+      "sha256": "219589d6bed8fb78245590b129219b0f9c37a14771fc3489762e17fb8d47805e"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/spec/core_spec.rb",
+      "bytes": 9312,
+      "sha256": "7c531ee3d21e1bea2a00a0fdb3bee153bafff89bbdee9ac669eedbf7414630a1"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/spec/credentials_spec.rb",
+      "bytes": 9576,
+      "sha256": "b1619957ae7b4e3e7d7539fa7eef9a7b4c7ff1be7e1047e82e7678d8fd4d4110"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/spec/fonts_spec.rb",
+      "bytes": 2126,
+      "sha256": "c44727d7ce772dfe1766d4eb2a37a6e40c68b0565c79e3654e7c7305e8e4f5e5"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/spec/journal_spec.rb",
+      "bytes": 928,
+      "sha256": "34e063f6a928fcd6d57b9ad7b788ff07818a2adddf3641c337fd1ef008e682ee"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/spec/live_spec.rb",
+      "bytes": 5389,
+      "sha256": "f21c3b5f419d05ec1b54b724397f8f98da742dc24b0af33e9494ad722cb7232b"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/spec/local_workflow_spec.rb",
+      "bytes": 1871,
+      "sha256": "de4bb0eb0aa9f4ae0756377fff5b1230bd22ecd1af9e70464cd1e7182ebc370e"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/spec/media_spec.rb",
+      "bytes": 6642,
+      "sha256": "e622018b4eb0307fd5085013d6defadc34e0ee6b9e55cf2a3ed0b2fb7be4fa36"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/spec/pipeline_spec.rb",
+      "bytes": 6184,
+      "sha256": "776547f602cc55e4de8fdc3541d9ddc8f758c4f9b8421381164611ea1ff70b4e"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/spec/reference_importer_spec.rb",
+      "bytes": 1367,
+      "sha256": "d908af212c471b2ff4100bd3dad280cb617faee59826754bcadadbc6df83c16f"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/spec/spec_helper.rb",
+      "bytes": 2688,
+      "sha256": "23a071c88cee17be0882561f535e5a74d4ad9761767583f871fc6a8eadc5908b"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/spec/sprite_components_spec.rb",
+      "bytes": 3636,
+      "sha256": "39e6ff7c5d221707d6867f243ddda3e6ed265f7cd605e2b61eebaedcb66bd3b1"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/spec/swift_spec.rb",
+      "bytes": 2613,
+      "sha256": "4edbabafa57a177a53d8ff8f42f2ae566e8355e08df48a9629f7968174fa0b70"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/p5/examples/lights.js",
+      "bytes": 6581,
+      "sha256": "2a8edf767a4d58deeedfbcd514e5bd56d10dabead8c9489811c064b911aa300d"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/p5/examples/smoke.js",
+      "bytes": 1633,
+      "sha256": "b910b66e6bd8419eed4a6c6263ae4c4f41069a8bfaa65b7c657f353bfae70f0f"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/p5/lib/core.js",
+      "bytes": 4929,
+      "sha256": "c8b0ae8dce0f02a054d3f441dbdd48ae35bf0e78d9339a232983795f3b4315f4"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/p5/lib/fx.js",
+      "bytes": 4171,
+      "sha256": "e884d8f811b8aa2509f22fe61964896d6b4d5a856511f4a91662fdbfe0ad203d"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/p5/lib/paper.js",
+      "bytes": 1934,
+      "sha256": "9e4cca6aff88a7a8b871d99dd2ef44ccceeb028ccb23bc4afa36ec196bb557e4"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/p5/lib/riso.js",
+      "bytes": 1303,
+      "sha256": "5d73d29dc631ad2f114cd2a0db60aa6d5f89be35f4e51be8e268f33eac0e73bb"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/p5/lib/time.js",
+      "bytes": 1895,
+      "sha256": "5ef01e295a30e8f69c3488734a89a9bade7d4df0911ba5e40418d20cf2a260af"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/p5/lib/type.js",
+      "bytes": 3114,
+      "sha256": "0709eca04597380d706d550c84093dc7328ff7b295366e7ab8f6fd26048e9566"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/p5/render.mjs",
+      "bytes": 5554,
+      "sha256": "05fff8ff82b8e3aa385afe013225f45ae3202b57c6baae0af71958f4f5848683"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/python/audio_energy.py",
+      "bytes": 1673,
+      "sha256": "89330e79a0f0d90f3332ab22ed5d04c231e43baeb0deb138c82803e148a46370"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/python/beats.py",
+      "bytes": 4515,
+      "sha256": "e6d1c77a42cf77df962e0416ece4935d587cba21fd521406af2eb0ee2834fcb2"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/python/cutout.py",
+      "bytes": 5222,
+      "sha256": "2b157e46f07b1913eed31fc2f67c829d1e3d1104c315990e573c53d19ef838f7"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/python/cuts.py",
+      "bytes": 1282,
+      "sha256": "0c1d91a4b0079cdf45cf60197ee513cb9f1c8d776337a71de5d0e4d7d0870e64"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/python/keep_component.py",
+      "bytes": 3419,
+      "sha256": "c0a2834675898661259f4017500125f5dca9691efeee1e95bafa71ac27dd0b22"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/python/mouth_sync.py",
+      "bytes": 3632,
+      "sha256": "f1a4a218d3ebf71196aa3d58269d8462093e36879b32e5de596f5fe8618936bf"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/python/sfx_mix.py",
+      "bytes": 5738,
+      "sha256": "6fb0f421b6c1170c402b8619a5ae3751290bffbc44fa0857e1dcb796589d6cc3"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/python/split_row.py",
+      "bytes": 3704,
+      "sha256": "a7a482734613d11d4864e322a10653c924c97f58ffd8a50ab351cff2a6ce3232"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/python/sprite_box.py",
+      "bytes": 2539,
+      "sha256": "17b54c1df46a379946085f5b7dfd79272c3118280e61c5375567332a4138196a"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/python/style_split.py",
+      "bytes": 1613,
+      "sha256": "fc7f921ce46f308f31accbc6e406d502d3344bc73bbfa331890a71cdcd444dd4"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/python/track_template.py",
+      "bytes": 3818,
+      "sha256": "f50b01cc33e4e29810ca880d6cc3091105fa4c484892f7665b2a8785b6253914"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/vfx/Package.swift",
+      "bytes": 448,
+      "sha256": "8bc1a8e3106316ca83b2f6ca5e5ca91f59a152507405004a29e981c6307209b3"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/vfx/Sources/mvfx/Cues.swift",
+      "bytes": 2459,
+      "sha256": "f4416da43adfc16040acc72424df9073fd1c7afd347d4f620d0531f476903a56"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/vfx/Sources/mvfx/Effects.swift",
+      "bytes": 18008,
+      "sha256": "6a8790430722529c565de1b8288060fb6b541a4dcd090cef94bdac327860526f"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/scripts/tools/vfx/Sources/mvfx/main.swift",
+      "bytes": 8987,
+      "sha256": "f6882f2944a4456ebf658e13d282b1e5b6a877d12aaff120049b21b31916bba9"
+    },
+    {
+      "path": ".claude/skills/motion-graphics-music-video/SKILL.md",
+      "bytes": 13262,
+      "sha256": "b29b9ca9eb7b9a8c81d14b71b66d876c3263f86c6ab781f03ba8f58cfa47d933"
+    },
+    {
+      "path": ".claude-plugin/icon.svg",
+      "bytes": 2084,
+      "sha256": "00998792801a11531db110ca637e8fdab31c033fe31eff1e395e6fa27f1ef3b0"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "bytes": 410,
+      "sha256": "b6e966e7fc598a23c04bc3bdef86f9d0814d15000cee57bf7c270a22f3064986"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 1135,
+      "sha256": "b1edbcd7fadef7f7088f8050892d9f1795638b1d72bf5aabc3661cf9fa2685a0"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 631,
+      "sha256": "8d4431a01fd4a42fa918f33ca634d6e21937b785fbe33847e9435f4b005a9261"
+    },
+    {
+      "path": "docs/icon-generation.md",
+      "bytes": 2429,
+      "sha256": "c2de423040b7dc5022de202880d8a06d775714177342a2f3ff927ba91f6e9f12"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1065,
+      "sha256": "4fae6eefdf70eaa06dcb1ac57457dcf5f3fa20427a568229a6ecc64fc15e225c"
+    },
+    {
+      "path": "Rakefile",
+      "bytes": 194,
+      "sha256": "61b570183757d2fa1510a22a8f102cb3801743865c0ef6f0f3be5f8dafcb6b59"
+    },
+    {
+      "path": "README.md",
+      "bytes": 15365,
+      "sha256": "2bd03268006abd3d5c29d2bdf700337226867795cfc948182f4c57929afaff4f"
+    }
+  ],
+  "verification": {
+    "snapshotExtracted": true,
+    "sourceExecuted": false,
+    "avReviewed": false
+  }
+}

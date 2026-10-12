@@ -1,0 +1,20 @@
+{
+  "project": "D:\\ai项目\\ai动画\\VibeVideo项目",
+  "config_layers": [
+    {
+      "path": "C:\\Users\\67236\\.codex\\config.toml",
+      "exists": true,
+      "model_settings": {
+        "model": "gpt-6-astra",
+        "model_reasoning_effort": "medium"
+      },
+      "agent_settings": {},
+      "project_trust": []
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\.codex\\config.toml",
+      "exists": false
+    }
+  ],
+  "custom_agents": []
+}

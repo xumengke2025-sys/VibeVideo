@@ -1,0 +1,43 @@
+{
+  "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\koldo2k-original.mp4",
+  "bytes": 4872941,
+  "duration": 19.966667,
+  "fps": 30.0,
+  "width": 1280,
+  "height": 720,
+  "codec": "h264",
+  "audio_streams": 1,
+  "audio_levels": {
+    "sampled_seconds": 19.966667,
+    "peak_dbfs": -1.12,
+    "rms_dbfs": -15.84
+  },
+  "full_decode": "passed",
+  "keyframe_times": [
+    0,
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0
+  ],
+  "keyframes": [
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\koldo2k-original\\keyframe-00-0.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\koldo2k-original\\keyframe-01-2.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\koldo2k-original\\keyframe-02-4.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\koldo2k-original\\keyframe-03-6.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\koldo2k-original\\keyframe-04-8.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\koldo2k-original\\keyframe-05-10.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\koldo2k-original\\keyframe-06-12.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\koldo2k-original\\keyframe-07-14.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\koldo2k-original\\keyframe-08-16.000s.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\koldo2k-original\\keyframe-09-18.000s.png"
+  ],
+  "contact_sheet": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-gallery-study-20261009\\evidence\\koldo2k-original\\contact-sheet.jpg",
+  "technical_failures": [],
+  "visual_review": "pending human or agent image inspection; this script does not score aesthetics"
+}

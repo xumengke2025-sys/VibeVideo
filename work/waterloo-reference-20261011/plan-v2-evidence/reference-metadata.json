@@ -1,0 +1,48 @@
+{
+  "source": "D:\\ai项目\\ai动画\\VibeVideo项目\\reference-sources\\upstream-videos\\lemo-opuscar\\impasto.mp4",
+  "sha256": "a7601286fe61b617af16d4c1b22934c53eb83d5f0b601bb0d05eeaabeaf09dd8",
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "39.666667"
+    }
+  },
+  "overviewTimes": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    39
+  ],
+  "motionWindow": {
+    "start": 10,
+    "end": 12,
+    "fps": 6,
+    "width": 640
+  },
+  "viewed": true,
+  "viewMethod": "主Agent于2026-10-12实际查看overview-sheet.jpg与motion-sheet.jpg；仅抽帧图表，未实时播放",
+  "realTimePlayback": false,
+  "audioListened": false
+}

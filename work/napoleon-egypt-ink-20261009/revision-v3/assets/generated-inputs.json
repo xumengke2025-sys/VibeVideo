@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ship",
+    "cols": 2,
+    "rows": 2,
+    "source": "C:/Users/67236/.codex/generated_images/01a1258d-6d7d-7590-bcca-883a8a496c32/exec-08f683a3-68f6-4357-9d64-c5a4b392c940.png",
+    "prompt": "Use case: historical-scene. Production asset sheet for a monochrome Chinese ink-wash animated short about Napoleon's Egypt expedition, 1798. Create a high-resolution 2 by 2 grid on transparent background, FOUR isolated matching assets, no grid lines, no labels, no text. Same three-quarter side view facing right. Top left: complete late 18th-century French 74-gun ship of the line, three wooden masts, complete believably hand-drawn fine rigging, curved billowing square canvas sails, layered wooden hull and gunports, entire ship including bowsprit with generous margin. Top right: the SAME ship HULL only, gun deck and railings but NO masts, NO sails, NO ropes above the deck, floating waterline flat baseline. Bottom left: the SAME ship's MAIN MAST assembly alone, tall organic wooden mast, cross spars, two pale billowing sails, all supporting fine ropes contained within assembly, bottom pivot visible. Bottom right: damaged version of the SAME mast assembly, torn limp cloth and broken rigging but a clear lower pivot. Matching scale within equal rectangular cells, no overlap, no sea/no background. Style MUST be expressive traditional sumi-e / xuan paper ink wash, brush contour, dry-brush broken edges, subtle wet-ink blooms and pools, pale gray sail washes with ink-dark seams, dense charcoal hull strokes, painterly varied black / gray only, elegant sparse detail. Avoid photorealism, CGI, 3D shading, glossy surfaces, geometric rectangular sails, symbols, pseudo lettering, color, cartoon outlines, frame borders.",
+    "method": "Codex built-in imagegen",
+    "selected": true
+  },
+  {
+    "id": "walk",
+    "cols": 4,
+    "rows": 4,
+    "source": "C:/Users/67236/.codex/generated_images/01a1258d-6d7d-7590-bcca-883a8a496c32/exec-733ecd21-6e6d-428a-8561-af31e8e8a8a6.png",
+    "prompt": "Use case historical-scene. Create one high-resolution animation sprite sheet, a strict 4 columns x 4 rows grid of SIXTEEN consecutive keyframes of the SAME 1798 French infantry soldier walking to the RIGHT in side view. Transparent background. No labels, no numbers, no divider lines. Entire head and boots within every equal cell, generous transparent margins. Identical camera orthographic SIDE VIEW, height, identity, costume, face, hat, musket and knapsack throughout. Classic bicorne hat, long-tailed coat, white cross belts and trousers, dark gaiters, one flintlock musket held steadily on shoulder, canvas knapsack; historically appropriate 1798 NOT modern shako. All monochrome BLACK and GRAY ONLY. ONE FULL walk cycle sequentially row-major: frames 1-4 left heel contact -> load -> passing -> rising; frames 5-8 left support/toe off -> right heel contact; frames 9-12 right loading -> passing -> rising; frames 13-16 right support -> toe off -> return to near left heel contact. Natural grounded upright marching gait, moderate anatomical stride, distinct left and right legs swinging, planted foot stable at contact, opposite arm restrained swing. Each cell contains one complete consistent soldier at same scale, feet centered on same baseline, NOT sixteen unrelated standing poses. Style: hand-painted Chinese ink wash animation, loose expressive brush contour, dark ink hat/coat, dry brush broken outlines, pale watery folds, softly feathered edges. NO 3D, NO photographic crosshatching, no sepia, no colored uniforms, no shadows painted around sprite, no background landscape, no text. This will be played as pose-by-pose animation; accurate coherent temporal leg progression matters.",
+    "method": "Codex built-in imagegen",
+    "selected": false
+  },
+  {
+    "id": "walk2",
+    "cols": 4,
+    "rows": 2,
+    "source": "C:/Users/67236/.codex/generated_images/01a1258d-6d7d-7590-bcca-883a8a496c32/exec-cc47dffe-44fa-49ea-bc52-0a919a5e4c44.png",
+    "prompt": "Use case historical-scene. Create a NEW animation sheet using Image 1 ONLY as the identity and costume reference. Exact SAME gray-ink French bicorne infantryman and musket. Strict 4 columns by 2 rows, EIGHT different consecutive frames, SIDE VIEW facing RIGHT, fixed body height/camera. Transparent background, NO labels. The previous sheet had too many extended-stride poses: this sheet MUST have feet close together and feet crossing under the hips in half the cells, and distinct far/near leg positions. Show a TRUE textbook walking gait with natural knees, NO repeated walking pose. Cell1 LEFT foot heel planted far ahead, right toes behind (contact). Cell2 left sole planted, left knee bent slightly; right foot lifts off, body lowers (down). Cell3 left sole directly UNDER hip; RIGHT bent knee swings forward past it with right ankle OFF GROUND close to left calf (passing). Cell4 left planted foot slightly behind hip, right knee forward, right foot airborne and reaching (up). Cell5 RIGHT foot heel planted ahead, left toes behind (opposite contact). Cell6 right sole planted and knee takes weight; LEFT foot lifting behind (opposite down). Cell7 right foot directly UNDER hip; LEFT bent knee crossing it in front, left ankle OFF GROUND close to right calf (opposite passing). Cell8 right heel rising behind hip; left foot reaching ahead airborne (opposite up). The passing cells 3 and7 must look almost NARROW with legs under torso, NOT two boots widely spread. Keep musket steady, coat same, natural upright body, toes point forward, no squatting. Every sprite centered in own cell with enough whitespace, no cropping. Draw loosely as Chinese ink wash with dark broken dry brush contours, soft wet gray cloth. No 3D, no backgrounds or color.",
+    "method": "Codex built-in imagegen",
+    "selected": true
+  },
+  {
+    "id": "env",
+    "cols": 3,
+    "rows": 1,
+    "source": "C:/Users/67236/.codex/generated_images/01a1258d-6d7d-7590-bcca-883a8a496c32/exec-2bb3a3e8-14ae-4fd3-832c-38773d5332a2.png",
+    "prompt": "Use case historical-scene. Image 1 is ONLY an aesthetic reference for Chinese ink wash: its softly pooled gray wash, broken brush contours, fine paper texture and vast quiet blank spaces. Create a NEW production environment asset sheet with THREE separate portrait landscapes side by side as three equal columns, not a triptych framed artwork. Each column is a vertical 9:16 layout, generous open middle for animation, no people or ships or words. Left column: Mediterranean Egyptian coast, simple low ink horizon about halfway up, foreground sloping wet sandy beach across bottom third and several beautifully brush-painted rough stones at lower left, delicate pale ripples. Middle column: Egyptian desert, distant Giza pyramids painted in VERY faint washed ink at top third, a couple of wind-sculpted dunes crossing lower third, darker small rocks bottom left, vast pale open sand in lower center for marching soldiers. Right column: ancient Egyptian temple courtyard, tall weathered lotus-topped stone columns and lintel near left and right edges framing OPEN unobstructed central ground, distant pylon in upper center, chipped stone suggested by sparse dry brush strokes, NO carved words or glyphs. Style closely matches Image 1: refined Chinese ink-wash on OFF WHITE paper, charcoal ink varying from pale clean water wash to dense black edges, tactile dry brush, feathered wet ink, sparse contours. STRICT neutral black/gray/offwhite, no red seals, no beige/brown colored painting, no Chinese mountains in Egypt, no text, no frames, no CGI, no photographic detail or shading. Keep edge of each column clearly separated by pale blank gutter. High resolution.",
+    "method": "Codex built-in imagegen",
+    "selected": true
+  },
+  {
+    "id": "generalWalk",
+    "cols": 6,
+    "rows": 2,
+    "source": "C:/Users/67236/.codex/generated_images/01a1258d-6d7d-7590-bcca-883a8a496c32/exec-399496f5-73fa-48ef-bf0d-33fcdd6a6ea5.png",
+    "prompt": "Historical-scene animation sprite sheet. Create TWO rows of six cells, TWELVE coherent sequential frames of Napoleon Bonaparte in 1798, SIDE VIEW facing RIGHT, monochrome Chinese ink-wash. Transparent background. Full figure fixed scale with boots baseline aligned in each equal cell; NO boat, NO props around him, NO background. Young Napoleon recognizable, clean shaven, dark bicorne worn broadside, open long charcoal-gray military coat over pale waistcoat, pale trousers, dark riding boots, a sword at hip; NO large epaulettes, NO imperial hat feathers. Same face and costume throughout. A smooth natural slow WALK cycle: cell1 left heel ahead contact; cell2 taking weight and far leg toe off; cell3 left support knee modestly flexed; cell4 legs nearly CLOSE underneath hips with right bent knee PASSING, right ankle in air; cell5 right leg reaching ahead; cell6 left heel beginning lift, right heel approaching ground; cell7 opposite RIGHT heel ahead contact; cell8 right takes weight left toe off; cell9 right support knee slight bend; cell10 legs CLOSE underneath hips with LEFT bent knee PASSING; cell11 left reaching; cell12 right heel begins lift and left heel nearly contacts, returning to1. Restrained arm swing; coat hem has slight lag but torso stable. These are animation keyframes with different leg phases, NOT portrait variants, NOT all wide stride. Each sprite stands in center of own cell and is separated. Style expressive sumi-e: dark brush hat/coat, translucent wash folds, soft lost edges, fine broken dry ink. Strictly gray/black only; no brown, no lettering, no drop shadow, no numbers, no text, no 3D or digital plastic shading.",
+    "method": "Codex built-in imagegen",
+    "selected": true
+  },
+  {
+    "id": "boat",
+    "cols": 2,
+    "rows": 2,
+    "source": "C:/Users/67236/.codex/generated_images/01a1258d-6d7d-7590-bcca-883a8a496c32/exec-4fd09bb4-c8b5-4a87-94b9-88a1a4ca21c4.png",
+    "prompt": "Use case historical-scene. Production sprite asset sheet in a 2 columns x 2 rows layout, LANDSCAPE 1536 by 1024, on transparent background. Strict monochrome expressive Chinese ink wash, loose bold dry-brush edges and pale wet gray washes, nothing photographic or CGI. NO labels, no numbers, no text, no colored flags. Top LEFT: a COMPLETE empty late 18th century wooden ship's launch / rowing boat at shore, side view pointing RIGHT, realistically curved timber hull with interior ribs, four benches, empty seats, whole bow and stern in cell, NO oars, NO sail or mast. Top RIGHT: the SAME boat front-facing NEAR-SIDE HULL ONLY as a compositing foreground layer, same side angle and scale and curved gunwale, no benches or far side, no mast or rope, no extra rectangle border. Bottom LEFT: one long wooden OAR isolated, grip on left and broad blade on right, horizontal, organic brush wood grain, whole oar contained. Bottom RIGHT: folded military cloth flag attached to a tall pole, 1798 blank gray banner with elegant flowing natural folds, no national colors or emblem, one canvas-covered supply chest below near foot of pole, painted in lively broken ink contours. All assets separated by large transparent margins; foreground hull is for placing characters BEHIND it, so match top-left boat. Strong black/white silhouettes, subtle feathered wet ink, no square basic shapes.",
+    "method": "Codex built-in imagegen",
+    "selected": true
+  },
+  {
+    "id": "hands",
+    "cols": 3,
+    "rows": 4,
+    "source": "C:/Users/67236/.codex/generated_images/01a1258d-6d7d-7590-bcca-883a8a496c32/exec-f6f0107d-ea60-4596-9d61-0db99677806c.png",
+    "prompt": "Historical-scene animated film production sprite sheet, strict 3 columns by 4 rows, TWELVE isolated animation poses on transparent background, no labels/dividers/text. ONLY a human RIGHT hand and forearm from a plain pale 1798 linen cuff, matching identity and scale across cells, no body/head, no surfaces or shadow. Top TWO rows (six successive frames): hand holds a small wide soft bristle cleaning brush by a short wooden handle; natural thumb/finger grip, brush tilts from leftward stroke to upright then rightward stroke through six gradual motions; bristles down touching an imaginary horizontal stone surface at the same baseline in all six cells, forearm enters from upper left. Bottom TWO rows (six successive frames): same hand holds a slim wooden pencil in correct tripod grip, tip down at the same imagined page contact line, subtle six consecutive wrist/pencil angles describing sketching; fingers do NOT change count or identity, no impossible grip. Entire hand/forearm/brush/pencil contained in each equal cell with margins, white/gray/black only. Medium is traditional Chinese INK WASH with loose dry-brush contour, watery soft gray form, almost-white hand separated by sparse accurate charcoal outline. NO photorealistic skin, no color, no extra hands, no pseudo-lettering, no marks floating around tools, no plastic CGI.",
+    "method": "Codex built-in imagegen",
+    "selected": true
+  },
+  {
+    "id": "salvo",
+    "cols": 4,
+    "rows": 2,
+    "source": "C:/Users/67236/.codex/generated_images/01a1258d-6d7d-7590-bcca-883a8a496c32/exec-c223e07e-3b90-466b-83fe-fe575ed92676.png",
+    "prompt": "Historical-scene animated film keyframe sheet, strict 4 columns by 2 rows, EIGHT isolated coherent sequential poses on transparent background. Image1 is the exact identity/costume style reference for a 1798 French bicorne infantryman. Fixed side view facing RIGHT, matching full figure height and head in each cell, whole musket and boots contained with generous margins. Same shoulder bag and white crossbelts. Cell1 stands at attention, BOTH boot SOLES planted under hips, musket upright. Cell2 quarter-turns head right with feet still planted, moving musket down. Cell3 lifts flintlock musket toward shoulder horizontally toward right, slightly flexing elbows. Cell4 full stable firing stance, left foot forward and right behind moderately, horizontal musket shouldered toward right and head near stock. Cell5 SAME firing stance with modest recoil, shoulder moves back just a little, NO exaggerated lean. Cell6 settles back after recoil with musket held horizontal. Cell7 lowers musket to diagonal chest carry with stable feet. Cell8 returns upright planted standing pose, both feet on ground, musket close to body. Do not draw muzzle flash/smoke. These are actual whole-figure action poses, no rubber-stretched limbs, historically correct anatomy. STRICT gray/black Chinese ink wash with watery soft folds, dark hat, loose broken brush strokes, no color/no symbols/no labels/no modern shako/no background/no shadow.",
+    "method": "Codex built-in imagegen",
+    "selected": true
+  },
+  {
+    "id": "boarding",
+    "cols": 4,
+    "rows": 3,
+    "source": "C:/Users/67236/.codex/generated_images/01a1258d-6d7d-7590-bcca-883a8a496c32/exec-d941b371-f4bb-4da8-92ec-00684b056790.png",
+    "prompt": "Use case historical-scene, animation production sprite sheet. Image1 ONLY identity reference: SAME young Napoleon in plain broadside bicorne, open long dark charcoal-gray coat, pale waistcoat/trousers and boots/sword. Create a strict 4 columns x 3 rows grid, TWELVE sequential poses of one careful STEP UP AND SIT into a rowing boat, all SIDE VIEW facing RIGHT at same scale and camera, on transparent background. NO boat, NO background, no labels. Imaginary step is at right boot ankle height. Cells 1-3: upright standing with both feet on ground, right hand reaches low forward for the imagined rail, right knee gradually lifts. Cells4-6: right boot goes up on the low step, fingers resting at imagined rail at hip height, left boot remains lower on shore then pushes off, torso leans forward slightly with realistic weight transfer, never hovering. Cells7-9: left foot comes onto same step as right, body regains upright balance then bends knees modestly to sit. Cells10-12: turns a little to rear three-quarter, lowers pelvis onto imagined bench, ends SEATED upright with both feet below knees and right hand at rest, coat drapes naturally. Each cell full body contained including hands and boots; leave transparent margin. Distinct genuine anatomical keyframes, feet close to ground, no jumps, no floating, no dramatically warped limbs. Neutral gray/black ink wash, soft watery midtones, bold brush hat and coat, lost/dry-brush edges. No color, no imperial costume, no 3D, no shadows/no text.",
+    "method": "Codex built-in imagegen",
+    "selected": true
+  },
+  {
+    "id": "horse",
+    "cols": 4,
+    "rows": 3,
+    "source": "C:/Users/67236/.codex/generated_images/01a1258d-6d7d-7590-bcca-883a8a496c32/exec-7aaf6d79-b489-4493-b67d-3627e0d17599.png",
+    "prompt": "Historical-scene animation sprite sheet in strict 4 columns by 3 rows, TWELVE keyframes row-major, transparent background, NO labels or grid. ONE SAME Egyptian Mamluk cavalry rider in 1798 on the SAME gray horse, pure SIDE VIEW facing LEFT (attacking toward left), same scale and identity. Turban, loose flowing robe, sash, curved scimitar held steadily upright (not swung); dark saddle, reins. Whole horse, all hooves and rider contained in each cell with margins. A true smooth collected CANTER cycle: cell1 leading front leg forward and hind pair driving; cell2 leading hoof contacts; cell3 load shifts to front limbs and hind feet leave; cell4 rear knees bend forward under belly; cell5 hind legs reach near ground while forelegs fold; cell6 hind contact and push-off; cells7-12 progress through opposite/next stride with FOUR distinct fore/hind leg positions, visible flexed knees/hocks, brief natural suspension and one extended phase. Must include tucked-leg poses with hooves UNDER body, not twelve extended gallops. Anatomically correct four legs, no extra hooves, natural rider pelvis follows saddle and upper body steady, reins not floating. Loose expressive black/gray Chinese ink-wash brush painting, black bristly mane, pale horse wash, watery cloth, rough dry-brush contour, NOT pencil realism. No color, no ground/shadows, no symbols/text/no CGI. Accurate frame-to-frame consistency crucial.",
+    "method": "Codex built-in imagegen",
+    "selected": true
+  },
+  {
+    "id": "boot",
+    "cols": 6,
+    "rows": 2,
+    "source": "C:/Users/67236/.codex/generated_images/01a1258d-6d7d-7590-bcca-883a8a496c32/exec-10eb04d2-b734-43e2-b5bb-dcc2e442d364.png",
+    "prompt": "Historical animation production asset sheet, strict SIX columns by TWO rows, TWELVE sequential animation drawings, transparent background. Close-up showing ONLY the SAME young Napoleon's pair of black 1798 riding boots and trouser shins with lower dark long coat hem, no upper body, no face, no boat or ground. SIDE VIEW facing RIGHT, identical scale and camera all cells. One careful STEP DOWN from a LOW rowing boat rim onto wet sand, complete coherent sequence row-major. Cells1-3 rear boot planted on an imaginary step 12cm above sand; forward/right boot lifts knee and moves forward above rim. Cells4-6 forward boot extends gradually downward; heel approaches imaginary wet sand baseline. Cell7 front/right HEEL contacts at LOW fixed ground baseline. Cells8-9 front sole settles with slight ankle compression; weight goes onto grounded front leg, rear heel rises off step. Cells10-12 rear boot comes forward onto same lower sand plane, BOTH boots become firmly planted separated only about one foot length. End pose planted, no floating. Keep boot proportions/height stable and distinct temporal poses, natural knee/ankle anatomy, never rubber-stretched. Water and sand added separately in compositor so DO NOT draw them. Bold loose charcoal brush contours with watery gray trouser wash, dry-brush black leather, NO photographic leather highlights, no color or shadows, NO labels/dividers/text.",
+    "method": "Codex built-in imagegen",
+    "selected": true
+  },
+  {
+    "id": "surveyor",
+    "cols": 6,
+    "rows": 2,
+    "source": "C:/Users/67236/.codex/generated_images/01a1258d-6d7d-7590-bcca-883a8a496c32/exec-d4e0cd18-e0d2-4aee-ae82-6ed2f9bd35eb.png",
+    "prompt": "Historical-scene animation production sprite sheet, strict SIX columns by TWO rows, TWELVE different keyframes on transparent background, NO labels/grid/background. A single SAME French civilian scientific surveyor in Egypt 1798, round brimmed hat, linen shirt, plain long coat, small satchel, breeches/shoes, no weapons. Entire figure fixed height and same SIDE VIEW facing RIGHT throughout, same consistent face. Top row six frames: one genuine walking step cycle with distinct heel contact, loading, narrow passing legs, toe off, opposite contact, opposite passing. Feet nearly under hips in passing frames, moderate natural stride. Bottom row six frames: stops with both feet on fixed ground, reaches his RIGHT hand forward at chest height, bends slightly from hips, adjusts imaginary survey instrument with accurate fingers, moves eye to imaginary eyepiece, then stands upright looking forward; left hand stays near body. Do NOT draw instrument, no paper or background, no ground shadows. Full body and all hands/feet contained in each equal cell with transparent padding. Monochrome Chinese ink wash, loose broad brush shapes, soft gray jacket wash, black hat/shoes, expressive sparse dry-brush detail, NO photorealism, no plastic 3D, no color or text.",
+    "method": "Codex built-in imagegen",
+    "selected": true
+  },
+  {
+    "id": "studyProps",
+    "cols": 2,
+    "rows": 2,
+    "source": "C:/Users/67236/.codex/generated_images/01a1258d-6d7d-7590-bcca-883a8a496c32/exec-3cb00071-00cf-431a-95f4-5934ec47ebfd.png",
+    "prompt": "Historical-scene production asset sheet, four isolated objects arranged 2x2, transparent background, no labels/no text, bold Chinese ink wash matching sumi-e animation with watery gray forms and broken dark brush contour. Top left: a late-18th-century brass surveyor's small telescope on a three-legged wood tripod, SIDE VIEW pointing right at head height, historically correct simple brass tube, all legs and telescope visible, plain gray metal (no gold color), no letters or scale numerals. Top right: a rough chipped dark gray basalt archaeological stone fragment in low three-quarter view, irregular broken curved upper edge, three faint horizontal incised zones of tiny worn cuts but NO words, NO pseudo-alphabet, NO visible glyphs or letterlike shapes, weathered and dusty. Bottom left: an OPEN blank scientific sketchbook at low top view, two pale empty pages with natural curved paper corners, a few charcoal sketch outlines of a stone fragment and a column only on left page, absolutely NO written words/numbers/gibberish, right page blank. Bottom right: a French sailor 1798 with round hat and plain linen shirt, complete SEATED side pose facing right, both hands forward holding an imaginary single oar at waist, feet and knees correctly bent, no bench/no oar/no boat. Entire each object within its equal cell and separated by generous margins. STRICT neutral black/gray/white, no brown paper/no color/NO CGI or photorealism.",
+    "method": "Codex built-in imagegen",
+    "selected": true
+  },
+  {
+    "id": "boot2",
+    "cols": 4,
+    "rows": 3,
+    "source": "C:/Users/67236/.codex/generated_images/01a12958-186a-7ca3-8186-e232c238898d/exec-2cc2c563-9534-455c-9cb9-49ec2757a2a8.png",
+    "prompt": "Use case historical-scene. Reference image is costume and ink style reference ONLY. Generate a corrected TWELVE-frame sprite sheet, strict FOUR columns by THREE rows, transparent background. Each isolated drawing takes at most 65 percent of its cell width and 75 percent of cell height, generous transparent gutters on ALL sides, no touching other cells. SAME pair of Napoleon's black riding boots, pale breeches, coat hem, cut off at thigh, facing RIGHT side view. No upper body, no boat, no ground. Fixed scale. ONE smooth step down from low boat to sand: frame1 both feet on raised step; 2 right knee lifts; 3 right foot reaches forward; 4 right heel lowers; 5 heel approaches sand; 6 right heel contacts sand 12cm lower than rear boot; 7 right sole settles; 8 weight onto right boot rear heel lifts; 9 rear foot airborne moving toward right; 10 rear boot lowers beside right; 11 both feet on same lower ground; 12 settled both feet planted. Preserve same leg lengths and boot size. Right foot front, left rear. Draw ACTUAL different natural ankle/knee poses. Traditional gray black ink wash, dry broken contours, wet gray folds, no color, no numbers, no labels or text, no shadows. CRITICAL never let an extended shoe touch the neighboring figure. Full feet in every cell.",
+    "method": "Codex built-in imagegen",
+    "selected": true
+  }
+]

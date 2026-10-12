@@ -1,0 +1,44 @@
+{
+  "compiled": "2026-10-09",
+  "boundary": "画面为代码绘制的示意演绎，非真实摄影；片内深度、速度为示意值，不冒充实测。",
+  "sources": [
+    {
+      "claim": "磷虾（Euphausia superba）最大约 6 厘米",
+      "value": "6 cm",
+      "source": "British Antarctic Survey press release",
+      "url": "https://www.bas.ac.uk/media-post/antarctic-krill-help-to-fertilise-southern-ocean-with-iron/",
+      "accessed": "2026-10-09",
+      "note": "原文：grow to a maximum size of 6cm；片内字幕取整为 6 厘米。"
+    },
+    {
+      "claim": "蓝鲸是地球史上最大动物；体长可达约 30 米；几乎只吃磷虾；用喉褶扩张吞水、鲸须过滤",
+      "value": "up to ~110 ft (Antarctic) / ~90 ft (North Atlantic & Pacific); filter feeding",
+      "source": "NOAA Fisheries species page",
+      "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+      "accessed": "2026-10-09",
+      "note": "原文：largest animals ever to live on our planet；约 90–110 英尺对应 27–33 米，片内取“30 米”概数；另有 may eat up to 6 tons of krill a day。"
+    },
+    {
+      "claim": "一口吞入的水量可超过自身体重",
+      "value": "约 140% 体重（Stanford 2016）；American Scientist 表述为 greater than its own body mass",
+      "source": "Stanford News 2016 / American Scientist (lunge feeding)",
+      "url": "https://news.stanford.edu/stories/2016/09/unique-feeding-habits-whales-come-light",
+      "accessed": "2026-10-09"
+    },
+    {
+      "claim": "深潜时心率最低可降到约 2 次/分",
+      "value": "深潜常见 4–8 bpm，最低 2 bpm；上浮后 25–37 bpm（片内仅用最低值）",
+      "source": "Goldbogen et al., PNAS 2019 \"Extreme bradycardia and tachycardia in the world's largest animal\"; Stanford Report 2019-11-25",
+      "url": "https://news.stanford.edu/stories/2019/11/first-ever-recording-blue-whales-heart-rate",
+      "accessed": "2026-10-09"
+    },
+    {
+      "claim": "条件理想时，叫声可被约 1600 公里（1000 英里）外的鲸听到",
+      "value": "up to 1,000 miles (ideal oceanographic conditions)",
+      "source": "NOAA Fisheries species page",
+      "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+      "accessed": "2026-10-09",
+      "note": "原文为 it is thought that in the right oceanographic conditions, sounds ... can be heard ... up to 1,000 miles away；片内标注“歌声 → 1600 公里”，含义按此条限定。"
+    }
+  ]
+}

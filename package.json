@@ -1,0 +1,12 @@
+{
+  "name": "vibe-video-project",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Code-based video projects, production workflows and source-linked references",
+  "engines": {"node": ">=20"},
+  "scripts": {
+    "preview:references": "node work/github-reference-expansion-20261011/serve.mjs",
+    "restore:references": "node tools/restore-references.mjs",
+    "references:plan": "node tools/restore-references.mjs --dry-run"
+  }
+}

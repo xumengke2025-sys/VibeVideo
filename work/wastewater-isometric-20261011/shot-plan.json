@@ -1,0 +1,287 @@
+{
+  "duration": 45,
+  "fps": 30,
+  "shots": [
+    {
+      "start": 0,
+      "end": 4,
+      "id": "home",
+      "name": "家庭排水",
+      "focus": 0,
+      "sub": [
+        "家庭排水"
+      ],
+      "intent": "家庭排水",
+      "states": {
+        "establish": 0.25,
+        "action": 1,
+        "result": 3.2
+      },
+      "reads": {
+        "first": 0.25,
+        "legible": 0.5,
+        "leave": 4
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 4,
+      "end": 9,
+      "id": "arrival",
+      "name": "排水管网",
+      "focus": 0.5,
+      "sub": [
+        "排水管网"
+      ],
+      "intent": "排水管网",
+      "states": {
+        "establish": 4.25,
+        "action": 5,
+        "result": 8.2
+      },
+      "reads": {
+        "first": 4.25,
+        "legible": 4.5,
+        "leave": 9
+      },
+      "camera": "Follow actual drainage path in fixed orthographic orientation",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 9,
+      "end": 14,
+      "id": "screen",
+      "name": "筛选杂物",
+      "focus": 1,
+      "sub": [
+        "筛选杂物"
+      ],
+      "intent": "筛选杂物",
+      "states": {
+        "establish": 9.25,
+        "action": 10,
+        "result": 13.2
+      },
+      "reads": {
+        "first": 9.25,
+        "legible": 9.5,
+        "leave": 14
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 14,
+      "end": 18,
+      "id": "grit",
+      "name": "沉降砂粒",
+      "focus": 2,
+      "sub": [
+        "沉降砂粒"
+      ],
+      "intent": "沉降砂粒",
+      "states": {
+        "establish": 14.25,
+        "action": 15,
+        "result": 17.2
+      },
+      "reads": {
+        "first": 14.25,
+        "legible": 14.5,
+        "leave": 18
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 18,
+      "end": 25,
+      "id": "bio",
+      "name": "生物处理",
+      "focus": 3,
+      "sub": [
+        "生物处理"
+      ],
+      "intent": "生物处理",
+      "states": {
+        "establish": 18.25,
+        "action": 19,
+        "result": 24.2
+      },
+      "reads": {
+        "first": 18.25,
+        "legible": 18.5,
+        "leave": 25
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 25,
+      "end": 31,
+      "id": "settle",
+      "name": "沉淀分离",
+      "focus": 4,
+      "sub": [
+        "沉淀分离"
+      ],
+      "intent": "沉淀分离",
+      "states": {
+        "establish": 25.25,
+        "action": 26,
+        "result": 30.2
+      },
+      "reads": {
+        "first": 25.25,
+        "legible": 25.5,
+        "leave": 31
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 31,
+      "end": 36,
+      "id": "return",
+      "name": "污泥回流",
+      "focus": 4,
+      "sub": [
+        "污泥回流"
+      ],
+      "intent": "污泥回流",
+      "states": {
+        "establish": 31.25,
+        "action": 32,
+        "result": 35.2
+      },
+      "reads": {
+        "first": 31.25,
+        "legible": 31.5,
+        "leave": 36
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 36,
+      "end": 41,
+      "id": "polish",
+      "name": "过滤消毒",
+      "focus": 5,
+      "sub": [
+        "过滤消毒"
+      ],
+      "intent": "过滤消毒",
+      "states": {
+        "establish": 36.25,
+        "action": 37,
+        "result": 40.2
+      },
+      "reads": {
+        "first": 36.25,
+        "legible": 36.5,
+        "leave": 41
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 41,
+      "end": 45,
+      "id": "out",
+      "name": "达标排放",
+      "focus": 6,
+      "sub": [
+        "达标排放"
+      ],
+      "intent": "达标排放",
+      "states": {
+        "establish": 41.25,
+        "action": 42,
+        "result": 44.2
+      },
+      "reads": {
+        "first": 41.25,
+        "legible": 41.5,
+        "leave": 45
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    }
+  ],
+  "connections": [
+    {
+      "time": 4,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        3.5,
+        4.7
+      ]
+    },
+    {
+      "time": 9,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        8.5,
+        9.7
+      ]
+    },
+    {
+      "time": 14,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        13.5,
+        14.7
+      ]
+    },
+    {
+      "time": 18,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        17.5,
+        18.7
+      ]
+    },
+    {
+      "time": 25,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        24.5,
+        25.7
+      ]
+    },
+    {
+      "time": 31,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        30.5,
+        31.7
+      ]
+    },
+    {
+      "time": 36,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        35.5,
+        36.7
+      ]
+    },
+    {
+      "time": 41,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        40.5,
+        41.7
+      ]
+    }
+  ]
+}

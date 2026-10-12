@@ -1,0 +1,276 @@
+{
+  "duration": 52,
+  "sample_rate": 48000,
+  "original_synthesized": true,
+  "voice": false,
+  "description": "Sparse recurring chime motif, pads, transition breaths and causal contact cues. No claim of studio orchestral quality.",
+  "events": [
+    {
+      "time": 0.6,
+      "event": "motif 0: 587.33Hz",
+      "gain": 0.105,
+      "pan": -0.22
+    },
+    {
+      "time": 2.2,
+      "event": "motif 0: 880Hz",
+      "gain": 0.105,
+      "pan": 0.22
+    },
+    {
+      "time": 3.9,
+      "event": "motif 0: 698.46Hz",
+      "gain": 0.105,
+      "pan": -0.22
+    },
+    {
+      "time": 5.4,
+      "event": "motif 0: 659.25Hz",
+      "gain": 0.105,
+      "pan": 0.22
+    },
+    {
+      "time": 7.2,
+      "event": "motif 7: 293.66Hz",
+      "gain": 0.105,
+      "pan": -0.22
+    },
+    {
+      "time": 9.2,
+      "event": "motif 7: 440Hz",
+      "gain": 0.105,
+      "pan": 0.22
+    },
+    {
+      "time": 11.2,
+      "event": "motif 7: 523.25Hz",
+      "gain": 0.105,
+      "pan": -0.22
+    },
+    {
+      "time": 14.2,
+      "event": "motif 14: 220Hz",
+      "gain": 0.07,
+      "pan": -0.22
+    },
+    {
+      "time": 16.5,
+      "event": "motif 14: 293.66Hz",
+      "gain": 0.07,
+      "pan": 0.22
+    },
+    {
+      "time": 19,
+      "event": "motif 14: 349.23Hz",
+      "gain": 0.07,
+      "pan": -0.22
+    },
+    {
+      "time": 41.4,
+      "event": "motif 41: 587.33Hz",
+      "gain": 0.105,
+      "pan": -0.22
+    },
+    {
+      "time": 42.9,
+      "event": "motif 41: 698.46Hz",
+      "gain": 0.105,
+      "pan": 0.22
+    },
+    {
+      "time": 44.2,
+      "event": "motif 41: 880Hz",
+      "gain": 0.105,
+      "pan": -0.22
+    },
+    {
+      "time": 45.5,
+      "event": "motif 41: 1174.66Hz",
+      "gain": 0.105,
+      "pan": 0.22
+    },
+    {
+      "time": 47.4,
+      "event": "motif 47: 880Hz",
+      "gain": 0.105,
+      "pan": -0.22
+    },
+    {
+      "time": 48.5,
+      "event": "motif 47: 698.46Hz",
+      "gain": 0.105,
+      "pan": 0.22
+    },
+    {
+      "time": 49.6,
+      "event": "motif 47: 587.33Hz",
+      "gain": 0.105,
+      "pan": -0.22
+    },
+    {
+      "time": 0,
+      "event": "pad 146.83Hz",
+      "gain": 0.022,
+      "pan": 0
+    },
+    {
+      "time": 0,
+      "event": "pad 220Hz",
+      "gain": 0.022,
+      "pan": 0
+    },
+    {
+      "time": 7,
+      "event": "pad 146.83Hz",
+      "gain": 0.024,
+      "pan": 0
+    },
+    {
+      "time": 7,
+      "event": "pad 261.63Hz",
+      "gain": 0.024,
+      "pan": 0
+    },
+    {
+      "time": 14,
+      "event": "pad 110Hz",
+      "gain": 0.025,
+      "pan": 0
+    },
+    {
+      "time": 14,
+      "event": "pad 174.61Hz",
+      "gain": 0.025,
+      "pan": 0
+    },
+    {
+      "time": 32,
+      "event": "pad 146.83Hz",
+      "gain": 0.021,
+      "pan": 0
+    },
+    {
+      "time": 32,
+      "event": "pad 220Hz",
+      "gain": 0.021,
+      "pan": 0
+    },
+    {
+      "time": 32,
+      "event": "pad 293.66Hz",
+      "gain": 0.021,
+      "pan": 0
+    },
+    {
+      "time": 41,
+      "event": "pad 146.83Hz",
+      "gain": 0.03,
+      "pan": 0
+    },
+    {
+      "time": 41,
+      "event": "pad 220Hz",
+      "gain": 0.03,
+      "pan": 0
+    },
+    {
+      "time": 41,
+      "event": "pad 349.23Hz",
+      "gain": 0.03,
+      "pan": 0
+    },
+    {
+      "time": 47,
+      "event": "pad 146.83Hz",
+      "gain": 0.02,
+      "pan": 0
+    },
+    {
+      "time": 47,
+      "event": "pad 220Hz",
+      "gain": 0.02,
+      "pan": 0
+    },
+    {
+      "time": 6.6,
+      "event": "scale transition breath",
+      "gain": 0.09,
+      "pan": 0
+    },
+    {
+      "time": 13.45,
+      "event": "scale transition breath",
+      "gain": 0.09,
+      "pan": 0
+    },
+    {
+      "time": 40.5,
+      "event": "scale transition breath",
+      "gain": 0.09,
+      "pan": 0
+    },
+    {
+      "time": 46.5,
+      "event": "scale transition breath",
+      "gain": 0.09,
+      "pan": 0
+    },
+    {
+      "time": 23,
+      "event": "incident onset",
+      "gain": 0.09,
+      "pan": -0.25
+    },
+    {
+      "time": 24.4,
+      "event": "upper interface contact",
+      "gain": 0.09,
+      "pan": -0.1
+    },
+    {
+      "time": 25.5,
+      "event": "lower interface contact",
+      "gain": 0.09,
+      "pan": 0.17
+    },
+    {
+      "time": 28.0,
+      "event": "two paths resolved",
+      "gain": 0.09,
+      "pan": 0.25
+    },
+    {
+      "time": 34.3,
+      "event": "in-phase sum appears",
+      "gain": 0.105,
+      "pan": 0
+    },
+    {
+      "time": 38.4,
+      "event": "out-of-phase result quietens",
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 41.4,
+      "event": "system return low pulse",
+      "gain": 0.09,
+      "pan": 0
+    },
+    {
+      "time": 42.9,
+      "event": "system return low pulse",
+      "gain": 0.09,
+      "pan": 0
+    },
+    {
+      "time": 44.2,
+      "event": "system return low pulse",
+      "gain": 0.09,
+      "pan": 0
+    }
+  ],
+  "peak": 0.19567540967051494,
+  "rms": 0.02340243040236744,
+  "sha256": "44039afe540633d1557b893a7d051ff5ffc574864f0a3fb9ae2d511be8e13045"
+}

@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s06-root { position: absolute; inset: 0; }
+        #s06-spec { left: 72px; top: 196px; font: 500 22px/1 var(--k-mono); color: var(--k-bp-ink-2); }
+        #s06-brace-label { left: 0; top: 262px; width: 1920px; text-align: center; font: 500 22px/1 var(--k-mono); color: var(--k-bp-ink); }
+        .s06-st { width: 200px; height: 104px; border-radius: 12px; border: 1.5px solid var(--k-line-dim); background: rgba(15,15,19,.9); padding: 12px 14px; text-align: center; }
+        .s06-st b { display: block; font: 500 20px/1 var(--k-mono); color: #8a8a86; margin-bottom: 8px; }
+        .s06-st span { display: block; font: 500 22px/1.2 var(--k-mono); color: var(--k-bp-ink-2); }
+        .s06-note { width: 204px; text-align: center; font: 500 20px/1.35 var(--k-mono); color: #8a8a86; }
+        .s06-chip { font-size: 22px; }
+      </style>
+      <div id="s06-root" data-composition-id="s06-workflow" data-width="1920" data-height="1080">
+        <div id="s06-scene" class="k-scene k-bp">
+          <div id="s06-spec" class="k-abs">video/h3-max · 8 s · 480p · 80 cr held</div>
+          <div id="s06-brace-label" class="k-abs">one durable workflow · this asset only</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s06-scene");
+          K.chrome(scene, tl, { title: "one workflow per asset", chapter: "3 · generate", step: 3 });
+
+          // The track: a start and seven stations, one card-width apart.
+          const X = (i) => 214 + i * 213, TRACK = 720;
+          const STEPS = [
+            ["mark running", "queued → generating"],
+            ["prepare references", "start_frame · as_s02"],
+            ["submit", "once · never retried"],
+            ["poll & persist", "waits 5 s, 10 s, 20 s …"],
+            ["inspect", ""],
+            ["poster", "video only"],
+            ["complete", "generating → ready"],
+          ];
+
+          // Still blueprint: rail with sleepers, a brace over the stations, registration marks.
+          K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } },
+            `<path d="M60 ${TRACK} H1860" stroke="rgba(245,245,244,.72)" stroke-width="2"/>` +
+            Array.from({ length: 61 }, (_, i) => `<path d="M${60 + i * 30} ${TRACK + 2} V${TRACK + 12}" stroke="rgba(245,245,244,.22)" stroke-width="2"/>`).join("") +
+            `<path d="M${X(1) - 98} 312 V296 H${X(7) + 98} V312" fill="none" stroke="rgba(245,245,244,.35)" stroke-width="1.5"/>` +
+            STEPS.map((_, i) => `<path d="M${X(i + 1)} ${TRACK + 14} V${TRACK + 50}" stroke="rgba(245,245,244,.28)" stroke-width="1.5" stroke-dasharray="3 5"/>`).join(""));
+          K.cross(scene, 110, 170); K.cross(scene, 1810, 170); K.cross(scene, 110, 1000); K.cross(scene, 1810, 1000);
+          K.el(scene, "div", { class: "k-abs k-mono", style: { left: X(0) - 100 + "px", top: TRACK + 58 + "px", width: "200px", textAlign: "center", fontSize: "20px", color: "#a8a8a3" } }).textContent = "start";
+          K.el(scene, "div", { class: "k-abs s06-note", style: { left: X(0) - 100 + "px", top: TRACK + 92 + "px" } }).textContent = "card written as queued";
+          K.leader(scene, X(3), 948, X(3) + 60, 1000, "no step returns bytes · the provider streams to r2");
+
+          // Nodes on the rail and label boxes under them.
+          const nodes = [], boxes = [];
+          STEPS.forEach(([name, note], i) => {
+            const x = X(i + 1);
+            nodes.push(K.el(scene, "svg", { class: "k-abs", width: 30, height: 30, style: { left: x - 15 + "px", top: TRACK - 15 + "px" } },
+              '<circle cx="15" cy="15" r="9" fill="#08080a" stroke="rgba(245,245,244,.72)" stroke-width="2"/>').querySelector("circle"));
+            boxes.push(K.el(scene, "div", { class: "k-abs s06-st", style: { left: x - 100 + "px", top: TRACK + 50 + "px" } },
+              `<b>0${i + 1}</b><span>${name}</span>`));
+            if (note) K.el(scene, "div", { class: "k-abs s06-note", style: { left: x - 102 + "px", top: TRACK + 168 + "px" } }).textContent = note;
+          });
+
+          // The rider: the card and its status chip travel together.
+          const S = 1.4, CT = TRACK - 202 * S;
+          const rider = K.el(scene, "div", { class: "k-abs" });
+          const card = K.card(rider, { id: "s06-card", theme: "bp", left: X(0) - 110 * S, top: CT, scale: S });
+          const chips = ["queued", "generating", "ready"].map((s, i) =>
+            K.el(rider, "div", { class: "k-pill s06-chip" + (i === 2 ? " k-amber" : ""), style: { left: X(0) - 60 + (i === 1 ? -25 : 0) + "px", top: CT - 46 + "px", opacity: i ? 0 : 1 } }, s));
+          const thumb = K.part(card, "k-thumb"), bar = K.part(card, "k-bar"), eyes = K.part(card, "k-eyes"), ring = K.part(card, "k-ring");
+          thumb.innerHTML = `<g class="s06-ref" opacity="0">${K.harbourArt({ boat: -30, line: true })}</g><g class="s06-poster">${K.harbourArt({ boat: 12, mood: "dusk" })}</g>`;
+          const ref = thumb.querySelector(".s06-ref"), poster = thumb.querySelector(".s06-poster");
+          gsap.set(poster, { opacity: 0 });
+          gsap.set(bar, { scaleX: 0, transformOrigin: "0 50%" });
+          const cy = CT + 76 * S;
+
+          // One hop per beat: along the rail, a small arc, a squash on arrival, the station lights.
+          const HOP = 0.18;
+          const hop = (b) => {
+            const at = K.t(b);
+            tl.to(rider, { x: X(b) - X(0), duration: HOP, ease: "power2.inOut" }, at);
+            tl.to(rider, { y: -34, duration: HOP / 2, ease: "power2.out", data: "follow" }, at);
+            tl.to(rider, { y: 0, duration: HOP / 2, ease: "power2.in", data: "follow" }, at + HOP / 2);
+            tl.fromTo(card, { scaleX: 1, scaleY: 1 }, { scaleX: 1.08, scaleY: 0.9, duration: 0.05, yoyo: true, repeat: 1, ease: "power1.out", transformOrigin: "50% 100%", data: "follow" }, at + HOP);
+            tl.to(nodes[b - 1], { attr: { fill: "#f2c14e", stroke: "#f2c14e" }, duration: 0.04, data: "follow" }, at + HOP - 0.02);
+            tl.to(boxes[b - 1], { borderColor: "#f2c14e", duration: 0.05, data: "follow" }, at + HOP - 0.02);
+            tl.to(boxes[b - 1].querySelectorAll("b, span"), { color: "#f5f5f4", duration: 0.05, data: "follow" }, at + HOP - 0.02);
+            return at + HOP;
+          };
+          const swap = (from, to, at) => {
+            tl.to(chips[from], { opacity: 0, duration: 0.05, data: "follow" }, at);
+            tl.fromTo(chips[to], { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.14, ease: "back.out(2.6)", data: "follow" }, at);
+          };
+
+          // b0: the card lands at the start of the track
+          tl.fromTo(rider, { y: -120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.14, ease: "power2.in" }, K.t(0));
+          tl.fromTo(card, { scaleX: 1, scaleY: 1 }, { scaleX: 1.12, scaleY: 0.86, duration: 0.05, yoyo: true, repeat: 1, ease: "power1.out", transformOrigin: "50% 100%", data: "follow" }, 0.14);
+          K.puff(tl, scene, X(0), TRACK, 0.14, { theme: "bp", spread: 100 });
+          // b1: mark running: generating, eyes squeeze
+          let a = hop(1);
+          swap(0, 1, a);
+          tl.to(eyes, { scaleY: 0.15, duration: 0.06, transformOrigin: "50% 50%", data: "follow" }, a);
+          // b2: prepare references: the start frame shows through
+          a = hop(2);
+          tl.to(ref, { opacity: 1, duration: 0.06, data: "follow" }, a);
+          // b3: submit: the progress bar starts
+          a = hop(3);
+          tl.to(bar, { scaleX: 0.15, duration: 0.06, data: "follow" }, a);
+          // b4: poll & persist: the bar runs almost full
+          a = hop(4);
+          tl.to(bar, { scaleX: 0.9, duration: 0.07, ease: "power1.out", data: "follow" }, a);
+          // b5: inspect: a ring passes round the card
+          a = hop(5);
+          tl.fromTo(ring, { opacity: 0 }, { opacity: 1, duration: 0.03, data: "follow" }, a);
+          tl.to(ring, { opacity: 0, duration: 0.03, data: "follow" }, a + 0.04);
+          // b6: poster: the picture appears
+          a = hop(6);
+          tl.fromTo(poster, { opacity: 0, clipPath: "inset(0 0 100% 0)" }, { opacity: 1, clipPath: "inset(0 0 0% 0)", duration: 0.07, data: "follow" }, a);
+          tl.to(ref, { opacity: 0, duration: 0.05, data: "follow" }, a);
+          tl.to(bar, { opacity: 0, duration: 0.05, data: "follow" }, a);
+          // b7: complete: ready, eyes open
+          a = hop(7);
+          swap(1, 2, a);
+          tl.to(eyes, { scaleY: 1, duration: 0.05, ease: "back.out(3)", data: "follow" }, a);
+
+          K.focus(scene, tl, "s06", [
+            [0, X(0), cy + 20], [1, X(1), cy + 20], [2, X(2), cy + 20], [3, X(3), cy + 20],
+            [4, X(4), cy + 20], [5, X(5), cy + 20], [6, X(6), cy + 20], [7, X(7), cy + 20],
+          ]);
+          K.check(tl, "s06");
+          window.__timelines["s06-workflow"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

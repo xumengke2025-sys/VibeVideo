@@ -1,0 +1,3987 @@
+{
+  "repo": "alchaincyf/huashu-art-motion",
+  "metadata": {
+    "id": 1406706284,
+    "node_id": "R_kgDOU9iibA",
+    "name": "huashu-art-motion",
+    "full_name": "alchaincyf/huashu-art-motion",
+    "private": false,
+    "owner": {
+      "login": "alchaincyf",
+      "id": 127714341,
+      "node_id": "U_kgDOB5zEJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127714341?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alchaincyf",
+      "html_url": "https://github.com/alchaincyf",
+      "followers_url": "https://api.github.com/users/alchaincyf/followers",
+      "following_url": "https://api.github.com/users/alchaincyf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alchaincyf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alchaincyf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alchaincyf/subscriptions",
+      "organizations_url": "https://api.github.com/users/alchaincyf/orgs",
+      "repos_url": "https://api.github.com/users/alchaincyf/repos",
+      "events_url": "https://api.github.com/users/alchaincyf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alchaincyf/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/alchaincyf/huashu-art-motion",
+    "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+    "fork": false,
+    "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion",
+    "forks_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/forks",
+    "keys_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/teams",
+    "hooks_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/hooks",
+    "issue_events_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/events",
+    "assignees_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/tags",
+    "blobs_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/languages",
+    "stargazers_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/stargazers",
+    "contributors_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/contributors",
+    "subscribers_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/subscribers",
+    "subscription_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/subscription",
+    "commits_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/merges",
+    "archive_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/downloads",
+    "issues_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/labels{/name}",
+    "releases_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/deployments",
+    "created_at": "2026-10-06T04:49:37Z",
+    "updated_at": "2026-10-08T13:49:39Z",
+    "pushed_at": "2026-10-08T13:11:08Z",
+    "git_url": "git://github.com/alchaincyf/huashu-art-motion.git",
+    "ssh_url": "git@github.com:alchaincyf/huashu-art-motion.git",
+    "clone_url": "https://github.com/alchaincyf/huashu-art-motion.git",
+    "svn_url": "https://github.com/alchaincyf/huashu-art-motion",
+    "homepage": null,
+    "size": 47715,
+    "stargazers_count": 2283,
+    "watchers_count": 2283,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 244,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 244,
+    "open_issues": 1,
+    "watchers": 2283,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 244,
+    "subscribers_count": 4
+  },
+  "commit": {
+    "sha": "57d67608ab458f57d9b153b1a2831b921e22498b",
+    "node_id": "C_kwDOU9iibNoAKDU3ZDY3NjA4YWI0NThmNTdkOWIxNTNiMWEyODMxYjkyMWUyMjQ5OGI",
+    "commit": {
+      "author": {
+        "name": "alchain",
+        "email": "alchaincyf@gmail.com",
+        "date": "2026-10-08T13:07:37Z"
+      },
+      "committer": {
+        "name": "alchain",
+        "email": "alchaincyf@gmail.com",
+        "date": "2026-10-08T13:07:57Z"
+      },
+      "message": "fix: serve render and QA assets concurrently on Windows",
+      "tree": {
+        "sha": "90a620a37a9077cae0d8596b992584e7ba49eeb2",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/90a620a37a9077cae0d8596b992584e7ba49eeb2"
+      },
+      "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/commits/57d67608ab458f57d9b153b1a2831b921e22498b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/commits/57d67608ab458f57d9b153b1a2831b921e22498b",
+    "html_url": "https://github.com/alchaincyf/huashu-art-motion/commit/57d67608ab458f57d9b153b1a2831b921e22498b",
+    "comments_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/commits/57d67608ab458f57d9b153b1a2831b921e22498b/comments",
+    "author": {
+      "login": "alchaincyf",
+      "id": 127714341,
+      "node_id": "U_kgDOB5zEJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127714341?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alchaincyf",
+      "html_url": "https://github.com/alchaincyf",
+      "followers_url": "https://api.github.com/users/alchaincyf/followers",
+      "following_url": "https://api.github.com/users/alchaincyf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alchaincyf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alchaincyf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alchaincyf/subscriptions",
+      "organizations_url": "https://api.github.com/users/alchaincyf/orgs",
+      "repos_url": "https://api.github.com/users/alchaincyf/repos",
+      "events_url": "https://api.github.com/users/alchaincyf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alchaincyf/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "alchaincyf",
+      "id": 127714341,
+      "node_id": "U_kgDOB5zEJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127714341?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alchaincyf",
+      "html_url": "https://github.com/alchaincyf",
+      "followers_url": "https://api.github.com/users/alchaincyf/followers",
+      "following_url": "https://api.github.com/users/alchaincyf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alchaincyf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alchaincyf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alchaincyf/subscriptions",
+      "organizations_url": "https://api.github.com/users/alchaincyf/orgs",
+      "repos_url": "https://api.github.com/users/alchaincyf/repos",
+      "events_url": "https://api.github.com/users/alchaincyf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alchaincyf/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f178bd7754a71d6d399473af1501634548efa6cb",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/commits/f178bd7754a71d6d399473af1501634548efa6cb",
+        "html_url": "https://github.com/alchaincyf/huashu-art-motion/commit/f178bd7754a71d6d399473af1501634548efa6cb"
+      }
+    ],
+    "stats": {
+      "total": 133,
+      "additions": 127,
+      "deletions": 6
+    },
+    "files": [
+      {
+        "sha": "b1f4db143d63a9a38270b277efaef900c399305a",
+        "filename": ".github/workflows/tests.yml",
+        "status": "modified",
+        "additions": 22,
+        "deletions": 0,
+        "changes": 22,
+        "blob_url": "https://github.com/alchaincyf/huashu-art-motion/blob/57d67608ab458f57d9b153b1a2831b921e22498b/.github%2Fworkflows%2Ftests.yml",
+        "raw_url": "https://github.com/alchaincyf/huashu-art-motion/raw/57d67608ab458f57d9b153b1a2831b921e22498b/.github%2Fworkflows%2Ftests.yml",
+        "contents_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/contents/.github%2Fworkflows%2Ftests.yml?ref=57d67608ab458f57d9b153b1a2831b921e22498b",
+        "patch": "@@ -19,3 +19,25 @@ jobs:\n       - run: sudo apt-get update && sudo apt-get install -y ffmpeg\n       - run: python -m unittest discover -s tests -v\n       - run: python scripts/check_release.py check --repo . --ref HEAD --base HEAD~1\n+  windows-render:\n+    runs-on: windows-latest\n+    timeout-minutes: 10\n+    env:\n+      PYTHONUTF8: '1'\n+    steps:\n+      - uses: actions/checkout@v4\n+      - uses: actions/setup-python@v5\n+        with:\n+          python-version: '3.12'\n+      - run: python -m pip install playwright numpy Pillow\n+      - run: python -m playwright install chromium\n+      - run: python -m unittest discover -s tests -p test_local_server.py -v\n+      - run: python scripts/engine/render.py --solo 09_postimp --stills 0.3 --out smoke-stills\n+      - run: python scripts/qa.py --project scripts/engine --ids 09_postimp --fps 5 --out smoke-qa\n+      - uses: actions/upload-artifact@v4\n+        if: always()\n+        with:\n+          name: windows-render-smoke\n+          path: |\n+            smoke-stills/\n+            smoke-qa/"
+      },
+      {
+        "sha": "1d8e8feaee56af57147ea9d913867cd417688075",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 4,
+        "deletions": 0,
+        "changes": 4,
+        "blob_url": "https://github.com/alchaincyf/huashu-art-motion/blob/57d67608ab458f57d9b153b1a2831b921e22498b/README.md",
+        "raw_url": "https://github.com/alchaincyf/huashu-art-motion/raw/57d67608ab458f57d9b153b1a2831b921e22498b/README.md",
+        "contents_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/contents/README.md?ref=57d67608ab458f57d9b153b1a2831b921e22498b",
+        "patch": "@@ -195,3 +195,7 @@ Install: `npx skills add alchaincyf/huashu-art-motion`. Requires uv, ffmpeg and\n - [维护、扩展与发布](CONTRIBUTING.md)：公共默认与私人配置分离，升级不覆盖个人选择，发布检查覆盖实际待发Git对象。\n \n 先运行`python scripts/capabilities.py status --explain`。新增能力默认未选择、未授权；不能从检测到Key或工具推断允许消费。独立图片API执行器为后续可选扩展，不会自动切换供应商。\n+\n+## 感谢反馈\n+\n+感谢[@ismilewolf-eng](https://github.com/ismilewolf-eng)（[PR#1](https://github.com/alchaincyf/huashu-art-motion/pull/1)）、[@noahark](https://github.com/noahark)（[PR#2](https://github.com/alchaincyf/huashu-art-motion/pull/2)）提供Windows并发加载故障的修复建议与验证，[@nctt777-hue](https://github.com/nctt777-hue)（[Issue#3](https://github.com/alchaincyf/huashu-art-motion/issues/3)）提供详细的复现、对照实验与复测，以及[@GFXfly](https://github.com/GFXfly)补充macOS排查反馈。这些反馈帮助我们修复了渲染与QA本地服务的并发加载问题。"
+      },
+      {
+        "sha": "6c37bf73a9fdc46b26c746965d15dd445f41b1b6",
+        "filename": "release-manifest.json",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 4,
+        "changes": 9,
+        "blob_url": "https://github.com/alchaincyf/huashu-art-motion/blob/57d67608ab458f57d9b153b1a2831b921e22498b/release-manifest.json",
+        "raw_url": "https://github.com/alchaincyf/huashu-art-motion/raw/57d67608ab458f57d9b153b1a2831b921e22498b/release-manifest.json",
+        "contents_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/contents/release-manifest.json?ref=57d67608ab458f57d9b153b1a2831b921e22498b",
+        "patch": "@@ -1,12 +1,12 @@\n {\n   \"schema_version\": 1,\n   \"files\": {\n-    \".github/workflows/tests.yml\": \"baaf89f4a360bb1fd1ffc1ee7ab79419f93479d5a0d6773fc033a2c8d42bbd9d\",\n+    \".github/workflows/tests.yml\": \"91b5797ea6f59b6e31e53de2a846194e33ab1dbe24b2efb8c0ed4367324f8fbe\",\n     \".gitignore\": \"64ed0cc55105bb4b33ebd1baadd1eb18c74b604f6bbce0fbaa4c62b5eb425197\",\n     \"CHANGELOG.md\": \"7bedbb5ed661647265c083e0e76cb82d03e1d0822564d06e0396319500eb2468\",\n     \"CONTRIBUTING.md\": \"742a1a6071f6be25e82f0524a520fd6d09961be3f87d7a85940cd816ce7309a1\",\n     \"LICENSE\": \"6d6a2a9caf2e6d2b76974050427053b2892d8aa4c33fd168ce63a537fcee9d96\",\n-    \"README.md\": \"1b404ff23c34d3d4149bb07332bf1f780c5497b2a7f955e5b711983ce77cb1ba\",\n+    \"README.md\": \"fab161f6e22b8ff74d11602990ada532ba28d49478c8297b010a442d354903f5\",\n     \"SKILL.md\": \"1e4dffc3766442f2aedf4681dd492dae8345be0dfa532c2ca42194075d155cc6\",\n     \"assets/showcase/egypt.gif\": \"256b946e2543192153f276dc46e0af98837c934ddb9e2e2c0c9843f0557cd54b\",\n     \"assets/showcase/hero.png\": \"3b6b42bfb00f84925aebe2a10f85052dc6b4efb492e86f581f21f652b6686407\",\n@@ -364,7 +364,7 @@\n     \"scripts/engine/reference_films/spacex/transitions/paperSlide.js\": \"14eb0b28a2e78a7feeaf158b81d3aef640f9776dd0bb578f21b7e6bfafe40e13\",\n     \"scripts/engine/reference_films/spacex/transitions/vox_pull.js\": \"79db9ef00e31a4a44872ef57f9ce9a5a89ed631c1a83d9b7e72129e4a7355959\",\n     \"scripts/engine/reference_films/spacex/transitions/vox_slap.js\": \"78f8fa308a434a33d7007b776c4e006d711fea61d4f4dab9426baeebc6c3d573\",\n-    \"scripts/engine/render.py\": \"eb2abd1a159a63a58fbf9da6bfc5e06febaeb31aec21ac091d351fc8159ed5dc\",\n+    \"scripts/engine/render.py\": \"b7a8bf535f18b8e14e2e1da52a715dfb9923133a7e961499009a0c811f0739ff\",\n     \"scripts/engine/scenes/01_cave.js\": \"06ff3360279ecf778d78ef5e56fa6d5cd6354a18033079eed32cba6af48dd781\",\n     \"scripts/engine/scenes/02_egypt.js\": \"ce4acdce7f65f41686f7e5f04336fdf150bfd53a560a20f2a83a3db495a86353\",\n     \"scripts/engine/scenes/03_greek.js\": \"58e259062257ebf15d2fb141e10441119df0691e0cc2bd212922a8cffb3be184\",\n@@ -408,10 +408,11 @@\n     \"scripts/key_green.py\": \"11ac28bb2508d6b4a240eb37a55b342a0f556943fe29a17962bbc0f93f90d303\",\n     \"scripts/key_split.py\": \"889759cd6b5353b4d48d34faf3878682890e06ca79887c9ade9be401b7359f86\",\n     \"scripts/koubo.py\": \"7837507e6bf02b20f8aa63efdc881c8de0d5de775b4bf31a1040bd3824348494\",\n-    \"scripts/qa.py\": \"435fa30c91b432b0fd25a72e139c7a883b619c251a3545c9b460de192fcc3942\",\n+    \"scripts/qa.py\": \"e6d229292103ffc0783e999d46984b3521cfe5b24803bc2db214bc3e03b6efed\",\n     \"scripts/subzone_gate.py\": \"8641a3b1b38ac28c1562e454a0e370f36a73d1a0c79cddf36175c7444a9c1598\",\n     \"tests/test_capabilities.py\": \"04ce548d5a72a11a87a3bd85c46a98e13f1aabafb096e3c59a6fc7a20bfdf4ad\",\n     \"tests/test_images.py\": \"5fe7533ec25a2644e3685e1677186eaf1554ebbbcc390fcd56a45afbad872040\",\n+    \"tests/test_local_server.py\": \"b775a60c86c4a0914d67c4cfb7cb37256a447db700bfdba146a2db3704ea83ff\",\n     \"tests/test_release.py\": \"a190d8825e23f6204263f3d00d6728bf709586bc178c980d53244a82ef198b41\"\n   }\n }"
+      },
+      {
+        "sha": "ac5eb9853b8938b02afc41708c67a69ef802144d",
+        "filename": "scripts/engine/render.py",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 1,
+        "changes": 8,
+        "blob_url": "https://github.com/alchaincyf/huashu-art-motion/blob/57d67608ab458f57d9b153b1a2831b921e22498b/scripts%2Fengine%2Frender.py",
+        "raw_url": "https://github.com/alchaincyf/huashu-art-motion/raw/57d67608ab458f57d9b153b1a2831b921e22498b/scripts%2Fengine%2Frender.py",
+        "contents_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/contents/scripts%2Fengine%2Frender.py?ref=57d67608ab458f57d9b153b1a2831b921e22498b",
+        "patch": "@@ -49,7 +49,12 @@ def translate_path(self, path):\n             f = urllib.parse.unquote(path[len('/__file__/'):].split('?')[0])\n             return f if spec and f in ALLOWED else '/nonexistent'\n         return super().translate_path(path)\n-srv = socketserver.TCPServer(('127.0.0.1', 0), functools.partial(Q, directory=str(root)))\n+# Chromium may open idle connections while loading scripts in parallel.\n+class LocalServer(socketserver.ThreadingTCPServer):\n+    request_queue_size = 128\n+    daemon_threads = True\n+\n+srv = LocalServer(('127.0.0.1', 0), functools.partial(Q, directory=str(root)))\n port = srv.server_address[1]\n threading.Thread(target=srv.serve_forever, daemon=True).start()\n \n@@ -104,4 +109,5 @@ def on_console(m):\n         print('done ->', a.out)\n     b.close()\n srv.shutdown()\n+srv.server_close()\n if errors: raise SystemExit(f'❌ 页面报错 {len(errors)} 条（见上方 [page]/[pageerror]）')"
+      },
+      {
+        "sha": "927daaa7a890f54328f088a1dfcb1f6ee8284637",
+        "filename": "scripts/qa.py",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 1,
+        "changes": 8,
+        "blob_url": "https://github.com/alchaincyf/huashu-art-motion/blob/57d67608ab458f57d9b153b1a2831b921e22498b/scripts%2Fqa.py",
+        "raw_url": "https://github.com/alchaincyf/huashu-art-motion/raw/57d67608ab458f57d9b153b1a2831b921e22498b/scripts%2Fqa.py",
+        "contents_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/contents/scripts%2Fqa.py?ref=57d67608ab458f57d9b153b1a2831b921e22498b",
+        "patch": "@@ -66,7 +66,12 @@ def translate_path(self, path):\n             f = urllib.parse.unquote(path[len('/__file__/'):].split('?')[0])\n             return f if f in ALLOWED else '/nonexistent'\n         return super().translate_path(path)\n-srv = socketserver.TCPServer(('127.0.0.1', 0), functools.partial(Q, directory=str(root))); port = srv.server_address[1]\n+# Chromium may open idle connections while loading scripts in parallel.\n+class LocalServer(socketserver.ThreadingTCPServer):\n+    request_queue_size = 128\n+    daemon_threads = True\n+\n+srv = LocalServer(('127.0.0.1', 0), functools.partial(Q, directory=str(root))); port = srv.server_address[1]\n threading.Thread(target=srv.serve_forever, daemon=True).start()\n \n # 框景检查：包一层 fillText/strokeText，记下画在「整屏大小的画布」上的字的屏幕外框（经过当前变换）\n@@ -278,6 +283,7 @@ def img(b64, w=480): return np.asarray(Image.open(io.BytesIO(base64.b64decode(b6\n     if report['transitions']: print('转场冒烟', len(report['transitions']), '个，最慢', max((r['ms_max'] or 0, r['type']) for r in report['transitions']))\n     br.close()\n srv.shutdown()\n+srv.server_close()\n report['page_errors'] = errors\n json.dump(report, open(out / 'qa.json', 'w'), ensure_ascii=False, indent=1)\n rows = ['| 段 | 运动% | 静止帧对% | 跳变 | 均/峰 ms | 冷启动 ms | 确定性 | 框景 |', '|---|---|---|---|---|---|---|---|']"
+      },
+      {
+        "sha": "28e3591e9fdcdcf55946ab021cfd8e412233260c",
+        "filename": "tests/test_local_server.py",
+        "status": "added",
+        "additions": 82,
+        "deletions": 0,
+        "changes": 82,
+        "blob_url": "https://github.com/alchaincyf/huashu-art-motion/blob/57d67608ab458f57d9b153b1a2831b921e22498b/tests%2Ftest_local_server.py",
+        "raw_url": "https://github.com/alchaincyf/huashu-art-motion/raw/57d67608ab458f57d9b153b1a2831b921e22498b/tests%2Ftest_local_server.py",
+        "contents_url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/contents/tests%2Ftest_local_server.py?ref=57d67608ab458f57d9b153b1a2831b921e22498b",
+        "patch": "@@ -0,0 +1,82 @@\n+\"\"\"Exercise the server definitions and construction used by both CLI scripts.\"\"\"\n+import ast\n+from concurrent.futures import ThreadPoolExecutor\n+import functools\n+import http.server\n+from pathlib import Path\n+import socket\n+import socketserver\n+import tempfile\n+import threading\n+import time\n+import unittest\n+import urllib.parse\n+import urllib.request\n+\n+ROOT = Path(__file__).resolve().parents[1]\n+\n+\n+class LocalServerTests(unittest.TestCase):\n+    def test_idle_connection_does_not_block_parallel_assets_or_shutdown(self):\n+        for relative in ('scripts/engine/render.py', 'scripts/qa.py'):\n+            with self.subTest(script=relative), tempfile.TemporaryDirectory() as directory:\n+                payload = b'window.assetLoaded = true;'\n+                Path(directory, 'asset.js').write_bytes(payload)\n+                namespace = dict(http=http, socketserver=socketserver, functools=functools,\n+                                 urllib=urllib, root=Path(directory), spec=None, ALLOWED=set())\n+                defaults = (socketserver.ThreadingTCPServer.request_queue_size,\n+                            socketserver.ThreadingTCPServer.daemon_threads)\n+                tree = ast.parse((ROOT / relative).read_text(encoding='utf-8'))\n+                # Run the actual handler, server class and construction, without the CLI/browser.\n+                nodes = [node for node in tree.body if\n+                         isinstance(node, ast.ClassDef) and node.name in ('Q', 'LocalServer') or\n+                         isinstance(node, ast.Assign) and any(\n+                             isinstance(target, ast.Name) and target.id == 'srv'\n+                             for target in node.targets)]\n+                exec(compile(ast.Module(body=nodes, type_ignores=[]), str(ROOT / relative), 'exec'), namespace)\n+                server = namespace['srv']\n+                idle = None\n+                worker = None\n+                try:\n+                    self.assertEqual(server.server_address[0], '127.0.0.1')\n+                    self.assertEqual(server.request_queue_size, 128)\n+                    self.assertTrue(server.daemon_threads)\n+                    self.assertEqual((socketserver.ThreadingTCPServer.request_queue_size,\n+                                      socketserver.ThreadingTCPServer.daemon_threads), defaults)\n+                    accepted = threading.Event()\n+                    original_accept = server.get_request\n+                    def get_request():\n+                        connection = original_accept()\n+                        accepted.set()\n+                        return connection\n+                    server.get_request = get_request\n+                    worker = threading.Thread(target=server.serve_forever, daemon=True)\n+                    worker.start()\n+                    idle = socket.create_connection(server.server_address, timeout=3)\n+                    self.assertTrue(accepted.wait(3), 'idle connection was not accepted')\n+                    url = 'http://127.0.0.1:%s/asset.js' % server.server_address[1]\n+                    def fetch(_):\n+                        # Ignore user proxy configuration for this loopback regression test.\n+                        opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))\n+                        with opener.open(url, timeout=5) as response:\n+                            return response.status, response.read()\n+                    with ThreadPoolExecutor(max_workers=16) as pool:\n+                        results = list(pool.map(fetch, range(32)))\n+                    self.assertEqual(results, [(200, payload)] * 32)\n+                    started = time.monotonic()\n+                    server.shutdown()\n+                    server.server_close()\n+                    worker.join(2)\n+                    self.assertFalse(worker.is_alive())\n+                    self.assertLess(time.monotonic() - started, 2)\n+                finally:\n+                    if idle is not None:\n+                        idle.close()\n+                    if worker is not None and worker.is_alive():\n+                        server.shutdown()\n+                        worker.join(2)\n+                    server.server_close()\n+\n+\n+if __name__ == '__main__':\n+    unittest.main()"
+      }
+    ]
+  },
+  "tree": {
+    "sha": "57d67608ab458f57d9b153b1a2831b921e22498b",
+    "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/57d67608ab458f57d9b153b1a2831b921e22498b",
+    "tree": [
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7ff946afb66fac28fc665003bc4704c00213fa11",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/7ff946afb66fac28fc665003bc4704c00213fa11"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "85dd473ec3517da0f4376c8596d0584b040ee994",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/85dd473ec3517da0f4376c8596d0584b040ee994"
+      },
+      {
+        "path": ".github/workflows/tests.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1f4db143d63a9a38270b277efaef900c399305a",
+        "size": 1414,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b1f4db143d63a9a38270b277efaef900c399305a"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8aef2f4af2d511c19cb25b2e8178321b4229812",
+        "size": 369,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/d8aef2f4af2d511c19cb25b2e8178321b4229812"
+      },
+      {
+        "path": "CHANGELOG.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7195a1dbc719837fa09cc5278d9b2ed5ac1e2773",
+        "size": 4188,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/7195a1dbc719837fa09cc5278d9b2ed5ac1e2773"
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4cf71c00a98f54dea72a0cbc5ad44b556d2dce3d",
+        "size": 2209,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4cf71c00a98f54dea72a0cbc5ad44b556d2dce3d"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed67368a2a79ed7be97b2a4852330cdac5b8b12a",
+        "size": 1086,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ed67368a2a79ed7be97b2a4852330cdac5b8b12a"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d8e8feaee56af57147ea9d913867cd417688075",
+        "size": 14636,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/1d8e8feaee56af57147ea9d913867cd417688075"
+      },
+      {
+        "path": "SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb12f700bf46c2b37c4252231840e005617b537d",
+        "size": 7463,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/fb12f700bf46c2b37c4252231840e005617b537d"
+      },
+      {
+        "path": "assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "056a7d9db9f981ea4554a11f5ee3501dba6db8a4",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/056a7d9db9f981ea4554a11f5ee3501dba6db8a4"
+      },
+      {
+        "path": "assets/showcase",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "036056d1d2193d413acb68c404db04e64192fd39",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/036056d1d2193d413acb68c404db04e64192fd39"
+      },
+      {
+        "path": "assets/showcase/egypt.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fac4f54e69bbd4f0aba510846beb8a29ff910386",
+        "size": 4965668,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/fac4f54e69bbd4f0aba510846beb8a29ff910386"
+      },
+      {
+        "path": "assets/showcase/hero.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1caac91f2de63bdba028aeb2695e02a1fa8f35d4",
+        "size": 1668625,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/1caac91f2de63bdba028aeb2695e02a1fa8f35d4"
+      },
+      {
+        "path": "assets/showcase/mario-claude.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d949644aed9e962a12a465342bec0b0dc069023",
+        "size": 2110438,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4d949644aed9e962a12a465342bec0b0dc069023"
+      },
+      {
+        "path": "assets/showcase/mario-clips.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7f7df7fce8f9a29bf2f2265c1fff6eab977a095",
+        "size": 1112,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b7f7df7fce8f9a29bf2f2265c1fff6eab977a095"
+      },
+      {
+        "path": "assets/showcase/mario-combo.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "331e39379e54b8d83b4e4cda53676477f67ed42c",
+        "size": 3094450,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/331e39379e54b8d83b4e4cda53676477f67ed42c"
+      },
+      {
+        "path": "assets/showcase/mario-pipe.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26521430234320d227f4e6ec219ea1f7fd76e808",
+        "size": 4054279,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/26521430234320d227f4e6ec219ea1f7fd76e808"
+      },
+      {
+        "path": "assets/showcase/monet.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a70a6f0a2d843f5254eea1bd677a74bc0724f4b",
+        "size": 5351144,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/9a70a6f0a2d843f5254eea1bd677a74bc0724f4b"
+      },
+      {
+        "path": "assets/showcase/pixel.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1e6568d98df0b3454decabeadcd039fce7fa80d7",
+        "size": 2652588,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/1e6568d98df0b3454decabeadcd039fce7fa80d7"
+      },
+      {
+        "path": "assets/全风格总览.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f834ab2eb4a6f99680765114fe057b734e28556",
+        "size": 1615447,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/9f834ab2eb4a6f99680765114fe057b734e28556"
+      },
+      {
+        "path": "assets/动画语法",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "caf6dd500e13096972777e189bda1cd2f38a4392",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/caf6dd500e13096972777e189bda1cd2f38a4392"
+      },
+      {
+        "path": "assets/动画语法/t1_3b1b_总览.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "822f07d52d2a7af536a481946aec8aca7cd2f367",
+        "size": 229006,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/822f07d52d2a7af536a481946aec8aca7cd2f367"
+      },
+      {
+        "path": "assets/动画语法/t2_keynote_ui_总览.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2db960251fb00bc8d33f5ccc1f93f9c9b754f0f4",
+        "size": 202632,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/2db960251fb00bc8d33f5ccc1f93f9c9b754f0f4"
+      },
+      {
+        "path": "assets/动画语法/t3_finance_chart_总览.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ae77d02479d189782885f29ab7949875bda427b",
+        "size": 185012,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/8ae77d02479d189782885f29ab7949875bda427b"
+      },
+      {
+        "path": "assets/动画语法/y1_kurzgesagt_总览.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df0f5dea278bffeccc6e3b42fc723d22d7c45597",
+        "size": 176587,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/df0f5dea278bffeccc6e3b42fc723d22d7c45597"
+      },
+      {
+        "path": "assets/动画语法/y2_vox_总览.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92f6230119af65813eafb808a27571b3a207302b",
+        "size": 318800,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/92f6230119af65813eafb808a27571b3a207302b"
+      },
+      {
+        "path": "assets/动画语法/y3_whiteboard_总览.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e19c2cb4605da1b140c9600bd9d3205d90cb610",
+        "size": 143612,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/0e19c2cb4605da1b140c9600bd9d3205d90cb610"
+      },
+      {
+        "path": "assets/动画语法/y4_storytime_总览.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b2d9dedbc8677869b86bcdbe749853e39039e041",
+        "size": 152838,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b2d9dedbc8677869b86bcdbe749853e39039e041"
+      },
+      {
+        "path": "assets/动画语法/y5_kinetic_type_总览.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1a547c25039f489a2594b683fb7659b3e3e6671",
+        "size": 135213,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b1a547c25039f489a2594b683fb7659b3e3e6671"
+      },
+      {
+        "path": "assets/角色",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "932c6c9450637f0687825d531252e063ecad2a89",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/932c6c9450637f0687825d531252e063ecad2a89"
+      },
+      {
+        "path": "assets/角色/花叔形象_对比.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5460db2eb48e87ae288b1cec3c8260821aaf80c4",
+        "size": 298446,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5460db2eb48e87ae288b1cec3c8260821aaf80c4"
+      },
+      {
+        "path": "assets/长卷穿越_总览.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26c83738d1eceb34859fc12b7b17a0a21ccd93ab",
+        "size": 483780,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/26c83738d1eceb34859fc12b7b17a0a21ccd93ab"
+      },
+      {
+        "path": "defaults",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ba09d122220468f9228c3f124ae55eae3145b05f",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/ba09d122220468f9228c3f124ae55eae3145b05f"
+      },
+      {
+        "path": "defaults/media.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a04ecc4dc9f0d2121a68d7edb080c88ef66812f8",
+        "size": 916,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a04ecc4dc9f0d2121a68d7edb080c88ef66812f8"
+      },
+      {
+        "path": "references",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0dabe2f26464776c1234fbfef295fd7f360fb7cc",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/0dabe2f26464776c1234fbfef295fd7f360fb7cc"
+      },
+      {
+        "path": "references/01-拆解.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0133872dddf70e4a428a1e567455aba233a9e6ad",
+        "size": 4692,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/0133872dddf70e4a428a1e567455aba233a9e6ad"
+      },
+      {
+        "path": "references/02-机制.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8fd1fde39699a5f48012f0d56e7f346cecb7b354",
+        "size": 4812,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/8fd1fde39699a5f48012f0d56e7f346cecb7b354"
+      },
+      {
+        "path": "references/03-一帧先行四条路线.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8168f4710c3c2521b71c685257ae36ab0b59a04",
+        "size": 4435,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f8168f4710c3c2521b71c685257ae36ab0b59a04"
+      },
+      {
+        "path": "references/04-纯代码绘制.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ecb16a7ffd71dcda5e280bd2f29f15e2d7fe56a5",
+        "size": 11122,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ecb16a7ffd71dcda5e280bd2f29f15e2d7fe56a5"
+      },
+      {
+        "path": "references/05-节奏与配乐.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27b893f68b791fba84de07ef069dd41243e40be8",
+        "size": 1495,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/27b893f68b791fba84de07ef069dd41243e40be8"
+      },
+      {
+        "path": "references/06-口播驱动的艺术短片.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d575b989ab3cb7aa42618316120945ad984bbc2b",
+        "size": 2786,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/d575b989ab3cb7aa42618316120945ad984bbc2b"
+      },
+      {
+        "path": "references/07-正面经验.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc45c831cba69eb5441014e7930dda8f1e28c601",
+        "size": 20260,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/dc45c831cba69eb5441014e7930dda8f1e28c601"
+      },
+      {
+        "path": "references/08-风格作者规范.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af3e811e90f31108a6bd7dc8a9036e5ca3d5b04f",
+        "size": 5042,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/af3e811e90f31108a6bd7dc8a9036e5ca3d5b04f"
+      },
+      {
+        "path": "references/09-视频动画语法.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d7f4239b4f7af1e6f670c0993ec4975a2b7e250",
+        "size": 42595,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/8d7f4239b4f7af1e6f670c0993ec4975a2b7e250"
+      },
+      {
+        "path": "references/10-角色.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "130a34626ec754c6228d0ef6051ee93d6dec7c77",
+        "size": 3405,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/130a34626ec754c6228d0ef6051ee93d6dec7c77"
+      },
+      {
+        "path": "references/11-长卷穿越片.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1c22d0dab835a874e9fc89df2e2d304a454546a",
+        "size": 4250,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f1c22d0dab835a874e9fc89df2e2d304a454546a"
+      },
+      {
+        "path": "references/12-口播整片与经验回流.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ad71ec640a57f6e1934fe68b087f46f40aa605e",
+        "size": 2224,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/0ad71ec640a57f6e1934fe68b087f46f40aa605e"
+      },
+      {
+        "path": "references/13-口播与语音复刻.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "56fc1521502ca3f9e13d4609f00c9a0d2dc13042",
+        "size": 587,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/56fc1521502ca3f9e13d4609f00c9a0d2dc13042"
+      },
+      {
+        "path": "references/capabilities.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35a8872afe414d6dc5ed456600251487ffba3731",
+        "size": 7346,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/35a8872afe414d6dc5ed456600251487ffba3731"
+      },
+      {
+        "path": "references/compatibility.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d0d9e3268b549285e14838d24c505d2af1a0302",
+        "size": 3011,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/9d0d9e3268b549285e14838d24c505d2af1a0302"
+      },
+      {
+        "path": "references/images.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "78fbb82b06b696752b0a4ba6bb2f7238e5dcff72",
+        "size": 5788,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/78fbb82b06b696752b0a4ba6bb2f7238e5dcff72"
+      },
+      {
+        "path": "references/动画语法",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "102bbb95682254d83000e3e7122a59761a70c2b1",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/102bbb95682254d83000e3e7122a59761a70c2b1"
+      },
+      {
+        "path": "references/动画语法/t1_3b1b.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae006bb46ed6ffdc061ff85adccd039102fac1a6",
+        "size": 12917,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ae006bb46ed6ffdc061ff85adccd039102fac1a6"
+      },
+      {
+        "path": "references/动画语法/t2_keynote_ui.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37ccc514ed54f56c8a6a9a5b4e95dad36bc23ae9",
+        "size": 11773,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/37ccc514ed54f56c8a6a9a5b4e95dad36bc23ae9"
+      },
+      {
+        "path": "references/动画语法/t3_finance_chart.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7451538b602f1667dc2b6fe44d2d878a26106790",
+        "size": 11694,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/7451538b602f1667dc2b6fe44d2d878a26106790"
+      },
+      {
+        "path": "references/动画语法/y1_kurzgesagt.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d851b5d0e2e8f7a3ccfd14af41a3b61d0bbdfeaf",
+        "size": 14372,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/d851b5d0e2e8f7a3ccfd14af41a3b61d0bbdfeaf"
+      },
+      {
+        "path": "references/动画语法/y2_vox.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e040400c6ff8fa2ca72833ca33b607647c26c3e",
+        "size": 14086,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/3e040400c6ff8fa2ca72833ca33b607647c26c3e"
+      },
+      {
+        "path": "references/动画语法/y3_whiteboard.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52722eb41e6888492dade31e45896a541fe6f0c1",
+        "size": 14234,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/52722eb41e6888492dade31e45896a541fe6f0c1"
+      },
+      {
+        "path": "references/动画语法/y4_storytime.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "04f95509ef4ae735bfef096e5bd898a47f1299b2",
+        "size": 17665,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/04f95509ef4ae735bfef096e5bd898a47f1299b2"
+      },
+      {
+        "path": "references/动画语法/y5_kinetic_type.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f64d628964db61fd11b5ef79b05df57d7e78493e",
+        "size": 16354,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f64d628964db61fd11b5ef79b05df57d7e78493e"
+      },
+      {
+        "path": "references/动画语法/y6_presenter_explainer.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "94a88fcbc122bec2d8abf0daa553394ec683c7bc",
+        "size": 1899,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/94a88fcbc122bec2d8abf0daa553394ec683c7bc"
+      },
+      {
+        "path": "references/口播API.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c3177bd8c791495c02e9de8ad10e29375b439d7e",
+        "size": 5603,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/c3177bd8c791495c02e9de8ad10e29375b439d7e"
+      },
+      {
+        "path": "references/风格配方",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f7c95d117555aaf91fcf61a63f7cc306fad98478",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/f7c95d117555aaf91fcf61a63f7cc306fad98478"
+      },
+      {
+        "path": "references/风格配方/01_cave.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "281849af2ec23f0dfe9379bd4382c479602be848",
+        "size": 7125,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/281849af2ec23f0dfe9379bd4382c479602be848"
+      },
+      {
+        "path": "references/风格配方/02_egypt.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0816d71077f573a2194c75abbc738bfee336d84a",
+        "size": 8952,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/0816d71077f573a2194c75abbc738bfee336d84a"
+      },
+      {
+        "path": "references/风格配方/03_greek.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4b3e6c7fd1ec88d5c2c28da1b80cc5b9539982a",
+        "size": 8933,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a4b3e6c7fd1ec88d5c2c28da1b80cc5b9539982a"
+      },
+      {
+        "path": "references/风格配方/04_roman.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7131869ee44abd191680a23d4e6b6f70a57b7a47",
+        "size": 12334,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/7131869ee44abd191680a23d4e6b6f70a57b7a47"
+      },
+      {
+        "path": "references/风格配方/05_gothic.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ed79e239d6edf7da7e1fd8259149ed5c1971f25",
+        "size": 4211,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/0ed79e239d6edf7da7e1fd8259149ed5c1971f25"
+      },
+      {
+        "path": "references/风格配方/06_renaissance.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8405bcd6bea31e56be7dc6929cf402c25bceae9a",
+        "size": 4144,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/8405bcd6bea31e56be7dc6929cf402c25bceae9a"
+      },
+      {
+        "path": "references/风格配方/08_impressionism.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a2593e5103152fe2af2dac0f10f28e9b80acaa9a",
+        "size": 4210,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a2593e5103152fe2af2dac0f10f28e9b80acaa9a"
+      },
+      {
+        "path": "references/风格配方/09_postimp.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50d7c8d8711fd19c46cd101742d36fc071f92457",
+        "size": 1507,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/50d7c8d8711fd19c46cd101742d36fc071f92457"
+      },
+      {
+        "path": "references/风格配方/10_nouveau.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71ac0d6a18dc0f248821e7e749c450c1fafd7795",
+        "size": 5103,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/71ac0d6a18dc0f248821e7e749c450c1fafd7795"
+      },
+      {
+        "path": "references/风格配方/11_cubism.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40a647b8cc1a2980517fb9bea319f8166f47f2d4",
+        "size": 5405,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/40a647b8cc1a2980517fb9bea319f8166f47f2d4"
+      },
+      {
+        "path": "references/风格配方/12_bauhaus.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cbc2298776594978409e539b321d1ee35f08a667",
+        "size": 4435,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/cbc2298776594978409e539b321d1ee35f08a667"
+      },
+      {
+        "path": "references/风格配方/13_pop.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a940e8512e82383be22f0605f3950adbfa378a72",
+        "size": 4293,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a940e8512e82383be22f0605f3950adbfa378a72"
+      },
+      {
+        "path": "references/风格配方/14_8bit.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "042c11185a9d4007572ff0a0b4a3ef83364de95e",
+        "size": 2831,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/042c11185a9d4007572ff0a0b4a3ef83364de95e"
+      },
+      {
+        "path": "references/风格配方/15_raytrace.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a1638c282defbd8c089ee382d553b143c8d28a5",
+        "size": 3206,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/2a1638c282defbd8c089ee382d553b143c8d28a5"
+      },
+      {
+        "path": "references/风格配方/16_2026.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e092f569a849dc774fd7cd37d4e8a96f2f6ac3b4",
+        "size": 5808,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/e092f569a849dc774fd7cd37d4e8a96f2f6ac3b4"
+      },
+      {
+        "path": "references/风格配方/17_ink.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a8e4c4188211cb16c0a71205f42cf08250f994b",
+        "size": 4442,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/6a8e4c4188211cb16c0a71205f42cf08250f994b"
+      },
+      {
+        "path": "references/风格配方/18_klimt.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29178ca219f622ea7cbf06db0b29f8d768397d50",
+        "size": 2845,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/29178ca219f622ea7cbf06db0b29f8d768397d50"
+      },
+      {
+        "path": "references/风格配方/19_munch.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09111285f852c039616afdf081c46fc8b6e71faa",
+        "size": 2838,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/09111285f852c039616afdf081c46fc8b6e71faa"
+      },
+      {
+        "path": "references/风格配方/20_dunhuang.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd301f2fab6d9b817daeddee9cde9ea8a708584d",
+        "size": 3072,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/cd301f2fab6d9b817daeddee9cde9ea8a708584d"
+      },
+      {
+        "path": "references/风格配方/21_kusama.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b95a193aa1b64e88e6631bc444420a892c4d9454",
+        "size": 2268,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b95a193aa1b64e88e6631bc444420a892c4d9454"
+      },
+      {
+        "path": "references/风格配方/22_constructivism.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea5e95da0a2d2f35a450ed5670501bf81fbf963b",
+        "size": 3959,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ea5e95da0a2d2f35a450ed5670501bf81fbf963b"
+      },
+      {
+        "path": "references/风格配方/23_dali.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b4a54a86479e30c6f8d85fca80e55a04961f0af",
+        "size": 3479,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4b4a54a86479e30c6f8d85fca80e55a04961f0af"
+      },
+      {
+        "path": "references/风格配方/24_hopper.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b48b743d9a5dd73c948a9e15b83e0ac7c19eb605",
+        "size": 2865,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b48b743d9a5dd73c948a9e15b83e0ac7c19eb605"
+      },
+      {
+        "path": "references/风格配方/25_ghibli.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "faff25a89848deab34aae1ac72d1ac903a0023f1",
+        "size": 3655,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/faff25a89848deab34aae1ac72d1ac903a0023f1"
+      },
+      {
+        "path": "references/风格配方/26_vaporwave.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1087ae6cf953930c875229296c5f28a31bf6bfd0",
+        "size": 3140,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/1087ae6cf953930c875229296c5f28a31bf6bfd0"
+      },
+      {
+        "path": "references/风格配方/27_kirby.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d213d6e2eadb60dad124a8ed8e5cab299daf88c6",
+        "size": 3396,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/d213d6e2eadb60dad124a8ed8e5cab299daf88c6"
+      },
+      {
+        "path": "references/风格配方/28_monet.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cef93afef28257b46fadf2963b672ca180cea615",
+        "size": 2837,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/cef93afef28257b46fadf2963b672ca180cea615"
+      },
+      {
+        "path": "references/风格配方/29_seurat.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b5cf9405b6f1967379fcd07c1e979021bf59ec4",
+        "size": 2963,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5b5cf9405b6f1967379fcd07c1e979021bf59ec4"
+      },
+      {
+        "path": "references/风格配方/30_matisse.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f9ada95b11f46fe98cacbe4970c5e93c74d0ea7",
+        "size": 2509,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/2f9ada95b11f46fe98cacbe4970c5e93c74d0ea7"
+      },
+      {
+        "path": "references/风格配方/31_haring.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "147e6969b8c1a93139b9c64e41f99ed60f0df005",
+        "size": 1994,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/147e6969b8c1a93139b9c64e41f99ed60f0df005"
+      },
+      {
+        "path": "references/风格配方/32_rembrandt.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "80793558e729c97b7290f733a01ab6287e78345c",
+        "size": 2900,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/80793558e729c97b7290f733a01ab6287e78345c"
+      },
+      {
+        "path": "references/风格配方/33_rubberhose.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a2e4c90725a2ff06e221b8aedeb9cb1c85dc044d",
+        "size": 2483,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a2e4c90725a2ff06e221b8aedeb9cb1c85dc044d"
+      },
+      {
+        "path": "references/风格配方/34_shadowpuppet.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2fe632891b668d13354893a9767029943c8c647b",
+        "size": 3133,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/2fe632891b668d13354893a9767029943c8c647b"
+      },
+      {
+        "path": "references/风格配方/35_shinkai.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "584b6c653e83651f87885347b2af6e54a2d6b380",
+        "size": 3345,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/584b6c653e83651f87885347b2af6e54a2d6b380"
+      },
+      {
+        "path": "references/风格配方/36_picasso_blue.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa017a3cb04a4ba54fb13bcfb0ad83eb0abef41a",
+        "size": 2739,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/fa017a3cb04a4ba54fb13bcfb0ad83eb0abef41a"
+      },
+      {
+        "path": "references/风格配方/INDEX.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3537d047ac868076328cec8866fe8d3aae7881b4",
+        "size": 8336,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/3537d047ac868076328cec8866fe8d3aae7881b4"
+      },
+      {
+        "path": "references/风格配方/_转场_迁移测试.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f05627ad08f882241adebe304a7b6e7c3d1a616",
+        "size": 7063,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4f05627ad08f882241adebe304a7b6e7c3d1a616"
+      },
+      {
+        "path": "references/风格配方/_音轨_艺术史速通.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "070a0fe0f88bf1e49beaefd25318a543f2a811b0",
+        "size": 11844,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/070a0fe0f88bf1e49beaefd25318a543f2a811b0"
+      },
+      {
+        "path": "release-manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c37bf73a9fdc46b26c746965d15dd445f41b1b6",
+        "size": 49364,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/6c37bf73a9fdc46b26c746965d15dd445f41b1b6"
+      },
+      {
+        "path": "schemas",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8ca1593080665577b37df9e689c7750b46a5a0d1",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/8ca1593080665577b37df9e689c7750b46a5a0d1"
+      },
+      {
+        "path": "schemas/media.schema.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b88da369cb85d67ede377bf6afa4c13616dbc67",
+        "size": 4916,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/7b88da369cb85d67ede377bf6afa4c13616dbc67"
+      },
+      {
+        "path": "scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0b72fdd8eb42cc73f95f8b5586afa962679aa8ed",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/0b72fdd8eb42cc73f95f8b5586afa962679aa8ed"
+      },
+      {
+        "path": "scripts/analyze",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "917702d495d97696f35f9b457a4dfd5b6fef7c57",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/917702d495d97696f35f9b457a4dfd5b6fef7c57"
+      },
+      {
+        "path": "scripts/analyze/breakdown.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed52b8eb857f002abc30dd9afbb7ef39d1aaff41",
+        "size": 6457,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ed52b8eb857f002abc30dd9afbb7ef39d1aaff41"
+      },
+      {
+        "path": "scripts/audio",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dc6a616a4cfe6edfe5e7f4f11c0dfbf0567013f9",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/dc6a616a4cfe6edfe5e7f4f11c0dfbf0567013f9"
+      },
+      {
+        "path": "scripts/audio/synth_艺术史速通.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a987fa9241f0c4b765b534e2ea56d66ad3977df",
+        "size": 31431,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4a987fa9241f0c4b765b534e2ea56d66ad3977df"
+      },
+      {
+        "path": "scripts/capabilities.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "67ac04263ac615ebebde7c1b19ffd3dc0d8e30f0",
+        "size": 22376,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/67ac04263ac615ebebde7c1b19ffd3dc0d8e30f0"
+      },
+      {
+        "path": "scripts/check_release.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a44e47eff084eafa351865ff61332cba81056224",
+        "size": 6159,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a44e47eff084eafa351865ff61332cba81056224"
+      },
+      {
+        "path": "scripts/engine",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1ac13a160cb85a612561d698f5e557fa92672ec1",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/1ac13a160cb85a612561d698f5e557fa92672ec1"
+      },
+      {
+        "path": "scripts/engine/clip.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72032e292d88808f289b1e4447c45074c2f197d7",
+        "size": 1184,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/72032e292d88808f289b1e4447c45074c2f197d7"
+      },
+      {
+        "path": "scripts/engine/clip.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af5b946c47897e8520d9ea40f80563055e6a7943",
+        "size": 7847,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/af5b946c47897e8520d9ea40f80563055e6a7943"
+      },
+      {
+        "path": "scripts/engine/clips",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "52ca774b8d0991a5170d72ba9ed2787ca9cd9894",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/52ca774b8d0991a5170d72ba9ed2787ca9cd9894"
+      },
+      {
+        "path": "scripts/engine/clips/t1_3b1b.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a41358412fb9100e71e5f888154ebf93ee449fe",
+        "size": 18053,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5a41358412fb9100e71e5f888154ebf93ee449fe"
+      },
+      {
+        "path": "scripts/engine/clips/t2_keynote_ui.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "429158b9570aea679e3682fed59268a59119c366",
+        "size": 24591,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/429158b9570aea679e3682fed59268a59119c366"
+      },
+      {
+        "path": "scripts/engine/clips/t3_finance_chart.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53f98a7b52e75275370b713b3fb5e6d637c77bd4",
+        "size": 17901,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/53f98a7b52e75275370b713b3fb5e6d637c77bd4"
+      },
+      {
+        "path": "scripts/engine/clips/y1_kurzgesagt.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9fab4ad9d21d05f5b15505d6e839048c564d3463",
+        "size": 13897,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/9fab4ad9d21d05f5b15505d6e839048c564d3463"
+      },
+      {
+        "path": "scripts/engine/clips/y2_vox.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "350eabd5460712e5a30e2a4a8ae268805b9bd471",
+        "size": 13175,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/350eabd5460712e5a30e2a4a8ae268805b9bd471"
+      },
+      {
+        "path": "scripts/engine/clips/y3_whiteboard.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cbf832f49922452bf3efbdd29ed877bb2b891da0",
+        "size": 21303,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/cbf832f49922452bf3efbdd29ed877bb2b891da0"
+      },
+      {
+        "path": "scripts/engine/clips/y4_storytime.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b8765fa2c73e80d553b2bd2b03dc4e8a6a66427",
+        "size": 18020,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4b8765fa2c73e80d553b2bd2b03dc4e8a6a66427"
+      },
+      {
+        "path": "scripts/engine/clips/y5_kinetic_type.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e18f941a526b0636cda845fbd7b3a1eccbf7ba3d",
+        "size": 11842,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/e18f941a526b0636cda845fbd7b3a1eccbf7ba3d"
+      },
+      {
+        "path": "scripts/engine/compare.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "13c27ea81afff69c88775c814cbc01f31ca69219",
+        "size": 1304,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/13c27ea81afff69c88775c814cbc01f31ca69219"
+      },
+      {
+        "path": "scripts/engine/demos",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ddec90f11a8ca09aecb8c08f16dd719622bc41c9",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/ddec90f11a8ca09aecb8c08f16dd719622bc41c9"
+      },
+      {
+        "path": "scripts/engine/demos/_shared",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "57802e1944aea78416efc2136e8bfd297121e081",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/57802e1944aea78416efc2136e8bfd297121e081"
+      },
+      {
+        "path": "scripts/engine/demos/_shared/hero.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "80ee1925127970f3fe16860e90d117674416bc1e",
+        "size": 8115,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/80ee1925127970f3fe16860e90d117674416bc1e"
+      },
+      {
+        "path": "scripts/engine/demos/_shared/hero",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f03552021df9375b8ce69d602d805a728fcd290a",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/f03552021df9375b8ce69d602d805a728fcd290a"
+      },
+      {
+        "path": "scripts/engine/demos/_shared/hero/c1_0.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47c62308a8081c74ff61b779e1c27a013fda3749",
+        "size": 264291,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/47c62308a8081c74ff61b779e1c27a013fda3749"
+      },
+      {
+        "path": "scripts/engine/demos/_shared/hero/c1_1.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86ec86c47fb1479585c9e6fd50f8ff59889dc4e5",
+        "size": 263450,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/86ec86c47fb1479585c9e6fd50f8ff59889dc4e5"
+      },
+      {
+        "path": "scripts/engine/demos/_shared/hero/c1_2.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a576008ac1d7fc6a072056581245368b2e808a4b",
+        "size": 285087,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a576008ac1d7fc6a072056581245368b2e808a4b"
+      },
+      {
+        "path": "scripts/engine/demos/_shared/hero/c3_line.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "45ae5035c2d11a471b5d09cb81d96d33a669eda5",
+        "size": 1022467,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/45ae5035c2d11a471b5d09cb81d96d33a669eda5"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4bec0074abbe73c1caee8769844305508738b9d4",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/4bec0074abbe73c1caee8769844305508738b9d4"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/eras.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c4b39a5568ae43d08a5d943efb0688e08151a1b",
+        "size": 2375,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/6c4b39a5568ae43d08a5d943efb0688e08151a1b"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "351789c973691ae2304c249155a73b30cd2ba54a",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/351789c973691ae2304c249155a73b30cd2ba54a"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_act",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a042a319e7ddcb9c98a01cb7d1eb4f802e9214b4",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/a042a319e7ddcb9c98a01cb7d1eb4f802e9214b4"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_act/01.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ffb186c4c8deaae62511e31041a8644d958c123",
+        "size": 24169,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/3ffb186c4c8deaae62511e31041a8644d958c123"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_act/02.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f4fc4d8b948352107ad921aa6b3263764f549d27",
+        "size": 23024,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f4fc4d8b948352107ad921aa6b3263764f549d27"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_act/03.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7e595902959f400001b91062acf9f180f65e120",
+        "size": 27450,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b7e595902959f400001b91062acf9f180f65e120"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_act/04.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ff1e99bbeb648088bec44346aeaf54ca125aa11",
+        "size": 28052,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/9ff1e99bbeb648088bec44346aeaf54ca125aa11"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_act/05.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f12d09d7b63e40f07319a18b51d7001deb158aea",
+        "size": 29165,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f12d09d7b63e40f07319a18b51d7001deb158aea"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_act/06.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cb8c3074c785fff766f009a965961331430d1ead",
+        "size": 23646,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/cb8c3074c785fff766f009a965961331430d1ead"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_act/07.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "800875a88f21f294aed0c834955efba2d078fa19",
+        "size": 24834,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/800875a88f21f294aed0c834955efba2d078fa19"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_act/08.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b33ac72e30b5b2ea4364af19e33ada4acb4b8942",
+        "size": 29374,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b33ac72e30b5b2ea4364af19e33ada4acb4b8942"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_act/meta.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af6de690c64170414ebe6c62c308f204cad49840",
+        "size": 839,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/af6de690c64170414ebe6c62c308f204cad49840"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_walk",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "36521e061685b2d8aea57327bb385e65b1b78cda",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/36521e061685b2d8aea57327bb385e65b1b78cda"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/01.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82a071c1fd45d24e30b86f7676de6c088995955c",
+        "size": 28692,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/82a071c1fd45d24e30b86f7676de6c088995955c"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/02.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31a98062b284b3f661927c2f83428e372429437c",
+        "size": 27408,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/31a98062b284b3f661927c2f83428e372429437c"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/03.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73c02cfe1becb0bcfdfe8f1a4082b91a9bc869f5",
+        "size": 27940,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/73c02cfe1becb0bcfdfe8f1a4082b91a9bc869f5"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/04.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "395e4072b4212adc2b48b1f0c02d946fee1b1f6a",
+        "size": 27401,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/395e4072b4212adc2b48b1f0c02d946fee1b1f6a"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/05.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e60019f5959f5b07b04aa795ebe64c49b6a1c703",
+        "size": 28635,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/e60019f5959f5b07b04aa795ebe64c49b6a1c703"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/06.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99a872edc266adcec16a8ba785fe04d27bae1d5b",
+        "size": 27057,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/99a872edc266adcec16a8ba785fe04d27bae1d5b"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/07.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e762a2e6efc7230bf2eac7340cf294ec71a89f91",
+        "size": 28038,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/e762a2e6efc7230bf2eac7340cf294ec71a89f91"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/08.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "28d75bc79cbe258e77b59cd30893689db41f0543",
+        "size": 27144,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/28d75bc79cbe258e77b59cd30893689db41f0543"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/meta.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2181be41b069f3126fce576bba0a9a72f435e55f",
+        "size": 835,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/2181be41b069f3126fce576bba0a9a72f435e55f"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bf03764f33a3135c3bd12d207f4d14091446211a",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/bf03764f33a3135c3bd12d207f4d14091446211a"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/01.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a03ebf0b8b6ab656fb18c087176be7d802271ae",
+        "size": 30890,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/3a03ebf0b8b6ab656fb18c087176be7d802271ae"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/02.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99def0989c87d509f4c1cc5d405cf7a409eb6c1e",
+        "size": 35408,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/99def0989c87d509f4c1cc5d405cf7a409eb6c1e"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/03.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1e7f5184f1f57cdc19a79157314cc6e7a520750",
+        "size": 33549,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f1e7f5184f1f57cdc19a79157314cc6e7a520750"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/04.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d275318fbf77259d157e993ecd08d84f8e4013d7",
+        "size": 36543,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/d275318fbf77259d157e993ecd08d84f8e4013d7"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/05.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "93081fbed63baf388485f9914ed6486d4424db67",
+        "size": 36224,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/93081fbed63baf388485f9914ed6486d4424db67"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/06.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e26cef3977cc0373447cd179aa7067f93757bc2",
+        "size": 33737,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/7e26cef3977cc0373447cd179aa7067f93757bc2"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/07.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11ab597c6ade99cc4c07b5e1ed5ceb53cbcc48bd",
+        "size": 30857,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/11ab597c6ade99cc4c07b5e1ed5ceb53cbcc48bd"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/08.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90f53c0bd6d7c40831ef1792606e29704949d2bc",
+        "size": 32654,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/90f53c0bd6d7c40831ef1792606e29704949d2bc"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/meta.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "464923c365f6438042be2964671d6165b790a033",
+        "size": 837,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/464923c365f6438042be2964671d6165b790a033"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a67684b4b044643b6a0574fe9186a83f224a8dad",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/a67684b4b044643b6a0574fe9186a83f224a8dad"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/01.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "029228ec696c29e69ab79a506ec987f77bd746c3",
+        "size": 35765,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/029228ec696c29e69ab79a506ec987f77bd746c3"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/02.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e3460e13f50ffb568becd478902c52a3f3f4788",
+        "size": 33656,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/9e3460e13f50ffb568becd478902c52a3f3f4788"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/03.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "06aaf9957cbc2fb69bdda16a8f533f7df057f4c0",
+        "size": 33987,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/06aaf9957cbc2fb69bdda16a8f533f7df057f4c0"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/04.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "008e226d49ce38052af76684036652505a68154a",
+        "size": 36599,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/008e226d49ce38052af76684036652505a68154a"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/05.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7cd5d996ac8a85fac45a163a6a8c0d41ed13739",
+        "size": 35190,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f7cd5d996ac8a85fac45a163a6a8c0d41ed13739"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/06.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a78c8d4e50c8cc130b8ef18dd7f890b0f98f967",
+        "size": 32390,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5a78c8d4e50c8cc130b8ef18dd7f890b0f98f967"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/07.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f565793114c35977da90901718f9e47ef53a3f0a",
+        "size": 34317,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f565793114c35977da90901718f9e47ef53a3f0a"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/08.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "79248351ee3697bdf96f3b4b156ada5ac65608ac",
+        "size": 35166,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/79248351ee3697bdf96f3b4b156ada5ac65608ac"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/meta.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec779b459e70509228437dd4bb2e5c4af7bdb5fb",
+        "size": 835,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ec779b459e70509228437dd4bb2e5c4af7bdb5fb"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_throw",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "430a678c145574d9bc910ef892785fdf8c2b458b",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/430a678c145574d9bc910ef892785fdf8c2b458b"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_throw/01.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8daefbc39e39dead00740b3a4b4dbcb1a90cbad",
+        "size": 56420,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/e8daefbc39e39dead00740b3a4b4dbcb1a90cbad"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_throw/02.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57e6f820273124bfe2b7dc2472e63b4ba0add232",
+        "size": 61815,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/57e6f820273124bfe2b7dc2472e63b4ba0add232"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_throw/03.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a6fee67fa28c18fa56fc23db45e0795b312225a",
+        "size": 57115,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/7a6fee67fa28c18fa56fc23db45e0795b312225a"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_throw/04.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d2462d60091aec4896a910b63b40b12ce335f479",
+        "size": 58886,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/d2462d60091aec4896a910b63b40b12ce335f479"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_throw/05.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd7f6e52b2aef3f9dc0a4755c100315c2072ba78",
+        "size": 58946,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/fd7f6e52b2aef3f9dc0a4755c100315c2072ba78"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_throw/06.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17d345f571e817a47fde499214bb95853e891c58",
+        "size": 58014,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/17d345f571e817a47fde499214bb95853e891c58"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_throw/07.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8eae301018ef92b929c6647248f0e138948ea67b",
+        "size": 57998,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/8eae301018ef92b929c6647248f0e138948ea67b"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_throw/08.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4ae33446bc859559de7d59b714cf1e549d5090ff",
+        "size": 58969,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4ae33446bc859559de7d59b714cf1e549d5090ff"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_throw/meta.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "311c66442ba925be5feeb2a3af290c66608bb7c0",
+        "size": 873,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/311c66442ba925be5feeb2a3af290c66608bb7c0"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_walk",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "32bb0fa03ca4ce1044b54cd9af673357429aa61d",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/32bb0fa03ca4ce1044b54cd9af673357429aa61d"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_walk/01.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b291311bc60aac67cb8d0a856b88ba67b5a2ec44",
+        "size": 53133,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b291311bc60aac67cb8d0a856b88ba67b5a2ec44"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_walk/02.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "acbe8f6290b49afcf2fb9bf74547dfd801a9e783",
+        "size": 51650,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/acbe8f6290b49afcf2fb9bf74547dfd801a9e783"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_walk/03.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "743ad169976631cb266126c6a7dc5d612ddd969a",
+        "size": 51494,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/743ad169976631cb266126c6a7dc5d612ddd969a"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_walk/04.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83400e0c7ccc0f5af4042150c5b9e9a8b996b817",
+        "size": 49533,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/83400e0c7ccc0f5af4042150c5b9e9a8b996b817"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_walk/05.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cb83696aed33cb912177aaf33b015de42499ed9a",
+        "size": 53114,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/cb83696aed33cb912177aaf33b015de42499ed9a"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_walk/06.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d5704949fc141af4a1fe56188f0ae949cad878ac",
+        "size": 52009,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/d5704949fc141af4a1fe56188f0ae949cad878ac"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_walk/07.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99a7aa57ac6d63f68c4e6d969b133191fa568d42",
+        "size": 51289,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/99a7aa57ac6d63f68c4e6d969b133191fa568d42"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_walk/08.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a119c1dc429d4d251b75b4fb7ed293caa8db6fd",
+        "size": 49630,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/1a119c1dc429d4d251b75b4fb7ed293caa8db6fd"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/frames/monet_walk/meta.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7f522f7bdfc579dcda40967f8f14c703baa2ba52",
+        "size": 873,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/7f522f7bdfc579dcda40967f8f14c703baa2ba52"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/lib",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a402c67bf64af154bade29c3b16ebd89bf0c465a",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/a402c67bf64af154bade29c3b16ebd89bf0c465a"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/lib/acts.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "65e5de2549f9f2ede8de0d717a33b8ae368a5b1c",
+        "size": 7665,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/65e5de2549f9f2ede8de0d717a33b8ae368a5b1c"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/lib/crossing.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dbb44eb1fa99f37a63520e4dea75c38b1f17ab2d",
+        "size": 46063,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/dbb44eb1fa99f37a63520e4dea75c38b1f17ab2d"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/lib/world.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44d28d9203eb1ce4024c411b3f977eecae0242ff",
+        "size": 11814,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/44d28d9203eb1ce4024c411b3f977eecae0242ff"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/lib/xing2_ding.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae09e166392cd0aa3c1b0d459d44907c0d469d6f",
+        "size": 3423,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ae09e166392cd0aa3c1b0d459d44907c0d469d6f"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/lib/xing2_jia.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4ad47350f2ccfc73d24b728c17aebe0aa3291b01",
+        "size": 10243,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4ad47350f2ccfc73d24b728c17aebe0aa3291b01"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/lib/xing2_yi.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "03644346ded6af91442b6a44e062939403a00d88",
+        "size": 12966,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/03644346ded6af91442b6a44e062939403a00d88"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/segments",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "315741b9300472806fcde61b313209636073e2f2",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/315741b9300472806fcde61b313209636073e2f2"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/segments/02_egypt.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aeda459bc4f4dff04edb17318fd42067d6ca6f1c",
+        "size": 26396,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/aeda459bc4f4dff04edb17318fd42067d6ca6f1c"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/segments/14_8bit.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0714ec58c97f5020c381f139fcbec6c699a4ead",
+        "size": 13608,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f0714ec58c97f5020c381f139fcbec6c699a4ead"
+      },
+      {
+        "path": "scripts/engine/demos/long_scroll/segments/28_monet.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71a733f955ef0c2fd77ce838ccaa6c7473f2608a",
+        "size": 9223,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/71a733f955ef0c2fd77ce838ccaa6c7473f2608a"
+      },
+      {
+        "path": "scripts/engine/demos/t1_3b1b",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bd0085b01d86f9b76a77b428eb2543fd06d491b5",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/bd0085b01d86f9b76a77b428eb2543fd06d491b5"
+      },
+      {
+        "path": "scripts/engine/demos/t1_3b1b/eras.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "704a31b8d49f70d0882b7dfff6d87283ef2a373e",
+        "size": 864,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/704a31b8d49f70d0882b7dfff6d87283ef2a373e"
+      },
+      {
+        "path": "scripts/engine/demos/t1_3b1b/t1_s1.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b5d0c35c211fbd766a4aef11a76f5f2a28deb33f",
+        "size": 6281,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b5d0c35c211fbd766a4aef11a76f5f2a28deb33f"
+      },
+      {
+        "path": "scripts/engine/demos/t1_3b1b/t1_s2.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea22ea60d26087442be248e504c954784d7d948e",
+        "size": 5606,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ea22ea60d26087442be248e504c954784d7d948e"
+      },
+      {
+        "path": "scripts/engine/demos/t1_3b1b/t1_s3.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7dae1a437489ae1746bbcd1113e6351081965f14",
+        "size": 5186,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/7dae1a437489ae1746bbcd1113e6351081965f14"
+      },
+      {
+        "path": "scripts/engine/demos/t2_keynote_ui",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "545f24297fb24818c0fe137b6c61f8314a919381",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/545f24297fb24818c0fe137b6c61f8314a919381"
+      },
+      {
+        "path": "scripts/engine/demos/t2_keynote_ui/eras.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "212b967ad16069a4910e03e52f0eb17c6e46bc29",
+        "size": 772,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/212b967ad16069a4910e03e52f0eb17c6e46bc29"
+      },
+      {
+        "path": "scripts/engine/demos/t2_keynote_ui/t2_s1.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ffed95a2d0ab252983858995e1dad5f9137bc2d",
+        "size": 3846,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5ffed95a2d0ab252983858995e1dad5f9137bc2d"
+      },
+      {
+        "path": "scripts/engine/demos/t2_keynote_ui/t2_s2.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d68008d1617de268ab06908d99d401fddd1e489",
+        "size": 4962,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/8d68008d1617de268ab06908d99d401fddd1e489"
+      },
+      {
+        "path": "scripts/engine/demos/t2_keynote_ui/t2_s3.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37086e031372bf1f04f212c7b13595763a9345fe",
+        "size": 4939,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/37086e031372bf1f04f212c7b13595763a9345fe"
+      },
+      {
+        "path": "scripts/engine/demos/t3_finance_chart",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b24e9e75287107c446df24dc33a1175801da8612",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/b24e9e75287107c446df24dc33a1175801da8612"
+      },
+      {
+        "path": "scripts/engine/demos/t3_finance_chart/eras.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0bb6853c8fa6e160d32e586b6e2003684259c435",
+        "size": 907,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/0bb6853c8fa6e160d32e586b6e2003684259c435"
+      },
+      {
+        "path": "scripts/engine/demos/t3_finance_chart/t3_s1.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fddcf7ff08761e34375664ae6a4f079ce5d1edbe",
+        "size": 4313,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/fddcf7ff08761e34375664ae6a4f079ce5d1edbe"
+      },
+      {
+        "path": "scripts/engine/demos/t3_finance_chart/t3_s2.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "614bb2472a06cd1224ae42209068b5125bcbc436",
+        "size": 3433,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/614bb2472a06cd1224ae42209068b5125bcbc436"
+      },
+      {
+        "path": "scripts/engine/demos/t3_finance_chart/t3_s3.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50260994769b1e293244ec664062e5089990f248",
+        "size": 4151,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/50260994769b1e293244ec664062e5089990f248"
+      },
+      {
+        "path": "scripts/engine/demos/y1_kurzgesagt",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "953fc8196692c4428c288716cb6e1adb17bf4498",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/953fc8196692c4428c288716cb6e1adb17bf4498"
+      },
+      {
+        "path": "scripts/engine/demos/y1_kurzgesagt/eras.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "720affa52118fd7818c073facc09307115aec512",
+        "size": 1049,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/720affa52118fd7818c073facc09307115aec512"
+      },
+      {
+        "path": "scripts/engine/demos/y1_kurzgesagt/kurzgesagt.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c75083c4c140fa3d122c0e60201c1d039d701c91",
+        "size": 30396,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/c75083c4c140fa3d122c0e60201c1d039d701c91"
+      },
+      {
+        "path": "scripts/engine/demos/y2_vox",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7a220bb5c15452a3799d4528614dc171c00a3347",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/7a220bb5c15452a3799d4528614dc171c00a3347"
+      },
+      {
+        "path": "scripts/engine/demos/y2_vox/eras.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b0d34b5a39e8f3cb7fb9e78c7f4aba1bba88fcf5",
+        "size": 909,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b0d34b5a39e8f3cb7fb9e78c7f4aba1bba88fcf5"
+      },
+      {
+        "path": "scripts/engine/demos/y2_vox/vox.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7effb124309b64fe065f6dbf8e619b18fc2f5b4",
+        "size": 20625,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b7effb124309b64fe065f6dbf8e619b18fc2f5b4"
+      },
+      {
+        "path": "scripts/engine/demos/y3_whiteboard",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8f83455c2cd2ff9a3bb70ea571e6f7dde613feca",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/8f83455c2cd2ff9a3bb70ea571e6f7dde613feca"
+      },
+      {
+        "path": "scripts/engine/demos/y3_whiteboard/eras.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a42fec27845e8fb7687dfeca5d98cea3c9230a5c",
+        "size": 936,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a42fec27845e8fb7687dfeca5d98cea3c9230a5c"
+      },
+      {
+        "path": "scripts/engine/demos/y3_whiteboard/whiteboard.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea9ab4a7b353661b39677cb70449ee319e264650",
+        "size": 12143,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ea9ab4a7b353661b39677cb70449ee319e264650"
+      },
+      {
+        "path": "scripts/engine/demos/y4_storytime",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7b3944444a32f76649fd8f9ad3f94aa855337dd8",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/7b3944444a32f76649fd8f9ad3f94aa855337dd8"
+      },
+      {
+        "path": "scripts/engine/demos/y4_storytime/eras.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7b1e4a9213f248f6db3429670dd4c0a68ae6989",
+        "size": 1356,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f7b1e4a9213f248f6db3429670dd4c0a68ae6989"
+      },
+      {
+        "path": "scripts/engine/demos/y4_storytime/s1_desk.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6b55722c398529fb93e4815decc59853cee27611",
+        "size": 1179,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/6b55722c398529fb93e4815decc59853cee27611"
+      },
+      {
+        "path": "scripts/engine/demos/y4_storytime/s2_screen.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89e79326b18fb8f5da3b37e4bdd618afd91243e1",
+        "size": 7495,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/89e79326b18fb8f5da3b37e4bdd618afd91243e1"
+      },
+      {
+        "path": "scripts/engine/demos/y4_storytime/s3_react.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40c011e823cd4687871c64689c6ecf31a7e0c05b",
+        "size": 2665,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/40c011e823cd4687871c64689c6ecf31a7e0c05b"
+      },
+      {
+        "path": "scripts/engine/demos/y4_storytime/s4_wide.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f091cebe4ab09aa3fb51cbee80fdd9f73aeffdcb",
+        "size": 974,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f091cebe4ab09aa3fb51cbee80fdd9f73aeffdcb"
+      },
+      {
+        "path": "scripts/engine/demos/y4_storytime/s5_close.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "382abe057bef576466497db4469fbc0224743897",
+        "size": 1187,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/382abe057bef576466497db4469fbc0224743897"
+      },
+      {
+        "path": "scripts/engine/demos/y4_storytime/story.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c96caf62af7381f79497d78fed170c5156d1117",
+        "size": 1796,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/2c96caf62af7381f79497d78fed170c5156d1117"
+      },
+      {
+        "path": "scripts/engine/demos/y4_storytime/vo_env.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3d6a60938f164a390c632d669c6e861a12ab7b10",
+        "size": 3238,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/3d6a60938f164a390c632d669c6e861a12ab7b10"
+      },
+      {
+        "path": "scripts/engine/demos/y4_storytime/world.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a279f1ecc1ada0ee793307f18361634218663589",
+        "size": 6042,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a279f1ecc1ada0ee793307f18361634218663589"
+      },
+      {
+        "path": "scripts/engine/demos/y5_kinetic_type",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fa838067bf8e7476594cfe230733ba63bced7112",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/fa838067bf8e7476594cfe230733ba63bced7112"
+      },
+      {
+        "path": "scripts/engine/demos/y5_kinetic_type/eras.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "87285f334f5fc1e508d8e643c54b050ab573a7df",
+        "size": 1306,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/87285f334f5fc1e508d8e643c54b050ab573a7df"
+      },
+      {
+        "path": "scripts/engine/demos/y5_kinetic_type/k1_title.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e45f67771af0f04c000fbb41a703c9547aab11c9",
+        "size": 2542,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/e45f67771af0f04c000fbb41a703c9547aab11c9"
+      },
+      {
+        "path": "scripts/engine/demos/y5_kinetic_type/k2_complete.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d6fedf02a1622caeadf949561f8904321353bca",
+        "size": 3989,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/1d6fedf02a1622caeadf949561f8904321353bca"
+      },
+      {
+        "path": "scripts/engine/demos/y5_kinetic_type/k3_chat.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "22c6d53ec528fda63280c7a5c6a082d1597a47a4",
+        "size": 3492,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/22c6d53ec528fda63280c7a5c6a082d1597a47a4"
+      },
+      {
+        "path": "scripts/engine/demos/y5_kinetic_type/k4_agent.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "938d458b3e2f84c1daff78bd5908ade553be5a84",
+        "size": 3659,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/938d458b3e2f84c1daff78bd5908ade553be5a84"
+      },
+      {
+        "path": "scripts/engine/demos/y5_kinetic_type/kinetic.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8381d918ed91beb792baa3b0208f8b7087b32ae",
+        "size": 3716,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b8381d918ed91beb792baa3b0208f8b7087b32ae"
+      },
+      {
+        "path": "scripts/engine/engine.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c5d09b447e915b27243c3e07d3be8eda88cbf9ea",
+        "size": 15982,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/c5d09b447e915b27243c3e07d3be8eda88cbf9ea"
+      },
+      {
+        "path": "scripts/engine/eras.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72e6f9f4416e838a45817acc192038ba750cbf4f",
+        "size": 6119,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/72e6f9f4416e838a45817acc192038ba750cbf4f"
+      },
+      {
+        "path": "scripts/engine/eras_gallery.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "41342810cb0be0fc4aafaf969c83196b604b77f6",
+        "size": 14906,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/41342810cb0be0fc4aafaf969c83196b604b77f6"
+      },
+      {
+        "path": "scripts/engine/examples",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "da62a3dacb688638ed45107c2c5899b18f292bb6",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/da62a3dacb688638ed45107c2c5899b18f292bb6"
+      },
+      {
+        "path": "scripts/engine/examples/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d83db1dc08a5ef205cfa85053c4459bafdc6ef00",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/d83db1dc08a5ef205cfa85053c4459bafdc6ef00"
+      },
+      {
+        "path": "scripts/engine/examples/assets/K线图_横屏.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e681fc782734d6ac1e2dc797cbfff11d3e93bf8",
+        "size": 136588,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/9e681fc782734d6ac1e2dc797cbfff11d3e93bf8"
+      },
+      {
+        "path": "scripts/engine/examples/assets/营收图_竖屏.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5735ce105923d990587971456f7b10f492b00bd0",
+        "size": 94276,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5735ce105923d990587971456f7b10f492b00bd0"
+      },
+      {
+        "path": "scripts/engine/examples/assets/财经图表_横屏.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b001e61fc486f7a148f05c8ee23fd32a1465a685",
+        "size": 104272,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b001e61fc486f7a148f05c8ee23fd32a1465a685"
+      },
+      {
+        "path": "scripts/engine/examples/t1_3b1b.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd577aa72d0eedba333bf339f89faaa0092801af",
+        "size": 1304,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/bd577aa72d0eedba333bf339f89faaa0092801af"
+      },
+      {
+        "path": "scripts/engine/examples/t2_keynote_ui.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d4e369b1e8b94c54aed0fdf54876b618f709baa0",
+        "size": 1158,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/d4e369b1e8b94c54aed0fdf54876b618f709baa0"
+      },
+      {
+        "path": "scripts/engine/examples/t3_finance_chart.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59b02d10d3950e55482d2556d0451fcde03eac63",
+        "size": 813,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/59b02d10d3950e55482d2556d0451fcde03eac63"
+      },
+      {
+        "path": "scripts/engine/examples/y1_kurzgesagt.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3189b0142fc266ffa4994dd2c2cd2d38f840ca2",
+        "size": 687,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f3189b0142fc266ffa4994dd2c2cd2d38f840ca2"
+      },
+      {
+        "path": "scripts/engine/examples/y2_vox.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eef18fb49b839d9eeac9fa632777520100c2aa39",
+        "size": 622,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/eef18fb49b839d9eeac9fa632777520100c2aa39"
+      },
+      {
+        "path": "scripts/engine/examples/y3_whiteboard.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20eb9e85e08bfbb87a9c3aa3c13d475cb3b1a615",
+        "size": 768,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/20eb9e85e08bfbb87a9c3aa3c13d475cb3b1a615"
+      },
+      {
+        "path": "scripts/engine/examples/y4_storytime.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a6d61fc4a005d7c53af795d011075b5cae27e2fc",
+        "size": 580,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a6d61fc4a005d7c53af795d011075b5cae27e2fc"
+      },
+      {
+        "path": "scripts/engine/examples/y5_kinetic_type.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1651c9dddb98d8ae478701cffeac3db4bcb30cc",
+        "size": 686,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b1651c9dddb98d8ae478701cffeac3db4bcb30cc"
+      },
+      {
+        "path": "scripts/engine/index.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "257ad2d9869b4f679e4dd0416c54016291ca1d73",
+        "size": 1964,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/257ad2d9869b4f679e4dd0416c54016291ca1d73"
+      },
+      {
+        "path": "scripts/engine/lib",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "198c87921bced8c15887a8dd767b80a467529967",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/198c87921bced8c15887a8dd767b80a467529967"
+      },
+      {
+        "path": "scripts/engine/lib/brush.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c2eeadc90f82e50135a94d80b1326f4479788ca",
+        "size": 11850,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5c2eeadc90f82e50135a94d80b1326f4479788ca"
+      },
+      {
+        "path": "scripts/engine/lib/camera.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fed99d4ba60cb236282759265c233679ac3d5271",
+        "size": 5391,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/fed99d4ba60cb236282759265c233679ac3d5271"
+      },
+      {
+        "path": "scripts/engine/lib/chart.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e18de00ae35ab951117f9547e6b946d4094ee216",
+        "size": 10870,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/e18de00ae35ab951117f9547e6b946d4094ee216"
+      },
+      {
+        "path": "scripts/engine/lib/collage.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3491e46ac4040ea4951a6215df7ef61e406514a",
+        "size": 8972,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f3491e46ac4040ea4951a6215df7ef61e406514a"
+      },
+      {
+        "path": "scripts/engine/lib/diagram.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8baf28f1c084426a886bcffb98225eb13a70d583",
+        "size": 20080,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/8baf28f1c084426a886bcffb98225eb13a70d583"
+      },
+      {
+        "path": "scripts/engine/lib/fonts.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c96e0f285a9902824a8ff9621db2d6061c00d914",
+        "size": 4442,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/c96e0f285a9902824a8ff9621db2d6061c00d914"
+      },
+      {
+        "path": "scripts/engine/lib/fonts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "85e73759e8174145db0dafa858deb01497b89d2e",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/85e73759e8174145db0dafa858deb01497b89d2e"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/AlfaSlabOne-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed5ca898aee8d6c009883b8e175749c0546d9bc5",
+        "size": 41728,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ed5ca898aee8d6c009883b8e175749c0546d9bc5"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Anton-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af925c19f8fba07fcedaa246def2ca066de8a0bc",
+        "size": 61460,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/af925c19f8fba07fcedaa246def2ca066de8a0bc"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/ArchivoBlack-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5273a9c1dd787f49f2c8259b90a14dff9e25b9b8",
+        "size": 38316,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5273a9c1dd787f49f2c8259b90a14dff9e25b9b8"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Bangers-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46c888483959b08f93521c80a18112b8e6e38358",
+        "size": 43808,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/46c888483959b08f93521c80a18112b8e6e38358"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Caveat-600.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9fc847617e47ab384c641e5e1bad555795f0f55",
+        "size": 132264,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a9fc847617e47ab384c641e5e1bad555795f0f55"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Cinzel-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "08649ede82c8d776224a015c55c90a2df4eea9c9",
+        "size": 22812,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/08649ede82c8d776224a015c55c90a2df4eea9c9"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Cinzel-700.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "28f02c19e71e75e823715e685ace79c88ffdd307",
+        "size": 24288,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/28f02c19e71e75e823715e685ace79c88ffdd307"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/CormorantGaramond-500.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4dccf368b0e59fb7f6bb4dfc1d38680ef2ffa5a1",
+        "size": 90464,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4dccf368b0e59fb7f6bb4dfc1d38680ef2ffa5a1"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/CormorantGaramond-500i.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bc493df4e4581c8dd9b8f88e5c15dfa732b9837",
+        "size": 93400,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/3bc493df4e4581c8dd9b8f88e5c15dfa732b9837"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/CormorantGaramond-700.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1ddbfb1ce61e58120d6955d59d21742d7426872",
+        "size": 87248,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f1ddbfb1ce61e58120d6955d59d21742d7426872"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/EBGaramond-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7952db1dbe1b6174b7dea79dacee618c2b1b9e59",
+        "size": 162740,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/7952db1dbe1b6174b7dea79dacee618c2b1b9e59"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/EBGaramond-400i.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6534947ee5bea1e5d5fc8eb384a84a148c86540",
+        "size": 151904,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f6534947ee5bea1e5d5fc8eb384a84a148c86540"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/EBGaramond-600.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d30aa9dc3d3acecfeeb3051ef232c30b18ee8ee5",
+        "size": 179028,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/d30aa9dc3d3acecfeeb3051ef232c30b18ee8ee5"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Exo2-800i.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7437aeef4e45b7f321063be69359af60aed680dc",
+        "size": 60124,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/7437aeef4e45b7f321063be69359af60aed680dc"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/GochiHand-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b500d9a883dbb9c829b34c97cc07648a9d65029e",
+        "size": 23640,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b500d9a883dbb9c829b34c97cc07648a9d65029e"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/IMFellEnglish-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f9b84ad24d7df1c3de1c3ab487fad091320a26c4",
+        "size": 108052,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f9b84ad24d7df1c3de1c3ab487fad091320a26c4"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/IMFellEnglish-400i.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c1d5e42240d0210a583386df4e6dc4defe1fefa",
+        "size": 111628,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/6c1d5e42240d0210a583386df4e6dc4defe1fefa"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Inter-var.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ace36e8017be19b3c1b1bf347f09d6835466e8e6",
+        "size": 126688,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ace36e8017be19b3c1b1bf347f09d6835466e8e6"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/JosefinSans-700.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2e2bfbf8407c0b70e348c4155c1481f8f7065fc7",
+        "size": 26564,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/2e2bfbf8407c0b70e348c4155c1481f8f7065fc7"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Kalam-700.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b31a7658b9e2d7978425ecaf1f1816660b7b4e23",
+        "size": 186044,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b31a7658b9e2d7978425ecaf1f1816660b7b4e23"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/LICENSES.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0533deaf8ce621691fbd791c134a4e4bede9154e",
+        "size": 4498,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/0533deaf8ce621691fbd791c134a4e4bede9154e"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/LXGWWenKai-500.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f02c88fd17d3a10936351fef76596440163c805",
+        "size": 2098296,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4f02c88fd17d3a10936351fef76596440163c805"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/LibreBaskerville-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "70100bd82e15ce4df8e5e0ef2db7967326268efc",
+        "size": 46628,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/70100bd82e15ce4df8e5e0ef2db7967326268efc"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/LibreBaskerville-700.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ede9e63b750769cce553c85f16215f349798a4b",
+        "size": 47524,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/1ede9e63b750769cce553c85f16215f349798a4b"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/LilitaOne-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73646caa4abc54bdbecf865b1cac02e80a0b6d0b",
+        "size": 14372,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/73646caa4abc54bdbecf865b1cac02e80a0b6d0b"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Marcellus-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d593988566742cb3a8fee262e4aa58743d8dd85",
+        "size": 22320,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/8d593988566742cb3a8fee262e4aa58743d8dd85"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/NotoSansSC-500.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c7cade7f4d92173af4c3a1b6e3a44919e2636bc",
+        "size": 1416188,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4c7cade7f4d92173af4c3a1b6e3a44919e2636bc"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/NotoSansSC-700.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e5c21514f3c9c69f2571c9889390a779843d4fe",
+        "size": 1425340,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4e5c21514f3c9c69f2571c9889390a779843d4fe"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/NotoSansSC-800.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "056fba6424656387bd2a4a85efbc9ae3c5db1ef7",
+        "size": 1426988,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/056fba6424656387bd2a4a85efbc9ae3c5db1ef7"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/NotoSansSC-900.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "664a8d52cc3924e36c85599f8c26405c12797817",
+        "size": 1394104,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/664a8d52cc3924e36c85599f8c26405c12797817"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/NotoSansSC-sub.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "972a3b100fd1c74b0aa42eaaae0ab1eb6ee71edf",
+        "size": 331188,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/972a3b100fd1c74b0aa42eaaae0ab1eb6ee71edf"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/NotoSerifJP-600.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "14163512883cb7ab9e075f16033fb7bb209a8ef4",
+        "size": 4415000,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/14163512883cb7ab9e075f16033fb7bb209a8ef4"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/NotoSerifSC-sub.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62d4bee4dc6e53794846689996fcad1c9b8b33a2",
+        "size": 435560,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/62d4bee4dc6e53794846689996fcad1c9b8b33a2"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/OFL.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4670b02de28ecdaa5cafd2356b4a41b629a2e20",
+        "size": 4430,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a4670b02de28ecdaa5cafd2356b4a41b629a2e20"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/PlayfairDisplay-400i.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1f80d059ff71a3a34356fe311c768946d84d441",
+        "size": 50928,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b1f80d059ff71a3a34356fe311c768946d84d441"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/PlayfairDisplay-700.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "507012058185ee64b4f0e9a278a3836302b82c66",
+        "size": 55652,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/507012058185ee64b4f0e9a278a3836302b82c66"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/PlayfairDisplay-700i.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "95def380ef3b56f5ae599a375c05c914ed5c8956",
+        "size": 53612,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/95def380ef3b56f5ae599a375c05c914ed5c8956"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Poppins-600.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5035ee775d447b94636e9859d3a570410b553538",
+        "size": 66232,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5035ee775d447b94636e9859d3a570410b553538"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Poppins-700.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64fbbd9ae3c0b5d59a8757662ead23bfa7bfa2fc",
+        "size": 65616,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/64fbbd9ae3c0b5d59a8757662ead23bfa7bfa2fc"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Poppins-800.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe74641c202b0f5f752322389894bc4f2478392b",
+        "size": 65344,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/fe74641c202b0f5f752322389894bc4f2478392b"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/PressStart2P-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "302418fa53e00fb032203b2be3a64ebee396b8ea",
+        "size": 36184,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/302418fa53e00fb032203b2be3a64ebee396b8ea"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Righteous-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59c797f127fc0d243f8586c6dbcac1afecc173a0",
+        "size": 21028,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/59c797f127fc0d243f8586c6dbcac1afecc173a0"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/RobotoCondensed-var.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1196643983d70c8fcfc751c9bd4177981f0a4ddc",
+        "size": 94036,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/1196643983d70c8fcfc751c9bd4177981f0a4ddc"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/Rye-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "66c64f2e9616104014d094ab60881e57fc1d2d96",
+        "size": 62848,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/66c64f2e9616104014d094ab60881e57fc1d2d96"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/UnifrakturMaguntia-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "580bb9bd4e6ed3971a782f6494cb1f4c7a7cb11b",
+        "size": 39076,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/580bb9bd4e6ed3971a782f6494cb1f4c7a7cb11b"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/cmunrm.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9efca1264afa69d5f0cd016b8c9f48f5144446f8",
+        "size": 123340,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/9efca1264afa69d5f0cd016b8c9f48f5144446f8"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/cmunti.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "122340ad48803a8682b363cc83b0e99a00c80e24",
+        "size": 158668,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/122340ad48803a8682b363cc83b0e99a00c80e24"
+      },
+      {
+        "path": "scripts/engine/lib/fonts/index.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "442742f351a2d1d53520be1ee3962b35ae0d2d92",
+        "size": 1972,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/442742f351a2d1d53520be1ee3962b35ae0d2d92"
+      },
+      {
+        "path": "scripts/engine/lib/kit.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c4de23b17b2386d5c8c68b98cbe5455b44b9dbba",
+        "size": 6542,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/c4de23b17b2386d5c8c68b98cbe5455b44b9dbba"
+      },
+      {
+        "path": "scripts/engine/lib/motion.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "55e4005bad7587b0267855450b97a17d65deb961",
+        "size": 7891,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/55e4005bad7587b0267855450b97a17d65deb961"
+      },
+      {
+        "path": "scripts/engine/lib/paint.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "897661b4527febfb22ef1f04dfbed15d1567ab1d",
+        "size": 15339,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/897661b4527febfb22ef1f04dfbed15d1567ab1d"
+      },
+      {
+        "path": "scripts/engine/lib/post.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4a980381a6cc3721ce024c38dba4bb0e7ae6529",
+        "size": 9939,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b4a980381a6cc3721ce024c38dba4bb0e7ae6529"
+      },
+      {
+        "path": "scripts/engine/lib/render.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ae4a4671764e67943e289999a03836f1f776e6a",
+        "size": 17315,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/6ae4a4671764e67943e289999a03836f1f776e6a"
+      },
+      {
+        "path": "scripts/engine/lib/rig.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c4ef9fb481c46f8358043593a553d38137f4ec85",
+        "size": 34157,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/c4ef9fb481c46f8358043593a553d38137f4ec85"
+      },
+      {
+        "path": "scripts/engine/lib/rig_huashu.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1beff1622066c92195d372bee5f244c9c71121cf",
+        "size": 13708,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/1beff1622066c92195d372bee5f244c9c71121cf"
+      },
+      {
+        "path": "scripts/engine/lib/toon.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "606b828bd583832197a3c3f4fc9a4256426b982b",
+        "size": 13188,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/606b828bd583832197a3c3f4fc9a4256426b982b"
+      },
+      {
+        "path": "scripts/engine/lib/typo.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da397e5c3ff3b809242659ee80fb85b89b1f39ad",
+        "size": 9998,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/da397e5c3ff3b809242659ee80fb85b89b1f39ad"
+      },
+      {
+        "path": "scripts/engine/lib/ui.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8dbf8f16c41dd60ce3a3adad2d691d38ab776cea",
+        "size": 10548,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/8dbf8f16c41dd60ce3a3adad2d691d38ab776cea"
+      },
+      {
+        "path": "scripts/engine/lib/util.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a7846474d9c75e7daa7ca8ec4bc4378fe5dc37e",
+        "size": 6416,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/3a7846474d9c75e7daa7ca8ec4bc4378fe5dc37e"
+      },
+      {
+        "path": "scripts/engine/reference_films",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cb449ef9307f4e85aee78a6b9b246209a88c6ab5",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/cb449ef9307f4e85aee78a6b9b246209a88c6ab5"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9b7839b95a5c786bf130f102e02b91300df492c9",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/9b7839b95a5c786bf130f102e02b91300df492c9"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a8abdff7eb16dc2f7f8bd670e7a4caf55c84074",
+        "size": 2422,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/3a8abdff7eb16dc2f7f8bd670e7a4caf55c84074"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/eras_lin.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17603afb2de654f7e55d2c02b13a111ceb63be40",
+        "size": 787,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/17603afb2de654f7e55d2c02b13a111ceb63be40"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/eras_spacex.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9b2bac76b3f5ac819767c742698f69c70f35ae7a",
+        "size": 539,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/9b2bac76b3f5ac819767c742698f69c70f35ae7a"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/eras_vox.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "07c65965e969316274329bf705e66e71ea000cb4",
+        "size": 708,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/07c65965e969316274329bf705e66e71ea000cb4"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/eras_wbx.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "490bc50c05e0ac53c4f86ece0ad0e19fc533a2fb",
+        "size": 952,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/490bc50c05e0ac53c4f86ece0ad0e19fc533a2fb"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0ee1dff6a5096e78549e8dd5d7448e151b2643d2",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/0ee1dff6a5096e78549e8dd5d7448e151b2643d2"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/rockets.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf827caa4577b4671aa115e166f2cc834e1d96f5",
+        "size": 11307,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/bf827caa4577b4671aa115e166f2cc834e1d96f5"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/scenes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "406b70ae523e1e9ca37485bccdbc4b3e527ad02f",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/406b70ae523e1e9ca37485bccdbc4b3e527ad02f"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/scenes/s01.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c9cc01ea1c2be7cb3f4c19f6656cb0be1395953d",
+        "size": 13607,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/c9cc01ea1c2be7cb3f4c19f6656cb0be1395953d"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/scenes/s02.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b264e0bcd0c070a549175be51c4216a36974e850",
+        "size": 7510,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b264e0bcd0c070a549175be51c4216a36974e850"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/scenes/s03.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d41b7691b6c28ebd32faf241111da1b4e324b740",
+        "size": 19757,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/d41b7691b6c28ebd32faf241111da1b4e324b740"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/scenes/s04.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1273dda11e0f8aa7fef7c206381b5379a729dfd4",
+        "size": 20912,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/1273dda11e0f8aa7fef7c206381b5379a729dfd4"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/scenes/s05.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ddb5e5f9654114abd4fc8c8545dafe3f53256805",
+        "size": 18291,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ddb5e5f9654114abd4fc8c8545dafe3f53256805"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/scenes/s06.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61499bb473f94c8f5bfa03e9633d32785b2c75c2",
+        "size": 17280,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/61499bb473f94c8f5bfa03e9633d32785b2c75c2"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/scenes/s07.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "071d34e8e1e6ec44ab450f75a136827b02500315",
+        "size": 30204,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/071d34e8e1e6ec44ab450f75a136827b02500315"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/scenes/s08.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7d684281901fccb2766e8a502808dfff1a6b32b",
+        "size": 12727,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f7d684281901fccb2766e8a502808dfff1a6b32b"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/scenes/s09.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0262e7dcf8e28ccbf0ffaf01e447d377a66baef0",
+        "size": 19544,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/0262e7dcf8e28ccbf0ffaf01e447d377a66baef0"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/scenes/s10.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b9555ed798f8077ecba331f651fd3d6dfbba76c",
+        "size": 21966,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/2b9555ed798f8077ecba331f651fd3d6dfbba76c"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/scenes/s11.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a2cec6f0bf09e74916910fe4231f5703949e717",
+        "size": 27766,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5a2cec6f0bf09e74916910fe4231f5703949e717"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/scenes/s12.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d86fa906088dd03c15e7a06e15e2e3028db5262",
+        "size": 26464,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/9d86fa906088dd03c15e7a06e15e2e3028db5262"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/timing.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aed95b06b1ac4669f121e56878ba272e7688b0a2",
+        "size": 15196,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/aed95b06b1ac4669f121e56878ba272e7688b0a2"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex/tm.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0014191409f5271083943bad0c8d1d3918edf04",
+        "size": 1038,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a0014191409f5271083943bad0c8d1d3918edf04"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a815dee85ff6fa179547df7c346d0578416694bf",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/a815dee85ff6fa179547df7c346d0578416694bf"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/common.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90ff436aeaafb3592414fd1f16e0952808a3f2b1",
+        "size": 41164,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/90ff436aeaafb3592414fd1f16e0952808a3f2b1"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/presenter_meta.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d4f5362a251c79a05d9b0bb376ea26d28e27848",
+        "size": 6341,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4d4f5362a251c79a05d9b0bb376ea26d28e27848"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ecd2d5994a57eccebae7c8ba598bc09821f40782",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/ecd2d5994a57eccebae7c8ba598bc09821f40782"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s01.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5cbd1606961ba5973d3e9542b28ebde009d552ca",
+        "size": 15145,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5cbd1606961ba5973d3e9542b28ebde009d552ca"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s02.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44133d041cf60fbf3736bdf567d7bb1a32a209c3",
+        "size": 6637,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/44133d041cf60fbf3736bdf567d7bb1a32a209c3"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s03.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e42c9374656a32257cc83e71bee6d39da393ca5",
+        "size": 12056,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/8e42c9374656a32257cc83e71bee6d39da393ca5"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s04.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51126a8e77ff9c04a184ddb2da8330820091a5fa",
+        "size": 8281,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/51126a8e77ff9c04a184ddb2da8330820091a5fa"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s05.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "281126f55b04b3add2adae3db0a83faf88351c62",
+        "size": 12074,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/281126f55b04b3add2adae3db0a83faf88351c62"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s06.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2d9f28d5444369ce5337a5161f23b878f418b1f",
+        "size": 6997,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/e2d9f28d5444369ce5337a5161f23b878f418b1f"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s07.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7b52991553972df22bd7c6c637ee394c5aa7e55",
+        "size": 9524,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b7b52991553972df22bd7c6c637ee394c5aa7e55"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s08.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d01900b2181f4f48f5b81ce5a6404d3f01f7a78c",
+        "size": 13954,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/d01900b2181f4f48f5b81ce5a6404d3f01f7a78c"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s09.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c01b7bbd1875eb12412028f925fa5bde8ed4b222",
+        "size": 9393,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/c01b7bbd1875eb12412028f925fa5bde8ed4b222"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s10.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "046741d1ad0f11ed117174e4654690e197687b72",
+        "size": 11043,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/046741d1ad0f11ed117174e4654690e197687b72"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s11.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ee58fed7c01ec2ffaeced9ed853a34340e910ff",
+        "size": 24016,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/7ee58fed7c01ec2ffaeced9ed853a34340e910ff"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s12.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d5221da7d0571597cfe233ce4c8f4f8b20815bf",
+        "size": 10956,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/6d5221da7d0571597cfe233ce4c8f4f8b20815bf"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d90e0ff346f2a30f37033b277e7f263f1da5e406",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/d90e0ff346f2a30f37033b277e7f263f1da5e406"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_lin/tools/prep_presenter.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "892ab71d1e1f0769fcd44529e76ef0946c791a45",
+        "size": 3147,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/892ab71d1e1f0769fcd44529e76ef0946c791a45"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a551af22c6c7b9550532badefe0b36ae25c87166",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/a551af22c6c7b9550532badefe0b36ae25c87166"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/common.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b09a7be4882e113e7a4376acd22b6dd78aa81ec",
+        "size": 37950,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4b09a7be4882e113e7a4376acd22b6dd78aa81ec"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "810820c9f61d82146ad2086e02c6198cd281f850",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/810820c9f61d82146ad2086e02c6198cd281f850"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s01.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ee62f128b13c57c000e2de2d6a5d761e1bfafb65",
+        "size": 10514,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ee62f128b13c57c000e2de2d6a5d761e1bfafb65"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s02.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f793f04212cbe932ba2f40f054976bc84531cf75",
+        "size": 6000,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f793f04212cbe932ba2f40f054976bc84531cf75"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s03.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53260a25ffc9c3ffc3142e02439e2dcaccd04042",
+        "size": 8153,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/53260a25ffc9c3ffc3142e02439e2dcaccd04042"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s04.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4de6ccd3a1db5a8788bd00c3816ff6b088fd4fdc",
+        "size": 9816,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4de6ccd3a1db5a8788bd00c3816ff6b088fd4fdc"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s05.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a21c48ac81a3d8bf816cd2bc3e957c8c7d7807d",
+        "size": 11097,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/2a21c48ac81a3d8bf816cd2bc3e957c8c7d7807d"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s06.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "785b2fbc35879ae2362dc4fe0843b14c1a018b16",
+        "size": 7485,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/785b2fbc35879ae2362dc4fe0843b14c1a018b16"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s07.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a770a78dc618cc90a70c4076df0d66cd6860c777",
+        "size": 8324,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a770a78dc618cc90a70c4076df0d66cd6860c777"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s08.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a5fff5b798eea5d679aa41daac6a937fab66d55",
+        "size": 10058,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/2a5fff5b798eea5d679aa41daac6a937fab66d55"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s09.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9722d1b1f079dec1b3073d8734131bf8d03eadd",
+        "size": 6252,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a9722d1b1f079dec1b3073d8734131bf8d03eadd"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s10.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ac534e4bd80a27583d1e1da2fd2a6d55bb9bd7d",
+        "size": 12772,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/6ac534e4bd80a27583d1e1da2fd2a6d55bb9bd7d"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s11.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a3a8426965edbac9f34ece872f57e0c4178adc1d",
+        "size": 12871,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a3a8426965edbac9f34ece872f57e0c4178adc1d"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s12.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6210fbbf42ab54f08318bc43144af16794159a0",
+        "size": 10265,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/f6210fbbf42ab54f08318bc43144af16794159a0"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f308ef7da881c6b5d1c72ee6746ab5cfe466b873",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/f308ef7da881c6b5d1c72ee6746ab5cfe466b873"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "26192e6a773fb062a0a92ee8a6eb8f12768bb510",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/26192e6a773fb062a0a92ee8a6eb8f12768bb510"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/ARPHICPL.TXT",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de7491ae3d4e485c9667d95bcde031dd54b42392",
+        "size": 6900,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/de7491ae3d4e485c9667d95bcde031dd54b42392"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/hand_1.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8146eb91ba14439c4dfdd41860a3471c5979576",
+        "size": 155292,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a8146eb91ba14439c4dfdd41860a3471c5979576"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/hand_2.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29e942086392bac5e4923f75326813c780a5403a",
+        "size": 157688,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/29e942086392bac5e4923f75326813c780a5403a"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/hand_3.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a611d7f02d00c5a46ac47a1315aa3dcc286c924",
+        "size": 165164,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/1a611d7f02d00c5a46ac47a1315aa3dcc286c924"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/make_hand.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "81d0b8cb217096055d86a45d35abedb54d3b75ff",
+        "size": 1628,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/81d0b8cb217096055d86a45d35abedb54d3b75ff"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/strokes.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a449d407a7c858e2b0fa187209c757a72d558d9c",
+        "size": 56562,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a449d407a7c858e2b0fa187209c757a72d558d9c"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/common.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "007a2636404b146b32852d685883e4a7b456edfe",
+        "size": 54226,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/007a2636404b146b32852d685883e4a7b456edfe"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6af0b31c2c4d3c36110b29dadc0e86821b07365f",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/6af0b31c2c4d3c36110b29dadc0e86821b07365f"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s01.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "643bcf0b09db46d9914ea0343932c82308aeb0f1",
+        "size": 6837,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/643bcf0b09db46d9914ea0343932c82308aeb0f1"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s02.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "795e20d7bf5f1f885e4d564dbc03b686018f91a7",
+        "size": 4793,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/795e20d7bf5f1f885e4d564dbc03b686018f91a7"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s03.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a1b35e449e7bcd05e489e1d81d635dfc6ddf9a9",
+        "size": 7160,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4a1b35e449e7bcd05e489e1d81d635dfc6ddf9a9"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s04.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69f23e823bf73790ee473100990f6bb346d7207a",
+        "size": 4133,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/69f23e823bf73790ee473100990f6bb346d7207a"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s05.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "649bfaf67892ed690a13e1e4ce77e0a4f09567a9",
+        "size": 6525,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/649bfaf67892ed690a13e1e4ce77e0a4f09567a9"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s06.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad08d87324d206b52cb7f8821227bbbd320f2ee0",
+        "size": 4969,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ad08d87324d206b52cb7f8821227bbbd320f2ee0"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s07.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5f4f13845c476bcd6020a1473f365b962e3d2d9a",
+        "size": 6076,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5f4f13845c476bcd6020a1473f365b962e3d2d9a"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s08.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b2a08827fa93c69d8139417c0433d9fbb3d1ceb3",
+        "size": 8827,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b2a08827fa93c69d8139417c0433d9fbb3d1ceb3"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s09.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d3776fb8203c1538a783f734de27401bce585ff",
+        "size": 4461,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/1d3776fb8203c1538a783f734de27401bce585ff"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s10.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b05bb2b7e0a7d8b4e46609bcd124cd712ad882d",
+        "size": 11234,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/0b05bb2b7e0a7d8b4e46609bcd124cd712ad882d"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s11.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4996fc9e9dfd99d99672e99fbade047e94d2bdef",
+        "size": 7559,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4996fc9e9dfd99d99672e99fbade047e94d2bdef"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s12.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31616baba7e0d009397d190e7d2b347ae07c5b95",
+        "size": 6028,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/31616baba7e0d009397d190e7d2b347ae07c5b95"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/transitions",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "84f7366deb3af208718a58c39650ec4d0a245526",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/84f7366deb3af208718a58c39650ec4d0a245526"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/transitions/cardFlip.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "93a219c60ef43b697bd27db06b47a4d874b0ed13",
+        "size": 2370,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/93a219c60ef43b697bd27db06b47a4d874b0ed13"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/transitions/deskPullOut.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f852ea0fe1059f6c430999782427ee89f499fbd",
+        "size": 535,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/3f852ea0fe1059f6c430999782427ee89f499fbd"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/transitions/kzBloom.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0bf6c095848572e378a358af8bb3a852f1e341de",
+        "size": 1812,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/0bf6c095848572e378a358af8bb3a852f1e341de"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/transitions/lin_page.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82a9ed939196746eeec6b8b1b705c8d0f502ba0c",
+        "size": 6035,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/82a9ed939196746eeec6b8b1b705c8d0f502ba0c"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/transitions/paperSlide.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ac12cade7585f9f9f8cf0859508d662f1a6c713b",
+        "size": 1079,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ac12cade7585f9f9f8cf0859508d662f1a6c713b"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/transitions/vox_pull.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7580da060f2d143a034449362957a60702ad092",
+        "size": 591,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b7580da060f2d143a034449362957a60702ad092"
+      },
+      {
+        "path": "scripts/engine/reference_films/spacex/transitions/vox_slap.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c4c128ab4a396d0e1f11b590afabd54550674881",
+        "size": 771,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/c4c128ab4a396d0e1f11b590afabd54550674881"
+      },
+      {
+        "path": "scripts/engine/render.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ac5eb9853b8938b02afc41708c67a69ef802144d",
+        "size": 7283,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ac5eb9853b8938b02afc41708c67a69ef802144d"
+      },
+      {
+        "path": "scripts/engine/scenes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "293f094f0c185440c80dfad16025b1dff812e513",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/293f094f0c185440c80dfad16025b1dff812e513"
+      },
+      {
+        "path": "scripts/engine/scenes/01_cave.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d9b9dae22060f34edd8cfae1d7f95912b53d0f73",
+        "size": 31417,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/d9b9dae22060f34edd8cfae1d7f95912b53d0f73"
+      },
+      {
+        "path": "scripts/engine/scenes/02_egypt.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b562fdbdf86780c646cd7295888c05e76ba7de40",
+        "size": 50018,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b562fdbdf86780c646cd7295888c05e76ba7de40"
+      },
+      {
+        "path": "scripts/engine/scenes/03_greek.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "731f61622246d98cb715024d50164477ef1fb823",
+        "size": 40744,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/731f61622246d98cb715024d50164477ef1fb823"
+      },
+      {
+        "path": "scripts/engine/scenes/04_roman.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0c813416a5517a22ef4246cbf59eb2604800552",
+        "size": 47611,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a0c813416a5517a22ef4246cbf59eb2604800552"
+      },
+      {
+        "path": "scripts/engine/scenes/05_gothic.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5df30d9435e7f66cc38412834f96cb94942dc354",
+        "size": 40426,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5df30d9435e7f66cc38412834f96cb94942dc354"
+      },
+      {
+        "path": "scripts/engine/scenes/06_renaissance.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d6df5f9eba6320eb588807c3be461aa3b348fcc3",
+        "size": 31437,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/d6df5f9eba6320eb588807c3be461aa3b348fcc3"
+      },
+      {
+        "path": "scripts/engine/scenes/08_impressionism.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "faaf347a12cd971e769569ccf7a2ea5f53fd7fd9",
+        "size": 20908,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/faaf347a12cd971e769569ccf7a2ea5f53fd7fd9"
+      },
+      {
+        "path": "scripts/engine/scenes/09_postimp.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "483ecbfc91661c0b047cfc329e8a5d67c46389a3",
+        "size": 16299,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/483ecbfc91661c0b047cfc329e8a5d67c46389a3"
+      },
+      {
+        "path": "scripts/engine/scenes/10_nouveau.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0cff9a9cb978a32094b6e5cd1f907fdcff429e39",
+        "size": 30381,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/0cff9a9cb978a32094b6e5cd1f907fdcff429e39"
+      },
+      {
+        "path": "scripts/engine/scenes/11_cubism.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e26e76a50c7cee2d8bbc88af4ac856f730a2b8a6",
+        "size": 27428,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/e26e76a50c7cee2d8bbc88af4ac856f730a2b8a6"
+      },
+      {
+        "path": "scripts/engine/scenes/12_bauhaus.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "feade9f50aed8055df0d7015720abd666a12ca7f",
+        "size": 17535,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/feade9f50aed8055df0d7015720abd666a12ca7f"
+      },
+      {
+        "path": "scripts/engine/scenes/13_pop.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "04c1fc844a9cb533a3ddb3066923ab674927e499",
+        "size": 24647,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/04c1fc844a9cb533a3ddb3066923ab674927e499"
+      },
+      {
+        "path": "scripts/engine/scenes/14_8bit.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8418bef5b6ffbfaba8a1866c7a2c02b2d50c17ec",
+        "size": 17139,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/8418bef5b6ffbfaba8a1866c7a2c02b2d50c17ec"
+      },
+      {
+        "path": "scripts/engine/scenes/15_raytrace.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11838972b0d5f6b8ff9a5707290b3ff5eafdab44",
+        "size": 25794,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/11838972b0d5f6b8ff9a5707290b3ff5eafdab44"
+      },
+      {
+        "path": "scripts/engine/scenes/16_2026.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d344cc46db931949461c835cf366c7b69eb0036",
+        "size": 50054,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/2d344cc46db931949461c835cf366c7b69eb0036"
+      },
+      {
+        "path": "scripts/engine/scenes/17_ink.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59cc47c3f64100b07af5b13e341189e1fb9cbf6b",
+        "size": 22782,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/59cc47c3f64100b07af5b13e341189e1fb9cbf6b"
+      },
+      {
+        "path": "scripts/engine/scenes/18_klimt.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ebe5dce8b79bd5b014d96bdfbc58bf4c53ea618",
+        "size": 20835,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/3ebe5dce8b79bd5b014d96bdfbc58bf4c53ea618"
+      },
+      {
+        "path": "scripts/engine/scenes/19_munch.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c9d35197e3a2a1e7091c1274403a333146cf140c",
+        "size": 13393,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/c9d35197e3a2a1e7091c1274403a333146cf140c"
+      },
+      {
+        "path": "scripts/engine/scenes/20_dunhuang.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "376bcc52c205e2a253e78ff5ebec5c1c7b89b2ef",
+        "size": 21588,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/376bcc52c205e2a253e78ff5ebec5c1c7b89b2ef"
+      },
+      {
+        "path": "scripts/engine/scenes/21_kusama.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0925da636bf4299898c4cee4de20b655e0803a4",
+        "size": 11935,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/a0925da636bf4299898c4cee4de20b655e0803a4"
+      },
+      {
+        "path": "scripts/engine/scenes/22_constructivism.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ca468b5cf06de5552e75a50e88e6b1b9c4775198",
+        "size": 16305,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ca468b5cf06de5552e75a50e88e6b1b9c4775198"
+      },
+      {
+        "path": "scripts/engine/scenes/23_dali.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b02d6e9eb4414d08faf1c53df55782dd5988bfe",
+        "size": 20846,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/2b02d6e9eb4414d08faf1c53df55782dd5988bfe"
+      },
+      {
+        "path": "scripts/engine/scenes/24_hopper.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f9eb1116d4905747a773c7fc58b18d46895f94c",
+        "size": 13619,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/4f9eb1116d4905747a773c7fc58b18d46895f94c"
+      },
+      {
+        "path": "scripts/engine/scenes/25_ghibli.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc9255fce34976211ad74ff14e31f327a65035f9",
+        "size": 22700,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/bc9255fce34976211ad74ff14e31f327a65035f9"
+      },
+      {
+        "path": "scripts/engine/scenes/26_vaporwave.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "02eb85d089ce592c9c52b920bc712399162440a6",
+        "size": 17070,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/02eb85d089ce592c9c52b920bc712399162440a6"
+      },
+      {
+        "path": "scripts/engine/scenes/27_kirby.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "16b54bc666f3a391e49e5f31cc12a1f454b02216",
+        "size": 21894,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/16b54bc666f3a391e49e5f31cc12a1f454b02216"
+      },
+      {
+        "path": "scripts/engine/scenes/28_monet.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "424e9a165c7094f4f0ee07a78095e257800a8d9d",
+        "size": 17322,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/424e9a165c7094f4f0ee07a78095e257800a8d9d"
+      },
+      {
+        "path": "scripts/engine/scenes/29_seurat.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3cb8617479c06f05a598796b96422204d90c5208",
+        "size": 11060,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/3cb8617479c06f05a598796b96422204d90c5208"
+      },
+      {
+        "path": "scripts/engine/scenes/30_matisse.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2617fd7b55d3732a4001ac5761e89e0ad59f57e1",
+        "size": 13787,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/2617fd7b55d3732a4001ac5761e89e0ad59f57e1"
+      },
+      {
+        "path": "scripts/engine/scenes/31_haring.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aca68222ae4449e21bcfdd1d94b1eebd463d2f23",
+        "size": 10315,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/aca68222ae4449e21bcfdd1d94b1eebd463d2f23"
+      },
+      {
+        "path": "scripts/engine/scenes/32_rembrandt.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "264178b24fc6dd5112f7f7f867adebcdd0572dc1",
+        "size": 20786,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/264178b24fc6dd5112f7f7f867adebcdd0572dc1"
+      },
+      {
+        "path": "scripts/engine/scenes/33_rubberhose.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b434105cc667561ea5abb589db02c8e31458791d",
+        "size": 18226,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/b434105cc667561ea5abb589db02c8e31458791d"
+      },
+      {
+        "path": "scripts/engine/scenes/34_shadowpuppet.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "02d9f91148fe7792ffb1008ba28d3f74b3883a7b",
+        "size": 18052,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/02d9f91148fe7792ffb1008ba28d3f74b3883a7b"
+      },
+      {
+        "path": "scripts/engine/scenes/35_shinkai.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8485c2925e4d24f3dc71ec31a7369cd6fe16d868",
+        "size": 22142,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/8485c2925e4d24f3dc71ec31a7369cd6fe16d868"
+      },
+      {
+        "path": "scripts/engine/scenes/36_picasso_blue.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5db471d78b54483971ca69ec705b7079a465b3ab",
+        "size": 11565,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/5db471d78b54483971ca69ec705b7079a465b3ab"
+      },
+      {
+        "path": "scripts/engine/scenes/index.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "498c2b583c73638b3edf519ab72319dbec210216",
+        "size": 2439,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/498c2b583c73638b3edf519ab72319dbec210216"
+      },
+      {
+        "path": "scripts/engine/transitions.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "88a459a220fa6155073b3a839c3b17789630d185",
+        "size": 69064,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/88a459a220fa6155073b3a839c3b17789630d185"
+      },
+      {
+        "path": "scripts/engine/时代作者规范.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1585dedb37d5fae2b635fd9cb30920f2087f8a86",
+        "size": 4478,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/1585dedb37d5fae2b635fd9cb30920f2087f8a86"
+      },
+      {
+        "path": "scripts/font_subset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33614ba5b3e7007206df6d972651c07ac2f1cdc4",
+        "size": 7542,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/33614ba5b3e7007206df6d972651c07ac2f1cdc4"
+      },
+      {
+        "path": "scripts/images.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "839c057f7062154f7fb39f5c75a1e9667aa3d83d",
+        "size": 15603,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/839c057f7062154f7fb39f5c75a1e9667aa3d83d"
+      },
+      {
+        "path": "scripts/key_green.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2271d00820784468b1699ddf6fa04b58e6970f7",
+        "size": 1930,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/e2271d00820784468b1699ddf6fa04b58e6970f7"
+      },
+      {
+        "path": "scripts/key_split.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "357a4f25dc0f9b02b2a6c8acf0195e9540552a8f",
+        "size": 1632,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/357a4f25dc0f9b02b2a6c8acf0195e9540552a8f"
+      },
+      {
+        "path": "scripts/koubo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6bbe77162b7ca8ab8e0557983dc1d6cf2b6056b",
+        "size": 18331,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/e6bbe77162b7ca8ab8e0557983dc1d6cf2b6056b"
+      },
+      {
+        "path": "scripts/qa.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "927daaa7a890f54328f088a1dfcb1f6ee8284637",
+        "size": 24784,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/927daaa7a890f54328f088a1dfcb1f6ee8284637"
+      },
+      {
+        "path": "scripts/subzone_gate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "03add14ba71328b9ba3728e4e7d8d2873d726243",
+        "size": 1811,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/03add14ba71328b9ba3728e4e7d8d2873d726243"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c74903f075aca0395a6f3135110a7b0b99cd040e",
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/c74903f075aca0395a6f3135110a7b0b99cd040e"
+      },
+      {
+        "path": "tests/test_capabilities.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff19beaf94e14bae0fe1dc6eacfa8aa6bfb3eeef",
+        "size": 12435,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/ff19beaf94e14bae0fe1dc6eacfa8aa6bfb3eeef"
+      },
+      {
+        "path": "tests/test_images.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "172b6822372b61e072f544d94a86fbb7600b1346",
+        "size": 8353,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/172b6822372b61e072f544d94a86fbb7600b1346"
+      },
+      {
+        "path": "tests/test_local_server.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "28e3591e9fdcdcf55946ab021cfd8e412233260c",
+        "size": 4198,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/28e3591e9fdcdcf55946ab021cfd8e412233260c"
+      },
+      {
+        "path": "tests/test_release.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e5d6513765d612dcec066826da12a9f90095167",
+        "size": 4339,
+        "url": "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/blobs/3e5d6513765d612dcec066826da12a9f90095167"
+      }
+    ],
+    "truncated": false
+  }
+}

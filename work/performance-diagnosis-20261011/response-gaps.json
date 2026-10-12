@@ -1,0 +1,323 @@
+[
+  {
+    "session": "01a1294e-2c8b-78b0-9771-95b2e949020e",
+    "token_info": {
+      "total_token_usage": {
+        "input_tokens": 2260022,
+        "cached_input_tokens": 2091264,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25831,
+        "reasoning_output_tokens": 2177,
+        "total_tokens": 2285853
+      },
+      "last_token_usage": {
+        "input_tokens": 105956,
+        "cached_input_tokens": 104320,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 176,
+        "reasoning_output_tokens": 68,
+        "total_tokens": 106132
+      },
+      "model_context_window": 258400
+    },
+    "last_agent_messages": [
+      {
+        "time": "2026-10-11T05:30:59.013Z",
+        "text": "Message Type: MESSAGE\nTask name: /root\nSender: /root/av_reviewer\nPayload:\n\n"
+      }
+    ],
+    "largest_tool_to_tool_gaps": [
+      {
+        "after": "2026-10-11T05:06:52.597Z",
+        "tool": "exec",
+        "next": "2026-10-11T05:12:10.406Z",
+        "seconds": 318
+      },
+      {
+        "after": "2026-10-11T05:28:30.808Z",
+        "tool": "exec",
+        "next": "2026-10-11T05:32:59.402Z",
+        "seconds": 269
+      },
+      {
+        "after": "2026-10-11T05:32:59.402Z",
+        "tool": "send_message",
+        "next": "2026-10-11T05:36:24.858Z",
+        "seconds": 205
+      },
+      {
+        "after": "2026-10-11T05:00:11.001Z",
+        "tool": "grep",
+        "next": "2026-10-11T05:03:11.232Z",
+        "seconds": 180
+      }
+    ]
+  },
+  {
+    "session": "01a1296c-f25f-7733-a62b-d2108c429536",
+    "token_info": {
+      "total_token_usage": {
+        "input_tokens": 1854147,
+        "cached_input_tokens": 1606016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2042,
+        "reasoning_output_tokens": 118,
+        "total_tokens": 1856189
+      },
+      "last_token_usage": {
+        "input_tokens": 170899,
+        "cached_input_tokens": 166912,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 209,
+        "reasoning_output_tokens": 45,
+        "total_tokens": 171108
+      },
+      "model_context_window": 258400
+    },
+    "last_agent_messages": [
+      {
+        "time": "2026-10-11T05:26:10.728Z",
+        "text": "Message Type: NEW_TASK\nTask name: /root/av_reviewer\nSender: /root\nPayload:\n\n"
+      },
+      {
+        "time": "2026-10-11T05:34:53.108Z",
+        "text": "Message Type: MESSAGE\nTask name: /root/av_reviewer\nSender: /root\nPayload:\n\n"
+      },
+      {
+        "time": "2026-10-11T05:40:03.610Z",
+        "text": "Message Type: MESSAGE\nTask name: /root/av_reviewer\nSender: /root\nPayload:\n\n"
+      }
+    ],
+    "largest_tool_to_tool_gaps": [
+      {
+        "after": "2026-10-11T06:33:52.049Z",
+        "tool": "exec",
+        "next": "2026-10-11T06:49:07.827Z",
+        "seconds": 916
+      },
+      {
+        "after": "2026-10-11T07:02:02.069Z",
+        "tool": "grep",
+        "next": "2026-10-11T07:17:04.484Z",
+        "seconds": 902
+      },
+      {
+        "after": "2026-10-11T06:49:07.827Z",
+        "tool": "inspect_local_file",
+        "next": "2026-10-11T07:02:02.069Z",
+        "seconds": 774
+      },
+      {
+        "after": "2026-10-11T07:17:04.484Z",
+        "tool": "exec",
+        "next": "2026-10-11T07:29:54.650Z",
+        "seconds": 770
+      },
+      {
+        "after": "2026-10-11T06:21:58.786Z",
+        "tool": "exec",
+        "next": "2026-10-11T06:33:52.049Z",
+        "seconds": 713
+      }
+    ]
+  },
+  {
+    "session": "01a12958-186a-7ca3-8186-e232c238898d",
+    "token_info": {
+      "total_token_usage": {
+        "input_tokens": 3082110,
+        "cached_input_tokens": 2968448,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 15318,
+        "reasoning_output_tokens": 2577,
+        "total_tokens": 3097428
+      },
+      "last_token_usage": {
+        "input_tokens": 115199,
+        "cached_input_tokens": 113280,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 870,
+        "reasoning_output_tokens": 37,
+        "total_tokens": 116069
+      },
+      "model_context_window": 258400
+    },
+    "last_agent_messages": [],
+    "largest_tool_to_tool_gaps": [
+      {
+        "after": "2026-10-11T06:17:59.229Z",
+        "tool": "exec",
+        "next": "2026-10-11T06:30:50.942Z",
+        "seconds": 772
+      },
+      {
+        "after": "2026-10-11T07:17:05.616Z",
+        "tool": "wait",
+        "next": "2026-10-11T07:29:23.811Z",
+        "seconds": 738
+      },
+      {
+        "after": "2026-10-11T07:29:23.811Z",
+        "tool": "exec",
+        "next": "2026-10-11T07:40:25.763Z",
+        "seconds": 662
+      },
+      {
+        "after": "2026-10-11T07:00:08.193Z",
+        "tool": "inspect_local_file",
+        "next": "2026-10-11T07:10:03.005Z",
+        "seconds": 595
+      },
+      {
+        "after": "2026-10-11T06:44:43.240Z",
+        "tool": "inspect_local_file",
+        "next": "2026-10-11T06:52:43.457Z",
+        "seconds": 480
+      }
+    ]
+  },
+  {
+    "session": "01a12990-6e9e-7f61-9bdd-6fe08d9381f9",
+    "token_info": {
+      "total_token_usage": {
+        "input_tokens": 2381055,
+        "cached_input_tokens": 2150912,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4773,
+        "reasoning_output_tokens": 179,
+        "total_tokens": 2385828
+      },
+      "last_token_usage": {
+        "input_tokens": 121918,
+        "cached_input_tokens": 88064,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 84,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 122002
+      },
+      "model_context_window": 258400
+    },
+    "last_agent_messages": [
+      {
+        "time": "2026-10-11T07:26:18.877Z",
+        "text": "Message Type: MESSAGE\nTask name: /root/matcha_av_review\nSender: /root\nPayload:\n\n"
+      },
+      {
+        "time": "2026-10-11T07:33:05.873Z",
+        "text": "Message Type: MESSAGE\nTask name: /root/matcha_av_review\nSender: /root\nPayload:\n\n"
+      },
+      {
+        "time": "2026-10-11T07:39:26.296Z",
+        "text": "Message Type: MESSAGE\nTask name: /root/matcha_av_review\nSender: /root\nPayload:\n\n"
+      },
+      {
+        "time": "2026-10-11T07:39:26.303Z",
+        "text": "Message Type: NEW_TASK\nTask name: /root/matcha_av_review\nSender: /root\nPayload:\n\n"
+      }
+    ],
+    "largest_tool_to_tool_gaps": [
+      {
+        "after": "2026-10-11T07:09:18.795Z",
+        "tool": "exec",
+        "next": "2026-10-11T07:21:53.477Z",
+        "seconds": 755
+      },
+      {
+        "after": "2026-10-11T06:50:02.697Z",
+        "tool": "wait_agent",
+        "next": "2026-10-11T06:59:53.398Z",
+        "seconds": 591
+      },
+      {
+        "after": "2026-10-11T07:26:18.330Z",
+        "tool": "exec",
+        "next": "2026-10-11T07:33:05.393Z",
+        "seconds": 407
+      },
+      {
+        "after": "2026-10-11T06:40:37.628Z",
+        "tool": "wait_agent",
+        "next": "2026-10-11T06:45:52.374Z",
+        "seconds": 315
+      },
+      {
+        "after": "2026-10-11T07:21:53.477Z",
+        "tool": "send_message",
+        "next": "2026-10-11T07:26:18.330Z",
+        "seconds": 265
+      }
+    ]
+  },
+  {
+    "session": "01a1281a-0df8-7473-a697-489f61e2dccf",
+    "token_info": {
+      "total_token_usage": {
+        "input_tokens": 10176478,
+        "cached_input_tokens": 9375616,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 44196,
+        "reasoning_output_tokens": 4551,
+        "total_tokens": 10220674
+      },
+      "last_token_usage": {
+        "input_tokens": 92503,
+        "cached_input_tokens": 84352,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 54,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 92557
+      },
+      "model_context_window": 258400
+    },
+    "last_agent_messages": [
+      {
+        "time": "2026-10-11T06:52:43.114Z",
+        "text": "Message Type: MESSAGE\nTask name: /root\nSender: /root/matcha_av_review\nPayload:\n\n"
+      },
+      {
+        "time": "2026-10-11T07:06:31.356Z",
+        "text": "Message Type: MESSAGE\nTask name: /root\nSender: /root/matcha_av_review\nPayload:\n\n"
+      },
+      {
+        "time": "2026-10-11T07:11:54.383Z",
+        "text": "Message Type: FINAL_ANSWER\nTask name: /root\nSender: /root/matcha_av_review\nPayload:\n已落盘：\n\n- `qa/r1/av-review.json`：150帧实际覆盖、逐页哈希、空听音覆盖。\n- `qa/r1/av-review.md`：可读报告。\n- `qa/r1/blind-observation.md`：首次盲看记录。\n\n结论 `incomplete`。无已证实的重大视觉缺陷，画面与局部 brief 符合。真实听音、正常速度动态感知未完成，外部来源仅核对所存摘要；无需为工具限制返工。"
+      },
+      {
+        "time": "2026-10-11T07:21:56.152Z",
+        "text": "Message Type: MESSAGE\nTask name: /root\nSender: /root/matcha_av_review\nPayload:\n\n"
+      }
+    ],
+    "largest_tool_to_tool_gaps": [
+      {
+        "after": "2026-10-11T01:25:55.636Z",
+        "tool": "exec",
+        "next": "2026-10-11T05:09:47.948Z",
+        "seconds": 13432
+      },
+      {
+        "after": "2026-10-11T00:19:19.375Z",
+        "tool": "exec",
+        "next": "2026-10-11T00:58:55.451Z",
+        "seconds": 2376
+      },
+      {
+        "after": "2026-10-11T06:14:13.449Z",
+        "tool": "exec",
+        "next": "2026-10-11T06:52:59.487Z",
+        "seconds": 2326
+      },
+      {
+        "after": "2026-10-10T23:17:01.872Z",
+        "tool": "inspect_local_file",
+        "next": "2026-10-10T23:36:18.734Z",
+        "seconds": 1157
+      },
+      {
+        "after": "2026-10-11T00:58:55.451Z",
+        "tool": "exec",
+        "next": "2026-10-11T01:13:40.787Z",
+        "seconds": 885
+      }
+    ]
+  }
+]

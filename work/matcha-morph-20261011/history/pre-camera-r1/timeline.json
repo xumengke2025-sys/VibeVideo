@@ -1,0 +1,20 @@
+{
+  "title":"一片叶，变成一碗抹茶","duration":35,"width":1080,"height":1920,"fps":30,
+  "preview":{"globalStart":9,"duration":5,"width":540,"height":960,"fps":30,"status":"implementation"},
+  "shots":[
+    {"start":0,"end":3,"id":"leaf","text":"一片叶，怎样变成抹茶？","action":"点→椭圆→鲜叶，叶脉生长"},
+    {"start":3,"end":7,"id":"shade","text":"采摘前遮阴，再采下嫩叶","action":"遮阴、采叶、弧线落下"},
+    {"start":7,"end":11,"id":"steam","text":"蒸青，抑制酶促氧化","action":"蒸汽穿过叶片，叶片保持身份"},
+    {"start":11,"end":15,"id":"dry","text":"不揉捻，干燥制成碾茶","action":"蒸汽丝带转向成为气流，叶片失水展开"},
+    {"start":15,"end":19,"id":"refine","text":"去梗、去叶脉，留下叶肉","action":"精制过程简化示意，碎片形成环"},
+    {"start":19,"end":24,"id":"mill","text":"细细研磨，成为抹茶","note":"石磨示意","action":"圆环变成磨盘轮廓，研磨出粉"},
+    {"start":24,"end":29,"id":"water","text":"加水，让茶粉均匀分散","action":"茶粉入碗，注水"},
+    {"start":29,"end":35,"id":"whisk","text":"从一片叶，到一碗抹茶","action":"茶筅击拂，33.5秒起落定"}
+  ],
+  "previewEvents":[
+    {"at":0,"end":1.55,"id":"steam-hold","sound":"steam","action":"鲜叶在蒸汽中轻微摆动，蒸汽保持向上流动"},
+    {"at":1.55,"end":3.1,"id":"ribbon-morph","sound":"air-turn","action":"三条蒸汽带保持点对应，旋转拉长为横向热风；托盘轮廓展开"},
+    {"at":2.15,"end":4.6,"id":"dry-leaf","sound":"leaf-rustle","action":"主叶连续转向、轻缩收边，水分示意点离开；不揉捻"},
+    {"at":4.6,"end":5,"id":"dry-hold","sound":"settle","action":"保持展开叶片，承接整片后续精制"}
+  ]
+}

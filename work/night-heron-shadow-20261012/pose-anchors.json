@@ -1,0 +1,126 @@
+{
+  "note": "Initial visual estimates, normalized within sourceRect. Not contact-calibrated. Render overlays and adjust before final video. foot is a standing reference, NOT a solved walking support point.",
+  "nominalTorsoPixels": {
+    "heron_idle": 590,
+    "heron_neck": 235,
+    "heron_walk": 250,
+    "heron_disguise": 330,
+    "heron_contact": 325,
+    "penguin_react": 285,
+    "chick": 330
+  },
+  "poses": {
+    "heron_neck.0": {
+      "foot": [
+        0.51,
+        0.83
+      ],
+      "beak": [
+        0.7,
+        0.58
+      ],
+      "shoulder": [
+        0.54,
+        0.4
+      ]
+    },
+    "heron_neck.1": {
+      "foot": [
+        0.5,
+        0.83
+      ],
+      "beak": [
+        0.71,
+        0.38
+      ],
+      "shoulder": [
+        0.52,
+        0.41
+      ]
+    },
+    "heron_neck.2": {
+      "foot": [
+        0.46,
+        0.82
+      ],
+      "beak": [
+        0.76,
+        0.35
+      ],
+      "shoulder": [
+        0.43,
+        0.41
+      ]
+    },
+    "heron_neck.3": {
+      "foot": [
+        0.48,
+        0.82
+      ],
+      "beak": [
+        0.81,
+        0.49
+      ],
+      "shoulder": [
+        0.46,
+        0.41
+      ]
+    },
+    "heron_contact.0": {
+      "foot": [
+        0.45,
+        0.91
+      ],
+      "beak": [
+        0.82,
+        0.42
+      ],
+      "shoulder": [
+        0.52,
+        0.3
+      ]
+    },
+    "heron_contact.1": {
+      "foot": [
+        0.46,
+        0.91
+      ],
+      "beak": [
+        0.83,
+        0.48
+      ],
+      "shoulder": [
+        0.47,
+        0.34
+      ]
+    },
+    "heron_contact.2": {
+      "foot": [
+        0.45,
+        0.92
+      ],
+      "beak": [
+        0.89,
+        0.49
+      ],
+      "shoulder": [
+        0.46,
+        0.35
+      ]
+    },
+    "heron_contact.3": {
+      "foot": [
+        0.47,
+        0.92
+      ],
+      "beak": [
+        0.81,
+        0.28
+      ],
+      "shoulder": [
+        0.45,
+        0.36
+      ]
+    }
+  }
+}

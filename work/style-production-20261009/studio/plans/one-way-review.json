@@ -1,0 +1,234 @@
+{
+  "clip": "one-way",
+  "scope": "Sampling schedule, not a visual or listening verdict.",
+  "states": [
+    {
+      "shot": "promise",
+      "state": "establish",
+      "time": 0.8,
+      "frame": 19
+    },
+    {
+      "shot": "promise",
+      "state": "action",
+      "time": 1.5,
+      "frame": 36
+    },
+    {
+      "shot": "promise",
+      "state": "result",
+      "time": 4,
+      "frame": 96
+    },
+    {
+      "shot": "inside",
+      "state": "establish",
+      "time": 4.5,
+      "frame": 108
+    },
+    {
+      "shot": "inside",
+      "state": "action",
+      "time": 5.5,
+      "frame": 132
+    },
+    {
+      "shot": "inside",
+      "state": "result",
+      "time": 8.5,
+      "frame": 204
+    },
+    {
+      "shot": "parts",
+      "state": "establish",
+      "time": 9,
+      "frame": 216
+    },
+    {
+      "shot": "parts",
+      "state": "action",
+      "time": 10,
+      "frame": 240
+    },
+    {
+      "shot": "parts",
+      "state": "result",
+      "time": 13.8,
+      "frame": 331
+    },
+    {
+      "shot": "forward",
+      "state": "establish",
+      "time": 14,
+      "frame": 336
+    },
+    {
+      "shot": "forward",
+      "state": "action",
+      "time": 15,
+      "frame": 360
+    },
+    {
+      "shot": "forward",
+      "state": "result",
+      "time": 20,
+      "frame": 480
+    },
+    {
+      "shot": "return",
+      "state": "establish",
+      "time": 21.5,
+      "frame": 516
+    },
+    {
+      "shot": "return",
+      "state": "action",
+      "time": 22.1,
+      "frame": 530
+    },
+    {
+      "shot": "return",
+      "state": "result",
+      "time": 26,
+      "frame": 624
+    },
+    {
+      "shot": "answer",
+      "state": "establish",
+      "time": 27,
+      "frame": 648
+    },
+    {
+      "shot": "answer",
+      "state": "action",
+      "time": 28.5,
+      "frame": 684
+    },
+    {
+      "shot": "answer",
+      "state": "result",
+      "time": 31.5,
+      "frame": 756
+    }
+  ],
+  "windows": [
+    {
+      "event": "draw",
+      "anchor": "valve-body",
+      "start": 0,
+      "end": 2.2,
+      "step": 0.2
+    },
+    {
+      "event": "section",
+      "anchor": "valve-body",
+      "start": 4.3,
+      "end": 6.7,
+      "step": 0.2
+    },
+    {
+      "event": "explode",
+      "anchor": "valve-parts",
+      "start": 8.8,
+      "end": 10.6,
+      "step": 0.2
+    },
+    {
+      "event": "assemble",
+      "anchor": "valve-parts",
+      "start": 11.8,
+      "end": 13.2,
+      "step": 0.2
+    },
+    {
+      "event": "open",
+      "anchor": "valve-disc",
+      "start": 13.8,
+      "end": 15.7,
+      "step": 0.2
+    },
+    {
+      "event": "close",
+      "anchor": "valve-seat",
+      "start": 21.3,
+      "end": 22.9,
+      "step": 0.2
+    },
+    {
+      "event": "settle",
+      "anchor": "valve-body",
+      "start": 26.8,
+      "end": 29.7,
+      "step": 0.2
+    }
+  ],
+  "captions": [
+    {
+      "text": "只向一个方向",
+      "start": 0,
+      "end": 4.5
+    },
+    {
+      "text": "答案藏在里面",
+      "start": 4.5,
+      "end": 9
+    },
+    {
+      "text": "阀座 · 阀瓣 · 弹簧",
+      "start": 9,
+      "end": 14
+    },
+    {
+      "text": "正向压差推开阀瓣",
+      "start": 14,
+      "end": 21.5
+    },
+    {
+      "text": "压差降低，弹簧复位",
+      "start": 21.5,
+      "end": 27
+    },
+    {
+      "text": "贴合阀座，通路关闭",
+      "start": 27,
+      "end": 32
+    }
+  ],
+  "sound": [
+    {
+      "event": "draw",
+      "time": 0,
+      "kind": "paper"
+    },
+    {
+      "event": "section",
+      "time": 4.5,
+      "kind": "paper"
+    },
+    {
+      "event": "explode",
+      "time": 9,
+      "kind": "click"
+    },
+    {
+      "event": "assemble",
+      "time": 13,
+      "kind": "click"
+    },
+    {
+      "event": "open",
+      "time": 14,
+      "kind": "flow"
+    },
+    {
+      "event": "close",
+      "time": 22.7,
+      "kind": "click"
+    },
+    {
+      "event": "settle",
+      "time": 27.9,
+      "kind": "stamp"
+    }
+  ]
+}

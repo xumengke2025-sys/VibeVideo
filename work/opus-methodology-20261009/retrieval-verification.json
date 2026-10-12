@@ -1,0 +1,1719 @@
+{
+  "validate": {
+    "args": [
+      "validate"
+    ],
+    "exit_code": 0,
+    "output": {
+      "ok": true,
+      "cards": 35,
+      "indexed_rows": 513,
+      "source_hashes_checked": 688,
+      "errors": []
+    }
+  },
+  "stats": {
+    "args": [
+      "stats"
+    ],
+    "exit_code": 0,
+    "output": {
+      "coverage": {
+        "catalogue_rows": 513,
+        "unique_prompts": 459,
+        "short_prompts_read_in_full": 420,
+        "long_prompts_read_as_excerpts": 39,
+        "all_original_videos_watched": false
+      },
+      "cards": 35,
+      "local_archives": [
+        "beach",
+        "reel",
+        "mg",
+        "paper",
+        "water",
+        "rigid",
+        "songbie",
+        "lemo",
+        "lyric",
+        "clearwater"
+      ],
+      "source_read_only": [
+        "mg",
+        "paper",
+        "water",
+        "rigid",
+        "glass",
+        "songbie",
+        "lemo",
+        "lyric",
+        "clearwater"
+      ],
+      "reference_roles": {
+        "beach": "film",
+        "reel": "film",
+        "mg": "film",
+        "paper": "film_engine",
+        "water": "component",
+        "rigid": "component",
+        "glass": "component",
+        "codex-tools": "independent_tool",
+        "songbie": "film",
+        "lemo": "film",
+        "lyric": "film",
+        "clearwater": "component"
+      },
+      "quality_evidence": {
+        "beach": "representative_frames_and_windows_only",
+        "reel": "representative_frames_and_windows_only",
+        "mg": "source_inspected_video_unreviewed",
+        "paper": "source_inspected_video_unreviewed",
+        "water": "source_inspected_video_unreviewed",
+        "rigid": "source_inspected_video_unreviewed",
+        "glass": "remote_source_only_no_local_archive",
+        "codex-tools": "mechanism_test_only_not_film_benchmark",
+        "songbie": "source_inspected_video_unreviewed",
+        "lemo": "source_inspected_video_unreviewed",
+        "lyric": "source_inspected_video_unreviewed",
+        "clearwater": "source_inspected_video_unreviewed"
+      },
+      "scope": "Reading coverage and source trace, not 513 watched films or verified techniques"
+    }
+  },
+  "mechanical_query": {
+    "args": [
+      "recommend",
+      "--query",
+      "竖屏 弹簧止回阀 剖面 流体",
+      "--limit",
+      "4"
+    ],
+    "exit_code": 0,
+    "output": {
+      "query": "竖屏 弹簧止回阀 剖面 流体",
+      "scope": "需求→方法候选；文本匹配分值不是画质评价。请按目的/失败条件选核心机制。",
+      "cards": [
+        {
+          "id": "mechanical-section",
+          "title": "先建立器件，再剖开关键接触",
+          "matched_terms": [
+            "剖面",
+            "止回阀",
+            "弹簧",
+            "流体"
+          ],
+          "purpose": "解释看不见的接触、密封和受力关系。",
+          "status": "design_inference_from_public_brief",
+          "sources": [],
+          "reference_leads": [
+            {
+              "slug": "op7418-814408",
+              "url": "https://skillry.dev/ai-videos/opus-5-5/op7418-814408",
+              "evidence": "public_brief_only_unless_source_shown",
+              "visual_provenance": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "liquid-union",
+          "title": "液体用连续场融合并继承颜色",
+          "matched_terms": [
+            "流体"
+          ],
+          "purpose": "分离、连接和落定看起来属于同一种材料。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "mg",
+              "repository": "https://github.com/Vincentwei1021/mg-styles-15",
+              "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+              "relation": "supplementary_films",
+              "runtime": "source_read_only",
+              "scope": "保存15种风格工程的文本源码；本轮精读形变/液体/手绘/像素/等距采样的选定实现。媒体、字体及部分素材不在包中，没有逐片回放。",
+              "commit_date": "2026-10-05T11:23:16Z",
+              "reference_role": "film",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "license_note": "代码MIT；字体和glyphs等衍生轮廓保留OFL等原许可，见上游README及assets/fonts/README.md。不能把全包统一视为MIT。",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\mg-styles-15\\demos\\07-liquid\\js\\shaders.js",
+              "line": 95,
+              "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/07-liquid/js/shaders.js#L95"
+            }
+          ],
+          "reference_leads": []
+        },
+        {
+          "id": "rigid-contact",
+          "title": "受力、关节与断裂提供动作因果",
+          "matched_terms": [
+            "弹簧"
+          ],
+          "purpose": "大数量对象运动有接触、重量和后果。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "rigid",
+              "repository": "https://github.com/sbobyn/three-avbd",
+              "commit": "9b9c27b6b65a1212896e4d90e7e3d154c06e428a",
+              "relation": "gallery_source_link",
+              "runtime": "source_read_only",
+              "scope": "WebGPU刚体/关节/GPU绘制代码；basic随机数与Clock不是可乱序电影时间轴。没有运行或确认发布录屏与此commit一致。",
+              "commit_date": "2026-10-06T18:28:01Z",
+              "reference_role": "component",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\three-avbd\\examples\\basic.ts",
+              "line": 29,
+              "url": "https://github.com/sbobyn/three-avbd/blob/9b9c27b6b65a1212896e4d90e7e3d154c06e428a/examples/basic.ts#L29"
+            }
+          ],
+          "reference_leads": [
+            {
+              "slug": "nybobs-680050",
+              "url": "https://skillry.dev/ai-videos/opus-5-5/nybobs-680050",
+              "evidence": "public_brief_only_unless_source_shown",
+              "visual_provenance": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "water-cause",
+          "title": "地形、水量和材质形成因果",
+          "matched_terms": [
+            "流体"
+          ],
+          "purpose": "看到水为什么沿坡走、在何处蓄积。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "water",
+              "repository": "https://github.com/AiondaDotCom/ai-sim-benchmark",
+              "commit": "680f87e6d54984199525dd12005bd95711bb47bb",
+              "relation": "gallery_source_link",
+              "runtime": "source_read_only",
+              "scope": "只采用claude-code-opus-5-5分支。源码证明网格浅水与着色；原帖与具体录屏像素一致性未验证，实时循环会丢积压步。",
+              "commit_date": "2026-09-24T07:04:05Z",
+              "reference_role": "component",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\water-opus\\runs\\claude-code-opus-5-5\\src\\sim\\water.ts",
+              "line": 159,
+              "url": "https://github.com/AiondaDotCom/ai-sim-benchmark/blob/680f87e6d54984199525dd12005bd95711bb47bb/runs/claude-code-opus-5-5/src/sim/water.ts#L159"
+            },
+            {
+              "id": "water",
+              "repository": "https://github.com/AiondaDotCom/ai-sim-benchmark",
+              "commit": "680f87e6d54984199525dd12005bd95711bb47bb",
+              "relation": "gallery_source_link",
+              "runtime": "source_read_only",
+              "scope": "只采用claude-code-opus-5-5分支。源码证明网格浅水与着色；原帖与具体录屏像素一致性未验证，实时循环会丢积压步。",
+              "commit_date": "2026-09-24T07:04:05Z",
+              "reference_role": "component",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\water-opus\\runs\\claude-code-opus-5-5\\src\\render\\waterMesh.ts",
+              "line": 165,
+              "url": "https://github.com/AiondaDotCom/ai-sim-benchmark/blob/680f87e6d54984199525dd12005bd95711bb47bb/runs/claude-code-opus-5-5/src/render/waterMesh.ts#L165"
+            }
+          ],
+          "reference_leads": [
+            {
+              "slug": "stephanferraro-224281",
+              "url": "https://skillry.dev/ai-videos/opus-5-5/stephanferraro-224281",
+              "evidence": "public_brief_only_unless_source_shown",
+              "visual_provenance": "unknown"
+            }
+          ]
+        }
+      ],
+      "unresolved": null
+    }
+  },
+  "code_query": {
+    "args": [
+      "recommend",
+      "--query",
+      "点云 长焦 运镜 水流 碰撞",
+      "--code-only",
+      "--limit",
+      "8"
+    ],
+    "exit_code": 0,
+    "output": {
+      "query": "点云 长焦 运镜 水流 碰撞",
+      "scope": "需求→方法候选；文本匹配分值不是画质评价。请按目的/失败条件选核心机制。",
+      "cards": [
+        {
+          "id": "event-story",
+          "title": "接触事件同时推进剧情与声音",
+          "matched_terms": [
+            "碰撞"
+          ],
+          "purpose": "观众相信变化是行动造成的。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "paper",
+              "repository": "https://github.com/francozanardi/papermotion",
+              "commit": "aafddbe2dbc2b594bcd57c19c4a5a75c5c271be8",
+              "relation": "supplementary_engine_and_films",
+              "runtime": "source_read_only",
+              "scope": "纸片引擎与影片文本源码；light由作者标为GPT 6 Astra，其他示例模型归属各异，不统一标为Opus。Stage仅递增帧。",
+              "commit_date": "2026-09-26T07:17:57Z",
+              "reference_role": "film_engine",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\papermotion\\examples\\light\\main.ts",
+              "line": 25,
+              "url": "https://github.com/francozanardi/papermotion/blob/aafddbe2dbc2b594bcd57c19c4a5a75c5c271be8/examples/light/main.ts#L25"
+            },
+            {
+              "id": "paper",
+              "repository": "https://github.com/francozanardi/papermotion",
+              "commit": "aafddbe2dbc2b594bcd57c19c4a5a75c5c271be8",
+              "relation": "supplementary_engine_and_films",
+              "runtime": "source_read_only",
+              "scope": "纸片引擎与影片文本源码；light由作者标为GPT 6 Astra，其他示例模型归属各异，不统一标为Opus。Stage仅递增帧。",
+              "commit_date": "2026-09-26T07:17:57Z",
+              "reference_role": "film_engine",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\papermotion\\src\\direction\\Beats.ts",
+              "line": 78,
+              "url": "https://github.com/francozanardi/papermotion/blob/aafddbe2dbc2b594bcd57c19c4a5a75c5c271be8/src/direction/Beats.ts#L78"
+            }
+          ],
+          "reference_leads": []
+        },
+        {
+          "id": "hold-cause",
+          "title": "在因果点保持相机稳定",
+          "matched_terms": [
+            "碰撞"
+          ],
+          "purpose": "观众能分清原因、变化与结果。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "beach",
+              "repository": "https://github.com/ishuagrawal/particle-beach",
+              "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+              "relation": "gallery_original_link",
+              "runtime": "representative_frames_and_continuous_window",
+              "scope": "完整绘制运行源码已保存；回放有少量重复像素差和局部近黑帧，不作为全片质量保证。",
+              "commit_date": "2026-09-24T00:22:09Z",
+              "reference_role": "film",
+              "quality_evidence": "representative_frames_and_windows_only",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\particle-beach\\js\\trailer-shots.js",
+              "line": 162,
+              "url": "https://github.com/ishuagrawal/particle-beach/blob/92db82255b962acf2930f19bf6e5e7790174a790/js/trailer-shots.js#L162"
+            }
+          ],
+          "reference_leads": []
+        },
+        {
+          "id": "low-travel",
+          "title": "低位穿行，用遮挡证明纵深",
+          "matched_terms": [
+            "运镜"
+          ],
+          "purpose": "让观众进入场景并感受规模。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "beach",
+              "repository": "https://github.com/ishuagrawal/particle-beach",
+              "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+              "relation": "gallery_original_link",
+              "runtime": "representative_frames_and_continuous_window",
+              "scope": "完整绘制运行源码已保存；回放有少量重复像素差和局部近黑帧，不作为全片质量保证。",
+              "commit_date": "2026-09-24T00:22:09Z",
+              "reference_role": "film",
+              "quality_evidence": "representative_frames_and_windows_only",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\particle-beach\\js\\trailer-shots.js",
+              "line": 75,
+              "url": "https://github.com/ishuagrawal/particle-beach/blob/92db82255b962acf2930f19bf6e5e7790174a790/js/trailer-shots.js#L75"
+            }
+          ],
+          "reference_leads": []
+        },
+        {
+          "id": "point-correspondence",
+          "title": "点身份持续，形态才能接续",
+          "matched_terms": [
+            "点云"
+          ],
+          "purpose": "从抽象点场变为有意义的形状。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "reel",
+              "repository": "https://github.com/tuzhechen2005/opus-video-skills",
+              "commit": "59744a69c7b916cfbe4c4ec84006b0c2f5e2fde1",
+              "relation": "supplementary_film",
+              "runtime": "representative_frames_and_continuous_window",
+              "scope": "work-reel-26完整绘制运行部分；补充作品，不是图库513原作的同一工程。",
+              "commit_date": "2026-09-27T01:17:14Z",
+              "reference_role": "film",
+              "quality_evidence": "representative_frames_and_windows_only",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\work-reel-26\\skills\\kinetic-reel\\examples\\work-reel-26\\reel.js",
+              "line": 122,
+              "url": "https://github.com/tuzhechen2005/opus-video-skills/blob/59744a69c7b916cfbe4c4ec84006b0c2f5e2fde1/skills/kinetic-reel/examples/work-reel-26/reel.js#L122"
+            }
+          ],
+          "reference_leads": []
+        },
+        {
+          "id": "point-volume",
+          "title": "点云有实体深度与遮挡",
+          "matched_terms": [
+            "点云"
+          ],
+          "purpose": "点的风格保留空间结构。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "beach",
+              "repository": "https://github.com/ishuagrawal/particle-beach",
+              "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+              "relation": "gallery_original_link",
+              "runtime": "representative_frames_and_continuous_window",
+              "scope": "完整绘制运行源码已保存；回放有少量重复像素差和局部近黑帧，不作为全片质量保证。",
+              "commit_date": "2026-09-24T00:22:09Z",
+              "reference_role": "film",
+              "quality_evidence": "representative_frames_and_windows_only",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\particle-beach\\js\\core.js",
+              "line": 1,
+              "url": "https://github.com/ishuagrawal/particle-beach/blob/92db82255b962acf2930f19bf6e5e7790174a790/js/core.js#L1"
+            }
+          ],
+          "reference_leads": []
+        },
+        {
+          "id": "reveal-path",
+          "title": "位置与目标双轨迹揭示主体",
+          "matched_terms": [
+            "运镜"
+          ],
+          "purpose": "用机位变化带来新理解。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "beach",
+              "repository": "https://github.com/ishuagrawal/particle-beach",
+              "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+              "relation": "gallery_original_link",
+              "runtime": "representative_frames_and_continuous_window",
+              "scope": "完整绘制运行源码已保存；回放有少量重复像素差和局部近黑帧，不作为全片质量保证。",
+              "commit_date": "2026-09-24T00:22:09Z",
+              "reference_role": "film",
+              "quality_evidence": "representative_frames_and_windows_only",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\particle-beach\\js\\trailer-shots.js",
+              "line": 133,
+              "url": "https://github.com/ishuagrawal/particle-beach/blob/92db82255b962acf2930f19bf6e5e7790174a790/js/trailer-shots.js#L133"
+            }
+          ],
+          "reference_leads": []
+        },
+        {
+          "id": "rigid-contact",
+          "title": "受力、关节与断裂提供动作因果",
+          "matched_terms": [
+            "碰撞"
+          ],
+          "purpose": "大数量对象运动有接触、重量和后果。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "rigid",
+              "repository": "https://github.com/sbobyn/three-avbd",
+              "commit": "9b9c27b6b65a1212896e4d90e7e3d154c06e428a",
+              "relation": "gallery_source_link",
+              "runtime": "source_read_only",
+              "scope": "WebGPU刚体/关节/GPU绘制代码；basic随机数与Clock不是可乱序电影时间轴。没有运行或确认发布录屏与此commit一致。",
+              "commit_date": "2026-10-06T18:28:01Z",
+              "reference_role": "component",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\three-avbd\\examples\\basic.ts",
+              "line": 29,
+              "url": "https://github.com/sbobyn/three-avbd/blob/9b9c27b6b65a1212896e4d90e7e3d154c06e428a/examples/basic.ts#L29"
+            }
+          ],
+          "reference_leads": [
+            {
+              "slug": "nybobs-680050",
+              "url": "https://skillry.dev/ai-videos/opus-5-5/nybobs-680050",
+              "evidence": "public_brief_only_unless_source_shown",
+              "visual_provenance": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "telephoto",
+          "title": "远机位与窄视角压缩空间",
+          "matched_terms": [
+            "长焦"
+          ],
+          "purpose": "让背景与主体形成强图形关系。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "beach",
+              "repository": "https://github.com/ishuagrawal/particle-beach",
+              "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+              "relation": "gallery_original_link",
+              "runtime": "representative_frames_and_continuous_window",
+              "scope": "完整绘制运行源码已保存；回放有少量重复像素差和局部近黑帧，不作为全片质量保证。",
+              "commit_date": "2026-09-24T00:22:09Z",
+              "reference_role": "film",
+              "quality_evidence": "representative_frames_and_windows_only",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\particle-beach\\js\\trailer-shots.js",
+              "line": 49,
+              "url": "https://github.com/ishuagrawal/particle-beach/blob/92db82255b962acf2930f19bf6e5e7790174a790/js/trailer-shots.js#L49"
+            }
+          ],
+          "reference_leads": []
+        }
+      ],
+      "unresolved": null
+    }
+  },
+  "unknown_query": {
+    "args": [
+      "recommend",
+      "--query",
+      "zzzzunknownrequest9876"
+    ],
+    "exit_code": 0,
+    "output": {
+      "query": "zzzzunknownrequest9876",
+      "scope": "需求→方法候选；文本匹配分值不是画质评价。请按目的/失败条件选核心机制。",
+      "cards": [],
+      "unresolved": "没有匹配时自行建立brief，不以随机热门案例填充。"
+    }
+  },
+  "morph_card": {
+    "args": [
+      "card",
+      "outline-morph"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "outline-morph",
+      "title": "轮廓、孔洞与附属笔画分别形变",
+      "terms": [
+        "形变",
+        "morph",
+        "轮廓",
+        "图标",
+        "字形",
+        "logo"
+      ],
+      "purpose": "让转变保留身份，同时有可辨认的中间形。",
+      "relation": "主体轮廓、孔洞、笔画和阴影分别配对。",
+      "decisions": "先选择需要保留的负形；拓扑相差大时通过共同圆形中间态。辅笔画错峰收拢，避免主体糊成一团。",
+      "implementation": "弧长重采样→统一绕向→循环位移最小距离配点→分阶段插值；孔洞缩到质心再长出。",
+      "failure": "点数一致仍可能自交；孔洞突然闪灭，笔画与主体挤压。",
+      "review": "逐看25/50/75%轮廓、凹陷和孔洞；以主对象身份连续和中间态干净为标准。",
+      "source_refs": [
+        {
+          "source": "mg",
+          "path": "demos/08-morph/index.html",
+          "line": 60
+        },
+        {
+          "source": "mg",
+          "path": "demos/08-morph/index.html",
+          "line": 344
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。",
+      "source_details": [
+        {
+          "id": "mg",
+          "repository": "https://github.com/Vincentwei1021/mg-styles-15",
+          "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+          "relation": "supplementary_films",
+          "runtime": "source_read_only",
+          "scope": "保存15种风格工程的文本源码；本轮精读形变/液体/手绘/像素/等距采样的选定实现。媒体、字体及部分素材不在包中，没有逐片回放。",
+          "commit_date": "2026-10-05T11:23:16Z",
+          "reference_role": "film",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "license_note": "代码MIT；字体和glyphs等衍生轮廓保留OFL等原许可，见上游README及assets/fonts/README.md。不能把全包统一视为MIT。",
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\mg-styles-15\\demos\\08-morph\\index.html",
+          "line": 60,
+          "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/08-morph/index.html#L60"
+        },
+        {
+          "id": "mg",
+          "repository": "https://github.com/Vincentwei1021/mg-styles-15",
+          "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+          "relation": "supplementary_films",
+          "runtime": "source_read_only",
+          "scope": "保存15种风格工程的文本源码；本轮精读形变/液体/手绘/像素/等距采样的选定实现。媒体、字体及部分素材不在包中，没有逐片回放。",
+          "commit_date": "2026-10-05T11:23:16Z",
+          "reference_role": "film",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "license_note": "代码MIT；字体和glyphs等衍生轮廓保留OFL等原许可，见上游README及assets/fonts/README.md。不能把全包统一视为MIT。",
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\mg-styles-15\\demos\\08-morph\\index.html",
+          "line": 344,
+          "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/08-morph/index.html#L344"
+        }
+      ]
+    }
+  },
+  "source_beach": {
+    "args": [
+      "source",
+      "beach"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "beach",
+      "repository": "https://github.com/ishuagrawal/particle-beach",
+      "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+      "relation": "gallery_original_link",
+      "runtime": "representative_frames_and_continuous_window",
+      "scope": "完整绘制运行源码已保存；回放有少量重复像素差和局部近黑帧，不作为全片质量保证。",
+      "commit_date": "2026-09-24T00:22:09Z",
+      "reference_role": "film",
+      "quality_evidence": "representative_frames_and_windows_only",
+      "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\particle-beach"
+    }
+  },
+  "source_reel": {
+    "args": [
+      "source",
+      "reel"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "reel",
+      "repository": "https://github.com/tuzhechen2005/opus-video-skills",
+      "commit": "59744a69c7b916cfbe4c4ec84006b0c2f5e2fde1",
+      "relation": "supplementary_film",
+      "runtime": "representative_frames_and_continuous_window",
+      "scope": "work-reel-26完整绘制运行部分；补充作品，不是图库513原作的同一工程。",
+      "commit_date": "2026-09-27T01:17:14Z",
+      "reference_role": "film",
+      "quality_evidence": "representative_frames_and_windows_only",
+      "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\work-reel-26"
+    }
+  },
+  "source_mg": {
+    "args": [
+      "source",
+      "mg"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "mg",
+      "repository": "https://github.com/Vincentwei1021/mg-styles-15",
+      "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+      "relation": "supplementary_films",
+      "runtime": "source_read_only",
+      "scope": "保存15种风格工程的文本源码；本轮精读形变/液体/手绘/像素/等距采样的选定实现。媒体、字体及部分素材不在包中，没有逐片回放。",
+      "commit_date": "2026-10-05T11:23:16Z",
+      "reference_role": "film",
+      "quality_evidence": "source_inspected_video_unreviewed",
+      "license_note": "代码MIT；字体和glyphs等衍生轮廓保留OFL等原许可，见上游README及assets/fonts/README.md。不能把全包统一视为MIT。",
+      "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\mg-styles-15"
+    }
+  },
+  "source_paper": {
+    "args": [
+      "source",
+      "paper"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "paper",
+      "repository": "https://github.com/francozanardi/papermotion",
+      "commit": "aafddbe2dbc2b594bcd57c19c4a5a75c5c271be8",
+      "relation": "supplementary_engine_and_films",
+      "runtime": "source_read_only",
+      "scope": "纸片引擎与影片文本源码；light由作者标为GPT 6 Astra，其他示例模型归属各异，不统一标为Opus。Stage仅递增帧。",
+      "commit_date": "2026-09-26T07:17:57Z",
+      "reference_role": "film_engine",
+      "quality_evidence": "source_inspected_video_unreviewed",
+      "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\papermotion"
+    }
+  },
+  "source_water": {
+    "args": [
+      "source",
+      "water"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "water",
+      "repository": "https://github.com/AiondaDotCom/ai-sim-benchmark",
+      "commit": "680f87e6d54984199525dd12005bd95711bb47bb",
+      "relation": "gallery_source_link",
+      "runtime": "source_read_only",
+      "scope": "只采用claude-code-opus-5-5分支。源码证明网格浅水与着色；原帖与具体录屏像素一致性未验证，实时循环会丢积压步。",
+      "commit_date": "2026-09-24T07:04:05Z",
+      "reference_role": "component",
+      "quality_evidence": "source_inspected_video_unreviewed",
+      "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\water-opus"
+    }
+  },
+  "source_rigid": {
+    "args": [
+      "source",
+      "rigid"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "rigid",
+      "repository": "https://github.com/sbobyn/three-avbd",
+      "commit": "9b9c27b6b65a1212896e4d90e7e3d154c06e428a",
+      "relation": "gallery_source_link",
+      "runtime": "source_read_only",
+      "scope": "WebGPU刚体/关节/GPU绘制代码；basic随机数与Clock不是可乱序电影时间轴。没有运行或确认发布录屏与此commit一致。",
+      "commit_date": "2026-10-06T18:28:01Z",
+      "reference_role": "component",
+      "quality_evidence": "source_inspected_video_unreviewed",
+      "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\three-avbd"
+    }
+  },
+  "source_songbie": {
+    "args": [
+      "source",
+      "songbie"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "songbie",
+      "repository": "https://github.com/JohnnyWang8802/songbie",
+      "commit": "97225eb54a351c9938ad896e04bef7a7020393fb",
+      "relation": "supplementary_opus_film",
+      "runtime": "source_read_only",
+      "scope": "保存8个文本文件；旋律/绘制源码已读，未观看或运行成片；Logic Pro钢琴样本、歌曲音轨与成片不在包中。",
+      "commit_date": "2026-10-01T15:27:53Z",
+      "repository_created": "2026-10-01T15:27:54Z",
+      "reference_role": "film",
+      "quality_evidence": "source_inspected_video_unreviewed",
+      "model_attribution": "作者README声明Claude Opus 5.5制作代码；所读视觉路径为Canvas，不调用生成视频服务。",
+      "license_note": "代码MIT；钢琴样本不随包，曲谱旋律公共领域的说明来自作者。",
+      "inspected": [
+        "README.md:1-63",
+        "score.js:1-96",
+        "render.js:1-74,147-206,278-323,592-657,934-1011"
+      ],
+      "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\songbie"
+    }
+  },
+  "source_lemo": {
+    "args": [
+      "source",
+      "lemo"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "lemo",
+      "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+      "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+      "relation": "supplementary_opus_films_selected_styles",
+      "runtime": "source_read_only",
+      "scope": "作者称43种风格；只归档4种选定风格及共享代码共147文件，未逐风格运行/审片。字体、音频、图片、模型与依赖不完整。",
+      "commit_date": "2026-10-08T14:00:14Z",
+      "repository_created": "2026-09-26T10:10:41Z",
+      "reference_role": "film",
+      "quality_evidence": "source_inspected_video_unreviewed",
+      "model_attribution": "作者README声明Opus 5.5代码影片；已读选定绘制路径。43种风格及98长片没有全面审查。",
+      "license_note": "根LICENSE为MIT，第三方字体/音乐/声音/样本等独立许可；GitHub API的NOASSERTION不代表没有LICENSE。",
+      "inspected": [
+        "LICENSE:1-26",
+        "styles/art-deco/demo/engine/cam.js:1-28",
+        "styles/art-deco/demo/timeline.js:1-55",
+        "styles/art-deco/demo/film.js:1-70",
+        "styles/blueprint/demo/machine.js:1-135",
+        "styles/blueprint/demo/film.js:1-234",
+        "styles/ink-wash/demo/ink.js:1-165",
+        "styles/ink-wash/demo/story.js:1-32",
+        "styles/hologram-hud/demo/engine/holo.js:1-115,195-259",
+        "styles/hologram-hud/demo/film.js:1-259"
+      ],
+      "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\lemo-opuscar"
+    }
+  },
+  "source_lyric": {
+    "args": [
+      "source",
+      "lyric"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "lyric",
+      "repository": "https://github.com/20q2/i-like-ur-look-lyric-video",
+      "commit": "573a5c7ff19a4ac46fec145a060368e381d9ba50",
+      "relation": "recent_code_film_candidate",
+      "runtime": "source_read_only",
+      "scope": "保存72个选定文本文件；歌曲、歌词/节拍数据、字体和依赖未随包。README成片链接coming soon；未运行或审片。",
+      "commit_date": "2026-10-08T20:04:35Z",
+      "repository_created": "2026-10-08T20:02:57Z",
+      "reference_role": "film",
+      "quality_evidence": "source_inspected_video_unreviewed",
+      "model_attribution": "README声明逐帧代码绘制；未独立确认作者采用的编码模型，不能统一归因Opus。音频分析模型不是视觉生成。",
+      "license_note": "代码MIT，保留app/LICENSE的引擎来源署名；版权歌曲不随库。",
+      "inspected": [
+        "README.md:1-70",
+        "app/LICENSE:1-24",
+        "app/src/engine/curl.ts:1-57",
+        "app/src/engine/page.ts:1-115",
+        "app/src/engine/scene.ts:1-83",
+        "app/src/scenes/magazine/focus.ts:1-107",
+        "app/src/scenes/magazine/view.ts:1-30",
+        "app/src/scenes/magazine/handheld.ts:1-32",
+        "app/src/scenes/magazine/schedule.ts:1-105"
+      ],
+      "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\i-like-ur-look-lyric-video"
+    }
+  },
+  "source_clearwater": {
+    "args": [
+      "source",
+      "clearwater"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "clearwater",
+      "repository": "https://github.com/Aureliengmz/clearwater",
+      "commit": "4bc826134321043a25df3c2b6fed16fb7b9241e8",
+      "relation": "contemporary_optics_reference_not_original_proven",
+      "runtime": "source_read_only",
+      "scope": "保存4文件；光学/循环关键源码已读，未运行。不是完整导演影片；没有核实对应图库原帖或编码模型。固定t不会重建涟漪历史。",
+      "commit_date": "2026-09-23T13:20:07Z",
+      "repository_created": "2026-09-23T13:20:08Z",
+      "reference_role": "component",
+      "quality_evidence": "source_inspected_video_unreviewed",
+      "model_attribution": "视觉核心为WebGL2着色器；不把代码路径推导为Opus作者归属。",
+      "license_note": "MIT，原LICENSE及程序化鹅卵石生成脚本保留。",
+      "inspected": [
+        "README.md:1-52",
+        "index.html:1-45,49-100,277-321,490-529,865-919"
+      ],
+      "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\clearwater"
+    }
+  },
+  "film_query": {
+    "args": [
+      "recommend",
+      "--query",
+      "产品 全息 标注 摄影 水面 焦散 流体",
+      "--code-only",
+      "--film-only",
+      "--limit",
+      "8"
+    ],
+    "exit_code": 0,
+    "output": {
+      "query": "产品 全息 标注 摄影 水面 焦散 流体",
+      "scope": "需求→方法候选；文本匹配分值不是画质评价。请按目的/失败条件选核心机制。",
+      "cards": [
+        {
+          "id": "world-anchor-callout",
+          "title": "相机、零件和产品标注共享世界锚点",
+          "matched_terms": [
+            "全息",
+            "标注",
+            "产品"
+          ],
+          "purpose": "观众在镜头移动和部件拆开时仍能追踪说明对应的对象。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "lemo",
+              "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+              "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+              "relation": "supplementary_opus_films_selected_styles",
+              "runtime": "source_read_only",
+              "scope": "作者称43种风格；只归档4种选定风格及共享代码共147文件，未逐风格运行/审片。字体、音频、图片、模型与依赖不完整。",
+              "commit_date": "2026-10-08T14:00:14Z",
+              "repository_created": "2026-09-26T10:10:41Z",
+              "reference_role": "film",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "model_attribution": "作者README声明Opus 5.5代码影片；已读选定绘制路径。43种风格及98长片没有全面审查。",
+              "license_note": "根LICENSE为MIT，第三方字体/音乐/声音/样本等独立许可；GitHub API的NOASSERTION不代表没有LICENSE。",
+              "inspected": [
+                "LICENSE:1-26",
+                "styles/art-deco/demo/engine/cam.js:1-28",
+                "styles/art-deco/demo/timeline.js:1-55",
+                "styles/art-deco/demo/film.js:1-70",
+                "styles/blueprint/demo/machine.js:1-135",
+                "styles/blueprint/demo/film.js:1-234",
+                "styles/ink-wash/demo/ink.js:1-165",
+                "styles/ink-wash/demo/story.js:1-32",
+                "styles/hologram-hud/demo/engine/holo.js:1-115,195-259",
+                "styles/hologram-hud/demo/film.js:1-259"
+              ],
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\lemo-opuscar\\styles\\hologram-hud\\demo\\engine\\holo.js",
+              "line": 206,
+              "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/4d7014aa7ba7d22c00513052dd996a4f200d5102/styles/hologram-hud/demo/engine/holo.js#L206"
+            },
+            {
+              "id": "lemo",
+              "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+              "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+              "relation": "supplementary_opus_films_selected_styles",
+              "runtime": "source_read_only",
+              "scope": "作者称43种风格；只归档4种选定风格及共享代码共147文件，未逐风格运行/审片。字体、音频、图片、模型与依赖不完整。",
+              "commit_date": "2026-10-08T14:00:14Z",
+              "repository_created": "2026-09-26T10:10:41Z",
+              "reference_role": "film",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "model_attribution": "作者README声明Opus 5.5代码影片；已读选定绘制路径。43种风格及98长片没有全面审查。",
+              "license_note": "根LICENSE为MIT，第三方字体/音乐/声音/样本等独立许可；GitHub API的NOASSERTION不代表没有LICENSE。",
+              "inspected": [
+                "LICENSE:1-26",
+                "styles/art-deco/demo/engine/cam.js:1-28",
+                "styles/art-deco/demo/timeline.js:1-55",
+                "styles/art-deco/demo/film.js:1-70",
+                "styles/blueprint/demo/machine.js:1-135",
+                "styles/blueprint/demo/film.js:1-234",
+                "styles/ink-wash/demo/ink.js:1-165",
+                "styles/ink-wash/demo/story.js:1-32",
+                "styles/hologram-hud/demo/engine/holo.js:1-115,195-259",
+                "styles/hologram-hud/demo/film.js:1-259"
+              ],
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\lemo-opuscar\\styles\\hologram-hud\\demo\\film.js",
+              "line": 112,
+              "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/4d7014aa7ba7d22c00513052dd996a4f200d5102/styles/hologram-hud/demo/film.js#L112"
+            },
+            {
+              "id": "lemo",
+              "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+              "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+              "relation": "supplementary_opus_films_selected_styles",
+              "runtime": "source_read_only",
+              "scope": "作者称43种风格；只归档4种选定风格及共享代码共147文件，未逐风格运行/审片。字体、音频、图片、模型与依赖不完整。",
+              "commit_date": "2026-10-08T14:00:14Z",
+              "repository_created": "2026-09-26T10:10:41Z",
+              "reference_role": "film",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "model_attribution": "作者README声明Opus 5.5代码影片；已读选定绘制路径。43种风格及98长片没有全面审查。",
+              "license_note": "根LICENSE为MIT，第三方字体/音乐/声音/样本等独立许可；GitHub API的NOASSERTION不代表没有LICENSE。",
+              "inspected": [
+                "LICENSE:1-26",
+                "styles/art-deco/demo/engine/cam.js:1-28",
+                "styles/art-deco/demo/timeline.js:1-55",
+                "styles/art-deco/demo/film.js:1-70",
+                "styles/blueprint/demo/machine.js:1-135",
+                "styles/blueprint/demo/film.js:1-234",
+                "styles/ink-wash/demo/ink.js:1-165",
+                "styles/ink-wash/demo/story.js:1-32",
+                "styles/hologram-hud/demo/engine/holo.js:1-115,195-259",
+                "styles/hologram-hud/demo/film.js:1-259"
+              ],
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\lemo-opuscar\\styles\\hologram-hud\\demo\\film.js",
+              "line": 194,
+              "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/4d7014aa7ba7d22c00513052dd996a4f200d5102/styles/hologram-hud/demo/film.js#L194"
+            }
+          ],
+          "reference_leads": []
+        },
+        {
+          "id": "liquid-union",
+          "title": "液体用连续场融合并继承颜色",
+          "matched_terms": [
+            "流体"
+          ],
+          "purpose": "分离、连接和落定看起来属于同一种材料。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "mg",
+              "repository": "https://github.com/Vincentwei1021/mg-styles-15",
+              "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+              "relation": "supplementary_films",
+              "runtime": "source_read_only",
+              "scope": "保存15种风格工程的文本源码；本轮精读形变/液体/手绘/像素/等距采样的选定实现。媒体、字体及部分素材不在包中，没有逐片回放。",
+              "commit_date": "2026-10-05T11:23:16Z",
+              "reference_role": "film",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "license_note": "代码MIT；字体和glyphs等衍生轮廓保留OFL等原许可，见上游README及assets/fonts/README.md。不能把全包统一视为MIT。",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\mg-styles-15\\demos\\07-liquid\\js\\shaders.js",
+              "line": 95,
+              "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/07-liquid/js/shaders.js#L95"
+            }
+          ],
+          "reference_leads": []
+        },
+        {
+          "id": "low-travel",
+          "title": "低位穿行，用遮挡证明纵深",
+          "matched_terms": [
+            "摄影"
+          ],
+          "purpose": "让观众进入场景并感受规模。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "beach",
+              "repository": "https://github.com/ishuagrawal/particle-beach",
+              "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+              "relation": "gallery_original_link",
+              "runtime": "representative_frames_and_continuous_window",
+              "scope": "完整绘制运行源码已保存；回放有少量重复像素差和局部近黑帧，不作为全片质量保证。",
+              "commit_date": "2026-09-24T00:22:09Z",
+              "reference_role": "film",
+              "quality_evidence": "representative_frames_and_windows_only",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\particle-beach\\js\\trailer-shots.js",
+              "line": 75,
+              "url": "https://github.com/ishuagrawal/particle-beach/blob/92db82255b962acf2930f19bf6e5e7790174a790/js/trailer-shots.js#L75"
+            }
+          ],
+          "reference_leads": []
+        },
+        {
+          "id": "point-correspondence",
+          "title": "点身份持续，形态才能接续",
+          "matched_terms": [
+            "标注"
+          ],
+          "purpose": "从抽象点场变为有意义的形状。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "reel",
+              "repository": "https://github.com/tuzhechen2005/opus-video-skills",
+              "commit": "59744a69c7b916cfbe4c4ec84006b0c2f5e2fde1",
+              "relation": "supplementary_film",
+              "runtime": "representative_frames_and_continuous_window",
+              "scope": "work-reel-26完整绘制运行部分；补充作品，不是图库513原作的同一工程。",
+              "commit_date": "2026-09-27T01:17:14Z",
+              "reference_role": "film",
+              "quality_evidence": "representative_frames_and_windows_only",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\work-reel-26\\skills\\kinetic-reel\\examples\\work-reel-26\\reel.js",
+              "line": 122,
+              "url": "https://github.com/tuzhechen2005/opus-video-skills/blob/59744a69c7b916cfbe4c4ec84006b0c2f5e2fde1/skills/kinetic-reel/examples/work-reel-26/reel.js#L122"
+            }
+          ],
+          "reference_leads": []
+        },
+        {
+          "id": "reading-constrained-lens",
+          "title": "阅读区域约束景深与手持摄影",
+          "matched_terms": [
+            "摄影"
+          ],
+          "purpose": "在纸张摄影质感中保持信息清晰。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "lyric",
+              "repository": "https://github.com/20q2/i-like-ur-look-lyric-video",
+              "commit": "573a5c7ff19a4ac46fec145a060368e381d9ba50",
+              "relation": "recent_code_film_candidate",
+              "runtime": "source_read_only",
+              "scope": "保存72个选定文本文件；歌曲、歌词/节拍数据、字体和依赖未随包。README成片链接coming soon；未运行或审片。",
+              "commit_date": "2026-10-08T20:04:35Z",
+              "repository_created": "2026-10-08T20:02:57Z",
+              "reference_role": "film",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "model_attribution": "README声明逐帧代码绘制；未独立确认作者采用的编码模型，不能统一归因Opus。音频分析模型不是视觉生成。",
+              "license_note": "代码MIT，保留app/LICENSE的引擎来源署名；版权歌曲不随库。",
+              "inspected": [
+                "README.md:1-70",
+                "app/LICENSE:1-24",
+                "app/src/engine/curl.ts:1-57",
+                "app/src/engine/page.ts:1-115",
+                "app/src/engine/scene.ts:1-83",
+                "app/src/scenes/magazine/focus.ts:1-107",
+                "app/src/scenes/magazine/view.ts:1-30",
+                "app/src/scenes/magazine/handheld.ts:1-32",
+                "app/src/scenes/magazine/schedule.ts:1-105"
+              ],
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\i-like-ur-look-lyric-video\\app\\src\\scenes\\magazine\\focus.ts",
+              "line": 27,
+              "url": "https://github.com/20q2/i-like-ur-look-lyric-video/blob/573a5c7ff19a4ac46fec145a060368e381d9ba50/app/src/scenes/magazine/focus.ts#L27"
+            },
+            {
+              "id": "lyric",
+              "repository": "https://github.com/20q2/i-like-ur-look-lyric-video",
+              "commit": "573a5c7ff19a4ac46fec145a060368e381d9ba50",
+              "relation": "recent_code_film_candidate",
+              "runtime": "source_read_only",
+              "scope": "保存72个选定文本文件；歌曲、歌词/节拍数据、字体和依赖未随包。README成片链接coming soon；未运行或审片。",
+              "commit_date": "2026-10-08T20:04:35Z",
+              "repository_created": "2026-10-08T20:02:57Z",
+              "reference_role": "film",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "model_attribution": "README声明逐帧代码绘制；未独立确认作者采用的编码模型，不能统一归因Opus。音频分析模型不是视觉生成。",
+              "license_note": "代码MIT，保留app/LICENSE的引擎来源署名；版权歌曲不随库。",
+              "inspected": [
+                "README.md:1-70",
+                "app/LICENSE:1-24",
+                "app/src/engine/curl.ts:1-57",
+                "app/src/engine/page.ts:1-115",
+                "app/src/engine/scene.ts:1-83",
+                "app/src/scenes/magazine/focus.ts:1-107",
+                "app/src/scenes/magazine/view.ts:1-30",
+                "app/src/scenes/magazine/handheld.ts:1-32",
+                "app/src/scenes/magazine/schedule.ts:1-105"
+              ],
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\i-like-ur-look-lyric-video\\app\\src\\scenes\\magazine\\handheld.ts",
+              "line": 20,
+              "url": "https://github.com/20q2/i-like-ur-look-lyric-video/blob/573a5c7ff19a4ac46fec145a060368e381d9ba50/app/src/scenes/magazine/handheld.ts#L20"
+            },
+            {
+              "id": "lyric",
+              "repository": "https://github.com/20q2/i-like-ur-look-lyric-video",
+              "commit": "573a5c7ff19a4ac46fec145a060368e381d9ba50",
+              "relation": "recent_code_film_candidate",
+              "runtime": "source_read_only",
+              "scope": "保存72个选定文本文件；歌曲、歌词/节拍数据、字体和依赖未随包。README成片链接coming soon；未运行或审片。",
+              "commit_date": "2026-10-08T20:04:35Z",
+              "repository_created": "2026-10-08T20:02:57Z",
+              "reference_role": "film",
+              "quality_evidence": "source_inspected_video_unreviewed",
+              "model_attribution": "README声明逐帧代码绘制；未独立确认作者采用的编码模型，不能统一归因Opus。音频分析模型不是视觉生成。",
+              "license_note": "代码MIT，保留app/LICENSE的引擎来源署名；版权歌曲不随库。",
+              "inspected": [
+                "README.md:1-70",
+                "app/LICENSE:1-24",
+                "app/src/engine/curl.ts:1-57",
+                "app/src/engine/page.ts:1-115",
+                "app/src/engine/scene.ts:1-83",
+                "app/src/scenes/magazine/focus.ts:1-107",
+                "app/src/scenes/magazine/view.ts:1-30",
+                "app/src/scenes/magazine/handheld.ts:1-32",
+                "app/src/scenes/magazine/schedule.ts:1-105"
+              ],
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\i-like-ur-look-lyric-video\\app\\src\\scenes\\magazine\\view.ts",
+              "line": 20,
+              "url": "https://github.com/20q2/i-like-ur-look-lyric-video/blob/573a5c7ff19a4ac46fec145a060368e381d9ba50/app/src/scenes/magazine/view.ts#L20"
+            }
+          ],
+          "reference_leads": []
+        },
+        {
+          "id": "reveal-path",
+          "title": "位置与目标双轨迹揭示主体",
+          "matched_terms": [
+            "摄影"
+          ],
+          "purpose": "用机位变化带来新理解。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "beach",
+              "repository": "https://github.com/ishuagrawal/particle-beach",
+              "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+              "relation": "gallery_original_link",
+              "runtime": "representative_frames_and_continuous_window",
+              "scope": "完整绘制运行源码已保存；回放有少量重复像素差和局部近黑帧，不作为全片质量保证。",
+              "commit_date": "2026-09-24T00:22:09Z",
+              "reference_role": "film",
+              "quality_evidence": "representative_frames_and_windows_only",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\particle-beach\\js\\trailer-shots.js",
+              "line": 133,
+              "url": "https://github.com/ishuagrawal/particle-beach/blob/92db82255b962acf2930f19bf6e5e7790174a790/js/trailer-shots.js#L133"
+            }
+          ],
+          "reference_leads": []
+        },
+        {
+          "id": "telephoto",
+          "title": "远机位与窄视角压缩空间",
+          "matched_terms": [
+            "摄影"
+          ],
+          "purpose": "让背景与主体形成强图形关系。",
+          "status": "code_observed_with_adaptation",
+          "sources": [
+            {
+              "id": "beach",
+              "repository": "https://github.com/ishuagrawal/particle-beach",
+              "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+              "relation": "gallery_original_link",
+              "runtime": "representative_frames_and_continuous_window",
+              "scope": "完整绘制运行源码已保存；回放有少量重复像素差和局部近黑帧，不作为全片质量保证。",
+              "commit_date": "2026-09-24T00:22:09Z",
+              "reference_role": "film",
+              "quality_evidence": "representative_frames_and_windows_only",
+              "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\particle-beach\\js\\trailer-shots.js",
+              "line": 49,
+              "url": "https://github.com/ishuagrawal/particle-beach/blob/92db82255b962acf2930f19bf6e5e7790174a790/js/trailer-shots.js#L49"
+            }
+          ],
+          "reference_leads": []
+        }
+      ],
+      "unresolved": null
+    }
+  },
+  "new_card_performance-handoff": {
+    "args": [
+      "card",
+      "performance-handoff"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "performance-handoff",
+      "title": "用同一乐谱完成角色表演接棒",
+      "terms": [
+        "弹琴",
+        "钢琴",
+        "表演",
+        "接棒",
+        "乐谱",
+        "音乐",
+        "角色",
+        "雪人"
+      ],
+      "purpose": "让角色关系在同一个动作中发生变化，观众从接棒理解情绪。",
+      "relation": "音符who、时间和键位同时决定声音、琴键与手部；雪人→猫→雪花延续同一旋律。",
+      "decisions": "先建立谁在弹，再用迟疑、停手和视线表达交接；音乐减速留给结尾，不让手在发声后才碰琴键。",
+      "implementation": "score按小节构造notes；keyDepth与handAt从同一notes求值，和弦取手部中心位置，抬手高度随键距变化。",
+      "failure": "独立手部和音轨会错接触；取和弦平均只适合风格化手势，不能冒充准确指法。音色样本不公开。",
+      "review": "看接棒前、接触、停手、猫迟疑和雪花落键；逐项听看，不用时间列表代替听音。",
+      "source_refs": [
+        {
+          "source": "songbie",
+          "path": "score.js",
+          "line": 40
+        },
+        {
+          "source": "songbie",
+          "path": "render.js",
+          "line": 284
+        },
+        {
+          "source": "songbie",
+          "path": "render.js",
+          "line": 300
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "选定源码已读；作者成片未在本轮审看，不认证原片质量或本机可运行性。",
+      "source_details": [
+        {
+          "id": "songbie",
+          "repository": "https://github.com/JohnnyWang8802/songbie",
+          "commit": "97225eb54a351c9938ad896e04bef7a7020393fb",
+          "relation": "supplementary_opus_film",
+          "runtime": "source_read_only",
+          "scope": "保存8个文本文件；旋律/绘制源码已读，未观看或运行成片；Logic Pro钢琴样本、歌曲音轨与成片不在包中。",
+          "commit_date": "2026-10-01T15:27:53Z",
+          "repository_created": "2026-10-01T15:27:54Z",
+          "reference_role": "film",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "model_attribution": "作者README声明Claude Opus 5.5制作代码；所读视觉路径为Canvas，不调用生成视频服务。",
+          "license_note": "代码MIT；钢琴样本不随包，曲谱旋律公共领域的说明来自作者。",
+          "inspected": [
+            "README.md:1-63",
+            "score.js:1-96",
+            "render.js:1-74,147-206,278-323,592-657,934-1011"
+          ],
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\songbie\\score.js",
+          "line": 40,
+          "url": "https://github.com/JohnnyWang8802/songbie/blob/97225eb54a351c9938ad896e04bef7a7020393fb/score.js#L40"
+        },
+        {
+          "id": "songbie",
+          "repository": "https://github.com/JohnnyWang8802/songbie",
+          "commit": "97225eb54a351c9938ad896e04bef7a7020393fb",
+          "relation": "supplementary_opus_film",
+          "runtime": "source_read_only",
+          "scope": "保存8个文本文件；旋律/绘制源码已读，未观看或运行成片；Logic Pro钢琴样本、歌曲音轨与成片不在包中。",
+          "commit_date": "2026-10-01T15:27:53Z",
+          "repository_created": "2026-10-01T15:27:54Z",
+          "reference_role": "film",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "model_attribution": "作者README声明Claude Opus 5.5制作代码；所读视觉路径为Canvas，不调用生成视频服务。",
+          "license_note": "代码MIT；钢琴样本不随包，曲谱旋律公共领域的说明来自作者。",
+          "inspected": [
+            "README.md:1-63",
+            "score.js:1-96",
+            "render.js:1-74,147-206,278-323,592-657,934-1011"
+          ],
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\songbie\\render.js",
+          "line": 284,
+          "url": "https://github.com/JohnnyWang8802/songbie/blob/97225eb54a351c9938ad896e04bef7a7020393fb/render.js#L284"
+        },
+        {
+          "id": "songbie",
+          "repository": "https://github.com/JohnnyWang8802/songbie",
+          "commit": "97225eb54a351c9938ad896e04bef7a7020393fb",
+          "relation": "supplementary_opus_film",
+          "runtime": "source_read_only",
+          "scope": "保存8个文本文件；旋律/绘制源码已读，未观看或运行成片；Logic Pro钢琴样本、歌曲音轨与成片不在包中。",
+          "commit_date": "2026-10-01T15:27:53Z",
+          "repository_created": "2026-10-01T15:27:54Z",
+          "reference_role": "film",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "model_attribution": "作者README声明Claude Opus 5.5制作代码；所读视觉路径为Canvas，不调用生成视频服务。",
+          "license_note": "代码MIT；钢琴样本不随包，曲谱旋律公共领域的说明来自作者。",
+          "inspected": [
+            "README.md:1-63",
+            "score.js:1-96",
+            "render.js:1-74,147-206,278-323,592-657,934-1011"
+          ],
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\songbie\\render.js",
+          "line": 300,
+          "url": "https://github.com/JohnnyWang8802/songbie/blob/97225eb54a351c9938ad896e04bef7a7020393fb/render.js#L300"
+        }
+      ]
+    }
+  },
+  "new_card_world-anchor-callout": {
+    "args": [
+      "card",
+      "world-anchor-callout"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "world-anchor-callout",
+      "title": "相机、零件和产品标注共享世界锚点",
+      "terms": [
+        "全息",
+        "HUD",
+        "标注",
+        "产品",
+        "扫描",
+        "参数卡",
+        "锚点",
+        "甩镜"
+      ],
+      "purpose": "观众在镜头移动和部件拆开时仍能追踪说明对应的对象。",
+      "relation": "模型顶点与anchor经过同一零件变换/投影，屏幕卡片由该锚点牵引。",
+      "decisions": "先锁定部件再滚出数字；读过的信息收进侧栏；甩镜前给目标提示，运动模糊限制在快速窗口。",
+      "implementation": "holo.draw返回bbox/anchor；film从info.anchor取引线起点，使用共享callBeats组织爆炸、锁定、标签；快速窗5子帧累积。",
+      "failure": "仅叠固定屏幕线会离开部件；Canvas近似投影/辉光不等于体积全息。竖屏需重排侧栏，不能只裁横版。",
+      "review": "检查爆炸中间态引线、遮挡、甩镜落定与手机阅读；单位/参数需要用户事实依据。",
+      "source_refs": [
+        {
+          "source": "lemo",
+          "path": "styles/hologram-hud/demo/engine/holo.js",
+          "line": 206
+        },
+        {
+          "source": "lemo",
+          "path": "styles/hologram-hud/demo/film.js",
+          "line": 112
+        },
+        {
+          "source": "lemo",
+          "path": "styles/hologram-hud/demo/film.js",
+          "line": 194
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "选定源码已读；作者成片未在本轮审看，不认证原片质量或本机可运行性。",
+      "source_details": [
+        {
+          "id": "lemo",
+          "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+          "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+          "relation": "supplementary_opus_films_selected_styles",
+          "runtime": "source_read_only",
+          "scope": "作者称43种风格；只归档4种选定风格及共享代码共147文件，未逐风格运行/审片。字体、音频、图片、模型与依赖不完整。",
+          "commit_date": "2026-10-08T14:00:14Z",
+          "repository_created": "2026-09-26T10:10:41Z",
+          "reference_role": "film",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "model_attribution": "作者README声明Opus 5.5代码影片；已读选定绘制路径。43种风格及98长片没有全面审查。",
+          "license_note": "根LICENSE为MIT，第三方字体/音乐/声音/样本等独立许可；GitHub API的NOASSERTION不代表没有LICENSE。",
+          "inspected": [
+            "LICENSE:1-26",
+            "styles/art-deco/demo/engine/cam.js:1-28",
+            "styles/art-deco/demo/timeline.js:1-55",
+            "styles/art-deco/demo/film.js:1-70",
+            "styles/blueprint/demo/machine.js:1-135",
+            "styles/blueprint/demo/film.js:1-234",
+            "styles/ink-wash/demo/ink.js:1-165",
+            "styles/ink-wash/demo/story.js:1-32",
+            "styles/hologram-hud/demo/engine/holo.js:1-115,195-259",
+            "styles/hologram-hud/demo/film.js:1-259"
+          ],
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\lemo-opuscar\\styles\\hologram-hud\\demo\\engine\\holo.js",
+          "line": 206,
+          "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/4d7014aa7ba7d22c00513052dd996a4f200d5102/styles/hologram-hud/demo/engine/holo.js#L206"
+        },
+        {
+          "id": "lemo",
+          "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+          "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+          "relation": "supplementary_opus_films_selected_styles",
+          "runtime": "source_read_only",
+          "scope": "作者称43种风格；只归档4种选定风格及共享代码共147文件，未逐风格运行/审片。字体、音频、图片、模型与依赖不完整。",
+          "commit_date": "2026-10-08T14:00:14Z",
+          "repository_created": "2026-09-26T10:10:41Z",
+          "reference_role": "film",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "model_attribution": "作者README声明Opus 5.5代码影片；已读选定绘制路径。43种风格及98长片没有全面审查。",
+          "license_note": "根LICENSE为MIT，第三方字体/音乐/声音/样本等独立许可；GitHub API的NOASSERTION不代表没有LICENSE。",
+          "inspected": [
+            "LICENSE:1-26",
+            "styles/art-deco/demo/engine/cam.js:1-28",
+            "styles/art-deco/demo/timeline.js:1-55",
+            "styles/art-deco/demo/film.js:1-70",
+            "styles/blueprint/demo/machine.js:1-135",
+            "styles/blueprint/demo/film.js:1-234",
+            "styles/ink-wash/demo/ink.js:1-165",
+            "styles/ink-wash/demo/story.js:1-32",
+            "styles/hologram-hud/demo/engine/holo.js:1-115,195-259",
+            "styles/hologram-hud/demo/film.js:1-259"
+          ],
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\lemo-opuscar\\styles\\hologram-hud\\demo\\film.js",
+          "line": 112,
+          "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/4d7014aa7ba7d22c00513052dd996a4f200d5102/styles/hologram-hud/demo/film.js#L112"
+        },
+        {
+          "id": "lemo",
+          "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+          "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+          "relation": "supplementary_opus_films_selected_styles",
+          "runtime": "source_read_only",
+          "scope": "作者称43种风格；只归档4种选定风格及共享代码共147文件，未逐风格运行/审片。字体、音频、图片、模型与依赖不完整。",
+          "commit_date": "2026-10-08T14:00:14Z",
+          "repository_created": "2026-09-26T10:10:41Z",
+          "reference_role": "film",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "model_attribution": "作者README声明Opus 5.5代码影片；已读选定绘制路径。43种风格及98长片没有全面审查。",
+          "license_note": "根LICENSE为MIT，第三方字体/音乐/声音/样本等独立许可；GitHub API的NOASSERTION不代表没有LICENSE。",
+          "inspected": [
+            "LICENSE:1-26",
+            "styles/art-deco/demo/engine/cam.js:1-28",
+            "styles/art-deco/demo/timeline.js:1-55",
+            "styles/art-deco/demo/film.js:1-70",
+            "styles/blueprint/demo/machine.js:1-135",
+            "styles/blueprint/demo/film.js:1-234",
+            "styles/ink-wash/demo/ink.js:1-165",
+            "styles/ink-wash/demo/story.js:1-32",
+            "styles/hologram-hud/demo/engine/holo.js:1-115,195-259",
+            "styles/hologram-hud/demo/film.js:1-259"
+          ],
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\lemo-opuscar\\styles\\hologram-hud\\demo\\film.js",
+          "line": 194,
+          "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/4d7014aa7ba7d22c00513052dd996a4f200d5102/styles/hologram-hud/demo/film.js#L194"
+        }
+      ]
+    }
+  },
+  "new_card_curved-page-handoff": {
+    "args": [
+      "card",
+      "curved-page-handoff"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "curved-page-handoff",
+      "title": "曲面纸页与相机错时落定",
+      "terms": [
+        "翻页",
+        "纸页",
+        "杂志",
+        "曲面",
+        "纸张",
+        "连续交接",
+        "转场"
+      ],
+      "purpose": "让版式切换发生在同一个可触摸对象上。",
+      "relation": "旧页正面/新页背面/下层页面有明确身份；相机过渡稍晚于纸页落地。",
+      "decisions": "自由边落后书脊，页角先后不同；纸页落地带弱回弹，相机略拉开后接到下一版式。",
+      "implementation": "curlPoint与顶点shader共享圆弧参数；shader用sinc避免小曲率数值相消；visibleFaces决定前后页，TURN_S与CAM_BLEND_S分离。",
+      "failure": "页正反面错配、落地近零曲率破裂、页堆穿插；本卡不覆盖尚未精读的撕页/折页全路径。",
+      "review": "检查起翻、中间遮挡、最后5%曲率、落地回弹和镜头停稳；连续输出才证明纸页可靠。",
+      "source_refs": [
+        {
+          "source": "lyric",
+          "path": "app/src/engine/curl.ts",
+          "line": 22
+        },
+        {
+          "source": "lyric",
+          "path": "app/src/engine/page.ts",
+          "line": 55
+        },
+        {
+          "source": "lyric",
+          "path": "app/src/scenes/magazine/schedule.ts",
+          "line": 57
+        },
+        {
+          "source": "lyric",
+          "path": "app/src/scenes/magazine/view.ts",
+          "line": 12
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "选定源码已读；作者成片未在本轮审看，不认证原片质量或本机可运行性。",
+      "source_details": [
+        {
+          "id": "lyric",
+          "repository": "https://github.com/20q2/i-like-ur-look-lyric-video",
+          "commit": "573a5c7ff19a4ac46fec145a060368e381d9ba50",
+          "relation": "recent_code_film_candidate",
+          "runtime": "source_read_only",
+          "scope": "保存72个选定文本文件；歌曲、歌词/节拍数据、字体和依赖未随包。README成片链接coming soon；未运行或审片。",
+          "commit_date": "2026-10-08T20:04:35Z",
+          "repository_created": "2026-10-08T20:02:57Z",
+          "reference_role": "film",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "model_attribution": "README声明逐帧代码绘制；未独立确认作者采用的编码模型，不能统一归因Opus。音频分析模型不是视觉生成。",
+          "license_note": "代码MIT，保留app/LICENSE的引擎来源署名；版权歌曲不随库。",
+          "inspected": [
+            "README.md:1-70",
+            "app/LICENSE:1-24",
+            "app/src/engine/curl.ts:1-57",
+            "app/src/engine/page.ts:1-115",
+            "app/src/engine/scene.ts:1-83",
+            "app/src/scenes/magazine/focus.ts:1-107",
+            "app/src/scenes/magazine/view.ts:1-30",
+            "app/src/scenes/magazine/handheld.ts:1-32",
+            "app/src/scenes/magazine/schedule.ts:1-105"
+          ],
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\i-like-ur-look-lyric-video\\app\\src\\engine\\curl.ts",
+          "line": 22,
+          "url": "https://github.com/20q2/i-like-ur-look-lyric-video/blob/573a5c7ff19a4ac46fec145a060368e381d9ba50/app/src/engine/curl.ts#L22"
+        },
+        {
+          "id": "lyric",
+          "repository": "https://github.com/20q2/i-like-ur-look-lyric-video",
+          "commit": "573a5c7ff19a4ac46fec145a060368e381d9ba50",
+          "relation": "recent_code_film_candidate",
+          "runtime": "source_read_only",
+          "scope": "保存72个选定文本文件；歌曲、歌词/节拍数据、字体和依赖未随包。README成片链接coming soon；未运行或审片。",
+          "commit_date": "2026-10-08T20:04:35Z",
+          "repository_created": "2026-10-08T20:02:57Z",
+          "reference_role": "film",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "model_attribution": "README声明逐帧代码绘制；未独立确认作者采用的编码模型，不能统一归因Opus。音频分析模型不是视觉生成。",
+          "license_note": "代码MIT，保留app/LICENSE的引擎来源署名；版权歌曲不随库。",
+          "inspected": [
+            "README.md:1-70",
+            "app/LICENSE:1-24",
+            "app/src/engine/curl.ts:1-57",
+            "app/src/engine/page.ts:1-115",
+            "app/src/engine/scene.ts:1-83",
+            "app/src/scenes/magazine/focus.ts:1-107",
+            "app/src/scenes/magazine/view.ts:1-30",
+            "app/src/scenes/magazine/handheld.ts:1-32",
+            "app/src/scenes/magazine/schedule.ts:1-105"
+          ],
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\i-like-ur-look-lyric-video\\app\\src\\engine\\page.ts",
+          "line": 55,
+          "url": "https://github.com/20q2/i-like-ur-look-lyric-video/blob/573a5c7ff19a4ac46fec145a060368e381d9ba50/app/src/engine/page.ts#L55"
+        },
+        {
+          "id": "lyric",
+          "repository": "https://github.com/20q2/i-like-ur-look-lyric-video",
+          "commit": "573a5c7ff19a4ac46fec145a060368e381d9ba50",
+          "relation": "recent_code_film_candidate",
+          "runtime": "source_read_only",
+          "scope": "保存72个选定文本文件；歌曲、歌词/节拍数据、字体和依赖未随包。README成片链接coming soon；未运行或审片。",
+          "commit_date": "2026-10-08T20:04:35Z",
+          "repository_created": "2026-10-08T20:02:57Z",
+          "reference_role": "film",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "model_attribution": "README声明逐帧代码绘制；未独立确认作者采用的编码模型，不能统一归因Opus。音频分析模型不是视觉生成。",
+          "license_note": "代码MIT，保留app/LICENSE的引擎来源署名；版权歌曲不随库。",
+          "inspected": [
+            "README.md:1-70",
+            "app/LICENSE:1-24",
+            "app/src/engine/curl.ts:1-57",
+            "app/src/engine/page.ts:1-115",
+            "app/src/engine/scene.ts:1-83",
+            "app/src/scenes/magazine/focus.ts:1-107",
+            "app/src/scenes/magazine/view.ts:1-30",
+            "app/src/scenes/magazine/handheld.ts:1-32",
+            "app/src/scenes/magazine/schedule.ts:1-105"
+          ],
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\i-like-ur-look-lyric-video\\app\\src\\scenes\\magazine\\schedule.ts",
+          "line": 57,
+          "url": "https://github.com/20q2/i-like-ur-look-lyric-video/blob/573a5c7ff19a4ac46fec145a060368e381d9ba50/app/src/scenes/magazine/schedule.ts#L57"
+        },
+        {
+          "id": "lyric",
+          "repository": "https://github.com/20q2/i-like-ur-look-lyric-video",
+          "commit": "573a5c7ff19a4ac46fec145a060368e381d9ba50",
+          "relation": "recent_code_film_candidate",
+          "runtime": "source_read_only",
+          "scope": "保存72个选定文本文件；歌曲、歌词/节拍数据、字体和依赖未随包。README成片链接coming soon；未运行或审片。",
+          "commit_date": "2026-10-08T20:04:35Z",
+          "repository_created": "2026-10-08T20:02:57Z",
+          "reference_role": "film",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "model_attribution": "README声明逐帧代码绘制；未独立确认作者采用的编码模型，不能统一归因Opus。音频分析模型不是视觉生成。",
+          "license_note": "代码MIT，保留app/LICENSE的引擎来源署名；版权歌曲不随库。",
+          "inspected": [
+            "README.md:1-70",
+            "app/LICENSE:1-24",
+            "app/src/engine/curl.ts:1-57",
+            "app/src/engine/page.ts:1-115",
+            "app/src/engine/scene.ts:1-83",
+            "app/src/scenes/magazine/focus.ts:1-107",
+            "app/src/scenes/magazine/view.ts:1-30",
+            "app/src/scenes/magazine/handheld.ts:1-32",
+            "app/src/scenes/magazine/schedule.ts:1-105"
+          ],
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\i-like-ur-look-lyric-video\\app\\src\\scenes\\magazine\\view.ts",
+          "line": 12,
+          "url": "https://github.com/20q2/i-like-ur-look-lyric-video/blob/573a5c7ff19a4ac46fec145a060368e381d9ba50/app/src/scenes/magazine/view.ts#L12"
+        }
+      ]
+    }
+  },
+  "new_card_refracted-caustic-grid": {
+    "args": [
+      "card",
+      "refracted-caustic-grid"
+    ],
+    "exit_code": 0,
+    "output": {
+      "id": "refracted-caustic-grid",
+      "title": "折射网格面积生成水底焦散",
+      "terms": [
+        "焦散",
+        "折射",
+        "水底",
+        "水面",
+        "光学",
+        "Fresnel",
+        "浅水"
+      ],
+      "purpose": "让水底亮纹随表面法线与深度变化，形成有根据的光学层次。",
+      "relation": "FFT高度/斜率供折射落点，落点映射面积决定光集中；水深供透射吸收。",
+      "decisions": "水底大色块和接触先建立，焦散再成为动态细节；侧视增强反射，深水增加颜色吸收。",
+      "implementation": "折射太阳方向到固定深度平面，光栅化落点网格，以vSrc屏幕导数面积估计集中度；主shader加高度近似及涟漪曲率。",
+      "failure": "这是浅水/固定平面等近似，不能当阀内流场或完整路径追踪；t参数固定FFT而涟漪按调用累积，不支持未经改写的任意seek。",
+      "review": "对比波峰/波谷亮纹与侧视反射；离线迁移需固定步长重播涟漪并测乱序，不把实时demo当完整影片。",
+      "source_refs": [
+        {
+          "source": "clearwater",
+          "path": "index.html",
+          "line": 297
+        },
+        {
+          "source": "clearwater",
+          "path": "index.html",
+          "line": 508
+        },
+        {
+          "source": "clearwater",
+          "path": "index.html",
+          "line": 871
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "选定源码已读；作者成片未在本轮审看，不认证原片质量或本机可运行性。",
+      "source_details": [
+        {
+          "id": "clearwater",
+          "repository": "https://github.com/Aureliengmz/clearwater",
+          "commit": "4bc826134321043a25df3c2b6fed16fb7b9241e8",
+          "relation": "contemporary_optics_reference_not_original_proven",
+          "runtime": "source_read_only",
+          "scope": "保存4文件；光学/循环关键源码已读，未运行。不是完整导演影片；没有核实对应图库原帖或编码模型。固定t不会重建涟漪历史。",
+          "commit_date": "2026-09-23T13:20:07Z",
+          "repository_created": "2026-09-23T13:20:08Z",
+          "reference_role": "component",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "model_attribution": "视觉核心为WebGL2着色器；不把代码路径推导为Opus作者归属。",
+          "license_note": "MIT，原LICENSE及程序化鹅卵石生成脚本保留。",
+          "inspected": [
+            "README.md:1-52",
+            "index.html:1-45,49-100,277-321,490-529,865-919"
+          ],
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\clearwater\\index.html",
+          "line": 297,
+          "url": "https://github.com/Aureliengmz/clearwater/blob/4bc826134321043a25df3c2b6fed16fb7b9241e8/index.html#L297"
+        },
+        {
+          "id": "clearwater",
+          "repository": "https://github.com/Aureliengmz/clearwater",
+          "commit": "4bc826134321043a25df3c2b6fed16fb7b9241e8",
+          "relation": "contemporary_optics_reference_not_original_proven",
+          "runtime": "source_read_only",
+          "scope": "保存4文件；光学/循环关键源码已读，未运行。不是完整导演影片；没有核实对应图库原帖或编码模型。固定t不会重建涟漪历史。",
+          "commit_date": "2026-09-23T13:20:07Z",
+          "repository_created": "2026-09-23T13:20:08Z",
+          "reference_role": "component",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "model_attribution": "视觉核心为WebGL2着色器；不把代码路径推导为Opus作者归属。",
+          "license_note": "MIT，原LICENSE及程序化鹅卵石生成脚本保留。",
+          "inspected": [
+            "README.md:1-52",
+            "index.html:1-45,49-100,277-321,490-529,865-919"
+          ],
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\clearwater\\index.html",
+          "line": 508,
+          "url": "https://github.com/Aureliengmz/clearwater/blob/4bc826134321043a25df3c2b6fed16fb7b9241e8/index.html#L508"
+        },
+        {
+          "id": "clearwater",
+          "repository": "https://github.com/Aureliengmz/clearwater",
+          "commit": "4bc826134321043a25df3c2b6fed16fb7b9241e8",
+          "relation": "contemporary_optics_reference_not_original_proven",
+          "runtime": "source_read_only",
+          "scope": "保存4文件；光学/循环关键源码已读，未运行。不是完整导演影片；没有核实对应图库原帖或编码模型。固定t不会重建涟漪历史。",
+          "commit_date": "2026-09-23T13:20:07Z",
+          "repository_created": "2026-09-23T13:20:08Z",
+          "reference_role": "component",
+          "quality_evidence": "source_inspected_video_unreviewed",
+          "model_attribution": "视觉核心为WebGL2着色器；不把代码路径推导为Opus作者归属。",
+          "license_note": "MIT，原LICENSE及程序化鹅卵石生成脚本保留。",
+          "inspected": [
+            "README.md:1-52",
+            "index.html:1-45,49-100,277-321,490-529,865-919"
+          ],
+          "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\clearwater\\index.html",
+          "line": 871,
+          "url": "https://github.com/Aureliengmz/clearwater/blob/4bc826134321043a25df3c2b6fed16fb7b9241e8/index.html#L871"
+        }
+      ]
+    }
+  },
+  "mixed_provenance": {
+    "args": [
+      "trace",
+      "koldo2k-778767"
+    ],
+    "exit_code": 0,
+    "output": {
+      "slug": "koldo2k-778767",
+      "prompt_sha256": "d6fd01b0403a1867cafadc5abaabcbcbf591166136386a6d748fd2630c6f4c1c",
+      "same_text_slugs": [
+        "koldo2k-778767"
+      ],
+      "text_reading": "mechanism_excerpt_only",
+      "prompt_partial": false,
+      "candidate_cards": [
+        {
+          "card": "portal-scale",
+          "text": "Build a looping \"infinite zoom\" animation, After Effects style: the camera\ntravels fr",
+          "basis": "automatic_text_candidate_only"
+        },
+        {
+          "card": "glass-sdf",
+          "text": "a lens → desert dunes → magnifying glass →\nmisty lake → hand mirror → back to start.\nExtras: fl",
+          "basis": "automatic_text_candidate_only"
+        }
+      ],
+      "manual_cards": [],
+      "original_visual_provenance": "generated_video_required_in_prompt",
+      "provenance_reason": "Kling 2.5 animation",
+      "source_id": null,
+      "source_relation": "unresolved",
+      "code_source_evidence": "no_inspected_renderer_tied_to_this_row",
+      "source_discovery_urls": [],
+      "pixel_match_verified": false,
+      "tech_tags_used_for_original_provenance": false,
+      "post_url": "https://x.com/koldo2k/status/2103129343253778767",
+      "source": null
+    }
+  },
+  "invalid_card": {
+    "args": [
+      "card",
+      "does-not-exist"
+    ],
+    "exit_code": 2,
+    "output": {
+      "error": "usage: opus_methodology.py [-h]\n                           {stats,validate,recommend,card,source,trace} ...\nopus_methodology.py: error: Unknown card ID: does-not-exist"
+    }
+  }
+}

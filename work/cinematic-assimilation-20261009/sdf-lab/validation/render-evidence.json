@@ -1,0 +1,35 @@
+{
+  "errors": [],
+  "blocked": [],
+  "requests": [
+    "http://127.0.0.1:54873/?render"
+  ],
+  "info": {
+    "duration": 4,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "cuts": [],
+    "continuousCuts": []
+  },
+  "seek": {
+    "sequence": [
+      0.6,
+      2.2,
+      3.08,
+      0.6,
+      2.2,
+      3.08
+    ],
+    "hashes": [
+      "7ea9e3083d99857f7c809706b7affea3d41644b6e51c3cad25ddc927c101d0d4",
+      "39d163a54ec9a5e1b9b1a11fbf23eaa7e088c8014c6db66a784cfe290470400c",
+      "63788f661a091dd12686f5015cfaaca46ab79c6594cf41c85a9f2027165fdf7a",
+      "7ea9e3083d99857f7c809706b7affea3d41644b6e51c3cad25ddc927c101d0d4",
+      "39d163a54ec9a5e1b9b1a11fbf23eaa7e088c8014c6db66a784cfe290470400c",
+      "63788f661a091dd12686f5015cfaaca46ab79c6594cf41c85a9f2027165fdf7a"
+    ],
+    "identical": true
+  },
+  "camera": null
+}

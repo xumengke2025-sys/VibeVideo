@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s13-root { position: absolute; inset: 0; }
+        #s13-video { left: 150px; top: 200px; width: 1620px; height: 290px; border-radius: 20px; border: 2px solid var(--k-line); background: rgba(15,15,19,.85); }
+        #s13-head { left: 28px; top: 20px; font: 500 22px/1 var(--k-mono); color: var(--k-bp-ink-2); }
+        #s13-tc { right: 28px; left: auto; top: 20px; font: 500 22px/1 var(--k-mono); color: var(--k-bp-ink); }
+        #s13-ticks { left: 40px; top: 246px; width: 1540px; height: 20px; }
+        .s13-frame { width: 230px; height: 140px; border-radius: 12px; border: 2px solid var(--k-line-dim); overflow: hidden; }
+        .s13-frame svg { display: block; }
+        #s13-ring { width: 250px; height: 160px; border-radius: 16px; border: 5px solid var(--k-accent); }
+        #s13-head-line { width: 5px; height: 220px; background: var(--k-accent); border-radius: 3px; }
+        #s13-knob { width: 28px; height: 28px; border-radius: 50%; background: var(--k-accent); margin: -14px 0 0 -11.5px; }
+        #s13-stamp { left: 930px; top: 950px; font-size: 26px; }
+        #s13-slot-label { left: 1508px; top: 560px; font-size: 22px; }
+        #s13-mini { width: 126px; height: 84px; border-radius: 10px; overflow: hidden; border: 3px solid var(--k-accent); background: #16161b; }
+        #s13-note { left: 1450px; top: 950px; font: 500 22px/1.2 var(--k-mono); color: var(--k-bp-ink-2); }
+      </style>
+      <div id="s13-root" data-composition-id="s13-frame" data-width="1920" data-height="1080">
+        <div id="s13-scene" class="k-scene k-bp">
+          <div id="s13-video" class="k-abs">
+            <div id="s13-head" class="k-abs">video · harbour flight · 8.0 s · 80 cr</div>
+            <div id="s13-tc" class="k-abs">00:00.0</div>
+          </div>
+          <div id="s13-ring" class="k-abs"></div>
+          <div id="s13-play" class="k-abs"><div id="s13-knob"></div><div id="s13-head-line"></div></div>
+          <svg id="s13-links" class="k-abs" width="1920" height="1080">
+            <path id="s13-link" d="M1224 760 C 1340 760, 1440 710, 1569 705" fill="none" stroke="#f2c14e" stroke-width="4" stroke-dasharray="8 9" />
+          </svg>
+          <div id="s13-stamp" class="k-pill k-amber">image/frame · 0 cr</div>
+          <div id="s13-slot-label" class="k-pill">start_frame</div>
+          <div id="s13-note" class="k-abs">next clip starts here</div>
+          <div id="s13-mini" class="k-abs"></div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s13-scene");
+          K.chrome(scene, tl, { title: "pull a frame, free", chapter: "5 · continue", step: 5 });
+
+          // Filmstrip: six frames, the boat crossing; a tick ruler under it.
+          const FX = (i) => 190 + i * 255, FY = 270, FW = 230, FH = 140;
+          const art = (i) => K.harbourArt({ boat: -44 + i * 18, line: true });
+          for (let i = 0; i < 6; i++) {
+            K.el(scene, "div", { class: "k-abs s13-frame", style: { left: FX(i) + "px", top: FY + "px" } },
+              `<svg width="${FW}" height="${FH}" viewBox="24 24 172 104" preserveAspectRatio="xMidYMid slice">${art(i)}</svg>`);
+          }
+          K.el(document.getElementById("s13-video"), "svg", { id: "s13-ticks", class: "k-abs", width: 1540, height: 20 },
+            Array.from({ length: 41 }, (_, i) => `<line x1="${i * 38.5}" x2="${i * 38.5}" y1="${i % 5 ? 10 : 2}" y2="18" stroke="rgba(245,245,244,.35)" stroke-width="2"/>`).join(""));
+          const PICK = 3, pickX = FX(PICK) + FW / 2, pickY = FY + FH / 2;
+          const frameEls = [...scene.querySelectorAll(".s13-frame")];
+          frameEls.forEach((f, i) => K.el(scene, "div", { class: "k-abs k-mono", style: { left: FX(i) + "px", top: FY + FH + 8 + "px", fontSize: "16px", color: "#8a8a86" } }).textContent = `f${i} · ${(i * 1.6).toFixed(1)} s`);
+
+          // Blueprint annotations: still, they give the eye somewhere to rest between beats.
+          K.cross(scene, 110, 170); K.cross(scene, 1810, 170); K.cross(scene, 110, 1000); K.cross(scene, 1810, 1000);
+          K.leader(scene, 300, 490, 340, 560, "the source stays private · r2");
+          K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } },
+            `<path d="M${pickX} ${500} V${pickY + 380 - 150}" stroke="rgba(245,245,244,.22)" stroke-width="1.5" stroke-dasharray="4 8"/>`);
+          K.el(scene, "div", { class: "k-abs k-mono", style: { left: pickX + 20 + "px", top: "512px", fontSize: "18px", color: "#8a8a86", lineHeight: "1.5" } },
+            "<div>mp4 → cloudflare media</div><div>→ png, no public url</div>");
+
+          // Frame card: starts exactly over the picked frame, then drops below it.
+          const S = 1.4, CL = pickX - 110 * S, CT = pickY - 76 * S, DROP = 380;
+          const card = K.card(scene, { id: "s13-card", theme: "bp", left: CL, top: CT, scale: S, thumb: art(PICK) });
+          gsap.set(K.part(card, "k-bar"), { opacity: 0 });
+          const face = K.part(card, "k-face"), legs = K.part(card, "k-legs"), body = K.part(card, "k-body");
+
+          // The next clip, waiting for a start frame.
+          const NL = 1450, NT = 610;
+          const next = K.card(scene, { id: "s13-next", theme: "bp", left: NL, top: NT, scale: S });
+          gsap.set(K.part(next, "k-bar"), { opacity: 0 });
+          K.el(K.part(next, "k-thumb"), "rect", { x: 40, y: 38, width: 90, height: 60, rx: 8, fill: "none", stroke: "rgba(245,245,244,.45)", "stroke-width": 2, "stroke-dasharray": "5 6" });
+          const slotX = NL + 85 * S, slotY = NT + 68 * S;
+          const mini = document.getElementById("s13-mini");
+          mini.innerHTML = `<svg width="126" height="84" viewBox="24 24 172 104" preserveAspectRatio="xMidYMid slice">${art(PICK)}</svg>`;
+
+          // b0: playhead appears on the first frame
+          const play = document.getElementById("s13-play");
+          tl.fromTo(play, { x: FX(0) + 20, y: 240, opacity: 0, scaleY: 0.4 }, { opacity: 1, scaleY: 1, duration: 0.2, ease: "back.out(2)", transformOrigin: "50% 0%" }, K.t(0));
+          // b1–b2: scrub to the frame we want; timecode follows
+          const tc = document.getElementById("s13-tc"), clock = { s: 0 };
+          tl.to(play, { x: pickX - 2, duration: 0.5, ease: "power2.inOut" }, K.t(1));
+          tl.fromTo(clock, { s: 0 }, { s: 4.8, duration: 0.5, ease: "power2.inOut", data: "follow", onUpdate: () => (tc.textContent = "00:0" + clock.s.toFixed(1)) }, K.t(1));
+          // Frames brighten as the playhead passes them: detail that rides the focus.
+          const x0 = FX(0) + 20, x1 = pickX - 2;
+          const inv = (p) => (p < 0.5 ? Math.sqrt(p / 2) : 1 - Math.sqrt((1 - p) / 2)); // power2.inOut⁻¹
+          for (let i = 0; i < PICK; i++) {
+            const at = K.t(1) + 0.5 * inv((FX(i) + FW / 2 - x0) / (x1 - x0));
+            tl.fromTo(frameEls[i], { borderColor: "rgba(245,245,244,.28)" }, { borderColor: "rgba(242,193,78,.95)", duration: 0.04, data: "follow" }, at);
+            tl.to(frameEls[i], { borderColor: "rgba(245,245,244,.28)", duration: 0.3, ease: "power1.in", data: "follow" }, at + 0.06);
+          }
+          // b3: it stops; the frame is picked
+          tl.fromTo("#s13-ring", { x: FX(PICK) - 10, y: FY - 10, opacity: 0, scale: 1.15 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, K.t(3));
+          K.sparkle(tl, scene, pickX + 110, FY - 10, K.t(3), { r: 30, n: 2, seed: 13, stroke: "#08080a" });
+          // b4: the frame drops out as its own card and wakes on the way down
+          tl.fromTo(card, { y: 0, opacity: 0 }, { opacity: 1, duration: 0.04 }, K.t(4));
+          tl.fromTo(body, { attr: { "stroke-opacity": 0 } }, { attr: { "stroke-opacity": 1 }, duration: 0.1, data: "follow" }, K.t(4));
+          tl.fromTo([face, legs], { opacity: 0 }, { opacity: 1, duration: 0.12, data: "follow" }, K.t(4) + 0.1);
+          tl.to(card, { y: DROP, duration: 0.22, ease: "power2.in", data: "follow" }, K.t(4) + 0.03);
+          // b5: lands; the price is stamped: nothing
+          K.land(tl, card, K.t(5));
+          K.puff(tl, scene, pickX, CT + DROP + 202 * S, K.t(5), { theme: "bp", spread: 110 });
+          tl.fromTo("#s13-stamp", { opacity: 0, scale: 1.7, rotation: -10 }, { opacity: 1, scale: 1, rotation: -3, duration: 0.16, ease: "power3.in", data: "follow" }, K.t(5) + 0.06);
+          // b6: the next clip appears, a line reaches for its start frame
+          K.pop(tl, next, 6, { from: 0.5, origin: "50% 100%" });
+          tl.fromTo(["#s13-slot-label", "#s13-note"], { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.2, data: "follow" }, K.t(6) + 0.06);
+          K.draw(tl, document.getElementById("s13-link"), 6, 0.24);
+          // b7: the frame travels the line and fills the slot
+          tl.fromTo(mini, { opacity: 0 }, { opacity: 1, duration: 0.03 }, K.t(7));
+          K.travel(tl, mini, document.getElementById("s13-link"), 7, 0.2, "power2.in", 126, 84);
+          tl.to("#s13-slot-label", { backgroundColor: "#f2c14e", color: "#1a1300", borderColor: "#f2c14e", duration: 0.08, data: "follow" }, K.t(7) + 0.2);
+          K.sparkle(tl, scene, slotX, slotY - 50, K.t(7) + 0.2, { r: 60, n: 3, seed: 7, stroke: "#08080a" });
+
+          K.focus(scene, tl, "s13", [
+            [0, FX(0) + 20, pickY], [1, (FX(0) + pickX) / 2, pickY], [2, pickX - 60, pickY], [3, pickX, pickY],
+            [4, pickX, pickY + DROP / 2], [5, pickX, pickY + DROP], [6, 1400, 730], [7, slotX, slotY],
+          ]);
+          K.check(tl, "s13");
+          window.__timelines["s13-frame"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

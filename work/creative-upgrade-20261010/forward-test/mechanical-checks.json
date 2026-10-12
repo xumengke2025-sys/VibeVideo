@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "name": "reverse and below-threshold pressure remain seated",
+      "ok": true
+    },
+    {
+      "name": "stroke / spring compression / fixed end remain consistent",
+      "ok": true
+    },
+    {
+      "name": "excess pressure saturates at mechanical stop",
+      "ok": true
+    },
+    {
+      "name": "invalid mechanical parameters rejected",
+      "ok": true
+    },
+    {
+      "name": "Hermite path deterministic under shuffled evaluation",
+      "ok": true
+    },
+    {
+      "name": "path rejects mismatched dimensions / nonascending times",
+      "ok": true
+    },
+    {
+      "name": "world camera focus maps to viewport centre across zooms",
+      "ok": true
+    },
+    {
+      "name": "seeded randomness recreates under new factory",
+      "ok": true
+    }
+  ],
+  "scope": "Constraint / deterministic-state checks. No aesthetic judgement or fluid simulation."
+}

@@ -1,0 +1,483 @@
+{
+  "repo": "misbahsy/claude-horizon-animation",
+  "repository": "https://github.com/misbahsy/claude-horizon-animation",
+  "commit": "fd63cf8d4c265e1dbc4a491a16e46a3464644737",
+  "commitDate": "2026-09-23T16:48:42Z",
+  "snapshotUrl": "https://codeload.github.com/misbahsy/claude-horizon-animation/zip/fd63cf8d4c265e1dbc4a491a16e46a3464644737",
+  "archiveSha256": "b6d10bfa3b927b1896563caed6b339e9aafc2616fb4607145d2d67055b26b408",
+  "checked": "2026-10-11",
+  "upstreamLicense": null,
+  "licenseFiles": [],
+  "usage": "未发现明确许可证，仅本地研究；复制发布或改编复用需作者许可",
+  "modelEvidence": [
+    "# Claude animation skills",
+    "Three agent skills for making short launch and explainer films with code. `horizon-reel` cuts together collage horizons in the style of Claude's model-launch films. `sketch-to-sim` turns a pencil sketch of a machine into a film: the drawing is read, lifts off the paper as a wooden model and runs under real physics. `lab-explainer` builds a 3D explainer in which an apparatus on a lab bench demonstrates a formula, with every number on screen computed from the real equation. All three render frame by frame in headless Chromium, so the same input always gives the same film, and none uses an image or video model.",
+    "![A day 0 reel for Claude Opus 5.5 on LiteLLM](docs/preview.gif)",
+    "> Make a 10 second launch reel for our v2.0 release, in the Claude launch video style. Copy: \"v2.0\" / \"is out\" / \"today\". End on our logo, media/logo.png.",
+    "`skills/horizon-reel/examples/opus-5-5/` holds the film in the preview. Run `bash source.sh` in a copy of that folder to fetch its images.",
+    "With the [skills CLI](https://github.com/vercel-labs/skills), for Claude Code, Codex or any other supported agent:",
+    "npx skills add misbahsy/claude-horizon-animation",
+    "It asks which skills to install. `--skill sketch-to-sim` picks one, `-g` installs for your user rather than the current project, and `-a claude-code` or `-a codex` picks the agent without prompts.",
+    "As a Claude Code plugin, which installs all three:",
+    "/plugin marketplace add misbahsy/claude-horizon-animation",
+    "/plugin install animation-skills@claude-horizon-animation",
+    "From a clone, for Claude Code and Codex together:"
+  ],
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "bytes": 587,
+      "sha256": "c2f885f9ffc15d74aa690b22df0ed0d765019adea74ea90d1ec5b393e15b08d6"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 450,
+      "sha256": "b292046a4e6e8668293c174571e9ae6d11746d012a2a2357aa0bf0b7da059413"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 253,
+      "sha256": "57ebb253b6f2e6f90f14a8c7df44fa0f0ad4e26b77bde86737886d4cd72375ab"
+    },
+    {
+      "path": "docs/lab-explainer.gif",
+      "bytes": 6517112,
+      "sha256": "3208608e9b3f0a7f92b793db5aec1e1f52c0e398967589094d71fa6c1d9db960"
+    },
+    {
+      "path": "docs/preview.credits.md",
+      "bytes": 2336,
+      "sha256": "aa9dedd9ca57cf78cea966a31eb8ebb4de655f42db5e5b725d9c0b33a4379c3a"
+    },
+    {
+      "path": "docs/preview.gif",
+      "bytes": 5464481,
+      "sha256": "b0fa49b7a2cf18fae131f1e891410f892728f3d0bb8db9489361e956dbbb2e5f"
+    },
+    {
+      "path": "docs/sketch-to-sim.gif",
+      "bytes": 4497049,
+      "sha256": "8a5cec60ec8194576627cd914cfe75a6dec20639689347394054e48aa8598950"
+    },
+    {
+      "path": "install.sh",
+      "bytes": 1433,
+      "sha256": "48c431f0fe02560272d2f13395666199c03fb269892ea218dc6dbe14aca2bb21"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7978,
+      "sha256": "4da37ac5505d9c7bc3840a74e821c4bb182fb1ea317c329b52fdafc98a98de52"
+    },
+    {
+      "path": "skills/horizon-reel/assets/engine.js",
+      "bytes": 34391,
+      "sha256": "d1805001708ebe88f13d20e71d708f24f788324de8b6268357768fa5788da0b7"
+    },
+    {
+      "path": "skills/horizon-reel/assets/fonts/geist-variable.woff2",
+      "bytes": 29288,
+      "sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608"
+    },
+    {
+      "path": "skills/horizon-reel/assets/fonts/newsreader-variable.woff2",
+      "bytes": 131848,
+      "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a"
+    },
+    {
+      "path": "skills/horizon-reel/assets/fonts/OFL-geist.txt",
+      "bytes": 4387,
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f"
+    },
+    {
+      "path": "skills/horizon-reel/assets/fonts/OFL-newsreader.txt",
+      "bytes": 4394,
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+    },
+    {
+      "path": "skills/horizon-reel/assets/fonts/OFL-source-serif-4.txt",
+      "bytes": 4400,
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+    },
+    {
+      "path": "skills/horizon-reel/assets/fonts/README.md",
+      "bytes": 616,
+      "sha256": "bb5172b119034b5781e86d36e0eb2e58235922b5436b88cf088a934130205faf"
+    },
+    {
+      "path": "skills/horizon-reel/assets/fonts/source-serif-4-variable.woff2",
+      "bytes": 122168,
+      "sha256": "2a24bad466f09b88b8e9cbc488bf774117c912e66374c57bf4716855849143f8"
+    },
+    {
+      "path": "skills/horizon-reel/assets/reel.html",
+      "bytes": 987,
+      "sha256": "3be1ecda3e42ad0eab26571c76ccc5d36ee26bb66d2d68dc5ff42a8183650d46"
+    },
+    {
+      "path": "skills/horizon-reel/examples/opus-5-5/film.json",
+      "bytes": 4245,
+      "sha256": "c4769f7bfe7601185f70d8c6c5bdbe84160624c0ed64b9b4fbb31f399557e047"
+    },
+    {
+      "path": "skills/horizon-reel/examples/opus-5-5/source.sh",
+      "bytes": 8880,
+      "sha256": "ca5ca329a7e51bd26f1e15813eaf91dc38a2121bc88dcc73f4748b7f2dc1a303"
+    },
+    {
+      "path": "skills/horizon-reel/examples/smoke/film.json",
+      "bytes": 443,
+      "sha256": "b14ec41955703fe336cb15a9f4b5c4dfc82fd14086f47c4bc3eec2987a8b42d0"
+    },
+    {
+      "path": "skills/horizon-reel/package-lock.json",
+      "bytes": 633,
+      "sha256": "0f73e6c3789d23e54774e392a29066393fd3c481183fba74bf2d27ba62845a3f"
+    },
+    {
+      "path": "skills/horizon-reel/package.json",
+      "bytes": 252,
+      "sha256": "9cecf028b6c5f1ef41018b98221a9a51c1779a81e293a5908ba9f957a131518a"
+    },
+    {
+      "path": "skills/horizon-reel/references/film-spec.md",
+      "bytes": 7214,
+      "sha256": "1cc8b44785383429b2769dc1656b5c89a7f7726bbd33128245b9802770821dbd"
+    },
+    {
+      "path": "skills/horizon-reel/references/sources.md",
+      "bytes": 3802,
+      "sha256": "02b41d25d71e25e23f535d085dc6288feccac40024515519952814229cb18d99"
+    },
+    {
+      "path": "skills/horizon-reel/references/style.md",
+      "bytes": 4530,
+      "sha256": "047fb26b7ec3f3c2060e6e24e07e02de5e3470b3eab33806f2b3dd540fa8170e"
+    },
+    {
+      "path": "skills/horizon-reel/scripts/lock.mjs",
+      "bytes": 1994,
+      "sha256": "b7c32a2a1400802cf3825de60a791dcbd931dcef003a89bb44f70770b8616ec6"
+    },
+    {
+      "path": "skills/horizon-reel/scripts/render.mjs",
+      "bytes": 9941,
+      "sha256": "24c7bf275bb62e453d6f0bfcd4ddf65d9f8ec4c8bffc9d93d7df72866435bd2c"
+    },
+    {
+      "path": "skills/horizon-reel/scripts/setup.mjs",
+      "bytes": 3118,
+      "sha256": "752b20c7618c7e61e7b22cfee84acd45cbd022895b3505dccb576fce4ce90d7b"
+    },
+    {
+      "path": "skills/horizon-reel/scripts/sheet.mjs",
+      "bytes": 3045,
+      "sha256": "051c352d32782e2be274c9d7d01ae024bb6cf7778fcc88844ed4342d8607339b"
+    },
+    {
+      "path": "skills/horizon-reel/scripts/source.mjs",
+      "bytes": 8485,
+      "sha256": "d440ae0a1b9fe84f7395409d71adaa1594b0bc63bb353974a8aa53bd26584173"
+    },
+    {
+      "path": "skills/horizon-reel/SKILL.md",
+      "bytes": 7973,
+      "sha256": "525d823bcf1418d36940f51148e359f63fb607e53fe73e952794f413e1ab4ecc"
+    },
+    {
+      "path": "skills/lab-explainer/engine/fonts/jetbrains-mono.woff2",
+      "bytes": 40404,
+      "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e"
+    },
+    {
+      "path": "skills/lab-explainer/engine/fonts/OFL-jetbrains-mono.txt",
+      "bytes": 4524,
+      "sha256": "403581b69dac5cff4079205e01c6b467e56af449ecbd7247693ddb1baafa005b"
+    },
+    {
+      "path": "skills/lab-explainer/engine/fonts/OFL-outfit.txt",
+      "bytes": 4387,
+      "sha256": "0e5fcef5d93bfcae273c11c00f0bb453d3b5491860e1ac8b658767b7577c938f"
+    },
+    {
+      "path": "skills/lab-explainer/engine/fonts/outfit.woff2",
+      "bytes": 32292,
+      "sha256": "6c18d579fd87c3776be068b762cbc83fde3acb543d49eabd3ade842eb987e887"
+    },
+    {
+      "path": "skills/lab-explainer/engine/index.html",
+      "bytes": 6471,
+      "sha256": "08981016aa9b7f78e5ec76fb65dc765c4eead4331ef76a9d31d637c17986fb27"
+    },
+    {
+      "path": "skills/lab-explainer/engine/src/kit.js",
+      "bytes": 32961,
+      "sha256": "c18c4191d5427505132dc511e308f23ebaea1a7b912deee9b358f50ce31154ad"
+    },
+    {
+      "path": "skills/lab-explainer/engine/src/main.js",
+      "bytes": 4150,
+      "sha256": "3279d18a9f0f524c4f1ebcda05aa8177e21e913c58c22b358938b3746ac8c365"
+    },
+    {
+      "path": "skills/lab-explainer/engine/src/pipeline.js",
+      "bytes": 10400,
+      "sha256": "fa653c4c5369f5625089c711d426e7553cb31eb97f13c42ca7599f904580a842"
+    },
+    {
+      "path": "skills/lab-explainer/engine/src/textures.js",
+      "bytes": 7185,
+      "sha256": "a1c1458e8f1f533039bcfe0509a2b5e7f3282d94d23f2a097ac814d976e5fdbc"
+    },
+    {
+      "path": "skills/lab-explainer/engine/src/timeline.js",
+      "bytes": 2212,
+      "sha256": "a3227eb9d14f30c9ffa1ca2ddcc95588f6927517e98c5b69eb337993ba3b1e44"
+    },
+    {
+      "path": "skills/lab-explainer/engine/src/ui.js",
+      "bytes": 6344,
+      "sha256": "1a1e79b9184571db94830d5af0dc6fca56f5b641a05b33534ecf8429509c0f7f"
+    },
+    {
+      "path": "skills/lab-explainer/examples/plane-of-focus/film.js",
+      "bytes": 18730,
+      "sha256": "6585fca2bc2cef8bebf6d64b56b30767604fae223ad45a91bf001f56c3d92099"
+    },
+    {
+      "path": "skills/lab-explainer/examples/refraction/film.js",
+      "bytes": 15281,
+      "sha256": "c2149e8902596f921779968491e411ba91f5cf4f70aa9d3718e9c782641db861"
+    },
+    {
+      "path": "skills/lab-explainer/package-lock.json",
+      "bytes": 941,
+      "sha256": "74684056f36a27efe760b8bf4de7beaa2d4c6727e6d9ce7c7955fd692aa3c546"
+    },
+    {
+      "path": "skills/lab-explainer/package.json",
+      "bytes": 230,
+      "sha256": "3ce745c7382d56a3b3e81805edae9058c9288b6ca2260efa6bca37e2e37a8d49"
+    },
+    {
+      "path": "skills/lab-explainer/references/film.md",
+      "bytes": 8691,
+      "sha256": "67be781f7b3e6ab454dde1ee36f4bf10e90cfa71ba09097bcc15e5d516fa3bcf"
+    },
+    {
+      "path": "skills/lab-explainer/references/kit.md",
+      "bytes": 7806,
+      "sha256": "c6bb4a3638b161f7abff137ffaaa99ebad7027308470da00eeab5d3baf2fd326"
+    },
+    {
+      "path": "skills/lab-explainer/references/look.md",
+      "bytes": 4104,
+      "sha256": "af0ac36b5e7b2747321579deea1055dbc8edd8fbfda7cb79a27acd14a968ce1a"
+    },
+    {
+      "path": "skills/lab-explainer/scripts/capture.mjs",
+      "bytes": 4940,
+      "sha256": "3921468cc05033631540ff0f30c42cac3531a50246b0757bfe8f1c27cad6c3a2"
+    },
+    {
+      "path": "skills/lab-explainer/scripts/check.mjs",
+      "bytes": 1763,
+      "sha256": "f96872344ba69f5fda3840764ca40ac409eca521ac1085756052b49586dfbeef"
+    },
+    {
+      "path": "skills/lab-explainer/scripts/lib/server.mjs",
+      "bytes": 1761,
+      "sha256": "4eda828183ca6dbcd5f78c41d00402347d6acd572d771eb4f3c18f8cbd7d9ab3"
+    },
+    {
+      "path": "skills/lab-explainer/scripts/serve.mjs",
+      "bytes": 527,
+      "sha256": "4b6923f31f5c9ccf45203dac4d314169aa064848859c2e0391c8a05b30f05c01"
+    },
+    {
+      "path": "skills/lab-explainer/scripts/setup.mjs",
+      "bytes": 2492,
+      "sha256": "48b9f552f0bc5e5e090f41018485c3e3d0aa44b825b968e1bf1ebab62618b89a"
+    },
+    {
+      "path": "skills/lab-explainer/SKILL.md",
+      "bytes": 6765,
+      "sha256": "0a078f5b06c4c1f250d20eff6f8fc2b7151fb820e9708af6df31b680f16f7a45"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/fonts/caveat.woff2",
+      "bytes": 74572,
+      "sha256": "7a0049db01fdd8fc7af7ef36675862a72a5c76d0cb45ae63c9f5b6f1b769dac7"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/fonts/geist-mono-variable.woff2",
+      "bytes": 23108,
+      "sha256": "5f3d6ad60f29d6cb708414ec6887163d63bf197377ef5417d2483ff31ace6c3b"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/fonts/geist-variable.woff2",
+      "bytes": 29288,
+      "sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/fonts/gochi-hand.woff2",
+      "bytes": 19648,
+      "sha256": "65da857e1941e9856da139e5b4c955cdd49492819565df6ac6e80866bbf92773"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/fonts/OFL-caveat.txt",
+      "bytes": 4385,
+      "sha256": "1f9d81d094273d82f3898a1ee8b598a717d050ecbf5ff7bede105b704880157b"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/fonts/OFL-geist.txt",
+      "bytes": 4387,
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/fonts/OFL-geistmono.txt",
+      "bytes": 4387,
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/fonts/OFL-gochihand.txt",
+      "bytes": 4423,
+      "sha256": "b36cb03d6ddc163452d9935ce6f325741434272d3889acf42cc23584f31a85bf"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/index.html",
+      "bytes": 11555,
+      "sha256": "15b9a5c5b407e0a4ca74fb52fe97954e494241996a694a19bc4960b8266ac674"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/src/main.js",
+      "bytes": 10456,
+      "sha256": "474dca69c15cb05a7473619e451db1ea824c5fd55bfe26b5b0780f0ab4bcfbeb"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/src/model.js",
+      "bytes": 9401,
+      "sha256": "136e55f174f8248548875d42108ba88cee8e4d5221f9d88b5bd52287fe1ab698"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/src/physics.js",
+      "bytes": 11319,
+      "sha256": "d2acff4cafad1fdd8fc32368089a9165e36ea8e38559ecd3bebdbb7025ec2e22"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/src/sandbox.js",
+      "bytes": 11743,
+      "sha256": "1ec12377ff02ecf73603f7123f495d964614f022eaf23a8e5948a3d919e05e62"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/src/sketch.js",
+      "bytes": 8926,
+      "sha256": "e3efecff5b99a5ea7c765853800e9ea3367d14bc340a3086d802d4aa78d9cc0d"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/src/spec.js",
+      "bytes": 5501,
+      "sha256": "1bc757b3411a8a2f6b53c5dd4f56b41409cdf3b8ffa08e93d36e6ee92cad1d2c"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/src/story.js",
+      "bytes": 16699,
+      "sha256": "ee2509b62fed6602d8d0d7873e157da1549508680dae4a213675dc934b391631"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/src/textures.js",
+      "bytes": 6329,
+      "sha256": "6a13564645543a3d982a8d9f41c971c9e0221a664324741c39f54d00f49ae428"
+    },
+    {
+      "path": "skills/sketch-to-sim/engine/src/ui.js",
+      "bytes": 7829,
+      "sha256": "151c9c96bf10165db2907333f87f6e457784f4b14ba8cc28698f09b71246c34f"
+    },
+    {
+      "path": "skills/sketch-to-sim/examples/rube-goldberg/machine.js",
+      "bytes": 10189,
+      "sha256": "760f863f3d68343be780417a330f4f1b672353378b99b8a52cb2f9111eb41f69"
+    },
+    {
+      "path": "skills/sketch-to-sim/examples/trebuchet/machine.js",
+      "bytes": 10275,
+      "sha256": "885bec94b5828c08897f7750c0919990867bb2701439fccdea2fbc8d96b75147"
+    },
+    {
+      "path": "skills/sketch-to-sim/package-lock.json",
+      "bytes": 1323,
+      "sha256": "3be897ae8dc3073bd113fb355c5d2becc20cd45207cc609b5e5b629b7058bd0e"
+    },
+    {
+      "path": "skills/sketch-to-sim/package.json",
+      "bytes": 314,
+      "sha256": "98be7c330b53f4d0ac424d69b93cd2dfdd1cb30aa8356c29326be738942599e2"
+    },
+    {
+      "path": "skills/sketch-to-sim/references/physics.md",
+      "bytes": 3212,
+      "sha256": "c80d7302172db515f3cb400199fa3be225e832d8816c91342b4df2b0166d4d9a"
+    },
+    {
+      "path": "skills/sketch-to-sim/references/spec.md",
+      "bytes": 4293,
+      "sha256": "969c4b094b6f4947be77eb77a6680d0055b6da658ade93023c9cd6cb3487dd80"
+    },
+    {
+      "path": "skills/sketch-to-sim/references/story.md",
+      "bytes": 4643,
+      "sha256": "435b126e67b1e61074dabdbef827cc0ebf0c6412b7cbb7189fcd420481ff2a4d"
+    },
+    {
+      "path": "skills/sketch-to-sim/references/style.md",
+      "bytes": 2138,
+      "sha256": "fae59e6201e7936b1a21ccded89c1eb015123b16d3d63ac349453f9633b589cf"
+    },
+    {
+      "path": "skills/sketch-to-sim/scripts/capture.mjs",
+      "bytes": 4629,
+      "sha256": "3759393a7cd648dab250d8552cabdd88fd348022c37cd3ae9aac38883c59c164"
+    },
+    {
+      "path": "skills/sketch-to-sim/scripts/lib/load.mjs",
+      "bytes": 1257,
+      "sha256": "1c0460e7e9a1b1cc53cba36c90d4aba9584393760086cd5f4e2441b08d9e9d6c"
+    },
+    {
+      "path": "skills/sketch-to-sim/scripts/lib/server.mjs",
+      "bytes": 1637,
+      "sha256": "d27b9f29427602ab40be5ebc5598e6732781775be6e73bc8fd61f86b1277f558"
+    },
+    {
+      "path": "skills/sketch-to-sim/scripts/serve.mjs",
+      "bytes": 633,
+      "sha256": "73ebc8850c1b02d77c9cea5700cfefa6e9fe9929e1dfda335b50a3682f44f2ae"
+    },
+    {
+      "path": "skills/sketch-to-sim/scripts/setup.mjs",
+      "bytes": 3115,
+      "sha256": "c36fc77190ce584d5130b525c1be503f8e7cfdd96c0d7f0724641716b23a4081"
+    },
+    {
+      "path": "skills/sketch-to-sim/scripts/sound.mjs",
+      "bytes": 12207,
+      "sha256": "608f7de4315aab72c82a80ae862f7da8f732ec3625112b734db5fcbb8e340948"
+    },
+    {
+      "path": "skills/sketch-to-sim/scripts/tune.mjs",
+      "bytes": 2194,
+      "sha256": "029591318c218bdb0d337014d8a9116d9fa660a37a6ce9b057efe4ed7029d425"
+    },
+    {
+      "path": "skills/sketch-to-sim/SKILL.md",
+      "bytes": 6047,
+      "sha256": "fab9ce5be5c5942308c3aebad42027cdf5c65859222906e0f4d6cf390e5784ca"
+    }
+  ],
+  "verification": {
+    "snapshotExtracted": true,
+    "sourceExecuted": false,
+    "avReviewed": false
+  }
+}

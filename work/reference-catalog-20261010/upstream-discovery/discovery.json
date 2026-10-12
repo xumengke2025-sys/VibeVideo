@@ -1,0 +1,624 @@
+[
+  {
+    "id": "particle-beach",
+    "url": "https://api.github.com/repos/ishuagrawal/particle-beach/git/trees/92db82255b962acf2930f19bf6e5e7790174a790?recursive=1",
+    "type": "tree",
+    "status": 200,
+    "bytes": 10037,
+    "videos": [],
+    "documents": [
+      "README.md"
+    ]
+  },
+  {
+    "id": "work-reel-26",
+    "url": "https://api.github.com/repos/tuzhechen2005/opus-video-skills/git/trees/59744a69c7b916cfbe4c4ec84006b0c2f5e2fde1?recursive=1",
+    "type": "tree",
+    "status": 200,
+    "bytes": 21979,
+    "videos": [
+      {
+        "path": "skills/kinetic-reel/docs/work-reel.gif",
+        "size": 2031064,
+        "sha": "c4d2b27bbc314c355d470bf57394b4c8a58647d4"
+      },
+      {
+        "path": "skills/painted-animation/docs/koi-gag.gif",
+        "size": 4720659,
+        "sha": "c4430b8f1e9eddbcdfdf7d621ebd6d0dd702d4f4"
+      }
+    ],
+    "documents": [
+      "README.md",
+      "README.zh-CN.md",
+      "skills/kinetic-reel/README.md",
+      "skills/kinetic-reel/README.zh-CN.md",
+      "skills/kinetic-reel/examples/site-intro/README.md",
+      "skills/kinetic-reel/examples/work-reel-26/README.md",
+      "skills/painted-animation/README.md",
+      "skills/painted-animation/README.zh-CN.md",
+      "skills/painted-animation/template/README.md"
+    ]
+  },
+  {
+    "id": "mg-styles-15",
+    "url": "https://api.github.com/repos/Vincentwei1021/mg-styles-15/git/trees/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c?recursive=1",
+    "type": "tree",
+    "status": 200,
+    "bytes": 116077,
+    "videos": [
+      {
+        "path": "videos/01-flat-vector.mp4",
+        "size": 4185753,
+        "sha": "5e566aa7a716a90619affdceb412b1f4ea154b6e"
+      },
+      {
+        "path": "videos/02-line-art.mp4",
+        "size": 22093257,
+        "sha": "2d93601dee7d4aafaf1030f26e5cb3723632c09e"
+      },
+      {
+        "path": "videos/03-isometric.mp4",
+        "size": 37919056,
+        "sha": "0d9eef0222e73bae0f8b530611047cf098d494dd"
+      },
+      {
+        "path": "videos/04-3d-render.mp4",
+        "size": 31050573,
+        "sha": "3fa76ae0bd58d5f4b63615ff1bffc016bda78ca6"
+      },
+      {
+        "path": "videos/05-cel-boil.mp4",
+        "size": 36915642,
+        "sha": "26cb8a8ef50e1fde739f441ccd3c75284f106734"
+      },
+      {
+        "path": "videos/06-collage.mp4",
+        "size": 36608562,
+        "sha": "56f52716209b9b677c219a69ed7171ff731883f4"
+      },
+      {
+        "path": "videos/07-liquid.mp4",
+        "size": 37947945,
+        "sha": "4e85e388dcb3d03a3ae29ad01ccb01f5d7e18887"
+      },
+      {
+        "path": "videos/08-morph.mp4",
+        "size": 27357300,
+        "sha": "75dafc5d55b350a2c07395477178549575aa4413"
+      },
+      {
+        "path": "videos/09-bauhaus.mp4",
+        "size": 28620968,
+        "sha": "978a5a9286f8b3c16191fe903328922e1fe11e8b"
+      },
+      {
+        "path": "videos/10-synthwave.mp4",
+        "size": 37700273,
+        "sha": "91fe11d1d8408dfc71794d4779c8a80b225f8638"
+      },
+      {
+        "path": "videos/12-aurora-glass.mp4",
+        "size": 37821095,
+        "sha": "8c1b2a5d30d2d0412910b4112e8b9d9e2861ca5c"
+      },
+      {
+        "path": "videos/18-hanazi.mp4",
+        "size": 36922572,
+        "sha": "04599262b986dd671ad9f48ba0c5394b95415cd6"
+      },
+      {
+        "path": "videos/19-paperclip.mp4",
+        "size": 11705444,
+        "sha": "672a43b868a4322b29a6c4d9e05d771bbc2e21d2"
+      },
+      {
+        "path": "videos/20-pixel.mp4",
+        "size": 13204278,
+        "sha": "edb755f9a919aab7d055ca99563071af86039fbf"
+      },
+      {
+        "path": "videos/22-hud.mp4",
+        "size": 37860923,
+        "sha": "b06ef73da96adedc13602dd58afa2691016d73d2"
+      }
+    ],
+    "documents": [
+      "README.md",
+      "README.zh-CN.md",
+      "assets/fonts/README.md",
+      "demos/04-3d-render/README.md",
+      "docs/readme",
+      "docs/readme/cover.webp",
+      "docs/readme/films",
+      "docs/readme/films/01-flat-vector.webp",
+      "docs/readme/films/02-line-art.webp",
+      "docs/readme/films/03-isometric.webp",
+      "docs/readme/films/04-3d-render.webp",
+      "docs/readme/films/05-cel-boil.webp",
+      "docs/readme/films/06-collage.webp",
+      "docs/readme/films/07-liquid.webp",
+      "docs/readme/films/08-morph.webp",
+      "docs/readme/films/09-bauhaus.webp",
+      "docs/readme/films/10-synthwave.webp",
+      "docs/readme/films/12-aurora-glass.webp",
+      "docs/readme/films/18-hanazi.webp",
+      "docs/readme/films/19-paperclip.webp",
+      "docs/readme/films/20-pixel.webp",
+      "docs/readme/films/22-hud.webp",
+      "docs/readme/flow-en.webp",
+      "docs/readme/flow-zh.webp",
+      "lib/audio/README.md"
+    ]
+  },
+  {
+    "id": "lemo-opuscar",
+    "url": "https://api.github.com/repos/lemomo-ai/lemo-opuscar/git/trees/4d7014aa7ba7d22c00513052dd996a4f200d5102?recursive=1",
+    "type": "tree",
+    "status": 200,
+    "bytes": 486550,
+    "videos": [],
+    "documents": [
+      "README.md",
+      "README.zh-CN.md",
+      "core/README.md",
+      "styleboard/catalog.json",
+      "styles/README.md",
+      "styles/shadow-puppet/demo/music/README.md"
+    ]
+  },
+  {
+    "id": "papermotion",
+    "url": "https://api.github.com/repos/francozanardi/papermotion/git/trees/aafddbe2dbc2b594bcd57c19c4a5a75c5c271be8?recursive=1",
+    "type": "tree",
+    "status": 200,
+    "bytes": 45780,
+    "videos": [],
+    "documents": [
+      "README.md",
+      "examples/catalog.ts",
+      "examples/embers/README.md",
+      "examples/light/README.md",
+      "packages/create-papermotion/README.md",
+      "packages/create-papermotion/starter/README.md",
+      "packages/create-papermotion/starter/examples/catalog.ts"
+    ]
+  },
+  {
+    "id": "songbie",
+    "url": "https://api.github.com/repos/JohnnyWang8802/songbie/git/trees/97225eb54a351c9938ad896e04bef7a7020393fb?recursive=1",
+    "type": "tree",
+    "status": 200,
+    "bytes": 3552,
+    "videos": [
+      {
+        "path": "media/songbie.mp4",
+        "size": 25953049,
+        "sha": "e400daad1885b1e49a4ec2b027d66d5b38644efd"
+      }
+    ],
+    "documents": [
+      "README.md"
+    ]
+  },
+  {
+    "id": "i-like-ur-look-lyric-video",
+    "url": "https://api.github.com/repos/20q2/i-like-ur-look-lyric-video/git/trees/573a5c7ff19a4ac46fec145a060368e381d9ba50?recursive=1",
+    "type": "tree",
+    "status": 200,
+    "bytes": 50126,
+    "videos": [],
+    "documents": [
+      "README.md"
+    ]
+  },
+  {
+    "id": "water-opus",
+    "url": "https://api.github.com/repos/AiondaDotCom/ai-sim-benchmark/git/trees/680f87e6d54984199525dd12005bd95711bb47bb?recursive=1",
+    "type": "tree",
+    "status": 200,
+    "bytes": 209191,
+    "videos": [
+      {
+        "path": "runs-lobby/claude-code-fable-5/docs/demo.gif",
+        "size": 7011510,
+        "sha": "aa0a34752beb1aee92ec0b8ec7cda2b6d5b6e934"
+      },
+      {
+        "path": "runs-lobby/claude-code-fable-5/docs/demo.mp4",
+        "size": 69454901,
+        "sha": "0192f721e1c66c02d57dcef8cb333c06850e87cb"
+      },
+      {
+        "path": "runs-lobby/claude-code-opus-5/docs/demo.gif",
+        "size": 9470663,
+        "sha": "064c18f3d164ff2d5ce7aba7b9f300558ee31be4"
+      },
+      {
+        "path": "runs-lobby/claude-code-opus-5/docs/demo.mp4",
+        "size": 28357654,
+        "sha": "83889cebcce4ed428746c9ee2db592b5f6b6d9ec"
+      },
+      {
+        "path": "runs/claude-code-fable-5/docs/demo.gif",
+        "size": 9070173,
+        "sha": "6f87ea76114d620be6b95d3970cab59519a899da"
+      },
+      {
+        "path": "runs/claude-code-fable-5/docs/demo.mp4",
+        "size": 3467592,
+        "sha": "2429093eb1fa5b179bd6bcc7c1e07cdc08811d6f"
+      },
+      {
+        "path": "runs/claude-code-haiku-4-5/docs/demo.gif",
+        "size": 311146,
+        "sha": "9850136be30e10896326a4778018a09c25051b14"
+      },
+      {
+        "path": "runs/claude-code-haiku-4-5/docs/demo.mp4",
+        "size": 131334,
+        "sha": "766187b64ce985f36e32d73654d8a5692e6ca771"
+      },
+      {
+        "path": "runs/claude-code-opus-5-5/docs/demo.gif",
+        "size": 9637799,
+        "sha": "097b506f970eb8538569684054d1eab1d64e3928"
+      },
+      {
+        "path": "runs/claude-code-opus-5-5/docs/demo.mp4",
+        "size": 4875135,
+        "sha": "2d796c02625203305573ec324eec2c3b47d403b8"
+      },
+      {
+        "path": "runs/claude-code-opus-5/docs/demo.gif",
+        "size": 5931915,
+        "sha": "0969c24a72bd4e9aba819c2b22f60b6a163be2e6"
+      },
+      {
+        "path": "runs/claude-code-opus-5/docs/demo.mp4",
+        "size": 2181842,
+        "sha": "49f55e574cdf9611e6a5421f95f0359205cc846c"
+      },
+      {
+        "path": "runs/claude-code-sonnet-5/docs/demo.gif",
+        "size": 2002725,
+        "sha": "d84e7637b3cba254d496457f78d759ad381f63c9"
+      },
+      {
+        "path": "runs/claude-code-sonnet-5/docs/demo.mp4",
+        "size": 980946,
+        "sha": "3bea56d7540add88931489d0617bb0969ed4cc3a"
+      },
+      {
+        "path": "runs/codex-gpt-5.6-sol/docs/demo.gif",
+        "size": 4195388,
+        "sha": "6749a95b636b1933fcfad7f5e812a3f1aa9e649d"
+      },
+      {
+        "path": "runs/codex-gpt-5.6-sol/docs/demo.mp4",
+        "size": 2170435,
+        "sha": "9f8120086552fb301f2ab89c0e4fff4f313a2295"
+      },
+      {
+        "path": "runs/codex-gpt-6-astra-high/docs/water-gpt-6-astra-high-x.mp4",
+        "size": 8867788,
+        "sha": "de66f554d63a19b95f13615e721f9a52b39b43be"
+      },
+      {
+        "path": "runs/grok-4.20-0309-reasoning/docs/demo.gif",
+        "size": 2774051,
+        "sha": "dd3adce682cbb6300e5b9e89bf769d7fb6f61785"
+      },
+      {
+        "path": "runs/grok-4.20-0309-reasoning/docs/demo.mp4",
+        "size": 2343575,
+        "sha": "88b28d7b85b5495539d488e2d4ad84477b20b46e"
+      },
+      {
+        "path": "runs/opencode-deepseek-v4-pro/docs/demo.gif",
+        "size": 8153907,
+        "sha": "9aa2544dae526746d57147ba408a899772cc74e5"
+      },
+      {
+        "path": "runs/opencode-deepseek-v4-pro/docs/demo.mp4",
+        "size": 3048146,
+        "sha": "6be88981dfc4ebaa5011258eee7489ca2c337154"
+      },
+      {
+        "path": "runs/opencode-kimi-k3/docs/demo.gif",
+        "size": 5304597,
+        "sha": "b83f9d43691ace9cacd7282d3bb2938c5a7c2eeb"
+      },
+      {
+        "path": "runs/opencode-kimi-k3/docs/demo.mp4",
+        "size": 2417563,
+        "sha": "3728e959ed870052910343f40491a6048c25a0ce"
+      },
+      {
+        "path": "runs/opencode-ox-alpha/docs/demo.gif",
+        "size": 2516676,
+        "sha": "d1979608f0e04f8339205fc01d3f9ddd8dad3060"
+      },
+      {
+        "path": "runs/opencode-ox-alpha/docs/demo.mp4",
+        "size": 1018061,
+        "sha": "89c134f991229f5cc294b1356e31edcc522df925"
+      },
+      {
+        "path": "runs/opencode-qwen3.8-27b/docs/demo.gif",
+        "size": 7539870,
+        "sha": "470e2b3b3ea553d1f661472631709778c94569c1"
+      },
+      {
+        "path": "runs/opencode-qwen3.8-27b/docs/demo.mp4",
+        "size": 4555692,
+        "sha": "86a583e27667bfb72dd358f953b7ec9eb19b05f0"
+      }
+    ],
+    "documents": [
+      "README.md",
+      "runs-lobby/claude-code-fable-5/README.md",
+      "runs-lobby/claude-code-fable-5/scripts/.takes/README.md",
+      "runs-lobby/claude-code-opus-5/README.md",
+      "runs-lobby/claude-code-opus-5/scripts/build-assets-manifest.py",
+      "runs-lobby/claude-code-opus-5/src/audio/manifest.ts",
+      "runs/claude-code-fable-5/README.md",
+      "runs/claude-code-haiku-4-5/README.md",
+      "runs/claude-code-opus-5-5/README.md",
+      "runs/claude-code-opus-5/README.md",
+      "runs/claude-code-sonnet-5/README.md",
+      "runs/codex-gpt-5.6-sol/README.md",
+      "runs/codex-gpt-6-astra-high/README.md",
+      "runs/grok-4.20-0309-reasoning/README.md",
+      "runs/opencode-deepseek-v4-pro/README.md",
+      "runs/opencode-kimi-k3/README.md",
+      "runs/opencode-ox-alpha/README.md",
+      "runs/opencode-qwen3.8-27b/README.md"
+    ]
+  },
+  {
+    "id": "three-avbd",
+    "url": "https://api.github.com/repos/sbobyn/three-avbd/git/trees/9b9c27b6b65a1212896e4d90e7e3d154c06e428a?recursive=1",
+    "type": "tree",
+    "status": 200,
+    "bytes": 48148,
+    "videos": [
+      {
+        "path": "docs/media/trailer.gif",
+        "size": 8682982,
+        "sha": "f5fa78c05a0221bc0c01c86345e386d9eb2a959a"
+      }
+    ],
+    "documents": [
+      "README.md",
+      "tools/trailer/README.md"
+    ]
+  },
+  {
+    "id": "clearwater",
+    "url": "https://api.github.com/repos/Aureliengmz/clearwater/git/trees/4bc826134321043a25df3c2b6fed16fb7b9241e8?recursive=1",
+    "type": "tree",
+    "status": 200,
+    "bytes": 2902,
+    "videos": [],
+    "documents": [
+      "README.md"
+    ]
+  },
+  {
+    "id": "mg-site",
+    "url": "https://vincentwei1021.github.io/mg-styles-15/",
+    "type": "document",
+    "status": 200,
+    "bytes": 7273,
+    "urls": [],
+    "scriptPaths": [
+      "site/vendor/highlight.min.js?v=662960b539",
+      "site/data.js?v=2140283f3a",
+      "site/app.js?v=f4b4facffb"
+    ]
+  },
+  {
+    "id": "lemo-site",
+    "url": "https://lemomo-ai.github.io/lemo-opuscar/",
+    "type": "document",
+    "status": 200,
+    "bytes": 89480,
+    "urls": [
+      "https://lemomo-ai.github.io/lemo-opuscar/",
+      "https://lemomo-ai.github.io/lemo-opuscar/img/feature_opuscar98.jpg",
+      "https://lemomo-ai.github.io/lemo-opuscar/opuscar98/",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/opuscar98.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/crayon-book.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/watercolor.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/ink-wash.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/impasto.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/one-line.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/whiteboard.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/urban-sketch.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/shadow-puppet.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/ukiyoe.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/papercut-red.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/paper-lantern.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/risograph.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/halftone-dossier.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/woodcut.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/engraving.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/silkscreen-poster.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/swiss-motion.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/spy-titles.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/art-deco.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/blueprint.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/stained-glass.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/pictogram-motion.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/ascii-crt.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/dataviz.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/iso-infographic.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/dark-keynote.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/living-screencast.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/hologram-hud.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/rubber-hose.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/cel-anime-80s.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/scifi-toon.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/midcentury-toon.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/pixel-rpg.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/hd-2d.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/microgame.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/game-show.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/silent-film.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/backrooms.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/brick-toy.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/paper-popup.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/tilt-shift.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/lowpoly-island.mp4",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/glass-product.mp4"
+    ],
+    "scriptPaths": []
+  },
+  {
+    "id": "lemo-releases",
+    "url": "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases",
+    "type": "document",
+    "status": 200,
+    "bytes": 203892,
+    "urls": [
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/397208183",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/397208183/assets",
+      "https://uploads.github.com/repos/lemomo-ai/lemo-opuscar/releases/397208183/assets{?name,label}",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/tag/web",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590523519",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/art-deco.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590523614",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/ascii-crt.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590523676",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/backrooms.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590523832",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/blueprint.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590523964",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/brick-toy.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590524070",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/cel-anime-80s.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590524166",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/crayon-book.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590524298",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/dark-keynote.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590524402",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/dataviz.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/598055895",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/engraving.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590524454",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/game-show.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590524600",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/glass-product.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590524656",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/halftone-dossier.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590524741",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/hd-2d.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/598056443",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/hologram-hud.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590524835",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/impasto.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590524943",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/ink-wash.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590525063",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/iso-infographic.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590525140",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/living-screencast.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590525212",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/lowpoly-island.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590525276",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/microgame.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/598057227",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/midcentury-toon.mp4",
+      "https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases/assets/590525386",
+      "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/one-line.mp4"
+    ],
+    "scriptPaths": []
+  },
+  {
+    "id": "reel-readme",
+    "url": "https://raw.githubusercontent.com/tuzhechen2005/opus-video-skills/main/README.md",
+    "type": "document",
+    "status": 200,
+    "bytes": 4953,
+    "urls": [],
+    "scriptPaths": []
+  },
+  {
+    "id": "songbie-readme",
+    "url": "https://raw.githubusercontent.com/JohnnyWang8802/songbie/main/README.md",
+    "type": "document",
+    "status": 200,
+    "bytes": 2917,
+    "urls": [],
+    "scriptPaths": []
+  },
+  {
+    "id": "paper-readme",
+    "url": "https://raw.githubusercontent.com/francozanardi/papermotion/main/README.md",
+    "type": "document",
+    "status": 200,
+    "bytes": 11121,
+    "urls": [
+      "https://github.com/user-attachments/assets/4e585b3d-4214-43ab-9fe0-a7b1aab6b924",
+      "https://github.com/user-attachments/assets/0873431e-e55c-4cfe-9abd-1ab61f62b933",
+      "https://github.com/user-attachments/assets/4064b7b3-0aa6-441d-850a-623b773f4aae",
+      "https://github.com/user-attachments/assets/d9b56932-19fc-4571-a22c-6239ee6966a2",
+      "https://github.com/user-attachments/assets/08aa7208-1fcf-4f1d-ac74-28e54867f9f8",
+      "https://github.com/user-attachments/assets/7212194f-1166-49d9-8cb8-fa7a240a1b3e"
+    ],
+    "scriptPaths": []
+  },
+  {
+    "id": "beach-readme",
+    "url": "https://raw.githubusercontent.com/ishuagrawal/particle-beach/main/README.md",
+    "type": "document",
+    "status": 200,
+    "bytes": 1773,
+    "urls": [
+      "https://github.com/user-attachments/assets/85e4512a-ca0d-4b35-b9f5-29c01a3813b0"
+    ],
+    "scriptPaths": []
+  },
+  {
+    "id": "huashu-readme",
+    "url": "https://raw.githubusercontent.com/alchaincyf/huashu-art-motion/main/README.md",
+    "type": "document",
+    "status": 200,
+    "bytes": 14636,
+    "urls": [
+      "https://github.com/alchaincyf/huashu-art-motion/releases/latest",
+      "https://www.youtube.com/@Alchain"
+    ],
+    "scriptPaths": []
+  },
+  {
+    "id": "lugia-readme",
+    "url": "https://raw.githubusercontent.com/Lugia123/ai-video/main/README.md",
+    "type": "document",
+    "status": 200,
+    "bytes": 13106,
+    "urls": [],
+    "scriptPaths": []
+  },
+  {
+    "id": "rigid-readme",
+    "url": "https://raw.githubusercontent.com/sbobyn/three-avbd/main/README.md",
+    "type": "document",
+    "status": 200,
+    "bytes": 12480,
+    "urls": [],
+    "scriptPaths": []
+  },
+  {
+    "id": "clearwater-readme",
+    "url": "https://raw.githubusercontent.com/Aureliengmz/clearwater/main/README.md",
+    "type": "document",
+    "status": 200,
+    "bytes": 2238,
+    "urls": [
+      "https://aureliengmz.github.io/clearwater/"
+    ],
+    "scriptPaths": []
+  }
+]

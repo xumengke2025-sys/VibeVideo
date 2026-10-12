@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s02-root { position: absolute; inset: 0; }
+        #s02-term { left: 120px; top: 220px; width: 960px; height: 272px; border-radius: 20px; border: 2px solid var(--k-line); background: var(--k-surface); overflow: hidden; }
+        #s02-bar { height: 54px; border-bottom: 1.5px solid var(--k-line-dim); display: flex; align-items: center; gap: 12px; padding: 0 24px; }
+        #s02-bar i { width: 16px; height: 16px; border-radius: 50%; border: 2px solid var(--k-line-dim); display: block; }
+        #s02-bar span { margin-left: 16px; font: 500 20px/1 var(--k-mono); color: var(--k-bp-ink-2); }
+        #s02-body { padding: 30px 40px; font: 500 32px/1.6 var(--k-mono); color: var(--k-bp-ink); white-space: pre; }
+        .s02-dim { color: #8a8a86; }
+        .s02-caret { display: inline-block; width: 18px; height: 38px; background: var(--k-bp-ink); vertical-align: -7px; margin-left: 2px; }
+        #s02-url-wrap { position: relative; display: inline-block; }
+        #s02-hl { left: -8px; top: 6px; right: -8px; bottom: 6px; background: var(--k-accent); border-radius: 8px; transform-origin: 0 50%; }
+        #s02-enter { padding: 4px 14px; border-radius: 10px; background: var(--k-surface); border: 2px solid var(--k-line); font: 500 28px/1.2 var(--k-mono); color: var(--k-bp-ink); }
+        #s02-node { left: 1360px; top: 220px; width: 440px; height: 272px; border-radius: 20px; border: 2px solid var(--k-line); background: var(--k-surface); padding: 24px 28px; }
+        #s02-node-head { display: flex; align-items: center; gap: 14px; font: 600 34px/1 var(--k-display); color: var(--k-bp-ink); }
+        #s02-node-head b { width: 30px; height: 30px; border-radius: 8px; background: var(--k-accent); display: block; }
+        .s02-row { font: 500 22px/1 var(--k-mono); color: var(--k-bp-ink-2); margin-top: 20px; }
+        #s02-status { left: 28px; top: 214px; font: 500 22px/1 var(--k-mono); color: #8a8a86; }
+        #s02-status-on { left: 28px; top: 214px; font: 500 22px/1 var(--k-mono); color: var(--k-ok); }
+        #s02-sign { left: 1360px; top: 560px; width: 440px; height: 190px; border-radius: 20px; border: 2px solid var(--k-line-dim); background: var(--k-surface); }
+        .s02-cap { left: 28px; top: 22px; font: 500 18px/1 var(--k-mono); color: #8a8a86; }
+        #s02-btn { left: 28px; top: 62px; width: 384px; height: 70px; border-radius: 14px; border: 2px solid var(--k-line); display: flex; align-items: center; gap: 16px; padding: 0 18px; font: 600 28px/1 var(--k-display); color: var(--k-bp-ink); }
+        #s02-g { width: 38px; height: 38px; border-radius: 50%; border: 2px solid var(--k-line); font: 600 22px/34px var(--k-display); text-align: center; flex: none; }
+        #s02-once { left: 28px; top: 148px; font: 500 20px/1 var(--k-mono); color: var(--k-ok); }
+        #s02-check { left: 1690px; top: 560px; }
+        #s02-keys { left: 1360px; top: 800px; width: 440px; height: 200px; border-radius: 20px; border: 2px solid var(--k-line-dim); background: var(--k-surface); }
+        .s02-key { left: 28px; width: 384px; height: 36px; border-radius: 8px; border: 1.5px dashed rgba(245,245,244,.28); font: 500 18px/33px var(--k-mono); color: #8a8a86; padding: 0 14px; }
+        #s02-stamp { left: 1395px; top: 868px; font-size: 32px; padding: 10px 22px; }
+        .s02-box { height: 96px; border-radius: 14px; border: 1.5px solid var(--k-line-dim); padding: 18px 20px; }
+        .s02-box div:first-child { font: 600 26px/1 var(--k-display); color: var(--k-bp-ink); }
+        .s02-box div:last-child { font: 500 18px/1 var(--k-mono); color: #8a8a86; margin-top: 14px; }
+      </style>
+      <div id="s02-root" data-composition-id="s02-connect" data-width="1920" data-height="1080">
+        <div id="s02-scene" class="k-scene k-bp">
+          <div id="s02-term" class="k-abs">
+            <div id="s02-bar"><i></i><i></i><i></i><span>agent · ~/launch</span></div>
+            <div id="s02-body"><div class="s02-dim"># add makefx to your agent</div><div>$ <span id="s02-cmd"></span><span id="s02-caret-a" class="s02-caret"></span></div><div>  <span id="s02-url-wrap"><span id="s02-hl" class="k-abs"></span><span id="s02-url" style="position:relative"></span></span><span id="s02-caret-b" class="s02-caret"></span></div></div>
+          </div>
+          <div id="s02-enter" class="k-abs">⏎</div>
+          <svg id="s02-wires" class="k-abs" width="1920" height="1080">
+            <path d="M1580 494 V558" stroke="rgba(245,245,244,.28)" stroke-width="1.5" stroke-dasharray="4 7" fill="none" />
+            <path d="M1580 752 V798" stroke="rgba(245,245,244,.28)" stroke-width="1.5" stroke-dasharray="4 7" fill="none" />
+            <circle cx="1082" cy="434" r="7" fill="#08080a" stroke="rgba(245,245,244,.72)" stroke-width="2" />
+            <circle cx="1358" cy="434" r="7" fill="#08080a" stroke="rgba(245,245,244,.72)" stroke-width="2" />
+            <path id="s02-link" d="M1089 434 H1351" stroke="#f2c14e" stroke-width="4" fill="none" stroke-linecap="round" />
+          </svg>
+          <div id="s02-packet" class="k-abs" style="width:18px;height:18px;border-radius:50%;background:#f2c14e"></div>
+          <div id="s02-node" class="k-abs">
+            <div id="s02-node-head"><b></b>makefx</div>
+            <div class="s02-row">makefx.app/mcp</div>
+            <div class="s02-row">auth · oauth 2.1</div>
+            <div class="s02-row">space · alv/salt-harbour</div>
+            <div id="s02-status" class="k-abs">○ waiting for an agent</div>
+            <div id="s02-status-on" class="k-abs">● connected</div>
+          </div>
+          <div id="s02-sign" class="k-abs">
+            <div class="k-abs s02-cap">sign in · once</div>
+            <div id="s02-btn" class="k-abs"><div id="s02-g">G</div><span>sign in with google</span></div>
+            <div id="s02-once" class="k-abs">✓ signed in</div>
+          </div>
+          <svg id="s02-check" class="k-abs" width="100" height="100" viewBox="0 0 100 100">
+            <circle id="s02-check-ring" cx="50" cy="50" r="40" fill="#7bd389" stroke="#08080a" stroke-width="4" />
+            <path id="s02-check-tick" d="M30 52 L44 66 L71 36" fill="none" stroke="#08080a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <div id="s02-keys" class="k-abs">
+            <div class="k-abs s02-cap">provider keys</div>
+            <div class="k-abs s02-key" style="top:58px">video provider · ─</div>
+            <div class="k-abs s02-key" style="top:104px">image provider · ─</div>
+            <div class="k-abs s02-key" style="top:150px">voice provider · ─</div>
+          </div>
+          <div id="s02-stamp" class="k-pill k-amber" data-layout-allow-overlap>no provider keys</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s02-scene");
+          K.chrome(scene, tl, { title: "one command connects", chapter: "1 · ask", step: 1 });
+
+          // Still annotations: registration marks, leaders, and the chain the command sets up.
+          K.cross(scene, 96, 180); K.cross(scene, 1824, 180); K.cross(scene, 96, 1016); K.cross(scene, 1824, 1016);
+          K.leader(scene, 560, 492, 560, 590, "one line in the agent's own cli");
+          K.leader(scene, 1220, 440, 1220, 540, "transport · http");
+          K.leader(scene, 1360, 700, 1240, 700, "oauth 2.1", { align: "end" });
+          K.leader(scene, 1360, 950, 1240, 950, "nothing to paste", { align: "end" });
+          const CH = [[160, "agent", "~/launch"], [520, "makefx", "makefx.app/mcp"], [880, "space", "alv/salt-harbour"]];
+          CH.forEach(([x, a, b]) => {
+            K.el(scene, "div", { class: "k-abs s02-box", style: { left: x + "px", top: "760px", width: "300px" } }, `<div>${a}</div><div>${b}</div>`);
+          });
+          K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } },
+            '<path d="M462 808 H518 M822 808 H878" stroke="rgba(245,245,244,.35)" stroke-width="1.5"/>' +
+            '<path d="M510 802 L518 808 L510 814 M870 802 L878 808 L870 814" stroke="rgba(245,245,244,.35)" stroke-width="1.5" fill="none"/>' +
+            '<path d="M160 890 H1180" stroke="rgba(245,245,244,.2)" stroke-width="1.5" stroke-dasharray="4 8"/>');
+          K.el(scene, "div", { class: "k-abs k-mono", style: { left: "160px", top: "912px", fontSize: "20px", color: "#8a8a86" } }).textContent = "the agent asks · makefx runs the models · you hold no keys";
+          K.el(scene, "div", { class: "k-abs k-mono", style: { left: "160px", top: "716px", fontSize: "18px", color: "#8a8a86" } }).textContent = "after one command";
+
+          // Terminal geometry: 32 px mono, 1.6 line height, text starts after "$ " (2 cells).
+          const CELL = 32 * 0.6, LH = 32 * 1.6, x0 = 120 + 2 + 40 + 2 * CELL, top0 = 220 + 2 + 54 + 30;
+          const lineY = (i) => top0 + LH / 2 + i * LH;
+          const CMD = "claude mcp add --transport http makefx", URL = "https://makefx.app/mcp";
+          const urlEnd = x0 + URL.length * CELL;
+
+          // b0–b1: the command types; b2: the url
+          K.type(tl, document.getElementById("s02-cmd"), CMD, 0, 0.48);
+          tl.set("#s02-caret-a", { opacity: 0 }, K.t(2));
+          gsap.set("#s02-caret-b", { opacity: 0 });
+          tl.set("#s02-caret-b", { opacity: 1 }, K.t(2));
+          K.type(tl, document.getElementById("s02-url"), URL, 2, 0.22);
+          // b3: enter; the endpoint lights up
+          const enter = document.getElementById("s02-enter");
+          tl.fromTo(enter, { x: urlEnd + 36, y: lineY(2) - 24, opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.08, ease: "back.out(3)" }, K.t(3));
+          tl.to(enter, { y: lineY(2) - 19, duration: 0.05, data: "follow" }, K.t(3) + 0.08);
+          tl.to(enter, { opacity: 0, duration: 0.08, data: "follow" }, K.t(3) + 0.17);
+          tl.to("#s02-caret-b", { opacity: 0, duration: 0.04, data: "follow" }, K.t(3));
+          tl.fromTo("#s02-hl", { scaleX: 0 }, { scaleX: 1, duration: 0.14, ease: "power2.out", data: "follow" }, K.t(3) + 0.04);
+          tl.fromTo("#s02-url", { color: "#f5f5f4" }, { color: "#1a1300", duration: 0.06, data: "follow" }, K.t(3) + 0.08);
+          // b4: a line runs from the agent to makefx; makefx answers
+          K.draw(tl, document.getElementById("s02-link"), 4, 0.18, "power2.in");
+          const packet = document.getElementById("s02-packet");
+          tl.fromTo(packet, { x: 1073, y: 425, opacity: 0 }, { opacity: 1, duration: 0.02 }, K.t(4));
+          tl.to(packet, { x: 1340, duration: 0.18, ease: "power2.in", data: "follow" }, K.t(4));
+          tl.to(packet, { opacity: 0, scale: 2, duration: 0.1, data: "follow" }, K.t(4) + 0.18);
+          tl.fromTo("#s02-node", { borderColor: "rgba(245,245,244,.72)" }, { borderColor: "#f2c14e", duration: 0.05, data: "follow" }, K.t(4) + 0.18);
+          tl.fromTo("#s02-status-on", { opacity: 0 }, { opacity: 1, duration: 0.06, data: "follow" }, K.t(4) + 0.18);
+          tl.to("#s02-status", { opacity: 0, duration: 0.04, data: "follow" }, K.t(4) + 0.18);
+          // b5: sign in with google, pressed
+          const btn = document.getElementById("s02-btn");
+          tl.fromTo(btn, { scale: 1, backgroundColor: "rgba(242,193,78,0)" }, { scale: 0.94, backgroundColor: "#f2c14e", color: "#1a1300", borderColor: "#f2c14e", duration: 0.07, ease: "power2.out" }, K.t(5));
+          tl.to(btn, { scale: 1, duration: 0.2, ease: "back.out(3)", data: "follow" }, K.t(5) + 0.07);
+          tl.fromTo("#s02-g", { borderColor: "rgba(245,245,244,.72)" }, { borderColor: "#1a1300", duration: 0.07, data: "follow" }, K.t(5));
+          tl.fromTo("#s02-sign", { borderColor: "rgba(245,245,244,.28)" }, { borderColor: "rgba(245,245,244,.72)", duration: 0.07, data: "follow" }, K.t(5));
+          // b6: the check
+          K.pop(tl, "#s02-check", 6, { dur: 0.22 });
+          K.draw(tl, document.getElementById("s02-check-tick"), 6, 0.2);
+          tl.fromTo("#s02-once", { opacity: 0, x: -10 }, { opacity: 1, x: 0, duration: 0.12, data: "follow" }, K.t(6) + 0.08);
+          // b7: no provider keys, stamped
+          tl.fromTo("#s02-stamp", { opacity: 0, scale: 1.8, rotation: -12 }, { opacity: 1, scale: 1, rotation: -4, duration: 0.14, ease: "power3.in" }, K.t(7));
+          K.land(tl, document.getElementById("s02-stamp"), K.t(7) + 0.14, { follow: true });
+          K.sparkle(tl, scene, 1760, 872, K.t(7) + 0.14, { r: 50, n: 2, seed: 2, stroke: "#08080a" });
+
+          K.focus(scene, tl, "s02", [
+            [0, x0 + 150, lineY(1)], [1, x0 + 560, lineY(1)], [2, x0 + 250, lineY(2)], [3, urlEnd + 50, lineY(2)],
+            [4, 1250, 434], [5, 1580, 657], [6, 1740, 610], [7, 1580, 900],
+          ]);
+          K.check(tl, "s02");
+          window.__timelines["s02-connect"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

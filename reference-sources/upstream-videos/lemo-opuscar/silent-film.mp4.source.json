@@ -1,0 +1,33 @@
+{
+  "id": "lemo-opuscar/silent-film",
+  "packageId": "lemo-opuscar",
+  "styleId": "silent-film",
+  "title": "Lemo / 20年代默片",
+  "filename": "silent-film.mp4",
+  "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/silent-film.mp4",
+  "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+  "releaseTag": "films",
+  "releaseId": 397205472,
+  "assetId": 590522395,
+  "assetUpdated": "2026-09-26T11:19:36Z",
+  "expectedBytes": 76906766,
+  "expectedSha256": "5464efaf0149c25c7537991e96e71656c426ad6d487ee577ec13746c69acb377",
+  "entry": null,
+  "remoteCode": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/silent-film/STYLE.md",
+  "representation": "author-master",
+  "note": "作者films发布的原始高码率版本；发布附件与本地固定源码的逐像素一致性未确认",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/silent-film.mp4",
+  "status": "downloaded",
+  "bytes": 76906766,
+  "sha256": "5464efaf0149c25c7537991e96e71656c426ad6d487ee577ec13746c69acb377",
+  "verifiedGitBlob": null,
+  "metadata": {
+    "duration": 54.208333,
+    "width": 1920,
+    "height": 1080,
+    "fps": "24/1",
+    "codec": "h264",
+    "audio": true
+  },
+  "downloadedAt": "2026-10-10T03:07:36.314Z"
+}

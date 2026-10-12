@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s10-root { position: absolute; inset: 0; }
+        #s10-carry { width: 1px; height: 1px; }
+        #s10-refund { left: 0; top: 0; font-size: 20px; padding: 8px 14px; }
+        .s10-tint { position: absolute; left: 0; right: 0; bottom: 0; border-radius: 0 0 12px 12px; background: var(--k-danger-tint); }
+        .s10-err { position: absolute; left: 0; top: 50%; transform: translateY(-50%); font-family: var(--k-mono); font-weight: 500; color: var(--k-ink); white-space: nowrap; }
+      </style>
+      <div id="s10-root" data-composition-id="s10-failure" data-width="1920" data-height="1080">
+        <div id="s10-scene" class="k-scene">
+          <div id="s10-carry" class="k-abs" data-layout-allow-overflow><div id="s10-refund" class="k-pill k-amber" data-layout-allow-overflow data-layout-allow-overlap>refunded · 40 cr</div></div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s10-scene");
+
+          // The protagonist, landed; it stays still this scene.
+          K.card(scene, { id: "s10-hero", left: 130, top: 420, scale: 1.3, art: K.harbourArt({ boat: 12 }), name: "harbour flight", cr: "80 cr" });
+          // Another clip in the same space, 4 s, 40 cr held: generating.
+          const S = 2.0;
+          const card = K.card(scene, { id: "s10-sib", left: 800, top: 360, scale: S, name: "dusk clip", cr: "40 cr", state: "generating" });
+          const { cx, mediaCy, top, W } = card.k;
+          scene.querySelectorAll(".k-thumb, .k-thumb svg").forEach((e) => e.setAttribute("data-layout-allow-overflow", ""));
+          K.leader(scene, 900, card.k.bottom + 8, 900, card.k.bottom + 62, "video/h3-max · 4 s · 480p · 40 cr");
+          const bar = K.part(card, "k-bar"), meta = K.part(card, "k-meta"), name = K.part(card, "k-name"), cr = K.part(card, "k-cr");
+          const metaTop = parseFloat(meta.style.top), metaH = parseFloat(meta.style.height);
+          // The failed meta row: a danger tint behind it, one line of error in ink.
+          const tint = K.el(card, "div", { class: "s10-tint", style: { top: metaTop + "px" } });
+          card.insertBefore(tint, meta);
+          const err = K.el(meta, "div", { class: "s10-err", style: { fontSize: 15 * S + "px" } });
+          err.textContent = "provider_timeout";
+          const barY = top + 2 * S + card.k.mh - 3, metaY = metaTop + top + metaH / 2;
+          const barX = card.k.left + 2 * S + (W - 4 * S) * 0.62;
+
+          K.chrome(scene, tl, { title: "A failure costs nothing", step: 4, balance: "1,920 cr", held: "−40", animateStep: false });
+          scene.appendChild(document.getElementById("s10-carry")); // travels above the cards
+
+          // b0: the sibling generating; its bar crawls
+          K.progress(tl, card, 0.44, 0.62, K.t(0), 0.22);
+          // b1: and stalls: the provider stops answering
+          tl.fromTo(bar, { opacity: 1 }, { opacity: 0.35, duration: 0.14, ease: "power1.out" }, K.t(1));
+          // b2: the ring snaps to danger; the bar goes
+          K.sound(tl, "stamp", K.t(2));
+          K.ring(tl, card, "failed", K.t(2), { dur: 0.08 });
+          tl.to(bar, { opacity: 0, duration: 0.1, data: "follow" }, K.t(2));
+          // b3: the meta row tints
+          tl.fromTo(tint, { opacity: 0 }, { opacity: 1, duration: 0.14, ease: "power1.out" }, K.t(3));
+          // b4: its one line of error arrives where the name was
+          tl.to(name, { clipPath: "inset(0 0 0 100%)", duration: 0.08, data: "follow" }, K.t(4));
+          tl.fromTo(err, { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.18, ease: "power1.out" }, K.t(4));
+          // b5: the 40 cr it held comes off the card: refunded
+          const carry = document.getElementById("s10-carry"), PW = 216, PH = 38;
+          const sx = card.k.left + W + 130, sy = metaY;
+          const path = K.el(K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } }), "path",
+            { d: `M${sx} ${sy} C ${sx + 300} ${sy}, ${1720} ${860}, ${1740} ${1010}`, fill: "none", stroke: "none" });
+          K.pop(tl, "#s10-refund", 5);
+          tl.to(cr, { clipPath: "inset(0 0 0 100%)", duration: 0.1, data: "follow" }, K.t(5));
+          // b6: it goes back to the balance
+          K.travel(tl, carry, path, 6, 0.24, K.easeMove, PW, PH);
+          tl.to("#s10-refund", { opacity: 0, duration: 0.05, data: "follow" }, K.t(7) - 0.02);
+          // b7: the held −40 leaves the balance; nothing was charged
+          K.balance(tl, scene, K.t(7), { balance: "1,920 cr" });
+
+          K.focus(scene, tl, "s10", [
+            [0, barX, barY], [1, barX, barY],
+            [2, cx, mediaCy], [3, cx, metaY], [4, card.k.left + 150, metaY], [5, sx, sy],
+            [6, 1640, 950], [7, 1760, 1010],
+          ]);
+          K.check(tl, "s10");
+          window.__timelines["s10-failure"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

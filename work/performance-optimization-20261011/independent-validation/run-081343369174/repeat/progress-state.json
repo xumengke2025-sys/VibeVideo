@@ -1,0 +1,28 @@
+{
+  "video_sha256": "070b471e86b352c8afaec87e9b445c1c7b84c5d1bc45540aa0b426a442835014",
+  "run_started_at": "2026-10-11T00:00:00+00:00",
+  "last_actual_progress_at": "2026-10-11T00:00:00+00:00",
+  "progress_fingerprint": "5e2aa4134f3c7afa9515657dec9db0c1a714b7767a238ea75aa2dedda81f35ee",
+  "paused": false,
+  "no_progress_minutes": 13.0,
+  "accepted_reports": [
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\run-081343369174\\r1.json",
+      "sha256": "d3c645d48e63f53de59c155169651038aff76ffad9a70414ca97ff2c6e1c5769"
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\run-081343369174\\r2.json",
+      "sha256": "9e6ab9072486a8fcfbc2a907c2db2660466f91537f755b8e137cb6b744a8fe13"
+    }
+  ],
+  "delivery_due": true,
+  "delivery_verdict": "incomplete",
+  "next_action": "deliver_current_with_incomplete_review; retain late reports",
+  "visual_gaps": [],
+  "audio_gaps": [
+    [
+      0,
+      6
+    ]
+  ]
+}

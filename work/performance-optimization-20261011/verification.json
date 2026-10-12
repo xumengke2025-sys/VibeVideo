@@ -1,0 +1,108 @@
+{
+  "skill_version": "0.14.0",
+  "sync": [
+    {
+      "path": "SKILL.md",
+      "sha256": "ce27def25ec841f2340dff1a86dd90e40ea2450834988519c88a320be8323d8c",
+      "equal": true
+    },
+    {
+      "path": "references/independent-av-review.md",
+      "sha256": "c94b3c8d33151343b9e05e3e1c89287e1c22f1be341be21b29495672423ea938",
+      "equal": true
+    },
+    {
+      "path": "references/review-performance.md",
+      "sha256": "bb9e27410bb1a836c259fc716c3c7638693437611b32e4d1241e41e0c07b71b3",
+      "equal": true
+    },
+    {
+      "path": "scripts/review_batches.py",
+      "sha256": "1f66eb0cfbd36a0fed736998e9e8e80652fc70695173671eb2518b702f58b07f",
+      "equal": true
+    },
+    {
+      "path": "scripts/render_phase_timer.mjs",
+      "sha256": "1ba6d6a2febccfa2d660f94b9fe1d90ebb8d26fce99f189a47e60df4eb903603",
+      "equal": true
+    },
+    {
+      "path": "scripts/frame_audit.py",
+      "sha256": "08d9e2e0354872eb4181c520a4cc062be016dea1e999aea791e4e8a6da700d2a",
+      "equal": true
+    }
+  ],
+  "syntax": [
+    {
+      "path": "D:\\Codex\\skills\\vibe-video\\scripts\\review_batches.py",
+      "ok": true
+    },
+    {
+      "path": "D:\\Codex\\skills\\vibe-video\\scripts\\frame_audit.py",
+      "ok": true
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\matcha-morph-20261011\\render.mjs",
+      "ok": true,
+      "error": "",
+      "sha256": "4fd3c8321e26ce31f47ffb00b40789249072b05e2e853c8d41e940d76031de4b"
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\wastewater-isometric-20261011\\render.mjs",
+      "ok": true,
+      "error": "",
+      "sha256": "239d0a70e9f2f7b005a092821ae6561e725770c2df0b79b38ebc5cc6a44552e5"
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\wastewater-isometric-20261011\\js\\main.js",
+      "ok": true,
+      "error": "",
+      "sha256": "a8c59242da83580abef3d6a385b01f94e9602d41670202d1c5ac7e392be8cad5"
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\napoleon-egypt-ink-20261009\\revision-v3\\render-v3.mjs",
+      "ok": true,
+      "error": "",
+      "sha256": "83c7ad0dd1b2102fc24154ccc4d630f32785808b9ac698dcc77169a9e66a663d"
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\napoleon-egypt-ink-20261009\\revision-v3\\film-v3.mjs",
+      "ok": true,
+      "error": "",
+      "sha256": "f9c03a65cf691ed1a48c579e6eb6c7cc487095636305a1f8f8a67c9a932739fd"
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\napoleon-egypt-ink-20261009\\revision-v3\\vendor\\claude-ink-comp.mjs",
+      "ok": true,
+      "error": "",
+      "sha256": "aa41bb9256ee7450ca5507dba6265d95daf567bc75bcee36900575419c548548"
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\skill\\vibe-video\\scripts\\render_phase_timer.mjs",
+      "ok": true,
+      "error": "",
+      "sha256": "1ba6d6a2febccfa2d660f94b9fe1d90ebb8d26fce99f189a47e60df4eb903603"
+    }
+  ],
+  "skill_validation": [
+    {
+      "path": "D:\\Codex\\skills\\vibe-video",
+      "ok": true,
+      "output": "Skill is valid!\n"
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\skill\\vibe-video",
+      "ok": true,
+      "output": "Skill is valid!\n"
+    }
+  ],
+  "reference_errors": [],
+  "new_movies_generated": false,
+  "models_changed": false,
+  "independent_forward_test": {
+    "passed": 16,
+    "total": 16,
+    "source_hashes_match": true
+  },
+  "ok": true
+}

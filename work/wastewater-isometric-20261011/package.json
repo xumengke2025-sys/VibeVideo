@@ -1,0 +1,1 @@
+{"name":"wastewater-isometric","private":true,"type":"module","scripts":{"preview":"node server.mjs","stills":"node render.mjs --mode=stills","preview-video":"node render.mjs --mode=preview","sample":"node render.mjs --mode=sample","render":"node render.mjs --mode=final","audio":"node audio.mjs"}}

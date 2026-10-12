@@ -1,0 +1,2491 @@
+{
+  "repo": "Salmisaari/eudoom-video",
+  "repository": "https://github.com/Salmisaari/eudoom-video",
+  "commit": "a7bb5ed43644cb214bd3546266c8492914177f98",
+  "checked": "2026-10-12",
+  "archiveMethod": "raw-files with Git blob SHA1 + SHA256",
+  "scope": "完整仓库文件快照（不含Git历史）",
+  "licenseFiles": [
+    "LICENSE",
+    "app/LICENSE.mexicat"
+  ],
+  "usage": "按原许可及第三方素材声明分别核实复用范围",
+  "modelEvidence": [
+    "I wrote one prompt in a terminal and let Claude Opus 5.5 run on my laptop overnight for 12 hours. After that came 10 follow-up versions, in which I picked lines by ear and Claude rebuilt scenes. The renders crashed my laptop 8 times along the way.",
+    "Claude wrote the code, aligned every word and syllable to the song, re-sang the EU lines with ElevenLabs and rendered each version. It searched the web for the history behind each line and checked the sources.",
+    "I'm not a sound or motion engineer. I've studied some of both, and what I brought was taste, an eye for patterns and a lot of ideas from curiosity. Claude did the engineering.",
+    "1. **Make everything measurable first.** Before any design, Claude built a timing map of the whole song: every word, syllable, note, beat and bass hit. Every frame is a function of that map, so sync is something to check, not a matter of taste.",
+    "2. **Generate many, measure, then a person picks.** For each changed line Claude made about nine takes and measured them against the original singer: rhythm, pitch, clarity, words. The best went into folders as OLD and NEW, and I picked by ear. The measurements found causes; the ear decided. When they disagreed (\"AC\" measured fine but sounded like \"AAH\"), the ear won.",
+    "5. **The brief is constraints, not instructions.** Maximalist type, always in sync, real European references, a positive future. After that, plain-language feedback (\"too much motion\", \"the stamp should land on the bass\") that Claude turned into code.",
+    "- **Song:** \"I'm Upping My P(doom)\", lyrics by osmarks, built on an opening verse and chorus by MusicPerson; the original was made with Udio in 2024. The recording is the \"Claude-Pop\" version made with Suno by deckard (@slimer48484). The EU lines were written for this edition and re-sung with ElevenLabs Music."
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 518,
+      "gitBlobSha1": "2a1b5851d6c58730b9641fce3b985306210a7f91",
+      "sha256": "c440905c4f8a7896a457a2e8eeb19cc2dcc55a9621ad2ea81f8b99124f3b7211"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 12638,
+      "gitBlobSha1": "2dda7b7f32ed477896fac7184016a1a135a34a53",
+      "sha256": "7b3496b8a8a8eb87971944599b89446e3f45bae7e1fa7ec362d685430fa82ef0"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1556,
+      "gitBlobSha1": "851446e8353304f865a14d300e6121aaf7b93b15",
+      "sha256": "eec47faa01db7537a7641a99e0b6999bf9b3d40fe97a3e93c06d7b997883af22"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10717,
+      "gitBlobSha1": "6e77d69b34be8afedace70692598b87418af78df",
+      "sha256": "90020c5a46dfdeb50c742288a2d2ee3dfb47654f0ca8801e6bb3ee4588a2ac53"
+    },
+    {
+      "path": "analysis/align.py",
+      "bytes": 19625,
+      "gitBlobSha1": "e2e7a075c9822d27ba1063bb209d4f3ecf648e0a",
+      "sha256": "16c52ff97438d97eaccb52663844fd97f757ab82c378708ac5ed214312615ea4"
+    },
+    {
+      "path": "analysis/analyze.py",
+      "bytes": 19530,
+      "gitBlobSha1": "cafd51735b02da754445eb642f654de657ce92cb",
+      "sha256": "a1bdfc7082aaed9b94183250903c02318b5f0b2679e9a6088e3d7605f1861095"
+    },
+    {
+      "path": "analysis/common.py",
+      "bytes": 3439,
+      "gitBlobSha1": "9d6f1c8a864aca964a4ec09de73a4535015ad147",
+      "sha256": "ddff5a922e887832ec649f8226ec9695eade47b523bcd0ac2db45085d119d18b"
+    },
+    {
+      "path": "analysis/ctc_emissions.py",
+      "bytes": 2201,
+      "gitBlobSha1": "7eb99e7c5b3eb624b32ff8d50e8840ad538a40f1",
+      "sha256": "6f6950775afdf3dfd8c2f97bf8a669f350aa861c0a027ca941d7332d13225c7e"
+    },
+    {
+      "path": "analysis/ctcalign.py",
+      "bytes": 6612,
+      "gitBlobSha1": "c15c6cd5d7b2076e2b0c1235f4c8b59c5a0f9193",
+      "sha256": "dfc9b0682e36a4aec62f43391e9ba29c04cda33d2b36715c4b2b0a5982772512"
+    },
+    {
+      "path": "analysis/make_fonts.py",
+      "bytes": 1023,
+      "gitBlobSha1": "7ced31056c67282226c19cf8df7aeecaef598429",
+      "sha256": "15a5e30d5673df02d6e602343137e8c0b5f06a00d32c4c1c7226331393a1a067"
+    },
+    {
+      "path": "analysis/pron.py",
+      "bytes": 1469,
+      "gitBlobSha1": "7c0364fa251ae1bce3ae804b2020ef365d502f4c",
+      "sha256": "394a94dd9fa3e95522385ee6b52de813a78d1cd003f4c032cec17316a7196000"
+    },
+    {
+      "path": "analysis/pyproject.toml",
+      "bytes": 407,
+      "gitBlobSha1": "4da0721e123bf5c4764494c31b0791be01c70769",
+      "sha256": "5ab918bd3c2fbf09388dea89de98fcba03871a2e0dfecddb9fecd87940b5fdec"
+    },
+    {
+      "path": "analysis/qa_plot.py",
+      "bytes": 3762,
+      "gitBlobSha1": "b5c5595718b20d23cc91968d3c370136c2993b33",
+      "sha256": "fad9c10259cc75e22ad182b50fed2e638c4a0044bc62512a656c39d180941512"
+    },
+    {
+      "path": "analysis/run_timing.sh",
+      "bytes": 1128,
+      "gitBlobSha1": "727e838ccd86682f2e0d71662a152528a110af0a",
+      "sha256": "240dc9e453df115d5907f64279d4bb0eaef1676047ee12287399f38b4085f823"
+    },
+    {
+      "path": "analysis/run_timing2.sh",
+      "bytes": 944,
+      "gitBlobSha1": "2761bc4d6cd1bd9984a2c75ff4f3477201dc8835",
+      "sha256": "b6e565d651772b95438b0f7c71b8168280979683e0527f5ec1e78b110e90d502"
+    },
+    {
+      "path": "analysis/timing_eu.py",
+      "bytes": 23220,
+      "gitBlobSha1": "9169301ecf04908f065abac783445ed8eb578d28",
+      "sha256": "f598e657a69604d7c918175c3e709b0e04934a345176d3eea6697ad414f36a30"
+    },
+    {
+      "path": "analysis/uv.lock",
+      "bytes": 523093,
+      "gitBlobSha1": "b27053c8b320a1c6475b8c3affbee741acaecf01",
+      "sha256": "7ab359cca900b5a2553936b996256171cd0256ff6862264310f4db113128e7d1"
+    },
+    {
+      "path": "analysis/visemes.py",
+      "bytes": 5085,
+      "gitBlobSha1": "a7a65205c3fa93e99ff0a25250a288471e5a66ca",
+      "sha256": "08d0bb7e488305cbbb92d7bba930b4d78e78e31e37f0dd66fa9a517f7312280d"
+    },
+    {
+      "path": "analysis/vocal_feats.py",
+      "bytes": 1798,
+      "gitBlobSha1": "eecc151a6afd420649b25154156d53c3d557386c",
+      "sha256": "dbfa09c54ac61d25310067502f1ef3856ff68009a52de317b9e858f573f733e8"
+    },
+    {
+      "path": "analysis/whisper_run.py",
+      "bytes": 1356,
+      "gitBlobSha1": "f55583e3989d54a5e25c129243dbfbca14ad9632",
+      "sha256": "75ecc9f9902606b28412df2e312bf235c9e6ce72f774909906c6d534b4e5ce27"
+    },
+    {
+      "path": "analysis/zoom.py",
+      "bytes": 4301,
+      "gitBlobSha1": "741f5945001155baa0ed0d24eddfddaa2f8f57ee",
+      "sha256": "9882ba138ce883efedc1460fdccf0a402e9a5a1661f47680e200c55d51725f9e"
+    },
+    {
+      "path": "app/LICENSE.mexicat",
+      "bytes": 1074,
+      "gitBlobSha1": "ecc957d3fdff1a77e9c4b30ac61ef4a07ccfcdff",
+      "sha256": "5fc212466ce7183be5d85a3ee34fea461712842d5cd256b470978a83577083cb"
+    },
+    {
+      "path": "app/bun.lock",
+      "bytes": 18998,
+      "gitBlobSha1": "c81938bc373fe45a7ec0f3a66c3fc7520c70cf95",
+      "sha256": "5512dcf0ec20078ff6c7ebfe28ccb80d66e3fcb34cb337d900bff67ebbbfc8a3"
+    },
+    {
+      "path": "app/index.html",
+      "bytes": 1907,
+      "gitBlobSha1": "97716f2dfdb948b45f4eba3eda973c3889ebe6ab",
+      "sha256": "b531304b130b91362e1ef5aa0618edfbf2035b4882f0b61b7f8109fa069dceea"
+    },
+    {
+      "path": "app/package.json",
+      "bytes": 397,
+      "gitBlobSha1": "ab40fab7edfc6d7772ffd956933797e48bfeee07",
+      "sha256": "73a592e9b1c8aebf211c4ae1ca13d8fc897aabd5efb8f447572d2a5e1e2b9b6f"
+    },
+    {
+      "path": "app/plates.json",
+      "bytes": 227,
+      "gitBlobSha1": "6469dcfb892a50c25830418d2114492ac998bd25",
+      "sha256": "19eaab88256bc595ad38c33db2a812ea4b0939e09cdbf9c79b778b514ba61a0d"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_001.jpg",
+      "bytes": 110402,
+      "gitBlobSha1": "eb677d58e8c8db9455ab88d236358dc75783a335",
+      "sha256": "eec94040f5074025d846f5b600caac959ecc6c1c7ebbc9137ad81d3ceb66d37c"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_002.jpg",
+      "bytes": 93351,
+      "gitBlobSha1": "b8defc7e053b68eba11b67239014216e9216de95",
+      "sha256": "4398a5e1439d71e9ee947b0de32db1560d273c855ea2639f5aca6a4b2a384fae"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_003.jpg",
+      "bytes": 96727,
+      "gitBlobSha1": "5d2076de59dde93a79e21372ecaa1ec26b66d00c",
+      "sha256": "3e96a4998bc889fc488fe4d5404ce46a2408452564b45130401fcb28059bfb91"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_004.jpg",
+      "bytes": 95465,
+      "gitBlobSha1": "6a2fdac81b403c84d4d41a4cd76c6bf1f63a6b09",
+      "sha256": "75ca0fdddce703b23b646ebb32a039f58edef6630d6636071e3f53d68dddab83"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_005.jpg",
+      "bytes": 97658,
+      "gitBlobSha1": "6779f02c89d7e5d015c3da738a2ef67bc60ddf24",
+      "sha256": "f1c4f6a81dac0b28c3a7d0280ec8775a4c8c2ae44214d2a34d690d0979665fe2"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_006.jpg",
+      "bytes": 96912,
+      "gitBlobSha1": "e1b33354a4236551d0de5c9e9df67b4417b9a2b4",
+      "sha256": "4c241d275c6401198bce2577e6e062cc95a0a415283204d54004ff2978d0799c"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_007.jpg",
+      "bytes": 98539,
+      "gitBlobSha1": "9fbfd71d25571514fd55565e036db73985f54624",
+      "sha256": "d7de7f012b2af39f0e2624a85012b8f09d5cad546451c6dd62234579edc9c323"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_008.jpg",
+      "bytes": 98115,
+      "gitBlobSha1": "e427833409bf1bb9dcbf84777863714c84db1377",
+      "sha256": "3ed1849161222ed41e101d6cfe314a084b2617cc5aa864007dbff52863a8fa43"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_009.jpg",
+      "bytes": 98481,
+      "gitBlobSha1": "c4947a8517cdf3dfb1e170c1e0db1f1f5e6a6edb",
+      "sha256": "7bed526e97d2fb8e97f5651d6e8d5090c7fac6cccf5cba5708802a5c02e4e7a6"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_010.jpg",
+      "bytes": 97303,
+      "gitBlobSha1": "3cdc6232b95efe66cd34196af73e76e710615a07",
+      "sha256": "9409266989d2cfa452b27c08fdab8a7c16821748e296f739ec86e93e996c68b8"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_011.jpg",
+      "bytes": 94293,
+      "gitBlobSha1": "edaa6d01ac664480199bec030742d63b1e75ae18",
+      "sha256": "4c0fc8f76d4d8a70e09fc49b4360258ec30960b2c437cfe169f210d2df055983"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_012.jpg",
+      "bytes": 94737,
+      "gitBlobSha1": "fb0eee4363c483430d4d8197536ecfef89013493",
+      "sha256": "69ef744e12b61ee168b9ca783fee687740aca04e4c0d906d0f1d901897790224"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_013.jpg",
+      "bytes": 106744,
+      "gitBlobSha1": "b179cdc4211a77b041798d372e2318c094371d78",
+      "sha256": "29801dd9a285002636d7f1ed467ca585fe29f21811bba73303d51fdd521641cb"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_014.jpg",
+      "bytes": 97218,
+      "gitBlobSha1": "f68d7f355b830a6c0a7048520dbba5615a75776d",
+      "sha256": "a77d291c670938db321fa4502a2a5a92778d37df7148fb89cac3351cc4f3b096"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_015.jpg",
+      "bytes": 95167,
+      "gitBlobSha1": "56fff6eff21247262a06ba4406cbaaa8b439da54",
+      "sha256": "ceebed4dae0333544d9a4135ed71d9be7ea218b3e956868e89f361995dbcef23"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_016.jpg",
+      "bytes": 95514,
+      "gitBlobSha1": "c728cd4dfcba4212eb795b3536749ce1f413ec73",
+      "sha256": "b975f8171438f4d3220b911c0d167e889d835c5f39bb94e1a69d5ef221977d99"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_017.jpg",
+      "bytes": 106146,
+      "gitBlobSha1": "dc20c6b7b216c901675c9f07d4c1a4a449b64ffd",
+      "sha256": "005ae699409011cf2a1b5718960da41f995e9fe63c290b73805645b023830aff"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_018.jpg",
+      "bytes": 92915,
+      "gitBlobSha1": "4cd5980ecb0fb78c999a4d36f15022b20720165b",
+      "sha256": "2ee80801b9923257252d03e4640bd62a5cb40f657c699821a7c844a28a28b966"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_019.jpg",
+      "bytes": 93164,
+      "gitBlobSha1": "ce288f2ad66fead7b368e263651825c96960e7fc",
+      "sha256": "eec92026cd36fe637594c6080d726ba0fc6a71dc4aab43804986451a25629cf1"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_020.jpg",
+      "bytes": 92605,
+      "gitBlobSha1": "a18c92257346174e6ca89db35691748f77e06286",
+      "sha256": "59536d5efab6675e05b6c7730a369db2854a7e3ae30bc8dbce5a4ff0b1ff9e6a"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_021.jpg",
+      "bytes": 91263,
+      "gitBlobSha1": "b2fe6694e31b0b291b07605b3009a10e6f4a1e3e",
+      "sha256": "b2e76cff9b25b56f6093a60a8e16b3dfcd90fa8ee9a67d98bb73c2eab5352a68"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_022.jpg",
+      "bytes": 89840,
+      "gitBlobSha1": "e5f22b2436e1f0d90b567ba4228714eddbfe90d0",
+      "sha256": "bf74febd77e53be3bde7418a168f95ba4116a264cad48dd1dac1ac793b37d54d"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_023.jpg",
+      "bytes": 90188,
+      "gitBlobSha1": "6f953922dc9742de452c96fb4d4bec189b281e9d",
+      "sha256": "a79fbe675c69b71ac9b18838c03fb14aebb3a2dbf174d9019052e75a5905fa96"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_024.jpg",
+      "bytes": 90994,
+      "gitBlobSha1": "268760011ffdba9511bb8ea3545dbecdbeaf2f53",
+      "sha256": "12b84bd75807209a9ae2c8f07bfc9539eb8b819e60bc5ea986bd23b0c1e84fc4"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_025.jpg",
+      "bytes": 104898,
+      "gitBlobSha1": "118f82fbc2c6241bd107abfa90e650031fe15c8a",
+      "sha256": "e853c10b1c333427e3420a5b6ee7f9d5fae5ea878948151da1d7eebd3422bff4"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_026.jpg",
+      "bytes": 87519,
+      "gitBlobSha1": "83a01c4a525c1ace965b02cbaa19b47c88df1b50",
+      "sha256": "058a85bf018d1676472cbd21e89465ff6f5eb32a0ff9cb8b89089078c97fdb66"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_027.jpg",
+      "bytes": 89726,
+      "gitBlobSha1": "ef0ec246ad0e802f8870af09eb5980adc8d6e2a8",
+      "sha256": "af4b7aafbba07d7e6ab7a5e42608be63797d028460d6780c6c15dd64ddaca9d3"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_028.jpg",
+      "bytes": 89027,
+      "gitBlobSha1": "d97df70cb1b193541665bf2e5a4d5d095397cafb",
+      "sha256": "5fe75e64db188dfb82bccd5697c1efadc0763578953aca5cdff8afc7d2298eac"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_029.jpg",
+      "bytes": 102124,
+      "gitBlobSha1": "814fa84a894a251a3abe3ca82846f8561440a3d9",
+      "sha256": "3489ffa3bbbfe0f6c99ce1cc418c29cb0db999876d28979555b3fb1583050569"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_030.jpg",
+      "bytes": 92798,
+      "gitBlobSha1": "7f2eb461a9673a158c22ce41de5e86ad3d39dd8b",
+      "sha256": "ce2350956c15a79624dd1bd23eae5063cc34f7062191da706b1c3e1c4408c22b"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_031.jpg",
+      "bytes": 94215,
+      "gitBlobSha1": "ce5e9a1ff65f4a05ce8a6c701278632d3a5b61cc",
+      "sha256": "4826d5477490d274bdfcf0ea1be55cd3974f8876cabc1f1f32afcf44a69c7fb4"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_032.jpg",
+      "bytes": 93684,
+      "gitBlobSha1": "4e63137aa01474ae3cf6739ff8204a3e5312c3e3",
+      "sha256": "7cd11ee3ce7c8114490534873a81d54330982f8b5becd3d4ae75abcbb91530bf"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_033.jpg",
+      "bytes": 93769,
+      "gitBlobSha1": "a95984bed1324f8539955daa9a26be2dd1842a8b",
+      "sha256": "cd15a19c0593397389963b3a17facd615224cbb348e888eb9e97dd2ef192489c"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_034.jpg",
+      "bytes": 93748,
+      "gitBlobSha1": "a2949bc7342a41ba360cea57d09b15ccf10c2a98",
+      "sha256": "0c9739f9c26c0f22883c186708eaf294dd178047fed8b0706bc3a402972f5347"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_035.jpg",
+      "bytes": 95220,
+      "gitBlobSha1": "8502e596bfcced85d96731f2394116642df911ac",
+      "sha256": "eb04f21f05e193d945aeedd39667802394c1ed1dec6e57b6845adb25c8443d43"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_036.jpg",
+      "bytes": 94210,
+      "gitBlobSha1": "0f2ddc65a5b886e5ef48de9e2892e0751d143afe",
+      "sha256": "46e2e4a6fb1f83120d43e7968cade25999d5620b92e004883360ccd6cbb95cad"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_037.jpg",
+      "bytes": 104355,
+      "gitBlobSha1": "e0c7ee2c300033f46f5fb1679377ef043bb90ce9",
+      "sha256": "2b1ce37e3564c18aba06f5c2e7f857f9c864e2cfe71ad3a33b3b032e0f5942ec"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_038.jpg",
+      "bytes": 93281,
+      "gitBlobSha1": "91aa51cf5ff50348a129f8810684e81aa24d0141",
+      "sha256": "382cf6184b1adc9fe7ca4902ae0b6c361daa2b5104641e05679dc8b41d797287"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_039.jpg",
+      "bytes": 90798,
+      "gitBlobSha1": "371f24720a78783d77fc8650f832fb6f3b400108",
+      "sha256": "a7b6d2ac2dcd1409646f90a8627bf47d62fbfc4514b0f2e932c4e3599fe96b34"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_040.jpg",
+      "bytes": 93339,
+      "gitBlobSha1": "59fac7cedf3c64c5c8e4e41638d613c13e21be01",
+      "sha256": "d5935e5675a10f478baa2df0ac49dd4abc1b4a47fd231feafcdf89c0bab21325"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_041.jpg",
+      "bytes": 102587,
+      "gitBlobSha1": "fbb033e454e2ccae78c972c808e30917f0be2a12",
+      "sha256": "6c25a24d312f424fdd93df57462fc1f8fa54ed8871298a94943b23cb7c18bb9b"
+    },
+    {
+      "path": "app/public/animatic/film/usine/f_042.jpg",
+      "bytes": 93012,
+      "gitBlobSha1": "7219a07bf15dff338ddc1bf914e2ab5c289d37a0",
+      "sha256": "c72121d3e493c0a052374c4df7ce5d9427c9febb1dfb44f3cb79edafa4fbd7ea"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_001.jpg",
+      "bytes": 209793,
+      "gitBlobSha1": "6a0f19814590a54cf1d8584f893d2a3feefb4479",
+      "sha256": "0427c88583b026435a0cfa2ea145f915c31756953eaed45ca19fa7b9ee12123f"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_002.jpg",
+      "bytes": 233799,
+      "gitBlobSha1": "984c49318fca4ed716d6948cfb022d9247ca527a",
+      "sha256": "30a4ff07996edfbf20b561a955ae7cef8898ceb3d8dae581a0dc82a0637a4015"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_003.jpg",
+      "bytes": 230275,
+      "gitBlobSha1": "eff79659e9de5648fc38928583fbb721c05f162d",
+      "sha256": "ac866760163a2a2b47afc0280fd3b82e706121cdeb215f0deb24c2a43a38d80e"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_004.jpg",
+      "bytes": 246958,
+      "gitBlobSha1": "fbc604ac666fb436bb08afe6f0e6e846eb1955fc",
+      "sha256": "77dd71099661455e4d05bd3134e6eae2b4b1152912e4c720ea5a07db0119d6fc"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_005.jpg",
+      "bytes": 229279,
+      "gitBlobSha1": "c34a6aad9a304627270a3d2c94d49201faa10093",
+      "sha256": "a651064838a84e07871edc7454e4c418312eeb2cacd6761fed6666f354342eca"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_006.jpg",
+      "bytes": 227955,
+      "gitBlobSha1": "a81f72590ab701351738b903cb8372d147584b92",
+      "sha256": "9f7f5a9a398c5f773fa74c85294e6a2ac377f13847bb7d7dfdcf13b2242320a1"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_007.jpg",
+      "bytes": 222023,
+      "gitBlobSha1": "89c3000eea4435c5474eedcfedca2452aedfcc1a",
+      "sha256": "940259aacf72b540be82c2a3f0fa9d3c0b8723ed120cf6e93056595fb4258add"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_008.jpg",
+      "bytes": 218208,
+      "gitBlobSha1": "33418a60c4f812b23730e2230d17524dd9b42e1e",
+      "sha256": "7ce6cc9643a5d0614098df7c08747dad626cb5024d68a5f22b7d9bba6bff3666"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_009.jpg",
+      "bytes": 212835,
+      "gitBlobSha1": "28e5446901b133f54401bed6f4669b00aeaaebd6",
+      "sha256": "64283e1e34ce8e287a90394e88a0de62507baccbff9c7ecf549379d0cd467780"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_010.jpg",
+      "bytes": 235122,
+      "gitBlobSha1": "f8bc4260a9512edf0b1171f7225e36cef1486b0d",
+      "sha256": "79bcdb42ee8e3394870f88571bfeac958685928a7c94bc1eb0003061d530bdc4"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_011.jpg",
+      "bytes": 249318,
+      "gitBlobSha1": "156c187e69d6c4d93cb26bce72d993b7eb43e572",
+      "sha256": "10961f4b08173e127b190c330cefb9f32d9a6fa2292ca6b80692de28c00f6045"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_012.jpg",
+      "bytes": 231691,
+      "gitBlobSha1": "83815adef2d302a09685cb2cacb0cf049670c5a9",
+      "sha256": "f2d009224fde2690072e2a379457c8570b237c2496b87db1afb2748f60689bc9"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_013.jpg",
+      "bytes": 250076,
+      "gitBlobSha1": "b507edf1d5a1037dd9a7aa696b9c1c0c9588abca",
+      "sha256": "5827b882fc4541356d23897eeabe667695c8072f180fd670f7d41181f7e356a6"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_014.jpg",
+      "bytes": 225818,
+      "gitBlobSha1": "1e9f122af50254216f706c4bb3a84f3da36a5ae8",
+      "sha256": "0063ffcbb9ec38703b8f78ca19d835f07bffaf9ad81644963d0c45981bdcc2aa"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_015.jpg",
+      "bytes": 222795,
+      "gitBlobSha1": "76e5624e5edb65bccdabebae8bcaea2f804d3d44",
+      "sha256": "1f5d8985beeec2f913a6b831c6ab63aef8ad8683ee5847c072fa72f936fa5b2e"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_016.jpg",
+      "bytes": 218658,
+      "gitBlobSha1": "eee41840100528b1b251ecda1ec6b525ca07b38e",
+      "sha256": "53ca16207a1f021fddc7e99ccee841a796b3cf5b38527a481fb801bf5060cbfa"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_017.jpg",
+      "bytes": 228852,
+      "gitBlobSha1": "39ad6c4db4e2e576157c08931737aac7ed200c5b",
+      "sha256": "36ca93a47ca4a3ea19c1bc0c5af6241824d7aa47681d6d9e7b2b365505cfaf45"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_018.jpg",
+      "bytes": 229706,
+      "gitBlobSha1": "71e4244dd90dc872844e52abf88762393a52e749",
+      "sha256": "edf8a6346e0d58123f7853fc0aa316764ea206ec528c62c720f2f1f617063935"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_019.jpg",
+      "bytes": 219730,
+      "gitBlobSha1": "8363e34f94ada574e3a4924e82f9ce8feb0d3d9f",
+      "sha256": "b9f6ec7acceeeef7c1e98cdbec7c3bed74b3810dd1bcab751af92c038829723e"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_020.jpg",
+      "bytes": 238373,
+      "gitBlobSha1": "5d2c34ab1ae700994d8c2e26f46432520a74dc1d",
+      "sha256": "d7c0ae6ce85eb0de24195a628cc3e3a35aef53e037f2ad640d4022fdc52df732"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_021.jpg",
+      "bytes": 220233,
+      "gitBlobSha1": "c3b2e245f27fcfe3ce4c5ba459e5b101aa724e2e",
+      "sha256": "c04e3ba1a80610af0ce170f5901d5fb0b64c055d1a8589d2c84b6762837f6dc0"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_022.jpg",
+      "bytes": 246375,
+      "gitBlobSha1": "ab91162afa6473f494ab43325d4e1368c3786782",
+      "sha256": "52635c41f209fcc4bed2a6a9698bf32da22c24616111de06bc7cb4911ce7cfcc"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_023.jpg",
+      "bytes": 227941,
+      "gitBlobSha1": "449c40f990e86c9860b7661d043ba5a88f39a403",
+      "sha256": "c5945dc7199a09087da2a5a7b1ac67abb8547171110d838f0245c043330a9774"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_024.jpg",
+      "bytes": 224475,
+      "gitBlobSha1": "f297c8732a93d5380d2a899b0d0f965e92f6f069",
+      "sha256": "5b33367112600d4b8bc7f20cd04bb7f609fae1ef94e94c115db20c6614482744"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_025.jpg",
+      "bytes": 222527,
+      "gitBlobSha1": "79d0b5359b9c1f3e7e95043bacaf8960e9e36d10",
+      "sha256": "c4fe236486a8488ea37d715ed01f8507ee6ec52d5d9a6d5f58b5e0d7e474db81"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_026.jpg",
+      "bytes": 222758,
+      "gitBlobSha1": "e491f955a2d44a46a1fc3da0a984de0c31fda30f",
+      "sha256": "2e50d28527ea1c744dc0d6dc61982e6b8d0f32103c081e66b96b18e55d389735"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_027.jpg",
+      "bytes": 227279,
+      "gitBlobSha1": "784b87af84edf5b8617c49cfd1a6f9bf20aa8f73",
+      "sha256": "9905ef17bc7db8ba3372108e3f1ebab5f982c1423cba280a8d9df8d7392643bd"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_028.jpg",
+      "bytes": 206407,
+      "gitBlobSha1": "d11c94da4e6aaa24dfdca7a17e5cfd7f406fa852",
+      "sha256": "a7831317c9acb9e50375937ddf4d3af3f754f7efd25ac5b87cc7f196998fcaab"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_029.jpg",
+      "bytes": 221073,
+      "gitBlobSha1": "9dd80a49a77cc3aff4bc83c8fbb98e8abaa2be04",
+      "sha256": "07760b409d3986b81d4e784b800d8fca4a8396d3d5713a1d952799506b93ff67"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_030.jpg",
+      "bytes": 184285,
+      "gitBlobSha1": "7be0e1032bfe5a48ab38e8881f11467ce6043249",
+      "sha256": "60f70992664ae369d7d2b61f288d8404eb5ee75dcd85f63f42aff940e7bf6ca6"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_031.jpg",
+      "bytes": 188634,
+      "gitBlobSha1": "66f0eac9446cd8e1f9bfc93650601c74f1dcb58f",
+      "sha256": "7c597d520a370610af1b81d8b933e943c89cc628da6e039abcbbf100e8e6c450"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_032.jpg",
+      "bytes": 184848,
+      "gitBlobSha1": "a80d8b85d7411e88657654117379a7dd662c5b62",
+      "sha256": "70376d1ecbb77cfba8bc405d15f11d061616b46d858cb468a73d413f7eac5710"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_033.jpg",
+      "bytes": 175743,
+      "gitBlobSha1": "744efd5bc45e2913662ca06ec18c5a697951c99a",
+      "sha256": "dbf292934de3ab0037e9f78f555b423051008dad372b141ec6b202f27cbe3045"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_034.jpg",
+      "bytes": 170698,
+      "gitBlobSha1": "19e752c74b24d70d184155222332fba0ab17df6a",
+      "sha256": "1d78aa3cd47f41ca1a38f1cf824f0c4f36134e9adaec65dacb73a46b5a7bab66"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_035.jpg",
+      "bytes": 167304,
+      "gitBlobSha1": "1c287db25981437cb8b090c8a3bf78cc2a56e1cd",
+      "sha256": "88c805c045ca967ea1a54c8481e3e49e9773ae7d8e4866be9010869ebd557486"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_036.jpg",
+      "bytes": 190513,
+      "gitBlobSha1": "f999497dc6c6bf5828065ab75e27be136f469598",
+      "sha256": "0859569a395c7cab8706a771eaa3687fe42edbbdf28d51db5a4c6f889984db3a"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_037.jpg",
+      "bytes": 170947,
+      "gitBlobSha1": "900d471ac5ee588f92605881d84271fe800faecd",
+      "sha256": "341535f171c135e471e178c49574d13c87f5308b2feabc552574a22ab604ad22"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_038.jpg",
+      "bytes": 185728,
+      "gitBlobSha1": "fd6e52ca2f644e46935e363bf0d341a9a617cea5",
+      "sha256": "9e99c114e86d2a2199c67866fd9905e3529e9ef1a87504cc59eef76722f738ac"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_039.jpg",
+      "bytes": 162923,
+      "gitBlobSha1": "c7fe172f58676247d0769f57dbfc8a6abc5d4887",
+      "sha256": "859b2108dd4351a65ab53f0d922a1608f26aa682eed1824f8ec7c20eabbe92c1"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_040.jpg",
+      "bytes": 153789,
+      "gitBlobSha1": "653473c1944e21338d2f45cf7087bb4088100248",
+      "sha256": "6e23abcf79fbbcc27fff6c33af5c3a55c5a1583eef4dc8fd812b1e98d63a5df1"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_041.jpg",
+      "bytes": 149368,
+      "gitBlobSha1": "e6233ffcc0d6d36c7f93a33eeba0e3a68577209d",
+      "sha256": "09d9e2d9fb3b5d1150e57149a2c012b17612208535f6189f596d1caedc940188"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_042.jpg",
+      "bytes": 145724,
+      "gitBlobSha1": "e6ad8689e6966f78eaac4fc09db90f0858e10b7d",
+      "sha256": "41a72145da370b23719bfd293ed8e425b6620dd50b025634e240c050d27f43b7"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_043.jpg",
+      "bytes": 178231,
+      "gitBlobSha1": "b7f4b1a2f7fc3d42e062ec0fb2abee18bd3290fe",
+      "sha256": "bc923ebad5a3550d390468f0bff0d187b4b0a3d299da878cb8cc2fc7a4e40b69"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_044.jpg",
+      "bytes": 157242,
+      "gitBlobSha1": "3c554eeb0ce209e4a016e94605856ee60d69828e",
+      "sha256": "02fba1cc25276ce879e5217cc6099ea7f5ac6230475658a61e20b88b4fad0335"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_045.jpg",
+      "bytes": 173958,
+      "gitBlobSha1": "e7f68a20c5c6fa9a201a4f851f66a88801e0bc9a",
+      "sha256": "aa79f81c6532349a259af2bf4d465a1a886b1ebb56a44da832b122945002b160"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_046.jpg",
+      "bytes": 152541,
+      "gitBlobSha1": "6abc07be53b0a1a38887e1ad6cd3c378b564c26a",
+      "sha256": "d2963c4389a02ad1790582debd167d016507e611e5cf8f1bd5d359fc02aa949a"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_047.jpg",
+      "bytes": 140147,
+      "gitBlobSha1": "8ecb15f8c2ebb886943a5a6f74da554e38dc7c19",
+      "sha256": "ebeae47cf40918bd8a05376a0fea2919063e8546ca6ab1bfbb2ef204c7332b25"
+    },
+    {
+      "path": "app/public/animatic/film/wall/f_048.jpg",
+      "bytes": 137528,
+      "gitBlobSha1": "7a30e7f5d649eee8839ec112ac708a0371afb7a6",
+      "sha256": "19eb5e26e9ad594640dd7b7a76915d4cc6ebf585a884d80210e6a2971117049f"
+    },
+    {
+      "path": "app/public/animatic/img/_commons_credits.json",
+      "bytes": 6768,
+      "gitBlobSha1": "c739a7373b44fac1746242a1c46d26f18c95a302",
+      "sha256": "c0f2778848c8177ceceeca468a330f0fced53da7e7b45935f0e66665aef6a3da"
+    },
+    {
+      "path": "app/public/animatic/img/bruegel-big-fish.jpg",
+      "bytes": 1955240,
+      "gitBlobSha1": "0a36a6d7463ded56993667bc144bc8f056b575fe",
+      "sha256": "4bb1505fe44a54a04c0d1ef5bf560969746efa0796a9a80137c6ce5a922cc9b8"
+    },
+    {
+      "path": "app/public/animatic/img/bruegel-census-bethlehem.jpg",
+      "bytes": 1343563,
+      "gitBlobSha1": "67ff11723737e5ab15de939020e808233b5873c4",
+      "sha256": "ce64ef31b2a655971eb739524a0241e13330c53291f79f9dd6b5c4d0ba9b4f0d"
+    },
+    {
+      "path": "app/public/animatic/img/bruegel-fall-of-icarus.jpg",
+      "bytes": 1562966,
+      "gitBlobSha1": "9adbc2a869c738efb00faa26f0af22ecb2c5b46e",
+      "sha256": "5e3bd5b957433dfc4dd5010805835b041e453ef3d32dde8fbbe81df719471a5b"
+    },
+    {
+      "path": "app/public/animatic/img/carreno-charles-ii.jpg",
+      "bytes": 1790968,
+      "gitBlobSha1": "8565eb88d0ea0d5657a9d45128934f84d07dbd42",
+      "sha256": "75f55cb53b454b1c42b794998f7e87ceb326ff2bcfa135c4d91c5ab65dae3bb6"
+    },
+    {
+      "path": "app/public/animatic/img/caselli-pantelegraph.jpg",
+      "bytes": 1941470,
+      "gitBlobSha1": "79541c45e319906f8548d15d9944b9d1daf07920",
+      "sha256": "d9f0a77ab2bff3404a7e87ea86051e5e28e90a37444bb5dd78adcc6d74a2089d"
+    },
+    {
+      "path": "app/public/animatic/img/caselli-writing-sample.jpg",
+      "bytes": 363665,
+      "gitBlobSha1": "9a23c7917551b72c94f6e9fb6c6b19e1b39b70b7",
+      "sha256": "2439cc566273f84e416d52513c0f680dee0e9e45b14f2978a7985f56bcd5349f"
+    },
+    {
+      "path": "app/public/animatic/img/chappe-telegraph-burned-by-mob.jpg",
+      "bytes": 3226930,
+      "gitBlobSha1": "c646836ca86180d0b3b471b557bde54955c574e3",
+      "sha256": "aacd162fada6ae353178273d06cc1e8c505443f50fd3fc3202f96fe23c075ba2"
+    },
+    {
+      "path": "app/public/animatic/img/daumier-vingt-cinq-degres-1852.jpg",
+      "bytes": 1189330,
+      "gitBlobSha1": "dfb8d7a7e5beeb483780d660f05de8b411445991",
+      "sha256": "afa5da0911bed646123b94f50f2a5bce6265ca9c2eb85089b76222929ac704fc"
+    },
+    {
+      "path": "app/public/animatic/img/durer-rhinoceros-1515.jpg",
+      "bytes": 2380899,
+      "gitBlobSha1": "19e4e0152b53a42f661e49c8b1065d49d2b2b453",
+      "sha256": "3665902412d68645a62c3774f0aff414343ec1d4d6cbbdff81d99294a01cac46"
+    },
+    {
+      "path": "app/public/animatic/img/frankenstein-frontispiece-1831.jpg",
+      "bytes": 3060672,
+      "gitBlobSha1": "13184870b415777b9f806b363431b56878ff0c00",
+      "sha256": "e9123a7953cab7979d6753f422b203c65fba5aca1aff830d5ff9448f9a1e48fe"
+    },
+    {
+      "path": "app/public/animatic/img/friedrich-wanderer.jpg",
+      "bytes": 1442348,
+      "gitBlobSha1": "5f95a33be2a5f417e3587a56af92a60529189360",
+      "sha256": "03e4dffb26bbbb9af1ae42640ce183eea01829c9f79ea29e597b78078a0a9fdc"
+    },
+    {
+      "path": "app/public/animatic/img/furst-schnabel.jpg",
+      "bytes": 775348,
+      "gitBlobSha1": "7ae423b47a63c8fdc7d1021fa3abd2e9f3198cfb",
+      "sha256": "845dfd156076b9f68b0ac723361cfa66ee8fdb9bc5dc18b89c3109cf706dfd3e"
+    },
+    {
+      "path": "app/public/animatic/img/furst-schnabel.png",
+      "bytes": 4116618,
+      "gitBlobSha1": "d85e43bb0156703d544b1906126f37744d30285a",
+      "sha256": "6daee3ef0b85213e4fe0b24a837cf9d03589f1bff727a0203503ecf8f30c149a"
+    },
+    {
+      "path": "app/public/animatic/img/galileo-moon-1610.jpg",
+      "bytes": 1068663,
+      "gitBlobSha1": "e7732cecbf2d6b7d9af4009561fa9242684c3f82",
+      "sha256": "477dc9778c56a0e8fc968c9a6d9dfef7a61919178800100fe738228265206e6c"
+    },
+    {
+      "path": "app/public/animatic/img/heyden-land-of-cockaigne.jpg",
+      "bytes": 1834648,
+      "gitBlobSha1": "d605cb22a0461ba69a9e43abe4d1e35905da33d7",
+      "sha256": "845afc1ed8c3db7a54eaa5bb3f0a02d40335779b5181e4375c1f17bdb9397398"
+    },
+    {
+      "path": "app/public/animatic/img/holbein-utopia-1518.jpg",
+      "bytes": 724601,
+      "gitBlobSha1": "24aff4348735a585ca0c8bdf14852ac29dff93e7",
+      "sha256": "5d1a0116d767d4d3a7cb7afa2b0ff523578a01be4fd11e80a4309dbf317c1af3"
+    },
+    {
+      "path": "app/public/animatic/img/jacquard-woven-silk-portrait.jpg",
+      "bytes": 1989513,
+      "gitBlobSha1": "259d5d7ed304db5fb9d1b0768a76d98ce4272900",
+      "sha256": "e66d1cbe1033735dee60aff14a9cc9c64da6cbb2d6cab04740604439709f596a"
+    },
+    {
+      "path": "app/public/animatic/img/lanfroicourt-border-postcard.jpg",
+      "bytes": 890964,
+      "gitBlobSha1": "12f552d73502c017ddb2a17f4dcf3eaff27335e5",
+      "sha256": "321d2b3259d3e801df24c4659332bbd7e0b62ef6dcd9464a421fa1055670472e"
+    },
+    {
+      "path": "app/public/animatic/img/leonardo-water.jpg",
+      "bytes": 1064970,
+      "gitBlobSha1": "82a74ad822ab0cc524163a3beaa38333d4b83bb6",
+      "sha256": "1ef3795264b2ec09c15ef3220a0031b04e42d479f7c77c06e6b3ad60377d7cb7"
+    },
+    {
+      "path": "app/public/animatic/img/marey-ibry-train-graph-1885.jpg",
+      "bytes": 918145,
+      "gitBlobSha1": "333a65e3e16a5d3e13e426425887945ce2ff5c4f",
+      "sha256": "1a17fa9e07b926dbac0ea81c756c786b7e19dd0d44f2bdec67cbe10e65a8ca47"
+    },
+    {
+      "path": "app/public/animatic/img/mazzanti-pinocchio.jpg",
+      "bytes": 290757,
+      "gitBlobSha1": "2512158fb87158a5fc369931ec8151e5c1fb5869",
+      "sha256": "a0a343100a45808c2c615fe9bd00bdb905f22b5e56b9c84830ac0f9cd7c3ed7f"
+    },
+    {
+      "path": "app/public/animatic/img/medley-card-dutch.jpg",
+      "bytes": 271904,
+      "gitBlobSha1": "cf79ba1055088422d55c436b0672f8b8adc7552d",
+      "sha256": "b5c80d7ad3077718ae52c111e88be071fe07c03ce141003ac3671844730b073c"
+    },
+    {
+      "path": "app/public/animatic/img/medley-card-gazette.jpg",
+      "bytes": 427438,
+      "gitBlobSha1": "14300ededa6f7d65657f8a0b756af1cda25ea213",
+      "sha256": "e13a7a9a1e0fd8bdf5157bbc0809c81f678deb39f6e04c032eb97bc1dac94e5e"
+    },
+    {
+      "path": "app/public/animatic/img/medley-card-quincampoix.jpg",
+      "bytes": 410705,
+      "gitBlobSha1": "e8d8d4733b4b65849cbe1f2b55bb858d943fcd00",
+      "sha256": "3dfd8f8bb382a11fa7ce618d1da75a5480de378056050207bd807ed9f5fd2b07"
+    },
+    {
+      "path": "app/public/animatic/img/mitchell-world-map-1864.jpg",
+      "bytes": 2870782,
+      "gitBlobSha1": "ae105d6de126014eec29110e46a36e6e2d0929fd",
+      "sha256": "791dfa0191931f0d07481efb3e70eb66f35bf8474af9ac11e941b06caa26f309"
+    },
+    {
+      "path": "app/public/animatic/img/montparnasse-derailment-1895.jpg",
+      "bytes": 1163956,
+      "gitBlobSha1": "75069f769c6967b56be8f76e5f0a4c604378070e",
+      "sha256": "7c237b1299b1273a1269c8eaca95bcef134d24baac698e82a37221f63f89c339"
+    },
+    {
+      "path": "app/public/animatic/img/nobel-portrait.jpg",
+      "bytes": 1556686,
+      "gitBlobSha1": "e26f779fd846c046795167a30676400952007ac5",
+      "sha256": "8602cf3f8535e8773f67ab70fb1762aea27ea76772b46d8f2a94bacb3ac6220d"
+    },
+    {
+      "path": "app/public/animatic/img/nokia-paper-mill.jpg",
+      "bytes": 1243698,
+      "gitBlobSha1": "bdf89b2875c9d287c200817e6f36ced9b3d8da1d",
+      "sha256": "d1ace68981b0a2ee2c664e7e59112bde2a72073eb626892b9bf24a753000b73a"
+    },
+    {
+      "path": "app/public/animatic/img/panini-modern-rome.jpg",
+      "bytes": 1462840,
+      "gitBlobSha1": "b3d7f67c79b2c3f77490acb948adb11ff668847b",
+      "sha256": "f3b127ac6efa3379246760a7c2a8a722934ae606d5fe0bc2597b9d6a88403c7e"
+    },
+    {
+      "path": "app/public/animatic/img/penin-metric-medal-1840.jpg",
+      "bytes": 821290,
+      "gitBlobSha1": "42c662a33fe37b35a162a26bc83e8bf5dfaf873b",
+      "sha256": "f77d9b9ebe5562bc3d8190a81ab96a53c15474bd9e04924a00d8be964daf273d"
+    },
+    {
+      "path": "app/public/animatic/img/piranesi-carceri-round-tower.jpg",
+      "bytes": 3094944,
+      "gitBlobSha1": "4c1f4a1f86b0b0286d1b47d3563e0278a696ee11",
+      "sha256": "7a217f38128b60725fc3f591668a9c14af4ea219013424dcf246fd6fbb0e1a34"
+    },
+    {
+      "path": "app/public/animatic/img/punch-paul-pry-1844.jpg",
+      "bytes": 765006,
+      "gitBlobSha1": "3a64fc52072653adbefe842bb83b14c872ebe076",
+      "sha256": "41bafefc14beb1500f36fe8f834255666f308303de8d99032dee296556c4431b"
+    },
+    {
+      "path": "app/public/animatic/img/racknitz-turk-hidden-operator.jpg",
+      "bytes": 2965013,
+      "gitBlobSha1": "e773040cd9fad97e420b8db89428cf6ac8ecd8b5",
+      "sha256": "571475868276823ea660d7b5ff2c4a064628c98e362a2fd5a00ec7633bfb981e"
+    },
+    {
+      "path": "app/public/animatic/img/richter-haensel-gretel.jpg",
+      "bytes": 1468033,
+      "gitBlobSha1": "d6f2afa45e4e00d884033cfc9d52b0967cc679a0",
+      "sha256": "3f3c92706d99c7e45ed77d913a9ab9987d2f4cb24a376916f7b0cecc39ad0751"
+    },
+    {
+      "path": "app/public/animatic/img/teilhard-fig3.jpg",
+      "bytes": 243766,
+      "gitBlobSha1": "26faaf7bca3fabdb2427ea8038efdf77ce473ba1",
+      "sha256": "a8225eb7ca86b21db8dda7c245eb10017bccb948151e9da4827f0d991a12cf3a"
+    },
+    {
+      "path": "app/public/animatic/img/teilhard-point-omega.jpg",
+      "bytes": 38686,
+      "gitBlobSha1": "c94c25ad0d2bd3259acf38816cd03dfccea21b9f",
+      "sha256": "48f60c02c0d15eeb1c2fd59e697825621b847cb860b290d5affd4982634e9ab8"
+    },
+    {
+      "path": "app/public/animatic/img/unicorn-hunters-enter.jpg",
+      "bytes": 1895361,
+      "gitBlobSha1": "6a47c9b1bddcca043c50ecc4a3df9e4ac9d0cff4",
+      "sha256": "9d6578e4e8f2c1b395e34b5262dc7908dad9378aca41094f394381bb3c32937c"
+    },
+    {
+      "path": "app/public/animatic/img/unicorn-hunters-return.jpg",
+      "bytes": 1818763,
+      "gitBlobSha1": "0add7fcab9e32925ef591f898608691c27eddcd8",
+      "sha256": "716b3c644617a0d32338f2bc4537033f42bfba915c200c859ad3383469a8fcce"
+    },
+    {
+      "path": "app/public/animatic/img/unicorn-in-garden.jpg",
+      "bytes": 1964695,
+      "gitBlobSha1": "e57238de6ac11dc9069bf38d8abea55789ddf5de",
+      "sha256": "3ff59516961efbf348c91e910e54e22fa40e618d797364502820056d8f9d836d"
+    },
+    {
+      "path": "app/public/animatic/img/unicorn-purifies-water.jpg",
+      "bytes": 2652143,
+      "gitBlobSha1": "8cdab1dcf2d18f8c2ed379e2012910d0fc028156",
+      "sha256": "334683f26bbee7e93d3e21799120b0489181c3daf339516a9e028bf934f13531"
+    },
+    {
+      "path": "app/public/animatic/img/vonneumann-badge.jpg",
+      "bytes": 293556,
+      "gitBlobSha1": "bccefe7fce2de8e5ae7146d0acaad37dfd1d57b3",
+      "sha256": "82b72f84c06e4a6f2cc0f75369cd883f2f3424decb7aa5e4a4fe04352f845b0c"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1000-300.ttf",
+      "bytes": 121492,
+      "gitBlobSha1": "0bb90312d4ff0998f396f9498c2e80f5f4e7166e",
+      "sha256": "863ec9a266154b483ca2fb544a1ae886b2c2e725894ba14a7dd642ecff08836a"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1000-500.ttf",
+      "bytes": 121588,
+      "gitBlobSha1": "4441d242aee4e7df8aca736ed34d78321864be05",
+      "sha256": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1000-700.ttf",
+      "bytes": 121440,
+      "gitBlobSha1": "3ba0d43287924bcf828384dc6b1087daf4fcdcc9",
+      "sha256": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1000-900.ttf",
+      "bytes": 120740,
+      "gitBlobSha1": "56633ec809a80fec5871ea913748e910e197f48e",
+      "sha256": "df7f620345ceaf9307c4c021d486d567035c3c3af9e29b12a892f7e5d4d8be48"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1125-300.ttf",
+      "bytes": 121740,
+      "gitBlobSha1": "d056a26bbcbc95a70b12245d9e15e4d364bbc8fc",
+      "sha256": "318687751c75f16b2f911d736179926da7b2edb48c6cc3a8083d93beefa31b08"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1125-500.ttf",
+      "bytes": 121788,
+      "gitBlobSha1": "a478e5fe2834ca92f9fb1481e7f5f34839f03759",
+      "sha256": "141642530cf681535aad885f5384ec6b5a355daa221ea64f06d0405448708a73"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1125-700.ttf",
+      "bytes": 121716,
+      "gitBlobSha1": "56517a50508614bf67d9b3e364ea2e2f1ee6ac56",
+      "sha256": "57510ee1a63a64549244cdaa829a245795e1a901c48cb57891e2ac0ce530e9bd"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1125-900.ttf",
+      "bytes": 121268,
+      "gitBlobSha1": "ec08b5a643aad26a87ea04fbacbd638c86031e9f",
+      "sha256": "6b04492e0ff1dbf8e39c286cd8d32420a12363661dd331c4705c0822a8683318"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1250-300.ttf",
+      "bytes": 121648,
+      "gitBlobSha1": "3ff564393ac5c5ef907dc0470b8c69505c174863",
+      "sha256": "4fd218920884877281f203b81d2ddbb8af90cf1e58ab81830f2b4dc8cb06b377"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1250-500.ttf",
+      "bytes": 121652,
+      "gitBlobSha1": "d747f0a85560d5ac8fde2900b852b0bfec49ed68",
+      "sha256": "36a7bf442a40583b42272084a7fd036467dea5a54a9a106820083e48413851d3"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1250-700.ttf",
+      "bytes": 121628,
+      "gitBlobSha1": "24495e28588db9f0e53a2d8b28ad1b2e101e5487",
+      "sha256": "55a4492a5a97a6134ec83e289fbc2510d40031a432881a72ef6dd8ae302a380c"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1250-900.ttf",
+      "bytes": 121220,
+      "gitBlobSha1": "7ed03d0b1e623436abef2274c440818d4ba7d9b4",
+      "sha256": "97954352b2fcb9d4a5917d658fc71a27db5bd6dad4fe1a8a77c171211860f286"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w620-300.ttf",
+      "bytes": 120484,
+      "gitBlobSha1": "00810f077436ebde540777346c3a06bc836f81c8",
+      "sha256": "5a97cc5a200d8ab7e459c77ab8055fe06e7b3eaa3b04016a1333797f9a7f2cab"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w620-500.ttf",
+      "bytes": 120416,
+      "gitBlobSha1": "3bb7df2fb58766670385ade50073508ea989c658",
+      "sha256": "c5a9c17c1ac8fbbb47345f805a73d933615db56ed4b2ca2ca84e9b9b3273b1e4"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w620-700.ttf",
+      "bytes": 120376,
+      "gitBlobSha1": "644309233fbfa5898cae3714c89267aa18da2bdf",
+      "sha256": "6526f0939a591a3092368ffa5f9ec77e82d8cbbcf044dab17b9a0dfbaa4c151c"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w620-900.ttf",
+      "bytes": 120080,
+      "gitBlobSha1": "1b65c6ddf320514b7d25e420292e35d2d332102c",
+      "sha256": "7bf041853788deafccaf6626af105d63a2c4e9bfe90ed8f3722e49e635520e22"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w750-300.ttf",
+      "bytes": 120988,
+      "gitBlobSha1": "7488a74e8b6d9688af81cb36bfd5de30efcfa759",
+      "sha256": "2920a8b658d4fa4c596bd79f94577c36e8fc63a60e3260e9eaab3bacc911d4f0"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w750-500.ttf",
+      "bytes": 120968,
+      "gitBlobSha1": "cadb57013ef493376f44c46013e4d6b042247161",
+      "sha256": "12a3814c240d98fbd3e12db49d87d9e8f7d303241450d2ce7a0d78fc2aff877d"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w750-700.ttf",
+      "bytes": 120888,
+      "gitBlobSha1": "1a12c2af0f96c5c6ab25ca827273853882cbe864",
+      "sha256": "dd9741079f1f5dd5ad9842bc5152dcab9b01e52f1f1b545bcf347edd6858fcb7"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w750-900.ttf",
+      "bytes": 120588,
+      "gitBlobSha1": "4143c933a077e90919bdedfb204cc71e6511906d",
+      "sha256": "e544dc863d11d50b6b159f2459204b4f994fecf46f75d428c8ebfc118cc9e00f"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w875-300.ttf",
+      "bytes": 121144,
+      "gitBlobSha1": "ce66a27a1ced82923d8db94c1047a577216cf197",
+      "sha256": "b6ddedcb6a7d5ae535f593bd4c84edf685c7c30fa8d57d61b03c1b956156d0fe"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w875-500.ttf",
+      "bytes": 121328,
+      "gitBlobSha1": "a9a7b24c1cd0d066779c643a6b79c4e8fab1e099",
+      "sha256": "838d87c7f772488cdb67ad2c719a42c716d52ebcfaae1068e5fde10bd1d0ba99"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w875-700.ttf",
+      "bytes": 121212,
+      "gitBlobSha1": "2aef2d29ef7f3c440adca525cabd528c3359a877",
+      "sha256": "c37e23695fc6352f35ef9efcb64e86cfbcf124e235cccda9fa83cde88792ac79"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w875-900.ttf",
+      "bytes": 120844,
+      "gitBlobSha1": "fbcdc3b359b069a83130b6334d0578860ad5e08d",
+      "sha256": "3f2011e473d614bf899e2c2f1c7b67e4fbf61b505dfc0543a0547a35c18c5adf"
+    },
+    {
+      "path": "app/public/fonts/ArchivoItalic-w1000-400.ttf",
+      "bytes": 133740,
+      "gitBlobSha1": "8133aa3df2129d329081536e8441e99401cc9efb",
+      "sha256": "e458ef98ab695b2dbcb53441edcbbb7d8b86fda2dbd7542513a6aa37762c8750"
+    },
+    {
+      "path": "app/public/fonts/ArchivoItalic-w1000-800.ttf",
+      "bytes": 133828,
+      "gitBlobSha1": "4a0bd1bef7a535bc2705be3b84f58698ac076412",
+      "sha256": "9e8c5abbb79942428dee6a133483a146f223c790b5f0ee3c0cb3280c8776e99c"
+    },
+    {
+      "path": "app/public/fonts/ArchivoItalic-w750-400.ttf",
+      "bytes": 133472,
+      "gitBlobSha1": "7947f58d829cfde8ed3d2ebcff33a44c1814d424",
+      "sha256": "70d6ff465ae66aa0cb424c5452e13b1dbb19b913adf3ed80b9bc59575cb90203"
+    },
+    {
+      "path": "app/public/fonts/ArchivoItalic-w750-800.ttf",
+      "bytes": 133296,
+      "gitBlobSha1": "8919d6964bcd41ef8fa3fe6666bce20cdef08a82",
+      "sha256": "bc7fa2efc9a4aa22960cfcfbe50025c8d82ff177f4e9a3e016cf0665dbee918c"
+    },
+    {
+      "path": "app/public/fonts/BarlowCondensed-Bold.ttf",
+      "bytes": 109912,
+      "gitBlobSha1": "9e480f467d703009e3abfce290b2ec2b7d24e188",
+      "sha256": "e476562ec9c1e16cf16475895b511f08c804f438cc9a9f80a44ea50a0eeb5b65"
+    },
+    {
+      "path": "app/public/fonts/BarlowCondensed-SemiBold.ttf",
+      "bytes": 109428,
+      "gitBlobSha1": "9df66576492bee4bd0559066825472808fa98adc",
+      "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    },
+    {
+      "path": "app/public/fonts/Cormorant-400.ttf",
+      "bytes": 774016,
+      "gitBlobSha1": "440b356974e41cf8bd697a983ff18431ba3b4d6b",
+      "sha256": "4e7958f688e875a0073febb1fdbcc87d85babedf7705ae9e70ecc9513eae9c3e"
+    },
+    {
+      "path": "app/public/fonts/Cormorant-600.ttf",
+      "bytes": 774032,
+      "gitBlobSha1": "a00cc09a90d8a4facb96a39f47f9e6599071125c",
+      "sha256": "6cdad32e7e609276adf97085c6fc21a259f311e3b8bdc880784222bdf8911727"
+    },
+    {
+      "path": "app/public/fonts/CormorantItalic-400.ttf",
+      "bytes": 454392,
+      "gitBlobSha1": "293177bb6948bf80a0a06eb44d799fa4f051b916",
+      "sha256": "272bae4becdd77c6f8cf3a252a775212b88c1c8c5a28a0cf8ef799d6887cacda"
+    },
+    {
+      "path": "app/public/fonts/CormorantItalic-600.ttf",
+      "bytes": 454472,
+      "gitBlobSha1": "1cd3c5ee2669655bb0387ae49dc1de261b457016",
+      "sha256": "436ab920355e6f186f19183c749a2c0bb2592ebf86fabe4bcffd83b17b3fbc5a"
+    },
+    {
+      "path": "app/public/fonts/CourierPrime-Bold.ttf",
+      "bytes": 72856,
+      "gitBlobSha1": "d27ce71916d55b584c51854e9d57a303de6af9f0",
+      "sha256": "ff1f38786c849d1c41fa8e447960abdb2bd75fdfb0cfcdeb524fad65a5af3638"
+    },
+    {
+      "path": "app/public/fonts/CourierPrime-Regular.ttf",
+      "bytes": 71188,
+      "gitBlobSha1": "2a0f8bde9778bb8c7b3a0ca5d4b4fb041737ef1a",
+      "sha256": "72f793376f8e2841656bf21d77a5de010f2929bd6956a22ee848ad0c7eb978af"
+    },
+    {
+      "path": "app/public/fonts/LICENSES.md",
+      "bytes": 1342,
+      "gitBlobSha1": "b2d4b1dff35178359b381c7c478bd1d45634684e",
+      "sha256": "be30c6259a063b17e0f2c99e79e443a7ee4b9933f479abceca6f311cba2b995c"
+    },
+    {
+      "path": "app/public/fonts/NotoSerifDisplay-w1000-400.ttf",
+      "bytes": 427420,
+      "gitBlobSha1": "f7fd692aa194879d2a6e53c3ac6498a2b86a14b4",
+      "sha256": "b5de04162c47f7cda100e42a1226aabef8e18f58efe59467cacc54557a2cfbcd"
+    },
+    {
+      "path": "app/public/fonts/NotoSerifDisplay-w1000-700.ttf",
+      "bytes": 427580,
+      "gitBlobSha1": "b1fc3a41ad83af93909721b444928a93d3159f57",
+      "sha256": "acc110cae98b795710e92fcfb240f562951753430566bf18732bbd39a67e9ec2"
+    },
+    {
+      "path": "app/public/fonts/NotoSerifDisplay-w1000-900.ttf",
+      "bytes": 429284,
+      "gitBlobSha1": "c66f624b760c2733b6a89949f14ebd016bce33ed",
+      "sha256": "0c7c4d0937151bc3c50e667e5d0b4d2d6eb9a79bd2819ac29164641ba01dc266"
+    },
+    {
+      "path": "app/public/fonts/NotoSerifDisplay-w625-400.ttf",
+      "bytes": 429520,
+      "gitBlobSha1": "c2da2cfef0891ca60cc281e662ed1df2158250dd",
+      "sha256": "321c1eff8f18e69b32ada12112f287b6ba5900b453d0c47dc6492d578b8ed5da"
+    },
+    {
+      "path": "app/public/fonts/NotoSerifDisplay-w625-700.ttf",
+      "bytes": 430112,
+      "gitBlobSha1": "1ef0bc3c8a8b05c117e36a20672512627ad555f4",
+      "sha256": "94e7ba6d041cd1057b08d3f886939491e555dd67281a48ac06d820aa83726f9a"
+    },
+    {
+      "path": "app/public/fonts/NotoSerifDisplay-w625-900.ttf",
+      "bytes": 430172,
+      "gitBlobSha1": "5045597640877bfe4dda6724fa5a1cfa87ec8a38",
+      "sha256": "52ee93209eaff1b7c85c792b38c1f8d3d9f367714795f62b5bf0b450597a7c74"
+    },
+    {
+      "path": "app/public/fonts/NotoSerifDisplay-w750-400.ttf",
+      "bytes": 430256,
+      "gitBlobSha1": "88268ca2d0d98460dc3cb991e1c4eadce7413d3d",
+      "sha256": "8cc5a244f541efa28bafa6d775e7a6ac1a30cf57a13344cf54f629fc02e920dc"
+    },
+    {
+      "path": "app/public/fonts/NotoSerifDisplay-w750-700.ttf",
+      "bytes": 430228,
+      "gitBlobSha1": "4c9817913ff608e2485da9e68a374dc882f82dc2",
+      "sha256": "1cdd2cd44327fb664f3f020aaf8b12b761648a0f05d548930f157d1ebc302d0c"
+    },
+    {
+      "path": "app/public/fonts/NotoSerifDisplay-w750-900.ttf",
+      "bytes": 430736,
+      "gitBlobSha1": "a335313cbdbe3bba7985fb2a76bb5986ec1df3e5",
+      "sha256": "dcaf913094e4c17e74b1b4ae7d9b15fb3335860228302b05fa3a7b7c853bc552"
+    },
+    {
+      "path": "app/public/fonts/OFL.txt",
+      "bytes": 4388,
+      "gitBlobSha1": "8597481ebc941863ab228e79ea4305507cd73cc6",
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    {
+      "path": "app/public/fonts/UnifrakturMaguntia-Book.ttf",
+      "bytes": 88508,
+      "gitBlobSha1": "6429ce25445be1568534f5bd7f2b42f42fb6ff17",
+      "sha256": "d64afc0547059dd2e4a78da48bda0aba0a9901be58c7f8c201a8b2b6b4492cc8"
+    },
+    {
+      "path": "app/public/fonts/src/Archivo-Italic[wdth,wght].ttf",
+      "bytes": 741368,
+      "gitBlobSha1": "41577c6b91d4c12d6490a6957f7c68f3c226c625",
+      "sha256": "305d13b4eb80e62f7d517f78d7c045250d977552a420f2dbed906f314e761305"
+    },
+    {
+      "path": "app/public/fonts/src/Archivo[wdth,wght].ttf",
+      "bytes": 658596,
+      "gitBlobSha1": "cc64253d36665a5ca0d6719cdf1e32b3de453b51",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053"
+    },
+    {
+      "path": "app/public/fonts/src/CormorantGaramond-Italic[wght].ttf",
+      "bytes": 715644,
+      "gitBlobSha1": "0d914e7663b7a1429d06ec60a5c5bb026031a2ef",
+      "sha256": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d"
+    },
+    {
+      "path": "app/public/fonts/src/CormorantGaramond[wght].ttf",
+      "bytes": 1195560,
+      "gitBlobSha1": "d992a83ce525c330fad3a19087746bcb2dc038ee",
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Bold.ttf",
+      "bytes": 137784,
+      "gitBlobSha1": "17b406d221e7f27179344707bd543fb8470728ac",
+      "sha256": "ac27abd6450a64dd94467580a02fe6235156d5b92f2926ebbc8e7489df64e0be"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Italic.ttf",
+      "bytes": 143920,
+      "gitBlobSha1": "d7f69134614ebdcaa10ebd36b0be1a44a035e157",
+      "sha256": "3362fc791b0652193328b862c1c5f23a789bc7288b1617fa63302f88689a2a34"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Light.ttf",
+      "bytes": 135216,
+      "gitBlobSha1": "61d43577842179cdffeb38b6c1928786981db0da",
+      "sha256": "780bcf65509d72a35ec114b57bcbe220dc6b77d8ea2e9b25e294be3c570c5025"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Medium.ttf",
+      "bytes": 136704,
+      "gitBlobSha1": "33c546f68b6007a45a3f10e845523abb2db25399",
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "gitBlobSha1": "0c9770d5183ba60dc4350d3e011b782a320761ae",
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-SemiBold.ttf",
+      "bytes": 140216,
+      "gitBlobSha1": "8f8998a139d8f61d3b96bdd3b512fca501a1f6b9",
+      "sha256": "d3c38e55c78f5b0f28009fddba4834ec503278936a5986032424c9bd2d23aa46"
+    },
+    {
+      "path": "app/public/fonts/src/OFL.txt",
+      "bytes": 4388,
+      "gitBlobSha1": "8597481ebc941863ab228e79ea4305507cd73cc6",
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSAllure.svg",
+      "bytes": 57469,
+      "gitBlobSha1": "1fb7bef668f675353e3bee6e23c87d8faf0c1fae",
+      "sha256": "55ed2de9c602229f32dd2784aae704023a5594eb8d208131f2552fae330a2a67"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSFelix.svg",
+      "bytes": 48819,
+      "gitBlobSha1": "99950b80b30bffafb29ec0c1c3e37bf15bdd8d19",
+      "sha256": "e7b2463c6cb2a2cbef59db9b1f9f5a20a0ecd9158eeb8f01f2015c9e5be7dca4"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSOsmotron.svg",
+      "bytes": 30158,
+      "gitBlobSha1": "821a0e324645d45c0df170ef136f81fc02ecb412",
+      "sha256": "158b0f247a005ca5b6b8556f85684ad10cbb04c41ebbd394b9090c8ea2f16c52"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSReadability.svg",
+      "bytes": 41926,
+      "gitBlobSha1": "c9c5174edbf3c22ed4611da912ab5984eb6a957e",
+      "sha256": "eebece4f2a47b9d3a8f40cab2b0f689ca60902997abd5c81064ef0d2a3a05522"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSTech.svg",
+      "bytes": 40777,
+      "gitBlobSha1": "8ab5d67c18867458b91cb048a99cf9b7d8f4b311",
+      "sha256": "7b5a420d4e16285213e7e2b1d187d086835c2dd7a7f64c5b8057434f082fc46f"
+    },
+    {
+      "path": "app/public/fonts/stroke/HersheySans1.svg",
+      "bytes": 40196,
+      "gitBlobSha1": "a49d184d524872505ca5df27bfd5534ad2042e41",
+      "sha256": "a7b9cb8f6465a66d7b1b2f774579749edf1f960b0ed929f0908bd97211f479fa"
+    },
+    {
+      "path": "app/public/fonts/stroke/HersheyScript1.svg",
+      "bytes": 60060,
+      "gitBlobSha1": "fe470218d8ae468e13729729a0a44e80b854683c",
+      "sha256": "bc0cbdca869d455d000e9961cca0191843cc1c2d7e134a732be2b5081b32eb3b"
+    },
+    {
+      "path": "app/public/fonts/stroke/HersheySerifMed.svg",
+      "bytes": 60544,
+      "gitBlobSha1": "02da42feab93e0a72d3376a8085b224219d531a7",
+      "sha256": "63e5c88e6fd3a1c2b9a3c90b239c7af3086a15df80373cac80daedbf29b0c04a"
+    },
+    {
+      "path": "app/public/lut/inklut.bin",
+      "bytes": 143748,
+      "gitBlobSha1": "531867a206a36cd25813ff4e0342f59889562a4f",
+      "sha256": "7633c88df7e19666cfe420978f139e6f86612de5628ce3cf6ea473f4d1e44a30"
+    },
+    {
+      "path": "app/public/lut/inklut.json",
+      "bytes": 196,
+      "gitBlobSha1": "04ae467bfa964b7cfe51d6d644b7350600d90326",
+      "sha256": "eb313fe86006255142dacf37d7dc53f7e6a8bb6436897969e9249265b90e56e7"
+    },
+    {
+      "path": "app/public/plates/fig01.jpg",
+      "bytes": 391085,
+      "gitBlobSha1": "426a708508a0cb55d09389035de78f6d1bfa8b34",
+      "sha256": "0961afa9e284834ff3e2c4544f462b3a828f3451f716a0656f38bfb7d422c7e6"
+    },
+    {
+      "path": "app/public/plates/fig02.jpg",
+      "bytes": 663931,
+      "gitBlobSha1": "080cd53bb3d1a729b00182d32bf3e3b9a145b7d2",
+      "sha256": "ce9e350da550f64d32de6ffd222b6b6d484c6689deb127401a129a493721e11a"
+    },
+    {
+      "path": "app/public/plates/fig03.jpg",
+      "bytes": 539407,
+      "gitBlobSha1": "7ba1020cd2e6f961f640fb8de0daecfc58f3ee3c",
+      "sha256": "e3657c9732c18ca8f7d314fad50236a266541c65b01e78ab23c37c37c6001a6f"
+    },
+    {
+      "path": "app/public/plates/fig04.jpg",
+      "bytes": 467899,
+      "gitBlobSha1": "e3944af8061fef550c245678b46f19e90ef58dea",
+      "sha256": "43dd9348e31415b791f926150244c2f726ad28153385dc8a25ab71679ffa3f77"
+    },
+    {
+      "path": "app/public/plates/fig05.jpg",
+      "bytes": 473705,
+      "gitBlobSha1": "2771929da3148abfdee4325bc1156023deaaefb1",
+      "sha256": "bed4e9d5c75993535b842ba5f1cde90df8e4acc9138db8db30777aa8d7379fbe"
+    },
+    {
+      "path": "app/public/plates/fig06.jpg",
+      "bytes": 475675,
+      "gitBlobSha1": "c9c6387d0bd18f027c41e430db52d132856e7631",
+      "sha256": "c3cf7e10a6c0e40797d63095bb75ff5d679befc110682fb911e645ec16b8dab2"
+    },
+    {
+      "path": "app/public/plates/fig07.jpg",
+      "bytes": 315443,
+      "gitBlobSha1": "be7b58e12938ff25b8106aff7bf1ab5b6c6e01f5",
+      "sha256": "80faf7919c2b5c6c84528ae4ffc084a382666fdfd98fde8d2e160d9eab6b03d7"
+    },
+    {
+      "path": "app/public/plates/fig08.jpg",
+      "bytes": 475323,
+      "gitBlobSha1": "f52805f5e17e3efc4136a2abc30e739df50b1c3e",
+      "sha256": "a32b7e4cd750a8df99f7abc525a5e475bfe0772305ad62b55bf0828e1860ff29"
+    },
+    {
+      "path": "app/public/plates/fig09.jpg",
+      "bytes": 469984,
+      "gitBlobSha1": "5e3eb58c30c34f6b16c66c40af580f13f0f02f95",
+      "sha256": "431b3cad0273b81011a904b61efe4d85c2a93bd0b6477ff930bc4c3af5f005b1"
+    },
+    {
+      "path": "app/public/plates/fig10.jpg",
+      "bytes": 278900,
+      "gitBlobSha1": "d7371bdf2ae7a9661da6ca1141c90534ee2a7a36",
+      "sha256": "07d81e7b4f2a2d1bf278d104542092cb0432802eea72350c1253b02cc50cd218"
+    },
+    {
+      "path": "app/public/plates/fig11.jpg",
+      "bytes": 351750,
+      "gitBlobSha1": "70b84ee88f83ad29b5aa9227b75b651eda53c0ea",
+      "sha256": "c2a4f8eda7cbc78ad0800300a3bb0f1c7ef29e16a90167bc8feae3e0f52a4a48"
+    },
+    {
+      "path": "app/public/plates/fig12.jpg",
+      "bytes": 295187,
+      "gitBlobSha1": "5cb2abfec2058127c6e962b44c05d6f8650f3c6a",
+      "sha256": "0f8ac26fc00f1b48bb5df09aecf3870128f50b2919748aeeaac1992fe6d2c177"
+    },
+    {
+      "path": "app/public/plates/fig13.jpg",
+      "bytes": 335525,
+      "gitBlobSha1": "e3a284a1cfb27ab2a70e997c6a3bd8ba8ae9ea5e",
+      "sha256": "21e48c2098070c732485446197e14d6bbaf4430a586171cb07f0b3760c06572f"
+    },
+    {
+      "path": "app/public/plates/fig14.jpg",
+      "bytes": 388589,
+      "gitBlobSha1": "cbc54cbb82d3a61c56055be404cfeec403d6bc0e",
+      "sha256": "9821c1114be1cdbb3a0bf14be537f30369007eb7b09e793a11db07acda36d8d2"
+    },
+    {
+      "path": "app/public/test/durer_rhino.jpg",
+      "bytes": 1392001,
+      "gitBlobSha1": "5a64b8fa882ae78b655a76b3878f9f53ac3211cb",
+      "sha256": "06d8f6318e99e758f625cb0fc37b1a18e2b0f6cabd7a71f340de838e455e3ccb"
+    },
+    {
+      "path": "app/scripts/render.ts",
+      "bytes": 13612,
+      "gitBlobSha1": "f1c4946c0fa4bfc26c6baca76023fec7dc599908",
+      "sha256": "ef4cf9488a2345f8e00cd328f13ba85ee56e6f93dcfd55f90becb4da81582fdc"
+    },
+    {
+      "path": "app/scripts/safe-render.sh",
+      "bytes": 4664,
+      "gitBlobSha1": "05056773075dc161344c1a7c9fd3d8f60097c3ae",
+      "sha256": "52db1fd3e0ecc30b2f19952e924ed1e1a68f82f1da90c8f90ef37e1034f74c8e"
+    },
+    {
+      "path": "app/src/engine/audio.ts",
+      "bytes": 5435,
+      "gitBlobSha1": "bc019af8f5f832fd087410ae97b5b115e7b36c4e",
+      "sha256": "f43e20578f445ee952e8196c1c5fa00c13563c4d24b259a92b37c29b495df6b5"
+    },
+    {
+      "path": "app/src/engine/engine.ts",
+      "bytes": 18682,
+      "gitBlobSha1": "f49a07213249d8516e8153b30e7f735b7371912d",
+      "sha256": "3a056c89c959e25b484594e586a0989f3ee9177ce359af3743fe9c375b126057"
+    },
+    {
+      "path": "app/src/engine/gl.ts",
+      "bytes": 11681,
+      "gitBlobSha1": "a96b0cd69e7520240a3e4449adda1d5d0e987da1",
+      "sha256": "b75ebd88e3613e658259d1199a5a72c818bb24654467ea783973e1b38e49fa22"
+    },
+    {
+      "path": "app/src/engine/glsl/common.ts",
+      "bytes": 11024,
+      "gitBlobSha1": "2f81d9185f97ce83d0a38a275985bac7d6580cf2",
+      "sha256": "7e962fecd329f7b1af76b53ed4be0e360f352ec8ed8a85745c812d84ac791fbf"
+    },
+    {
+      "path": "app/src/engine/hud.ts",
+      "bytes": 7755,
+      "gitBlobSha1": "5a3cc711a9ede34ebaf3335b34b93368e678dd16",
+      "sha256": "9dcf8ba2ef614f87b6f3aa8834baa9b33d3e8589104b9e4f5145ad814414ba58"
+    },
+    {
+      "path": "app/src/engine/lines.ts",
+      "bytes": 7778,
+      "gitBlobSha1": "e21c97d6d7044752ac87097356b1e4dc2435f6a0",
+      "sha256": "afd4d20fb5d0d472b2f05585917388047e7f2297b9cb08adcc8bdac6e3763a27"
+    },
+    {
+      "path": "app/src/engine/lyrics.ts",
+      "bytes": 4150,
+      "gitBlobSha1": "5d556d93c9ab411f94988ed40db3b7801f7d3ab0",
+      "sha256": "03f360eb8aad243fe4b7186e7a1c6009b244969ffee0ce203998ab6120a879db"
+    },
+    {
+      "path": "app/src/engine/palette.ts",
+      "bytes": 2837,
+      "gitBlobSha1": "acf98a85a653ed0ea2ed361d817fc60a34ad52b5",
+      "sha256": "cd33f1e5288ad20ca3f08a9ea9c94911cd484ea822e8eae768214eed34651436"
+    },
+    {
+      "path": "app/src/engine/post.ts",
+      "bytes": 12015,
+      "gitBlobSha1": "0186a401513fd468413fad5b1d8cec5d377df63e",
+      "sha256": "c59a80699639e808044d7d5182d25fc4b593173dfadc62619e4c34ca01329c03"
+    },
+    {
+      "path": "app/src/engine/print.ts",
+      "bytes": 8246,
+      "gitBlobSha1": "44cb7883018b4593f24d8ff32164d73822889432",
+      "sha256": "67bddcd6d7425e5a13e904563ddea3f0a52d49d999837772c8f90c85e99f93b8"
+    },
+    {
+      "path": "app/src/engine/scale.ts",
+      "bytes": 615,
+      "gitBlobSha1": "ce43c887a3aabf86d70d00f492631d428aa7331e",
+      "sha256": "868ae545b1414e01f9a50a395bcd84081b84653a19485a7599f8a894eac5a9b0"
+    },
+    {
+      "path": "app/src/engine/scene.ts",
+      "bytes": 2998,
+      "gitBlobSha1": "8ebd18f066b23fac6b550fd95845b03de09dfc97",
+      "sha256": "496286017ce64400c50f063536db03ec26dd7da66722d636c13a37e24f79567b"
+    },
+    {
+      "path": "app/src/engine/stroke.ts",
+      "bytes": 14549,
+      "gitBlobSha1": "08c5c13017f20ba7733240597303d3cba9662d21",
+      "sha256": "1a59c766f50eb85883c318d19780e037f6fa5122c8844689c60bef656f896ee5"
+    },
+    {
+      "path": "app/src/engine/type.ts",
+      "bytes": 10782,
+      "gitBlobSha1": "370377abaf0f763631fb48146e0a9c711b3a7afd",
+      "sha256": "56eda2878b023bd5a1308efab4fb327c8814f7233bbb1ded13e26b7d4200cf41"
+    },
+    {
+      "path": "app/src/engine/util.ts",
+      "bytes": 7537,
+      "gitBlobSha1": "c403d739436989a488c960745bc7fe5e75890bff",
+      "sha256": "717fff8fc177040fc038067725e13b6f7ef7670b7a466f268404672dfaa44a4c"
+    },
+    {
+      "path": "app/src/main.ts",
+      "bytes": 8557,
+      "gitBlobSha1": "2bb320974c8dfa20f8d5f7be185f82e7368db1d1",
+      "sha256": "19ac1dfc3673d41ff519532c2e5b84e089c8cc92cd903e57dff40d12b2e92d58"
+    },
+    {
+      "path": "app/src/scenes/_idol.ts",
+      "bytes": 20024,
+      "gitBlobSha1": "42b299a2516a88cc32249bfe70b4acc19657a86b",
+      "sha256": "9c46e1b44d7e282ec9e997154262390ba8a8895cab3d8e4abd4f396528e4c527"
+    },
+    {
+      "path": "app/src/scenes/_kin.ts",
+      "bytes": 13465,
+      "gitBlobSha1": "3c1f1fdab94b95e55d09af9b65ef2a3a9b6dc162",
+      "sha256": "541ad7122734cbd1f14f4c1c1c27e2ba7d3380f2f3e35c7ab9178e2286ed1f27"
+    },
+    {
+      "path": "app/src/scenes/_kit.ts",
+      "bytes": 13756,
+      "gitBlobSha1": "5bbcb6c31cc07a7cb400638c903ad13a95b5e508",
+      "sha256": "40b89894a5f89ed312aa6fe4c727d7de6d9bd520e729bd327083f52dc0e84817"
+    },
+    {
+      "path": "app/src/scenes/alive.ts",
+      "bytes": 84701,
+      "gitBlobSha1": "fa2cb16c5557d2ea4b3fc4134cdd807a11050df5",
+      "sha256": "9c8ca1016b31793d67ed8b6611dde6ec563af0019eb6faf081dcf92a3b64237b"
+    },
+    {
+      "path": "app/src/scenes/animatic.ts",
+      "bytes": 98190,
+      "gitBlobSha1": "e9a6f38b91247397eaf8e3559a2d030c16d74cad",
+      "sha256": "5d4b189ca7a5645bb12d6c4c33dd894321c426853b6b25b60d3c16ad9e479253"
+    },
+    {
+      "path": "app/src/scenes/hybrid.ts",
+      "bytes": 5492,
+      "gitBlobSha1": "f326e3c405cc264b698d80d6c5482eabc150b11f",
+      "sha256": "4bb4309df8d61510495195de755a30bf53c6322f062923317e4ee8c412c2c770"
+    },
+    {
+      "path": "app/src/timeline.ts",
+      "bytes": 793,
+      "gitBlobSha1": "44bb9ee551460318df955a8ced4f214a299f2ea9",
+      "sha256": "c90b9ce48aac1a60c5bac8fb937a2ff7c4da0b872d1de73608d92d3984b24110"
+    },
+    {
+      "path": "app/tsconfig.json",
+      "bytes": 456,
+      "gitBlobSha1": "29b7c220523863bbdcb381433344555ccfb3d91d",
+      "sha256": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+    },
+    {
+      "path": "app/tsconfig.scripts.json",
+      "bytes": 104,
+      "gitBlobSha1": "a09e480b8e7c2e4cf27b717a31f9cad271ac2f86",
+      "sha256": "a3f395d8de82e44f57d9a5353fd77fc333080115e6b4af3a57680fbc2e683bb7"
+    },
+    {
+      "path": "app/vite.config.ts",
+      "bytes": 1352,
+      "gitBlobSha1": "03750267a34ac5cd3ecfb8c560eadad814215187",
+      "sha256": "5c19a0a1f06b0f364352949dc7d60bd8686e20651e130737f5a9707e2e712cda"
+    },
+    {
+      "path": "audio/el_music/adopt.py",
+      "bytes": 4987,
+      "gitBlobSha1": "187ecbb7821536a0395441a1ba7b25610ad95e84",
+      "sha256": "283c529ea5ac6b32f1de0af649252cc3547e4eca032b80e043424a3826620ab0"
+    },
+    {
+      "path": "audio/el_music/audition.py",
+      "bytes": 4024,
+      "gitBlobSha1": "def37608fc5c8804a28f02db82ed8070b74a6305",
+      "sha256": "e99fe63c531b90ecf2a362fa76bf015119279110b7c8f0f249d59da38e97f47d"
+    },
+    {
+      "path": "audio/el_music/check.py",
+      "bytes": 1700,
+      "gitBlobSha1": "839c127ea6a0ea5f0e7cb8f8e2d1231d9b296450",
+      "sha256": "ea6d301685b662f57d0ddd4cbc2f492a6406995e0b071c6816f0e44e5a01d66a"
+    },
+    {
+      "path": "audio/el_music/compare.py",
+      "bytes": 7806,
+      "gitBlobSha1": "60a12e4e07570531d4b7c876efcc5a1ea5727b38",
+      "sha256": "7249f53ac03e3ab6f3a9dec4bea25f6c5b29edca6bca1c929ea5c52edda30b06"
+    },
+    {
+      "path": "audio/el_music/eu10_inpaint.py",
+      "bytes": 2128,
+      "gitBlobSha1": "1b338ea376a51931b619ec7dbf147200809db4ea",
+      "sha256": "03d979e3f4f62c0ef5f35c20c1b87ae1107fcbaef095e698dcecf1e1db0ace4d"
+    },
+    {
+      "path": "audio/el_music/eu11_inpaint.py",
+      "bytes": 2124,
+      "gitBlobSha1": "a1b22ed27a615649097a678681fa5993a8563cce",
+      "sha256": "960c421f38ed04e67646d45b85dd32338a787bd6b0221aa6d396b1b8c560b8b8"
+    },
+    {
+      "path": "audio/el_music/eu12_inpaint.py",
+      "bytes": 2175,
+      "gitBlobSha1": "88cb85af0f0ede0ecaec562d135e7da28321fd75",
+      "sha256": "787369c0f9cdf01dd50dc134a58a27a773fcaed603591b9661c151dcc3c11302"
+    },
+    {
+      "path": "audio/el_music/eu13_inpaint.py",
+      "bytes": 2358,
+      "gitBlobSha1": "07aef9bf7e50bfb0033e20e5d0134ab57886635d",
+      "sha256": "591fddc7461b980aca27b3008117aaed88c455a7ede3076561bb859793b25f48"
+    },
+    {
+      "path": "audio/el_music/eu14_inpaint.py",
+      "bytes": 3197,
+      "gitBlobSha1": "3c5561042146140ed96a4120403e357f2257a51d",
+      "sha256": "4f179fdd7a4ee47ad677d88300185faf7d05af38eb33890a8b7807560e5d3591"
+    },
+    {
+      "path": "audio/el_music/eu15_inpaint.py",
+      "bytes": 2369,
+      "gitBlobSha1": "7804d6334f56f159317a13786887db1eb3340ef6",
+      "sha256": "3844feed6386a5c261d1c2363eb360306de04d8ce4d6493307fce88d2052ebaf"
+    },
+    {
+      "path": "audio/el_music/eu15_sel.py",
+      "bytes": 2166,
+      "gitBlobSha1": "4cc5a9e98df05f331ea1f159846445c4edf34fd7",
+      "sha256": "69df3f0846ae80bb315f444708965be924195eb6b4ce22374ebd0ccd8556114d"
+    },
+    {
+      "path": "audio/el_music/eu18_inpaint.py",
+      "bytes": 2743,
+      "gitBlobSha1": "47a281ca559a2a70b3c114aba00e00b3dd14e8b0",
+      "sha256": "7b5951f6730a256264a31f5c4917e8900e88a5e2d87ddc64ffbb84edbaa95bbf"
+    },
+    {
+      "path": "audio/el_music/eu20_inpaint.py",
+      "bytes": 3054,
+      "gitBlobSha1": "ea78bda7971129a64c77a6d0178997e4b1a0d789",
+      "sha256": "c5565e3deb7cd8642b015bea42b6771a45d9120a2c2d1980e426ab603e1be0e0"
+    },
+    {
+      "path": "audio/el_music/eu22_inpaint.py",
+      "bytes": 4359,
+      "gitBlobSha1": "0a722e85c1e62133b25245ce2aa416bb65a321b9",
+      "sha256": "e995655a9ed0b024d6b8a8cf368e49781466b64cae671da3df78ef9768197da9"
+    },
+    {
+      "path": "audio/el_music/eu25_inpaint.py",
+      "bytes": 2175,
+      "gitBlobSha1": "817930c1bed9595f63fb1eb8c879881c56285f95",
+      "sha256": "ba77d45728faf62651265b12e53a803a2197859ebc7a95e04192c79a01503018"
+    },
+    {
+      "path": "audio/el_music/eu26_inpaint.py",
+      "bytes": 2114,
+      "gitBlobSha1": "b0596ab8864d953c04d656814eef4c679e65a12c",
+      "sha256": "63f231df1adec18c09b9e6b1fafed3031a6c89ba40652500e65ae85dbd37370c"
+    },
+    {
+      "path": "audio/el_music/eu27_inpaint.py",
+      "bytes": 2561,
+      "gitBlobSha1": "eba1cd50dbcb6e9ee09e72831e414c1f28bb7830",
+      "sha256": "89fab4090fb22b05e59668339d910af8d9637846e5f3ced0c8c32dbebf79bcc4"
+    },
+    {
+      "path": "audio/el_music/eu28_inpaint.py",
+      "bytes": 2167,
+      "gitBlobSha1": "3265e2b9f318d7b0a576e22a081f5cc0d92a6dc2",
+      "sha256": "5d084cab31f6646b02fad9dd577f530de883501e8484ed952daddbc5a1eb5588"
+    },
+    {
+      "path": "audio/el_music/eu29_inpaint.py",
+      "bytes": 2059,
+      "gitBlobSha1": "911acb816f93c6dee734b8240fbee09eb386a3b5",
+      "sha256": "1f04dc93c475f1c3136a00a18bb7b9523153f76426e066d080f36a7085f8ec9a"
+    },
+    {
+      "path": "audio/el_music/eu2_inpaint.py",
+      "bytes": 3129,
+      "gitBlobSha1": "1fda68fe39989e6b2b7c283e3572a69c4042dac2",
+      "sha256": "cc6f765bcf9d9ea9a48f1b5a363a1d0cfc70edab53405416ded7de999af242d0"
+    },
+    {
+      "path": "audio/el_music/eu2_select.py",
+      "bytes": 8166,
+      "gitBlobSha1": "4e8c0478decad44621cefed5ea82205b678be717",
+      "sha256": "e055d1ed42ea4c6887d7204444ea950fd9dc15b92c69d7e3a98d5096304a8848"
+    },
+    {
+      "path": "audio/el_music/eu30_inpaint.py",
+      "bytes": 2472,
+      "gitBlobSha1": "c11e2875bf5ddf0d044b6b1f0a2b51eda2607ba0",
+      "sha256": "0e0d2bd25e0d1ec3407c33a70844793bcb470cf10c2c34890c8f9488d0cc4899"
+    },
+    {
+      "path": "audio/el_music/eu31_inpaint.py",
+      "bytes": 2284,
+      "gitBlobSha1": "95d021876c0f69e0cedc6776d9b8dc22edd0bba8",
+      "sha256": "6ca18713db89ca9ee71b205d7842121afdd4b6c30835876ddcb7ec9801305606"
+    },
+    {
+      "path": "audio/el_music/eu32_inpaint.py",
+      "bytes": 2890,
+      "gitBlobSha1": "627abb9d0f901ffeb195fd0db46d74d42e197f34",
+      "sha256": "19bedf464b0e5535f203e4516fff91bbbe1048486df5d529a468d880e0b52f9f"
+    },
+    {
+      "path": "audio/el_music/eu33_inpaint.py",
+      "bytes": 2241,
+      "gitBlobSha1": "9c63a9be90362c4523419b30e3a7b24c4dee05a0",
+      "sha256": "16c612c5b9c46fc53c767342f1c7da5b45c986fb17f1c7732e7b937541b5d706"
+    },
+    {
+      "path": "audio/el_music/eu34_inpaint.py",
+      "bytes": 2679,
+      "gitBlobSha1": "c4635806422e305344f830bc69d4c3e83ad7f05d",
+      "sha256": "53eb738d5fdb816cf3f738082feced79ab6aedc94509e31f1425dd9d8a873ee9"
+    },
+    {
+      "path": "audio/el_music/eu35_inpaint.py",
+      "bytes": 2311,
+      "gitBlobSha1": "fbd75adec04eefe9cbfe751723b014801942fd25",
+      "sha256": "aabd4c82606e1571ff9a4efea2f253beade6ef8e7ece244bbcac6bb8770cdd11"
+    },
+    {
+      "path": "audio/el_music/eu36_inpaint.py",
+      "bytes": 2556,
+      "gitBlobSha1": "677b949fce82fa0a3bf0c2253541607f63fc143c",
+      "sha256": "d41971360437e8624bdce337dd21e597c9c89e405b6fda2b3bfb1e18d30ce65e"
+    },
+    {
+      "path": "audio/el_music/eu37_inpaint.py",
+      "bytes": 2449,
+      "gitBlobSha1": "68a1e37c22b45cb3654e8c0d588a97bfecb4fa3c",
+      "sha256": "31a1d0666abb57325fec01e36adf1b90f6ccab201291f76842fff089b33bc05c"
+    },
+    {
+      "path": "audio/el_music/eu38_inpaint.py",
+      "bytes": 2327,
+      "gitBlobSha1": "f378579c4d8289b01cd7ae7f06dec4b7032b44a4",
+      "sha256": "5b3f33a1eefa13deec325f0eeb5293bba0144d212a34125a729a825b6c95e4c5"
+    },
+    {
+      "path": "audio/el_music/eu39_inpaint.py",
+      "bytes": 2713,
+      "gitBlobSha1": "aea9670555f71cc72bc4ef15473be0c90260248f",
+      "sha256": "7cc5a14af856309b3d69df24761a60e94b3b6fad785bd403e8f098821407122e"
+    },
+    {
+      "path": "audio/el_music/eu3_build.py",
+      "bytes": 6470,
+      "gitBlobSha1": "d324a522147213e1e3d1063b9ec2a2ee8043d181",
+      "sha256": "1412c464e0f4e467055217033098b9c206cfbdac981d3402a24a71c12831cf51"
+    },
+    {
+      "path": "audio/el_music/eu3_inpaint.py",
+      "bytes": 3115,
+      "gitBlobSha1": "3b2940b84ae8ef9abc81e3e87b85bb340f6219bb",
+      "sha256": "18386e3ad28ab5edf429066f13121eb31fef6d9497224741653f27d48d913381"
+    },
+    {
+      "path": "audio/el_music/eu4_inpaint.py",
+      "bytes": 1929,
+      "gitBlobSha1": "de2c4c9295926cc586604502561ae7a377df130b",
+      "sha256": "1715d6c8a71e211d25f4dac6d2a9511de191a65c8fd13e84b92f4b9ed432b0fd"
+    },
+    {
+      "path": "audio/el_music/eu5_inpaint.py",
+      "bytes": 2006,
+      "gitBlobSha1": "2f2f54eab0607e9da5acb85bed2fd9852158b9f2",
+      "sha256": "fa3006266bc26f9c66218c90a0dca497f71293363991050ced9b3adebb0d1af2"
+    },
+    {
+      "path": "audio/el_music/eu6_inpaint.py",
+      "bytes": 2896,
+      "gitBlobSha1": "e26893b65e62e601571c70ed6483e12e650c5c64",
+      "sha256": "64ddd87fa056ac56a8ef5406ca8c58c5a4ca5d768db6e9ff3bbeae696495468f"
+    },
+    {
+      "path": "audio/el_music/eu7_inpaint.py",
+      "bytes": 2091,
+      "gitBlobSha1": "628e239752c4dcb589a28ad7c4b029b74cbc000b",
+      "sha256": "f02fc3db0d9bddc1c3ca9e2cdf24d73165967c556e56bd087d67af04cd6d41aa"
+    },
+    {
+      "path": "audio/el_music/eu8_inpaint.py",
+      "bytes": 1925,
+      "gitBlobSha1": "46448a476a119b35764928d8b4c278952d4939b3",
+      "sha256": "3d33cc3ef082ce3989f64acc7a8614ff834e2c2a40e1adeab1e2f69b317dc8a0"
+    },
+    {
+      "path": "audio/el_music/eu9_inpaint.py",
+      "bytes": 2582,
+      "gitBlobSha1": "390835b0d685f1fe55a1816c9d20e5e4a90c7eef",
+      "sha256": "ab29ba47f2770733cccec445f369aef4ce1a61d38e6c9719689803702f4c2269"
+    },
+    {
+      "path": "audio/el_music/eu_final.py",
+      "bytes": 6837,
+      "gitBlobSha1": "ebe5dc9b53cf2f7cd293ee86f18ac17a9b74d350",
+      "sha256": "79696d858b421247f20ee1309d2c847e352d230f917006740778fd2695d9af33"
+    },
+    {
+      "path": "audio/el_music/eu_glide.py",
+      "bytes": 13152,
+      "gitBlobSha1": "ba03b1f55d182026fa42388a2f028c940d296cab",
+      "sha256": "bb2738ae39ab44f115e8c5bff4839aed3755c484cba52f95f64f162ae6d9e0c8"
+    },
+    {
+      "path": "audio/el_music/eu_inpaint.py",
+      "bytes": 2626,
+      "gitBlobSha1": "aa06d6506c4c1fa92423060c774a9d0ed758875c",
+      "sha256": "2f0535ad89c6753459c22d49c28005ed1485d1e26a58ffd84481460dbb468ec8"
+    },
+    {
+      "path": "audio/el_music/eu_words.py",
+      "bytes": 9080,
+      "gitBlobSha1": "de01d29b197bc47f8c59bc803fb63a18acc4149f",
+      "sha256": "5449b9e4a2391f943fc39d94d8958f59164840ce48dcb4dcef8801249fe4c5c5"
+    },
+    {
+      "path": "audio/el_music/final10.py",
+      "bytes": 4667,
+      "gitBlobSha1": "4b90a79de4542e432432a726869405f534f08ebb",
+      "sha256": "a0e8b60db1afe774c9718e16045d18613a34e16fbe5a320fd5fce6bdea0982be"
+    },
+    {
+      "path": "audio/el_music/final11.py",
+      "bytes": 6284,
+      "gitBlobSha1": "b8ec36dc467b515c1934a4d9a0e5baf7b40a3505",
+      "sha256": "aa932b769af3cfecd5364c9c0328d81ca98bbfa0d18da620f55358da584e895c"
+    },
+    {
+      "path": "audio/el_music/final12.py",
+      "bytes": 6201,
+      "gitBlobSha1": "2dcc3f3f6b66908ab20e20b05131ce6f2102cc8d",
+      "sha256": "cd2bdf5b88ee4205cd8269ea20901f8034df06815f6439ba2a55427b4b4dfa80"
+    },
+    {
+      "path": "audio/el_music/final13.py",
+      "bytes": 6941,
+      "gitBlobSha1": "6f9219df6ed6125bd9deb94d589be6003e5cc333",
+      "sha256": "055ac80a8e497b622069273e5daf40133269a280af6718286b5621aa793e2e4e"
+    },
+    {
+      "path": "audio/el_music/final14.py",
+      "bytes": 2585,
+      "gitBlobSha1": "fc87f8ed21f559f7162ec67a226a7e72abc770e5",
+      "sha256": "be7fa4738cb0586b64d1558c2fa8d166d718f19edfdd5f37c76bb25acd40b545"
+    },
+    {
+      "path": "audio/el_music/final15.py",
+      "bytes": 3318,
+      "gitBlobSha1": "aeb45bbb4343f83080c5024400291c84d6d0c94d",
+      "sha256": "4b4c282027f3834cc2ee31a021d97c50afffc79fa0467e48fcf1a3c87a183f8d"
+    },
+    {
+      "path": "audio/el_music/final16.py",
+      "bytes": 1750,
+      "gitBlobSha1": "f0c7b4f91f94a8c304af2503f0b68011f3676faa",
+      "sha256": "a3099f5ac2009218f99a0488de70dc1a55afd162f63a8b65c2282b4d1cf64834"
+    },
+    {
+      "path": "audio/el_music/final17.py",
+      "bytes": 2919,
+      "gitBlobSha1": "ee65e0db8ce25259945b2aa466aa118ecde4b247",
+      "sha256": "b52eb1a4dcd245b32b4c37de5ba17ec059495a8c44811b77f88997db16dec9e5"
+    },
+    {
+      "path": "audio/el_music/final18.py",
+      "bytes": 2398,
+      "gitBlobSha1": "a48701421fbfc17fc2077eafaec1e47e2c1374b0",
+      "sha256": "b815dde5b128cfed647c66e041ca1089d354a8462b7bf5a2c57063f0698d2105"
+    },
+    {
+      "path": "audio/el_music/final19.py",
+      "bytes": 2370,
+      "gitBlobSha1": "083ab539da54a36b95fd4afec9fa29e772432fd2",
+      "sha256": "ea9b423b4c39e804e16e0d93ae23ad35b47d4023dcd13e4a60d67ee62431de9c"
+    },
+    {
+      "path": "audio/el_music/final_select.py",
+      "bytes": 3946,
+      "gitBlobSha1": "93a5b41802a3becf7d010d5a2b3b1cfc50d509da",
+      "sha256": "2aa93fd9c17497a1b46491286d6e85eb878072a6f89d569110efbf9bbe4b0ea9"
+    },
+    {
+      "path": "audio/el_music/glide.py",
+      "bytes": 4990,
+      "gitBlobSha1": "751a2d67258ee0b0245bf7fff5ce897e0673838b",
+      "sha256": "020f09d43909afd454cd6587e1810cb5d43709f142028ef273b4a502979a2b6f"
+    },
+    {
+      "path": "audio/el_music/inpaint.py",
+      "bytes": 1716,
+      "gitBlobSha1": "57f8720d1dad8430b3f1906f119443d720aa6320",
+      "sha256": "21c15203bee5847f8e05498697df7e72e7552fc198475d6e13cf1b6b8934a32f"
+    },
+    {
+      "path": "audio/el_music/l10_fix.py",
+      "bytes": 1785,
+      "gitBlobSha1": "beb1e218ecd439fd6a1401288ea7db09dd04680d",
+      "sha256": "5a5b69272fd1f183b301ef163ad0f3b20e015ba4fc4cc5c216c14f97de66dec3"
+    },
+    {
+      "path": "audio/el_music/l10_scan.py",
+      "bytes": 2430,
+      "gitBlobSha1": "fa4091a458f9b1b2f0488b8349c6feec5e801ee8",
+      "sha256": "5ee3a057107344e4d40af703cddbe2b2c49d275e051fc8e6d0851183595dd675"
+    },
+    {
+      "path": "audio/el_music/l1112_new.py",
+      "bytes": 1869,
+      "gitBlobSha1": "27fb434506d04bfcf008aae761aef54020cafc29",
+      "sha256": "5592c55f973f6367e2c5690db638ee5deb9b5c82ba3c68e27db5b328fd295dac"
+    },
+    {
+      "path": "audio/el_music/l16_tune.py",
+      "bytes": 30458,
+      "gitBlobSha1": "79e15ba29cd462f33c87eb48c625f4b94297d278",
+      "sha256": "1bc0f82cfb8170ab2ad8ce4b213418633c197eae666d5868a08a440757de9c73"
+    },
+    {
+      "path": "audio/el_music/l18_fix.py",
+      "bytes": 14597,
+      "gitBlobSha1": "77caa1945c30593c580c1a4cf2147914411e7326",
+      "sha256": "04b5400acad72a7a0b623b7134cc627b8ab374419bf864a5b7d4d1075b334c24"
+    },
+    {
+      "path": "audio/el_music/l19_m.py",
+      "bytes": 5735,
+      "gitBlobSha1": "fe7aed87b46849ef53fed12426dd5ff9b8e9759b",
+      "sha256": "41d693b02857699037cc6f12293591cfc393431bb809bc84371ecaa1829e2d30"
+    },
+    {
+      "path": "audio/el_music/l20_audition.py",
+      "bytes": 1949,
+      "gitBlobSha1": "ab50625949564557abf0523a27503a7f37cc0131",
+      "sha256": "a621d0a574914c5da60dc5b415ad8b5bf67301ba34bf11a432ae72bceb63bae8"
+    },
+    {
+      "path": "audio/el_music/l20_kia.py",
+      "bytes": 2115,
+      "gitBlobSha1": "2b982ff9754fd40fa33cc552456a406e8e0107ab",
+      "sha256": "7decdddc9df487783d93df7edabede6633f439768debb8a56bba06096c69e191"
+    },
+    {
+      "path": "audio/el_music/l24_s.py",
+      "bytes": 1951,
+      "gitBlobSha1": "e8e6f25ab9ead532ae3eb7bf88de920fb4816ff0",
+      "sha256": "20101064fa394b282eb7e1b7e880281d3e7d5e20ed02b7465ecfeb44a6172e02"
+    },
+    {
+      "path": "audio/el_music/l25_fit.py",
+      "bytes": 1137,
+      "gitBlobSha1": "d10df2f6904e1cb936e22cda4f69d51a51c7eb21",
+      "sha256": "318d3ca3319368f98dbd6ece797479ae4ef83cb31fcbf4bdec298d385d424a30"
+    },
+    {
+      "path": "audio/el_music/l25_fix.py",
+      "bytes": 1490,
+      "gitBlobSha1": "8066627841b0edea38099be7ddd41bd80e8b44f0",
+      "sha256": "225012b9014b6d3b65b12469711ae315899c033ee2ed37ded27e9cf0ec36bd5e"
+    },
+    {
+      "path": "audio/el_music/l25_new.py",
+      "bytes": 1412,
+      "gitBlobSha1": "61975908a1ba5f1d032fed5726d575eb8d3f4126",
+      "sha256": "08363a2f891ad26982278ca7345a3bd8e8b4422a20af36b40703b7f926633585"
+    },
+    {
+      "path": "audio/el_music/l25_scan.py",
+      "bytes": 2869,
+      "gitBlobSha1": "a68764d834cb6faf2083d6cf5e4403139db0d0d7",
+      "sha256": "a0e63fb30a78e2343923f4eadd7fe587b7033073de8ee7e236a81e1b810e2d72"
+    },
+    {
+      "path": "audio/el_music/l25_scan2.py",
+      "bytes": 1851,
+      "gitBlobSha1": "28efc3b5c654ecbc0b51e73fc820bd2c23d59d3d",
+      "sha256": "b58bf0de3fac17bd3f18f8bd99b584a2de871e79b02194fe38d80c68dcedc1f6"
+    },
+    {
+      "path": "audio/el_music/l28_clips.py",
+      "bytes": 3495,
+      "gitBlobSha1": "b30de9cb960a590b7e6dfa6ae38f65a267d98fa5",
+      "sha256": "1c93b804db8fcb6a0ec5a379ca8fdfe218ea1cc07e6555313b407e3b6fb4a927"
+    },
+    {
+      "path": "audio/el_music/l28_scan.py",
+      "bytes": 2017,
+      "gitBlobSha1": "6faab42a64125afa34fb878ac16f59ef36f45bf3",
+      "sha256": "3537df18edfabb5eed3b80d0d16c652cd23cbaf62939a265ef8ba03c957ede48"
+    },
+    {
+      "path": "audio/el_music/l40_eval.py",
+      "bytes": 1453,
+      "gitBlobSha1": "1477e8cd19a12a9fb3eb95a33a0a86af89a24991",
+      "sha256": "9a6fb4df2647d79bc9c735e5b70e06ed9aacf5542c33bdcdc533e4e318789caa"
+    },
+    {
+      "path": "audio/el_music/l910.py",
+      "bytes": 1826,
+      "gitBlobSha1": "5fa1dae43929b8707645946bad74c8f8727350cb",
+      "sha256": "4e5dc345d4804c64051e80d33806d4718b55887624da793102fc93e1fc98a856"
+    },
+    {
+      "path": "audio/el_music/l910_hold.py",
+      "bytes": 8453,
+      "gitBlobSha1": "8035d60c4a7c859112b5a307b618da0cdbb3aa8b",
+      "sha256": "45b4b8ce389380be26d020a27e6f782f0f572eb72ef83a39c03e66b77d07d2e7"
+    },
+    {
+      "path": "audio/el_music/l910_m.py",
+      "bytes": 3936,
+      "gitBlobSha1": "84b570e14e088bfc59ff972bc9a4db8b96e9ddd1",
+      "sha256": "cf32c2c22750bdc803ad77f0cf80f0ba55ef482a7352b9da6d4ac8a9b584b869"
+    },
+    {
+      "path": "audio/el_music/l910_r30.py",
+      "bytes": 14318,
+      "gitBlobSha1": "985960c3833cc246e79a82e7f8782945d3ca6415",
+      "sha256": "afa32161c2fed466fdae0be0eb901726bd4458b5924232eb160fcc268df3ae7c"
+    },
+    {
+      "path": "audio/el_music/l910_v.py",
+      "bytes": 3473,
+      "gitBlobSha1": "48494285eef049060c43182768fcd52f447cf4a3",
+      "sha256": "258e55611a0e99817bf6449b18370d5a094f8e1a8984705f28d684d84cab9faa"
+    },
+    {
+      "path": "audio/el_music/l910_w.py",
+      "bytes": 3285,
+      "gitBlobSha1": "301a4aafe237d3f32459160b8a7184cbd81d89d8",
+      "sha256": "4883e8fe7a7482983fd7e77510640907006c93aafdb0e7c034e30d5ecea6e0a1"
+    },
+    {
+      "path": "audio/el_music/l910_weight.py",
+      "bytes": 3706,
+      "gitBlobSha1": "8f153e8742ac7d308e53c4aef7c1efcc3d81d458",
+      "sha256": "1ce68055fba81c6fae19c34d7b7f705ffdc9968b8998595334927f9969b3332a"
+    },
+    {
+      "path": "audio/el_music/l910_x.py",
+      "bytes": 2267,
+      "gitBlobSha1": "fc5024576cbfbb85beaf16a994bff8a7266c6d1f",
+      "sha256": "76b5c3951daad63233a921a87463facc79b53de2701cbbf6463f1407c5190ced"
+    },
+    {
+      "path": "audio/el_music/line_fit.py",
+      "bytes": 1332,
+      "gitBlobSha1": "c657c5e862a4e51a96fa7d248109ac7c78a719aa",
+      "sha256": "596efe497b2261a44e831a2b8015f74f68e3f15dd9b8436a49b94e7d9ebb15fb"
+    },
+    {
+      "path": "audio/el_music/line_round.py",
+      "bytes": 45219,
+      "gitBlobSha1": "5ee195c34690487da683623eb156817cacee17ec",
+      "sha256": "b099e06372bc51adc3a3c8cdf2fb75a30d0a3ba3988ac44a1c58581959e58741"
+    },
+    {
+      "path": "audio/el_music/lyricfit.py",
+      "bytes": 1451,
+      "gitBlobSha1": "348640fc03d3cad56d875552d41e20b961a344f1",
+      "sha256": "22ccc9b0b429f6bc01463611326d567eb5f7d9cbeb1fe989f8ee614c824732f2"
+    },
+    {
+      "path": "audio/el_music/memok.sh",
+      "bytes": 515,
+      "gitBlobSha1": "fee11223b2be1bc3dba3e274c0e1daa336fba669",
+      "sha256": "4a82506cd2261cfe4b8f89007643064e145f7fae47d5eafe962afffc58519497"
+    },
+    {
+      "path": "audio/el_music/offsets.py",
+      "bytes": 5504,
+      "gitBlobSha1": "2876d1291d0e026b37cb959e29f553dc212100b1",
+      "sha256": "fa5bea6ea559d766cfc5ea661bb68f57aea9b6e31b5e5770a412959ff33b93e6"
+    },
+    {
+      "path": "audio/el_music/pick_gate.py",
+      "bytes": 13651,
+      "gitBlobSha1": "2cfc89a756c5b183e51ce03dcd8a4a7cf7927446",
+      "sha256": "243efd382f01a47b0f69f3e8dcd4ed25b29ea0f06ba165c4445e353ca585d8fc"
+    },
+    {
+      "path": "audio/el_music/r22_clips.py",
+      "bytes": 1611,
+      "gitBlobSha1": "57ee4928a077696a7e100c0354ab53f0c5f57939",
+      "sha256": "18f4fef43172276d6f57f297fc4d70b4c5a55a509a73662bb51ea9a172ba7aa8"
+    },
+    {
+      "path": "audio/el_music/r24_clips.py",
+      "bytes": 890,
+      "gitBlobSha1": "d53b9595b8fb876fcb45a1593889f2feee149d57",
+      "sha256": "a3cc93a5ede8bd87f0d8d33c87e94db7f93cae2d276643c4c264c64efe5e0361"
+    },
+    {
+      "path": "audio/el_music/review.py",
+      "bytes": 5899,
+      "gitBlobSha1": "ef9cb7f904cdd89531f2f9b3545df9582cf2c7d0",
+      "sha256": "961b24823ce229a5d1f71a2349fae5a1fdce13fd0bc4b97c13675b4bdc327fe3"
+    },
+    {
+      "path": "audio/el_music/rof.py",
+      "bytes": 2507,
+      "gitBlobSha1": "860346b22f88908edfeb19903228aa95f42bf888",
+      "sha256": "6f1459d20487df03657b5f934d52aa9740966a0d2158b6a490798adcb91a58ba"
+    },
+    {
+      "path": "audio/el_music/rof_clips.py",
+      "bytes": 4962,
+      "gitBlobSha1": "15bf1774b9d728acce30af56e87bf92198d5434d",
+      "sha256": "8e34dd52aa1add731cc352c72bbe483a61e2685e4c0c1df04eaf1d4b25535aa9"
+    },
+    {
+      "path": "audio/el_music/sel14.py",
+      "bytes": 5643,
+      "gitBlobSha1": "af50dc2b7cddd89f84b67c2afb2efa2ae81fadb4",
+      "sha256": "0ebc9da6f7be6e1b227cd7c866b4931a15553a2c5ce09e5ddbfdeab9925ce8da"
+    },
+    {
+      "path": "audio/el_music/sel20.py",
+      "bytes": 2611,
+      "gitBlobSha1": "be603ffe738d820d92134b5f2a20ff64adc99717",
+      "sha256": "9ec8e68f0a0f854b206b0121b935438669212ea79e950c0b74512976efd2ef25"
+    },
+    {
+      "path": "audio/el_music/select10.py",
+      "bytes": 4593,
+      "gitBlobSha1": "d08c129340a93bc68b1a8806320932e2e0ce7534",
+      "sha256": "ba79d192861f25a33a30da18d6c34e3f07dbb890010d9552816c15c7dbdd2444"
+    },
+    {
+      "path": "audio/el_music/splice.py",
+      "bytes": 2623,
+      "gitBlobSha1": "06df98f934530cdd58f3a762bd7d4ad785f62466",
+      "sha256": "9e9de06d33abacfd15aa6ff87dd361de07003c49c44cbef02822462a00a6496d"
+    },
+    {
+      "path": "audio/el_music/sylfit.py",
+      "bytes": 5259,
+      "gitBlobSha1": "91181ba32ed86fe694cc8c58f7efcbad735ace74",
+      "sha256": "476b1abd94030bafb590d4248172513f1a0bd7d92c487c6865dea1035c04dc4d"
+    },
+    {
+      "path": "audio/el_music/tune_select.py",
+      "bytes": 1882,
+      "gitBlobSha1": "95cbfe0deaca5803ebe9bd0d2c73a1d0bf9e862f",
+      "sha256": "e19fed4840193e6ef9c96e47d6186ddad7effdc7206427aa53f281d2c9b7a16f"
+    },
+    {
+      "path": "audio/el_music/v10_sources.json",
+      "bytes": 3015,
+      "gitBlobSha1": "91242e482a279f282d043a58b0146e8af5c1e2d7",
+      "sha256": "6c46ac0497901d964c22fb358339b701a459eb4e3459547f56fa09e3d12274a7"
+    },
+    {
+      "path": "audio/el_music/v11_sources.json",
+      "bytes": 2865,
+      "gitBlobSha1": "63758b36cdf9735c0ac996f4fe1aa96a28852c2c",
+      "sha256": "b07d7315fd224673cfffec7ef82972983ce782d08d0b73308f91d6955c94d079"
+    },
+    {
+      "path": "audio/el_music/v12_sources.json",
+      "bytes": 3028,
+      "gitBlobSha1": "dcd6a1e470db82859c6e693f17d365af45bcbea1",
+      "sha256": "d1e1863698880c4cfd912fad1b15d95f4692414890de69c5056266f287b3c5e0"
+    },
+    {
+      "path": "audio/el_music/v13_sources.json",
+      "bytes": 3229,
+      "gitBlobSha1": "87c8f12b17f1ac29521ef01ef718b9f390023ad8",
+      "sha256": "e92f188beb78d2f526dd1c8369fbbf38715402c8fff554a068da43a8eaf7a1a3"
+    },
+    {
+      "path": "audio/el_music/v14_sources.json",
+      "bytes": 3305,
+      "gitBlobSha1": "300ed2e8475e11e5751727c9eb668ecf7d60fb8f",
+      "sha256": "7736f5d86dcf3caa9c63a20c3f18d87020a480199adb6479ac7b865d281db8d8"
+    },
+    {
+      "path": "audio/el_music/v6_sources.json",
+      "bytes": 2507,
+      "gitBlobSha1": "6e6cafcc338b147be745f454242c216b22f44349",
+      "sha256": "d391ace6aaaed3a372add81924a721db05705582c086d9b262e68f740264381a"
+    },
+    {
+      "path": "audio/el_music/v7_sources.json",
+      "bytes": 2449,
+      "gitBlobSha1": "a3fdb7c86483ac48da8c3899f488bf4615468455",
+      "sha256": "f77d278486b048b7b58346fcf5fd76e0b3573148d94e5c37c004134e51c3e536"
+    },
+    {
+      "path": "audio/el_music/v7_variants.py",
+      "bytes": 2685,
+      "gitBlobSha1": "9d8c3c45fd460de6657ab6c9e9a921788bb1d068",
+      "sha256": "89561471de6cc2946d25958ac1d5899069e7aa70b83e40467f8e33292bb0edb1"
+    },
+    {
+      "path": "audio/el_music/v8_draft_sources.json",
+      "bytes": 2524,
+      "gitBlobSha1": "f773ae5d6247604e6511778f2ac88c15a2b0bb6a",
+      "sha256": "47ba5d020854b8bd772c44f17ff02ce889a4e8448e8e99e0eef487264f67f7a2"
+    },
+    {
+      "path": "audio/el_music/v8_options.json",
+      "bytes": 14020,
+      "gitBlobSha1": "17bbb3f1d2a0a75ef9ebcb86b742f2f40aac5d7d",
+      "sha256": "e2d84ae9eea4ee4b26f19b91491a0bd63f4b2a097057886e7d80cbfa54edd2c5"
+    },
+    {
+      "path": "audio/el_music/v8_refine.py",
+      "bytes": 6809,
+      "gitBlobSha1": "c60d613776d02caa3890589b166bd8884890806b",
+      "sha256": "701aabf24bf0f3285f6e70e7c9965d5ac9849b7369040c110ed32edb370df0f5"
+    },
+    {
+      "path": "audio/el_music/v8_sources.json",
+      "bytes": 2836,
+      "gitBlobSha1": "eb70c562a4e6c08aa71248e28a11a509d640dab0",
+      "sha256": "9fe46a0cf02152a5998a1a81bfb099ac8b2b2f5ba21211bdd0d96174802093a1"
+    },
+    {
+      "path": "audio/el_music/v9_sources.json",
+      "bytes": 2867,
+      "gitBlobSha1": "1f1e43c108ba060155d509ec02fce0cf5f210aa1",
+      "sha256": "7e067a5a46b20f9d953b134c3732c20a2d857eff1dc9f48a34e9c3ae45e5f921"
+    },
+    {
+      "path": "audio/el_music/vassemble.py",
+      "bytes": 5241,
+      "gitBlobSha1": "45957cf013ec21397037ad5fb13c84e049564600",
+      "sha256": "854080ce4d8b2c55afba65a8c1356ba5aab6f6abe74a132c3da753dfffa2dd49"
+    },
+    {
+      "path": "audio/el_music/vsplice.py",
+      "bytes": 14358,
+      "gitBlobSha1": "7ce6162b1c6b9f50522460922192b6c7f0e0e370",
+      "sha256": "c1fa9f8443c36663d7f0c67b4f8aced875918cc3897fefb6cc0a915bf08495be"
+    },
+    {
+      "path": "audio/el_music/zoom.py",
+      "bytes": 1861,
+      "gitBlobSha1": "84c1f838d549c735586fe8ad64e9028a971f656b",
+      "sha256": "e52c143c187ddc7e21c39f951dd418cd4d3b2ad1950cfc11e24ec4cc74baaaa3"
+    },
+    {
+      "path": "audio/pdoom_eu.mp3",
+      "bytes": 6268386,
+      "gitBlobSha1": "7ab21047b195f24c1c1b4179d5b05d3217bc2d48",
+      "sha256": "33a3cc89377a192872c6d231d122c11db0a292e66bdc72c51f3b102276ad3a68"
+    },
+    {
+      "path": "data/audio.json",
+      "bytes": 755529,
+      "gitBlobSha1": "32ce16f147eb63685fe823aa1e3c171bbd0054b1",
+      "sha256": "c9581fbe0a18edb711834e4698ba1e2f83af028add7067b9e50aa24faf01600b"
+    },
+    {
+      "path": "data/eu_words.json",
+      "bytes": 1207,
+      "gitBlobSha1": "4332c3f2a1d0d2b90c2e341f49a66a014a4b0a16",
+      "sha256": "ea023ce63de6c34c30cb9a8eafced512ce36ed455f9aab64b032abe1ae077202"
+    },
+    {
+      "path": "data/lyrics.json",
+      "bytes": 31701,
+      "gitBlobSha1": "5322376c85c606fbb4b4172741436179c1fb1070",
+      "sha256": "dfb54ce3b53871d2a030ad3f0991136a866f96a7e87de2181c90b5b04bed7daa"
+    },
+    {
+      "path": "data/timing_eu.json",
+      "bytes": 229858,
+      "gitBlobSha1": "61ef621d49d9831e77e592b5e1900599edcc5b50",
+      "sha256": "1950f2beba1ed3d966846f5602c7accd5127fbb2626d5485f90a0425219666b6"
+    },
+    {
+      "path": "data/visemes.json",
+      "bytes": 10627,
+      "gitBlobSha1": "2dc13cabce6c48c319cb507d016c3f320a3f1ad2",
+      "sha256": "c94ea1cccddde7b11997dfdcec2e9e548d66f70df1128d9b0881552e084447fe"
+    },
+    {
+      "path": "data/visemes_eu.json",
+      "bytes": 10772,
+      "gitBlobSha1": "83afeae859a1b8b808aeb8e63562eb2533293a42",
+      "sha256": "2513bb6207baa0a91bf697ce73a2ad92ca37f8bea0a000616e5e32cba094a498"
+    },
+    {
+      "path": "docs/ENGINE.md",
+      "bytes": 15361,
+      "gitBlobSha1": "dd593f49ed57db85ab4fb2be9eb8f1a7c87478a0",
+      "sha256": "a076a92ff4705490f05e03c349a91120420222311ff1c0c317463db4c08a3867"
+    },
+    {
+      "path": "docs/PROCESS.md",
+      "bytes": 9257,
+      "gitBlobSha1": "aa58ac28606b3fb5cc4ecd8aa51fa667072ba9cb",
+      "sha256": "d3bf9e511cddcfa41eff6176e926c73bb6b1f62e91c21c813411bf67745c60a2"
+    },
+    {
+      "path": "docs/REFERENCES.md",
+      "bytes": 8136,
+      "gitBlobSha1": "81dfc6ab364a77476280138c8a73d2ba0f4f286d",
+      "sha256": "52d5b422da302f5f40909952c7976f6b5b9dc16977e5885b3b7afaa3f6b731bf"
+    },
+    {
+      "path": "docs/preview.png",
+      "bytes": 1309041,
+      "gitBlobSha1": "c1bb7e9c438bc34ffdf1ba10b1f7fb607ca9c7e5",
+      "sha256": "48fece79c066d0fcf1854f72f2484787d73440b282b34e7daa323e4a85022fda"
+    },
+    {
+      "path": "lyrics/lyrics.src.js",
+      "bytes": 2160,
+      "gitBlobSha1": "ec42a338ec3de96a4c9ccaffba5b9beb7d7942e5",
+      "sha256": "fbdb0d950277a6ea6c72d30843c17ce48b752757576700a1ca14188b7f3b1b77"
+    },
+    {
+      "path": "research/acceleration.md",
+      "bytes": 83587,
+      "gitBlobSha1": "38625b686375c1d07e62aab333eebf7187b41ba5",
+      "sha256": "8713a7b61bf0746cd2fe553f8c00ffe6397c622d9699f255973ed78fadaae74c"
+    },
+    {
+      "path": "research/archive.md",
+      "bytes": 107806,
+      "gitBlobSha1": "b187a0ac859af416e8badfd68d2b85e9efd9658e",
+      "sha256": "5d164c22531ea94c66309fa5957583001435a7568495925aa496fe8ee5fc75a1"
+    },
+    {
+      "path": "research/eu_refs_economy.md",
+      "bytes": 39619,
+      "gitBlobSha1": "08b610a6b7610eeecc4b5d9895abff2b9cdabb59",
+      "sha256": "764779f255f307e5c0e2bbf89a872ff0493f8ca3f151a5005c4a136c3e064144"
+    },
+    {
+      "path": "research/eu_refs_rules.md",
+      "bytes": 40470,
+      "gitBlobSha1": "96b4aa54d510cfbf32740fb76aba5fcd5778a18a",
+      "sha256": "6efa4addbfd3d6f497fcb93b1435b1cdf768809dae116cf940cea9f6f91fcca2"
+    },
+    {
+      "path": "research/eu_refs_society.md",
+      "bytes": 30850,
+      "gitBlobSha1": "5386506da6f76cd6b76a17fbcd37470724f74e70",
+      "sha256": "65b840b13afa05d39b11140a38bff2f65e39893e823ecc7ec91e3f9d38c8e8bd"
+    },
+    {
+      "path": "research/genstack.md",
+      "bytes": 75329,
+      "gitBlobSha1": "04de06545190d56fd26ddb0bd3b9e971e874f2c4",
+      "sha256": "35c991d163cc6b88377c71078e808ba1e9f9093058a0e715846452b380dcf358"
+    },
+    {
+      "path": "research/mv_craft.md",
+      "bytes": 44855,
+      "gitBlobSha1": "e234b469faba4c9dac9576baa19a19ec3505b4f4",
+      "sha256": "744c60c0efeeafb44f3f8633dcbd9cce479d126dffbccdceed48f4eb5f355c45"
+    },
+    {
+      "path": "research/nokia_l20.md",
+      "bytes": 3186,
+      "gitBlobSha1": "b20ef58594e3de5e6f4a689cd3e937d1b2ced4c9",
+      "sha256": "e4c55e2e8632291596ed96210b778da395dd23b8dfc679d532b66fe4dfa9eb86"
+    },
+    {
+      "path": "research/typo_refs_history.md",
+      "bytes": 31515,
+      "gitBlobSha1": "5eacea4531b7ba46c7897b7e4017885459bb981c",
+      "sha256": "a3ef8898a1a460256ea50c1860e66c5ab02aa003cae44d2a402a182107cf75f9"
+    },
+    {
+      "path": "research/typo_refs_modern.md",
+      "bytes": 58563,
+      "gitBlobSha1": "e108fac6a91b54f9035bf9b54441f57ab4ef373c",
+      "sha256": "355b2ac2dc4380652ddf40321e2b27f019583b554018314342effb63979f93f5"
+    },
+    {
+      "path": "research/zeitgeist.md",
+      "bytes": 73088,
+      "gitBlobSha1": "adf3b64d5e903abc8ccb49d3b00b363154c31c75",
+      "sha256": "3b9f629d910edd3418698b6df6337e79cee3d7ce95f05f4d5668153f12cbe8cf"
+    },
+    {
+      "path": "tools/make_inklut.py",
+      "bytes": 3189,
+      "gitBlobSha1": "a5f6998d764fe9e090925bf913ba1f6c16903b07",
+      "sha256": "d227c4d75be96ee4b51c2fca764b4fe66e3f387a3c976e9d0d3d4702b9380cad"
+    },
+    {
+      "path": "tools/snap_render.sh",
+      "bytes": 1143,
+      "gitBlobSha1": "9ab05e1bfffa235c2bed16a399ff3ec9f4fe3f3d",
+      "sha256": "1b63c814819a04354991e93d18fadbe5257b2d6ede571f27ecb30a8f9be16e87"
+    },
+    {
+      "path": "tools/sync_check.py",
+      "bytes": 2212,
+      "gitBlobSha1": "4e431ad21293817ef76cd0197040894628c6588c",
+      "sha256": "2b89d663a8b9826e138111c8e4577e9bae2e87e64fcbf3ee84b1c9bb0f2194c4"
+    }
+  ],
+  "missing": [],
+  "verification": {
+    "snapshotExtracted": true,
+    "gitBlobVerified": true,
+    "sourceExecuted": false,
+    "avReviewed": false
+  }
+}

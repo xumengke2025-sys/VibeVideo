@@ -1,0 +1,352 @@
+{
+  "poseFps": 12,
+  "outputFps": 24,
+  "holdUnit": "one pose tick = 2 output frames",
+  "actions": {
+    "rest": [
+      {
+        "pose": "heron_neck.0",
+        "holdTicks": 12,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.1",
+        "holdTicks": 8,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.0",
+        "holdTicks": 4,
+        "support": "both"
+      }
+    ],
+    "look": [
+      {
+        "pose": "heron_neck.1",
+        "holdTicks": 8,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.2",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.1",
+        "holdTicks": 12,
+        "support": "both"
+      }
+    ],
+    "walk": [
+      {
+        "pose": "heron_walk.0",
+        "holdTicks": 2,
+        "support": "front"
+      },
+      {
+        "pose": "heron_walk.1",
+        "holdTicks": 1,
+        "support": "front"
+      },
+      {
+        "pose": "heron_walk.2",
+        "holdTicks": 2,
+        "support": "front"
+      },
+      {
+        "pose": "heron_walk.3",
+        "holdTicks": 2,
+        "support": "back"
+      },
+      {
+        "pose": "heron_walk.4",
+        "holdTicks": 1,
+        "support": "back"
+      },
+      {
+        "pose": "heron_walk.5",
+        "holdTicks": 2,
+        "support": "back"
+      }
+    ],
+    "disguise_enter": [
+      {
+        "pose": "heron_neck.1",
+        "holdTicks": 6,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.0",
+        "holdTicks": 6,
+        "support": "both"
+      },
+      {
+        "pose": "heron_disguise.0",
+        "holdTicks": 12,
+        "support": "both"
+      }
+    ],
+    "disguise_walk": [
+      {
+        "pose": "heron_disguise.0",
+        "holdTicks": 3,
+        "support": "both"
+      },
+      {
+        "pose": "heron_disguise.1",
+        "holdTicks": 2,
+        "support": "left"
+      },
+      {
+        "pose": "heron_disguise.2",
+        "holdTicks": 3,
+        "support": "both"
+      },
+      {
+        "pose": "heron_disguise.3",
+        "holdTicks": 2,
+        "support": "right"
+      },
+      {
+        "pose": "heron_disguise.0",
+        "holdTicks": 2,
+        "support": "both"
+      }
+    ],
+    "disguise_hold": [
+      {
+        "pose": "heron_disguise.0",
+        "holdTicks": 12,
+        "support": "both"
+      }
+    ],
+    "grab": [
+      {
+        "pose": "heron_neck.1",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.2",
+        "holdTicks": 3,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.3",
+        "holdTicks": 3,
+        "support": "both"
+      },
+      {
+        "pose": "heron_contact.0",
+        "holdTicks": 3,
+        "support": "both"
+      },
+      {
+        "pose": "heron_contact.1",
+        "holdTicks": 3,
+        "support": "both"
+      },
+      {
+        "pose": "heron_contact.2",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.3",
+        "holdTicks": 3,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.2",
+        "holdTicks": 3,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.1",
+        "holdTicks": 10,
+        "support": "both"
+      }
+    ],
+    "caught": [
+      {
+        "pose": "heron_neck.1",
+        "holdTicks": 12,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.2",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.1",
+        "holdTicks": 8,
+        "support": "both"
+      }
+    ],
+    "feed": [
+      {
+        "pose": "heron_neck.1",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.2",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "heron_contact.3",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "heron_contact.1",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "heron_contact.2",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "heron_contact.1",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.2",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.1",
+        "holdTicks": 8,
+        "support": "both"
+      }
+    ],
+    "settle": [
+      {
+        "pose": "heron_neck.1",
+        "holdTicks": 12,
+        "support": "both"
+      },
+      {
+        "pose": "heron_neck.0",
+        "holdTicks": 12,
+        "support": "both"
+      }
+    ],
+    "penguin_idle": [
+      {
+        "pose": "penguin_react.0",
+        "holdTicks": 12,
+        "support": "both"
+      }
+    ],
+    "penguin_react": [
+      {
+        "pose": "penguin_react.0",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "penguin_react.1",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "penguin_react.2",
+        "holdTicks": 10,
+        "support": "both"
+      },
+      {
+        "pose": "penguin_react.3",
+        "holdTicks": 6,
+        "support": "both"
+      },
+      {
+        "pose": "penguin_react.2",
+        "holdTicks": 8,
+        "support": "both"
+      },
+      {
+        "pose": "penguin_react.1",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "penguin_react.0",
+        "holdTicks": 12,
+        "support": "both"
+      }
+    ],
+    "chick_beg": [
+      {
+        "pose": "chick.0",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "chick.1",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "chick.2",
+        "holdTicks": 8,
+        "support": "both"
+      },
+      {
+        "pose": "chick.1",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "chick.0",
+        "holdTicks": 4,
+        "support": "both"
+      }
+    ],
+    "chick_feed": [
+      {
+        "pose": "chick.0",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "chick.1",
+        "holdTicks": 4,
+        "support": "both"
+      },
+      {
+        "pose": "chick.2",
+        "holdTicks": 12,
+        "support": "both"
+      },
+      {
+        "pose": "chick.3",
+        "holdTicks": 8,
+        "support": "both"
+      },
+      {
+        "pose": "chick.0",
+        "holdTicks": 8,
+        "support": "both"
+      }
+    ],
+    "chick_settle": [
+      {
+        "pose": "chick.3",
+        "holdTicks": 8,
+        "support": "both"
+      },
+      {
+        "pose": "chick.0",
+        "holdTicks": 16,
+        "support": "both"
+      }
+    ]
+  }
+}

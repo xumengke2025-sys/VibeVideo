@@ -1,0 +1,28 @@
+{
+  "name": "ai-stickman-animation-sample",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "preview": "remotion preview src/index.jsx",
+    "render": "remotion render src/index.jsx StickmanSample out/stickman-sample-5s.mp4",
+    "render:fight": "remotion render src/index.jsx StickmanFight out/stickman-fight-10s.mp4",
+    "render:duel": "remotion render src/index.jsx StickmanDuel out/stickman-duel-10s.mp4",
+    "render:reputation": "remotion render src/index.jsx ReputationRiskPromo out/reputation-risk-promo-30s.mp4",
+    "render:story": "remotion render src/index.jsx ReputationRiskStory out/reputation-risk-story-30s.mp4",
+    "render:2d": "remotion render src/index.jsx ReputationRisk2D out/reputation-risk-2d-20s.mp4",
+    "still": "remotion still src/index.jsx StickmanSample out/stickman-sample-preview.png --frame=92",
+    "still:fight": "remotion still src/index.jsx StickmanFight out/stickman-fight-preview.png --frame=165",
+    "still:duel": "remotion still src/index.jsx StickmanDuel out/stickman-duel-preview.png --frame=142",
+    "still:reputation": "remotion still src/index.jsx ReputationRiskPromo out/qa/reputation-risk-promo-preview.png --frame=540",
+    "render:xiaozhi": "remotion render src/index.jsx ReputationRiskXiaozhi60s out/reputation-risk-xiaozhi-60s.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.337",
+    "@remotion/zod-types": "^4.0.506",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "remotion": "^4.0.337",
+    "three": "^0.186.1",
+    "zod": "^4.4.3"
+  }
+}

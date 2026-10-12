@@ -1,0 +1,42 @@
+[
+  {
+    "project": "hot-news-20261009",
+    "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\hot-news-20261009\\out-final\\icecube-news-portrait.mp4",
+    "sha256": "71d12a30ed899bec7a4680cd2cdc6c02e7e62296b8b2e96029ab09f911778b8c",
+    "width": 1080,
+    "height": 1920,
+    "duration": 15.0,
+    "fps": 30.0,
+    "audio_streams": 1,
+    "audio_levels": {
+      "sampled_seconds": 15.0,
+      "peak_dbfs": -2.71,
+      "rms_dbfs": -21.84
+    },
+    "full_decode": "passed",
+    "representative_frames_observed": 12,
+    "motion_sample_frames_observed": 29,
+    "realtime_playback": false,
+    "listened": false
+  },
+  {
+    "project": "portrait-valve-20261009",
+    "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\portrait-valve-20261009\\out-final\\one-way-portrait.mp4",
+    "sha256": "478c34e0e1c808ffffd4a3370fc2ef1bbd377d320ee5168468b6d188eaaef8ac",
+    "width": 1080,
+    "height": 1920,
+    "duration": 15.0,
+    "fps": 24.0,
+    "audio_streams": 1,
+    "audio_levels": {
+      "sampled_seconds": 15.0,
+      "peak_dbfs": -2.48,
+      "rms_dbfs": -22.66
+    },
+    "full_decode": "passed",
+    "representative_frames_observed": 18,
+    "motion_sample_frames_observed": 43,
+    "realtime_playback": false,
+    "listened": false
+  }
+]

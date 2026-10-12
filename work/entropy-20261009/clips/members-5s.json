@@ -1,0 +1,18 @@
+{
+ "id":"members-5s","style":"entropy","title":"同为4:4：成员不同（5秒验证片段）","duration":5,"fps":30,"timingDriver":"action","seed":5150,
+ "width":1920,"height":1080,
+ "facts":{"classification":"代码绘制验证片段：两个左右各4的排列，成员不同、计数相同","source":"组合计数：C(8,4)=70"},
+ "model":{"particles":8,"counts":[1,8,28,56,70,56,28,8,1],"allOnOneSide":2,"init":"LLLLRRRR",
+  "choreography":{"s2":[{"at":1.9,"duration":1.2,"movers":[2,5],"highlight":true},{"at":3.1,"duration":1.2,"movers":[4,7],"highlight":true}]}},
+ "events":[
+  {"id":"est","at":0,"duration":0.9,"anchor":"container","action":"建立排列A：左区1、2、3、4","result":"微观成员清晰可辨"},
+  {"id":"mark","at":0.9,"duration":1.0,"anchor":"particles","action":"高亮要换边的成员2、4、5、7","result":"先看清是谁将移动","sound":{"kind":"tick","gain":0.4,"duration":0.5,"offset":0.05}},
+  {"id":"swap1","at":1.9,"duration":1.2,"anchor":"particles","action":"2与5交换归属","result":"成员改变，计数不变","sound":{"kind":"whoosh","gain":0.4,"duration":0.9,"offset":0.05}},
+  {"id":"swap2","at":3.1,"duration":1.2,"anchor":"particles","action":"4与7交换归属","result":"左区变为1、3、5、7","sound":{"kind":"whoosh","gain":0.4,"duration":0.9,"offset":0.05}},
+  {"id":"settle","at":4.3,"duration":0.7,"anchor":"counts","action":"停稳","result":"同为左4右4"}
+ ],
+ "captions":[],
+ "shots":[
+  {"id":"members","start":0,"end":5,"intent":"验证编号、计数与换边动作是否可读","action":"两个4:4排列之间切换成员","camera":"固定全景","states":{"establish":0.4,"action":2.5,"result":4.6}}
+ ]
+}

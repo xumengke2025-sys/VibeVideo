@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s07-root { position: absolute; inset: 0; }
+        #s07-provider { left: 80px; top: 360px; width: 330px; height: 110px; border-radius: 16px; border: 2px solid var(--k-line); background: rgba(15,15,19,.9); padding: 18px 22px; }
+        #s07-provider div:first-child { font: 500 20px/1 var(--k-mono); color: var(--k-bp-ink-2); }
+        #s07-provider div:last-child { font: 500 28px/1 var(--k-mono); color: var(--k-bp-ink); margin-top: 16px; }
+        #s07-r2 { left: 1300px; top: 196px; width: 540px; height: 100px; border-radius: 16px; border: 2px solid var(--k-line-dim); background: rgba(15,15,19,.9); padding: 16px 22px; }
+        #s07-r2 div:first-child { font: 500 20px/1 var(--k-mono); color: var(--k-bp-ink-2); }
+        #s07-r2 div:last-child { font: 500 22px/1 var(--k-mono); color: var(--k-bp-ink); margin-top: 18px; }
+        .s07-lane { font: 500 20px/1 var(--k-mono); color: #a8a8a3; }
+        .s07-tick { width: 120px; margin-left: -60px; text-align: center; font: 500 20px/1 var(--k-mono); color: #a8a8a3; }
+        .s07-wait { text-align: center; font: 500 30px/1 var(--k-mono); color: #a8a8a3; }
+        .s07-resp { font-size: 20px; }
+        #s07-packet { padding: 4px 14px; border-radius: 999px; background: var(--k-accent); font: 500 20px/1.2 var(--k-mono); color: var(--k-accent-ink); }
+        #s07-never { left: 540px; top: 352px; font-size: 22px; }
+      </style>
+      <div id="s07-root" data-composition-id="s07-submit" data-width="1920" data-height="1080">
+        <div id="s07-scene" class="k-scene k-bp">
+          <div id="s07-provider" class="k-abs"><div>provider</div><div>video/h3-max</div></div>
+          <div id="s07-r2" class="k-abs"><div>persist → r2</div><div>media/{account}/{space}/{asset}.mp4</div></div>
+          <div id="s07-never" class="k-pill k-amber">never retried</div>
+          <div id="s07-packet" class="k-abs">submit</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s07-scene");
+          K.chrome(scene, tl, { title: "submit once, poll many", chapter: "3 · generate", step: 3 });
+
+          // A sequence diagram with time running right: provider lane above, workflow lane below.
+          const PY = 420, WY = 640, AX = 880;                 // lanes and the time axis
+          const T = (s) => 480 + s * 30;                      // 30 px per second
+          const POLLS = [[5, "5 s", "not yet"], [15, "10 s", "not yet"], [35, "20 s", "done"]];
+          const svg = K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } },
+            `<path d="M${T(0)} ${PY} H1840" stroke="rgba(245,245,244,.28)" stroke-width="2" stroke-dasharray="6 8"/>
+             <path d="M${T(0)} ${WY} H1840" stroke="rgba(245,245,244,.72)" stroke-width="2"/>
+             <path d="M${T(0)} ${AX} H1830 M1818 ${AX - 7} L1832 ${AX} L1818 ${AX + 7}" fill="none" stroke="rgba(245,245,244,.72)" stroke-width="2"/>` +
+            Array.from({ length: 9 }, (_, i) => `<path d="M${T(i * 5)} ${AX - 6} V${AX + 6}" stroke="rgba(245,245,244,.35)" stroke-width="2"/>`).join("") +
+            [0, 5, 15, 35].map((s) => `<path d="M${T(s)} ${AX - 14} V${AX + 14}" stroke="rgba(245,245,244,.8)" stroke-width="2.5"/><path d="M${T(s)} ${WY + 14} V${AX - 18}" stroke="rgba(245,245,244,.14)" stroke-width="1.5" stroke-dasharray="3 6"/>`).join("") +
+            `<path id="s07-submit-path" d="M${T(0)} ${WY} C ${T(0)} ${WY - 110}, ${T(0) + 30} ${PY + 90}, ${T(0) + 30} ${PY}" fill="none" stroke="#f2c14e" stroke-width="4"/>` +
+            `<g id="s07-waits"></g><g id="s07-polls"></g>`);
+          K.cross(scene, 110, 170); K.cross(scene, 1810, 1000); K.cross(scene, 110, 1000);
+          K.el(scene, "div", { class: "k-abs s07-lane", style: { left: "1700px", top: PY - 34 + "px" } }).textContent = "provider";
+          K.el(scene, "div", { class: "k-abs s07-lane", style: { left: "1700px", top: WY - 34 + "px" } }).textContent = "workflow";
+          [0, 5, 15, 35].forEach((s) => (K.el(scene, "div", { class: "k-abs s07-tick", style: { left: T(s) + "px", top: AX + 26 + "px" } }).textContent = s + " s"));
+          K.el(scene, "div", { class: "k-abs s07-lane", style: { left: "1760px", top: AX + 26 + "px" } }).textContent = "time";
+          // Which workflow steps this is (scene 6's stations 03 and 04).
+          K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } },
+            `<path d="M${T(5) - 10} 352 V338 H${T(35) + 10} V352" fill="none" stroke="rgba(245,245,244,.35)" stroke-width="1.5"/>`);
+          K.el(scene, "div", { class: "k-abs k-mono", style: { left: T(5) + "px", top: "300px", width: T(35) - T(5) + "px", textAlign: "center", fontSize: "22px", color: "#a8a8a3" } }).textContent = "step 04 · poll & persist";
+          K.el(scene, "div", { class: "k-abs k-mono", style: { left: T(0) - 20 + "px", top: "300px", fontSize: "22px", color: "#a8a8a3" } }).textContent = "step 03 · submit";
+          K.leader(scene, T(25), AX + 70, T(25) + 50, 990, "polling retries with growing waits");
+          K.leader(scene, T(0) + 10, WY - 60, T(0) + 50, 704, "a retry can never pay twice");
+
+          // Wait brackets between the workflow lane and the axis; they light as each wait runs.
+          const brackets = [], waits = [];
+          let prev = 0;
+          POLLS.forEach(([s, label]) => {
+            const x0 = T(prev) + 6, x1 = T(s) - 6;
+            const g = K.el(svg.querySelector("#s07-waits"), "g", { stroke: "rgba(245,245,244,.35)" });
+            K.el(g, "path", { d: `M${x0} ${760} V${774} H${x1} V${760}`, fill: "none", "stroke-width": 2 });
+            const lbl = K.el(scene, "div", { class: "k-abs s07-wait", style: { left: x0 + "px", top: "788px", width: x1 - x0 + "px" } });
+            lbl.textContent = label;
+            brackets.push([g, lbl]);
+            waits.push(K.el(svg.querySelector("#s07-waits"), "path", { d: `M${T(prev) + 4} ${WY} H${T(s) - 4}`, stroke: "#f2c14e", "stroke-width": 8, "stroke-linecap": "butt", opacity: 0.55 }));
+            prev = s;
+          });
+
+          // Poll arrows: up to the provider and back, with the answer.
+          const polls = POLLS.map(([s, , answer]) => {
+            const x = T(s), gp = svg.querySelector("#s07-polls");
+            const up = K.el(gp, "path", { d: `M${x - 10} ${WY - 8} V${PY + 10}`, stroke: "rgba(245,245,244,.85)", "stroke-width": 2.5, fill: "none" });
+            const down = K.el(gp, "path", { d: `M${x + 10} ${PY + 10} V${WY - 10} M${x + 3} ${WY - 22} L${x + 10} ${WY - 10} L${x + 17} ${WY - 22}`, stroke: "rgba(245,245,244,.85)", "stroke-width": 2.5, fill: "none" });
+            const pill = K.el(scene, "div", { class: "k-pill s07-resp" + (answer === "done" ? " k-amber" : ""), style: { left: x + 24 + "px", top: "508px" } }, answer);
+            return { up, down, pill };
+          });
+
+          // The card, generating, at the head of the workflow lane.
+          const S = 1.4, CL = 90, CT = WY - 110;
+          const card = K.card(scene, { id: "s07-card", theme: "bp", left: CL, top: CT, scale: S, thumb: K.harbourArt({ boat: -30, line: true }) });
+          const bar = K.part(card, "k-bar");
+          gsap.set(bar, { scaleX: 0.15, transformOrigin: "0 50%" });
+          gsap.set(K.part(card, "k-eyes"), { scaleY: 0.15, transformOrigin: "50% 50%" });
+          K.el(scene, "div", { class: "k-pill", style: { left: CL + 82 + "px", top: CT - 46 + "px", fontSize: "22px" } }, "generating");
+
+          // The lock that sits on the submit line.
+          const lock = K.el(scene, "div", { class: "k-abs", style: { left: T(0) - 4 + "px", top: PY + 72 + "px" } },
+            `<svg width="40" height="48" viewBox="0 0 40 48"><path d="M10 22 V14 Q10 4 20 4 Q30 4 30 14 V22" fill="none" stroke="#f2c14e" stroke-width="5"/><rect x="3" y="20" width="34" height="26" rx="6" fill="#f2c14e"/><circle cx="20" cy="32" r="4" fill="#1a1300"/></svg>`);
+
+          // b0: the card sends its one submit
+          const packet = document.getElementById("s07-packet");
+          tl.fromTo(card, { x: 0 }, { x: 14, duration: 0.06, yoyo: true, repeat: 1, ease: "power1.out" }, K.t(0));
+          tl.fromTo(packet, { x: CL + 300, y: WY - 20, opacity: 0, scale: 0.5 }, { x: T(0) - 44, opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2)", data: "follow" }, K.t(0) + 0.04);
+          // b1: it travels up to the provider; the line stays drawn
+          const sub = document.getElementById("s07-submit-path");
+          K.draw(tl, sub, 1, 0.22);
+          tl.to(packet, { x: T(0) - 14, y: PY - 50, duration: 0.22, ease: "power2.inOut", data: "follow" }, K.t(1));
+          tl.to(packet, { opacity: 0, scale: 0.6, duration: 0.06, data: "follow" }, K.t(2) - 0.03);
+          // b2: a lock snaps onto it: never retried
+          tl.fromTo(lock, { opacity: 0, scale: 1.8, rotation: -20 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.12, ease: "power3.in" }, K.t(2));
+          tl.fromTo("#s07-never", { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.14, ease: "back.out(2)", data: "follow" }, K.t(2) + 0.1);
+          K.sparkle(tl, scene, T(0) + 16, PY + 70, K.t(2) + 0.12, { r: 44, n: 2, seed: 7, stroke: "#08080a" });
+          // b3, b4, b6: each wait runs, then a poll goes up and comes back
+          const poll = (i, b, waitDur) => {
+            const at = K.t(b);
+            const [g, lbl] = brackets[i];
+            if (waitDur) {
+              tl.fromTo(waits[i], { attr: { opacity: 0.55 }, strokeDasharray: "0 2000" }, { strokeDasharray: "2000 0", duration: waitDur, ease: "power1.inOut" }, at);
+              tl.to(g, { attr: { stroke: "#f2c14e" }, duration: 0.05, data: "follow" }, at);
+              tl.to(lbl, { color: "#f2c14e", duration: 0.05, data: "follow" }, at);
+            }
+            const p = polls[i], pa = waitDur ? at + waitDur : at;
+            if (!waitDur) { tl.fromTo(p.up, { opacity: 0 }, { opacity: 1, duration: 0.02 }, at); }
+            else tl.fromTo(p.up, { opacity: 0 }, { opacity: 1, duration: 0.02, data: "follow" }, pa);
+            [p.up, p.down].forEach((el) => { const L = el.getTotalLength(); el.setAttribute("stroke-dasharray", `${L} ${L}`); });
+            tl.fromTo(p.up, { attr: { "stroke-dashoffset": p.up.getTotalLength() } }, { attr: { "stroke-dashoffset": 0 }, duration: 0.06, ease: "power1.in", data: "follow" }, pa);
+            tl.fromTo(p.down, { attr: { "stroke-dashoffset": p.down.getTotalLength() } }, { attr: { "stroke-dashoffset": 0 }, duration: 0.06, ease: "power1.out", data: "follow" }, pa + 0.06);
+            tl.fromTo(p.pill, { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.12, ease: "back.out(2.6)", data: "follow" }, pa + 0.1);
+          };
+          polls.forEach((p) => gsap.set([p.up, p.down, p.pill], { opacity: 0 }));
+          polls.forEach((p) => gsap.set(p.down, { opacity: 1 }));
+          // b3: wait 5 s, poll
+          poll(0, 3, 0.08);
+          // b4: wait 10 s, poll
+          poll(1, 4, 0.1);
+          // b5: the long wait, 20 s, runs along the lane
+          tl.fromTo(waits[2], { strokeDasharray: "0 2000" }, { strokeDasharray: "2000 0", duration: 0.3, ease: "power1.inOut" }, K.t(5));
+          tl.to(brackets[2][0], { attr: { stroke: "#f2c14e" }, duration: 0.05, data: "follow" }, K.t(5));
+          tl.to(brackets[2][1], { color: "#f2c14e", duration: 0.05, data: "follow" }, K.t(5));
+          // b6: the third poll comes back done
+          poll(2, 6, 0);
+          // b7: the result streams from the provider into storage
+          const stream = K.el(svg, "path", { d: `M${T(35) + 10} ${PY - 6} C ${T(35) + 10} ${PY - 70}, ${T(35) + 40} ${320}, ${T(35) + 40} ${300}`, stroke: "#f2c14e", "stroke-width": 4, fill: "none", "stroke-dasharray": "3 10", "stroke-linecap": "round" });
+          const L = stream.getTotalLength();
+          tl.fromTo(stream, { opacity: 0, attr: { "stroke-dashoffset": L } }, { opacity: 1, attr: { "stroke-dashoffset": 0 }, duration: 0.12, ease: "power2.out" }, K.t(7));
+          tl.to("#s07-r2", { borderColor: "#f2c14e", duration: 0.06, data: "follow" }, K.t(7) + 0.1);
+          K.sparkle(tl, scene, T(35) + 150, 196, K.t(7) + 0.12, { r: 40, n: 2, seed: 3, stroke: "#08080a" });
+
+          K.focus(scene, tl, "s07", [
+            [0, T(0) - 60, WY - 10], [1, T(0) + 10, PY + 90], [2, T(0) + 80, PY + 30], [3, T(5), 540],
+            [4, T(15), 540], [5, T(25), WY], [6, T(35), 540], [7, T(35) + 60, 300],
+          ]);
+          K.check(tl, "s07");
+          window.__timelines["s07-submit"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

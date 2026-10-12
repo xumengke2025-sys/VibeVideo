@@ -1,0 +1,599 @@
+{
+  "repository": "francozanardi/papermotion",
+  "commit": "aafddbe2dbc2b594bcd57c19c4a5a75c5c271be8",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "checked": "2026-10-09",
+  "scope": "text retrieval only; no media or execution",
+  "files": [
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.agents\\skills\\papermotion\\references\\inspection.md",
+      "bytes": 2550
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.agents\\skills\\papermotion\\references\\pitfalls.md",
+      "bytes": 5316
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.agents\\skills\\papermotion\\references\\art-direction.md",
+      "bytes": 4630
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.agents\\skills\\papermotion\\SKILL.md",
+      "bytes": 7708
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.agents\\skills\\papermotion\\references\\engine-api.md",
+      "bytes": 13816
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.agents\\skills\\papermotion\\references\\scenes.md",
+      "bytes": 6808
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.agents\\skills\\papermotion\\references\\sound.md",
+      "bytes": 4391
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.claude\\skills\\papermotion\\references\\art-direction.md",
+      "bytes": 4630
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.claude\\skills\\papermotion\\SKILL.md",
+      "bytes": 7708
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.claude\\skills\\papermotion\\references\\engine-api.md",
+      "bytes": 15844
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.claude\\skills\\papermotion\\references\\inspection.md",
+      "bytes": 2550
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.claude\\skills\\papermotion\\references\\pitfalls.md",
+      "bytes": 5316
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.claude\\skills\\papermotion\\references\\sound.md",
+      "bytes": 4391
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\AGENTS.md",
+      "bytes": 3046
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.agents\\skills\\papermotion\\references\\characters.md",
+      "bytes": 9767
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\LICENSE",
+      "bytes": 1071
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.claude\\skills\\papermotion\\references\\scenes.md",
+      "bytes": 6808
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\.claude\\skills\\papermotion\\references\\characters.md",
+      "bytes": 9767
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\README.md",
+      "bytes": 11121
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\cast\\Child.ts",
+      "bytes": 9770
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\docs\\field-notes.md",
+      "bytes": 27122
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\cast\\Jelly.ts",
+      "bytes": 4583
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\cast\\Clawd.ts",
+      "bytes": 10710
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\cast\\Kelp.ts",
+      "bytes": 2451
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\catalog.ts",
+      "bytes": 1720
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\demo\\act.ts",
+      "bytes": 1430
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\demo\\main.ts",
+      "bytes": 4957
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\demo\\roof.ts",
+      "bytes": 10701
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\demo\\sea.ts",
+      "bytes": 10581
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\demo\\meadow.ts",
+      "bytes": 17242
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\demo\\sound.ts",
+      "bytes": 16363
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\cast\\fish.ts",
+      "bytes": 4527
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\embers\\README.md",
+      "bytes": 2905
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\hands\\Person.ts",
+      "bytes": 20529
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\embers\\Witness.ts",
+      "bytes": 5730
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\demo\\title.ts",
+      "bytes": 8274
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\embers\\main.ts",
+      "bytes": 16748
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\hands\\set.ts",
+      "bytes": 11412
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\hands\\hand.ts",
+      "bytes": 2984
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\embers\\details.ts",
+      "bytes": 7490
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\hands\\main.ts",
+      "bytes": 23726
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\light\\README.md",
+      "bytes": 1830
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\kite\\Kite.ts",
+      "bytes": 2101
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\light\\Moth.ts",
+      "bytes": 3115
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\kite\\main.ts",
+      "bytes": 9068
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\hands\\sound.ts",
+      "bytes": 6382
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\kite\\kid.ts",
+      "bytes": 1378
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\play.ts",
+      "bytes": 1606
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\rain\\main.ts",
+      "bytes": 25793
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\rain\\Bus.ts",
+      "bytes": 6955
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\rain\\Person.ts",
+      "bytes": 32330
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\rooftops\\Pigeon.ts",
+      "bytes": 6317
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\rain\\set.ts",
+      "bytes": 10890
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\rooftops\\main.ts",
+      "bytes": 9495
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\rooftops\\Cat.ts",
+      "bytes": 16759
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\rain\\props.ts",
+      "bytes": 5142
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\sea\\main.ts",
+      "bytes": 14266
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\sets\\houses.ts",
+      "bytes": 4227
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\light\\main.ts",
+      "bytes": 12082
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\snow\\Clawd.ts",
+      "bytes": 10041
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\snow\\main.ts",
+      "bytes": 31117
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\package.json",
+      "bytes": 789
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\snow\\sound.ts",
+      "bytes": 11142
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\index.html",
+      "bytes": 701
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\packages\\create-papermotion\\starter\\README.md",
+      "bytes": 1355
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\packages\\create-papermotion\\package.json",
+      "bytes": 756
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\packages\\create-papermotion\\README.md",
+      "bytes": 841
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\packages\\create-papermotion\\starter\\AGENTS.md",
+      "bytes": 2441
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\packages\\create-papermotion\\index.js",
+      "bytes": 2312
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\examples\\snow\\props.ts",
+      "bytes": 7078
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\scripts\\browser.ts",
+      "bytes": 2422
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\packages\\create-papermotion\\starter\\examples\\hello\\main.ts",
+      "bytes": 1691
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\packages\\create-papermotion\\starter\\examples\\catalog.ts",
+      "bytes": 610
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\scripts\\listen.ts",
+      "bytes": 1742
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\scripts\\grab.ts",
+      "bytes": 2919
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\scripts\\audio.ts",
+      "bytes": 2511
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\scripts\\sheet.ts",
+      "bytes": 821
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\scripts\\render.ts",
+      "bytes": 3293
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\scripts\\template.ts",
+      "bytes": 2677
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\audio\\SoundLog.ts",
+      "bytes": 2181
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\audio\\music.ts",
+      "bytes": 2192
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\audio\\dsp.ts",
+      "bytes": 4399
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\audio\\instruments.ts",
+      "bytes": 3137
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\audio\\voices.ts",
+      "bytes": 7132
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\audio\\Mixer.ts",
+      "bytes": 7647
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\core\\random.ts",
+      "bytes": 1602
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\core\\Spring.ts",
+      "bytes": 618
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\direction\\timeline.ts",
+      "bytes": 1960
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\direction\\Beats.ts",
+      "bytes": 3750
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\direction\\Edit.ts",
+      "bytes": 2517
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\fx\\Particles.ts",
+      "bytes": 2700
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\fx\\Fire.ts",
+      "bytes": 5369
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\camera\\Camera.ts",
+      "bytes": 5124
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\fx\\Tracks.ts",
+      "bytes": 2056
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\core\\math.ts",
+      "bytes": 3735
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\motion\\Swimmer.ts",
+      "bytes": 3953
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\motion\\Leap.ts",
+      "bytes": 1546
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\motion\\School.ts",
+      "bytes": 3757
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\motion\\steer.ts",
+      "bytes": 1426
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\index.ts",
+      "bytes": 4006
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\paper\\geometry.ts",
+      "bytes": 2147
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\paper\\Paper.ts",
+      "bytes": 18044
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\fx\\spray.ts",
+      "bytes": 2865
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\paper\\texture.ts",
+      "bytes": 1219
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\paper\\type.ts",
+      "bytes": 1138
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\paper\\darkness.ts",
+      "bytes": 2158
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\paper\\Scratch.ts",
+      "bytes": 1341
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\physics\\Plate.ts",
+      "bytes": 2777
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\paper\\shafts.ts",
+      "bytes": 2156
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\physics\\Roller.ts",
+      "bytes": 3321
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\physics\\SoftBody.ts",
+      "bytes": 2839
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\rig\\Bone.ts",
+      "bytes": 1156
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\rig\\Gait.ts",
+      "bytes": 4040
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\physics\\World.ts",
+      "bytes": 6347
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\physics\\rope.ts",
+      "bytes": 683
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\physics\\Spool.ts",
+      "bytes": 2118
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\physics\\Surface.ts",
+      "bytes": 899
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\scenery\\building.ts",
+      "bytes": 2408
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\scenery\\ridge.ts",
+      "bytes": 2964
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\scenery\\flora.ts",
+      "bytes": 11659
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\rig\\Skeleton.ts",
+      "bytes": 5250
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\rig\\Hair.ts",
+      "bytes": 4614
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\rig\\Strand.ts",
+      "bytes": 2763
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\scenery\\stars.ts",
+      "bytes": 6184
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\scenery\\sward.ts",
+      "bytes": 6655
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\stage\\Stage.ts",
+      "bytes": 6513
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\stage\\grade.ts",
+      "bytes": 3093
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\stage\\overlay.ts",
+      "bytes": 1821
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\stage\\player.ts",
+      "bytes": 2608
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\scenery\\scatter.ts",
+      "bytes": 2820
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\weather\\rain.ts",
+      "bytes": 7818
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\tests\\film.test.ts",
+      "bytes": 3145
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\tests\\audio.test.ts",
+      "bytes": 3299
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\tests\\Beats.test.ts",
+      "bytes": 2570
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\tests\\motion.test.ts",
+      "bytes": 2577
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\tests\\scenery.test.ts",
+      "bytes": 891
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\tests\\fire.test.ts",
+      "bytes": 2013
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\tests\\physics.test.ts",
+      "bytes": 3547
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\tests\\template.test.ts",
+      "bytes": 1536
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\tests\\timeline.test.ts",
+      "bytes": 1100
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\stage\\transition.ts",
+      "bytes": 3768
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\tests\\sky.test.ts",
+      "bytes": 1821
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\tsconfig.json",
+      "bytes": 494
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\vite.config.ts",
+      "bytes": 152
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\src\\weather\\snow.ts",
+      "bytes": 3398
+    },
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\opus-methodology-20261009\\source-text\\papermotion\\tests\\snow.test.ts",
+      "bytes": 2245
+    }
+  ]
+}

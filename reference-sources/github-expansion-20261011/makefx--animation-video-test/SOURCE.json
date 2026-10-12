@@ -1,0 +1,379 @@
+{
+  "repo": "makefx/animation-video-test",
+  "repository": "https://github.com/makefx/animation-video-test",
+  "commit": "f847e18030ef1ef4aa0ff7d0e713af67f1ca8c8c",
+  "commitDate": "2026-09-24T18:09:51Z",
+  "snapshotUrl": "https://codeload.github.com/makefx/animation-video-test/zip/f847e18030ef1ef4aa0ff7d0e713af67f1ca8c8c",
+  "archiveSha256": "42d86dc503a3c10b51fcb6c584c8ffa83c630e42b445e2194cd66a3ad98c2ac9",
+  "checked": "2026-10-11",
+  "upstreamLicense": "Apache-2.0",
+  "licenseFiles": [
+    "LICENSE"
+  ],
+  "usage": "按原许可和第三方素材声明分别核实复用范围",
+  "modelEvidence": [
+    "| Made by | Claude (Opus 5.5) in Claude Code. The kit and three reference scenes were written first; five agents then wrote the other fifteen scenes in parallel from one brief, [SCENES.md](SCENES.md) |"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 24,
+      "sha256": "6c7d15d2ab1a0b51ebcae7e88b9ad01f0713d0833bc2dbe8f3bcc7a81b66b344"
+    },
+    {
+      "path": "assets/audio/cues.json",
+      "bytes": 14316,
+      "sha256": "3d792ced2a78a2a2003396e3f74c6d58ddccbe9f4d774aee242ec8ecf62d8fb6"
+    },
+    {
+      "path": "assets/audio/soundtrack.wav",
+      "bytes": 8160044,
+      "sha256": "fd52d260909337afbc96d34d2406d87bbf0425525d2a501035e35a5cd14d18fd"
+    },
+    {
+      "path": "assets/fonts/JetBrainsMono-500.woff2",
+      "bytes": 21832,
+      "sha256": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a"
+    },
+    {
+      "path": "assets/fonts/OFL-JetBrainsMono.txt",
+      "bytes": 4399,
+      "sha256": "a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697"
+    },
+    {
+      "path": "assets/fonts/OFL-SpaceGrotesk.txt",
+      "bytes": 4495,
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+    },
+    {
+      "path": "assets/fonts/SpaceGrotesk-600.woff2",
+      "bytes": 13284,
+      "sha256": "685bbbf69fa616df1ef81847c85fc76be097ddfb3468ff2257be54511ab3130f"
+    },
+    {
+      "path": "assets/vendor/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "path": "compositions/s01-ask.html",
+      "bytes": 5139,
+      "sha256": "edd2484a2f4e9f40eaff5c239dc14e9dc033e43f773885772f99e3369a27c815"
+    },
+    {
+      "path": "compositions/s02-connect.html",
+      "bytes": 8292,
+      "sha256": "3746f0765ef69679145610a9163b67efccf16e4cd08e9a721ea19538866384d8"
+    },
+    {
+      "path": "compositions/s03-toolcall.html",
+      "bytes": 5477,
+      "sha256": "ef41df6fe70c69f6f8299b875d333badf0cfb899ee8db45e86d2c4e9c63b581d"
+    },
+    {
+      "path": "compositions/s04-writer.html",
+      "bytes": 6556,
+      "sha256": "36fbef295152fa55ddd1b04aea5b6a8303389f335109d7c5319627edb6e89cf4"
+    },
+    {
+      "path": "compositions/s05-price.html",
+      "bytes": 5535,
+      "sha256": "63e9094597efaf8f6ea0e0020093751696341af02523d0d097f18bd6f1a12a3d"
+    },
+    {
+      "path": "compositions/s06-workflow.html",
+      "bytes": 7270,
+      "sha256": "2c57a04001bf87dbcbb11b648a34e3d90b4d05d3adbbe379dd9e0700adaae8b4"
+    },
+    {
+      "path": "compositions/s07-submit.html",
+      "bytes": 8531,
+      "sha256": "e8c8ab36de53189a96217f1e08d841566acac9392e5991226be5fded054e6d57"
+    },
+    {
+      "path": "compositions/s08-stream.html",
+      "bytes": 6369,
+      "sha256": "f51190f15a3d6aa6111c1f21df0226dc23c8407635861cbbb0de0cfd95d9eb4e"
+    },
+    {
+      "path": "compositions/s09-lands.html",
+      "bytes": 4661,
+      "sha256": "768bd09d67b291be8e354ee5a1e5a2abc49c3f339cd94217a41116b334def5f0"
+    },
+    {
+      "path": "compositions/s10-failure.html",
+      "bytes": 5116,
+      "sha256": "0b3ad7159dab21a40bd043128fa7ebcced10b2f803d9ad57f4fcdf39df3d8fce"
+    },
+    {
+      "path": "compositions/s11-recipe.html",
+      "bytes": 5529,
+      "sha256": "fc93fe932e4a4e8d7cfb00e7f0979d31eeae451a4ee301542dc832d85a800375"
+    },
+    {
+      "path": "compositions/s12-material.html",
+      "bytes": 5927,
+      "sha256": "dfecfd11080a97d6fd1d4205b16e523618e1ecfb32d2561f5096e489007c04a5"
+    },
+    {
+      "path": "compositions/s13-frame.html",
+      "bytes": 6532,
+      "sha256": "0a097c624e863f3f14edf86132b9961d792df578197c4e512017ba049f19cd36"
+    },
+    {
+      "path": "compositions/s14-describe.html",
+      "bytes": 13030,
+      "sha256": "1aea704da578eab7baeb6c950c1aea4aa594f7dfa4e1d1528a3f32beb7324618"
+    },
+    {
+      "path": "compositions/s15-timeline.html",
+      "bytes": 11017,
+      "sha256": "b082252e265d7de5d2cf11148baad006fc520b81fcab987b26faa9a299f8f595"
+    },
+    {
+      "path": "compositions/s16-cut.html",
+      "bytes": 6570,
+      "sha256": "b6867a62fb488efb7c8ce44ef2a998e93dfce04df420be299e0aa9b5e7c0aca8"
+    },
+    {
+      "path": "compositions/s17-share.html",
+      "bytes": 6388,
+      "sha256": "802f7f4fde28b46b21ecf9a8615138336641a6b30e133f8ee5f9be2e886a5000"
+    },
+    {
+      "path": "compositions/s18-finale.html",
+      "bytes": 9864,
+      "sha256": "1ed87c8b077e8eec9c4963114952674854e1a85d379c3342896ecd9fd5f158bc"
+    },
+    {
+      "path": "docs/process.md",
+      "bytes": 3445,
+      "sha256": "b0f22c8d0319d09af604817ac21d97df8bd1f421f39c7dac99d87998dfd0e913"
+    },
+    {
+      "path": "docs/research.md",
+      "bytes": 1799,
+      "sha256": "6b8f5566c77cb3436737ea1324bab09d0ad2c66e4aa8e3559feaf38aeed75c26"
+    },
+    {
+      "path": "history/spike/index.html",
+      "bytes": 22514,
+      "sha256": "f360ad908bbe0dfe873342e4d3b99ca970f084c545a0585e5ffb3e2af01a226a"
+    },
+    {
+      "path": "history/spike/scene.mp4",
+      "bytes": 6451259,
+      "sha256": "63174bfc109c79c5419ae1e8087d041ae0fe2a3671284e97b0dba1c67f0f5a96"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s01-ask.html",
+      "bytes": 6878,
+      "sha256": "a904811ab6bcc34f575f83154de45b362e4cd4d6bf43474186597c9ebe76ab96"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s02-connect.html",
+      "bytes": 13032,
+      "sha256": "f7021129bcb97da1436a1ef0473dbcf08c9f93f4a159472f776dc4e683d24a74"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s03-toolcall.html",
+      "bytes": 10226,
+      "sha256": "af41b8249fa237f641bb66e62f335566231edb1869603a42762713991bab0a3e"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s04-writer.html",
+      "bytes": 10763,
+      "sha256": "7bef4305ea3d5d7330424a80f4e8052fe16311d33958d85661069a4b2ac0cb81"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s05-price.html",
+      "bytes": 13823,
+      "sha256": "858f2a3d81bbf2950fed5583c6ddc62719ba76c4237c70708811cff10cd17b83"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s06-workflow.html",
+      "bytes": 9089,
+      "sha256": "1282f8fec96392d3c1c10f3a16ef49843e2a26b23b094e14b91377d435f747f6"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s07-submit.html",
+      "bytes": 12755,
+      "sha256": "1f86c2a570a078d6facdbb4ea4760ff1acf49a03b837cacfdaf9165c15288d9f"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s08-stream.html",
+      "bytes": 13562,
+      "sha256": "b1eef9a172124e7473e7a54a501c87404f3daa22256f3f5b05c96d921bc2412e"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s09-lands.html",
+      "bytes": 9185,
+      "sha256": "4824fa0653e2e0c6221628cde3fc2f393cb4bf84893354a31c4d3da8cfe5e7ee"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s10-failure.html",
+      "bytes": 12420,
+      "sha256": "842b71fcf51ddcbb3ea77a5474ceb1bc3634ef9b68c3ab52dba5750a45bf4102"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s11-recipe.html",
+      "bytes": 8877,
+      "sha256": "bf0244b2fd914b693b10b8c764cee0646a3a8e597cf2bcdbdabe3126445fe0be"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s12-material.html",
+      "bytes": 11347,
+      "sha256": "951d532a7a2035f83c453e0cec0b6cba2c4827c398e1cf02b9c7ebf7f2f33c78"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s13-frame.html",
+      "bytes": 9797,
+      "sha256": "6eb7414bf669dc6441df2a8e89e3d16ed720aa09a7980d481f478a5d0dc3d03c"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s14-describe.html",
+      "bytes": 12260,
+      "sha256": "a5cf015147cb9721f79efc0429c525c8366c95f99577de2165a3ba7e29ce9014"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s15-timeline.html",
+      "bytes": 11746,
+      "sha256": "978b73d858726942fe98bd6ab95af4bb3e7c428a767b13f82980c0984c9076b1"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s16-cut.html",
+      "bytes": 12864,
+      "sha256": "c9c4136903276667f5a7658631d0c2bbbf7a3d0141c047757d8801ae4bae53a0"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s17-share.html",
+      "bytes": 10771,
+      "sha256": "01fc01a22c8e80da56270f62b6e6cc1982682c4f327c1899a3b3fa2b652e249c"
+    },
+    {
+      "path": "history/v1-illustrated/compositions/s18-finale.html",
+      "bytes": 10037,
+      "sha256": "f7cc83a8254c72a66337073932f672a07a0c962343f44c53e5623cff1b3b0c94"
+    },
+    {
+      "path": "history/v1-illustrated/how-makefx-works-v1-sound.mp4",
+      "bytes": 16410079,
+      "sha256": "44bd51b09fc6a507fd5fe60c0d3577bf6c609575e47f86a9a2e551fc74671f4f"
+    },
+    {
+      "path": "history/v1-illustrated/kit/kit.css",
+      "bytes": 4974,
+      "sha256": "98c1cc286800cd09552d9e52aebeb5e564894085394050c72787a64e567d605f"
+    },
+    {
+      "path": "history/v1-illustrated/kit/kit.js",
+      "bytes": 18222,
+      "sha256": "e89344c89cc898c7ceefa693b03db9cc29eb82ec3186c50acce7566bee0e7615"
+    },
+    {
+      "path": "hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5474,
+      "sha256": "9c36c1092539a9427e6e8cca905409563c7408b4466cbace93334c9f50a27066"
+    },
+    {
+      "path": "kit/kit.css",
+      "bytes": 4974,
+      "sha256": "e9e55391a4e9f3a12f9cee135637e691ffbb3ca649d1f37ffe02ad4e161b01ea"
+    },
+    {
+      "path": "kit/kit.js",
+      "bytes": 17694,
+      "sha256": "7c762fdac0dd6848d4aa03b9d821ad26a283c8ccba13d9ca0ef934eb752beecf"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "meta.json",
+      "bytes": 103,
+      "sha256": "7ba461e8d969725bf122bf69e235c7e9c57fb2e670e5f03b73c0f9db75a41a51"
+    },
+    {
+      "path": "package.json",
+      "bytes": 626,
+      "sha256": "daa012c8290e7bea4334148aa435d1d1e5f9e15665d45ae81a9aec1d91b632af"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4558,
+      "sha256": "4c12dc8411a90919b32b0f7976a801dc9abfb51a7a4d5488970e3bb97909a060"
+    },
+    {
+      "path": "renders/full-sheet.jpg",
+      "bytes": 117657,
+      "sha256": "4cf4d6e960701559afe17656b38d5dce610fc549e87c5f1e2cca40278d89edd8"
+    },
+    {
+      "path": "renders/how-makefx-works-4k.mp4",
+      "bytes": 12561636,
+      "sha256": "ed816d05bd80c007e0adcb206127caec1019144f246fc0501b1212d5043221d8"
+    },
+    {
+      "path": "renders/how-makefx-works.mp4",
+      "bytes": 6469159,
+      "sha256": "a9769cebb9da0267add8332cf3a93b414244488b885dc569cf4b4f21b3a0b336"
+    },
+    {
+      "path": "renders/thumbnail-alt-prompt.png",
+      "bytes": 1270455,
+      "sha256": "8fbc45a2e48d81bcb50d1bce7891b6e20f38e12677083c8c3b189e3ca87fd4e4"
+    },
+    {
+      "path": "renders/thumbnail-alt-recipe.png",
+      "bytes": 1028094,
+      "sha256": "2dd649bde53666c6c89faaefa3afadbe6e5f0fa14f485e8b90c91326e8c31706"
+    },
+    {
+      "path": "renders/thumbnail.jpg",
+      "bytes": 155737,
+      "sha256": "91782d32d0a6356fbecaeca7ccf39ba36d40903a1e20c48415ab9774e1c7d61a"
+    },
+    {
+      "path": "SCENES.md",
+      "bytes": 14344,
+      "sha256": "29ad87821d532abcf7388fd3cc053e29bd44bcc273b8dc96daeb04422492e412"
+    },
+    {
+      "path": "tools/beat-sheet.sh",
+      "bytes": 530,
+      "sha256": "28d9a93ae4527f63fdc62ee637131900c6efbfabf733abfab7696b1f4ee19a22"
+    },
+    {
+      "path": "tools/extract-cues.mjs",
+      "bytes": 4112,
+      "sha256": "1684296457d2ebbd63c3cac65bbfe7c2e65f0deebcf99897df2058fc5ca19d04"
+    },
+    {
+      "path": "tools/make-bgm.py",
+      "bytes": 12697,
+      "sha256": "c065f3bab9829c02d7c906b279b050c3a97588879d7797488eddcf4331ae4bd0"
+    },
+    {
+      "path": "tools/thumbnail.mjs",
+      "bytes": 10745,
+      "sha256": "eb5c23186662eca860188c813db13f4fca17e356d65e93547f8732815acdd8cc"
+    },
+    {
+      "path": "YOUTUBE.md",
+      "bytes": 1182,
+      "sha256": "d949d4cffeb564047af4d17d5f04b81ecffbd92faebb97af83a7a2fe61514ec9"
+    }
+  ],
+  "verification": {
+    "snapshotExtracted": true,
+    "sourceExecuted": false,
+    "avReviewed": false
+  }
+}

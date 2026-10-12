@@ -1,0 +1,296 @@
+{
+  "clip": "dataviz-variant",
+  "errors": [],
+  "blocked": [],
+  "httpErrors": [],
+  "requests": [
+    "http://127.0.0.1:50609/?render&clip=dataviz-variant",
+    "http://127.0.0.1:50609/film.mjs",
+    "http://127.0.0.1:50609/timeline.mjs",
+    "http://127.0.0.1:50609/clips/dataviz-variant.json"
+  ],
+  "source": [
+    {
+      "path": "index.html",
+      "sha256": "35be1d9e69bc3657f83fc1f6d124655d903eeee4f13d58ccdaf2b2504d063438"
+    },
+    {
+      "path": "film.mjs",
+      "sha256": "d152d98e4889733507167162e58b81aeff0d61d448099d7eea103da21d472189"
+    },
+    {
+      "path": "timeline.mjs",
+      "sha256": "3347d9c35c57c301769080d913e4c2e8f1ca46b6dd410f6d8e52c5de8c29cc6e"
+    },
+    {
+      "path": "render.mjs",
+      "sha256": "f2cb8aee318e711f0318a91878ca77291917537e37b7664245169b9a4c8c494b"
+    },
+    {
+      "path": "clips/dataviz-variant.json",
+      "sha256": "56f8b50ceff0a441fceace4f8683cf9516e7880e4532e6a46b2452e00a898128"
+    }
+  ],
+  "reviewSchedule": {
+    "clip": "dataviz-variant",
+    "scope": "Sampling schedule, not a visual or listening verdict.",
+    "states": [
+      {
+        "shot": "trace",
+        "state": "establish",
+        "time": 1.9,
+        "frame": 46
+      },
+      {
+        "shot": "trace",
+        "state": "action",
+        "time": 3,
+        "frame": 72
+      },
+      {
+        "shot": "trace",
+        "state": "result",
+        "time": 5,
+        "frame": 120
+      },
+      {
+        "shot": "bars",
+        "state": "establish",
+        "time": 6,
+        "frame": 144
+      },
+      {
+        "shot": "bars",
+        "state": "action",
+        "time": 6.8,
+        "frame": 163
+      },
+      {
+        "shot": "bars",
+        "state": "result",
+        "time": 9,
+        "frame": 216
+      }
+    ],
+    "windows": [
+      {
+        "event": "draw",
+        "anchor": "same-eight-values",
+        "start": 0,
+        "end": 2.2,
+        "step": 0.2
+      },
+      {
+        "event": "trace",
+        "anchor": "same-eight-values",
+        "start": 2,
+        "end": 3.8000000000000003,
+        "step": 0.2
+      },
+      {
+        "event": "highlight",
+        "anchor": "maximum-value",
+        "start": 3.8,
+        "end": 5,
+        "step": 0.2
+      },
+      {
+        "event": "morph",
+        "anchor": "same-eight-values",
+        "start": 5.8,
+        "end": 7.7,
+        "step": 0.2
+      },
+      {
+        "event": "settle",
+        "anchor": "maximum-value",
+        "start": 7.3999999999999995,
+        "end": 8.399999999999999,
+        "step": 0.2
+      }
+    ],
+    "captions": [],
+    "sound": [
+      {
+        "event": "draw",
+        "time": 0,
+        "kind": "paper"
+      },
+      {
+        "event": "trace",
+        "time": 2.2,
+        "kind": "tone"
+      },
+      {
+        "event": "highlight",
+        "time": 4,
+        "kind": "tone"
+      },
+      {
+        "event": "morph",
+        "time": 6,
+        "kind": "paper"
+      },
+      {
+        "event": "settle",
+        "time": 7.6,
+        "kind": "click"
+      }
+    ]
+  },
+  "listened": false,
+  "seek": {
+    "times": [
+      1.7000000000000002,
+      5.6000000000000005,
+      8.299999999999999
+    ],
+    "forward": [
+      "0132883a9b43abae447de636bbca0bfc77af0b0442d2643a95432e9fc7fb8980",
+      "4c79a7218f23a9b6c2b5500eb754d610eaa48ce51916b810229e42754ff4dee5",
+      "65233843e43354148c91fa96dce16ab1bbfcf1d150b4bf4766ff45966f9c254c"
+    ],
+    "reverse": [
+      {
+        "time": 8.299999999999999,
+        "hash": "65233843e43354148c91fa96dce16ab1bbfcf1d150b4bf4766ff45966f9c254c"
+      },
+      {
+        "time": 5.6000000000000005,
+        "hash": "4c79a7218f23a9b6c2b5500eb754d610eaa48ce51916b810229e42754ff4dee5"
+      },
+      {
+        "time": 1.7000000000000002,
+        "hash": "0132883a9b43abae447de636bbca0bfc77af0b0442d2643a95432e9fc7fb8980"
+      }
+    ],
+    "fresh": [
+      "0132883a9b43abae447de636bbca0bfc77af0b0442d2643a95432e9fc7fb8980",
+      "4c79a7218f23a9b6c2b5500eb754d610eaa48ce51916b810229e42754ff4dee5",
+      "65233843e43354148c91fa96dce16ab1bbfcf1d150b4bf4766ff45966f9c254c"
+    ],
+    "identical": true
+  },
+  "states": [
+    {
+      "time": 0,
+      "state": {
+        "drawn": 0,
+        "trace": 0,
+        "highlight": 0,
+        "morph": 0,
+        "settle": 0
+      }
+    },
+    {
+      "time": 0,
+      "state": {
+        "drawn": 0,
+        "trace": 0,
+        "highlight": 0,
+        "morph": 0,
+        "settle": 0
+      }
+    },
+    {
+      "time": 2,
+      "state": {
+        "drawn": 1,
+        "trace": 0,
+        "highlight": 0,
+        "morph": 0,
+        "settle": 0
+      }
+    },
+    {
+      "time": 2.2,
+      "state": {
+        "drawn": 1,
+        "trace": 0,
+        "highlight": 0,
+        "morph": 0,
+        "settle": 0
+      }
+    },
+    {
+      "time": 3.6,
+      "state": {
+        "drawn": 1,
+        "trace": 1,
+        "highlight": 0,
+        "morph": 0,
+        "settle": 0
+      }
+    },
+    {
+      "time": 4,
+      "state": {
+        "drawn": 1,
+        "trace": 1,
+        "highlight": 0,
+        "morph": 0,
+        "settle": 0
+      }
+    },
+    {
+      "time": 4.8,
+      "state": {
+        "drawn": 1,
+        "trace": 1,
+        "highlight": 1,
+        "morph": 0,
+        "settle": 0
+      }
+    },
+    {
+      "time": 6,
+      "state": {
+        "drawn": 1,
+        "trace": 1,
+        "highlight": 1,
+        "morph": 0,
+        "settle": 0
+      }
+    },
+    {
+      "time": 7.5,
+      "state": {
+        "drawn": 1,
+        "trace": 1,
+        "highlight": 1,
+        "morph": 1,
+        "settle": 0
+      }
+    },
+    {
+      "time": 7.6,
+      "state": {
+        "drawn": 1,
+        "trace": 1,
+        "highlight": 1,
+        "morph": 1,
+        "settle": 0
+      }
+    },
+    {
+      "time": 8.2,
+      "state": {
+        "drawn": 1,
+        "trace": 1,
+        "highlight": 1,
+        "morph": 1,
+        "settle": 1
+      }
+    },
+    {
+      "time": 10,
+      "state": {
+        "drawn": 1,
+        "trace": 1,
+        "highlight": 1,
+        "morph": 1,
+        "settle": 1
+      }
+    }
+  ]
+}

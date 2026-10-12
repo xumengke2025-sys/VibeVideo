@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-11",
+  "status": "project_config_active_and_explicit_model_dispatch_tested",
+  "project_config": ".codex/config.toml",
+  "effective_config_evidence": "effective-config.json",
+  "primary_project_default": {"model": "gpt-6.1-sol", "reasoning_effort": "high"},
+  "max_concurrent_subagents": 2,
+  "trust": "First read showed project layer disabled; subsequent check found project already trusted. Trust script made no user configuration change.",
+  "agents": [
+    {"role": "video_director", "model_dispatch_parameter": "gpt-6-astra", "reasoning_effort_dispatch_parameter": "high", "dispatch_api": "collaboration.spawn_agent", "fork_turns": "none", "task": "/root/video_director_activation", "completed": true, "evidence": "director-smoke-result.md"},
+    {"role": "video_reviewer", "model_dispatch_parameter": "gpt-6-astra", "reasoning_effort_dispatch_parameter": "medium", "dispatch_api": "collaboration.spawn_agent", "fork_turns": "none", "task": "/root/video_reviewer_activation", "completed": true, "evidence": "reviewer-smoke-result.md"}
+  ],
+  "limitations": [
+    "Current chat explicit model/effort selection can override project defaults; no live chat model switch was performed.",
+    "Dispatch tool provides explicit model/effort controls, but does not provide a custom agent name selector. Tests read role contracts explicitly; custom TOML name discovery is not independently demonstrated.",
+    "No separate backend token/model telemetry was returned; recorded model/effort are actual tool dispatch parameters, not role self-reports.",
+    "These are role invocation checks, not new video production, full audiovisual acceptance, or proof of cost/quality improvement."
+  ]
+}

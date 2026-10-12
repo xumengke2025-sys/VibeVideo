@@ -1,0 +1,124 @@
+{
+  "repo": "sanjuhs/opus-5.5-film-experiment-with-animation",
+  "repository": "https://github.com/sanjuhs/opus-5.5-film-experiment-with-animation",
+  "commit": "4ca181d7d839248e87027065be89bd6407e42c01",
+  "checked": "2026-10-12",
+  "archiveMethod": "raw-files with Git blob SHA1 + SHA256",
+  "scope": "完整仓库文件快照（不含Git历史）",
+  "licenseFiles": [],
+  "usage": "未发现明确许可证，仅本地研究；复制发布或改编复用需作者许可",
+  "modelEvidence": [
+    "Made as an experiment with Claude Opus 5.5."
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 217,
+      "gitBlobSha1": "ab843628ac75cefef0457facfdf60bf2b32a956c",
+      "sha256": "41afd5add5309e65c2249bcbe5828bd361fa0c2bbe4df4a22f56694d6698fd89"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1366,
+      "gitBlobSha1": "e12baf5cac28ee4b8ffc6540c2396524c3720295",
+      "sha256": "ea4306512656e24d2ee634607b546ede9cf01e31151a5eca2d53b81a966c11a0"
+    },
+    {
+      "path": "audio/final_mix.wav",
+      "bytes": 25020620,
+      "gitBlobSha1": "3ea433fc6db6aeeab13aae3b7929bd0f1bd68d7c",
+      "sha256": "51fdc7d9b9f47bf91d5e4aa6a7c9dcb490bb6c3bba154af9c6d4e105313aa416"
+    },
+    {
+      "path": "narration.json",
+      "bytes": 8219,
+      "gitBlobSha1": "ffe30637160cdc5c1326d50f4825fe6ea5d8c43a",
+      "sha256": "6468d35a2ec511f85786fd7a108424e2f2541de5457a538af882c3a3899a3c0a"
+    },
+    {
+      "path": "out/vietnam-war-explained-vertical-web.mp4",
+      "bytes": 22281792,
+      "gitBlobSha1": "4462055110806cea7cb8ebb5efc6da59a2670488",
+      "sha256": "c872cb8a737f6f3ecb0afb021eed4dde783b52ecef16ae92c6aafdd9e0055e6c"
+    },
+    {
+      "path": "out/vietnam-war-explained-web.mp4",
+      "bytes": 23759496,
+      "gitBlobSha1": "0304bd768041f6cd066cf75163ae90fa8d89c96f",
+      "sha256": "6ee4c3663033555584639ab9d9307bf978c0d07f0ae7d6be712144d756fa4438"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 1244,
+      "gitBlobSha1": "ca9f385a664a5231bbadd63c6ce344347e6afa83",
+      "sha256": "75e13349a9989a4bfc4f70ee3ed826f625104ff8c15302c90a8bad1b2c56ed46"
+    },
+    {
+      "path": "package.json",
+      "bytes": 297,
+      "gitBlobSha1": "435a36121fddd8c91e7e1e32050e6120ed5dec14",
+      "sha256": "d7b558efd68c0600f813a71c526f19eba1f5f926040ae7cb60bea889d4d2a455"
+    },
+    {
+      "path": "scripts/build_audio.py",
+      "bytes": 12419,
+      "gitBlobSha1": "ca822cf916b029921b1a5e41903c4d32cbb839fb",
+      "sha256": "f66d6771a2235ab80fb81565ce4c9d9ef26e704b0223cc4ceaf7baf3910cc7ab"
+    },
+    {
+      "path": "scripts/render.mjs",
+      "bytes": 2881,
+      "gitBlobSha1": "f086d8b1457f818153a838bf19ad9f1bdf9089fc",
+      "sha256": "f0d0c6cb21830ea6ce5190cf518eda56d8e46bfed8b06f22c84668934675f9af"
+    },
+    {
+      "path": "src/assets.js",
+      "bytes": 9712,
+      "gitBlobSha1": "8f3076ea7707d4dc6dd1e4cb13a92521a48b5377",
+      "sha256": "5710795d5ca5a4dadb75698190a12d12c7768724cd8aa3b7d93a45ffe32095af"
+    },
+    {
+      "path": "src/core.js",
+      "bytes": 9587,
+      "gitBlobSha1": "541bc9d8064c2f7e7e641446dc98c4bdf1437d4d",
+      "sha256": "aa2d348087ab3b68d3908b6838997da8059e712cdedf119d2c6a9eed47a4f27b"
+    },
+    {
+      "path": "src/index.html",
+      "bytes": 3086,
+      "gitBlobSha1": "5b0af911443c27a5410af91a358afcd88c785175",
+      "sha256": "8463872229d81df137caa0832b07521cdb1206364f92d5284b1d785e268ea2a4"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 7643,
+      "gitBlobSha1": "26849699b3b68269eebb77898d654ed504313632",
+      "sha256": "e514e404c7e751d7c94682db6c26e9b371c3ec4189c52b029c436082f15305ac"
+    },
+    {
+      "path": "src/map.js",
+      "bytes": 9064,
+      "gitBlobSha1": "1865174758015d577568a8fd4fca3e587871fab7",
+      "sha256": "965127454359095bc6917d7116fb5fb126f46005d6d58dd6eb17f12450974a7f"
+    },
+    {
+      "path": "src/scenes.js",
+      "bytes": 62073,
+      "gitBlobSha1": "d62a09f34ab6cd0b4edd422a9f6ddea253dc8f20",
+      "sha256": "3f9fc033a98f39ee60b9ca3e61ab6b95e2477e37dfc1dcbbc8c6d8908237dd4f"
+    },
+    {
+      "path": "src/timings.js",
+      "bytes": 5699,
+      "gitBlobSha1": "bb01be2d31a8ecab4b7070ff8ffccae66f52639b",
+      "sha256": "f2334adad41bf74643b9d7ef70c2750cc816988865d8c777822e1808a0cabd55"
+    }
+  ],
+  "missing": [],
+  "verification": {
+    "snapshotExtracted": true,
+    "gitBlobVerified": true,
+    "sourceExecuted": false,
+    "avReviewed": false
+  }
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "name": "matcha",
+    "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\matcha-morph-20261011\\out-preview-r3\\matcha-steam-dry.mp4",
+    "sha256": "f29a2c1e8e38a3c56c2e62c14d8942f31ff4f52dc238756c85ca09d3ec535692",
+    "frames": 150,
+    "duration": 5.0,
+    "size": [
+      540,
+      960
+    ],
+    "batches": 1,
+    "repair_round": 1,
+    "packet": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\matcha-morph-20261011\\qa\\performance-resume\\packet.json",
+    "status": {
+      "video_sha256": "f29a2c1e8e38a3c56c2e62c14d8942f31ff4f52dc238756c85ca09d3ec535692",
+      "run_started_at": null,
+      "last_actual_progress_at": null,
+      "progress_fingerprint": "6350ed93f5e0776d5f2419665f0acea00f2472814cbc2b12a5f4b5cf89768000",
+      "paused": true,
+      "no_progress_minutes": 0.0,
+      "accepted_reports": [],
+      "delivery_due": false,
+      "delivery_verdict": "incomplete",
+      "next_action": "paused",
+      "visual_gaps": [
+        [
+          0,
+          149
+        ]
+      ],
+      "audio_gaps": [
+        [
+          0,
+          5.0
+        ]
+      ]
+    }
+  },
+  {
+    "name": "wastewater",
+    "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\wastewater-isometric-20261011\\out\\preview-v1\\video.mp4",
+    "sha256": "9cbab67a9e73bc0a15bedb10a41a983786d5c36400bdf7c188c7bbcda45cace4",
+    "frames": 1125,
+    "duration": 75.0,
+    "size": [
+      540,
+      960
+    ],
+    "batches": 8,
+    "repair_round": 0,
+    "packet": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\wastewater-isometric-20261011\\qa\\performance-resume\\packet.json",
+    "status": {
+      "video_sha256": "9cbab67a9e73bc0a15bedb10a41a983786d5c36400bdf7c188c7bbcda45cace4",
+      "run_started_at": null,
+      "last_actual_progress_at": null,
+      "progress_fingerprint": "6350ed93f5e0776d5f2419665f0acea00f2472814cbc2b12a5f4b5cf89768000",
+      "paused": true,
+      "no_progress_minutes": 0.0,
+      "accepted_reports": [],
+      "delivery_due": false,
+      "delivery_verdict": "incomplete",
+      "next_action": "paused",
+      "visual_gaps": [
+        [
+          0,
+          1124
+        ]
+      ],
+      "audio_gaps": [
+        [
+          0,
+          75.0
+        ]
+      ]
+    }
+  }
+]

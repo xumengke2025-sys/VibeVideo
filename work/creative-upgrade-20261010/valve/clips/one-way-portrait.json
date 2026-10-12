@@ -1,0 +1,240 @@
+{
+  "id": "one-way-portrait",
+  "style": "blueprint",
+  "title": "只向一个方向",
+  "duration": 15,
+  "fps": 24,
+  "timingDriver": "action",
+  "seed": 1701,
+  "readingRate": 4.5,
+  "readingBuffer": 0.55,
+  "facts": {
+    "classification": "弹簧止回阀原理示意，非工程设计或流体模拟",
+    "source": "https://en.wikipedia.org/wiki/Check_valve",
+    "claim": "正向压差克服预载后开启，位移由刚度/行程限制；卸载弹簧复位，逆压加强关闭。准静态示意，不是动态力学或流体仿真。"
+  },
+  "events": [
+    {
+      "id": "phenomenon-open",
+      "at": 0.15,
+      "duration": 0.4,
+      "anchor": "valve-body",
+      "action": "phenomenon-open",
+      "result": "shared pressure/section/camera state"
+    },
+    {
+      "id": "phenomenon-close",
+      "at": 1.15,
+      "duration": 0.4,
+      "anchor": "valve-body",
+      "action": "phenomenon-close",
+      "result": "shared pressure/section/camera state"
+    },
+    {
+      "id": "section",
+      "at": 2.5,
+      "duration": 1.3,
+      "anchor": "valve-body",
+      "action": "section",
+      "result": "shared pressure/section/camera state"
+    },
+    {
+      "id": "near",
+      "at": 3.8,
+      "duration": 1.2,
+      "anchor": "valve-body",
+      "action": "near",
+      "result": "shared pressure/section/camera state"
+    },
+    {
+      "id": "open",
+      "at": 5,
+      "duration": 1.7,
+      "anchor": "valve-disc",
+      "action": "open",
+      "result": "shared pressure/section/camera state"
+    },
+    {
+      "id": "close",
+      "at": 8.7,
+      "duration": 1.4,
+      "anchor": "valve-disc",
+      "action": "close",
+      "result": "shared pressure/section/camera state"
+    },
+    {
+      "id": "reverse",
+      "at": 11,
+      "duration": 0.5,
+      "anchor": "valve-disc",
+      "action": "reverse",
+      "result": "shared pressure/section/camera state"
+    },
+    {
+      "id": "far",
+      "at": 12.2,
+      "duration": 1.8,
+      "anchor": "valve-body",
+      "action": "far",
+      "result": "shared pressure/section/camera state"
+    },
+    {
+      "id": "settle",
+      "at": 12.4,
+      "duration": 1.6,
+      "anchor": "valve-body",
+      "action": "settle",
+      "result": "shared pressure/section/camera state"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 2.5,
+      "text": "正向过，反向停"
+    },
+    {
+      "start": 2.5,
+      "end": 5,
+      "text": "答案藏在接触处"
+    },
+    {
+      "start": 5,
+      "end": 8.7,
+      "text": "压差推开，弹簧压缩"
+    },
+    {
+      "start": 8.7,
+      "end": 10.9,
+      "text": "卸载，弹簧复位"
+    },
+    {
+      "start": 10.9,
+      "end": 12.4,
+      "text": "逆压关闭"
+    },
+    {
+      "start": 12.4,
+      "end": 15,
+      "text": "一开一闭，单向通行"
+    }
+  ],
+  "silences": [],
+  "shots": [
+    {
+      "id": "phenomenon",
+      "start": 0,
+      "end": 2.5,
+      "intent": "先有现象和问题",
+      "action": "正向/逆向符号对照",
+      "camera": "完整同一器件",
+      "states": {
+        "establish": 0.1,
+        "action": 0.8,
+        "result": 2.3
+      },
+      "risks": [
+        [
+          1.4,
+          2.3
+        ]
+      ]
+    },
+    {
+      "id": "discover",
+      "start": 2.5,
+      "end": 5,
+      "intent": "从外观揭示同一接触",
+      "action": "下移剖切再靠近",
+      "camera": "保留中心线与器件身份",
+      "states": {
+        "establish": 2.6,
+        "action": 3.3,
+        "result": 4.8
+      },
+      "risks": [
+        [
+          3.4,
+          4.95
+        ]
+      ]
+    },
+    {
+      "id": "force",
+      "start": 5,
+      "end": 10.5,
+      "intent": "开度与弹簧压缩由载荷控制",
+      "action": "正向力增加、开通、卸载回座",
+      "camera": "近景读行程，接触处停机",
+      "states": {
+        "establish": 5.1,
+        "action": 6.4,
+        "result": 10.3
+      },
+      "risks": [
+        [
+          5.4,
+          6.8
+        ],
+        [
+          9.1,
+          10.4
+        ]
+      ]
+    },
+    {
+      "id": "blocked",
+      "start": 10.5,
+      "end": 15,
+      "intent": "逆压止于闭合接触后收束",
+      "action": "逆向箭头停在阀瓣下，回收总览",
+      "camera": "停机观察接触，再拉回",
+      "states": {
+        "establish": 10.6,
+        "action": 11.8,
+        "result": 14.7
+      },
+      "risks": [
+        [
+          10.6,
+          11.8
+        ],
+        [
+          12.2,
+          14
+        ]
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "time": 2.5,
+      "kind": "continuous",
+      "anchor": "valve-disc / centreline",
+      "window": [
+        2.4,
+        2.6
+      ]
+    },
+    {
+      "time": 5,
+      "kind": "continuous",
+      "anchor": "valve-disc / centreline",
+      "window": [
+        4.9,
+        5.1
+      ]
+    },
+    {
+      "time": 10.5,
+      "kind": "continuous",
+      "anchor": "valve-disc / centreline",
+      "window": [
+        10.4,
+        10.6
+      ]
+    }
+  ],
+  "width": 1080,
+  "height": 1920
+}

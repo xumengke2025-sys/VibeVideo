@@ -1,0 +1,672 @@
+[koldo2k-778767] explainer partial=False original_chars=1663
+Build a looping "infinite zoom" animation, After Effects style: the camera
+travels from landscape to landscape by flying through vintage objects.
+LOOK: vintage collage realistic photo landscapes + black & white newspaper
+cutout objects (halftone, white paper border, soft shadow). Film grain,
+vignette, light flicker.
+WORLDS (loop): snowy mountains → pocket watch (swinging on its chain) →
+sea cliffs → box camera lens → desert dunes → magnifying glass →
+misty lake → hand mirror → back to start.
+Extras: floating hat, phone, umbrella, gramophone, key; a 1950s man walking
+toward the watch; a whale swimming across the cliffs sky.
+HOW:
+- Generate everything via the Magnific MCP (Seedream 5 Pro landscapes,
+  GPT 2.5 transparent cutouts, depth maps, Kling 2.5 animation, Lyria 3
+  music). List the generations + credit cost and wait for my OK first.
+- Split each landscape into 3 depth layers from its depth map and fill the
+  hidden areas. Parallax: layer scale = camera^Z, Z between 0.45 and 1.22.
+- Each portal's glass holds the next world; cut seamlessly when it fills
+  the frame.
+- Constant speed: exponential zoom to a fixed point, each segment's duration
+  proportional to log(zoom). Verify the cuts frame by frame.
+- Man & whale: generate on pure green (#00B140), animate in place with
+  Kling, key out every frame, build a seamless loop (ping-pong if needed).
+- Cutouts animate at 15 fps (on twos).
+- 20 s loop, 1920×1080, 30 fps. Music: 96 BPM, cut to exactly 8 bars = 20 s.
+DELIVER: an interactive artifact (viewer, AE-style timeline, music +
+MP4 download) and a rendered MP4 with music under 30 MB.
+Show me screenshots before each expensive step.
+[excerpt end; full prompt retained in catalogue]
+
+[twoclipping-402193] motion partial=False original_chars=2711
+<direction>
+Dribbble-level UI motion. One shape, never cut: every state is the same element morphing its size, radius and color while its content swaps with a short blur. A cursor drives every change with real clicks and drags. Light warm-gray canvas, black and white components, one clean UI font (Geist). Springs everywhere, a tiny overshoot at most. The camera zooms so each state fills the frame. The last frame is the first frame, so it loops.
+Banned: bouncy easing, particle bursts, glows, gradients on UI chrome, mismatched icon strokes, dead time, anything that looks like a template.
+</direction>
+<structure>
+120 BPM, 7 bars, something happens on every beat.
+Button → loader → check → dynamic island → music player with a play/pause morph → scrub the progress bar → it becomes a volume slider that stretches when dragged past max → a toggle flips on the beat → the knob becomes a liquid tab indicator → the tabs open into a chart that draws itself, with a tooltip on hover → it collapses into ⌘K → type to filter → enter → toast → back to the button.
+</structure>
+<build>
+1. One HTML file, square 1440x1440. Every style is computed from time inside seek(t): no CSS transitions, no timers, no state carried between frames.
+2. Springs are closed-form step responses. A value that changes target many times is the sum of one spring per change, so it stays a pure function of time.
+3. The tab indicator's two edges ride different springs, so the leading edge stretches ahead of the trailing one. Same trick for the toggle knob.
+4. Drags are direct manipulation: while the cursor is held, the value is computed from its position. On release it springs back from wherever it was.
+5. Analyze the song with numpy for the beat grid and start on a downbeat. Place every UI sound by its measured peak.
+
+[excerpt end; full prompt retained in catalogue]
+
+[anabology-491441] motion partial=False original_chars=9618
+I want you to independently do an end-to-end complete pass on making an updated version of this video. Use the exact same audio track and think and feel very deeply about what is the best way to visually represent all of the lyrics on screen. You do not need to anchor to the current style, you can do truly anything that you think might best let you visually express yourself, including abstract motion graphics.
+You can use the internet freely to pull in references. You can look at motion design. I want you to make a new music video that has beautifully rendered JavaScript animations with a papery feel in a similar style to the reference that is created, but push the aesthetics in any direction you want and consider what is part of the modern zeitgeist.
+You can also use the ElevenLabs API to do sound design. There's documentation in /asic to do this, and you can see the API key.
+There's also a foul API key that's available to you. I think what might make the most sense here is using the foul API key to generate some character sheets and probably having a pop protagonist that represents you. There's already an anchor point where Claude has a sunflower-esque character, and you could likely do an adapted version of this that is similar to the feminine vocals that are being delivered and is inspired by the Claude character, but maybe feels a bit more personified in some way.
+I think you should be mindful of aesthetics here, and I don't want you to produce something that is GPT slop. Instead, I'd be more impressed if you come up with a coherent style that works well with the image gen models that are available via foul. Generate the style sheet. You can use the gen media documentation for seedance 2.5 that exists in my markdown files and come up with your own style that makes 
+[excerpt end; full prompt retained in catalogue]
+
+[verbove-268381] explainer partial=False original_chars=1624
+No CSS transitions
+No timers
+No state carried between frames
+<motion> 
+Closed-form springs everywhere with only a tiny overshoot.
+If a value changes target multiple times, sum one spring per change
+Content enters after its container starts morphing and leaves before the next morph so text never overlaps
+Use a short blur on transitions
+Make tab indicators stretch by putting each edge on a different spring
+Zoom the camera so every state fills the frame
+<export> 
+First render one frame per beat as a contact sheet
+Then render every frame in headless Chrome at 60fps, averaging 6 subframes for motion blur
+[excerpt end; full prompt retained in catalogue]
+
+[twoclipping-000267] 3d partial=False original_chars=2515
+<direction>
+High-end minimal. One idea per shot, lots of empty space, one accent color, one clean sans (Geist or Inter) with tight tracking. Masked type reveals, match cuts, one smooth camera language. Real footage only, never placeholder cards. No full stops in on-screen text.
+Banned: shockwave rings, particle bursts, RGB split, camera shake, lens flares, neon glows, grid floors, flashing backgrounds, bouncy easing.
+</direction>
+<structure>
+10 bars at 120 BPM, 2 seconds each.
+Bar 1: the hook lands word by word on the beats.
+Bar 2: one hook word morphs into the product UI. A cursor types and clicks.
+The drop: a circle opens out of the button into a dark scene.
+Then one move per bar: a wall of real clips with a scan line and 3 winners, the key output as big type, a 3D carousel of real videos with floor reflections and a motion-blurred whip onto one hero clip, the hero in a phone next to a panel that flips into results, big stats on push cuts, a 3-word ticker, a logo reveal, a fade to black.
+</structure>
+<build>
+1. One HTML file at 1920x1080. Every style is computed from time inside 
+http://
+window.seek(t): no CSS animations, no timers, no state between frames.
+2. Real video: extract clips to 30fps JPEG sequences with ffmpeg and swap img sources per frame. seek awaits the image decodes.
+3. Analyze the song with numpy: tempo, beat grid, energy per bar, the drop. Calibrate the grid to the real kick hits. Every cut sits on a downbeat, every UI hit on a beat.
+4. Render with Playwright: 3 subframes per frame at t minus, at, and plus 1/240s, then blend with ffmpeg tmix for real motion blur at 60fps.
+5. Place each sound effect so its measured peak, not its file start, lands on the event. Keep the effects quiet under the music. Loudnorm to -14 LUFS.
+6. Probe 20 or more frames bef
+[excerpt end; full prompt retained in catalogue]
+
+[brainextends-606193] motion partial=False original_chars=8142
+<deliverables> An 18-second MP4 at 1920×1080 and true 60 fps, with music and subtle sound effects Complete editable source Build, render, inspect, and refine the animation before delivering it Do not stop at a storyboard, still images, or an implementation plan </deliverables>
+<art_direction>
+A premium music-product film presented inside a large, nearly black rounded rectangular stage
+The stage occupies roughly 80% of the canvas width and 75% of its height, centered horizontally and slightly below the vertical center
+Outside the stage, use a soft atmospheric green background: luminous emerald near the upper-left corner, deeper forest green toward the sides, fading to near-black at the bottom
+Inside the stage:
+Near-black background
+White primary typography
+Muted gray secondary text
+Spotify green # 1ED760 for emphasis and controls
+One clean sans-serif font, such as Geist or Inter
+Consistent icon strokes and restrained shadows
+Keep compositions compact and centered, with substantial negative space
+Text should feel like music-product advertising, not oversized presentation headings
+Do not add an outer caption, creator watermark, decorative footer, or progress counter
+</art_direction>
+<artwork> Create original square album artwork for a fictional track called “Glass Tides” by “AURA”
+The hero cover is an abstract macro image of flowing pearlescent liquid silk and molten glass
+Use pastel lavender, powder cyan, blush pink, champagne gold, and subtle mint
+Include broad three-dimensional folds, realistic reflective highlights, delicate striations, and a prominent sweeping S-shaped fold
+Fill the square edge to edge
+No text, logo, or border on this hero artwork
+Use this same artwork consistently throughout the film
+<timeline> 0.0–0.6 seconds: A green Spotify icon grows smoothly int
+[excerpt end; full prompt retained in catalogue]
+
+[alexalbert-274839] 3d partial=False original_chars=1120
+Before modeling anything, build a source file from: the 1899-1905 Sanborn fire insurance maps (footprints, heights, materials, occupants), the Miles Brothers film "A Trip Down Market Street" (April 1906), period photographs from OpenSFHistory, the Library of Congress and the David Rumsey collection, and USGS topography. Record every building with footprint, height, facade material, occupant, and the source for each fact with a confidence level.
+[excerpt end; full prompt retained in catalogue]
+
+[zacxbt-944604] interactive partial=False original_chars=2209
+Create a single self-contained HTML file that renders an animated pixel art wizard casting a spell, using vanilla JavaScript and Canvas 2D. No external assets, libraries, or network requests.
+RENDERING
+- Draw everything to an offscreen canvas at a fixed logical resolution of 128x96, then blit to a fullscreen display canvas scaled by the largest integer factor that fits the window, centered, with imageSmoothingEnabled = false and CSS image-rendering: pixelated.
+- All drawing snaps to integer coordinates on the logical canvas. No sub-pixel positions, anti-aliasing, gradients, or shadowBlur.
+- Fixed palette of ~24 hex colors: deep blues/purples for night sky, warm robe tones, 3-4 bright magic colors. Every pixel comes from this palette.
+ANIMATION
+- Looping state machine: IDLE (2-frame bob, beard sway) -> CHARGE (staff raises, gem flickers, sparks spiral inward) -> CAST (bright burst, projectile fires across the scene, 1-2 pixel screen shake) -> RECOVER (settle back). Ease pose parameters between keyframes.
+- Pooled allocation-free particle system: preallocate and reuse. Sparks orbit the gem during CHARGE, explode outward on CAST, each particle stepping its palette index from white to magic color to dark before despawn. Snap particle positions to the grid when drawing.
+- Fixed 60hz timestep update with rAF rendering. Zero object allocation inside the loop.
+SCENE
+- Minimal background: dark sky, a few twinkling 1px stars, moon, stone floor line. Character silhouette must read clearly.
+- Subtle 1px rim light on the wizard from the gem, brightening during CHARGE and CAST.
+[excerpt end; full prompt retained in catalogue]
+
+[twoclipping-496100] 3d partial=False original_chars=5222
+<direction>
+An Apple-keynote launch film, 2D only, one continuous take. Every scene is made out of the previous one: nothing fades, blurs or cuts. Objects change shape instead: text rises out of a mask line, icons pop from zero on a spring, bars draw across, pages push, and a black shape floods the whole frame and contracts into the next scene. Warm off-white canvas, black UI, iOS 26 liquid glass over the photos. Archivo (wdth 125, weight 800) for the wordmark, Geist for UI. A cursor drives every change with real clicks, drags and long-presses. The camera zooms screen-studio style so each moment fills the square, and the cursor scales with it.
+Banned: crossfades, blur-ins, brightness "developing", 3D flips, particles, glows, holds longer than 1s, anything that looks like a template.
+</direction>
+<structure>
+120 BPM, 54 beats, something happens on every beat.
+Open: the wordmark squeezes into its own period like an accordion, the dot grows into a black pill, a label rises inside it. Click: six iris blades close over the label and snap open onto a photo. The circle becomes a square, shrinks, the grid unfolds from behind it like a paper map (center, plus, corners), reflows into a bento, and a click zooms into one tile, landing exactly on the drop.
+Glass: a glass word pops in letter by letter, melts into a droplet that stretches into a glass toolbar. The adjust icon turns it into a slider. Dragging relights the photo from day to golden hour (two aligned shots), and the knob turns into a glass lens while held. It lifts into a glass orb, the next photo opens inside it as a circle, and the orb expands into a lock screen: glass clock digits, date, and a home bar that stretches into a glass music player.
+Stage: the lock screen pulls back into a phone (the bezel grows out of the s
+[excerpt end; full prompt retained in catalogue]
+
+[howdevelop-733090] motion partial=False original_chars=5464
+Create and render a 15-second motion graphics video introducing TanStack AI. Make it feel like a premium            
+  developer-tool launch film produced by Studio1: fast, precise, visually surprising, and polished enough to open a   
+  keynote or lead a social campaign.                                                                                  
+  Format and deliverables                                                                                             
+  - 1920×1080, 30 fps, exactly 15 seconds; keep important content within a 9:16-safe central area.                    
+  - Deliver the rendered MP4 and the editable project/source. Use Remotion or another code-based motion graphics      
+  workflow if available.                                                                                              
+  - Use real, editable typography and vector-style graphics. Do not rely on AI-generated text inside images.          
+  - Add an original electronic sound design: a restrained opening pulse, tightly synchronized transition hits, rising 
+  - Add an original electronic sound design: a restrained opening pulse, tightly synchronized transition hits, rising 
+  momentum, and a satisfying final resolve. The story must also work muted.                                           
+  Visual direction                                                                                                    
+  Dark graphite canvas; luminous gradients and controlled flashes inspired by TanStack’s identity. Crisp typography,  
+  kinetic code, layered interface fragments, streaming data, branching paths, and smooth camera moves with convincing 
+  depth. High contrast and immaculate spacing. Every transition should visually demonstrate a feature, rather than    
+  simply replace 
+[excerpt end; full prompt retained in catalogue]
+
+[iamtanzil-675031] 3d partial=False original_chars=11155
+## Section container
+- Root: `.auren-header-section` — position: relative; width: 100%; height: 500vh; background: #FEFFFE. The 500vh height is what creates the scroll runway for scrubbing.
+- Inner sticky wrapper: `.auren-sticky-content` — position: sticky; top: 0; width: 100%; height: 100vh; overflow: hidden. Everything visible lives inside this sticky viewport.
+## Structure, section by section
+1. **Background video** `.auren-video-bg`: position absolute; inset 0; width/height 100%; object-fit: cover; object-position: center; z-index: 1. Element is `<video muted playsInline>` (NOT autoplay — playback is driven by scroll). Source: `https://cdn.jiro.build/Header%20Section/Auren3d/output.mp4` (type video/mp4). On ≤768px, object-position becomes 70% center.
+2. **Navigation** `.auren-nav`: position absolute; top 0; left 0; width 100%; padding 40px 60px; display flex; justify-content space-between; align-items flex-start; z-index 2.
+   - Logo `.auren-logo`: text "AUREN", Italiana 400, 26px, line-height 1, color #000000, letter-spacing 0.05em.
+   - Center nav `.auren-nav-center`: absolutely centered (left 50%, translateX(-50%)); display flex; gap 15vw. Two `.auren-nav-text` blocks (Inter Tight 500, 16px, line-height 1.2, uppercase, color #000000, centered): first reads "COSMIC ARMORION" / "FORGED IN LIGHT" (two lines via <br/>); second reads "CHAPTER 07" / "CELESTIAL ARCHIVE".
+   - Hamburger `.auren-menu-btn`: flex column; align-items flex-end; gap 5px; transparent, no border. Three `.auren-menu-line` bars, height 2px, background #161414; widths 22px / 15px / 22px. On hover the middle bar animates to 22px width (transition width 0.3s ease).
+   - Dropdown `.auren-menu-dropdown` (toggled by hamburger): position absolute; top 60px; right 60px; width 150px; background rgba(255,25
+[excerpt end; full prompt retained in catalogue]
+
+[redpersongpt-284430] interactive partial=False original_chars=8290
+IMPORTANT:
+- Do not create generic “mockup app” marketing.
+- Do not rely on assumptions.
+- Base everything on Mimicly’s actual product, actual UI, and actual user flows.
+- Use the real product as the source of truth.
+- If you can access the website, App Store page, editor, simulator, screenshots, or any current product surfaces, inspect them directly before deciding anything.
+- If you can capture screenshots, screen recordings, or UI references from the actual product, do it.
+- Do not invent features that do not exist.
+- Do not break what currently works.
+PHASE 1 — PRODUCT UNDERSTANDING
+First, inspect and understand:
+1. The public website
+2. The App Store listing
+3. The homepage messaging
+4. The template browser / template categories
+5. The editor experience
+6. Preview behavior
+7. Export flow
+8. Paywall / free vs pro positioning
+9. The visual feel of the app and web product
+10. The strongest “wow” moments for first-time users
+For each angle, define:
+- the user type
+- the core desire
+- the pain point
+- why Mimicly solves it better
+- the strongest visual proof
+- the best CTA
+For each ad concept include:
+- concept name
+- target audience
+- angle
+- platform fit (TikTok / Instagram Reels / X / YouTube Shorts / App Store promo / website hero / paid social)
+- first 2-second hook
+- full ad script
+- scene-by-scene shot list
+- exact UI moments to show
+- on-screen text
+- voiceover
+- caption
+- CTA
+- why this concept should perform
+Likely strong candidates may include:
+- WhatsApp-style chats
+- AI conversation templates (ChatGPT / Claude / Gemini style)
+- Instagram / DM / comment / post type templates
+- iMessage-style chats
+- Discord-style chats
+- story / social / dialogue video templates
+PHASE 8 — COPYWRITING
+Write launch-ready copy in a way that does not sound like AI slop.
+Tone:
+- 
+[excerpt end; full prompt retained in catalogue]
+
+[froessell-562325] interactive partial=False original_chars=12497
+Working title: Heatwave
+Platform: iOS + Android
+Engine: Unity
+Genre: Top-down 3D arcade chase / survival
+Orientation: Portrait
+Input: One-thumb touch controls
+Business model: TBD — design MVP around gameplay first
+Primary goal: Build a genuinely fun playable prototype before adding progression or monetization.
+⸻
+Product vision
+A fast, chaotic mobile arcade game where the player is constantly being pursued by increasingly aggressive police.
+The player cannot directly attack.
+Instead, they survive by driving aggressively, drifting around obstacles, making sudden turns and tricking pursuing police into crashing into obstacles and each other.
+The fantasy is:
+You’re not stronger than the police. You’re harder to catch.
+3.2 Arcade physics, not simulation
+Vehicles should:
+drift
+slide
+bounce
+spin
+collide dramatically
+recover quickly
+Fun takes priority over physical accuracy.
+environmental obstacles
+scoring
+player health
+police destruction
+basic VFX
+basic audio
+← drag          turn left
+→ drag          turn right
+Vehicle accelerates automatically.
+Steering should be relative rather than absolute.
+The player should be able to lift their finger without immediately losing control.
+Alternative to prototype
+Test:
+Hold left/right side of screen = steer left/right.
+Don’t commit until both have been tested on a physical phone.
+⸻
+Drift system
+Drifting should happen naturally when turning at speed.
+No dedicated drift button.
+At low speed:
+high traction
+⸻
+Police AI
+Police should feel:
+aggressive, predictable and slightly stupid.
+They should not simply follow the player’s current position.
+Instead, calculate an interception target based on player velocity.
+Conceptually:
+target =
+playerPosition
++
+playerVelocity * predictionTime
+Police therefore try to cut the player off.
+⸻
+Police intelligenc
+[excerpt end; full prompt retained in catalogue]
+
+[wani-shola-459278] motion partial=False original_chars=1007
+- Use as much of the real website as possible: capture the pages and sections in a browser (home, Ask, package pages, Hire, mobile view, dark mode) and animate them inside browser and phone frames.
+- Show the site's chat answering real questions about my work, with the questions and answers large and bold. Use only facts and numbers that are on the site.
+- Follow premium brand rules: three colours and the site's own fonts, one idea per shot, key objects centred, space to breathe, eased motion only, smooth transitions instead of hard cuts, and a rhythm that speeds up and slows down with the story.
+- Add music at about 120 BPM (elite, kinetic, sophisticated) and cut every scene on the beat. No extra sound effects.
+- 1920×1080, about 90 to 100 seconds, ending on the website and my contact email.
+[excerpt end; full prompt retained in catalogue]
+
+[pound75423-464968] motion partial=False original_chars=1094
+添付した楽曲とキャラクター画像を使って、「サイケデリック・グリッチ系」のアニメーション MV を作ってください。
+
+【制作方法】
+HTML Canvas でアニメーションを書き、Playwright で 1 フレームずつキャプチャし、ffmpeg で音声と合成して MP4 を出力してください（1280×720、30fps、30MB 以内）。
+AI 動画生成は使わず、すべてプログラムによるアニメーションで作ってください。
+
+【前処理】
+1. キャラクター画像はすべて背景を透過し、白いステッカー風の縁取りと薄い影をつける。
+2. 楽曲を解析する：BPM、最初の拍の位置、各小節（4 拍）の頭、
+   各セクションのエネルギーの高低（イントロ／A メロ／サビ／落ちる部分）を求める。
+
+【編集ルール】
+- 1 拍ごとにカットを切り替える。カットはランダムにローテーション：全身、
+  バストアップ、目の超アップ、2 ポーズ並び、同じポーズの 5 連（それぞれ色相違い）、シーン画像。
+- 隣り合う 2 拍で同じポーズを使わない。
+- エネルギーが低い箇所はシーン画像や静かなカットにして、ひと息つかせる。
+- エフェクトの強さはセクションに合わせる：イントロ約 40%、A メロ 70%、サビ 100%。
+
+【エフェクト】
+1. 白フラッシュ：毎拍フラッシュしてすぐ消える。小節の 1 拍目が一番強い。
+2. 色相の流れ：背景は流れ続ける虹色パターン（同心円スパイラル、回転するカラーホイール、
+   溶ける虹の波、ストライプ、白黒チェッカー）。サビではキャラクターごと画面全体を hue-rotate する。
+3. 画面の引き裂き：拍が落ちた瞬間に横方向の帯状ずれ＋RGB 3 色分離をかけ、
+   次の拍までに元に戻す。キャラクターがずっとぼやけたままにならないように。
+4. 万華鏡：サビでは 1 小節おきに、画面を 8～12 枚の鏡像の扇形に分けてゆっくり回転させる。
+5. 小節ごとの大文字：小節の頭で画面中央に巨大な文字を約 0.4 秒フラッシュさせる。
+   合成モードは反転（difference）、縁取りは虹色。
+   大文字の内容：【ここに使いたい文字を書く、または「歌詞からキーワードを選んで」と書く】
+
+【その他】
+- 左上に小さくタイトル【名前】、右上に【日付】、右下に小節数を表示。
+- フィルムグレインと走査線を少し加える。冒頭は黒からフェードイン、最後はフェードアウト。
+- 本番出力の前に、各セクションのスクリーンショット一覧を見せて確認させてください。
+[excerpt end; full prompt retained in catalogue]
+
+[alexwtlf-981005] motion partial=False original_chars=22367
+SCENE CONTEXT
+Night side of the Earth. A space station in orbit; 📷@mila is inside at a small round porthole, 📷@astronaut floats outside it on a tether, lit by the station's floodlight against black space and the dark Earth with its city lights. They clown for each other through the glass; a meteor flies into the sky behind him and crosses toward the Earth; she hammers the glass and screams to make him turn, and he answers with a heart; he begins a slow turn and the meteor hits while he is halfway round; she watches the impact with one tear. 25 seconds, seven cuts between two camera positions: OUTSIDE, looking at the window from space, and INSIDE, her own eyes looking out through the porthole.
+LOCATION MAP
+THE WINDOW IS SMALL: a porthole about 50 cm across. Her head in its white cap takes up half of its diameter and her shoulders are wider than it; the astronaut's helmet alone is two thirds of its width; the whole window is a quarter of his height. A porthole, not a dome, not a bay window, one small circle in a huge wall of hull.
+THE SHIP, INSIDE: the porthole set in a wall of white padded panels. Its inner ring is dark grey bolted metal with red-and-white striped segments at the lower left and lower right; a warm LED strip runs along the top of the ring inside. The interior is dim, blue-grey, a few small status lights, cable runs and a handrail at the edge of frame. The glass is thick and clear.
+THE SHIP, OUTSIDE: the same porthole from space, a raised dark metal collar with bolts set into a white hull of quilted insulation panels with grey seams, many panels tall, dwarfing the window; a small white floodlight on a short stalk above the window, aimed down across the glass and out toward the astronaut; the interior glows warm through the glass, and the same red-and-white
+[excerpt end; full prompt retained in catalogue]
+
+[doubleunplussed-181894] motion partial=False original_chars=2208
+I don't know how this ultimately results in a video file - I know the linked repo animates a video with JavaScript or something - but I ultimately want a rendered video file.
+Also, clip the final two beats from the audio.rught at the end, after "then why does it talk back" they are after the song has finished and sound bad.
+A style change - don't make Dr. Null's mouth wobble with the lyrics as if he's singing, it doesn't
+  actually look like he's singing, just that the curcle of his mouth is jittery. Best to just not
+  make him be singing. Make him just have appropriate expressions for the scenes, and not be singing
+  the song.
+Dr. Null's arms look a bit unnatural in many scenes - I think he's supposed to be holding
+  his hand on his face in shock or something, but it looks like it is a mistake. Can you make it look
+  more natural? If you do so and like the result, re-render.
+[excerpt end; full prompt retained in catalogue]
+
+[astrothewizard-618782] explainer partial=False original_chars=2470
+Style: whimsical, charming, storybook. Give the photon a personality. It should feel like a professional motion-design studio made it, not "AI video". The whole thing should be a pure JavaScript animation, rendered from code frame by frame. Don't use AI video generators for the visuals. I've seen the videos people are posting from Opus 5.5 (kinetic typography reels, continuous infinite zooms, data-driven explainers like The Pudding or 3Blue1Brown), and what makes them great is that they're code-rendered: crisp, precise, with a coherent design system and one strong formal idea per scene. Aim for that bar or above.
+Make it genuinely educational and accurate. Where you can, simulate the real thing: the random walk should be an actual random walk, not a drawing of one. Include real numbers (core temperature, distance, travel time, years inside the Sun) and be honest about uncertainty in the estimates. Use humor and visual gags to keep attention: onomatopoeia, little characters, callbacks. Put what was happening on Earth during those 100,000 years alongside the photon's timeline.
+Deliverable: 1920x1080 at 60fps, exactly 60 seconds, with:
+- A voiceover script you write yourself, voiced with the highest-quality text-to-speech model you can access
+- Burned-in captions, since most people watch on X with the sound off
+- An original music score that fits the whimsical tone and changes with each scene
+- Sound design synced exactly to the on-screen action (every bounce, pop, whoosh and ding)
+- A professional mix: music ducks under the voice, mastered to streaming loudness
+Quality is paramount. Build verification loops: render stills of every scene and review them critically, check transitions frame by frame, measure the audio mix numerically, fix what's weak and re-render. Don't han
+[excerpt end; full prompt retained in catalogue]
+
+[annacher-433425] motion partial=False original_chars=2325
+<direction>
+Dribbble-level UI motion. One shape, never cut: every state is the same element morphing its size, radius and color while its content swaps with a short blur. A cursor drives every change with real clicks and drags. Warm-gray canvas, black and white components, one accent (#FD9543), Geist. Springs everywhere, a tiny overshoot at most. The camera zooms so each state fills the frame. Last frame = first frame, so it loops.
+Banned: bouncy easing, particles, glows, gradients on UI chrome, mismatched icon strokes, dead time, anything that looks like a template.
+</direction>
+<structure>
+120 BPM, 7 bars, something on every beat.
+Connect ad account (Meta, Google, LinkedIn, TikTok, Reddit logos) → loader → check → prompt bar types "Launch ads that convert" → island "Researching 42 competitors" → Ads Library wall of real ads scrolls and lands on a top performer → approval card → Approve & launch → budget slider that stretches past max → Autopilot toggle → knob becomes a liquid tab indicator across channels → ROAS chart draws itself with hover tooltip → ⌘K → type "pause" → toast "Paused 3 losing ads" → back to the button.
+</structure>
+<build>
+1. One HTML file, 1440x1440. Every style is computed inside seek(t): no CSS transitions, no timers, no state between frames.
+2. Springs are closed-form step responses. A value that changes target many times is a sum of springs, so it stays a pure function of time.
+3. Tab indicator and toggle knob: the two edges ride different springs, so the leading edge stretches ahead.
+4. Drags are direct manipulation: while held, the value follows the cursor. On release it springs back from wherever it was.
+5. No music. Synthesize UI sounds with numpy and place each one by its measured peak on the beat grid.
+6. Render with Playwright: 4 subframe
+[excerpt end; full prompt retained in catalogue]
+
+[thegrootdev-966114] motion partial=False original_chars=5955
+<direction>
+A Pokémon-inspired UI motion film with Dribbble-level polish. Imagine a beautifully designed modern Pokédex: playful, precise, and instantly http://recognizable.One shape, never cut: a Poké Ball continuously morphs into every interface component by changing its size, radius, and color. Its central button, dividing line, and outer shell become the controls and structure of each new state. Content swaps with a short blur and carefully separated enter/exit timing.
+A visible cursor drives every interaction with clicks, drags, and hover gestures. Use a light warm-gray canvas, clean Geist typography, consistent icon strokes, and crisp Pokémon artwork.
+Use tightly damped springs with only a tiny overshoot. The camera smoothly reframes each state so the interface stays large and readable. The ending returns exactly to the opening Poké Ball for a seamless loop.
+Banned: excessive bouncing, particle bursts, glows, gradients on UI chrome, mismatched icon strokes, dead time, generic dashboard layouts, abrupt scene changes, and unrelated floating elements.
+</direction>
+Bar 2 — Pokémon discovery
+5. The Pokédex expands to reveal the featured Pokémon.
+6. Its name, number, and type appear in a quick stagger.
+7. The cursor clicks the cry/play control.
+8. The control morphs into pause while a compact waveform animates.
+Bar 6 — Find and select
+21. The search field expands into a command palette.
+22. A short Pokémon name is typed; matching results filter.
+23. The cursor selects a result, revealing its miniature artwork and type.
+24. Enter confirms; the palette folds into an “Added to team” toast.
+<build>
+1. Build one self-contained HTML file with a square 1440×1440 composition. Compute every animated style from time inside seek(t): no CSS transitions, timers, or state carried bet
+[excerpt end; full prompt retained in catalogue]
+
+[iamtanzil-120030] motion partial=False original_chars=10959
+A full-viewport, dark, cinematic e-bike product header for the brand **OBLT**, built in React (client component) with pure CSS and an interactive cursor-following "x-ray" spotlight reveal — moving the mouse wipes away the bike's exterior photo to expose its internal carbon/gearbox structure underneath. Built with React only (no animation libraries).
+## Tech stack (libraries actually imported)
+- React only — `useRef`, `useState`, and the `MouseEvent` type. No framer-motion, no GSAP, no icon library. All animation is hand-written CSS keyframes + an inline CSS `mask-image`.
+- SVG icon (the CTA arrow) is hand-inlined, not from a library.
+## Section container
+- Root `<header className="vt-header">` is the mouse-tracking element (handlers: `onMouseEnter`, `onMouseMove`, `onMouseLeave`).
+- Styles: `position: relative; display: flex; flex-direction: column; min-height: 100vh; overflow: hidden; padding: 32px 56px 44px; background-color: #272727; color: #fff;`.
+- Internal vertical flow: top nav, then a flex-grow spacer "stage", then bottom content pinned to the base.
+### 1. Reveal background (`.vt-bg`, absolute inset:0, z-index 0, pointer-events:none)
+Three stacked layers:
+- **Base exterior image** (`.vt-bg-img`): the full bike exterior photo, `object-fit: cover; object-position: center;`, fills the layer. `user-select:none`, `-webkit-user-drag:none`, `referrerPolicy="no-referrer"`.
+- **X-ray layer** (`.vt-bg-xray`, z-index 1): contains the bike x-ray/internal image (same cover/center sizing). This layer is masked by a radial gradient driven by cursor position (see Animations). `will-change: -webkit-mask-image, mask-image;` and `transition: -webkit-mask-image .12s linear, mask-image .12s linear;`.
+- **Veil overlay** (`.vt-bg-veil`, z-index 2): a vertical darkening gradient so tex
+[excerpt end; full prompt retained in catalogue]
+
+[gdgtify-929495] motion partial=False original_chars=4373
+Create a 20.00-second kinetic spoken-word film titled “BUILD THE FLOOR.”  Treat this as an original miniature speech staged entirely through typography. Every line changes the architecture of the frame. The final declaration must stand on something the earlier words physically constructed.  Deliver one self-contained HTML file, 1080×1080, targeting 60fps, using SVG and/or Canvas. Embed all required assets.  ART DIRECTION Background #102820. Paper # F4E9D5. Structural accent # F2B544. A literary editorial world with the scale and confidence of a public monument. Use a high-contrast serif for the speech, a heavy grotesque for load-bearing words, and a restrained monospace for small timing marks. No distressed protest-poster clichés, megaphones, flags, crowds, microphones, or stock footage.  ORIGINAL SPEECH — EXACT WORDS, EXACT ORDER “We were told to wait.” “So we learned the weight of waiting.” “Then one voice made room.” “Then another.” “Now the floor belongs to us.”  Do not attribute these words to any real person. No extra slogans. The complete speech must be understandable without audio.  CENTRAL VISUAL RULE Words have assigned architectural roles. WAIT is a lintel. WAITING is a suspended load. VOICE is a support. ROOM is an opening. FLOOR is a platform. These roles must emerge from the actual letterforms, not from separate illustrations placed behind text.  STORYBOARD 0.00–3.00 “We were told to wait.” The sentence occupies a narrow horizontal opening beneath a massive WAIT. The opening slowly compresses while the sentence remains readable. The pressure comes from the layout, not camera shake.  3.00–6.50 “So we learned the weight of waiting.” Reveal the sentence in spoken phrase groups. WAITING lowers on two fine vertical rules. Those rules become suspension cables. A
+[excerpt end; full prompt retained in catalogue]
+
+[techhalla-498547] motion partial=False original_chars=3878
+You are a world-class motion designer doing a 20.00s kinetic identity bumper for TechHalla — an AI creator known for stealable workflows, not vibes. This piece must feel like the best designer in the room made a street-poster that moves. Showreel stakes: if this is weak, you don’t get hired.
+DURATION: exactly 20.00 seconds. LOOPABLE: frame 0 == frame last (position, opacity, cursor if any).
+FORMAT: one HTML file, 1080×1080 (square, X-native). 60fps.
+PALETTE (strict):
+- bg # 0A0A0A
+- magenta # FF2BD6
+- acid green # B8FF00
+- white # F5F5F5 only for primary readable type when needed
+No other hues. No gradients on UI chrome. Magenta/green may misregister (print offset) by 2–4px on impact frames only.
+TYPE SYSTEM (use all three; never one font for everything):
+1) Display / scream: Archivo Black (or equivalent ultra-condensed black) — 1–4 words max
+2) Urban grotesque: Syne ExtraBold — secondary hits, stacked lines
+3) Mono / “prompt code”: IBM Plex Mono Medium — small labels, timestamps, fake prompt crumbs
+Tracking: display −40 to −80; mono +20. Optical kerning. No cute script fonts.
+MESSAGE (locked — do not soften, do not add filler slogans):
+Beat hits in this exact order:
+1. STOP SCROLLING
+2. AI VIDEO ISN’T EXPENSIVE
+3. BAD PROMPTING IS
+4. WORKFLOWS > WISHES
+5. STEAL THE PROMPT
+6. @ TECHHALLA
+Supporting crumbs (mono, ≤18 chars, never full sentences): JSON · H3 · SEEDANCE · 0 KEYFRAMES · MAGNIFIC · COPY/PASTE
+NARRATIVE ARC (20s):
+0.0–2.5s  COLD OPEN — “STOP SCROLLING” slams in from below with spring overshoot; magenta smear trail; acid green baseline ticks across like a waveform.
+2.5–6.5s  THESIS A — “AI VIDEO ISN’T EXPENSIVE” locks to a poster grid (baseline grid 8px). Letters scramble (seeded Fisher–Yates per glyph) then snap on the beat.
+6.5–10.5s THESIS B — “BAD PROMPTING
+[excerpt end; full prompt retained in catalogue]
+
+[jake11moran-414633] motion partial=False original_chars=1959
+Motion should feel slow and polished - one continuous camera over one Mac desktop, no hard cuts. Camera pushes, pulls and pans run like 1.5 to 3 seconds on gentle ease-in-out curves, nothing snappy - aim for half the speed you'd default to. Add motion blur on fast moves and a light film grain finish. Use an oversized macOS cursor. No audio. All on-screen copy lowercase like the post.
+1. Open on a big centered line - "in the AI era, the hard part is" - entering word by word from the right with an orange colorama text wipe over it (the `colorama-wipe` registry component). Hold it about a second, then scale it down into place above a spinning list.
+2. The list rotates through 30 hard things about working in the AI era - spending tokens wisely, picking the right model, managing context windows, etc - each with a real app icon. Go fast, it's not meant to be read, then land slowly on "managing your desktop". 0.2s after it lands a question mark pops on after it.
+3. Pull the camera back to reveal the Mac desktop as windows pile in on top of each other, arriving from behind the camera - Claude, ChatGPT, Grok, Linear, Chrome, Spotify, Slack and Claude Code in a terminal. Build these as accurate recreations of the real apps with real icons. 
+4. Push back in so the windows fly past the camera, back to text - "don't make your browser / one of them".
+5. Pan up to a really tight framing of just the notch and the top of the wallpaper. A cursor comes up and hovers - the notch morphs into a pill with the name "NotchBrowser", then opens into the browser panel exactly like in the video. 
+6. Click through the tabs like the video does, then click the collapse chevron so the panel retracts into the notch.
+7. End on a checklist of the post's claims with rings and ticks drawing on
+[excerpt end; full prompt retained in catalogue]
+
+[anjmaxx-459455] motion partial=False original_chars=5585
+I want you to independently do an end-to-end complete pass on making 20 second story led music video with two main protagonists a girl and a boy. I want the concept and storytelling to be reallyy unique and engaging. the audeince should be hooked to find out what happens next. the visuals shouls be pretty and really ccool. both the charcters should have a witty, quirky personality.  Use the right audio track and think and feel very deeply about what is the best way to visually represent all of the lyrics on screen. in terms of style, you can do truly anything that you think might best let you visually express yourself, including abstract motion graphics. You can use the internet freely to pull in references. You can look at motion design. I want you to make a fresh music video that has beautifully rendered JavaScript animations with a papery feel in a similar style to the reference that is created, but push the aesthetics in any direction you want and consider what is part of the modern zeitgeist. ive also attached another style that ypu explore and pick out whatever seems best to you.
+Think critically about what is relevant here and what would be fun, and also perform well on Twitter as far as an aesthetic. I think that K-pop is a good anchor point visually that you can pull from, but I'll let you cook here.
+Once you have your character sheet, you can make a few backup dancers and some supporting characters as you see fit. You can design your own sets. You can insert the characters and then do seedance 2.5 video generations to serve as the base assets for this, and you could pass in the lyrics so you can generate individual scenes.
+You don't need to have vocal singing, like visible lip movement, throughout the entire thing. Think like a regular music video where you ha
+[excerpt end; full prompt retained in catalogue]
+
+[niegramotny-197521] interactive partial=False original_chars=5086
+Build a racing game inspired by Ignition (1997): angled top-down camera, arcade-leaning
+physics, vehicles with very distinct personalities. This must be an original game,
+not a copy. Use an original name, an original track, and zero original assets.
+## Stack
+- Vite + TypeScript (strict), Three.js for rendering, no UI framework
+  (HUD in plain DOM/CSS).
+- Low-poly graphics generated in code (BoxGeometry, CylinderGeometry, etc.),
+  no external models or textures. Solid colors and simple materials.
+- Custom simplified 2.5D physics (movement on the XZ plane, height from terrain).
+  No physics engine.
+## Architecture
+- src/game/ (game loop with fixed timestep), src/vehicles/, src/track/, src/ai/,
+  src/render/, src/ui/
+- Vehicles are data-driven: mass, power, top speed, grip, steering, collision
+  resistance, and boost parameters (strength, duration, recharge time).
+  One Vehicle class, different configurations.
+- Any vehicle can be controlled by either the player or the AI
+  (shared control interface: throttle, brake, steer, boost).
+- Track as data: centerline spline + width + list of zones
+  (ice, shortcut, obstacle). Generate the road mesh and AI waypoints from it.
+## Vehicles (original names, no brands)
+Four vehicles. The player picks one on the selection screen; the remaining 3
+are driven by the AI.
+- 90s-style police sedan (black and white, light bar): heavy, stable,
+  pushes hard in collisions.
+- Muscle car convertible: fastest on straights, oversteers in corners.
+- Red monster truck: slow, but ignores bumps and rams everything else.
+- Postal delivery van: slow, high center of gravity, sways in corners.
+The handling differences must be clearly noticeable. All four must be playable
+and competitive. Slower vehicles compensate with e.g. collision resistance,
+terrain hand
+[excerpt end; full prompt retained in catalogue]
+
+[eric-khun-667455] motion partial=False original_chars=1137
+if there is any text , write in traditional chinese and english
+Get the right assets, plan it out, draft and render to give me an MP4. No skills, No MCP.  16:9 at high res, 30 seconds max, aim to reduce file size limit
+[excerpt end; full prompt retained in catalogue]
+
+[viggle-pinoc-434495] 3d partial=False original_chars=2019
+Create a playable version of Minecraft in my browser. Add advanced shaders that make it look as real and beautiful as possible.  
+World: vanilla ES modules + three.js (importmap from jsdelivr, no build step). Procedural voxel terrain with trees, beaches and water. Make it look as real and beautiful as possible: physically based sky, clouds, soft shadows, water reflections and caustics, god rays, bloom, PBR block textures. First/third-person player (V toggles), mining and placing blocks, torches, stairs, a hotbar and an inventory (E), a day/night cycle with nights that are still readable.  
+Opening scene: a small village on the flattest open ground in view of spawn, with the player facing it. Each villager has a job, and each job uses a different motion: - a greeter that wanders and waves when it sees you - a miner, a lumberjack at a real tree and a farmer on a tilled dirt patch, each swinging a blocky tool; every strike chips particles off the block it hits - an archer with a bow that shoots arrows into a target on the release frame - a guard who draws a sword when you get close and faces you - a porter who carries crates between two piles, one at a time No floating labels over the NPCs.
+[excerpt end; full prompt retained in catalogue]
+
+[nathanwilbanks-981110] explainer partial=True original_chars=1077
+It wrote a real 3D fluid simulation that runs on the GPU. The flame colors come from blackbody physics, the smoke is real volume, it runs at 96 fps in 1080p, and it critiqued its own renders about 40 times.
+Then it shot a 38 second film of it. The sound comes from the fire itself. 🔥
+- Nothing faked. The fire is actual simulated gas that burns, heats up, rises, and swirls. It gives off soot that glows, and the soot that escapes cools into smoke. Every frame is computed on the GPU.
+- The AI graded its own work: render a frame, have a vision model pick it apart like a VFX supervisor, fix it, repeat. It caught a flame that kept dying, ring shaped artifacts on the ground, and coals that looked like cheese chips.
+- The film isn't screen recorded. Each frame is rendered offline with scripted camera moves. The crackle and roar come from how brightly the fire burns in each frame.
+- No Blender, no stock footage, no sound library. One HTML file, one conversation.
+[excerpt end; full prompt retained in catalogue]
+
+[truenyl-447745] 3d partial=True original_chars=1326
+Same prompt, same references, same real-world scene I had previously built with GPT-6 Astra.
+The layout felt more intentional.
+It picked better camera angles.
+In my Astra version, I had to repeatedly correct things like tree roots not touching the ground, rough geometry being used where proper assets already existed, or objects being placed in ways that just looked wrong.
+[excerpt end; full prompt retained in catalogue]
+
+[0xwast3-222104] 3d partial=True original_chars=1284
+It does not render the object. It constructs it, part by part, the way a modeller would if they had a week.
+> PARSE - the sentence becomes a parts list with real dimensions, nothing implied
+> MASS - each part built as clean geometry, quads only, no sculpted mush
+> RIG - joints and pivots placed where the object physically bends
+> SKIN - materials assigned per surface, scale and roughness set separately
+> PACK - exported with a named hierarchy, so a human can edit one part
+Image models stop at the render. What you get is a photograph of a thing that does not exist as a thing.
+That gap appears the second someone wants to move an arm, swap a material, or send it to a printer.
+Names carry through the whole export. Every part, joint and material reads the way a person would label it.
+[excerpt end; full prompt retained in catalogue]
+
+[aayush4soni-644283] 3d partial=True original_chars=1576
+My family is planning to build a house, and all we had was the floor plan. I wanted to see how it would really look once it's built: which colors, layout and design would suit it best.
+It's one of the most useful things I've created recently. We can now walk through the house before a single brick is laid, and when we want to try a different color or layout, I just ask for the change.
+• I gave it the 5-page floor-plan PDF and one reference image for the front of the house.
+• It read the drawings and rebuilt every floor: walls, doors, windows and stairs.
+• Where a printed size didn't match the drawn wall, it flagged it (15 places) instead of quietly guessing.
+• It furnished every room itself: 500+ pieces of furniture, decor and lighting.
+• Everything runs in a web browser with three.js. No Blender, no game engine. You can walk through it like a game, in daylight or evening light, and the lamps actually light the rooms.
+• It treated it like a real software project: ~37k lines of JavaScript, 185 unit tests, 56 browser tests, and deterministic video capture (render the same frame twice, get identical pixels).
+• It even tracked down a bug of its own: a room's lighting changed depending on which room you walked in from.
+• It split the work across sub-agents. Start to finish took about two days.
+[excerpt end; full prompt retained in catalogue]
+
+[op7418-814408] interactive partial=False original_chars=2528
+【主体物：做成真 3D】
+- 用 Three.js 建模，不要用平面 SVG 贴图。要有厚度、倒角，以及符合主体的结构细节（木板缝、铆钉、包边、宝石切面、锁扣等）；木板缝这类细节用真实几何体拼出来，不要贴黑线条。
+- 着色用卡通分阶（MeshToonMaterial 加 3～4 阶的渐变贴图），配三种灯光：主光、天光、等级色的轮廓光。
+- 描边用后期边缘检测：渲染法线图 + 深度图，再用着色器画线。外轮廓粗、零件交界细，粗细全程一致；另外做 1.5 倍超采样和多重采样抗锯齿。
+  不要用「放大一圈的黑色背面」那种描边，那样粗细不均、转角会断。
+  深度判断的阈值要放宽，接缝主要靠法线判断，否则斜着看的表面会冒出细碎斜纹。
+- 活动部件要真实运动，比如箱盖绕铰链翻开、奖章绕竖轴旋转。
+- 待机时主体缓慢左右转动，让人看到侧面和厚度，同时轻微上下浮动；脚下要有随高度变化的柔和投影。
+【音效】
+- 全部用 Web Audio 实时合成，不用音频文件：跳起、落地、升级和弦、蓄力上升音、爆炸低频加噪声、弹出音、计数滴答、金币叮当、胜利号角。
+- 第一次点击时才初始化音频；右上角放静音开关。
+[excerpt end; full prompt retained in catalogue]
+
+[mozetech-471882] interactive partial=True original_chars=1014
+Also if you wanted to play it yourself:
+https://skerry-light.vercel.app/
+[excerpt end; full prompt retained in catalogue]
+
+[stokebuilder-356793] explainer partial=True original_chars=2242
+https://x.com/Voxyz_ai/status/2102531681450119426: paper, typewriter-tape labels, hand-drawn marks
+https://x.com/donaldjewkes/status/2102801274173587569: halftone, manga and pixel print, kinetic data type
+Whenever anything goes full-screen (animation, screen share or still), one of us is in a corner picture-in-picture, bottom-right, following whoever is talking.
+No punch-ins or zooming on the cameras. Keep each speaker relatively centered.
+Copy must be verbatim or faithful to what's said. Never invent facts, numbers or quotes.
+Sync each animation's beats to the spoken words.
+Keep each graphic inside one uncut stretch of audio, and leave a few seconds of faces between graphics.
+[excerpt end; full prompt retained in catalogue]
+
+[ik-builds-585923] motion partial=True original_chars=1685
+"Create a 15s motion-graphics film explaining {{PRODUCT}}. HyperFrames + GSAP, no voiceover, no footage.
+Style: paper-light canvas, marker notes that draw on, real physics, huge kinetic type,
+hard light/dark switches, a new idea every 1.5–2 s, a sound on every hit.
+CRAFT
+- Colours {{COLOR_CANVAS}} / {{COLOR_INK}} / {{COLOR_ACCENT_1}} / {{COLOR_ACCENT_2}}; notes in the
+  accents; dark mode = charcoal matching the palette.
+- Fonts {{BRAND_FONTS}}; Anton for kinetic type; Caveat handwriting via stroke-dashoffset.
+- Real easing, squash/stretch, stagger, overlap, onion skin, smear, follow-through. Check the
+  HyperFrames registry first. Set every from-state at t=0 (seek-safe); never cover an exit.
+  One primary move per transition; no generic push/slide/rotate-swing.
+- Music in sections: drums drop on the dark switch and while the ball is airborne, slam back
+  on the type and the logo. SFX: pops, pen scribbles, whooshes, logo sub-hit. CC0 or generated
+  only; log sources. Master -14 LUFS, -2 dBTP, re-measured after AAC encode."
+[excerpt end; full prompt retained in catalogue]
+
+[aschapmann-724497] motion partial=True original_chars=1185
+"Act as a senior motion designer and build a 30-second launch video for [product] in Remotion, entirely in code so I can edit and re-render it: first read my landing page and codebase to pull the real story, copy, colors, font and logo file (trace the logo to SVG so it stays sharp and can be animated), then write the video as one story (why the market matters, why it's painful today, how [product] fixes it, what you get) in 4 to 5 scenes with one short title each, animate everything like a premium product film (kinetic typography word by word, spring easing, smooth camera pushes and pans, depth and glow, elements that build in on the beat instead of just appearing), keep each scene on screen long enough to read, add one soft sound effect for every element that appears and silence otherwise, and end on a memorable animated logo reveal with the tagline and URL, then render it, check the frames yourself and fix anything that overlaps, clips or feels rushed before showing me the result."
+[excerpt end; full prompt retained in catalogue]
+
+[daniel-haida-636937] motion partial=True original_chars=15583
+every frame is code: react + remotion, 0 after effects
+the soundtrack is code too, synthesized in python from sine waves and noise
+You may reuse good infrastructure, fonts, rendering utilities, motion primitives,
+easing curves, asset loading and QA infrastructure from beta-motion where useful.
+Gold highlight:
+  #f5d07a
+2. Every scene needs room to breathe.
+6. Prefer object-driven transitions:
+   a card becomes the next card,
+   a chart line becomes a connector,
+   a receipt becomes a booking,
+   a number becomes another interface element,
+   the camera moves through the product.
+11. No particle spam.
+12. No fake glassmorphism everywhere.
+It must work as a social-media product reveal even without sound.
+The camera moves through or past the mark and the UI begins to emerge from it.
+The hero financial number resolves crisply.
+The chart draws in.
+Supporting metrics settle slightly later.
+Use a visual object from the previous scene as the transition.
+A gold chart point expands into the corner of a receipt/card.
+The camera follows it.
+A receipt/document enters.
+Taxtello identifies or organizes it.
+The document snaps elegantly into its corresponding booking / financial record.
+Only if it improves the scene.
+Morph or transition naturally into the real Rechnungen interface.
+Gold highlights the active state.
+Transition into the real Taxtello tax-health / financial guidance surface.
+This scene should feel calmer than the previous scene.
+The rhythm briefly slows.
+Pull the camera outward.
+────────────────────────────────────
+TRANSITIONS
+────────────────────────────────────
+I want transitions that make the viewer think:
+“Of course the next scene came from that.”
+chart line → document edge
+gold pill → invoice button
+financial number → amount in invoice
+card edge → next surface
+camera 
+[excerpt end; full prompt retained in catalogue]
+
+[iammukeshm-421585] motion partial=True original_chars=1128
+Claude went to work for around 20 minutes, writing the Remotion code, putting together the animations, transitions, layouts, and the overall story.
+Which means I can tweak the content, change the animations, swap assets, update numbers, or completely redesign a section - and render it again.
+[excerpt end; full prompt retained in catalogue]

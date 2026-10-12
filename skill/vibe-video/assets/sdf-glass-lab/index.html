@@ -1,0 +1,47 @@
+<!doctype html><html><head><meta charset="utf-8"><title>SDF glass lab</title><style>html,body{margin:0;background:#10272e}canvas{width:100vw;display:block}</style></head><body><canvas id="out"></canvas><script>
+// Independent implementation of public sphere-tracing/SDF/Fresnel principles, not copied from unlicensed glass repo.
+// One-interface screen-background refraction: no exit-surface solution, ray-traced caustics or physical validation.
+const W=1280,H=720,canvas=document.querySelector('canvas');canvas.width=W;canvas.height=H;const c=canvas.getContext('2d');
+const gpu=document.createElement('canvas');gpu.width=W;gpu.height=H;const gl=gpu.getContext('webgl2',{preserveDrawingBuffer:true});if(!gl)throw Error('WebGL2 required');
+const vs=`#version 300 es
+in vec2 xy;out vec2 uv;void main(){uv=xy;gl_Position=vec4(xy,0,1);}`;
+const fs=`#version 300 es
+precision highp float;in vec2 uv;out vec4 result;uniform float time;uniform vec2 resolution;
+float unionSoft(float a,float b,float k){float v=max(k-abs(a-b),0.)/k;return min(a,b)-v*v*k*.25;}
+float sdf(vec3 p){
+ float q=length(p-vec3(-.62*cos(time*.8),.12*sin(time),0))-.68;
+ q=unionSoft(q,length(p-vec3(.62*cos(time*.8),-.12*sin(time),.08))-.68,.38);
+ for(int i=0;i<4;i++){float a=float(i)*1.5707963+time*.3;vec3 o=vec3(cos(a)*.58,sin(a)*.58,.06*sin(a+time));q=unionSoft(q,length(p-o)-.29,.22);}
+ return q;
+}
+vec3 normalAt(vec3 p){float e=.0014;return normalize(vec3(sdf(p+vec3(e,0,0))-sdf(p-vec3(e,0,0)),sdf(p+vec3(0,e,0))-sdf(p-vec3(0,e,0)),sdf(p+vec3(0,0,e))-sdf(p-vec3(0,0,e))));}
+vec3 paper(vec2 p){
+ vec3 col=mix(vec3(.055,.13,.16),vec3(.12,.23,.25),clamp(p.y*.14+.5,0.,1.));
+ float grid=(1.-smoothstep(.018,.037,abs(fract(p.x*3.+.5)-.5)))+(1.-smoothstep(.018,.037,abs(fract(p.y*3.+.5)-.5)));
+ col+=vec3(.13,.20,.21)*grid*.38;
+ float band=1.-smoothstep(.07,.09,abs(p.y-.24*sin(p.x*1.4)));
+ col=mix(col,vec3(.9,.57,.19),band*.8);
+ float disc=1.-smoothstep(.37,.4,length(p-vec2(-1.6,.65)));col=mix(col,vec3(.11,.69,.69),disc);
+ return col;
+}
+vec3 background(vec3 ro,vec3 rd){float d=(-2.6-ro.z)/rd.z;return paper((ro+rd*d).xy);}
+vec3 studio(vec3 rd){float strip=pow(max(0.,dot(rd,normalize(vec3(-.7,1.,1.)))),24.);float rim=pow(max(0.,dot(rd,normalize(vec3(.9,.2,.6)))),45.);return vec3(.16,.26,.28)+strip*vec3(1.3,1.25,1.06)+rim*vec3(.2,.8,.85);}
+void main(){
+ vec2 p=uv*vec2(resolution.x/resolution.y,1.);vec3 ro=vec3(0,0,4.2),rd=normalize(vec3(p,-2.65));
+ float d=0.;bool hit=false;
+ for(int i=0;i<100;i++){vec3 pt=ro+rd*d;float step=sdf(pt);if(abs(step)<.0007){hit=true;break;}d+=max(step,.0004);if(d>8.)break;}
+ vec3 col=background(ro,rd);
+ if(hit){vec3 pt=ro+rd*d,n=normalAt(pt);vec3 tr=refract(rd,n,1./1.46);float cosN=max(0.,dot(-rd,n));float F=.035+.965*pow(1.-cosN,5.);
+ vec3 through=background(pt+tr*.26,tr);float path=.26/max(.18,cosN);through*=exp(-vec3(.16,.04,.07)*path);
+ col=mix(through,studio(reflect(rd,n)),F);col+=vec3(.14,.23,.23)*pow(1.-cosN,3.);
+ }
+ col=col/(col+vec3(.45));col=pow(col,vec3(1./2.2));col*=1.-.12*dot(uv,uv);result=vec4(col,1.);
+}`;
+function shader(type,src){const s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));return s;}
+const program=gl.createProgram();gl.attachShader(program,shader(gl.VERTEX_SHADER,vs));gl.attachShader(program,shader(gl.FRAGMENT_SHADER,fs));gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(program));gl.useProgram(program);
+const b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]),gl.STATIC_DRAW);const loc=gl.getAttribLocation(program,'xy');gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);
+const tm=gl.getUniformLocation(program,'time');gl.uniform2f(gl.getUniformLocation(program,'resolution'),W,H);gl.viewport(0,0,W,H);
+function draw(t){gl.uniform1f(tm,t);gl.drawArrays(gl.TRIANGLES,0,6);c.drawImage(gpu,0,0);c.fillStyle='#e5d9bd';c.font='24px Georgia';c.fillText('SDF / LIQUID LENS',56,64);c.fillStyle='#abc4c4';c.font='14px monospace';c.fillText('CODE STUDY  /  APPROXIMATE REFRACTION',56,91);}
+window.__film={duration:4,fps:30,width:W,height:H,ready:true};window.renderAt=async(t,type='image/png',quality=.94)=>{draw(t);return canvas.toDataURL(type,quality);};window.ready=true;
+if(!location.search.includes('render')){let t0;function loop(ms){t0??=ms;draw((ms-t0)/1000);requestAnimationFrame(loop);}requestAnimationFrame(loop);}
+</script></body></html>

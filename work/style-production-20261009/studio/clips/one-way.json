@@ -1,0 +1,36 @@
+{
+ "id":"one-way","style":"blueprint","title":"只向一个方向","duration":32,"fps":24,"timingDriver":"action","seed":1701,
+ "facts":{"classification":"弹簧止回阀原理示意，非工程设计或流体模拟","source":"https://en.wikipedia.org/wiki/Check_valve","claim":"正向压差推动阀瓣克服弹簧力；压差降低时弹簧复位。仅展示弹簧式轴向阀的简化关系。"},
+ "events":[
+  {"id":"draw","at":0,"duration":2,"anchor":"valve-body","action":"中心线后绘制阀体轮廓","result":"建立唯一主体","sound":{"kind":"paper","duration":2,"gain":0.12}},
+  {"id":"section","at":4.5,"duration":2,"anchor":"valve-body","action":"剖切线扫过阀体","result":"露出阻挡流动的阀瓣","sound":{"kind":"paper","duration":2,"gain":0.12}},
+  {"id":"explode","at":9,"duration":1.4,"anchor":"valve-parts","action":"外壳分开展示同轴部件","result":"阀座阀瓣弹簧关系清晰","sound":{"kind":"click","duration":0.16,"gain":0.2}},
+  {"id":"assemble","at":12,"duration":1,"anchor":"valve-parts","action":"分离的外壳回位","result":"通道重新闭合","sound":{"kind":"click","duration":0.15,"offset":1,"gain":0.22}},
+  {"id":"open","at":14,"duration":1.5,"anchor":"valve-disc","action":"正向压差增大阀瓣右移","result":"弹簧压缩与通路打开","sound":{"kind":"flow","duration":6.5,"gain":0.13}},
+  {"id":"close","at":21.5,"duration":1.2,"anchor":"valve-seat","action":"压差降低阀瓣左移","result":"弹簧复位阀瓣贴合阀座","sound":{"kind":"click","duration":0.16,"offset":1.2,"gain":0.23}},
+  {"id":"settle","at":27,"duration":2.5,"anchor":"valve-body","action":"回到完整观测图纸","result":"正向开通与复位关闭形成结论","sound":{"kind":"stamp","duration":0.2,"offset":0.9,"gain":0.21}}
+ ],
+ "captions":[
+  {"start":0,"end":4.5,"event":"draw","text":"只向一个方向"},
+  {"start":4.5,"end":9,"event":"section","text":"答案藏在里面"},
+  {"start":9,"end":14,"event":"explode","text":"阀座 · 阀瓣 · 弹簧"},
+  {"start":14,"end":21.5,"event":"open","text":"正向压差推开阀瓣"},
+  {"start":21.5,"end":27,"event":"close","text":"压差降低，弹簧复位"},
+  {"start":27,"end":32,"event":"settle","text":"贴合阀座，通路关闭"}
+ ],"silences":[[20.5,21.5],[25,27]],
+ "shots":[
+  {"id":"promise","start":0,"end":4.5,"intent":"一个封闭物件怎样只允许单向通过","action":"主体从中心线中出现","camera":"全体到中景","states":{"establish":0.8,"action":1.5,"result":4}},
+  {"id":"inside","start":4.5,"end":9,"intent":"找到决定流动的内部部件","action":"剖切揭示","camera":"接近阀座与阀瓣","states":{"establish":4.5,"action":5.5,"result":8.5}},
+  {"id":"parts","start":9,"end":14,"intent":"弹簧和阀瓣的同轴关系","action":"外壳分离后回位","camera":"拉开留出拆解空间","states":{"establish":9,"action":10,"result":13.8}},
+  {"id":"forward","start":14,"end":21.5,"intent":"正向压差使阀瓣离座","action":"右移、压缩、持续流动","camera":"跟随阀瓣，随后停留读通路","states":{"establish":14,"action":15,"result":20}},
+  {"id":"return","start":21.5,"end":27,"intent":"压差降低后依靠弹簧复位","action":"阀瓣回座，正向流动停止","camera":"靠近接触处后静止","states":{"establish":21.5,"action":22.1,"result":26}},
+  {"id":"answer","start":27,"end":32,"intent":"回到开头主体并呈现内部答案","action":"拉回图纸，结论落定","camera":"完整图纸总览，末段固定","states":{"establish":27,"action":28.5,"result":31.5}}
+ ],
+ "connections":[
+  {"time":4.5,"kind":"continuous","anchor":"valve-body","window":[4.3,4.7]},
+  {"time":9,"kind":"continuous","anchor":"valve-seat","window":[8.8,9.2]},
+  {"time":14,"kind":"continuous","anchor":"valve-disc","window":[13.8,14.2]},
+  {"time":21.5,"kind":"continuous","anchor":"valve-disc","window":[21.3,21.7]},
+  {"time":27,"kind":"continuous","anchor":"valve-body","window":[26.8,27.2]}
+ ]
+}

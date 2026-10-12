@@ -1,0 +1,291 @@
+{
+  "mode": "beach",
+  "info": {
+    "fps": 30,
+    "frames": 1800,
+    "duration": 60.000000000000014,
+    "width": 960,
+    "height": 540,
+    "bpm": 100,
+    "shots": [
+      {
+        "id": "sun-wheel",
+        "start": 0,
+        "dur": 5.3999999999999995,
+        "hour": null,
+        "sfx": null,
+        "bed": "surf-far"
+      },
+      {
+        "id": "crowd-dolly",
+        "start": 5.3999999999999995,
+        "dur": 4.8,
+        "hour": 18.75831220031745,
+        "sfx": null,
+        "bed": "surf-close"
+      },
+      {
+        "id": "set-wave",
+        "start": 10.2,
+        "dur": 5.3999999999999995,
+        "hour": 18.67331220031745,
+        "sfx": [
+          {
+            "at": 2.9,
+            "type": "crash"
+          }
+        ],
+        "bed": "wave"
+      },
+      {
+        "id": "pier-day-0",
+        "start": 15.599999999999998,
+        "dur": 0.6,
+        "hour": 22.6,
+        "sfx": null,
+        "bed": "montage"
+      },
+      {
+        "id": "pier-day-1",
+        "start": 16.2,
+        "dur": 0.6,
+        "hour": 6.41835833013852,
+        "sfx": null,
+        "bed": "montage"
+      },
+      {
+        "id": "pier-day-2",
+        "start": 16.8,
+        "dur": 0.6,
+        "hour": 12.4,
+        "sfx": null,
+        "bed": "montage"
+      },
+      {
+        "id": "pier-day-3",
+        "start": 17.400000000000002,
+        "dur": 0.6,
+        "hour": 16.6,
+        "sfx": null,
+        "bed": "montage"
+      },
+      {
+        "id": "pier-day-4",
+        "start": 18.000000000000004,
+        "dur": 0.6,
+        "hour": 19.26878030373874,
+        "sfx": null,
+        "bed": "montage"
+      },
+      {
+        "id": "pier-day-5",
+        "start": 18.600000000000005,
+        "dur": 0.6,
+        "hour": 21.2,
+        "sfx": null,
+        "bed": "montage"
+      },
+      {
+        "id": "pilings-rise",
+        "start": 19.200000000000006,
+        "dur": 6,
+        "hour": 18.703312200317452,
+        "sfx": null,
+        "bed": "under-pier"
+      },
+      {
+        "id": "coaster",
+        "start": 25.200000000000006,
+        "dur": 4.8,
+        "hour": 18.74331220031745,
+        "sfx": [
+          {
+            "at": 1.4,
+            "type": "coaster-drop"
+          }
+        ],
+        "bed": "coaster"
+      },
+      {
+        "id": "day-volley",
+        "start": 30.000000000000007,
+        "dur": 0.6,
+        "hour": 12.6,
+        "sfx": null,
+        "bed": "montage"
+      },
+      {
+        "id": "day-muscle",
+        "start": 30.60000000000001,
+        "dur": 0.6,
+        "hour": 9.2,
+        "sfx": null,
+        "bed": "montage"
+      },
+      {
+        "id": "day-end",
+        "start": 31.20000000000001,
+        "dur": 0.6,
+        "hour": 22.3,
+        "sfx": null,
+        "bed": "montage"
+      },
+      {
+        "id": "day-under",
+        "start": 31.80000000000001,
+        "dur": 0.6,
+        "hour": 7.014500901928775,
+        "sfx": null,
+        "bed": "montage"
+      },
+      {
+        "id": "day-crowd",
+        "start": 32.40000000000001,
+        "dur": 0.6,
+        "hour": 13.4,
+        "sfx": null,
+        "bed": "montage"
+      },
+      {
+        "id": "day-lineup",
+        "start": 33.000000000000014,
+        "dur": 0.6,
+        "hour": 8.1,
+        "sfx": null,
+        "bed": "montage"
+      },
+      {
+        "id": "pelicans",
+        "start": 33.600000000000016,
+        "dur": 6,
+        "hour": 18.78331220031745,
+        "sfx": null,
+        "bed": "surf-far"
+      },
+      {
+        "id": "timelapse",
+        "start": 39.600000000000016,
+        "dur": 7.199999999999999,
+        "hour": null,
+        "sfx": null,
+        "bed": "dusk"
+      },
+      {
+        "id": "finale",
+        "start": 46.80000000000001,
+        "dur": 13.2,
+        "hour": null,
+        "sfx": null,
+        "bed": "finale"
+      }
+    ],
+    "cues": [],
+    "events": {
+      "astroDawn": 5.321708027534626,
+      "nauticalDawn": 5.812706107645878,
+      "civilDawn": 6.2983583301385195,
+      "sunrise": 6.714500901928775,
+      "goldenEnd": 7.264724317122803,
+      "noon": 12.766666666666666,
+      "noonAlt": 55.85441079023553,
+      "goldenStart": 18.283820308305472,
+      "sunset": 18.83331220031745,
+      "civilDusk": 19.24878030373874,
+      "nauticalDusk": 19.733469259817657,
+      "astroDusk": 20.223255057249187
+    }
+  },
+  "times": [
+    2.7,
+    7.8,
+    12.9,
+    15.9,
+    16.5,
+    17.1,
+    17.7,
+    18.3,
+    18.9,
+    22.2,
+    27.6,
+    30.3,
+    30.9,
+    31.5,
+    32.1,
+    32.7,
+    33.3,
+    36.6,
+    43.2,
+    53.4
+  ],
+  "range": {
+    "start": 19.200000000000006,
+    "frames": 60,
+    "fps": 30,
+    "sub": 1
+  },
+  "repeat": {
+    "t": 20.200000000000006,
+    "a": "02ee246b8c1b4128b4047521f3599c994381206942c965f820c57db4ee0160f6",
+    "b": "eb92661f89f4747f7b93a7881b8965d3db941363089a95546dc6692f3a52d4da",
+    "identical": false,
+    "meanAbsRGB_0_255": [
+      0.018578317901234567,
+      0.015455246913580247,
+      0.018848379629629628
+    ],
+    "differenceBBox": [
+      328,
+      271,
+      945,
+      305
+    ]
+  },
+  "errors": [],
+  "blocked": [],
+  "requests": [
+    "http://127.0.0.1:58734/?render",
+    "http://127.0.0.1:58734/js/main.js",
+    "http://127.0.0.1:58734/three169/build/three.module.js",
+    "http://127.0.0.1:58734/three169/examples/jsm/postprocessing/EffectComposer.js",
+    "http://127.0.0.1:58734/three169/examples/jsm/postprocessing/RenderPass.js",
+    "http://127.0.0.1:58734/three169/examples/jsm/postprocessing/UnrealBloomPass.js",
+    "http://127.0.0.1:58734/three169/examples/jsm/postprocessing/OutputPass.js",
+    "http://127.0.0.1:58734/js/core.js",
+    "http://127.0.0.1:58734/js/site.js",
+    "http://127.0.0.1:58734/js/astro.js",
+    "http://127.0.0.1:58734/js/palette.js",
+    "http://127.0.0.1:58734/js/walk.js",
+    "http://127.0.0.1:58734/js/sky.js",
+    "http://127.0.0.1:58734/js/sea.js",
+    "http://127.0.0.1:58734/js/breakers.js",
+    "http://127.0.0.1:58734/js/ribbons.js",
+    "http://127.0.0.1:58734/js/pier.js",
+    "http://127.0.0.1:58734/js/park.js",
+    "http://127.0.0.1:58734/js/distance.js",
+    "http://127.0.0.1:58734/js/shore.js",
+    "http://127.0.0.1:58734/js/beach.js",
+    "http://127.0.0.1:58734/js/crowd.js",
+    "http://127.0.0.1:58734/js/people.js",
+    "http://127.0.0.1:58734/js/play.js",
+    "http://127.0.0.1:58734/js/water.js",
+    "http://127.0.0.1:58734/js/pierlife.js",
+    "http://127.0.0.1:58734/js/wildlife.js",
+    "http://127.0.0.1:58734/js/traffic.js",
+    "http://127.0.0.1:58734/three169/examples/jsm/shaders/CopyShader.js",
+    "http://127.0.0.1:58734/three169/examples/jsm/postprocessing/ShaderPass.js",
+    "http://127.0.0.1:58734/three169/examples/jsm/postprocessing/MaskPass.js",
+    "http://127.0.0.1:58734/three169/examples/jsm/postprocessing/Pass.js",
+    "http://127.0.0.1:58734/three169/examples/jsm/shaders/LuminosityHighPassShader.js",
+    "http://127.0.0.1:58734/three169/examples/jsm/shaders/OutputShader.js",
+    "http://127.0.0.1:58734/js/surf.js",
+    "http://127.0.0.1:58734/js/field.js",
+    "http://127.0.0.1:58734/js/build.js",
+    "http://127.0.0.1:58734/js/text.js",
+    "http://127.0.0.1:58734/js/gear.js",
+    "http://127.0.0.1:58734/js/rigs.js",
+    "http://127.0.0.1:58734/js/inst.js",
+    "http://127.0.0.1:58734/js/trailer.js",
+    "http://127.0.0.1:58734/js/trailer-shots.js"
+  ],
+  "adaptation": "local fonts + engine imports; original drawing code unchanged; 960px capture; beach sub=1"
+}

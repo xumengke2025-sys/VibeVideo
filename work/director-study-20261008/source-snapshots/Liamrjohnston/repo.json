@@ -1,0 +1,836 @@
+{
+  "repo": "Liamrjohnston/remotion-motion-graphics-skill",
+  "metadata": {
+    "id": 1310274020,
+    "node_id": "R_kgDOThkx5A",
+    "name": "remotion-motion-graphics-skill",
+    "full_name": "Liamrjohnston/remotion-motion-graphics-skill",
+    "private": false,
+    "owner": {
+      "login": "Liamrjohnston",
+      "id": 193749584,
+      "node_id": "U_kgDOC4xiUA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193749584?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Liamrjohnston",
+      "html_url": "https://github.com/Liamrjohnston",
+      "followers_url": "https://api.github.com/users/Liamrjohnston/followers",
+      "following_url": "https://api.github.com/users/Liamrjohnston/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Liamrjohnston/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Liamrjohnston/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Liamrjohnston/subscriptions",
+      "organizations_url": "https://api.github.com/users/Liamrjohnston/orgs",
+      "repos_url": "https://api.github.com/users/Liamrjohnston/repos",
+      "events_url": "https://api.github.com/users/Liamrjohnston/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Liamrjohnston/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/Liamrjohnston/remotion-motion-graphics-skill",
+    "description": "Production-ready Remotion motion graphics skills for AI video workflows",
+    "fork": false,
+    "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill",
+    "forks_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/forks",
+    "keys_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/teams",
+    "hooks_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/hooks",
+    "issue_events_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/events",
+    "assignees_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/tags",
+    "blobs_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/languages",
+    "stargazers_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/stargazers",
+    "contributors_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/contributors",
+    "subscribers_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/subscribers",
+    "subscription_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/subscription",
+    "commits_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/merges",
+    "archive_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/downloads",
+    "issues_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/labels{/name}",
+    "releases_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/deployments",
+    "created_at": "2026-07-23T18:56:00Z",
+    "updated_at": "2026-10-08T12:31:02Z",
+    "pushed_at": "2026-07-24T00:01:19Z",
+    "git_url": "git://github.com/Liamrjohnston/remotion-motion-graphics-skill.git",
+    "ssh_url": "git@github.com:Liamrjohnston/remotion-motion-graphics-skill.git",
+    "clone_url": "https://github.com/Liamrjohnston/remotion-motion-graphics-skill.git",
+    "svn_url": "https://github.com/Liamrjohnston/remotion-motion-graphics-skill",
+    "homepage": null,
+    "size": 41850,
+    "stargazers_count": 90,
+    "watchers_count": 90,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 7,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 7,
+    "open_issues": 0,
+    "watchers": 90,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 7,
+    "subscribers_count": 0
+  },
+  "commit": {
+    "sha": "b860c7921f2220b9e2a84e815ba0ae7b10858f08",
+    "node_id": "C_kwDOThkx5NoAKGI4NjBjNzkyMWYyMjIwYjllMmE4NGU4MTViYTBhZTdiMTA4NThmMDg",
+    "commit": {
+      "author": {
+        "name": "Liamrjohnston",
+        "email": "193749584+Liamrjohnston@users.noreply.github.com",
+        "date": "2026-07-24T00:01:18Z"
+      },
+      "committer": {
+        "name": "Liamrjohnston",
+        "email": "193749584+Liamrjohnston@users.noreply.github.com",
+        "date": "2026-07-24T00:01:18Z"
+      },
+      "message": "Document the skill update command",
+      "tree": {
+        "sha": "945da0fdb1b4743ed4cb289d58e3d2acf014aa23",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/945da0fdb1b4743ed4cb289d58e3d2acf014aa23"
+      },
+      "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/commits/b860c7921f2220b9e2a84e815ba0ae7b10858f08",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/commits/b860c7921f2220b9e2a84e815ba0ae7b10858f08",
+    "html_url": "https://github.com/Liamrjohnston/remotion-motion-graphics-skill/commit/b860c7921f2220b9e2a84e815ba0ae7b10858f08",
+    "comments_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/commits/b860c7921f2220b9e2a84e815ba0ae7b10858f08/comments",
+    "author": {
+      "login": "Liamrjohnston",
+      "id": 193749584,
+      "node_id": "U_kgDOC4xiUA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193749584?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Liamrjohnston",
+      "html_url": "https://github.com/Liamrjohnston",
+      "followers_url": "https://api.github.com/users/Liamrjohnston/followers",
+      "following_url": "https://api.github.com/users/Liamrjohnston/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Liamrjohnston/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Liamrjohnston/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Liamrjohnston/subscriptions",
+      "organizations_url": "https://api.github.com/users/Liamrjohnston/orgs",
+      "repos_url": "https://api.github.com/users/Liamrjohnston/repos",
+      "events_url": "https://api.github.com/users/Liamrjohnston/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Liamrjohnston/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Liamrjohnston",
+      "id": 193749584,
+      "node_id": "U_kgDOC4xiUA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193749584?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Liamrjohnston",
+      "html_url": "https://github.com/Liamrjohnston",
+      "followers_url": "https://api.github.com/users/Liamrjohnston/followers",
+      "following_url": "https://api.github.com/users/Liamrjohnston/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Liamrjohnston/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Liamrjohnston/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Liamrjohnston/subscriptions",
+      "organizations_url": "https://api.github.com/users/Liamrjohnston/orgs",
+      "repos_url": "https://api.github.com/users/Liamrjohnston/repos",
+      "events_url": "https://api.github.com/users/Liamrjohnston/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Liamrjohnston/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2bc2577a6626e193ac0b1ac5a314e90c491d22ea",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/commits/2bc2577a6626e193ac0b1ac5a314e90c491d22ea",
+        "html_url": "https://github.com/Liamrjohnston/remotion-motion-graphics-skill/commit/2bc2577a6626e193ac0b1ac5a314e90c491d22ea"
+      }
+    ],
+    "stats": {
+      "total": 20,
+      "additions": 20,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "27284107cc914f864025c953a3a3b002068115d7",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 20,
+        "deletions": 0,
+        "changes": 20,
+        "blob_url": "https://github.com/Liamrjohnston/remotion-motion-graphics-skill/blob/b860c7921f2220b9e2a84e815ba0ae7b10858f08/README.md",
+        "raw_url": "https://github.com/Liamrjohnston/remotion-motion-graphics-skill/raw/b860c7921f2220b9e2a84e815ba0ae7b10858f08/README.md",
+        "contents_url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/contents/README.md?ref=b860c7921f2220b9e2a84e815ba0ae7b10858f08",
+        "patch": "@@ -176,6 +176,26 @@ npx skills add liamrjohnston/remotion-motion-graphics-skill -a claude-code -y\n npx skills add liamrjohnston/remotion-motion-graphics-skill --skill cinematic-camera\n ```\n \n+### Update to the newest version\n+\n+From the project where the skills are installed:\n+\n+```bash\n+npx skills update -y\n+```\n+\n+If you installed them globally:\n+\n+```bash\n+npx skills update -g -y\n+```\n+\n+To update only this repository's four skills:\n+\n+```bash\n+npx skills update motion-graphics cinematic-camera terminal-inserts article-highlights -y\n+```\n+\n <details>\n <summary><b>Manual install</b></summary>\n "
+      }
+    ]
+  },
+  "tree": {
+    "sha": "b860c7921f2220b9e2a84e815ba0ae7b10858f08",
+    "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/b860c7921f2220b9e2a84e815ba0ae7b10858f08",
+    "tree": [
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1927b87c8e6b8b246bed78a883880817faf89f67",
+        "size": 1067,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/1927b87c8e6b8b246bed78a883880817faf89f67"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27284107cc914f864025c953a3a3b002068115d7",
+        "size": 17123,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/27284107cc914f864025c953a3a3b002068115d7"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "30d7301a24910b99a2e96f6791410b1b5417e692",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/30d7301a24910b99a2e96f6791410b1b5417e692"
+      },
+      {
+        "path": "docs/prompt-threads.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5571ea309d3cdeadc1afec1292d494a9f5f3bbb6",
+        "size": 6011,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/5571ea309d3cdeadc1afec1292d494a9f5f3bbb6"
+      },
+      {
+        "path": "examples",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fdfe38faa4cfe420bd5da4ebd0f1878b07a409bc",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/fdfe38faa4cfe420bd5da4ebd0f1878b07a409bc"
+      },
+      {
+        "path": "examples/kickbacks-same-run-editor.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ba51a0d0060ada19ab42fcfd45da67f3ee922ef",
+        "size": 3293855,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/3ba51a0d0060ada19ab42fcfd45da67f3ee922ef"
+      },
+      {
+        "path": "examples/kickbacks-spinner-terminals.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6efc840129c9ee7d8b6120d758f61b8c1cb38c4",
+        "size": 1087600,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/e6efc840129c9ee7d8b6120d758f61b8c1cb38c4"
+      },
+      {
+        "path": "examples/openmontage-claude-pipeline.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51ff05c7883423eea7f70c992f30164de5b38cbe",
+        "size": 2797858,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/51ff05c7883423eea7f70c992f30164de5b38cbe"
+      },
+      {
+        "path": "examples/openmontage-hook.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a5c1b602e6bd1d2aca7566112740f9da31aa854",
+        "size": 1456625,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/8a5c1b602e6bd1d2aca7566112740f9da31aa854"
+      },
+      {
+        "path": "examples/openmontage-tool-chaos.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "157d10ebacef12e85cb1563e4be8faa646817b62",
+        "size": 1252529,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/157d10ebacef12e85cb1563e4be8faa646817b62"
+      },
+      {
+        "path": "examples/smartlead-prewarmed-burn.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51269a5397300787cf7f3e53ea7cf9430205e072",
+        "size": 1630438,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/51269a5397300787cf7f3e53ea7cf9430205e072"
+      },
+      {
+        "path": "examples/tsenta-apply-faster.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "098762eb1634a0fb42573bcd0d9c367e3dcec16b",
+        "size": 2996040,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/098762eb1634a0fb42573bcd0d9c367e3dcec16b"
+      },
+      {
+        "path": "examples/tsenta-one-click-wall.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c7e518965dd7c9b83e2d97b3f257be70723fda96",
+        "size": 3187544,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/c7e518965dd7c9b83e2d97b3f257be70723fda96"
+      },
+      {
+        "path": "install.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "35556a2317bec29d93eb2fb2a6440ccab79277f8",
+        "size": 2238,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/35556a2317bec29d93eb2fb2a6440ccab79277f8"
+      },
+      {
+        "path": "previews",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9b2500e49b11cd90c5108a0821e68969e68b0978",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/9b2500e49b11cd90c5108a0821e68969e68b0978"
+      },
+      {
+        "path": "previews/article-highlight.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "48276242240e08dd3506dd5d7a8ac987e1caedfe",
+        "size": 1695700,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/48276242240e08dd3506dd5d7a8ac987e1caedfe"
+      },
+      {
+        "path": "previews/kickbacks-same-run-editor.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d11602fc41715f22f11ba90e30e5cad14e975849",
+        "size": 1156094,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/d11602fc41715f22f11ba90e30e5cad14e975849"
+      },
+      {
+        "path": "previews/kickbacks-spinner-terminals.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72296ff6986db4b7890ec8485aeafa2a40d7b533",
+        "size": 798363,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/72296ff6986db4b7890ec8485aeafa2a40d7b533"
+      },
+      {
+        "path": "previews/openmontage-claude-pipeline.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "128d49126fccec762e0e6b31d2c7249e0b4a3ef3",
+        "size": 3270790,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/128d49126fccec762e0e6b31d2c7249e0b4a3ef3"
+      },
+      {
+        "path": "previews/openmontage-hook.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0172f3ce46e3e0ed6f19166dbd0b6242e3ced7dd",
+        "size": 1889594,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/0172f3ce46e3e0ed6f19166dbd0b6242e3ced7dd"
+      },
+      {
+        "path": "previews/openmontage-tool-chaos.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f27acc7017c315d5c0790a370725352709186d57",
+        "size": 1441043,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/f27acc7017c315d5c0790a370725352709186d57"
+      },
+      {
+        "path": "previews/smartlead-prewarmed-burn.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "22407ba0a08746e76fde08b6ff2f908b8fae32bf",
+        "size": 2297230,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/22407ba0a08746e76fde08b6ff2f908b8fae32bf"
+      },
+      {
+        "path": "previews/terminal-install.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df1d51d917fc51ba2e8db51a074a0fbc354981e0",
+        "size": 2789195,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/df1d51d917fc51ba2e8db51a074a0fbc354981e0"
+      },
+      {
+        "path": "previews/tsenta-apply-faster.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2670c2d39b67ca94d1cfccb86263343f00fd5bb0",
+        "size": 3419441,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/2670c2d39b67ca94d1cfccb86263343f00fd5bb0"
+      },
+      {
+        "path": "previews/tsenta-one-click-wall.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ccdd225d6b49bb8b0a9d5a8b321e25b9b54f8acd",
+        "size": 2752620,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/ccdd225d6b49bb8b0a9d5a8b321e25b9b54f8acd"
+      },
+      {
+        "path": "skills",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fefc84c6ecbe532cbb60c908dffaf9d9eeb2434e",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/fefc84c6ecbe532cbb60c908dffaf9d9eeb2434e"
+      },
+      {
+        "path": "skills/article-highlights",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d33a7e7f3d4cdef38fd603aec56a6cc93a36a484",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/d33a7e7f3d4cdef38fd603aec56a6cc93a36a484"
+      },
+      {
+        "path": "skills/article-highlights/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76c69c8b208f1f52174a7df2b8e45517e2fb5ada",
+        "size": 5339,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/76c69c8b208f1f52174a7df2b8e45517e2fb5ada"
+      },
+      {
+        "path": "skills/article-highlights/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f71b7a380778a4e921efbb007b8bbd5cd4c3e312",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/f71b7a380778a4e921efbb007b8bbd5cd4c3e312"
+      },
+      {
+        "path": "skills/article-highlights/assets/examples",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "203ea9658c3d25c2ed219fe0b6f699bda82eda5e",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/203ea9658c3d25c2ed219fe0b6f699bda82eda5e"
+      },
+      {
+        "path": "skills/article-highlights/assets/examples/article-highlight.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "16823f8dc56e44f40f2c9f918b8a4e7402f000ad",
+        "size": 1970589,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/16823f8dc56e44f40f2c9f918b8a4e7402f000ad"
+      },
+      {
+        "path": "skills/cinematic-camera",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a93ed130f325c277b969f6a85ca6aa333c31ffb6",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/a93ed130f325c277b969f6a85ca6aa333c31ffb6"
+      },
+      {
+        "path": "skills/cinematic-camera/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c17f3671428489e6e0ce8063faac90cff9220a09",
+        "size": 6325,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/c17f3671428489e6e0ce8063faac90cff9220a09"
+      },
+      {
+        "path": "skills/motion-graphics",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8e336fb7eb25267c653bc9f2ab416f87cd77b768",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/8e336fb7eb25267c653bc9f2ab416f87cd77b768"
+      },
+      {
+        "path": "skills/motion-graphics/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b83087a761798af80ae92ccb214b36ba99297d64",
+        "size": 8049,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/b83087a761798af80ae92ccb214b36ba99297d64"
+      },
+      {
+        "path": "skills/motion-graphics/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0466342099c58401ffd30cdf0ff3fc62b7e30391",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/0466342099c58401ffd30cdf0ff3fc62b7e30391"
+      },
+      {
+        "path": "skills/motion-graphics/assets/logos",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "844505d8b3e9abbfec366b9a79f44b54dc772033",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/844505d8b3e9abbfec366b9a79f44b54dc772033"
+      },
+      {
+        "path": "skills/motion-graphics/assets/logos/claude-mark.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a33b34ed0d40ba1fd784bf537f4447354ff29fb1",
+        "size": 748,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/a33b34ed0d40ba1fd784bf537f4447354ff29fb1"
+      },
+      {
+        "path": "skills/motion-graphics/assets/logos/cursor.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "14085aac899f79f6cf0a19a618acbf7be3864cef",
+        "size": 469,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/14085aac899f79f6cf0a19a618acbf7be3864cef"
+      },
+      {
+        "path": "skills/motion-graphics/assets/logos/deepseek.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "185c108b458cbba411cb0004e3eaaf86bc693894",
+        "size": 2101,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/185c108b458cbba411cb0004e3eaaf86bc693894"
+      },
+      {
+        "path": "skills/motion-graphics/assets/logos/github.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "81920ca332522d9e2bdb4110f95c9bc1b0d3fc16",
+        "size": 837,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/81920ca332522d9e2bdb4110f95c9bc1b0d3fc16"
+      },
+      {
+        "path": "skills/motion-graphics/assets/logos/google-gemini.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e15e53ce01fecd30937474f51dcb55a32b186e1b",
+        "size": 416,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/e15e53ce01fecd30937474f51dcb55a32b186e1b"
+      },
+      {
+        "path": "skills/motion-graphics/assets/logos/linear.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ac4481309095e3090b5a61bf51129e8e6ccee64",
+        "size": 468,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/9ac4481309095e3090b5a61bf51129e8e6ccee64"
+      },
+      {
+        "path": "skills/motion-graphics/assets/logos/notion.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69afef322121a8bfd57a9539247f3d086a8db20f",
+        "size": 993,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/69afef322121a8bfd57a9539247f3d086a8db20f"
+      },
+      {
+        "path": "skills/motion-graphics/assets/logos/openai-codex-mark.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3dec647871b692377df612d731790747c490308d",
+        "size": 22451,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/3dec647871b692377df612d731790747c490308d"
+      },
+      {
+        "path": "skills/motion-graphics/assets/logos/playwright.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b3ca7d6c99bcbc5c1a00c2a17bbae1c462f2020",
+        "size": 5033,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/7b3ca7d6c99bcbc5c1a00c2a17bbae1c462f2020"
+      },
+      {
+        "path": "skills/motion-graphics/assets/logos/slack.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f679bcd0812690c9e1c80d316891687e6e9934f7",
+        "size": 10844,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/f679bcd0812690c9e1c80d316891687e6e9934f7"
+      },
+      {
+        "path": "skills/motion-graphics/assets/references",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8f5aecfaf9984e61541ac354634b2b8662176e89",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/8f5aecfaf9984e61541ac354634b2b8662176e89"
+      },
+      {
+        "path": "skills/motion-graphics/assets/references/kickbacks-same-run-editor-contact-sheet.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "08ee819d13c38a4fb5df5d6ff29406ad9fe9459a",
+        "size": 35132,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/08ee819d13c38a4fb5df5d6ff29406ad9fe9459a"
+      },
+      {
+        "path": "skills/motion-graphics/assets/references/kickbacks-same-run-editor.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ba51a0d0060ada19ab42fcfd45da67f3ee922ef",
+        "size": 3293855,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/3ba51a0d0060ada19ab42fcfd45da67f3ee922ef"
+      },
+      {
+        "path": "skills/motion-graphics/assets/references/openmontage-claude-pipeline-contact-sheet.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "693f18cead01971d013a2c4baed3c296b5d1ccb6",
+        "size": 48945,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/693f18cead01971d013a2c4baed3c296b5d1ccb6"
+      },
+      {
+        "path": "skills/motion-graphics/assets/references/openmontage-claude-pipeline.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51ff05c7883423eea7f70c992f30164de5b38cbe",
+        "size": 2797858,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/51ff05c7883423eea7f70c992f30164de5b38cbe"
+      },
+      {
+        "path": "skills/motion-graphics/assets/references/openmontage-hook-contact-sheet.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58dc4116224c50637123e1f2fed250d3580e2a73",
+        "size": 38602,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/58dc4116224c50637123e1f2fed250d3580e2a73"
+      },
+      {
+        "path": "skills/motion-graphics/assets/references/openmontage-hook.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a5c1b602e6bd1d2aca7566112740f9da31aa854",
+        "size": 1456625,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/8a5c1b602e6bd1d2aca7566112740f9da31aa854"
+      },
+      {
+        "path": "skills/motion-graphics/assets/references/smartlead-prewarmed-burn-contact-sheet.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f14adb6d61263f4ad135f92b4e756264ef38376d",
+        "size": 26185,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/f14adb6d61263f4ad135f92b4e756264ef38376d"
+      },
+      {
+        "path": "skills/motion-graphics/assets/references/smartlead-prewarmed-burn.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51269a5397300787cf7f3e53ea7cf9430205e072",
+        "size": 1630438,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/51269a5397300787cf7f3e53ea7cf9430205e072"
+      },
+      {
+        "path": "skills/motion-graphics/assets/references/tsenta-apply-faster-contact-sheet.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5fbc80bd4cbe2a58e9bda75ba153b6b0b5803dc7",
+        "size": 60644,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/5fbc80bd4cbe2a58e9bda75ba153b6b0b5803dc7"
+      },
+      {
+        "path": "skills/motion-graphics/assets/references/tsenta-apply-faster.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "098762eb1634a0fb42573bcd0d9c367e3dcec16b",
+        "size": 2996040,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/098762eb1634a0fb42573bcd0d9c367e3dcec16b"
+      },
+      {
+        "path": "skills/motion-graphics/assets/references/tsenta-one-click-wall-contact-sheet.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "605277037da22825c900a168cbf165f4c5e08b6b",
+        "size": 91976,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/605277037da22825c900a168cbf165f4c5e08b6b"
+      },
+      {
+        "path": "skills/motion-graphics/assets/references/tsenta-one-click-wall.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c7e518965dd7c9b83e2d97b3f257be70723fda96",
+        "size": 3187544,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/c7e518965dd7c9b83e2d97b3f257be70723fda96"
+      },
+      {
+        "path": "skills/motion-graphics/references",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7c02cd69fe691719b06edfbf60a588f910436340",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/7c02cd69fe691719b06edfbf60a588f910436340"
+      },
+      {
+        "path": "skills/motion-graphics/references/approved-references.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1380d918bf85009fec7cac4c8e9f0085ccc7e267",
+        "size": 2441,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/1380d918bf85009fec7cac4c8e9f0085ccc7e267"
+      },
+      {
+        "path": "skills/motion-graphics/references/logo-library.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff9574a7b1651142938a68f535a84c31f30aaa0c",
+        "size": 1701,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/ff9574a7b1651142938a68f535a84c31f30aaa0c"
+      },
+      {
+        "path": "skills/motion-graphics/references/rejected-patterns.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "60fd63d25bab04200105bf98e9574bbdf23926d6",
+        "size": 1588,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/60fd63d25bab04200105bf98e9574bbdf23926d6"
+      },
+      {
+        "path": "skills/motion-graphics/references/research-and-assets.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7225ffdf820f5700085f50cc8b2b5e86b2b1b0d5",
+        "size": 2664,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/7225ffdf820f5700085f50cc8b2b5e86b2b1b0d5"
+      },
+      {
+        "path": "skills/motion-graphics/references/visual-critic.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "41d229eea00be79acc6092bbb2257a47364ee46b",
+        "size": 2166,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/41d229eea00be79acc6092bbb2257a47364ee46b"
+      },
+      {
+        "path": "skills/motion-graphics/scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0b3ef2af5c3f2e9fd77635bfa931be16ee0e5d7d",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/0b3ef2af5c3f2e9fd77635bfa931be16ee0e5d7d"
+      },
+      {
+        "path": "skills/motion-graphics/scripts/promptible-gate.mjs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7e140962c8fd5456a08d9ba7ab0e177f285bb21",
+        "size": 15554,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/f7e140962c8fd5456a08d9ba7ab0e177f285bb21"
+      },
+      {
+        "path": "skills/motion-graphics/templates",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "05e3657e7fadb7826f2d7ebb4ce71092e44398f5",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/05e3657e7fadb7826f2d7ebb4ce71092e44398f5"
+      },
+      {
+        "path": "skills/motion-graphics/templates/critic-output.example.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f2db3b5a06759b1469f0ba15fe30266cb0020a8",
+        "size": 452,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/9f2db3b5a06759b1469f0ba15fe30266cb0020a8"
+      },
+      {
+        "path": "skills/terminal-inserts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f9f92a3f737e1c84e590c99b25dfed3f7724b64d",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/f9f92a3f737e1c84e590c99b25dfed3f7724b64d"
+      },
+      {
+        "path": "skills/terminal-inserts/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b08a8af347af2e4a30d67c827a66a0836bfa7863",
+        "size": 7187,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/b08a8af347af2e4a30d67c827a66a0836bfa7863"
+      },
+      {
+        "path": "skills/terminal-inserts/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e9f53849a496d0032320f4d6460b3de6ea49b025",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/e9f53849a496d0032320f4d6460b3de6ea49b025"
+      },
+      {
+        "path": "skills/terminal-inserts/assets/examples",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1122b86e7b0f4cfc039387bb34e6137e19a4b741",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/1122b86e7b0f4cfc039387bb34e6137e19a4b741"
+      },
+      {
+        "path": "skills/terminal-inserts/assets/examples/outreach-sequence-generator.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "497b04c86e1c8d697a75fa8706eb4c5542ee8ebf",
+        "size": 400581,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/497b04c86e1c8d697a75fa8706eb4c5542ee8ebf"
+      },
+      {
+        "path": "skills/terminal-inserts/assets/examples/terminal-install.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f882ea377f35de6ffe21c987e919dac9859013f4",
+        "size": 3660663,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/f882ea377f35de6ffe21c987e919dac9859013f4"
+      },
+      {
+        "path": "skills/terminal-inserts/references",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f0a21a27b884cf84b34aed92d8e5fa5ebb324c59",
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/trees/f0a21a27b884cf84b34aed92d8e5fa5ebb324c59"
+      },
+      {
+        "path": "skills/terminal-inserts/references/outreach-contact.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd7da9863de7c9faab989e211955c2e00e34f585",
+        "size": 27280,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/cd7da9863de7c9faab989e211955c2e00e34f585"
+      },
+      {
+        "path": "skills/terminal-inserts/references/terminal-install-contact.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dab1f73fea8275f1ec2b65853da421ef0ddc3073",
+        "size": 44934,
+        "url": "https://api.github.com/repos/Liamrjohnston/remotion-motion-graphics-skill/git/blobs/dab1f73fea8275f1ec2b65853da421ef0ddc3073"
+      }
+    ],
+    "truncated": false
+  }
+}

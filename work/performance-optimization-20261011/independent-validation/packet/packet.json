@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-10-11T08:11:25.367175+00:00",
+  "video_path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\fixture.mp4",
+  "video_sha256": "14efdbe226ce7755a07fc8b72ebc43cc78de2e27de7d503dacc50f6657dc820a",
+  "decoded_frames": 6,
+  "duration_seconds": 6,
+  "has_audio": true,
+  "repair_round": 1,
+  "index_path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\index.json",
+  "index_sha256": "73d6768990c7a388f8038a76ff10442505e4acf2a19063241848fd4fcbbf1fd4",
+  "decoded_frame_directory": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\frames",
+  "audio_path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\fixture.mp4",
+  "brief_after_blind": [],
+  "no_progress_minutes": 10,
+  "batches": [
+    {
+      "id": "000000-000002",
+      "assigned_range": [
+        0,
+        2
+      ],
+      "boundary_range": [
+        0,
+        3
+      ],
+      "sheets": [
+        {
+          "start": 0,
+          "end": 5,
+          "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\fixture.jpg",
+          "sha256": "9ac06030fc269a26db35893eb8d1f9fd73a0aeabcbd122fe976522813fa820e5"
+        }
+      ]
+    },
+    {
+      "id": "000003-000005",
+      "assigned_range": [
+        3,
+        5
+      ],
+      "boundary_range": [
+        2,
+        5
+      ],
+      "sheets": [
+        {
+          "start": 0,
+          "end": 5,
+          "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\fixture.jpg",
+          "sha256": "9ac06030fc269a26db35893eb8d1f9fd73a0aeabcbd122fe976522813fa820e5"
+        }
+      ]
+    }
+  ],
+  "coverage_status": "pending",
+  "note": "Exported files are not observed coverage."
+}

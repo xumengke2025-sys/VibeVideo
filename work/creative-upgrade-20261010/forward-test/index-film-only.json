@@ -1,0 +1,109 @@
+{
+  "exit_code": 0,
+  "result": {
+    "query": "全息 弹簧 数据 水 焦散",
+    "scope": "需求→方法候选；文本匹配分值不是画质评价。请按目的/失败条件选核心机制。",
+    "cards": [
+      {
+        "id": "world-anchor-callout",
+        "title": "相机、零件和产品标注共享世界锚点",
+        "matched_terms": [
+          "全息"
+        ],
+        "purpose": "观众在镜头移动和部件拆开时仍能追踪说明对应的对象。",
+        "status": "code_observed_with_adaptation",
+        "sources": [
+          {
+            "id": "lemo",
+            "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+            "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+            "relation": "supplementary_opus_films_selected_styles",
+            "runtime": "source_read_only",
+            "scope": "作者称43种风格；只归档4种选定风格及共享代码共147文件，未逐风格运行/审片。字体、音频、图片、模型与依赖不完整。",
+            "commit_date": "2026-10-08T14:00:14Z",
+            "repository_created": "2026-09-26T10:10:41Z",
+            "reference_role": "film",
+            "quality_evidence": "source_inspected_video_unreviewed",
+            "model_attribution": "作者README声明Opus 5.5代码影片；已读选定绘制路径。43种风格及98长片没有全面审查。",
+            "license_note": "根LICENSE为MIT，第三方字体/音乐/声音/样本等独立许可；GitHub API的NOASSERTION不代表没有LICENSE。",
+            "inspected": [
+              "LICENSE:1-26",
+              "styles/art-deco/demo/engine/cam.js:1-28",
+              "styles/art-deco/demo/timeline.js:1-55",
+              "styles/art-deco/demo/film.js:1-70",
+              "styles/blueprint/demo/machine.js:1-135",
+              "styles/blueprint/demo/film.js:1-234",
+              "styles/ink-wash/demo/ink.js:1-165",
+              "styles/ink-wash/demo/story.js:1-32",
+              "styles/hologram-hud/demo/engine/holo.js:1-115,195-259",
+              "styles/hologram-hud/demo/film.js:1-259"
+            ],
+            "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\lemo-opuscar\\styles\\hologram-hud\\demo\\engine\\holo.js",
+            "line": 206,
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/4d7014aa7ba7d22c00513052dd996a4f200d5102/styles/hologram-hud/demo/engine/holo.js#L206"
+          },
+          {
+            "id": "lemo",
+            "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+            "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+            "relation": "supplementary_opus_films_selected_styles",
+            "runtime": "source_read_only",
+            "scope": "作者称43种风格；只归档4种选定风格及共享代码共147文件，未逐风格运行/审片。字体、音频、图片、模型与依赖不完整。",
+            "commit_date": "2026-10-08T14:00:14Z",
+            "repository_created": "2026-09-26T10:10:41Z",
+            "reference_role": "film",
+            "quality_evidence": "source_inspected_video_unreviewed",
+            "model_attribution": "作者README声明Opus 5.5代码影片；已读选定绘制路径。43种风格及98长片没有全面审查。",
+            "license_note": "根LICENSE为MIT，第三方字体/音乐/声音/样本等独立许可；GitHub API的NOASSERTION不代表没有LICENSE。",
+            "inspected": [
+              "LICENSE:1-26",
+              "styles/art-deco/demo/engine/cam.js:1-28",
+              "styles/art-deco/demo/timeline.js:1-55",
+              "styles/art-deco/demo/film.js:1-70",
+              "styles/blueprint/demo/machine.js:1-135",
+              "styles/blueprint/demo/film.js:1-234",
+              "styles/ink-wash/demo/ink.js:1-165",
+              "styles/ink-wash/demo/story.js:1-32",
+              "styles/hologram-hud/demo/engine/holo.js:1-115,195-259",
+              "styles/hologram-hud/demo/film.js:1-259"
+            ],
+            "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\lemo-opuscar\\styles\\hologram-hud\\demo\\film.js",
+            "line": 112,
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/4d7014aa7ba7d22c00513052dd996a4f200d5102/styles/hologram-hud/demo/film.js#L112"
+          },
+          {
+            "id": "lemo",
+            "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+            "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+            "relation": "supplementary_opus_films_selected_styles",
+            "runtime": "source_read_only",
+            "scope": "作者称43种风格；只归档4种选定风格及共享代码共147文件，未逐风格运行/审片。字体、音频、图片、模型与依赖不完整。",
+            "commit_date": "2026-10-08T14:00:14Z",
+            "repository_created": "2026-09-26T10:10:41Z",
+            "reference_role": "film",
+            "quality_evidence": "source_inspected_video_unreviewed",
+            "model_attribution": "作者README声明Opus 5.5代码影片；已读选定绘制路径。43种风格及98长片没有全面审查。",
+            "license_note": "根LICENSE为MIT，第三方字体/音乐/声音/样本等独立许可；GitHub API的NOASSERTION不代表没有LICENSE。",
+            "inspected": [
+              "LICENSE:1-26",
+              "styles/art-deco/demo/engine/cam.js:1-28",
+              "styles/art-deco/demo/timeline.js:1-55",
+              "styles/art-deco/demo/film.js:1-70",
+              "styles/blueprint/demo/machine.js:1-135",
+              "styles/blueprint/demo/film.js:1-234",
+              "styles/ink-wash/demo/ink.js:1-165",
+              "styles/ink-wash/demo/story.js:1-32",
+              "styles/hologram-hud/demo/engine/holo.js:1-115,195-259",
+              "styles/hologram-hud/demo/film.js:1-259"
+            ],
+            "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\lemo-opuscar\\styles\\hologram-hud\\demo\\film.js",
+            "line": 194,
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/4d7014aa7ba7d22c00513052dd996a4f200d5102/styles/hologram-hud/demo/film.js#L194"
+          }
+        ],
+        "reference_leads": []
+      }
+    ],
+    "unresolved": null
+  }
+}

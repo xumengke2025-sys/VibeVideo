@@ -1,0 +1,5 @@
+import http from 'node:http';import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const root=path.dirname(fileURLToPath(import.meta.url));
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript','.mjs':'text/javascript','.json':'application/json','.wav':'audio/wav','.mp4':'video/mp4','.png':'image/png','.jpg':'image/jpeg'};
+export function createServer(){return http.createServer((req,res)=>{const u=new URL(req.url,'http://localhost');const p=path.resolve(root,'.'+decodeURIComponent(u.pathname==='/'?'/index.html':u.pathname));if(!p.startsWith(root+path.sep)){res.writeHead(403).end();return}try{const s=fs.statSync(p);res.writeHead(200,{'Content-Type':types[path.extname(p)]||'application/octet-stream','Content-Length':s.size,'Cache-Control':'no-store'});fs.createReadStream(p).pipe(res)}catch{res.writeHead(404).end('Not found')}})}
+if(process.argv[1]===fileURLToPath(import.meta.url)){const s=createServer();s.listen(Number(process.env.PORT||4318),'127.0.0.1',()=>console.log('Preview http://127.0.0.1:'+s.address().port));}

@@ -1,0 +1,8 @@
+{
+  "name": "vibe-video-style-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"render": "node render.mjs", "check": "node check.mjs"},
+  "dependencies": {"playwright-core": "1.62.1"}
+}

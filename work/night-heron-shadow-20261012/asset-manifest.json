@@ -1,0 +1,437 @@
+{
+  "version": 1,
+  "scope": "assets_and_frame_plan_only",
+  "size": [
+    1080,
+    1920
+  ],
+  "outputFps": 24,
+  "poseFps": 12,
+  "durationSeconds": 50,
+  "format": "RGBA PNG",
+  "generation": "built-in image_gen",
+  "cropPolicy": "Use explicit sourceRect, not uniform auto-grid. Rects are initial manually inspected ranges; use pose-bounds.json for numeric alpha bounds and boundary flags.",
+  "identity": "heron_idle is design reference only; sequence families use one canonical torso when registering. Rejected early penguin/disguise studies are excluded.",
+  "assets": [
+    {
+      "id": "heron_idle",
+      "file": "assets/heron_idle.png",
+      "poses": [
+        {
+          "id": "heron_idle.0",
+          "sourceRect": [
+            0,
+            0,
+            1374,
+            1145
+          ],
+          "label": "原始角色设定；不与动作表直接交替播放",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        }
+      ]
+    },
+    {
+      "id": "heron_neck",
+      "file": "assets/heron_neck-v2.png",
+      "poses": [
+        {
+          "id": "heron_neck.0",
+          "sourceRect": [
+            0,
+            0,
+            687,
+            573
+          ],
+          "label": "低头收颈",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_neck.1",
+          "sourceRect": [
+            687,
+            0,
+            687,
+            573
+          ],
+          "label": "立定收颈",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_neck.2",
+          "sourceRect": [
+            0,
+            573,
+            687,
+            572
+          ],
+          "label": "半伸颈",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_neck.3",
+          "sourceRect": [
+            687,
+            573,
+            687,
+            572
+          ],
+          "label": "低头长颈",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        }
+      ]
+    },
+    {
+      "id": "heron_walk",
+      "file": "assets/heron_walk.png",
+      "poses": [
+        {
+          "id": "heron_walk.0",
+          "sourceRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "label": "跨步落脚A",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_walk.1",
+          "sourceRect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "label": "后脚提起A",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_walk.2",
+          "sourceRect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "label": "抬脚通过A",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_walk.3",
+          "sourceRect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "label": "跨步落脚B（与A较相似）",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_walk.4",
+          "sourceRect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "label": "后脚提起B（与A较相似）",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_walk.5",
+          "sourceRect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "label": "抬脚通过B（与A较相似）",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        }
+      ]
+    },
+    {
+      "id": "heron_disguise",
+      "file": "assets/heron_disguise.png",
+      "poses": [
+        {
+          "id": "heron_disguise.0",
+          "sourceRect": [
+            0,
+            0,
+            687,
+            578
+          ],
+          "label": "并脚站定",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_disguise.1",
+          "sourceRect": [
+            687,
+            0,
+            687,
+            578
+          ],
+          "label": "提脚短步",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_disguise.2",
+          "sourceRect": [
+            0,
+            578,
+            687,
+            567
+          ],
+          "label": "双脚落定",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_disguise.3",
+          "sourceRect": [
+            687,
+            578,
+            687,
+            567
+          ],
+          "label": "再次提脚；需与第1帧接续",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        }
+      ]
+    },
+    {
+      "id": "heron_contact",
+      "file": "assets/heron_contact-v2.png",
+      "poses": [
+        {
+          "id": "heron_contact.0",
+          "sourceRect": [
+            0,
+            0,
+            687,
+            573
+          ],
+          "label": "低头闭嘴",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_contact.1",
+          "sourceRect": [
+            687,
+            0,
+            687,
+            573
+          ],
+          "label": "向前张嘴",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_contact.2",
+          "sourceRect": [
+            0,
+            573,
+            687,
+            572
+          ],
+          "label": "向前合嘴",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "heron_contact.3",
+          "sourceRect": [
+            687,
+            573,
+            687,
+            572
+          ],
+          "label": "回收微张嘴",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        }
+      ]
+    },
+    {
+      "id": "penguin_react",
+      "file": "assets/penguin_react.png",
+      "poses": [
+        {
+          "id": "penguin_react.0",
+          "sourceRect": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "label": "面右站定",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "penguin_react.1",
+          "sourceRect": [
+            627,
+            0,
+            627,
+            627
+          ],
+          "label": "斜看抬翅",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "penguin_react.2",
+          "sourceRect": [
+            0,
+            627,
+            627,
+            627
+          ],
+          "label": "回头看左",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "penguin_react.3",
+          "sourceRect": [
+            627,
+            627,
+            627,
+            627
+          ],
+          "label": "抬翅抗议",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        }
+      ]
+    },
+    {
+      "id": "chick",
+      "file": "assets/chick.png",
+      "poses": [
+        {
+          "id": "chick.0",
+          "sourceRect": [
+            0,
+            0,
+            627,
+            585
+          ],
+          "label": "等待",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "chick.1",
+          "sourceRect": [
+            627,
+            0,
+            627,
+            585
+          ],
+          "label": "探头微张嘴",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "chick.2",
+          "sourceRect": [
+            0,
+            585,
+            627,
+            669
+          ],
+          "label": "抬头大张嘴",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        },
+        {
+          "id": "chick.3",
+          "sourceRect": [
+            627,
+            585,
+            627,
+            669
+          ],
+          "label": "低头收口",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        }
+      ]
+    },
+    {
+      "id": "bucket",
+      "file": "assets/bucket.png",
+      "poses": [
+        {
+          "id": "bucket.0",
+          "sourceRect": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "label": "空桶；桶沿遮挡在渲染层建立",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        }
+      ]
+    },
+    {
+      "id": "fish",
+      "file": "assets/fish.png",
+      "poses": [
+        {
+          "id": "fish.0",
+          "sourceRect": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "label": "独立鱼；头朝左",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        }
+      ]
+    },
+    {
+      "id": "nest",
+      "file": "assets/nest.png",
+      "poses": [
+        {
+          "id": "nest.0",
+          "sourceRect": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "label": "空巢与树枝；巢前沿遮挡在渲染层建立",
+          "registration": "requires_renderer_alignment",
+          "anchors": "pose-bounds.json; beak coordinates are initial estimates in pose-anchors.json"
+        }
+      ]
+    }
+  ]
+}

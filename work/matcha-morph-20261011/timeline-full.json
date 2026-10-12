@@ -1,0 +1,23 @@
+{
+ "title":"一片叶，变成一碗抹茶","duration":35,"width":1080,"height":1920,"fps":30,
+ "brief":{"audience":"普通中文观众","objective":"看懂常见抹茶路线：遮阴嫩叶，经蒸青、不揉捻干燥、精制去梗去叶脉和细磨，成为茶粉；加水击拂属于饮用准备。","visualPromise":"一片叶保持身份穿过工序，再以碎片环、磨盘圆形和茶碗圆口传递注意。","style":"MG 08-morph启发的纸纹平面形变，乳白/抹茶绿/墨绿；沿用获认可小样的叶片与分层摄影。","clock":"绝对帧时间轴；96BPM原创器乐与工序拟音；无旁白，字幕承担解说。","rejectIf":"只剩静态形象轮播；把茶叶变成蒸汽、磨盘变成茶粉；遗漏精制；宣称粉末完全溶解；主体或文字不可读。","sourceRecord":"SOURCES.md","approvedPreview":"out-preview-r3/matcha-steam-dry.mp4","repairRoundCarried":1,"maxRepairRounds":2,"sample":{"start":15,"end":20,"purpose":"按正式尺寸验证叶片分离叶脉、叶肉碎片成环、磨盘建立及相邻连接","output":"out-full-quality-sample-r1/matcha-full.mp4","status":"planned"}},
+ "shots":[
+  {"id":"leaf","start":0,"end":3,"states":{"establish":0.2,"action":1.2,"result":2.1},"action":"点状轮廓连续展开为240点鲜叶，叶脉接续出现","text":"一片叶 / 怎样变成一碗抹茶？","intent":"一片鲜叶是贯穿主体","reads":[{"at":0.2,"readable":1.25,"until":2.75,"meaning":"一片鲜叶是贯穿主体"}],"camera":{"subjectId":"persistent-leaf","mode":"轻推近","worldPath":"叶片270,425，轮廓展开","screenRegion":"中央上半部","hold":"1.5–2.75"},"sound":"柔和拨弦开场"},
+  {"id":"shade","start":3,"end":7,"states":{"establish":3.6,"action":4.2,"result":6.2},"action":"织网遮阴、光线减弱；背景茶丛建立；主叶离开枝条到蒸青托盘","text":"采摘前遮阴，再采下嫩叶","intent":"采摘前遮阴，随后采叶","reads":[{"at":3.25,"readable":4.2,"until":6.75,"meaning":"采摘前遮阴，随后采叶"}],"camera":{"subjectId":"persistent-leaf","mode":"轻侧移跟随再归位","worldPath":"270,425→300,415→281,426","parallax":"茶丛0.65，主体1，遮阴布1.13","hold":"4.4–5.8"},"sound":"织布移动、叶片摩擦"},
+  {"id":"steam","start":7,"end":11,"states":{"establish":7.3,"action":8.6,"result":10.5},"action":"叶片在竹筛上，三条向上蒸汽带轻摆","text":"蒸青，抑制酶促氧化","intent":"蒸青抑制酶促氧化","reads":[{"at":7.25,"readable":7.4,"until":10.75,"meaning":"蒸青抑制酶促氧化"}],"camera":{"subjectId":"persistent-leaf","mode":"沿用r3绝对时间推近与跟拍前段","previewMapping":"0–2秒拉伸为7–11秒","hold":"先建立蒸青"},"sound":"蒸汽"},
+  {"id":"dry","start":11,"end":15,"states":{"establish":11.3,"action":12.2,"result":14.5},"action":"蒸汽带按点对应转为气流，竹筛伸为承托面；叶片轻缩，不揉成针形","text":"不揉捻，干燥制成碾茶","intent":"不揉捻干燥得到碾茶","reads":[{"at":11.25,"readable":12.6,"until":14.75,"meaning":"不揉捻干燥得到碾茶"}],"camera":{"subjectId":"persistent-leaf","mode":"右跟随再拉远","previewMapping":"2–5秒拉伸为11–15秒","parallax":"远层0.28，主体1，近气流1.12","hold":"末态持续可读"},"sound":"干燥气流、叶片摩擦"},
+  {"id":"refine","start":15,"end":19,"states":{"establish":15.5,"action":16.5,"result":18.5},"action":"叶肉分片，黄色梗与叶脉网络侧移退出；叶肉片沿环分布","text":"去梗、去叶脉，留下叶肉 / 精制过程示意","intent":"叶肉与梗、叶脉分离","reads":[{"at":15.25,"readable":16.35,"until":18.75,"meaning":"叶肉与梗、叶脉分离"}],"camera":{"subjectId":"leaf-meat","mode":"从干燥末态归位、关键分离停机","worldPath":"主叶390,490→270,425；碎片环中心270,379","hold":"16–18.5"},"sound":"干叶短摩擦"},
+  {"id":"mill","start":19,"end":24,"states":{"establish":19.8,"action":21,"result":23},"action":"碎片环落向石磨进料口，磨柄和磨面刻线旋转，粉末从出口落到粉堆","text":"叶肉磨成粉，成为抹茶 / 石磨工艺示意","intent":"叶肉细磨为茶粉","reads":[{"at":19.25,"readable":20,"until":23.75,"meaning":"叶肉细磨为茶粉"}],"camera":{"subjectId":"mill-outlet-powder","mode":"从磨盘建立移向出口","worldPath":"相机270,450→242,472，粉堆146,650","parallax":"背景0.32，磨盘1，粉末屏幕层","hold":"22.8–23"},"sound":"周期磨石摩擦"},
+  {"id":"water","start":24,"end":29,"states":{"establish":24.6,"action":26.2,"result":28.3},"action":"粉末上升成团，再落入茶碗；水流进入茶碗，粉粒由中央向液面分散","text":"让茶粉在水中均匀分散 / 饮用准备","intent":"加水属于饮用准备，粉末分散","reads":[{"at":24.25,"readable":25.6,"until":28.75,"meaning":"加水属于饮用准备，粉末分散"}],"camera":{"subjectId":"powder-to-bowl","mode":"跟随粉末注意交接至茶碗，注水停机","worldPath":"粉末146,650→270,337→270,512","hold":"25.4–28.8"},"sound":"注水"},
+  {"id":"whisk","start":29,"end":35,"states":{"establish":29.55,"action":31.1,"result":33.5},"action":"茶筅柄与17条竹丝使用同一姿态，接触液面往复击拂；泡沫渐生，33.5秒动作落定","text":"茶筅击拂，从一片叶到这一刻 / 遮阴 · 蒸青 · 干燥 · 精制 · 研磨","intent":"从一片叶到一碗抹茶，回收工序","reads":[{"at":29.25,"readable":29.55,"until":35,"meaning":"从一片叶到一碗抹茶，回收工序"}],"camera":{"subjectId":"bowl","mode":"保持击拂可读，结尾极轻拉远","hold":"33.5–35"},"sound":"击拂、尾奏渐弱"}
+ ],
+ "connections":[
+  {"time":3,"kind":"environment_reveal","anchor":"同一鲜叶与叶脉","window":[2.7,4.2]},
+  {"time":7,"kind":"action_match","anchor":"采下叶片落在竹筛；主体位置与相机终点一致","window":[6,7.5]},
+  {"time":11,"kind":"point_morph","anchor":"82点蒸汽带→82点气流；叶片持续存在","window":[10.3,12.6]},
+  {"time":15,"kind":"identity_match","anchor":"干叶末态保持后精制分片","window":[14.5,16.4]},
+  {"time":19,"kind":"shape_and_action_match","anchor":"叶肉碎片环→磨盘圆口，碎片入料；不是材料物理变成磨盘","window":[18.3,20.8]},
+  {"time":24,"kind":"subject_handoff","anchor":"出口茶粉跟随到茶碗内","window":[23,25.7]},
+  {"time":29,"kind":"continuous_action","anchor":"同一碗与液面，注水结束后茶筅击拂","window":[28.6,29.7]}
+ ]
+}

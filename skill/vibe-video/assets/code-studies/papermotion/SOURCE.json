@@ -1,0 +1,899 @@
+{
+  "repository": "https://github.com/francozanardi/papermotion",
+  "commit": "aafddbe2dbc2b594bcd57c19c4a5a75c5c271be8",
+  "checked": "2026-10-09",
+  "license": "MIT; original LICENSE retained",
+  "scope": "Pinned source reference archive; not a reproduced film or complete offline asset/dependency bundle",
+  "excluded": [
+    "media, installed dependencies, site, output logs; selected text files only"
+  ],
+  "inspected": [
+    "examples/light/main.ts:1-162",
+    "examples/kite/main.ts:1-168",
+    "examples/cast/Child.ts:1-95",
+    "src/stage/Stage.ts:1-167",
+    "src/direction/Beats.ts:1-101"
+  ],
+  "runtime_verification": "not run in this study",
+  "files": [
+    {
+      "source_path": ".agents/skills/papermotion/references/art-direction.md",
+      "local_path": ".agents/skills/papermotion/references/art-direction.md",
+      "sha256": "b17ca1ce9f3a00f6907bb37439ca3f38f46f737a7f8b108d65f11bfbb2a51b89",
+      "bytes": 4630
+    },
+    {
+      "source_path": ".agents/skills/papermotion/references/characters.md",
+      "local_path": ".agents/skills/papermotion/references/characters.md",
+      "sha256": "b252d451e5e56fcc749f0160d18360c561d83c7bec671a7b19a5240f20e37865",
+      "bytes": 9767
+    },
+    {
+      "source_path": ".agents/skills/papermotion/references/engine-api.md",
+      "local_path": ".agents/skills/papermotion/references/engine-api.md",
+      "sha256": "ddb4063818b3417de573e498aba7a05cc5606b422d8ddce506973edb752109a6",
+      "bytes": 13816
+    },
+    {
+      "source_path": ".agents/skills/papermotion/references/inspection.md",
+      "local_path": ".agents/skills/papermotion/references/inspection.md",
+      "sha256": "fb188994189c7a540395f56d1949ed48d704b6c506c8504cd04c0d20a360b161",
+      "bytes": 2550
+    },
+    {
+      "source_path": ".agents/skills/papermotion/references/pitfalls.md",
+      "local_path": ".agents/skills/papermotion/references/pitfalls.md",
+      "sha256": "c24d36262e366776d6d612d5d955c7cc3223647b1565e0c7e6b08b0c57d0b876",
+      "bytes": 5316
+    },
+    {
+      "source_path": ".agents/skills/papermotion/references/scenes.md",
+      "local_path": ".agents/skills/papermotion/references/scenes.md",
+      "sha256": "418d57b74d733843cd892d64483b883465345f62ef78dfdebc8435fb37c29b1f",
+      "bytes": 6808
+    },
+    {
+      "source_path": ".agents/skills/papermotion/references/sound.md",
+      "local_path": ".agents/skills/papermotion/references/sound.md",
+      "sha256": "09f6998d2a39497c2b8d522a54bb35f3bf2abe38c0ecc2d7e8cb469b828b287a",
+      "bytes": 4391
+    },
+    {
+      "source_path": ".agents/skills/papermotion/SKILL.md",
+      "local_path": ".agents/skills/papermotion/SKILL.md",
+      "sha256": "aa3d8c3d15fee7c796e4a076848c4ac2cc3f5fef5a80eb3ece0e6fb1f502ff3c",
+      "bytes": 7708
+    },
+    {
+      "source_path": ".claude/skills/papermotion/references/art-direction.md",
+      "local_path": ".claude/skills/papermotion/references/art-direction.md",
+      "sha256": "b17ca1ce9f3a00f6907bb37439ca3f38f46f737a7f8b108d65f11bfbb2a51b89",
+      "bytes": 4630
+    },
+    {
+      "source_path": ".claude/skills/papermotion/references/characters.md",
+      "local_path": ".claude/skills/papermotion/references/characters.md",
+      "sha256": "b252d451e5e56fcc749f0160d18360c561d83c7bec671a7b19a5240f20e37865",
+      "bytes": 9767
+    },
+    {
+      "source_path": ".claude/skills/papermotion/references/engine-api.md",
+      "local_path": ".claude/skills/papermotion/references/engine-api.md",
+      "sha256": "700b96541a24adabd4cb8e764fdbde8466c75e0594424b6a4202f0d79ef14783",
+      "bytes": 15844
+    },
+    {
+      "source_path": ".claude/skills/papermotion/references/inspection.md",
+      "local_path": ".claude/skills/papermotion/references/inspection.md",
+      "sha256": "fb188994189c7a540395f56d1949ed48d704b6c506c8504cd04c0d20a360b161",
+      "bytes": 2550
+    },
+    {
+      "source_path": ".claude/skills/papermotion/references/pitfalls.md",
+      "local_path": ".claude/skills/papermotion/references/pitfalls.md",
+      "sha256": "c24d36262e366776d6d612d5d955c7cc3223647b1565e0c7e6b08b0c57d0b876",
+      "bytes": 5316
+    },
+    {
+      "source_path": ".claude/skills/papermotion/references/scenes.md",
+      "local_path": ".claude/skills/papermotion/references/scenes.md",
+      "sha256": "418d57b74d733843cd892d64483b883465345f62ef78dfdebc8435fb37c29b1f",
+      "bytes": 6808
+    },
+    {
+      "source_path": ".claude/skills/papermotion/references/sound.md",
+      "local_path": ".claude/skills/papermotion/references/sound.md",
+      "sha256": "09f6998d2a39497c2b8d522a54bb35f3bf2abe38c0ecc2d7e8cb469b828b287a",
+      "bytes": 4391
+    },
+    {
+      "source_path": ".claude/skills/papermotion/SKILL.md",
+      "local_path": ".claude/skills/papermotion/SKILL.md",
+      "sha256": "aa3d8c3d15fee7c796e4a076848c4ac2cc3f5fef5a80eb3ece0e6fb1f502ff3c",
+      "bytes": 7708
+    },
+    {
+      "source_path": "AGENTS.md",
+      "local_path": "AGENTS.md",
+      "sha256": "3094c6d77761bcd415907582d9b74c376a951fae94a42e15468cb01cdc3384c8",
+      "bytes": 3046
+    },
+    {
+      "source_path": "docs/field-notes.md",
+      "local_path": "docs/field-notes.md",
+      "sha256": "8506aa8acfac8d624debbb5b2b37bca43b23eb422996a79dbf269333dc5ce6ad",
+      "bytes": 27122
+    },
+    {
+      "source_path": "examples/cast/Child.ts",
+      "local_path": "examples/cast/Child.ts",
+      "sha256": "a0c6e6bf9d1c3d53d0a6b149ab80977aef0ba6121e9dfe58685f3ef9ffea2186",
+      "bytes": 9770
+    },
+    {
+      "source_path": "examples/cast/Clawd.ts",
+      "local_path": "examples/cast/Clawd.ts",
+      "sha256": "c5ac35285761a00c7826985577365974e3d0781f3da97e0b8ddff303851185a4",
+      "bytes": 10710
+    },
+    {
+      "source_path": "examples/cast/fish.ts",
+      "local_path": "examples/cast/fish.ts",
+      "sha256": "8a3beb6a90db0908aa57eeafbee3758d50df117050489c5b3cc1c8c4a0a70a83",
+      "bytes": 4527
+    },
+    {
+      "source_path": "examples/cast/Jelly.ts",
+      "local_path": "examples/cast/Jelly.ts",
+      "sha256": "7ecae2af210cf1135f475bd6e88b62d70597c7a2fc5458f41408d6ff165cf7d5",
+      "bytes": 4583
+    },
+    {
+      "source_path": "examples/cast/Kelp.ts",
+      "local_path": "examples/cast/Kelp.ts",
+      "sha256": "b8c3f48693497dd1015d6c6c412988937db17c857f34a67ad2e67ed0ba2bf6b7",
+      "bytes": 2451
+    },
+    {
+      "source_path": "examples/catalog.ts",
+      "local_path": "examples/catalog.ts",
+      "sha256": "756f56d3f6caacde99b168871d090805401ae6f697c3ce48970fe5ff79e44435",
+      "bytes": 1720
+    },
+    {
+      "source_path": "examples/demo/act.ts",
+      "local_path": "examples/demo/act.ts",
+      "sha256": "473405791287b52e4952251924479cb3569e06cebe7ca03bee5b13ed249d598e",
+      "bytes": 1430
+    },
+    {
+      "source_path": "examples/demo/main.ts",
+      "local_path": "examples/demo/main.ts",
+      "sha256": "05601ea92af65e336992cc37939b816d4cb628328d173b01a2b7a6e83da1c31a",
+      "bytes": 4957
+    },
+    {
+      "source_path": "examples/demo/meadow.ts",
+      "local_path": "examples/demo/meadow.ts",
+      "sha256": "2aba915e117a292655e3a386ef395c5142ef2a048cc5c151b4867cd9858eae07",
+      "bytes": 17242
+    },
+    {
+      "source_path": "examples/demo/roof.ts",
+      "local_path": "examples/demo/roof.ts",
+      "sha256": "b38d24c1560cace5c0b922b1c7b46b9369f8b91429e332d288968879b0de41b3",
+      "bytes": 10701
+    },
+    {
+      "source_path": "examples/demo/sea.ts",
+      "local_path": "examples/demo/sea.ts",
+      "sha256": "2c965497f32a4d24515b36957e7f81547d290422a06d2d9591bc08b251fd2f9f",
+      "bytes": 10581
+    },
+    {
+      "source_path": "examples/demo/sound.ts",
+      "local_path": "examples/demo/sound.ts",
+      "sha256": "74e3a9356c6ba3ac5d6d6a02c5b1476328ae850fbd4ea44e6519d1404f228d76",
+      "bytes": 16363
+    },
+    {
+      "source_path": "examples/demo/title.ts",
+      "local_path": "examples/demo/title.ts",
+      "sha256": "131feee315af65e73ea2487459cfdb361415360e7b52bba8c0922b1037e916df",
+      "bytes": 8274
+    },
+    {
+      "source_path": "examples/embers/details.ts",
+      "local_path": "examples/embers/details.ts",
+      "sha256": "b5880b35e3712b77b622f4240f477a095bf4568c11b33764280197af40bfbccd",
+      "bytes": 7490
+    },
+    {
+      "source_path": "examples/embers/main.ts",
+      "local_path": "examples/embers/main.ts",
+      "sha256": "775f01bfed26df972d96ae5b14327e90fb748a7ba5dfa41b69d53c6573e3b9df",
+      "bytes": 16748
+    },
+    {
+      "source_path": "examples/embers/README.md",
+      "local_path": "examples/embers/README.md",
+      "sha256": "9b36edfcb7d77d2d4fd29f713f63b2b2237563052bae09aebe0d28624317f4f5",
+      "bytes": 2905
+    },
+    {
+      "source_path": "examples/embers/Witness.ts",
+      "local_path": "examples/embers/Witness.ts",
+      "sha256": "c10d9bc8aaee1302effa67042e11d6f89a7367a13bcf6eecb181aba89d9cbb9e",
+      "bytes": 5730
+    },
+    {
+      "source_path": "examples/hands/hand.ts",
+      "local_path": "examples/hands/hand.ts",
+      "sha256": "67f80e45e3906b74f68d6702535ff45b9b3df1006caba4bd1256cfc84689d322",
+      "bytes": 2984
+    },
+    {
+      "source_path": "examples/hands/main.ts",
+      "local_path": "examples/hands/main.ts",
+      "sha256": "da66918014874409823a950d9a4f62ca58c1fc2a011a86f4b8e2934bc3fe93c7",
+      "bytes": 23726
+    },
+    {
+      "source_path": "examples/hands/Person.ts",
+      "local_path": "examples/hands/Person.ts",
+      "sha256": "47019b3d7b72d595ef1d408ace30b6fcce874ec9158b2f61bdf6feb53761a9ae",
+      "bytes": 20529
+    },
+    {
+      "source_path": "examples/hands/set.ts",
+      "local_path": "examples/hands/set.ts",
+      "sha256": "9cf7425c0ece45be1a8218187dd9a8620f96465067b0f0cdaea1f3c45b2f9d1b",
+      "bytes": 11412
+    },
+    {
+      "source_path": "examples/hands/sound.ts",
+      "local_path": "examples/hands/sound.ts",
+      "sha256": "38a1cbaaff5da48dfb5150249263fb2e53f7b4c4aca130a8b2a00e2f8d982793",
+      "bytes": 6382
+    },
+    {
+      "source_path": "examples/kite/kid.ts",
+      "local_path": "examples/kite/kid.ts",
+      "sha256": "471973416358beaf2075b0162da8b3cef9497bd4130330015d2c04573d860722",
+      "bytes": 1378
+    },
+    {
+      "source_path": "examples/kite/Kite.ts",
+      "local_path": "examples/kite/Kite.ts",
+      "sha256": "d5b82b25e146a753aa4609efe0b7f267ff3d8cd8f36bb93a58abcb353547625d",
+      "bytes": 2101
+    },
+    {
+      "source_path": "examples/kite/main.ts",
+      "local_path": "examples/kite/main.ts",
+      "sha256": "13bd2ba0cc2b77df102b7ac09081cfdff3afa2f75bcad3912956172f2a0b0afe",
+      "bytes": 9068
+    },
+    {
+      "source_path": "examples/light/main.ts",
+      "local_path": "examples/light/main.ts",
+      "sha256": "edf5bd69172f0e0da4a4265c6c8faf8cfbb366911f5d9d5a963f101e9a1ec710",
+      "bytes": 12082
+    },
+    {
+      "source_path": "examples/light/Moth.ts",
+      "local_path": "examples/light/Moth.ts",
+      "sha256": "b3f2421d4f17a96f631cc6a5ccaa358392fded2b6413c2c59bd5ee61ad596979",
+      "bytes": 3115
+    },
+    {
+      "source_path": "examples/light/README.md",
+      "local_path": "examples/light/README.md",
+      "sha256": "d08f23d3af889f685cc7a67e0f0e577d843fcb93085af80c534b8281fafa080b",
+      "bytes": 1830
+    },
+    {
+      "source_path": "examples/play.ts",
+      "local_path": "examples/play.ts",
+      "sha256": "b93c75d1fb52869bd0756cf0a09514124d56245368f0ef0ed2a8645d06911f06",
+      "bytes": 1606
+    },
+    {
+      "source_path": "examples/rain/Bus.ts",
+      "local_path": "examples/rain/Bus.ts",
+      "sha256": "1426cf09b89a128394185e670389ce747cdfa2f99a9c0d8dbf1b22f4d97c16f4",
+      "bytes": 6955
+    },
+    {
+      "source_path": "examples/rain/main.ts",
+      "local_path": "examples/rain/main.ts",
+      "sha256": "825e49efc26d9949c737185f6ea330ddb5a0e60d15e83cf26056ef00b4486f38",
+      "bytes": 25793
+    },
+    {
+      "source_path": "examples/rain/Person.ts",
+      "local_path": "examples/rain/Person.ts",
+      "sha256": "4dccb46f080f2bccbb50cf6a54c80714c4bba806b4742bebc9568e15100d9bfc",
+      "bytes": 32330
+    },
+    {
+      "source_path": "examples/rain/props.ts",
+      "local_path": "examples/rain/props.ts",
+      "sha256": "82a2cfbc5eb31c0cd097b50adcff2c7c45833cd75b83cb0285c714617a0a92ee",
+      "bytes": 5142
+    },
+    {
+      "source_path": "examples/rain/set.ts",
+      "local_path": "examples/rain/set.ts",
+      "sha256": "a36bc03a4fb5fcca3fdbf1c0a3d0f271e2f4a70819ece8f694f5b0ff005a129a",
+      "bytes": 10890
+    },
+    {
+      "source_path": "examples/rooftops/Cat.ts",
+      "local_path": "examples/rooftops/Cat.ts",
+      "sha256": "fb84946113178837ab66a705f506c9d4e760e417bb455aee6f1e0121dc68c93f",
+      "bytes": 16759
+    },
+    {
+      "source_path": "examples/rooftops/main.ts",
+      "local_path": "examples/rooftops/main.ts",
+      "sha256": "bfb31ea2a99ccbd1bdb6511d5f4380068190772280f248c94d01486d058c71cd",
+      "bytes": 9495
+    },
+    {
+      "source_path": "examples/rooftops/Pigeon.ts",
+      "local_path": "examples/rooftops/Pigeon.ts",
+      "sha256": "5caa1b4c7a3f7c9d8c389aa8ea367686c4ab7270fbdf6f8e52c20e656a8f4e1d",
+      "bytes": 6317
+    },
+    {
+      "source_path": "examples/sea/main.ts",
+      "local_path": "examples/sea/main.ts",
+      "sha256": "8985401912567d4b5d08cc11cc394e13fa936ad341f0d7d7e8d4b39a2c4f8140",
+      "bytes": 14266
+    },
+    {
+      "source_path": "examples/sets/houses.ts",
+      "local_path": "examples/sets/houses.ts",
+      "sha256": "7faad6530f76033a3dc6db8127e6fdc9ff984564f767f15188c02b81d3a7934c",
+      "bytes": 4227
+    },
+    {
+      "source_path": "examples/snow/Clawd.ts",
+      "local_path": "examples/snow/Clawd.ts",
+      "sha256": "fd4b79e188e08df3e8e59cbcd6c4dc88bab4835532ef0f83622308d632e356ba",
+      "bytes": 10041
+    },
+    {
+      "source_path": "examples/snow/main.ts",
+      "local_path": "examples/snow/main.ts",
+      "sha256": "9b7f558ffe81caebdc1149f779bcbf575c15493b34ebede640c3e1029163d26d",
+      "bytes": 31117
+    },
+    {
+      "source_path": "examples/snow/props.ts",
+      "local_path": "examples/snow/props.ts",
+      "sha256": "00abcfe5f3da145d723734fead15e46bcc6c7f0c2ef6debeae739530cec8eac1",
+      "bytes": 7078
+    },
+    {
+      "source_path": "examples/snow/sound.ts",
+      "local_path": "examples/snow/sound.ts",
+      "sha256": "f2bde4ff53edf1f1bc3b00fd0e89ead9b50c3669b2f308383915d17906208f40",
+      "bytes": 11142
+    },
+    {
+      "source_path": "index.html",
+      "local_path": "index.html",
+      "sha256": "413237f8b705af2541049f28f8dcb0b02503344d231efa07613db2dc0dd6f4fc",
+      "bytes": 701
+    },
+    {
+      "source_path": "LICENSE",
+      "local_path": "LICENSE",
+      "sha256": "abd97ac0ab26ffe538578aab5117bb4da01e3129e14cd8d8f8e66583efc3899d",
+      "bytes": 1071
+    },
+    {
+      "source_path": "package.json",
+      "local_path": "package.json",
+      "sha256": "9c3254c840e6365c4dca3244f6c6f5b419ffe83841419d070fc9f636591970f6",
+      "bytes": 789
+    },
+    {
+      "source_path": "packages/create-papermotion/index.js",
+      "local_path": "packages/create-papermotion/index.js",
+      "sha256": "43c0f47f28dddd3e22b1ee81066e184f6d0d1dd1004d302f908c7cb993d23244",
+      "bytes": 2312
+    },
+    {
+      "source_path": "packages/create-papermotion/package.json",
+      "local_path": "packages/create-papermotion/package.json",
+      "sha256": "a07d79505c1a61db0e9702f973b5402a47034057de3345e455f3c11425bbcf00",
+      "bytes": 756
+    },
+    {
+      "source_path": "packages/create-papermotion/README.md",
+      "local_path": "packages/create-papermotion/README.md",
+      "sha256": "c50fa0796cf0112ffc374830690a6d099698a56160305f29b303c4942c69e4f0",
+      "bytes": 841
+    },
+    {
+      "source_path": "packages/create-papermotion/starter/AGENTS.md",
+      "local_path": "packages/create-papermotion/starter/AGENTS.md",
+      "sha256": "0b6daf0ff8040a1b6baad564ef8c671630d9b1c23ae356e8ebd847c6480f6171",
+      "bytes": 2441
+    },
+    {
+      "source_path": "packages/create-papermotion/starter/examples/catalog.ts",
+      "local_path": "packages/create-papermotion/starter/examples/catalog.ts",
+      "sha256": "c6bd5345296d62f6481e28da95e1b8e4bd85635fa3ca83cc995e354d8a395e23",
+      "bytes": 610
+    },
+    {
+      "source_path": "packages/create-papermotion/starter/examples/hello/main.ts",
+      "local_path": "packages/create-papermotion/starter/examples/hello/main.ts",
+      "sha256": "5e9a3a0845d4d2f417bcfba3b65b522fb12d7dd3ed153933d97ee6670e20e174",
+      "bytes": 1691
+    },
+    {
+      "source_path": "packages/create-papermotion/starter/README.md",
+      "local_path": "packages/create-papermotion/starter/README.md",
+      "sha256": "fc2cb37310fd5fcc6ef618110802f478ad3862ca09708db8cbad89eaa1d98eaf",
+      "bytes": 1355
+    },
+    {
+      "source_path": "README.md",
+      "local_path": "README.md",
+      "sha256": "ebe8bcf38098d657589ed0940b685f1ee9cfcdda634c56562b61b1c129fb2b75",
+      "bytes": 11121
+    },
+    {
+      "source_path": "scripts/audio.ts",
+      "local_path": "scripts/audio.ts",
+      "sha256": "6f59f623b6f1bca1fe8915fc5ef0aa56850dac89446bfa4326d5a92a34250245",
+      "bytes": 2511
+    },
+    {
+      "source_path": "scripts/browser.ts",
+      "local_path": "scripts/browser.ts",
+      "sha256": "1234c6b529cb81d488ed4420c41e9a7b4878d4682411eeed7257862c9a10ca42",
+      "bytes": 2422
+    },
+    {
+      "source_path": "scripts/grab.ts",
+      "local_path": "scripts/grab.ts",
+      "sha256": "b0f63ab89301fec8555941a22b96b374b75bd2b9df9fcee4f2bf88738551e0f2",
+      "bytes": 2919
+    },
+    {
+      "source_path": "scripts/listen.ts",
+      "local_path": "scripts/listen.ts",
+      "sha256": "3703b4df6340ffb81e7305c890026ebbcc45f36d6d97c7c5a6cf1f0c08ae025b",
+      "bytes": 1742
+    },
+    {
+      "source_path": "scripts/render.ts",
+      "local_path": "scripts/render.ts",
+      "sha256": "bc04908548155c9361e11dc8e758c9618b333b04ccacb198e1acd47f1bf28a1d",
+      "bytes": 3293
+    },
+    {
+      "source_path": "scripts/sheet.ts",
+      "local_path": "scripts/sheet.ts",
+      "sha256": "d0d21067e94a72ef34a4727df751b16791a35e0245437fa6113d2217626c8448",
+      "bytes": 821
+    },
+    {
+      "source_path": "scripts/template.ts",
+      "local_path": "scripts/template.ts",
+      "sha256": "ff09b45bbcf09e6474392c8a539cfeadbbd1fc91f50a84ad2a072efb5211703d",
+      "bytes": 2677
+    },
+    {
+      "source_path": "src/audio/dsp.ts",
+      "local_path": "src/audio/dsp.ts",
+      "sha256": "b4b81f5106666b3028b4b8c06ca465e9f9befdfcd6a4219eb2a752f0d6f34ca4",
+      "bytes": 4399
+    },
+    {
+      "source_path": "src/audio/instruments.ts",
+      "local_path": "src/audio/instruments.ts",
+      "sha256": "a9992fbfabd738bd6d97df82fa7b5c60b03daf9262df03c0153ac2c5eb89ecd2",
+      "bytes": 3137
+    },
+    {
+      "source_path": "src/audio/Mixer.ts",
+      "local_path": "src/audio/Mixer.ts",
+      "sha256": "eba30b60cfa13d379c209e9eddd1a6ea45750e9870a9709206191b8259019558",
+      "bytes": 7647
+    },
+    {
+      "source_path": "src/audio/music.ts",
+      "local_path": "src/audio/music.ts",
+      "sha256": "adbd5e2376c565dd3a45831c2acf3624075c3d4999843bb69138201999056a72",
+      "bytes": 2192
+    },
+    {
+      "source_path": "src/audio/SoundLog.ts",
+      "local_path": "src/audio/SoundLog.ts",
+      "sha256": "c5d551f68864aba100e61fc25778be46dde7399dfef7d22843b1f01c0a72d9e9",
+      "bytes": 2181
+    },
+    {
+      "source_path": "src/audio/voices.ts",
+      "local_path": "src/audio/voices.ts",
+      "sha256": "39fceda121c5e9273595cfbe0d10b4e3097a7e01cf49b0cbaba8fa4be3b1a80a",
+      "bytes": 7132
+    },
+    {
+      "source_path": "src/camera/Camera.ts",
+      "local_path": "src/camera/Camera.ts",
+      "sha256": "b103b488fed9da8d3744f4f7e3bc92cd1e0124b65ba0e05917ab32a0914e9bfd",
+      "bytes": 5124
+    },
+    {
+      "source_path": "src/core/math.ts",
+      "local_path": "src/core/math.ts",
+      "sha256": "39b34b7b071e6e926234101ea2c3c578b14ef7a676e744324cbfa60b1a7f9a07",
+      "bytes": 3735
+    },
+    {
+      "source_path": "src/core/random.ts",
+      "local_path": "src/core/random.ts",
+      "sha256": "aef386385344171b0352bd3c8128e30d62c60859de2fdd02f8ae8f2b80dfdae6",
+      "bytes": 1602
+    },
+    {
+      "source_path": "src/core/Spring.ts",
+      "local_path": "src/core/Spring.ts",
+      "sha256": "a072589f40fa53cac0b3aad37fb481022f5d5f647c6d8f11ed8240008003b59f",
+      "bytes": 618
+    },
+    {
+      "source_path": "src/direction/Beats.ts",
+      "local_path": "src/direction/Beats.ts",
+      "sha256": "ad0feac78486e27a0cee48d386c80a14c29ca54fe9fb90e3c6c8f905bb6cfe92",
+      "bytes": 3750
+    },
+    {
+      "source_path": "src/direction/Edit.ts",
+      "local_path": "src/direction/Edit.ts",
+      "sha256": "aa6c4d95c77aafa1146b312cb0c9255c1cb02361ddb7afd9b96e2f58c8cb8fda",
+      "bytes": 2517
+    },
+    {
+      "source_path": "src/direction/timeline.ts",
+      "local_path": "src/direction/timeline.ts",
+      "sha256": "04afa539a83e796daabe6584ba8ea08d5b38a939fdabf933620cc59cd96816b6",
+      "bytes": 1960
+    },
+    {
+      "source_path": "src/fx/Fire.ts",
+      "local_path": "src/fx/Fire.ts",
+      "sha256": "a3ded8c98abd3d71dd0e41ee3031b102662716972b8859573bbd09c8fa209eec",
+      "bytes": 5369
+    },
+    {
+      "source_path": "src/fx/Particles.ts",
+      "local_path": "src/fx/Particles.ts",
+      "sha256": "49860995254b781d1252769ebdf2f94f44577ce9f050b3f9049dd10a2bc8b803",
+      "bytes": 2700
+    },
+    {
+      "source_path": "src/fx/spray.ts",
+      "local_path": "src/fx/spray.ts",
+      "sha256": "4417261b9f40f190010dc640f3def536a67451295b41679c885742dfea844bb6",
+      "bytes": 2865
+    },
+    {
+      "source_path": "src/fx/Tracks.ts",
+      "local_path": "src/fx/Tracks.ts",
+      "sha256": "7f47b37536316472fa3071261fc55339e7515eb90cf52cd1bb9204b64fccfa7e",
+      "bytes": 2056
+    },
+    {
+      "source_path": "src/index.ts",
+      "local_path": "src/index.ts",
+      "sha256": "c790fb3ddb65341c6ce1d1eacd01e60be2735c22ae33e702e37e4ae05c69c2c3",
+      "bytes": 4006
+    },
+    {
+      "source_path": "src/motion/Leap.ts",
+      "local_path": "src/motion/Leap.ts",
+      "sha256": "42bfa71b4be33814a3ed746ab9f6f8b308c6a4dec8b6ce29d38bb60e5afb825a",
+      "bytes": 1546
+    },
+    {
+      "source_path": "src/motion/School.ts",
+      "local_path": "src/motion/School.ts",
+      "sha256": "30e3b815aac1eb7929edb45b4e38668052879cf0d2e05c9840e5bc002d20613f",
+      "bytes": 3757
+    },
+    {
+      "source_path": "src/motion/steer.ts",
+      "local_path": "src/motion/steer.ts",
+      "sha256": "7e1653f6b8126aff3e7324722b8ea25de7aac6517108b1f49460853985db7339",
+      "bytes": 1426
+    },
+    {
+      "source_path": "src/motion/Swimmer.ts",
+      "local_path": "src/motion/Swimmer.ts",
+      "sha256": "54ca951ff4a0b48df3b506dcf121a8fdfe31ff6cd232692d3aa3396753d51d34",
+      "bytes": 3953
+    },
+    {
+      "source_path": "src/paper/darkness.ts",
+      "local_path": "src/paper/darkness.ts",
+      "sha256": "5b4dadc3bace086a7cc095929eebfe24acf18bd9363c48a4bd3fbd4de1cbee23",
+      "bytes": 2158
+    },
+    {
+      "source_path": "src/paper/geometry.ts",
+      "local_path": "src/paper/geometry.ts",
+      "sha256": "03e0971d2c36b921a96ea8975665c7b48528e24d3fd47157258fcd446168e0d9",
+      "bytes": 2147
+    },
+    {
+      "source_path": "src/paper/Paper.ts",
+      "local_path": "src/paper/Paper.ts",
+      "sha256": "3fe8cade4d130b1d526b560cb1c224eea9de4b91bcd4d487a993fadb8e4e0c5f",
+      "bytes": 18044
+    },
+    {
+      "source_path": "src/paper/Scratch.ts",
+      "local_path": "src/paper/Scratch.ts",
+      "sha256": "24bf13ebebf67a46973cb3e1ae1f782484febd2c720f7c82bc2c90e513a9efdc",
+      "bytes": 1341
+    },
+    {
+      "source_path": "src/paper/shafts.ts",
+      "local_path": "src/paper/shafts.ts",
+      "sha256": "6e9bd56f88836ab08a40326c5cd06327d1c179d6dd94cef2263116f82f0f1836",
+      "bytes": 2156
+    },
+    {
+      "source_path": "src/paper/texture.ts",
+      "local_path": "src/paper/texture.ts",
+      "sha256": "65c2fef7b88e2df17a1605b9a1e9054df2ea909510d0582177a9a00f6bf3ded6",
+      "bytes": 1219
+    },
+    {
+      "source_path": "src/paper/type.ts",
+      "local_path": "src/paper/type.ts",
+      "sha256": "ac3dc486d80f75890656e30df3d00f8ddb06031636cfcd1a2647976bb7acd7e7",
+      "bytes": 1138
+    },
+    {
+      "source_path": "src/physics/Plate.ts",
+      "local_path": "src/physics/Plate.ts",
+      "sha256": "d9cede087cf5a44e930cea46496f42f84a49b26952b6846382d3ab427dba9af6",
+      "bytes": 2777
+    },
+    {
+      "source_path": "src/physics/Roller.ts",
+      "local_path": "src/physics/Roller.ts",
+      "sha256": "1f11eb757b2307f685132c6fa13953dfe095f3a85e4d4734e303c2db468f98cc",
+      "bytes": 3321
+    },
+    {
+      "source_path": "src/physics/rope.ts",
+      "local_path": "src/physics/rope.ts",
+      "sha256": "35ef6940f22a070073d25ad93337bf018c8fb770ed741ff462403a4cf2523a12",
+      "bytes": 683
+    },
+    {
+      "source_path": "src/physics/SoftBody.ts",
+      "local_path": "src/physics/SoftBody.ts",
+      "sha256": "00dea834821d7eb8c793cacf8c0f81f8fde02515a4b3484382391245c7e4fa05",
+      "bytes": 2839
+    },
+    {
+      "source_path": "src/physics/Spool.ts",
+      "local_path": "src/physics/Spool.ts",
+      "sha256": "81a069f40809685ba909b31bb02229477e43eecb31db004449d856d397bc62a3",
+      "bytes": 2118
+    },
+    {
+      "source_path": "src/physics/Surface.ts",
+      "local_path": "src/physics/Surface.ts",
+      "sha256": "2676a5749430ac6f8b14ae57b1fb3826cf33d9eab968a3738c24aa3a0917c715",
+      "bytes": 899
+    },
+    {
+      "source_path": "src/physics/World.ts",
+      "local_path": "src/physics/World.ts",
+      "sha256": "fa376533c24f7145d31f571ae19e72c413229e7b984baf535d77c368694aaef9",
+      "bytes": 6347
+    },
+    {
+      "source_path": "src/rig/Bone.ts",
+      "local_path": "src/rig/Bone.ts",
+      "sha256": "3a433e91fb0dc1547ce11a53da00ea147cb2cf6037d639f115544b45aef287b1",
+      "bytes": 1156
+    },
+    {
+      "source_path": "src/rig/Gait.ts",
+      "local_path": "src/rig/Gait.ts",
+      "sha256": "df0f83582ab15b43d0970681acd2bcf2710f46c6439813298bfaec3441d61c2f",
+      "bytes": 4040
+    },
+    {
+      "source_path": "src/rig/Hair.ts",
+      "local_path": "src/rig/Hair.ts",
+      "sha256": "813ea5a41b8ee427bf9c8badfa63eaca95bca704504c09b6c2365882cdd91a58",
+      "bytes": 4614
+    },
+    {
+      "source_path": "src/rig/Skeleton.ts",
+      "local_path": "src/rig/Skeleton.ts",
+      "sha256": "a5c8590a6120a0f5bd29308cb43a0dc198383a9f118d596feab337cf61706133",
+      "bytes": 5250
+    },
+    {
+      "source_path": "src/rig/Strand.ts",
+      "local_path": "src/rig/Strand.ts",
+      "sha256": "9ec7a8ebdeb3ee6314bde3b6ce37408144f277727078a8cb6c1b4a13d93b13c8",
+      "bytes": 2763
+    },
+    {
+      "source_path": "src/scenery/building.ts",
+      "local_path": "src/scenery/building.ts",
+      "sha256": "24dc4bd9b29a270a2e403bc65a17cab605c483b9bf4a09afabb30bccaaa7d4e5",
+      "bytes": 2408
+    },
+    {
+      "source_path": "src/scenery/flora.ts",
+      "local_path": "src/scenery/flora.ts",
+      "sha256": "98c81fd5c294977fde9c99160c6484e05fdf64a3803e6dac62001080904d893e",
+      "bytes": 11659
+    },
+    {
+      "source_path": "src/scenery/ridge.ts",
+      "local_path": "src/scenery/ridge.ts",
+      "sha256": "d61fca139faee3e8ed3056a739eeef5ed0b1f2d6b623083c55d71516c9ad7220",
+      "bytes": 2964
+    },
+    {
+      "source_path": "src/scenery/scatter.ts",
+      "local_path": "src/scenery/scatter.ts",
+      "sha256": "5279925cd3cff284a1249ab43e2a187ae4cd1471aa818222e3f54ddd8bfba32d",
+      "bytes": 2820
+    },
+    {
+      "source_path": "src/scenery/stars.ts",
+      "local_path": "src/scenery/stars.ts",
+      "sha256": "7f91c4d13b700324d501f68e45c29496e394115dd0f768dd75211a69115fa3c5",
+      "bytes": 6184
+    },
+    {
+      "source_path": "src/scenery/sward.ts",
+      "local_path": "src/scenery/sward.ts",
+      "sha256": "09a1e7dce4aaf7e24d72d420a105f15c353602af533ac7064f57a0bb3d9a2e1d",
+      "bytes": 6655
+    },
+    {
+      "source_path": "src/stage/grade.ts",
+      "local_path": "src/stage/grade.ts",
+      "sha256": "33e71396c41e040ea65a05557079eaea4c7a94d154e49b4a0171425bfb08d125",
+      "bytes": 3093
+    },
+    {
+      "source_path": "src/stage/overlay.ts",
+      "local_path": "src/stage/overlay.ts",
+      "sha256": "53a350843f920d28cb200df7a144249ff30dab3b1b08114af1c1407911dcc58c",
+      "bytes": 1821
+    },
+    {
+      "source_path": "src/stage/player.ts",
+      "local_path": "src/stage/player.ts",
+      "sha256": "c4853c2e8ae6389b2305c0b0edce13684b524cf7dcad9531747973d92ed1f718",
+      "bytes": 2608
+    },
+    {
+      "source_path": "src/stage/Stage.ts",
+      "local_path": "src/stage/Stage.ts",
+      "sha256": "77d6aa763d70a2cbd756a8479306cf48e41b7982812515a4d469b0e0d6875504",
+      "bytes": 6513
+    },
+    {
+      "source_path": "src/stage/transition.ts",
+      "local_path": "src/stage/transition.ts",
+      "sha256": "ea1dd100b0f96c1406a0bd71323f1a2c6b8ccf28a454342adb17e50c5e7a79d8",
+      "bytes": 3768
+    },
+    {
+      "source_path": "src/weather/rain.ts",
+      "local_path": "src/weather/rain.ts",
+      "sha256": "cb6ddcecdc2577669e9ef60f0b4272f5ee8d204c0ec6f0b726961cc5b55d54e7",
+      "bytes": 7818
+    },
+    {
+      "source_path": "src/weather/snow.ts",
+      "local_path": "src/weather/snow.ts",
+      "sha256": "38963e8fbe68854c2f61d2acd3a7daab1798bc6df5cc072349435cd9c5561b2b",
+      "bytes": 3398
+    },
+    {
+      "source_path": "tests/audio.test.ts",
+      "local_path": "tests/audio.test.ts",
+      "sha256": "4fcb95462591de4063ea4a79e80a18cf1d665c5ca6839daf7bab92a54869a425",
+      "bytes": 3299
+    },
+    {
+      "source_path": "tests/Beats.test.ts",
+      "local_path": "tests/Beats.test.ts",
+      "sha256": "7030f6b577b0af11d4e80b0851bdfdc2a92e1dd8e8486268b93d90a1101c000f",
+      "bytes": 2570
+    },
+    {
+      "source_path": "tests/film.test.ts",
+      "local_path": "tests/film.test.ts",
+      "sha256": "4b4afd1d57416066d5bfb80f8628d81e3cc448d7a66a25487a29dca7c1a3f46b",
+      "bytes": 3145
+    },
+    {
+      "source_path": "tests/fire.test.ts",
+      "local_path": "tests/fire.test.ts",
+      "sha256": "c353f0947d3f3fa82a384ce790931bf47c567467d948d7b6572ca75a02dac803",
+      "bytes": 2013
+    },
+    {
+      "source_path": "tests/motion.test.ts",
+      "local_path": "tests/motion.test.ts",
+      "sha256": "bcc70482e9b65970f78d75217e1d979a450c24723b6e55c024883c8afc39891b",
+      "bytes": 2577
+    },
+    {
+      "source_path": "tests/physics.test.ts",
+      "local_path": "tests/physics.test.ts",
+      "sha256": "81caade4809dc719d66df3eb29624647970ff924db1d51996ae7d539941c7f02",
+      "bytes": 3547
+    },
+    {
+      "source_path": "tests/scenery.test.ts",
+      "local_path": "tests/scenery.test.ts",
+      "sha256": "9bb35461c977eb9cb66136809ad072a2497adf4065ae9d4ebe80cb1099ca9560",
+      "bytes": 891
+    },
+    {
+      "source_path": "tests/sky.test.ts",
+      "local_path": "tests/sky.test.ts",
+      "sha256": "0545b315d30ec125876a0d43fde2a6eaf58638f058d48c8185ed9b7739b490dd",
+      "bytes": 1821
+    },
+    {
+      "source_path": "tests/snow.test.ts",
+      "local_path": "tests/snow.test.ts",
+      "sha256": "297adce1a9144bba8ee14bf28cafcc41ad50815e9b3fd13b5d81630c0eb19bbf",
+      "bytes": 2245
+    },
+    {
+      "source_path": "tests/template.test.ts",
+      "local_path": "tests/template.test.ts",
+      "sha256": "685bfab81aeb501c8d04056e9ecd8c71e9d1b5efc2b2057240980286b1d96b72",
+      "bytes": 1536
+    },
+    {
+      "source_path": "tests/timeline.test.ts",
+      "local_path": "tests/timeline.test.ts",
+      "sha256": "9ba1260c6607cbc949b056829b63e90d798db7eeb4954eb281590ad2d14775dd",
+      "bytes": 1100
+    },
+    {
+      "source_path": "tsconfig.json",
+      "local_path": "tsconfig.json",
+      "sha256": "3267091de16af5eb0b945322127fc94089d29b27b8945f1a56a42b2818a5c8de",
+      "bytes": 494
+    },
+    {
+      "source_path": "vite.config.ts",
+      "local_path": "vite.config.ts",
+      "sha256": "bd82dfbf4525a9f883c748edaff31ae30ae366b41706174ee9ad35284447f824",
+      "bytes": 152
+    }
+  ],
+  "commit_date": "2026-09-26T07:17:57Z",
+  "reference_role": "film_engine",
+  "quality_evidence": "source_inspected_video_unreviewed"
+}

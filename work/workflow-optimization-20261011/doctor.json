@@ -1,0 +1,512 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "1791689756s since unix epoch",
+  "overallStatus": "warning",
+  "codexVersion": "0.159.2",
+  "checks": {
+    "app_server.status": {
+      "id": "app_server.status",
+      "category": "app-server",
+      "status": "warning",
+      "summary": "background server socket is stale or unreachable",
+      "details": {
+        "app-server version": "unavailable (failed to connect to control socket)",
+        "control socket": "C:\\Users\\67236\\.codex\\app-server-control\\app-server-control.sock",
+        "daemon state dir": "C:\\Users\\67236\\.codex\\app-server-daemon",
+        "dedicated pid file": "C:\\Users\\67236\\.codex\\app-server-daemon\\daemon.pid (file)",
+        "dedicated update-loop pid file": "C:\\Users\\67236\\.codex\\app-server-daemon\\daemon-updater.pid (file)",
+        "mode": "ephemeral",
+        "pid file": "C:\\Users\\67236\\.codex\\app-server-daemon\\app-server.pid (missing)",
+        "settings": "C:\\Users\\67236\\.codex\\app-server-daemon\\settings.json (missing)",
+        "status": "stale or unreachable",
+        "update-loop pid file": "C:\\Users\\67236\\.codex\\app-server-daemon\\app-server-updater.pid (missing)"
+      },
+      "remediation": "Run codex app-server daemon version for more details.",
+      "durationMs": 32
+    },
+    "auth.credentials": {
+      "id": "auth.credentials",
+      "category": "auth",
+      "status": "ok",
+      "summary": "auth is configured",
+      "details": {
+        "auth file": "C:\\Users\\67236\\.codex\\auth.json",
+        "auth storage mode": "File",
+        "stored API key": "false",
+        "stored ChatGPT tokens": "true",
+        "stored agent identity": "false",
+        "stored auth mode": "chatgpt"
+      },
+      "remediation": null,
+      "durationMs": 0
+    },
+    "config.load": {
+      "id": "config.load",
+      "category": "config",
+      "status": "warning",
+      "summary": "config loaded",
+      "details": {
+        "CODEX_HOME": "C:\\Users\\67236\\.codex",
+        "active thread overrides": "not inspected",
+        "config.toml": "C:\\Users\\67236\\.codex\\config.toml",
+        "config.toml parse": "ok",
+        "configuration load ms": "12",
+        "configuration scope": "invocation config, including cloud-managed policy",
+        "cwd": "D:\\ai项目\\ai动画\\VibeVideo项目",
+        "enabled feature flags": "<redacted>",
+        "feature flag overrides": "context_management=true",
+        "feature flags enabled": "54",
+        "log dir": "C:\\Users\\67236\\.codex\\log",
+        "mcp servers": "3",
+        "model": "gpt-6-astra",
+        "model provider": "openai_http",
+        "sqlite home": "C:\\Users\\67236\\.codex",
+        "startup warning": "Codex is ignoring 1 unrecognized configuration setting. Check for typos or deprecated settings.\n  user (C:\\Users\\67236\\.codex\\config.toml): `disable_response_storage` is ignored.",
+        "startup warning MCP": "0",
+        "startup warning deprecated": "1",
+        "startup warning hooks": "0",
+        "startup warning plugins": "0",
+        "startup warning skills": "0",
+        "startup warnings": "1"
+      },
+      "remediation": null,
+      "durationMs": 0
+    },
+    "desktop.app.version": {
+      "id": "desktop.app.version",
+      "category": "desktop",
+      "status": "ok",
+      "summary": "the desktop application is installed",
+      "details": {
+        "log directory": "$HOME\\AppData\\Local\\Codex/Logs",
+        "running": "true",
+        "version": "26.1007.2314.0"
+      },
+      "remediation": null,
+      "durationMs": 0
+    },
+    "desktop.app_server.handshake": {
+      "id": "desktop.app_server.handshake",
+      "category": "desktop",
+      "status": "ok",
+      "summary": "the desktop app-server initialized successfully",
+      "details": {},
+      "remediation": null,
+      "durationMs": 0
+    },
+    "desktop.security.enforcement": {
+      "id": "desktop.security.enforcement",
+      "category": "desktop",
+      "status": "ok",
+      "summary": "no locally visible recent Codex security enforcement was found",
+      "details": {},
+      "remediation": null,
+      "durationMs": 0
+    },
+    "git.environment": {
+      "id": "git.environment",
+      "category": "git",
+      "status": "ok",
+      "summary": "git executable found; execution not verified",
+      "details": {
+        "PATH git #1": "D:\\ai项目\\Git\\cmd\\git.exe",
+        "PATH git #2": "C:\\Users\\67236\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.exe",
+        "PATH git entries": "2",
+        "git execution": "not inspected (PATH helpers are not executed)",
+        "repo detected": "false",
+        "selected git": "D:\\ai项目\\Git\\cmd\\git.exe"
+      },
+      "remediation": null,
+      "durationMs": 97
+    },
+    "git.worktree.dev_drive": {
+      "id": "git.worktree.dev_drive",
+      "category": "git",
+      "status": "ok",
+      "summary": "no Git worktree is active",
+      "details": {},
+      "remediation": null,
+      "durationMs": 0
+    },
+    "installation": {
+      "id": "installation",
+      "category": "install",
+      "status": "ok",
+      "summary": "installation looks consistent",
+      "details": {
+        "PATH codex #1": "C:\\Users\\67236\\.local\\bin\\codex.cmd",
+        "PATH codex #2": "D:\\\\npm-global\\codex.cmd",
+        "PATH codex #3": "C:\\Users\\67236\\AppData\\Local\\OpenAI\\Codex\\bin\\2e5e00daee91c61d\\codex.exe",
+        "PATH codex entries": "3",
+        "current executable": "D:\\npm-global\\node_modules\\@openai\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin\\codex.exe",
+        "install context": "other (package D:\\npm-global\\node_modules\\@openai\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc, bin D:\\npm-global\\node_modules\\@openai\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin, resources D:\\npm-global\\node_modules\\@openai\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\codex-resources, path D:\\npm-global\\node_modules\\@openai\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\codex-path)",
+        "managed by Vite+": "false",
+        "managed by bun": "false",
+        "managed by npm": "false",
+        "managed by pnpm": "false",
+        "managed package root": "not set"
+      },
+      "remediation": null,
+      "durationMs": 64
+    },
+    "mcp.config": {
+      "id": "mcp.config",
+      "category": "mcp",
+      "status": "warning",
+      "summary": "MCP configuration has optional issues",
+      "details": {
+        "configured servers": "3",
+        "disabled servers": "0",
+        "node_repl": "env var CODEX_WINDOWS_REGISTERED_CORE is not set",
+        "stdio servers": "3"
+      },
+      "remediation": "Set the missing MCP env vars or disable the affected server.",
+      "durationMs": 1
+    },
+    "network.env": {
+      "id": "network.env",
+      "category": "network",
+      "status": "ok",
+      "summary": "network-related environment looks readable",
+      "details": {
+        "managed proxy": "not configured",
+        "proxy env vars present": "HTTP_PROXY, HTTPS_PROXY, NO_PROXY, http_proxy, https_proxy, no_proxy",
+        "respect system proxy": "disabled"
+      },
+      "remediation": null,
+      "durationMs": 0
+    },
+    "network.provider_reachability": {
+      "id": "network.provider_reachability",
+      "category": "reachability",
+      "status": "ok",
+      "summary": "active provider endpoints are reachable over HTTP",
+      "details": {
+        "ChatGPT inference URL": "https://chatgpt.com/backend-api/<redacted> reachable (HTTP 405)",
+        "desktop assets CDN": "https://persistent.oaistatic.com/codex-app-prod/<redacted> reachable (HTTP 200)",
+        "reachability mode": "ChatGPT auth"
+      },
+      "remediation": null,
+      "durationMs": 1510
+    },
+    "network.websocket_reachability": {
+      "id": "network.websocket_reachability",
+      "category": "websocket",
+      "status": "ok",
+      "summary": "Responses WebSocket is not enabled for the active provider",
+      "details": {
+        "model provider": "openai_http",
+        "provider name": "OpenAI HTTP",
+        "proxy env vars present": "HTTP_PROXY, HTTPS_PROXY, NO_PROXY, http_proxy, https_proxy, no_proxy",
+        "supports websockets": "false",
+        "wire API": "responses"
+      },
+      "remediation": null,
+      "durationMs": 0
+    },
+    "runtime.provenance": {
+      "id": "runtime.provenance",
+      "category": "runtime",
+      "status": "ok",
+      "summary": "running local build on windows-x86_64",
+      "details": {
+        "commit": "unknown",
+        "current executable": "D:\\npm-global\\node_modules\\@openai\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin\\codex.exe",
+        "install method": "other (package D:\\npm-global\\node_modules\\@openai\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc, bin D:\\npm-global\\node_modules\\@openai\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin, resources D:\\npm-global\\node_modules\\@openai\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\codex-resources, path D:\\npm-global\\node_modules\\@openai\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\codex-path)",
+        "platform": "windows-x86_64",
+        "version": "0.159.2"
+      },
+      "remediation": null,
+      "durationMs": 0
+    },
+    "runtime.search": {
+      "id": "runtime.search",
+      "category": "search",
+      "status": "ok",
+      "summary": "search command found (bundled); execution not verified",
+      "details": {
+        "search command": "D:\\npm-global\\node_modules\\@openai\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\codex-path\\rg.exe",
+        "search command readiness": "file exists",
+        "search provider": "bundled"
+      },
+      "remediation": null,
+      "durationMs": 0
+    },
+    "sandbox.filesystem_paths": {
+      "id": "sandbox.filesystem_paths",
+      "category": "sandbox",
+      "status": "ok",
+      "summary": "no explicit filesystem paths to probe",
+      "details": {},
+      "remediation": null,
+      "durationMs": 0
+    },
+    "sandbox.helpers": {
+      "id": "sandbox.helpers",
+      "category": "sandbox",
+      "status": "ok",
+      "summary": "sandbox configuration is readable",
+      "details": {
+        "approval policy": "OnRequest",
+        "codex-linux-sandbox helper": "none",
+        "denied-read glob rules": "0",
+        "denied-read restrictions": "false",
+        "denied-read rules": "0",
+        "execve wrapper helper": "none",
+        "filesystem sandbox": "restricted",
+        "glob scan max depth": "unbounded",
+        "managed filesystem source": "none",
+        "network sandbox": "restricted",
+        "sandbox backend": "elevated",
+        "sandbox provisioning": "complete"
+      },
+      "remediation": null,
+      "durationMs": 19
+    },
+    "security.endpoint": {
+      "id": "security.endpoint",
+      "category": "security",
+      "status": "warning",
+      "summary": "endpoint protection detected; Codex exclusions are unverified",
+      "details": {
+        "Codex exclusions": "not verified",
+        "endpoint products": "Microsoft Defender",
+        "exclusion targets": "signed Codex app; codex.exe; codex-windows-sandbox-setup.exe; codex-command-runner.exe; codex-code-mode-host.exe"
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "cause": "Microsoft Defender can interfere with Codex. Verify Codex exclusions.",
+          "measured": "not verified",
+          "expected": "Codex application and helper exclusions",
+          "remedy": "Microsoft Defender: Add a certificate or executable-path exclusion for Codex and its helpers. If Attack Surface Reduction blocks Codex, add a rule exclusion. If Controlled Folder Access blocks Codex, allow the app.",
+          "fields": [
+            "Codex exclusions"
+          ]
+        }
+      ],
+      "remediation": "ask your security administrator to verify Codex exclusions and required helper allowances",
+      "durationMs": 1440
+    },
+    "state.paths": {
+      "id": "state.paths",
+      "category": "state",
+      "status": "ok",
+      "summary": "state paths and databases are inspectable",
+      "details": {
+        "CODEX_HOME": "C:\\Users\\67236\\.codex (dir)",
+        "active rollout files": "375 files, 5398437016 total bytes, 14395832 average bytes",
+        "archived rollout files": "32 files, 854523796 total bytes, 26703868 average bytes",
+        "goals DB": "C:\\Users\\67236\\.codex\\goals_1.sqlite (file)",
+        "goals DB integrity": "ok",
+        "log DB": "C:\\Users\\67236\\.codex\\logs_2.sqlite (file)",
+        "log DB integrity": "ok",
+        "log dir": "C:\\Users\\67236\\.codex\\log (missing)",
+        "memories DB": "C:\\Users\\67236\\.codex\\memories_1.sqlite (file)",
+        "memories DB integrity": "ok",
+        "memories v2 DB": "C:\\Users\\67236\\.codex\\memories_v2_1.sqlite (missing)",
+        "memories v2 DB integrity": "skipped (missing)",
+        "queue DB": "C:\\Users\\67236\\.codex\\queue_1.sqlite (file)",
+        "queue DB integrity": "ok",
+        "sqlite home": "C:\\Users\\67236\\.codex (dir)",
+        "state DB": "C:\\Users\\67236\\.codex\\state_5.sqlite (file)",
+        "state DB integrity": "ok",
+        "thread history DB": "C:\\Users\\67236\\.codex\\thread_history_1.sqlite (file)",
+        "thread history DB integrity": "ok"
+      },
+      "remediation": null,
+      "durationMs": 11812
+    },
+    "state.rollout_db_parity": {
+      "id": "state.rollout_db_parity",
+      "category": "threads",
+      "status": "warning",
+      "summary": "rollout files and state DB thread inventory differ",
+      "details": {
+        "default model provider": "openai_http",
+        "rollout DB active files": "375",
+        "rollout DB active rows": "334",
+        "rollout DB archive mismatches": "0",
+        "rollout DB archived files": "32",
+        "rollout DB archived rows": "29",
+        "rollout DB duplicate DB path sample": [
+          "\\\\?\\C:\\Users\\67236\\.codex\\archived_sessions\\rollout-2026-08-04T13-25-36-019fcb3c-05af-7641-b473-ac67fd4a0fe2.jsonl",
+          "\\\\?\\C:\\Users\\67236\\.codex\\sessions\\2026\\08\\03\\rollout-2026-08-03T15-29-00-019fc686-a3b2-7d40-9a55-bb0a91aad442.jsonl",
+          "\\\\?\\C:\\Users\\67236\\.codex\\sessions\\2026\\08\\06\\rollout-2026-08-06T08-58-25-019fd494-1f8a-7532-84d1-f8ece3842183.jsonl",
+          "\\\\?\\C:\\Users\\67236\\.codex\\sessions\\2026\\08\\11\\rollout-2026-08-11T16-45-26-019fefff-7e0b-7b70-9361-608a49c09b70.jsonl",
+          "C:\\Users\\67236\\.codex\\sessions\\2026\\07\\29\\rollout-2026-07-29T14-55-40-019faca8-51ea-75e1-8f71-8b2d0df2863f.jsonl"
+        ],
+        "rollout DB duplicate DB paths": "5",
+        "rollout DB duplicate rollout thread id sample": [
+          "01a02366-dfd8-7091-8dc1-b22ee9407a3d",
+          "01a026a5-41a8-7d53-8be5-8de401d1b3ea",
+          "01a03927-117b-7722-9a1e-12cb7b698198",
+          "01a04ff7-d34d-77e3-8e16-8e26a04cdc5e",
+          "01a073c8-2e96-77c0-9840-bdad4fa39b50"
+        ],
+        "rollout DB duplicate rollout thread ids": "32",
+        "rollout DB malformed file names": "0",
+        "rollout DB missing active rows": "56",
+        "rollout DB missing active sample": [
+          "C:\\Users\\67236\\.codex\\sessions\\2026\\10\\10\\rollout-2026-10-10T13-51-33-01a12096-bd6f-7f41-b63b-0ccec8ee22a0_01a1245d-dd17-7873-a7ac-8089db3e4611.jsonl",
+          "C:\\Users\\67236\\.codex\\sessions\\2026\\10\\10\\rollout-2026-10-10T19-23-08-01a1258d-6d7d-7590-bcca-883a8a496c32.jsonl",
+          "C:\\Users\\67236\\.codex\\sessions\\2026\\10\\09\\rollout-2026-10-09T11-25-45-01a11eb2-05ca-7712-bf55-57335b47487d.jsonl",
+          "C:\\Users\\67236\\.codex\\sessions\\2026\\10\\09\\rollout-2026-10-09T20-15-12-01a12096-bd6f-7f41-b63b-0ccec8ee22a0.jsonl",
+          "C:\\Users\\67236\\.codex\\sessions\\2026\\10\\08\\rollout-2026-10-08T10-37-54-01a1195f-db19-7ac0-bf3f-bf5457ba9ece.jsonl"
+        ],
+        "rollout DB missing archived rows": "4",
+        "rollout DB missing archived sample": [
+          "C:\\Users\\67236\\.codex\\archived_sessions\\rollout-2026-08-22T07-25-59-01a026a5-41a8-7d53-8be5-8de401d1b3ea.jsonl",
+          "C:\\Users\\67236\\.codex\\archived_sessions\\rollout-2026-08-23T11-29-28-01a026a5-41a8-7d53-8be5-8de401d1b3ea_01a02caa-8832-7241-be1d-61b02fc2ecea.jsonl",
+          "C:\\Users\\67236\\.codex\\archived_sessions\\rollout-2026-08-23T11-39-38-01a026a5-41a8-7d53-8be5-8de401d1b3ea_01a02cb3-d80c-7e41-9252-ab550875e034.jsonl",
+          "C:\\Users\\67236\\.codex\\archived_sessions\\rollout-2026-08-30T08-00-36-01a04ff7-d34d-77e3-8e16-8e26a04cdc5e.jsonl"
+        ],
+        "rollout DB model providers": "openai_http=363",
+        "rollout DB rows": "363",
+        "rollout DB scan cap reached": "false",
+        "rollout DB scan errors": "0",
+        "rollout DB sources": "vscode=210, subagent:thread_spawn=119, subagent:other=23, exec=11",
+        "rollout DB stale row sample": [
+          "\\\\?\\C:\\Users\\67236\\.codex\\sessions\\2026\\07\\19\\rollout-2026-07-19T07-54-56-019f77a7-75e0-7822-bdfe-230b4fd2a5bd.jsonl",
+          "\\\\?\\C:\\Users\\67236\\.codex\\sessions\\2026\\07\\20\\rollout-2026-07-20T06-31-25-019f7c81-5dca-7353-8bdf-11a399260443.jsonl",
+          "\\\\?\\C:\\Users\\67236\\.codex\\sessions\\2026\\07\\21\\rollout-2026-07-21T09-05-34-019f8234-ece5-7c83-b004-f89d0ee1aa8d.jsonl",
+          "C:\\Users\\67236\\.codex\\sessions\\2026\\07\\29\\rollout-2026-07-29T14-55-40-019faca8-51ea-75e1-8f71-8b2d0df2863f.jsonl",
+          "C:\\Users\\67236\\.codex\\sessions\\2026\\07\\29\\rollout-2026-07-29T14-55-40-019faca8-51ea-75e1-8f71-8b2d0df2863f.jsonl"
+        ],
+        "rollout DB stale rows": "12"
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "cause": "rollout files are missing from the state DB",
+          "measured": "56 active, 4 archived",
+          "expected": "every rollout file has a matching threads row",
+          "remedy": null,
+          "fields": []
+        },
+        {
+          "severity": "warning",
+          "cause": "state DB rows point at missing or unusable rollout files",
+          "measured": "12 stale rows",
+          "expected": "every state DB rollout path is a file on disk",
+          "remedy": null,
+          "fields": []
+        },
+        {
+          "severity": "warning",
+          "cause": "duplicate thread inventory entries found",
+          "measured": "32 duplicate rollout thread ids, 5 duplicate DB paths",
+          "expected": "one rollout path and thread id per thread",
+          "remedy": "Attach the doctor report to a bug report so support can inspect samples.",
+          "fields": []
+        }
+      ],
+      "remediation": null,
+      "durationMs": 1516
+    },
+    "system.disk": {
+      "id": "system.disk",
+      "category": "disk",
+      "status": "ok",
+      "summary": "sufficient free disk space (31.3 GiB)",
+      "details": {
+        "CODEX_HOME available": "31.3 GiB",
+        "failure threshold": "1.0 GiB",
+        "warning threshold": "5.0 GiB",
+        "worktree available": "271.0 GiB"
+      },
+      "remediation": null,
+      "durationMs": 0
+    },
+    "system.environment": {
+      "id": "system.environment",
+      "category": "system",
+      "status": "ok",
+      "summary": "OS language zh-CN",
+      "details": {
+        "EDITOR": "not set",
+        "GH_PAGER": "set",
+        "GIT_PAGER": "set",
+        "LANG": "C.UTF-8",
+        "LC_ALL": "C.UTF-8",
+        "LC_CTYPE": "C.UTF-8",
+        "PAGER": "set",
+        "VISUAL": "not set",
+        "os": "Windows 10.0.26200 (Windows 11 CoreCountrySpecific) [64-bit]",
+        "os language": "zh-CN",
+        "os type": "Windows",
+        "os version": "10.0.26200"
+      },
+      "remediation": null,
+      "durationMs": 0
+    },
+    "terminal.env": {
+      "id": "terminal.env",
+      "category": "terminal",
+      "status": "warning",
+      "summary": "TERM=dumb - colors and cursor control are disabled in this non-interactive run",
+      "details": {
+        "COLORTERM": "present",
+        "NO_COLOR": "1",
+        "TERM": "dumb",
+        "color output": "disabled (NO_COLOR)",
+        "console input code page": "936",
+        "console output code page": "65001",
+        "effective locale": "C.UTF-8",
+        "stderr console mode": "unavailable",
+        "stderr is terminal": "false",
+        "stdin is terminal": "false",
+        "stdout console mode": "unavailable",
+        "stdout is terminal": "false",
+        "terminal": "dumb",
+        "terminal size": "120x30"
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "cause": "TERM=dumb - colors and cursor control are disabled in this non-interactive run",
+          "measured": "TERM=dumb",
+          "expected": null,
+          "remedy": null,
+          "fields": [
+            "TERM"
+          ]
+        }
+      ],
+      "remediation": null,
+      "durationMs": 0
+    },
+    "terminal.title": {
+      "id": "terminal.title",
+      "category": "title",
+      "status": "ok",
+      "summary": "terminal title default",
+      "details": {
+        "terminal title activity": "true",
+        "terminal title items": "activity, project-name",
+        "terminal title project source": "cwd",
+        "terminal title project value": "VibeVideo项目",
+        "terminal title source": "default"
+      },
+      "remediation": null,
+      "durationMs": 0
+    },
+    "updates.status": {
+      "id": "updates.status",
+      "category": "updates",
+      "status": "ok",
+      "summary": "update configuration is locally consistent",
+      "details": {
+        "cached latest version": "0.157.1",
+        "check for update on startup": "true",
+        "last checked at": "2026-09-26T11:00:46.491034Z",
+        "latest version": "0.162.1",
+        "latest version status": "newer version is available",
+        "update action": "manual or unknown",
+        "version cache": "C:\\Users\\67236\\.codex\\version.json"
+      },
+      "remediation": null,
+      "durationMs": 2679
+    }
+  }
+}

@@ -1,0 +1,1123 @@
+{
+  "repo": "az9713/opus-5.5-builds",
+  "repository": "https://github.com/az9713/opus-5.5-builds",
+  "commit": "e8ef0aea4d1d45b22e930033c3117834b3e83cbf",
+  "commitDate": "2026-09-28T01:15:19Z",
+  "snapshotUrl": "https://codeload.github.com/az9713/opus-5.5-builds/zip/e8ef0aea4d1d45b22e930033c3117834b3e83cbf",
+  "archiveSha256": "1a0182a9b6388ec9775f2f296f3f882e433d6e9fe6784e1877e7bdd0a8b77d83",
+  "checked": "2026-10-11",
+  "upstreamLicense": null,
+  "licenseFiles": [],
+  "usage": "未发现明确许可证，仅本地研究；复制发布或改编复用需作者许可",
+  "modelEvidence": [
+    "# 15 Opus 5.5 builds — variations",
+    "Fifteen builds made with Claude Opus 5.5. Each one is a **variation** of a build from the video",
+    "[**Top 15 Things built with Claude OPUS 5.5**](https://www.youtube.com/watch?v=dw4rYWy8nLw) by **Code Bear** on YouTube.",
+    "The prompts and the pass checks for all 15 builds are in [`opus55-15-variations-specs.html`](https://az9713.github.io/opus-5.5-builds/opus55-15-variations-specs.html).",
+    "**Dashboard: [az9713.github.io/opus-5.5-builds](https://az9713.github.io/opus-5.5-builds/)** — all 15 builds on one page.",
+    "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/01-eye-lab/index.html\"><img src=\"screenshots/01-eye-lab.jpg\" alt=\"Eye Lab\" width=\"100%\"></a><br><b>#1 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/01-eye-lab/index.html\">Eye Lab</a></b> — ▶ Play<br>How the human eye focuses (3D)<br><sub>Original: Lens Lab, by <a href=\"https://x.com/RyanSael\">@RyanSael</a></sub></td>",
+    "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/02-clawd-goes-to-sea/out/clawd-goes-to-sea.mp4\"><img src=\"screenshots/02-clawd-goes-to-sea.jpg\" alt=\"Clawd Goes to Sea\" width=\"100%\"></a><br><b>#2 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/02-clawd-goes-to-sea/out/clawd-goes-to-sea.mp4\">Clawd Goes to Sea</a></b> — ▶ Watch<br>Music video, a sea shanty composed in code (150 s)<br><sub>Original: Clawd music video, by <a href=\"https://x.com/other__reality\">@other__reality</a></sub></td>",
+    "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/03-water-weather-code/index.html\"><img src=\"screenshots/03-water-weather-code.jpg\" alt=\"Small Weather\" width=\"100%\"></a><br><b>#3 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/03-water-weather-code/index.html\">Small Weather</a></b> — ▶ Play<br>Short film in code, water and weather patterns<br><sub>Original: Short film in code, by <a href=\"https://x.com/devteamdrew\">@devteamdrew</a></sub></td>",
+    "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/04-title-sequence/index.html\"><img src=\"screenshots/04-title-sequence.jpg\" alt=\"Meridian\" width=\"100%\"></a><br><b>#4 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/04-title-sequence/index.html\">Meridian</a></b> — ▶ Play<br>One-prompt film title sequence (15 s)<br><sub>Original: Motion showreel, by <a href=\"https://x.com/stephanlivera\">@stephanlivera</a></sub></td>",
+    "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/05-frostbound-monastery/index.html\"><img src=\"screenshots/05-frostbound-monastery.jpg\" alt=\"Frostbound Monastery\" width=\"100%\"></a><br><b>#5 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/05-frostbound-monastery/index.html\">Frostbound Monastery</a></b> — ▶ Play<br>Soulslike game in a snowbound monastery<br><sub>Original: Dark Souls-style game, by <a href=\"https://x.com/The_Alex\">@The_Alex</a></sub></td>",
+    "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/06-volcano-test/index.html\"><img src=\"screenshots/06-volcano-test.jpg\" alt=\"The Volcano Test\" width=\"100%\"></a><br><b>#6 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/06-volcano-test/index.html\">The Volcano Test</a></b> — ▶ Play<br>Volcanic island sandbox<br><sub>Original: \"The Minecraft Test\", by <a href=\"https://x.com/noahwachnik\">@noahwachnik</a></sub></td>",
+    "<td width=\"33%\" valign=\"top\"><a href=\"https://az9713.github.io/opus-5.5-builds/builds/07-storm-lighthouse/storm_lighthouse_final.mp4\"><img src=\"screenshots/07-storm-lighthouse.jpg\" alt=\"Storm Lighthouse\" width=\"100%\"></a><br><b>#7 <a href=\"https://az9713.github.io/opus-5.5-builds/builds/07-storm-lighthouse/storm_lighthouse_final.mp4\">Storm Lighthouse</a></b> — ▶ Watch · <a href=\"https://az9713.github.io/opus-5.5-builds/builds/07-storm-lighthouse/build_timelapse.mp4\">time-lapse</a><br>Procedural Blender scene (12.5 s render)<br><sub>Original: Procedural Blender castle, by <a href=\"https://x.com/Stefan_3D_AI\">@Stefan_3D_AI</a></sub></td>"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 585,
+      "sha256": "14b4ed0fa58f9f8e447dc682732e606f0b8dff37a79441ae83f62f61b34607c6"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "builds/01-eye-lab/index.html",
+      "bytes": 110466,
+      "sha256": "e6ab786f356a3e403b8b3bfdae7b4d13ab05e1a1251cf737feed32adcb490805"
+    },
+    {
+      "path": "builds/01-eye-lab/shots/bench-book-default.png",
+      "bytes": 879055,
+      "sha256": "2d7403ab3e2c695300ffb3c2b16cf1341c8786790dfff400470d3d9bccf68adc"
+    },
+    {
+      "path": "builds/01-eye-lab/shots/bench-window-8mm.png",
+      "bytes": 878949,
+      "sha256": "bd25fc4d2c443a13a44d6871fcde482d5c6c41edc6bb50f9c73bd3913276ffed"
+    },
+    {
+      "path": "builds/01-eye-lab/shots/exploded.png",
+      "bytes": 880775,
+      "sha256": "20a1cc52c6480038391cbe99741c6415a011a498b14afcbb5cf48cc8aa288de8"
+    },
+    {
+      "path": "builds/01-eye-lab/shots/eye-closeup.png",
+      "bytes": 887552,
+      "sha256": "6f4fd2b2f53a4db42eb2e492c322263487c502f175bfe64dd16e5fe68bd6fb0f"
+    },
+    {
+      "path": "builds/01-eye-lab/shots/hyperopia-relaxed-upright.png",
+      "bytes": 830755,
+      "sha256": "3b0e4ae255fc4b5fb01217599b96e2a0e67d999ddce2afdcd40180f606dafce5"
+    },
+    {
+      "path": "builds/01-eye-lab/shots/myopia-corrected-tree.png",
+      "bytes": 871880,
+      "sha256": "9e71081c80957acd2b0458008e2b52fc7265c3e2a3e0509ed1d8ed6f7d73e2e3"
+    },
+    {
+      "path": "builds/01-eye-lab/shots/phone-400px.png",
+      "bytes": 261790,
+      "sha256": "2cd87612b697add0b50a52040b415f90eb69ece53b6a2d9d2a8b21e831edb13d"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/ANIMATION_GUIDE.md",
+      "bytes": 8769,
+      "sha256": "1a243f4d449df8999d36857d90bc5a719f9cda29b85411961bab9df5b04e29f9"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/assets/timing.js",
+      "bytes": 25323,
+      "sha256": "071602d00b8bac9fa5386618bc41f75af1833e46f9de1cc195fb67a570a83f39"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/compose.mjs",
+      "bytes": 17639,
+      "sha256": "3a819b777c3a54439e77a3b409a47cb5f66b051dc833aa7e8363023bb47c0403"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/dev/bench.mjs",
+      "bytes": 1949,
+      "sha256": "5fe784819fa5a720035a5a70fd0197be88ffd55830361362e0c92adc03883f5b"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/dev/example-scene.js",
+      "bytes": 1589,
+      "sha256": "554ddf60402004dd7870dc562e94400e8b9e94f0b0ea805056f2e54e6367ed6c"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/dev/perf.html",
+      "bytes": 1188,
+      "sha256": "a96c5bedbb84d6cc1484cbfb95e11d6dfe9412f882ef0aa68e2201d84b8945e1"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/dev/perf.jpg",
+      "bytes": 21614,
+      "sha256": "8e90fce1d613ea461ad9e1f5bf3bc169f376cd742b25b9031c51581f66890506"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/dev/perf.mjs",
+      "bytes": 855,
+      "sha256": "82b5530fecf52e94bc94f96100f6d23f95e12d0ef80aff0efb932694d48d088d"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/dev/probe.html",
+      "bytes": 1744,
+      "sha256": "1f5d075358609e7b3eec059a621906751ba22b02e492781cd5a930d03e2d7246"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/dev/probe.mjs",
+      "bytes": 601,
+      "sha256": "da6019f672307bf0e83fa3f214e312f4a2801b002807457c5e9edc72842246f1"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/dev/probe.png",
+      "bytes": 225927,
+      "sha256": "865fc1fbd7fd3889e837ad7e2526d2c602256a556717afc2794d28587cc81fc5"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/dev/probe2.html",
+      "bytes": 2271,
+      "sha256": "b14d19bd85d7c1049faf094c0e5ba2848d967c3649c1960999577c6aa2d135ee"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/dev/scene-test.mjs",
+      "bytes": 3852,
+      "sha256": "c835104201f3dd0866ac5d3155499617f57e9dce2588564b42d77192e1d5c51c"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/dev/slice.mp4",
+      "bytes": 1573315,
+      "sha256": "6ca2466fe5fd484806c16f29e41066715bafc646bc8d1c1be605feea3bd66f85"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/dev/spec.png",
+      "bytes": 1093353,
+      "sha256": "85173f380ea958c0ba7084e352ad4abb7f5eb2d0c4a6ec74b0a6ada8d80ef60a"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/lib.js",
+      "bytes": 23069,
+      "sha256": "1a47812d8b9afbc79f6be46499f36968e413710c6b4ef6b9fd2ab3cab0943d4f"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/LYRICS.md",
+      "bytes": 2083,
+      "sha256": "f2c3ec93595856ed7c04671f303e15507cb0c6bc0e0d82867684598a73b768d4"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/out/clawd-goes-to-sea.mp4",
+      "bytes": 24743513,
+      "sha256": "44a1c8569514317719dc5fd8403c2015786249ffa512371291684a7f9c0c19c3"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/package-lock.json",
+      "bytes": 18754,
+      "sha256": "e25ebd3574134699b3513f9b69466c1c26232eb20eecc6bd214448f13c94bfa9"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/package.json",
+      "bytes": 338,
+      "sha256": "0c7f2e08bd76e081cea6844d0de63302c786b97e8a60b0e3f41ef59dbcc67c16"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/render.mjs",
+      "bytes": 4615,
+      "sha256": "ea42585971f26d16738c88c91b6aba0c4b442377b246dcc04a9ecb0c3544d05a"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/scenes/part1.js",
+      "bytes": 14224,
+      "sha256": "75b74bed56fe70d79dd5a834a3c633a4238ae6163a39b7aca17418bdc0b9fa2a"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/scenes/part2.js",
+      "bytes": 10486,
+      "sha256": "cd46240e308761334e6a05c0087c5fe84a3d657b30ad7a9948961316044394e3"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/scenes/part3.js",
+      "bytes": 12069,
+      "sha256": "7f8d7268e9fe29043ccb2df0ee7909eb52f3bb276f2bb375a58d10c23a107ed8"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/scenes/part4.js",
+      "bytes": 11776,
+      "sha256": "33748617c202b4706e82abe5351093ccaaa22ea8f787269b11c03faa1597af45"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/scenes/part5.js",
+      "bytes": 11280,
+      "sha256": "9b66116b9fd223e44bc1ae759a4000a9f1d21ea2ceab70d3fb78d78d5fa350cf"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/scenes/part6.js",
+      "bytes": 12771,
+      "sha256": "221303e91546ed32044038c5e0a5e980bdddc8eee4fbc3b0d1b7fb0e5570887d"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/scenes/part7.js",
+      "bytes": 18069,
+      "sha256": "9fae626db4aa4f68efbdefadd0272243a42bd693f2acd8ef5d58d8a3bd269df8"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/song.mjs",
+      "bytes": 3088,
+      "sha256": "33f35c7d55b3c7c5a1701691bceaebc33898e6500c8f085e35e2e29344e37592"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/STORYBOARD.md",
+      "bytes": 7459,
+      "sha256": "9a05fd460a34d5a9680a7a2cd144a49d93252827d37dfb307f44c7c92257f038"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/studio.html",
+      "bytes": 3048,
+      "sha256": "a2172d6c7e2d87046e7bc992531d2078163eaf86fe36fab3002cd50632d028e3"
+    },
+    {
+      "path": "builds/02-clawd-goes-to-sea/studio.js",
+      "bytes": 10451,
+      "sha256": "4eccc679764a4174edaea345453d2638c3127e17ea6f8ccf278e577752d427ed"
+    },
+    {
+      "path": "builds/03-water-weather-code/checks/audiotest.py",
+      "bytes": 631,
+      "sha256": "7e66c158d200e072b511fb073810eea509e7cd7f3c0da368afebcb8ec2f4a3bb"
+    },
+    {
+      "path": "builds/03-water-weather-code/checks/playtest.py",
+      "bytes": 1742,
+      "sha256": "4340d44b179903730461a3078b4ebcfbe953bb150547841218d328a75eafe9e9"
+    },
+    {
+      "path": "builds/03-water-weather-code/checks/play_4s.png",
+      "bytes": 235409,
+      "sha256": "f2de6b44795bb504081bdcb5d9d4f92823c51bb3a52d20391d26e4e5871b97ee"
+    },
+    {
+      "path": "builds/03-water-weather-code/checks/sheet.png",
+      "bytes": 641014,
+      "sha256": "15610ff2cea8b6316be40593dd5fef3a5665d8d95d95bcd60b54838f358fa213"
+    },
+    {
+      "path": "builds/03-water-weather-code/checks/sheet_transitions.png",
+      "bytes": 336953,
+      "sha256": "5c867d0d1b8a56a68deb770b52422b740a42be0023e068fad9ec287566f3c2d8"
+    },
+    {
+      "path": "builds/03-water-weather-code/checks/t21.png",
+      "bytes": 157945,
+      "sha256": "6d22f45d81aed0f98d6199667a7c9cddec86ea9af2d6abc5c6ebced8b226a21c"
+    },
+    {
+      "path": "builds/03-water-weather-code/checks/t34.6.png",
+      "bytes": 110776,
+      "sha256": "79b1069337b7472f540ee64e51f58f28f470dcc2d3bfaa3c3d65c4dea4fe9526"
+    },
+    {
+      "path": "builds/03-water-weather-code/checks/t35.2.png",
+      "bytes": 127713,
+      "sha256": "664badcfb1aad033809c0991482289a6c237c74f83c91a1de5b17fe8c2c62c95"
+    },
+    {
+      "path": "builds/03-water-weather-code/checks/t47.4.png",
+      "bytes": 72685,
+      "sha256": "4b1fac7d20a6d3cdb43ee71f91a65fff947cbf7f03914e658e31583683b5b4ac"
+    },
+    {
+      "path": "builds/03-water-weather-code/checks/t76.png",
+      "bytes": 187407,
+      "sha256": "29a171b6bedc8efae64af3471e52514116134c9c1361848961b92def5f471fb9"
+    },
+    {
+      "path": "builds/03-water-weather-code/index.html",
+      "bytes": 47958,
+      "sha256": "08bf575b295e2cb81066f8af1f6e1dfedabd88eff09c390519e4a94ebdee8aa0"
+    },
+    {
+      "path": "builds/04-title-sequence/index.html",
+      "bytes": 33219,
+      "sha256": "88623afe5752b6913a18973136057fa45df9a2c614e9d4e6370ac2c4a40a9dbd"
+    },
+    {
+      "path": "builds/05-frostbound-monastery/index.html",
+      "bytes": 102818,
+      "sha256": "c4a94684320309ddfafc8925f268ef74f88b23c3443e16fee407d032ad3d7365"
+    },
+    {
+      "path": "builds/05-frostbound-monastery/screenshots/bridge.png",
+      "bytes": 1234453,
+      "sha256": "190baa99915195c9a00f89bea973ba3da5c48210ade9efdfe7a7cd6a8e4b1c61"
+    },
+    {
+      "path": "builds/05-frostbound-monastery/screenshots/cloister.png",
+      "bytes": 1231130,
+      "sha256": "0537a4bcb8592e18fd9cda25863a6c315925f7a7e0525ce72e3fab266be9bff4"
+    },
+    {
+      "path": "builds/05-frostbound-monastery/screenshots/fight.png",
+      "bytes": 1221493,
+      "sha256": "9ebd77eec8b91ec39cbb19cd1a7aefcb0f3fed2d28a06e74e57b7522212a9354"
+    },
+    {
+      "path": "builds/05-frostbound-monastery/screenshots/rest.png",
+      "bytes": 1334914,
+      "sha256": "d0959bc5dba93661c7d4cb2e1ffe79618bd017e9a67970bfbd40b78443d82d9d"
+    },
+    {
+      "path": "builds/05-frostbound-monastery/screenshots/title.png",
+      "bytes": 1121329,
+      "sha256": "7924aaa7fbb3c4d8c6b5a56dfc13a90b819943693c6fd16695faf00c6d4e82fe"
+    },
+    {
+      "path": "builds/06-volcano-test/index.html",
+      "bytes": 76118,
+      "sha256": "205cadfad26e675594eecf9fba459ed85ef7872f584c91adc649d649a6eef398"
+    },
+    {
+      "path": "builds/06-volcano-test/shots/erupt.png",
+      "bytes": 1189341,
+      "sha256": "c80493e95e45f19585b8d4f86b316e12bb702770c24f3b3aa840a2b775b03134"
+    },
+    {
+      "path": "builds/06-volcano-test/shots/night-lava-glow-flank.png",
+      "bytes": 1055350,
+      "sha256": "27e0d63e509da15b7769aa56d7d088ba016f267c476f01b9dc6fc4f40d8d0d33"
+    },
+    {
+      "path": "builds/06-volcano-test/shots/night.png",
+      "bytes": 782578,
+      "sha256": "99ac8936da9cc9a2accd3390c6545f29df5c7425d818b82c9d13e55425fbd14c"
+    },
+    {
+      "path": "builds/06-volcano-test/shots/overview.png",
+      "bytes": 1151201,
+      "sha256": "f47aec21a25ea62a385766c6ee9e74f1f8ed16fc3c849036e3191caa6804b040"
+    },
+    {
+      "path": "builds/06-volcano-test/shots/pour-water-on-lava.png",
+      "bytes": 827368,
+      "sha256": "eb8873c8bb0607cf5bf2db497d3f256ef473c2f74296ee8843218c166e84783a"
+    },
+    {
+      "path": "builds/06-volcano-test/shots/reflect.png",
+      "bytes": 1135930,
+      "sha256": "b2a2deee2c3d06dab7cf3307039098d2d613b2a51b6c54518b1f8c0a28fa7017"
+    },
+    {
+      "path": "builds/06-volcano-test/shots/spawn.png",
+      "bytes": 962911,
+      "sha256": "36573636129d3c2dac25054636c159128f5103f0a7c459a9e9afef8b51ebdb09"
+    },
+    {
+      "path": "builds/06-volcano-test/shots/sunset.png",
+      "bytes": 648397,
+      "sha256": "1bb0fde3853c9d0c54e96b1f8739d8b2837a595429083b3653471f429a97b3b9"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/build_log.txt",
+      "bytes": 14988,
+      "sha256": "9682b9ef7380c4a3688a3de9cf5db8ab48ada482f87eca6415abfeafddc4cc39"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/build_scene.py",
+      "bytes": 39311,
+      "sha256": "82665b32e8866a25b3bf99444fa633f8eb9b9e7ff6ec9c9d23019b81c7f45b55"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/build_timelapse.mp4",
+      "bytes": 1115318,
+      "sha256": "7755853c0650994056f33c404dfdcf00c858aafab05c814497e6471d5defc9d4"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/render_final.py",
+      "bytes": 1063,
+      "sha256": "737b17631857cca22ff256c1dc2cfbb2547d42f37c245a3f391e45297ebba4b0"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/render_log.txt",
+      "bytes": 27489,
+      "sha256": "e668b7b7f239d5ed03fce9a6384d7e59dc0affb4331f0c73c353afb64814aacb"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/screenshots/step_01.png",
+      "bytes": 748316,
+      "sha256": "84e8ddd72074e9386705bf7b8213282dbd8b24c3a86c0c51f099c09af9352567"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/screenshots/step_02.png",
+      "bytes": 799726,
+      "sha256": "e22d19aaf721e44067842703ecf6b1930f0ca0033ab84b1d186c8a4a9dd24d0a"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/screenshots/step_03.png",
+      "bytes": 815704,
+      "sha256": "0db071031508849ef954a5ecf04356839e8c06410e2fa2dce90bd74c38509a7e"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/screenshots/step_04.png",
+      "bytes": 829471,
+      "sha256": "0af237edefe38b52e0bb6f8ecf83e2cab15c927ef4c6cf66c03c61197ab6a6e7"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/screenshots/step_05.png",
+      "bytes": 846045,
+      "sha256": "890ba0ac5a5b9c02f2612ef780a67da03c416fd42b7a739d50fb9df892b68125"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/screenshots/step_06.png",
+      "bytes": 847543,
+      "sha256": "37796c254dcee9feb369829a411842adc3a56680c46fa0dac8269cc75da2219a"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/screenshots/step_07.png",
+      "bytes": 847819,
+      "sha256": "88831f4e3c5cfa17e9ad522dfcdff31cf6e7bc5f5a754a54972ee9d8ff644dca"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/screenshots/step_08.png",
+      "bytes": 888462,
+      "sha256": "26f114a3002f67447aae44290139aea3fc92444090b039441c4805d1b3440e5e"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/screenshots/step_09.png",
+      "bytes": 896990,
+      "sha256": "dae871dbf43c8f7f0a8f00094f22ff5c4230ba3c7e78833f2aab270ce9d2e8c3"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/screenshots/step_10.png",
+      "bytes": 1175753,
+      "sha256": "5754498221d0330f036eee419e5f9030d5866e1a0f7bbc0356cd7aca69723d4a"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/storm_lighthouse_final.mp4",
+      "bytes": 20543910,
+      "sha256": "28ee429110a81fb79a60efd0d9cb65a629de7f451e1461ef7ebcfe1d61e96b62"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/test/clay_all.png",
+      "bytes": 280509,
+      "sha256": "caa857d347ec04eeb0ba42a2e50dc2c77acd8878b3114ea9b5b00ae585a76b53"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/test/clay_sheet.png",
+      "bytes": 772512,
+      "sha256": "68e5351cdd92e5a2eb8cee52305da53007a062b6745d07acffb19f65397b1097"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/test/eevee_001.png",
+      "bytes": 832562,
+      "sha256": "c3dad1bff0ec78c04f948f3456901bcff058a58005026e479b98dfcc71280325"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/test/eevee_230.png",
+      "bytes": 1297846,
+      "sha256": "0a2b7f75209a06cc2bcb17c666a27f7bfc274aab663d0eb5dd7eadfe6a01add3"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/test/eevee_263.png",
+      "bytes": 1178767,
+      "sha256": "1e8d5322eead2b2a5c49db0f9bea49d3e1667bd3d5c813bd02ea65a443cd24cd"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/test/sheet2.png",
+      "bytes": 1201462,
+      "sha256": "cda5204b75971bc8105de8235bb3a924697fb942a9993298a990b97a00120768"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/test/sheet3.png",
+      "bytes": 1224127,
+      "sha256": "3594e08b261699cd0d7277a0537a572d84d732ad0390e9e265996bd993d52896"
+    },
+    {
+      "path": "builds/07-storm-lighthouse/test_log.txt",
+      "bytes": 498,
+      "sha256": "772d3e9a06afe044d232ed957e4474dec5d74697b417b490f1548900bc567cc7"
+    },
+    {
+      "path": "builds/08-pixel-dragon/index.html",
+      "bytes": 25677,
+      "sha256": "fddb2854cdfabdcdf9e401de36e3a040427cbe7e2baf664ca69b00b5b27fb8ab"
+    },
+    {
+      "path": "builds/09-rosetta-stone/index.html",
+      "bytes": 806170,
+      "sha256": "414a0a8c118b9388810ae39b9b962309d630aee780ea1790599de01a7dea9345"
+    },
+    {
+      "path": "builds/10-wave-racer/data.js",
+      "bytes": 5304,
+      "sha256": "6dde0cdc0642bd8bf26d0f7f645cd0cfe88465cd7e5541536021905b82b42d05"
+    },
+    {
+      "path": "builds/10-wave-racer/game.js",
+      "bytes": 22033,
+      "sha256": "a495bd8b33c3485b2115882953b5bd7f825e7cce87ec4564cdcc74f35f8522de"
+    },
+    {
+      "path": "builds/10-wave-racer/index.html",
+      "bytes": 16931,
+      "sha256": "c954c6f50dbcc4690c34f212757c9d3e2990350427be0004802acdcf28156e3d"
+    },
+    {
+      "path": "builds/10-wave-racer/shots/01-title.png",
+      "bytes": 409221,
+      "sha256": "0be931aefedf44b4ae1a3c7ed2c50ed6fe9f3c72590fa07f75f6e4bb2f890a1a"
+    },
+    {
+      "path": "builds/10-wave-racer/shots/02-select.png",
+      "bytes": 394653,
+      "sha256": "bf6ba5469cbfb05fe7a83524d5457ad6d3715708b3fb32dcbcca9e9f30fa7cef"
+    },
+    {
+      "path": "builds/10-wave-racer/shots/03-title-card.png",
+      "bytes": 320295,
+      "sha256": "5baaaff8e849ea78bce0b08c2ef84bf55ea9a425e41dee3c38fcb65e00d59b0a"
+    },
+    {
+      "path": "builds/10-wave-racer/shots/04-race-hud.png",
+      "bytes": 217839,
+      "sha256": "e1437ddfc9766dc51699ede21a32cc16465dcb550a26f4981eef3c13ab1ee634"
+    },
+    {
+      "path": "builds/10-wave-racer/shots/04b-item-slot.png",
+      "bytes": 207866,
+      "sha256": "81dc8157aafcb2c80a63d94a1d5f2b53c47f01b97e7dc2bb4a1af59aca913973"
+    },
+    {
+      "path": "builds/10-wave-racer/shots/05-track1.png",
+      "bytes": 272528,
+      "sha256": "1c34631748c7fd07fc18ceeeb9abed5c59cbf400d471668e7c428719c885dafa"
+    },
+    {
+      "path": "builds/10-wave-racer/shots/05-track2.png",
+      "bytes": 294556,
+      "sha256": "b745e4611f45909bae394009fe10c5ab7d0b523ade1fca7888a84e2aee2504db"
+    },
+    {
+      "path": "builds/10-wave-racer/shots/05-track3.png",
+      "bytes": 261823,
+      "sha256": "8c421886e34ee0344714eebabfde12fc2d88f5694d50b9ca4e0c64d34d5e08db"
+    },
+    {
+      "path": "builds/10-wave-racer/shots/06-results.png",
+      "bytes": 209603,
+      "sha256": "5edaf86e6dc8e99d03941aee972b356f0c4e3bc85cd2792d6cd8e65474098847"
+    },
+    {
+      "path": "builds/10-wave-racer/shots/07-ramp-ahead.png",
+      "bytes": 243806,
+      "sha256": "c7696fca5310486107db395a348ada1b43029ef8b10fbb038859b4099b27b65b"
+    },
+    {
+      "path": "builds/10-wave-racer/shots/08-ramp-jump.png",
+      "bytes": 225979,
+      "sha256": "2b3ccc56d7f12c948785e2aa647bf43b1f1ad835279683c1ff4d8d2792114fb6"
+    },
+    {
+      "path": "builds/10-wave-racer/test.js",
+      "bytes": 10816,
+      "sha256": "9704e52ce07b88ac8a73fcd9cc51676ae46a38e53ae490fee30644ef8293f791"
+    },
+    {
+      "path": "builds/10-wave-racer/three.min.js",
+      "bytes": 651651,
+      "sha256": "3b3a1c97de3ce65ec5b28c28d9f2805a738e9651622691ba771aa95c79d41d51"
+    },
+    {
+      "path": "builds/10-wave-racer/ui.js",
+      "bytes": 32149,
+      "sha256": "1483dd1989754b17bf6404186de53684c3758cc08ad97ce846c5187a188e6915"
+    },
+    {
+      "path": "builds/10-wave-racer/world.js",
+      "bytes": 27261,
+      "sha256": "2132f8e0b05c0a7a0705e362826ea5998af5e2b6affc324a8de5f2ece9fbd907"
+    },
+    {
+      "path": "builds/11-arch-bridge/build/build.js",
+      "bytes": 1831,
+      "sha256": "753e24c1fc1dd0609ee14f2b36f3d46b89a63fa6adad09355aa2f7ddebb503ad"
+    },
+    {
+      "path": "builds/11-arch-bridge/build/physics-selftest.mjs",
+      "bytes": 2761,
+      "sha256": "f8b25267bd53cbf8e894086886bfb86b0270868dc9b71f752ec08a775505de6a"
+    },
+    {
+      "path": "builds/11-arch-bridge/bundle.js",
+      "bytes": 1628775,
+      "sha256": "ced28f0b1117889cf40e22f166e760b6d36b9d31802e9195109bc698be78d880"
+    },
+    {
+      "path": "builds/11-arch-bridge/index.html",
+      "bytes": 2100,
+      "sha256": "1184602208a691a0afc09a347534b60ae03b8e637db9248c5f1968f8d2369e7b"
+    },
+    {
+      "path": "builds/11-arch-bridge/package-lock.json",
+      "bytes": 14461,
+      "sha256": "0d05dd21eb93fd6d00281d60c815df654cad85eea32fdd37c91020444c2b17fa"
+    },
+    {
+      "path": "builds/11-arch-bridge/package.json",
+      "bytes": 378,
+      "sha256": "a217af3ff8a4264f0cacb2066336a5ba84d257563e39d04866c93a090e42c267"
+    },
+    {
+      "path": "builds/11-arch-bridge/sketch/arch-bridge.jpg",
+      "bytes": 81544,
+      "sha256": "bdad6a4738264f0095d0d302c4d02336ec5634cf20663a011cf85fbcb26d4f24"
+    },
+    {
+      "path": "builds/11-arch-bridge/src/arch.js",
+      "bytes": 15170,
+      "sha256": "5a0d63814fba5e963aac26cf6742737047b86aff825a086b146c54939812673e"
+    },
+    {
+      "path": "builds/11-arch-bridge/src/generated-sketch.js",
+      "bytes": 109058,
+      "sha256": "54102831f51051467f6fdce0324f7eb6cef39c2534d63a2450e073a11f9a0ed4"
+    },
+    {
+      "path": "builds/11-arch-bridge/src/main.js",
+      "bytes": 23047,
+      "sha256": "887ce16e10d84490697a2480b39668f655f93274220feff6817f8d0e94e5c006"
+    },
+    {
+      "path": "builds/11-arch-bridge/src/physics-config.js",
+      "bytes": 965,
+      "sha256": "3258d16db2992edd8c212fc71f8a58188596d2d8817ed9cc9a5bde927c6b2b80"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/01-paper.png",
+      "bytes": 183305,
+      "sha256": "2eab4ff4ad198462ef095a44ef4b6b4d4f659a47ae1eaf21dfd8cacee95cd99e"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/02-lift-mid.png",
+      "bytes": 193621,
+      "sha256": "ee26f2d2bc062e539abae5e8ae7604df73cecdd399b88c63b647cf26f7cfed81"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/03-lift-full.png",
+      "bytes": 198440,
+      "sha256": "2895c9d861d411071657901b34a3e14a584c840aea71e8ed4219fea3bc4aaaa3"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/04-stone-fresh.png",
+      "bytes": 313363,
+      "sha256": "53dee9f97dfcf124e65e28bd39d7cc51a0489b305e0a3787ee9378c9121525f4"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/05-stone-settled.png",
+      "bytes": 312736,
+      "sha256": "87ce8e66ec436c780712d34def5b80b8cb76358350f00c684fbb9addd39ee4b1"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/06-cart-crossed.png",
+      "bytes": 313288,
+      "sha256": "858ed82ce323502ab796ff418ed5acd9004938ac1bdc0da318affc16470d35d2"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/07-collapsed.png",
+      "bytes": 305686,
+      "sha256": "980e39584b42a647e76bfd8c7a54a63d9553aea4bb39241cc2d4e4c84f56bb37"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/08-low-friction.png",
+      "bytes": 236864,
+      "sha256": "adfd96d7ea9f8b2b28b36f7daa211bb1229326ea1a7c668dc3a17e852f3d507a"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/09-heavy-cart-crossed.png",
+      "bytes": 312800,
+      "sha256": "8716329e7f321895aff85e3b4ce6bf3d6c96ce0673b0d1791f54398bab531631"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/10-rise-low.png",
+      "bytes": 278566,
+      "sha256": "6820b275265b7f4756cba6064c92d84de8d9a0323a43951cd2490fdfc5a0f858"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/11-normal-mid.png",
+      "bytes": 313186,
+      "sha256": "700cb7551f5d0c6394dbd7d67c0084d6135f5cb97fae9483e629db749e9ec8f0"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/12-normal-cart.png",
+      "bytes": 313092,
+      "sha256": "2268df2c21f4ab45af84b66607a285e9e8bbad42bf45f7c387034e66f4393652"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/contact-sheet.png",
+      "bytes": 738879,
+      "sha256": "c8b06b72d4d1759ba0d607ea4e2ff6c49f4e9d2c3a35367daaa17e2e3b34f0ea"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/log-normal.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/log.txt",
+      "bytes": 99,
+      "sha256": "9e1238963f7d3caae0f450ba6706147faee9a351376ac1de799472bcf679000e"
+    },
+    {
+      "path": "builds/11-arch-bridge/verify/summary.json",
+      "bytes": 609,
+      "sha256": "dc2dbce94cbcc85c9b53f673965b2821089cb24155dbf0f3c37b8f58e567503b"
+    },
+    {
+      "path": "builds/12-snow-day/package-lock.json",
+      "bytes": 28704,
+      "sha256": "ea11069c20b1dd0a199d8bd735a2aaa5ba0b260ee6bc1998daf762d8fc37d04c"
+    },
+    {
+      "path": "builds/12-snow-day/package.json",
+      "bytes": 357,
+      "sha256": "91b69146540d45022124a583957a60ceb79faf692f9f984c3dc1ef27f28e1a1d"
+    },
+    {
+      "path": "builds/12-snow-day/public/index.html",
+      "bytes": 1366,
+      "sha256": "353a407a6370ce400109bda376180e38d49d22187a564e985f8c00708ef02dbd"
+    },
+    {
+      "path": "builds/12-snow-day/public/js/chat.js",
+      "bytes": 1506,
+      "sha256": "5f8d9e23951574cbd34dce33560c6066cae1c5209a26c2e5265a3a480b27b07a"
+    },
+    {
+      "path": "builds/12-snow-day/public/js/hotel.js",
+      "bytes": 5901,
+      "sha256": "b1470ecd1b976c8cb2f4d46c9b5fcb3cbe4ce18c182865a539fa5171690b3422"
+    },
+    {
+      "path": "builds/12-snow-day/public/js/main.js",
+      "bytes": 10215,
+      "sha256": "6cce6df2906a5b50efb238bc5f44591fdc17b2e2eb4d47221ef3d2a02e06d449"
+    },
+    {
+      "path": "builds/12-snow-day/public/js/minimap.js",
+      "bytes": 2717,
+      "sha256": "ff10bd75bc770ec1803e99db5162c600031bfd7db279d909608b626746f27c2c"
+    },
+    {
+      "path": "builds/12-snow-day/public/js/network.js",
+      "bytes": 3978,
+      "sha256": "6f38ec110485e9b5d666d0c466fd7976de6dbea466353c9f3bcd66797a6f0a3e"
+    },
+    {
+      "path": "builds/12-snow-day/public/js/snowblower.js",
+      "bytes": 7386,
+      "sha256": "517bbe975aca35ea9022c2e82d60f7e2f533c9b9aff739a8831005a7887b8bc7"
+    },
+    {
+      "path": "builds/12-snow-day/public/js/snowfx.js",
+      "bytes": 3246,
+      "sha256": "e9ec7301fa5e0156720a00ca3a5d835c29f6e40693c68b121dda133a034429a2"
+    },
+    {
+      "path": "builds/12-snow-day/public/js/terrain.js",
+      "bytes": 2807,
+      "sha256": "04bd20a8b01003520a30c061b3da9b31a9c600376b1ae29274e5d432aceb071f"
+    },
+    {
+      "path": "builds/12-snow-day/public/js/textures.js",
+      "bytes": 3054,
+      "sha256": "05b93a1bbcb863a3a1b12752d98e6ba9a108d1ea4a94b408d4ea11bce8eecfeb"
+    },
+    {
+      "path": "builds/12-snow-day/public/js/world.js",
+      "bytes": 2052,
+      "sha256": "78701e090c1e0dbe9be2890083d545f8a904e7e3e568b2c7e06d1b1ff9350327"
+    },
+    {
+      "path": "builds/12-snow-day/public/style.css",
+      "bytes": 3803,
+      "sha256": "910548870e808f65106c297d19182c0b2e569169112088b57cfc7248eb65df20"
+    },
+    {
+      "path": "builds/12-snow-day/README.md",
+      "bytes": 5655,
+      "sha256": "e3ed2036f2a2272a1ab3bfbdcbc0cbf12b4aa57d5637aef4cb5d798787fe90d8"
+    },
+    {
+      "path": "builds/12-snow-day/server/gameState.js",
+      "bytes": 4687,
+      "sha256": "21355e5e8d0f78eced800fc567ec658b29620ee3904f29ddabbfe2889b6ecbe0"
+    },
+    {
+      "path": "builds/12-snow-day/server/index.js",
+      "bytes": 4467,
+      "sha256": "9abbf03f5271860b35e2f90fd6455bf47bba4c031dce0af5934b53e76f825034"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/index.html",
+      "bytes": 25411,
+      "sha256": "f52162ccdc9aa4800b87e6746c791f0fbc8dff9ecda5702343c52ba5550496a8"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/contact_verify.png",
+      "bytes": 1574447,
+      "sha256": "1bee098973228efeace1a7a490d88b1fb2cffbbdd91eb6f8314721ca671826d2"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/hd_t43.png",
+      "bytes": 1328524,
+      "sha256": "6d34b9c5394d3cd677505bfe6617f9521d36a8f15102cec011d035f28c0af8cd"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/t20.5.png",
+      "bytes": 825388,
+      "sha256": "ec07b5775491fdc26bc9fe52c80906187d64e6944fd673caa8a0b3f33b52b82c"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/t50.png",
+      "bytes": 26130,
+      "sha256": "0981b85a8d592ee4f693aeeb73aa7e778a09c1792da6d427c98b9d215c6c2a25"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/t63.png",
+      "bytes": 703436,
+      "sha256": "f8aabc303acf910b0cb1745023dadf5e87295734ae2f3b477f08a15e6fea48c0"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/t72.png",
+      "bytes": 706630,
+      "sha256": "7f5bd069235b5de6de6016c5d635cee9b834f0bb42a513bb68cff282ff690999"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/t77.5.png",
+      "bytes": 646560,
+      "sha256": "5f10ae65a59aab46e3a3fc26e48115c92d92c7db222cdcf7d57c9713a1b0019c"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/t9.2.png",
+      "bytes": 790572,
+      "sha256": "84c1ec653f77e6863470f9134f1d491f0b58ec084af925e9385f28dc1850ba82"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t0.png",
+      "bytes": 6399,
+      "sha256": "13a2d5ac58301986fba83752e4461bf1d3ac59ec0f5c2c049a7a52bfff712b67"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t17.5.png",
+      "bytes": 794942,
+      "sha256": "d6b1f7052b0bcd5192bdc33d831c119b68cc5aed24c316b1e66548ec6c0c9c1d"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t2.png",
+      "bytes": 729743,
+      "sha256": "e49c8b2a04f5a3a78d2ced5dade7389a62166c6b9aa8580976bc17f53071d316"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t20.5.png",
+      "bytes": 817665,
+      "sha256": "f4c5024c0c506928800b921a27c9213d2ad27bdcc951e47815492f7b628f334d"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t22.png",
+      "bytes": 878960,
+      "sha256": "9172dd5c29e27ab73e6df6bcbb86f94b4c6d1f64ecb11e3751dfcc298a390581"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t26.png",
+      "bytes": 910038,
+      "sha256": "c1b840efbdbb0a959c900033394153696edadaf3d657c227c87ecb0c9e8d0486"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t33.png",
+      "bytes": 893928,
+      "sha256": "30ae15b0d0c36f06255870a15ca59b1b49ce7749c2d93fbea675bcf008f3bf28"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t37.png",
+      "bytes": 861133,
+      "sha256": "30e47f7380e5cc521bab45da2b4eb47447b36ae292339f56980a8bf5f312fa9d"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t43.png",
+      "bytes": 670864,
+      "sha256": "53518072b051063484493ddf900ea5f7c00819d94945f2e967a7cfd5b5b7d984"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t5.png",
+      "bytes": 752089,
+      "sha256": "bc9b3157df02217ce26039b0bcdc1583362e2d38ad38adf5fb2a053887552159"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t50.png",
+      "bytes": 736601,
+      "sha256": "b1a1d84a18b18fb595316aa1ac11657a90e12318dba33d0df3dba0353bc24178"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t56.png",
+      "bytes": 746190,
+      "sha256": "227dd2059439c7f7f88500812d2f235415e78ce781d79b64716a5f6d7d1eb8a1"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t58.5.png",
+      "bytes": 745140,
+      "sha256": "35c59ec697653f8c2c34b4fe10aba62a43b46c43e2c8c0162cf457a64f1eded4"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t63.png",
+      "bytes": 697980,
+      "sha256": "f7da9f72dad8217c89131c2659b1b87ca9e0c9d9cedb5b2280ef59fa5da4f797"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t67.png",
+      "bytes": 705354,
+      "sha256": "7d1d4263b357f2cd5a6884cebe3fdc5a33c3cea486629cb9cacefa41a0a88124"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t74.png",
+      "bytes": 686407,
+      "sha256": "3233a675e61a126ba49b06599cc5b14a7e663179c191d7e399ba3bf7161df14e"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t79.5.png",
+      "bytes": 402498,
+      "sha256": "3ba51d81e9270d2b847948b6b832cffccd3f0a8bf99921c1a01f3e0b60b02ce7"
+    },
+    {
+      "path": "builds/13-four-seasons-glass/shots/verify_t9.5.png",
+      "bytes": 783771,
+      "sha256": "b1909a5c34e8b048c5cb468d706ec91d835e28596182f0d687f8aa43f85bc143"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/build.js",
+      "bytes": 1483,
+      "sha256": "571f81d55a5dd6c8bf2d77962fc03dca3fad814fc952d38c70cede62bbc7767c"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/index.html",
+      "bytes": 2603008,
+      "sha256": "8852477385f4a6b4d093b5fd6fc401818521db9f66db99f48fff1bb42140ae81"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/photos/arashiyama-bamboo.jpg",
+      "bytes": 264002,
+      "sha256": "a673f8274829b19920782afb00f4e4db4cd74d0a8c45050795d1dcbbcde0895b"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/photos/fushimi-inari.jpg",
+      "bytes": 189760,
+      "sha256": "1a419f2ecaf385d5a04e06e7aa2b855c67c306cdd04f55f422b9609c7326f1c5"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/photos/himeji-castle.jpg",
+      "bytes": 234557,
+      "sha256": "f1ac852020c44530d84451520dde5058a3a5aec444a4bb95ee49d1e5df13874c"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/photos/hiroshima-tram.jpg",
+      "bytes": 188339,
+      "sha256": "969d7d99492d11e91978cb99e81b925941ba84eefc95574f8ac3314462937aed"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/photos/hokkaido-snow-line.jpg",
+      "bytes": 91424,
+      "sha256": "5f6b41c2896e8d462c4cc09a6253d193dda7bc7dd31b525b3165178088795087"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/photos/kanazawa-station.jpg",
+      "bytes": 180332,
+      "sha256": "61ff6c7c6b4bc13c675b09db26f4c128ccce45d624c6cd9e98434d803dd7b663"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/photos/mount-fuji.jpg",
+      "bytes": 88719,
+      "sha256": "a3a94fecb1c91d5042e46a9bbf34d81bded9a1f389161c6610e084ccd5f8d2dd"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/photos/nara-park.jpg",
+      "bytes": 305456,
+      "sha256": "733aadbec2140bed13b4b22576df75f6556f72f28e4a8e73727743d71bdd18a6"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/photos/shinkansen-platform.jpg",
+      "bytes": 203253,
+      "sha256": "e185654657cf2623520bfbd99b0cc4bae30b2594f54c8c8fbee18a741c68c69c"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/photos/tokyo-station.jpg",
+      "bytes": 187130,
+      "sha256": "b56c85f1c915c659632d195a50a684373919ba2bbe82c3f15daff1a20831043d"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/template.html",
+      "bytes": 24817,
+      "sha256": "9922811883f25df1683bed7f743deeffd4b327aba1fe7ed7a278cac9c7cfe8e4"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/verify/contact-sheet.png",
+      "bytes": 4083849,
+      "sha256": "38fafc1a2ef94ff739f1dda831266f9536b6d819b9370ddeaaad3b90323a42b9"
+    },
+    {
+      "path": "builds/14-japan-rail-sketchbook/verify/mid-curl.png",
+      "bytes": 292649,
+      "sha256": "74ec1ff2989cdbf901c3857f5f89e333556c60ad35bc88147ff91f4d7bd4d790"
+    },
+    {
+      "path": "builds/15-silk-road-sand/index.html",
+      "bytes": 49636,
+      "sha256": "eb33d0acc446ebe8c535311881c2c3e9432dcb3ce0dfafc0e897391e9c839181"
+    },
+    {
+      "path": "index.html",
+      "bytes": 15663,
+      "sha256": "9cfb91f36e5be3a8b8b784afcf276223fe52ac8ce82e1069128f5d2cf1b85426"
+    },
+    {
+      "path": "opus55-15-variations-specs.html",
+      "bytes": 46793,
+      "sha256": "90198b9aeb6c32770b03cb4276637b366af7a7f231c0f3d656c606262a9e24d3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11261,
+      "sha256": "888a73e569ecf4f19d64ce3cb61e6363d4037d95f8ad4ef75e336dc57fb28505"
+    },
+    {
+      "path": "screenshots/01-eye-lab.jpg",
+      "bytes": 49881,
+      "sha256": "f0bce90324dc222328a0b9818d3d4b5496a91a7f446e372be711ad4b979a10d1"
+    },
+    {
+      "path": "screenshots/02-clawd-goes-to-sea.jpg",
+      "bytes": 28386,
+      "sha256": "90f18e6b7609eb05d760cda4c4015f7a936a367a7cdb1eb3840fa1882821a414"
+    },
+    {
+      "path": "screenshots/03-water-weather-code.jpg",
+      "bytes": 13829,
+      "sha256": "9554ef13b517dd7549c8b1a805ba50d82f3cda17bc618aee80ec73bb8b50ac3c"
+    },
+    {
+      "path": "screenshots/04-title-sequence.jpg",
+      "bytes": 21345,
+      "sha256": "aaa5132583bdb8fd0a73687a8d275ae085b5624e2aa505b63650cb08703229c7"
+    },
+    {
+      "path": "screenshots/05-frostbound-monastery.jpg",
+      "bytes": 32466,
+      "sha256": "619f79ca06b67a0c48f33888961c2097d77e14ec82f98f979cd9dd8f156d0599"
+    },
+    {
+      "path": "screenshots/06-volcano-test.jpg",
+      "bytes": 28479,
+      "sha256": "e51eeae809bcf7bd2f9ac557f67d76fdd9e3c88024a687113d54d96663163a78"
+    },
+    {
+      "path": "screenshots/07-storm-lighthouse.jpg",
+      "bytes": 42173,
+      "sha256": "995a5d5ce595cc0711ee30a5f628119512cc2c318ff314ea20230dc64ec9a5e3"
+    },
+    {
+      "path": "screenshots/08-pixel-dragon.jpg",
+      "bytes": 31160,
+      "sha256": "6c9999d101148cff6e33eca10215c8797adb17eae753cfaa190149e1e9af3754"
+    },
+    {
+      "path": "screenshots/09-rosetta-stone.jpg",
+      "bytes": 30218,
+      "sha256": "ae381f49b37966d41333f882f3f6840afae48d0f08b84d6929ace69995649873"
+    },
+    {
+      "path": "screenshots/10-wave-racer.jpg",
+      "bytes": 29227,
+      "sha256": "268743e8c962aff241daddd11dae570a3979c1dc2e4addd42aba46ea6365b571"
+    },
+    {
+      "path": "screenshots/11-arch-bridge.jpg",
+      "bytes": 20085,
+      "sha256": "608369d00b35fadb5c709dd6add80abf2e6fa5a61892acb14282351edd015b66"
+    },
+    {
+      "path": "screenshots/12-snow-day.jpg",
+      "bytes": 23046,
+      "sha256": "ef9db4199a31b8a2ad85acfeb1e5a17a5431d657e2c468a9267da1a24f6d3ae7"
+    },
+    {
+      "path": "screenshots/13-four-seasons-glass.jpg",
+      "bytes": 40368,
+      "sha256": "d665f46d3202069bb41bafdd7d8a75f2dd607996aef3dac0552dcb1ff34ea1a7"
+    },
+    {
+      "path": "screenshots/14-japan-rail-sketchbook.jpg",
+      "bytes": 42105,
+      "sha256": "45a6ee5f26dace4f4d1cf8d591190a887708631149bb270accd3ac5ba2c0f5db"
+    },
+    {
+      "path": "screenshots/15-silk-road-sand.jpg",
+      "bytes": 24690,
+      "sha256": "900f0f924ea387692a13e78dd7a2b354c2f1fcbf494f04d4847b7f4a6eb91056"
+    }
+  ],
+  "verification": {
+    "snapshotExtracted": true,
+    "sourceExecuted": false,
+    "avReviewed": false
+  }
+}

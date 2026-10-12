@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s14-root { position: absolute; inset: 0; }
+        #s14-desk { left: 40px; top: 830px; width: 1840px; height: 40px; border-radius: 12px; background: #d9b98a; border: 5px solid var(--k-ink); }
+        #s14-desk-front { left: 80px; top: 866px; width: 1760px; height: 214px; background: #c9a877; border-left: 5px solid var(--k-ink); border-right: 5px solid var(--k-ink); }
+        #s14-tag { left: 540px; top: 470px; width: 500px; height: 300px; border-radius: 22px; background: #fffaf0; border: 5px solid var(--k-ink); box-shadow: 0 10px 0 var(--k-ink); }
+        #s14-tag-head { left: 28px; top: 24px; right: 28px; display: flex; justify-content: space-between; font: 500 22px/1 var(--k-mono); color: var(--k-ink-2); }
+        #s14-rule-1, #s14-rule-2 { left: 28px; width: 440px; height: 3px; background: #e8dcc0; }
+        #s14-rule-1 { top: 128px; } #s14-rule-2 { top: 196px; }
+        .s14-trait { left: 30px; font: 500 36px/1 var(--k-mono); color: var(--k-ink); white-space: pre; }
+        #s14-t1 { top: 88px; } #s14-t2 { top: 156px; }
+        #s14-cost { left: 820px; top: 722px; font-size: 24px; }
+        #s14-term { left: 1110px; top: 250px; width: 710px; height: 570px; border-radius: 26px; background: #fffaf0; border: 5px solid var(--k-ink); box-shadow: 0 10px 0 var(--k-ink); overflow: hidden; }
+        #s14-bar { height: 60px; border-bottom: 5px solid var(--k-ink); background: #f3e2b8; display: flex; align-items: center; gap: 14px; padding: 0 24px; }
+        #s14-bar i { width: 20px; height: 20px; border-radius: 50%; border: 4px solid var(--k-ink); display: block; }
+        #s14-bar span { margin-left: 18px; font: 500 22px/1 var(--k-mono); color: var(--k-ink-2); }
+        #s14-body { padding: 34px 38px; font: 500 30px/1.75 var(--k-mono); color: var(--k-ink); white-space: pre; }
+        .s14-dim { color: var(--k-ink-2); }
+        #s14-fill { position: relative; display: inline-block; }
+        #s14-hl { left: -8px; top: 4px; right: -8px; bottom: 4px; background: var(--k-accent); border-radius: 10px; transform-origin: 0 50%; }
+        #s14-caret { display: inline-block; margin-left: 10px; width: 18px; height: 38px; background: var(--k-ink); vertical-align: -7px; }
+        #s14-slip { padding: 8px 18px; border-radius: 12px; background: var(--k-accent); border: 4px solid var(--k-ink); font: 500 30px/1.2 var(--k-mono); color: var(--k-accent-ink); white-space: nowrap; }
+      </style>
+      <div id="s14-root" data-composition-id="s14-describe" data-width="1920" data-height="1080">
+        <div id="s14-scene" class="k-scene k-warm">
+          <div id="s14-desk-front" class="k-abs"></div>
+          <div id="s14-desk" class="k-abs"></div>
+          <div id="s14-tag" class="k-abs">
+            <div id="s14-tag-head" class="k-abs"><span>traits</span><span>editable</span></div>
+            <div id="s14-rule-1" class="k-abs"></div>
+            <div id="s14-rule-2" class="k-abs"></div>
+            <div id="s14-t1" class="k-abs s14-trait"></div>
+            <div id="s14-t2" class="k-abs s14-trait"></div>
+          </div>
+          <div id="s14-cost" class="k-pill k-amber">describe · 2 cr</div>
+          <div id="s14-term" class="k-abs">
+            <div id="s14-bar"><i></i><i></i><i></i><span>next prompt · create_asset</span></div>
+            <div id="s14-body"><div class="s14-dim">"kind": "image",</div><div class="s14-dim">"model": "image/flux-2",</div><div>"prompt": "the keeper</div><div> waves from the pier,</div><div> <span id="s14-fill"><span id="s14-hl" class="k-abs"></span><span id="s14-text" style="position:relative"></span></span><span id="s14-caret"></span></div><div class="s14-dim">"</div></div>
+          </div>
+          <div id="s14-slip" class="k-abs" data-layout-allow-overlap>red scarf, round glasses</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s14-scene");
+          K.grain(scene, "s14");
+          // still props: sky and a mug
+          K.cloud(scene, 420, 180, 0.8); K.cloud(scene, 830, 230, 0.6); K.cloud(scene, 1500, 160, 0.7);
+          K.mug(scene, 440, 734);
+          K.cursor(scene, 1000, 400, "you");
+          K.chrome(scene, tl, { title: "describe keeps the traits", chapter: "5 · continue", step: 5 });
+
+          // Desk drawers: still furniture on the desk front.
+          [620, 960, 1300].forEach((x) => K.el(scene, "div", { class: "k-abs", style: { left: x + "px", top: "930px", width: "300px", height: "110px", borderRadius: "14px", border: "5px solid #2a2118", background: "#d9b98a" } },
+            '<div style="position:absolute;left:110px;top:40px;width:70px;height:20px;border-radius:10px;background:#6e4527;border:4px solid #2a2118"></div>'));
+          // The character still, in the thumb box (24..196 × 24..128): a harbour keeper
+          // with a navy cap, round glasses and a red scarf, the lighthouse behind.
+          const keeper = `<rect x="24" y="24" width="172" height="104" fill="#a9d3e8"/><rect x="24" y="100" width="172" height="28" fill="#3e7ca6"/>
+            <path d="M160 100 L163 64 H171 L174 100 Z" fill="#fffaf0" stroke="#2a2118" stroke-width="2.5"/><rect x="163" y="72" width="9" height="6" fill="#f0655a"/>
+            <circle cx="44" cy="44" r="8" fill="#f2c14e"/>
+            <path d="M58 130 Q60 100 84 95 H116 Q140 100 142 130 Z" fill="#34507a" stroke="#2a2118" stroke-width="3"/>
+            <path d="M100 98 V128" stroke="#2a2118" stroke-width="2.5"/><circle cx="92" cy="112" r="2.4" fill="#f2c14e"/><circle cx="92" cy="122" r="2.4" fill="#f2c14e"/>
+            <ellipse cx="77" cy="66" rx="5" ry="7" fill="#f2c8a0" stroke="#2a2118" stroke-width="2.5"/><ellipse cx="123" cy="66" rx="5" ry="7" fill="#f2c8a0" stroke="#2a2118" stroke-width="2.5"/>
+            <circle cx="100" cy="66" r="24" fill="#f2c8a0" stroke="#2a2118" stroke-width="3"/>
+            <path d="M74 50 Q76 30 100 30 Q124 30 126 50 Z" fill="#2c3e5c" stroke="#2a2118" stroke-width="3"/><path d="M70 50 H130 Q131 56 124 56 H76 Q69 56 70 50 Z" fill="#1f2c44" stroke="#2a2118" stroke-width="2.5"/>
+            <circle cx="90" cy="67" r="8" fill="#e8f4fa" stroke="#2a2118" stroke-width="2.8"/><circle cx="110" cy="67" r="8" fill="#e8f4fa" stroke="#2a2118" stroke-width="2.8"/><path d="M98 66 Q100 64 102 66" stroke="#2a2118" stroke-width="2.5" fill="none"/>
+            <circle cx="90" cy="68" r="2.4" fill="#2a2118"/><circle cx="110" cy="68" r="2.4" fill="#2a2118"/>
+            <path d="M94 80 Q100 84 106 80" stroke="#2a2118" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+            <path d="M78 88 Q100 97 122 88 L124 98 Q100 108 76 98 Z" fill="#f0655a" stroke="#2a2118" stroke-width="3" stroke-linejoin="round"/>
+            <path d="M108 100 L116 124 L104 122 Z" fill="#f0655a" stroke="#2a2118" stroke-width="3" stroke-linejoin="round"/>`;
+
+          // The still, a card on the left; its traits tag is tied to it.
+          const S = 1.6, CL = 100, CT = 830 - 202 * 1.6;
+          const card = K.card(scene, { id: "s14-card", theme: "warm", left: CL, top: CT, scale: S, thumb: keeper });
+          gsap.set(K.part(card, "k-bar"), { opacity: 0 });
+          const P = (ax, ay) => [CL + ax * S, CT + ay * S]; // art → scene
+          K.el(scene, "div", { class: "k-pill", style: { left: "110px", top: "890px", fontSize: "22px" } }).textContent = "still · image/flux-2 · 3 cr";
+          K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } },
+            `<path d="M${CL + 206 * S} ${CT + 110 * S} C 500 ${CT + 110 * S}, 500 530, 544 530" stroke="#2a2118" stroke-width="4" fill="none" stroke-dasharray="2 9" stroke-linecap="round"/>`);
+
+          // The magnifier: a lens that shows the still at 1.9×, and an amber handle.
+          const R = 78, Z = 1.9;
+          const mag = K.el(scene, "div", { id: "s14-mag", class: "k-abs", style: { width: R * 2 + "px", height: R * 2 + "px" } });
+          K.el(mag, "svg", { class: "k-abs", "data-layout-allow-overflow": "", width: 160, height: 160, style: { left: R * 2 - 36 + "px", top: R * 2 - 36 + "px" } },
+            '<path d="M14 14 L118 118" stroke="#2a2118" stroke-width="30" stroke-linecap="round"/><path d="M14 14 L118 118" stroke="#f2c14e" stroke-width="20" stroke-linecap="round"/>');
+          const lens = K.el(mag, "div", { class: "k-abs", style: { width: R * 2 + "px", height: R * 2 + "px", borderRadius: "50%", overflow: "hidden", background: "#efe3c8", border: "9px solid #2a2118", boxShadow: "0 6px 0 #2a2118" } });
+          const zoomed = K.el(lens, "svg", { class: "k-abs", "data-layout-allow-overflow": "", width: 172 * S * Z, height: 104 * S * Z, viewBox: "24 24 172 104" }, keeper);
+          K.el(lens, "div", { class: "k-abs", style: { left: "18px", top: "14px", width: "40px", height: "22px", borderRadius: "50%", background: "rgba(255,255,255,.55)", transform: "rotate(-30deg)" } });
+          // Place the lens centre over art point (ax, ay).
+          const lookAt = { ax: 100, ay: 67 };
+          const place = () => {
+            const [x, y] = P(lookAt.ax, lookAt.ay);
+            mag.style.left = x - R + "px"; mag.style.top = y - R + "px";
+            zoomed.style.left = R - 9 - (lookAt.ax - 24) * S * Z + "px";
+            zoomed.style.top = R - 9 - (lookAt.ay - 24) * S * Z + "px";
+          };
+          place();
+          const [gx, gy] = P(100, 67), [sx, sy] = P(106, 100);
+
+          // Prompt geometry: the fill point is the fifth body line, after one space.
+          const CELL = 30 * 0.6, LH = 30 * 1.75;
+          const fillX = 1110 + 5 + 38 + CELL, fillY = 250 + 5 + 60 + 34 + LH * 4.5;
+          const TRAITS = "red scarf, round glasses";
+
+          // b0: the magnifier comes down over the glasses
+          tl.fromTo(mag, { opacity: 0, scale: 1.35, rotation: -12 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.2, ease: "back.out(2)" }, K.t(0));
+          // b1: it passes down to the scarf
+          tl.fromTo(lookAt, { ax: 100, ay: 67 }, { ax: 106, ay: 100, duration: 0.22, ease: "power2.inOut", onUpdate: place }, K.t(1));
+          // b2: the first trait writes itself on the tag
+          K.type(tl, document.getElementById("s14-t1"), "red scarf,", 2, 0.2);
+          tl.to(mag, { opacity: 0, scale: 0.85, duration: 0.14, data: "follow" }, K.t(2) + 0.02);
+          // b3: the second trait
+          K.type(tl, document.getElementById("s14-t2"), "round glasses", 3, 0.22);
+          // b4: describe is stamped on: 2 cr
+          tl.fromTo("#s14-cost", { opacity: 0, scale: 1.7, rotation: -12 }, { opacity: 1, scale: 1, rotation: -4, duration: 0.16, ease: "power3.in" }, K.t(4));
+          K.sparkle(tl, scene, 930, 722, K.t(4) + 0.16, { r: 50, n: 2, seed: 14 });
+          // b5: the traits lift off the tag and slide toward the prompt
+          const slip = document.getElementById("s14-slip");
+          tl.fromTo(slip, { x: 560, y: 560, scale: 0.7, rotation: 0, opacity: 0 }, { opacity: 1, scale: 0.8, rotation: -3, duration: 0.06, ease: "back.out(3)" }, K.t(5));
+          tl.to(slip, { x: fillX - 16, y: fillY - 30, scale: 1, rotation: 0, duration: 0.19, ease: "power2.inOut", data: "follow" }, K.t(5) + 0.06);
+          // b6: they land in the prompt, highlighted
+          tl.to(slip, { opacity: 0, duration: 0.04 }, K.t(6));
+          tl.set(document.getElementById("s14-text"), { textContent: TRAITS }, K.t(6));
+          tl.fromTo("#s14-hl", { scaleX: 0, opacity: 1 }, { scaleX: 1, duration: 0.12, ease: "power2.out", data: "follow" }, K.t(6));
+          // b7: the prompt closes its quote; the highlight settles
+          tl.to("#s14-hl", { opacity: 0.4, duration: 0.2 }, K.t(7));
+          K.sparkle(tl, scene, fillX + TRAITS.length * CELL, fillY - 30, K.t(7), { r: 60, n: 3, seed: 5 });
+
+          K.focus(scene, tl, "s14", [
+            [0, gx, gy], [1, sx, sy], [2, 650, 560], [3, 720, 630], [4, 900, 730],
+            [5, 1080, 680], [6, fillX + 200, fillY], [7, fillX + 420, fillY - 20],
+          ]);
+          K.check(tl, "s14");
+          window.__timelines["s14-describe"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

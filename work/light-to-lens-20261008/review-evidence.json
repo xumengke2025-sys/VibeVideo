@@ -1,0 +1,89 @@
+{
+  "title": "从一条直线，到黑洞的亮弧",
+  "date": "2026-10-08",
+  "video": "out/from-line-to-black-hole.mp4",
+  "video_sha256": "af6a2815b9d471a8c7eb321981ed8fc091952244505d365c0a90c276793a34f0",
+  "duration": 90,
+  "frame_count": 2700,
+  "technical": {
+    "media_report": "out/final-qa/media-evidence.json",
+    "render_manifest": "out/render-manifest.json",
+    "bytes": 40331945,
+    "size": [1920, 1080],
+    "fps": 30,
+    "full_decode": "passed",
+    "browser_errors": [],
+    "resource_failures": [],
+    "audio_streams": 1,
+    "final_audio_sampled_seconds": 60,
+    "final_audio_peak_dbfs": -4.35,
+    "final_audio_rms_dbfs": -25.57,
+    "original_mix_report": "audio-evidence.json",
+    "original_mix_seconds": 90,
+    "narration_cues": 9,
+    "narration_all_fit_scene_slots": true,
+    "additional_atempo_required": false
+  },
+  "visual_review": {
+    "reviewer": "primary agent; no independent reviewer",
+    "status": "completed within the explicitly listed coverage",
+    "final_contact_sheet": "out/final-qa/contact-sheet.jpg",
+    "viewed_final_keyframes": 24,
+    "keyframe_times": [0, 6, 11.966, 12, 19, 24.966, 25, 30.2, 35.6, 39.966, 40, 46, 51.966, 54, 58, 61.966, 62, 67, 71.966, 72, 76, 80, 86, 89.966],
+    "full_resolution_final_images_viewed": ["out/final-qa/keyframe-09-39.966s.png", "out/final-qa/keyframe-11-46.000s.png"],
+    "continuous_windows": [
+      {
+        "purpose": "Arriving direction and the start of backward extension",
+        "report": "out/reverse-direction/frame-audit.json",
+        "inclusive_frame_range": [930, 983],
+        "seconds_range": [31, 32.766667],
+        "frame_count": 54,
+        "viewed_atlases": ["out/reverse-direction/atlas-000.jpg", "out/reverse-direction/atlas-001.jpg"]
+      },
+      {
+        "purpose": "Explicit transition between 2D thin-lens teaching model and 3D strong-field illustration",
+        "report": "out/model-switch/frame-audit.json",
+        "inclusive_frame_range": [1545, 1635],
+        "seconds_range": [51.5, 54.5],
+        "frame_count": 91,
+        "viewed_atlases": ["out/model-switch/atlas-000.jpg", "out/model-switch/atlas-001.jpg", "out/model-switch/atlas-002.jpg", "out/model-switch/atlas-003.jpg"]
+      },
+      {
+        "purpose": "Progressive reconstruction of the observer image and upper bright arch",
+        "report": "out/reconstruction/frame-audit.json",
+        "inclusive_frame_range": [2181, 2247],
+        "seconds_range": [72.7, 74.9],
+        "frame_count": 67,
+        "viewed_atlases": ["out/reconstruction/atlas-000.jpg", "out/reconstruction/atlas-001.jpg", "out/reconstruction/atlas-002.jpg"]
+      }
+    ],
+    "export_width_of_continuous_windows": 960,
+    "total_continuous_frames_viewed": 211,
+    "outcome": "No unresolved material visual defects were identified in this coverage.",
+    "real_time_full_playback": false,
+    "actual_listening": false,
+    "limitations": "Contact-sheet/continuous-frame review does not mean all 2700 frames were inspected at full resolution. Audio decoding and amplitude checks do not establish pronunciation, perceived music quality or subjective sound timing."
+  },
+  "development_review": {
+    "representative_contact_sheet_viewed": "out/stills/contact-sheet.jpg",
+    "representative_images": 15,
+    "corrected_full_resolution_stills_viewed": ["out/stills/38.00s.png", "out/stills/53.00s.png"],
+    "motion_study": "out/apparent-position-study.mp4",
+    "motion_study_source_seconds": [25, 40],
+    "motion_study_contact_sheet_viewed": "out/study-qa/contact-sheet.jpg",
+    "motion_study_keyframes_viewed": 12,
+    "fixed_issues": ["Apparent-position label overlapped the simplified lens-plane label; moved the lens-plane label and verified the final extracted image.", "2D/3D dissolve produced separate simultaneous silhouettes; replaced with a labeled model-switch wipe and inspected all 91 frames around the transition."],
+    "known_transient": "The model-switch wipe clips outgoing diagram labels at its moving edge for two seconds; persistent chapter/caption text stays legible. This is an editorial wipe, not a physical morph between the models."
+  },
+  "scientific_scope": {
+    "sources_and_details": "production.md",
+    "2d_deflection": "Finite-start nonrotating orbital illustration; alpha ≈ 4GM/(bc²) is a weak-field trend, not a prediction of the strong-field disk image.",
+    "2d_image_mapping": "Dimensionless point-mass thin-lens map beta = theta − theta_E² theta/|theta|²; extended source mapped point by point.",
+    "3d": "Adaptation of the previous original Schwarzschild visualization; finite integration and initial camera mapping are approximate, appearance and timing are stylized, no complete relativistic radiative transfer or Kerr spin.",
+    "authenticity": "Scientific illustration, not telescope observations. Source is original project code/text; no reference MV scene code/song or cloned human voice used.",
+    "ai_voice": "Public zh-CN-YunxiNeural synthetic voice; narration explicitly disclosed as AI-generated."
+  },
+  "source_archive": "out/from-line-to-black-hole-source.zip",
+  "inventory": "out/delivery-inventory.json",
+  "archive_scope": "Source, original audio, voice segments, captions, production/review notes, final technical reports, actually viewed final contact sheet/atlases/two full-resolution images. Final MP4, old study/stills, individual audit frames and node_modules are excluded."
+}

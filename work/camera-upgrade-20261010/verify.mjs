@@ -1,0 +1,36 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {follow3D,follow2D,blendPose} from './demo/subject-camera.mjs';
+import {PerspectiveCamera,Vector3} from 'three';
+const close=(a,b,epsilon=1e-7)=>a.forEach((x,i)=>assert.ok(Math.abs(x-b[i])<epsilon,`${x} != ${b[i]}`));
+const linear=t=>[2*t,1,3*t];
+const rig=follow3D({subject:linear,offset:[3,1,7]});
+close(rig(4).position.map((x,i)=>x-rig(1).position[i]),[6,0,9]);
+close(rig(4).target.map((x,i)=>x-rig(1).target[i]),[6,0,9]);
+const times=[0,1,.5,6,3,2,7],ordered=times.map(t=>JSON.stringify(rig(t)));
+for(const t of [...times].reverse())assert.equal(JSON.stringify(rig(t)),ordered[times.indexOf(t)]);
+const exact=follow3D({subject:linear,space:'world',offset:[0,0,5],response:0,lag:0,lead:0});
+close(exact(2).position,[4,1,11]);close(exact(2).target,[4,1,6]);
+const still=follow3D({subject:()=>[1,2,3]});assert.ok(still(0).position.every(Number.isFinite));
+const vertical=follow3D({subject:t=>[0,t,0],space:'world',offset:[2,0,5]});assert.ok(vertical(2).position.every(Number.isFinite));
+const flat=follow2D({subject:t=>[100*t,50*t],response:0,lag:0,lead:0,offset:[10,-5],zoom:2});
+assert.deepEqual(flat(2),{x:210,y:95,zoom:2});
+assert.deepEqual(blendPose(rig(0),rig(1),0),rig(0));close(blendPose(rig(0),rig(1),1).position,rig(1).position);
+assert.throws(()=>follow3D({subject:linear,response:-1}));assert.throws(()=>follow2D({subject:()=>[NaN,0]})(0));
+const subject=t=>[4*Math.sin(.48*t),1.6+.3*Math.sin(.8*t),3*t];
+const follow=follow3D({subject,range:[0,8],offset:[3.8,1.5,7.5],lead:.12});
+const camera=new PerspectiveCamera(42,9/16,.1,300),rows=[];
+let prior=null,maxStep=0;
+for(let frame=0;frame<=192;frame++){
+ const t=frame/24,p=follow(t);camera.position.fromArray(p.position);camera.lookAt(new Vector3(...p.target));camera.updateMatrixWorld(true);
+ const s=new Vector3(...subject(t)).project(camera),near=new Vector3(-4,2,12).project(camera),far=new Vector3(-12,9,50).project(camera);
+ assert.ok(Math.abs(s.x)<.85&&Math.abs(s.y)<.85&&s.z>=-1&&s.z<=1,'Subject leaves portrait frame');
+ if(prior)maxStep=Math.max(maxStep,Math.hypot(...p.position.map((x,i)=>x-prior[i])));prior=p.position;
+ rows.push({t,position:p.position,target:p.target,subjectNdc:[s.x,s.y,s.z],near:[near.x,near.y],far:[far.x,far.y]});
+}
+assert.ok(maxStep<.3,'Unexpected frame position jump');
+const start=rows[0],end=rows[120];
+const displacement=Math.hypot(...end.position.map((x,i)=>x-start.position[i]));assert.ok(displacement>12);
+const nearMotion=Math.hypot(...end.near.map((x,i)=>x-start.near[i])),farMotion=Math.hypot(...end.far.map((x,i)=>x-start.far[i]));assert.ok(Math.abs(nearMotion-farMotion)>.1,'No depth-dependent background motion');
+fs.writeFileSync(new URL('./numeric-evidence.json',import.meta.url),JSON.stringify({checks:'linear travel, repeat/rewind, exact rig, stationary/vertical, 2D, pose blend, invalid data, 193-frame turning/framing',displacement,maxStep,nearMotion,farMotion,rows},null,2));
+console.log(JSON.stringify({passed:true,frames:rows.length,displacement,maxStep,nearMotion,farMotion}));

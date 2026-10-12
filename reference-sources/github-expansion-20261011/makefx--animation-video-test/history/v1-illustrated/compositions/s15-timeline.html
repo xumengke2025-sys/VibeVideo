@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s15-root { position: absolute; inset: 0; }
+        #s15-win { left: 110px; top: 180px; width: 1700px; height: 700px; border-radius: 20px; border: 2px solid var(--k-line); background: rgba(15,15,19,.9); }
+        #s15-head { left: 28px; top: 22px; font: 500 22px/1 var(--k-mono); color: var(--k-bp-ink-2); }
+        #s15-len { right: 28px; left: auto; top: 22px; font: 500 22px/1 var(--k-mono); color: var(--k-bp-ink); }
+        #s15-sep, #s15-sep-2 { left: 0; width: 1696px; height: 2px; background: var(--k-line-dim); }
+        #s15-sep { top: 62px; } #s15-sep-2 { top: 540px; }
+        #s15-col { left: 200px; top: 64px; width: 2px; height: 476px; background: var(--k-line-dim); }
+        .s15-track { left: 22px; font: 500 22px/1 var(--k-mono); color: var(--k-bp-ink); }
+        .s15-ms { left: 132px; font: 500 16px/1 var(--k-mono); color: #8a8a86; }
+        .s15-lane { left: 202px; width: 1494px; height: 2px; background: rgba(245,245,244,.1); }
+        .s15-block { border-radius: 10px; border: 2px solid var(--k-line); background: #16161b; overflow: hidden; }
+        .s15-block-label { left: 10px; top: 6px; padding: 2px 8px; border-radius: 6px; background: rgba(8,8,10,.8); font: 500 20px/1.2 var(--k-mono); color: var(--k-bp-ink); white-space: nowrap; }
+        .s15-cap { height: 50px; padding: 0 12px; border-radius: 8px; border: 2px solid var(--k-line); background: #16161b; font: 500 20px/46px var(--k-mono); color: var(--k-bp-ink); white-space: nowrap; }
+        #s15-render { left: 500px; top: 770px; padding: 10px 22px; border-radius: 12px; border: 2px solid var(--k-accent); background: #16161b; font: 500 26px/1.2 var(--k-mono); color: var(--k-bp-ink); }
+        #s15-track-bar { left: 740px; top: 776px; width: 560px; height: 40px; border-radius: 20px; border: 2px solid var(--k-line); background: #0f0f13; overflow: hidden; }
+        #s15-fill { left: 0; top: 0; width: 100%; height: 100%; background: var(--k-accent); transform-origin: 0 50%; }
+        #s15-cutlen { left: 150px; top: 786px; font: 500 22px/1 var(--k-mono); color: var(--k-bp-ink-2); }
+        #s15-pct { left: 740px; top: 834px; font: 500 20px/1 var(--k-mono); color: var(--k-bp-ink-2); }
+        #s15-stamp { left: 1340px; top: 762px; font-size: 32px; padding: 8px 20px; }
+      </style>
+      <div id="s15-root" data-composition-id="s15-timeline" data-width="1920" data-height="1080">
+        <div id="s15-scene" class="k-scene k-bp">
+          <div id="s15-win" class="k-abs">
+            <div id="s15-head" class="k-abs">video/timeline · salt harbour cut · a browser model</div>
+            <div id="s15-len" class="k-abs">12.0 s</div>
+            <div id="s15-sep" class="k-abs"></div>
+            <div id="s15-sep-2" class="k-abs"></div>
+            <div id="s15-col" class="k-abs"></div>
+          </div>
+          <div id="s15-cutlen" class="k-abs">cut · 12.0 s · 4 tracks</div>
+          <div id="s15-render" class="k-abs">▶ render</div>
+          <div id="s15-track-bar" class="k-abs"><div id="s15-fill" class="k-abs"></div></div>
+          <div id="s15-pct" class="k-abs">in your browser · 0%</div>
+          <div id="s15-stamp" class="k-pill k-amber">free · 0 cr</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s15-scene");
+          K.chrome(scene, tl, { title: "the cut happens in your browser", chapter: "6 · cut", step: 6 });
+
+          // Lane geometry, in scene pixels: 0 s at x 330, 100 px per second, 14 s shown.
+          const X0 = 330, PX = 100, x = (s) => X0 + s * PX;
+          const LANES = { clips: [300, 130], voice: [442, 84], music: [538, 84], captions: [634, 70] };
+          const mid = (k) => LANES[k][0] + LANES[k][1] / 2;
+
+          // Ruler: a tick a second, a label every two.
+          K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } },
+            Array.from({ length: 15 }, (_, s) => `<line x1="${x(s)}" x2="${x(s)}" y1="${s % 2 ? 272 : 262}" y2="286" stroke="rgba(245,245,244,.4)" stroke-width="2"/>` +
+              (s % 2 ? "" : `<text x="${x(s) + 6}" y="262" font-family="JetBrains Mono" font-weight="500" font-size="18" fill="#8a8a86">${s}s</text>`)).join("") +
+            Array.from({ length: 56 }, (_, i) => `<line x1="${x(i / 4)}" x2="${x(i / 4)}" y1="280" y2="286" stroke="rgba(245,245,244,.2)" stroke-width="1"/>`).join("") +
+            // the playhead, parked at 0 s
+            `<path d="M${X0} 290 V704" stroke="rgba(245,245,244,.55)" stroke-width="2"/><path d="M${X0 - 8} 286 h16 l-8 10 z" fill="rgba(245,245,244,.7)"/>`);
+
+          // Track headers with mute / solo, and a faint floor under each lane.
+          Object.entries(LANES).forEach(([name, [y, h]]) => {
+            K.el(scene, "div", { class: "k-abs s15-track", style: { left: "132px", top: y + h / 2 - 11 + "px" } }).textContent = name;
+            K.el(scene, "div", { class: "k-abs s15-ms", style: { left: "256px", top: y + h / 2 - 8 + "px" } }).textContent = "M S";
+            K.el(scene, "div", { class: "k-abs s15-lane", style: { left: "312px", width: "1490px", top: y + h + 3 + "px" } });
+          });
+
+          // Clip blocks: a filmstrip inside, a label on top.
+          const art = (i) => K.harbourArt({ boat: -44 + i * 18, line: true });
+          const block = (id, s0, s1, label, frames) => {
+            const [y, h] = LANES.clips, w = (s1 - s0) * PX - 6;
+            const b = K.el(scene, "div", { id, class: "k-abs s15-block", style: { left: x(s0) + 3 + "px", top: y + "px", width: w + "px", height: h + "px" } },
+              Array.from({ length: frames }, (_, i) => `<svg data-layout-allow-overflow style="position:absolute;left:${4 + i * (w - 8) / frames}px;top:4px" width="${(w - 8) / frames - 4}" height="${h - 12}" viewBox="24 24 172 104" preserveAspectRatio="xMidYMid slice">${art(i * 1.4 + (id.endsWith("b") ? 4 : 0))}</svg>`).join("") +
+              `<div class="k-abs s15-block-label">${label}</div>`);
+            return b;
+          };
+          const clipA = block("s15-clip-a", 0, 8, "harbour flight · 8 s · 80 cr", 4);
+          const clipB = block("s15-clip-b", 8, 12, "next clip · 4 s · 40 cr", 2);
+
+          // Voice: a waveform in phrases; music: one long bed; captions: four chips.
+          const [vy, vh] = LANES.voice;
+          const voice = K.el(scene, "div", { id: "s15-voice", class: "k-abs s15-block", style: { left: x(0.5) + "px", top: vy + "px", width: 10.5 * PX + "px", height: vh + "px" } },
+            `<svg class="k-abs" width="${10.5 * PX}" height="${vh}">` + Array.from({ length: 128 }, (_, i) => {
+              const gap = (i > 36 && i < 44) || (i > 80 && i < 86) || i > 124;
+              const a = gap ? 2 : 6 + K.hash(15, i, 3) * 20;
+              return `<rect x="${6 + i * 8}" y="${vh / 2 - a}" width="4" height="${a * 2}" rx="2" fill="rgba(245,245,244,.7)"/>`;
+            }).join("") + `</svg><div class="k-abs s15-block-label">voice · narration</div>`);
+          const [my, mh] = LANES.music;
+          const music = K.el(scene, "div", { id: "s15-music", class: "k-abs s15-block", style: { left: x(0) + 3 + "px", top: my + "px", width: 12 * PX - 6 + "px", height: mh + "px" } },
+            `<svg class="k-abs" data-layout-allow-overflow width="${12 * PX - 10}" height="${mh}"><path d="M0 ${mh / 2} ` + Array.from({ length: 60 }, (_, i) => `q10 ${i % 2 ? 18 : -18} 20 0`).join(" ") + `" stroke="rgba(245,245,244,.6)" stroke-width="2.5" fill="none"/></svg><div class="k-abs s15-block-label">music · bed</div>`);
+          const [cy, ch] = LANES.captions;
+          const CAPS = [[0.5, "salt harbour"], [3.5, "low tide"], [6.5, "the boats come in"], [9.5, "and out again"]];
+          const caps = CAPS.map(([s, t]) => K.el(scene, "div", { class: "k-abs s15-cap", style: { left: x(s) + "px", top: cy + (ch - 50) / 2 + "px" } }, t));
+
+          // Annotations: still.
+          K.cross(scene, 80, 160); K.cross(scene, 1840, 160); K.cross(scene, 80, 1010); K.cross(scene, 1840, 1010);
+          K.leader(scene, x(12) + 4, 436, x(12.5), 470, "12.0 s cut");
+          K.leader(scene, 1020, 818, 1080, 960, "the finished cut becomes a card with its own recipe");
+          K.leader(scene, 610, 814, 560, 960, "video/timeline · 0 cr", { align: "end" });
+
+          const fill = document.getElementById("s15-fill"), pct = document.getElementById("s15-pct");
+          gsap.set(fill, { scaleX: 0 });
+          const flash = (el, at) => {
+            tl.fromTo(el, { borderColor: "rgba(242,193,78,1)" }, { borderColor: "rgba(245,245,244,.72)", duration: 0.4, ease: "power1.in", data: "follow" }, at);
+          };
+
+          // b0: the first clip slides in from the left and snaps at 0 s
+          tl.fromTo(clipA, { x: -260, opacity: 0 }, { x: 0, opacity: 1, duration: 0.16, ease: "power3.in" }, K.t(0));
+          tl.fromTo(clipA, { scaleX: 1 }, { scaleX: 0.97, duration: 0.05, yoyo: true, repeat: 1, transformOrigin: "0% 50%", data: "follow" }, K.t(0) + 0.16);
+          flash(clipA, K.t(0) + 0.16);
+          // b1: the next clip snaps against its end
+          tl.fromTo(clipB, { x: 220, opacity: 0 }, { x: 0, opacity: 1, duration: 0.14, ease: "power3.in" }, K.t(1));
+          tl.fromTo(clipB, { scaleX: 1 }, { scaleX: 0.95, duration: 0.05, yoyo: true, repeat: 1, transformOrigin: "0% 50%", data: "follow" }, K.t(1) + 0.14);
+          flash(clipB, K.t(1) + 0.14);
+          K.sparkle(tl, scene, x(8), LANES.clips[0] - 6, K.t(1) + 0.14, { r: 34, n: 2, seed: 15, stroke: "#08080a" });
+          // b2: voice drops into its lane
+          tl.fromTo(voice, { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.2, ease: "power2.out" }, K.t(2));
+          flash(voice, K.t(2));
+          // b3: music under it
+          tl.fromTo(music, { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.2, ease: "power2.out" }, K.t(3));
+          flash(music, K.t(3));
+          // b4: captions pop in, left to right
+          caps.forEach((c, i) => tl.fromTo(c, { opacity: 0, y: 14, scale: 0.7 }, { opacity: 1, y: 0, scale: 1, duration: 0.14, ease: "back.out(2.4)", data: i ? "follow" : undefined }, K.t(4) + i * 0.03));
+          // b5: render is pressed
+          tl.fromTo("#s15-render", { scale: 1, backgroundColor: "#16161b", color: "#f5f5f4" }, { scale: 0.92, backgroundColor: "#f2c14e", color: "#1a1300", duration: 0.06, ease: "power2.out" }, K.t(5));
+          tl.to("#s15-render", { scale: 1, duration: 0.14, ease: "back.out(3)", data: "follow" }, K.t(5) + 0.06);
+          // b6: the bar fills, in the browser
+          const prog = { p: 0 };
+          tl.fromTo(fill, { scaleX: 0 }, { scaleX: 1, duration: 0.24, ease: "power1.inOut" }, K.t(6));
+          tl.fromTo(prog, { p: 0 }, { p: 100, duration: 0.24, ease: "power1.inOut", data: "follow", onUpdate: () => (pct.textContent = `in your browser · ${Math.round(prog.p)}%`) }, K.t(6));
+          // b7: free
+          tl.fromTo("#s15-stamp", { opacity: 0, scale: 1.7, rotation: -10 }, { opacity: 1, scale: 1, rotation: -3, duration: 0.16, ease: "power3.in" }, K.t(7));
+          K.sparkle(tl, scene, 1450, 756, K.t(7) + 0.16, { r: 60, n: 3, seed: 3, stroke: "#08080a" });
+
+          K.focus(scene, tl, "s15", [
+            [0, x(7), mid("clips")], [1, x(9.5), mid("clips")], [2, x(6), mid("voice")], [3, x(5.5), mid("music")],
+            [4, x(4.5), mid("captions")], [5, 610, 792], [6, 1020, 796], [7, 1440, 792],
+          ]);
+          K.check(tl, "s15");
+          window.__timelines["s15-timeline"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "errors": [],
+  "blocked": [],
+  "requests": [
+    "http://127.0.0.1:63801/?render",
+    "http://127.0.0.1:63801/film.js",
+    "http://127.0.0.1:63801/node_modules/three/build/three.module.js",
+    "http://127.0.0.1:63801/node_modules/three/examples/jsm/postprocessing/EffectComposer.js",
+    "http://127.0.0.1:63801/node_modules/three/examples/jsm/postprocessing/RenderPass.js",
+    "http://127.0.0.1:63801/node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js",
+    "http://127.0.0.1:63801/node_modules/three/examples/jsm/postprocessing/OutputPass.js",
+    "http://127.0.0.1:63801/node_modules/three/examples/jsm/shaders/CopyShader.js",
+    "http://127.0.0.1:63801/node_modules/three/examples/jsm/postprocessing/ShaderPass.js",
+    "http://127.0.0.1:63801/node_modules/three/examples/jsm/postprocessing/MaskPass.js",
+    "http://127.0.0.1:63801/node_modules/three/build/three.core.js",
+    "http://127.0.0.1:63801/node_modules/three/examples/jsm/postprocessing/Pass.js",
+    "http://127.0.0.1:63801/node_modules/three/examples/jsm/shaders/OutputShader.js",
+    "http://127.0.0.1:63801/node_modules/three/examples/jsm/shaders/LuminosityHighPassShader.js",
+    "http://127.0.0.1:63801/assets/antarctica.jpg"
+  ],
+  "info": {
+    "duration": 15,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "cuts": [
+      2.6,
+      6.1,
+      11.2
+    ],
+    "continuousCuts": []
+  },
+  "seek": {
+    "sequence": [
+      2.25,
+      8.25,
+      11.55,
+      2.25,
+      8.25,
+      11.55
+    ],
+    "hashes": [
+      "678904d7011985595f94fa913a66a38039faae55f889d0cb55cbe53b91019b60",
+      "8f5235254bda56b6e5d2c32e7c080631ed3b1674eb3132db97ef1009d3c0c404",
+      "84bf93011dd63dbc1b4f12e8641467b1bc2519c259bdb55d6930b01507483e64",
+      "678904d7011985595f94fa913a66a38039faae55f889d0cb55cbe53b91019b60",
+      "8f5235254bda56b6e5d2c32e7c080631ed3b1674eb3132db97ef1009d3c0c404",
+      "84bf93011dd63dbc1b4f12e8641467b1bc2519c259bdb55d6930b01507483e64"
+    ],
+    "identical": true
+  },
+  "camera": null
+}

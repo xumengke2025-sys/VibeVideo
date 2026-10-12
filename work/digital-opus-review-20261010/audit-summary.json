@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-10",
+  "repository": "https://github.com/liuzhaowei1/Digital-OPUS-VIDEO-SKILL",
+  "commit": "86ab700d890b3d6ce4ec0a6c26d84ae800179a8c",
+  "scope": "读取固定源码，比较现有项目，探测两个已知 Windows Python 及项目/应用 Node 依赖，验证 FFmpeg 过滤器和浏览器 WebGL2；未运行上游完整引擎，未安装依赖、下载模型、调用付费接口或生成视频。未枚举全部磁盘或未知 WSL 环境。",
+  "conclusion": "现有制作路线基本齐备；上游独立引擎部分依赖缺失且需 Windows/竖屏适配；高级音频路线尚不齐备。优先吸收小模块和依赖声明，不建议整套替换当前技能。",
+  "runtime": {
+    "node": "24.15.0",
+    "npm": "11.12.1",
+    "git": "2.52.0.windows.1",
+    "three": "0.186.1",
+    "remotion_cli_renderer": "4.0.506",
+    "react_react_dom": "19.2.8",
+    "ws": "8.21.0",
+    "playwright_core": "1.62.1，位于 Codex 应用依赖，项目解析路径无此包；上游声明 ^1.63.0，本次 Chrome 探测可用但不等于原引擎兼容性验证",
+    "chrome": "154.0.8037.98",
+    "ffmpeg_ffprobe": "n7.1，Remotion 随包版本，可指定绝对路径，当前 PATH 无此命令",
+    "missing_engine_packages_in_checked_roots": ["opentype.js", "@types/opentype.js", "@types/three", "typescript", "vite"],
+    "fonts": "已有 PDoom 拉丁字体副本（42 TTF、8 SVG）；未找到所需 NotoSansSC/NotoSerifSC 静态字重；未配置上游 OPUS 字体目录",
+    "opus_home": "默认 C:/Users/67236/opus-video 不存在"
+  },
+  "python": {
+    "application": "3.12.14，NumPy/Pillow 实际创建数组和图像通过；分析 requirements 中包均未检测到",
+    "system": "3.12.7，NumPy/Pillow 基础检查通过，SciPy/SoundFile 实际导入通过，edge-tts 已安装",
+    "installed_but_unusable": {"torch_2.10.0": "WinError 126，shm.dll 或其依赖加载失败", "numba_0.65.1": "llvmlite.dll 或其依赖加载失败"},
+    "missing_core_audio": ["torchaudio", "demucs", "librosa", "faster-whisper", "pypinyin", "matplotlib", "pedalboard", "mido"],
+    "missing_optional": ["fonttools", "dashscope", "yt-dlp"],
+    "models": "上游默认模型目录不存在；未检测其他未知环境中的缓存。上游预计 Demucs/MMS_FA 约1.6GB，启用无台本 ASR 另需约3GB Whisper。基础代码拟音、纯合成 BGM、参考抽帧不必装全部模型。"
+  },
+  "media_constraints": {
+    "available_filters": ["loudnorm", "silencedetect", "scale", "vflip"],
+    "upstream_required_missing_filters": {"setparams": "engine/scripts/render.mjs:150", "ebur128": "analysis/synth_bgm.py:518", "silenceremove_and_areverse": "scripts/tts.py:33"},
+    "gpu": "机器有 RTX 4070 Laptop；上游 use-angle=gl 参数此次 WebGL2=false；Windows use-angle=d3d11 可用，实际 renderer 为 Intel UHD Graphics；不能声明 RTX 加速已就绪",
+    "platform": "上游主要验证 WSL2 + NVIDIA，初始化/字体/插件安装为 Bash/Linux；renderer 的 Chrome 自动发现仅查 Linux 缓存，启动 npx 也需 Windows 路径适配",
+    "aspect": "上游 renderer 输出/viewport、逻辑坐标、Remotion composition 多处硬编码1920x1080；本项目必须保持1080x1920，移植需重排场景而非仅改输出尺寸",
+    "services": "当前进程未设置 OPENAI_API_KEY、OPUS_IMAGE_KEY_FILE、DASHSCOPE_API_KEY；这仅表明原脚本未配置，不代表应用生图工具不可用。现有 edge-tts 旁白路线可继续使用。",
+    "instruments": "未在项目和常见 VST3/OPUS 目录发现 Surge XT/SoundFont；fluidsynth 不在 PATH。原脚本插件路径按 Linux 布局写，Windows 需另适配。"
+  },
+  "recommended_adoption": [
+    {
+      "priority": 1,
+      "feature": "按台词和声音配置生成旁白缓存键",
+      "local": "work/entropy-20261009/make_narration.py:29 按序号文件存在和大小复用，未校验内容；修改文字可能复用旧音频",
+      "upstream": "scripts/tts.py；docs/AUDIO.md:20",
+      "proposal": "沿用 edge-tts，缓存键覆盖文本/音色/语速/引擎；保存实测时长与内容指纹，改一句只重新生成该句，无需换到 DashScope"
+    },
+    {
+      "priority": 2,
+      "feature": "每镜头列出依赖与可执行验证",
+      "local": "director-design.md 已有资产/风险字段，但未统一把具体工具、版本和已实际运行状态列为逐镜头清单",
+      "upstream": "SKILL.md:85；docs/CRAFT.md:17",
+      "proposal": "为 existing/needs-install/unavailable 加 sourcePath/version/smokeCheck/verified 字段，区分包已安装和实际可用"
+    },
+    {
+      "priority": 3,
+      "feature": "音乐节拍与画面事件双时钟及分层配乐",
+      "local": "event-timeline.md 与 style-studio 已有统一事件、拟音和字幕；未形成歌曲分轨/逐词对齐/可替换真实乐器管线",
+      "upstream": "analysis/synth_bgm.py、sfx.py、analyze_audio.py、align_lyrics.py；docs/AUDIO.md:43",
+      "proposal": "先给现有事件表增加可选 beat/bpm、动机和音层；机械接触仍按秒。分轨/强制对齐/真实乐器按题材分期补齐，不把完整 ML 依赖作为普通视频前提"
+    },
+    {
+      "priority": 4,
+      "feature": "按画面变化抽参考关键帧及规范化分析",
+      "local": "已有513条图库、源码卡和参考研究，但具体研究产物散落 work",
+      "upstream": "scripts/ref_frames.py:45；docs/REFERENCE.md",
+      "proposal": "吸收感知哈希/DCT筛选与风格分析字段，加入现有来源索引；必须保留长段补查和连续运动观察，关键帧不能代表全片动态"
+    },
+    {
+      "priority": 5,
+      "feature": "字体轮廓和自适应时间采样",
+      "local": "已有 PDoom 原源码研究与固定 sub 采样，不代表已具备整合后的中文字形粒子/自适应收敛模块",
+      "upstream": "engine/src/engine/type.ts；engine/src/engine/engine.ts:217",
+      "proposal": "仅为文字形变/快速运动/细线闪烁等具体场景迁移；自适应采样仅对可随机寻址场景使用，并设性能预算"
+    }
+  ],
+  "already_covered": ["从观众理解设计主动作与镜头", "主时钟与共用事件表", "视觉母题和对象连续性", "风格/材质/摄影参考", "固定版本源码归因", "渲染、寻址和观察证据分开记录"],
+  "do_not_inherit": ["16:9默认画幅", "方案拍板前禁止写代码等反复审批", "生成视频后先由Agent自评再展示", "固定-14LUFS或固定60fps作为全题材规则", "WSL GPU参数、Linux路径和安装命令", "上游交付后删除草稿的自动清理习惯"],
+  "evidence_files": ["python-app.json", "python-system.json", "gpu.json", "ffmpeg-filters.txt"]
+}

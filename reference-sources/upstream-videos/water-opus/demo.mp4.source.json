@@ -1,0 +1,30 @@
+{
+  "id": "water-opus/demo",
+  "packageId": "water-opus",
+  "styleId": "demo",
+  "title": "网格浅水模拟组件 / demo",
+  "filename": "demo.mp4",
+  "url": "https://raw.githubusercontent.com/AiondaDotCom/ai-sim-benchmark/680f87e6d54984199525dd12005bd95711bb47bb/runs/claude-code-opus-5-5/docs/demo.mp4",
+  "repository": "https://github.com/AiondaDotCom/ai-sim-benchmark",
+  "commit": "680f87e6d54984199525dd12005bd95711bb47bb",
+  "sourcePath": "runs/claude-code-opus-5-5/docs/demo.mp4",
+  "expectedBytes": 4875135,
+  "gitBlobSha1": "2d796c02625203305573ec324eec2c3b47d403b8",
+  "entry": "D:/Codex/skills/vibe-video/assets/code-studies/water-opus/runs/claude-code-opus-5-5/src/sim/water.ts",
+  "representation": "author-published-video",
+  "note": "作者仓库发布版本，保持下载文件原样",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/water-opus/demo.mp4",
+  "status": "downloaded",
+  "bytes": 4875135,
+  "sha256": "e096c7bb42f87dbb5941668d2127d01d1096937a5e30d9753aa2b07dabf4612f",
+  "verifiedGitBlob": "2d796c02625203305573ec324eec2c3b47d403b8",
+  "metadata": {
+    "duration": 22.466667,
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "codec": "h264",
+    "audio": false
+  },
+  "downloadedAt": "2026-10-10T02:59:44.281Z"
+}

@@ -1,0 +1,116 @@
+{
+  "delivery_mode": "user_feedback",
+  "film": {
+    "title": "你的包裹，正在找路",
+    "topic": "环形交叉带分拣机",
+    "style": "2.5D 等距"
+  },
+  "video": {
+    "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\parcel-sorter-20261011\\out\\final-v1\\video.mp4",
+    "sha256": "3778ebbff300d4c964adb0f3a11835ebee6d62520ba208402cda70215016239f",
+    "sha256_matches_render_evidence": true
+  },
+  "specs": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 660,
+    "duration_seconds": 22,
+    "video_codec": "h264",
+    "pix_fmt": "yuvj420p",
+    "audio_codec": "aac",
+    "audio_sample_rate": 48000,
+    "audio_channels": 2,
+    "bytes": 12928806
+  },
+  "engineering_checks": {
+    "full_decode": {
+      "result": "pass",
+      "method": "ffmpeg -c:v rawvideo -c:a pcm_s16le -f null -",
+      "errors": []
+    },
+    "native_buffer_size": {
+      "result": "pass",
+      "buffers": {
+        "scene": [
+          1080,
+          1920
+        ],
+        "overlay": [
+          1080,
+          1920
+        ],
+        "output": [
+          1080,
+          1920
+        ]
+      }
+    },
+    "reverse_seek_identical": {
+      "result": "pass",
+      "evidence": "out/stills-v4/checks.json"
+    },
+    "page_runtime_errors": {
+      "result": "pass",
+      "errors": []
+    },
+    "source_hash_guard": {
+      "result": "pass",
+      "signature": "dba31629e979aa3acda602be92dee496556484904efc404b146ccfc3a5f3beba"
+    }
+  },
+  "audio_measurement": {
+    "normalized_lufs": -14.05,
+    "true_peak_dbtp": -2.34,
+    "measured_by": "ffmpeg loudnorm single-pass",
+    "listened": "no"
+  },
+  "visual_review": {
+    "setting_frame_iterations": 4,
+    "stills_actually_viewed": [
+      "out/stills-v1 (19)",
+      "out/stills-v2 (19)",
+      "out/stills-v3 (19)",
+      "out/stills-v4 (19)"
+    ],
+    "final_video_frames_extracted": 13,
+    "final_video_frames_actually_viewed": [
+      "t11.4",
+      "t12.4",
+      "t13.8",
+      "t14.0",
+      "t14.2",
+      "t14.4",
+      "t20 (via stills)"
+    ],
+    "realtime_playback_viewed": false,
+    "note": "静态帧覆盖不能证明节奏与运动观感通过"
+  },
+  "not_verified": [
+    "正常速度连续播放观感",
+    "节奏与转场观感",
+    "音画同步的听感确认",
+    "全帧覆盖（mode ① 不要求）"
+  ],
+  "self_flagged_concerns": [
+    "扫码门深色门架在 t≈7 中景偏重",
+    "3.2-4.3s 推近机位移动较快",
+    "全貌镜头 15 个格口标签偏密",
+    "上线点带面肋条偏移量归零可能有微小跳变"
+  ],
+  "reused_infrastructure": {
+    "from": "work/wastewater-isometric-20261011",
+    "files": [
+      "render.mjs 结构",
+      "server.mjs",
+      "vendor/three.module.js (THREE r169, MIT)"
+    ],
+    "new_in_this_film": [
+      "js/timeline.js",
+      "js/main.js",
+      "audio.mjs",
+      "index.html"
+    ]
+  },
+  "output": "incomplete_visual_verification"
+}

@@ -1,0 +1,40 @@
+{
+  "original": true,
+  "description": "原创合成机械底噪、滚轮脉冲、交叉带电机与摩擦、抛出与落槽撞击；无旁白、无外部素材",
+  "clip_seconds": 22,
+  "events": [
+    {
+      "t": 1.3,
+      "type": "load"
+    },
+    {
+      "t": 5.3,
+      "type": "scan"
+    },
+    {
+      "t": 11.3,
+      "type": "belt"
+    },
+    {
+      "t": 14.21,
+      "type": "throw"
+    },
+    {
+      "t": 14.47,
+      "type": "chute"
+    },
+    {
+      "t": 20,
+      "type": "settle"
+    }
+  ],
+  "hero": {
+    "belt": [
+      11.3,
+      13.82
+    ],
+    "leave": 14.21,
+    "land": 14.47
+  },
+  "rawPeak": 0.4544897675514221
+}

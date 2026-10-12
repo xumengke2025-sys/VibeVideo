@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s01-root { position: absolute; inset: 0; }
+        #s01-term { left: 110px; top: 230px; width: 900px; height: 560px; }
+        #s01-head { position: absolute; left: 28px; top: 24px; display: flex; gap: 10px; align-items: center; }
+        #s01-head i { width: 13px; height: 13px; border-radius: 50%; background: var(--k-ink-4); display: block; }
+        #s01-head span { margin-left: 14px; }
+        #s01-body { position: absolute; left: 40px; top: 96px; right: 40px; font: 500 32px/1.75 var(--k-mono); color: var(--k-ink-2); }
+        #s01-line { position: relative; display: inline-block; white-space: pre; color: var(--k-ink); }
+        #s01-hl { left: -10px; top: 4px; right: -10px; bottom: 4px; background: var(--k-accent-tint); border-radius: 8px; transform-origin: 0 50%; box-shadow: inset 0 0 0 1.5px var(--k-accent-soft); }
+        #s01-caret { display: inline-block; width: 18px; height: 38px; background: var(--k-ink); vertical-align: -7px; margin-left: 2px; }
+        #s01-foot { position: absolute; left: 40px; bottom: 34px; font: 500 22px/1.2 var(--k-mono); color: var(--k-ink-3); }
+        #s01-foot b { color: var(--k-ok); font-weight: 500; }
+        #s01-call { font-size: 22px; }
+      </style>
+      <div id="s01-root" data-composition-id="s01-ask" data-width="1920" data-height="1080">
+        <div id="s01-scene" class="k-scene">
+          <div id="s01-term" class="k-panel">
+            <div id="s01-head"><i></i><i></i><i></i><span class="k-micro">agent · ~/launch</span></div>
+            <div id="s01-body">
+              <div>$ claude</div>
+              <div>&gt; <span id="s01-line"><span id="s01-hl" class="k-abs"></span><span id="s01-text" style="position:relative"></span></span><span id="s01-caret"></span></div>
+            </div>
+            <div id="s01-foot"><b>●</b> makefx connected · mcp</div>
+          </div>
+          <div id="s01-call" class="k-pill k-amber">create_asset · video/h3-max</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s01-scene");
+          K.chrome(scene, tl, { title: "Ask your agent", step: 1 });
+
+          // The space already holds the still the flight will start from.
+          K.card(scene, { id: "s01-still", left: 1380, top: 230, scale: 1.3, art: K.harbourArt({ boat: -20 }), name: "quay at low tide", cr: "3 cr" });
+          const edge = K.edge(scene, "M1536 462 C 1536 500, 1490 505, 1490 538", { alpha: 0.35 });
+          const S = 2.0, CL = 1250, CT = 540;
+          const card = K.card(scene, { id: "s01-card", left: CL, top: CT, scale: S, name: "harbour flight", cr: "80 cr", state: "wait" });
+          const cx = card.k.cx, cy = card.k.mediaCy;
+          K.leader(scene, 1516, 500, 1600, 500, "start_frame");
+
+          const PROMPT = "make a camera flight over the harbour";
+          const CELL = 32 * 0.6, lineX = 110 + 40 + 2 * CELL, lineY = 230 + 96 + 32 * 1.75 * 1.5;
+          const endX = lineX + PROMPT.length * CELL;
+
+          // b0: the agent's terminal arrives with the cut
+          K.pop(tl, "#s01-term", 0);
+          // b1–b3: the prompt types itself; the caret is the focus
+          K.type(tl, document.getElementById("s01-text"), PROMPT, 1, 0.7);
+          // b4: enter; the line lights
+          tl.fromTo("#s01-hl", { scaleX: 0, opacity: 0 }, { scaleX: 1, opacity: 1, duration: 0.16, ease: K.ease }, K.t(4));
+          tl.to("#s01-caret", { opacity: 0, duration: 0.05, data: "follow" }, K.t(4));
+          // b5: the prompt leaves as a tool call, toward the canvas
+          const call = document.getElementById("s01-call");
+          scene.appendChild(call); // travels above the cards
+          const path = K.el(K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } }), "path",
+            { d: `M${endX - 60} ${lineY + 70} C ${endX + 200} ${lineY + 70}, ${cx - 120} ${cy - 40}, ${cx} ${cy}`, fill: "none", stroke: "none" });
+          tl.fromTo(call, { opacity: 0 }, { opacity: 1, duration: 0.06 }, K.t(5));
+          K.travel(tl, call, path, 5, 0.24, K.easeMove, 330, 44);
+          tl.to(call, { opacity: 0, scale: 0.8, duration: 0.08, data: "follow" }, K.t(6));
+          // b6: the card appears where it landed: queued, its ring the waiting ink
+          K.pop(tl, card, 6);
+          // b7: it starts from the still (start_frame) and begins generating
+          K.draw(tl, edge, 7, 0.2);
+          K.ring(tl, card, "generating", K.t(7) + 0.08, { follow: true });
+          K.progress(tl, card, 0, 0.08, K.t(7) + 0.1, 0.15, { follow: true });
+
+          K.focus(scene, tl, "s01", [
+            [0, 560, 510], [1, lineX + 150, lineY], [2, lineX + 380, lineY], [3, lineX + 620, lineY],
+            [4, endX - 40, lineY], [5, (endX + cx) / 2, (lineY + cy) / 2], [6, cx, cy], [7, 1515, 500],
+          ]);
+          K.check(tl, "s01");
+          window.__timelines["s01-ask"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

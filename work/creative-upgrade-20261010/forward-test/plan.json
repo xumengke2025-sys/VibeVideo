@@ -1,0 +1,32 @@
+{
+  "duration": 2,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "shots": [
+    {
+      "id": "threshold",
+      "start": 0,
+      "end": 2,
+      "intent": "Read pressure crossing preload, constrained travel, and reseating",
+      "action": "Increase pressure past preload, reach stop, decrease through contact",
+      "camera": "Fixed close schematic: hold contact readable; data shares same state",
+      "states": {
+        "establish": 0.2,
+        "action": 0.85,
+        "result": 1.85
+      },
+      "risks": [
+        [
+          0.4,
+          1.2
+        ],
+        [
+          1.5,
+          1.9
+        ]
+      ]
+    }
+  ],
+  "connections": []
+}

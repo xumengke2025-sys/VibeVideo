@@ -1,0 +1,121 @@
+{
+  "scope": "Isolated textual fixtures only; no real media generated, decoded, viewed, or heard.",
+  "results": [
+    {
+      "case": "export_is_pending",
+      "actual": [
+        [
+          0,
+          5
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          5
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "case": "partial_visual_gaps",
+      "actual": [
+        [
+          3,
+          5
+        ]
+      ],
+      "expected": [
+        [
+          3,
+          5
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "case": "full_visual_audio_pending",
+      "actual": [
+        [],
+        [
+          [
+            0,
+            6
+          ]
+        ],
+        "incomplete"
+      ],
+      "expected": [
+        [],
+        [
+          [
+            0,
+            6
+          ]
+        ],
+        "incomplete"
+      ],
+      "pass": true
+    },
+    {
+      "case": "wrong_hash_rejected",
+      "actual": "rejected",
+      "expected": "rejected",
+      "pass": true
+    },
+    {
+      "case": "paused_no_delivery",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "case": "resume_starts_fresh_wait",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "case": "resume_elapsed_minutes",
+      "actual": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "case": "poll_no_reset",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "case": "reorder_no_reset",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "case": "duplicate_report_no_reset",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "case": "waveform_not_hearing",
+      "actual": "rejected",
+      "expected": "rejected",
+      "pass": true
+    },
+    {
+      "case": "missing_audio_tool_keeps_pending",
+      "actual": "complete",
+      "expected": "pending",
+      "pass": false
+    },
+    {
+      "case": "repair_round_preserved",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<!doctype html><html><body><script type="module">
+import {color} from './palette.mjs';
+const c=document.createElement('canvas');c.width=64;c.height=96;document.body.append(c);
+window.__film={duration:.25,fps:24,width:64,height:96,cuts:[]};
+window.renderAt=(t,type='image/png',q=.96)=>{const g=c.getContext('2d');g.fillStyle=color;g.fillRect(0,0,64,96);g.fillStyle='#fff';g.fillRect(5+80*t,40,10,10);return c.toDataURL(type,q);};window.ready=true;
+</script></body></html>

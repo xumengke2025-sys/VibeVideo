@@ -1,0 +1,29 @@
+{
+  "id": "dataviz-variant",
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "frames": 240,
+  "source": [
+    {
+      "path": "index.html",
+      "sha256": "35be1d9e69bc3657f83fc1f6d124655d903eeee4f13d58ccdaf2b2504d063438"
+    },
+    {
+      "path": "film.mjs",
+      "sha256": "d152d98e4889733507167162e58b81aeff0d61d448099d7eea103da21d472189"
+    },
+    {
+      "path": "timeline.mjs",
+      "sha256": "3347d9c35c57c301769080d913e4c2e8f1ca46b6dd410f6d8e52c5de8c29cc6e"
+    },
+    {
+      "path": "render.mjs",
+      "sha256": "f2cb8aee318e711f0318a91878ca77291917537e37b7664245169b9a4c8c494b"
+    },
+    {
+      "path": "clips/dataviz-variant.json",
+      "sha256": "56f8b50ceff0a441fceace4f8683cf9516e7880e4532e6a46b2452e00a898128"
+    }
+  ]
+}

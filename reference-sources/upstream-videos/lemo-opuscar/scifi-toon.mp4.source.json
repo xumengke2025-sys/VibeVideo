@@ -1,0 +1,33 @@
+{
+  "id": "lemo-opuscar/scifi-toon",
+  "packageId": "lemo-opuscar",
+  "styleId": "scifi-toon",
+  "title": "Lemo / 科幻情景喜剧卡通",
+  "filename": "scifi-toon.mp4",
+  "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/scifi-toon.mp4",
+  "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+  "releaseTag": "films",
+  "releaseId": 397205472,
+  "assetId": 590522028,
+  "assetUpdated": "2026-09-26T11:19:11Z",
+  "expectedBytes": 29542911,
+  "expectedSha256": "3f0b1e2cb6cdd4f96f1094a8051e715a81b9513b3bbf4180b998f2e4956377a6",
+  "entry": null,
+  "remoteCode": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/scifi-toon/STYLE.md",
+  "representation": "author-master",
+  "note": "作者films发布的原始高码率版本；发布附件与本地固定源码的逐像素一致性未确认",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/scifi-toon.mp4",
+  "status": "downloaded",
+  "bytes": 29542911,
+  "sha256": "3f0b1e2cb6cdd4f96f1094a8051e715a81b9513b3bbf4180b998f2e4956377a6",
+  "verifiedGitBlob": null,
+  "metadata": {
+    "duration": 57.5,
+    "width": 1920,
+    "height": 1080,
+    "fps": "24/1",
+    "codec": "h264",
+    "audio": true
+  },
+  "downloadedAt": "2026-10-10T03:07:24.047Z"
+}

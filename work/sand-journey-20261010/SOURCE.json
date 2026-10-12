@@ -1,0 +1,112 @@
+{
+  "title": "一粒沙，看见整片海",
+  "upstream": {
+    "repo": "https://github.com/ishuagrawal/particle-beach",
+    "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+    "author": "Ishu Agrawal",
+    "license": "MIT",
+    "licenseFiles": [
+      "LICENSE",
+      "upstream/LICENSE"
+    ],
+    "originalManifest": "upstream/SOURCE.json",
+    "scope": "complete cinematic runtime (not unrelated site/build/docs)"
+  },
+  "reference": {
+    "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/particle-beach/trailer-1.mp4",
+    "viewedExtractedFrameSeconds": [
+      2,
+      7,
+      12,
+      17,
+      22,
+      27,
+      32,
+      37,
+      42,
+      47,
+      52,
+      57
+    ],
+    "realTimeWatchClaimed": false,
+    "referenceFootageUsedInOutput": false
+  },
+  "retainedRuntime": [
+    "core matter/solid/depth/RNG/uniforms",
+    "Field world anchored LOD",
+    "sea ocean/whitewater/swash/sand",
+    "surf CPU and GLSL",
+    "breakers",
+    "sky",
+    "astro",
+    "palette",
+    "distance",
+    "shore"
+  ],
+  "modifiedUpstream": [
+    "js/core.js: project quality override",
+    "js/site.js: matching JS/GLSL local sand ridge and ripples"
+  ],
+  "newProductionFiles": [
+    "index.html",
+    "js/journey.js",
+    "js/timeline.js",
+    "js/journey-world.js",
+    "js/post.js",
+    "audio.mjs",
+    "render.mjs",
+    "server.mjs"
+  ],
+  "audio": {
+    "ownership": "original deterministic synthesized stereo",
+    "path": "audio/sand-journey.wav",
+    "events": "audio/sound-events.json",
+    "originalSongUsed": false
+  },
+  "dependencies": {
+    "three": "0.169.0",
+    "playwright-core": "1.62.1"
+  },
+  "tools": {
+    "node": "v24.15.0",
+    "chrome": "154.0.8037.98"
+  },
+  "toolPaths": {
+    "CHROME": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "FFMPEG": "D:/ai项目/ai动画/node_modules/@remotion/compositor-win32-x64-msvc/ffmpeg.exe",
+    "PROBE": "D:/ai项目/ai动画/node_modules/@remotion/compositor-win32-x64-msvc/ffprobe.exe"
+  },
+  "render": {
+    "sampling": {
+      "sub": 2,
+      "shutterFraction": 0.5,
+      "method": "two distinct temporal samples with Halton projection jitter, FXAA and HDR accumulation"
+    },
+    "sourceInputs": "out-final/source-inputs.json",
+    "output": {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\sand-journey-20261010\\out-final\\sand-journey.mp4",
+      "bytes": 87991290,
+      "sha256": "fee82cbb8d6d9ae5a0af48f2bcca8f7f93da4dc5ee63e849af3d67f16f4815b9",
+      "width": 1080,
+      "height": 1920,
+      "duration": 20,
+      "frames": 600,
+      "fps": "30/1",
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true
+    }
+  },
+  "checks": {
+    "addressing": "technical/prepare-evidence.json",
+    "final": "technical/render-evidence.json",
+    "fullDecodeExitCode": 0,
+    "visualReview": "not performed; user receives video first",
+    "listeningReview": "not performed"
+  },
+  "limitations": [
+    "Art-directed wind/sand journey, not scientific fluid simulation",
+    "Preview uses one sample at audio-clock time; final uses two time samples",
+    "Copied upstream runtime includes unused urban/stateful scene modules"
+  ]
+}

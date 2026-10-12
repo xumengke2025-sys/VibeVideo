@@ -1,0 +1,1592 @@
+{
+  "schema_version": "1",
+  "checked": "2026-10-09",
+  "reading_scope": {
+    "catalogue_rows": 513,
+    "unique_prompts": 459,
+    "short_prompts_read_in_full": 420,
+    "long_prompts_read_as_excerpts": 39,
+    "all_original_videos_watched": false
+  },
+  "sources": {
+    "beach": {
+      "id": "beach",
+      "repository": "https://github.com/ishuagrawal/particle-beach",
+      "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+      "local_root": "assets/code-studies/particle-beach",
+      "relation": "gallery_original_link",
+      "runtime": "representative_frames_and_continuous_window",
+      "scope": "完整绘制运行源码已保存；回放有少量重复像素差和局部近黑帧，不作为全片质量保证。",
+      "commit_date": "2026-09-24T00:22:09Z",
+      "reference_role": "film",
+      "quality_evidence": "representative_frames_and_windows_only"
+    },
+    "reel": {
+      "id": "reel",
+      "repository": "https://github.com/tuzhechen2005/opus-video-skills",
+      "commit": "59744a69c7b916cfbe4c4ec84006b0c2f5e2fde1",
+      "local_root": "assets/code-studies/work-reel-26",
+      "relation": "supplementary_film",
+      "runtime": "representative_frames_and_continuous_window",
+      "scope": "work-reel-26完整绘制运行部分；补充作品，不是图库513原作的同一工程。",
+      "commit_date": "2026-09-27T01:17:14Z",
+      "reference_role": "film",
+      "quality_evidence": "representative_frames_and_windows_only"
+    },
+    "mg": {
+      "id": "mg",
+      "repository": "https://github.com/Vincentwei1021/mg-styles-15",
+      "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+      "local_root": "assets/code-studies/mg-styles-15",
+      "relation": "supplementary_films",
+      "runtime": "source_read_only",
+      "scope": "保存15种风格工程的文本源码；本轮精读形变/液体/手绘/像素/等距采样的选定实现。媒体、字体及部分素材不在包中，没有逐片回放。",
+      "commit_date": "2026-10-05T11:23:16Z",
+      "reference_role": "film",
+      "quality_evidence": "source_inspected_video_unreviewed",
+      "license_note": "代码MIT；字体和glyphs等衍生轮廓保留OFL等原许可，见上游README及assets/fonts/README.md。不能把全包统一视为MIT。"
+    },
+    "paper": {
+      "id": "paper",
+      "repository": "https://github.com/francozanardi/papermotion",
+      "commit": "aafddbe2dbc2b594bcd57c19c4a5a75c5c271be8",
+      "local_root": "assets/code-studies/papermotion",
+      "relation": "supplementary_engine_and_films",
+      "runtime": "source_read_only",
+      "scope": "纸片引擎与影片文本源码；light由作者标为GPT 6 Astra，其他示例模型归属各异，不统一标为Opus。Stage仅递增帧。",
+      "commit_date": "2026-09-26T07:17:57Z",
+      "reference_role": "film_engine",
+      "quality_evidence": "source_inspected_video_unreviewed"
+    },
+    "water": {
+      "id": "water",
+      "repository": "https://github.com/AiondaDotCom/ai-sim-benchmark",
+      "commit": "680f87e6d54984199525dd12005bd95711bb47bb",
+      "local_root": "assets/code-studies/water-opus",
+      "relation": "gallery_source_link",
+      "runtime": "source_read_only",
+      "scope": "只采用claude-code-opus-5-5分支。源码证明网格浅水与着色；原帖与具体录屏像素一致性未验证，实时循环会丢积压步。",
+      "commit_date": "2026-09-24T07:04:05Z",
+      "reference_role": "component",
+      "quality_evidence": "source_inspected_video_unreviewed"
+    },
+    "rigid": {
+      "id": "rigid",
+      "repository": "https://github.com/sbobyn/three-avbd",
+      "commit": "9b9c27b6b65a1212896e4d90e7e3d154c06e428a",
+      "local_root": "assets/code-studies/three-avbd",
+      "relation": "gallery_source_link",
+      "runtime": "source_read_only",
+      "scope": "WebGPU刚体/关节/GPU绘制代码；basic随机数与Clock不是可乱序电影时间轴。没有运行或确认发布录屏与此commit一致。",
+      "commit_date": "2026-10-06T18:28:01Z",
+      "reference_role": "component",
+      "quality_evidence": "source_inspected_video_unreviewed"
+    },
+    "glass": {
+      "id": "glass",
+      "repository": "https://github.com/Faraz-Portfolio/demo-2025-raymarched-liquid-glass",
+      "commit": "a1a3b134ef82e7ace42273b40d8c20616aefe4b0",
+      "local_root": null,
+      "relation": "supplementary_implementation",
+      "runtime": "source_read_only",
+      "scope": "未找到明确LICENSE，不在本地skill分发原代码；只研究公共SDF与光线步进原理。",
+      "reference_role": "component",
+      "quality_evidence": "remote_source_only_no_local_archive"
+    },
+    "codex-tools": {
+      "id": "codex-tools",
+      "repository": null,
+      "commit": null,
+      "local_root": "assets",
+      "relation": "independent_implementation",
+      "runtime": "tested_in_previous_study",
+      "scope": "原创绝对时间弹簧/缩放/轮廓、主体相机、轨迹与准静态机械约束。每个实现的成片/运行证据分开，非原作复现证明。",
+      "reference_role": "independent_tool",
+      "quality_evidence": "mechanism_test_only_not_film_benchmark"
+    },
+    "songbie": {
+      "id": "songbie",
+      "repository": "https://github.com/JohnnyWang8802/songbie",
+      "commit": "97225eb54a351c9938ad896e04bef7a7020393fb",
+      "local_root": "assets/code-studies/songbie",
+      "relation": "supplementary_opus_film",
+      "runtime": "source_read_only",
+      "scope": "保存8个文本文件；旋律/绘制源码已读，未观看或运行成片；Logic Pro钢琴样本、歌曲音轨与成片不在包中。",
+      "engine": "Node Canvas解析三维坐标投影、逐帧图像与FFmpeg输出；不是三维物理解算器。",
+      "commit_date": "2026-10-01T15:27:53Z",
+      "repository_created": "2026-10-01T15:27:54Z",
+      "reference_role": "film",
+      "quality_evidence": "source_inspected_video_unreviewed",
+      "model_attribution": "作者README声明Claude Opus 5.5制作代码；所读视觉路径为Canvas，不调用生成视频服务。",
+      "license_note": "代码MIT；钢琴样本不随包，曲谱旋律公共领域的说明来自作者。",
+      "inspected": [
+        "README.md:1-63",
+        "score.js:1-96",
+        "render.js:1-74,147-206,278-323,592-657,934-1011"
+      ]
+    },
+    "lemo": {
+      "id": "lemo",
+      "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+      "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+      "local_root": "assets/code-studies/lemo-opuscar",
+      "relation": "supplementary_opus_films_selected_styles",
+      "runtime": "source_read_only",
+      "scope": "作者称43种风格；只归档4种选定风格及共享代码共147文件，未逐风格运行/审片。字体、音频、图片、模型与依赖不完整。",
+      "engine": "Canvas/解析投影/自定义着色器，采用art-deco、blueprint、ink-wash、hologram-hud及core文本。",
+      "commit_date": "2026-10-08T14:00:14Z",
+      "repository_created": "2026-09-26T10:10:41Z",
+      "reference_role": "film",
+      "quality_evidence": "source_inspected_video_unreviewed",
+      "model_attribution": "作者README声明Opus 5.5代码影片；已读选定绘制路径。43种风格及98长片没有全面审查。",
+      "license_note": "根LICENSE为MIT，第三方字体/音乐/声音/样本等独立许可；GitHub API的NOASSERTION不代表没有LICENSE。",
+      "inspected": [
+        "LICENSE:1-26",
+        "styles/art-deco/demo/engine/cam.js:1-28",
+        "styles/art-deco/demo/timeline.js:1-55",
+        "styles/art-deco/demo/film.js:1-70",
+        "styles/blueprint/demo/machine.js:1-135",
+        "styles/blueprint/demo/film.js:1-234",
+        "styles/ink-wash/demo/ink.js:1-165",
+        "styles/ink-wash/demo/story.js:1-32",
+        "styles/hologram-hud/demo/engine/holo.js:1-115,195-259",
+        "styles/hologram-hud/demo/film.js:1-259"
+      ]
+    },
+    "lyric": {
+      "id": "lyric",
+      "repository": "https://github.com/20q2/i-like-ur-look-lyric-video",
+      "commit": "573a5c7ff19a4ac46fec145a060368e381d9ba50",
+      "local_root": "assets/code-studies/i-like-ur-look-lyric-video",
+      "relation": "recent_code_film_candidate",
+      "runtime": "source_read_only",
+      "scope": "保存72个选定文本文件；歌曲、歌词/节拍数据、字体和依赖未随包。README成片链接coming soon；未运行或审片。",
+      "engine": "TypeScript/Three.js、Canvas页面纹理、曲面纸页与自定义景深；继承mexicat/pdoom-video引擎。",
+      "commit_date": "2026-10-08T20:04:35Z",
+      "repository_created": "2026-10-08T20:02:57Z",
+      "reference_role": "film",
+      "quality_evidence": "source_inspected_video_unreviewed",
+      "model_attribution": "README声明逐帧代码绘制；未独立确认作者采用的编码模型，不能统一归因Opus。音频分析模型不是视觉生成。",
+      "license_note": "代码MIT，保留app/LICENSE的引擎来源署名；版权歌曲不随库。",
+      "inspected": [
+        "README.md:1-70",
+        "app/LICENSE:1-24",
+        "app/src/engine/curl.ts:1-57",
+        "app/src/engine/page.ts:1-115",
+        "app/src/engine/scene.ts:1-83",
+        "app/src/scenes/magazine/focus.ts:1-107",
+        "app/src/scenes/magazine/view.ts:1-30",
+        "app/src/scenes/magazine/handheld.ts:1-32",
+        "app/src/scenes/magazine/schedule.ts:1-105"
+      ]
+    },
+    "clearwater": {
+      "id": "clearwater",
+      "repository": "https://github.com/Aureliengmz/clearwater",
+      "commit": "4bc826134321043a25df3c2b6fed16fb7b9241e8",
+      "local_root": "assets/code-studies/clearwater",
+      "relation": "contemporary_optics_reference_not_original_proven",
+      "runtime": "source_read_only",
+      "scope": "保存4文件；光学/循环关键源码已读，未运行。不是完整导演影片；没有核实对应图库原帖或编码模型。固定t不会重建涟漪历史。",
+      "engine": "WebGL2 FFT水面、折射网格焦散、Fresnel/吸收、实时互动涟漪。",
+      "commit_date": "2026-09-23T13:20:07Z",
+      "repository_created": "2026-09-23T13:20:08Z",
+      "reference_role": "component",
+      "quality_evidence": "source_inspected_video_unreviewed",
+      "model_attribution": "视觉核心为WebGL2着色器；不把代码路径推导为Opus作者归属。",
+      "license_note": "MIT，原LICENSE及程序化鹅卵石生成脚本保留。",
+      "inspected": [
+        "README.md:1-52",
+        "index.html:1-45,49-100,277-321,490-529,865-919"
+      ]
+    }
+  },
+  "cards": [
+    {
+      "id": "ui-identity",
+      "title": "单对象贯穿多种UI",
+      "terms": [
+        "界面",
+        "UI",
+        "按钮",
+        "滑杆",
+        "开关",
+        "连续变形",
+        "容器",
+        "交互"
+      ],
+      "purpose": "观众跟住一个对象，在变化中读懂不同功能。",
+      "relation": "几何身份持续；容器、内容和光标有独立状态。",
+      "decisions": "拖拽时值由指针直接控制，松手后从实际速度接续。先退旧内容再入新内容，关键结果给阅读时间。",
+      "implementation": "使用闭式弹簧或预定事件；宽高、边缘、圆角分别求值。不是两组件叠化。",
+      "failure": "轮廓断裂、文字双影、指针先走对象后到；所有边缘同速会失去材料感。",
+      "review": "检查同一ID、拖拽接触、内容最拥挤的中间态、落定和末帧到首帧。",
+      "source_refs": [
+        {
+          "source": "codex-tools",
+          "path": "continuity.mjs",
+          "line": 1
+        }
+      ],
+      "gallery_slugs": [
+        "twoclipping-402193"
+      ],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。",
+      "operating": {
+        "stack": "Canvas/SVG/WebGL，continuity.mjs",
+        "video_types": [
+          "UI",
+          "产品",
+          "抽象"
+        ],
+        "input_output": "time + sorted target events → property state",
+        "parameters": "frequency,damping,initial velocity",
+        "combine": "配合data-state共享值；文字按退入错时",
+        "performance": "事件叠加O(events)，预计算长表",
+        "avoid": "严格测量/非弹性机械接触",
+        "minimum_verification": "node --test assets/test-motion.mjs",
+        "scope": "运行验证只证明机制，画面须按本片实际输出审阅。"
+      }
+    },
+    {
+      "id": "outline-morph",
+      "title": "轮廓、孔洞与附属笔画分别形变",
+      "terms": [
+        "形变",
+        "morph",
+        "轮廓",
+        "图标",
+        "字形",
+        "logo"
+      ],
+      "purpose": "让转变保留身份，同时有可辨认的中间形。",
+      "relation": "主体轮廓、孔洞、笔画和阴影分别配对。",
+      "decisions": "先选择需要保留的负形；拓扑相差大时通过共同圆形中间态。辅笔画错峰收拢，避免主体糊成一团。",
+      "implementation": "弧长重采样→统一绕向→循环位移最小距离配点→分阶段插值；孔洞缩到质心再长出。",
+      "failure": "点数一致仍可能自交；孔洞突然闪灭，笔画与主体挤压。",
+      "review": "逐看25/50/75%轮廓、凹陷和孔洞；以主对象身份连续和中间态干净为标准。",
+      "source_refs": [
+        {
+          "source": "mg",
+          "path": "demos/08-morph/index.html",
+          "line": 60
+        },
+        {
+          "source": "mg",
+          "path": "demos/08-morph/index.html",
+          "line": 344
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。",
+      "operating": {
+        "stack": "JS，continuity.mjs morphPoints",
+        "video_types": [
+          "抽象",
+          "产品",
+          "文字"
+        ],
+        "input_output": "same-topology point arrays + progress → corresponding contour",
+        "parameters": "point count,progress,winding",
+        "combine": "先建立对应，再配semantic-finale；不支持任意字体自动拓扑",
+        "performance": "O(points)，路径重采样由调用方负责",
+        "avoid": "孔洞数量/拓扑不同而无设计的映射",
+        "minimum_verification": "node --test assets/test-motion.mjs",
+        "scope": "运行验证只证明机制，画面须按本片实际输出审阅。"
+      }
+    },
+    {
+      "id": "portal-scale",
+      "title": "从选中局部进入下一层世界",
+      "terms": [
+        "门户",
+        "无限缩放",
+        "进入",
+        "尺度",
+        "微观",
+        "宏观",
+        "穿越",
+        "zoom"
+      ],
+      "purpose": "把进入空间变成揭示内容的叙事动作。",
+      "relation": "入口里提前存在下一世界；跨越时保留焦点、裁切和方向。",
+      "decisions": "先让观众识别入口，再加速进入；对数缩放决定各段时长。需要真实绕行时用几何或多视图。",
+      "implementation": "冻结帧/渲染纹理+矩形遮罩可实现局部穿入；分层2.5D或真正相机提供视差。",
+      "failure": "四角露出旧世界、入口内部跳图、只放大单图却声称空间穿行。",
+      "review": "核对入前/覆盖画幅/出后三态和边角；对比实际视差，不只看中心。",
+      "source_refs": [
+        {
+          "source": "reel",
+          "path": "skills/kinetic-reel/examples/work-reel-26/reel.js",
+          "line": 1045
+        }
+      ],
+      "gallery_slugs": [
+        "acoramaa-053577",
+        "irinatoxi-962937"
+      ],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。",
+      "operating": {
+        "stack": "JS，continuity.mjs logZoom",
+        "video_types": [
+          "3D",
+          "抽象",
+          "解释"
+        ],
+        "input_output": "positive start/end scale + progress → logarithmic zoom",
+        "parameters": "start,end,progress",
+        "combine": "与reveal-path/持续世界锚点组合",
+        "performance": "本工具O(1)，极大缩放依赖贴图分级",
+        "avoid": "没有可进入局部的语义关系",
+        "minimum_verification": "node --test assets/test-motion.mjs",
+        "scope": "运行验证只证明机制，画面须按本片实际输出审阅。"
+      }
+    },
+    {
+      "id": "select-transition",
+      "title": "选择动作成为镜头连接",
+      "terms": [
+        "选择",
+        "转场",
+        "图表",
+        "信号",
+        "进入",
+        "局部",
+        "transition"
+      ],
+      "purpose": "下一个镜头是当前选择的含义，降低理解成本。",
+      "relation": "旧镜选框的坐标变成新镜入口。",
+      "decisions": "目标在选择前可读；旧镜冻结只发生于必要窗口，新镜内容同时开始自己的动作。",
+      "implementation": "末帧纹理→选中区域矩阵变换→clip揭示新场景；明确这是遮罩交接。",
+      "failure": "中心漂移、先换背景后选中、进入后只有另一张标题卡。",
+      "review": "检查选中目标、速度接续、交接像素和新镜首个有意义动作。",
+      "source_refs": [
+        {
+          "source": "reel",
+          "path": "skills/kinetic-reel/examples/work-reel-26/reel.js",
+          "line": 1045
+        }
+      ],
+      "gallery_slugs": [
+        "daniel-haida-636937",
+        "howdevelop-733090"
+      ],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "type-window",
+      "title": "文字作为运动材质窗口",
+      "terms": [
+        "文字",
+        "排版",
+        "字体",
+        "字形",
+        "遮罩",
+        "typography"
+      ],
+      "purpose": "文字既承载内容，也参与场景结构。",
+      "relation": "运动材质经过字形mask，信息轮廓保持稳定。",
+      "decisions": "只强调与主题有关的字；材质在字内动作，正文保持清晰。字体尺寸依实际手机阅读判断。",
+      "implementation": "字体加载后生成mask；世界材质和清晰文字分层，避免后处理糊掉正文。",
+      "failure": "材质漂亮但词读不清；RGB分离常驻，中文缺字或字距失衡。",
+      "review": "手机尺寸读字、字内运动相位、边缘抗锯齿和字体ready。",
+      "source_refs": [
+        {
+          "source": "reel",
+          "path": "skills/kinetic-reel/examples/work-reel-26/reel.js",
+          "line": 1
+        }
+      ],
+      "gallery_slugs": [
+        "howdevelop-733090"
+      ],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "type-architecture",
+      "title": "文字搭建场景并兑现句意",
+      "terms": [
+        "文字",
+        "建筑",
+        "语义",
+        "诗歌",
+        "句子",
+        "结构",
+        "typography"
+      ],
+      "purpose": "词义与物体功能相互解释。",
+      "relation": "前一句建立支撑、地面或开口，后一句真正使用它。",
+      "decisions": "先写空间因果，再排文字；最终立在前文构成的地面，比不断换字更有回收感。",
+      "implementation": "可用字形轮廓/SVG/三维文本加状态图；角色、碰撞和支撑是待题材设计。",
+      "failure": "仅把名词摆成图形，最后落定与此前无关；文字成为看不清的装饰。",
+      "review": "对照每句意义、支撑关系、最终空间结果；不能由提示词推定成片成功。",
+      "source_refs": [],
+      "gallery_slugs": [
+        "gdgtify-929495"
+      ],
+      "status": "design_inference_from_public_brief",
+      "status_note": "公开需求或独立设计，不证明原作已经按此实现，也未在本机验证。"
+    },
+    {
+      "id": "semantic-finale",
+      "title": "同一材料在结尾变为标志",
+      "terms": [
+        "logo",
+        "品牌",
+        "结尾",
+        "回收",
+        "组装",
+        "语义",
+        "标志"
+      ],
+      "purpose": "结尾兑现整片的形式想法。",
+      "relation": "开场材料、负形或运动锚点成为最终符号。",
+      "decisions": "先读懂符号，再安排残余动作落定；避免最后凭空放logo。不要改变真实标志的比例。",
+      "implementation": "给形状配对并分离底色交接；源码的heart→圆→字母可作为结构参考。",
+      "failure": "终点图形与之前无关，轮廓已落定但粒子仍乱飞，品牌字不可读。",
+      "review": "遮住最终字标时，仍能辨认前文与它的关系；实际片尾检查比例和停留。",
+      "source_refs": [
+        {
+          "source": "mg",
+          "path": "demos/08-morph/index.html",
+          "line": 273
+        }
+      ],
+      "gallery_slugs": [
+        "leowenai-125931",
+        "mounnna-497266",
+        "zeezomb-726206"
+      ],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "data-state",
+      "title": "让数值、图形和标签共享状态",
+      "terms": [
+        "数据",
+        "图表",
+        "累计",
+        "流程",
+        "科普",
+        "配方",
+        "仪表",
+        "数值",
+        "token"
+      ],
+      "purpose": "过程可见，观众能追溯结果从何而来。",
+      "relation": "数量、容积、颜色、速度和标签来自同一数据状态。",
+      "decisions": "先建立单位与空状态；用主变量驱动变化。需要教学压缩时声明示意，不装成测量。",
+      "implementation": "独立模拟/事件数据→渲染几何/颜色→投影标签；water的depth和velocity驱动网格与shader是实际例子。",
+      "failure": "计数与液位不同步、单位漂移、只动箭头却无结果状态。",
+      "review": "复核起点、累计预算、关键事件和终值，区分真实计算与视觉映射。",
+      "source_refs": [
+        {
+          "source": "water",
+          "path": "runs/claude-code-opus-5-5/src/render/waterMesh.ts",
+          "line": 165
+        }
+      ],
+      "gallery_slugs": [
+        "ror-fly-880547",
+        "astrothewizard-618782",
+        "parkerrex-701462"
+      ],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。",
+      "operating": {
+        "stack": "Canvas，style-studio/film.mjs + timeline.mjs",
+        "video_types": [
+          "数据",
+          "科学"
+        ],
+        "input_output": "clip event JSON + t → graph/value/caption",
+        "parameters": "data values,units,event times,readingRate",
+        "combine": "标签、形状共享状态；用world-anchor-callout定位",
+        "performance": "Canvas全帧，密集数据需抽稀",
+        "avoid": "单位/轴尺度不稳定或伪造数据",
+        "minimum_verification": "node assets/style-studio/test-contract.mjs",
+        "scope": "运行验证只证明机制，画面须按本片实际输出审阅。"
+      }
+    },
+    {
+      "id": "mechanical-section",
+      "title": "先建立器件，再剖开关键接触",
+      "terms": [
+        "机械",
+        "剖面",
+        "止回阀",
+        "弹簧",
+        "阀门",
+        "爆炸图",
+        "拆解",
+        "流体",
+        "装配"
+      ],
+      "purpose": "解释看不见的接触、密封和受力关系。",
+      "relation": "整机、剖面和零件保留同一坐标系、装配轴和身份。",
+      "decisions": "关键接触处停机；先切外壳再解释动作。爆炸距离服务装配关系，不能让零件任意飞散。",
+      "implementation": "由实际尺寸/结构建立几何；剖切面封口、零件轴向轨迹、受力阈值和标注共享状态。此卡是迁移设计，未确认图库原作源码。",
+      "failure": "假内部、铰链错轴、弹簧穿壳、受力未变阀芯先开；照片mask不可当真实剖面。",
+      "review": "核对关闭→压力增长→阀芯离座→回座接触；9:16构图要完整呈现流向与接触点。",
+      "source_refs": [],
+      "gallery_slugs": [
+        "op7418-814408"
+      ],
+      "status": "design_inference_from_public_brief",
+      "status_note": "公开需求或独立设计，不证明原作已经按此实现，也未在本机验证。",
+      "operating": {
+        "stack": "Canvas，style-studio/film.mjs",
+        "video_types": [
+          "机械",
+          "科学"
+        ],
+        "input_output": "part IDs + section/explode progress → readable internal contact",
+        "parameters": "section time,part offsets,stroke",
+        "combine": "先保留零件身份，配hold-cause；新机械行程用load-regulated-valve",
+        "performance": "线绘较轻；当前是剖面示意，无CAD求解",
+        "avoid": "复杂三维公差/接触仿真",
+        "minimum_verification": "node assets/style-studio/test-contract.mjs",
+        "scope": "运行验证只证明机制，画面须按本片实际输出审阅。"
+      }
+    },
+    {
+      "id": "world-light",
+      "title": "共享世界光照塑造层次",
+      "terms": [
+        "光照",
+        "照明",
+        "逆光",
+        "日落",
+        "材质",
+        "层次",
+        "曝光",
+        "lighting"
+      ],
+      "purpose": "让同一世界的时间、气氛与主体关系可信。",
+      "relation": "天空、实体、点云、雾和曝光共享光照状态。",
+      "decisions": "亮暗关系先服务主体轮廓，细节只在有效处增加；变化要进入场景而非顶层滤镜。",
+      "implementation": "世界uniforms、太阳方向、雾和镜头曝光共同编排；材质颜色在线性空间处理。",
+      "failure": "玻璃/金属发白，暗景点云仍自发光，背景与阴影方向矛盾。",
+      "review": "对比主光、轮廓、接触和暗部；保留原作局部近黑的已知限制。",
+      "source_refs": [
+        {
+          "source": "beach",
+          "path": "js/trailer-shots.js",
+          "line": 241
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "telephoto",
+      "title": "远机位与窄视角压缩空间",
+      "terms": [
+        "长焦",
+        "压缩",
+        "摄影",
+        "镜头",
+        "太阳",
+        "轮廓",
+        "焦段",
+        "远景"
+      ],
+      "purpose": "让背景与主体形成强图形关系。",
+      "relation": "机位距离改变透视，FOV控制取景。",
+      "decisions": "先决定主体占比，再配距离和FOV；横移保留轮廓，不把缩FOV当成透视压缩。",
+      "implementation": "摄影机position/lookAt/FOV分轨，测试背景相对主体的尺寸。",
+      "failure": "主体变大但背景比例不变；取景过窄导致主体瞬间裁出。",
+      "review": "匹配景别比较近/远机位的空间关系；在竖屏重新构图。",
+      "source_refs": [
+        {
+          "source": "beach",
+          "path": "js/trailer-shots.js",
+          "line": 49
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "low-travel",
+      "title": "低位穿行，用遮挡证明纵深",
+      "terms": [
+        "低机位",
+        "穿行",
+        "运镜",
+        "视差",
+        "前景",
+        "纵深",
+        "摄影"
+      ],
+      "purpose": "让观众进入场景并感受规模。",
+      "relation": "前中后景有不同速度与真实遮挡。",
+      "decisions": "前景只暂时遮住锚点，随后重现；轨迹围绕发现安排，不均匀绕原点。",
+      "implementation": "真实空间相机+世界遮挡；2.5D分层需要补被遮区域。",
+      "failure": "穿模、锚点长期被挡、前景像贴纸与相机一起移动。",
+      "review": "检查最近遮挡、重新出现和最窄通道；原路横屏不能直接裁成竖屏。",
+      "source_refs": [
+        {
+          "source": "beach",
+          "path": "js/trailer-shots.js",
+          "line": 75
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "reveal-path",
+      "title": "位置与目标双轨迹揭示主体",
+      "terms": [
+        "揭示",
+        "升高",
+        "发现",
+        "运镜",
+        "相机",
+        "摄影",
+        "轨迹"
+      ],
+      "purpose": "用机位变化带来新理解。",
+      "relation": "相机位置和看向目标分别变化，始终保留视觉锚点。",
+      "decisions": "先局部障碍，再升高见全貌；结果出现后减速或停留。目标偏移用来转移注意。",
+      "implementation": "独立centripetal样条；必要时按弧长采样，外层ease另管速度。",
+      "failure": "轨迹流畅但主体一直不在画面；目标移动导致角速度骤变。",
+      "review": "检查屏幕占比、锚点轨迹、实体碰撞和落定，不只检查路径曲线。",
+      "source_refs": [
+        {
+          "source": "beach",
+          "path": "js/trailer-shots.js",
+          "line": 133
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。",
+      "operating": {
+        "stack": "Three.js，cinematic-starter/camera-kit.mjs",
+        "video_types": [
+          "3D",
+          "产品",
+          "科学"
+        ],
+        "input_output": "absolute t + position/target tracks → pose",
+        "parameters": "position,target,FOV,shot boundaries",
+        "combine": "与subject-intent先跟随再揭示；查遮挡走廊",
+        "performance": "路径采样轻，GPU取决场景",
+        "avoid": "无目的持续绕行或相机穿墙",
+        "minimum_verification": "在cinematic-starter任务副本准备package.json的three/playwright-core依赖后：node render.mjs --project=. --out=out-camera-check --stills-only；复用本机包时加--playwright=<模块绝对路径> --three=<包目录>",
+        "scope": "运行验证只证明机制，画面须按本片实际输出审阅。"
+      }
+    },
+    {
+      "id": "hold-cause",
+      "title": "在因果点保持相机稳定",
+      "terms": [
+        "因果",
+        "接触",
+        "动作",
+        "静止",
+        "特写",
+        "阀门",
+        "科普",
+        "碰撞"
+      ],
+      "purpose": "观众能分清原因、变化与结果。",
+      "relation": "主体动，相机保持可读；主动作完毕再转移注意。",
+      "decisions": "接触/开合/选择处留时间；选择跟随目标而非同时绕转。按动作密度确定时长。",
+      "implementation": "相机近固定或lookAt轻跟随；把接触事件登记在动作表。",
+      "failure": "机构和相机同时高速动，关键接触总发生在转场里。",
+      "review": "静音看一次能否指出原因；查看接触前、中、后三态。",
+      "source_refs": [
+        {
+          "source": "beach",
+          "path": "js/trailer-shots.js",
+          "line": 162
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。",
+      "operating": {
+        "stack": "Canvas/Three，已有绝对时间相机",
+        "video_types": [
+          "机械",
+          "科学",
+          "数据"
+        ],
+        "input_output": "contact window + fixed pose → readable action",
+        "parameters": "hold start/end,framing,action duration",
+        "combine": "在受力/接触处停机，再reveal-path",
+        "performance": "无新增计算，需保护阅读停留",
+        "avoid": "主体会离开画面且不能改变构图",
+        "minimum_verification": "node assets/style-studio/test-contract.mjs",
+        "scope": "运行验证只证明机制，画面须按本片实际输出审阅。"
+      }
+    },
+    {
+      "id": "point-volume",
+      "title": "点云有实体深度与遮挡",
+      "terms": [
+        "点云",
+        "粒子",
+        "粒子世界",
+        "体积",
+        "遮挡",
+        "particle"
+      ],
+      "purpose": "点的风格保留空间结构。",
+      "relation": "可见点与不可见实体共同维护深度。",
+      "decisions": "近景粒径、远景衰减和剪影一起设计；遮挡体不抢视觉，但决定谁在前。",
+      "implementation": "共享uniforms、深度写入occluder、透明排序和尺度衰减。",
+      "failure": "穿墙、远场噪点、粒子像屏幕平面；透明全关depthWrite又没有遮挡。",
+      "review": "对照实体轮廓、逆光、重叠和相机穿行窗口。",
+      "source_refs": [
+        {
+          "source": "beach",
+          "path": "js/core.js",
+          "line": 1
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "point-correspondence",
+      "title": "点身份持续，形态才能接续",
+      "terms": [
+        "点云",
+        "点对应",
+        "粒子",
+        "形态",
+        "morph",
+        "投影",
+        "标注"
+      ],
+      "purpose": "从抽象点场变为有意义的形状。",
+      "relation": "A/B点集共用ID；标注来自最终世界位置。",
+      "decisions": "先确定关键轮廓和配对，再加wobble；不同阶段密度变化不能随机换点。",
+      "implementation": "固定种子A/B数组、逐点插值，shader偏移后投影或保持CPU/GPU一致。",
+      "failure": "点云中途炸散，标注贴着原始坐标而主体已经偏移。",
+      "review": "检查点ID、半程轮廓、终点和标注位置。",
+      "source_refs": [
+        {
+          "source": "reel",
+          "path": "skills/kinetic-reel/examples/work-reel-26/reel.js",
+          "line": 122
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "procedural-surface",
+      "title": "场的结构形成材质与地形",
+      "terms": [
+        "着色器",
+        "shader",
+        "噪声",
+        "地形",
+        "表面",
+        "程序化",
+        "材质"
+      ],
+      "purpose": "结构、材料和运动拥有共同的视觉逻辑。",
+      "relation": "多尺度噪声与domain warp驱动真实表面或粒子高度。",
+      "decisions": "噪声频率对应主形/细节，远场减少密度；matcap与真实环境反射区分。",
+      "implementation": "fbm/domain-warp、顶点位移、matcap和背壳轮廓；先定大形，再看材质。",
+      "failure": "满屏同强度细节、地形尖刺、运动材质不贴对象。",
+      "review": "大形轮廓、局部法线、深度密度和时间闪烁。",
+      "source_refs": [
+        {
+          "source": "reel",
+          "path": "skills/kinetic-reel/examples/work-reel-26/reel.js",
+          "line": 40
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "glass-sdf",
+      "title": "玻璃轮廓、折射和内容分层",
+      "terms": [
+        "玻璃",
+        "折射",
+        "SDF",
+        "光学",
+        "透明",
+        "液态玻璃",
+        "glass"
+      ],
+      "purpose": "背景弯曲能被读出，文字仍清晰。",
+      "relation": "距离场决定轮廓/法线，背景采样决定折射效果。",
+      "decisions": "先选有结构的背景；把清晰内容与玻璃处理分离。必要时真实几何厚度/出口求交。",
+      "implementation": "SDF融合、法线梯度、Fresnel及屏幕采样；本地sdf-glass-lab只是一界面近似。",
+      "failure": "背景本来平坦无法读出折射、玻璃发白、内容被滤糊。",
+      "review": "对比有/无玻璃背景位移；分别声明有无出口、多次反射和焦散。",
+      "source_refs": [
+        {
+          "source": "glass",
+          "path": "src/Raymarching/RayMarchingMaterial.tsx",
+          "line": 1
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "liquid-union",
+      "title": "液体用连续场融合并继承颜色",
+      "terms": [
+        "液体",
+        "流体",
+        "融合",
+        "胶状",
+        "goo",
+        "metaball",
+        "SDF"
+      ],
+      "purpose": "分离、连接和落定看起来属于同一种材料。",
+      "relation": "椭圆、线段、字形成为同一距离场的成员。",
+      "decisions": "融合颈、主轮廓和内部颜色分别控制；先确定接触面与软光箱，再加入高光。",
+      "implementation": "稳定log-sum-exp smooth union，同时混合梯度/色参数；slot椭圆向字形SDF过渡。不是Navier–Stokes流体。",
+      "failure": "融合范围突然跳，颜色归属错乱，高光条纹把内部误画成波浪。",
+      "review": "看分离颈、合并时梯度、字形边缘和接触面；特效焦散需独立说明近似。",
+      "source_refs": [
+        {
+          "source": "mg",
+          "path": "demos/07-liquid/js/shaders.js",
+          "line": 95
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "hand-ink",
+      "title": "手绘感来自笔压与稳定线条变化",
+      "terms": [
+        "手绘",
+        "绘画",
+        "水彩",
+        "线条",
+        "笔触",
+        "boil",
+        "纸张"
+      ],
+      "purpose": "保留手作感，同时让主动作清晰。",
+      "relation": "几何稳定，笔宽、阴影侧与绘画时刻有受控变化。",
+      "decisions": "绘画与相机可以不同帧率；按元素ID固定随机流。特写时补偿笔宽和扰动幅度。",
+      "implementation": "弧长重采样、世界空间噪声扰动、切线法向生成可变宽轮廓；起止笔收细。",
+      "failure": "全画面每帧重抖，粗细与放大比例失控，笔触成为白板式机械揭示。",
+      "review": "同元素重复时刻、静止区域、特写线宽和主动作连续窗。",
+      "source_refs": [
+        {
+          "source": "mg",
+          "path": "demos/05-cel-boil/js/engine.js",
+          "line": 152
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "pixel-palette",
+      "title": "像素风用语义色板表达时间",
+      "terms": [
+        "像素",
+        "pixel",
+        "色板",
+        "复古",
+        "整数缩放",
+        "日夜"
+      ],
+      "purpose": "让有限像素和色数承担光照与剧情。",
+      "relation": "环境槽位→阶段LUT→主色板；角色色与环境色分别管理。",
+      "decisions": "逻辑画布先成立，输出整数放大；色板变化落在事件点而不是全屏白闪。",
+      "implementation": "indexed buffer、最近色映射、dither、局部colour cycling；保持统一逻辑像素。",
+      "failure": "近景像素大小变化不一致，连续抗锯齿破坏像素边，角色也跟背景洗色。",
+      "review": "逻辑分辨率、轮廓、阶段LUT与关键物品发光。",
+      "source_refs": [
+        {
+          "source": "mg",
+          "path": "demos/20-pixel/film.js",
+          "line": 16
+        }
+      ],
+      "gallery_slugs": [
+        "zacxbt-944604"
+      ],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "paper-acting",
+      "title": "角色意图驱动骨骼与跟随动作",
+      "terms": [
+        "角色",
+        "表演",
+        "纸片",
+        "剪纸",
+        "行走",
+        "风筝",
+        "头发",
+        "动画"
+      ],
+      "purpose": "角色的行动有动机，身体有重量与余动。",
+      "relation": "意图→步态/骨骼→头发围巾/手持物→相机。",
+      "decisions": "先写角色想做什么；注视、伸手、停步、情绪形成表演。镜头预留行进方向空间。",
+      "implementation": "骨骼层级、gait、弹簧链、地面/风共享world；相机跟随角色与手持物的加权中心。",
+      "failure": "手持物脱手、脚滑、头发与风无关、嘴部抖动冒充口型同步。",
+      "review": "脚接地、持物接触、转身轮廓、身体余动与视线；Stage仅顺序运行，要另做seek重播。",
+      "source_refs": [
+        {
+          "source": "paper",
+          "path": "examples/kite/main.ts",
+          "line": 91
+        },
+        {
+          "source": "paper",
+          "path": "examples/cast/Child.ts",
+          "line": 54
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "event-story",
+      "title": "接触事件同时推进剧情与声音",
+      "terms": [
+        "事件",
+        "接触",
+        "碰撞",
+        "因果",
+        "声音",
+        "叙事",
+        "音画同步"
+      ],
+      "purpose": "观众相信变化是行动造成的。",
+      "relation": "距离/接触阈值触发beat，触发时刻也写入sound log。",
+      "decisions": "接近→观察→接触→反应→展开→落定；先近景读接触，揭示时再拉远。",
+      "implementation": "有限状态机enter/during/next/after；模拟时间映射到视频时间后合成声音。",
+      "failure": "音效按预定秒数响而接触晚到；等待条件永远不满足；慢动作后音画不同步。",
+      "review": "对照beat历史、接触gap、声音cue与镜头切换；听音仍需实际播放。",
+      "source_refs": [
+        {
+          "source": "paper",
+          "path": "examples/light/main.ts",
+          "line": 25
+        },
+        {
+          "source": "paper",
+          "path": "src/direction/Beats.ts",
+          "line": 78
+        }
+      ],
+      "gallery_slugs": [
+        "kamstudiolabs-440893",
+        "acoramaa-248467"
+      ],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。",
+      "operating": {
+        "stack": "JS事件表 + style-studio/timeline.mjs",
+        "video_types": [
+          "角色",
+          "机械",
+          "产品",
+          "3D"
+        ],
+        "input_output": "trigger time + delay + receiver state → causal response",
+        "parameters": "at,duration,delay,receiver ID",
+        "combine": "先主动作后环境反馈；音轨共享事件，不强制每次有音",
+        "performance": "直接求值；反馈多时分层控制密度",
+        "avoid": "只为让背景热闹且不改变含义",
+        "minimum_verification": "node assets/style-studio/test-contract.mjs",
+        "scope": "运行验证只证明机制，画面须按本片实际输出审阅。"
+      }
+    },
+    {
+      "id": "water-cause",
+      "title": "地形、水量和材质形成因果",
+      "terms": [
+        "水流",
+        "雨水",
+        "湖泊",
+        "浅水",
+        "流体",
+        "地形",
+        "瀑布",
+        "水深"
+      ],
+      "purpose": "看到水为什么沿坡走、在何处蓄积。",
+      "relation": "terrain+depth形成水面高度；通量更新水深，velocity影响外观。",
+      "decisions": "来源、积累与出口都可追溯；教学阀内流动不能直接套高度场。",
+      "implementation": "四邻虚拟管通量→出流限幅→入出预算→深度/速度mesh属性；浅水颜色/Fresnel/泡沫为视觉近似。",
+      "failure": "负水深、质量不守恒、墙边漏水、把shader波纹当完整流体；时间循环丢步。",
+      "review": "预算和边界、干湿过渡、速度/泡沫对应；离线导出要固定模拟步并保存状态。",
+      "source_refs": [
+        {
+          "source": "water",
+          "path": "runs/claude-code-opus-5-5/src/sim/water.ts",
+          "line": 159
+        },
+        {
+          "source": "water",
+          "path": "runs/claude-code-opus-5-5/src/render/waterMesh.ts",
+          "line": 165
+        }
+      ],
+      "gallery_slugs": [
+        "stephanferraro-224281"
+      ],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "rigid-contact",
+      "title": "受力、关节与断裂提供动作因果",
+      "terms": [
+        "物理",
+        "刚体",
+        "关节",
+        "碰撞",
+        "断裂",
+        "弹簧",
+        "机构",
+        "积木"
+      ],
+      "purpose": "大数量对象运动有接触、重量和后果。",
+      "relation": "world保存模拟状态；mesh从GPU状态绘制，断裂事件改变外观。",
+      "decisions": "选择真正影响故事的受力事件；接触影/AO与实体一致，大数量并不替代构图。",
+      "implementation": "WebGPU solver、BodyMesh、joint anchors与breakForce；需要可寻址导出则固定种子并缓存/重播模拟。",
+      "failure": "锚点偏移、爆炸式散射、碰撞先于视觉接触、实时Math.random无法复现。",
+      "review": "接触前后、固定端、断裂阈值与状态/mesh一致；这些示例本轮未运行。",
+      "source_refs": [
+        {
+          "source": "rigid",
+          "path": "examples/basic.ts",
+          "line": 29
+        }
+      ],
+      "gallery_slugs": [
+        "nybobs-680050"
+      ],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "sample-quality",
+      "title": "采样服务轮廓、阴影与高速动作",
+      "terms": [
+        "抗锯齿",
+        "采样",
+        "阴影",
+        "闪烁",
+        "运动模糊",
+        "渲染",
+        "质感"
+      ],
+      "purpose": "精细轮廓与光照在运动中仍然干净。",
+      "relation": "每次子采样都重新求几何时间、相机和灯光。",
+      "decisions": "先修几何和曝光再提高样本；硬切不能跨窗混合，静止文字可独立保持锐度。",
+      "implementation": "Halton视口jitter、面积光抖动、normal/depth AO与浮点累积→tone mapping→sRGB。",
+      "failure": "叠旧帧鬼影、软化正文、切点重影，30fps复制成60fps。",
+      "review": "细线连续窗、接触阴影、高光稳定性与硬切；性能与画质按实际输出评估。",
+      "source_refs": [
+        {
+          "source": "mg",
+          "path": "demos/03-isometric/js/render.js",
+          "line": 151
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "源码观察与迁移设计分开；成片质量仍需按当前任务验证。"
+    },
+    {
+      "id": "performance-handoff",
+      "title": "用同一乐谱完成角色表演接棒",
+      "terms": [
+        "弹琴",
+        "钢琴",
+        "表演",
+        "接棒",
+        "乐谱",
+        "音乐",
+        "角色",
+        "雪人"
+      ],
+      "purpose": "让角色关系在同一个动作中发生变化，观众从接棒理解情绪。",
+      "relation": "音符who、时间和键位同时决定声音、琴键与手部；雪人→猫→雪花延续同一旋律。",
+      "decisions": "先建立谁在弹，再用迟疑、停手和视线表达交接；音乐减速留给结尾，不让手在发声后才碰琴键。",
+      "implementation": "score按小节构造notes；keyDepth与handAt从同一notes求值，和弦取手部中心位置，抬手高度随键距变化。",
+      "failure": "独立手部和音轨会错接触；取和弦平均只适合风格化手势，不能冒充准确指法。音色样本不公开。",
+      "review": "看接棒前、接触、停手、猫迟疑和雪花落键；逐项听看，不用时间列表代替听音。",
+      "source_refs": [
+        {
+          "source": "songbie",
+          "path": "score.js",
+          "line": 40
+        },
+        {
+          "source": "songbie",
+          "path": "render.js",
+          "line": 284
+        },
+        {
+          "source": "songbie",
+          "path": "render.js",
+          "line": 300
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "选定源码已读；作者成片未在本轮审看，不认证原片质量或本机可运行性。"
+    },
+    {
+      "id": "emotion-shared-state",
+      "title": "一个变化状态同时改变身体与表演",
+      "terms": [
+        "情绪",
+        "融化",
+        "坍缩",
+        "角色",
+        "蜡笔",
+        "表演",
+        "形态"
+      ],
+      "purpose": "让情绪由形体、视线和动作共同表达。",
+      "relation": "melt进度连接头/身体缩小、摆动减弱、手臂落平与湿润质感。",
+      "decisions": "保留角色辨认特征；变化先缓后重，关键视线有时段，不把所有部位均匀缩放。",
+      "implementation": "snowState从时间取m和视线pulse；snowGeom分别计算半径/中心，arm在最终坍缩窗把肩点接向键盘。",
+      "failure": "只整体缩放会像离镜而非融化；转向/接触没有对应空间坐标会失去关系。此法是艺术映射，不是热力学模拟。",
+      "review": "检查身体与手的接触、角色辨认、湿高光及最终坍缩窗；不要从变量名推断观感达标。",
+      "source_refs": [
+        {
+          "source": "songbie",
+          "path": "render.js",
+          "line": 295
+        },
+        {
+          "source": "songbie",
+          "path": "render.js",
+          "line": 595
+        },
+        {
+          "source": "songbie",
+          "path": "render.js",
+          "line": 616
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "选定源码已读；作者成片未在本轮审看，不认证原片质量或本机可运行性。"
+    },
+    {
+      "id": "chase-silence-catch",
+      "title": "追逐加速之后用静音突出接触",
+      "terms": [
+        "追逐",
+        "静音",
+        "接住",
+        "节奏",
+        "悬念",
+        "art deco",
+        "叙事"
+      ],
+      "purpose": "通过节奏变化让关键接触成为观众期待的兑现。",
+      "relation": "同一信件贯穿街道、楼梯和屋顶；共享事件规定投掷、接住与钟声。",
+      "decisions": "加速只发生于追逐段；时钟截断音乐，投掷留静音，接住触发首钟声，拉远揭示新的场景关系。",
+      "implementation": "timeline导出STAIR_BEATS/T/SEC；film按事件引用shot模块，门/拱成为场内转场载体。",
+      "failure": "全片恒快或每拍都切会消耗高潮；抄秒数却没有共同对象，静音只会像音轨丢失。",
+      "review": "连续看加速→断音→放手→下落→接住；核对声音与接触，再核对拉远发现。",
+      "source_refs": [
+        {
+          "source": "lemo",
+          "path": "styles/art-deco/demo/timeline.js",
+          "line": 6
+        },
+        {
+          "source": "lemo",
+          "path": "styles/art-deco/demo/film.js",
+          "line": 16
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "选定源码已读；作者成片未在本轮审看，不认证原片质量或本机可运行性。"
+    },
+    {
+      "id": "blueprint-part-states",
+      "title": "零件身份贯穿绘制、爆炸与剖切",
+      "terms": [
+        "蓝图",
+        "工程图",
+        "爆炸图",
+        "零件",
+        "机械",
+        "图纸",
+        "剖切"
+      ],
+      "purpose": "把机械拆解变成连续发现，而不是不相关视图切换。",
+      "relation": "零件ID共享爆炸偏移、齿轮相位、剖面与标注。",
+      "decisions": "先建立完整轮廓；按装配关系错峰分离；回装后再运转，剖切窗口服务关键传动。",
+      "implementation": "EXP/EXSEQ定义零件方向和先后；gearAngles按齿数比/中心方向求相位；film共用E/gear/section，活尺寸从零件坐标求值。",
+      "failure": "此接云机是虚构2.5D图纸；不能套作真实阀门内部或精确力学。齿比准确也不代表齿形/接触已验证。",
+      "review": "逐看完整→最拥挤爆炸中间态→剖切→回装；核对零件号、传动方向和标注锚点。",
+      "source_refs": [
+        {
+          "source": "lemo",
+          "path": "styles/blueprint/demo/machine.js",
+          "line": 15
+        },
+        {
+          "source": "lemo",
+          "path": "styles/blueprint/demo/film.js",
+          "line": 149
+        },
+        {
+          "source": "lemo",
+          "path": "styles/blueprint/demo/film.js",
+          "line": 214
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "选定源码已读；作者成片未在本轮审看，不认证原片质量或本机可运行性。",
+      "operating": {
+        "stack": "Canvas，style-studio/film.mjs",
+        "video_types": [
+          "机械",
+          "科学"
+        ],
+        "input_output": "part identity + stage progress → draw/section/assemble",
+        "parameters": "seed,part anchor,stage timing",
+        "combine": "与load-regulated-valve共享阀瓣/弹簧行程",
+        "performance": "原生线绘，无工程求解",
+        "avoid": "拿拆解顺序当真实阀工作动作",
+        "minimum_verification": "node assets/style-studio/test-contract.mjs",
+        "scope": "运行验证只证明机制，画面须按本片实际输出审阅。"
+      }
+    },
+    {
+      "id": "world-anchor-callout",
+      "title": "相机、零件和产品标注共享世界锚点",
+      "terms": [
+        "全息",
+        "HUD",
+        "标注",
+        "产品",
+        "扫描",
+        "参数卡",
+        "锚点",
+        "甩镜"
+      ],
+      "purpose": "观众在镜头移动和部件拆开时仍能追踪说明对应的对象。",
+      "relation": "模型顶点与anchor经过同一零件变换/投影，屏幕卡片由该锚点牵引。",
+      "decisions": "先锁定部件再滚出数字；读过的信息收进侧栏；甩镜前给目标提示，运动模糊限制在快速窗口。",
+      "implementation": "holo.draw返回bbox/anchor；film从info.anchor取引线起点，使用共享callBeats组织爆炸、锁定、标签；快速窗5子帧累积。",
+      "failure": "仅叠固定屏幕线会离开部件；Canvas近似投影/辉光不等于体积全息。竖屏需重排侧栏，不能只裁横版。",
+      "review": "检查爆炸中间态引线、遮挡、甩镜落定与手机阅读；单位/参数需要用户事实依据。",
+      "source_refs": [
+        {
+          "source": "lemo",
+          "path": "styles/hologram-hud/demo/engine/holo.js",
+          "line": 206
+        },
+        {
+          "source": "lemo",
+          "path": "styles/hologram-hud/demo/film.js",
+          "line": 112
+        },
+        {
+          "source": "lemo",
+          "path": "styles/hologram-hud/demo/film.js",
+          "line": 194
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "选定源码已读；作者成片未在本轮审看，不认证原片质量或本机可运行性。"
+    },
+    {
+      "id": "ink-material-layers",
+      "title": "笔压、墨量和干湿分层形成水墨",
+      "terms": [
+        "水墨",
+        "飞白",
+        "笔触",
+        "书写",
+        "毛笔",
+        "美术",
+        "干湿"
+      ],
+      "purpose": "让水墨风格来自材料行为，并用书写次序引导注意。",
+      "relation": "中心路径、压力轮廓、笔毫与墨量共享一笔身份，wet/dry层保留不同合成。",
+      "decisions": "浓淡与枯润服务主体层级；固定种子让纹理沿笔身稳定；按弧长安排书写，笔压变化不等于统一线宽。",
+      "implementation": "Catmull-Rom加密后弧长重采样；mk构造压力/法线/笔毫；draw在墨量阈值处断墨，drawSeq按笔长分配时间。",
+      "failure": "每帧随机会闪烁；干湿一起模糊会丢飞白；调用层需稳定seed及boil，层合成尚未全面精读/运行。",
+      "review": "放大观察笔端、交叉、干边和湿墨；连续看书写方向与纹理稳定性。",
+      "source_refs": [
+        {
+          "source": "lemo",
+          "path": "styles/ink-wash/demo/ink.js",
+          "line": 8
+        },
+        {
+          "source": "lemo",
+          "path": "styles/ink-wash/demo/ink.js",
+          "line": 62
+        },
+        {
+          "source": "lemo",
+          "path": "styles/ink-wash/demo/ink.js",
+          "line": 128
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "选定源码已读；作者成片未在本轮审看，不认证原片质量或本机可运行性。"
+    },
+    {
+      "id": "reading-constrained-lens",
+      "title": "阅读区域约束景深与手持摄影",
+      "terms": [
+        "歌词",
+        "杂志",
+        "阅读",
+        "景深",
+        "摄影",
+        "手持",
+        "排版",
+        "焦点"
+      ],
+      "purpose": "在纸张摄影质感中保持信息清晰。",
+      "relation": "页面焦点与相机目标共享距离，确定性微摆在镜头混合/节拍之后叠加。",
+      "decisions": "正文处于清晰阈值，翻起纸页和背景才模糊；近景限制微摆增长，歌词段减弱节拍运动。",
+      "implementation": "focusDistance/coc从镜头姿态和深度求散焦圆；shader在SHARP下直通；handheld用时间噪声并限制近景振幅；bookView组合各层姿态。",
+      "failure": "全屏景深会糊字；作者测试/注释不是本机测试结果。深度边缘有gather限制，单采样输出可能露边。",
+      "review": "实际手机尺寸逐行读字；看翻页前景边缘、景深交接和镜头微摆，不照抄1080横版阈值到竖屏。",
+      "source_refs": [
+        {
+          "source": "lyric",
+          "path": "app/src/scenes/magazine/focus.ts",
+          "line": 27
+        },
+        {
+          "source": "lyric",
+          "path": "app/src/scenes/magazine/handheld.ts",
+          "line": 20
+        },
+        {
+          "source": "lyric",
+          "path": "app/src/scenes/magazine/view.ts",
+          "line": 20
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "选定源码已读；作者成片未在本轮审看，不认证原片质量或本机可运行性。"
+    },
+    {
+      "id": "curved-page-handoff",
+      "title": "曲面纸页与相机错时落定",
+      "terms": [
+        "翻页",
+        "纸页",
+        "杂志",
+        "曲面",
+        "纸张",
+        "连续交接",
+        "转场"
+      ],
+      "purpose": "让版式切换发生在同一个可触摸对象上。",
+      "relation": "旧页正面/新页背面/下层页面有明确身份；相机过渡稍晚于纸页落地。",
+      "decisions": "自由边落后书脊，页角先后不同；纸页落地带弱回弹，相机略拉开后接到下一版式。",
+      "implementation": "curlPoint与顶点shader共享圆弧参数；shader用sinc避免小曲率数值相消；visibleFaces决定前后页，TURN_S与CAM_BLEND_S分离。",
+      "failure": "页正反面错配、落地近零曲率破裂、页堆穿插；本卡不覆盖尚未精读的撕页/折页全路径。",
+      "review": "检查起翻、中间遮挡、最后5%曲率、落地回弹和镜头停稳；连续输出才证明纸页可靠。",
+      "source_refs": [
+        {
+          "source": "lyric",
+          "path": "app/src/engine/curl.ts",
+          "line": 22
+        },
+        {
+          "source": "lyric",
+          "path": "app/src/engine/page.ts",
+          "line": 55
+        },
+        {
+          "source": "lyric",
+          "path": "app/src/scenes/magazine/schedule.ts",
+          "line": 57
+        },
+        {
+          "source": "lyric",
+          "path": "app/src/scenes/magazine/view.ts",
+          "line": 12
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "选定源码已读；作者成片未在本轮审看，不认证原片质量或本机可运行性。"
+    },
+    {
+      "id": "refracted-caustic-grid",
+      "title": "折射网格面积生成水底焦散",
+      "terms": [
+        "焦散",
+        "折射",
+        "水底",
+        "水面",
+        "光学",
+        "Fresnel",
+        "浅水"
+      ],
+      "purpose": "让水底亮纹随表面法线与深度变化，形成有根据的光学层次。",
+      "relation": "FFT高度/斜率供折射落点，落点映射面积决定光集中；水深供透射吸收。",
+      "decisions": "水底大色块和接触先建立，焦散再成为动态细节；侧视增强反射，深水增加颜色吸收。",
+      "implementation": "折射太阳方向到固定深度平面，光栅化落点网格，以vSrc屏幕导数面积估计集中度；主shader加高度近似及涟漪曲率。",
+      "failure": "这是浅水/固定平面等近似，不能当阀内流场或完整路径追踪；t参数固定FFT而涟漪按调用累积，不支持未经改写的任意seek。",
+      "review": "对比波峰/波谷亮纹与侧视反射；离线迁移需固定步长重播涟漪并测乱序，不把实时demo当完整影片。",
+      "source_refs": [
+        {
+          "source": "clearwater",
+          "path": "index.html",
+          "line": 297
+        },
+        {
+          "source": "clearwater",
+          "path": "index.html",
+          "line": 508
+        },
+        {
+          "source": "clearwater",
+          "path": "index.html",
+          "line": 871
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "code_observed_with_adaptation",
+      "status_note": "选定源码已读；作者成片未在本轮审看，不认证原片质量或本机可运行性。"
+    },
+    {
+      "id": "subject-intent",
+      "title": "主体判断、减速和预备转向",
+      "terms": [
+        "飞行器",
+        "车辆",
+        "意图",
+        "判断",
+        "跟拍",
+        "转向"
+      ],
+      "purpose": "环境约束改变主体行为，主体请求引发反馈。",
+      "relation": "输入/行为→受限响应→结果；共享绝对时间状态。",
+      "decisions": "先保证主动作可读和约束正确，再加入相机/次级动作。",
+      "implementation": "mechanical.mjs pathAt显式位置/速度节点；subject-camera.mjs伴随。路径先减速/等待，再通行；姿态可提前指向新路径。",
+      "failure": "输入先后错、穿透约束、跟拍遮住接触；均匀插值掩盖判断。",
+      "review": "看输入、动作极值、接触和最终结果的连续窗；比较背景与主体。",
+      "source_refs": [
+        {
+          "source": "codex-tools",
+          "path": "mechanical.mjs",
+          "line": 14
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "independent_state_checks_and_render_verified",
+      "status_note": "2026-10-10独立机械/寻址状态检查、运动测试与两例完整导出已有证据；证明接口约束及可渲染性。按用户最新要求先展示成片，最终审美反馈待用户，未认证整片画质。",
+      "operating": {
+        "stack": "无依赖JavaScript；Canvas/Three接入",
+        "video_types": [
+          "3D",
+          "角色",
+          "产品"
+        ],
+        "input_output": "带单位输入/绝对t → 状态或位置数组",
+        "parameters": "knots t/p/v,bank anticipation,camera lag",
+        "combine": "hold-cause + event-story + reveal-path；不固定故事/风格",
+        "performance": "valve O(1)，path O(knots)，无模拟历史",
+        "avoid": "严格匀速或既定机械运动",
+        "minimum_verification": "node --test assets/test-motion.mjs",
+        "scope": "局部准静态状态/轨迹；成片须实际审阅"
+      }
+    },
+    {
+      "id": "load-regulated-valve",
+      "title": "预载、压差与受限机械行程",
+      "terms": [
+        "阀",
+        "弹簧",
+        "受力",
+        "约束",
+        "止回",
+        "机械"
+      ],
+      "purpose": "阀瓣位移、弹簧压缩、流动许可由同一状态控制。",
+      "relation": "输入/行为→受限响应→结果；共享绝对时间状态。",
+      "decisions": "先保证主动作可读和约束正确，再加入相机/次级动作。",
+      "implementation": "mechanical.mjs valveState: clamp((pressure*area-preload)/stiffness,0,stroke)，固定端由restLength保持；是准静态示意。",
+      "failure": "输入先后错、穿透约束、跟拍遮住接触；均匀插值掩盖判断。",
+      "review": "看输入、动作极值、接触和最终结果的连续窗；比较背景与主体。",
+      "source_refs": [
+        {
+          "source": "codex-tools",
+          "path": "mechanical.mjs",
+          "line": 3
+        }
+      ],
+      "gallery_slugs": [],
+      "status": "independent_state_checks_and_render_verified",
+      "status_note": "2026-10-10独立机械/寻址状态检查、运动测试与两例完整导出已有证据；证明接口约束及可渲染性。按用户最新要求先展示成片，最终审美反馈待用户，未认证整片画质。",
+      "operating": {
+        "stack": "无依赖JavaScript；Canvas/Three接入",
+        "video_types": [
+          "机械",
+          "科学"
+        ],
+        "input_output": "带单位输入/绝对t → 状态或位置数组",
+        "parameters": "pressure,area,preload,stiffness,stroke,restLength,seat",
+        "combine": "hold-cause + event-story + reveal-path；不固定故事/风格",
+        "performance": "valve O(1)，path O(knots)，无模拟历史",
+        "avoid": "动态撞击/流体仿真、无阻尼惯性求解",
+        "minimum_verification": "node --test assets/test-motion.mjs",
+        "scope": "局部准静态状态/轨迹；成片须实际审阅"
+      }
+    }
+  ],
+  "quality_scope": {
+    "recent_commit_is_not_release_or_quality_proof": true,
+    "opus_wave_start_date_verified": false,
+    "new_films_watched_or_run": false,
+    "all_local_sources_quality_certified": false,
+    "roles": {
+      "film": "影片工程；是否优质看quality_evidence",
+      "film_engine": "引擎及叙事影片；不是自动标杆",
+      "component": "材料/模拟机制，不能顶替影片标杆",
+      "independent_tool": "本地工具，不能证明原作质量"
+    },
+    "selection_rule": "优先近期实际作品工程、明确绘制路径、可追溯成片与源码；源码/日期不替代动态审片，旧基础demo不进入影片标杆名单。"
+  }
+}

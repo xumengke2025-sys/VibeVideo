@@ -1,0 +1,370 @@
+{
+  "duration": 60,
+  "fps": 24,
+  "representatives": [
+    {
+      "shot": "S01",
+      "state": "establish",
+      "time": 0.4,
+      "frame": 10
+    },
+    {
+      "shot": "S01",
+      "state": "action",
+      "time": 2.35,
+      "frame": 56
+    },
+    {
+      "shot": "S01",
+      "state": "result",
+      "time": 3.3,
+      "frame": 79
+    },
+    {
+      "shot": "S02",
+      "state": "establish",
+      "time": 4.5,
+      "frame": 108
+    },
+    {
+      "shot": "S02",
+      "state": "action",
+      "time": 6.2,
+      "frame": 149
+    },
+    {
+      "shot": "S02",
+      "state": "result",
+      "time": 8.2,
+      "frame": 197
+    },
+    {
+      "shot": "S03",
+      "state": "establish",
+      "time": 9.4,
+      "frame": 226
+    },
+    {
+      "shot": "S03",
+      "state": "action",
+      "time": 11.2,
+      "frame": 269
+    },
+    {
+      "shot": "S03",
+      "state": "result",
+      "time": 13.3,
+      "frame": 319
+    },
+    {
+      "shot": "S04",
+      "state": "establish",
+      "time": 14.4,
+      "frame": 346
+    },
+    {
+      "shot": "S04",
+      "state": "action",
+      "time": 16.3,
+      "frame": 391
+    },
+    {
+      "shot": "S04",
+      "state": "result",
+      "time": 18.2,
+      "frame": 437
+    },
+    {
+      "shot": "S05",
+      "state": "establish",
+      "time": 19.5,
+      "frame": 468
+    },
+    {
+      "shot": "S05",
+      "state": "action",
+      "time": 20.6,
+      "frame": 494
+    },
+    {
+      "shot": "S05",
+      "state": "result",
+      "time": 23,
+      "frame": 552
+    },
+    {
+      "shot": "S06",
+      "state": "establish",
+      "time": 24.4,
+      "frame": 586
+    },
+    {
+      "shot": "S06",
+      "state": "action",
+      "time": 25.6,
+      "frame": 614
+    },
+    {
+      "shot": "S06",
+      "state": "result",
+      "time": 27.2,
+      "frame": 653
+    },
+    {
+      "shot": "S07",
+      "state": "establish",
+      "time": 28.5,
+      "frame": 684
+    },
+    {
+      "shot": "S07",
+      "state": "action",
+      "time": 31.1,
+      "frame": 746
+    },
+    {
+      "shot": "S07",
+      "state": "result",
+      "time": 32.4,
+      "frame": 778
+    },
+    {
+      "shot": "S08",
+      "state": "establish",
+      "time": 33.3,
+      "frame": 799
+    },
+    {
+      "shot": "S08",
+      "state": "action",
+      "time": 34.1,
+      "frame": 818
+    },
+    {
+      "shot": "S08",
+      "state": "result",
+      "time": 36.7,
+      "frame": 881
+    },
+    {
+      "shot": "S09",
+      "state": "establish",
+      "time": 38.6,
+      "frame": 926
+    },
+    {
+      "shot": "S09",
+      "state": "action",
+      "time": 41.1,
+      "frame": 986
+    },
+    {
+      "shot": "S09",
+      "state": "result",
+      "time": 42.2,
+      "frame": 1013
+    },
+    {
+      "shot": "S10",
+      "state": "establish",
+      "time": 43.5,
+      "frame": 1044
+    },
+    {
+      "shot": "S10",
+      "state": "action",
+      "time": 44.6,
+      "frame": 1070
+    },
+    {
+      "shot": "S10",
+      "state": "result",
+      "time": 48.3,
+      "frame": 1159
+    },
+    {
+      "shot": "S11",
+      "state": "establish",
+      "time": 49.5,
+      "frame": 1188
+    },
+    {
+      "shot": "S11",
+      "state": "action",
+      "time": 51.2,
+      "frame": 1229
+    },
+    {
+      "shot": "S11",
+      "state": "result",
+      "time": 54.4,
+      "frame": 1306
+    },
+    {
+      "shot": "S12",
+      "state": "establish",
+      "time": 55.4,
+      "frame": 1330
+    },
+    {
+      "shot": "S12",
+      "state": "action",
+      "time": 56.3,
+      "frame": 1351
+    },
+    {
+      "shot": "S12",
+      "state": "result",
+      "time": 58.6,
+      "frame": 1406
+    }
+  ],
+  "continuous_windows": [
+    {
+      "shot": "S01",
+      "reason": "risk",
+      "start_frame": 50,
+      "end_frame": 65
+    },
+    {
+      "shot": "S02",
+      "reason": "risk",
+      "start_frame": 96,
+      "end_frame": 108
+    },
+    {
+      "shot": "S02",
+      "reason": "risk",
+      "start_frame": 175,
+      "end_frame": 212
+    },
+    {
+      "shot": "S03",
+      "reason": "risk",
+      "start_frame": 300,
+      "end_frame": 332
+    },
+    {
+      "shot": "S04",
+      "reason": "risk",
+      "start_frame": 352,
+      "end_frame": 420
+    },
+    {
+      "shot": "S05",
+      "reason": "risk",
+      "start_frame": 487,
+      "end_frame": 540
+    },
+    {
+      "shot": "S06",
+      "reason": "risk",
+      "start_frame": 609,
+      "end_frame": 644
+    },
+    {
+      "shot": "S07",
+      "reason": "risk",
+      "start_frame": 703,
+      "end_frame": 761
+    },
+    {
+      "shot": "S08",
+      "reason": "risk",
+      "start_frame": 808,
+      "end_frame": 860
+    },
+    {
+      "shot": "S09",
+      "reason": "risk",
+      "start_frame": 945,
+      "end_frame": 996
+    },
+    {
+      "shot": "S10",
+      "reason": "risk",
+      "start_frame": 1063,
+      "end_frame": 1148
+    },
+    {
+      "shot": "S11",
+      "reason": "risk",
+      "start_frame": 1214,
+      "end_frame": 1263
+    },
+    {
+      "shot": "S12",
+      "reason": "risk",
+      "start_frame": 1334,
+      "end_frame": 1385
+    },
+    {
+      "reason": "action-cut",
+      "anchor": "同一靴与右上行进方向",
+      "start_frame": 88,
+      "end_frame": 106
+    },
+    {
+      "reason": "occlusion-time-ellipsis",
+      "anchor": "近兵背囊与右上方向，明确地理省略",
+      "start_frame": 208,
+      "end_frame": 228
+    },
+    {
+      "reason": "same-scene-cut",
+      "anchor": "同一前排兵与止步枪杆",
+      "start_frame": 328,
+      "end_frame": 348
+    },
+    {
+      "reason": "same-axis-cut",
+      "anchor": "完整方阵和右上骑兵",
+      "start_frame": 446,
+      "end_frame": 466
+    },
+    {
+      "reason": "result-cut",
+      "anchor": "法阵保持和将军视线",
+      "start_frame": 566,
+      "end_frame": 588
+    },
+    {
+      "reason": "shape-hard-cut",
+      "anchor": "旗面/帆折线方向，非同一物体",
+      "start_frame": 662,
+      "end_frame": 692
+    },
+    {
+      "reason": "detail-cut",
+      "anchor": "同一受击主桅和破帆状态",
+      "start_frame": 782,
+      "end_frame": 804
+    },
+    {
+      "reason": "time-place-ellipsis",
+      "anchor": "海声退干风入，海战结果后独立考察",
+      "start_frame": 900,
+      "end_frame": 932
+    },
+    {
+      "reason": "observation-cut",
+      "anchor": "观察/记录工作关系，另处清理现场",
+      "start_frame": 1022,
+      "end_frame": 1047
+    },
+    {
+      "reason": "semantic-action-cut",
+      "anchor": "记录手落定到登艇手，非石碑装船",
+      "start_frame": 1166,
+      "end_frame": 1193
+    },
+    {
+      "reason": "same-scene-cut",
+      "anchor": "同岸岩/足迹/艇去向",
+      "start_frame": 1310,
+      "end_frame": 1332
+    }
+  ],
+  "errors": [],
+  "scope": "Plan/evidence consistency only; visual and sound judgments require actual observation."
+}

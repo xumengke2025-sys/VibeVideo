@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s16-root { position: absolute; inset: 0; }
+        .s16-seg { position: absolute; top: 0; height: 100%; overflow: hidden; }
+        .s16-seg > div { position: absolute; top: 0; height: 100%; }
+        .s16-seg svg { display: block; width: 100%; height: 100%; }
+        .s16-cutline { position: absolute; top: 0; width: 3px; height: 100%; background: #08080a; }
+        #s16-recipe { left: 1070px; top: 330px; width: 720px; height: 540px; }
+        #s16-recipe .k-micro { position: absolute; left: 32px; }
+        #s16-head { top: 30px; }
+        #s16-rname { position: absolute; left: 32px; top: 58px; font: 600 38px/1.1 var(--k-display); letter-spacing: -0.02em; color: var(--k-ink); }
+        .s16-kv { position: absolute; left: 32px; right: 32px; height: 40px; display: flex; align-items: center; }
+        #s16-recipe .s16-kv .k-micro { position: static; width: 150px; flex: none; }
+        .s16-kv .k-mono { font-size: 26px; color: var(--k-ink); white-space: pre; }
+        #s16-price .k-mono { color: var(--k-ink-2); }
+        #s16-from { top: 250px; }
+        .s16-row { position: absolute; left: 20px; right: 20px; height: 70px; border-radius: 10px; display: flex; align-items: center; gap: 18px; padding: 0 12px; }
+        .s16-row .s16-th { position: relative; width: 96px; height: 54px; border-radius: 6px; overflow: hidden; flex: none; box-shadow: 0 0 0 1.5px var(--k-line); }
+        .s16-row .s16-th svg { display: block; width: 100%; height: 100%; }
+        .s16-row span { font: 500 24px/1 var(--k-mono); color: var(--k-ink); white-space: pre; }
+        .s16-row em { margin-left: auto; font: 500 24px/1 var(--k-mono); font-style: normal; color: var(--k-ink-2); }
+      </style>
+      <div id="s16-root" data-composition-id="s16-cut" data-width="1920" data-height="1080">
+        <div id="s16-scene" class="k-scene">
+          <div id="s16-recipe" class="k-panel">
+            <div id="s16-head" class="k-micro">recipe</div>
+            <div id="s16-rname">harbour cut · 16 s</div>
+            <div id="s16-model" class="s16-kv" style="top:130px"><span class="k-micro">model</span><span id="s16-model-v" class="k-mono"></span></div>
+            <div id="s16-price" class="s16-kv" style="top:184px"><span class="k-micro">price</span><span class="k-mono">0 cr · rendered in your browser</span></div>
+            <div id="s16-from" class="k-micro">cut from</div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s16-scene");
+          const recipe = document.getElementById("s16-recipe");
+
+          // The clips the cut was made from, already on the canvas, still.
+          const CLIPS = [
+            { name: "first clip", len: "4 s", cr: "40 cr", art: { boat: 30, mood: "dusk" } },
+            { name: "harbour flight", len: "8 s", cr: "80 cr", art: { boat: 12 } },
+            { name: "next clip", len: "4 s", cr: "40 cr", art: { boat: 50, mood: "night" } },
+          ];
+          const clips = CLIPS.map((c, i) => K.card(scene, { id: `s16-clip${i}`, left: 110, top: 220 + i * 240, scale: 1.2, art: K.harbourArt(c.art), name: c.name, cr: c.cr }));
+
+          // The finished cut: its picture is the three clips in order, 4 s · 8 s · 4 s.
+          const S = 1.9, CL = 560, CT = 380;
+          const film = K.card(scene, { id: "s16-film", left: CL, top: CT, scale: S, name: "harbour cut", cr: "0 cr", state: "selected" });
+          const thumb = K.part(film, "k-thumb");
+          const SEG = [[0, 25], [25, 50], [75, 25]];
+          SEG.forEach(([x, w], i) => {
+            const seg = K.el(thumb, "div", { class: "s16-seg", "data-layout-allow-overflow": "", style: { left: x + "%", width: w + "%" } });
+            K.el(seg, "div", { "data-layout-allow-overflow": "", style: { left: (-x / w) * 100 + "%", width: (100 / w) * 100 + "%" } }, K.harbourArt(CLIPS[i].art));
+            if (i) K.el(thumb, "div", { class: "s16-cutline", style: { left: `calc(${x}% - 1.5px)` } });
+          });
+          const { cx, mediaCy, W } = film.k;
+
+          // Reference edges: each clip into the cut.
+          const edges = clips.map((c, i) => {
+            const y0 = c.k.mediaCy, y1 = mediaCy - 50 + i * 50;
+            return K.edge(scene, `M${c.k.left + c.k.W + 6} ${y0} C ${470} ${y0}, ${480} ${y1}, ${CL - 6} ${y1}`, { alpha: 0.35 });
+          });
+
+          // The recipe's "cut from" rows: a thumb of each clip, its length and price.
+          const rows = CLIPS.map((c, i) => K.el(recipe, "div", { class: "s16-row", style: { top: 286 + i * 80 + "px" } },
+            `<div class="s16-th">${K.harbourArt(c.art)}</div><span>${c.name} · ${c.len}</span><em>${c.cr}</em>`));
+
+          K.chrome(scene, tl, { title: "A cut is a card too", step: 6, balance: "1,918 cr", animateStep: false });
+
+          // b0: the finished film fades up on the canvas, a card like any other
+          K.pop(tl, film, 0);
+          // b1: reference edges draw from the clips it was cut from
+          K.draw(tl, edges[0], 1, 0.22);
+          edges.slice(1).forEach((e) => {
+            const L = e.getTotalLength();
+            e.setAttribute("stroke-dasharray", `${L} ${L}`);
+            tl.fromTo(e, { attr: { "stroke-dashoffset": L } }, { attr: { "stroke-dashoffset": 0 }, duration: 0.22, ease: "power2.out", data: "follow" }, K.t(1));
+          });
+          // b2: its recipe opens beside it
+          K.pop(tl, recipe, 2);
+          // b3: the model: the browser's own
+          K.type(tl, document.getElementById("s16-model-v"), "video/timeline", 3, 0.2);
+          // b4: the price: nothing, it rendered in your browser
+          K.pop(tl, document.getElementById("s16-price"), 4);
+          // b5–b7: the clips it was cut from, one per beat
+          tl.fromTo("#s16-from", { opacity: 0 }, { opacity: 1, duration: 0.12, data: "follow" }, K.t(5));
+          rows.forEach((r, i) => K.pop(tl, r, 5 + i));
+
+          K.focus(scene, tl, "s16", [
+            [0, cx, mediaCy], [1, 600, mediaCy], [2, 1140, 400], [3, 1330, 480],
+            [4, 1380, 534], [5, 1300, 650], [6, 1300, 730], [7, 1300, 810],
+          ]);
+          scene.querySelectorAll("svg").forEach((v) => v.setAttribute("data-layout-allow-overflow", "")); // the art's sun glow bleeds past the media on purpose
+          K.check(tl, "s16");
+          window.__timelines["s16-cut"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

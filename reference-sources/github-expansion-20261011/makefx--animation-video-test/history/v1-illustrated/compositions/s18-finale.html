@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s18-root { position: absolute; inset: 0; }
+        #s18-world { width: 1920px; height: 1080px; transform-origin: 960px 590px; }
+        .s18-tag { font-size: 20px; }
+        .s18-edge { padding: 3px 10px; border-radius: 999px; background: #16161b; border: 1.5px solid var(--k-line-dim); color: #a8a8a3; font: 500 18px/1.2 var(--k-mono); }
+        .s18-far { font: 500 30px/1.45 var(--k-mono); color: #8a8a86; white-space: nowrap; }
+        .s18-box { padding: 18px 24px; border-radius: 18px; border: 2px solid var(--k-line-dim); background: rgba(15,15,19,.9); }
+        #s18-link { left: 1490px; top: 650px; width: 370px; padding: 14px 18px; border-radius: 16px; border: 2px solid var(--k-line); background: var(--k-surface); white-space: nowrap; font: 500 19px/1.4 var(--k-mono); color: var(--k-bp-ink); }
+        #s18-link small { display: block; color: #a8a8a3; font-size: 18px; }
+        #s18-mark { left: 0; top: 380px; width: 1920px; text-align: center; font: 600 220px/1 var(--k-display); letter-spacing: -0.04em; color: var(--k-bp-ink); white-space: pre; }
+        #s18-mark span { color: var(--k-accent); }
+        #s18-sub { left: 0; top: 650px; width: 1920px; text-align: center; font: 500 40px/1 var(--k-mono); color: #a8a8a3; white-space: pre; }
+        #s18-rule { left: 880px; top: 716px; width: 160px; height: 6px; border-radius: 3px; background: var(--k-accent); transform-origin: 50% 50%; }
+      </style>
+      <div id="s18-root" data-composition-id="s18-finale" data-width="1920" data-height="1080">
+        <div id="s18-scene" class="k-scene k-bp">
+          <div id="s18-world" class="k-abs" data-layout-allow-overflow>
+            <svg id="s18-lines" class="k-abs" width="1920" height="1080" data-layout-allow-overflow>
+              <path id="s18-e1" d="M362 440 C 440 440, 450 630, 538 630" fill="none" stroke="rgba(245,245,244,.72)" stroke-width="3" />
+              <path id="s18-e2" d="M722 630 C 800 630, 810 440, 898 440" fill="none" stroke="rgba(245,245,244,.72)" stroke-width="3" />
+              <path id="s18-e3" d="M1082 440 C 1160 440, 1170 630, 1258 630" fill="none" stroke="rgba(245,245,244,.72)" stroke-width="3" />
+              <path id="s18-e4" d="M1442 630 C 1500 630, 1510 440, 1578 440" fill="none" stroke="rgba(245,245,244,.72)" stroke-width="3" />
+              <path id="s18-e5" d="M1670 512 V 650" fill="none" stroke="rgba(245,245,244,.72)" stroke-width="3" />
+            </svg>
+            <div id="s18-link" class="k-abs"><small>open to anyone</small>makefx.app/alv/salt-harbour</div>
+          </div>
+          <div id="s18-mark" class="k-abs">make<span>fx</span></div>
+          <div id="s18-sub" class="k-abs"></div>
+          <div id="s18-rule" class="k-abs"></div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s18-scene");
+          const world = document.getElementById("s18-world");
+          K.chrome(scene, tl, { title: "how makefx works", chapter: "7 · share", step: 7 });
+          // Scene 17 already closed the ring; hold it full instead of replaying the last chapter.
+          const arc = scene.querySelector(".k-arc");
+          tl.getTweensOf(arc).forEach((t) => t.kill());
+          gsap.set(arc, { attr: { "stroke-dashoffset": 0 } });
+          gsap.set(world, { y: 50 }); // centre the chain in the frame; the zoom scales about the same point
+          const chrome = [...scene.querySelectorAll(":scope > .k-title, :scope > .k-underline, :scope > .k-ring, :scope > .k-chapter")];
+
+          // Registration marks at the corners: they stay on the title card.
+          K.cross(scene, 110, 170); K.cross(scene, 1810, 170); K.cross(scene, 110, 1000); K.cross(scene, 1810, 1000);
+
+          // The chain, left to right: every card the film touched, each with its price.
+          const S = 0.84, W = 220 * S;
+          const NODES = [
+            [178, 336, "still · image/flux-2", "3 cr", { mood: "day", boat: -30 }],
+            [538, 526, "video/h3-max · 8 s", "80 cr", { boat: 12 }],
+            [898, 336, "image/frame", "0 cr", { boat: 12, line: true }],
+            [1258, 526, "clip · 4 s", "40 cr", { mood: "dusk", boat: 30 }],
+            [1578, 336, "video/timeline", "0 cr", null],
+          ];
+          const seg = (x0, x1, mood, boat, k) => `<clipPath id="s18-seg${k}"><rect x="${x0}" y="24" width="${x1 - x0}" height="104"/></clipPath><g clip-path="url(#s18-seg${k})">${K.harbourArt({ boat, mood })}</g>`;
+          const cutArt = seg(24, 82, "day", -14, 0) + seg(82, 139, "dusk", 30, 1) + seg(139, 196, "night", 70, 2) + '<path d="M82 24 V128 M139 24 V128" stroke="#08080a" stroke-width="3"/>';
+          const nodeEls = NODES.map(([x, y, label, cr, art], i) => {
+            const g = K.el(world, "div", { class: "k-abs", style: { left: 0, top: 0, width: "1920px", height: "1080px" } });
+            const c = K.card(g, { id: `s18-n${i}`, theme: "bp", left: x, top: y, scale: S, thumb: art ? K.harbourArt(art) : cutArt });
+            gsap.set(K.part(c, "k-bar"), { opacity: 0 });
+            if (i === 1) K.part(c, "k-body").style.stroke = "#f2c14e"; // amber marks the film this story followed
+            const t = K.el(g, "div", { class: `k-pill s18-tag${i === 1 ? " k-amber" : ""}`, style: { left: x + W / 2 + "px", top: (i % 2 ? y + 184 : y - 48) + "px", transform: "translateX(-50%)" } });
+            t.textContent = `${label} · ${cr}`;
+            return { g, c, cx: x + W / 2, cy: y + 76 * S };
+          });
+          // Edge labels on the reference lines.
+          [[380, 518, "start_frame"], [773, 518, "frame"], [1100, 518, "start_frame"], [1473, 518, "clips"]].forEach(([x, y, s]) =>
+            (K.el(world, "div", { class: "k-abs s18-edge", style: { left: x + "px", top: y + "px" } }).textContent = s));
+
+          // Beyond the frame: the rest of the story, revealed only when the camera pulls back.
+          const far = (x, y, html, cls = "s18-far") => K.el(world, "div", { class: `k-abs ${cls}`, "data-layout-allow-overflow": "", style: { left: x + "px", top: y + "px" } }, html);
+          far(-500, 180, `<div class="s18-box">$ claude mcp add<div>--transport http makefx</div><div>https://makefx.app/mcp</div></div>`);
+          far(-500, 520, `<div class="s18-box">create_asset<div>"kind": "video"</div><div>"model": "video/h3-max"</div><div>"duration_seconds": 8</div></div>`);
+          far(-530, 930, `<div class="s18-box" style="border-color:rgba(240,101,90,.6)"><span style="color:#f0655a">failed</span> · provider_timeout<div>refunded · 0 cr</div></div>`);
+          far(1950, 180, `<div class="s18-box">one space, one writer<div>queued → generating</div><div>→ ready</div></div>`);
+          far(1950, 540, `<div class="s18-box">balance<div>2,000 cr → 1,920 cr</div><div>1 credit = €0.01</div></div>`);
+          far(1950, 860, `<div class="s18-box">r2<div>media/{account}/</div><div>{space}/{asset}.mp4</div></div>`);
+          far(81, 1130, `<div class="s18-box">mark running → prepare references → submit → poll &amp; persist → inspect → poster → complete</div>`);
+          far(560, 1250, `describe · 2 cr · "red scarf, round glasses"`);
+          K.el(world, "svg", { class: "k-abs", width: 1920, height: 1080, "data-layout-allow-overflow": "", style: { overflow: "visible", pointerEvents: "none" } },
+            `<path d="M-8 250 C 80 250, 100 420, 178 420 M-8 610 C 200 610, 300 670, 538 670 M1763 420 C 1850 420, 1880 250, 1950 250 M1840 700 C 1900 700, 1900 620, 1950 620 M760 1130 C 760 950, 640 900, 630 760" stroke="rgba(245,245,244,.22)" stroke-width="3" stroke-dasharray="6 10" fill="none"/>`);
+
+          // b0–b4: one card per beat, each reached by the line from the last
+          nodeEls.forEach(({ g }, i) => {
+            if (i > 0) K.draw(tl, document.getElementById(`s18-e${i}`), i, 0.16, "power1.in");
+            tl.fromTo(g, { opacity: 0, scale: 0.7, transformOrigin: `${nodeEls[i].cx}px ${nodeEls[i].cy + 40}px` }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.2)", data: i ? "follow" : undefined }, K.t(i) + (i ? 0.08 : 0));
+          });
+          world.querySelectorAll(".s18-edge").forEach((e, i) => tl.fromTo(e, { opacity: 0 }, { opacity: 1, duration: 0.1, data: "follow" }, K.t(i + 1) + 0.1));
+          // b5: the space's link: open to anyone
+          K.draw(tl, document.getElementById("s18-e5"), 5, 0.1, "power1.in");
+          tl.fromTo("#s18-link", { opacity: 0, y: -16 }, { opacity: 1, y: 0, duration: 0.2, ease: "back.out(2)", data: "follow" }, K.t(5) + 0.06);
+          // b6–b7: pull back to the whole space
+          tl.fromTo(world, { scale: 1 }, { scale: 0.6, duration: 0.5, ease: "power2.inOut" }, K.t(6));
+          // bar 2, b8: the space steps back into the dark; the chrome leaves
+          tl.to(world, { opacity: 0, scale: 0.54, duration: 0.25, ease: "power1.in" }, K.t(8));
+          tl.to(chrome, { opacity: 0, duration: 0.2, data: "follow" }, K.t(8));
+          // b9: the wordmark
+          tl.fromTo("#s18-mark", { opacity: 0, scale: 0.86, y: 20, transformOrigin: "50% 60%" }, { opacity: 1, scale: 1, y: 0, duration: 0.3, ease: "back.out(1.8)" }, K.t(9));
+          // b10: what this was
+          K.type(tl, document.getElementById("s18-sub"), "how makefx works", 10, 0.22);
+          // b11: the amber rule, then a still hold to the end
+          tl.fromTo("#s18-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.22, ease: "power2.out" }, K.t(11));
+          tl.set({}, {}, 6);
+
+          K.focus(scene, tl, "s18", [
+            [0, 270, 450], [1, 630, 640], [2, 990, 450], [3, 1350, 640], [4, 1670, 450], [5, 1660, 750],
+            [6, 1300, 660], [7, 960, 620], [8, 960, 590], [9, 960, 480], [10, 960, 668], [11, 960, 719],
+          ]);
+          K.check(tl, "s18");
+          window.__timelines["s18-finale"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

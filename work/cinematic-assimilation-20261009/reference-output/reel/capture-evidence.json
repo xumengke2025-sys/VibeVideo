@@ -1,0 +1,55 @@
+{
+  "mode": "reel",
+  "info": {
+    "duration": 84,
+    "fps": 30,
+    "gpu": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A788) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "times": [
+    2.5,
+    5,
+    9,
+    12.25,
+    16.2,
+    20.25,
+    42.75,
+    48.5,
+    50.25,
+    64.5,
+    78.8
+  ],
+  "range": {
+    "start": 16,
+    "frames": 30,
+    "fps": 30,
+    "sub": 1
+  },
+  "repeat": {
+    "t": 16.25,
+    "a": "0e7f7042c4a76d96dbd0ef4d0c62c652c71da0420cdd52f2ebafea1a63ca264d",
+    "b": "0e7f7042c4a76d96dbd0ef4d0c62c652c71da0420cdd52f2ebafea1a63ca264d",
+    "identical": true,
+    "meanAbsRGB_0_255": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "differenceBBox": null
+  },
+  "errors": [],
+  "blocked": [],
+  "requests": [
+    "http://127.0.0.1:64928/?render",
+    "http://127.0.0.1:64928/cues.js",
+    "http://127.0.0.1:64928/reel.js",
+    "http://127.0.0.1:64928/three160/build/three.module.js",
+    "http://127.0.0.1:64928/adapter/9a0b87665ccc20511f3c.woff2",
+    "http://127.0.0.1:64928/adapter/f57c41b0eb84cc4cd2fc.woff2",
+    "http://127.0.0.1:64928/adapter/7e0a56187ecaff85f3d0.woff2",
+    "http://127.0.0.1:64928/adapter/c1c656933a1f4b14b7cc.woff2",
+    "http://127.0.0.1:64928/adapter/6d83b1a12212ea9e5ba8.woff2",
+    "http://127.0.0.1:64928/adapter/d54bce252ddebab44f68.woff2",
+    "http://127.0.0.1:64928/adapter/37812342a65ea9cf0f4f.woff2"
+  ],
+  "adaptation": "local fonts + engine imports; original drawing code unchanged; 960px capture; beach sub=1"
+}

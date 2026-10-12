@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s08-root { position: absolute; inset: 0; }
+        #s08-floor { left: 40px; top: 900px; width: 1840px; height: 40px; border-radius: 12px; background: #d9b98a; border: 5px solid var(--k-ink); }
+        #s08-floor-front { left: 80px; top: 936px; width: 1760px; height: 144px; background: #c9a877; border-left: 5px solid var(--k-ink); border-right: 5px solid var(--k-ink); }
+        #s08-provider { left: 110px; top: 330px; width: 340px; height: 580px; }
+        #s08-bucket { left: 1440px; top: 690px; width: 340px; height: 220px; }
+        #s08-valve { left: 486px; top: 512px; width: 68px; height: 68px; }
+        #s08-head { padding: 4px 14px; border-radius: 999px; background: var(--k-accent); border: 3px solid var(--k-ink); font: 500 22px/1.2 var(--k-mono); color: var(--k-accent-ink); }
+        #s08-chip { left: 806px; top: 262px; }
+        #s08-nobytes { left: 1136px; top: 382px; font-size: 26px; }
+        #s08-sign { left: 1110px; top: 700px; padding: 8px 16px; border-radius: 12px; background: #fffaf0; border: 4px solid var(--k-ink); box-shadow: 0 6px 0 var(--k-ink); font: 500 22px/1.25 var(--k-mono); color: var(--k-ink); white-space: nowrap; }
+        #s08-sign b { font-weight: 500; color: var(--k-ink-2); }
+        #s08-key { left: 1236px; top: 956px; font-size: 22px; }
+        #s08-note { left: 136px; top: 962px; font: 500 26px/1.3 var(--k-mono); color: #2a2118; }
+        #s08-store { left: 1668px; top: 452px; padding: 8px 18px; border-radius: 12px; background: #fffaf0; border: 4px solid var(--k-ink); box-shadow: 0 6px 0 var(--k-ink); font: 600 28px/1.2 var(--k-display); color: var(--k-ink); white-space: nowrap; }
+        #s08-store-post { left: 1740px; top: 500px; width: 14px; height: 200px; background: #c9a877; border: 4px solid var(--k-ink); }
+      </style>
+      <div id="s08-root" data-composition-id="s08-stream" data-width="1920" data-height="1080">
+        <div id="s08-scene" class="k-scene k-warm">
+          <div id="s08-floor-front" class="k-abs"></div>
+          <div id="s08-floor" class="k-abs"></div>
+          <div id="s08-note" class="k-abs">no step returns bytes</div>
+          <svg id="s08-pipe" class="k-abs" width="1920" height="1080" data-layout-allow-overflow>
+            <defs>
+              <mask id="s08-flow-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="1080">
+                <path id="s08-flow-reveal" d="M452 620 H1560 Q1610 620 1610 670 V716" fill="none" stroke="#fff" stroke-width="40" />
+              </mask>
+            </defs>
+            <rect x="688" y="640" width="24" height="262" rx="4" fill="#c9a877" stroke="#2a2118" stroke-width="4" />
+            <rect x="1248" y="640" width="24" height="64" rx="4" fill="#c9a877" stroke="#2a2118" stroke-width="4" />
+            <path d="M452 620 H1560 Q1610 620 1610 670 V716" fill="none" stroke="#2a2118" stroke-width="52" />
+            <path d="M452 620 H1560 Q1610 620 1610 670 V716" fill="none" stroke="#fffaf0" stroke-width="40" />
+            <path d="M462 606 H1540" fill="none" stroke="#efe3c8" stroke-width="5" stroke-linecap="round" />
+            <g mask="url(#s08-flow-mask)">
+              <path d="M452 620 H1560 Q1610 620 1610 670 V716" fill="none" stroke="#f2c14e" stroke-width="26" />
+              <path d="M452 610 H1560 Q1620 610 1620 670 V716" fill="none" stroke="#2a2118" stroke-width="5" stroke-dasharray="8 12" />
+              <path d="M452 630 H1560 Q1600 630 1600 670 V716" fill="none" stroke="#2a2118" stroke-width="5" stroke-dasharray="8 12" />
+            </g>
+            <g fill="#e8dcc0" stroke="#2a2118" stroke-width="4">
+              <rect x="444" y="584" width="20" height="72" rx="4" />
+              <rect x="592" y="588" width="16" height="64" rx="4" />
+              <rect x="1352" y="588" width="16" height="64" rx="4" />
+              <rect x="1576" y="690" width="68" height="16" rx="4" />
+            </g>
+          </svg>
+          <div id="s08-store-post" class="k-abs"></div>
+          <div id="s08-store" class="k-abs">storage</div>
+          <div id="s08-provider" class="k-abs"></div>
+          <div id="s08-bucket" class="k-abs" data-layout-allow-overflow></div>
+          <div id="s08-valve" class="k-abs"></div>
+          <div id="s08-sign" class="k-abs"><b>step</b> · poll &amp; persist</div>
+          <div id="s08-chip" class="k-pill">generating</div>
+          <div id="s08-nobytes" class="k-pill">holds no bytes</div>
+          <div id="s08-head" class="k-abs">mp4</div>
+          <div id="s08-key" class="k-pill k-amber">media/{account}/{space}/{asset}.mp4</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s08-scene");
+          K.grain(scene, "s08");
+          K.cloud(scene, 600, 180, 0.7); K.cloud(scene, 1240, 200, 0.9); K.cloud(scene, 1500, 300, 0.6);
+          K.mug(scene, 540, 802);
+          K.chrome(scene, tl, { title: "bytes go straight to storage", chapter: "3 · generate", step: 3 });
+
+          // The provider: a machine at the far end of the pipe. Still detail only.
+          document.getElementById("s08-provider").innerHTML = `
+            <svg width="340" height="580" viewBox="0 0 340 580">
+              <rect x="8" y="46" width="320" height="530" rx="26" fill="#2a2118"/>
+              <rect x="8" y="36" width="320" height="530" rx="26" fill="#fffaf0" stroke="#2a2118" stroke-width="5"/>
+              <rect x="8" y="36" width="320" height="86" rx="26" fill="#f2c14e" stroke="#2a2118" stroke-width="5"/>
+              <rect x="10" y="96" width="316" height="26" fill="#f2c14e"/><path d="M8 122 H328" stroke="#2a2118" stroke-width="5"/>
+              <text x="168" y="92" text-anchor="middle" font-family="Space Grotesk" font-weight="600" font-size="38" fill="#1a1300">provider</text>
+              <rect x="40" y="150" width="256" height="64" rx="14" fill="#efe3c8" stroke="#2a2118" stroke-width="4"/>
+              <text x="168" y="191" text-anchor="middle" font-family="JetBrains Mono" font-weight="500" font-size="24" fill="#2a2118">video/h3-max</text>
+              <circle cx="104" cy="290" r="50" fill="#efe3c8" stroke="#2a2118" stroke-width="4"/>
+              <path d="M70 290 A34 34 0 0 1 138 290" fill="none" stroke="#c9a877" stroke-width="8"/>
+              <path d="M104 290 L130 262" stroke="#f0655a" stroke-width="6" stroke-linecap="round"/><circle cx="104" cy="290" r="8" fill="#2a2118"/>
+              <g fill="#f2c14e" stroke="#2a2118" stroke-width="4"><circle cx="210" cy="262" r="14"/><circle cx="256" cy="262" r="14" fill="#7bd389"/><circle cx="210" cy="318" r="14" fill="#efe3c8"/><circle cx="256" cy="318" r="14" fill="#efe3c8"/></g>
+              <g stroke="#2a2118" stroke-width="5" stroke-linecap="round"><path d="M50 390 H290"/><path d="M50 420 H290"/><path d="M50 450 H290"/><path d="M50 480 H290"/></g>
+              <g fill="#2a2118"><circle cx="34" cy="146" r="5"/><circle cx="302" cy="146" r="5"/><circle cx="34" cy="540" r="5"/><circle cx="302" cy="540" r="5"/></g>
+              <rect x="120" y="520" width="96" height="30" rx="8" fill="#efe3c8" stroke="#2a2118" stroke-width="4"/>
+            </svg>`;
+
+          // The bucket: r2. A clear pail so the fill shows; the level rises in b6.
+          document.getElementById("s08-bucket").innerHTML = `
+            <svg width="340" height="220" viewBox="0 0 340 220" overflow="visible">
+              <defs><clipPath id="s08-pail"><path d="M24 30 H316 L290 206 H50 Z"/></clipPath></defs>
+              <path d="M24 30 H316 L290 206 H50 Z" fill="#fffaf0" stroke="#2a2118" stroke-width="5" stroke-linejoin="round"/>
+              <path id="s08-pour" d="M170 30 V204" fill="none" stroke="#f2c14e" stroke-width="22"/>
+                            <g clip-path="url(#s08-pail)"><g id="s08-fill">
+                <rect x="0" y="0" width="340" height="220" fill="#f2c14e"/>
+                <g fill="none" stroke="#2a2118" stroke-width="4">
+                  ${[0, 1, 2, 3, 4].map((i) => `<rect x="${40 + i * 56}" y="16" width="44" height="30" rx="5"/>`).join("")}
+                  ${[0, 1, 2, 3].map((i) => `<rect x="${68 + i * 56}" y="58" width="44" height="30" rx="5"/>`).join("")}
+                  ${[0, 1, 2, 3, 4].map((i) => `<rect x="${40 + i * 56}" y="100" width="44" height="30" rx="5"/>`).join("")}
+                </g>
+                <path d="M0 3 H340" stroke="#2a2118" stroke-width="5"/>
+              </g></g>
+              <path d="M24 30 H316 L290 206 H50 Z" fill="none" stroke="#2a2118" stroke-width="5" stroke-linejoin="round"/>
+              <rect x="14" y="18" width="312" height="22" rx="10" fill="#e8dcc0" stroke="#2a2118" stroke-width="5"/>
+              <path d="M40 150 H300" stroke="#2a2118" stroke-width="4" opacity=".35"/>
+              <rect x="112" y="92" width="116" height="56" rx="12" fill="#fffaf0" stroke="#2a2118" stroke-width="4"/>
+              <text x="170" y="132" text-anchor="middle" font-family="Space Grotesk" font-weight="600" font-size="34" fill="#2a2118">r2</text>
+            </svg>`;
+          const fill = document.getElementById("s08-fill");
+
+          // The valve on the provider's outlet.
+          const valve = document.getElementById("s08-valve");
+          valve.innerHTML = `<svg width="68" height="68" viewBox="0 0 68 68"><circle cx="34" cy="34" r="27" fill="none" stroke="#2a2118" stroke-width="10"/><circle cx="34" cy="34" r="27" fill="none" stroke="#f0655a" stroke-width="5"/><path d="M34 8 V60 M8 34 H60" stroke="#2a2118" stroke-width="6"/><circle cx="34" cy="34" r="8" fill="#fffaf0" stroke="#2a2118" stroke-width="4"/></svg>`;
+          K.el(scene, "div", { class: "k-abs", style: { left: "514px", top: "572px", width: "12px", height: "26px", background: "#2a2118" } });
+
+          // The protagonist, generating, standing on the pipe: the stream passes under its feet.
+          const S = 1.4, cx = 960, CL = cx - 110 * S, CT = 594 - 202 * S;
+          const card = K.card(scene, { id: "s08-card", theme: "warm", left: CL, top: CT, scale: S });
+          const bar = K.part(card, "k-bar"), eyes = K.part(card, "k-eyes");
+          gsap.set(bar, { scaleX: 0.55, transformOrigin: "0 50%" });
+          gsap.set(eyes, { scaleY: 0.15, transformOrigin: "50% 50%" });
+          // An empty thumbnail: a dashed frame where the picture will be.
+          K.el(K.part(card, "k-thumb"), "rect", { x: 60, y: 44, width: 100, height: 60, rx: 8, fill: "none", stroke: "#c9a877", "stroke-width": 3, "stroke-dasharray": "6 7" });
+          scene.appendChild(document.getElementById("s08-chip"));
+          scene.appendChild(document.getElementById("s08-nobytes"));
+          scene.appendChild(document.getElementById("s08-head"));
+
+          // The stream: a mask reveals the amber film in the pipe; the head rides its front.
+          const reveal = document.getElementById("s08-flow-reveal"), L = reveal.getTotalLength();
+          const head = document.getElementById("s08-head"), HW = 76, HH = 38;
+          reveal.setAttribute("stroke-dasharray", `${L} ${L}`);
+          const at = { u: 0 };
+          const place = () => {
+            reveal.setAttribute("stroke-dashoffset", L * (1 - at.u));
+            const q = reveal.getPointAtLength(L * at.u);
+            head.style.transform = `translate(${q.x - HW / 2}px, ${q.y - HH / 2}px)`;
+          };
+          place();
+          const flow = (b, u0, u1, dur, ease) => tl.fromTo(at, { u: u0 }, { u: u1, duration: dur, ease, onUpdate: place }, K.t(b));
+          const uAt = (x) => (x - 452) / L; // along the straight run
+
+          // b0: the valve opens
+          tl.fromTo(valve, { rotation: 0 }, { rotation: 180, duration: 0.24, ease: "back.out(1.6)", transformOrigin: "50% 50%" }, K.t(0));
+          // b1: the stream enters the pipe
+          tl.fromTo(head, { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.08, ease: "back.out(3)" }, K.t(1));
+          flow(1, 0, uAt(760), 0.24, "power2.out");
+          // b2: it flows under the card
+          flow(2, uAt(760), uAt(1110), 0.24, "power2.inOut");
+          // b3: the card holds no bytes
+          K.pop(tl, "#s08-nobytes", 3, { origin: "0% 50%" });
+          tl.fromTo(card, { rotation: 0 }, { rotation: -3, duration: 0.06, yoyo: true, repeat: 3, ease: "sine.inOut", transformOrigin: "50% 100%", data: "follow" }, K.t(3) + 0.04);
+          // b4: on to the bucket
+          flow(4, uAt(1110), 1, 0.24, "power2.in");
+          tl.to(head, { opacity: 0, scale: 0.6, duration: 0.05, data: "follow" }, K.t(5) - 0.03);
+          // b5: it pours into r2
+          K.draw(tl, document.getElementById("s08-pour"), 5, 0.14, "power2.in");
+          K.puff(tl, scene, 1610, 870, K.t(5) + 0.14, { spread: 90 });
+          // b6: the bucket fills
+          tl.fromTo(fill, { y: 196 }, { y: 70, duration: 0.24, ease: "power2.out" }, K.t(6));
+          // b7: the key it lands at
+          tl.fromTo("#s08-key", { opacity: 0, scale: 1.5, rotation: -6 }, { opacity: 1, scale: 1, rotation: -2, duration: 0.16, ease: "power3.in" }, K.t(7));
+          K.sparkle(tl, scene, 1700, 950, K.t(7) + 0.16, { r: 50, n: 2, seed: 8 });
+
+          K.focus(scene, tl, "s08", [
+            [0, 520, 560], [1, 700, 620], [2, 960, 620], [3, 1240, 410],
+            [4, 1450, 620], [5, 1610, 800], [6, 1610, 800], [7, 1500, 976],
+          ]);
+          K.check(tl, "s08");
+          window.__timelines["s08-stream"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

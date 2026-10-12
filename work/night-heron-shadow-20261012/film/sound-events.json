@@ -1,0 +1,507 @@
+{
+  "duration": 50,
+  "sampleRate": 48000,
+  "channels": 2,
+  "method": "original deterministic synthesized percussion, bird chirps and short plucked-string phrases",
+  "peak": 0.17040095179973766,
+  "rms": 0.009072924236828215,
+  "events": [
+    {
+      "t": 0.4,
+      "len": 0.32,
+      "gain": 0.04,
+      "pan": 0.5,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 1.9,
+      "len": 0.32,
+      "gain": 0.04,
+      "pan": 0.5,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 5.4,
+      "len": 0.32,
+      "gain": 0.04,
+      "pan": 0.5,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 7.8,
+      "len": 0.32,
+      "gain": 0.04,
+      "pan": 0.5,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 2.5,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 3.35,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 4.2,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 5,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 5.85,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 6.699999999999999,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 7.549999999999999,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 8.399999999999999,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 9.249999999999998,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 17,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 18.05,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 19.1,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 20.150000000000002,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 21,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 22.05,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 23.1,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 24.150000000000002,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 25.200000000000003,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 36,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 36.55,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 37.099999999999994,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 37.64999999999999,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 38.19999999999999,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 38.749999999999986,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 39.29999999999998,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 39.84999999999998,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 40.39999999999998,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 40.949999999999974,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": -0.4,
+      "type": "woodblock"
+    },
+    {
+      "t": 16.4,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": 0,
+      "type": "woodblock"
+    },
+    {
+      "t": 28.333333,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": 0,
+      "type": "woodblock"
+    },
+    {
+      "t": 28.5,
+      "len": 0.45,
+      "gain": 0.02,
+      "pan": 0.4,
+      "type": "small_splash"
+    },
+    {
+      "t": 33.05,
+      "len": 1.5,
+      "gain": 0.1,
+      "pan": 0.25,
+      "type": "light_gong"
+    },
+    {
+      "t": 43.666666,
+      "len": 0.16,
+      "gain": 0.09,
+      "pan": 0.3,
+      "type": "woodblock"
+    },
+    {
+      "t": 41.8,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.35,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 41.97,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.7,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 42.25,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.35,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 42.42,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.7,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 42.7,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.35,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 42.870000000000005,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.7,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 43.3,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.35,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 43.47,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.7,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 44.05,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.35,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 44.22,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.7,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 44.5,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.35,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 44.67,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.7,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 46.2,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.35,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 46.370000000000005,
+      "len": 0.32,
+      "gain": 0.07,
+      "pan": 0.7,
+      "type": "bird_chirp"
+    },
+    {
+      "t": 0.8,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 2.3,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 5.2,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 7,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 10.6,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 12.2,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 15.3,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 17.5,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 19.7,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 21.6,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 24.3,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 27.2,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 30.5,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 36.3,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 38.2,
+      "len": 1.8,
+      "gain": 0.033,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 41.2,
+      "len": 1.8,
+      "gain": 0.048,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 42.8,
+      "len": 1.8,
+      "gain": 0.048,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 45,
+      "len": 1.8,
+      "gain": 0.048,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 46.5,
+      "len": 1.8,
+      "gain": 0.048,
+      "pan": -0.1,
+      "type": "plucked_string"
+    },
+    {
+      "t": 48,
+      "len": 1.8,
+      "gain": 0.048,
+      "pan": -0.1,
+      "type": "plucked_string"
+    }
+  ]
+}

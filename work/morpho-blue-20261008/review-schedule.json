@@ -1,0 +1,208 @@
+{
+  "duration": 52,
+  "fps": 30,
+  "representatives": [
+    {
+      "shot": "wing",
+      "state": "establish",
+      "time": 0.6,
+      "frame": 18
+    },
+    {
+      "shot": "wing",
+      "state": "action",
+      "time": 3,
+      "frame": 90
+    },
+    {
+      "shot": "wing",
+      "state": "result",
+      "time": 6.6,
+      "frame": 198
+    },
+    {
+      "shot": "scales",
+      "state": "establish",
+      "time": 7.2,
+      "frame": 216
+    },
+    {
+      "shot": "scales",
+      "state": "action",
+      "time": 10.7,
+      "frame": 321
+    },
+    {
+      "shot": "scales",
+      "state": "result",
+      "time": 13.7,
+      "frame": 411
+    },
+    {
+      "shot": "ridges",
+      "state": "establish",
+      "time": 14.2,
+      "frame": 426
+    },
+    {
+      "shot": "ridges",
+      "state": "action",
+      "time": 18,
+      "frame": 540
+    },
+    {
+      "shot": "ridges",
+      "state": "result",
+      "time": 21.5,
+      "frame": 645
+    },
+    {
+      "shot": "two-paths",
+      "state": "establish",
+      "time": 22.8,
+      "frame": 684
+    },
+    {
+      "shot": "two-paths",
+      "state": "action",
+      "time": 25.5,
+      "frame": 765
+    },
+    {
+      "shot": "two-paths",
+      "state": "result",
+      "time": 30,
+      "frame": 900
+    },
+    {
+      "shot": "phase",
+      "state": "establish",
+      "time": 32.7,
+      "frame": 981
+    },
+    {
+      "shot": "phase",
+      "state": "action",
+      "time": 35,
+      "frame": 1050
+    },
+    {
+      "shot": "phase",
+      "state": "result",
+      "time": 39.5,
+      "frame": 1185
+    },
+    {
+      "shot": "field",
+      "state": "establish",
+      "time": 41.2,
+      "frame": 1236
+    },
+    {
+      "shot": "field",
+      "state": "action",
+      "time": 43.5,
+      "frame": 1305
+    },
+    {
+      "shot": "field",
+      "state": "result",
+      "time": 45.4,
+      "frame": 1362
+    },
+    {
+      "shot": "answer",
+      "state": "establish",
+      "time": 47.2,
+      "frame": 1416
+    },
+    {
+      "shot": "answer",
+      "state": "action",
+      "time": 49,
+      "frame": 1470
+    },
+    {
+      "shot": "answer",
+      "state": "result",
+      "time": 51.5,
+      "frame": 1545
+    }
+  ],
+  "continuous_windows": [
+    {
+      "shot": "ridges",
+      "reason": "risk",
+      "start_frame": 504,
+      "end_frame": 552
+    },
+    {
+      "shot": "two-paths",
+      "reason": "risk",
+      "start_frame": 726,
+      "end_frame": 741
+    },
+    {
+      "shot": "two-paths",
+      "reason": "risk",
+      "start_frame": 759,
+      "end_frame": 774
+    },
+    {
+      "shot": "two-paths",
+      "reason": "risk",
+      "start_frame": 849,
+      "end_frame": 879
+    },
+    {
+      "shot": "phase",
+      "reason": "risk",
+      "start_frame": 1023,
+      "end_frame": 1038
+    },
+    {
+      "shot": "phase",
+      "reason": "risk",
+      "start_frame": 1101,
+      "end_frame": 1158
+    },
+    {
+      "reason": "magnification cut",
+      "anchor": "蓝色纹理和翅面→鳞片尺度",
+      "start_frame": 204,
+      "end_frame": 222
+    },
+    {
+      "reason": "direction match cut",
+      "anchor": "脊线从左下到右上；同一青蓝材质",
+      "start_frame": 414,
+      "end_frame": 432
+    },
+    {
+      "reason": "section cut",
+      "anchor": "相同层架，但明确改成可读剖面",
+      "start_frame": 654,
+      "end_frame": 672
+    },
+    {
+      "reason": "semantic cut",
+      "anchor": "两路反射→两条波形，蓝/青颜色身份",
+      "start_frame": 954,
+      "end_frame": 972
+    },
+    {
+      "reason": "result-to-system cut",
+      "anchor": "蓝色叠加结果→许多细脊反射场",
+      "start_frame": 1224,
+      "end_frame": 1242
+    },
+    {
+      "reason": "return cut",
+      "anchor": "同一片蓝色，完成尺度回收",
+      "start_frame": 1404,
+      "end_frame": 1422
+    }
+  ],
+  "errors": [],
+  "scope": "Plan/evidence consistency only; visual and sound judgments require actual observation."
+}

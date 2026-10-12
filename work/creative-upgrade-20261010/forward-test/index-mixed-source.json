@@ -1,0 +1,35 @@
+{
+  "exit_code": 0,
+  "result": {
+    "slug": "koldo2k-778767",
+    "prompt_sha256": "d6fd01b0403a1867cafadc5abaabcbcbf591166136386a6d748fd2630c6f4c1c",
+    "same_text_slugs": [
+      "koldo2k-778767"
+    ],
+    "text_reading": "mechanism_excerpt_only",
+    "prompt_partial": false,
+    "candidate_cards": [
+      {
+        "card": "portal-scale",
+        "text": "Build a looping \"infinite zoom\" animation, After Effects style: the camera\ntravels fr",
+        "basis": "automatic_text_candidate_only"
+      },
+      {
+        "card": "glass-sdf",
+        "text": "a lens → desert dunes → magnifying glass →\nmisty lake → hand mirror → back to start.\nExtras: fl",
+        "basis": "automatic_text_candidate_only"
+      }
+    ],
+    "manual_cards": [],
+    "original_visual_provenance": "generated_video_required_in_prompt",
+    "provenance_reason": "Kling 2.5 animation",
+    "source_id": null,
+    "source_relation": "unresolved",
+    "code_source_evidence": "no_inspected_renderer_tied_to_this_row",
+    "source_discovery_urls": [],
+    "pixel_match_verified": false,
+    "tech_tags_used_for_original_provenance": false,
+    "post_url": "https://x.com/koldo2k/status/2103129343253778767",
+    "source": null
+  }
+}

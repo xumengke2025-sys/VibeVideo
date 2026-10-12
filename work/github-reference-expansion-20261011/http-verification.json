@@ -1,0 +1,2318 @@
+{
+  "checked": "2026-10-12",
+  "scope": "目录、全部媒体、源码/风格/研究/来源记录和缩略图的本地HTTP可达性",
+  "count": 330,
+  "passed": true,
+  "checks": [
+    {
+      "file": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\github-reference-expansion-20261011\\index.html",
+      "status": 200,
+      "bytes": 144473,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\reference-catalog-20261010\\index.html",
+      "status": 200,
+      "bytes": 83598,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/dylantlwu--opus-animation-course/SOURCE.json",
+      "status": 200,
+      "bytes": 19044,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/dylantlwu--opus-animation-course/studio/examples/gps/index.html",
+      "status": 200,
+      "bytes": 16230,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/dylantlwu--opus-animation-course/studio/render/render.mjs",
+      "status": 200,
+      "bytes": 9912,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/dylantlwu--opus-animation-course/studio/examples/blender-overlay/index.html",
+      "status": 200,
+      "bytes": 4332,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/misbahsy--claude-horizon-animation/SOURCE.json",
+      "status": 200,
+      "bytes": 18196,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/misbahsy--claude-horizon-animation/skills/horizon-reel/assets/engine.js",
+      "status": 200,
+      "bytes": 34391,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/misbahsy--claude-horizon-animation/skills/sketch-to-sim/engine/src/physics.js",
+      "status": 200,
+      "bytes": 11319,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/misbahsy--claude-horizon-animation/skills/lab-explainer/examples/refraction/film.js",
+      "status": 200,
+      "bytes": 15281,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/az9713--opus-5.5-builds/SOURCE.json",
+      "status": 200,
+      "bytes": 43914,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/az9713--opus-5.5-builds/index.html",
+      "status": 200,
+      "bytes": 15663,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/az9713--opus-5.5-builds/builds/02-clawd-goes-to-sea/studio.html",
+      "status": 200,
+      "bytes": 3048,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/az9713--opus-5.5-builds/builds/07-storm-lighthouse/build_scene.py",
+      "status": 200,
+      "bytes": 39311,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jtydhr88--fate-pv/SOURCE.json",
+      "status": 200,
+      "bytes": 39164,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jtydhr88--fate-pv/app/src/main.ts",
+      "status": 200,
+      "bytes": 9681,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jtydhr88--fate-pv/app/src/timeline.ts",
+      "status": 200,
+      "bytes": 4701,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jtydhr88--fate-pv/app/scripts/render.ts",
+      "status": 200,
+      "bytes": 25645,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/neelnanda-io--dont-go-quiet-on-me/SOURCE.json",
+      "status": 200,
+      "bytes": 99079,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/neelnanda-io--dont-go-quiet-on-me/video/kit/studio.html",
+      "status": 200,
+      "bytes": 3157,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/neelnanda-io--dont-go-quiet-on-me/video/kit/render.mjs",
+      "status": 200,
+      "bytes": 13914,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/neelnanda-io--dont-go-quiet-on-me/README.md",
+      "status": 200,
+      "bytes": 13820,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/makefx--animation-video-test/SOURCE.json",
+      "status": 200,
+      "bytes": 12772,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/makefx--animation-video-test/index.html",
+      "status": 200,
+      "bytes": 5474,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/makefx--animation-video-test/kit/kit.js",
+      "status": 200,
+      "bytes": 17694,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/makefx--animation-video-test/tools/make-bgm.py",
+      "status": 200,
+      "bytes": 12697,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/1kvoidsoft--Opus5.5_MG_Anim_Zao/SOURCE.json",
+      "status": 200,
+      "bytes": 6801,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/1kvoidsoft--Opus5.5_MG_Anim_Zao/normal-friend/index.html",
+      "status": 200,
+      "bytes": 257822,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/1kvoidsoft--Opus5.5_MG_Anim_Zao/normal-friend/src/player.js",
+      "status": 200,
+      "bytes": 17225,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/1kvoidsoft--Opus5.5_MG_Anim_Zao/normal-friend/src/scenes_a.js",
+      "status": 200,
+      "bytes": 18544,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/klsoen--opus-js-animations/SOURCE.json",
+      "status": 200,
+      "bytes": 7796,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/klsoen--opus-js-animations/skills/opus-js-animations/assets/film-template.html",
+      "status": 200,
+      "bytes": 14272,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/klsoen--opus-js-animations/skills/opus-js-animations/scripts/render.mjs",
+      "status": 200,
+      "bytes": 14164,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/SOURCE.json",
+      "status": 200,
+      "bytes": 300185,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/README.md",
+      "status": 200,
+      "bytes": 19894,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/ink-wash/demo/index.html",
+      "status": 200,
+      "bytes": 353,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/blueprint/demo/index.html",
+      "status": 200,
+      "bytes": 343,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/krillinai--awesome-opus-animation/SOURCE.json",
+      "status": 200,
+      "bytes": 11644,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/krillinai--awesome-opus-animation/README.md",
+      "status": 200,
+      "bytes": 16995,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/krillinai--awesome-opus-animation/categories/code-animation.md",
+      "status": 200,
+      "bytes": 28883,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/makevoid--motion-graphics-music-video-skill/SOURCE.json",
+      "status": 200,
+      "bytes": 23930,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/makevoid--motion-graphics-music-video-skill/README.md",
+      "status": 200,
+      "bytes": 15365,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/Hurrikane8--Opus-5.5-Videos/SOURCE.json",
+      "status": 200,
+      "bytes": 95697,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/Hurrikane8--Opus-5.5-Videos/videos/the-hardest-part/engine/index.html",
+      "status": 200,
+      "bytes": 1185,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/Hurrikane8--Opus-5.5-Videos/videos/the-hardest-part/engine/src/main.js",
+      "status": 200,
+      "bytes": 7691,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/Hurrikane8--Opus-5.5-Videos/videos/the-hardest-part/README.md",
+      "status": 200,
+      "bytes": 17589,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/sanjuhs--opus-5.5-film-experiment-with-animation/SOURCE.json",
+      "status": 200,
+      "bytes": 4418,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/sanjuhs--opus-5.5-film-experiment-with-animation/src/index.html",
+      "status": 200,
+      "bytes": 3086,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/sanjuhs--opus-5.5-film-experiment-with-animation/src/scenes.js",
+      "status": 200,
+      "bytes": 62073,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/sanjuhs--opus-5.5-film-experiment-with-animation/scripts/render.mjs",
+      "status": 200,
+      "bytes": 2881,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/Salmisaari--eudoom-video/SOURCE.json",
+      "status": 200,
+      "bytes": 98438,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/Salmisaari--eudoom-video/app/src/main.ts",
+      "status": 200,
+      "bytes": 8557,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/Salmisaari--eudoom-video/app/src/timeline.ts",
+      "status": 200,
+      "bytes": 793,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/Salmisaari--eudoom-video/README.md",
+      "status": 200,
+      "bytes": 10717,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/SOURCE.json",
+      "status": 200,
+      "bytes": 18561,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/README.md",
+      "status": 200,
+      "bytes": 52635,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/guanmo-ai--awesome-ai-motion/SOURCE.json",
+      "status": 200,
+      "bytes": 7823,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/guanmo-ai--awesome-ai-motion/data/cases.json",
+      "status": 200,
+      "bytes": 2743107,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/guanmo-ai--awesome-ai-motion/assets/gallery-model.mjs",
+      "status": 200,
+      "bytes": 9653,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/guanmo-ai--awesome-ai-motion/README.md",
+      "status": 200,
+      "bytes": 27203,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/dylantlwu--opus-animation-course/site/docs/public/media/gps.mp4",
+      "status": 200,
+      "bytes": 4882678,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/efe9097a3afa59e04e40.jpg",
+      "status": 200,
+      "bytes": 3020,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/dylantlwu--opus-animation-course/site/docs/public/media/m10-earth.mp4",
+      "status": 200,
+      "bytes": 259034,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/dylantlwu--opus-animation-course/studio/templates/blender/scene.py",
+      "status": 200,
+      "bytes": 9319,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/f54faf7674b251a1a6da.jpg",
+      "status": 200,
+      "bytes": 6671,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/dylantlwu--opus-animation-course/site/docs/public/media/m11-overlay.mp4",
+      "status": 200,
+      "bytes": 597919,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/c611be74bcde2f6c16b5.jpg",
+      "status": 200,
+      "bytes": 7600,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/misbahsy--claude-horizon-animation/docs/lab-explainer.gif",
+      "status": 200,
+      "bytes": 6517112,
+      "type": "image/gif",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/3208608e9b3f0a7f92b7.jpg",
+      "status": 200,
+      "bytes": 16216,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/misbahsy--claude-horizon-animation/docs/preview.gif",
+      "status": 200,
+      "bytes": 5464481,
+      "type": "image/gif",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/misbahsy--claude-horizon-animation/skills/horizon-reel/examples/opus-5-5/film.json",
+      "status": 200,
+      "bytes": 4245,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/b0fa49b7a2cf18fae131.jpg",
+      "status": 200,
+      "bytes": 11509,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/misbahsy--claude-horizon-animation/docs/sketch-to-sim.gif",
+      "status": 200,
+      "bytes": 4497049,
+      "type": "image/gif",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/misbahsy--claude-horizon-animation/skills/sketch-to-sim/examples/rube-goldberg/machine.js",
+      "status": 200,
+      "bytes": 10189,
+      "type": "text/javascript; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/8a5cec60ec8194576627.jpg",
+      "status": 200,
+      "bytes": 8564,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/az9713--opus-5.5-builds/builds/02-clawd-goes-to-sea/dev/slice.mp4",
+      "status": 200,
+      "bytes": 1573315,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/6ca2466fe5fd484806c1.jpg",
+      "status": 200,
+      "bytes": 16036,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/az9713--opus-5.5-builds/builds/02-clawd-goes-to-sea/out/clawd-goes-to-sea.mp4",
+      "status": 200,
+      "bytes": 24743513,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/44a1c8569514317719dc.jpg",
+      "status": 200,
+      "bytes": 14184,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/az9713--opus-5.5-builds/builds/07-storm-lighthouse/build_timelapse.mp4",
+      "status": 200,
+      "bytes": 1115318,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/7755853c0650994056f3.jpg",
+      "status": 200,
+      "bytes": 4654,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/az9713--opus-5.5-builds/builds/07-storm-lighthouse/storm_lighthouse_final.mp4",
+      "status": 200,
+      "bytes": 20543910,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/28ee429110a81fb79a60.jpg",
+      "status": 200,
+      "bytes": 9866,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/makefx--animation-video-test/history/spike/scene.mp4",
+      "status": 200,
+      "bytes": 6451259,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/makefx--animation-video-test/history/spike/index.html",
+      "status": 200,
+      "bytes": 22514,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/63174bfc109c79c5419a.jpg",
+      "status": 200,
+      "bytes": 6818,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/makefx--animation-video-test/history/v1-illustrated/how-makefx-works-v1-sound.mp4",
+      "status": 200,
+      "bytes": 16410079,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/44bd51b09fc6a507fd5f.jpg",
+      "status": 200,
+      "bytes": 859,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/makefx--animation-video-test/renders/how-makefx-works-4k.mp4",
+      "status": 200,
+      "bytes": 12561636,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/ed816d05bd80c007e0ad.jpg",
+      "status": 200,
+      "bytes": 5131,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/makefx--animation-video-test/renders/how-makefx-works.mp4",
+      "status": 200,
+      "bytes": 6469159,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/a9769cebb9da0267add8.jpg",
+      "status": 200,
+      "bytes": 5090,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/klsoen--opus-js-animations/docs/script-of-me-opening.gif",
+      "status": 200,
+      "bytes": 3863357,
+      "type": "image/gif",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/da76f7605cf8a05c4b73.jpg",
+      "status": 200,
+      "bytes": 30909,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/klsoen--opus-js-animations/docs/shaml-opening-2.8s.gif",
+      "status": 200,
+      "bytes": 3485817,
+      "type": "image/gif",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/c3934a8857915f38b300.jpg",
+      "status": 200,
+      "bytes": 53897,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/sanjuhs--opus-5.5-film-experiment-with-animation/out/vietnam-war-explained-vertical-web.mp4",
+      "status": 200,
+      "bytes": 22281792,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/c872cb8a737f6f3ecb0a.jpg",
+      "status": 200,
+      "bytes": 27467,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/sanjuhs--opus-5.5-film-experiment-with-animation/out/vietnam-war-explained-web.mp4",
+      "status": 200,
+      "bytes": 23759496,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/6ee4c366303355558463.jpg",
+      "status": 200,
+      "bytes": 12312,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/01-twoclipping-2103830256347910144.mp4",
+      "status": 200,
+      "bytes": 2514979,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/a5b40c70cd88ad61e32b.jpg",
+      "status": 200,
+      "bytes": 1665,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/02-Ror_Fly-2102853041246347264.mp4",
+      "status": 200,
+      "bytes": 1393821,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/71351ce642dd913ef627.jpg",
+      "status": 200,
+      "bytes": 5940,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/07-ring_hyacinth-2102985762996379648.mp4",
+      "status": 200,
+      "bytes": 4626462,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/f8cd09cf6315d0661466.jpg",
+      "status": 200,
+      "bytes": 8953,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/08-dotey-2102939337591603200.mp4",
+      "status": 200,
+      "bytes": 34994408,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/65abdf02eaa77572a8c2.jpg",
+      "status": 200,
+      "bytes": 14734,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/09-jurlycat-2104002235269320704.mp4",
+      "status": 200,
+      "bytes": 9897347,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/d7ad4ed240da2d8e881b.jpg",
+      "status": 200,
+      "bytes": 16176,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/10-techartist_-2102503194777759744.mp4",
+      "status": 200,
+      "bytes": 2418321,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/08dc0b5c1562afee80a1.jpg",
+      "status": 200,
+      "bytes": 15713,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/11-yanhua1010-2103711331203649537.mp4",
+      "status": 200,
+      "bytes": 8043448,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/41e2646501f2aa9e4523.jpg",
+      "status": 200,
+      "bytes": 3982,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/16-charliejhills-motion-graphics.mp4",
+      "status": 200,
+      "bytes": 181825,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/ebe9c4c245ab0328a54f.jpg",
+      "status": 200,
+      "bytes": 27904,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/17-kevin_t_ngo-2102437792425070592.mp4",
+      "status": 200,
+      "bytes": 2492223,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/8d3fb5b740b8823db2f0.jpg",
+      "status": 200,
+      "bytes": 33063,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/20-staskulesh-2104291932939689984.mp4",
+      "status": 200,
+      "bytes": 2671577,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/6a1e33cdc849fc0fae76.jpg",
+      "status": 200,
+      "bytes": 8918,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/21-ommakes-2104397849081368576.mp4",
+      "status": 200,
+      "bytes": 353176,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/5e7026b89325e25c48e5.jpg",
+      "status": 200,
+      "bytes": 12959,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/26-xikhar-2103995292983193600.mp4",
+      "status": 200,
+      "bytes": 40695195,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/f7378a756b19ba528982.jpg",
+      "status": 200,
+      "bytes": 25723,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/29-kimmonismus-2102844491820670976.mp4",
+      "status": 200,
+      "bytes": 13657852,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/e77d9dd6761f2f7e1d70.jpg",
+      "status": 200,
+      "bytes": 1805,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/30-strawhatsu4-2102457077390299136.mp4",
+      "status": 200,
+      "bytes": 2405499,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/c314c14b219e08d8be4c.jpg",
+      "status": 200,
+      "bytes": 11410,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/AIMevzulari-2103255788554792960.mp4",
+      "status": 200,
+      "bytes": 6693765,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/afb25ada2bd23e06e6af.jpg",
+      "status": 200,
+      "bytes": 20475,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/AndreiProvkin-2103918099665698816.mp4",
+      "status": 200,
+      "bytes": 19889528,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/a876a0cddcd51506794a.jpg",
+      "status": 200,
+      "bytes": 15099,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/MengTo-2102760366745010177.mp4",
+      "status": 200,
+      "bytes": 10953399,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/279f70941b797edbe883.jpg",
+      "status": 200,
+      "bytes": 12507,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/Voxyz_ai-2102528357988515840.mp4",
+      "status": 200,
+      "bytes": 4117844,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/29529f4e0118d7869b93.jpg",
+      "status": 200,
+      "bytes": 20697,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/addyosmani-2102433488364597251.mp4",
+      "status": 200,
+      "bytes": 20741238,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/b06198c4ba54dbd76f1e.jpg",
+      "status": 200,
+      "bytes": 9405,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/addyosmani-2102980713603887104.mp4",
+      "status": 200,
+      "bytes": 4675012,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/1eea6ce199c2e07e6cf6.jpg",
+      "status": 200,
+      "bytes": 11869,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/akakuma0219-2103820663006109696.mp4",
+      "status": 200,
+      "bytes": 11106600,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/013d63ba0fbccfb8629d.jpg",
+      "status": 200,
+      "bytes": 17232,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/akiy_8-2103433334097686528.mp4",
+      "status": 200,
+      "bytes": 3682979,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/1fa50d3eeb9d1e78ec73.jpg",
+      "status": 200,
+      "bytes": 5702,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/chetanankola-2103003207203213312.mp4",
+      "status": 200,
+      "bytes": 7812416,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/ae9ef66dbd86597b4036.jpg",
+      "status": 200,
+      "bytes": 22916,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/jurlycat-2102645585169764352.mp4",
+      "status": 200,
+      "bytes": 12161258,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/c5bfa1c7c1c96790cf8b.jpg",
+      "status": 200,
+      "bytes": 51428,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/leo_xiaolei-2102724181070839808.mp4",
+      "status": 200,
+      "bytes": 4704813,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/0451affa3f3b8a1f6fd6.jpg",
+      "status": 200,
+      "bytes": 3294,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/liebert_2026-2103494270854557696.mp4",
+      "status": 200,
+      "bytes": 4961566,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/41f5872b1cc0c055751c.jpg",
+      "status": 200,
+      "bytes": 23901,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/samuel_spitz-2103292714066587649.mp4",
+      "status": 200,
+      "bytes": 3326292,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/2acaa1092a7948a279a3.jpg",
+      "status": 200,
+      "bytes": 3312,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/techartist_-2104185406363455488.mp4",
+      "status": 200,
+      "bytes": 1860703,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/b564fcf031e2cd04be7c.jpg",
+      "status": 200,
+      "bytes": 7384,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/twoclipping-2103272964967804928.mp4",
+      "status": 200,
+      "bytes": 777183,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/02f4145dc0b3afb187b6.jpg",
+      "status": 200,
+      "bytes": 2517,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/jacobbubu--claude-opus-5-5-js-animation-research/media/strict/victormustar-2102707356932993024.mp4",
+      "status": 200,
+      "bytes": 801804,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261011/posters/6719a85d6987481cce91.jpg",
+      "status": 200,
+      "bytes": 10849,
+      "type": "image/jpeg",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/crayon-book.mp4",
+      "status": 200,
+      "bytes": 73060211,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/crayon-book/demo/index.html",
+      "status": 200,
+      "bytes": 378,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/crayon-book.mp4.source.json",
+      "status": 200,
+      "bytes": 1278,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/crayon-book/STYLE.md",
+      "status": 200,
+      "bytes": 11339,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/watercolor.mp4",
+      "status": 200,
+      "bytes": 98583460,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/watercolor/demo/index.html",
+      "status": 200,
+      "bytes": 421,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/watercolor.mp4.source.json",
+      "status": 200,
+      "bytes": 1275,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/watercolor/STYLE.md",
+      "status": 200,
+      "bytes": 11099,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/ink-wash.mp4",
+      "status": 200,
+      "bytes": 46053216,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/ink-wash.mp4.source.json",
+      "status": 200,
+      "bytes": 1342,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/ink-wash/STYLE.md",
+      "status": 200,
+      "bytes": 11277,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/impasto.mp4",
+      "status": 200,
+      "bytes": 84516646,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/impasto/demo/index.html",
+      "status": 200,
+      "bytes": 281,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/impasto.mp4.source.json",
+      "status": 200,
+      "bytes": 1261,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/impasto/STYLE.md",
+      "status": 200,
+      "bytes": 12013,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/one-line.mp4",
+      "status": 200,
+      "bytes": 27289032,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/one-line/demo/index.html",
+      "status": 200,
+      "bytes": 461,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/one-line.mp4.source.json",
+      "status": 200,
+      "bytes": 1259,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/one-line/STYLE.md",
+      "status": 200,
+      "bytes": 11372,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/whiteboard.mp4",
+      "status": 200,
+      "bytes": 56042846,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/whiteboard/demo/index.html",
+      "status": 200,
+      "bytes": 337,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/whiteboard.mp4.source.json",
+      "status": 200,
+      "bytes": 1273,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/whiteboard/STYLE.md",
+      "status": 200,
+      "bytes": 11648,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/urban-sketch.mp4",
+      "status": 200,
+      "bytes": 68666069,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/urban-sketch/demo/index.html",
+      "status": 200,
+      "bytes": 487,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/urban-sketch.mp4.source.json",
+      "status": 200,
+      "bytes": 1292,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/urban-sketch/STYLE.md",
+      "status": 200,
+      "bytes": 11766,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/shadow-puppet.mp4",
+      "status": 200,
+      "bytes": 34586806,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/shadow-puppet/demo/index.html",
+      "status": 200,
+      "bytes": 380,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/shadow-puppet.mp4.source.json",
+      "status": 200,
+      "bytes": 1289,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/shadow-puppet/STYLE.md",
+      "status": 200,
+      "bytes": 12787,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/ukiyoe.mp4",
+      "status": 200,
+      "bytes": 31057471,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/ukiyoe/demo/index.html",
+      "status": 200,
+      "bytes": 345,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/ukiyoe.mp4.source.json",
+      "status": 200,
+      "bytes": 1245,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/ukiyoe/STYLE.md",
+      "status": 200,
+      "bytes": 12457,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/papercut-red.mp4",
+      "status": 200,
+      "bytes": 44629032,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/papercut-red/demo/index.html",
+      "status": 200,
+      "bytes": 376,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/papercut-red.mp4.source.json",
+      "status": 200,
+      "bytes": 1284,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/papercut-red/STYLE.md",
+      "status": 200,
+      "bytes": 12450,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/paper-lantern.mp4",
+      "status": 200,
+      "bytes": 58502244,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/paper-lantern/demo/index.html",
+      "status": 200,
+      "bytes": 1456,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/paper-lantern.mp4.source.json",
+      "status": 200,
+      "bytes": 1298,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/paper-lantern/STYLE.md",
+      "status": 200,
+      "bytes": 12134,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/risograph.mp4",
+      "status": 200,
+      "bytes": 283245043,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/risograph/demo/index.html",
+      "status": 200,
+      "bytes": 337,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/risograph.mp4.source.json",
+      "status": 200,
+      "bytes": 1268,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/risograph/STYLE.md",
+      "status": 200,
+      "bytes": 12030,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/halftone-dossier.mp4",
+      "status": 200,
+      "bytes": 73852308,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/halftone-dossier/demo/index.html",
+      "status": 200,
+      "bytes": 65616,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/halftone-dossier.mp4.source.json",
+      "status": 200,
+      "bytes": 1308,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/halftone-dossier/STYLE.md",
+      "status": 200,
+      "bytes": 12390,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/woodcut.mp4",
+      "status": 200,
+      "bytes": 92573316,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/woodcut/demo/index.html",
+      "status": 200,
+      "bytes": 374,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/woodcut.mp4.source.json",
+      "status": 200,
+      "bytes": 1256,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/woodcut/STYLE.md",
+      "status": 200,
+      "bytes": 12194,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/engraving.mp4",
+      "status": 200,
+      "bytes": 77885791,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/engraving/demo/example/index.html",
+      "status": 200,
+      "bytes": 1830,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/engraving.mp4.source.json",
+      "status": 200,
+      "bytes": 1266,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/engraving/STYLE.md",
+      "status": 200,
+      "bytes": 12338,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/silkscreen-poster.mp4",
+      "status": 200,
+      "bytes": 29845202,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/silkscreen-poster/demo/index.html",
+      "status": 200,
+      "bytes": 338,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/silkscreen-poster.mp4.source.json",
+      "status": 200,
+      "bytes": 1327,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/silkscreen-poster/STYLE.md",
+      "status": 200,
+      "bytes": 13026,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/swiss-motion.mp4",
+      "status": 200,
+      "bytes": 3807459,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/swiss-motion/demo/index.html",
+      "status": 200,
+      "bytes": 352,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/swiss-motion.mp4.source.json",
+      "status": 200,
+      "bytes": 1288,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/swiss-motion/STYLE.md",
+      "status": 200,
+      "bytes": 10696,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/spy-titles.mp4",
+      "status": 200,
+      "bytes": 18540216,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/spy-titles/demo/index.html",
+      "status": 200,
+      "bytes": 390,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/spy-titles.mp4.source.json",
+      "status": 200,
+      "bytes": 1287,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/spy-titles/STYLE.md",
+      "status": 200,
+      "bytes": 11411,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/art-deco.mp4",
+      "status": 200,
+      "bytes": 54514315,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/art-deco/demo/index.html",
+      "status": 200,
+      "bytes": 388,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/art-deco.mp4.source.json",
+      "status": 200,
+      "bytes": 1346,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/art-deco/STYLE.md",
+      "status": 200,
+      "bytes": 12196,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/blueprint.mp4",
+      "status": 200,
+      "bytes": 95760100,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/blueprint.mp4.source.json",
+      "status": 200,
+      "bytes": 1356,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/blueprint/STYLE.md",
+      "status": 200,
+      "bytes": 12323,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/stained-glass.mp4",
+      "status": 200,
+      "bytes": 32796250,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/stained-glass/demo/index.html",
+      "status": 200,
+      "bytes": 387,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/stained-glass.mp4.source.json",
+      "status": 200,
+      "bytes": 1292,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/stained-glass/STYLE.md",
+      "status": 200,
+      "bytes": 11945,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/pictogram-motion.mp4",
+      "status": 200,
+      "bytes": 266882703,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/pictogram-motion/demo/index.html",
+      "status": 200,
+      "bytes": 1640,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/pictogram-motion.mp4.source.json",
+      "status": 200,
+      "bytes": 1319,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/pictogram-motion/STYLE.md",
+      "status": 200,
+      "bytes": 12085,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/ascii-crt.mp4",
+      "status": 200,
+      "bytes": 39577501,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/ascii-crt/demo/index.html",
+      "status": 200,
+      "bytes": 341,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/ascii-crt.mp4.source.json",
+      "status": 200,
+      "bytes": 1278,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/ascii-crt/STYLE.md",
+      "status": 200,
+      "bytes": 12202,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/dataviz.mp4",
+      "status": 200,
+      "bytes": 26218523,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/dataviz/demo/index.html",
+      "status": 200,
+      "bytes": 346,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/dataviz.mp4.source.json",
+      "status": 200,
+      "bytes": 1254,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/dataviz/STYLE.md",
+      "status": 200,
+      "bytes": 11415,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/iso-infographic.mp4",
+      "status": 200,
+      "bytes": 31447700,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/iso-infographic/demo/index.html",
+      "status": 200,
+      "bytes": 428,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/iso-infographic.mp4.source.json",
+      "status": 200,
+      "bytes": 1312,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/iso-infographic/STYLE.md",
+      "status": 200,
+      "bytes": 11974,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/dark-keynote.mp4",
+      "status": 200,
+      "bytes": 21443298,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/dark-keynote/demo/index.html",
+      "status": 200,
+      "bytes": 370,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/dark-keynote.mp4.source.json",
+      "status": 200,
+      "bytes": 1293,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/dark-keynote/STYLE.md",
+      "status": 200,
+      "bytes": 12164,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/living-screencast.mp4",
+      "status": 200,
+      "bytes": 11491720,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/living-screencast/demo/index.html",
+      "status": 200,
+      "bytes": 18185,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/living-screencast.mp4.source.json",
+      "status": 200,
+      "bytes": 1316,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/living-screencast/STYLE.md",
+      "status": 200,
+      "bytes": 11498,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/hologram-hud.mp4",
+      "status": 200,
+      "bytes": 37095352,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/hologram-hud/demo/index.html",
+      "status": 200,
+      "bytes": 374,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/hologram-hud.mp4.source.json",
+      "status": 200,
+      "bytes": 1373,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/hologram-hud/STYLE.md",
+      "status": 200,
+      "bytes": 11833,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/rubber-hose.mp4",
+      "status": 200,
+      "bytes": 34804387,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/rubber-hose/demo/index.html",
+      "status": 200,
+      "bytes": 342,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/rubber-hose.mp4.source.json",
+      "status": 200,
+      "bytes": 1289,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/rubber-hose/STYLE.md",
+      "status": 200,
+      "bytes": 12791,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/cel-anime-80s.mp4",
+      "status": 200,
+      "bytes": 31288840,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/cel-anime-80s/demo/index.html",
+      "status": 200,
+      "bytes": 375,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/cel-anime-80s.mp4.source.json",
+      "status": 200,
+      "bytes": 1301,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/cel-anime-80s/STYLE.md",
+      "status": 200,
+      "bytes": 12647,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/scifi-toon.mp4",
+      "status": 200,
+      "bytes": 29542911,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/scifi-toon/demo/index.html",
+      "status": 200,
+      "bytes": 336,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/scifi-toon.mp4.source.json",
+      "status": 200,
+      "bytes": 1286,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/scifi-toon/STYLE.md",
+      "status": 200,
+      "bytes": 12755,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/midcentury-toon.mp4",
+      "status": 200,
+      "bytes": 63318063,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/midcentury-toon/demo/index.html",
+      "status": 200,
+      "bytes": 365,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/midcentury-toon.mp4.source.json",
+      "status": 200,
+      "bytes": 1308,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/midcentury-toon/STYLE.md",
+      "status": 200,
+      "bytes": 12620,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/pixel-rpg.mp4",
+      "status": 200,
+      "bytes": 10915338,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/pixel-rpg/demo/index.html",
+      "status": 200,
+      "bytes": 411,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/pixel-rpg.mp4.source.json",
+      "status": 200,
+      "bytes": 1270,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/pixel-rpg/STYLE.md",
+      "status": 200,
+      "bytes": 11278,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/hd-2d.mp4",
+      "status": 200,
+      "bytes": 53001581,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/hd-2d/demo/index.html",
+      "status": 200,
+      "bytes": 557,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/hd-2d.mp4.source.json",
+      "status": 200,
+      "bytes": 1237,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/hd-2d/STYLE.md",
+      "status": 200,
+      "bytes": 12073,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/microgame.mp4",
+      "status": 200,
+      "bytes": 61294314,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/microgame/demo/index.html",
+      "status": 200,
+      "bytes": 378,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/microgame.mp4.source.json",
+      "status": 200,
+      "bytes": 1276,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/microgame/STYLE.md",
+      "status": 200,
+      "bytes": 12556,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/game-show.mp4",
+      "status": 200,
+      "bytes": 64188097,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/game-show/demo/index.html",
+      "status": 200,
+      "bytes": 119616,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/game-show.mp4.source.json",
+      "status": 200,
+      "bytes": 1275,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/game-show/STYLE.md",
+      "status": 200,
+      "bytes": 12469,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/silent-film.mp4",
+      "status": 200,
+      "bytes": 76906766,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/silent-film/demo/index.html",
+      "status": 200,
+      "bytes": 373,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/silent-film.mp4.source.json",
+      "status": 200,
+      "bytes": 1287,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/silent-film/STYLE.md",
+      "status": 200,
+      "bytes": 11585,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/backrooms.mp4",
+      "status": 200,
+      "bytes": 46791356,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/backrooms/demo/index.html",
+      "status": 200,
+      "bytes": 639,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/backrooms.mp4.source.json",
+      "status": 200,
+      "bytes": 1283,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/backrooms/STYLE.md",
+      "status": 200,
+      "bytes": 12545,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/brick-toy.mp4",
+      "status": 200,
+      "bytes": 24210119,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/brick-toy/demo/index.html",
+      "status": 200,
+      "bytes": 572,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/brick-toy.mp4.source.json",
+      "status": 200,
+      "bytes": 1266,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/brick-toy/STYLE.md",
+      "status": 200,
+      "bytes": 12556,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/paper-popup.mp4",
+      "status": 200,
+      "bytes": 146272875,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/paper-popup/demo/index.html",
+      "status": 200,
+      "bytes": 578,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/paper-popup.mp4.source.json",
+      "status": 200,
+      "bytes": 1284,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/paper-popup/STYLE.md",
+      "status": 200,
+      "bytes": 12095,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/tilt-shift.mp4",
+      "status": 200,
+      "bytes": 60574755,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/tilt-shift/demo/index.html",
+      "status": 200,
+      "bytes": 561,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/tilt-shift.mp4.source.json",
+      "status": 200,
+      "bytes": 1272,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/tilt-shift/STYLE.md",
+      "status": 200,
+      "bytes": 12077,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/lowpoly-island.mp4",
+      "status": 200,
+      "bytes": 26529917,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/lowpoly-island/demo/index.html",
+      "status": 200,
+      "bytes": 563,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/lowpoly-island.mp4.source.json",
+      "status": 200,
+      "bytes": 1308,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/lowpoly-island/STYLE.md",
+      "status": 200,
+      "bytes": 12302,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/glass-product.mp4",
+      "status": 200,
+      "bytes": 17526354,
+      "type": "video/mp4",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/glass-product/demo/index.html",
+      "status": 200,
+      "bytes": 566,
+      "type": "text/html; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/glass-product.mp4.source.json",
+      "status": 200,
+      "bytes": 1296,
+      "type": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "file": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar/styles/glass-product/STYLE.md",
+      "status": 200,
+      "bytes": 12199,
+      "type": "text/plain; charset=utf-8",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "duration": 15,
+  "fps": 24,
+  "representatives": [
+    {
+      "shot": "promise",
+      "state": "establish",
+      "time": 0.1,
+      "frame": 2
+    },
+    {
+      "shot": "promise",
+      "state": "action",
+      "time": 0.45,
+      "frame": 11
+    },
+    {
+      "shot": "promise",
+      "state": "result",
+      "time": 1.2,
+      "frame": 29
+    },
+    {
+      "shot": "inside",
+      "state": "establish",
+      "time": 1.5,
+      "frame": 36
+    },
+    {
+      "shot": "inside",
+      "state": "action",
+      "time": 2.05,
+      "frame": 49
+    },
+    {
+      "shot": "inside",
+      "state": "result",
+      "time": 3.4,
+      "frame": 82
+    },
+    {
+      "shot": "parts",
+      "state": "establish",
+      "time": 3.8,
+      "frame": 91
+    },
+    {
+      "shot": "parts",
+      "state": "action",
+      "time": 4.4,
+      "frame": 106
+    },
+    {
+      "shot": "parts",
+      "state": "result",
+      "time": 6,
+      "frame": 144
+    },
+    {
+      "shot": "forward",
+      "state": "establish",
+      "time": 6.3,
+      "frame": 151
+    },
+    {
+      "shot": "forward",
+      "state": "action",
+      "time": 6.7,
+      "frame": 161
+    },
+    {
+      "shot": "forward",
+      "state": "result",
+      "time": 9.5,
+      "frame": 228
+    },
+    {
+      "shot": "return",
+      "state": "establish",
+      "time": 10.2,
+      "frame": 245
+    },
+    {
+      "shot": "return",
+      "state": "action",
+      "time": 10.6,
+      "frame": 254
+    },
+    {
+      "shot": "return",
+      "state": "result",
+      "time": 11.9,
+      "frame": 286
+    },
+    {
+      "shot": "answer",
+      "state": "establish",
+      "time": 12.4,
+      "frame": 298
+    },
+    {
+      "shot": "answer",
+      "state": "action",
+      "time": 13.1,
+      "frame": 314
+    },
+    {
+      "shot": "answer",
+      "state": "result",
+      "time": 14.6,
+      "frame": 350
+    }
+  ],
+  "continuous_windows": [
+    {
+      "reason": "continuous",
+      "anchor": "valve-body",
+      "start_frame": 31,
+      "end_frame": 41
+    },
+    {
+      "reason": "continuous",
+      "anchor": "valve-seat",
+      "start_frame": 86,
+      "end_frame": 96
+    },
+    {
+      "reason": "continuous",
+      "anchor": "valve-disc",
+      "start_frame": 146,
+      "end_frame": 156
+    },
+    {
+      "reason": "continuous",
+      "anchor": "valve-disc",
+      "start_frame": 240,
+      "end_frame": 250
+    },
+    {
+      "reason": "continuous",
+      "anchor": "valve-body",
+      "start_frame": 292,
+      "end_frame": 303
+    }
+  ],
+  "errors": [],
+  "scope": "Plan/evidence consistency only; visual and sound judgments require actual observation."
+}

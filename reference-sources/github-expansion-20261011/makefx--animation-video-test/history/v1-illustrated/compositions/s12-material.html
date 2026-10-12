@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s12-root { position: absolute; inset: 0; }
+        #s12-desk { left: 40px; top: 820px; width: 1840px; height: 40px; border-radius: 12px; background: #d9b98a; border: 5px solid var(--k-ink); }
+        #s12-desk-front { left: 80px; top: 856px; width: 1760px; height: 224px; background: #c9a877; border-left: 5px solid var(--k-ink); border-right: 5px solid var(--k-ink); }
+        #s12-shelf { left: 90px; top: 520px; width: 400px; height: 20px; border-radius: 6px; background: #d9b98a; border: 4px solid var(--k-ink); box-shadow: 0 5px 0 var(--k-ink); }
+        #s12-board { left: 620px; top: 300px; width: 440px; height: 510px; border-radius: 24px; background: #fffaf0; border: 5px solid var(--k-ink); box-shadow: 0 10px 0 var(--k-ink); overflow: hidden; }
+        #s12-board-bar { height: 62px; border-bottom: 5px solid var(--k-ink); background: #f3e2b8; display: flex; align-items: center; padding: 0 26px; font: 500 24px/1 var(--k-mono); color: var(--k-ink); }
+        #s12-board-foot { left: 0; top: 432px; width: 430px; text-align: center; font: 500 20px/1 var(--k-mono); color: var(--k-ink-2); }
+        .s12-slot { font: 500 26px/1.2 var(--k-mono); padding: 6px 16px; }
+        .s12-slot.s12-dim { color: var(--k-ink-2); border-style: dashed; box-shadow: none; }
+        .s12-tag { font-size: 20px; }
+        #s12-price { left: 1340px; top: 884px; font-size: 26px; }
+      </style>
+      <div id="s12-root" data-composition-id="s12-material" data-width="1920" data-height="1080">
+        <div id="s12-scene" class="k-scene k-warm">
+          <div id="s12-desk-front" class="k-abs"></div>
+          <div id="s12-desk" class="k-abs"></div>
+          <div id="s12-shelf" class="k-abs"></div>
+          <div id="s12-board" class="k-abs">
+            <div id="s12-board-bar">next clip · slots</div>
+            <div id="s12-board-foot" class="k-abs">slots differ per model</div>
+          </div>
+          <svg id="s12-wires" class="k-abs" width="1920" height="1080" data-layout-allow-overflow>
+            <path id="s12-cable-a" d="M428 363 C 540 363, 540 415, 660 415" fill="none" stroke="#2a2118" stroke-width="7" stroke-linecap="round" />
+            <path id="s12-cable-b" d="M322 722 C 520 722, 520 505, 660 505" fill="none" stroke="#2a2118" stroke-width="7" stroke-linecap="round" />
+            <path id="s12-ref-a-ink" d="M1062 415 C 1190 415, 1180 600, 1310 600" fill="none" stroke="#2a2118" stroke-width="11" stroke-linecap="round" />
+            <path id="s12-ref-a" d="M1062 415 C 1190 415, 1180 600, 1310 600" fill="none" stroke="#f2c14e" stroke-width="5" stroke-linecap="round" />
+            <path id="s12-ref-b-ink" d="M1062 505 C 1180 505, 1200 664, 1310 664" fill="none" stroke="#2a2118" stroke-width="11" stroke-linecap="round" />
+            <path id="s12-ref-b" d="M1062 505 C 1180 505, 1200 664, 1310 664" fill="none" stroke="#f2c14e" stroke-width="5" stroke-linecap="round" />
+          </svg>
+          <div id="s12-price" class="k-pill k-amber">next clip · 4 s · 480p · 40 cr</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s12-scene");
+          K.grain(scene, "s12");
+          // still props: sky, a plant and a mug on the desk
+          K.cloud(scene, 480, 170, 0.8); K.cloud(scene, 1130, 175, 0.7); K.cloud(scene, 1560, 300, 0.9);
+          K.plant(scene, 1730, 660, 0.95);
+          K.mug(scene, 1160, 722);
+          K.chrome(scene, tl, { title: "any card is material", chapter: "5 · continue", step: 5 });
+
+          // Desk drawers: still furniture on the desk front.
+          [560, 900].forEach((x) => K.el(scene, "div", { class: "k-abs", style: { left: x + "px", top: "930px", width: "300px", height: "110px", borderRadius: "14px", border: "5px solid #2a2118", background: "#d9b98a" } },
+            '<div style="position:absolute;left:110px;top:40px;width:70px;height:20px;border-radius:10px;background:#6e4527;border:4px solid #2a2118"></div>'));
+          // A frame pulled from a video, on the desk: the end frame's source.
+          const FS = 0.8, frame = K.card(scene, { id: "s12-frame", theme: "warm", left: 150, top: 820 - 202 * FS, scale: FS, thumb: K.harbourArt({ boat: 50, mood: "dusk" }) });
+          gsap.set(K.part(frame, "k-bar"), { opacity: 0 });
+          K.el(scene, "div", { class: "k-pill", style: { left: "110px", top: "884px", fontSize: "22px" } }).textContent = "frame · image/frame · 0 cr";
+
+          // The slots of the next clip: sockets on the left, a port on the right for each.
+          const board = document.getElementById("s12-board");
+          const ROWS = [["start_frame", 415, true], ["end_frame", 505, true], ["reference", 595, false], ["audio_reference", 685, false]];
+          const pills = {}, rings = {}, ports = {};
+          ROWS.forEach(([name, y, used]) => {
+            const s = K.el(scene, "svg", { class: "k-abs", width: 56, height: 56, style: { left: 647 + "px", top: y - 28 + "px" } },
+              `<circle cx="28" cy="28" r="22" fill="#f3e2b8" stroke="#2a2118" stroke-width="4"/><circle cx="22" cy="28" r="3.5" fill="#2a2118"/><circle cx="34" cy="28" r="3.5" fill="#2a2118"/>` +
+              `<circle class="s12-flash" cx="28" cy="28" r="26" fill="none" stroke="#f2c14e" stroke-width="6" opacity="0"/>`);
+            rings[name] = s.querySelector(".s12-flash");
+            pills[name] = K.el(scene, "div", { class: "k-pill s12-slot" + (used ? "" : " s12-dim"), style: { left: "716px", top: y - 23 + "px" } });
+            pills[name].textContent = name;
+            ports[name] = K.el(scene, "svg", { class: "k-abs", width: 24, height: 24, style: { left: 1050 + "px", top: y - 12 + "px" } },
+              `<circle cx="12" cy="12" r="8" fill="${used ? "#fffaf0" : "#e8dcc0"}" stroke="#2a2118" stroke-width="4"/>`).querySelector("circle");
+          });
+
+          // The start frame's source: a still, standing on a wall shelf.
+          const S = 1.4, CL = 130, CT = 520 - 202 * S;
+          const card = K.card(scene, { id: "s12-card", theme: "warm", left: CL, top: CT, scale: S, thumb: K.harbourArt({ boat: 12 }) });
+          gsap.set(K.part(card, "k-bar"), { opacity: 0 });
+          K.el(scene, "div", { class: "k-pill", style: { left: "110px", top: "552px", fontSize: "22px" } }).textContent = "still · image/flux-2 · 3 cr";
+
+          // Two plugs, one on each source card, each riding its cable.
+          const plug = (id) => {
+            const outer = K.el(scene, "div", { id, class: "k-abs", style: { width: "58px", height: "38px" } });
+            const inner = K.el(outer, "svg", { width: 58, height: 38, viewBox: "0 0 58 38" },
+              '<rect x="38" y="9" width="16" height="6" rx="2" fill="#2a2118"/><rect x="38" y="23" width="16" height="6" rx="2" fill="#2a2118"/><rect x="3" y="3" width="38" height="32" rx="8" fill="#f2c14e" stroke="#2a2118" stroke-width="4"/>');
+            return [outer, inner];
+          };
+          const [plugA, plugAin] = plug("s12-plug-a"), [plugB, plugBin] = plug("s12-plug-b");
+
+          // The next clip: an empty picture, eyes shut, waiting for its slots.
+          const BS = 1.5, BL = 1300, BT = 820 - 202 * BS;
+          const bx = BL + 110 * BS, by = BT + 76 * BS, bfeet = BT + 202 * BS;
+          const next = K.card(scene, { id: "s12-next", theme: "warm", left: BL, top: BT, scale: BS, thumb: K.harbourArt({ boat: 44 }) });
+          gsap.set(K.part(next, "k-bar"), { opacity: 0 });
+          const nthumb = K.part(next, "k-thumb"), neyes = K.part(next, "k-eyes");
+          const empty = K.el(next.querySelector("svg"), "g", {},
+            '<rect x="40" y="38" width="140" height="76" rx="8" fill="none" stroke="#5c4f41" stroke-width="3" stroke-dasharray="8 7"/><path d="M110 64 V88 M98 76 H122" stroke="#5c4f41" stroke-width="4" stroke-linecap="round"/>');
+          gsap.set(neyes, { scaleY: 0.12, transformOrigin: "50% 50%" });
+
+          // b0: the still hops and offers a plug from its side
+          tl.to(card, { y: -24, duration: 0.1, ease: "power2.out" }, K.t(0));
+          tl.to(card, { y: 0, duration: 0.12, ease: "power2.in", data: "follow" }, K.t(0) + 0.1);
+          K.travel(tl, plugA, document.getElementById("s12-cable-a"), 1, 0.24, "power2.out", 58, 38);
+          K.travel(tl, plugB, document.getElementById("s12-cable-b"), 2, 0.24, "power2.out", 58, 38);
+          tl.fromTo(plugAin, { scale: 0, opacity: 0, transformOrigin: "0% 50%" }, { scale: 1, opacity: 1, duration: 0.18, ease: "back.out(3)", data: "follow" }, K.t(0) + 0.06);
+          // b1: the first plug runs to start_frame and seats
+          K.draw(tl, document.getElementById("s12-cable-a"), 1, 0.24);
+          tl.fromTo(rings.start_frame, { opacity: 0 }, { opacity: 1, duration: 0.04, data: "follow" }, K.t(1) + 0.22);
+          tl.to(rings.start_frame, { opacity: 0, duration: 0.3, data: "follow" }, K.t(1) + 0.3);
+          tl.to(pills.start_frame, { backgroundColor: "#f2c14e", color: "#1a1300", duration: 0.06, data: "follow" }, K.t(1) + 0.22);
+          // b2: the frame's plug runs to end_frame and seats
+          K.draw(tl, document.getElementById("s12-cable-b"), 2, 0.24);
+          tl.fromTo(rings.end_frame, { opacity: 0 }, { opacity: 1, duration: 0.04, data: "follow" }, K.t(2) + 0.22);
+          tl.to(rings.end_frame, { opacity: 0, duration: 0.3, data: "follow" }, K.t(2) + 0.3);
+          tl.to(pills.end_frame, { backgroundColor: "#f2c14e", color: "#1a1300", duration: 0.06, data: "follow" }, K.t(2) + 0.22);
+          // b3: reference lines draw from the two filled slots into the next clip
+          tl.to([ports.start_frame, ports.end_frame], { attr: { fill: "#f2c14e" }, duration: 0.06 }, K.t(3));
+          ["s12-ref-a-ink", "s12-ref-a", "s12-ref-b-ink", "s12-ref-b"].forEach((id) => K.draw(tl, document.getElementById(id), 3, 0.24));
+          // b4: its picture fills in between the two frames, and it opens its eyes
+          tl.fromTo(nthumb, { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.2, ease: "power2.out" }, K.t(4));
+          tl.to(empty, { opacity: 0, duration: 0.08, data: "follow" }, K.t(4));
+          tl.to(neyes, { scaleY: 1, duration: 0.12, ease: "back.out(3)", data: "follow" }, K.t(4) + 0.12);
+          // b5: it hops, a card of its own
+          tl.to(next, { y: -40, duration: 0.11, ease: "power2.out" }, K.t(5));
+          tl.to(next, { y: 0, duration: 0.1, ease: "power2.in", data: "follow" }, K.t(5) + 0.11);
+          K.land(tl, next, K.t(5) + 0.21, { follow: true });
+          K.puff(tl, scene, bx, bfeet, K.t(5) + 0.21, { spread: 120 });
+          // b6: its price is quoted
+          K.pop(tl, "#s12-price", 6, { from: 0.4, origin: "50% 0%" });
+          // b7: a small flourish over the new card
+          K.sparkle(tl, scene, bx, BT + 10, K.t(7), { r: 90, seed: 12 });
+          K.blink(tl, neyes, K.t(7) + 0.1);
+
+          K.focus(scene, tl, "s12", [
+            [0, 440, 380], [1, 660, 415], [2, 660, 505], [3, 1062, 460],
+            [4, bx, by], [5, bx, by + 70], [6, bx + 40, 900], [7, bx, by - 40],
+          ]);
+          K.check(tl, "s12");
+          window.__timelines["s12-material"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

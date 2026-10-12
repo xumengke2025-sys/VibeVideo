@@ -1,0 +1,2368 @@
+[
+  {
+    "id": "infantry-0",
+    "path": "assets/components/infantry-0-hires.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [
+      "infantry-0-legacy"
+    ],
+    "source": "assets/originals/infantry-0-hires.png",
+    "sha256": "2a8c3293a32d457b3843c524ed81560bc0ee16b941f94c35b92d328dd4d1b0e4",
+    "canvas_size": [
+      887,
+      1774
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      861,
+      1742
+    ],
+    "crop_offset": [
+      0,
+      0
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.875,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S11"
+    ],
+    "prompt": "Edit target: supplied low-resolution French infantry component 0. Produce one single large high-resolution full-body isolated character, tall portrait canvas with the figure at least 1500 pixels high if available. Preserve this exact historical uniform, identity, pose direction (three-quarter rear facing right), bicorne silhouette, musket and bayonet position, backpack and straps. Restore both complete boots and soles at the bottom with a narrow transparent margin; include the whole bayonet top. All features remain proportionate, no cut-off feet. Art direction: sophisticated black and grey Chinese ink-wash illustration, soft wet ink clothing edges with crisp dry-brush boot and musket detail, monochrome to very subdued warm grey, extremely restrained dark uniform identity accents. No colorful red/blue patches, no saturation. Same soft upper-left lighting and original perspective. Genuine transparent alpha background, absolutely no dark or beige rectangular backdrop, no scene, no text, no extra objects or figures. This is a static raster animation component; make the arms, legs and coat silhouettes clear enough to deform with a code rig.",
+    "prompt_status": "exact built-in edit prompt saved",
+    "provenance": {
+      "method": "Codex built-in imagegen edit",
+      "source": "assets/originals/infantry-0-hires.png",
+      "prompt_archive": "assets/hires-infantry-prompts.json",
+      "original_low_resolution": "assets/components/infantry-0.png"
+    },
+    "rig_legs": [
+      [
+        [
+          0.51,
+          0.58
+        ],
+        [
+          0.34,
+          0.76
+        ],
+        [
+          0.27226606538895154,
+          0.9751972942502819
+        ]
+      ],
+      [
+        [
+          0.66,
+          0.58
+        ],
+        [
+          0.71,
+          0.75
+        ],
+        [
+          0.7181510710259301,
+          0.9650507328072153
+        ]
+      ]
+    ],
+    "joint_source": "hip/knee static component landmarks; sole alpha>128 lower connected figure region"
+  },
+  {
+    "id": "cavalry-0",
+    "path": "assets/components/cavalry-0.png",
+    "kind": "horse",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/cavalry-atlas.png",
+    "sha256": "9b9300e63a0e4c346afd602dce4034b7fb926a0ad86199201ab46a004ad345aa",
+    "canvas_size": [
+      468,
+      466
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      468,
+      466
+    ],
+    "crop_offset": [
+      44,
+      19
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {},
+    "world_size": [
+      1.757510729613734,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S04",
+      "S05"
+    ],
+    "prompt": "Historical-scene asset for an animated ink-wash film about Napoleon's Egyptian expedition. Create ONE transparent sprite atlas with exactly 3 columns and 2 rows, each isolated subject centered in its own cell with ample transparent spacing, no borders no text. Top row: three Mamluk cavalry horse-and-rider in left-facing side view, subtly different horse coat values, turbans, long loose robes, sabres, circa 1798, riding posture. Bottom row: corresponding right-facing views of those three. Complete whole horses and riders including hooves. Very restrained Chinese ink wash: black carbon ink, grey washes, pale grey cloth only, absolutely no vivid colors. Soft broken wet ink edges but clear limb joints, elegant brush detail. Heads and necks anatomically correct, saddles clear. No shadows on a background, no scenery, no paper rectangle. True transparent background. Artwork with natural organic detail, not icons or cartoons. Intended for splitting legs and head into animation components, leave visible clear connections. At least 1536x1024 canvas if available.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/cavalry-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical-scene asset for an animated ink-wash film about Napoleon's Egyptian expedition. Create ONE transparent sprite atlas with exactly 3 columns and 2 rows, each isolated subject centered in its own cell with ample transparent spacing, no borders no text. Top row: three Mamluk cavalry horse-and-rider in left-facing side view, subtly different horse coat values, turbans, long loose robes, sabres, circa 1798, riding posture. Bottom row: corresponding right-facing views of those three. Complete whole horses and riders including hooves. Very restrained Chinese ink wash: black carbon ink, grey washes, pale grey cloth only, absolutely no vivid colors. Soft broken wet ink edges but clear limb joints, elegant brush detail. Heads and necks anatomically correct, saddles clear. No shadows on a background, no scenery, no paper rectangle. True transparent background. Artwork with natural organic detail, not icons or cartoons. Intended for splitting legs and head into animation components, leave visible clear connections. At least 1536x1024 canvas if available.",
+    "prompt_archive": "assets/original-prompts.json",
+    "horse_rig": {
+      "legs": [
+        [
+          [
+            0.2777777777777778,
+            0.5686695278969958
+          ],
+          [
+            0.35683760683760685,
+            0.778969957081545
+          ],
+          [
+            0.3696581196581197,
+            0.9678111587982833
+          ]
+        ],
+        [
+          [
+            0.22435897435897437,
+            0.5536480686695279
+          ],
+          [
+            0.08974358974358974,
+            0.7253218884120172
+          ],
+          [
+            0.12179487179487179,
+            0.8819742489270386
+          ]
+        ],
+        [
+          [
+            0.7371794871794872,
+            0.5600858369098712
+          ],
+          [
+            0.8183760683760684,
+            0.8111587982832618
+          ],
+          [
+            0.8525641025641025,
+            0.9678111587982833
+          ]
+        ],
+        [
+          [
+            0.6111111111111112,
+            0.6351931330472103
+          ],
+          [
+            0.6752136752136753,
+            0.7682403433476395
+          ],
+          [
+            0.5534188034188035,
+            0.9034334763948498
+          ]
+        ]
+      ],
+      "neck": [
+        0.2606837606837607,
+        0.4742489270386266
+      ],
+      "mouth": [
+        0.08547008547008547,
+        0.45064377682403434
+      ],
+      "hand": [
+        0.36538461538461536,
+        0.37553648068669526
+      ],
+      "saddle": [
+        0.4807692307692308,
+        0.5600858369098712
+      ],
+      "source": "static atlas landmark estimates; local articulated 2.5D skin, no full horse physics"
+    }
+  },
+  {
+    "id": "infantry-1",
+    "path": "assets/components/infantry-1-hires.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [
+      "infantry-1-legacy"
+    ],
+    "source": "assets/originals/infantry-1-hires.png",
+    "sha256": "c5fd419cd31598f326d82d5a0e5de54a7cb97860dd8afd1b5bdf75f599f199a5",
+    "canvas_size": [
+      803,
+      1959
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      802,
+      1959
+    ],
+    "crop_offset": [
+      0,
+      0
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.717330270546197,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S11"
+    ],
+    "prompt": "Edit target: supplied low-resolution French infantry component 1. Produce one single large high-resolution full-body isolated character, tall portrait canvas with the figure at least 1500 pixels high if available. Preserve this exact historical uniform, identity, pose direction (right facing profile), bicorne silhouette, musket and bayonet position, backpack and straps. Restore both complete boots and soles at the bottom with a narrow transparent margin; include the whole bayonet top. All features remain proportionate, no cut-off feet. Art direction: sophisticated black and grey Chinese ink-wash illustration, soft wet ink clothing edges with crisp dry-brush boot and musket detail, monochrome to very subdued warm grey, extremely restrained dark uniform identity accents. No colorful red/blue patches, no saturation. Same soft upper-left lighting and original perspective. Genuine transparent alpha background, absolutely no dark or beige rectangular backdrop, no scene, no text, no extra objects or figures. This is a static raster animation component; make the arms, legs and coat silhouettes clear enough to deform with a code rig.",
+    "prompt_status": "exact built-in edit prompt saved",
+    "provenance": {
+      "method": "Codex built-in imagegen edit",
+      "source": "assets/originals/infantry-1-hires.png",
+      "prompt_archive": "assets/hires-infantry-prompts.json",
+      "original_low_resolution": "assets/components/infantry-1.png"
+    },
+    "rig_legs": [
+      [
+        [
+          0.44,
+          0.6
+        ],
+        [
+          0.33,
+          0.78
+        ],
+        [
+          0.3904109589041096,
+          0.9928534966819806
+        ]
+      ],
+      [
+        [
+          0.64,
+          0.6
+        ],
+        [
+          0.66,
+          0.78
+        ],
+        [
+          0.6382316313823163,
+          0.9601837672281777
+        ]
+      ]
+    ],
+    "joint_source": "hip/knee static component landmarks; sole alpha>128 lower connected figure region"
+  },
+  {
+    "id": "cavalry-1",
+    "path": "assets/components/cavalry-1.png",
+    "kind": "horse",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/cavalry-atlas.png",
+    "sha256": "83055bb39d51562f3cd7042f4364e5da42836d9f0983bf3d2b5a45df98e223b4",
+    "canvas_size": [
+      504,
+      467
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      504,
+      467
+    ],
+    "crop_offset": [
+      512,
+      19
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {},
+    "world_size": [
+      1.8886509635974305,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S04",
+      "S05"
+    ],
+    "prompt": "Historical-scene asset for an animated ink-wash film about Napoleon's Egyptian expedition. Create ONE transparent sprite atlas with exactly 3 columns and 2 rows, each isolated subject centered in its own cell with ample transparent spacing, no borders no text. Top row: three Mamluk cavalry horse-and-rider in left-facing side view, subtly different horse coat values, turbans, long loose robes, sabres, circa 1798, riding posture. Bottom row: corresponding right-facing views of those three. Complete whole horses and riders including hooves. Very restrained Chinese ink wash: black carbon ink, grey washes, pale grey cloth only, absolutely no vivid colors. Soft broken wet ink edges but clear limb joints, elegant brush detail. Heads and necks anatomically correct, saddles clear. No shadows on a background, no scenery, no paper rectangle. True transparent background. Artwork with natural organic detail, not icons or cartoons. Intended for splitting legs and head into animation components, leave visible clear connections. At least 1536x1024 canvas if available.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/cavalry-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical-scene asset for an animated ink-wash film about Napoleon's Egyptian expedition. Create ONE transparent sprite atlas with exactly 3 columns and 2 rows, each isolated subject centered in its own cell with ample transparent spacing, no borders no text. Top row: three Mamluk cavalry horse-and-rider in left-facing side view, subtly different horse coat values, turbans, long loose robes, sabres, circa 1798, riding posture. Bottom row: corresponding right-facing views of those three. Complete whole horses and riders including hooves. Very restrained Chinese ink wash: black carbon ink, grey washes, pale grey cloth only, absolutely no vivid colors. Soft broken wet ink edges but clear limb joints, elegant brush detail. Heads and necks anatomically correct, saddles clear. No shadows on a background, no scenery, no paper rectangle. True transparent background. Artwork with natural organic detail, not icons or cartoons. Intended for splitting legs and head into animation components, leave visible clear connections. At least 1536x1024 canvas if available.",
+    "prompt_archive": "assets/original-prompts.json",
+    "horse_rig": {
+      "legs": [
+        [
+          [
+            0.36706349206349204,
+            0.5481798715203426
+          ],
+          [
+            0.39880952380952384,
+            0.8094218415417559
+          ],
+          [
+            0.373015873015873,
+            0.9657387580299786
+          ]
+        ],
+        [
+          [
+            0.31547619047619047,
+            0.5481798715203426
+          ],
+          [
+            0.21428571428571427,
+            0.7301927194860813
+          ],
+          [
+            0.2837301587301587,
+            0.854389721627409
+          ]
+        ],
+        [
+          [
+            0.7559523809523809,
+            0.5674518201284796
+          ],
+          [
+            0.8511904761904762,
+            0.7794432548179872
+          ],
+          [
+            0.8591269841269841,
+            0.9657387580299786
+          ]
+        ],
+        [
+          [
+            0.6408730158730159,
+            0.6231263383297645
+          ],
+          [
+            0.7003968253968254,
+            0.7708779443254818
+          ],
+          [
+            0.6130952380952381,
+            0.9186295503211992
+          ]
+        ]
+      ],
+      "neck": [
+        0.3531746031746032,
+        0.46466809421841543
+      ],
+      "mouth": [
+        0.15873015873015872,
+        0.47109207708779444
+      ],
+      "hand": [
+        0.44047619047619047,
+        0.3747323340471092
+      ],
+      "saddle": [
+        0.5496031746031746,
+        0.5653104925053534
+      ],
+      "source": "static atlas landmark estimates; local articulated 2.5D skin, no full horse physics"
+    }
+  },
+  {
+    "id": "infantry-2",
+    "path": "assets/components/infantry-2-hires.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [
+      "infantry-2-legacy"
+    ],
+    "source": "assets/originals/infantry-2-hires.png",
+    "sha256": "c8452d1f717ab4afec73f2aa20b6b2e4c01c59e93745dba83d145c934c86c452",
+    "canvas_size": [
+      871,
+      1806
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      867,
+      1806
+    ],
+    "crop_offset": [
+      0,
+      0
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.8439922480620154,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S11"
+    ],
+    "prompt": "Edit target: supplied low-resolution French infantry component 2. Produce one single large high-resolution full-body isolated character, tall portrait canvas with the figure at least 1500 pixels high if available. Preserve this exact historical uniform, identity, pose direction (front three-quarter facing slightly right), bicorne silhouette, musket and bayonet position, backpack and straps. Restore both complete boots and soles at the bottom with a narrow transparent margin; include the whole bayonet top. All features remain proportionate, no cut-off feet. Art direction: sophisticated black and grey Chinese ink-wash illustration, soft wet ink clothing edges with crisp dry-brush boot and musket detail, monochrome to very subdued warm grey, extremely restrained dark uniform identity accents. No colorful red/blue patches, no saturation. Same soft upper-left lighting and original perspective. Genuine transparent alpha background, absolutely no dark or beige rectangular backdrop, no scene, no text, no extra objects or figures. This is a static raster animation component; make the arms, legs and coat silhouettes clear enough to deform with a code rig.",
+    "prompt_status": "exact built-in edit prompt saved",
+    "provenance": {
+      "method": "Codex built-in imagegen edit",
+      "source": "assets/originals/infantry-2-hires.png",
+      "prompt_archive": "assets/hires-infantry-prompts.json",
+      "original_low_resolution": "assets/components/infantry-2.png"
+    },
+    "rig_legs": [
+      [
+        [
+          0.44,
+          0.63
+        ],
+        [
+          0.34,
+          0.81
+        ],
+        [
+          0.28587830080367393,
+          0.9933554817275747
+        ]
+      ],
+      [
+        [
+          0.65,
+          0.63
+        ],
+        [
+          0.68,
+          0.78
+        ],
+        [
+          0.7749712973593571,
+          0.9656699889258029
+        ]
+      ]
+    ],
+    "joint_source": "hip/knee static component landmarks; sole alpha>128 lower connected figure region"
+  },
+  {
+    "id": "cavalry-2",
+    "path": "assets/components/cavalry-2.png",
+    "kind": "horse",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/cavalry-atlas.png",
+    "sha256": "5bb9d6404f04eabc39432df4d6d8ee9f06f76a59812202f6b3811cde47e1ec66",
+    "canvas_size": [
+      462,
+      462
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      462,
+      462
+    ],
+    "crop_offset": [
+      1056,
+      23
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {},
+    "world_size": [
+      1.75,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S04",
+      "S05"
+    ],
+    "prompt": "Historical-scene asset for an animated ink-wash film about Napoleon's Egyptian expedition. Create ONE transparent sprite atlas with exactly 3 columns and 2 rows, each isolated subject centered in its own cell with ample transparent spacing, no borders no text. Top row: three Mamluk cavalry horse-and-rider in left-facing side view, subtly different horse coat values, turbans, long loose robes, sabres, circa 1798, riding posture. Bottom row: corresponding right-facing views of those three. Complete whole horses and riders including hooves. Very restrained Chinese ink wash: black carbon ink, grey washes, pale grey cloth only, absolutely no vivid colors. Soft broken wet ink edges but clear limb joints, elegant brush detail. Heads and necks anatomically correct, saddles clear. No shadows on a background, no scenery, no paper rectangle. True transparent background. Artwork with natural organic detail, not icons or cartoons. Intended for splitting legs and head into animation components, leave visible clear connections. At least 1536x1024 canvas if available.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/cavalry-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical-scene asset for an animated ink-wash film about Napoleon's Egyptian expedition. Create ONE transparent sprite atlas with exactly 3 columns and 2 rows, each isolated subject centered in its own cell with ample transparent spacing, no borders no text. Top row: three Mamluk cavalry horse-and-rider in left-facing side view, subtly different horse coat values, turbans, long loose robes, sabres, circa 1798, riding posture. Bottom row: corresponding right-facing views of those three. Complete whole horses and riders including hooves. Very restrained Chinese ink wash: black carbon ink, grey washes, pale grey cloth only, absolutely no vivid colors. Soft broken wet ink edges but clear limb joints, elegant brush detail. Heads and necks anatomically correct, saddles clear. No shadows on a background, no scenery, no paper rectangle. True transparent background. Artwork with natural organic detail, not icons or cartoons. Intended for splitting legs and head into animation components, leave visible clear connections. At least 1536x1024 canvas if available.",
+    "prompt_archive": "assets/original-prompts.json",
+    "horse_rig": {
+      "legs": [
+        [
+          [
+            0.2878787878787879,
+            0.5584415584415584
+          ],
+          [
+            0.3722943722943723,
+            0.8051948051948052
+          ],
+          [
+            0.36147186147186144,
+            0.9675324675324676
+          ]
+        ],
+        [
+          [
+            0.25757575757575757,
+            0.5541125541125541
+          ],
+          [
+            0.11255411255411256,
+            0.7402597402597403
+          ],
+          [
+            0.06277056277056277,
+            0.9307359307359307
+          ]
+        ],
+        [
+          [
+            0.7121212121212122,
+            0.5822510822510822
+          ],
+          [
+            0.8528138528138528,
+            0.803030303030303
+          ],
+          [
+            0.8787878787878788,
+            0.9675324675324676
+          ]
+        ],
+        [
+          [
+            0.6277056277056277,
+            0.6298701298701299
+          ],
+          [
+            0.6363636363636364,
+            0.79004329004329
+          ],
+          [
+            0.525974025974026,
+            0.9588744588744589
+          ]
+        ]
+      ],
+      "neck": [
+        0.2727272727272727,
+        0.47835497835497837
+      ],
+      "mouth": [
+        0.0735930735930736,
+        0.48484848484848486
+      ],
+      "hand": [
+        0.3852813852813853,
+        0.38095238095238093
+      ],
+      "saddle": [
+        0.5151515151515151,
+        0.5670995670995671
+      ],
+      "source": "static atlas landmark estimates; local articulated 2.5D skin, no full horse physics"
+    }
+  },
+  {
+    "id": "infantry-3",
+    "path": "assets/components/infantry-3.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/infantry-atlas.png",
+    "sha256": "3ab57d438d8bb69e3cfc7757e5d0844f40e471022b41ef23b539981f8de9e5c1",
+    "canvas_size": [
+      222,
+      500
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      222,
+      500
+    ],
+    "crop_offset": [
+      214,
+      512
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.777,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S11"
+    ],
+    "prompt": "Reconstructed asset brief, NOT original generation prompt: infantry-3; static isolated ink-wash historical animation component, 受限侧面/三分之四姿态；不伪造背面, soft upper-left light, muted black/grey with restrained identity accents, native transparent background, no text, preserve reference clothing and silhouette. Source image: assets/originals/infantry-atlas.png.",
+    "prompt_status": "reconstructed brief; exact historical original unavailable",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/infantry-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": null
+  },
+  {
+    "id": "cavalry-3",
+    "path": "assets/components/cavalry-3.png",
+    "kind": "horse",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/cavalry-atlas.png",
+    "sha256": "d290e70e93eb98dd6c1c5150e6cc2e5dd3b46320359da2ba15f5b9b5e38bb08f",
+    "canvas_size": [
+      463,
+      461
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      463,
+      461
+    ],
+    "crop_offset": [
+      17,
+      524
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {},
+    "world_size": [
+      1.757592190889371,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S04",
+      "S05"
+    ],
+    "prompt": "Historical-scene asset for an animated ink-wash film about Napoleon's Egyptian expedition. Create ONE transparent sprite atlas with exactly 3 columns and 2 rows, each isolated subject centered in its own cell with ample transparent spacing, no borders no text. Top row: three Mamluk cavalry horse-and-rider in left-facing side view, subtly different horse coat values, turbans, long loose robes, sabres, circa 1798, riding posture. Bottom row: corresponding right-facing views of those three. Complete whole horses and riders including hooves. Very restrained Chinese ink wash: black carbon ink, grey washes, pale grey cloth only, absolutely no vivid colors. Soft broken wet ink edges but clear limb joints, elegant brush detail. Heads and necks anatomically correct, saddles clear. No shadows on a background, no scenery, no paper rectangle. True transparent background. Artwork with natural organic detail, not icons or cartoons. Intended for splitting legs and head into animation components, leave visible clear connections. At least 1536x1024 canvas if available.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/cavalry-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical-scene asset for an animated ink-wash film about Napoleon's Egyptian expedition. Create ONE transparent sprite atlas with exactly 3 columns and 2 rows, each isolated subject centered in its own cell with ample transparent spacing, no borders no text. Top row: three Mamluk cavalry horse-and-rider in left-facing side view, subtly different horse coat values, turbans, long loose robes, sabres, circa 1798, riding posture. Bottom row: corresponding right-facing views of those three. Complete whole horses and riders including hooves. Very restrained Chinese ink wash: black carbon ink, grey washes, pale grey cloth only, absolutely no vivid colors. Soft broken wet ink edges but clear limb joints, elegant brush detail. Heads and necks anatomically correct, saddles clear. No shadows on a background, no scenery, no paper rectangle. True transparent background. Artwork with natural organic detail, not icons or cartoons. Intended for splitting legs and head into animation components, leave visible clear connections. At least 1536x1024 canvas if available.",
+    "prompt_archive": "assets/original-prompts.json",
+    "horse_rig": {
+      "legs": [
+        [
+          [
+            0.7213822894168467,
+            0.6030368763557483
+          ],
+          [
+            0.6846652267818575,
+            0.8156182212581344
+          ],
+          [
+            0.6630669546436285,
+            0.9804772234273319
+          ]
+        ],
+        [
+          [
+            0.7624190064794817,
+            0.6355748373101953
+          ],
+          [
+            0.8920086393088553,
+            0.7418655097613883
+          ],
+          [
+            0.8833693304535637,
+            0.8937093275488069
+          ]
+        ],
+        [
+          [
+            0.3282937365010799,
+            0.5835140997830802
+          ],
+          [
+            0.1771058315334773,
+            0.7722342733188721
+          ],
+          [
+            0.17278617710583152,
+            0.96529284164859
+          ]
+        ],
+        [
+          [
+            0.41252699784017277,
+            0.6268980477223427
+          ],
+          [
+            0.3563714902807775,
+            0.7787418655097614
+          ],
+          [
+            0.4773218142548596,
+            0.9067245119305857
+          ]
+        ]
+      ],
+      "neck": [
+        0.734341252699784,
+        0.5097613882863341
+      ],
+      "mouth": [
+        0.9524838012958964,
+        0.47288503253796094
+      ],
+      "hand": [
+        0.6393088552915767,
+        0.403470715835141
+      ],
+      "saddle": [
+        0.5399568034557235,
+        0.5986984815618221
+      ],
+      "source": "static atlas landmark estimates; local articulated 2.5D skin, no full horse physics"
+    }
+  },
+  {
+    "id": "infantry-4",
+    "path": "assets/components/infantry-4.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/infantry-atlas.png",
+    "sha256": "bdd647111cbe51af04ab2759afe870dd57550b8d10c2b1d5ed05f70dc68810b9",
+    "canvas_size": [
+      255,
+      493
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      255,
+      493
+    ],
+    "crop_offset": [
+      638,
+      512
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.9051724137931034,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S11"
+    ],
+    "prompt": "Reconstructed asset brief, NOT original generation prompt: infantry-4; static isolated ink-wash historical animation component, 受限侧面/三分之四姿态；不伪造背面, soft upper-left light, muted black/grey with restrained identity accents, native transparent background, no text, preserve reference clothing and silhouette. Source image: assets/originals/infantry-atlas.png.",
+    "prompt_status": "reconstructed brief; exact historical original unavailable",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/infantry-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": null
+  },
+  {
+    "id": "cavalry-4",
+    "path": "assets/components/cavalry-4.png",
+    "kind": "horse",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/cavalry-atlas.png",
+    "sha256": "7c2ec400b9b3d802439ea250adb53fa487f7b20dfbb19db3ccad605d43fc3bf1",
+    "canvas_size": [
+      465,
+      467
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      465,
+      467
+    ],
+    "crop_offset": [
+      522,
+      524
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {},
+    "world_size": [
+      1.7425053533190578,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S04",
+      "S05"
+    ],
+    "prompt": "Historical-scene asset for an animated ink-wash film about Napoleon's Egyptian expedition. Create ONE transparent sprite atlas with exactly 3 columns and 2 rows, each isolated subject centered in its own cell with ample transparent spacing, no borders no text. Top row: three Mamluk cavalry horse-and-rider in left-facing side view, subtly different horse coat values, turbans, long loose robes, sabres, circa 1798, riding posture. Bottom row: corresponding right-facing views of those three. Complete whole horses and riders including hooves. Very restrained Chinese ink wash: black carbon ink, grey washes, pale grey cloth only, absolutely no vivid colors. Soft broken wet ink edges but clear limb joints, elegant brush detail. Heads and necks anatomically correct, saddles clear. No shadows on a background, no scenery, no paper rectangle. True transparent background. Artwork with natural organic detail, not icons or cartoons. Intended for splitting legs and head into animation components, leave visible clear connections. At least 1536x1024 canvas if available.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/cavalry-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical-scene asset for an animated ink-wash film about Napoleon's Egyptian expedition. Create ONE transparent sprite atlas with exactly 3 columns and 2 rows, each isolated subject centered in its own cell with ample transparent spacing, no borders no text. Top row: three Mamluk cavalry horse-and-rider in left-facing side view, subtly different horse coat values, turbans, long loose robes, sabres, circa 1798, riding posture. Bottom row: corresponding right-facing views of those three. Complete whole horses and riders including hooves. Very restrained Chinese ink wash: black carbon ink, grey washes, pale grey cloth only, absolutely no vivid colors. Soft broken wet ink edges but clear limb joints, elegant brush detail. Heads and necks anatomically correct, saddles clear. No shadows on a background, no scenery, no paper rectangle. True transparent background. Artwork with natural organic detail, not icons or cartoons. Intended for splitting legs and head into animation components, leave visible clear connections. At least 1536x1024 canvas if available.",
+    "prompt_archive": "assets/original-prompts.json",
+    "horse_rig": {
+      "legs": [
+        [
+          [
+            0.7075268817204301,
+            0.6081370449678801
+          ],
+          [
+            0.6709677419354839,
+            0.8586723768736617
+          ],
+          [
+            0.6666666666666666,
+            0.9721627408993576
+          ]
+        ],
+        [
+          [
+            0.7591397849462366,
+            0.6338329764453962
+          ],
+          [
+            0.9010752688172043,
+            0.7323340471092077
+          ],
+          [
+            0.8989247311827957,
+            0.9036402569593148
+          ]
+        ],
+        [
+          [
+            0.3333333333333333,
+            0.588865096359743
+          ],
+          [
+            0.16774193548387098,
+            0.8222698072805139
+          ],
+          [
+            0.1827956989247312,
+            0.9721627408993576
+          ]
+        ],
+        [
+          [
+            0.4258064516129032,
+            0.6209850107066381
+          ],
+          [
+            0.36989247311827955,
+            0.7751605995717344
+          ],
+          [
+            0.45376344086021503,
+            0.9036402569593148
+          ]
+        ]
+      ],
+      "neck": [
+        0.7419354838709677,
+        0.5032119914346895
+      ],
+      "mouth": [
+        0.9763440860215054,
+        0.4689507494646681
+      ],
+      "hand": [
+        0.632258064516129,
+        0.3961456102783726
+      ],
+      "saddle": [
+        0.5419354838709678,
+        0.6059957173447538
+      ],
+      "source": "static atlas landmark estimates; local articulated 2.5D skin, no full horse physics"
+    }
+  },
+  {
+    "id": "infantry-5",
+    "path": "assets/components/infantry-5.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/infantry-atlas.png",
+    "sha256": "67b6b50228b1e1d1e57b8c64136f18b473022e209824ef5402c5cb9da16a36b1",
+    "canvas_size": [
+      194,
+      493
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      194,
+      493
+    ],
+    "crop_offset": [
+      1102,
+      512
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.6886409736308317,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S11"
+    ],
+    "prompt": "Reconstructed asset brief, NOT original generation prompt: infantry-5; static isolated ink-wash historical animation component, 受限侧面/三分之四姿态；不伪造背面, soft upper-left light, muted black/grey with restrained identity accents, native transparent background, no text, preserve reference clothing and silhouette. Source image: assets/originals/infantry-atlas.png.",
+    "prompt_status": "reconstructed brief; exact historical original unavailable",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/infantry-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": null
+  },
+  {
+    "id": "cavalry-5",
+    "path": "assets/components/cavalry-5.png",
+    "kind": "horse",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/cavalry-atlas.png",
+    "sha256": "c127f8841ae86f1baf7e252f54377764d7dd19f4d1d28378d4959f353a4dcfcf",
+    "canvas_size": [
+      468,
+      461
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      468,
+      461
+    ],
+    "crop_offset": [
+      1029,
+      528
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {},
+    "world_size": [
+      1.7765726681127982,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S04",
+      "S05"
+    ],
+    "prompt": "Historical-scene asset for an animated ink-wash film about Napoleon's Egyptian expedition. Create ONE transparent sprite atlas with exactly 3 columns and 2 rows, each isolated subject centered in its own cell with ample transparent spacing, no borders no text. Top row: three Mamluk cavalry horse-and-rider in left-facing side view, subtly different horse coat values, turbans, long loose robes, sabres, circa 1798, riding posture. Bottom row: corresponding right-facing views of those three. Complete whole horses and riders including hooves. Very restrained Chinese ink wash: black carbon ink, grey washes, pale grey cloth only, absolutely no vivid colors. Soft broken wet ink edges but clear limb joints, elegant brush detail. Heads and necks anatomically correct, saddles clear. No shadows on a background, no scenery, no paper rectangle. True transparent background. Artwork with natural organic detail, not icons or cartoons. Intended for splitting legs and head into animation components, leave visible clear connections. At least 1536x1024 canvas if available.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/cavalry-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical-scene asset for an animated ink-wash film about Napoleon's Egyptian expedition. Create ONE transparent sprite atlas with exactly 3 columns and 2 rows, each isolated subject centered in its own cell with ample transparent spacing, no borders no text. Top row: three Mamluk cavalry horse-and-rider in left-facing side view, subtly different horse coat values, turbans, long loose robes, sabres, circa 1798, riding posture. Bottom row: corresponding right-facing views of those three. Complete whole horses and riders including hooves. Very restrained Chinese ink wash: black carbon ink, grey washes, pale grey cloth only, absolutely no vivid colors. Soft broken wet ink edges but clear limb joints, elegant brush detail. Heads and necks anatomically correct, saddles clear. No shadows on a background, no scenery, no paper rectangle. True transparent background. Artwork with natural organic detail, not icons or cartoons. Intended for splitting legs and head into animation components, leave visible clear connections. At least 1536x1024 canvas if available.",
+    "prompt_archive": "assets/original-prompts.json",
+    "horse_rig": {
+      "legs": [
+        [
+          [
+            0.6965811965811965,
+            0.6225596529284165
+          ],
+          [
+            0.6645299145299145,
+            0.841648590021692
+          ],
+          [
+            0.6709401709401709,
+            0.9761388286334056
+          ]
+        ],
+        [
+          [
+            0.7670940170940171,
+            0.6442516268980477
+          ],
+          [
+            0.8974358974358975,
+            0.7700650759219089
+          ],
+          [
+            0.9658119658119658,
+            0.8720173535791758
+          ]
+        ],
+        [
+          [
+            0.33974358974358976,
+            0.5943600867678959
+          ],
+          [
+            0.14102564102564102,
+            0.8568329718004338
+          ],
+          [
+            0.14102564102564102,
+            0.9718004338394793
+          ]
+        ],
+        [
+          [
+            0.40384615384615385,
+            0.6464208242950108
+          ],
+          [
+            0.3311965811965812,
+            0.789587852494577
+          ],
+          [
+            0.4658119658119658,
+            0.93058568329718
+          ]
+        ]
+      ],
+      "neck": [
+        0.7136752136752137,
+        0.5206073752711496
+      ],
+      "mouth": [
+        0.9743589743589743,
+        0.48156182212581344
+      ],
+      "hand": [
+        0.6452991452991453,
+        0.4078091106290672
+      ],
+      "saddle": [
+        0.5790598290598291,
+        0.6182212581344902
+      ],
+      "source": "static atlas landmark estimates; local articulated 2.5D skin, no full horse physics"
+    }
+  },
+  {
+    "id": "napoleon-0",
+    "path": "assets/components/napoleon-0.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/napoleon-atlas.png",
+    "sha256": "72aeb3a715096a176347a318919ad600daf42c6335f7892ddb5a4db25c00a6cd",
+    "canvas_size": [
+      548,
+      925
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      548,
+      925
+    ],
+    "crop_offset": [
+      20,
+      30
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      1.0367567567567568,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S01",
+      "S02"
+    ],
+    "prompt": "Create a transparent isolated historical character sprite atlas: exactly 3 columns, one row, generous separation. The SAME Napoleon Bonaparte circa Egypt 1798, slender young man, distinct bicorne hat, long dark coat, pale waistcoat and trousers, high black boots, full body with no cropping. First column full body left three-quarter rear view walking toward screen right, separate visible legs and hands free. Second column full body right three-quarter side view at rest, head looking left, one relaxed hand near waist. Third column back view stepping up with left knee lifted, right boot supported, left hand reaching outward to a railing which is NOT drawn. All consistent identity and proportions. Style elegant Chinese wet ink and charcoal wash, black and warm grey only, tiny muted grey-blue on coat, no vivid red or gold, low saturation. Fine organic brush edges, detailed historical clothing, clear joints. No scenery no boat no ground no typography no cell borders. True transparent alpha background, not checkerboard or paper panels. At least 1536x1024 if available.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/napoleon-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Create a transparent isolated historical character sprite atlas: exactly 3 columns, one row, generous separation. The SAME Napoleon Bonaparte circa Egypt 1798, slender young man, distinct bicorne hat, long dark coat, pale waistcoat and trousers, high black boots, full body with no cropping. First column full body left three-quarter rear view walking toward screen right, separate visible legs and hands free. Second column full body right three-quarter side view at rest, head looking left, one relaxed hand near waist. Third column back view stepping up with left knee lifted, right boot supported, left hand reaching outward to a railing which is NOT drawn. All consistent identity and proportions. Style elegant Chinese wet ink and charcoal wash, black and warm grey only, tiny muted grey-blue on coat, no vivid red or gold, low saturation. Fine organic brush edges, detailed historical clothing, clear joints. No scenery no boat no ground no typography no cell borders. True transparent alpha background, not checkerboard or paper panels. At least 1536x1024 if available.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "napoleon-1",
+    "path": "assets/components/napoleon-1.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/napoleon-atlas.png",
+    "sha256": "50d6703c05e8b57e3a9e0ce2a7fb16cd1f620e696e998a5efeaeedd69f4f13dd",
+    "canvas_size": [
+      348,
+      945
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      348,
+      945
+    ],
+    "crop_offset": [
+      610,
+      26
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.6444444444444445,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S06"
+    ],
+    "prompt": "Create a transparent isolated historical character sprite atlas: exactly 3 columns, one row, generous separation. The SAME Napoleon Bonaparte circa Egypt 1798, slender young man, distinct bicorne hat, long dark coat, pale waistcoat and trousers, high black boots, full body with no cropping. First column full body left three-quarter rear view walking toward screen right, separate visible legs and hands free. Second column full body right three-quarter side view at rest, head looking left, one relaxed hand near waist. Third column back view stepping up with left knee lifted, right boot supported, left hand reaching outward to a railing which is NOT drawn. All consistent identity and proportions. Style elegant Chinese wet ink and charcoal wash, black and warm grey only, tiny muted grey-blue on coat, no vivid red or gold, low saturation. Fine organic brush edges, detailed historical clothing, clear joints. No scenery no boat no ground no typography no cell borders. True transparent alpha background, not checkerboard or paper panels. At least 1536x1024 if available.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/napoleon-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Create a transparent isolated historical character sprite atlas: exactly 3 columns, one row, generous separation. The SAME Napoleon Bonaparte circa Egypt 1798, slender young man, distinct bicorne hat, long dark coat, pale waistcoat and trousers, high black boots, full body with no cropping. First column full body left three-quarter rear view walking toward screen right, separate visible legs and hands free. Second column full body right three-quarter side view at rest, head looking left, one relaxed hand near waist. Third column back view stepping up with left knee lifted, right boot supported, left hand reaching outward to a railing which is NOT drawn. All consistent identity and proportions. Style elegant Chinese wet ink and charcoal wash, black and warm grey only, tiny muted grey-blue on coat, no vivid red or gold, low saturation. Fine organic brush edges, detailed historical clothing, clear joints. No scenery no boat no ground no typography no cell borders. True transparent alpha background, not checkerboard or paper panels. At least 1536x1024 if available.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "napoleon-2",
+    "path": "assets/components/napoleon-2.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/napoleon-atlas.png",
+    "sha256": "905152e2a5b440e154b7c00131c275fb1ff7dbeb1be1c5b529dfcae645f75dc8",
+    "canvas_size": [
+      487,
+      920
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      487,
+      920
+    ],
+    "crop_offset": [
+      1034,
+      36
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.9263586956521739,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S11"
+    ],
+    "prompt": "Create a transparent isolated historical character sprite atlas: exactly 3 columns, one row, generous separation. The SAME Napoleon Bonaparte circa Egypt 1798, slender young man, distinct bicorne hat, long dark coat, pale waistcoat and trousers, high black boots, full body with no cropping. First column full body left three-quarter rear view walking toward screen right, separate visible legs and hands free. Second column full body right three-quarter side view at rest, head looking left, one relaxed hand near waist. Third column back view stepping up with left knee lifted, right boot supported, left hand reaching outward to a railing which is NOT drawn. All consistent identity and proportions. Style elegant Chinese wet ink and charcoal wash, black and warm grey only, tiny muted grey-blue on coat, no vivid red or gold, low saturation. Fine organic brush edges, detailed historical clothing, clear joints. No scenery no boat no ground no typography no cell borders. True transparent alpha background, not checkerboard or paper panels. At least 1536x1024 if available.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/napoleon-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Create a transparent isolated historical character sprite atlas: exactly 3 columns, one row, generous separation. The SAME Napoleon Bonaparte circa Egypt 1798, slender young man, distinct bicorne hat, long dark coat, pale waistcoat and trousers, high black boots, full body with no cropping. First column full body left three-quarter rear view walking toward screen right, separate visible legs and hands free. Second column full body right three-quarter side view at rest, head looking left, one relaxed hand near waist. Third column back view stepping up with left knee lifted, right boot supported, left hand reaching outward to a railing which is NOT drawn. All consistent identity and proportions. Style elegant Chinese wet ink and charcoal wash, black and warm grey only, tiny muted grey-blue on coat, no vivid red or gold, low saturation. Fine organic brush edges, detailed historical clothing, clear joints. No scenery no boat no ground no typography no cell borders. True transparent alpha background, not checkerboard or paper panels. At least 1536x1024 if available.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "scholar-0",
+    "path": "assets/components/scholar-0.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/scholars-atlas.png",
+    "sha256": "a15f0c5937fb3eb19264b0c71ea3eefbb7da1d824ca245a697a4e7070e2664c2",
+    "canvas_size": [
+      481,
+      1000
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      481,
+      1000
+    ],
+    "crop_offset": [
+      241,
+      7
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.84175,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S09"
+    ],
+    "prompt": "Historical ink-wash animated film sprite atlas, 2 columns one row, distinct isolated full-body adult men circa French scientific expedition Egypt 1798. Left: European civilian surveyor in pale grey linen long coat, loose trousers and boots, simple dark brimmed hat, right-facing three-quarter side view, both forearms reaching gently forward around waist height to adjust an unseen measuring instrument; no instrument fused with hands. Right: assistant in grey loose shirt and simple hat facing left three-quarter, holding a large BLANK sheet on a small rigid writing board in front of abdomen, hands clear, full feet. Thin organic charcoal ink detail, wet dark grey ink wash, restrained monochrome warm grey, softly irregular edges, period clothing. True transparent background, ample gap, no text, no scenery, no border, no modern objects. Full bodies 900 pixels tall if available. Not cartoon icons, anatomically natural.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/scholars-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical ink-wash animated film sprite atlas, 2 columns one row, distinct isolated full-body adult men circa French scientific expedition Egypt 1798. Left: European civilian surveyor in pale grey linen long coat, loose trousers and boots, simple dark brimmed hat, right-facing three-quarter side view, both forearms reaching gently forward around waist height to adjust an unseen measuring instrument; no instrument fused with hands. Right: assistant in grey loose shirt and simple hat facing left three-quarter, holding a large BLANK sheet on a small rigid writing board in front of abdomen, hands clear, full feet. Thin organic charcoal ink detail, wet dark grey ink wash, restrained monochrome warm grey, softly irregular edges, period clothing. True transparent background, ample gap, no text, no scenery, no border, no modern objects. Full bodies 900 pixels tall if available. Not cartoon icons, anatomically natural.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "scholar-1",
+    "path": "assets/components/scholar-1.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/scholars-atlas.png",
+    "sha256": "11147a87aa05c5906bc01769f0fbdff6b717de29dbb00c81cc7531855f99e66d",
+    "canvas_size": [
+      353,
+      974
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      353,
+      974
+    ],
+    "crop_offset": [
+      964,
+      37
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.6342402464065708,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S09"
+    ],
+    "prompt": "Historical ink-wash animated film sprite atlas, 2 columns one row, distinct isolated full-body adult men circa French scientific expedition Egypt 1798. Left: European civilian surveyor in pale grey linen long coat, loose trousers and boots, simple dark brimmed hat, right-facing three-quarter side view, both forearms reaching gently forward around waist height to adjust an unseen measuring instrument; no instrument fused with hands. Right: assistant in grey loose shirt and simple hat facing left three-quarter, holding a large BLANK sheet on a small rigid writing board in front of abdomen, hands clear, full feet. Thin organic charcoal ink detail, wet dark grey ink wash, restrained monochrome warm grey, softly irregular edges, period clothing. True transparent background, ample gap, no text, no scenery, no border, no modern objects. Full bodies 900 pixels tall if available. Not cartoon icons, anatomically natural.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/scholars-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical ink-wash animated film sprite atlas, 2 columns one row, distinct isolated full-body adult men circa French scientific expedition Egypt 1798. Left: European civilian surveyor in pale grey linen long coat, loose trousers and boots, simple dark brimmed hat, right-facing three-quarter side view, both forearms reaching gently forward around waist height to adjust an unseen measuring instrument; no instrument fused with hands. Right: assistant in grey loose shirt and simple hat facing left three-quarter, holding a large BLANK sheet on a small rigid writing board in front of abdomen, hands clear, full feet. Thin organic charcoal ink detail, wet dark grey ink wash, restrained monochrome warm grey, softly irregular edges, period clothing. True transparent background, ample gap, no text, no scenery, no border, no modern objects. Full bodies 900 pixels tall if available. Not cartoon icons, anatomically natural.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "brush-hand",
+    "path": "assets/components/brush-hand.png",
+    "kind": "contact",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/hands-stone-atlas.png",
+    "sha256": "225a8a2a2334cc4eb5049b0011aaf9429d24c85252f17d35fa2c5d60c0601b5f",
+    "canvas_size": [
+      598,
+      633
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      598,
+      633
+    ],
+    "crop_offset": [
+      49,
+      99
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {},
+    "world_size": [
+      1.6532385466034756,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S10"
+    ],
+    "prompt": "Transparent animation component atlas in 3 separated columns on a wide canvas, no labels: LEFT isolated adult right hand and forearm in plain pale linen sleeve seen from oblique above, fingers gently gripping a narrow wooden BRUSH, brush bristles pointing down-left, no stone attached; CENTER a second adult right hand and linen sleeve holding a slender black dip pen, pen nib pointing down-left, no paper attached; RIGHT an isolated thick broken dark grey basalt slab resembling a Rosetta-style stele, irregular broken upper edge, seen obliquely above with clear thick right and lower sides, low-relief engraved weathered marks in three horizontal bands of different density, marks abstract and unreadable, not actual readable writing, stone resting orientation. Historical Egypt expedition around 1799, not Napoleon's hands. Wet ink wash charcoal on warm greys, entirely monochrome, natural organic contour and anatomy, fine brush texture, no vivid hues, soft light upper left. Full objects uncropped with large gaps. True alpha transparent background, no scenery, no typography, no borders.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/hands-stone-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "contact_uv": [
+      0.005016722408026756,
+      0.995260663507109
+    ],
+    "contact_source": "lower bristle pixel alpha>128 in static component",
+    "original_prompt": "Transparent animation component atlas in 3 separated columns on a wide canvas, no labels: LEFT isolated adult right hand and forearm in plain pale linen sleeve seen from oblique above, fingers gently gripping a narrow wooden BRUSH, brush bristles pointing down-left, no stone attached; CENTER a second adult right hand and linen sleeve holding a slender black dip pen, pen nib pointing down-left, no paper attached; RIGHT an isolated thick broken dark grey basalt slab resembling a Rosetta-style stele, irregular broken upper edge, seen obliquely above with clear thick right and lower sides, low-relief engraved weathered marks in three horizontal bands of different density, marks abstract and unreadable, not actual readable writing, stone resting orientation. Historical Egypt expedition around 1799, not Napoleon's hands. Wet ink wash charcoal on warm greys, entirely monochrome, natural organic contour and anatomy, fine brush texture, no vivid hues, soft light upper left. Full objects uncropped with large gaps. True alpha transparent background, no scenery, no typography, no borders.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "pen-hand",
+    "path": "assets/components/pen-hand.png",
+    "kind": "contact",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/hands-stone-atlas.png",
+    "sha256": "d7ae4581f4fd2d28f89c49b9cdeb6f8b1aca3ffcad2751ce29fa584740db791e",
+    "canvas_size": [
+      648,
+      560
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      648,
+      560
+    ],
+    "crop_offset": [
+      647,
+      131
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {},
+    "world_size": [
+      2.025,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S10"
+    ],
+    "prompt": "Transparent animation component atlas in 3 separated columns on a wide canvas, no labels: LEFT isolated adult right hand and forearm in plain pale linen sleeve seen from oblique above, fingers gently gripping a narrow wooden BRUSH, brush bristles pointing down-left, no stone attached; CENTER a second adult right hand and linen sleeve holding a slender black dip pen, pen nib pointing down-left, no paper attached; RIGHT an isolated thick broken dark grey basalt slab resembling a Rosetta-style stele, irregular broken upper edge, seen obliquely above with clear thick right and lower sides, low-relief engraved weathered marks in three horizontal bands of different density, marks abstract and unreadable, not actual readable writing, stone resting orientation. Historical Egypt expedition around 1799, not Napoleon's hands. Wet ink wash charcoal on warm greys, entirely monochrome, natural organic contour and anatomy, fine brush texture, no vivid hues, soft light upper left. Full objects uncropped with large gaps. True alpha transparent background, no scenery, no typography, no borders.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/hands-stone-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "contact_uv": [
+      0.11651234567901235,
+      0.9964285714285714
+    ],
+    "contact_source": "lower nib pixels alpha>128 in static component",
+    "original_prompt": "Transparent animation component atlas in 3 separated columns on a wide canvas, no labels: LEFT isolated adult right hand and forearm in plain pale linen sleeve seen from oblique above, fingers gently gripping a narrow wooden BRUSH, brush bristles pointing down-left, no stone attached; CENTER a second adult right hand and linen sleeve holding a slender black dip pen, pen nib pointing down-left, no paper attached; RIGHT an isolated thick broken dark grey basalt slab resembling a Rosetta-style stele, irregular broken upper edge, seen obliquely above with clear thick right and lower sides, low-relief engraved weathered marks in three horizontal bands of different density, marks abstract and unreadable, not actual readable writing, stone resting orientation. Historical Egypt expedition around 1799, not Napoleon's hands. Wet ink wash charcoal on warm greys, entirely monochrome, natural organic contour and anatomy, fine brush texture, no vivid hues, soft light upper left. Full objects uncropped with large gaps. True alpha transparent background, no scenery, no typography, no borders.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "stone-face",
+    "path": "assets/components/stone-face.png",
+    "kind": "contact",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/hands-stone-atlas.png",
+    "sha256": "22727896dd1aa9c735128a6332e91efa54b2a71c954087f24405c3d8ab2e2cbb",
+    "canvas_size": [
+      608,
+      694
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      608,
+      694
+    ],
+    "crop_offset": [
+      1295,
+      75
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {},
+    "world_size": [
+      1.5331412103746398,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S10"
+    ],
+    "prompt": "Transparent animation component atlas in 3 separated columns on a wide canvas, no labels: LEFT isolated adult right hand and forearm in plain pale linen sleeve seen from oblique above, fingers gently gripping a narrow wooden BRUSH, brush bristles pointing down-left, no stone attached; CENTER a second adult right hand and linen sleeve holding a slender black dip pen, pen nib pointing down-left, no paper attached; RIGHT an isolated thick broken dark grey basalt slab resembling a Rosetta-style stele, irregular broken upper edge, seen obliquely above with clear thick right and lower sides, low-relief engraved weathered marks in three horizontal bands of different density, marks abstract and unreadable, not actual readable writing, stone resting orientation. Historical Egypt expedition around 1799, not Napoleon's hands. Wet ink wash charcoal on warm greys, entirely monochrome, natural organic contour and anatomy, fine brush texture, no vivid hues, soft light upper left. Full objects uncropped with large gaps. True alpha transparent background, no scenery, no typography, no borders.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/hands-stone-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Transparent animation component atlas in 3 separated columns on a wide canvas, no labels: LEFT isolated adult right hand and forearm in plain pale linen sleeve seen from oblique above, fingers gently gripping a narrow wooden BRUSH, brush bristles pointing down-left, no stone attached; CENTER a second adult right hand and linen sleeve holding a slender black dip pen, pen nib pointing down-left, no paper attached; RIGHT an isolated thick broken dark grey basalt slab resembling a Rosetta-style stele, irregular broken upper edge, seen obliquely above with clear thick right and lower sides, low-relief engraved weathered marks in three horizontal bands of different density, marks abstract and unreadable, not actual readable writing, stone resting orientation. Historical Egypt expedition around 1799, not Napoleon's hands. Wet ink wash charcoal on warm greys, entirely monochrome, natural organic contour and anatomy, fine brush texture, no vivid hues, soft light upper left. Full objects uncropped with large gaps. True alpha transparent background, no scenery, no typography, no borders.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "boot-contact",
+    "path": "assets/components/boot-contact.png",
+    "kind": "contact",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/boot-contact.png",
+    "sha256": "67a88174fb72b261e6af80165f8f36f31b798920b2deff4648120a90da652e33",
+    "canvas_size": [
+      876,
+      1453
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      876,
+      1453
+    ],
+    "crop_offset": [
+      108,
+      0
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {},
+    "world_size": [
+      1.0550584996558843,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S01"
+    ],
+    "prompt": "One isolated lower right leg and black leather military boot circa French Egyptian expedition 1798, seen from the right side with boot TOE POINTING RIGHT, trouser lower leg enters from the top, whole heel and sole clearly visible. Boot tall to mid-calf, worn black leather, subtle seams and wrinkles, pale grey trouser at top. Natural anatomy. Chinese wet black ink wash, soft charcoal edges, restrained entirely monochrome grey, fine dry brush detail. No person torso, no ground, no other objects, no shadows baked onto background, no text. True transparent alpha background. Large effective boot 900 pixels high in a portrait canvas if possible. Animation component intended to lift, rotate about ankle and plant its sole on wet sand; the sole must form a clear flat contact edge.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/boot-contact.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "One isolated lower right leg and black leather military boot circa French Egyptian expedition 1798, seen from the right side with boot TOE POINTING RIGHT, trouser lower leg enters from the top, whole heel and sole clearly visible. Boot tall to mid-calf, worn black leather, subtle seams and wrinkles, pale grey trouser at top. Natural anatomy. Chinese wet black ink wash, soft charcoal edges, restrained entirely monochrome grey, fine dry brush detail. No person torso, no ground, no other objects, no shadows baked onto background, no text. True transparent alpha background. Large effective boot 900 pixels high in a portrait canvas if possible. Animation component intended to lift, rotate about ankle and plant its sole on wet sand; the sole must form a clear flat contact edge.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "infantry-station-0",
+    "path": "assets/components/infantry-station-0.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/infantry-elevated-atlas.png",
+    "sha256": "57fb9496adccce837f509a57cab4d21194dbd84406c142dae4172fdcbaf11cae",
+    "canvas_size": [
+      231,
+      528
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      231,
+      528
+    ],
+    "crop_offset": [
+      190,
+      12
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.765625,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S04",
+      "S05",
+      "S06"
+    ],
+    "prompt": "Historical French infantry sprite sheet for an ink-wash animation Egypt campaign 1798. Exactly 3 columns x 2 rows with ample transparent separation, no borders no text. SIX single full-body men in the same authentic infantry uniform: dark muted grey coat, pale crossbelts, pale trousers, tall boots, bicorne, canvas knapsack; naturally proportioned adults, organic detailed ink and charcoal wash. Top row three-quarter back, side facing right, three-quarter front; eye-level camera, standing, arms held around chest level as though handling a weapon BUT DO NOT DRAW THE MUSKET OR BAYONET, hands separated clearly. Bottom row same three orientations viewed from a 25-degree elevated oblique camera, feet standing planted, again no weapon. Entire bodies with clear shoes, black and warm grey ONLY, subtle broken wet ink edges, no saturated colors, no scenery or ground shadow. True transparent background. High quality layered-animation component artwork, not icons, not plastic3D. Aim 2048x1536 canvas if available, whole each person at least 600px effective height.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/infantry-elevated-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical French infantry sprite sheet for an ink-wash animation Egypt campaign 1798. Exactly 3 columns x 2 rows with ample transparent separation, no borders no text. SIX single full-body men in the same authentic infantry uniform: dark muted grey coat, pale crossbelts, pale trousers, tall boots, bicorne, canvas knapsack; naturally proportioned adults, organic detailed ink and charcoal wash. Top row three-quarter back, side facing right, three-quarter front; eye-level camera, standing, arms held around chest level as though handling a weapon BUT DO NOT DRAW THE MUSKET OR BAYONET, hands separated clearly. Bottom row same three orientations viewed from a 25-degree elevated oblique camera, feet standing planted, again no weapon. Entire bodies with clear shoes, black and warm grey ONLY, subtle broken wet ink edges, no saturated colors, no scenery or ground shadow. True transparent background. High quality layered-animation component artwork, not icons, not plastic3D. Aim 2048x1536 canvas if available, whole each person at least 600px effective height.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "infantry-station-1",
+    "path": "assets/components/infantry-station-1.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/infantry-elevated-atlas.png",
+    "sha256": "f48cbb41c6fa7a57b5d9e00a860fb728758afef8a9dc7e278e7110df4d5aa565",
+    "canvas_size": [
+      226,
+      533
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      226,
+      533
+    ],
+    "crop_offset": [
+      630,
+      9
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.7420262664165104,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S04",
+      "S05",
+      "S06"
+    ],
+    "prompt": "Historical French infantry sprite sheet for an ink-wash animation Egypt campaign 1798. Exactly 3 columns x 2 rows with ample transparent separation, no borders no text. SIX single full-body men in the same authentic infantry uniform: dark muted grey coat, pale crossbelts, pale trousers, tall boots, bicorne, canvas knapsack; naturally proportioned adults, organic detailed ink and charcoal wash. Top row three-quarter back, side facing right, three-quarter front; eye-level camera, standing, arms held around chest level as though handling a weapon BUT DO NOT DRAW THE MUSKET OR BAYONET, hands separated clearly. Bottom row same three orientations viewed from a 25-degree elevated oblique camera, feet standing planted, again no weapon. Entire bodies with clear shoes, black and warm grey ONLY, subtle broken wet ink edges, no saturated colors, no scenery or ground shadow. True transparent background. High quality layered-animation component artwork, not icons, not plastic3D. Aim 2048x1536 canvas if available, whole each person at least 600px effective height.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/infantry-elevated-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical French infantry sprite sheet for an ink-wash animation Egypt campaign 1798. Exactly 3 columns x 2 rows with ample transparent separation, no borders no text. SIX single full-body men in the same authentic infantry uniform: dark muted grey coat, pale crossbelts, pale trousers, tall boots, bicorne, canvas knapsack; naturally proportioned adults, organic detailed ink and charcoal wash. Top row three-quarter back, side facing right, three-quarter front; eye-level camera, standing, arms held around chest level as though handling a weapon BUT DO NOT DRAW THE MUSKET OR BAYONET, hands separated clearly. Bottom row same three orientations viewed from a 25-degree elevated oblique camera, feet standing planted, again no weapon. Entire bodies with clear shoes, black and warm grey ONLY, subtle broken wet ink edges, no saturated colors, no scenery or ground shadow. True transparent background. High quality layered-animation component artwork, not icons, not plastic3D. Aim 2048x1536 canvas if available, whole each person at least 600px effective height.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "infantry-station-2",
+    "path": "assets/components/infantry-station-2.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/infantry-elevated-atlas.png",
+    "sha256": "fcddab1ceae1efda75929ab3c1cc931dfadb56cdc1a1c9c6f989bb8ec09fe0c3",
+    "canvas_size": [
+      225,
+      531
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      225,
+      531
+    ],
+    "crop_offset": [
+      1070,
+      12
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.7415254237288136,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S04",
+      "S05",
+      "S06"
+    ],
+    "prompt": "Historical French infantry sprite sheet for an ink-wash animation Egypt campaign 1798. Exactly 3 columns x 2 rows with ample transparent separation, no borders no text. SIX single full-body men in the same authentic infantry uniform: dark muted grey coat, pale crossbelts, pale trousers, tall boots, bicorne, canvas knapsack; naturally proportioned adults, organic detailed ink and charcoal wash. Top row three-quarter back, side facing right, three-quarter front; eye-level camera, standing, arms held around chest level as though handling a weapon BUT DO NOT DRAW THE MUSKET OR BAYONET, hands separated clearly. Bottom row same three orientations viewed from a 25-degree elevated oblique camera, feet standing planted, again no weapon. Entire bodies with clear shoes, black and warm grey ONLY, subtle broken wet ink edges, no saturated colors, no scenery or ground shadow. True transparent background. High quality layered-animation component artwork, not icons, not plastic3D. Aim 2048x1536 canvas if available, whole each person at least 600px effective height.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/infantry-elevated-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical French infantry sprite sheet for an ink-wash animation Egypt campaign 1798. Exactly 3 columns x 2 rows with ample transparent separation, no borders no text. SIX single full-body men in the same authentic infantry uniform: dark muted grey coat, pale crossbelts, pale trousers, tall boots, bicorne, canvas knapsack; naturally proportioned adults, organic detailed ink and charcoal wash. Top row three-quarter back, side facing right, three-quarter front; eye-level camera, standing, arms held around chest level as though handling a weapon BUT DO NOT DRAW THE MUSKET OR BAYONET, hands separated clearly. Bottom row same three orientations viewed from a 25-degree elevated oblique camera, feet standing planted, again no weapon. Entire bodies with clear shoes, black and warm grey ONLY, subtle broken wet ink edges, no saturated colors, no scenery or ground shadow. True transparent background. High quality layered-animation component artwork, not icons, not plastic3D. Aim 2048x1536 canvas if available, whole each person at least 600px effective height.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "infantry-station-3",
+    "path": "assets/components/infantry-station-3.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/infantry-elevated-atlas.png",
+    "sha256": "bb0b07dec9c10b5348fd2502d671cc41456e872e461e9da235839b056263f616",
+    "canvas_size": [
+      253,
+      490
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      253,
+      490
+    ],
+    "crop_offset": [
+      178,
+      565
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.9035714285714286,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S04",
+      "S05",
+      "S06"
+    ],
+    "prompt": "Historical French infantry sprite sheet for an ink-wash animation Egypt campaign 1798. Exactly 3 columns x 2 rows with ample transparent separation, no borders no text. SIX single full-body men in the same authentic infantry uniform: dark muted grey coat, pale crossbelts, pale trousers, tall boots, bicorne, canvas knapsack; naturally proportioned adults, organic detailed ink and charcoal wash. Top row three-quarter back, side facing right, three-quarter front; eye-level camera, standing, arms held around chest level as though handling a weapon BUT DO NOT DRAW THE MUSKET OR BAYONET, hands separated clearly. Bottom row same three orientations viewed from a 25-degree elevated oblique camera, feet standing planted, again no weapon. Entire bodies with clear shoes, black and warm grey ONLY, subtle broken wet ink edges, no saturated colors, no scenery or ground shadow. True transparent background. High quality layered-animation component artwork, not icons, not plastic3D. Aim 2048x1536 canvas if available, whole each person at least 600px effective height.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/infantry-elevated-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical French infantry sprite sheet for an ink-wash animation Egypt campaign 1798. Exactly 3 columns x 2 rows with ample transparent separation, no borders no text. SIX single full-body men in the same authentic infantry uniform: dark muted grey coat, pale crossbelts, pale trousers, tall boots, bicorne, canvas knapsack; naturally proportioned adults, organic detailed ink and charcoal wash. Top row three-quarter back, side facing right, three-quarter front; eye-level camera, standing, arms held around chest level as though handling a weapon BUT DO NOT DRAW THE MUSKET OR BAYONET, hands separated clearly. Bottom row same three orientations viewed from a 25-degree elevated oblique camera, feet standing planted, again no weapon. Entire bodies with clear shoes, black and warm grey ONLY, subtle broken wet ink edges, no saturated colors, no scenery or ground shadow. True transparent background. High quality layered-animation component artwork, not icons, not plastic3D. Aim 2048x1536 canvas if available, whole each person at least 600px effective height.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "infantry-station-4",
+    "path": "assets/components/infantry-station-4.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/infantry-elevated-atlas.png",
+    "sha256": "584b67de0e6726ee450d8338a5f8594368e4e2151b424c6ffd3e201732a86a1f",
+    "canvas_size": [
+      254,
+      502
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      254,
+      502
+    ],
+    "crop_offset": [
+      601,
+      554
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.8854581673306773,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S04",
+      "S05",
+      "S06"
+    ],
+    "prompt": "Historical French infantry sprite sheet for an ink-wash animation Egypt campaign 1798. Exactly 3 columns x 2 rows with ample transparent separation, no borders no text. SIX single full-body men in the same authentic infantry uniform: dark muted grey coat, pale crossbelts, pale trousers, tall boots, bicorne, canvas knapsack; naturally proportioned adults, organic detailed ink and charcoal wash. Top row three-quarter back, side facing right, three-quarter front; eye-level camera, standing, arms held around chest level as though handling a weapon BUT DO NOT DRAW THE MUSKET OR BAYONET, hands separated clearly. Bottom row same three orientations viewed from a 25-degree elevated oblique camera, feet standing planted, again no weapon. Entire bodies with clear shoes, black and warm grey ONLY, subtle broken wet ink edges, no saturated colors, no scenery or ground shadow. True transparent background. High quality layered-animation component artwork, not icons, not plastic3D. Aim 2048x1536 canvas if available, whole each person at least 600px effective height.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/infantry-elevated-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical French infantry sprite sheet for an ink-wash animation Egypt campaign 1798. Exactly 3 columns x 2 rows with ample transparent separation, no borders no text. SIX single full-body men in the same authentic infantry uniform: dark muted grey coat, pale crossbelts, pale trousers, tall boots, bicorne, canvas knapsack; naturally proportioned adults, organic detailed ink and charcoal wash. Top row three-quarter back, side facing right, three-quarter front; eye-level camera, standing, arms held around chest level as though handling a weapon BUT DO NOT DRAW THE MUSKET OR BAYONET, hands separated clearly. Bottom row same three orientations viewed from a 25-degree elevated oblique camera, feet standing planted, again no weapon. Entire bodies with clear shoes, black and warm grey ONLY, subtle broken wet ink edges, no saturated colors, no scenery or ground shadow. True transparent background. High quality layered-animation component artwork, not icons, not plastic3D. Aim 2048x1536 canvas if available, whole each person at least 600px effective height.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "infantry-station-5",
+    "path": "assets/components/infantry-station-5.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/infantry-elevated-atlas.png",
+    "sha256": "dd69a7edec4505d7044f5eacc23e08a0bccc2317c7cf43dacee5890c5dae6b3d",
+    "canvas_size": [
+      223,
+      490
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      223,
+      490
+    ],
+    "crop_offset": [
+      1080,
+      564
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.7964285714285714,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S04",
+      "S05",
+      "S06"
+    ],
+    "prompt": "Historical French infantry sprite sheet for an ink-wash animation Egypt campaign 1798. Exactly 3 columns x 2 rows with ample transparent separation, no borders no text. SIX single full-body men in the same authentic infantry uniform: dark muted grey coat, pale crossbelts, pale trousers, tall boots, bicorne, canvas knapsack; naturally proportioned adults, organic detailed ink and charcoal wash. Top row three-quarter back, side facing right, three-quarter front; eye-level camera, standing, arms held around chest level as though handling a weapon BUT DO NOT DRAW THE MUSKET OR BAYONET, hands separated clearly. Bottom row same three orientations viewed from a 25-degree elevated oblique camera, feet standing planted, again no weapon. Entire bodies with clear shoes, black and warm grey ONLY, subtle broken wet ink edges, no saturated colors, no scenery or ground shadow. True transparent background. High quality layered-animation component artwork, not icons, not plastic3D. Aim 2048x1536 canvas if available, whole each person at least 600px effective height.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/infantry-elevated-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "Historical French infantry sprite sheet for an ink-wash animation Egypt campaign 1798. Exactly 3 columns x 2 rows with ample transparent separation, no borders no text. SIX single full-body men in the same authentic infantry uniform: dark muted grey coat, pale crossbelts, pale trousers, tall boots, bicorne, canvas knapsack; naturally proportioned adults, organic detailed ink and charcoal wash. Top row three-quarter back, side facing right, three-quarter front; eye-level camera, standing, arms held around chest level as though handling a weapon BUT DO NOT DRAW THE MUSKET OR BAYONET, hands separated clearly. Bottom row same three orientations viewed from a 25-degree elevated oblique camera, feet standing planted, again no weapon. Entire bodies with clear shoes, black and warm grey ONLY, subtle broken wet ink edges, no saturated colors, no scenery or ground shadow. True transparent background. High quality layered-animation component artwork, not icons, not plastic3D. Aim 2048x1536 canvas if available, whole each person at least 600px effective height.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "infantry-lead",
+    "path": "assets/components/infantry-lead.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/infantry-lead.png",
+    "sha256": "c4640aba709256d88ce4c538cadea21f752aed89b402b2583ec83841fcb529d2",
+    "canvas_size": [
+      627,
+      1501
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      627,
+      1501
+    ],
+    "crop_offset": [
+      205,
+      11
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.7310126582278481,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [
+      "S03"
+    ],
+    "prompt": "A SINGLE isolated full-body French infantryman of the Egyptian campaign circa1798, seen at low eye-level from three-quarter BACK, walking toward screen right with slight stride, natural adult proportions. Bicorne, grey-dark coat, pale crossbelts, pale trousers, black boots, large canvas backpack with rolled blanket, an authentic long musket on the right shoulder. Hands legs and boots all visible, no scene. Restrained Chinese wet ink and charcoal wash, BLACK and WARM GREY ONLY, soft organic wet ink edges and dry brush texture, anatomically detailed, not cartoon, no saturated hues, no text. True transparent alpha background. Portrait composition, whole effective man preferably 1500–1900px tall, ample transparent space.",
+    "prompt_status": "exact original tool-call prompt recovered from this task session",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/infantry-lead.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "original_prompt": "A SINGLE isolated full-body French infantryman of the Egyptian campaign circa1798, seen at low eye-level from three-quarter BACK, walking toward screen right with slight stride, natural adult proportions. Bicorne, grey-dark coat, pale crossbelts, pale trousers, black boots, large canvas backpack with rolled blanket, an authentic long musket on the right shoulder. Hands legs and boots all visible, no scene. Restrained Chinese wet ink and charcoal wash, BLACK and WARM GREY ONLY, soft organic wet ink edges and dry brush texture, anatomically detailed, not cartoon, no saturated hues, no text. True transparent alpha background. Portrait composition, whole effective man preferably 1500–1900px tall, ample transparent space.",
+    "prompt_archive": "assets/original-prompts.json"
+  },
+  {
+    "id": "infantry-0-legacy",
+    "path": "assets/components/infantry-0.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/infantry-atlas.png",
+    "sha256": "81486d02b94c5766c5623be442273019003eef9502cd73fe577c7da9a1e29b9f",
+    "canvas_size": [
+      198,
+      492
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      198,
+      492
+    ],
+    "crop_offset": [
+      221,
+      20
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.7042682926829268,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [],
+    "prompt": "Reconstructed asset brief, NOT original generation prompt: infantry-0-legacy; static isolated ink-wash historical animation component, 受限侧面/三分之四姿态；不伪造背面, soft upper-left light, muted black/grey with restrained identity accents, native transparent background, no text, preserve reference clothing and silhouette. Source image: assets/originals/infantry-atlas.png.",
+    "prompt_status": "reconstructed brief; exact historical original unavailable",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/infantry-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "status": "historical preserved",
+    "original_prompt": null
+  },
+  {
+    "id": "infantry-1-legacy",
+    "path": "assets/components/infantry-1.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/infantry-atlas.png",
+    "sha256": "1d7f8bdc2a85fcbba54310298246940e22cef901bfc8130fc9dc330aef1b39df",
+    "canvas_size": [
+      205,
+      501
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      205,
+      501
+    ],
+    "crop_offset": [
+      659,
+      11
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.7160678642714571,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [],
+    "prompt": "Reconstructed asset brief, NOT original generation prompt: infantry-1-legacy; static isolated ink-wash historical animation component, 受限侧面/三分之四姿态；不伪造背面, soft upper-left light, muted black/grey with restrained identity accents, native transparent background, no text, preserve reference clothing and silhouette. Source image: assets/originals/infantry-atlas.png.",
+    "prompt_status": "reconstructed brief; exact historical original unavailable",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/infantry-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "status": "historical preserved",
+    "original_prompt": null
+  },
+  {
+    "id": "infantry-2-legacy",
+    "path": "assets/components/infantry-2.png",
+    "kind": "actor",
+    "generated_source": "Codex内置生图：生成艺术重构",
+    "reference_ids": [],
+    "source": "assets/originals/infantry-atlas.png",
+    "sha256": "9088341dea44aaf945f189d12a234980b0a89b335e8b1cff4a4cc8aab5d161e0",
+    "canvas_size": [
+      188,
+      491
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      188,
+      491
+    ],
+    "crop_offset": [
+      1109,
+      21
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "joints": {
+      "hip": [
+        0.5,
+        0.56
+      ],
+      "knee": [
+        0.5,
+        0.78
+      ],
+      "foot": [
+        0.5,
+        0.98
+      ]
+    },
+    "world_size": [
+      0.670061099796334,
+      1.75
+    ],
+    "depth": "world-space",
+    "view_range": "受限侧面/三分之四姿态；不伪造背面",
+    "light": "左上柔光",
+    "used_in": [],
+    "prompt": "Reconstructed asset brief, NOT original generation prompt: infantry-2-legacy; static isolated ink-wash historical animation component, 受限侧面/三分之四姿态；不伪造背面, soft upper-left light, muted black/grey with restrained identity accents, native transparent background, no text, preserve reference clothing and silhouette. Source image: assets/originals/infantry-atlas.png.",
+    "prompt_status": "reconstructed brief; exact historical original unavailable",
+    "provenance": {
+      "method": "Codex built-in image generation, static raster only",
+      "source": "assets/originals/infantry-atlas.png",
+      "historical_documentation": "conversation history; no exact prompt archive",
+      "transform": "prepare_assets.py alpha crop; code applies near-monochrome texture treatment"
+    },
+    "status": "historical preserved",
+    "original_prompt": null
+  }
+]

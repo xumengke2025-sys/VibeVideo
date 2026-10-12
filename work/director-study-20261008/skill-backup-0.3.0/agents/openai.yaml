@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vibe Video"
+  short_description: "以连续视觉叙事、空间运镜与精细美术制作视频，按需组合代码和素材，实际渲染并审片"
+  default_prompt: "使用 $vibe-video 制作有专业完成度的科普视频：让主体、文字、相机和声音共同解释内容，先验证代表画面与关键动作，再自主完成渲染、审片及 MP4 和源码交付。"

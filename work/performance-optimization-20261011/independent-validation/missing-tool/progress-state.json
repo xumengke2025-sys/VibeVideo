@@ -1,0 +1,24 @@
+{
+  "video_sha256": "14efdbe226ce7755a07fc8b72ebc43cc78de2e27de7d503dacc50f6657dc820a",
+  "run_started_at": null,
+  "last_actual_progress_at": "2026-10-11T08:11:26.149482+00:00",
+  "progress_fingerprint": "823b72b975029d946cc51f6c15a12295aebf954e34729fac65b62f306b0710d0",
+  "paused": false,
+  "no_progress_minutes": 0.0,
+  "accepted_reports": [
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\missing-tool.json",
+      "sha256": "a0a777d59ff018b8f1b03a1b2c7bae73a12bc412257634acd872f74eaf70af10"
+    }
+  ],
+  "delivery_due": false,
+  "delivery_verdict": "incomplete",
+  "next_action": "continue_remaining_batches",
+  "visual_gaps": [
+    [
+      3,
+      5
+    ]
+  ],
+  "audio_gaps": []
+}

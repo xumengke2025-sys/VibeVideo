@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s16-root { position: absolute; inset: 0; }
+        #s16-win { left: 110px; top: 200px; width: 1700px; height: 830px; border-radius: 26px; background: #08080a; border: 5px solid var(--k-ink); box-shadow: 0 10px 0 var(--k-ink); overflow: hidden; }
+        #s16-chrome { height: 62px; background: #fffaf0; border-bottom: 5px solid var(--k-ink); display: flex; align-items: center; gap: 14px; padding: 0 24px; }
+        #s16-chrome i { width: 20px; height: 20px; border-radius: 50%; border: 4px solid var(--k-ink); display: block; }
+        #s16-url { margin-left: 18px; width: 620px; height: 38px; border-radius: 19px; border: 4px solid var(--k-ink); background: #f6efdf; font: 500 20px/30px var(--k-mono); color: var(--k-ink); padding: 0 18px; }
+        #s16-bal { margin-left: auto; font: 500 20px/1 var(--k-mono); color: var(--k-ink); }
+        #s16-grid { top: 62px; left: 0; right: 0; bottom: 0; background:
+          linear-gradient(rgba(245,245,244,.05) 1px, transparent 1px) 0 0 / 40px 40px,
+          linear-gradient(90deg, rgba(245,245,244,.05) 1px, transparent 1px) 0 0 / 40px 40px; }
+        .s16-old { width: 230px; height: 176px; border-radius: 14px; background: #0f0f13; border: 2px solid rgba(245,245,244,.22); overflow: hidden; }
+        .s16-old svg { display: block; opacity: .85; }
+        .s16-meta { height: 38px; font: 500 16px/38px var(--k-mono); color: #a8a8a3; padding: 0 14px; display: flex; justify-content: space-between; }
+        #s16-ghost { left: 790px; top: 408px; width: 290px; height: 262px; border-radius: 30px; border: 3px dashed rgba(245,245,244,.4); }
+        #s16-tlp { left: 600px; top: 790px; width: 500px; height: 200px; border-radius: 14px; background: #0f0f13; border: 2px solid rgba(245,245,244,.18); }
+        #s16-tlp-head { left: 16px; top: 12px; font: 500 16px/1 var(--k-mono); color: #a8a8a3; }
+        #s16-ready { left: 866px; top: 350px; }
+        #s16-ticket { left: 1150px; top: 330px; width: 630px; height: 490px; border-radius: 22px; background: #fffaf0; border: 5px solid var(--k-ink); box-shadow: 0 10px 0 var(--k-ink); padding: 24px 28px; color: var(--k-ink); }
+        #s16-ticket h3 { font: 600 36px/1 var(--k-display); display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
+        #s16-ticket h3 span { font: 500 18px/1 var(--k-mono); color: var(--k-ink-2); padding: 6px 12px; border-radius: 999px; border: 3px solid var(--k-ink); }
+        .s16-kv { display: flex; font: 500 22px/44px var(--k-mono); border-top: 2px dashed #d9c9a4; }
+        .s16-kv b { width: 100px; font-weight: 500; color: var(--k-ink-2); flex: none; }
+        #s16-from { margin-top: 10px; font: 500 20px/1 var(--k-mono); color: var(--k-ink-2); }
+        .s16-row { position: relative; display: flex; align-items: center; gap: 16px; height: 58px; margin-top: 8px; padding: 0 10px; border-radius: 12px; font: 500 22px/1 var(--k-mono); }
+        .s16-row svg { position: relative; display: block; flex: none; border-radius: 6px; border: 3px solid var(--k-ink); }
+        .s16-row em { font-style: normal; margin-left: auto; padding: 4px 10px; border-radius: 999px; background: var(--k-accent); color: var(--k-accent-ink); border: 3px solid var(--k-ink); font-size: 18px; }
+        .s16-hl { left: 0; top: 0; width: 100%; height: 100%; border-radius: 12px; background: #f3e2b8; transform-origin: 0 50%; }
+      </style>
+      <div id="s16-root" data-composition-id="s16-cut" data-width="1920" data-height="1080">
+        <div id="s16-scene" class="k-scene k-warm">
+          <div id="s16-win" class="k-abs">
+            <div id="s16-chrome"><i></i><i></i><i></i><div id="s16-url">makefx.app/alv/salt-harbour</div><div id="s16-bal">1,920 cr</div></div>
+            <div id="s16-grid" class="k-abs"></div>
+          </div>
+          <div id="s16-ghost" class="k-abs"></div>
+          <div id="s16-tlp" class="k-abs"><div id="s16-tlp-head" class="k-abs">video/timeline · rendered in your browser · 0 cr</div></div>
+          <svg id="s16-links" class="k-abs" width="1920" height="1080">
+            <path id="s16-l0" d="M472 388 C 600 388, 660 468, 800 468" fill="none" stroke="rgba(245,245,244,.6)" stroke-width="3.5" stroke-linecap="round" />
+            <path id="s16-l1" d="M472 618 C 600 618, 660 520, 800 520" fill="none" stroke="rgba(245,245,244,.6)" stroke-width="3.5" stroke-linecap="round" />
+            <path id="s16-l2" d="M472 848 C 560 848, 560 572, 800 572" fill="none" stroke="rgba(245,245,244,.6)" stroke-width="3.5" stroke-linecap="round" />
+          </svg>
+          <div id="s16-ticket" class="k-abs">
+            <h3>recipe <span>the cut</span></h3>
+            <div class="s16-kv"><b>model</b>video/timeline</div>
+            <div class="s16-kv"><b>price</b>0 cr · in your browser</div>
+            <div class="s16-kv"><b>tracks</b>clips · voice · music · captions</div>
+            <div id="s16-from">cut from</div>
+            <div id="s16-rows"></div>
+          </div>
+          <div id="s16-ready" class="k-pill k-amber">ready</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s16-scene");
+          K.grain(scene, "s16");
+          K.chrome(scene, tl, { title: "a cut is a card too", chapter: "6 · cut", step: 6 });
+
+          // The clips the cut was made from: still product cards on the canvas.
+          const win = document.getElementById("s16-win");
+          const CLIPS = [["harbour flight", "8 s", "80 cr", "day", 12], ["clip", "4 s", "40 cr", "dusk", -20], ["clip", "4 s", "40 cr", "night", 30]];
+          const thumbSvg = (mood, boat, w, h) => `<svg width="${w}" height="${h}" viewBox="24 24 172 104" preserveAspectRatio="xMidYMid slice">${K.harbourArt({ boat, mood })}</svg>`;
+          CLIPS.forEach(([name, len, cr, mood, boat], i) => {
+            K.el(win, "div", { class: "k-abs s16-old", "data-layout-allow-overflow": "", style: { left: "127px", top: 95 + i * 230 + "px" } },
+              `${thumbSvg(mood, boat, 230, 138)}<div class="s16-meta"><span>${i ? `${name} · ${len}` : name}</span><span>${cr}</span></div>`);
+          });
+          // Canvas furniture: tool rail, zoom, minimap, and you, watching.
+          K.el(win, "div", { class: "k-abs", style: { left: "20px", top: "92px", width: "64px", height: "300px", borderRadius: "16px", background: "#0f0f13", border: "2px solid rgba(245,245,244,.18)" } },
+            [0, 1, 2, 3, 4].map((i) => `<div style="position:absolute;left:16px;top:${18 + i * 56}px;width:28px;height:28px;border-radius:8px;border:2px solid rgba(245,245,244,${i === 0 ? ".8" : ".3"})"></div>`).join(""));
+          K.el(win, "div", { class: "k-abs k-mono", style: { left: "1540px", top: "80px", padding: "6px 14px", borderRadius: "10px", background: "#0f0f13", border: "2px solid rgba(245,245,244,.18)", color: "#a8a8a3", fontSize: "16px" } }).textContent = "− 100% +";
+          K.el(win, "div", { class: "k-abs", style: { left: "1450px", top: "650px", width: "200px", height: "130px", borderRadius: "12px", background: "#0f0f13", border: "2px solid rgba(245,245,244,.18)" } },
+            [[20, 20], [20, 56], [20, 92], [80, 56], [130, 30]].map(([x, y], i) => `<div style="position:absolute;left:${x}px;top:${y}px;width:${i === 3 ? 26 : 22}px;height:16px;border-radius:3px;background:${i === 3 ? "#f2c14e" : "rgba(245,245,244,.3)"}"></div>`).join("") +
+            '<div style="position:absolute;left:8px;top:10px;width:176px;height:106px;border:1.5px solid rgba(245,245,244,.4);border-radius:6px"></div>');
+          // The timeline the cut was made in, finished: four tracks, still.
+          const tlp = document.getElementById("s16-tlp");
+          [["clips", [[0, 150, "#a9d3e8"], [154, 75, "#f4b183"], [233, 75, "#3a4d6e"]]], ["voice", [[20, 120, "#7bd389"], [180, 100, "#7bd389"]]],
+           ["music", [[0, 308, "#c9b6d8"]]], ["captions", [[20, 60, "#fffaf0"], [90, 70, "#fffaf0"], [180, 50, "#fffaf0"], [240, 60, "#fffaf0"]]]].forEach(([name, blocks], r) => {
+            K.el(tlp, "div", { class: "k-abs k-mono", style: { left: "16px", top: 48 + r * 36 + "px", fontSize: "16px", color: "#a8a8a3" } }).textContent = name;
+            blocks.forEach(([x, w, c]) => K.el(tlp, "div", { class: "k-abs", style: { left: 110 + x * 1.2 + "px", top: 46 + r * 36 + "px", width: w * 1.2 + "px", height: "22px", borderRadius: "5px", background: c, opacity: 0.55 } }));
+          });
+          K.cursor(scene, 1120, 930, "you");
+
+          // The recipe's clip rows: a small thumb of each source, name, price.
+          const rows = document.getElementById("s16-rows");
+          const rowEls = CLIPS.map(([name, len, cr, mood, boat]) =>
+            K.el(rows, "div", { class: "s16-row" }, `<div class="k-abs s16-hl"></div>${thumbSvg(mood, boat, 66, 40)}<span style="position:relative">${name} · ${len}</span><em style="position:relative">${cr}</em>`));
+
+          // The finished film: a card whose picture is three clips side by side.
+          const S = 1.4, CL = 780, CT = 400;
+          const cx = CL + 110 * S, thumbY = CT + 76 * S, feetY = CT + 202 * S;
+          const seg = (x0, x1, mood, boat, k) => `<clipPath id="s16-seg${k}"><rect x="${x0}" y="24" width="${x1 - x0}" height="104"/></clipPath><g clip-path="url(#s16-seg${k})">${K.harbourArt({ boat, mood })}</g>`;
+          const cutArt = seg(24, 82, "day", -14, 0) + seg(82, 139, "dusk", 30, 1) + seg(139, 196, "night", 70, 2) +
+            '<path d="M82 24 V128 M139 24 V128" stroke="#2a2118" stroke-width="3"/>';
+          const card = K.card(scene, { id: "s16-card", theme: "warm", left: CL, top: CT, scale: S, thumb: cutArt });
+          const thumb = K.part(card, "k-thumb"), eyes = K.part(card, "k-eyes");
+          gsap.set(K.part(card, "k-bar"), { opacity: 0 });
+          gsap.set(eyes, { scaleY: 0.1, transformOrigin: "50% 50%" });
+          scene.insertBefore(card, document.getElementById("s16-ticket"));
+
+          // b0: the rendered film drops into the space where the render ran
+          tl.fromTo(card, { y: -150, opacity: 0 }, { y: 0, opacity: 1, duration: 0.2, ease: "power2.in" }, K.t(0));
+          tl.set(thumb, { clipPath: "inset(0 100% 0 0)" }, 0);
+          // b1: it lands, opens its eyes, and reads ready
+          K.land(tl, card, K.t(1));
+          K.puff(tl, scene, cx, feetY, K.t(1), { spread: 120 });
+          tl.to("#s16-ghost", { opacity: 0, duration: 0.08, data: "follow" }, K.t(1));
+          tl.to(eyes, { scaleY: 1, duration: 0.12, ease: "back.out(3)", data: "follow" }, K.t(1) + 0.06);
+          tl.fromTo("#s16-ready", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.6)", data: "follow" }, K.t(1) + 0.06);
+          // b2: reference lines draw from the three clips into the film
+          ["s16-l0", "s16-l1", "s16-l2"].forEach((id, i) => {
+            const p = document.getElementById(id), L = p.getTotalLength();
+            p.setAttribute("stroke-dasharray", `${L} ${L}`);
+            tl.fromTo(p, { attr: { "stroke-dashoffset": L } }, { attr: { "stroke-dashoffset": 0 }, duration: 0.22, ease: "power2.out", data: i ? "follow" : undefined }, K.t(2) + i * 0.02);
+          });
+          // b3: the picture fills in, clip by clip, left to right
+          tl.fromTo(thumb, { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.22, ease: "steps(3)" }, K.t(3));
+          const ring = K.part(card, "k-ring");
+          tl.fromTo(ring, { opacity: 0 }, { opacity: 1, duration: 0.05, data: "follow" }, K.t(3) + 0.2);
+          tl.to(ring, { opacity: 0, duration: 0.3, ease: "power1.in", data: "follow" }, K.t(3) + 0.3);
+          // b4: its recipe unfolds beside it
+          tl.fromTo("#s16-ticket", { clipPath: "inset(-12px 100% -16px -12px)" }, { clipPath: "inset(-12px -12px -16px -12px)", duration: 0.22, ease: "power2.out" }, K.t(4));
+          // b5–b7: the clips it was cut from, one per beat
+          rowEls.forEach((r, i) => {
+            const hl = r.querySelector(".s16-hl");
+            tl.fromTo(r, { opacity: 0, x: -24 }, { opacity: 1, x: 0, duration: 0.18, ease: "back.out(2)" }, K.t(5 + i));
+            tl.fromTo(hl, { scaleX: 0, opacity: 1 }, { scaleX: 1, duration: 0.14, ease: "power2.out", data: "follow" }, K.t(5 + i) + 0.04);
+            if (i < 2) tl.to(hl, { opacity: 0, duration: 0.12, data: "follow" }, K.t(6 + i));
+          });
+
+          K.focus(scene, tl, "s16", [
+            [0, cx, CT + 40], [1, cx, feetY - 40], [2, 660, 560], [3, cx, thumbY],
+            [4, 1290, 420], [5, 1340, 620], [6, 1340, 686], [7, 1340, 752],
+          ]);
+          K.check(tl, "s16");
+          window.__timelines["s16-cut"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

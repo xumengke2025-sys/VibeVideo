@@ -1,0 +1,295 @@
+{
+  "duration": 75,
+  "fps": 30,
+  "shots": [
+    {
+      "start": 0,
+      "end": 5,
+      "id": "home",
+      "name": "从家里出发",
+      "focus": 0,
+      "sub": [
+        "冲完马桶后，",
+        "水去了哪里？"
+      ],
+      "intent": "从家里出发",
+      "states": {
+        "establish": 0.25,
+        "action": 1,
+        "result": 4.2
+      },
+      "reads": {
+        "first": 0.25,
+        "legible": 0.5,
+        "leave": 5
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 5,
+      "end": 11,
+      "id": "arrival",
+      "name": "看不见的旅程",
+      "focus": 1,
+      "sub": [
+        "它还要经过",
+        "一座污水处理厂。"
+      ],
+      "intent": "看不见的旅程",
+      "states": {
+        "establish": 5.25,
+        "action": 6,
+        "result": 10.2
+      },
+      "reads": {
+        "first": 5.25,
+        "legible": 5.5,
+        "leave": 11
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 11,
+      "end": 19,
+      "id": "screen",
+      "name": "01  拦截",
+      "focus": 1,
+      "sub": [
+        "第一关：",
+        "拦住较大的杂物。"
+      ],
+      "intent": "01  拦截",
+      "states": {
+        "establish": 11.25,
+        "action": 12,
+        "result": 18.2
+      },
+      "reads": {
+        "first": 11.25,
+        "legible": 11.5,
+        "leave": 19
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 19,
+      "end": 26,
+      "id": "grit",
+      "name": "02  沉砂",
+      "focus": 2,
+      "sub": [
+        "接着，",
+        "让砂粒沉下来。"
+      ],
+      "intent": "02  沉砂",
+      "states": {
+        "establish": 19.25,
+        "action": 20,
+        "result": 25.2
+      },
+      "reads": {
+        "first": 19.25,
+        "legible": 19.5,
+        "leave": 26
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 26,
+      "end": 39,
+      "id": "bio",
+      "name": "03  生物处理",
+      "focus": 3,
+      "sub": [
+        "接下来，",
+        "轮到微生物工作。"
+      ],
+      "intent": "03  生物处理",
+      "states": {
+        "establish": 26.25,
+        "action": 27,
+        "result": 38.2
+      },
+      "reads": {
+        "first": 26.25,
+        "legible": 26.5,
+        "leave": 39
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 39,
+      "end": 50,
+      "id": "settle",
+      "name": "04  沉淀分离",
+      "focus": 4,
+      "sub": [
+        "再把污泥和水分开。"
+      ],
+      "intent": "04  沉淀分离",
+      "states": {
+        "establish": 39.25,
+        "action": 40,
+        "result": 49.2
+      },
+      "reads": {
+        "first": 39.25,
+        "legible": 39.5,
+        "leave": 50
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 50,
+      "end": 59,
+      "id": "return",
+      "name": "05  污泥的去向",
+      "focus": 4,
+      "sub": [
+        "一部分污泥回流，",
+        "继续参与处理。"
+      ],
+      "intent": "05  污泥的去向",
+      "states": {
+        "establish": 50.25,
+        "action": 51,
+        "result": 58.2
+      },
+      "reads": {
+        "first": 50.25,
+        "legible": 50.5,
+        "leave": 59
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 59,
+      "end": 67,
+      "id": "polish",
+      "name": "06  后续处理",
+      "focus": 5,
+      "sub": [
+        "还要按工艺",
+        "进行后续处理。"
+      ],
+      "intent": "06  后续处理",
+      "states": {
+        "establish": 59.25,
+        "action": 60,
+        "result": 66.2
+      },
+      "reads": {
+        "first": 59.25,
+        "legible": 59.5,
+        "leave": 67
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    },
+    {
+      "start": 67,
+      "end": 75,
+      "id": "out",
+      "name": "一座工厂，接力净化",
+      "focus": 6,
+      "sub": [
+        "每一站，",
+        "都在处理不同的问题。"
+      ],
+      "intent": "一座工厂，接力净化",
+      "states": {
+        "establish": 67.25,
+        "action": 68,
+        "result": 74.2
+      },
+      "reads": {
+        "first": 67.25,
+        "legible": 67.5,
+        "leave": 75
+      },
+      "camera": "True isometric orthographic translation and zoom, fixed direction",
+      "sound": "shared timeline and original 96 BPM instrumental"
+    }
+  ],
+  "connections": [
+    {
+      "time": 5,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        4.5,
+        5.7
+      ]
+    },
+    {
+      "time": 11,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        10.5,
+        11.7
+      ]
+    },
+    {
+      "time": 19,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        18.5,
+        19.7
+      ]
+    },
+    {
+      "time": 26,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        25.5,
+        26.7
+      ]
+    },
+    {
+      "time": 39,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        38.5,
+        39.7
+      ]
+    },
+    {
+      "time": 50,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        49.5,
+        50.7
+      ]
+    },
+    {
+      "time": 59,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        58.5,
+        59.7
+      ]
+    },
+    {
+      "time": 67,
+      "kind": "shared-world pipe connection",
+      "anchor": "outflow pipe",
+      "window": [
+        66.5,
+        67.7
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1665 @@
+{
+  "title": "拿破仑在埃及 水墨短片修改时间契约",
+  "status": "implemented_pending_user_visual_review",
+  "duration": 60,
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "aspect": "9:16",
+  "text": false,
+  "narration": false,
+  "map": false,
+  "renderThisTurn": true,
+  "detailDocument": "D:/ai项目/ai动画/VibeVideo项目/work/napoleon-egypt-ink-20261009/REVISION-PLAN-20261010.md",
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 4,
+      "intent": "脚跨艇舷落地，建立登陆",
+      "states": {
+        "establish": 0.4,
+        "action": 2.35,
+        "result": 3.3
+      },
+      "action": "靴抬起→接触湿沙→重心移到岸上",
+      "camera": {
+        "purpose": "微侧移后停在靴底接触",
+        "subjectId": "boot-contact",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "boat-rim",
+        "sand",
+        "water"
+      ],
+      "risks": [
+        [
+          2.1,
+          2.7
+        ]
+      ]
+    },
+    {
+      "id": "S02",
+      "start": 4,
+      "end": 9,
+      "intent": "将军与队伍从艇进入陆地",
+      "states": {
+        "establish": 4.5,
+        "action": 6.2,
+        "result": 8.2
+      },
+      "action": "全身离艇→箱笼交岸→队伍进入内陆",
+      "camera": {
+        "purpose": "伴随将军，末段交给前排队伍",
+        "subjectId": "napoleon-land",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "landing-boat",
+        "landing-cast",
+        "crate",
+        "shore"
+      ],
+      "risks": [
+        [
+          4,
+          4.5
+        ],
+        [
+          7.3,
+          8.8
+        ]
+      ]
+    },
+    {
+      "id": "S03",
+      "start": 9,
+      "end": 14,
+      "intent": "军队在旱地中真正移动并发现前方威胁",
+      "states": {
+        "establish": 9.4,
+        "action": 11.2,
+        "result": 13.3
+      },
+      "action": "走过沟脊→触地尘土→停步看向前端",
+      "camera": {
+        "purpose": "低位侧后世界偏移跟拍，末段减速",
+        "subjectId": "infantry-lead",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "infantry-variants",
+        "terrain",
+        "distant-antiquity"
+      ],
+      "risks": [
+        [
+          12.5,
+          13.8
+        ]
+      ]
+    },
+    {
+      "id": "S04",
+      "start": 14,
+      "end": 19,
+      "intent": "法军从队列结成有内部空间的方阵",
+      "states": {
+        "establish": 14.4,
+        "action": 16.3,
+        "result": 18.2
+      },
+      "action": "列兵转位→刺刀向外→方阵完成骑兵逼近",
+      "camera": {
+        "purpose": "独立位置/目标轨迹升高揭示，末段停机",
+        "subjectId": "square-front",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "square-cast",
+        "cavalry-variants",
+        "flag",
+        "terrain"
+      ],
+      "risks": [
+        [
+          14.7,
+          17.5
+        ]
+      ]
+    },
+    {
+      "id": "S05",
+      "start": 19,
+      "end": 24,
+      "intent": "方阵守住骑兵冲击，陆上获胜",
+      "states": {
+        "establish": 19.5,
+        "action": 20.6,
+        "result": 23
+      },
+      "action": "骑兵接近→齐射受阻转向→骑兵退却方阵保持",
+      "camera": {
+        "purpose": "同侧斜全景固定读接触与结果",
+        "subjectId": "square-and-cavalry",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "square-cast",
+        "cavalry-variants",
+        "thin-smoke"
+      ],
+      "risks": [
+        [
+          20.3,
+          22.5
+        ]
+      ]
+    },
+    {
+      "id": "S06",
+      "start": 24,
+      "end": 28,
+      "intent": "将军看向完整军阵，旗立稳",
+      "states": {
+        "establish": 24.4,
+        "action": 25.6,
+        "result": 27.2
+      },
+      "action": "视线指向队伍→军旗重新立稳→布面受风",
+      "camera": {
+        "purpose": "侧移露出旗，目标由人物交给旗",
+        "subjectId": "napoleon-victory",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "flag",
+        "square-distance"
+      ],
+      "risks": [
+        [
+          25.4,
+          26.8
+        ]
+      ]
+    },
+    {
+      "id": "S07",
+      "start": 28,
+      "end": 33,
+      "intent": "锚泊舰队遭来自海面的进攻",
+      "states": {
+        "establish": 28.5,
+        "action": 31.1,
+        "result": 32.4
+      },
+      "action": "船列锚泊→进攻舰炮击→受击前帆破损",
+      "camera": {
+        "purpose": "舰间低位穿行，跟进攻舰后交给受击帆",
+        "subjectId": "attacking-ship",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "french-ships",
+        "anchor-ropes",
+        "intact-sails",
+        "damaged-sails",
+        "sea"
+      ],
+      "risks": [
+        [
+          29.3,
+          31.7
+        ]
+      ]
+    },
+    {
+      "id": "S08",
+      "start": 33,
+      "end": 38,
+      "intent": "断桅与残帆证明海上损失",
+      "states": {
+        "establish": 33.3,
+        "action": 34.1,
+        "result": 36.7
+      },
+      "action": "索具松→主桅折落→舰列损伤持续",
+      "camera": {
+        "purpose": "断点近景停机后退，目标交给损伤舰列",
+        "subjectId": "french-ship-A-mast",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "french-ships",
+        "broken-mast",
+        "damaged-sails",
+        "rigging",
+        "smoke",
+        "sea"
+      ],
+      "risks": [
+        [
+          33.7,
+          35.8
+        ]
+      ]
+    },
+    {
+      "id": "S09",
+      "start": 38,
+      "end": 43,
+      "intent": "考察者主动观察和测量古代结构",
+      "states": {
+        "establish": 38.6,
+        "action": 41.1,
+        "result": 42.2
+      },
+      "action": "通过门洞→调器具抬眼观察→助手记录",
+      "camera": {
+        "purpose": "伴随测量者过门洞，揭示建筑后停",
+        "subjectId": "standing-surveyor",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "assistant-paper",
+        "survey-tool",
+        "temple-doorway"
+      ],
+      "risks": [
+        [
+          39.4,
+          41.5
+        ]
+      ]
+    },
+    {
+      "id": "S10",
+      "start": 43,
+      "end": 49,
+      "intent": "石面被清理后露出刻痕，观察被记录",
+      "states": {
+        "establish": 43.5,
+        "action": 44.6,
+        "result": 48.3
+      },
+      "action": "石已在环境中→刷去尘土→手将形状分区记在纸上",
+      "camera": {
+        "purpose": "石面近景微退，接触停机，目标交纸",
+        "subjectId": "stone-and-hands",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "stone-face",
+        "brush-hand",
+        "pen-hand",
+        "paper",
+        "ruler",
+        "fort-rubble"
+      ],
+      "risks": [
+        [
+          44.3,
+          47.8
+        ]
+      ]
+    },
+    {
+      "id": "S11",
+      "start": 49,
+      "end": 55,
+      "intent": "将军登艇离开，守军仍在岸上",
+      "states": {
+        "establish": 49.5,
+        "action": 51.2,
+        "result": 54.4
+      },
+      "action": "走向艇→登艇转重心→划桨远离岸",
+      "camera": {
+        "purpose": "伴随背面人物后留在岸上，注意回岸",
+        "subjectId": "napoleon-depart",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "departure-tender",
+        "oars",
+        "shore-guards",
+        "distant-vessel",
+        "shore"
+      ],
+      "risks": [
+        [
+          50.6,
+          52.6
+        ]
+      ]
+    },
+    {
+      "id": "S12",
+      "start": 55,
+      "end": 60,
+      "intent": "空岸与潮水回收开场脚印",
+      "states": {
+        "establish": 55.4,
+        "action": 56.3,
+        "result": 58.6
+      },
+      "action": "脚印可见→潮水覆盖→空岸停留",
+      "camera": {
+        "purpose": "轻升退后57.8秒停机",
+        "subjectId": "shore-footprint",
+        "absoluteTime": true,
+        "details": "见修改计划第三节：S/C/T世界轨迹、看向点、遮挡、停机和声音"
+      },
+      "assets": [
+        "shore",
+        "water",
+        "distant-tender"
+      ],
+      "risks": [
+        [
+          55.6,
+          57.7
+        ]
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "time": 4,
+      "kind": "action-cut",
+      "anchor": "同一靴与右上行进方向",
+      "window": [
+        3.7,
+        4.4
+      ]
+    },
+    {
+      "time": 9,
+      "kind": "occlusion-time-ellipsis",
+      "anchor": "近兵背囊与右上方向，明确地理省略",
+      "window": [
+        8.7,
+        9.5
+      ]
+    },
+    {
+      "time": 14,
+      "kind": "same-scene-cut",
+      "anchor": "同一前排兵与止步枪杆",
+      "window": [
+        13.7,
+        14.5
+      ]
+    },
+    {
+      "time": 19,
+      "kind": "same-axis-cut",
+      "anchor": "完整方阵和右上骑兵",
+      "window": [
+        18.6,
+        19.4
+      ]
+    },
+    {
+      "time": 24,
+      "kind": "result-cut",
+      "anchor": "法阵保持和将军视线",
+      "window": [
+        23.6,
+        24.5
+      ]
+    },
+    {
+      "time": 28,
+      "kind": "shape-hard-cut",
+      "anchor": "旗面/帆折线方向，非同一物体",
+      "window": [
+        27.6,
+        28.8
+      ]
+    },
+    {
+      "time": 33,
+      "kind": "detail-cut",
+      "anchor": "同一受击主桅和破帆状态",
+      "window": [
+        32.6,
+        33.5
+      ]
+    },
+    {
+      "time": 38,
+      "kind": "time-place-ellipsis",
+      "anchor": "海声退干风入，海战结果后独立考察",
+      "window": [
+        37.5,
+        38.8
+      ]
+    },
+    {
+      "time": 43,
+      "kind": "observation-cut",
+      "anchor": "观察/记录工作关系，另处清理现场",
+      "window": [
+        42.6,
+        43.6
+      ]
+    },
+    {
+      "time": 49,
+      "kind": "semantic-action-cut",
+      "anchor": "记录手落定到登艇手，非石碑装船",
+      "window": [
+        48.6,
+        49.7
+      ]
+    },
+    {
+      "time": 55,
+      "kind": "same-scene-cut",
+      "anchor": "同岸岩/足迹/艇去向",
+      "window": [
+        54.6,
+        55.5
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "boot-contact",
+      "at": 2.35,
+      "anchor": "boot-contact",
+      "sound": {
+        "kind": "沙水接触",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "landing-step-0",
+      "at": 4,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "landing-step-1",
+      "at": 4.748170870779174,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "landing-step-2",
+      "at": 4.979656952502744,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "landing-step-3",
+      "at": 5.156548434743009,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "landing-step-4",
+      "at": 5.308467614679321,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "landing-step-5",
+      "at": 5.446454750081932,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "landing-step-6",
+      "at": 5.576239351584406,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "landing-step-7",
+      "at": 5.701426775158935,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "landing-step-8",
+      "at": 5.824716582191784,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "landing-step-9",
+      "at": 5.948475671472745,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "landing-step-10",
+      "at": 6.075148071671993,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "crate-contact",
+      "at": 6.2,
+      "anchor": "crate",
+      "sound": {
+        "kind": "箱笼落岸",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "landing-step-11",
+      "at": 6.207712741365106,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "landing-step-12",
+      "at": 6.350420849320882,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "landing-step-13",
+      "at": 6.510520670949216,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "landing-step-14",
+      "at": 6.703575028276682,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "landing-step-15",
+      "at": 6.982549320081683,
+      "anchor": "napoleon-land",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "march-step-16",
+      "at": 9,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "march-step-17",
+      "at": 9.66802469256795,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "march-step-18",
+      "at": 9.867774709824742,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "march-step-19",
+      "at": 10.017185971033827,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "march-step-20",
+      "at": 10.14277189082963,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "march-step-21",
+      "at": 10.25424730339913,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "march-step-22",
+      "at": 10.356444573484968,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "march-step-23",
+      "at": 10.452180583250794,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "march-step-24",
+      "at": 10.543316371180271,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "march-step-25",
+      "at": 10.631161831220366,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "march-step-26",
+      "at": 10.716712023851855,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "march-step-27",
+      "at": 10.800784142876278,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "march-step-28",
+      "at": 10.884082339308957,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "march-step-29",
+      "at": 10.967257976932107,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "march-step-30",
+      "at": 11.050954676525881,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "march-step-31",
+      "at": 11.135851126060446,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "march-step-32",
+      "at": 11.222708036067521,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "march-step-33",
+      "at": 11.312450249321534,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "march-step-34",
+      "at": 11.406241171367192,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "march-step-35",
+      "at": 11.505694506914491,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "march-step-36",
+      "at": 11.613188901348249,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "march-step-37",
+      "at": 11.73259774658114,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "march-step-38",
+      "at": 11.871159007589842,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "march-step-39",
+      "at": 12.04598197944558,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "march-step-40",
+      "at": 12.328692742839246,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "march-stop",
+      "at": 12.8,
+      "anchor": "infantry-lead",
+      "sound": {
+        "kind": "步声减弱",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "square-lock",
+      "at": 17.2,
+      "anchor": "square-front",
+      "sound": {
+        "kind": "踏步齐停",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "cavalry-hoof-20",
+      "at": 17.737349381898277,
+      "anchor": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "shared horse phase; representative pair",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "cavalry-hoof-21",
+      "at": 18.59104303776507,
+      "anchor": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "shared horse phase; representative pair",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "cavalry-hoof-22",
+      "at": 19.44473669363186,
+      "anchor": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "shared horse phase; representative pair",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "cavalry-hoof-23",
+      "at": 20.298430349498652,
+      "anchor": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "shared horse phase; representative pair",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "land-volley",
+      "at": 20.6,
+      "anchor": "square-and-cavalry",
+      "sound": {
+        "kind": "齐射",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "cavalry-hoof-24",
+      "at": 21.152124005365444,
+      "anchor": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "shared horse phase; representative pair",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "cavalry-hoof-25",
+      "at": 22.005817661232236,
+      "anchor": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "gain": 0.035,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "shared horse phase; representative pair",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "cavalry-hoof-26",
+      "at": 22.85951131709903,
+      "anchor": "cavalry",
+      "sound": {
+        "kind": "hoof",
+        "gain": 0.035,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "shared horse phase; representative pair",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "flag-settle",
+      "at": 26.8,
+      "anchor": "flag",
+      "sound": {
+        "kind": "布面拂动",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "distant-cannon",
+      "at": 29.8,
+      "anchor": "attacking-ship",
+      "sound": {
+        "kind": "远炮",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "sail-hit",
+      "at": 31.1,
+      "anchor": "french-ship-A-sail",
+      "sound": {
+        "kind": "帆和木材受击",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "mast-break",
+      "at": 34.1,
+      "anchor": "french-ship-A-mast",
+      "sound": {
+        "kind": "木断",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "rigging-snap",
+      "at": 34.8,
+      "anchor": "rigging",
+      "sound": {
+        "kind": "索具绷响",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "mast-water-contact",
+      "at": 35.5,
+      "anchor": "fallen-mast",
+      "sound": {
+        "kind": "水面闷响",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "survey-step-41",
+      "at": 38.5,
+      "anchor": "surveyor",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "survey-step-42",
+      "at": 39.029838650493964,
+      "anchor": "surveyor",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "survey-step-43",
+      "at": 39.198169613380294,
+      "anchor": "surveyor",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "survey-step-44",
+      "at": 39.32918536302189,
+      "anchor": "surveyor",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "survey-step-45",
+      "at": 39.44400877851327,
+      "anchor": "surveyor",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "survey-step-46",
+      "at": 39.55081253908173,
+      "anchor": "surveyor",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "survey-step-47",
+      "at": 39.654231900781575,
+      "anchor": "surveyor",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "survey-step-48",
+      "at": 39.757789583503694,
+      "anchor": "surveyor",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "survey-step-49",
+      "at": 39.865051028211646,
+      "anchor": "surveyor",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "survey-step-50",
+      "at": 39.980818761689086,
+      "anchor": "surveyor",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "survey-step-51",
+      "at": 40.11378525930626,
+      "anchor": "surveyor",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 0
+    },
+    {
+      "id": "survey-step-52",
+      "at": 40.28738266272231,
+      "anchor": "surveyor",
+      "sound": {
+        "kind": "footstep",
+        "gain": 0.055,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "arc-length contact track; same landing/march/survey path as rig",
+      "side": 1
+    },
+    {
+      "id": "survey-adjust",
+      "at": 41.1,
+      "anchor": "survey-tool",
+      "sound": {
+        "kind": "器具调整",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "stone-brush",
+      "at": 44.6,
+      "anchor": "brush-hand",
+      "sound": {
+        "kind": "刷石",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "record-contact",
+      "at": 46.7,
+      "anchor": "pen-hand",
+      "sound": {
+        "kind": "笔端接触记录",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "paper-settle",
+      "at": 48.1,
+      "anchor": "paper",
+      "sound": {
+        "kind": "纸边落定",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "boarding-support",
+      "at": 51.2,
+      "anchor": "napoleon-depart",
+      "sound": {
+        "kind": "登艇支撑",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "boat-push-off",
+      "at": 52.4,
+      "anchor": "departure-tender",
+      "sound": {
+        "kind": "入水",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "oar-pull-1",
+      "at": 53.1,
+      "anchor": "oars",
+      "sound": {
+        "kind": "划桨",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "oar-pull-2",
+      "at": 54.2,
+      "anchor": "oars",
+      "sound": {
+        "kind": "划桨",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "oar-pull-3",
+      "at": 55.300000000000004,
+      "anchor": "oars",
+      "sound": {
+        "kind": "划桨",
+        "gain": 0.06,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "shared 1.1 second rowing period",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "shore-wave",
+      "at": 56.3,
+      "anchor": "water",
+      "sound": {
+        "kind": "浅浪覆盖",
+        "offset": 0
+      },
+      "clock": "absolute_seconds; output frame round(at*24), sample round(at*48000)",
+      "status": "implemented",
+      "verification": "source event mapping; not listened or visually reviewed",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "oar-pull-4",
+      "at": 56.4,
+      "anchor": "oars",
+      "sound": {
+        "kind": "划桨",
+        "gain": 0.06,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "shared 1.1 second rowing period",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "oar-pull-5",
+      "at": 57.5,
+      "anchor": "oars",
+      "sound": {
+        "kind": "划桨",
+        "gain": 0.06,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "shared 1.1 second rowing period",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    },
+    {
+      "id": "oar-pull-6",
+      "at": 58.6,
+      "anchor": "oars",
+      "sound": {
+        "kind": "划桨",
+        "gain": 0.06,
+        "offset": 0
+      },
+      "status": "implemented",
+      "clock": "shared 1.1 second rowing period",
+      "response": "scene state/contact cycle and sound",
+      "result": "event state or contact sound; visual reading pending",
+      "source": "shared plan event or analytic cycle"
+    }
+  ],
+  "presentationPolicy": {
+    "firstView": "user",
+    "beforeShow": [
+      "exists",
+      "decodable",
+      "correct_dimensions_duration",
+      "runtime_errors",
+      "audio_presence"
+    ],
+    "noAutonomousReview": true,
+    "afterFeedback": "modify named issue and show new playable version",
+    "oldVersionPreserved": true
+  },
+  "evidence": {
+    "sourceRead": true,
+    "rendered": true,
+    "watched": false,
+    "listened": false,
+    "visualAccepted": false
+  },
+  "visualAccepted": false,
+  "gait": {
+    "stride": 0.58,
+    "landingSpeed": 1.1,
+    "marchSpeed": 1.25,
+    "horseRate": 3.6799999999999997,
+    "oarPeriod": 1.1,
+    "oarOrigin": 52.5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "project": "绕过黑暗：黑洞引力透镜",
+  "evidence_date": "2026-10-08",
+  "video": "out/around-the-dark.mp4",
+  "video_sha256": "484f0ada1a27ff139763e074b5b9cc7de6bbf790af6288bcdd48bb1b005d03e0",
+  "technical_verification": {
+    "media_report": "out/final-media-qa/media-evidence.json",
+    "render_manifest": "out/render-manifest.json",
+    "bytes": 28255324,
+    "duration_seconds": 32.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0,
+    "frame_count": 960,
+    "video_codec": "h264",
+    "audio_streams": 1,
+    "audio_codec": "aac",
+    "full_decode": "passed",
+    "audio_sampled_seconds": 32.0,
+    "audio_peak_dbfs": -4.33,
+    "audio_rms_dbfs": -19.26,
+    "browser_errors": [],
+    "resource_failures": []
+  },
+  "visual_review": {
+    "reviewer": "primary agent; no independent reviewer",
+    "status": "completed for the coverage listed below",
+    "provenance": "These images were actually viewed during preceding production turns. This document consolidates that review; it does not claim a new inspection or full playback.",
+    "keyframe_contact_sheet": {
+      "image": "out/final-media-qa/contact-sheet.jpg",
+      "viewed_images": 24,
+      "times_seconds": [0, 4, 4.5, 5, 5.5, 6.5, 8.5, 9.5, 10.5, 11.5, 12.7, 13.7, 14.4, 15, 15.6, 17.5, 20, 21.5, 23, 24.5, 26, 27.5, 30, 31.966],
+      "coverage": "All narrative scenes, viewing-angle changes and ending"
+    },
+    "continuous_frame_windows": [
+      {
+        "purpose": "Opening image to physical disk structure transition",
+        "inclusive_frame_range": [114, 172],
+        "seconds_range": [3.8, 5.733333],
+        "viewed_frames": 59,
+        "export_width": 960,
+        "report": "out/final-open-transition/frame-audit.json",
+        "viewed_atlases": ["out/final-open-transition/atlas-000.jpg", "out/final-open-transition/atlas-001.jpg"]
+      },
+      {
+        "purpose": "Photon mechanism to reconstructed observer image transition",
+        "inclusive_frame_range": [408, 474],
+        "seconds_range": [13.6, 15.8],
+        "viewed_frames": 67,
+        "export_width": 960,
+        "report": "out/final-reconstruction/frame-audit.json",
+        "viewed_atlases": ["out/final-reconstruction/atlas-000.jpg", "out/final-reconstruction/atlas-001.jpg", "out/final-reconstruction/atlas-002.jpg"]
+      }
+    ],
+    "full_resolution_images_viewed": [
+      "out/final-media-qa/keyframe-00-0.000s.png",
+      "out/final-media-qa/keyframe-09-11.500s.png",
+      "out/final-media-qa/keyframe-18-23.000s.png",
+      "out/final-media-qa/keyframe-23-31.966s.png"
+    ],
+    "outcome": "No unresolved material visual defects were identified within the reviewed coverage.",
+    "limitations": [
+      "This is keyframe and continuous-frame contact-sheet review, not real-time full-film playback.",
+      "The entire film has not been inspected frame by frame at full output resolution.",
+      "No actual listening was performed. Audio stream, decoding and amplitude checks do not establish perceived sound quality or music timing."
+    ]
+  },
+  "fixed_defects": [
+    "Angular disk-texture seam at plus/minus pi",
+    "Photon leaving the frame near the observer",
+    "Observer-direction label crowding the subject",
+    "Upper-arch annotation pointing inaccurately",
+    "Double silhouette in the structure/image dissolve; replaced with progressive optical reconstruction"
+  ],
+  "prior_motion_studies": [
+    {"video": "out/key-action-study.mp4", "viewed_frame_count": 270, "viewed_atlas_count": 9},
+    {"video": "out/key-action-study-v2.mp4", "inclusive_local_frame_range": [168, 269], "viewed_frame_count": 102, "viewed_atlas_count": 4}
+  ],
+  "scientific_verification": {
+    "report": "out/orbit-check.json",
+    "independent_RK4_checks_passed": true,
+    "scope": "Capture/escape near the critical region, weak-field deflection and conserved quantities for the equation; not GPU discretization accuracy or radiative transfer",
+    "model": "Nonrotating, spherical Schwarzschild illustration with rs=1",
+    "limits": "Finite GPU integration and initial camera mapping are approximate. Disk appearance, brightness, color and motion timing are stylized. No complete relativistic radiative transfer, Kerr spin or instrument response. Explanatory grid and optical reconstruction are editorial illustrations.",
+    "sources": ["https://science.nasa.gov/universe/black-holes/anatomy/", "https://www.nasa.gov/universe/nasa-visualization-shows-a-black-holes-warped-world/"]
+  },
+  "packaging": {
+    "source_archive": "out/around-the-dark-source.zip",
+    "inventory": "out/delivery-inventory.json",
+    "note": "The compact source archive includes source, soundtrack, reports and actually viewed final contact sheets/four full-resolution images. It excludes the final MP4, earlier studies and individual audit-frame exports. Full evidence remains in the original workspace; frame-audit reports preserve original export paths."
+  }
+}

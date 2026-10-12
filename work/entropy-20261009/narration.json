@@ -1,0 +1,86 @@
+[
+  {
+    "index": 0,
+    "id": "c1",
+    "window": [
+      0,
+      7
+    ],
+    "text": "粒子可以向右走，也可以向左走。那为什么，它们散开以后，却很少全部回到一边？",
+    "file": "narration/00.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "+12%",
+    "synthetic": true,
+    "duration": 7.152
+  },
+  {
+    "index": 1,
+    "id": "c2",
+    "window": [
+      7,
+      16
+    ],
+    "text": "我们用八个可区分的粒子，只记录它们在哪一侧。同样是左四、右四，具体是哪四个，可以完全不同。",
+    "file": "narration/01.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "+12%",
+    "synthetic": true,
+    "duration": 9.0
+  },
+  {
+    "index": 2,
+    "id": "c3",
+    "window": [
+      16,
+      30
+    ],
+    "text": "全部在左，只有一种归属排列。但左右各四，有七十种。宏观看起来一样，背后能对应的微观排列，却多得多。",
+    "file": "narration/02.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "+12%",
+    "synthetic": true,
+    "duration": 10.128
+  },
+  {
+    "index": 3,
+    "id": "c4",
+    "window": [
+      30,
+      42
+    ],
+    "text": "如果这些归属排列等可能，接近均匀的状态，就占了大多数。不过，恰好四比四只占百分之二十七左右。平衡附近，仍然会有波动。",
+    "file": "narration/03.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "+12%",
+    "synthetic": true,
+    "duration": 11.448
+  },
+  {
+    "index": 4,
+    "id": "c5",
+    "window": [
+      42,
+      53
+    ],
+    "text": "这里的规则没有偏爱左右，但从少见的集中状态出发，系统更容易进入排列更多的状态。它仍会波动，也并非绝不能回去。",
+    "file": "narration/04.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "+12%",
+    "synthetic": true,
+    "duration": 10.368
+  },
+  {
+    "index": 5,
+    "id": "c6",
+    "window": [
+      53,
+      60
+    ],
+    "text": "熵不只是看起来乱不乱。粒子数量巨大时，整体回到集中状态的机会极小，这就是熵增的统计含义。",
+    "file": "narration/05.mp3",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "+12%",
+    "synthetic": true,
+    "duration": 8.376
+  }
+]

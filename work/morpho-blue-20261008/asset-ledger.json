@@ -1,0 +1,27 @@
+{
+  "generated_by": "built-in image_gen.imagegen",
+  "assets": [
+    {
+      "file": "assets/wing-concept.png",
+      "sha256": "5507573b64cc795854732f441a0782c1dae46ce9130fd11b73e8ebc2d165f007",
+      "truth": "AI concept, not SEM or real observation",
+      "lighting": "cool grazing upper left",
+      "perspective": "near normal, diagonal ridges",
+      "permitted_motion": "crop translation/modest zoom only",
+      "purpose": "Opening and return; crop push, no fake 3D rotation"
+    },
+    {
+      "file": "assets/scales-concept.png",
+      "sha256": "77856aed592f5a3ba6f3a79daba918baee818b8ef190ff7dbc5c34d18a4a2dc3",
+      "truth": "AI concept, not SEM or real observation",
+      "lighting": "cool grazing upper left",
+      "perspective": "near normal, diagonal ridges",
+      "permitted_motion": "crop translation/modest zoom only",
+      "purpose": "Scale hierarchy and directional match to 3D"
+    }
+  ],
+  "science_sources": [
+    "https://www.nhm.ac.uk/discover/spotlight-blue-morpho.html"
+  ],
+  "rights": "Generated concepts used for this original film; no third-party reference imagery/music appears in film. Three.js MIT runtime. System font rasterization. Original synthetic audio."
+}

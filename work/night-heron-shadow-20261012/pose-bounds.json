@@ -1,0 +1,452 @@
+[
+  {
+    "id": "heron_idle.0",
+    "localAlphaBounds": [
+      253,
+      93,
+      1011,
+      993
+    ],
+    "localBottomCenter": [
+      758,
+      1085
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_neck.0",
+    "localAlphaBounds": [
+      165,
+      173,
+      340,
+      309
+    ],
+    "localBottomCenter": [
+      334.5,
+      481
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_neck.1",
+    "localAlphaBounds": [
+      163,
+      149,
+      357,
+      334
+    ],
+    "localBottomCenter": [
+      341,
+      482
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_neck.2",
+    "localAlphaBounds": [
+      118,
+      125,
+      449,
+      348
+    ],
+    "localBottomCenter": [
+      342,
+      472
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_neck.3",
+    "localAlphaBounds": [
+      134,
+      138,
+      453,
+      335
+    ],
+    "localBottomCenter": [
+      360,
+      472
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_walk.0",
+    "localAlphaBounds": [
+      38,
+      49,
+      473,
+      438
+    ],
+    "localBottomCenter": [
+      274,
+      486
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_walk.1",
+    "localAlphaBounds": [
+      36,
+      52,
+      461,
+      439
+    ],
+    "localBottomCenter": [
+      266,
+      490
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_walk.2",
+    "localAlphaBounds": [
+      26,
+      49,
+      467,
+      442
+    ],
+    "localBottomCenter": [
+      259,
+      490
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_walk.3",
+    "localAlphaBounds": [
+      40,
+      30,
+      472,
+      433
+    ],
+    "localBottomCenter": [
+      275.5,
+      462
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_walk.4",
+    "localAlphaBounds": [
+      20,
+      29,
+      476,
+      430
+    ],
+    "localBottomCenter": [
+      257.5,
+      458
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_walk.5",
+    "localAlphaBounds": [
+      34,
+      34,
+      462,
+      430
+    ],
+    "localBottomCenter": [
+      264.5,
+      463
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_disguise.0",
+    "localAlphaBounds": [
+      120,
+      47,
+      539,
+      528
+    ],
+    "localBottomCenter": [
+      389,
+      574
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_disguise.1",
+    "localAlphaBounds": [
+      18,
+      55,
+      562,
+      521
+    ],
+    "localBottomCenter": [
+      298.5,
+      575
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_disguise.2",
+    "localAlphaBounds": [
+      108,
+      3,
+      551,
+      531
+    ],
+    "localBottomCenter": [
+      383,
+      533
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_disguise.3",
+    "localAlphaBounds": [
+      61,
+      11,
+      544,
+      522
+    ],
+    "localBottomCenter": [
+      332.5,
+      532
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_contact.0",
+    "localAlphaBounds": [
+      92,
+      76,
+      519,
+      460
+    ],
+    "localBottomCenter": [
+      351,
+      535
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_contact.1",
+    "localAlphaBounds": [
+      45,
+      100,
+      581,
+      437
+    ],
+    "localBottomCenter": [
+      335,
+      536
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_contact.2",
+    "localAlphaBounds": [
+      82,
+      90,
+      595,
+      448
+    ],
+    "localBottomCenter": [
+      379,
+      537
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "heron_contact.3",
+    "localAlphaBounds": [
+      57,
+      70,
+      550,
+      465
+    ],
+    "localBottomCenter": [
+      331.5,
+      534
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "penguin_react.0",
+    "localAlphaBounds": [
+      169,
+      50,
+      305,
+      544
+    ],
+    "localBottomCenter": [
+      321,
+      593
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "penguin_react.1",
+    "localAlphaBounds": [
+      143,
+      51,
+      388,
+      544
+    ],
+    "localBottomCenter": [
+      336.5,
+      594
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "penguin_react.2",
+    "localAlphaBounds": [
+      170,
+      32,
+      309,
+      551
+    ],
+    "localBottomCenter": [
+      324,
+      582
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "penguin_react.3",
+    "localAlphaBounds": [
+      143,
+      36,
+      369,
+      546
+    ],
+    "localBottomCenter": [
+      327,
+      581
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "chick.0",
+    "localAlphaBounds": [
+      51,
+      94,
+      557,
+      476
+    ],
+    "localBottomCenter": [
+      329,
+      569
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "chick.1",
+    "localAlphaBounds": [
+      60,
+      56,
+      526,
+      523
+    ],
+    "localBottomCenter": [
+      322.5,
+      578
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "chick.2",
+    "localAlphaBounds": [
+      69,
+      26,
+      534,
+      594
+    ],
+    "localBottomCenter": [
+      335.5,
+      619
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "chick.3",
+    "localAlphaBounds": [
+      17,
+      130,
+      567,
+      487
+    ],
+    "localBottomCenter": [
+      300,
+      616
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "bucket.0",
+    "localAlphaBounds": [
+      169,
+      207,
+      916,
+      852
+    ],
+    "localBottomCenter": [
+      626.5,
+      1058
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "fish.0",
+    "localAlphaBounds": [
+      110,
+      196,
+      1344,
+      631
+    ],
+    "localBottomCenter": [
+      781.5,
+      826
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  },
+  {
+    "id": "nest.0",
+    "localAlphaBounds": [
+      21,
+      164,
+      1494,
+      710
+    ],
+    "localBottomCenter": [
+      767.5,
+      873
+    ],
+    "strongPixelsOnCropBoundary": 0,
+    "note": "Alpha bounds are measured. Bottom-center is NOT a verified anatomical foot pivot."
+  }
+]

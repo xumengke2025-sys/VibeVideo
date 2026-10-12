@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s09-root { position: absolute; inset: 0; }
+        #s09-packet { font-size: 20px; padding: 6px 14px; }
+        #s09-charge { font-size: 20px; padding: 6px 14px; }
+      </style>
+      <div id="s09-root" data-composition-id="s09-lands" data-width="1920" data-height="1080">
+        <div id="s09-scene" class="k-scene">
+          <div id="s09-packet" class="k-pill k-amber">ready</div>
+          <div id="s09-charge" class="k-pill k-amber">80 cr</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s09-scene");
+
+          // The space so far: product cards and their reference edges, all still.
+          const OLD = [
+            [110, 230, "quay at low tide", "3 cr", { boat: -20 }],
+            [110, 560, "quay, dusk", "3 cr", { boat: 10, mood: "dusk" }],
+            [510, 390, "first clip", "40 cr", { boat: 30 }],
+            [510, 700, "last frame", "0 cr", { boat: 60, mood: "night" }],
+          ];
+          OLD.forEach(([x, y, name, cr, art], i) => K.card(scene, { id: `s09-old${i}`, left: x, top: y, scale: 1.3, art: K.harbourArt(art), name, cr }));
+          ["M422 345 C 470 345, 470 500, 510 500", "M422 675 C 470 675, 470 520, 510 520", "M666 620 C 666 650, 666 670, 666 700"].forEach((d) => K.edge(scene, d));
+          K.edge(scene, "M822 810 C 960 810, 980 620, 1060 620", { alpha: 0.2 });
+          K.leader(scene, 952, 730, 980, 800, "start_frame");
+
+          // The protagonist, generating: amber ring at half strength, bar along the media.
+          const S = 2.2, CL = 1060, CT = 380;
+          const card = K.card(scene, { id: "s09-card", left: CL, top: CT, scale: S, art: K.harbourArt({ boat: 12 }), name: "harbour flight", cr: "80 cr", state: "generating" });
+          const { cx, mediaCy, bottom } = card.k;
+          const you = K.cursor(scene, 1660, 830, "you");
+
+          // The socket: a hairline down from the top edge of the canvas.
+          const wire = K.edge(scene, `M${cx} 200 L${cx} ${CT - 6}`, { alpha: 0.18 });
+          K.leader(scene, cx, 214, cx + 40, 214, "socket");
+
+          K.chrome(scene, tl, { title: "It lands, live", step: 4, balance: "2,000 cr", held: "−80" });
+          ["s09-packet", "s09-charge"].forEach((id) => scene.appendChild(document.getElementById(id))); // travel above the cards
+
+          // b0–b1: the bar completes
+          K.progress(tl, card, 0.55, 1, K.t(0), 0.5);
+          gsap.set(K.part(card, "k-thumb"), { opacity: 0 });
+          // b2: "ready" comes down the socket to every open canvas
+          const packet = document.getElementById("s09-packet");
+          tl.fromTo(packet, { opacity: 0 }, { opacity: 1, duration: 0.04 }, K.t(2));
+          K.travel(tl, packet, wire, 2, 0.24, "power2.in", 92, 40);
+          tl.to(packet, { opacity: 0, duration: 0.06, data: "follow" }, K.t(3) - 0.02);
+          // b3: the media fades in over the placeholder
+          K.reveal(tl, card, 3);
+          // b4: it settles; ready says nothing, so the ring goes quiet
+          K.land(tl, card, K.t(4));
+          K.ring(tl, card, "rest", K.t(4), { dur: 0.24, follow: true });
+          // b5: charged when it lands: the 80 cr leaves the card for the balance
+          const charge = document.getElementById("s09-charge");
+          const toBal = K.el(K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } }), "path",
+            { d: `M${CL + card.k.W - 60} ${bottom - 20} C ${1700} ${bottom}, ${1760} ${940}, ${1760} ${1010}`, fill: "none", stroke: "none" });
+          tl.fromTo(charge, { opacity: 0 }, { opacity: 1, duration: 0.04 }, K.t(5));
+          K.travel(tl, charge, toBal, 5, 0.22, K.easeMove, 80, 36);
+          tl.to(charge, { opacity: 0, duration: 0.05, data: "follow" }, K.t(6) - 0.02);
+          // b6: the hold settles into the balance
+          K.balance(tl, scene, K.t(6), { balance: "1,920 cr" });
+          // b7: you were watching; the cursor comes to the new card
+          tl.fromTo(you, { x: 0, y: 0 }, { x: -90, y: -130, duration: 0.2, ease: K.easeMove }, K.t(7));
+          K.ring(tl, card, "hover", K.t(7) + 0.16, { follow: true });
+
+          K.focus(scene, tl, "s09", [
+            [0, cx, mediaCy + 90], [2, cx, 300], [3, cx, mediaCy], [4, cx, mediaCy],
+            [5, 1580, bottom + 60], [6, 1760, 1010], [7, 1590, 720],
+          ]);
+          K.check(tl, "s09");
+          window.__timelines["s09-lands"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

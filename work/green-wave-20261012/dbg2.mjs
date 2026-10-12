@@ -1,0 +1,10 @@
+import {chromium} from '../sand-journey-20261010/node_modules/playwright-core/index.mjs';
+import {createServer} from './server.mjs';
+const server=createServer();await new Promise(r=>server.listen(0,'127.0.0.1',r));
+const b=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
+const p=await b.newPage({viewport:{width:540,height:960}});
+p.on('response',r=>{if(r.status()>=400)console.log(r.status(),r.url())});
+p.on('pageerror',e=>console.log('PAGEERROR:',e.message.slice(0,300)));
+await p.goto('http://127.0.0.1:'+server.address().port+'/?render&width=540');
+await new Promise(r=>setTimeout(r,5000));
+await b.close();await new Promise(r=>server.close(r));

@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s17-root { position: absolute; inset: 0; }
+        #s17-url { left: 110px; top: 210px; font-size: 26px; padding: 10px 22px; color: var(--k-ink); }
+        #s17-out { left: 620px; top: 218px; font-size: 20px; }
+        #s17-space { left: 0; top: 0; width: 1920px; height: 1080px; }
+        #s17-name { left: 130px; top: 340px; }
+        .s17-seg { position: absolute; top: 0; height: 100%; overflow: hidden; }
+        .s17-seg > div { position: absolute; top: 0; height: 100%; }
+        .s17-seg svg { display: block; width: 100%; height: 100%; }
+        .s17-cutline { position: absolute; top: 0; width: 3px; height: 100%; background: #08080a; }
+        .s17-tip { padding: 18px 22px; border-radius: 14px; }
+        .s17-tip .k-micro { display: block; margin-bottom: 10px; }
+        .s17-tip div { font: 500 22px/1.45 var(--k-mono); color: var(--k-ink); white-space: pre; }
+        .s17-tip em { font-style: normal; color: var(--k-ink-2); }
+      </style>
+      <div id="s17-root" data-composition-id="s17-share" data-width="1920" data-height="1080">
+        <div id="s17-scene" class="k-scene">
+          <div id="s17-url" class="k-pill"></div>
+          <div id="s17-out" class="k-chip">signed out · no account</div>
+          <div id="s17-space" class="k-abs">
+            <div id="s17-name" class="k-abs k-micro">Salt Harbour, Low Tide · demo space</div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s17-scene");
+          const space = document.getElementById("s17-space");
+
+          // The space as anyone sees it from its link: the cards, their edges, still.
+          const still = K.card(space, { id: "s17-still", left: 130, top: 400, scale: 1.4, art: K.harbourArt({ boat: -20 }), name: "quay at low tide", cr: "3 cr" });
+          const flight = K.card(space, { id: "s17-flight", left: 560, top: 380, scale: 1.9, art: K.harbourArt({ boat: 12 }), name: "harbour flight", cr: "80 cr" });
+          const cut = K.card(space, { id: "s17-cut", left: 1120, top: 400, scale: 1.4, name: "harbour cut", cr: "0 cr" });
+          const first = K.card(space, { id: "s17-first", left: 1540, top: 410, scale: 1.1, art: K.harbourArt({ boat: 30, mood: "dusk" }), name: "first clip", cr: "40 cr" });
+          // The cut's picture: its three clips in order.
+          const thumb = K.part(cut, "k-thumb");
+          [[0, 25, { boat: 30, mood: "dusk" }], [25, 50, { boat: 12 }], [75, 25, { boat: 50, mood: "night" }]].forEach(([x, w, art], i) => {
+            const seg = K.el(thumb, "div", { class: "s17-seg", "data-layout-allow-overflow": "", style: { left: x + "%", width: w + "%" } });
+            K.el(seg, "div", { "data-layout-allow-overflow": "", style: { left: (-x / w) * 100 + "%", width: (100 / w) * 100 + "%" } }, K.harbourArt(art));
+            if (i) K.el(thumb, "div", { class: "s17-cutline", style: { left: `calc(${x}% - 1.5px)` } });
+          });
+          const R = (c) => c.k.left + c.k.W;
+          K.edge(space, `M${R(still) + 6} ${still.k.mediaCy} C 518 ${still.k.mediaCy}, 518 ${flight.k.mediaCy}, ${flight.k.left - 6} ${flight.k.mediaCy}`);
+          K.edge(space, `M${R(flight) + 6} ${flight.k.mediaCy} C 1068 ${flight.k.mediaCy}, 1068 ${cut.k.mediaCy}, ${cut.k.left - 6} ${cut.k.mediaCy}`);
+          K.edge(space, `M${first.k.left - 6} ${first.k.mediaCy} L ${R(cut) + 6} ${first.k.mediaCy}`);
+
+          // What a visitor sees on hover: the card's recipe and its price.
+          const tip = (id, x, y, html) => K.el(space, "div", { id, class: "k-panel s17-tip", style: { left: x + "px", top: y + "px" } }, html);
+          const tipA = tip("s17-tipA", 130, 700, `<span class="k-micro">recipe</span><div>image/flux-2</div><div><em>still · </em>3 cr</div>`);
+          const tipB = tip("s17-tipB", 560, 760, `<span class="k-micro">recipe · video/h3-max · 480p · 8 s</span><div>camera flight over the harbour</div><div>at low tide <em>· </em>80 cr</div>`);
+          const tipC = tip("s17-tipC", 1120, 700, `<span class="k-micro">recipe · video/timeline</span><div>cut from 3 clips</div><div><em>in the browser · </em>0 cr</div>`);
+
+          // Visitors are cursors. One already rests on the cut; two arrive.
+          const v3 = K.cursor(space, 1330, 612, "visitor");
+          K.ring(tl, cut, "hover", 0, { dur: 0.01, follow: true });
+          const v1 = K.cursor(scene, 350, 612, "visitor");
+          const v2 = K.cursor(scene, 830, 668, "visitor");
+
+          K.chrome(scene, tl, { title: "Anyone can open the space", step: 7, balance: "1,918 cr" });
+
+          // b0: the space's link
+          K.type(tl, document.getElementById("s17-url"), "makefx.app/alv/salt-harbour", 0, 0.2);
+          // b1: it opens without an account
+          K.pop(tl, "#s17-out", 1);
+          // b2: the space opens: every card, with its edges
+          K.pop(tl, space, 2);
+          // b3: a visitor arrives on the first still
+          tl.fromTo(v1, { x: -300, y: 260, opacity: 0 }, { x: 0, y: 0, opacity: 1, duration: 0.2, ease: K.easeMove }, K.t(3));
+          K.ring(tl, still, "hover", K.t(3) + 0.16, { follow: true });
+          // b4: its recipe and price show
+          K.pop(tl, tipA, 4);
+          // b5: another visitor arrives on the harbour flight
+          tl.fromTo(v2, { x: 160, y: 300, opacity: 0 }, { x: 0, y: 0, opacity: 1, duration: 0.2, ease: K.easeMove }, K.t(5));
+          K.ring(tl, flight, "hover", K.t(5) + 0.16, { follow: true });
+          // b6: its recipe: model, settings, prompt, 80 cr
+          K.pop(tl, tipB, 6);
+          // b7: and the cut's, under the visitor already there
+          K.pop(tl, tipC, 7);
+          [v1, v2].forEach((v) => scene.appendChild(v)); // above the tips
+
+          K.focus(scene, tl, "s17", [
+            [0, 340, 234], [1, 760, 236], [2, 800, 520], [3, 390, 620],
+            [4, 330, 770], [5, 850, 680], [6, 800, 840], [7, 1280, 770],
+          ]);
+          scene.querySelectorAll("svg").forEach((v) => v.setAttribute("data-layout-allow-overflow", "")); // the art's sun glow bleeds past the media on purpose
+          K.check(tl, "s17");
+          window.__timelines["s17-share"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

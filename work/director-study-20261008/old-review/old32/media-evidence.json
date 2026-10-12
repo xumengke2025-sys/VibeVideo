@@ -1,0 +1,47 @@
+{
+  "video": "D:\\ai项目\\ai动画\\work\\black-hole-lensing-20261008\\out\\around-the-dark.mp4",
+  "bytes": 28255324,
+  "duration": 32.0,
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "audio_streams": 1,
+  "audio_levels": {
+    "sampled_seconds": 32.0,
+    "peak_dbfs": -4.33,
+    "rms_dbfs": -19.26
+  },
+  "full_decode": "passed",
+  "keyframe_times": [
+    0,
+    3.0,
+    5.5,
+    8.0,
+    10.0,
+    12.7,
+    14.0,
+    16.0,
+    20.0,
+    23.0,
+    26.0,
+    31.9
+  ],
+  "keyframes": [
+    "\\\\?\\D:\\ai项目\\ai动画\\work\\director-study-20261008\\old-review\\old32\\keyframe-00-0.000s.png",
+    "\\\\?\\D:\\ai项目\\ai动画\\work\\director-study-20261008\\old-review\\old32\\keyframe-01-3.000s.png",
+    "\\\\?\\D:\\ai项目\\ai动画\\work\\director-study-20261008\\old-review\\old32\\keyframe-02-5.500s.png",
+    "\\\\?\\D:\\ai项目\\ai动画\\work\\director-study-20261008\\old-review\\old32\\keyframe-03-8.000s.png",
+    "\\\\?\\D:\\ai项目\\ai动画\\work\\director-study-20261008\\old-review\\old32\\keyframe-04-10.000s.png",
+    "\\\\?\\D:\\ai项目\\ai动画\\work\\director-study-20261008\\old-review\\old32\\keyframe-05-12.700s.png",
+    "\\\\?\\D:\\ai项目\\ai动画\\work\\director-study-20261008\\old-review\\old32\\keyframe-06-14.000s.png",
+    "\\\\?\\D:\\ai项目\\ai动画\\work\\director-study-20261008\\old-review\\old32\\keyframe-07-16.000s.png",
+    "\\\\?\\D:\\ai项目\\ai动画\\work\\director-study-20261008\\old-review\\old32\\keyframe-08-20.000s.png",
+    "\\\\?\\D:\\ai项目\\ai动画\\work\\director-study-20261008\\old-review\\old32\\keyframe-09-23.000s.png",
+    "\\\\?\\D:\\ai项目\\ai动画\\work\\director-study-20261008\\old-review\\old32\\keyframe-10-26.000s.png",
+    "\\\\?\\D:\\ai项目\\ai动画\\work\\director-study-20261008\\old-review\\old32\\keyframe-11-31.900s.png"
+  ],
+  "contact_sheet": "\\\\?\\D:\\ai项目\\ai动画\\work\\director-study-20261008\\old-review\\old32\\contact-sheet.jpg",
+  "technical_failures": [],
+  "visual_review": "pending human or agent image inspection; this script does not score aesthetics"
+}

@@ -1,0 +1,95 @@
+{
+  "exit_code": 0,
+  "result": {
+    "query": "竖屏 弹簧止回阀 剖面 数据",
+    "scope": "需求→方法候选；文本匹配分值不是画质评价。请按目的/失败条件选核心机制。",
+    "cards": [
+      {
+        "id": "load-regulated-valve",
+        "title": "预载、压差与受限机械行程",
+        "matched_terms": [
+          "阀",
+          "弹簧",
+          "止回"
+        ],
+        "purpose": "阀瓣位移、弹簧压缩、流动许可由同一状态控制。",
+        "status": "independent_regression_pending",
+        "sources": [
+          {
+            "id": "codex-tools",
+            "repository": null,
+            "commit": null,
+            "relation": "independent_implementation",
+            "runtime": "tested_in_previous_study",
+            "scope": "原创绝对时间弹簧/缩放/轮廓、主体相机、轨迹与准静态机械约束。每个实现的成片/运行证据分开，非原作复现证明。",
+            "reference_role": "independent_tool",
+            "quality_evidence": "mechanism_test_only_not_film_benchmark",
+            "local": "D:\\Codex\\skills\\vibe-video\\assets\\mechanical.mjs",
+            "line": 3
+          }
+        ],
+        "reference_leads": []
+      },
+      {
+        "id": "data-state",
+        "title": "让数值、图形和标签共享状态",
+        "matched_terms": [
+          "数据"
+        ],
+        "purpose": "过程可见，观众能追溯结果从何而来。",
+        "status": "code_observed_with_adaptation",
+        "sources": [
+          {
+            "id": "water",
+            "repository": "https://github.com/AiondaDotCom/ai-sim-benchmark",
+            "commit": "680f87e6d54984199525dd12005bd95711bb47bb",
+            "relation": "gallery_source_link",
+            "runtime": "source_read_only",
+            "scope": "只采用claude-code-opus-5-5分支。源码证明网格浅水与着色；原帖与具体录屏像素一致性未验证，实时循环会丢积压步。",
+            "commit_date": "2026-09-24T07:04:05Z",
+            "reference_role": "component",
+            "quality_evidence": "source_inspected_video_unreviewed",
+            "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\water-opus\\runs\\claude-code-opus-5-5\\src\\render\\waterMesh.ts",
+            "line": 165,
+            "url": "https://github.com/AiondaDotCom/ai-sim-benchmark/blob/680f87e6d54984199525dd12005bd95711bb47bb/runs/claude-code-opus-5-5/src/render/waterMesh.ts#L165"
+          }
+        ],
+        "reference_leads": []
+      },
+      {
+        "id": "rigid-contact",
+        "title": "受力、关节与断裂提供动作因果",
+        "matched_terms": [
+          "弹簧"
+        ],
+        "purpose": "大数量对象运动有接触、重量和后果。",
+        "status": "code_observed_with_adaptation",
+        "sources": [
+          {
+            "id": "rigid",
+            "repository": "https://github.com/sbobyn/three-avbd",
+            "commit": "9b9c27b6b65a1212896e4d90e7e3d154c06e428a",
+            "relation": "gallery_source_link",
+            "runtime": "source_read_only",
+            "scope": "WebGPU刚体/关节/GPU绘制代码；basic随机数与Clock不是可乱序电影时间轴。没有运行或确认发布录屏与此commit一致。",
+            "commit_date": "2026-10-06T18:28:01Z",
+            "reference_role": "component",
+            "quality_evidence": "source_inspected_video_unreviewed",
+            "local": "D:\\Codex\\skills\\vibe-video\\assets\\code-studies\\three-avbd\\examples\\basic.ts",
+            "line": 29,
+            "url": "https://github.com/sbobyn/three-avbd/blob/9b9c27b6b65a1212896e4d90e7e3d154c06e428a/examples/basic.ts#L29"
+          }
+        ],
+        "reference_leads": [
+          {
+            "slug": "nybobs-680050",
+            "url": "https://skillry.dev/ai-videos/opus-5-5/nybobs-680050",
+            "evidence": "public_brief_only_unless_source_shown",
+            "visual_provenance": "unknown"
+          }
+        ]
+      }
+    ],
+    "unresolved": null
+  }
+}

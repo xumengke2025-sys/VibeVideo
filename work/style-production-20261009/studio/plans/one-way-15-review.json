@@ -1,0 +1,234 @@
+{
+  "clip": "one-way-15",
+  "scope": "Sampling schedule, not a visual or listening verdict.",
+  "states": [
+    {
+      "shot": "promise",
+      "state": "establish",
+      "time": 0.1,
+      "frame": 2
+    },
+    {
+      "shot": "promise",
+      "state": "action",
+      "time": 0.45,
+      "frame": 11
+    },
+    {
+      "shot": "promise",
+      "state": "result",
+      "time": 1.2,
+      "frame": 29
+    },
+    {
+      "shot": "inside",
+      "state": "establish",
+      "time": 1.5,
+      "frame": 36
+    },
+    {
+      "shot": "inside",
+      "state": "action",
+      "time": 2.05,
+      "frame": 49
+    },
+    {
+      "shot": "inside",
+      "state": "result",
+      "time": 3.4,
+      "frame": 82
+    },
+    {
+      "shot": "parts",
+      "state": "establish",
+      "time": 3.8,
+      "frame": 91
+    },
+    {
+      "shot": "parts",
+      "state": "action",
+      "time": 4.4,
+      "frame": 106
+    },
+    {
+      "shot": "parts",
+      "state": "result",
+      "time": 6,
+      "frame": 144
+    },
+    {
+      "shot": "forward",
+      "state": "establish",
+      "time": 6.3,
+      "frame": 151
+    },
+    {
+      "shot": "forward",
+      "state": "action",
+      "time": 6.7,
+      "frame": 161
+    },
+    {
+      "shot": "forward",
+      "state": "result",
+      "time": 9.5,
+      "frame": 228
+    },
+    {
+      "shot": "return",
+      "state": "establish",
+      "time": 10.2,
+      "frame": 245
+    },
+    {
+      "shot": "return",
+      "state": "action",
+      "time": 10.6,
+      "frame": 254
+    },
+    {
+      "shot": "return",
+      "state": "result",
+      "time": 11.9,
+      "frame": 286
+    },
+    {
+      "shot": "answer",
+      "state": "establish",
+      "time": 12.4,
+      "frame": 298
+    },
+    {
+      "shot": "answer",
+      "state": "action",
+      "time": 13.1,
+      "frame": 314
+    },
+    {
+      "shot": "answer",
+      "state": "result",
+      "time": 14.6,
+      "frame": 350
+    }
+  ],
+  "windows": [
+    {
+      "event": "draw",
+      "anchor": "valve-body",
+      "start": 0,
+      "end": 1.1,
+      "step": 0.2
+    },
+    {
+      "event": "section",
+      "anchor": "valve-body",
+      "start": 1.3,
+      "end": 2.8000000000000003,
+      "step": 0.2
+    },
+    {
+      "event": "explode",
+      "anchor": "valve-parts",
+      "start": 3.5999999999999996,
+      "end": 4.65,
+      "step": 0.2
+    },
+    {
+      "event": "assemble",
+      "anchor": "valve-parts",
+      "start": 4.8,
+      "end": 5.75,
+      "step": 0.2
+    },
+    {
+      "event": "open",
+      "anchor": "valve-disc",
+      "start": 6.1,
+      "end": 7.3,
+      "step": 0.2
+    },
+    {
+      "event": "close",
+      "anchor": "valve-seat",
+      "start": 10,
+      "end": 11.2,
+      "step": 0.2
+    },
+    {
+      "event": "settle",
+      "anchor": "valve-body",
+      "start": 12.200000000000001,
+      "end": 13.799999999999999,
+      "step": 0.2
+    }
+  ],
+  "captions": [
+    {
+      "text": "单向通行",
+      "start": 0,
+      "end": 1.5
+    },
+    {
+      "text": "看里面",
+      "start": 1.5,
+      "end": 3.8
+    },
+    {
+      "text": "阀瓣与弹簧",
+      "start": 3.8,
+      "end": 6.3
+    },
+    {
+      "text": "压差推开阀瓣",
+      "start": 6.3,
+      "end": 10.2
+    },
+    {
+      "text": "弹簧复位",
+      "start": 10.2,
+      "end": 12.4
+    },
+    {
+      "text": "贴合阀座，通路关闭",
+      "start": 12.4,
+      "end": 15
+    }
+  ],
+  "sound": [
+    {
+      "event": "draw",
+      "time": 0,
+      "kind": "paper"
+    },
+    {
+      "event": "section",
+      "time": 1.5,
+      "kind": "paper"
+    },
+    {
+      "event": "explode",
+      "time": 3.8,
+      "kind": "click"
+    },
+    {
+      "event": "assemble",
+      "time": 5.55,
+      "kind": "click"
+    },
+    {
+      "event": "open",
+      "time": 6.3,
+      "kind": "flow"
+    },
+    {
+      "event": "close",
+      "time": 11,
+      "kind": "click"
+    },
+    {
+      "event": "settle",
+      "time": 12.832,
+      "kind": "stamp"
+    }
+  ]
+}

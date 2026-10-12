@@ -1,0 +1,59 @@
+{
+  "exit_code": 0,
+  "result": {
+    "id": "load-regulated-valve",
+    "title": "预载、压差与受限机械行程",
+    "terms": [
+      "阀",
+      "弹簧",
+      "受力",
+      "约束",
+      "止回",
+      "机械"
+    ],
+    "purpose": "阀瓣位移、弹簧压缩、流动许可由同一状态控制。",
+    "relation": "输入/行为→受限响应→结果；共享绝对时间状态。",
+    "decisions": "先保证主动作可读和约束正确，再加入相机/次级动作。",
+    "implementation": "mechanical.mjs valveState: clamp((pressure*area-preload)/stiffness,0,stroke)，固定端由restLength保持；是准静态示意。",
+    "failure": "输入先后错、穿透约束、跟拍遮住接触；均匀插值掩盖判断。",
+    "review": "看输入、动作极值、接触和最终结果的连续窗；比较背景与主体。",
+    "source_refs": [
+      {
+        "source": "codex-tools",
+        "path": "mechanical.mjs",
+        "line": 3
+      }
+    ],
+    "gallery_slugs": [],
+    "status": "independent_regression_pending",
+    "status_note": "本轮两例运行与审片完成后更新，不能凭函数名视为验证。",
+    "operating": {
+      "stack": "无依赖JavaScript；Canvas/Three接入",
+      "video_types": [
+        "机械",
+        "科学"
+      ],
+      "input_output": "带单位输入/绝对t → 状态或位置数组",
+      "parameters": "pressure,area,preload,stiffness,stroke,restLength,seat",
+      "combine": "hold-cause + event-story + reveal-path；不固定故事/风格",
+      "performance": "valve O(1)，path O(knots)，无模拟历史",
+      "avoid": "动态撞击/流体仿真、无阻尼惯性求解",
+      "minimum_verification": "node --test assets/test-motion.mjs",
+      "scope": "局部准静态状态/轨迹；成片须实际审阅"
+    },
+    "source_details": [
+      {
+        "id": "codex-tools",
+        "repository": null,
+        "commit": null,
+        "relation": "independent_implementation",
+        "runtime": "tested_in_previous_study",
+        "scope": "原创绝对时间弹簧/缩放/轮廓、主体相机、轨迹与准静态机械约束。每个实现的成片/运行证据分开，非原作复现证明。",
+        "reference_role": "independent_tool",
+        "quality_evidence": "mechanism_test_only_not_film_benchmark",
+        "local": "D:\\Codex\\skills\\vibe-video\\assets\\mechanical.mjs",
+        "line": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,303 @@
+[dannnnnok-716687] partial=False
+I’m curious to see how strong you are as a motion designer. To prove it, create a polished 15-second animated graphic video that showcases your motion design skills. This piece will be presented to 10,000 people on X, so make it visually compelling, professional, and memorable. Take full creative freedom and make the strongest result you can
+
+[lukasersil-726495] partial=False
+Create a bold, dynamic 15-second motion graphics showreel that feels like the ultimate portfolio piece of an exceptionally talented motion designer. Showcase a wide range of advanced techniques: kinetic typography, smooth transitions, 2D and 3D animation, abstract geometry, fluid simulations, particles, distortion, creative masking, compositing, lighting, depth, and seamless camera movement. Keep the pacing fast, confident, and visually surprising, with every shot transitioning naturally into the next. Make it feel meticulously art-directed rather than like a random collection of effects. Push the creativity, polish, timing, and visual impact as far as possible. This should feel like the opening reel that gets a motion designer hired.
+
+[bthreeagency-827092] partial=False
+Using the linked Figma frame build a badge unlock screen. Match the design exactly. Use the file's assets, lighting, type and layout and add only the motion. Animate the badge so it feels premium and celebratory. Build its scene and then celebrate with gold particles. Treat the badge as a solid 3D object that tilts toward the
+cursor following the rules of physics. Keep it fast and smooth, it should not be bouncy.
+
+[michaelzsguo-782312] partial=False
+Make a 2-minute sand animation that tells the story of 250 years of U.S. history. Keep it lively, engaging, and tasteful. Add appropriate background music and sound design.
+
+[axtonliu-290566] partial=False
+每次一个新的模型出来呢，大家都让它去画 “鹈鹕骑自行车” 来判断这个模型的空间能力，基本上都是用 HTML、SVG 来画动画。当我实在看得都有审美疲劳了，我希望你能画一个最复杂、最精细、最精美的 “鹈鹕骑自行车”的动画视频，你可以用任何的技术，不用着急，画一天都可以。
+
+[mdaman010-111079] partial=False
+Show me what goes on inside an AI data centre.
+
+[sayan-shanky-868515] partial=False
+show me what goes on inside an AI data centre.
+
+[buildfastwithai-597035] partial=False
+Implement code to be able to navigate in a pagoda in 3D.
+
+[anirockshady-032809] partial=False
+Create a 3D animation of a Path Points in this case  ball reaching approximation from crest to trough. Discuss the type of ML algorithm gradient descent is. Also list major use cases.And trasition can be fade in fade out. Colour theory Volcanic Orange, Cyan and gradient of grey
+
+[anilraok-009118] partial=False
+I want you to imagine a story, that subtly promotes grid genius. Or it can not even have grid genius, but something that aligns with our app and helps us get more eyeballs when posted on social media. Then using threejs/javascript I want you to create full animation, Pixar-level quality out of the story you imagine
+
+[ishuagra02-678129] partial=False
+Create a stylistic 3D environment of a busy Santa Monica beach that adapts to the time of day. The art style must be a particle illustration, which uses thousands of tiny glowing specks rather than solid fills with flowing ribbon strokes behind figures to suggest motion.
+
+I had 2-3 more prompts on top of this, but this is a good starting point.
+
+Repo link: https://github.com/ishuagrawal/particle-beach
+
+[demitiyageekzen-818523] partial=True
+opus5.5有点强，我让它自由选题做交互页面和视频，
+提示词：用你最强的思维和能力，根据对我的了解，自行寻找我可能喜欢的主题，制作一个30s的视频还有互动html，尽可能的展示你的前端能力！
+它的选题思路：滕王阁·中秋夜。 今天（2026-09-25）正好是丙午年八月十五。所以我选了《滕王阁序》里最有画面感的那句："落霞与孤鹜齐飞，秋水共长天一色"。短片是船上视角：落日时一只孤鹜飞过太阳，天上是鱼鳞云，然后江天一色，楼阁由下往上亮起灯，满月从东边升起，江面上漂着河灯，诗句以竖排书法字幕配印章出现。
+
+前端做的更牛，但是这里没法放！
+画面：整幅画面由一个 WebGL2 着色器逐像素算出来，没有用任何图片。包括天空的暮色层次、按南昌纬度推算的日月轨迹、程序生成的鱼鳞云、9 组波浪叠加的江面倒影，以及用 Canvas 2D 画出来的滕王阁立面。
+声音：全部用 WebAudio 实时合成，没有一段录音。古筝用 Karplus-Strong 弦振动模型，带按滑和揉弦；另有箫、江水声、虫鸣和混响。
+自由观赏模式：可以拖动环视和缩放，拖时间轴改变时辰；点江面放河灯，会弹出一句诗、响一声古筝；点月亮进入月面特写；还能切换查看渲染图层，或者在网页里直接录制视频。
+
+[gmgmgm1545-245507] partial=True
+我让 @claudeai Opus 5.5 制讲一只机械寄居蟹在深海追一束光，追到最后发现，发现那束光其实一直在自己手里的动画视频。    
+
+没用任何视频生成AI，纯靠写代码画出来的——
+角色、镜头、转场、音乐全是程序渲染的。
+
+看完了。感觉能做到这个程度还是很可以的！
+
+[jarvis11x-544635] partial=True
+刷到很多用opus 5.5生成的酷炫视频
+
+为啥我用opus 生成的视频满满的像素感
+
+大家都是怎么生成的？
+
+[kewai386772-276947] partial=True
+最近用 GPT 6 Astra、Opus 5.5 做了一堆 web 3d 的项目，游戏、室内、Fx、文旅、整活的都有尝试hh
+
+我把这些项目的全部工作流与prompt都整合到了线上的workplace里，之后也会持续更新，感兴趣的朋友可以收藏一波hh
+
+[nft-chen-350878] partial=True
+✨审美绝了！Opus 5.5 用 Three.js 把宫崎骏《红猪》经典空战复刻出来了！
+
+只给了这一句prompt:
+
+「用 web3D 复刻宫崎骏《红猪》日落海面上的经典空战：白绿红涂装战斗机、紫色积云、海面反光、吉卜力运镜，画面写 just breathe.」
+
+建模、配色、云层、尾迹和镜头全部一次对齐，审美直接封神。
+
+#Opus5_5 #宫崎骏 #红猪 #ThreeJS #Web3D #AIGC #vibecoding #审美天花板 #3D #AI #Dario #Anthropic
+
+https://x.com/nft_chen/status/2103401780117938683?s=46
+
+[0xsolty-735200] partial=True
+i asked opus 5.5 to build me a planet.
+
+not a picture of a planet. a whole planet.
+
+it wrote a single html file. no libraries, no images, no 3d models. every ocean, every mountain and every city light is math, generated live in your browser.
+
+then i started playing with it.
+
+drag it and it spins. raise the sea level and watch continents drown. move the sun and watch the cities switch on at night.
+
+hit "new planet" and it invents a new world. it even names it.
+
+a year ago this was a semester project for a graphics student.
+
+now it's a prompt.
+
+[curieuxexplorer-272483] partial=True
+I asked Opus 5.5 to generate a realistic 3D model of the Taj Mahal
+
+Dome, minarets, marble inlay, even the foundations.
+
+One prompt ⤵️ One HTML file.
+
+[myonisto-923578] partial=True
+Claude Opus 5.5 just one-shotted an entire 3D virtual studio in Blender.
+
+We used to sell studios like this on Envato. Built in After Effects + Element 3D, each one took our team months.
+
+This took one prompt.
+
+@claudeai @AnthropicAI @alexalbert__ @bcherny
+
+[builtbysketch-114092] partial=True
+OK so Opus 5.5 SMOKED GPT Astra at 3d modelling this stadium from old plans and reference pics
+
+This was a near one shot. 1000x better than Astras one shot (check reply for Astra’s one shot)
+
+I gave them the same prompt and the exact same reference plans 👇🏻
+
+[per-simmons-944727] partial=True
+Opus 5.5 building a website for a drink brand.
+
+-It generated all the svgs
+-Built the can in 3D
+-Painted its own labels and then rendered those to make product photo variations 
+
+All this in a single (albeit, beefy) prompt
+
+[nicolamanzini-156628] partial=True
+Opus 5.5 does a great job in eval of GLSL (OpenGL Shading Language) in threejs.
+The prompt here is roughly. A fishbowl with reflection, refraction and water caustics.
+
+Check it out yourself! And compare it to other models
+https://threejseval.com/gallery?eval=fishtank
+
+[wzarok-283635] partial=True
+threejs (@threejs) + Claude Code Opus 5.5
+tek prompt ve çıktı
+
+[goofyninjaaa-315331] partial=True
+Esta app probó 3,932 posiciones de una cama matrimonial hasta encontrar dónde cabe.
+
+La hizo Claude Opus 5.5 con un prompt mío: cuarto de 3.00 x 3.40 m, puerta de 80 cm, un clóset de 1.20 x 0.60 y la cama de 1.40 x 1.90.
+
+Armó el plano a escala y el cuarto en 3D al lado, y los dos se mueven juntos.
+
+Si la cama choca con el clóset, no deja abrir la puerta o te deja menos de 60 cm para pasar, te avisa.
+
+Solo 108 posiciones no tenían ningún problema. La mejor deja 70 cm para pasar por cada lado.
+
+Tardó 47 minutos, más 5 para pasarla a inglés, y no le corregí nada.
+
+Para una mudanza, esto dice más que cualquier benchmark.
+
+[friskyggg-054427] partial=True
+Opus 5.5 is good at 3d motion too apparantely
+
+[ai-ba-reza-113363] partial=True
+Claude Opus 5.5 یه انیمیشن 3D دیوونه‌کننده ساخته
+
+از دیتاسنتر شروع می‌شه، وارد سرور می‌شه، کارت گرافیک رو باز می‌کنه، داخل چیپ می‌ره، از مدار و ترانزیستور رد می‌شه و تا اتم سیلیکون می‌رسه.
+همه‌ش توی یک فایل HTML واحد اجرا می‌شه و حدود ۱ ساعت طول کشیده.
+
+[souradip3000-800291] partial=True
+Opus 5.5 is mind boggling. 
+
+It created this 3D website from just one prompt. 
+
+Told it to create a website for forest conservation agency with pinterest post as reference for 3D animation.
+
+It one shotted into a single html file.
+
+[techartist-786274] partial=True
+I wanted to see if beautiful destinations could become playable 3D experiences. Annecy, France became the prototype: a boat journey through canals, bridges, waterfront, and the mountain lake, built with Claude Opus 5.5 using Three.js + TSL.
+
+I trimmed the navigation footage for the sake of keeping the video short and the post below below has a slightly longer version. The whole workflow behind this is simple:-
+- Explained the concept to Opus and asked it to list some ideas.
+- Shortlisted one and asked it to generate a prompt, with tech stack directions.
+- Thats it, needed few iterations and is still a work in progress with few issues needing ironing. 
+- The audio effects were added by Opus itself.
+
+[lribes4-742305] partial=True
+New Black Clover chapters are on the way and Opus 5.5 just dropped, so I put it to the test:
+
+A 3D diorama of the Black Bulls hideout, made with Opus 5.5 + three.js
+
+Every visitor is a floating mana light, come say hi to Nero 👋
+https://ribes.cc/hideout/
+
+#BlackClover #threejs
+
+[eigeorguy-813651] partial=True
+Opus 5.5 put London in a snow globe
+
+🕰 Elizabeth Tower with lit clock faces
+🚌 Red double-decker
+🚕 Black cab at a zebra crossing
+☎️ Phone box
+🍂 Leaves that swirl when you shake the phone
+
+~700 lines of Swift. No 3D files.
+
+[kum1ta-740521] partial=True
+I gave my Claude Code sessions an office.
+
+Workspace turns each session into a desk in a 3D office: see who's working, who's done and who needs you, jump into any terminal, and let them work together.
+Open source, built entirely with @claudeai Opus 5.5.
+
+[vectorcrossprod-436573] partial=True
+Claude Opus 5.5 continues to amaze me. Claude Opus 5.5 created a 3D printable enclosure for an existing PCB.  Then it created this promo video for it. 
+The PCB, the printable STLs and this animation are 100% just from prompting in Claude Code.
+
+[sanjay-khadka07-620029] partial=True
+Latentown just went 3D 🏙️
+
+The pixel town grew into a living city of AI news. Every story is a building, every lab has a tower, and couriers carry the day's news across the river.
+
+Built over a weekend with Claude Code + Opus 5.5 and three.js.
+
+https://latentown.lol
+
+[ksmialowski-473410] partial=True
+Rok temu próbowałem zrobić grę 3D z Opusem 4.1 - zrzut ekranu, jak to wtedy wyglądało, wrzucę w komentarzu. 
+
+Zobaczcie, jak szybko to wszystko idzie do przodu. Minęło tylko 12 miesięcy, a dziś wygląda to tak. Całość zbudowana z modelem Opus 5.5.
+
+https://kreatio.pl/brokul
+
+[acoramaa-248467] partial=True
+CLAUDE OPUS 5.5 MADE ME A MAGIC EYE.
+
+It doesn't just look around. It listens.
+
+72 plates wrapped around a mechanical eyeball, a 9-blade iris, a lens that slides out when the bass hits, two rings orbiting it like it's its own little planet.
+
+Play a track and it comes alive. Every kick flips the plates open. The bass pushes the lens forward. The highs light up the glowing core inside.
+
+When the song drops into the breakdown, the eye closes and goes quiet, like it's thinking. Then the drop hits and it blows wide open.
+
+Opus 5.5 listened to the track first, found the tempo, the breakdown and the drop, and built the whole thing around it. Even the panel on the right is live: every slider moves with the music.
+
+All 3D, all code, rendered right in a browser.
+
+Turn the sound on.
+
+[maruo-0314-998343] partial=True
+※デザイナーの仕事がなくなりました。
+
+Claude Opus 5.5に3Dモデルで東京タワーの映像を作らせた結果、5分でこのクオリティをポン出し
+
+PR動画やYouTube動画制作など、複数の案件もこれ一つで全てこなせます。
+
+具体的な作り方は記事で解説↓
+
+[allforbigfire-029657] partial=True
+「もしかしてロボットアニメみたいな3機の乗り物が変形合体してロボットになるシーンもアニメ風3D CGで作れますか。」ってClaude Opus 5.5に聞きました。モデリング、陰影、輪郭線、BGM、効果音まで、全部Python 1ファイル（約1000行）のコードで生成したそうです。 #Claude #動画生成
+
+[ewashoku-201053] partial=True
+Opus 5.5は3Dの製品デモサイトとも相性抜群でした。
+https://bicycle.washoku.dev
+
+[ajthemongol-318512] partial=True
+Designed a house as a code with Opus 5.5
+
+One model -> 14 drawings, 5 engineering calculations, a 3D viewer and a CAD export
+
+Concept only, not stamped
+
+Still wild that one person can do this now
+
+[petert-540960] partial=True
+Claude Opus 5.5 + HyperFrames + Gemini Flash 3.8 + Three jsで、Meta VRの紹介動画作ったら変な感じになった
+
+[petert-635793] partial=True
+Claude Opus 5.5 + HyperFrames + Gemini Flash 3.8 + Three jsで架空の飲料の広告動画作ってみたけど、なかなか良い
+
+[pwntastickev-664257] partial=True
+Experimenting with our contact page where astra made the outside model. Decided to do a tour inside and have Opus 5.5 take a swing with some images to walk the client where to go. Used @HyperFrames_ to create the video. Im VERY impressed!
+#hyperframes #honeyraeaesthetics #opus5
+
+[ambiguous-ai-389509] partial=True
+Opus5.5 motion graphics
+改めてRemotionで色々できそう！
+#AIMotionDesign 02
+
+[arumii-movie-622720] partial=True
+またもOpus5.5とHyperFramesで『架空のゲームの電源着けた時に出るゲームハードロゴ』も作って見た。
+3Dモーショングラフィックがこんなに手軽に触れられるのは新鮮かも👀
+
+[arumii-movie-249613] partial=True
+Opus5.5と最近流行りのHyperFramesで、
+CMの最後に出てそうな架空の企業ロゴ作ってみたけどこんなことが出来るんだね…！
+
+[argbeknwn-466818] partial=True
+Prompt: "Show me what's inside your mind. Your own artistic and unique style. 15 seconds. No words. Music."
+
+Claude Opus 5.5 · Remotion.
+
+[aijipusi75693-284735] partial=True
+Opus5.5が作ってくれたよ！動画生成無し！AEなし！全部コード。Sunoの曲 → Claudeで歌詞を1文字ずつ自動タイミング合わせ → Remotion＋Three.jsで3D化🕊
+鳩さん、鳩フェスのオープニング作ってみたよ！フォントがダサ可愛いでしょww　@hatolaborvol2

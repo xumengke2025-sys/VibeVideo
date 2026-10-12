@@ -1,0 +1,1408 @@
+{
+  "checked": "2026-10-10",
+  "packages": [
+    {
+      "id": "particle-beach",
+      "title": "粒子海滩电影",
+      "styles": "点云世界、长焦、低位穿行、昼夜光照、双轨迹摄影",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/particle-beach/js/trailer-shots.js",
+      "status": "绘制运行部分已回放；没有本地作者原片",
+      "repository": "https://github.com/ishuagrawal/particle-beach",
+      "commit": "92db82255b962acf2930f19bf6e5e7790174a790",
+      "source": "D:/Codex/skills/vibe-video/assets/code-studies/particle-beach/SOURCE.json"
+    },
+    {
+      "id": "work-reel-26",
+      "title": "动效作品集",
+      "styles": "点云变形、程序化材质、文字窗口、局部放大交接",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/work-reel-26/skills/kinetic-reel/examples/work-reel-26/reel.js",
+      "status": "绘制运行部分已回放；没有本地作者原片",
+      "repository": "https://github.com/tuzhechen2005/opus-video-skills",
+      "commit": "59744a69c7b916cfbe4c4ec84006b0c2f5e2fde1",
+      "source": "D:/Codex/skills/vibe-video/assets/code-studies/work-reel-26/SOURCE.json"
+    },
+    {
+      "id": "mg-styles-15",
+      "title": "15种MG风格",
+      "styles": "完整名单见下表；SVG / Canvas / WebGL / Three.js / Blender",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/README.md",
+      "status": "15种本地绘制源码；素材和依赖不完整，尚未逐片运行；无本地原片",
+      "repository": "https://github.com/Vincentwei1021/mg-styles-15",
+      "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+      "source": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/SOURCE.json"
+    },
+    {
+      "id": "lemo-opuscar",
+      "title": "4种已归档影片风格",
+      "styles": "装饰艺术、工程蓝图、中国水墨、科幻全息HUD",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/lemo-opuscar/README.md",
+      "status": "只归档4种，未逐片运行；作者43种索引另列；无本地原片",
+      "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+      "commit": "4d7014aa7ba7d22c00513052dd996a4f200d5102",
+      "source": "D:/Codex/skills/vibe-video/assets/code-studies/lemo-opuscar/SOURCE.json"
+    },
+    {
+      "id": "papermotion",
+      "title": "纸片角色叙事",
+      "styles": "纸片视差、角色骨骼、风雨、接触事件、相机跟随",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/papermotion/examples/light/main.ts",
+      "status": "选定文本源码；未运行，素材和依赖不完整；无本地原片",
+      "repository": "https://github.com/francozanardi/papermotion",
+      "commit": "aafddbe2dbc2b594bcd57c19c4a5a75c5c271be8",
+      "source": "D:/Codex/skills/vibe-video/assets/code-studies/papermotion/SOURCE.json"
+    },
+    {
+      "id": "songbie",
+      "title": "蜡笔绘本与音乐表演",
+      "styles": "钢琴、角色接棒、融化、情绪与身体共享状态",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/songbie/render.js",
+      "status": "选定文本源码；未运行，钢琴音轨不随包；无本地原片",
+      "repository": "https://github.com/JohnnyWang8802/songbie",
+      "commit": "97225eb54a351c9938ad896e04bef7a7020393fb",
+      "source": "D:/Codex/skills/vibe-video/assets/code-studies/songbie/SOURCE.json"
+    },
+    {
+      "id": "i-like-ur-look-lyric-video",
+      "title": "杂志排版歌词MV",
+      "styles": "曲面翻页、字体、景深、弱手持、阅读节奏",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/i-like-ur-look-lyric-video/app/src/engine/curl.ts",
+      "status": "选定文本源码；未运行；歌曲、字体、节拍数据不随包；无本地原片",
+      "repository": "https://github.com/20q2/i-like-ur-look-lyric-video",
+      "commit": "573a5c7ff19a4ac46fec145a060368e381d9ba50",
+      "source": "D:/Codex/skills/vibe-video/assets/code-studies/i-like-ur-look-lyric-video/SOURCE.json"
+    },
+    {
+      "id": "water-opus",
+      "title": "网格浅水模拟组件",
+      "styles": "地形、水流、水量预算、水面材质",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/water-opus/runs/claude-code-opus-5-5/src/sim/water.ts",
+      "status": "技术组件；未运行，不是完整影片，也不是阀内三维流体解算",
+      "repository": "https://github.com/AiondaDotCom/ai-sim-benchmark",
+      "commit": "680f87e6d54984199525dd12005bd95711bb47bb",
+      "source": "D:/Codex/skills/vibe-video/assets/code-studies/water-opus/SOURCE.json"
+    },
+    {
+      "id": "three-avbd",
+      "title": "WebGPU刚体组件",
+      "styles": "碰撞、关节、堆叠、断裂、GPU模拟",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/three-avbd/examples/basic.ts",
+      "status": "技术组件；未运行，需固定随机和离线模拟",
+      "repository": "https://github.com/sbobyn/three-avbd",
+      "commit": "9b9c27b6b65a1212896e4d90e7e3d154c06e428a",
+      "source": "D:/Codex/skills/vibe-video/assets/code-studies/three-avbd/SOURCE.json"
+    },
+    {
+      "id": "clearwater",
+      "title": "水面光学组件",
+      "styles": "折射、水底焦散、吸收、互动涟漪",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/clearwater/index.html",
+      "status": "技术组件；未运行，固定时间不自动重建涟漪历史",
+      "repository": "https://github.com/Aureliengmz/clearwater",
+      "commit": "4bc826134321043a25df3c2b6fed16fb7b9241e8",
+      "source": "D:/Codex/skills/vibe-video/assets/code-studies/clearwater/SOURCE.json"
+    }
+  ],
+  "mg": [
+    {
+      "id": "05-cel-boil",
+      "title": "逐帧手绘 / 抖线",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/05-cel-boil/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#05-cel-boil"
+    },
+    {
+      "id": "03-isometric",
+      "title": "等距2.5D",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/03-isometric/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#03-isometric"
+    },
+    {
+      "id": "01-flat-vector",
+      "title": "扁平矢量",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/01-flat-vector/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#01-flat-vector"
+    },
+    {
+      "id": "02-line-art",
+      "title": "线条艺术",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/02-line-art/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#02-line-art"
+    },
+    {
+      "id": "04-3d-render",
+      "title": "三维软质渲染",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/04-3d-render/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#04-3d-render"
+    },
+    {
+      "id": "08-morph",
+      "title": "形状变形",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/08-morph/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#08-morph"
+    },
+    {
+      "id": "19-paperclip",
+      "title": "贴纸式科普",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/19-paperclip/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#19-paperclip"
+    },
+    {
+      "id": "22-hud",
+      "title": "赛博HUD / FUI",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/22-hud/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#22-hud"
+    },
+    {
+      "id": "06-collage",
+      "title": "拼贴 / 剪纸",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/06-collage/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#06-collage"
+    },
+    {
+      "id": "12-aurora-glass",
+      "title": "极光 / 玻璃质感",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/12-aurora-glass/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#12-aurora-glass"
+    },
+    {
+      "id": "09-bauhaus",
+      "title": "包豪斯几何",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/09-bauhaus/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#09-bauhaus"
+    },
+    {
+      "id": "10-synthwave",
+      "title": "80年代合成波 / VHS",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/10-synthwave/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#10-synthwave"
+    },
+    {
+      "id": "20-pixel",
+      "title": "像素艺术",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/20-pixel/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#20-pixel"
+    },
+    {
+      "id": "07-liquid",
+      "title": "液态动效",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/07-liquid/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#07-liquid"
+    },
+    {
+      "id": "18-hanazi",
+      "title": "综艺花字 / 竖屏字幕",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/mg-styles-15/demos/18-hanazi/index.html",
+      "watch": "https://vincentwei1021.github.io/mg-styles-15/#18-hanazi"
+    }
+  ],
+  "lemo": [
+    {
+      "id": "crayon-book",
+      "title": "蜡笔绘本",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/crayon-book/STYLE.md"
+    },
+    {
+      "id": "watercolor",
+      "title": "水彩笔触",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/watercolor/STYLE.md"
+    },
+    {
+      "id": "ink-wash",
+      "title": "中国水墨",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/lemo-opuscar/styles/ink-wash/STYLE.md",
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ink-wash/STYLE.md"
+    },
+    {
+      "id": "impasto",
+      "title": "厚涂油画",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/impasto/STYLE.md"
+    },
+    {
+      "id": "one-line",
+      "title": "一笔画",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/one-line/STYLE.md"
+    },
+    {
+      "id": "whiteboard",
+      "title": "白板科普",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/whiteboard/STYLE.md"
+    },
+    {
+      "id": "urban-sketch",
+      "title": "城市钢笔淡彩",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/urban-sketch/STYLE.md"
+    },
+    {
+      "id": "shadow-puppet",
+      "title": "皮影戏",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/shadow-puppet/STYLE.md"
+    },
+    {
+      "id": "ukiyoe",
+      "title": "浮世绘",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ukiyoe/STYLE.md"
+    },
+    {
+      "id": "papercut-red",
+      "title": "红色剪纸",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/papercut-red/STYLE.md"
+    },
+    {
+      "id": "paper-lantern",
+      "title": "剪纸灯箱",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/paper-lantern/STYLE.md"
+    },
+    {
+      "id": "risograph",
+      "title": "孔版印刷",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/risograph/STYLE.md"
+    },
+    {
+      "id": "halftone-dossier",
+      "title": "网点档案",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/halftone-dossier/STYLE.md"
+    },
+    {
+      "id": "woodcut",
+      "title": "木刻版画",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/woodcut/STYLE.md"
+    },
+    {
+      "id": "engraving",
+      "title": "铜版雕刻",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/engraving/STYLE.md"
+    },
+    {
+      "id": "silkscreen-poster",
+      "title": "丝网旅行海报",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/silkscreen-poster/STYLE.md"
+    },
+    {
+      "id": "swiss-motion",
+      "title": "瑞士平面动效",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/swiss-motion/STYLE.md"
+    },
+    {
+      "id": "spy-titles",
+      "title": "60年代间谍片头",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/spy-titles/STYLE.md"
+    },
+    {
+      "id": "art-deco",
+      "title": "装饰艺术",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/lemo-opuscar/styles/art-deco/STYLE.md",
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/art-deco/STYLE.md"
+    },
+    {
+      "id": "blueprint",
+      "title": "工程蓝图",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/lemo-opuscar/styles/blueprint/STYLE.md",
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/blueprint/STYLE.md"
+    },
+    {
+      "id": "stained-glass",
+      "title": "彩色玻璃",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/stained-glass/STYLE.md"
+    },
+    {
+      "id": "pictogram-motion",
+      "title": "象形图标动效",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/pictogram-motion/STYLE.md"
+    },
+    {
+      "id": "ascii-crt",
+      "title": "ASCII / CRT终端",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ascii-crt/STYLE.md"
+    },
+    {
+      "id": "dataviz",
+      "title": "数据叙事",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/dataviz/STYLE.md"
+    },
+    {
+      "id": "iso-infographic",
+      "title": "等距信息图",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/iso-infographic/STYLE.md"
+    },
+    {
+      "id": "dark-keynote",
+      "title": "暗色科技发布会",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/dark-keynote/STYLE.md"
+    },
+    {
+      "id": "living-screencast",
+      "title": "动态录屏",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/living-screencast/STYLE.md"
+    },
+    {
+      "id": "hologram-hud",
+      "title": "科幻全息HUD",
+      "entry": "D:/Codex/skills/vibe-video/assets/code-studies/lemo-opuscar/styles/hologram-hud/STYLE.md",
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/hologram-hud/STYLE.md"
+    },
+    {
+      "id": "rubber-hose",
+      "title": "30年代橡皮管卡通",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/rubber-hose/STYLE.md"
+    },
+    {
+      "id": "cel-anime-80s",
+      "title": "80年代赛璐珞动画",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/cel-anime-80s/STYLE.md"
+    },
+    {
+      "id": "scifi-toon",
+      "title": "科幻情景喜剧卡通",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/scifi-toon/STYLE.md"
+    },
+    {
+      "id": "midcentury-toon",
+      "title": "世纪中期卡通",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/midcentury-toon/STYLE.md"
+    },
+    {
+      "id": "pixel-rpg",
+      "title": "16位像素RPG",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/pixel-rpg/STYLE.md"
+    },
+    {
+      "id": "hd-2d",
+      "title": "HD-2D",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/hd-2d/STYLE.md"
+    },
+    {
+      "id": "microgame",
+      "title": "微游戏合集",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/microgame/STYLE.md"
+    },
+    {
+      "id": "game-show",
+      "title": "平面游戏节目",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/game-show/STYLE.md"
+    },
+    {
+      "id": "silent-film",
+      "title": "20年代默片",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/silent-film/STYLE.md"
+    },
+    {
+      "id": "backrooms",
+      "title": "阈限空间 / 拾得影像",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/backrooms/STYLE.md"
+    },
+    {
+      "id": "brick-toy",
+      "title": "积木玩具",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/brick-toy/STYLE.md"
+    },
+    {
+      "id": "paper-popup",
+      "title": "纸艺立体书",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/paper-popup/STYLE.md"
+    },
+    {
+      "id": "tilt-shift",
+      "title": "移轴微缩",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/tilt-shift/STYLE.md"
+    },
+    {
+      "id": "lowpoly-island",
+      "title": "低多边形等距岛屿",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/lowpoly-island/STYLE.md"
+    },
+    {
+      "id": "glass-product",
+      "title": "玻璃产品渲染",
+      "entry": null,
+      "watch": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "guide": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/glass-product/STYLE.md"
+    }
+  ],
+  "legacy": [
+    [
+      "PDoom / AGI概念MV",
+      "线场、逐词卡拉OK、音乐节拍、后处理、三维空间",
+      "D:\\ai项目\\ai动画\\VibeVideo项目/reference-sources/pdoom-source-review/app/src/timeline.ts",
+      "有本地B站重渲转载，版本与当前代码有差异"
+    ],
+    [
+      "OpenMontage / Remotion",
+      "钩子、流程图、工具演示、动效时间轴",
+      "D:\\ai项目\\ai动画\\VibeVideo项目/work/director-study-20261008/source-snapshots/Liamrjohnston/docs/prompt-threads.md",
+      "有3个上游MP4和方法资料；不承诺三个示例的完整绘制源码均已保存"
+    ],
+    [
+      "Lugia / 配对估计科普",
+      "漫画式解释、关系建立、代码分镜",
+      "D:\\ai项目\\ai动画\\VibeVideo项目/work/director-study-20261008/source-snapshots/Lugia123/episodes/ep03-paired-estimate/index.html",
+      "有选定分镜源码与本地重渲片段；不是完整原片"
+    ],
+    [
+      "huashu-art-motion",
+      "分层绘制、导演经验、代码与图像素材协作",
+      "D:\\ai项目\\ai动画\\VibeVideo项目/work/director-study-20261008/source-snapshots/alchaincyf/repo.json",
+      "保存来源和选定研究资料；不是已验证影片模板"
+    ]
+  ],
+  "methods": [
+    {
+      "id": "ui-identity",
+      "title": "单对象贯穿多种UI"
+    },
+    {
+      "id": "outline-morph",
+      "title": "轮廓、孔洞与附属笔画分别形变"
+    },
+    {
+      "id": "portal-scale",
+      "title": "从选中局部进入下一层世界"
+    },
+    {
+      "id": "select-transition",
+      "title": "选择动作成为镜头连接"
+    },
+    {
+      "id": "type-window",
+      "title": "文字作为运动材质窗口"
+    },
+    {
+      "id": "type-architecture",
+      "title": "文字搭建场景并兑现句意"
+    },
+    {
+      "id": "semantic-finale",
+      "title": "同一材料在结尾变为标志"
+    },
+    {
+      "id": "data-state",
+      "title": "让数值、图形和标签共享状态"
+    },
+    {
+      "id": "mechanical-section",
+      "title": "先建立器件，再剖开关键接触"
+    },
+    {
+      "id": "world-light",
+      "title": "共享世界光照塑造层次"
+    },
+    {
+      "id": "telephoto",
+      "title": "远机位与窄视角压缩空间"
+    },
+    {
+      "id": "low-travel",
+      "title": "低位穿行，用遮挡证明纵深"
+    },
+    {
+      "id": "reveal-path",
+      "title": "位置与目标双轨迹揭示主体"
+    },
+    {
+      "id": "hold-cause",
+      "title": "在因果点保持相机稳定"
+    },
+    {
+      "id": "point-volume",
+      "title": "点云有实体深度与遮挡"
+    },
+    {
+      "id": "point-correspondence",
+      "title": "点身份持续，形态才能接续"
+    },
+    {
+      "id": "procedural-surface",
+      "title": "场的结构形成材质与地形"
+    },
+    {
+      "id": "glass-sdf",
+      "title": "玻璃轮廓、折射和内容分层"
+    },
+    {
+      "id": "liquid-union",
+      "title": "液体用连续场融合并继承颜色"
+    },
+    {
+      "id": "hand-ink",
+      "title": "手绘感来自笔压与稳定线条变化"
+    },
+    {
+      "id": "pixel-palette",
+      "title": "像素风用语义色板表达时间"
+    },
+    {
+      "id": "paper-acting",
+      "title": "角色意图驱动骨骼与跟随动作"
+    },
+    {
+      "id": "event-story",
+      "title": "接触事件同时推进剧情与声音"
+    },
+    {
+      "id": "water-cause",
+      "title": "地形、水量和材质形成因果"
+    },
+    {
+      "id": "rigid-contact",
+      "title": "受力、关节与断裂提供动作因果"
+    },
+    {
+      "id": "sample-quality",
+      "title": "采样服务轮廓、阴影与高速动作"
+    },
+    {
+      "id": "performance-handoff",
+      "title": "用同一乐谱完成角色表演接棒"
+    },
+    {
+      "id": "emotion-shared-state",
+      "title": "一个变化状态同时改变身体与表演"
+    },
+    {
+      "id": "chase-silence-catch",
+      "title": "追逐加速之后用静音突出接触"
+    },
+    {
+      "id": "blueprint-part-states",
+      "title": "零件身份贯穿绘制、爆炸与剖切"
+    },
+    {
+      "id": "world-anchor-callout",
+      "title": "相机、零件和产品标注共享世界锚点"
+    },
+    {
+      "id": "ink-material-layers",
+      "title": "笔压、墨量和干湿分层形成水墨"
+    },
+    {
+      "id": "reading-constrained-lens",
+      "title": "阅读区域约束景深与手持摄影"
+    },
+    {
+      "id": "curved-page-handoff",
+      "title": "曲面纸页与相机错时落定"
+    },
+    {
+      "id": "refracted-caustic-grid",
+      "title": "折射网格面积生成水底焦散"
+    },
+    {
+      "id": "subject-intent",
+      "title": "主体判断、减速和预备转向"
+    },
+    {
+      "id": "load-regulated-valve",
+      "title": "预载、压差与受限机械行程"
+    }
+  ],
+  "media": [
+    {
+      "title": "AGI概念MV / 用户此前选定参考",
+      "kind": "外部原片",
+      "note": "线场、三维空间、逐词字幕、音乐同步；B站参数重渲转载，与当前PDoom源码不是同一版本",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/pdoom-source-review/app/src/timeline.ts",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/bilibili-media/BV18ta86EEHb/reference.mp4",
+      "relative": "reference-sources/bilibili-media/BV18ta86EEHb/reference.mp4",
+      "bytes": 19922989,
+      "url": "../../reference-sources/bilibili-media/BV18ta86EEHb/reference.mp4"
+    },
+    {
+      "title": "Opus5.5告诉你，它是怎么做视频的",
+      "kind": "外部原片",
+      "note": "代码动画制作过程与画面转换；未取得对应原工程",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/bilibili-media/BV1vRHa63EYg/reference.mp4",
+      "relative": "reference-sources/bilibili-media/BV1vRHa63EYg/reference.mp4",
+      "bytes": 7212177,
+      "url": "../../reference-sources/bilibili-media/BV1vRHa63EYg/reference.mp4"
+    },
+    {
+      "title": "TwoClipping / UI连续变形",
+      "kind": "外部原片",
+      "note": "按钮、播放器、滑杆、图表等UI状态交接；原工程未取得",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/opus-gallery-study-20261009/twoclipping-original.mp4",
+      "relative": "work/opus-gallery-study-20261009/twoclipping-original.mp4",
+      "bytes": 811394,
+      "url": "../opus-gallery-study-20261009/twoclipping-original.mp4"
+    },
+    {
+      "title": "Koldo2k / 复古拼贴无限缩放",
+      "kind": "外部原片",
+      "note": "摄影景观、报纸剪贴、物件门户；公开提示词含生图与Kling动画，不能当纯代码证明",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/opus-gallery-study-20261009/koldo2k-original.mp4",
+      "relative": "work/opus-gallery-study-20261009/koldo2k-original.mp4",
+      "bytes": 4872941,
+      "url": "../opus-gallery-study-20261009/koldo2k-original.mp4"
+    },
+    {
+      "title": "Ror_Fly / 鸡尾酒配方动效",
+      "kind": "外部原片",
+      "note": "从空杯到成品的原料加入、剂量和步骤；原工程未取得",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/opus-gallery-study-20261009/ror-fly-original.mp4",
+      "relative": "work/opus-gallery-study-20261009/ror-fly-original.mp4",
+      "bytes": 2278766,
+      "url": "../opus-gallery-study-20261009/ror-fly-original.mp4"
+    },
+    {
+      "title": "OpenMontage / Hook",
+      "kind": "外部原片",
+      "note": "Remotion开场钩子、文字与流程图动效",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/director-study-20261008/source-snapshots/Liamrjohnston/docs/prompt-threads.md",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/director-study-20261008/source-snapshots/Liamrjohnston/examples/openmontage-hook.mp4",
+      "relative": "work/director-study-20261008/source-snapshots/Liamrjohnston/examples/openmontage-hook.mp4",
+      "bytes": 1456625,
+      "url": "../director-study-20261008/source-snapshots/Liamrjohnston/examples/openmontage-hook.mp4"
+    },
+    {
+      "title": "OpenMontage / Tool Chaos",
+      "kind": "外部原片",
+      "note": "工具堆叠、信息组织、节奏化演示",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/director-study-20261008/source-snapshots/Liamrjohnston/docs/prompt-threads.md",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/director-study-20261008/source-snapshots/Liamrjohnston/examples/openmontage-tool-chaos.mp4",
+      "relative": "work/director-study-20261008/source-snapshots/Liamrjohnston/examples/openmontage-tool-chaos.mp4",
+      "bytes": 1252529,
+      "url": "../director-study-20261008/source-snapshots/Liamrjohnston/examples/openmontage-tool-chaos.mp4"
+    },
+    {
+      "title": "OpenMontage / Claude Pipeline",
+      "kind": "外部原片",
+      "note": "流程叙事、节点连接、产品讲解",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/director-study-20261008/source-snapshots/Liamrjohnston/docs/prompt-threads.md",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/director-study-20261008/source-snapshots/Liamrjohnston/examples/openmontage-claude-pipeline.mp4",
+      "relative": "work/director-study-20261008/source-snapshots/Liamrjohnston/examples/openmontage-claude-pipeline.mp4",
+      "bytes": 2797858,
+      "url": "../director-study-20261008/source-snapshots/Liamrjohnston/examples/openmontage-claude-pipeline.mp4"
+    },
+    {
+      "title": "TwoClipping / Skillry重制版",
+      "kind": "外部重制",
+      "note": "与原片分开登记；重制技术标签不能证明原片实现",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/opus-gallery-study-20261009/twoclipping-remake.mp4",
+      "relative": "work/opus-gallery-study-20261009/twoclipping-remake.mp4",
+      "bytes": 331738,
+      "url": "../opus-gallery-study-20261009/twoclipping-remake.mp4"
+    },
+    {
+      "title": "飞行器 / 主体意图与跟拍",
+      "kind": "项目样片",
+      "note": "三维场景、转弯、相机跟随；静音，等待用户反馈",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/creative-upgrade-20261010/flight/film.js",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/creative-upgrade-20261010/flight/out-final/flight-director.mp4",
+      "relative": "work/creative-upgrade-20261010/flight/out-final/flight-director.mp4",
+      "bytes": 2363317,
+      "url": "../creative-upgrade-20261010/flight/out-final/flight-director.mp4"
+    },
+    {
+      "title": "止回阀 / 受限机械行程",
+      "kind": "项目样片",
+      "note": "工程剖面、弹簧、压差与行程；静音，等待用户反馈",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/creative-upgrade-20261010/valve/film.js",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/creative-upgrade-20261010/valve/out-final/valve-director.mp4",
+      "relative": "work/creative-upgrade-20261010/valve/out-final/valve-director.mp4",
+      "bytes": 1742422,
+      "url": "../creative-upgrade-20261010/valve/out-final/valve-director.mp4"
+    },
+    {
+      "title": "主体跟拍 / 竖屏研究",
+      "kind": "项目样片",
+      "note": "主体世界路径、前景视差、相机相对偏移",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/camera-upgrade-20261010/demo/film.js",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/camera-upgrade-20261010/out-r2/subject-follow-portrait.mp4",
+      "relative": "work/camera-upgrade-20261010/out-r2/subject-follow-portrait.mp4",
+      "bytes": 2584281,
+      "url": "../camera-upgrade-20261010/out-r2/subject-follow-portrait.mp4"
+    },
+    {
+      "title": "工程蓝图 / 10秒能力片段",
+      "kind": "项目样片",
+      "note": "外壳分离、剖切、零件与标注联动",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/film.mjs",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-approved/blueprint-proof/blueprint-proof.mp4",
+      "relative": "work/style-production-20261009/studio/out-approved/blueprint-proof/blueprint-proof.mp4",
+      "bytes": 1827258,
+      "url": "../style-production-20261009/studio/out-approved/blueprint-proof/blueprint-proof.mp4"
+    },
+    {
+      "title": "数据叙事 / 10秒能力片段",
+      "kind": "项目样片",
+      "note": "同一组点从折线到零基线柱形",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/film.mjs",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-approved/dataviz-proof/dataviz-proof.mp4",
+      "relative": "work/style-production-20261009/studio/out-approved/dataviz-proof/dataviz-proof.mp4",
+      "bytes": 222820,
+      "url": "../style-production-20261009/studio/out-approved/dataviz-proof/dataviz-proof.mp4"
+    },
+    {
+      "title": "只向一个方向 / 竖屏蓝图",
+      "kind": "项目样片",
+      "note": "机械因果、剖面、事件拟音",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/portrait-valve-20261009/film.js",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/portrait-valve-20261009/out-final/one-way-portrait.mp4",
+      "relative": "work/portrait-valve-20261009/out-final/one-way-portrait.mp4",
+      "bytes": 1473580,
+      "url": "../portrait-valve-20261009/out-final/one-way-portrait.mp4"
+    },
+    {
+      "title": "淡墨远征 / 拿破仑在埃及",
+      "kind": "项目样片",
+      "note": "水墨叙事；生成的图像组件 + Canvas / WebGL显影与运镜，属于混合素材",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/napoleon-egypt-ink-20261009/film.js",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/napoleon-egypt-ink-20261009/out/napoleon-egypt-ink.mp4",
+      "relative": "work/napoleon-egypt-ink-20261009/out/napoleon-egypt-ink.mp4",
+      "bytes": 22707435,
+      "url": "../napoleon-egypt-ink-20261009/out/napoleon-egypt-ink.mp4"
+    },
+    {
+      "title": "5厘米的噩梦 / 诙谐科普",
+      "kind": "项目样片",
+      "note": "纯Canvas绘制、大小反差、事件拟音",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/whale-20261009/film.js",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/whale-20261009/out/final/whale.mp4",
+      "relative": "work/whale-20261009/out/final/whale.mp4",
+      "bytes": 6534617,
+      "url": "../whale-20261009/out/final/whale.mp4"
+    },
+    {
+      "title": "熵增 / 统计科普",
+      "kind": "项目样片",
+      "note": "Canvas、组合枚举、粒子与统计、中文旁白；历史横版",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/entropy-20261009/film.mjs",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/entropy-20261009/out/entropy-r3/entropy.mp4",
+      "relative": "work/entropy-20261009/out/entropy-r3/entropy.mp4",
+      "bytes": 5242762,
+      "url": "../entropy-20261009/out/entropy-r3/entropy.mp4"
+    },
+    {
+      "title": "光庭 / 空间光学电影",
+      "kind": "项目样片",
+      "note": "Three.js、程序化器件、光束、低位穿行、升高揭示",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/cinematic-assimilation-20261009/demo/film.js",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/cinematic-assimilation-20261009/demo/out-durable/lumen-sound.mp4",
+      "relative": "work/cinematic-assimilation-20261009/demo/out-durable/lumen-sound.mp4",
+      "bytes": 12001207,
+      "url": "../cinematic-assimilation-20261009/demo/out-durable/lumen-sound.mp4"
+    },
+    {
+      "title": "SDF玻璃 / 局部实验",
+      "kind": "项目样片",
+      "note": "WebGL2单界面折射近似；不代表完整物理折射或焦散",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/cinematic-assimilation-20261009/sdf-lab/index.html",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/cinematic-assimilation-20261009/sdf-lab/out/sdf-glass-window.mp4",
+      "relative": "work/cinematic-assimilation-20261009/sdf-lab/out/sdf-glass-window.mp4",
+      "bytes": 172823,
+      "url": "../cinematic-assimilation-20261009/sdf-lab/out/sdf-glass-window.mp4"
+    },
+    {
+      "title": "一条线 / UI连续性实验",
+      "kind": "项目样片",
+      "note": "解析弹簧、点对应、滑杆到曲线到勾号",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/opus-gallery-study-20261009/demo/index.html",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/opus-gallery-study-20261009/demo/out/continuity-study.mp4",
+      "relative": "work/opus-gallery-study-20261009/demo/out/continuity-study.mp4",
+      "bytes": 243405,
+      "url": "../opus-gallery-study-20261009/demo/out/continuity-study.mp4"
+    },
+    {
+      "title": "蓝色的建筑 / 机制小样",
+      "kind": "项目样片",
+      "note": "结构色、显微机制；只交付过27秒小样，52秒最终版未交付",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/morpho-blue-20261008/film.mjs",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/morpho-blue-20261008/out/mechanism-study.mp4",
+      "relative": "work/morpho-blue-20261008/out/mechanism-study.mp4",
+      "bytes": 6560353,
+      "url": "../morpho-blue-20261008/out/mechanism-study.mp4"
+    },
+    {
+      "title": "绕过黑暗 / 黑洞透镜",
+      "kind": "项目样片",
+      "note": "光路、黑洞、科学机制与空间示意；历史横版",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/black-hole-lensing-20261008/film.mjs",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/black-hole-lensing-20261008/out/around-the-dark.mp4",
+      "relative": "work/black-hole-lensing-20261008/out/around-the-dark.mp4",
+      "bytes": 28255324,
+      "url": "../black-hole-lensing-20261008/out/around-the-dark.mp4"
+    },
+    {
+      "title": "冰下，宇宙亮了 / 历史样片",
+      "kind": "项目样片",
+      "note": "实景照片 + 艺术化三维示意；用户已否定此版，只作历史记录",
+      "entry": "D:/ai项目/ai动画/VibeVideo项目/work/hot-news-20261009/film.js",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/hot-news-20261009/out-final/icecube-news-portrait.mp4",
+      "relative": "work/hot-news-20261009/out-final/icecube-news-portrait.mp4",
+      "bytes": 13213185,
+      "url": "../hot-news-20261009/out-final/icecube-news-portrait.mp4"
+    },
+    {
+      "title": "key-action-study-v2.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/black-hole-lensing-20261008/out/key-action-study-v2.mp4",
+      "relative": "work/black-hole-lensing-20261008/out/key-action-study-v2.mp4",
+      "bytes": 6089368,
+      "url": "../black-hole-lensing-20261008/out/key-action-study-v2.mp4"
+    },
+    {
+      "title": "key-action-study.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/black-hole-lensing-20261008/out/key-action-study.mp4",
+      "relative": "work/black-hole-lensing-20261008/out/key-action-study.mp4",
+      "bytes": 6127537,
+      "url": "../black-hole-lensing-20261008/out/key-action-study.mp4"
+    },
+    {
+      "title": "subject-follow-portrait.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/camera-upgrade-20261010/out/subject-follow-portrait.mp4",
+      "relative": "work/camera-upgrade-20261010/out/subject-follow-portrait.mp4",
+      "bytes": 2603296,
+      "url": "../camera-upgrade-20261010/out/subject-follow-portrait.mp4"
+    },
+    {
+      "title": "lumen.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/cinematic-assimilation-20261009/demo/out-durable/lumen.mp4",
+      "relative": "work/cinematic-assimilation-20261009/demo/out-durable/lumen.mp4",
+      "bytes": 11667511,
+      "url": "../cinematic-assimilation-20261009/demo/out-durable/lumen.mp4"
+    },
+    {
+      "title": "lumen.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/cinematic-assimilation-20261009/demo/out-final/lumen.mp4",
+      "relative": "work/cinematic-assimilation-20261009/demo/out-final/lumen.mp4",
+      "bytes": 2097200,
+      "url": "../cinematic-assimilation-20261009/demo/out-final/lumen.mp4"
+    },
+    {
+      "title": "flight-preview.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/creative-upgrade-20261010/flight/out-preview-r1/flight-preview.mp4",
+      "relative": "work/creative-upgrade-20261010/flight/out-preview-r1/flight-preview.mp4",
+      "bytes": 733875,
+      "url": "../creative-upgrade-20261010/flight/out-preview-r1/flight-preview.mp4"
+    },
+    {
+      "title": "flight-preview.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/creative-upgrade-20261010/flight/out-preview/flight-preview.mp4",
+      "relative": "work/creative-upgrade-20261010/flight/out-preview/flight-preview.mp4",
+      "bytes": 734538,
+      "url": "../creative-upgrade-20261010/flight/out-preview/flight-preview.mp4"
+    },
+    {
+      "title": "fixture.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/creative-upgrade-20261010/forward-test/fixture.mp4",
+      "relative": "work/creative-upgrade-20261010/forward-test/fixture.mp4",
+      "bytes": 79476,
+      "url": "../creative-upgrade-20261010/forward-test/fixture.mp4"
+    },
+    {
+      "title": "cache.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/creative-upgrade-20261010/other-regression/cache-fixture/out-cache/cache.mp4",
+      "relative": "work/creative-upgrade-20261010/other-regression/cache-fixture/out-cache/cache.mp4",
+      "bytes": 2427,
+      "url": "../creative-upgrade-20261010/other-regression/cache-fixture/out-cache/cache.mp4"
+    },
+    {
+      "title": "valve-preview.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/creative-upgrade-20261010/valve/out-preview-r2/valve-preview.mp4",
+      "relative": "work/creative-upgrade-20261010/valve/out-preview-r2/valve-preview.mp4",
+      "bytes": 647599,
+      "url": "../creative-upgrade-20261010/valve/out-preview-r2/valve-preview.mp4"
+    },
+    {
+      "title": "normalized-fragment.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/director-study-20261008/reference-review/lugia-p4-fragment/normalized-fragment.mp4",
+      "relative": "work/director-study-20261008/reference-review/lugia-p4-fragment/normalized-fragment.mp4",
+      "bytes": 678282,
+      "url": "../director-study-20261008/reference-review/lugia-p4-fragment/normalized-fragment.mp4"
+    },
+    {
+      "title": "entropy-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/entropy-20261009/out/entropy-r2/entropy-silent.mp4",
+      "relative": "work/entropy-20261009/out/entropy-r2/entropy-silent.mp4",
+      "bytes": 3625771,
+      "url": "../entropy-20261009/out/entropy-r2/entropy-silent.mp4"
+    },
+    {
+      "title": "entropy.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/entropy-20261009/out/entropy-r2/entropy.mp4",
+      "relative": "work/entropy-20261009/out/entropy-r2/entropy.mp4",
+      "bytes": 5187914,
+      "url": "../entropy-20261009/out/entropy-r2/entropy.mp4"
+    },
+    {
+      "title": "entropy-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/entropy-20261009/out/entropy-r3/entropy-silent.mp4",
+      "relative": "work/entropy-20261009/out/entropy-r3/entropy-silent.mp4",
+      "bytes": 3680619,
+      "url": "../entropy-20261009/out/entropy-r3/entropy-silent.mp4"
+    },
+    {
+      "title": "entropy-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/entropy-20261009/out/entropy/entropy-silent.mp4",
+      "relative": "work/entropy-20261009/out/entropy/entropy-silent.mp4",
+      "bytes": 3610032,
+      "url": "../entropy-20261009/out/entropy/entropy-silent.mp4"
+    },
+    {
+      "title": "members-5s-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/entropy-20261009/out/members-5s-r2/members-5s-silent.mp4",
+      "relative": "work/entropy-20261009/out/members-5s-r2/members-5s-silent.mp4",
+      "bytes": 357574,
+      "url": "../entropy-20261009/out/members-5s-r2/members-5s-silent.mp4"
+    },
+    {
+      "title": "members-5s-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/entropy-20261009/out/members-5s/members-5s-silent.mp4",
+      "relative": "work/entropy-20261009/out/members-5s/members-5s-silent.mp4",
+      "bytes": 362630,
+      "url": "../entropy-20261009/out/members-5s/members-5s-silent.mp4"
+    },
+    {
+      "title": "icecube-news-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/hot-news-20261009/out-final/icecube-news-silent.mp4",
+      "relative": "work/hot-news-20261009/out-final/icecube-news-silent.mp4",
+      "bytes": 12833548,
+      "url": "../hot-news-20261009/out-final/icecube-news-silent.mp4"
+    },
+    {
+      "title": "apparent-position-study.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/light-to-lens-20261008/out/apparent-position-study.mp4",
+      "relative": "work/light-to-lens-20261008/out/apparent-position-study.mp4",
+      "bytes": 770917,
+      "url": "../light-to-lens-20261008/out/apparent-position-study.mp4"
+    },
+    {
+      "title": "from-line-to-black-hole.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/light-to-lens-20261008/out/from-line-to-black-hole.mp4",
+      "relative": "work/light-to-lens-20261008/out/from-line-to-black-hole.mp4",
+      "bytes": 40331945,
+      "url": "../light-to-lens-20261008/out/from-line-to-black-hole.mp4"
+    },
+    {
+      "title": "picture.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/napoleon-egypt-ink-20261009/out/final-render/picture.mp4",
+      "relative": "work/napoleon-egypt-ink-20261009/out/final-render/picture.mp4",
+      "bytes": 21238701,
+      "url": "../napoleon-egypt-ink-20261009/out/final-render/picture.mp4"
+    },
+    {
+      "title": "one-way-portrait-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/portrait-valve-20261009/out-final/one-way-portrait-silent.mp4",
+      "relative": "work/portrait-valve-20261009/out-final/one-way-portrait-silent.mp4",
+      "bytes": 1286313,
+      "url": "../portrait-valve-20261009/out-final/one-way-portrait-silent.mp4"
+    },
+    {
+      "title": "pdoom-native-loss-study.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/reference-study-20261008/pdoom-native-loss-study.mp4",
+      "relative": "work/reference-study-20261008/pdoom-native-loss-study.mp4",
+      "bytes": 13261186,
+      "url": "../reference-study-20261008/pdoom-native-loss-study.mp4"
+    },
+    {
+      "title": "optical-study.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/skill-refinement-20261007/out/optical-study.mp4",
+      "relative": "work/skill-refinement-20261007/out/optical-study.mp4",
+      "bytes": 12740745,
+      "url": "../skill-refinement-20261007/out/optical-study.mp4"
+    },
+    {
+      "title": "one-way-15-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-15sec/one-way-15/one-way-15-silent.mp4",
+      "relative": "work/style-production-20261009/studio/out-15sec/one-way-15/one-way-15-silent.mp4",
+      "bytes": 1957863,
+      "url": "../style-production-20261009/studio/out-15sec/one-way-15/one-way-15-silent.mp4"
+    },
+    {
+      "title": "one-way-15.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-15sec/one-way-15/one-way-15.mp4",
+      "relative": "work/style-production-20261009/studio/out-15sec/one-way-15/one-way-15.mp4",
+      "bytes": 2145130,
+      "url": "../style-production-20261009/studio/out-15sec/one-way-15/one-way-15.mp4"
+    },
+    {
+      "title": "blueprint-proof-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-approved/blueprint-proof/blueprint-proof-silent.mp4",
+      "relative": "work/style-production-20261009/studio/out-approved/blueprint-proof/blueprint-proof-silent.mp4",
+      "bytes": 1676148,
+      "url": "../style-production-20261009/studio/out-approved/blueprint-proof/blueprint-proof-silent.mp4"
+    },
+    {
+      "title": "dataviz-proof-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-approved/dataviz-proof/dataviz-proof-silent.mp4",
+      "relative": "work/style-production-20261009/studio/out-approved/dataviz-proof/dataviz-proof-silent.mp4",
+      "bytes": 103372,
+      "url": "../style-production-20261009/studio/out-approved/dataviz-proof/dataviz-proof-silent.mp4"
+    },
+    {
+      "title": "dataviz-variant-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-approved/dataviz-variant/dataviz-variant-silent.mp4",
+      "relative": "work/style-production-20261009/studio/out-approved/dataviz-variant/dataviz-variant-silent.mp4",
+      "bytes": 111052,
+      "url": "../style-production-20261009/studio/out-approved/dataviz-variant/dataviz-variant-silent.mp4"
+    },
+    {
+      "title": "dataviz-variant.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-approved/dataviz-variant/dataviz-variant.mp4",
+      "relative": "work/style-production-20261009/studio/out-approved/dataviz-variant/dataviz-variant.mp4",
+      "bytes": 230500,
+      "url": "../style-production-20261009/studio/out-approved/dataviz-variant/dataviz-variant.mp4"
+    },
+    {
+      "title": "one-way-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-approved/one-way/one-way-silent.mp4",
+      "relative": "work/style-production-20261009/studio/out-approved/one-way/one-way-silent.mp4",
+      "bytes": 3170921,
+      "url": "../style-production-20261009/studio/out-approved/one-way/one-way-silent.mp4"
+    },
+    {
+      "title": "one-way.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-approved/one-way/one-way.mp4",
+      "relative": "work/style-production-20261009/studio/out-approved/one-way/one-way.mp4",
+      "bytes": 3487329,
+      "url": "../style-production-20261009/studio/out-approved/one-way/one-way.mp4"
+    },
+    {
+      "title": "blueprint-proof-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-final/blueprint-proof/blueprint-proof-silent.mp4",
+      "relative": "work/style-production-20261009/studio/out-final/blueprint-proof/blueprint-proof-silent.mp4",
+      "bytes": 1662879,
+      "url": "../style-production-20261009/studio/out-final/blueprint-proof/blueprint-proof-silent.mp4"
+    },
+    {
+      "title": "blueprint-proof.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-final/blueprint-proof/blueprint-proof.mp4",
+      "relative": "work/style-production-20261009/studio/out-final/blueprint-proof/blueprint-proof.mp4",
+      "bytes": 1814902,
+      "url": "../style-production-20261009/studio/out-final/blueprint-proof/blueprint-proof.mp4"
+    },
+    {
+      "title": "dataviz-proof-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-final/dataviz-proof/dataviz-proof-silent.mp4",
+      "relative": "work/style-production-20261009/studio/out-final/dataviz-proof/dataviz-proof-silent.mp4",
+      "bytes": 103372,
+      "url": "../style-production-20261009/studio/out-final/dataviz-proof/dataviz-proof-silent.mp4"
+    },
+    {
+      "title": "dataviz-proof.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-final/dataviz-proof/dataviz-proof.mp4",
+      "relative": "work/style-production-20261009/studio/out-final/dataviz-proof/dataviz-proof.mp4",
+      "bytes": 222820,
+      "url": "../style-production-20261009/studio/out-final/dataviz-proof/dataviz-proof.mp4"
+    },
+    {
+      "title": "dataviz-variant-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-final/dataviz-variant/dataviz-variant-silent.mp4",
+      "relative": "work/style-production-20261009/studio/out-final/dataviz-variant/dataviz-variant-silent.mp4",
+      "bytes": 111052,
+      "url": "../style-production-20261009/studio/out-final/dataviz-variant/dataviz-variant-silent.mp4"
+    },
+    {
+      "title": "one-way-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-final/one-way/one-way-silent.mp4",
+      "relative": "work/style-production-20261009/studio/out-final/one-way/one-way-silent.mp4",
+      "bytes": 3156289,
+      "url": "../style-production-20261009/studio/out-final/one-way/one-way-silent.mp4"
+    },
+    {
+      "title": "one-way.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-final/one-way/one-way.mp4",
+      "relative": "work/style-production-20261009/studio/out-final/one-way/one-way.mp4",
+      "bytes": 3480858,
+      "url": "../style-production-20261009/studio/out-final/one-way/one-way.mp4"
+    },
+    {
+      "title": "blueprint-proof-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-release/blueprint-proof/blueprint-proof-silent.mp4",
+      "relative": "work/style-production-20261009/studio/out-release/blueprint-proof/blueprint-proof-silent.mp4",
+      "bytes": 1672371,
+      "url": "../style-production-20261009/studio/out-release/blueprint-proof/blueprint-proof-silent.mp4"
+    },
+    {
+      "title": "blueprint-proof.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-release/blueprint-proof/blueprint-proof.mp4",
+      "relative": "work/style-production-20261009/studio/out-release/blueprint-proof/blueprint-proof.mp4",
+      "bytes": 1823481,
+      "url": "../style-production-20261009/studio/out-release/blueprint-proof/blueprint-proof.mp4"
+    },
+    {
+      "title": "dataviz-proof-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-release/dataviz-proof/dataviz-proof-silent.mp4",
+      "relative": "work/style-production-20261009/studio/out-release/dataviz-proof/dataviz-proof-silent.mp4",
+      "bytes": 103372,
+      "url": "../style-production-20261009/studio/out-release/dataviz-proof/dataviz-proof-silent.mp4"
+    },
+    {
+      "title": "dataviz-proof.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-release/dataviz-proof/dataviz-proof.mp4",
+      "relative": "work/style-production-20261009/studio/out-release/dataviz-proof/dataviz-proof.mp4",
+      "bytes": 222820,
+      "url": "../style-production-20261009/studio/out-release/dataviz-proof/dataviz-proof.mp4"
+    },
+    {
+      "title": "dataviz-variant-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-release/dataviz-variant/dataviz-variant-silent.mp4",
+      "relative": "work/style-production-20261009/studio/out-release/dataviz-variant/dataviz-variant-silent.mp4",
+      "bytes": 111052,
+      "url": "../style-production-20261009/studio/out-release/dataviz-variant/dataviz-variant-silent.mp4"
+    },
+    {
+      "title": "dataviz-variant.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-release/dataviz-variant/dataviz-variant.mp4",
+      "relative": "work/style-production-20261009/studio/out-release/dataviz-variant/dataviz-variant.mp4",
+      "bytes": 230500,
+      "url": "../style-production-20261009/studio/out-release/dataviz-variant/dataviz-variant.mp4"
+    },
+    {
+      "title": "one-way-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-release/one-way/one-way-silent.mp4",
+      "relative": "work/style-production-20261009/studio/out-release/one-way/one-way-silent.mp4",
+      "bytes": 3170134,
+      "url": "../style-production-20261009/studio/out-release/one-way/one-way-silent.mp4"
+    },
+    {
+      "title": "one-way.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/style-production-20261009/studio/out-release/one-way/one-way.mp4",
+      "relative": "work/style-production-20261009/studio/out-release/one-way/one-way.mp4",
+      "bytes": 3486542,
+      "url": "../style-production-20261009/studio/out-release/one-way/one-way.mp4"
+    },
+    {
+      "title": "code-motion-study.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/vibe-video-proof/out/code-motion-study.mp4",
+      "relative": "work/vibe-video-proof/out/code-motion-study.mp4",
+      "bytes": 6489490,
+      "url": "../vibe-video-proof/out/code-motion-study.mp4"
+    },
+    {
+      "title": "whale-silent.mp4",
+      "kind": "历史 / 预演 / 验证",
+      "note": "保留文件；依据路径查看版本与用途",
+      "entry": null,
+      "path": "D:/ai项目/ai动画/VibeVideo项目/work/whale-20261009/out/final/whale-silent.mp4",
+      "relative": "work/whale-20261009/out/final/whale-silent.mp4",
+      "bytes": 6227085,
+      "url": "../whale-20261009/out/final/whale-silent.mp4"
+    }
+  ]
+}

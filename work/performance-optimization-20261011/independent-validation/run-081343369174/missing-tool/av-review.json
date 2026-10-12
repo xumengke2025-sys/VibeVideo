@@ -1,0 +1,71 @@
+{
+  "video_path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\run-081343369174\\fixture.mp4",
+  "video_sha256": "070b471e86b352c8afaec87e9b445c1c7b84c5d1bc45540aa0b426a442835014",
+  "reviewer": {
+    "id": "batch-report-merge",
+    "mode": "report_aggregation"
+  },
+  "coverage": {
+    "decoded_frames": 6,
+    "visual_ranges": [
+      {
+        "start_frame": 0,
+        "end_frame": 2,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\run-081343369174\\fixture.jpg"
+        ],
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\run-081343369174\\fixture.jpg": "070b471e86b352c8afaec87e9b445c1c7b84c5d1bc45540aa0b426a442835014"
+        },
+        "source_video_sha256": "070b471e86b352c8afaec87e9b445c1c7b84c5d1bc45540aa0b426a442835014",
+        "method": "synthetic_visual_declaration",
+        "observation": "Synthetic declaration only; not actual perception",
+        "reviewer_id": "fixture-observer-1"
+      }
+    ],
+    "audio_listened_ranges_seconds": [
+      {
+        "start": 0,
+        "end": 6,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\run-081343369174\\fixture.wav"
+        ],
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\run-081343369174\\fixture.wav": "070b471e86b352c8afaec87e9b445c1c7b84c5d1bc45540aa0b426a442835014"
+        },
+        "source_video_sha256": "070b471e86b352c8afaec87e9b445c1c7b84c5d1bc45540aa0b426a442835014",
+        "method": "audio_input",
+        "observation": "Synthetic declaration only",
+        "reviewer_id": "fixture-observer-1"
+      }
+    ],
+    "realtime_viewed_ranges_seconds": [],
+    "audio_status": "pending",
+    "audio_perception": {
+      "status": "available"
+    },
+    "unreviewed_frame_ranges": [
+      [
+        3,
+        5
+      ]
+    ]
+  },
+  "findings": [],
+  "limitations": [
+    "Aggregate is not final creative/AV acceptance."
+  ],
+  "verdict": "incomplete",
+  "repair_round": 1,
+  "report_sources": [
+    {
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\run-081343369174\\false-audio.json",
+      "sha256": "98617cee59c9f5db4fdefa9fe17b73f21cc71695857bccf8b134f8aab6e39022",
+      "reviewer": {
+        "id": "fixture-observer-1"
+      },
+      "batch_id": "000000-000002"
+    }
+  ],
+  "blind_observations": []
+}

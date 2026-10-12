@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s05-root { position: absolute; inset: 0; }
+        #s05-desk { left: 40px; top: 860px; width: 1840px; height: 40px; border-radius: 12px; background: #d9b98a; border: 5px solid var(--k-ink); }
+        #s05-desk-front { left: 80px; top: 896px; width: 1760px; height: 184px; background: #c9a877; border-left: 5px solid var(--k-ink); border-right: 5px solid var(--k-ink); }
+        #s05-printer { left: 110px; top: 440px; width: 420px; height: 420px; border-radius: 24px; background: #fffaf0; border: 5px solid var(--k-ink); box-shadow: 0 8px 0 var(--k-ink); }
+        #s05-screen { left: 28px; top: 28px; width: 354px; height: 136px; border-radius: 14px; background: var(--k-ink); font: 600 76px/136px var(--k-display); color: var(--k-accent); text-align: right; padding-right: 26px; }
+        #s05-screen-cap { left: 26px; top: 12px; font: 500 16px/1 var(--k-mono); color: #d9c9a6; }
+        #s05-spec { left: 30px; top: 190px; font: 500 25px/1.6 var(--k-mono); color: var(--k-ink); white-space: nowrap; }
+        #s05-spec div:last-child { color: var(--k-ink-2); }
+        #s05-keys { left: 30px; top: 310px; display: flex; gap: 16px; }
+        #s05-keys i { display: block; width: 62px; height: 44px; border-radius: 10px; border: 4px solid var(--k-ink); background: #f3e2b8; box-shadow: 0 4px 0 var(--k-ink); }
+        #s05-slot { left: 522px; top: 604px; width: 18px; height: 112px; border-radius: 6px; background: var(--k-ink); }
+        #s05-tag { left: 0; top: 0; width: 190px; height: 92px; }
+        #s05-queued { left: 752px; top: 486px; font-size: 22px; }
+        #s05-held { left: 1054px; top: 912px; font-size: 22px; }
+        .s05-rule { top: 992px; font-size: 22px; }
+        #s05-poster { left: 1440px; top: 172px; width: 400px; height: 206px; border-radius: 14px; background: #fffaf0; border: 4px solid var(--k-ink); box-shadow: 0 6px 0 var(--k-ink); padding: 14px 20px; font: 500 20px/1.45 var(--k-mono); color: var(--k-ink); }
+        #s05-poster b { display: block; font: 600 24px/1.2 var(--k-display); margin-bottom: 4px; }
+        #s05-poster i { position: absolute; left: 186px; top: -14px; width: 22px; height: 22px; border-radius: 50%; background: var(--k-danger); border: 4px solid var(--k-ink); }
+        #s05-jar-label { left: 1300px; top: 540px; width: 188px; height: 92px; border-radius: 12px; background: #fffaf0; border: 4px solid var(--k-ink); text-align: center; }
+        #s05-jar-label div:first-child { font: 500 18px/1 var(--k-mono); color: var(--k-ink-2); margin-top: 14px; }
+        #s05-jar-label div:last-child { font: 600 34px/1 var(--k-display); color: var(--k-ink); margin-top: 10px; }
+        .s05-coin { width: 54px; height: 54px; }
+      </style>
+      <div id="s05-root" data-composition-id="s05-price" data-width="1920" data-height="1080">
+        <div id="s05-scene" class="k-scene k-warm">
+          <div id="s05-desk-front" class="k-abs"></div>
+          <div id="s05-desk" class="k-abs"></div>
+          <div id="s05-slot" class="k-abs"></div>
+          <div id="s05-printer" class="k-abs">
+            <div id="s05-screen" class="k-abs"><span id="s05-screen-cap" class="k-abs">price</span><span id="s05-num">0 cr</span></div>
+            <div id="s05-spec" class="k-abs"><div>video/h3-max · 480p</div><div>8 s × 10 cr/s</div></div>
+            <div id="s05-keys" class="k-abs"><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div id="s05-poster" class="k-abs"><i></i><b>price list</b><div>video/h3-max · 10 cr/s</div><div>image/flux-2 still · 3 cr</div><div>image/frame · 0 cr</div><div>describe · 2 cr</div></div>
+          <div id="s05-queued" class="k-pill">queued</div>
+          <div id="s05-held" class="k-pill k-amber">80 cr held</div>
+          <div class="k-pill s05-rule" style="left:300px">held before it runs</div>
+          <div class="k-pill s05-rule" style="left:790px">charged when it lands</div>
+          <div class="k-pill s05-rule" style="left:1300px">refunded if it fails</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s05-scene");
+          K.grain(scene, "s05");
+          // still props: sky, a plant and a mug on the desk
+          K.cloud(scene, 560, 200, 0.8); K.cloud(scene, 980, 250, 0.6); K.cloud(scene, 180, 250, 0.7);
+          K.plant(scene, 1745, 724, 0.8);
+          K.mug(scene, 1618, 760);
+          K.chrome(scene, tl, { title: "price first, charged on landing", chapter: "2 · price", step: 2 });
+
+          // The card, queued: nothing has run yet, so its thumb is empty.
+          const S = 1.6, CL = 650, CT = 860 - 202 * S;
+          const cx = CL + 110 * S, thumbY = CT + 76 * S;
+          const card = K.card(scene, { id: "s05-card", theme: "warm", left: CL, top: CT, scale: S });
+          gsap.set(K.part(card, "k-bar"), { opacity: 0 });
+
+          // The balance jar: glass, a lid, a pile of coins.
+          const JS = 1.2, JX = 1250, JY = 860 - 350 * JS; // jar box 240 × 350 at 1.2, bottom on the desk
+          const coin = (x, y, rx = 30, ry = 11) => `<ellipse cx="${x}" cy="${y + 7}" rx="${rx}" ry="${ry}" fill="#c99a2e" stroke="#2a2118" stroke-width="3.5"/><ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" fill="#f2c14e" stroke="#2a2118" stroke-width="3.5"/>`;
+          const pile = [];
+          for (let row = 0; row < 7; row++) for (let i = 0; i < 3; i++) pile.push(coin(66 + i * 56 + (row % 2) * 10, 330 - row * 15));
+          K.el(scene, "div", { class: "k-abs", style: { left: JX + "px", top: JY + "px" } },
+            `<svg width="${240 * JS}" height="${350 * JS}" viewBox="0 0 240 350">
+              <rect x="40" y="18" width="160" height="30" rx="8" fill="#fffaf0" stroke="#2a2118" stroke-width="5"/>
+              <path d="M44 48 Q14 60 14 104 V318 Q14 346 42 346 H198 Q226 346 226 318 V104 Q226 60 196 48 Z" fill="#e3eef0" stroke="#2a2118" stroke-width="5" stroke-linejoin="round"/>
+              <g>${pile.join("")}</g>
+              <path d="M34 110 V300" stroke="#fffaf0" stroke-width="9" stroke-linecap="round" opacity=".8"/>
+            </svg>`);
+          const label = K.el(scene, "div", { id: "s05-jar-label", class: "k-abs" }, "<div>balance</div><div>2,000 cr</div>");
+          // The top of the pile: the four coins that leave.
+          const COINS = [[74, 226], [100, 212], [132, 226], [190, 226]].map(([x, y]) => [JX + x * JS, JY + y * JS]);
+          const topCoins = K.el(scene, "div", { class: "k-abs", style: { left: JX + "px", top: JY + "px" } },
+            `<svg width="${240 * JS}" height="${350 * JS}" viewBox="0 0 240 350">${coin(74, 226)}${coin(132, 226)}${coin(190, 226)}${coin(100, 212)}</svg>`);
+          const coins = COINS.map((_, i) => K.el(scene, "div", { class: "k-abs s05-coin" },
+            `<svg width="54" height="54" viewBox="0 0 54 54"><circle cx="27" cy="27" r="23" fill="#f2c14e" stroke="#2a2118" stroke-width="4"/><circle cx="27" cy="27" r="14" fill="none" stroke="#c99a2e" stroke-width="3"/><text x="27" y="33" text-anchor="middle" font-family="Space Grotesk" font-weight="600" font-size="16" fill="#1a1300">20</text></svg>`));
+          const lid = K.el(scene, "div", { class: "k-abs", style: { left: JX + 26 * JS + "px", top: JY - 22 * JS + "px" } },
+            `<svg width="${188 * JS}" height="${46 * JS}" viewBox="0 0 188 46"><rect x="4" y="12" width="180" height="30" rx="10" fill="#e07a5f" stroke="#2a2118" stroke-width="5"/><rect x="70" y="3" width="48" height="14" rx="6" fill="#e98e74" stroke="#2a2118" stroke-width="4"/></svg>`);
+
+          // The envelope: open flap now, sealed later.
+          const EX = 1045, EY = 750, EW = 170, EH = 110;
+          const env = K.el(scene, "div", { class: "k-abs", style: { left: EX + "px", top: EY + "px", width: EW + "px", height: EH + "px" } });
+          K.el(env, "div", { class: "k-abs" },
+            `<svg width="${EW}" height="${EH}" viewBox="0 0 170 110" style="overflow:visible"><rect x="3" y="3" width="164" height="104" rx="8" fill="#fffaf0" stroke="#2a2118" stroke-width="5"/><path d="M5 104 L85 52 L165 104" fill="none" stroke="#2a2118" stroke-width="4" stroke-linejoin="round"/><path d="M5 12 L60 60 M165 12 L110 60" stroke="#e8dcc0" stroke-width="4"/></svg>`);
+          const flap = K.el(env, "div", { class: "k-abs", style: { left: "0px", top: "0px" } },
+            `<svg width="${EW}" height="70" viewBox="0 0 170 70"><path d="M4 4 L85 64 L166 4 Z" fill="#f3e2b8" stroke="#2a2118" stroke-width="5" stroke-linejoin="round"/></svg>`);
+          const seal = K.el(env, "div", { class: "k-abs", style: { left: "61px", top: "38px" } },
+            `<svg width="48" height="48" viewBox="0 0 48 48"><path d="M24 3 L30 9 L39 8 L40 17 L46 24 L40 31 L39 40 L30 39 L24 45 L18 39 L9 40 L8 31 L2 24 L8 17 L9 8 L18 9 Z" fill="#f0655a" stroke="#2a2118" stroke-width="3.5" stroke-linejoin="round"/><text x="24" y="30" text-anchor="middle" font-family="Space Grotesk" font-weight="600" font-size="16" fill="#1a1300">80</text></svg>`);
+          gsap.set(flap, { scaleY: -1, transformOrigin: "50% 0%" });
+
+          // The price tag: a luggage tag with a binder clip on its string end.
+          const tag = K.el(scene, "div", { id: "s05-tag", class: "k-abs", "data-layout-allow-occlusion": "" },
+            `<svg width="190" height="92" viewBox="0 0 190 92" style="overflow:visible"><path d="M40 6 H180 Q186 6 186 12 V80 Q186 86 180 86 H40 L6 46 Z" fill="#f2c14e" stroke="#2a2118" stroke-width="5" stroke-linejoin="round"/><circle cx="36" cy="46" r="8" fill="#fffaf0" stroke="#2a2118" stroke-width="4"/><text x="112" y="60" text-anchor="middle" font-family="Space Grotesk" font-weight="600" font-size="40" fill="#1a1300">80 cr</text></svg>`);
+          const clip = K.el(scene, "div", { class: "k-abs" },
+            `<svg width="44" height="56" viewBox="0 0 44 56"><path d="M8 4 H36 L40 30 H4 Z" fill="#2a2118"/><path d="M12 30 Q10 52 22 52 Q34 52 32 30" fill="none" stroke="#5c4f41" stroke-width="4"/></svg>`);
+
+          const SLOT = 531; // tag emerges from the slot on the printer's right side
+          const TAG_Y = 614, TAG_X1 = 545;
+          const cardTagX = CL + 186 * S - 60, cardTagY = CT + 2; // clipped on the card's top-right corner
+
+          // b0: the price is worked out: 8 s × 10 cr/s counts up to 80 cr
+          const num = document.getElementById("s05-num"), n = { v: 0 };
+          tl.fromTo(n, { v: 0 }, { v: 80, duration: 0.22, ease: "power1.out", onUpdate: () => (num.textContent = Math.round(n.v) + " cr") }, K.t(0));
+          // b1: a tag prints out of the side slot
+          gsap.set(tag, { x: TAG_X1 - 190, y: TAG_Y });
+          tl.fromTo(tag, { x: SLOT - 190, clipPath: "inset(0 0 0 100%)" }, { x: TAG_X1, clipPath: "inset(0 0 0 0%)", duration: 0.2, ease: "power2.out" }, K.t(1));
+          // b2: it swings onto the card's corner and a clip bites
+          tl.to(tag, { x: cardTagX, y: cardTagY, rotation: 14, duration: 0.16, ease: "power2.inOut" }, K.t(2));
+          tl.fromTo(clip, { x: cardTagX + 12, y: cardTagY - 34, opacity: 0, scale: 1.6 }, { opacity: 1, scale: 1, duration: 0.08, ease: "power3.in", data: "follow" }, K.t(2) + 0.14);
+          K.sparkle(tl, scene, cardTagX + 100, cardTagY - 10, K.t(2) + 0.18, { r: 50, n: 2, seed: 5 });
+          // b3: the jar's lid pops off
+          tl.to(lid, { y: -30, rotation: 20, duration: 0.09, ease: "power2.out" }, K.t(3));
+          tl.to(lid, { x: 171, y: 305, rotation: 84, duration: 0.15, ease: "power2.in", data: "follow" }, K.t(3) + 0.09);
+          // b4: eighty credits rise out of the jar
+          tl.to(topCoins, { opacity: 0, duration: 0.04 }, K.t(4));
+          COINS.forEach(([x, y], i) => {
+            tl.fromTo(coins[i], { opacity: 0 }, { opacity: 1, duration: 0.02, data: "follow" }, K.t(4) + 0.02 * i);
+            tl.fromTo(coins[i], { x: x - 27, y: y - 27, scale: 0.8 }, { y: 360 - (i % 2) * 20, x: 1236 + i * 48, scale: 1, duration: 0.18, ease: "back.out(1.6)", data: i ? "follow" : undefined }, K.t(4) + (i ? 0.02 * i : 0));
+          });
+          // b5: they drop into the envelope
+          COINS.forEach((_, i) => {
+            tl.to(coins[i], { x: EX + 58 + (i - 1.5) * 18, y: EY + 20, rotation: 30 * (i - 1.5), duration: 0.14, ease: "power2.in", data: i ? "follow" : undefined }, K.t(5) + 0.025 * i);
+            tl.to(coins[i], { opacity: 0, duration: 0.03, data: "follow" }, K.t(5) + 0.14 + 0.025 * i);
+          });
+          tl.fromTo(env, { scaleX: 1, scaleY: 1 }, { scaleX: 1.08, scaleY: 0.88, duration: 0.06, yoyo: true, repeat: 1, ease: "power1.out", transformOrigin: "50% 100%", data: "follow" }, K.t(5) + 0.15);
+          // b6: sealed; the credits are held
+          tl.to(flap, { scaleY: 1, duration: 0.12, ease: "power2.in" }, K.t(6));
+          tl.fromTo(seal, { scale: 2, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power3.in", data: "follow" }, K.t(6) + 0.12);
+          tl.fromTo("#s05-held", { opacity: 0, y: -10 }, { opacity: 1, y: 0, duration: 0.12, data: "follow" }, K.t(6) + 0.14);
+          // b7: the envelope tucks in at the card's side, to ride with it
+          tl.to(env, { x: -160, y: -40, rotation: -8, scale: 0.9, duration: 0.18, ease: "back.out(1.8)" }, K.t(7));
+          tl.to("#s05-held", { x: -160, y: -40, duration: 0.18, ease: "back.out(1.8)", data: "follow" }, K.t(7));
+
+          K.focus(scene, tl, "s05", [
+            [0, 320, 530], [1, 650, 660], [2, cardTagX + 95, cardTagY + 50], [3, 1394, 430],
+            [4, 1320, 400], [5, EX + 105, EY + 20], [6, EX + 85, EY + 60], [7, EX - 75, EY + 30],
+          ]);
+          K.check(tl, "s05");
+          window.__timelines["s05-price"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "id": "lemo-opuscar/ukiyoe",
+  "packageId": "lemo-opuscar",
+  "styleId": "ukiyoe",
+  "title": "Lemo / 浮世绘",
+  "filename": "ukiyoe.mp4",
+  "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/ukiyoe.mp4",
+  "repository": "https://github.com/lemomo-ai/lemo-opuscar",
+  "releaseTag": "films",
+  "releaseId": 397205472,
+  "assetId": 590523480,
+  "assetUpdated": "2026-09-26T11:20:17Z",
+  "expectedBytes": 31057471,
+  "expectedSha256": "7756af93ac78c8d34ded16431f313672111ae477ada34d9f669bcb2c37ba27a1",
+  "entry": null,
+  "remoteCode": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ukiyoe/STYLE.md",
+  "representation": "author-master",
+  "note": "作者films发布的原始高码率版本；发布附件与本地固定源码的逐像素一致性未确认",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/lemo-opuscar/ukiyoe.mp4",
+  "status": "downloaded",
+  "bytes": 31057471,
+  "sha256": "7756af93ac78c8d34ded16431f313672111ae477ada34d9f669bcb2c37ba27a1",
+  "verifiedGitBlob": null,
+  "metadata": {
+    "duration": 44,
+    "width": 1920,
+    "height": 1080,
+    "fps": "24/1",
+    "codec": "h264",
+    "audio": true
+  },
+  "downloadedAt": "2026-10-10T03:08:03.745Z"
+}

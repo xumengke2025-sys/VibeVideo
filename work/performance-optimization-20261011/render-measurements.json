@@ -1,0 +1,158 @@
+[
+  {
+    "name": "wastewater",
+    "low": {
+      "started_at": "2026-10-11T08:09:56.405Z",
+      "status": "complete",
+      "phases": [
+        {
+          "name": "browser_setup",
+          "started_at": "2026-10-11T08:09:56.416Z",
+          "elapsed_ms": 9422,
+          "ended_at": "2026-10-11T08:10:05.838Z"
+        },
+        {
+          "name": "capture",
+          "buffers": {
+            "logical": [
+              1080,
+              1920
+            ],
+            "scene": [
+              540,
+              960
+            ],
+            "overlay": [
+              540,
+              960
+            ],
+            "output": [
+              540,
+              960
+            ]
+          },
+          "started_at": "2026-10-11T08:10:05.838Z",
+          "elapsed_ms": 1335,
+          "ended_at": "2026-10-11T08:10:07.174Z"
+        },
+        {
+          "name": "seek_check",
+          "started_at": "2026-10-11T08:10:07.174Z",
+          "elapsed_ms": 300,
+          "ended_at": "2026-10-11T08:10:07.474Z"
+        }
+      ],
+      "active_phase": null,
+      "elapsed_ms": 11070,
+      "progress": {
+        "still": 73,
+        "at": "2026-10-11T08:10:07.163Z"
+      }
+    },
+    "high": {
+      "started_at": "2026-10-11T08:10:12.895Z",
+      "status": "complete",
+      "phases": [
+        {
+          "name": "browser_setup",
+          "started_at": "2026-10-11T08:10:12.895Z",
+          "elapsed_ms": 7901,
+          "ended_at": "2026-10-11T08:10:20.796Z"
+        },
+        {
+          "name": "capture",
+          "buffers": {
+            "logical": [
+              1080,
+              1920
+            ],
+            "scene": [
+              1080,
+              1920
+            ],
+            "overlay": [
+              1080,
+              1920
+            ],
+            "output": [
+              1080,
+              1920
+            ]
+          },
+          "started_at": "2026-10-11T08:10:20.796Z",
+          "elapsed_ms": 2331,
+          "ended_at": "2026-10-11T08:10:23.127Z"
+        },
+        {
+          "name": "seek_check",
+          "started_at": "2026-10-11T08:10:23.127Z",
+          "elapsed_ms": 647,
+          "ended_at": "2026-10-11T08:10:23.774Z"
+        }
+      ],
+      "active_phase": null,
+      "elapsed_ms": 10880,
+      "progress": {
+        "still": 73,
+        "at": "2026-10-11T08:10:23.117Z"
+      }
+    },
+    "scope": "one still-capture run; not end-to-end film benchmark"
+  },
+  {
+    "name": "napoleon",
+    "low": {
+      "started_at": "2026-10-11T08:10:27.936Z",
+      "status": "complete",
+      "phases": [
+        {
+          "name": "input_check",
+          "started_at": "2026-10-11T08:10:27.942Z",
+          "elapsed_ms": 1443,
+          "ended_at": "2026-10-11T08:10:29.386Z"
+        },
+        {
+          "name": "browser_setup",
+          "started_at": "2026-10-11T08:10:29.386Z",
+          "elapsed_ms": 16869,
+          "ended_at": "2026-10-11T08:10:46.254Z"
+        },
+        {
+          "name": "capture",
+          "started_at": "2026-10-11T08:10:46.254Z",
+          "elapsed_ms": 1072,
+          "ended_at": "2026-10-11T08:10:47.327Z"
+        }
+      ],
+      "active_phase": null,
+      "elapsed_ms": 19391
+    },
+    "high": {
+      "started_at": "2026-10-11T08:10:51.346Z",
+      "status": "complete",
+      "phases": [
+        {
+          "name": "input_check",
+          "started_at": "2026-10-11T08:10:51.355Z",
+          "elapsed_ms": 1207,
+          "ended_at": "2026-10-11T08:10:52.563Z"
+        },
+        {
+          "name": "browser_setup",
+          "started_at": "2026-10-11T08:10:52.563Z",
+          "elapsed_ms": 15041,
+          "ended_at": "2026-10-11T08:11:07.604Z"
+        },
+        {
+          "name": "capture",
+          "started_at": "2026-10-11T08:11:07.604Z",
+          "elapsed_ms": 3594,
+          "ended_at": "2026-10-11T08:11:11.198Z"
+        }
+      ],
+      "active_phase": null,
+      "elapsed_ms": 19852
+    },
+    "scope": "one still-capture run; not end-to-end film benchmark"
+  }
+]

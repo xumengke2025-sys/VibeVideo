@@ -1,0 +1,70 @@
+{
+  "repository": "https://github.com/JohnnyWang8802/songbie",
+  "commit": "97225eb54a351c9938ad896e04bef7a7020393fb",
+  "commit_date": "2026-10-01T15:27:53Z",
+  "repository_created": "2026-10-01T15:27:54Z",
+  "checked": "2026-10-09",
+  "license": "代码MIT；钢琴样本不随包，曲谱旋律公共领域的说明来自作者。",
+  "reference_role": "film",
+  "quality_evidence": "source_inspected_video_unreviewed",
+  "scope": "保存8个文本文件；旋律/绘制源码已读，未观看或运行成片；Logic Pro钢琴样本、歌曲音轨与成片不在包中。",
+  "inspected": [
+    "README.md:1-63",
+    "score.js:1-96",
+    "render.js:1-74,147-206,278-323,592-657,934-1011"
+  ],
+  "excluded": [
+    "unselected source paths, external assets, audio, video, installed dependencies; not a complete offline build"
+  ],
+  "runtime_verification": "not run; no video reviewed",
+  "files": [
+    {
+      "source_path": "README.md",
+      "local_path": "README.md",
+      "sha256": "95ff86821fbb8959a7fa0184ae39b6539298709e62ccc2462789259a3616b592",
+      "bytes": 2917
+    },
+    {
+      "source_path": "render_piano.swift",
+      "local_path": "render_piano.swift",
+      "sha256": "14bb1e271cb4962245e1feadccbca97fb3deb58b8bd721ff0b3353e928e3ff43",
+      "bytes": 2115
+    },
+    {
+      "source_path": "exs_dump.py",
+      "local_path": "exs_dump.py",
+      "sha256": "1bf2d2c80604e4b5e6dcdf4c4d3e868db92db128bb102df3df48ed2b9f2d9288",
+      "bytes": 1026
+    },
+    {
+      "source_path": "package.json",
+      "local_path": "package.json",
+      "sha256": "b4d92909f07ab0f03eaad12920395a004f8b438a80698b2e4417bf59749e31b0",
+      "bytes": 381
+    },
+    {
+      "source_path": "score.js",
+      "local_path": "score.js",
+      "sha256": "480d966c29d1d59d27f8fc71ca26b6dc22a2e0ce2d93644e051c38498774da93",
+      "bytes": 4194
+    },
+    {
+      "source_path": "render.js",
+      "local_path": "render.js",
+      "sha256": "5f28a68605e93b4f06210b7c8fa943e27e7a3453613f68f5f5a5282fe96f0242",
+      "bytes": 62655
+    },
+    {
+      "source_path": "sampler.js",
+      "local_path": "sampler.js",
+      "sha256": "80cd395e4976d1f7cf4776b7fc16dd15661fee6369a9001b56c34f9ef8e24a88",
+      "bytes": 4342
+    },
+    {
+      "source_path": "LICENSE",
+      "local_path": "LICENSE",
+      "sha256": "c3322db87e3f98740f994bc27e60678d4ba391e258618d93b08feb69de17657a",
+      "bytes": 1068
+    }
+  ]
+}

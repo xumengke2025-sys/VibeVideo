@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s06-root { position: absolute; inset: 0; }
+        .s06-st { width: 184px; text-align: center; }
+        .s06-st b { display: block; font: 500 17px/1 var(--k-ui); letter-spacing: 0.16em; color: var(--k-ink-3); margin-bottom: 10px; }
+        .s06-st span { display: block; font: 600 26px/1.15 var(--k-display); color: var(--k-ink-3); }
+        .s06-st i { display: block; font: 500 18px/1.2 var(--k-mono); font-style: normal; color: var(--k-ink-3); margin-top: 10px; }
+        #s06-slot { font-size: 20px; }
+      </style>
+      <div id="s06-root" data-composition-id="s06-workflow" data-width="1920" data-height="1080">
+        <div id="s06-scene" class="k-scene">
+          <div id="s06-slot" class="k-chip">start_frame</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s06-scene");
+
+          // The track: where the card starts, then seven steps, in order.
+          const X = (i) => 283 + i * 193.5, TRACK = 730;
+          const STEPS = [
+            ["mark running", ""],
+            ["prepare references", "start_frame"],
+            ["submit", "never retried"],
+            ["poll & persist", "5 s, 10 s, 20 s"],
+            ["inspect", ""],
+            ["poster", "video only"],
+            ["complete", ""],
+          ];
+          const svg = K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } });
+          K.el(svg, "path", { d: `M${X(0)} ${TRACK} H${X(7)}`, stroke: "rgba(255,255,255,.14)", "stroke-width": 2 });
+          const done = K.el(svg, "path", { d: `M${X(0)} ${TRACK} H${X(7)}`, stroke: "rgba(255,255,255,.5)", "stroke-width": 2 });
+          const L = X(7) - X(0);
+          done.setAttribute("stroke-dasharray", `${L} ${L}`);
+          gsap.set(done, { attr: { "stroke-dashoffset": L } });
+          K.el(svg, "circle", { cx: X(0), cy: TRACK, r: 6, fill: "rgba(255,255,255,.5)" });
+          const nodes = [], labels = [];
+          STEPS.forEach(([name, note], i) => {
+            nodes.push(K.el(svg, "circle", { cx: X(i + 1), cy: TRACK, r: 11, fill: "#08080a", stroke: "rgba(255,255,255,.3)", "stroke-width": 2 }));
+            labels.push(K.el(scene, "div", { class: "k-abs s06-st", style: { left: X(i + 1) - 92 + "px", top: TRACK + 34 + "px" } },
+              `<b>0${i + 1}</b><span>${name}</span>${note ? `<i>${note}</i>` : ""}`));
+          });
+          K.el(scene, "div", { class: "k-abs k-micro", style: { left: X(0) - 20 + "px", top: TRACK + 34 + "px" } }).textContent = "queued";
+          K.el(scene, "div", { class: "k-abs k-micro", style: { left: X(0) - 20 + "px", top: TRACK + 196 + "px" } }).textContent = "one durable workflow · this asset only";
+
+          // The card rides above the track. State lives in the ring and the bar; the meta
+          // row says what the product says: Queued, Generating, then the name once ready.
+          const S = 1.5, CT = TRACK - 44 - 262; // a 1.5 card is 262 px tall
+          const card = K.card(scene, { id: "s06-card", left: X(0) - 120 * S, top: CT, scale: S, art: K.harbourArt({ boat: 12 }), name: "Queued", cr: "80 cr", state: "wait" });
+          const cy = card.k.mediaCy, name = K.part(card, "k-name");
+          const slot = document.getElementById("s06-slot");
+          card.appendChild(slot); // rides with the card, on the media's corner
+          Object.assign(slot.style, { left: 12 * S + "px", top: 10 * S + "px" });
+          gsap.set(slot, { opacity: 0 });
+
+          K.chrome(scene, tl, { title: "One workflow per asset", step: 3, balance: "2,000 cr", held: "−80" });
+
+          // The meta row's words, read from the timeline's position so any seek shows the right one.
+          const WORDS = [[0, "Queued"], [K.t(1) + 0.18, "Generating"], [K.t(7) + 0.2, "harbour flight"]], w = { t: 0 };
+          tl.fromTo(w, { t: 0 }, { t: 2, duration: 2, ease: "none", data: "follow", onUpdate: () => {
+            name.textContent = WORDS.filter(([at]) => w.t >= at - 1e-6).pop()[1];
+          } }, 0);
+          // The bar, from where it was: immediateRender off so the first frame is not the last fill.
+          const bar = K.part(card, "k-bar");
+          const fill = (from, to, at, dur) => tl.fromTo(bar, { scaleX: from }, { scaleX: to, duration: dur, ease: "none", immediateRender: false, data: "follow" }, at);
+          // One step per beat: the card moves to the node, the node takes the amber, the
+          // one before it goes quiet, and the passed track brightens behind the card.
+          const step = (b, sound) => {
+            const at = K.t(b), arrive = at + 0.18, i = b - 1;
+            if (sound) K.sound(tl, sound, at);
+            tl.to(card, { x: X(b) - X(0), duration: 0.2, ease: K.easeMove }, at);
+            tl.to(done, { attr: { "stroke-dashoffset": L - (X(b) - X(0)) }, duration: 0.2, ease: K.easeMove, data: "follow" }, at);
+            tl.to(nodes[i], { attr: { fill: "#f2c14e", stroke: "#f2c14e" }, duration: 0.06, data: "follow" }, arrive);
+            tl.to(labels[i].querySelectorAll("b, span, i"), { color: "#f5f5f4", duration: 0.06, data: "follow" }, arrive);
+            if (i > 0) {
+              tl.to(nodes[i - 1], { attr: { fill: "rgba(245,245,244,.5)", stroke: "rgba(245,245,244,.5)" }, duration: 0.06, data: "follow" }, arrive);
+              tl.to(labels[i - 1].querySelectorAll("b, span, i"), { color: "rgba(245,245,244,.5)", duration: 0.06, data: "follow" }, arrive);
+            }
+            return arrive;
+          };
+
+          // b0: the card, queued, at the head of its workflow
+          K.pop(tl, card, 0);
+          // b1: mark running: the ring turns amber, the bar slides in
+          let a = step(1, "tick");
+          K.ring(tl, card, "generating", a, { follow: true });
+          fill(0, 0.06, a, 0.08);
+          // b2: prepare references: the start frame takes its slot
+          a = step(2, "tick");
+          tl.fromTo(slot, { opacity: 0, y: 6 }, { opacity: 1, y: 0, duration: 0.12, ease: K.ease, data: "follow" }, a);
+          // b3: submit, once
+          a = step(3, "stamp");
+          tl.to(slot, { opacity: 0, duration: 0.08, data: "follow" }, a);
+          fill(0.06, 0.14, a, 0.1);
+          // b4: poll & persist: the long stretch
+          a = step(4, "tick");
+          fill(0.14, 0.7, a, 0.2);
+          // b5: inspect
+          a = step(5, "tick");
+          fill(0.7, 0.84, a, 0.1);
+          // b6: poster: the bar holds at 92% until ready
+          a = step(6, "tick");
+          fill(0.84, 0.92, a, 0.1);
+          // b7: complete: the bar finishes, the media fades in, the ring goes quiet
+          step(7, null);
+          fill(0.92, 1, K.t(7), 0.1);
+          K.reveal(tl, card, 7);
+          K.ring(tl, card, "rest", K.t(7) + 0.2, { dur: 0.2, follow: true });
+
+          K.focus(scene, tl, "s06", [
+            [0, X(0), cy], [1, X(1), cy], [2, X(2), cy], [3, X(3), cy],
+            [4, X(4), cy], [5, X(5), cy], [6, X(6), cy], [7, X(7), cy],
+          ]);
+          K.check(tl, "s06");
+          window.__timelines["s06-workflow"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

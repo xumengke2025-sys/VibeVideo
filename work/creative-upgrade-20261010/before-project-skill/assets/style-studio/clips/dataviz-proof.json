@@ -1,0 +1,15 @@
+{
+ "id":"dataviz-proof","style":"dataviz","title":"形状变了，数值没变","duration":10,"fps":24,"timingDriver":"action","seed":2901,
+ "data":{"label":"演示数据 · 无现实统计含义","values":[18,28,22,47,39,64,74,62],"unit":"示例值","maximum":80},
+ "events":[
+  {"id":"draw","at":0,"duration":2,"anchor":"same-eight-values","action":"数据点按索引依次进入","result":"八个值和同一纵轴","sound":{"kind":"paper","duration":2,"gain":0.08}},
+  {"id":"trace","at":2.2,"duration":1.4,"anchor":"same-eight-values","action":"路径沿数据点生长","result":"连接相邻点","sound":{"kind":"tone","duration":0.4,"gain":0.12,"frequency":330}},
+  {"id":"highlight","at":4,"duration":0.8,"anchor":"maximum-value","action":"最大值由墨黑变为朱红","result":"索引7值74保持不变","sound":{"kind":"tone","duration":0.35,"gain":0.14,"frequency":440}},
+  {"id":"morph","at":6,"duration":1.5,"anchor":"same-eight-values","action":"从每个数据点向零基线生长成柱","result":"同一位置同一高度的柱状图","sound":{"kind":"paper","duration":1.5,"gain":0.1}},
+  {"id":"settle","at":7.6,"duration":0.6,"anchor":"maximum-value","action":"最大值标注落定","result":"同一组数据的第二种表达","sound":{"kind":"click","duration":0.12,"gain":0.18}}
+ ],"captions":[],"silences":[[5.5,6]],
+ "shots":[
+  {"id":"trace","start":0,"end":6,"intent":"建立数值到坐标的对应关系","action":"数据点到折线，定位最大值","camera":"固定坐标用于读数","states":{"establish":1.9,"action":3,"result":5}},
+  {"id":"bars","start":6,"end":10,"intent":"更换表现仍保持相同数据","action":"点延伸为柱，折线撤走","camera":"相同坐标避免误读","states":{"establish":6,"action":6.8,"result":9}}
+ ],"connections":[{"time":6,"kind":"point-correspondence","anchor":"same-eight-values","window":[5.8,7.7]}]
+}

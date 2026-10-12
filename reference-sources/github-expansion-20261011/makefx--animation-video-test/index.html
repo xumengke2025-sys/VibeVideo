@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" data-composition-variables='[{"id":"debug","type":"boolean","label":"Show focus ring","default":false}]'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <link rel="stylesheet" href="kit/kit.css" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script src="kit/kit.js"></script>
+    <style>
+      @font-face {
+        font-family: "Space Grotesk";
+        src: url("assets/fonts/SpaceGrotesk-600.woff2") format("woff2");
+        font-weight: 600;
+        font-display: block;
+      }
+      @font-face {
+        font-family: "JetBrains Mono";
+        src: url("assets/fonts/JetBrainsMono-500.woff2") format("woff2");
+        font-weight: 500;
+        font-display: block;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; background: #08080a; overflow: hidden; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; }
+      [data-composition-id="root"] > div[data-composition-src] { position: absolute; inset: 0; }
+    </style>
+  </head>
+  <body>
+    <!-- 18 scenes, one 2 s bar each at 120 BPM; the finale holds for three bars. -->
+    <div id="root" data-composition-id="root" data-width="1920" data-height="1080" data-duration="40">
+      <div id="el-s01" data-composition-id="s01-ask" data-composition-src="compositions/s01-ask.html"
+           data-start="0" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s02" data-composition-id="s02-connect" data-composition-src="compositions/s02-connect.html"
+           data-start="2" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s03" data-composition-id="s03-toolcall" data-composition-src="compositions/s03-toolcall.html"
+           data-start="4" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s04" data-composition-id="s04-writer" data-composition-src="compositions/s04-writer.html"
+           data-start="6" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s05" data-composition-id="s05-price" data-composition-src="compositions/s05-price.html"
+           data-start="8" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s06" data-composition-id="s06-workflow" data-composition-src="compositions/s06-workflow.html"
+           data-start="10" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s07" data-composition-id="s07-submit" data-composition-src="compositions/s07-submit.html"
+           data-start="12" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s08" data-composition-id="s08-stream" data-composition-src="compositions/s08-stream.html"
+           data-start="14" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s09" data-composition-id="s09-lands" data-composition-src="compositions/s09-lands.html"
+           data-start="16" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s10" data-composition-id="s10-failure" data-composition-src="compositions/s10-failure.html"
+           data-start="18" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s11" data-composition-id="s11-recipe" data-composition-src="compositions/s11-recipe.html"
+           data-start="20" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s12" data-composition-id="s12-material" data-composition-src="compositions/s12-material.html"
+           data-start="22" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s13" data-composition-id="s13-frame" data-composition-src="compositions/s13-frame.html"
+           data-start="24" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s14" data-composition-id="s14-describe" data-composition-src="compositions/s14-describe.html"
+           data-start="26" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s15" data-composition-id="s15-timeline" data-composition-src="compositions/s15-timeline.html"
+           data-start="28" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s16" data-composition-id="s16-cut" data-composition-src="compositions/s16-cut.html"
+           data-start="30" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s17" data-composition-id="s17-share" data-composition-src="compositions/s17-share.html"
+           data-start="32" data-duration="2" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <div id="el-s18" data-composition-id="s18-finale" data-composition-src="compositions/s18-finale.html"
+           data-start="34" data-duration="6" data-track-index="1" data-width="1920" data-height="1080"></div>
+      <audio id="bgm" src="assets/audio/soundtrack.wav" data-start="0" data-duration="40" data-volume="0.8"></audio>
+    </div>
+    <script>
+      window.__timelines["root"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>

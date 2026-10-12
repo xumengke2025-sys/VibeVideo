@@ -1,0 +1,203 @@
+{
+  "repo": "1kvoidsoft/Opus5.5_MG_Anim_Zao",
+  "repository": "https://github.com/1kvoidsoft/Opus5.5_MG_Anim_Zao",
+  "commit": "e7ec6280bceb1e69ad4acb73fb193c0699563343",
+  "commitDate": "2026-10-06T09:16:20Z",
+  "snapshotUrl": "https://codeload.github.com/1kvoidsoft/Opus5.5_MG_Anim_Zao/zip/e7ec6280bceb1e69ad4acb73fb193c0699563343",
+  "archiveSha256": "ee23ac1fd875d41066c4ca8307aca1d356b64f9ad977b080ad3b953305b647d0",
+  "checked": "2026-10-11",
+  "upstreamLicense": null,
+  "licenseFiles": [],
+  "usage": "未发现明确许可证，仅本地研究；复制发布或改编复用需作者许可",
+  "modelEvidence": [
+    "# Opus 5.5 MG Animation Collection",
+    "A growing collection of motion-graphics animations created with Opus 5.5."
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 141,
+      "sha256": "c3872a07f569e10fd28c1945e42572deddadf2b9aeedb8b87f8a37b1aca45893"
+    },
+    {
+      "path": "normal-friend/.gitignore",
+      "bytes": 141,
+      "sha256": "c3872a07f569e10fd28c1945e42572deddadf2b9aeedb8b87f8a37b1aca45893"
+    },
+    {
+      "path": "normal-friend/build.py",
+      "bytes": 3733,
+      "sha256": "b9ec075c6d58d790e0f103741c46755d6f9fe14ff19e6a32a45aec13f2efd95c"
+    },
+    {
+      "path": "normal-friend/index.html",
+      "bytes": 257822,
+      "sha256": "6e76c5c2729660b77862b4f89d7de2159187e681db36d521bd1b08efe158d33a"
+    },
+    {
+      "path": "normal-friend/poster/cover-16x9.svg",
+      "bytes": 32027,
+      "sha256": "af73385196497d3e082cb62edcb8a1a30e83d9039fb31bb1f688478a942f8239"
+    },
+    {
+      "path": "normal-friend/poster/cover-3x4.svg",
+      "bytes": 29263,
+      "sha256": "41e571564fc1df3d1e42f9d9b86d71c23fa897d5788349da0acb88d083be58ba"
+    },
+    {
+      "path": "normal-friend/poster/cover-9x16.svg",
+      "bytes": 36094,
+      "sha256": "fe1a3006c550dc752bf9e83b95e47369a345a323576a7f29e5d12bfc8a41ef28"
+    },
+    {
+      "path": "normal-friend/poster/make_posters.py",
+      "bytes": 18595,
+      "sha256": "9f2d46eb7ab29c42fbc304f6447485b3d60e5eda70de6460b94fcddb0647c9b0"
+    },
+    {
+      "path": "normal-friend/poster/png/cover-16x9.png",
+      "bytes": 728363,
+      "sha256": "a6e6dd3c260aa701db7d8e9881f7ddab27c005a03aecf46924c29010c59b30f6"
+    },
+    {
+      "path": "normal-friend/poster/png/cover-3x4.png",
+      "bytes": 646827,
+      "sha256": "b1ccbab072f9f61e83acdc8a8d78ef124e9014cc22f4a0ca97d0022834c1e809"
+    },
+    {
+      "path": "normal-friend/poster/png/cover-9x16.png",
+      "bytes": 748642,
+      "sha256": "f982757f8037825427f3d36734050a321cb9920a64c703fc223f9c8e112a69cd"
+    },
+    {
+      "path": "normal-friend/README.md",
+      "bytes": 1004,
+      "sha256": "f4429419396abff1ddbbfa83ced3cc0b55d459ce269e92f47344f5044fa30bf9"
+    },
+    {
+      "path": "normal-friend/src/characters.js",
+      "bytes": 9138,
+      "sha256": "9498957dc41eac1a981b345804e866259743eeef64da3cefde3a97c2bf96107d"
+    },
+    {
+      "path": "normal-friend/src/core.js",
+      "bytes": 13675,
+      "sha256": "2b078e8bd28e3ec8a41cc17c55f2b7a998d766f12a63e39c849830450b4920a2"
+    },
+    {
+      "path": "normal-friend/src/lyrics.js",
+      "bytes": 11533,
+      "sha256": "ad48d9897aad66a791c71b485a3b9ddd0f6ebbd36f7e72d53e671232be34bdc7"
+    },
+    {
+      "path": "normal-friend/src/player.js",
+      "bytes": 17225,
+      "sha256": "bac6f67a295a18e1b17ef701b809ee0b4ed01110c69a02d915e6f3f415446c74"
+    },
+    {
+      "path": "normal-friend/src/scenes_a.js",
+      "bytes": 18544,
+      "sha256": "d0bb6f8957579f340a69df8abafb63a2900570b6db303c4d7e5a3e62b4cae459"
+    },
+    {
+      "path": "normal-friend/src/scenes_a1.js",
+      "bytes": 9332,
+      "sha256": "344be9049c961a11c584a86797c78514333720bb117f615da99e88d878a3e446"
+    },
+    {
+      "path": "normal-friend/src/scenes_a2.js",
+      "bytes": 11562,
+      "sha256": "9e13c758da9b1cf5e9e42ae22f4e5918da8f5f1206020b58281b7fdebb32fdb9"
+    },
+    {
+      "path": "normal-friend/src/scenes_a3.js",
+      "bytes": 11027,
+      "sha256": "4ccdc9e6eb2463082f5ae5d90bb4b167f28634b8ee10663a3b6a9663432ff1f0"
+    },
+    {
+      "path": "normal-friend/src/scenes_a4.js",
+      "bytes": 10151,
+      "sha256": "ef2a67b660a2f33038461fe1b7f10c671ad73663fcb4894ad919db69b2fb483f"
+    },
+    {
+      "path": "normal-friend/src/scenes_b.js",
+      "bytes": 14492,
+      "sha256": "0ba659d87d629b981bb5ecf31265a05bab2c7b2cc81b50257f78a9f492f120ff"
+    },
+    {
+      "path": "normal-friend/src/scenes_b1.js",
+      "bytes": 17439,
+      "sha256": "3bb53feff1c5acfa08be03ee91bd7c6ae417b6905c012f12226e0047a7f7f86c"
+    },
+    {
+      "path": "normal-friend/src/scenes_b2.js",
+      "bytes": 11976,
+      "sha256": "917221f8e9296a0981e449c66de10cff3e831804dfffc48dd6248682f738c148"
+    },
+    {
+      "path": "normal-friend/src/scenes_b3.js",
+      "bytes": 8327,
+      "sha256": "cd148dbd2887d3558509d16ee56353ecfb4495c9659e2cc4bf145317571d166f"
+    },
+    {
+      "path": "normal-friend/src/scenes_c.js",
+      "bytes": 11196,
+      "sha256": "e717de8dc3ca5b89425b11331335ef79866bd12ed4cb2b8bb95675dc8d515321"
+    },
+    {
+      "path": "normal-friend/src/scenes_c1.js",
+      "bytes": 13410,
+      "sha256": "882c8aebee4cea9fae9bb1cacba9e4b4099b07cfb7f3e29c06d61ab1b3d8bb6a"
+    },
+    {
+      "path": "normal-friend/src/scenes_c2.js",
+      "bytes": 12497,
+      "sha256": "7baaf477592e73e13cab8042a6a71188663734e921d23621f0e382042da68f44"
+    },
+    {
+      "path": "normal-friend/src/scenes_c3.js",
+      "bytes": 8744,
+      "sha256": "74fde910d3b5be47477a9c99c8731baf8101dd2c493ba81ffc68a1027d031c23"
+    },
+    {
+      "path": "normal-friend/src/scenes_d.js",
+      "bytes": 12199,
+      "sha256": "183e40057b60358e2f10aee991c9d22b5e8863f6bf225708b51830cfa5418c45"
+    },
+    {
+      "path": "normal-friend/src/scenes_d1.js",
+      "bytes": 10733,
+      "sha256": "3707e30ce206094805a0116f06a9793f49b5d02aa7e4b9618a8f49a931166c0e"
+    },
+    {
+      "path": "normal-friend/src/scenes_d2.js",
+      "bytes": 3630,
+      "sha256": "7888450a4c43c6122042a6dd43e8bdc9d9313665db08b325fde63ca5ed533533"
+    },
+    {
+      "path": "normal-friend/src/style.css",
+      "bytes": 2738,
+      "sha256": "af49c08277e321f3e1c12cb2efa78cab88dbf3ac8c6ba2c3d2b3a41fb2f04785"
+    },
+    {
+      "path": "normal-friend/src/template.html",
+      "bytes": 2341,
+      "sha256": "86cc7b60596df4d7876308c19565370aaba10edd71f59a1affb96c07d43aa128"
+    },
+    {
+      "path": "normal-friend/src/timeline.js",
+      "bytes": 14890,
+      "sha256": "69118259f4658df24228805b174ef61881f6672a3c6c1f410ab25ad0ad376f50"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1062,
+      "sha256": "1856ca0223877b7c59a2686348506a258acf2a5bfb536e89c5a252d49f48f4b5"
+    }
+  ],
+  "verification": {
+    "snapshotExtracted": true,
+    "sourceExecuted": false,
+    "avReviewed": false
+  }
+}

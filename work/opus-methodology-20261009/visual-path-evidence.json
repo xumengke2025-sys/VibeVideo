@@ -1,0 +1,19 @@
+{
+  "checked": "2026-10-09",
+  "scope": "Selected archived visual implementations; static reading and endpoint search, not a runtime network audit or whole-repository certification",
+  "observations": {
+    "songbie": "render.js uses Node Canvas scene projection, crayon strokes and frame encoding; score.js drives visible key/hand events. No video generation call observed in adopted path.",
+    "lemo": "Selected art-deco/blueprint/ink-wash/hologram-hud draw through Canvas and projection/shader code. hologram main.js:7-19 loads content, model, voice durations and exposes film.render(t); adopted code is drawing, not invoking a video model. Unselected styles not certified.",
+    "lyric": "app/src/main.ts:39-75 exposes still/png/raw RGBA streaming from Engine; page.ts deforms page meshes, focus.ts shades from depth. util.ts:199-208 fetches analysis JSON, type/stroke fetch fonts. Audio model use does not produce the visual frames. Encoding model attribution not independently confirmed.",
+    "clearwater": "index.html computes FFT surface, refracted grid caustics and HDR shading with WebGL2. Inline procedural bed texture retained. Component, not a complete film. Model attribution not independently confirmed."
+  },
+  "endpoint_search": {
+    "tool": "FastCtx grep over selected new JS/MJS/PY/TS plus Clearwater HTML",
+    "patterns": "sora, runway, higgsfield, kling, seedance, replicate, fal.ai, image_gen, video_gen, images/generations, videos/generations, generativelanguage, api.openai, fetch and URLs",
+    "generated_visual_service_calls_found": false,
+    "matches": "font/model/content/analysis loaders, local renderer servers and WebGL texelFetch; Clearwater credit links",
+    "limitation": "Search is corroboration only; dynamic endpoints, unselected HTML/scripts and uninspected branches are not excluded by keyword absence. Adoption is based on actual drawing implementations read."
+  },
+  "new_output_rendered": false,
+  "new_videos_watched": false
+}

@@ -1,0 +1,30 @@
+{
+  "video_path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\fixture.mp4",
+  "video_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "reviewer": {
+    "id": "observer-1"
+  },
+  "batch_id": "000000-000002",
+  "coverage": {
+    "decoded_frames": 6,
+    "visual_ranges": [
+      {
+        "start_frame": 0,
+        "end_frame": 2,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\fixture.jpg"
+        ],
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\performance-optimization-20261011\\independent-validation\\fixture.jpg": "9ac06030fc269a26db35893eb8d1f9fd73a0aeabcbd122fe976522813fa820e5"
+        },
+        "source_video_sha256": "14efdbe226ce7755a07fc8b72ebc43cc78de2e27de7d503dacc50f6657dc820a",
+        "method": "actual_visual_tool",
+        "observation": "synthetic test declaration, no real perception"
+      }
+    ],
+    "audio_listened_ranges_seconds": [],
+    "audio_status": "pending"
+  },
+  "findings": [],
+  "verdict": "incomplete"
+}

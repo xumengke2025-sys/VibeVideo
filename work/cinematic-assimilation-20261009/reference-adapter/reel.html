@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kinetic reel · studio</title>
+
+<style>
+  html, body { margin: 0; background: #0e0f0e; color: #eee; font: 13px system-ui, sans-serif; }
+  main { padding: 12px; display: grid; gap: 8px; }
+  #out { width: min(100%, 1280px); aspect-ratio: 16 / 9; height: auto; background: #000; }
+  .bar { display: flex; gap: 10px; align-items: center; max-width: 1280px; }
+  #scrub { flex: 1; } #tt { font-variant-numeric: tabular-nums; min-width: 190px; }
+</style>
+<style>@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(/adapter/9a0b87665ccc20511f3c.woff2) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(/adapter/f57c41b0eb84cc4cd2fc.woff2) format('truetype');
+}
+@font-face {
+  font-family: 'Instrument Serif';
+  font-style: italic;
+  font-weight: 400;
+  font-display: block;
+  src: url(/adapter/7e0a56187ecaff85f3d0.woff2) format('truetype');
+}
+@font-face {
+  font-family: 'Instrument Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(/adapter/c1e7453ea26a1d1eea26.woff2) format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(/adapter/6d83b1a12212ea9e5ba8.woff2) format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(/adapter/c1c656933a1f4b14b7cc.woff2) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(/adapter/d54bce252ddebab44f68.woff2) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(/adapter/37812342a65ea9cf0f4f.woff2) format('truetype');
+}
+</style></head>
+<body>
+<main>
+  <canvas id="out" width="1920" height="1080"></canvas>
+  <div class="bar"><input id="scrub" type="range" min="0" max="17" step="0.0333" value="0"><span id="tt">loading…</span></div>
+</main>
+<script src="cues.js"></script>
+<script type="module" src="reel.js"></script>
+</body>
+</html>

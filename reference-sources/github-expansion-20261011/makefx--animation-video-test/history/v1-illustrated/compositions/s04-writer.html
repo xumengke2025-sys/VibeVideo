@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s04-root { position: absolute; inset: 0; }
+        #s04-ground { left: 0; top: 880px; width: 1920px; height: 200px; background: #d9c08e; border-top: 5px solid var(--k-ink); }
+        #s04-path { left: 60px; top: 885px; width: 780px; height: 34px; background: #efe3c8; border-bottom: 4px solid var(--k-ink); border-right: 4px solid var(--k-ink); border-radius: 0 0 14px 0; }
+        #s04-sign { left: 880px; top: 392px; font: 500 24px/1.2 var(--k-mono); padding: 6px 18px; }
+        #s04-door { left: 760px; top: 720px; width: 120px; height: 160px; border-radius: 60px 60px 0 0; background: #6e4527; border: 5px solid var(--k-ink); border-bottom: none; transform-origin: 0 50%; }
+        #s04-door i { position: absolute; right: 16px; top: 82px; width: 14px; height: 14px; border-radius: 50%; background: var(--k-accent); border: 3px solid var(--k-ink); }
+        #s04-board { left: 920px; top: 500px; width: 350px; height: 250px; border-radius: 16px; background: #f3e2b8; border: 4px solid var(--k-ink); box-shadow: 0 6px 0 var(--k-ink); }
+        #s04-board-h { left: 24px; top: 22px; font: 600 26px/1 var(--k-display); color: var(--k-ink); }
+        .s04-row { left: 70px; font: 500 22px/1 var(--k-mono); color: var(--k-ink); }
+        .s04-box { width: 30px; height: 30px; }
+        .s04-tk { width: 190px; height: 100px; border-radius: 14px; background: var(--k-card); border: 4px solid var(--k-ink); box-shadow: 0 6px 0 var(--k-ink); padding: 14px 16px; }
+        .s04-tk b { display: block; font: 600 24px/1 var(--k-display); color: var(--k-ink); }
+        .s04-tk span { display: block; margin-top: 12px; font: 500 20px/1 var(--k-mono); color: var(--k-ink-2); }
+        .s04-tk.s04-ours { background: var(--k-accent); }
+        .s04-tk.s04-ours span { color: var(--k-accent-ink); }
+        #s04-queued { font-size: 28px; padding: 6px 18px; }
+        #s04-canvas { font-size: 22px; }
+        #s04-post { left: 70px; top: 700px; }
+      </style>
+      <div id="s04-root" data-composition-id="s04-writer" data-width="1920" data-height="1080">
+        <div id="s04-scene" class="k-scene k-warm">
+          <div id="s04-ground" class="k-abs"></div>
+          <div id="s04-path" class="k-abs"></div>
+          <svg id="s04-house" class="k-abs" width="1920" height="1080">
+            <rect x="1150" y="270" width="64" height="150" fill="#e07a5f" stroke="#2a2118" stroke-width="5" />
+            <rect x="1140" y="258" width="84" height="26" rx="6" fill="#e98e74" stroke="#2a2118" stroke-width="5" />
+            <rect x="690" y="460" width="620" height="422" fill="#fffaf0" stroke="#2a2118" stroke-width="5" stroke-linejoin="round" />
+            <path d="M640 482 L1000 230 L1360 482 Z" fill="#f0655a" stroke="#2a2118" stroke-width="5" stroke-linejoin="round" />
+            <path d="M700 470 L1000 262 L1300 470" fill="none" stroke="#e8594e" stroke-width="10" stroke-linejoin="round" />
+            <path d="M740 712 h160 M728 880 h184" stroke="#2a2118" stroke-width="5" stroke-linecap="round" />
+            <rect x="765" y="725" width="110" height="155" fill="#2a2118" />
+            <rect x="740" y="520" width="150" height="150" rx="10" fill="#a9d3e8" stroke="#2a2118" stroke-width="5" />
+            <path d="M815 520 V670 M740 595 H890" stroke="#2a2118" stroke-width="5" />
+            <rect x="1110" y="790" width="160" height="70" rx="8" fill="#efe3c8" stroke="#2a2118" stroke-width="4" />
+          </svg>
+          <div id="s04-sign" class="k-pill">alv/salt-harbour</div>
+          <div id="s04-door" class="k-abs"><i></i></div>
+          <div id="s04-board" class="k-abs"><div id="s04-board-h" class="k-abs">the one writer</div></div>
+          <div id="s04-post" class="k-abs"></div>
+          <div id="s04-queued" class="k-pill k-amber">queued</div>
+          <div id="s04-canvas" class="k-pill">→ every open canvas</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const scene = document.getElementById("s04-scene");
+          K.grain(scene, "s04");
+          K.cloud(scene, 380, 200, 0.9); K.cloud(scene, 1460, 230, 0.7); K.cloud(scene, 1620, 380, 0.55);
+          K.plant(scene, 1740, 718, 0.95);
+          K.chrome(scene, tl, { title: "one space, one writer", chapter: "2 · price", step: 2 });
+          // A still label in the lower window: the space's writer lives here.
+          K.el(scene, "div", { class: "k-abs k-mono", style: { left: "1110px", top: "812px", width: "160px", textAlign: "center", fontSize: "20px", color: "#2a2118" } }).textContent = "in order";
+          // Ground detail, still: grass tufts on the line, pebbles in the dirt, the queue sign's post.
+          const tuft = (x) => `<path d="M${x} 882 q-6 -22 -16 -28 q12 4 18 20 q2 -24 12 -34 q-4 20 2 34 q8 -16 20 -20 q-12 10 -14 28" fill="#7fae5a" stroke="#2a2118" stroke-width="3.5" stroke-linejoin="round"/>`;
+          const peb = [[180, 960, 26], [470, 1010, 18], [900, 950, 22], [1180, 1020, 30], [1560, 970, 20], [1770, 1030, 24], [330, 1040, 14]];
+          K.el(scene, "svg", { class: "k-abs", width: 1920, height: 1080, style: { pointerEvents: "none" } },
+            `<rect x="104" y="728" width="12" height="154" fill="#6e4527" stroke="#2a2118" stroke-width="4"/>` +
+            [1330, 1660].map(tuft).join("") +
+            peb.map(([x, y, r]) => `<ellipse cx="${x}" cy="${y}" rx="${r}" ry="${r * 0.55}" fill="#e8d6ae" stroke="#2a2118" stroke-width="3.5"/>`).join(""));
+          K.el(document.getElementById("s04-post"), "div", { class: "k-abs k-mono", style: { left: "0px", top: "0px", padding: "4px 12px", borderRadius: "10px", background: "#fffaf0", border: "3px solid #2a2118", fontSize: "20px", color: "#2a2118", whiteSpace: "nowrap" } }).textContent = "queue ↓";
+
+          // The board: what the writer does to every request, in order.
+          const board = document.getElementById("s04-board");
+          const STEPS = ["validate", "balance 2,000 cr", "write · queued"];
+          const ticks = STEPS.map((s, i) => {
+            const y = 76 + i * 56;
+            const box = K.el(board, "svg", { class: "k-abs s04-box", width: 30, height: 30, viewBox: "0 0 30 30", style: { left: "26px", top: y - 4 + "px" } },
+              `<rect x="2" y="2" width="26" height="26" rx="6" fill="#fffaf0" stroke="#2a2118" stroke-width="3"/><path d="M8 16 L13 21 L23 9" fill="none" stroke="#2a2118" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>`);
+            K.el(board, "div", { class: "k-abs s04-row", style: { top: y + "px" } }).textContent = s;
+            return box.querySelector("path");
+          });
+
+          // Three requests, one of them ours. Slots in front of the door, front first.
+          const SLOTS = [560, 330, 100], TY = 772;
+          const REQ = [["create_asset", "video/h3-max", true], ["create_asset", "image/flux-2", false], ["describe", "2 cr", false]];
+          const tks = REQ.map(([a, b, ours], i) =>
+            K.el(scene, "div", { class: "k-abs s04-tk" + (ours ? " s04-ours" : ""), style: { left: SLOTS[i] + "px", top: TY + "px" } }, `<b>${a}</b><span>${b}</span>`));
+
+          // The card that comes out: an empty thumbnail, nothing generated yet.
+          const S = 1.4, CL = 1400, CT = 880 - 202 * S, cx = CL + 110 * S, thumbY = CT + 76 * S;
+          const card = K.card(scene, { id: "s04-card", theme: "warm", left: CL, top: CT, scale: S });
+          gsap.set(K.part(card, "k-bar"), { opacity: 0 });
+          const DOOR = 820;
+          const q = document.getElementById("s04-queued"), cv = document.getElementById("s04-canvas");
+          scene.appendChild(q); scene.appendChild(cv); // above the card
+          gsap.set(q, { left: cx - 64, top: thumbY - 26 });
+          gsap.set(cv, { left: 1450, top: CT - 70 });
+
+          // b0: three requests line up
+          tks.forEach((t, i) => tl.fromTo(t, { x: -260 - i * 60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.22, ease: "power3.out", data: i ? "follow" : undefined }, K.t(0) + i * 0.03));
+          // b1: the door opens; the front one goes in, the others step up
+          const door = document.getElementById("s04-door");
+          tl.fromTo(door, { scaleX: 1 }, { scaleX: 0.12, duration: 0.08, ease: "power2.out" }, K.t(1));
+          tl.to(tks[0], { x: DOOR - 95 - SLOTS[0], scale: 0.55, duration: 0.16, ease: "power2.in", data: "follow" }, K.t(1) + 0.02);
+          tl.to(tks[0], { opacity: 0, duration: 0.04, data: "follow" }, K.t(1) + 0.16);
+          tl.to(tks[1], { x: SLOTS[0] - SLOTS[1], duration: 0.2, ease: "power2.inOut", data: "follow" }, K.t(1) + 0.04);
+          tl.to(tks[2], { x: SLOTS[1] - SLOTS[2], duration: 0.2, ease: "power2.inOut", data: "follow" }, K.t(1) + 0.06);
+          tl.to(door, { scaleX: 1, duration: 0.08, ease: "power2.in", data: "follow" }, K.t(1) + 0.19);
+          // b2–b4: the writer works down the board
+          ticks.forEach((p, i) => K.draw(tl, p, 2 + i, 0.16));
+          // b5: the door opens again and the card hops out
+          tl.to(door, { scaleX: 0.12, duration: 0.06, ease: "power2.out" }, K.t(5));
+          tl.fromTo(card, { x: DOOR - cx, scale: 0.45, opacity: 0, transformOrigin: "50% 100%" }, { x: 0, scale: 1, opacity: 1, duration: 0.2, ease: "power1.out", data: "follow" }, K.t(5));
+          tl.fromTo(card, { y: 0 }, { y: -46, duration: 0.1, ease: "power2.out", data: "follow" }, K.t(5));
+          tl.to(card, { y: 0, duration: 0.1, ease: "power2.in", data: "follow" }, K.t(5) + 0.1);
+          K.land(tl, card, K.t(5) + 0.2, { follow: true });
+          K.puff(tl, scene, cx, 880, K.t(5) + 0.2, { spread: 120 });
+          tl.to(door, { scaleX: 1, duration: 0.08, ease: "power2.in", data: "follow" }, K.t(5) + 0.14);
+          // b6: it is marked queued
+          tl.fromTo(q, { opacity: 0, scale: 1.7, rotation: -10 }, { opacity: 1, scale: 1, rotation: -4, duration: 0.14, ease: "power3.in" }, K.t(6));
+          // b7: and the change goes out to every open canvas
+          const ring = K.part(card, "k-ring");
+          tl.fromTo(ring, { opacity: 0 }, { opacity: 1, duration: 0.05 }, K.t(7));
+          tl.to(ring, { opacity: 0, duration: 0.3, ease: "power1.in", data: "follow" }, K.t(7) + 0.1);
+          K.pop(tl, cv, 7, { origin: "0% 100%" });
+          K.blink(tl, K.part(card, "k-eyes"), K.t(7) + 0.06);
+
+          K.focus(scene, tl, "s04", [
+            [0, 420, 820], [1, DOOR, 800], [2, 1000, 590], [3, 1080, 646], [4, 1060, 702],
+            [5, 1320, 780], [6, cx, thumbY], [7, cx + 60, CT - 30],
+          ]);
+          K.check(tl, "s04");
+          window.__timelines["s04-writer"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>
