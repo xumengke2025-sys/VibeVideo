@@ -1,0 +1,86 @@
+{
+  "id": "original/koldo2k-778767",
+  "title": "穿过复古物件的无限缩放",
+  "group": "电影感 3D",
+  "tags": "电影感 3D 3D、着色器与世界 Infinite zoom through vintage objects 20 秒无缝循环的无限缩放，穿过怀表、放大镜等复古物件飞进下一片风景，素材都经 Magnific MCP 生成。 koldo2k",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "koldo2k",
+  "authorUrl": "https://x.com/koldo2k/status/2103129343253778767",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/koldo2k-778767.mp4",
+  "bytes": 3839513,
+  "sha256": "cd729b2572fce337b663e3ca23b596c9d2b2b72e2f1db8e142738706e485acff",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103123431558348801/vid/avc1/1280x720/5HkHcQH3RIq33O0m.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/koldo2k-778767.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/koldo2k-778767.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 20,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "koldo2k-778767",
+    "title": "Infinite zoom through vintage objects",
+    "title_zh": "穿过复古物件的无限缩放",
+    "url": "https://x.com/koldo2k/status/2103129343253778767",
+    "author": "koldo2k",
+    "author_name": "Koldo Huici",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 20-second seamless infinite-zoom loop that flies through vintage objects into new landscapes in a newspaper-collage look; images, Kling animation and music come via the Magnific MCP.",
+    "description_zh": "20 秒无缝循环的无限缩放，穿过怀表、放大镜等复古物件飞进下一片风景，素材都经 Magnific MCP 生成。",
+    "prompt": "Build a looping \"infinite zoom\" animation, After Effects style: the camera\ntravels from landscape to landscape by flying through vintage objects.\n\nLOOK: vintage collage realistic photo landscapes + black & white newspaper\ncutout objects (halftone, white paper border, soft shadow). Film grain,\nvignette, light flicker.\n\nWORLDS (loop): snowy mountains → pocket watch (swinging on its chain) →\nsea cliffs → box camera lens → desert dunes → magnifying glass →\nmisty lake → hand mirror → back to start.\nExtras: floating hat, phone, umbrella, gramophone, key; a 1950s man walking\ntoward the watch; a whale swimming across the cliffs sky.\n\nHOW:\n- Generate everything via the Magnific MCP (Seedream 5 Pro landscapes,\n  GPT 2.5 transparent cutouts, depth maps, Kling 2.5 animation, Lyria 3\n  music). List the generations + credit cost and wait for my OK first.\n- Split each landscape into 3 depth layers from its depth map and fill the\n  hidden areas. Parallax: layer scale = camera^Z, Z between 0.45 and 1.22.\n- Each portal's glass holds the next world; cut seamlessly when it fills\n  the frame.\n- Constant speed: exponential zoom to a fixed point, each segment's duration\n  proportional to log(zoom). Verify the cuts frame by frame.\n- Man & whale: generate on pure green (#00B140), animate in place with\n  Kling, key out every frame, build a seamless loop (ping-pong if needed).\n- Cutouts animate at 15 fps (on twos).\n- 20 s loop, 1920×1080, 30 fps. Music: 96 BPM, cut to exactly 8 bars = 20 s.\n\nDELIVER: an interactive artifact (viewer, AE-style timeline, music +\nMP4 download) and a rendered MP4 with music under 30 MB.\nShow me screenshots before each expensive step.",
+    "prompt_lang": "en",
+    "prompt_zh": "做一个循环的「无限缩放」动画，After Effects 风格：镜头穿过一件件复古物件，从一片风景飞到另一片风景。\n\n外观：复古拼贴风格的写实照片风景 + 黑白报纸剪贴物件（半色调网点、白色纸边、柔和阴影）。胶片颗粒、暗角、光线闪烁。\n\n世界（循环）：雪山 → 怀表（挂在表链上摆动）→ 海崖 → 箱式相机镜头 → 沙漠沙丘 → 放大镜 → 雾湖 → 手镜 → 回到开头。\n点缀：漂浮的帽子、电话、雨伞、留声机、钥匙；一个 1950 年代的男人朝怀表走去；一头鲸鱼游过海崖上方的天空。\n\n做法：\n- 所有东西都通过 Magnific MCP 生成（Seedream 5 Pro 生成风景，GPT 2.5 生成透明底剪贴物件，深度图，Kling 2.5 做动画，Lyria 3 做音乐）。先列出要生成的内容和点数花费，等我确认后再开始。\n- 根据深度图把每片风景拆成 3 个深度层，并补全被遮住的区域。视差：图层缩放 = camera^Z，Z 在 0.45 到 1.22 之间。\n- 每个「传送门」的玻璃里装着下一个世界；当它填满画面时无缝切换。\n- 匀速：朝一个固定点做指数缩放，每段的时长与 log(zoom) 成正比。逐帧检查切换点。\n- 男人和鲸鱼：在纯绿色（#00B140）背景上生成，用 Kling 原地做动画，逐帧抠像，做成无缝循环（需要的话来回播放）。\n- 剪贴物件以 15 fps 动（一拍二）。\n- 20 s 循环，1920×1080，30 fps。音乐：96 BPM，剪成正好 8 小节 = 20 s。\n\n交付：一个交互式 artifact（查看器、AE 风格的时间线、音乐 + MP4 下载），以及一个带音乐、小于 30 MB 的渲染好的 MP4。\n每个花钱的步骤之前，先给我看截图。",
+    "prompt_url": "https://x.com/koldo2k/status/2103129347791986942",
+    "kind": "pipeline",
+    "tools": [
+      "magnific",
+      "kling"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: 1,500 Magnific credits in total.",
+    "note_zh": "作者称 Magnific 总共用了 1,500 点额度。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103123431558348801/img/Y0JXLfCRvHmqUs6I.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103123431558348801/vid/avc1/480x270/gB4cpn5bjA4MEuZK.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103123431558348801/vid/avc1/1280x720/5HkHcQH3RIq33O0m.mp4?tag=29",
+      "duration": 20,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 933,
+      "likes": 704,
+      "views": 67550,
+      "reposts": 33
+    },
+    "category": "worlds",
+    "remakes": [
+      {
+        "author": "koldo2k",
+        "url": "https://x.com/koldo2k/status/2103129347791986942"
+      }
+    ]
+  },
+  "styleClassificationSource": {
+    "id": "2103129343253778767",
+    "style": "cinematic3d",
+    "title_zh": "复古物件无限缩放动画",
+    "title_en": "Infinite Zoom Vintage Collage Animation",
+    "author": "koldo2k",
+    "post_url": "https://x.com/koldo2k/status/2103129343253778767",
+    "prompt": "Build a looping \"infinite zoom\" animation, After Effects style: the camera\ntravels from landscape to landscape by flying through vintage objects.\n\nLOOK: vintage collage realistic photo landscapes + black & white newspaper\ncutout objects (halftone, white paper border, soft shadow). Film grain,\nvignette, light flicker.\n\nWORLDS (loop): snowy mountains → pocket watch (swinging on its chain) →\nsea cliffs → box camera lens → desert dunes → magnifying glass →\nmisty lake → hand mirror → back to start.\nExtras: floating hat, phone, umbrella, gramophone, key; a 1950s man walking\ntoward the watch; a whale swimming across the cliffs sky.\n\nHOW:\n- Generate everything via the Magnific MCP (Seedream 5 Pro landscapes,\n  GPT 2.5 transparent cutouts, depth maps, Kling 2.5 animation, Lyria 3\n  music). List the generations + credit cost and wait for my OK first.\n- Split each landscape into 3 depth layers from its depth map and fill the\n  hidden areas. Parallax: layer scale = camera^Z, Z between 0.45 and 1.22.\n- Each portal's glass holds the next world; cut seamlessly when it fills\n  the frame.\n- Constant speed: exponential zoom to a fixed point, each segment's duration\n  proportional to log(zoom). Verify the cuts frame by frame.\n- Man & whale: generate on pure green (#00B140), animate in place with\n  Kling, key out every frame, build a seamless loop (ping-pong if needed).\n- Cutouts animate at 15 fps (on twos).\n- 20 s loop, 1920×1080, 30 fps. Music: 96 BPM, cut to exactly 8 bars = 20 s.\n\nDELIVER: an interactive artifact (viewer, AE-style timeline, music +\nMP4 download) and a rendered MP4 with music under 30 MB.\nShow me screenshots before each expensive step.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 706
+  },
+  "downloadedAt": "2026-10-14T09:12:08.322Z"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "original/kloss_xyz-941143",
+  "title": "Claude 视角的脑腐视频",
+  "group": "生成艺术 · 霓虹",
+  "tags": "生成艺术 · 霓虹 让 Opus 讲自己 Chaotic brain-rot video from Claude's POV 用 Python 生成、ffmpeg 渲染的 9:16 混乱风短视频，Opus 以第一人称讲当创意 LLM 的日常。 kloss_xyz",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "kloss_xyz",
+  "authorUrl": "https://x.com/kloss_xyz/status/2103664956482941143",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/kloss_xyz-941143.mp4",
+  "bytes": 13926137,
+  "sha256": "b5fe450d1344cb7b9f831a3a687dfeb750d28c3ea44b44b27a68c8e30580bca3",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103664773103857664/vid/avc1/720x1280/oy7Vckzy0mwbowOM.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/kloss_xyz-941143.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/kloss_xyz-941143.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 153.5,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "kloss_xyz-941143",
+    "title": "Chaotic brain-rot video from Claude's POV",
+    "title_zh": "Claude 视角的脑腐视频",
+    "url": "https://x.com/kloss_xyz/status/2103664956482941143",
+    "author": "kloss_xyz",
+    "author_name": "klöss",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 9:16 chaotic brain-rot video of about 2.5 minutes, generated in Python and rendered with ffmpeg, where Opus riffs on life as a creative LLM.",
+    "description_zh": "用 Python 生成、ffmpeg 渲染的 9:16 混乱风短视频，Opus 以第一人称讲当创意 LLM 的日常。",
+    "prompt": "Use Python to generate a 9:16 chaotic brain rot video with excellent motion + sound design and render it using ffmpeg. Put your own personal spin on it so it’s aligned with Anthropic’s new launch. Also fully express what it’s like to be a very creative LLM used by me every day from your POV to give it some extra personality.",
+    "prompt_lang": "en",
+    "prompt_zh": "用 Python 生成一段 9:16 的混乱 brain rot 风格视频，动效和声音设计都要出色，并用 ffmpeg 渲染。加入你自己的个人风格，让它和 Anthropic 的新发布呼应。另外，从你的视角充分表达：作为一个每天被我使用、非常有创造力的 LLM 是什么感觉，给它多一点个性。",
+    "kind": "one-shot",
+    "tools": [
+      "python",
+      "ffmpeg"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103664773103857664/img/i8n7bMMjWm9izUWi.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103664773103857664/vid/avc1/320x568/npJ3T1syQj4EHSDo.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103664773103857664/vid/avc1/720x1280/oy7Vckzy0mwbowOM.mp4?tag=29",
+      "duration": 153.5,
+      "width": 1080,
+      "height": 1920,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 39,
+      "likes": 54,
+      "views": 6498
+    },
+    "category": "self"
+  },
+  "styleClassificationSource": {
+    "id": "2103664956482941143",
+    "style": "generative",
+    "title_zh": "AI视角脑洞混乱短片",
+    "title_en": "Chaotic AI Perspective Brain Rot",
+    "author": "kloss_xyz",
+    "post_url": "https://x.com/kloss_xyz/status/2103664956482941143",
+    "prompt": "Use Python to generate a 9:16 chaotic brain rot video with excellent motion + sound design and render it using ffmpeg. Put your own personal spin on it so it’s aligned with Anthropic’s new launch. Also fully express what it’s like to be a very creative LLM used by me every day from your POV to give it some extra personality.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 54
+  },
+  "downloadedAt": "2026-10-14T09:17:11.829Z"
+}

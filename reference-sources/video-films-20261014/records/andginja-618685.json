@@ -1,0 +1,72 @@
+{
+  "id": "original/andginja-618685",
+  "title": "用自己素材剪的网站宣传片",
+  "group": "写实 · 真人 · 实拍感",
+  "tags": "写实 · 真人 · 实拍感 产品发布与广告 Website showreel from the author's footage 作者网站的 15 秒宣传片，Opus 剪了作者自己的素材，动画全用代码做，音乐也自己写。 andginja",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "andginja",
+  "authorUrl": "https://x.com/andginja/status/2103492000733618685",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/andginja-618685.mp4",
+  "bytes": 2175484,
+  "sha256": "79db57007161671174234e1314af29f59576bc90d3b501e96a87a1a8928b2574",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103491185536806912/vid/avc1/1280x720/6x13jYe3y__gBmK2.mp4?tag=14",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/andginja-618685.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/andginja-618685.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 15.1,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "andginja-618685",
+    "title": "Website showreel from the author's footage",
+    "title_zh": "用自己素材剪的网站宣传片",
+    "url": "https://x.com/andginja/status/2103492000733618685",
+    "author": "andginja",
+    "author_name": "André Ginja 🔺",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 15-second showreel for the author's website: Opus cut his own footage, animated everything in code and composed the music.",
+    "description_zh": "作者网站的 15 秒宣传片，Opus 剪了作者自己的素材，动画全用代码做，音乐也自己写。",
+    "prompt": "make a 15-second showreel about my website. Go all out.",
+    "prompt_lang": "en",
+    "prompt_zh": "为我的网站做一段 15 秒的展示短片。拿出全部本事。",
+    "kind": "one-shot",
+    "inputs": [
+      "footage"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103491185536806912/img/KgKs1S58QtAznGGw.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103491185536806912/vid/avc1/480x270/TXIIZ42efkaZgcof.mp4?tag=14",
+      "video_hd": "https://video.twimg.com/amplify_video/2103491185536806912/vid/avc1/1280x720/6x13jYe3y__gBmK2.mp4?tag=14",
+      "duration": 15.1,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 2,
+      "likes": 2,
+      "views": 242
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103492000733618685",
+    "style": "photoreal",
+    "title_zh": "网站宣传片",
+    "title_en": "Website Showreel Promo",
+    "author": "andginja",
+    "post_url": "https://x.com/andginja/status/2103492000733618685",
+    "prompt": "make a 15-second showreel about my website. Go all out.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 3
+  },
+  "downloadedAt": "2026-10-14T09:21:20.293Z"
+}

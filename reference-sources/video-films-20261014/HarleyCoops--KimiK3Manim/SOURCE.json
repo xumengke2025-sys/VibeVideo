@@ -1,0 +1,1311 @@
+{
+  "repo": "HarleyCoops/KimiK3Manim",
+  "repository": "https://github.com/HarleyCoops/KimiK3Manim",
+  "commit": "ed954d17af1058dbc75e4b40fe92f28e17dc1404",
+  "scope": "固定commit完整仓库文件快照；LFS指针按Git原样保存，实际视频另行取证",
+  "executed": false,
+  "files": [
+    {
+      "path": ".env.template",
+      "bytes": 553,
+      "sha256": "c138d06b7550e71329deb81f31e5e3b67e150b77e02fdefe8152d5015f8fbde0",
+      "gitBlob": "8edc0002c72915a87e0d53ee6686b16145a04aca",
+      "lfsPointer": false
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 119,
+      "sha256": "85a0fdf4662b9026e0b4fea2b948d1a908a49410102182309d1d3f11ac39282f",
+      "gitBlob": "36a4f052a506713a49ee23fc040591e7dec28b64",
+      "lfsPointer": false
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "bytes": 199,
+      "sha256": "6c7b5853985d059b468e37e1a41d498df9385470e352d5fcf6d2c67f897c6941",
+      "gitBlob": "5caca25c11d926fe8e553d62c725e5c137aa44cb",
+      "lfsPointer": false
+    },
+    {
+      "path": ".github/workflows/dependabot-automerge.yml",
+      "bytes": 628,
+      "sha256": "0ea6b17f33a40e3c586e9e6be7a2a4c6139eb1dd44dcf7d7eb783dcdab62e4e5",
+      "gitBlob": "4d4334f9b9335b78be894ade310431bb02c07c25",
+      "lfsPointer": false
+    },
+    {
+      "path": ".github/workflows/smoke.yml",
+      "bytes": 872,
+      "sha256": "8f3334dfd415bf8427562c8d6ddc06635298fe62e5f2fd570cb4bf6d81aeee42",
+      "gitBlob": "0609e9b0ca976a88fb3c983dbd4ea61ff16fc733",
+      "lfsPointer": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 578,
+      "sha256": "a1b5f6437a43226d496e5f3ac02e3f3a218b0eeff16f4dbecc8649d6b797c1e4",
+      "gitBlob": "174028bfbd67eedf1d579d9caeb92e7dc1c48f98",
+      "lfsPointer": false
+    },
+    {
+      "path": ".python-version",
+      "bytes": 5,
+      "sha256": "02e735b3dfe1c32833eb550b7ff8ffa17f5f2bc3fa1e7bae61a8f5a3883ce398",
+      "gitBlob": "24ee5b1be9961e38a503c8e764b7385dbb6ba124",
+      "lfsPointer": false
+    },
+    {
+      "path": "BrownianMotion/.python-version",
+      "bytes": 5,
+      "sha256": "02e735b3dfe1c32833eb550b7ff8ffa17f5f2bc3fa1e7bae61a8f5a3883ce398",
+      "gitBlob": "24ee5b1be9961e38a503c8e764b7385dbb6ba124",
+      "lfsPointer": false
+    },
+    {
+      "path": "BrownianMotion/README.md",
+      "bytes": 7888,
+      "sha256": "143c573be2efe3f62aa43e77d7003a2321d9886829824f6a8da3a5a9bf5ec435",
+      "gitBlob": "2d3aa5b60be367fe4081aac849ca31831d1afa22",
+      "lfsPointer": false
+    },
+    {
+      "path": "BrownianMotion/brownian_motion_3d.py",
+      "bytes": 13542,
+      "sha256": "8afdf2f6d454adc8399659c3dacdd9ec9aeefd12e0171c76eef6e3deb2345b6f",
+      "gitBlob": "3040519952f803b8eacaa0d2d6cab82c1a537619",
+      "lfsPointer": false
+    },
+    {
+      "path": "BrownianMotion/brownian_motion_bounded.py",
+      "bytes": 17958,
+      "sha256": "6b03a518e47c72a8a5f6a58dcfdc405bf1cfe3dfd1d1bd939ae0eb64a9eeca8f",
+      "gitBlob": "7321b63ee427c3d48e704987a8970c8ca5cc0c36",
+      "lfsPointer": false
+    },
+    {
+      "path": "BrownianMotion/brownian_motion_managed.py",
+      "bytes": 11386,
+      "sha256": "bb9495d6c1de2c469f65587e00d43ad34a0c96985ded1ff87c0f23df0313dcb7",
+      "gitBlob": "c19fa664064b98907f56e7f3498796c5cece9f5b",
+      "lfsPointer": false
+    },
+    {
+      "path": "BrownianMotion/brownian_motion_scene.py",
+      "bytes": 16227,
+      "sha256": "019d7715b79a69793e0cf61b0574fa5283df0273e7c162dc3ed246c90599aeef",
+      "gitBlob": "f8a0d4057d94b97c4227f5b331a215bd39f7ff75",
+      "lfsPointer": false
+    },
+    {
+      "path": "BrownianMotion/count_nodes.py",
+      "bytes": 2765,
+      "sha256": "de2425b6b6e4cc4ba27448317d8882896744a56dc00cb7500b1b16716580195f",
+      "gitBlob": "51b497c642f1931c9bf2caf468a5ec269e0c75fd",
+      "lfsPointer": false
+    },
+    {
+      "path": "BrownianMotion/prompt.txt",
+      "bytes": 512,
+      "sha256": "be63faf8fec90b16dbd93b7045247f08c8d52edef91dc2c1f9beab0d07b49aa2",
+      "gitBlob": "fcde9b43b3c380e1c3b032e6b21ce3e64718f6d1",
+      "lfsPointer": false
+    },
+    {
+      "path": "BrownianMotion/pyproject.toml",
+      "bytes": 161,
+      "sha256": "b12aac717cab89da861ca8a69e7dad32b59c5576652141c466269a8c75f26bf2",
+      "gitBlob": "bcc0305294a1ca001b60e4f5a4aba7971dab5ad5",
+      "lfsPointer": false
+    },
+    {
+      "path": "BrownianMotion/rerun_narrative.py",
+      "bytes": 3418,
+      "sha256": "d74705b0a1d6a050a13e4423da1f01c77af0ad7db9e78e0c3e3b13be93812950",
+      "gitBlob": "3f8a043b9c88a41cf7e6d17839358cf5edc2f387",
+      "lfsPointer": false
+    },
+    {
+      "path": "BrownianMotion/run_pipeline.py",
+      "bytes": 4219,
+      "sha256": "60e1b6ef272b9d33de8601170e7fedc2645dbe37e604d11e97ee175d3c21ce55",
+      "gitBlob": "ea132b7afccb23c25c0ac48b7b45c9e88011f483",
+      "lfsPointer": false
+    },
+    {
+      "path": "BrownianMotion/uv.lock",
+      "bytes": 66821,
+      "sha256": "dd58e56eed29e40fe89056fcb491bac9da3014b797ce3765d65cdc5e0b635bb9",
+      "gitBlob": "295d9df281aec93b7094f3ef74da8084802218e6",
+      "lfsPointer": false
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 8603,
+      "sha256": "c5b555db869a4c280b624ed9aba739d7930d39055bf3ea54483dcf2bf1037616",
+      "gitBlob": "c69053524c15c986c82c82c741784ee50dc6617b",
+      "lfsPointer": false
+    },
+    {
+      "path": "Dakota/dakota_star_map.py",
+      "bytes": 13428,
+      "sha256": "73aa5882af7e268e251d7cfe9b460a7ee0b66bf53f78ed6d18abe98c0073f10f",
+      "gitBlob": "a56b711d8c9973a40993a1981bdef563821dc612",
+      "lfsPointer": false
+    },
+    {
+      "path": "Dakota/imagined_prompt.md",
+      "bytes": 4036,
+      "sha256": "9c6c2d9b3526fc94509826a27277812fd4a5ad7fcb5591ac2f89246bc28ba74a",
+      "gitBlob": "d399f8e0d0312d0509557479fc44f0d309a92af5",
+      "lfsPointer": false
+    },
+    {
+      "path": "Dakota/launch_kimi_visualization.py",
+      "bytes": 6620,
+      "sha256": "75b3d55cc88412ad2822f7c87fed8a93d4593c47e5b51343eeddd41851554d3b",
+      "gitBlob": "e627175f95f793bb082fca8d41834d741ce6e4ac",
+      "lfsPointer": false
+    },
+    {
+      "path": "Dakota/manim_repo_scene.py",
+      "bytes": 5906,
+      "sha256": "3d327cf0fd70f8f3eabc940b665e352bd8e7636e9f0bdc50a4144f244f0a868b",
+      "gitBlob": "c6e91e5007506861d1132928f27e30b34bfc14ce",
+      "lfsPointer": false
+    },
+    {
+      "path": "Dakota/manim_scene.py",
+      "bytes": 5244,
+      "sha256": "f3a4ebbc9d4f524a1a104fd386b75c4e6a7348cad57614eb40e984e5a7d78c88",
+      "gitBlob": "772106aaecf9fb223fa56e4e84d156fec213f697",
+      "lfsPointer": false
+    },
+    {
+      "path": "Dakota/prompt.txt",
+      "bytes": 394,
+      "sha256": "1058bb41e2e3f24f622e501d29297cb06058580fdcc8cdfb2e72e3036e813642",
+      "gitBlob": "8464fab9ed5f22606b676b898dd12b75082208c6",
+      "lfsPointer": false
+    },
+    {
+      "path": "LEARNING_PATH.md",
+      "bytes": 7916,
+      "sha256": "f1f026a91e1f3921612f676241d8f1cd3aab4b01d312c6883844d9e380ce8ce9",
+      "gitBlob": "bed92e6e554e0757982e280cb44903613d556900",
+      "lfsPointer": false
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "248e80d00c8946b80817d37d3713d08e45e2d6e7449dcb49fafbd42ee826d10f",
+      "gitBlob": "af856141d1382afcdd756a430164f70e69f411c0",
+      "lfsPointer": false
+    },
+    {
+      "path": "MinimalSurfaces/README.md",
+      "bytes": 1717,
+      "sha256": "9492201718849b22ebe428187f2bbbbc85219072cc90cac27e4ef095a09f0725",
+      "gitBlob": "875947a8f104bbdc8bcbc9c96b273869d6b73449",
+      "lfsPointer": false
+    },
+    {
+      "path": "MinimalSurfaces/run_pipeline.py",
+      "bytes": 10914,
+      "sha256": "721e3fd040116a9c78679bebeca1c67715ab48c2061c7dcf831c112c3155c2f1",
+      "gitBlob": "0f70248c88325c1f93f9449f99cc922848fd9dce",
+      "lfsPointer": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 21761,
+      "sha256": "2c62f899676e32c0bb4d0e7cb4e9e7134b5343953d26c45daffc3df07a0871e8",
+      "gitBlob": "3e1219f90c1be92ce9c2c4b2a40339d1436cff02",
+      "lfsPointer": false
+    },
+    {
+      "path": "__init__.py",
+      "bytes": 612,
+      "sha256": "9cd262ad07d7ebb9dfe321adf6cbc89571e21cdbd5001e41ee097fa4d819c19b",
+      "gitBlob": "e9a230a053b7db843160cd556321c11dda29b678",
+      "lfsPointer": false
+    },
+    {
+      "path": "agents/__init__.py",
+      "bytes": 140,
+      "sha256": "8faf5bbbcecb49c38e884d5a60b34d7c0a3cb06a351f70da02d3290b7a36478e",
+      "gitBlob": "bc16f01d6e1a157c58a9298c4a0b49857aeb7c91",
+      "lfsPointer": false
+    },
+    {
+      "path": "agents/enrichment_chain.py",
+      "bytes": 25331,
+      "sha256": "fbce7e4715c2f9d5183770184e5f4f94915ff884d41fd7a350a7a5c0f55d2c52",
+      "gitBlob": "5b716a015a953d771a992a7c094db0c2e82c0a78",
+      "lfsPointer": false
+    },
+    {
+      "path": "agents/prerequisite_explorer_kimi.py",
+      "bytes": 15617,
+      "sha256": "760010d36ed28d6fd735ddd08960ae0b568da8d6fd35fdf70bf44084885b1d7d",
+      "gitBlob": "92002d334a3f651cee3ec4703dff7c3990407c36",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/EulerIdentityFilm.mp4",
+      "bytes": 132,
+      "sha256": "54b24e9d6c8802d1fc010cca57d8112f56df48fca587979f6c752cca6c162f89",
+      "gitBlob": "1db3a261691d85ab4834046979126b0d7d2d5064",
+      "lfsPointer": true
+    },
+    {
+      "path": "assets/K3ReverseReasoning.mp4",
+      "bytes": 132,
+      "sha256": "f86371be550603174e67c5c1eeb31dfa4171e6a55ce3ea39a59c096bd15622f5",
+      "gitBlob": "8d67e87a62f189cc28f0b66de39ef04a92ce0d1a",
+      "lfsPointer": true
+    },
+    {
+      "path": "assets/MeltingSpace.mp4",
+      "bytes": 133,
+      "sha256": "175fa0fd1a22e973d58db40530da7d4066a92ddaa7fde3aaeb71646c91f30820",
+      "gitBlob": "2cbc029100b067ad8b7def13d61197fe3a659aaf",
+      "lfsPointer": true
+    },
+    {
+      "path": "assets/MinimalSurfaces3D.gif",
+      "bytes": 132,
+      "sha256": "c22d1788bf1c06ac4a6b315d1efb2cc14d5f545aaf75098c0ba7d8d5bb4937ae",
+      "gitBlob": "ae4e5e10c9de882669985289ba685a85ee40d047",
+      "lfsPointer": true
+    },
+    {
+      "path": "assets/SlowFastNetwork.gif",
+      "bytes": 132,
+      "sha256": "37fb883a8899097f86e1a49e61db17cc96ad3f1095ebe4196b50cdeba3bb1823",
+      "gitBlob": "1b84f8dcb981154c7c172ee2e3ee9b39fe39f920",
+      "lfsPointer": true
+    },
+    {
+      "path": "assets/euler_identity_hero.png",
+      "bytes": 143967,
+      "sha256": "bfd133bd9a28a660ebeff72970257b7743840c59498fc66ed39fa4dabf850fd1",
+      "gitBlob": "37742f0d6dc5778ad71fec3893f36c0aa55ed47c",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/harmonic_theorem_preview.gif",
+      "bytes": 132,
+      "sha256": "e94a6f9d51ae3644ab5f743cde9b1c46953a98723b9496045fa569401aa9268f",
+      "gitBlob": "dfdefbb1547a3632671a65ad7967edbb4b6312d0",
+      "lfsPointer": true
+    },
+    {
+      "path": "assets/k3_reverse_reasoning.gif",
+      "bytes": 132,
+      "sha256": "43c84351cbd5860287f46a2cb211df3c82163dcf8767e2b3578dce7ba3d19896",
+      "gitBlob": "5e25fe28b33ce7ee83c32dcc99494136fab7b230",
+      "lfsPointer": true
+    },
+    {
+      "path": "assets/k3_rl_flywheel.png",
+      "bytes": 204775,
+      "sha256": "4b7995e8d97b157d94da463a2a461bf5872ad78e21e4d7c59ebd499e95d1b6d3",
+      "gitBlob": "c76f07c5ac202c536a11c5fe5624d4ed78342a85",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/kimi3manim_hero.png",
+      "bytes": 133058,
+      "sha256": "923fa8e7cacf73b06b69d76379ec7ec082553f8f2316fbcf2563776284cded94",
+      "gitBlob": "17e12ceade0e121ecad0f4eee865a0a7e624eaae",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/melting_space.gif",
+      "bytes": 133,
+      "sha256": "6ae1e34474988a5bcda4bb8595481f5efd1bc0782e06430a1a017fd2ef0f5a9d",
+      "gitBlob": "292fd631fff0ec4840152ac97fd992d90fa0a526",
+      "lfsPointer": true
+    },
+    {
+      "path": "assets/rhombicosidodecahedron_preview.gif",
+      "bytes": 132,
+      "sha256": "0d3ea3b5492974defd235ddfec8626b80f7d168283229ce56a6cd06e5ccd1b28",
+      "gitBlob": "3ce0daad856ff7a45173d71bc9db069bc2ea643b",
+      "lfsPointer": true
+    },
+    {
+      "path": "config.py",
+      "bytes": 2266,
+      "sha256": "6d81e7942d8533ce74520c73d92cc3f4be2a13f7e0e8809a26ecb0697baa70ca",
+      "gitBlob": "b63d6a692b499a2461195b93010b116cb7fe11e8",
+      "lfsPointer": false
+    },
+    {
+      "path": "data/mythos_runs/20260706-133404-release-rehearsal-the-pythagorean-theorem/mythos_scene.py",
+      "bytes": 810,
+      "sha256": "0ad02f17f1d5bf27233b63dcedfab49714d26271fc3e3e212cc78dd41a91280f",
+      "gitBlob": "6df5ae0c2a1791307ecc14b6fad705bf6ed954b7",
+      "lfsPointer": false
+    },
+    {
+      "path": "data/mythos_runs/20260708-142633-invent-and-render-a-new-true-3d-mathematical-fil/mythos_scene.py",
+      "bytes": 35785,
+      "sha256": "c5ce29f26ba379acd9473ae35a0c33c27ecb6c6dd5b1d1c7850b4585f0410f1c",
+      "gitBlob": "601ff6afa8300ee117c38ec5bae8a16fd60d4d38",
+      "lfsPointer": false
+    },
+    {
+      "path": "data/mythos_runs/20260708-152026-invent-and-render-a-new-true-3d-mathematical-fil/mythos_scene.py",
+      "bytes": 22799,
+      "sha256": "95ec35de0cbf1ce44074f0bb46508c6344aa8f0ce253066e715436aa3b3d4726",
+      "gitBlob": "fa1c21b3a9d9993ac9c54a7d0d56c0c5fbdccb7e",
+      "lfsPointer": false
+    },
+    {
+      "path": "data/mythos_runs/20260708-180241-create-a-new-true-3d-mythos-manim-film-on-an-arc/mythos_scene.py",
+      "bytes": 30187,
+      "sha256": "97103aef0cbb77aa45f7ef59da42bd2b205ea67def34dab80ae54fe22ffc3a31",
+      "gitBlob": "fcb64c27e20343d881607e79ade4d60625c0b88f",
+      "lfsPointer": false
+    },
+    {
+      "path": "data/mythos_runs/20260708-183057-build-an-epic-cinematic-proof-journey-through-mo/mythos_scene.py",
+      "bytes": 810,
+      "sha256": "0ad02f17f1d5bf27233b63dcedfab49714d26271fc3e3e212cc78dd41a91280f",
+      "gitBlob": "6df5ae0c2a1791307ecc14b6fad705bf6ed954b7",
+      "lfsPointer": false
+    },
+    {
+      "path": "data/mythos_runs/20260708-185302-build-an-epic-cinematic-proof-journey-through-mo/mythos_scene.py",
+      "bytes": 26086,
+      "sha256": "0a3bce5e8893cb3a4d278a50a206ef0501cad22e0bae14208042a07e54cac9f9",
+      "gitBlob": "c349fd9ba3460b5d356f18abcb8cda6703f57642",
+      "lfsPointer": false
+    },
+    {
+      "path": "data/mythos_runs/20260709-123347-i-m-a-single-parent-and-my-6th-grader-is-struggl/mythos_scene.py",
+      "bytes": 30093,
+      "sha256": "84d6790c9f218e940016d1443224db122d0b8474522d06049bf8591212e4866c",
+      "gitBlob": "7512f48df497cd0a2e0889026e820730f6e78d3a",
+      "lfsPointer": false
+    },
+    {
+      "path": "data/mythos_runs/20260710-014407-the-cube-of-everything-one-continuous-3d-take-on/mythos_scene.py",
+      "bytes": 1003,
+      "sha256": "c9be9c8a181dbbfaf711b78558fd26a1b7328f5ff962595c2c1a862bc6cbde16",
+      "gitBlob": "c7e107adba094acbde17028bb295ff269fde7bf6",
+      "lfsPointer": false
+    },
+    {
+      "path": "data/mythos_runs/20260710-015439-the-cube-of-everything-one-continuous-3d-take-on/mythos_scene.py",
+      "bytes": 34555,
+      "sha256": "5b141c3c0af08787612cb1c81f63268e65290d89a51b5d3a8b1dca816816c0bc",
+      "gitBlob": "6ff3479cb65e688b02e970f9bab3071c32264370",
+      "lfsPointer": false
+    },
+    {
+      "path": "dev/KimiChatRhom.py",
+      "bytes": 13385,
+      "sha256": "ced1440a4fb5f28316acc968da087b0ab291da3993519721e0b3055e60f76184",
+      "gitBlob": "24b391dd5c31a07574041f3b566fc7cb9861f814",
+      "lfsPointer": false
+    },
+    {
+      "path": "dev/make_flywheel_asset.py",
+      "bytes": 6571,
+      "sha256": "f9673e69aa8883b3c4547854cd5736a42a1828c99e9ed79f6f9fdfb4e1696308",
+      "gitBlob": "75b8a8ac0e9d0b0f60cc0458c09e57d30eb8f053",
+      "lfsPointer": false
+    },
+    {
+      "path": "dev/textprompt.txt",
+      "bytes": 2828,
+      "sha256": "165d2e2bcb7c9be926b158fa08f04301887f5037842fffe81c012efc2845dd88",
+      "gitBlob": "3738e19de47d1fc5f1e1472b481bf59e62799d48",
+      "lfsPointer": false
+    },
+    {
+      "path": "dev/validate_dataset.py",
+      "bytes": 2953,
+      "sha256": "a94a7f4b18921778ed05e94b96dd4a1d3d312d8ac78a5c7e0b3fd1458f2eaace",
+      "gitBlob": "7897030b64186c0cca5c9bd144598b4cc91c3859",
+      "lfsPointer": false
+    },
+    {
+      "path": "dev/validate_render_reward.py",
+      "bytes": 6076,
+      "sha256": "fe9f45af4717a0c14051113a10dafa10038e2404eef9d00412f4268b31187d1f",
+      "gitBlob": "3059ec2da62d0fd31f2deb48abe89dd931b2b37f",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 6329,
+      "sha256": "ad2d882e835fa49670036c80a66f905931a0db7e525e470ab4096a02ec94a5bb",
+      "gitBlob": "cc87ff04b65919fcdcdebe8d7bddcc4a051c6abd",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/DAKOTA_TOOL_GUIDE.md",
+      "bytes": 18186,
+      "sha256": "a6ff729c14aaeef6fcd70c256bff660f017ea19039706430494960e2f1814b2e",
+      "gitBlob": "b08fb3b165cb816c394f4ca865dd84f332c45f8e",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/DAKOTA_TOOL_QUICKSTART.md",
+      "bytes": 3676,
+      "sha256": "23ac08ca250fb841e3db68168e69d09f39759d066b96f1d9b7403c1506520fce",
+      "gitBlob": "270854ace63d1941d05d85d9190c2f7afe6b7a4f",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/K3_EPIC_VISUALIZER_RL_BLUEPRINT.md",
+      "bytes": 14215,
+      "sha256": "a66de73d0ad85b0f5dd75ac14f98ad32ef6d490a4c455b88bd841dfaea414c58",
+      "gitBlob": "41628d63c63034ac36d9080d75f9dd61118e02ce",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/KIMI_K3_REBUILD_PLAN.md",
+      "bytes": 9393,
+      "sha256": "7ab8dc1e8dc6fb807b6ebfd8bd32ea4482cdf9d8c7b969e80b02b4669366ed40",
+      "gitBlob": "a1676fb6e41040d7a8bf3aa1bf6f039ee3e4cb8b",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/PYTHON_UPGRADE.md",
+      "bytes": 1470,
+      "sha256": "2a856159f0c283502e425da97c7b574146f9bbb89f93147c56aae52c5dfa472d",
+      "gitBlob": "0d14b2925e6127d90354f0b7ea9ffe1faa40841e",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/SETUP.md",
+      "bytes": 2275,
+      "sha256": "a85812b2aa939f6ff773e139a8d8d63fd84333710b6b04babce3faeb8fdbabd3",
+      "gitBlob": "bfac6cdc637006636171d03b3140f469ec444ba9",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/pipeline_diagram.pdf",
+      "bytes": 75331,
+      "sha256": "c7bd33b1022d86418f1b40fe1359716843426d94ecbd9ffde801360823053b5f",
+      "gitBlob": "7a4f8b9de719ba92bdd53483a04c5f3926443c7c",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/pipeline_diagram.tex",
+      "bytes": 4394,
+      "sha256": "4d012846b79e3f916b439746b197b15fc975f167fe8b6fe377953574fb071c1f",
+      "gitBlob": "d524aa0c47be2e56b52aa83c1083249e22a7560e",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/pipeline_diagram.tikz",
+      "bytes": 4393,
+      "sha256": "5680d0e693f620500886b99cbc3843297969c8db15b8b7feb194dab81ada5b5c",
+      "gitBlob": "0ca494e2330df707a91da0d6ddc0dc7543dd4162",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/pipeline_diagram_detailed.pdf",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/pipeline_diagram_detailed.tex",
+      "bytes": 6502,
+      "sha256": "060d675738cefd1f52966129240eae14483342765e1a69e6c9061b86dc366601",
+      "gitBlob": "45427d24f12c07f6979724f55d908acd4e343136",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/pipeline_diagram_with_tools.aux",
+      "bytes": 32,
+      "sha256": "fbabe80c887f95a1ede6847f22dd91b380bda9d17ae8bfaa72e1741b16aa41e9",
+      "gitBlob": "b64012178f9cbc148dca209ceaf227aee4833711",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/pipeline_diagram_with_tools.pdf",
+      "bytes": 69017,
+      "sha256": "7d0ec823fa367d3ede82f73315334a091511a3b31101488a87d8e1c5e8caccd5",
+      "gitBlob": "40a642eb8d64cc00ead9867be7f934214ee4ab67",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/pipeline_diagram_with_tools.png",
+      "bytes": 352641,
+      "sha256": "03bc0ee16328bd90990e08f91d70eadb2cbdb3033f1b90e119091bc77c0ce63d",
+      "gitBlob": "e3f0123f5b64683f72b71aa6f4cc9d3c41f940c8",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/pipeline_diagram_with_tools.tex",
+      "bytes": 4723,
+      "sha256": "b513813ce1a1aacbfe8cf40c82f5895c20f133f2eb176cdabbf15512108418a5",
+      "gitBlob": "147c9bfa2d4785693239bf1c506a35019c53260d",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/pipeline_diagram_with_tools.tikz",
+      "bytes": 4847,
+      "sha256": "b5f58b352e9d06ee837f127c179feb707d80d5e4e9e7407b068bc60cf6510feb",
+      "gitBlob": "5cb768be651cbb95cca84cb9bf884cc5de753aba",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/.env.template",
+      "bytes": 1335,
+      "sha256": "5e9d1913da6d02afce232c3d6aea96ef0d22b664e45f93ff9bbaea2359c82ff9",
+      "gitBlob": "e48859d24e062ae1e6bbf69a39f393e75cb96f01",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/KIMI_API_ARCHITECTURE.md",
+      "bytes": 7590,
+      "sha256": "9b4637e1e55120737c3773ae697016884650ee4bf828e04aaad6e483130a6cea",
+      "gitBlob": "29057a3a3b67ee5418cd024a36f1e5dda473ff1a",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/README.md",
+      "bytes": 10954,
+      "sha256": "0548b8754e50d74d3d9312b1f04c5b455d0a39e713229b54fd1e3d6ca21c8134",
+      "gitBlob": "aacc834f5a3ad70ac537ad8ec7e9f2b2f06a4f7a",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/USE_CASES.md",
+      "bytes": 12631,
+      "sha256": "ee8edfb6debe0f809df723cf9d718c2e2843eae0655d1fbc19163981c262faa9",
+      "gitBlob": "37dba34e0bb3bc0e6aaf51d929467d60ce97c223",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/__init__.py",
+      "bytes": 2498,
+      "sha256": "c79cc126b27bac8ae9aef00746605bf35af72d0db3cfc048fab1cc26b9506db3",
+      "gitBlob": "685b6d0e158090556efa7281fe49a1545f1c12ce",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/demo.py",
+      "bytes": 10027,
+      "sha256": "95f4816c12b3aac875be87b19325f68447da3b87e753abf309da84045c11f70e",
+      "gitBlob": "5dc726d137c303c5e0f470dc0f4dccebeb626b40",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/demo_kimi_architecture.py",
+      "bytes": 4859,
+      "sha256": "7cdf12c20f49904fce51b7dcc9275160ad462bd40ab145a1badcdedaa0ffe0b7",
+      "gitBlob": "1aca1b08a74a3867729b8a8bb4f0f8e4c57b26ef",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/e2b.Dockerfile",
+      "bytes": 1384,
+      "sha256": "ef03f51837344e2d950dc0dbbb4743d4034aa59b1622516d14241dfd5e22bcda",
+      "gitBlob": "1fbfbb71516764dada86b972338b24de492a6a29",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/interactive_explorer.py",
+      "bytes": 8958,
+      "sha256": "11776cf9463e8ac273268547c4cd350fb880eccb4b962f6f86e036b1b8116390",
+      "gitBlob": "630ff491c673ff46dca1beaafadd739b3556e3ed",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/kimi_api_architecture.tikz",
+      "bytes": 3601,
+      "sha256": "7d32aaf6cbd12f0a6a02995691d27fdb12a8f9e52d85758f392a95832ea7e6e1",
+      "gitBlob": "faecf8b8b138a05cbf7c414942f95c50235ecd79",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/kimi_comparison_table.tikz",
+      "bytes": 1278,
+      "sha256": "cf00c28518ae34626efd52257cdd7da733d2a8f7fcafb644dac40369a843c97d",
+      "gitBlob": "a998f7facef24c9e1fde5f927a04d140691fd4ef",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/manim_renderer.py",
+      "bytes": 11095,
+      "sha256": "ae50b4515b064822c852a4f7d675b21dbe04b851413904579aac5645a7568b4f",
+      "gitBlob": "cb746d12e8702ad1e8d745c814554593eaac9f91",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/sandbox_config.py",
+      "bytes": 4389,
+      "sha256": "85e73ca23f5e3f6dc3817199367a6cf70a5b4a3afcb036a3fea376b6d15b5b2e",
+      "gitBlob": "0b76127892a9f168d145afb56fd249ade91de3f9",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/setup.sh",
+      "bytes": 4763,
+      "sha256": "fe41c45a9a57cd7daac0cd186d015d9787192ee9a319acb984941490e34ee8a0",
+      "gitBlob": "27dd1b5f385efefa63796f969f4ebdf7dd74efe5",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/test_kimi_api.py",
+      "bytes": 3988,
+      "sha256": "d7b4c0019d5e15c1bf04595d2be97cadee2f71aca84dd4903dd4a236febc288f",
+      "gitBlob": "216ee9b36f4dae04a170c29847d974bc56178b60",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/tools.py",
+      "bytes": 11982,
+      "sha256": "7c33733ba46d2fef25a6bab5f56c320d4d2ca6998b894bf3d1ee79f7cc3bcecc",
+      "gitBlob": "e537d3b2eea40ba3ae0c7c5189d375ab25cdc317",
+      "lfsPointer": false
+    },
+    {
+      "path": "e2b_sandbox/visual_reasoning_tests.py",
+      "bytes": 9505,
+      "sha256": "65a78356565af61c8aaa4e3c89121fb9d26b3d6e8df1e6d69ecdb17db76cd766",
+      "gitBlob": "6bb08a16878c0c0508bea5bade6b9b3c2330edb8",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/README.md",
+      "bytes": 6149,
+      "sha256": "932791eca19702ca3c1ac5bca3a1096fbb8f3a002c3ee15669f4128c0e029ab8",
+      "gitBlob": "e846c1e086fa343dc2a6c35c6dd4d406ad6e1b74",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/__init__.py",
+      "bytes": 426,
+      "sha256": "f9c2da3d7c45b1c4bb7ff908d324d062806dd3f44464439b17f05ddcaef189dc",
+      "gitBlob": "0f7f46c02cb6a86fde76e0019afef97b1a5dff8b",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/configs/followup_infer.toml",
+      "bytes": 40,
+      "sha256": "03586cfd2a77c8d4cebb2365de8a879125341839ae5176c6f504419e3a9fe850",
+      "gitBlob": "7e6558f971bdf8660212405fbc8996f29039a48d",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/configs/followup_orch.toml",
+      "bytes": 362,
+      "sha256": "03bc8da06fe8ce45f16ac8d0092f3ab07aa6310022553b62fabefb194074d6bd",
+      "gitBlob": "bbf28dfa30672e390c7ebbd0644d6d6a9b38f530",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/configs/followup_train.toml",
+      "bytes": 212,
+      "sha256": "027f942c46ae020493bce6a324db6940c4241b09798ba7ff1ea41639586fb579",
+      "gitBlob": "9ed03beefbabf6cc93589ca8aa13a92749d802cc",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/configs/laguna_first_run.toml",
+      "bytes": 382,
+      "sha256": "b33dc0c416809034240e52afc3fdf4f8eeae5e543e612ffe0ba0d3dcd5fde339",
+      "gitBlob": "9dc2e01e15206ef63c63459cf187e296a52bf7db",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/configs/repair_infer.toml",
+      "bytes": 128,
+      "sha256": "91f35dd35fdd3a03540422aa38e13e32f1ebcc2c7bdac0c46ce1a0f885e7a35e",
+      "gitBlob": "d1f2ffe2db4f1677c4ae133d042da185bfed565d",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/configs/repair_orch.toml",
+      "bytes": 646,
+      "sha256": "c2c4c00731b5766953a694d668f9a0f07215ae974c082c3c5b8930af54686248",
+      "gitBlob": "8bf8a02ba7e2e68fa6a21ef8f280114217970488",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/configs/repair_train.toml",
+      "bytes": 220,
+      "sha256": "8305d52813f1066849725f01c1bed97929f8d11a19c4af648814d9f65880ef0c",
+      "gitBlob": "a75ca6840902f4298783439ac72500c9e52ee895",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/configs/smoke_infer.toml",
+      "bytes": 35,
+      "sha256": "9985c4dccea4643b9a6bacb6c5703d63a7c8e43b6c0a24c02dd1e1dda555832a",
+      "gitBlob": "dfcc1bde3fd5946961e509365666f7473dc44f9c",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/configs/smoke_orch.toml",
+      "bytes": 351,
+      "sha256": "d3ad5a0ac9b85f1bfc722f08fea52ad33fd28c30e6d18491ef8621dd4bad3f69",
+      "gitBlob": "7e55ed89b0c8d194f823feee7d555af2d19f15f1",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/configs/smoke_train.toml",
+      "bytes": 203,
+      "sha256": "bd2364b33b6df5d942cb87eb4fb571be87e995ee105bfcf549466991175a115c",
+      "gitBlob": "cc6051d969bfe43f6c5fb8680dd91f6a503f82ae",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/data/repair_tasks.jsonl",
+      "bytes": 473094,
+      "sha256": "7d267e3498882a7947c4ccf3006ae7426aadc241e3c2991c2ab39d30d1ce3e94",
+      "gitBlob": "f88b85e60bf418cfbe9fe178a8f5dd9908f7e600",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/data/repair_tasks_eval.jsonl",
+      "bytes": 134731,
+      "sha256": "fec4dce8da9d2ddd2694f35d587e9dff543c509686d41dcc3d01b7dfecf9bdef",
+      "gitBlob": "302ea88f3a7d1b120a45f60cbc6288a4c17f7c53",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/data/repair_tasks_sample.jsonl",
+      "bytes": 1786,
+      "sha256": "55342353dd3b495f62d0f639acdcbd340ab0222670b1c6e8d03a5ca0891601e7",
+      "gitBlob": "7ee3f78c20e21e481983798bc35e49e2701132ae",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/environment.py",
+      "bytes": 19467,
+      "sha256": "9a2b75d415dc6a5f2c7a2619d2c01fc2d74aee27ead4419d01a2ca548d0663a4",
+      "gitBlob": "b1e50ee2e9ad6e5519b4985908ddbc2792f1fde0",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/render_reward.py",
+      "bytes": 8106,
+      "sha256": "6d4016ba37a8bc92b3b01aa98a3e55bd1c469e313a87d8f720c3ba633c6a309d",
+      "gitBlob": "3e63a89e60f096cce95b7de83a0d62bd6e00104d",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/rlm.py",
+      "bytes": 26449,
+      "sha256": "f42bae4440a16078c42550604c7fa0fd765384c2cec249beea8a44720dc650ce",
+      "gitBlob": "820d9cfca4340094a9bbdde913eca66fff0734ae",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/scoring.py",
+      "bytes": 14321,
+      "sha256": "2e2b4cef47c9b9b499f00589dced9d6c695aa9d748c73316675e337e8d112378",
+      "gitBlob": "1c8061842340e2b0fb03fe124df0803967c2ae0d",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/m2m2_visual_repair/visual_reward.py",
+      "bytes": 3636,
+      "sha256": "1bce10550711e843d6a32afe8a16dc3e2d78db4bdb0ad81851a1681f1f115e5d",
+      "gitBlob": "ee79e3afd635cb55c28c9067665886fa34b6e360",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/math_to_manim/__init__.py",
+      "bytes": 159,
+      "sha256": "2f699955ff9557906d6d27bab4405001a47e6e8024aa38e92765ad2d25bb5792",
+      "gitBlob": "54e4566f61a954bcf831261f5e6a47e1ca1b2519",
+      "lfsPointer": false
+    },
+    {
+      "path": "environments/math_to_manim/pyproject.toml",
+      "bytes": 848,
+      "sha256": "da508df74e594c1b985e12107437cd1e6333cee3e359ac6f71b25a37ed68dd91",
+      "gitBlob": "d4a32b88e9a3f8e190aaff27ead934d0c6048159",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/dakota_tool_example.py",
+      "bytes": 11054,
+      "sha256": "7e54ce95778eaf56ef91a82d16d956e9eb51bfdc357eae184514e7964b9f0b79",
+      "gitBlob": "3e958ec0475dd1096bd60f250cf2100b5a257827",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/generate_harmonic_theorem.py",
+      "bytes": 5026,
+      "sha256": "44bf0cb22e1a78fbdc3d27e37016c5e3b28fb64c0b1ea2eb2177db1aedb61b62",
+      "gitBlob": "b4ba276b71c46884dbd826619ce3dd31c5ef90fc",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/run_enrichment_pipeline.py",
+      "bytes": 3010,
+      "sha256": "1277afd4546240538f782bd9275135901c270805dc0358755f5842e1d83e1719",
+      "gitBlob": "c7391d21e5eaa4b3a51f9148090abe5c20e0833a",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/test_kimi_integration.py",
+      "bytes": 4531,
+      "sha256": "ea4687cbef948aedb5d2c941977a9b690c61477d183fb462e2cf5afc78591417",
+      "gitBlob": "39b8740fd3398963d3d62b4111663abce401344c",
+      "lfsPointer": false
+    },
+    {
+      "path": "k3_agents/__init__.py",
+      "bytes": 881,
+      "sha256": "81b9318a32d725f2209329091b39aee74b70e3c1589f5d0a7ca78dd483c6b9c5",
+      "gitBlob": "d5a3fba2c35ad3344f224ba2a83b62ffd5b0c4cc",
+      "lfsPointer": false
+    },
+    {
+      "path": "k3_agents/base.py",
+      "bytes": 4820,
+      "sha256": "9f565a224893fb76e0d5ecfe0e5dc42aec604d9ab900459f68ada25911e51d4a",
+      "gitBlob": "df271d615d2186fe8341446f082c1062cbb1140e",
+      "lfsPointer": false
+    },
+    {
+      "path": "k3_agents/concept_scout.py",
+      "bytes": 1123,
+      "sha256": "94b65738c5d7515984130288849a4c0e6837fca16e277023973dbaf0e2dc2dfd",
+      "gitBlob": "822bc1f7ddfcb61a511e9bbf61be9ee8c3362819",
+      "lfsPointer": false
+    },
+    {
+      "path": "k3_agents/manim_coder.py",
+      "bytes": 1845,
+      "sha256": "0ddcc48e8c507c6a9acfe62063c4454fe9512ccf35b6733b195aa73d3632a120",
+      "gitBlob": "ed1b854a76756e661f59f7c4e0778bd6dee03e2b",
+      "lfsPointer": false
+    },
+    {
+      "path": "k3_agents/math_enricher.py",
+      "bytes": 1005,
+      "sha256": "74f0a56cdd0ecaad9e61c6093b5779197dcbc8051edb6b4da660a213da098deb",
+      "gitBlob": "bc4964041a57cd579dac777fdcf6a0d6dbb83efc",
+      "lfsPointer": false
+    },
+    {
+      "path": "k3_agents/narrative_composer.py",
+      "bytes": 1326,
+      "sha256": "a19fc156ac8421e76a34005d17968f3bd82f16eee6b13ce35e67e2014d4ae5dd",
+      "gitBlob": "7c62a88922bb8561953f412b058b22ba173e2a17",
+      "lfsPointer": false
+    },
+    {
+      "path": "k3_agents/render_critic.py",
+      "bytes": 1462,
+      "sha256": "1de3e909e7be09d446e8b4ecbb6082ae0295cd4f644d96cd5bbd45f776a75625",
+      "gitBlob": "445d06e1da70a65aa50fde5f3f9a2fa22abef6f3",
+      "lfsPointer": false
+    },
+    {
+      "path": "k3_agents/runtime.py",
+      "bytes": 4039,
+      "sha256": "0b1f90666a5633fde49d6001f6d10b4e88ee45d8067ee9385372597decd84165",
+      "gitBlob": "ca5ee473c00ab1c776a875382cff1e1a0c4260c1",
+      "lfsPointer": false
+    },
+    {
+      "path": "k3_agents/supervisor.py",
+      "bytes": 10037,
+      "sha256": "d88791e1785253b253ccfd1748de0b50daffa2d56a2096f8e8962c9e38570192",
+      "gitBlob": "3affebfc919caa9e7186a0caeb9f65e9d992b25e",
+      "lfsPointer": false
+    },
+    {
+      "path": "k3_agents/visual_designer.py",
+      "bytes": 2177,
+      "sha256": "73d4ee0940cd11f7c2abebeec4dc5664ca5b889b84dca718d059c020e2a176f7",
+      "gitBlob": "efbb0c4647fe7bf1448a7e26f24f1ecfcbda08f1",
+      "lfsPointer": false
+    },
+    {
+      "path": "kimi_client.py",
+      "bytes": 11937,
+      "sha256": "9fbd314ff55b94b419c52262f5aad514ca465e38918307bb97b6a77253670c94",
+      "gitBlob": "1ceab934e356e933890ccb16827aa3fcb80a5e05",
+      "lfsPointer": false
+    },
+    {
+      "path": "logger.py",
+      "bytes": 11279,
+      "sha256": "fdd4389399e8e749bc0d6352e534be23c3de54cf6f9cc6809dd78ab6d5f45881",
+      "gitBlob": "d1ad96e2221ec58fe9d649c7c859fcb5e47accab",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/KimiNewton.py",
+      "bytes": 5628,
+      "sha256": "2cf9bb297cebdbabca52d09003fd4629363ab21f670c3b3c84cd8222e704f0d5",
+      "gitBlob": "d1602ade4ecfdc0b32934d1e58ad0b3ea5b793a1",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/Kimik2First.py",
+      "bytes": 17431,
+      "sha256": "e6a66d2e3d65333e6db016e6dd6bd0ff8365552ff2aa7cfe3d0b76480c7621ea",
+      "gitBlob": "8f0b7ce28f76a0fab86bf7e3e0d0cab779c99fef",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/README.md",
+      "bytes": 2014,
+      "sha256": "f0591b5f244189a36a6dbb8c561ea1b69edb4694c0444578839f6c1d39df5163",
+      "gitBlob": "69b66726a0a80a00209251d4c8f3377b5e32f8c2",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/SlowFastNetwork.py",
+      "bytes": 25640,
+      "sha256": "b6378dd29effe39c3201d24dd5bd6552305b7a14fb983afff74275dd0ae1ae6d",
+      "gitBlob": "6e51383b1f0abc29c33a7f186faf0efbf5b9df20",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/bak_sneppen_3d.py",
+      "bytes": 20194,
+      "sha256": "4fcae640214f4190f2445e24b16c1ccff5daa8581f28155ce30038c1e6d16976",
+      "gitBlob": "9cb30171c68de206ad137452259136e988998aa7",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/enhance_rhombicosidodecahedron.py",
+      "bytes": 24372,
+      "sha256": "8f5e787d70968cb52d357c6037cc70aef34adb475c39133d01cd2b1bc404b3dc",
+      "gitBlob": "ac755a41834cd00901f36e826de0409846c145b7",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/epic_rhombicosidodecahedron.py",
+      "bytes": 12573,
+      "sha256": "68a58cd3167cda699f55a743d00e64c5ff6c1d06f5f3bd49ee5d581721d61ef4",
+      "gitBlob": "4a0b0f02a1eb6e2ad05b42406a79efc07f1a82d2",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/extract_scenes.py",
+      "bytes": 4471,
+      "sha256": "f82f3a8bb75c55997ecae4dc0e929560f1860a43d30b422f8b080604c0411919",
+      "gitBlob": "c2f49568191b6915b981d6b304cde75123df982c",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/harmonic_theorem.py",
+      "bytes": 9828,
+      "sha256": "2de4ab1594cadb66a13ba0d426a8e1374da0d24076f1fd6d53d7ee1e35b786a6",
+      "gitBlob": "d26cc36a13de2f51a0f44e8308affcd5e61db3c7",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/k3_harmonic_universe.py",
+      "bytes": 11517,
+      "sha256": "875ae657a82bcb623a3cabf4f3a7e75d9751322fd6b3031374080bbdb8301888",
+      "gitBlob": "75fc461af326c7eb0fb87e6f614738f98e92bb30",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/k3_reverse_reasoning.py",
+      "bytes": 19781,
+      "sha256": "f387cb93a1dbc840f5f93a5da6243c49f519c0819b3f480b4cc3e010058293e1",
+      "gitBlob": "10062b0126c756c1df1ccaa8e6557a272a928c69",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/kimi2pythag.py",
+      "bytes": 4436,
+      "sha256": "5156ac37304b5a5172ba846c725bcaa6e71598490c9152840d90fbbd3e586bbd",
+      "gitBlob": "74506d9143fd7fd41e6a1d87b0fd94d1f512cd0b",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/melting_space.py",
+      "bytes": 40200,
+      "sha256": "c73464b78e1fca1decd402cbdf401952d8cd380d62c60ca66cc61ab65a053d14",
+      "gitBlob": "77f8df06a07b45c689b91b5bb454ca58fd004954",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/openaiNewton.py",
+      "bytes": 7383,
+      "sha256": "b2ca3a0e3805f7cb0df81bb375cccf5f48ecedeb28f6fe178043702a6e0e318e",
+      "gitBlob": "24be97e8bc91e28b3301540e42e7522731252399",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_scenes/render_rhombicosidodecahedron.py",
+      "bytes": 8543,
+      "sha256": "a247a3878af9e42b35179da3ee26052072f7b7b55f6c0b2d2d388e255b4f8f50",
+      "gitBlob": "45a78de751fd985b5d756b69f9aaecdb31d45e45",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_utils/README_BOUNDED_SCENE.md",
+      "bytes": 5806,
+      "sha256": "3c4a9cd08a9659df6963cfa915c0e1f5f9ad5f3a08f2df0f65ab1c4e1ba0ac5a",
+      "gitBlob": "1b6e92065442285e3083230b259848f49eb231a7",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_utils/README_SCENE_MANAGEMENT.md",
+      "bytes": 5192,
+      "sha256": "10982c7734935c949a8d25a57e368844c1dc636d4709fce39462ebcc5f8a25ad",
+      "gitBlob": "98d6b54e40e2c755f3a89661014e446609f8539e",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_utils/bounded_scene.py",
+      "bytes": 11389,
+      "sha256": "027d1deca4cb427b2926cb0ff5a3e121444ff370ca9b88b3b66ac7fdca7ab972",
+      "gitBlob": "b35c63ad01cb92529bfeec64815be3eb11ac9680",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_utils/frame_config.py",
+      "bytes": 1521,
+      "sha256": "12173ff978f84c18e3405071820f9bae200ecf8b742a99553dbf48fba03af635",
+      "gitBlob": "37c5facd58421124ff6865bd283d0c2433b1cd12",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_utils/managed_scene.py",
+      "bytes": 6159,
+      "sha256": "e232f9d984fc67bab180b926ac8022b6b267b55308849d958f0a0c529824113f",
+      "gitBlob": "ebd671f6cc052de4dc0ea4952b6f2b01580a27ee",
+      "lfsPointer": false
+    },
+    {
+      "path": "manim_utils/scene_manager.py",
+      "bytes": 13808,
+      "sha256": "8b0f59061f5d3fa39eaa436caed33a710fd43b550b40379c34ff149be569368c",
+      "gitBlob": "51a78e41a628aa1c9c5790b9602042a1a162d13d",
+      "lfsPointer": false
+    },
+    {
+      "path": "mcp_server.py",
+      "bytes": 7243,
+      "sha256": "a8319bcd176ac90e8dce1ac3676f4c81a9742c725c49ccc0e1a20e0c0ab88d26",
+      "gitBlob": "55262aae87078214d5b9eb1b63cd8eaafca39633",
+      "lfsPointer": false
+    },
+    {
+      "path": "minimal_surfaces_scene.py",
+      "bytes": 14414,
+      "sha256": "941caa99cdc4ccfb361f5b61a90eeeafa2630165be9e814497d85e6010f75766",
+      "gitBlob": "37f352f06b42c7c34fce9a021038fd1afe7be53f",
+      "lfsPointer": false
+    },
+    {
+      "path": "output/rhombicosidodecahedron_narrative.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "lfsPointer": false
+    },
+    {
+      "path": "prompts/RicciFlowFilm.tex",
+      "bytes": 21402,
+      "sha256": "f8f70973acca9ad3d76bbbd02b37cedcdb8ced58f8e6b2f6e464ca7e0b3777c6",
+      "gitBlob": "97faacbe629ffd1e76ce8633686f37ef4d29efeb",
+      "lfsPointer": false
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 379,
+      "sha256": "b8f3e89633f2c5b129082ad8bf8279316064f6bf369cd79059b7df3de1685a05",
+      "gitBlob": "02f1257985795caee2ccdd44e31caa71556be884",
+      "lfsPointer": false
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 426,
+      "sha256": "71e431b96a59ef7f6b397cb6e0a344233f89ca39340bad9e33c40a5860c35ae7",
+      "gitBlob": "14cc9e2cadc500501b1961f8c0635424e6f83c75",
+      "lfsPointer": false
+    },
+    {
+      "path": "research/manim_ce_3d_briefing.md",
+      "bytes": 14913,
+      "sha256": "155ee8bfe86e388b3ffcfbe6af83b3e61fc21a930bc90be80439237a1d9273d7",
+      "gitBlob": "a00fa47c08bb253d2ae116dcae9216f859391bb8",
+      "lfsPointer": false
+    },
+    {
+      "path": "research/prime-intellect-rl-stack-briefing.md",
+      "bytes": 18747,
+      "sha256": "2d3ed76f0591b482c2129624c09d25b946b3e2fffffb3af8b7d85ba43f458c68",
+      "gitBlob": "df2699c19a764957e091319ad453ec1cf1680b80",
+      "lfsPointer": false
+    },
+    {
+      "path": "resume_pipeline.py",
+      "bytes": 3540,
+      "sha256": "4bf38e9a33422564696f82bbfe07527af96dcfde6e3eff42eb9fb50c5eb4520c",
+      "gitBlob": "70efd6472955567c521906cbda0b987f6e0606b8",
+      "lfsPointer": false
+    },
+    {
+      "path": "rl/__init__.py",
+      "bytes": 135,
+      "sha256": "cb920a78a73ef96d788adcbce36b866bda7d489851dc2664c2c56a2ef02d7571",
+      "gitBlob": "74309b7740f74ef7b7bdd18d02ef66c6b42d312a",
+      "lfsPointer": false
+    },
+    {
+      "path": "rl/build_dataset.py",
+      "bytes": 9577,
+      "sha256": "a7b6466615a110eddbb1fe82671271cb7f3f5884a653b7d279cdebe5f9e4a79b",
+      "gitBlob": "ada60d2266c7e986de28d3b869caa0201705d7f9",
+      "lfsPointer": false
+    },
+    {
+      "path": "rl/mutation_engine.py",
+      "bytes": 5543,
+      "sha256": "419cfdee694421d003508173dcf4d0dcf4310104df1bfac93a78f73dbb388cef",
+      "gitBlob": "3c88c48ef80e3047fcefc7ebe4d0e05b7da785be",
+      "lfsPointer": false
+    },
+    {
+      "path": "rl/mythos_adapter.py",
+      "bytes": 5916,
+      "sha256": "60303c4447083e4c8c140ce189b4e09f761833096c759f398b641ef076b54a26",
+      "gitBlob": "24f1768b1fe24f95c26ea167c6d5b5dba262b7c2",
+      "lfsPointer": false
+    },
+    {
+      "path": "run_dakota_agent.py",
+      "bytes": 3426,
+      "sha256": "912712370deb23131c350697d2c845283b6544168b92f082720199227297a8e7",
+      "gitBlob": "dd1edd5d4e66693a6a516b35688c169d9e6a6196",
+      "lfsPointer": false
+    },
+    {
+      "path": "run_repo_viz_agent.py",
+      "bytes": 3361,
+      "sha256": "311da543ca8e59ca08f976009c38d33e064e3ea89cc4d958703fc0d78a2eb1c9",
+      "gitBlob": "2810219d0ce5f2d94fb4640a59eaef9826f800d2",
+      "lfsPointer": false
+    },
+    {
+      "path": "schemas/__init__.py",
+      "bytes": 718,
+      "sha256": "7b4fd821d2369869ae7fd29ed5a44d69e72d0246a6cc18e60a88d3e3dcfe3d1c",
+      "gitBlob": "00a6d5564e6845c4cd861ca575b37358ee4816bf",
+      "lfsPointer": false
+    },
+    {
+      "path": "schemas/artifacts.py",
+      "bytes": 6262,
+      "sha256": "d4ef3701fbad42578bb6a03d480c4518e16d20ccfc2bd6c1824534f97bb29ae8",
+      "gitBlob": "8f16db755d328bb45eed59bf95c10c03c3e10942",
+      "lfsPointer": false
+    },
+    {
+      "path": "setup.py",
+      "bytes": 1843,
+      "sha256": "0aa41bba89206ba2c7570cda0064b4b0a47e0bb3fd6a873e5393b90f3749849e",
+      "gitBlob": "3000e4c8435574e96e65c4791f7f254195106451",
+      "lfsPointer": false
+    },
+    {
+      "path": "skills/kimi3manim/SKILL.md",
+      "bytes": 4146,
+      "sha256": "ae94eb057d13d417f2b50a1139f30b0f33990154232d11df4cea522f6dd4d998",
+      "gitBlob": "eeab83bd8ebff96952f41b90a83d42404a7211d2",
+      "lfsPointer": false
+    },
+    {
+      "path": "test_kimi_connection.py",
+      "bytes": 1030,
+      "sha256": "e1593eb190e6d01ff3419a3a79977b314ac7094a43f128b1687b17415f4d7044",
+      "gitBlob": "721385996f0e809eae66126bec575ba46b651b49",
+      "lfsPointer": false
+    },
+    {
+      "path": "tool_adapter.py",
+      "bytes": 5617,
+      "sha256": "702e73578f81f018e94d7d61a45b45d4e3be81be51887a6cb909419445728745",
+      "gitBlob": "ae690ea573b0e829f97d842f909657d0cd049709",
+      "lfsPointer": false
+    },
+    {
+      "path": "torus/Imagereference.jpg",
+      "bytes": 33010,
+      "sha256": "ca1ed43f0aca051d318e84a12b64d9502edffa0e9a519682e8922a057301d4a4",
+      "gitBlob": "f525a59fb0ef765077eec9a97692f7fdad49ab15",
+      "lfsPointer": false
+    },
+    {
+      "path": "torus/README.md",
+      "bytes": 3031,
+      "sha256": "5e16fe15f3461615c1031049f5b969a639f45aaa81c4d2f5855b7bd1e58c6d87",
+      "gitBlob": "aa169a71c9fd233416ff2de8c5acabe4b9d37d88",
+      "lfsPointer": false
+    },
+    {
+      "path": "torus/SURFACE_RESEARCH.md",
+      "bytes": 3050,
+      "sha256": "d48719f2006174f58adb09927b64072e2233fb35ccef8a3f90e8cf9b1c0fb609",
+      "gitBlob": "346515381bae21688debeb20f81e9f2e27a0d6d9",
+      "lfsPointer": false
+    },
+    {
+      "path": "torus/TorusEigenfunctions.gif",
+      "bytes": 133,
+      "sha256": "6d58a3bf5eb26059370910b28a819e90ee1d247b9bfafd282bf814363187ef89",
+      "gitBlob": "f5a6e4efde143615a9a16dfe6ecef750168cc628",
+      "lfsPointer": true
+    },
+    {
+      "path": "torus/instructions.txt",
+      "bytes": 876,
+      "sha256": "db41eead551b4e7785122fca38e075d6a00d8af45e2691ee8e54dca195a98ec0",
+      "gitBlob": "7f422c812f2468f11498cc9c7562a1aaec41f2fa",
+      "lfsPointer": false
+    },
+    {
+      "path": "torus/run_pipeline.py",
+      "bytes": 4239,
+      "sha256": "41320801aef5698c3301d1a946f00e44a9eb326578627460f3a5c6b80f483431",
+      "gitBlob": "5c9e2eff0b64c89fe7d99ec5386a8044ee0d7f5b",
+      "lfsPointer": false
+    },
+    {
+      "path": "torus/torus_eigenfunctions.py",
+      "bytes": 9259,
+      "sha256": "e9505bb5a9873f4ccf15d043169520ad00a8e93a8f324daae8cfaa189b8c0032",
+      "gitBlob": "adffa1a66199b09638b928d400dafb386ef64baf",
+      "lfsPointer": false
+    },
+    {
+      "path": "torus/torusnotes.pdf",
+      "bytes": 229789,
+      "sha256": "4b15ff12a60282795aabc6845b2f6be15311030e4b75fda6c5759e4982dc2cfb",
+      "gitBlob": "9270761f4449b9f74c330302be60e7a184226811",
+      "lfsPointer": false
+    },
+    {
+      "path": "utils/convert_dakota_to_tool.py",
+      "bytes": 12981,
+      "sha256": "983127ebe1214dc117371d73dc59fea448d6cc5099a6d696a1c7c0dadf301362",
+      "gitBlob": "4edb3ad49c5a5cfbc94d84f44ea8c03d8190acd1",
+      "lfsPointer": false
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 622992,
+      "sha256": "8f2b6e7196f0e50a023b8dc1a879f69c6107e11b992e303ef053e56a4e01eeeb",
+      "gitBlob": "1e12c72ec0f4b3db531eca8ee4a9fa169390c00b",
+      "lfsPointer": false
+    }
+  ]
+}

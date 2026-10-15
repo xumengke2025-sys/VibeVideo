@@ -4,16 +4,18 @@
 
 GitHub公开版本的上传范围、参考恢复及启动方法见 [PUBLICATION.md](PUBLICATION.md)。项目源码和本项目制作的预览影片随仓库保存；第三方原片从作者原址恢复，原许可证和固定版本索引保留。运行 `npm run preview:references` 可打开本地参考选择目录。
 
-新增参考入口（2026-10-12）：[GitHub 视频与源码选择目录](work/github-reference-expansion-20261011/index.html)，支持播放、搜索及按源码情况筛选；[仓库清单与使用说明](work/github-reference-expansion-20261011/CATALOG.md)。原始源码、媒体、许可证与固定版本记录保存于 `reference-sources/github-expansion-20261011`。
+参考入口（2026-10-15发布更新）：[原片、风格与源码目录](work/github-reference-expansion-20261011/index.html)，共319条参考，109条有对应绘制源码（89部影片、20段镜头样段），其余按作者原片、改编、节选及输入不完整的模板标注。支持搜索、画风、作品类型、源码状态、批次筛选和分页。[本轮来源与查重](work/video-film-expansion-20261014/README.md)、[仓库清单与说明](work/github-reference-expansion-20261011/CATALOG.md)。公开仓库提供索引、来源与恢复清单；第三方原片从作者地址恢复，下载范围和许可见 [PUBLICATION.md](PUBLICATION.md)。
 
-当前视频画幅按用户要求统一采用 **9:16 竖屏**（1080×1920）。最新15秒成片：
+当前视频支持 **16:9 横屏**（1920×1080）与 **9:16 竖屏**（1080×1920），新片启动时提供选项；已指定画幅和后续修改沿用该片选择。以下为历史15秒成片：
 
 - [热点片《冰下，宇宙亮了》](work/hot-news-20261009/out-final/icecube-news-portrait.mp4)：南极历史实景、冰下光迹与2026诺贝尔物理学奖，含原创氛围配乐与事件音。
 - [弹簧止回阀《只向一个方向》竖屏版](work/portrait-valve-20261009/out-final/one-way-portrait.mp4)：重新纵向绘制的15秒机制片，含机械音效。
 
 两支片的源码、来源与审片证据均保存在各自目录。下列横版为历史版本。
 
-制作流程见 [PRODUCTION.md](PRODUCTION.md)。安装技能与项目副本当前同步为0.14.0，保留导演/运动/技法与工程能力，加入真实低清渲染、耗时分阶段记录、小批审核续接与无进展交付边界；实际安装仍位于 `D:/Codex/skills/vibe-video`。生成后先由第二角色逐帧及完整音频审核、有限修复复核后展示；用户明确要求先看时立即展示。
+制作流程见 [PRODUCTION.md](PRODUCTION.md)。技能当前版本0.16.3，入口在 [skill/vibe-video/SKILL.md](skill/vibe-video/SKILL.md)。[成套视频与源码检索](skill/vibe-video/references/video-example-library.md)返回视频和准确源码入口；仅有媒体的作品可用于视觉研究，不能冒称已研究实现。新片与大幅改造默认先做可动画化的整体效果图，落实反馈后制作关键动作样段与整片；已有认可方案和局部修改直接复用，细则见 [效果图先行](skill/vibe-video/references/concept-first.md)。交付沿用用户所选“直接生成，由用户反馈”或“AI 审核一轮”。
+
+镜头库与Motion Workbench接入见 [shotcraft-integration.md](skill/vibe-video/references/shotcraft-integration.md)：固定2026-10-13上游版本，124张卡/150个Gallery变体，新增准确源码检索、Windows工作台与横竖PageCam适配。安装 `D:/Codex/skills/video-shotcraft` 的旧版完整保存在本次任务目录；[接入检查点](work/shotcraft-integration-20261014/CHECKPOINT.md)记录实际验证与限制。工作台需要Remotion组件清单，旧HTML/Canvas片不自动转换。
 
 三项暂停任务的性能改动、验证与续接入口见 [实施说明](work/performance-optimization-20261011/实施说明.md)。暂停聊天没有自动恢复；继续时先读取各项目PERFORMANCE-HANDOFF.md。
 

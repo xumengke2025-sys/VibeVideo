@@ -1,0 +1,79 @@
+{
+  "id": "original/gouthamjay8-910269",
+  "title": "按官网生成 SaaS 发布视频",
+  "group": "产品 UI 宣传片",
+  "tags": "产品 UI 宣传片 产品发布与广告 SaaS launch video from a website 根据产品官网和网上真实素材做的 55 秒 SaaS 发布视频，Opus 还主动把网站吉祥物做进了画面。 gouthamjay8",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "gouthamjay8",
+  "authorUrl": "https://x.com/gouthamjay8/status/2103816261339910269",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/gouthamjay8-910269.mp4",
+  "bytes": 6400300,
+  "sha256": "cf408ea796d5fd77723b000a00a70c39e1c958d7c187455ec81afb8d8e2bf815",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103815750389768192/vid/avc1/1280x720/E4a1J8U1_fHzfwnV.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/gouthamjay8-910269.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/gouthamjay8-910269.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 55.4,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "gouthamjay8-910269",
+    "title": "SaaS launch video from a website",
+    "title_zh": "按官网生成 SaaS 发布视频",
+    "url": "https://x.com/gouthamjay8/status/2103816261339910269",
+    "author": "gouthamjay8",
+    "author_name": "Goutham Jay ⚡",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 55-second SaaS launch video built from the product's website and real online assets; Opus found and animated the site's mascot unprompted.",
+    "description_zh": "根据产品官网和网上真实素材做的 55 秒 SaaS 发布视频，Opus 还主动把网站吉祥物做进了画面。",
+    "prompt": "I want you to create a highly professional SaaS product launch video. Go and look up [website] Pick that, and then make sure to get actual assets and images and all of that stuff from the internet. Turn it into these typical, very professionally edited, motion-graphics-styled product launch videos that you see people making on Twitter when they launch new SaaS products (which are showing off the features, the benefits, and all of these things). It should show what an incredible motion designer you are, like it's your showreel for a resume. Go all out.",
+    "prompt_lang": "en",
+    "prompt_zh": "我想让你制作一段非常专业的 SaaS 产品发布视频。去查一下 [website]，就选它，然后一定要从网上拿到真实的素材、图片之类的东西。把它做成那种典型的、剪辑非常专业的动态图形风格产品发布视频，就是大家在 Twitter 上发布新 SaaS 产品时常做的那种（展示功能、好处等等）。它要展示你是多么出色的动效设计师，就像简历里的作品集一样。拿出全部本事。",
+    "prompt_url": "https://x.com/gouthamjay8/status/2103816558523159008",
+    "kind": "template",
+    "tools": [
+      "claude-code"
+    ],
+    "inputs": [
+      "brand"
+    ],
+    "note": "Author: one shot.",
+    "note_zh": "作者称一次生成。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103815750389768192/img/PsaYtA-4ptaOkHOs.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103815750389768192/vid/avc1/480x270/LFj55B-tC7pvdIOu.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103815750389768192/vid/avc1/1280x720/E4a1J8U1_fHzfwnV.mp4?tag=29",
+      "duration": 55.4,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 69,
+      "likes": 75,
+      "views": 5798,
+      "reposts": 6
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103816261339910269",
+    "style": "productui",
+    "title_zh": "SaaS产品专业发布宣传片",
+    "title_en": "SaaS Product Launch Promo",
+    "author": "gouthamjay8",
+    "post_url": "https://x.com/gouthamjay8/status/2103816261339910269",
+    "prompt": "I want you to create a highly professional SaaS product launch video. Go and look up [website] Pick that, and then make sure to get actual assets and images and all of that stuff from the internet. Turn it into these typical, very professionally edited, motion-graphics-styled product launch videos that you see people making on Twitter when they launch new SaaS products (which are showing off the features, the benefits, and all of these things). It should show what an incredible motion designer you are, like it's your showreel for a resume. Go all out.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 81
+  },
+  "downloadedAt": "2026-10-14T09:18:43.209Z"
+}

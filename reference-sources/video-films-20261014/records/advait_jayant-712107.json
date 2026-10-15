@@ -1,0 +1,77 @@
+{
+  "id": "original/advait_jayant-712107",
+  "title": "DreamFort 宣言动效片",
+  "group": "生成艺术 · 霓虹",
+  "tags": "生成艺术 · 霓虹 产品发布与广告 DreamFort motion graphics manifesto DreamFort 的 20 秒宣言片，用 HyperFrames 制作，画面和声音全由代码写成，不用图像或视频模型。 advait_jayant",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "advait_jayant",
+  "authorUrl": "https://x.com/advait_jayant/status/2103565104243712107",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/advait_jayant-712107.mp4",
+  "bytes": 1013445,
+  "sha256": "fa458a522782b9a3431cc30e40f00055f6caa979ccff524320a8cd3c312f44ff",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103564346336890880/vid/avc1/1280x720/dVS6eNtSA7tOVWcY.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/advait_jayant-712107.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/advait_jayant-712107.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 20,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "advait_jayant-712107",
+    "title": "DreamFort motion graphics manifesto",
+    "title_zh": "DreamFort 宣言动效片",
+    "url": "https://x.com/advait_jayant/status/2103565104243712107",
+    "author": "advait_jayant",
+    "author_name": "Advait",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 20-second brand manifesto for DreamFort built with HyperFrames, where every frame and sound is written in code with no image or video models.",
+    "description_zh": "DreamFort 的 20 秒宣言片，用 HyperFrames 制作，画面和声音全由代码写成，不用图像或视频模型。",
+    "prompt": "make a 20-second motion graphics manifesto for DreamFort: \"superintelligence should belong to everyone\". every frame and every sound written in code, no image or video models.",
+    "prompt_lang": "en",
+    "prompt_zh": "为 DreamFort 做一支 20 秒的动态图形宣言片：“superintelligence should belong to everyone”。每一帧、每一个声音都用代码写出来，不用任何图像或视频模型。",
+    "prompt_url": "https://x.com/advait_jayant/status/2103565106504237084",
+    "kind": "one-shot",
+    "tools": [
+      "hyperframes"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103564346336890880/img/qVMJAK_fBnWZYBGu.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103564346336890880/vid/avc1/480x270/poDEMBQir6FKfyum.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103564346336890880/vid/avc1/1280x720/dVS6eNtSA7tOVWcY.mp4?tag=29",
+      "duration": 20,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 7,
+      "likes": 9,
+      "views": 882
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103565104243712107",
+    "style": "generative",
+    "title_zh": "DreamFort超智能宣言",
+    "title_en": "DreamFort AI Manifesto Film",
+    "author": "advait_jayant",
+    "post_url": "https://x.com/advait_jayant/status/2103565104243712107",
+    "prompt": "make a 20-second motion graphics manifesto for DreamFort: \"superintelligence should belong to everyone\". every frame and every sound written in code, no image or video models.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 9
+  },
+  "downloadedAt": "2026-10-14T09:16:51.571Z"
+}

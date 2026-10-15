@@ -1,0 +1,79 @@
+{
+  "id": "original/dotey-522564",
+  "title": "什么是 Transformer",
+  "group": "科普图解 · 数据可视化",
+  "tags": "科普图解 · 数据可视化 科普与讲解 What is a Transformer, a 12-minute explainer 给高中生讲 Transformer 和注意力机制的 12 分钟视频，xhigh 一次出片，配音用免费 Edge TTS。 dotey",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "dotey",
+  "authorUrl": "https://x.com/dotey/status/2103683057689522564",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/dotey-522564.mp4",
+  "bytes": 33103680,
+  "sha256": "4f69f4f2fee991db458b5e78bdb0791c25c956eb0a1c69ce33bb3eed49905227",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103682805754388480/vid/avc1/1280x720/gGItf5g-pYVNwBql.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/dotey-522564.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/dotey-522564.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 732.3,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "dotey-522564",
+    "title": "What is a Transformer, a 12-minute explainer",
+    "title_zh": "什么是 Transformer",
+    "url": "https://x.com/dotey/status/2103683057689522564",
+    "author": "dotey",
+    "author_name": "宝玉",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 12-minute explainer on Transformers and attention for high school students, one-shot on xhigh; Opus found free Edge TTS for narration and used Remotion with KaTeX.",
+    "description_zh": "给高中生讲 Transformer 和注意力机制的 12 分钟视频，xhigh 一次出片，配音用免费 Edge TTS。",
+    "prompt": "帮我用js制作一个视频，主题是：什么是 Transformer\n要深入浅出，让高中生也能看得懂，不仅high level说的清楚，也要有细节，包括注意力机制，甚至一些数学概念\n\n你可以用任何工具或者安装工具，可以联网检索\n\n请给我惊喜",
+    "prompt_lang": "zh",
+    "prompt_en": "Help me make a video with JS, on the topic: What is a Transformer\nExplain it simply enough that high school students can follow. Make the high-level picture clear, but also include details, including the attention mechanism and even some math concepts\n\nYou can use any tool or install tools, and you can search the web\n\nSurprise me",
+    "kind": "brief",
+    "tools": [
+      "claude-code",
+      "remotion",
+      "tts"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103682805754388480/img/3sFzGvr0YiE5sXKC.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103682805754388480/vid/avc1/480x270/G3jQgoE1JpN5aeiL.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103682805754388480/vid/avc1/1280x720/gGItf5g-pYVNwBql.mp4?tag=29",
+      "duration": 732.3,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 1576,
+      "likes": 1212,
+      "views": 165649,
+      "reposts": 247
+    },
+    "category": "explainer"
+  },
+  "styleClassificationSource": {
+    "id": "2103683057689522564",
+    "style": "explainer",
+    "title_zh": "Transformer原理讲解视频",
+    "title_en": "What is Transformer explainer",
+    "author": "dotey",
+    "post_url": "https://x.com/dotey/status/2103683057689522564",
+    "prompt": "帮我用js制作一个视频，主题是：什么是 Transformer\n要深入浅出，让高中生也能看得懂，不仅high level说的清楚，也要有细节，包括注意力机制，甚至一些数学概念\n\n你可以用任何工具或者安装工具，可以联网检索\n\n请给我惊喜",
+    "prompt_partial": false,
+    "likes_2026_09_29": 1330
+  },
+  "downloadedAt": "2026-10-14T09:19:53.293Z"
+}

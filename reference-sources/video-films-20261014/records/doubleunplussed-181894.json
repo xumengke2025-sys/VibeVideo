@@ -1,0 +1,80 @@
+{
+  "id": "original/doubleunplussed-181894",
+  "title": "塞满 AI 梗的 MV",
+  "group": "拼贴 · 剪纸 · 沙画",
+  "tags": "拼贴 · 剪纸 · 沙画 MV 与歌词动画 AI-lore music video for a Suno song 4 分多钟的 MV，给一首 Suno 的 AI 主题歌配画面，塞满 AI 安全圈的梗，风格参照现成的代码动画。 doubleunplussed",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "doubleunplussed",
+  "authorUrl": "https://x.com/doubleunplussed/status/2103697580421181894",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/doubleunplussed-181894.mp4",
+  "bytes": 43273628,
+  "sha256": "0a83a09690a7d01fc066283fdfeb7da226a2069bdbf67c76731df619734d1fc5",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103695379518967808/vid/avc1/1280x720/Olvdt08t96BUmpXo.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/doubleunplussed-181894.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/doubleunplussed-181894.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 262,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "doubleunplussed-181894",
+    "title": "AI-lore music video for a Suno song",
+    "title_zh": "塞满 AI 梗的 MV",
+    "url": "https://x.com/doubleunplussed/status/2103697580421181894",
+    "author": "doubleunplussed",
+    "author_name": "doubleunplussed",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 4-minute music video for a Suno song about AI, full of AI-safety lore references, styled after an existing code-animated video and refined with two follow-up notes.",
+    "description_zh": "4 分多钟的 MV，给一首 Suno 的 AI 主题歌配画面，塞满 AI 安全圈的梗，风格参照现成的代码动画。",
+    "prompt": "I'd like you to make a music video in a similar style to this one:\n\nhttps://github.com/JohnHeibel/PDoomVideo\n\nTo this song:\n\nhttps://youtu.be/cobZuBii0Z0?si=ada6wxomeJbo-LRl\n\nDon't feel the need to represent everything in the lyrics literally - feel free to include relevant references to concepts, events, and lore in the video, even if obscure (especially if obscure). E.g. when the lyrics say \"when they say they're just predicting tokens...\", you might depict a \"stochastic parrot\". That one's not particularly obscure but is the kind of thing I mean. Instead of depicting like, literally predicting tokens (though you might do that too. Use your judgement! The video should be fun to watch for someone well steeped in AI and AI safety lore and discourse, and who Wille wcognise relevant pop culture and literary or historical references)\n\nI don't know how this ultimately results in a video file - I know the linked repo animates a video with JavaScript or something - but I ultimately want a rendered video file.\n\nFeel free to choose your tools, be creative, and exercise your own taste.\n\nThis repo \"fdsgdg\" appears to be have been accidentally created, but it's empty and we can use it for this, I can rename it afterwards.\n\nAlso, clip the final two beats from the audio.rught at the end, after \"then why does it talk back\" they are after the song has finished and sound bad.\n\nCredit the song to Suno and whatever Claude Opus model was the latest at the time of the YouTube upload, as prompted by Andy Masely (Andy printed Claude to write the lyrics, and Suno for the music), and credit the video to yourself.\n\nAnd have fun!\n\n----\n\nA style change - don't make Dr. Null's mouth wobble with the lyrics as if he's singing, it doesn't\n  actually look like he's singing, just that the curcle of his mouth is jittery. Best to just not\n  make him be singing. Make him just have appropriate expressions for the scenes, and not be singing\n  the song.\n\n----\n\nDr. Null's arms look a bit unnatural in many scenes - I think he's supposed to be holding\n  his hand on his face in shock or something, but it looks like it is a mistake. Can you make it look\n  more natural? If you do so and like the result, re-render.",
+    "prompt_lang": "en",
+    "prompt_zh": "我想让你做一个音乐视频，风格类似这个：\n\nhttps://github.com/JohnHeibel/PDoomVideo\n\n配这首歌：\n\nhttps://youtu.be/cobZuBii0Z0?si=ada6wxomeJbo-LRl\n\n不必把歌词里的每样东西都照字面表现出来——可以随意加入相关的概念、事件和圈内典故，哪怕很冷门（冷门的更好）。比如歌词唱到 \"when they say they're just predicting tokens...\" 时，你可以画一只「随机鹦鹉」。这个例子不算特别冷门，但就是我想要的那种东西。而不是去画字面意义上的预测 token（虽然你也可以画。你自己判断！这个视频要让一个深谙 AI 和 AI 安全圈典故与讨论、能认出相关流行文化和文学或历史典故的人看得开心）\n\n我不知道这最后怎么变成一个视频文件——我知道那个链接里的仓库是用 JavaScript 之类的东西做动画的——但我最终想要一个渲染好的视频文件。\n\n工具随你挑，发挥创意，按你自己的品味来。\n\n这个叫 \"fdsgdg\" 的仓库好像是不小心建的，但它是空的，我们可以拿来用，之后我再改名。\n\n另外，把音频最后两拍剪掉，就在结尾 \"then why does it talk back\" 之后，那时歌已经结束了，听起来很难听。\n\n歌曲署名给 Suno 和 YouTube 上传时最新的那个 Claude Opus 模型，由 Andy Masely 提示创作（Andy 让 Claude 写了歌词，让 Suno 做了音乐），视频署名给你自己。\n\n玩得开心！\n\n----\n\n风格上改一下——别让 Dr. Null 的嘴跟着歌词抖动，好像他在唱歌一样，看起来并不像在唱歌，只像他嘴巴那个圆圈在抖。最好就别让他唱歌。让他在各个场景里只做合适的表情，不要唱这首歌。\n\n----\n\nDr. Null 的手臂在很多场景里看起来有点不自然——我想他应该是震惊地把手捂在脸上之类的，但看起来像是出错了。你能让它看起来更自然吗？如果改完你觉得满意，就重新渲染。",
+    "prompt_url": "https://x.com/doubleunplussed/status/2103697584846238026",
+    "kind": "brief",
+    "tools": [
+      "claude-code"
+    ],
+    "inputs": [
+      "music",
+      "reference-video"
+    ],
+    "note": "Author: one main prompt plus two follow-up notes; prompts for fixing setup issues are left out.",
+    "note_zh": "作者称除主提示词外还有两条追加修改意见，处理环境问题的几条提示未列出。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103695379518967808/img/alJRSYjzfcpeX99w.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103695379518967808/vid/avc1/480x270/SSD7T0XyRquWJnFR.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103695379518967808/vid/avc1/1280x720/Olvdt08t96BUmpXo.mp4?tag=29",
+      "duration": 262,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 93,
+      "likes": 119,
+      "views": 24609,
+      "reposts": 17
+    },
+    "category": "music"
+  },
+  "styleClassificationSource": {
+    "id": "2103697580421181894",
+    "style": "collage",
+    "title_zh": "AI末日风险主题音乐视频",
+    "title_en": "AI Doom Music Video",
+    "author": "doubleunplussed",
+    "post_url": "https://x.com/doubleunplussed/status/2103697580421181894",
+    "prompt": "I'd like you to make a music video in a similar style to this one:\n\nhttps://github.com/JohnHeibel/PDoomVideo\n\nTo this song:\n\nhttps://youtu.be/cobZuBii0Z0?si=ada6wxomeJbo-LRl\n\nDon't feel the need to represent everything in the lyrics literally - feel free to include relevant references to concepts, events, and lore in the video, even if obscure (especially if obscure). E.g. when the lyrics say \"when they say they're just predicting tokens...\", you might depict a \"stochastic parrot\". That one's not particularly obscure but is the kind of thing I mean. Instead of depicting like, literally predicting tokens (though you might do that too. Use your judgement! The video should be fun to watch for someone well steeped in AI and AI safety lore and discourse, and who Wille wcognise relevant pop culture and literary or historical references)\n\nI don't know how this ultimately results in a video file - I know the linked repo animates a video with JavaScript or something - but I ultimately want a rendered video file.\n\nFeel free to choose your tools, be creative, and exercise your own taste.\n\nThis repo \"fdsgdg\" appears to be have been accidentally created, but it's empty and we can use it for this, I can rename it afterwards.\n\nAlso, clip the final two beats from the audio.rught at the end, after \"then why does it talk back\" they are after the song has finished and sound bad.\n\nCredit the song to Suno and whatever Claude Opus model was the latest at the time of the YouTube upload, as prompted by Andy Masely (Andy printed Claude to write the lyrics, and Suno for the music), and credit the video to yourself.\n\nAnd have fun!\n\n----\n\nA style change - don't make Dr. Null's mouth wobble with the lyrics as if he's singing, it doesn't\n  actually look like he's singing, just that the curcle of his mouth is jittery. Best to just not\n  make him be singing. Make him just have appropriate expressions for the scenes, and not be singing\n  the song.\n\n----\n\nDr. Null's arms look a bit unnatural in many scenes - I think he's supposed to be holding\n  his hand on his face in shock or something, but it looks like it is a mistake. Can you make it look\n  more natural? If you do so and like the result, re-render.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 151
+  },
+  "downloadedAt": "2026-10-14T09:11:09.455Z"
+}

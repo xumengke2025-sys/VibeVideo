@@ -1,0 +1,79 @@
+{
+  "id": "original/deedydas-252537",
+  "title": "AI 推理创业公司的发布视频",
+  "group": "动态排版",
+  "tags": "动态排版 产品发布与广告 Launch video for an AI inference startup 给 AI 推理创业公司做的 26 秒发布视频：写成网页动画后用 Playwright 录制，没用视频模型。 deedydas",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "deedydas",
+  "authorUrl": "https://x.com/deedydas/status/2102787937482252537",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/deedydas-252537.mp4",
+  "bytes": 2095764,
+  "sha256": "6c05b413fdf8cac6df501602b0c7cdaaa52d680515ff2380d1b8b5385d9e2804",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102787906494668800/vid/avc1/1280x720/F05wigdRZAYNR3xL.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/deedydas-252537.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/deedydas-252537.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 26,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "deedydas-252537",
+    "title": "Launch video for an AI inference startup",
+    "title_zh": "AI 推理创业公司的发布视频",
+    "url": "https://x.com/deedydas/status/2102787937482252537",
+    "author": "deedydas",
+    "author_name": "Deedy",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "A 26-second launch video for an AI inference startup, coded as a web animation and recorded with Playwright and ffmpeg; no video model used.",
+    "description_zh": "给 AI 推理创业公司做的 26 秒发布视频：写成网页动画后用 Playwright 录制，没用视频模型。",
+    "prompt": "make a modern slick and punchy video for a modern startup that works on inference",
+    "prompt_lang": "en",
+    "prompt_zh": "为一家做推理的现代创业公司，做一支现代、精致、有冲击力的视频",
+    "kind": "one-shot",
+    "tools": [
+      "playwright",
+      "ffmpeg"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: about 1 minute and ~$2 in raw API cost.",
+    "note_zh": "作者称约 1 分钟，API 原价约 2 美元。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102787906494668800/img/agrbxvHg24w3nJQD.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102787906494668800/vid/avc1/480x270/mCVF_nz4BsCko5zE.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102787906494668800/vid/avc1/1280x720/F05wigdRZAYNR3xL.mp4?tag=29",
+      "duration": 26,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 4699,
+      "likes": 3245,
+      "views": 338793,
+      "reposts": 149
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2102787937482252537",
+    "style": "typography",
+    "title_zh": "AI推理初创公司宣传片",
+    "title_en": "Startup Inference Promo Film",
+    "author": "deedydas",
+    "post_url": "https://x.com/deedydas/status/2102787937482252537",
+    "prompt": "make a modern slick and punchy video for a modern startup that works on inference",
+    "prompt_partial": false,
+    "likes_2026_09_29": 3256
+  },
+  "downloadedAt": "2026-10-14T09:17:22.497Z"
+}

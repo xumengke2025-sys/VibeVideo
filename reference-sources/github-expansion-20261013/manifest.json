@@ -1,0 +1,374 @@
+{
+  "checked": "2026-10-13",
+  "items": [
+    {
+      "repo": "az9713/opus-5.5-musical-cartoon",
+      "id": "az9713--opus-5.5-musical-cartoon",
+      "status": "archived",
+      "commit": "38201167ec193d919a70f9531d9ce131bc5c9828",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon",
+      "files": 46,
+      "bytes": 16414866,
+      "media": [
+        {
+          "path": "clawd-prose/out/clawd-prose.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/out/clawd-prose.mp4",
+          "gitBlobSha1": "13ede871a8ce5c818274aa60d232358a634ed048",
+          "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/out/clawd-prose.mp4",
+          "bytes": 8693220,
+          "sha256": "c3a8ff48d47565286c87c87de6474e37ee40b391bed7ce09afe5dae6b9b1af61",
+          "reusedExistingMedia": false
+        }
+      ],
+      "licenseFiles": [],
+      "modelEvidence": [
+        "A 15-second cartoon that stars Clawd, the Claude Code mascot. Claude Opus 5.5 wrote all of it in code: a p5.js + p5.brush watercolor picture, a synthesized score and sound effects, and a Puppeteer + FFmpeg render. The project uses no animation program, no video editor and no stock audio.",
+        "**The short version:** prompt → Claude Code (Opus 5.5) writes the code → Node.js runs it → headless Chrome runs the scene with p5.js + p5.brush → Puppeteer saves 360 PNG frames → `score.mjs` calculates `score.wav` → FFmpeg joins frames + WAV into the MP4 → ffprobe measures it → the model looks at sample frames and fixes the code.",
+        "| 3 | **Claude Opus 5.5** (the model) | The large language model that does the thinking | The brief, command output, images of frames | Plans the film, writes every line of code (`scene.js`, `clawd.js`, `paint.js`, `score.mjs`, `render.mjs`, `cues.json`), runs the render, then reads sample frames as images, finds errors, and changes the code. It cannot hear audio, so it checks the sound as numbers and as a waveform picture. | Source code |",
+        "| 4 | **Advisor** (Fable 5.1) | A second model that reads the whole session and gives advice | The session transcript | 2 calls in the build session: one after the pipeline proof (paint on paper colour, scale brushes up, check that renders are identical), one before \"done\" (read the final contact sheet, fix a lean jump at 12.083 s). It writes no code. | Advice to Opus 5.5 |",
+        "| 19 | **The check loop** (Opus 5.5 + FFmpeg + ffprobe) | Steps 3, 17 and 18 again | Stills, sheets, numbers | The model opens the contact sheet and stills as images, finds errors (for example reversed ribbon letters, a label off screen), changes the code, and renders again. Most of the build time went into this loop. | The final MP4 |",
+        "This project is inspired by the Code Bear YouTube video **[“I Asked Claude OPUS 5.5 to Make a Cartoon From Scratch… and It Did!”](https://www.youtube.com/watch?v=dT8OM3cqrMo)** ([repo: aadil6971/clawd-video](https://github.com/aadil6971/clawd-video))."
+      ],
+      "scope": "完整仓库文件快照；发布影片另存 release-media"
+    },
+    {
+      "repo": "bilaldemirerr/opus-video-recipes",
+      "id": "bilaldemirerr--opus-video-recipes",
+      "status": "archived",
+      "commit": "04a7837efe742faa885d593198f5197adaaea788",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes",
+      "files": 25,
+      "bytes": 5616049,
+      "media": [
+        {
+          "path": "captioned-vertical-clip/out.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/captioned-vertical-clip/out.mp4",
+          "gitBlobSha1": "b692037e01382ee1fcfdbf512461aa770dbd0f72",
+          "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/captioned-vertical-clip/out.mp4",
+          "bytes": 1628073,
+          "sha256": "bb96e18ea746e61cf8df0ce28ba9cbc464ec6dd5ba23d50550c607fd70addbed",
+          "reusedExistingMedia": false
+        },
+        {
+          "path": "kinetic-typography-explainer/out.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/kinetic-typography-explainer/out.mp4",
+          "gitBlobSha1": "af60fca8205e21c9d4b41207bcaacf8650f42592",
+          "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/kinetic-typography-explainer/out.mp4",
+          "bytes": 2243719,
+          "sha256": "aaf45dd150ae44b9f9e575dd00977bd1d206bf06ffed82f22bc22273b8f93af2",
+          "reusedExistingMedia": false
+        }
+      ],
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "modelEvidence": [
+        "Videos made with **Claude Opus 5.5**. Every recipe ships the real rendered MP4, the exact prompt, what the agent did, render time and, where it could be measured, the token cost. No invented numbers.",
+        "Full guide with embedded videos: **[How to make videos with Claude Opus 5.5](https://bilallabs.vercel.app/ai/opus-video)**",
+        "| Kinetic typography explainer: what's new in Opus 5.5 | HyperFrames | [![Kinetic typography](media/whats-new-opus-5-5.jpg)](kinetic-typography-explainer/out.mp4) | [kinetic-typography-explainer/](kinetic-typography-explainer) · [page](https://bilallabs.vercel.app/ai/opus-video/kinetic-typography-explainer) |"
+      ],
+      "scope": "完整仓库文件快照；发布影片另存 release-media"
+    },
+    {
+      "repo": "c5inco/motion-showreel",
+      "id": "c5inco--motion-showreel",
+      "status": "archived",
+      "commit": "fa37a7dea6fd346b6fb2aeee9fa35e1632538222",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel",
+      "files": 49,
+      "bytes": 53824705,
+      "media": [
+        {
+          "path": "release-media/showreel.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/release-media/showreel.mp4",
+          "url": "https://github.com/c5inco/motion-showreel/releases/download/v1.0/showreel.mp4",
+          "releaseTag": "v1.0",
+          "releaseAssetId": 595723227,
+          "upstreamDigest": "sha256:e5685ba4bed74f89dca1df07d751c43545d39b2c33fdfb10caf84d2a5fe715d1",
+          "role": "author-release-film",
+          "bytes": 51746983,
+          "sha256": "e5685ba4bed74f89dca1df07d751c43545d39b2c33fdfb10caf84d2a5fe715d1"
+        }
+      ],
+      "licenseFiles": [
+        "LICENSE",
+        "licenses/OFL-GeistMono.txt",
+        "licenses/OFL-InstrumentSerif.txt",
+        "licenses/OFL-InterTight.txt"
+      ],
+      "modelEvidence": [
+        "Designed and built with **Claude Opus 5.5** in [Claude Code](https://claude.com/claude-code).",
+        "## Made with Claude Opus 5.5",
+        "Claude Opus 5.5, working in Claude Code, did the concept, choreography, typography, AGSL shaders and Kotlin for this reel. It also verified the work on the Android emulator: it froze frames at chosen timestamps to review them, profiled the frame rate, and captured the recording."
+      ],
+      "scope": "完整仓库文件快照；发布影片另存 release-media"
+    },
+    {
+      "repo": "DDChen666/civilization-film",
+      "id": "DDChen666--civilization-film",
+      "status": "archived",
+      "commit": "e33ad33757ab196c7349b9008a2205f572b5a3b6",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film",
+      "files": 68,
+      "bytes": 380743964,
+      "media": [
+        {
+          "path": "release-media/civilization_zh-CN_1080p.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/release-media/civilization_zh-CN_1080p.mp4",
+          "url": "https://github.com/DDChen666/civilization-film/releases/download/v1.0/civilization_zh-CN_1080p.mp4",
+          "releaseTag": "v1.0",
+          "releaseAssetId": 607878679,
+          "upstreamDigest": "sha256:1e0271a24354a2f4e2a6f73322582f74f556d5167d8c557a78e18ef20060fb40",
+          "role": "author-release-film",
+          "bytes": 302998736,
+          "sha256": "1e0271a24354a2f4e2a6f73322582f74f556d5167d8c557a78e18ef20060fb40"
+        }
+      ],
+      "licenseFiles": [
+        "CREDITS.md",
+        "LICENSE",
+        "LICENSE-MEDIA.md"
+      ],
+      "modelEvidence": [
+        "- **Who did what.** **Claude Opus 5.5**, working in **Claude Code**, made all of the visuals, the music, the on-screen text and the milestone list. The director, **欸不是**, set the direction and reviewed the film at each checkpoint. It took about four and a half hours from the first message to all three language versions being rendered.",
+        "- **Code, visuals, music and text**: Claude Opus 5.5 (Anthropic), made in Claude Code",
+        "> *Civilization* (人類大歷史). Directed by 欸不是, made by Claude Opus 5.5, 2026. https://github.com/DDChen666/civilization-film"
+      ],
+      "scope": "完整仓库文件快照；发布影片另存 release-media"
+    },
+    {
+      "repo": "JakeB-5/motion-graphic-skill",
+      "id": "JakeB-5--motion-graphic-skill",
+      "status": "archived",
+      "commit": "21e875e9f97c83ce637eb18d35ff29c7712ebc18",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill",
+      "files": 51,
+      "bytes": 31467240,
+      "media": [
+        {
+          "path": "samples/pour-over/opus/pour-over.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/pour-over/opus/pour-over.mp4",
+          "gitBlobSha1": "69f1d1cac9fd3df3fca1ba8b45d5e2d81718194b",
+          "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/pour-over/opus/pour-over.mp4",
+          "bytes": 10466445,
+          "sha256": "998969633ec740a8d135c522b49a6b3e09dd0185759130638759ca3c9cc9d3f1",
+          "reusedExistingMedia": false
+        },
+        {
+          "path": "samples/skill-intro/opus/skill-intro.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/skill-intro/opus/skill-intro.mp4",
+          "gitBlobSha1": "8ac1bddc26d6f27c68cd9453ac4beb2bac07df86",
+          "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/skill-intro/opus/skill-intro.mp4",
+          "bytes": 5935232,
+          "sha256": "35335d342315636acee082551e78fe86e02ab07f86143bad493d0ef57d16b60d",
+          "reusedExistingMedia": false
+        },
+        {
+          "path": "samples/webb-telescope/opus/webb-telescope.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/webb-telescope/opus/webb-telescope.mp4",
+          "gitBlobSha1": "42332053c100a53b219bf7a47be720881f492cb4",
+          "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/webb-telescope/opus/webb-telescope.mp4",
+          "bytes": 10001956,
+          "sha256": "44a3b36f2e7f876156031bc4ec7d9787f2d5411875c1bafd3daa88e28ac2a15a",
+          "reusedExistingMedia": false
+        }
+      ],
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "modelEvidence": [
+        "The first three samples were made with v0.4.0: Claude Opus 5.5 and Claude Sonnet 5.5 each made one film from the same prompt, so you can compare them side by side. Codex Motion Studio was also remade with v0.4.0, retaining its original 30-second, seven-scene brief. The videos below are recorded from the HTML with [`record.js`](skills/motion-graphic/scripts/record.js) (sound on 🔊); the ▶ links open the interactive HTML itself. Each folder in [`samples/`](samples) also keeps the sourced `facts.md`, the `storyboard.md` the agent wrote and, for the v0.4.0 films, the `review_log.md` of the scored critique rounds. The Claude samples had one storyboard approval before building; the Codex remake retains the existing sample’s story under the remake request.",
+        "**Opus 5.5** — a laptop lid collecting stickers",
+        "Cost and time with three critique rounds each: Opus 5.5 $17.06 in 52 min · Sonnet 5.5 $9.43 in 41 min.",
+        "**Opus 5.5** — a golden time machine",
+        "Cost and time with three critique rounds each: Opus 5.5 $19.24 in 58 min · Sonnet 5.5 $9.57 in 44 min.",
+        "**Opus 5.5** — one brew bar, read off the scale",
+        "Cost and time with three critique rounds each: Opus 5.5 $18.79 in 57 min · Sonnet 5.5 $9.96 in 50 min."
+      ],
+      "scope": "完整仓库文件快照，排除 Codex 与 Sonnet 示例；只收录 Opus 影片"
+    },
+    {
+      "repo": "toankhontech/pelican-test-opus55",
+      "id": "toankhontech--pelican-test-opus55",
+      "status": "archived",
+      "commit": "33fcbe36b0d64aba118b9f2031a81f9e5b961c19",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/toankhontech--pelican-test-opus55",
+      "files": 9,
+      "bytes": 13868762,
+      "media": [
+        {
+          "path": "pelican-bicycle.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/toankhontech--pelican-test-opus55/pelican-bicycle.mp4",
+          "gitBlobSha1": "707317bf98fd24e54308ede6c0f81e637d351eca",
+          "url": "https://raw.githubusercontent.com/toankhontech/pelican-test-opus55/33fcbe36b0d64aba118b9f2031a81f9e5b961c19/pelican-bicycle.mp4",
+          "bytes": 4560570,
+          "sha256": "bdbb6521db1a53934191025459359ca68e5a427646aaa030ac5b8a7191f98f9e",
+          "reusedExistingMedia": false
+        }
+      ],
+      "licenseFiles": [],
+      "modelEvidence": [
+        "# The pelican test — Claude Opus 5.5",
+        "Created by **Toan Le** with **Claude Opus 5.5**. The supplied project credits its drawing and animation to **Claude Opus 5.5 (Max) in Cursor**."
+      ],
+      "scope": "完整仓库文件快照；发布影片另存 release-media"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "id": "Vincentwei1021--mg-styles-15",
+      "status": "archived",
+      "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/Vincentwei1021--mg-styles-15",
+      "files": 384,
+      "bytes": 599820244,
+      "media": [
+        {
+          "path": "videos/01-flat-vector.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/01-flat-vector.mp4",
+          "gitBlobSha1": "5e566aa7a716a90619affdceb412b1f4ea154b6e",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/01-flat-vector.mp4",
+          "bytes": 4185753,
+          "sha256": "31015b94762c221b3517e97ea3e3a5c870776e763e8a1b0cf14a038a9e0eaf4c",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/02-line-art.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/02-line-art.mp4",
+          "gitBlobSha1": "2d93601dee7d4aafaf1030f26e5cb3723632c09e",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/02-line-art.mp4",
+          "bytes": 22093257,
+          "sha256": "b9ec31dc45a6883b156cb19c52301580024058f5dd90bdd9aad0f1b18d245576",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/03-isometric.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/03-isometric.mp4",
+          "gitBlobSha1": "0d9eef0222e73bae0f8b530611047cf098d494dd",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/03-isometric.mp4",
+          "bytes": 37919056,
+          "sha256": "c5db2f47882df17f500622c7079313625b41200d4c5c485577d0b92c8dc50635",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/04-3d-render.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/04-3d-render.mp4",
+          "gitBlobSha1": "3fa76ae0bd58d5f4b63615ff1bffc016bda78ca6",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/04-3d-render.mp4",
+          "bytes": 31050573,
+          "sha256": "ad0756c4358e56a7e1a5b27772d66506f5b18c9131a73d5a93c932849e8110c0",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/05-cel-boil.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/05-cel-boil.mp4",
+          "gitBlobSha1": "26cb8a8ef50e1fde739f441ccd3c75284f106734",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/05-cel-boil.mp4",
+          "bytes": 36915642,
+          "sha256": "4f4398983b231d75ceb90847af717cb4298c7f2d6e1c90cbdddef1919fbb2c9f",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/06-collage.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/06-collage.mp4",
+          "gitBlobSha1": "56f52716209b9b677c219a69ed7171ff731883f4",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/06-collage.mp4",
+          "bytes": 36608562,
+          "sha256": "a124a518b426f34f674c681b77f516b43290b2bc2065613ec3643e2c509fb3fc",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/07-liquid.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/07-liquid.mp4",
+          "gitBlobSha1": "4e85e388dcb3d03a3ae29ad01ccb01f5d7e18887",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/07-liquid.mp4",
+          "bytes": 37947945,
+          "sha256": "01712cd0a22c91a61aeb7058c148c08bf487c3c87db3cc0fbe5d6d7003709151",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/08-morph.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/08-morph.mp4",
+          "gitBlobSha1": "75dafc5d55b350a2c07395477178549575aa4413",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/08-morph.mp4",
+          "bytes": 27357300,
+          "sha256": "1bff049b1f15ea4d0d06ab9363a97497648a57f644420264f30b08548e3561d5",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/09-bauhaus.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/09-bauhaus.mp4",
+          "gitBlobSha1": "978a5a9286f8b3c16191fe903328922e1fe11e8b",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/09-bauhaus.mp4",
+          "bytes": 28620968,
+          "sha256": "7938c337896f5ec340a1e133e6ab74b9cac77be615defe6a2db228236465bb26",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/10-synthwave.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/10-synthwave.mp4",
+          "gitBlobSha1": "91fe11d1d8408dfc71794d4779c8a80b225f8638",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/10-synthwave.mp4",
+          "bytes": 37700273,
+          "sha256": "b8b3f6062a529b5941433b6095ff8be7e96c71c4f4a8efb62c1653165cf0c70f",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/12-aurora-glass.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/12-aurora-glass.mp4",
+          "gitBlobSha1": "8c1b2a5d30d2d0412910b4112e8b9d9e2861ca5c",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/12-aurora-glass.mp4",
+          "bytes": 37821095,
+          "sha256": "d2575b46549b27f67c4823206caaccedae8cf397be0a351d0989db878c5fe364",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/18-hanazi.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/18-hanazi.mp4",
+          "gitBlobSha1": "04599262b986dd671ad9f48ba0c5394b95415cd6",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/18-hanazi.mp4",
+          "bytes": 36922572,
+          "sha256": "8ee8cb5f34290058939f2712336dc2e7b0e9fbf1c291d54e1a9fee8bc1b58bd0",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/19-paperclip.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/19-paperclip.mp4",
+          "gitBlobSha1": "672a43b868a4322b29a6c4d9e05d771bbc2e21d2",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/19-paperclip.mp4",
+          "bytes": 11705444,
+          "sha256": "615d1ef7810463861572093e4ab707a42bd996ef060b4f1b7ba85ebd4d77a905",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/20-pixel.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/20-pixel.mp4",
+          "gitBlobSha1": "edb755f9a919aab7d055ca99563071af86039fbf",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/20-pixel.mp4",
+          "bytes": 13204278,
+          "sha256": "30768583c87795d57fd7d0d9a9ae7747d8cfe68b6c1af92a981a2c174798a6c8",
+          "reusedExistingMedia": true
+        },
+        {
+          "path": "videos/22-hud.mp4",
+          "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/22-hud.mp4",
+          "gitBlobSha1": "b06ef73da96adedc13602dd58afa2691016d73d2",
+          "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/22-hud.mp4",
+          "bytes": 37860923,
+          "sha256": "9c0a78d0b9f3107a1a59acc3716bf4276692e4c1e883d690c76995d64df543f0",
+          "reusedExistingMedia": true
+        }
+      ],
+      "licenseFiles": [
+        "LICENSE",
+        "site/vendor/highlight.LICENSE"
+      ],
+      "modelEvidence": [
+        "**Fifteen styles, one 10-second film each, all made by Claude Opus 5.5 writing code.**<br>",
+        "**15 种 MG 动态设计风格，每种一支 10 秒成片，全部由 Claude Opus 5.5 写代码做出来。**",
+        "Fifteen 10-second motion-design films, one style each, from frame-by-frame cel animation to a 9:16 variety-show edit. Claude Opus 5.5 made every film by writing code from a prompt: the picture, the animation, the music and the sound effects. This repository publishes all of it, so you can watch a style, read how it was made, copy its prompt and make a film of your own.",
+        "Made by [Vincentwei1021](https://github.com/Vincentwei1021) with Claude Opus 5.5. The page is at https://vincentwei1021.github.io/mg-styles-15/ and the repository at https://github.com/Vincentwei1021/mg-styles-15. If you build on these prompts or this code, a link back is appreciated."
+      ],
+      "scope": "完整仓库文件快照；15个MP4复用已有本地作者影片，不重复下载"
+    }
+  ]
+}

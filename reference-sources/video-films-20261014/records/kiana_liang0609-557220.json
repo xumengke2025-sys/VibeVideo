@@ -1,0 +1,77 @@
+{
+  "id": "original/kiana_liang0609-557220",
+  "title": "逐帧换装的跑酷子弹时间",
+  "group": "写实 · 真人 · 实拍感",
+  "tags": "写实 · 真人 · 实拍感 改编与复刻 Parkour jump with frame-by-frame look swaps 先用 Seedance 2.5 生成跑酷子弹时间镜头，再逐帧换风格；Opus 重绘了 189 帧、11 种造型。 Kiana_Liang0609",
+  "kind": "作者改编参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "Kiana_Liang0609",
+  "authorUrl": "https://x.com/Kiana_Liang0609/status/2103035980068557220",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/kiana_liang0609-557220.mp4",
+  "bytes": 1266460,
+  "sha256": "977da22250307897400a5e3dcd64e04b07a8918e3cf9f4aaf3727474858ea671",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103035308782870528/vid/avc1/720x900/s6JJmzihKiJpSsKC.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/kiana_liang0609-557220.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/kiana_liang0609-557220.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供；作者自行改编作品",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 10,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "kiana_liang0609-557220",
+    "title": "Parkour jump with frame-by-frame look swaps",
+    "title_zh": "逐帧换装的跑酷子弹时间",
+    "url": "https://x.com/Kiana_Liang0609/status/2103035980068557220",
+    "author": "Kiana_Liang0609",
+    "author_name": "Kiana Liang",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 10-second bullet-time parkour jump generated with Seedance 2.5, then restyled frame by frame; Opus redrew 189 frames across 11 looks.",
+    "description_zh": "先用 Seedance 2.5 生成跑酷子弹时间镜头，再逐帧换风格；Opus 重绘了 189 帧、11 种造型。",
+    "prompt": "Step 1: Generate the base shot with Seedance 2.5 text-to-video. A parkour kid leaps off a rooftop edge across the gap between two buildings. At the peak, time almost stops and the camera orbits halfway around him (bullet time). Then time resumes, he lands on the opposite roof and rolls to his feet.\n\nStep 2: Pull frames from the base, restyle them frame by frame with an image model so he flips through different looks mid-action, Everything Everywhere All at Once style, then automatically cut it back into one full video.\n\nWhen to start, how often to switch, which looks: your call. At least 6 looks. Action, pose, framing and background must match the base. Only the character's look changes.",
+    "prompt_lang": "en",
+    "prompt_zh": "第 1 步：用 Seedance 2.5 文生视频生成基础镜头。一个跑酷少年从屋顶边缘跃起，飞越两栋楼之间的空隙。到最高点时，时间几乎停住，镜头绕着他转半圈（子弹时间）。随后时间恢复，他落到对面屋顶，翻滚一圈站起身。\n\n第 2 步：从基础镜头里抽帧，用图像模型逐帧重绘风格，让他在动作中途不断切换造型，像《瞬息全宇宙》那样，然后自动剪回一段完整视频。\n\n什么时候开始换、多久换一次、换成哪些造型，由你决定。至少 6 种造型。动作、姿势、构图和背景必须和基础镜头一致。只有角色的造型会变。",
+    "kind": "pipeline",
+    "tools": [
+      "seedance",
+      "gpt-image"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: one shot per generation.",
+    "note_zh": "作者称每一步生成都只跑了一次。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103035308782870528/img/meLCmoOBQTiCIoXQ.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103035308782870528/vid/avc1/320x400/8vCJxxQZWIOqwmHO.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103035308782870528/vid/avc1/720x900/s6JJmzihKiJpSsKC.mp4?tag=29",
+      "duration": 10,
+      "width": 1080,
+      "height": 1350
+    },
+    "metrics": {
+      "likes": 5,
+      "views": 880
+    },
+    "category": "remix"
+  },
+  "styleClassificationSource": {
+    "id": "2103035980068557220",
+    "style": "photoreal",
+    "title_zh": "跑酷少年跃屋顶",
+    "title_en": "Parkour kid rooftop leap",
+    "author": "Kiana_Liang0609",
+    "post_url": "https://x.com/Kiana_Liang0609/status/2103035980068557220",
+    "prompt": "Step 1: Generate the base shot with Seedance 2.5 text-to-video. A parkour kid leaps off a rooftop",
+    "prompt_partial": false,
+    "likes_2026_09_29": 5
+  },
+  "downloadedAt": "2026-10-14T09:21:15.084Z"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "original/rneayan-406275",
+  "title": "示波器风格的工作室动效",
+  "group": "复古 · 终端 · 老电影",
+  "tags": "复古 · 终端 · 老电影 产品发布与广告 Oscilloscope-style studio motion graphic 40 秒动态图形短片，用示波器风格介绍作者的工作室，提示词只有一句。 rneayan",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "rneayan",
+  "authorUrl": "https://x.com/rneayan/status/2103401461837406275",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/rneayan-406275.mp4",
+  "bytes": 5735150,
+  "sha256": "531b1b4784d9a60f2f84c314889172988524f0d6d13746dcf2982dd813f1974e",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103401099244040192/vid/avc1/1280x720/pGoMooGQOe_ehq-H.mp4?tag=14",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/rneayan-406275.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/rneayan-406275.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 39.6,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "rneayan-406275",
+    "title": "Oscilloscope-style studio motion graphic",
+    "title_zh": "示波器风格的工作室动效",
+    "url": "https://x.com/rneayan/status/2103401461837406275",
+    "author": "rneayan",
+    "author_name": "Rneayan_Official",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 40-second motion graphic about the author's studio in an oscilloscope style, from a one-line prompt.",
+    "description_zh": "40 秒动态图形短片，用示波器风格介绍作者的工作室，提示词只有一句。",
+    "prompt": "Make Motiongraphic about my studio with Oscilloscope style",
+    "prompt_lang": "en",
+    "prompt_zh": "用示波器（Oscilloscope）风格做一个关于我工作室的动态图形",
+    "kind": "one-shot",
+    "inputs": [
+      "brand"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103401099244040192/img/2VkbrEruIa5W_cQo.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103401099244040192/vid/avc1/480x270/cPbH-8Oi4_9ORxM6.mp4?tag=14",
+      "video_hd": "https://video.twimg.com/amplify_video/2103401099244040192/vid/avc1/1280x720/pGoMooGQOe_ehq-H.mp4?tag=14",
+      "duration": 39.6,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 1,
+      "views": 31
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103401461837406275",
+    "style": "retro",
+    "title_zh": "示波器风格工作室动图",
+    "title_en": "Oscilloscope Style Studio Motion Graphics",
+    "author": "rneayan",
+    "post_url": "https://x.com/rneayan/status/2103401461837406275",
+    "prompt": "Make Motiongraphic about my studio with Oscilloscope style",
+    "prompt_partial": false,
+    "likes_2026_09_29": 0
+  },
+  "downloadedAt": "2026-10-14T09:19:01.521Z"
+}

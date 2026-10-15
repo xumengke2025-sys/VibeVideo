@@ -1,0 +1,79 @@
+{
+  "id": "original/daniel_mac8-306214",
+  "title": "Claude 小人拍动作片",
+  "group": "扁平卡通",
+  "tags": "扁平卡通 让 Opus 讲自己 Claude characters shooting a film about Claude Code 给 X 帖子配的 30 秒动画：Claude Code 终端炸开，一群 Claude 小人在拍动作片，风格照参考视频。 daniel_mac8",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "daniel_mac8",
+  "authorUrl": "https://x.com/daniel_mac8/status/2103824976713306214",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/daniel_mac8-306214.mp4",
+  "bytes": 7383058,
+  "sha256": "6ff28342819281e411e955dca1687799f7fa925c38f5ff3cebf4445540fcec37",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103664903558942720/vid/avc1/1080x1080/dwkZpZgOsgdbDfnH.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/daniel_mac8-306214.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/daniel_mac8-306214.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 29.3,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "daniel_mac8-306214",
+    "title": "Claude characters shooting a film about Claude Code",
+    "title_zh": "Claude 小人拍动作片",
+    "url": "https://x.com/daniel_mac8/status/2103824976713306214",
+    "author": "daniel_mac8",
+    "author_name": "Dan McAteer",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 30-second animation for an X post where a Claude Code terminal bursts into Claude-icon characters shooting an action film, styled after reference videos.",
+    "description_zh": "给 X 帖子配的 30 秒动画：Claude Code 终端炸开，一群 Claude 小人在拍动作片，风格照参考视频。",
+    "prompt": "I want to try something different here. You should act as a  world-class animator and create an animation to go along with an  X post that talks about how Ultra Code and Claude Code are now  much more relevant due to the efficiency of Opus 5.5. You can use it without annihilating your usage limits\n\nthe style of the video here\n/Users/danielmcateer/Downloads/jvnZ3SyyxxajVatp.mp4\n\nWhat I had in mind was start with Claude Code in the terminal from the first attached video, with me navigating to the 'ultracode' reasoning effort, then exploding into a scene where the Claude icon characters similar to what's in the second video are shooting an action video and it's representing using Claude Code dynamic workflows editing a video.",
+    "prompt_lang": "en",
+    "prompt_zh": "这次我想试点不一样的。你要扮演一位世界级动画师，为一条 X 帖子制作配套动画。帖子讲的是：由于 Opus 5.5 的高效，Ultra Code 和 Claude Code 现在变得重要得多。用它不会把你的用量额度烧光\n\n视频风格参照这里\n/Users/danielmcateer/Downloads/jvnZ3SyyxxajVatp.mp4\n\n我的设想是：从第一个附带视频里终端中的 Claude Code 开始，我在里面切换到 'ultracode' 推理强度，然后画面炸开，进入一个场景：一群类似第二个视频里的 Claude 图标小人正在拍一部动作片，以此表现用 Claude Code 的 dynamic workflows 剪辑视频。",
+    "prompt_url": "https://x.com/daniel_mac8/status/2103825989285331243",
+    "kind": "brief",
+    "tools": [
+      "claude-code"
+    ],
+    "inputs": [
+      "reference-video"
+    ],
+    "note": "Author: about 6h 30m and 29% of his weekly usage.",
+    "note_zh": "作者称约 6 小时 30 分钟，用掉每周额度的 29%。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103664903558942720/img/9Uv-bzhG6eSZ4z3P.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103664903558942720/vid/avc1/320x320/G_1Dy66oxsxJbQF4.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103664903558942720/vid/avc1/1080x1080/dwkZpZgOsgdbDfnH.mp4?tag=29",
+      "duration": 29.3,
+      "width": 1080,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 183,
+      "likes": 159,
+      "views": 14192,
+      "reposts": 11
+    },
+    "category": "self"
+  },
+  "styleClassificationSource": {
+    "id": "2103824976713306214",
+    "style": "cartoon",
+    "title_zh": "Claude Code效率动画展示",
+    "title_en": "Claude Code Opus Efficiency Animation",
+    "author": "daniel_mac8",
+    "post_url": "https://x.com/daniel_mac8/status/2103824976713306214",
+    "prompt": "I want to try something different here. You should act as a  world-class animator and create an animation to go along with an  X post that talks about how Ultra Code and Claude Code are now  much more relevant due to the efficiency of Opus 5.5. You can use it without annihilating your usage limits \n\nthe style of the video here\n/Users/danielmcateer/Downloads/jvnZ3SyyxxajVatp.mp4\n\nWhat I had in mind was start with Claude Code in the terminal from the first attached video, with me navigating to the 'ultracode' reasoning effort, then exploding into a scene where the Claude icon characters similar to what's in the second video are shooting an action video and it's representing using Claude Code dynamic workflows editing a video.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 163
+  },
+  "downloadedAt": "2026-10-14T09:11:46.259Z"
+}

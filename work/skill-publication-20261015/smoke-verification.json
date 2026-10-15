@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-15T03:12:57.933Z",
+  "sandbox": "D:\\ai项目\\ai动画\\VibeVideo项目\\.codex\\publication-smoke-1792033953836",
+  "plan": {
+    "previewFilms": 319,
+    "sourcePackages": 20,
+    "files": 6478,
+    "totalBytes": 6135185805,
+    "missingFiles": 6478,
+    "missingBytes": 6135185805,
+    "note": "No network requests or file writes. Restoration verifies size and SHA256; optional local posters are not included."
+  },
+  "relocationPassed": true,
+  "samples": [
+    {
+      "path": "reference-sources/video-examples-20261014/shotcraft-media/mosaic-reframe.mp4",
+      "bytes": 4876942,
+      "restored": true,
+      "verified": true
+    },
+    {
+      "path": "reference-sources/video-films-20261014/crawfordxx--xiaoma-studio/examples/museum-compound/out/compound.mp4",
+      "bytes": 2025653,
+      "restored": true,
+      "verified": true
+    },
+    {
+      "path": "reference-sources/video-films-20261014/original-media/minosdevs-251920.mp4",
+      "bytes": 467304,
+      "restored": true,
+      "verified": true
+    },
+    {
+      "path": "reference-sources/video-shotcraft-20261014/gallery/api/library.json",
+      "bytes": 206606,
+      "restored": true,
+      "verified": true
+    }
+  ]
+}

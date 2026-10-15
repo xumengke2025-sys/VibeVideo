@@ -69,9 +69,9 @@ function renderAt(t) {
 
 跟拍转揭示可用 `blendPose(follow(t), reveal(t), smoother(progress))`；它混合 position/target/FOV/roll。起终点一致与平滑权重支持位置连续，不自动保证速度连续，也不自动保证路径安全；检查混合区的最拥挤状态。用大幅 FOV 变化来救构图前先调整轨迹和距离。
 
-## 竖屏计划与验收
+## 横竖屏计划与验收
 
-本项目遵循 AGENTS.md 的 1080×1920；用竖直 FOV 和真实 aspect 计算投影，不从横版简单裁切。把主体投影框/活动区、行进留白与字幕安全区分开设计；主体允许合理屏幕漂移，不强制永远居中。
+采用本片记录的宽高（横屏通常 1920×1080，竖屏通常 1080×1920）；用竖直 FOV 和真实 aspect 计算投影，竖直 FOV 是相机参数，两种画幅都适用。横屏安排横向行进与关系展开，竖屏安排纵向层次与上下阅读区；跨画幅重新检查相机距离、路径、遮挡和出框，不简单裁切。把主体投影框/活动区、行进留白与字幕安全区分开设计；主体允许合理屏幕漂移，不强制永远居中。
 
 镜头表的相机可以使用结构化对象，例如 `{subjectId:'bird-2', mode:'follow', position:'S(t-lag)+localOffset(t)', target:'S(t)+velocity(t)*lead', handoff:'到达出口后看向群体', screenRegion:'左中部，右侧保留行进空间', parallax:'近柱/远山', hold:'接触后短停'}`。这是设计信息，现有 shot_contract 的时间检查不证明摄影质量。
 

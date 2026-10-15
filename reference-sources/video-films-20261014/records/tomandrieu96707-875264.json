@@ -1,0 +1,73 @@
+{
+  "id": "original/tomandrieu96707-875264",
+  "title": "手绘拼贴风「关于我们」动画",
+  "group": "拼贴 · 剪纸 · 沙画",
+  "tags": "拼贴 · 剪纸 · 沙画 产品发布与广告 Hand-drawn collage animation of an About page 纯 JavaScript 写的 52 秒手绘拼贴风动画，带音频，用仓库里的素材讲出官网「关于我们」页的故事。 TomAndrieu96707",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "TomAndrieu96707",
+  "authorUrl": "https://x.com/TomAndrieu96707/status/2103411144899875264",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/tomandrieu96707-875264.mp4",
+  "bytes": 3965367,
+  "sha256": "e380c2f78ee3a0c24b6bf7d1493dbc2211806f9777aef0f8f7f43e829c1cf027",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103410538109657088/vid/avc1/1280x720/UY67rjQw0aquCU-a.mp4?tag=14",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/tomandrieu96707-875264.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/tomandrieu96707-875264.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 51.6,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "tomandrieu96707-875264",
+    "title": "Hand-drawn collage animation of an About page",
+    "title_zh": "手绘拼贴风「关于我们」动画",
+    "url": "https://x.com/TomAndrieu96707/status/2103411144899875264",
+    "author": "TomAndrieu96707",
+    "author_name": "Tom Andrieu",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 52-second whimsical hand-drawn collage animation in pure JavaScript, with audio, retelling a company's About page story using assets from its repo.",
+    "description_zh": "纯 JavaScript 写的 52 秒手绘拼贴风动画，带音频，用仓库里的素材讲出官网「关于我们」页的故事。",
+    "prompt": "Create a pure javascript animation. 30s-60s whimsical hand drawn collage style with appropriate audio that will explain the same story as our “about-us” page. Use assets from our repo when possible.",
+    "prompt_lang": "en",
+    "prompt_zh": "做一段纯 JavaScript 动画。30 到 60 秒，异想天开的手绘拼贴风格，配上合适的音频，讲出和我们“about-us”页面一样的故事。尽量使用我们仓库里的素材。",
+    "prompt_url": "https://x.com/TomAndrieu96707/status/2103411148842283295",
+    "kind": "one-shot",
+    "inputs": [
+      "brand"
+    ],
+    "effort": "medium",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103410538109657088/img/7BIvM6cMaWdjVLUr.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103410538109657088/vid/avc1/480x270/3MrL1TwiZHtqTzOU.mp4?tag=14",
+      "video_hd": "https://video.twimg.com/amplify_video/2103410538109657088/vid/avc1/1280x720/UY67rjQw0aquCU-a.mp4?tag=14",
+      "duration": 51.6,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "likes": 1,
+      "views": 80
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103411144899875264",
+    "style": "collage",
+    "title_zh": "手绘风格品牌介绍动画",
+    "title_en": "Whimsical Hand-Drawn About Us Animation",
+    "author": "TomAndrieu96707",
+    "post_url": "https://x.com/TomAndrieu96707/status/2103411144899875264",
+    "prompt": "Create a pure javascript animation. 30s-60s whimsical hand drawn collage style with appropriate audio that will explain the same story as our “about-us” page. Use assets from our repo when possible.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 1
+  },
+  "downloadedAt": "2026-10-14T09:09:46.955Z"
+}

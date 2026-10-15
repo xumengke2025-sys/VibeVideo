@@ -1,0 +1,76 @@
+{
+  "id": "original/alex_prompter-997524",
+  "title": "30 秒业务讲解动画模板",
+  "group": "产品 UI 宣传片",
+  "tags": "产品 UI 宣传片 产品发布与广告 30-second business explainer template 填空式模板：把你的业务做成 30 秒、5 个场景的单页 HTML 讲解动画，在 Claude 对话里播放后录屏。 alex_prompter",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "alex_prompter",
+  "authorUrl": "https://x.com/alex_prompter/status/2103499977632997524",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/alex_prompter-997524.mp4",
+  "bytes": 864386,
+  "sha256": "7e88f4e1765ec6333e471c56b63447c6685f142c9436d28bde1e21c895f45bce",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103499934280585216/vid/avc1/1280x720/vWRMewa39TvoVnj1.mp4?tag=16",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/alex_prompter-997524.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/alex_prompter-997524.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 34.5,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "alex_prompter-997524",
+    "title": "30-second business explainer template",
+    "title_zh": "30 秒业务讲解动画模板",
+    "url": "https://x.com/alex_prompter/status/2103499977632997524",
+    "author": "alex_prompter",
+    "author_name": "Alex Prompter",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A fill-in template for a 30-second, 5-scene animated explainer about your business as a single HTML page, played in the Claude chat and screen-recorded.",
+    "description_zh": "填空式模板：把你的业务做成 30 秒、5 个场景的单页 HTML 讲解动画，在 Claude 对话里播放后录屏。",
+    "prompt": "Adopt the role of an expert motion designer. Build a 30-second animated explainer for my business as a single HTML page. 5 scenes. The customer's problem, what I do, how it works in 3 steps, one proof point, and my name at the end. Bold text, smooth transitions, my brand colours. My business [DESCRIBE WHAT YOU SELL, WHO IT'S FOR AND YOUR COLOURS]",
+    "prompt_lang": "en",
+    "prompt_zh": "扮演一位专业动效设计师。为我的业务做一段 30 秒的动画讲解视频，做成单个 HTML 页面。5 个场景：客户的问题、我做什么、分 3 步讲它怎么运作、一个证明点，最后是我的名字。粗体文字，流畅转场，用我的品牌色。我的业务是 [描述你卖什么、卖给谁，以及你的品牌色]",
+    "kind": "template",
+    "tools": [
+      "claude-app"
+    ],
+    "inputs": [
+      "brand"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103499934280585216/img/Q9KDv9vq9R-KuDaY.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103499934280585216/vid/avc1/480x270/z9RkZ_2eeRt8ypYs.mp4?tag=16",
+      "video_hd": "https://video.twimg.com/amplify_video/2103499934280585216/vid/avc1/1280x720/vWRMewa39TvoVnj1.mp4?tag=16",
+      "duration": 34.5,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 666,
+      "likes": 371,
+      "views": 39487,
+      "reposts": 17
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103499977632997524",
+    "style": "productui",
+    "title_zh": "品牌动态说明视频",
+    "title_en": "Animated Business Explainer",
+    "author": "alex_prompter",
+    "post_url": "https://x.com/alex_prompter/status/2103499977632997524",
+    "prompt": "Adopt the role of an expert motion designer. Build a 30-second animated explainer for my business as a single HTML page. 5 scenes. The customer's problem, what I do, how it works in 3 steps, one proof point, and my name at the end. Bold text, smooth transitions, my brand colours. My business [DESCRIBE WHAT YOU SELL, WHO IT'S FOR AND YOUR COLOURS]",
+    "prompt_partial": false,
+    "likes_2026_09_29": 371
+  },
+  "downloadedAt": "2026-10-14T09:18:12.883Z"
+}

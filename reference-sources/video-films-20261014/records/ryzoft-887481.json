@@ -1,0 +1,76 @@
+{
+  "id": "original/ryzoft-887481",
+  "title": "Three.js 自编卡通短片",
+  "group": "电影感 3D",
+  "tags": "电影感 3D 叙事、手绘与定格 Three.js cartoon short from an invented story 近 5 分钟的 Three.js 动画短片，故事由 Opus 自己编，画成 90 年代卡通风。 Ryzoft",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "Ryzoft",
+  "authorUrl": "https://x.com/Ryzoft/status/2102989395359887481",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/ryzoft-887481.mp4",
+  "bytes": 30120695,
+  "sha256": "06dc798e11b40a0de9c1562459a656fad99341f9b39882cd6643911be2da753b",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102988926549913600/vid/avc1/1280x720/WM0QibKnS_ECaYec.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/ryzoft-887481.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/ryzoft-887481.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 294.5,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "ryzoft-887481",
+    "title": "Three.js cartoon short from an invented story",
+    "title_zh": "Three.js 自编卡通短片",
+    "url": "https://x.com/Ryzoft/status/2102989395359887481",
+    "author": "Ryzoft",
+    "author_name": "Ryzoft",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "An almost five-minute three.js animated short: Opus invents its own story and animates it as a 90s-style cartoon; run as a background prompt.",
+    "description_zh": "近 5 分钟的 Three.js 动画短片，故事由 Opus 自己编，画成 90 年代卡通风。",
+    "prompt": "I want you to imagine a story. And then using threejs I want you to create full animation, star wars 80s-level quality 90s cartoon out of the story you imagine.",
+    "prompt_lang": "en",
+    "prompt_zh": "我要你想象一个故事。然后用 threejs 把你想象的这个故事做成一部完整动画，80 年代星球大战级别的质量、90 年代卡通风格。",
+    "kind": "one-shot",
+    "tools": [
+      "threejs"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102988926549913600/img/kInfdggF1trcXGVb.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102988926549913600/vid/avc1/480x270/Y_vaihO8XoLD2_Qv.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102988926549913600/vid/avc1/1280x720/WM0QibKnS_ECaYec.mp4?tag=29",
+      "duration": 294.5,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 2,
+      "likes": 5,
+      "views": 821
+    },
+    "category": "story"
+  },
+  "styleClassificationSource": {
+    "id": "2102989395359887481",
+    "style": "cinematic3d",
+    "title_zh": "Three.js星球大战风格动画",
+    "title_en": "Star Wars Style ThreeJS Animation",
+    "author": "Ryzoft",
+    "post_url": "https://x.com/Ryzoft/status/2102989395359887481",
+    "prompt": "I want you to imagine a story. And then using threejs I want you to create full animation, star wars 80s-level quality 90s cartoon out of the story you imagine.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 5
+  },
+  "downloadedAt": "2026-10-14T09:14:49.296Z"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "original/magnific-245802",
+  "title": "警察喝咖啡被小偷打断",
+  "group": "叙事、手绘与定格",
+  "tags": "叙事、手绘与定格 叙事、手绘与定格 Animated short: a cop's interrupted coffee break Opus 在 Magnific 上指挥 Seedance 2.5 Draft，从一张参考图做出 30 秒动画短片。 magnific",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "magnific",
+  "authorUrl": "https://x.com/magnific/status/2102742654308245802",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/magnific-245802.mp4",
+  "bytes": 3454267,
+  "sha256": "b6932bc666eaf99922a7acda1478c239df26e922b886c114588e954d73f340bf",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102742621445873664/vid/avc1/1280x720/BGdVA9m_iRlS93Tx.mp4?tag=16",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/magnific-245802.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/magnific-245802.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 30.1,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "magnific-245802",
+    "title": "Animated short: a cop's interrupted coffee break",
+    "title_zh": "警察喝咖啡被小偷打断",
+    "url": "https://x.com/magnific/status/2102742654308245802",
+    "author": "magnific",
+    "author_name": "Magnific",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "A 30-second 16:9 animated mini-story, with Opus directing Seedance 2.5 Draft on Magnific from one reference image, plus music and synced sound effects.",
+    "description_zh": "Opus 在 Magnific 上指挥 Seedance 2.5 Draft，从一张参考图做出 30 秒动画短片。",
+    "prompt": "Using Magnific, create a 30-second animated short with Seedance 2.5 Draft in 16:9.\n\nUse the attached image as the opening frame and visual reference. Keep the character designs, animation style, colors, and lighting consistent.\n\nThe premise: a police officer’s coffee break is interrupted by a thief. Develop this into a complete mini-story with a clear setup, escalating action, and a funny payoff.\n\nYou decide how the story unfolds, including the camera angles, shot lengths, pacing, and transitions. Add music and synchronized sound effects, with minimal dialogue.",
+    "prompt_lang": "en",
+    "prompt_zh": "使用 Magnific，用 Seedance 2.5 Draft 制作一段 16:9 的 30 秒动画短片。\n\n把附带的图片作为开场画面和视觉参考。保持角色设计、动画风格、配色和光线一致。\n\n故事前提：一名警察的咖啡时间被一个小偷打断。把它发展成一个完整的迷你故事，有清楚的铺垫、逐步升级的动作和一个好笑的结尾。\n\n故事怎么展开由你决定，包括镜头角度、镜头时长、节奏和转场。加入音乐和同步音效，对白尽量少。",
+    "prompt_url": "https://x.com/magnific/status/2102742671064547716",
+    "kind": "pipeline",
+    "tools": [
+      "seedance",
+      "magnific"
+    ],
+    "inputs": [
+      "images"
+    ],
+    "note": "Author: 65 seconds of model working time, then 2 min 49 s of Seedance generation.",
+    "note_zh": "作者称模型工作 65 秒，Seedance 生成用了 2 分 49 秒。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102742621445873664/img/iyCPdjsR1lxDFf71.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102742621445873664/vid/avc1/480x270/BH1HHvn8PstrBVJ0.mp4?tag=16",
+      "video_hd": "https://video.twimg.com/amplify_video/2102742621445873664/vid/avc1/1280x720/BGdVA9m_iRlS93Tx.mp4?tag=16",
+      "duration": 30.1,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 82,
+      "likes": 111,
+      "views": 11797,
+      "reposts": 17
+    },
+    "category": "story"
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:25:13.895Z"
+}

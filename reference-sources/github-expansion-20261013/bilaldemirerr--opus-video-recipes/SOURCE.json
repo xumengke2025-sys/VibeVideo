@@ -1,0 +1,244 @@
+{
+  "repo": "bilaldemirerr/opus-video-recipes",
+  "repository": "https://github.com/bilaldemirerr/opus-video-recipes",
+  "commit": "04a7837efe742faa885d593198f5197adaaea788",
+  "checked": "2026-10-13",
+  "scope": "完整仓库文件快照；发布影片另存 release-media",
+  "modelEvidence": [
+    "Videos made with **Claude Opus 5.5**. Every recipe ships the real rendered MP4, the exact prompt, what the agent did, render time and, where it could be measured, the token cost. No invented numbers.",
+    "Full guide with embedded videos: **[How to make videos with Claude Opus 5.5](https://bilallabs.vercel.app/ai/opus-video)**",
+    "| Kinetic typography explainer: what's new in Opus 5.5 | HyperFrames | [![Kinetic typography](media/whats-new-opus-5-5.jpg)](kinetic-typography-explainer/out.mp4) | [kinetic-typography-explainer/](kinetic-typography-explainer) · [page](https://bilallabs.vercel.app/ai/opus-video/kinetic-typography-explainer) |"
+  ],
+  "modelEvidenceStatus": "作者自述；未独立核实模型会话",
+  "licenseFiles": [
+    "LICENSE"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/.gitignore",
+      "gitBlobSha1": "aafcb345668bd80cbb256b066898d4df8988da0e",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/.gitignore",
+      "bytes": 30,
+      "sha256": "8ffe9de56bd30c1a95cd945262d6e3ac355ada4111551dde41f67851b9f1fc55",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app-store-preview/BRIEF.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/app-store-preview/BRIEF.md",
+      "gitBlobSha1": "3a91b473db1bce55250766975dfaac37115d20f3",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/app-store-preview/BRIEF.md",
+      "bytes": 4446,
+      "sha256": "ae9607165e3220a778fedd5db4538eb33ea15868744d9aefc0947779141bf25f",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app-store-preview/README.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/app-store-preview/README.md",
+      "gitBlobSha1": "e09b55edfef0a6f4c47e1179f103564b9a44706a",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/app-store-preview/README.md",
+      "bytes": 3369,
+      "sha256": "3714ff4336cd221b6d9fb3e4fb69a306d264f11ccd4cbaf5966a281c30a7938f",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "captioned-vertical-clip/assets/transcript.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/captioned-vertical-clip/assets/transcript.json",
+      "gitBlobSha1": "c32b092cdb5dd03402ffd25a27bf46505963d60c",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/captioned-vertical-clip/assets/transcript.json",
+      "bytes": 3015,
+      "sha256": "ef0e29b2d31e5e9d30acb92c428704c21c8106ae5982d636594585873075a98b",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "captioned-vertical-clip/assets/vo.wav",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/captioned-vertical-clip/assets/vo.wav",
+      "gitBlobSha1": "49cfebd6f5f6cb00d5095a227625f369fbee9880",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/captioned-vertical-clip/assets/vo.wav",
+      "bytes": 1302266,
+      "sha256": "1bc79a13bce2ccf753803532e71b52a84a4537111e8f4465f0fd87ee18e32782",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "captioned-vertical-clip/hyperframes.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/captioned-vertical-clip/hyperframes.json",
+      "gitBlobSha1": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/captioned-vertical-clip/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "captioned-vertical-clip/index.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/captioned-vertical-clip/index.html",
+      "gitBlobSha1": "f8ba587040b3fa8e44b677869033ec250e064951",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/captioned-vertical-clip/index.html",
+      "bytes": 4951,
+      "sha256": "3609e5f34b1afa3f13f859c14c09011253c90ece2ee8c1b1c95ff5ad49462935",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "captioned-vertical-clip/meta.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/captioned-vertical-clip/meta.json",
+      "gitBlobSha1": "d5f2e4aee0fab021bfbb0dd65c238ca11a476bc3",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/captioned-vertical-clip/meta.json",
+      "bytes": 117,
+      "sha256": "ceff8afe95f2642dd74aeeac82bfb31ad67e6d4ef56ac2a189c871cc96ec2738",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "captioned-vertical-clip/out.mp4",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/captioned-vertical-clip/out.mp4",
+      "gitBlobSha1": "b692037e01382ee1fcfdbf512461aa770dbd0f72",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/captioned-vertical-clip/out.mp4",
+      "bytes": 1628073,
+      "sha256": "bb96e18ea746e61cf8df0ce28ba9cbc464ec6dd5ba23d50550c607fd70addbed",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "captioned-vertical-clip/package.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/captioned-vertical-clip/package.json",
+      "gitBlobSha1": "898856baf2ce3197a8d278029c3b3897f2cee7b4",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/captioned-vertical-clip/package.json",
+      "bytes": 308,
+      "sha256": "9900ed93435056c73a6fbc536c720db2faba03618a2c6117f5b52833a000be2e",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "captioned-vertical-clip/poster-7.5s.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/captioned-vertical-clip/poster-7.5s.png",
+      "gitBlobSha1": "6cb9aa3f3468cf5373c3d8949b3cd839d972284b",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/captioned-vertical-clip/poster-7.5s.png",
+      "bytes": 127474,
+      "sha256": "981fd4bec82f1822da9e741c462e880aabf13506a78177748a08ba7d09234f17",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "captioned-vertical-clip/README.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/captioned-vertical-clip/README.md",
+      "gitBlobSha1": "0e0c8236c5b429b61185df2aaa7f5d9af664775f",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/captioned-vertical-clip/README.md",
+      "bytes": 1871,
+      "sha256": "b4a49368772f9d150a387599df5cd88ccddcd279b200a6652d69293d7062ff6e",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "kinetic-typography-explainer/hyperframes.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/kinetic-typography-explainer/hyperframes.json",
+      "gitBlobSha1": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/kinetic-typography-explainer/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "kinetic-typography-explainer/index.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/kinetic-typography-explainer/index.html",
+      "gitBlobSha1": "bf340441ebfe59ba0c4c0d5980fdd6f0e05d36f0",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/kinetic-typography-explainer/index.html",
+      "bytes": 4811,
+      "sha256": "8db606cbe8fe17de6c6cbf95e439922b34cd1fccea74470ecc26d926643e263f",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "kinetic-typography-explainer/meta.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/kinetic-typography-explainer/meta.json",
+      "gitBlobSha1": "4297ce30bc0a9ad993a52270d08b76386e1ec1d1",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/kinetic-typography-explainer/meta.json",
+      "bytes": 127,
+      "sha256": "e70a0b56b19bf0712aab033acd3898fabf4e85f19550e503ed0ce4291060bee0",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "kinetic-typography-explainer/out.mp4",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/kinetic-typography-explainer/out.mp4",
+      "gitBlobSha1": "af60fca8205e21c9d4b41207bcaacf8650f42592",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/kinetic-typography-explainer/out.mp4",
+      "bytes": 2243719,
+      "sha256": "aaf45dd150ae44b9f9e575dd00977bd1d206bf06ffed82f22bc22273b8f93af2",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "kinetic-typography-explainer/package.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/kinetic-typography-explainer/package.json",
+      "gitBlobSha1": "90f3ac95379cbd8a4f170d7559b70de1e850670b",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/kinetic-typography-explainer/package.json",
+      "bytes": 313,
+      "sha256": "149744ac4ce7224b2f5b385be2f85122e492dcf2165330441dc4c170e73cd852",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "kinetic-typography-explainer/poster-7.6s.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/kinetic-typography-explainer/poster-7.6s.png",
+      "gitBlobSha1": "33108f399c5d3c804df95d7cd2b5d3a7b0a61c2f",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/kinetic-typography-explainer/poster-7.6s.png",
+      "bytes": 79752,
+      "sha256": "026a50d850d43e1a863087872fcc26d675975381476995d7269650fa24535a80",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "kinetic-typography-explainer/README.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/kinetic-typography-explainer/README.md",
+      "gitBlobSha1": "bbc3e16f6586b706168f2c300e2f8856ac17f800",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/kinetic-typography-explainer/README.md",
+      "bytes": 1360,
+      "sha256": "6f5a4cb0a2a040c4ce0797ba52133454f40aa9a71d4233c1b65bcc0ec50785e8",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/LICENSE",
+      "gitBlobSha1": "d82b33915e990e79633a546be1337762733c2bf9",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/LICENSE",
+      "bytes": 1070,
+      "sha256": "f84f3f95d500f0a25fab13e5e7e5886e48d6d57cd8f226f7dbf22f39b05a66d2",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "media/lovely-app-store-preview-ipad.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/media/lovely-app-store-preview-ipad.jpg",
+      "gitBlobSha1": "5c59ef2fa9f27433958e332701cc0101139090fb",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/media/lovely-app-store-preview-ipad.jpg",
+      "bytes": 69608,
+      "sha256": "3704b434cd5f9d29a95607b6f08d9d220748e5daa2f19ab185cef01dbd594a07",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "media/lovely-app-store-preview-iphone.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/media/lovely-app-store-preview-iphone.jpg",
+      "gitBlobSha1": "58e6989fefd3df9dfb5006b2e499ded75cfa69a4",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/media/lovely-app-store-preview-iphone.jpg",
+      "bytes": 57718,
+      "sha256": "d639f32fa609b3bc921cee28b20ab9345c356836d20ef4f35a4c945127505ce1",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "media/vertical-captioned-clip.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/media/vertical-captioned-clip.jpg",
+      "gitBlobSha1": "0371d5d6718e62a2581cb5579a411af5508b9dd3",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/media/vertical-captioned-clip.jpg",
+      "bytes": 43239,
+      "sha256": "f5baa873c7b10975cda1499bd64d2e8ce73286524e331ad10e3035a78a7d0ccc",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "media/whats-new-opus-5-5.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/media/whats-new-opus-5-5.jpg",
+      "gitBlobSha1": "e3bbfde44817be8136633802953fe2d4355b67d8",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/media/whats-new-opus-5-5.jpg",
+      "bytes": 35381,
+      "sha256": "1fe902861a0ce1e096dddedc0b5570e2483c55968b55e3087fcc77caaaaf5b63",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "README.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/README.md",
+      "gitBlobSha1": "690787fbb132401641f063344ef283fdd19cc5d0",
+      "url": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/04a7837efe742faa885d593198f5197adaaea788/README.md",
+      "bytes": 2395,
+      "sha256": "17c1a6a21d0816cb25432d4206cdd39eaa54e8a43c942f12158431baef6a4917",
+      "reusedExistingMedia": false
+    }
+  ],
+  "executed": false
+}

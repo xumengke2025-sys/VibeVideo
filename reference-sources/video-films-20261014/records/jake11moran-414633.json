@@ -1,0 +1,85 @@
+{
+  "id": "original/jake11moran-414633",
+  "title": "刘海浏览器的 Mac 桌面预告片",
+  "group": "动态排版",
+  "tags": "动态排版 产品发布与广告 Mac desktop teaser for a notch browser 用 HyperFrames 做的 27 秒预告片：一个连续镜头穿过 Mac 桌面，还原真实应用窗口，刘海展开成浏览器。 jake11moran",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "jake11moran",
+  "authorUrl": "https://x.com/jake11moran/status/2103237884564414633",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/jake11moran-414633.mp4",
+  "bytes": 3864031,
+  "sha256": "5de3a6fd182591d4852a715201d39132cc4bf57cfd4159a7f96cb15136a8ea8b",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103237577138692096/vid/avc1/1280x720/FBuR_OFLiy6Z156T.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/jake11moran-414633.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/jake11moran-414633.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 27,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "jake11moran-414633",
+    "title": "Mac desktop teaser for a notch browser",
+    "title_zh": "刘海浏览器的 Mac 桌面预告片",
+    "url": "https://x.com/jake11moran/status/2103237884564414633",
+    "author": "jake11moran",
+    "author_name": "Jake Moran",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 27-second HyperFrames teaser: one continuous camera over a Mac desktop, recreated app windows, and a notch that opens into a browser.",
+    "description_zh": "用 HyperFrames 做的 27 秒预告片：一个连续镜头穿过 Mac 桌面，还原真实应用窗口，刘海展开成浏览器。",
+    "prompt": "Using HyperFrames, make a hype teaser for the product in this post - [link]. Landscape, around 27 seconds. Match the product UI, wallpaper and copy from the post's video\n\nMotion should feel slow and polished - one continuous camera over one Mac desktop, no hard cuts. Camera pushes, pulls and pans run like 1.5 to 3 seconds on gentle ease-in-out curves, nothing snappy - aim for half the speed you'd default to. Add motion blur on fast moves and a light film grain finish. Use an oversized macOS cursor. No audio. All on-screen copy lowercase like the post.\n\n1. Open on a big centered line - \"in the AI era, the hard part is\" - entering word by word from the right with an orange colorama text wipe over it (the `colorama-wipe` registry component). Hold it about a second, then scale it down into place above a spinning list.\n2. The list rotates through 30 hard things about working in the AI era - spending tokens wisely, picking the right model, managing context windows, etc - each with a real app icon. Go fast, it's not meant to be read, then land slowly on \"managing your desktop\". 0.2s after it lands a question mark pops on after it.\n3. Pull the camera back to reveal the Mac desktop as windows pile in on top of each other, arriving from behind the camera - Claude, ChatGPT, Grok, Linear, Chrome, Spotify, Slack and Claude Code in a terminal. Build these as accurate recreations of the real apps with real icons.\n4. Push back in so the windows fly past the camera, back to text - \"don't make your browser / one of them\".\n5. Pan up to a really tight framing of just the notch and the top of the wallpaper. A cursor comes up and hovers - the notch morphs into a pill with the name \"NotchBrowser\", then opens into the browser panel exactly like in the video.\n6. Click through the tabs like the video does, then click the collapse chevron so the panel retracts into the notch.\n7. End on a checklist of the post's claims with rings and ticks drawing on",
+    "prompt_lang": "en",
+    "prompt_zh": "用 HyperFrames 为这条帖子里的产品做一支造势预告片 - [link]。横屏，约 27 秒。产品界面、壁纸和文案都要和帖子里的视频一致\n\n运动要慢而精致 - 一个连续镜头在一台 Mac 桌面上移动，不要硬切。镜头的推、拉、摇每次持续约 1.5 到 3 秒，用柔和的 ease-in-out 曲线，一点都不要急促 - 目标是你默认速度的一半。快速运动时加动态模糊，最后加一层轻微的胶片颗粒。使用超大号的 macOS 光标。不要音频。所有屏幕文案都像帖子一样用小写。\n\n1. 开场是一行居中的大字 - \"in the AI era, the hard part is\" - 从右侧逐词进入，上面叠一道橙色 colorama 文字擦除效果（即 `colorama-wipe` 注册组件）。停留约一秒，然后缩小归位，停在一个旋转列表的上方。\n2. 列表轮播 AI 时代工作中的 30 件难事 - 明智地花 token、选对模型、管理上下文窗口等等 - 每一项都配一个真实的应用图标。转得要快，本来就不是给人读的，然后慢慢停在 \"managing your desktop\" 上。停住 0.2s 后，后面弹出一个问号。\n3. 镜头拉远，露出 Mac 桌面，窗口从镜头后方飞来、一层层叠上去 - Claude、ChatGPT、Grok、Linear、Chrome、Spotify、Slack，以及终端里的 Claude Code。把它们做成对真实应用的精确还原，用真实图标。\n4. 再推进去，让窗口从镜头旁飞过，回到文字 - \"don't make your browser / one of them\"。\n5. 向上摇到一个非常紧的构图，只有刘海和壁纸顶部。一个光标移上来悬停 - 刘海变形成一个写着 \"NotchBrowser\" 的胶囊，然后展开成浏览器面板，和视频里一模一样。\n6. 像视频里那样依次点击各个标签页，然后点击收起箭头，让面板缩回刘海。\n7. 以帖子里各项卖点组成的清单收尾，圆圈和勾号逐个画出来",
+    "prompt_url": "https://x.com/jake11moran/status/2103239225902874874",
+    "kind": "brief",
+    "tools": [
+      "hyperframes"
+    ],
+    "inputs": [
+      "reference-video"
+    ],
+    "note": "Author: a single prompt, dictated by voice.",
+    "note_zh": "作者称只用了一条语音口述的提示词。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103237577138692096/img/H2c936Vj7VIhyhHx.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103237577138692096/vid/avc1/480x270/D2WFrJH-nd_qht_O.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103237577138692096/vid/avc1/1280x720/FBuR_OFLiy6Z156T.mp4?tag=29",
+      "duration": 27,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 25,
+      "likes": 38,
+      "views": 6677,
+      "reposts": 1
+    },
+    "category": "launch",
+    "remakes": [
+      {
+        "author": "jake11moran",
+        "url": "https://x.com/jake11moran/status/2103239225902874874"
+      }
+    ]
+  },
+  "styleClassificationSource": {
+    "id": "2103237884564414633",
+    "style": "typography",
+    "title_zh": "HyperFrames产品预告片",
+    "title_en": "HyperFrames Mac Desktop Teaser",
+    "author": "jake11moran",
+    "post_url": "https://x.com/jake11moran/status/2103237884564414633",
+    "prompt": "Using HyperFrames, make a hype teaser for the product in this post - [link]. Landscape, around 27 seconds. Match the product UI, wallpaper and copy from the post's video \n\nMotion should feel slow and polished - one continuous camera over one Mac desktop, no hard cuts. Camera pushes, pulls and pans run like 1.5 to 3 seconds on gentle ease-in-out curves, nothing snappy - aim for half the speed you'd default to. Add motion blur on fast moves and a light film grain finish. Use an oversized macOS cursor. No audio. All on-screen copy lowercase like the post.\n\n1. Open on a big centered line - \"in the AI era, the hard part is\" - entering word by word from the right with an orange colorama text wipe over it (the `colorama-wipe` registry component). Hold it about a second, then scale it down into place above a spinning list.\n2. The list rotates through 30 hard things about working in the AI era - spending tokens wisely, picking the right model, managing context windows, etc - each with a real app icon. Go fast, it's not meant to be read, then land slowly on \"managing your desktop\". 0.2s after it lands a question mark pops on after it.\n3. Pull the camera back to reveal the Mac desktop as windows pile in on top of each other, arriving from behind the camera - Claude, ChatGPT, Grok, Linear, Chrome, Spotify, Slack and Claude Code in a terminal. Build these as accurate recreations of the real apps with real icons. \n4. Push back in so the windows fly past the camera, back to text - \"don't make your browser / one of them\".\n5. Pan up to a really tight framing of just the notch and the top of the wallpaper. A cursor comes up and hovers - the notch morphs into a pill with the name \"NotchBrowser\", then opens into the browser panel exactly like in the video. \n6. Click through the tabs like the video does, then click the collapse chevron so the panel retracts into the notch.\n7. End on a checklist of the post's claims with rings and ticks drawing on",
+    "prompt_partial": false,
+    "likes_2026_09_29": 39
+  },
+  "downloadedAt": "2026-10-14T09:18:13.436Z"
+}

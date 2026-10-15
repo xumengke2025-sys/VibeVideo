@@ -1,0 +1,78 @@
+{
+  "id": "original/sab8a-475686",
+  "title": "口播素材剪成快节奏短片",
+  "group": "手绘 · 线稿 · 漫画",
+  "tags": "手绘 · 线稿 · 漫画 改编与复刻 Talking-head clip cut into a punchy edit 把一段原始口播素材剪成 37 秒快节奏成片，带字幕、图形和音乐，用 Opus 5.5 加开源 OpenEdit。 sab8a",
+  "kind": "作者改编参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "sab8a",
+  "authorUrl": "https://x.com/sab8a/status/2103144778481475686",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/sab8a-475686.mp4",
+  "bytes": 7275890,
+  "sha256": "2f57d17fe12203bd732ae30b52fbef81e97b2021b4891d75c05139b20509d6e2",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103144418165538817/vid/avc1/1280x720/LtgK4gbBu3nu016S.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/sab8a-475686.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/sab8a-475686.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供；作者自行改编作品",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 37.3,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "sab8a-475686",
+    "title": "Talking-head clip cut into a punchy edit",
+    "title_zh": "口播素材剪成快节奏短片",
+    "url": "https://x.com/sab8a/status/2103144778481475686",
+    "author": "sab8a",
+    "author_name": "Sabba Keynejad",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A raw talking-head clip turned into a fun, punchy 37-second edit with subtitles, graphics and music, using Opus 5.5 with the open-source OpenEdit tool.",
+    "description_zh": "把一段原始口播素材剪成 37 秒快节奏成片，带字幕、图形和音乐，用 Opus 5.5 加开源 OpenEdit。",
+    "prompt": "Cut a raw talking-head clip into a punchy, fun edit with subtitles, graphics and music",
+    "prompt_lang": "en",
+    "prompt_zh": "把一段原始口播素材剪成一支有冲击力、好玩的成片，配上字幕、图形和音乐",
+    "kind": "one-shot",
+    "tools": [
+      "fal"
+    ],
+    "inputs": [
+      "footage"
+    ],
+    "note": "Author: about 1 h 51 min; about $23 in tokens and $49 in fal usage.",
+    "note_zh": "作者称约 1 小时 51 分钟，token 约 23 美元，fal 约 49 美元。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103144418165538817/img/7XT3rMnErm6GYZ3I.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103144418165538817/vid/avc1/480x270/1npZGfMiPhLrUyxl.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103144418165538817/vid/avc1/1280x720/LtgK4gbBu3nu016S.mp4?tag=29",
+      "duration": 37.3,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 581,
+      "likes": 288,
+      "views": 60703,
+      "reposts": 11
+    },
+    "category": "remix"
+  },
+  "styleClassificationSource": {
+    "id": "2103144778481475686",
+    "style": "handdrawn",
+    "title_zh": "谈话视频剪辑加字幕特效",
+    "title_en": "Talking Head Edited With Subtitles",
+    "author": "sab8a",
+    "post_url": "https://x.com/sab8a/status/2103144778481475686",
+    "prompt": "Cut a raw talking-head clip into a punchy, fun edit with subtitles, graphics and music",
+    "prompt_partial": false,
+    "likes_2026_09_29": 289
+  },
+  "downloadedAt": "2026-10-14T09:07:24.911Z"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "original/jackfriks-338762",
+  "title": "小猪送情书的应用预告短片",
+  "group": "扁平卡通",
+  "tags": "扁平卡通 产品发布与广告 Pig love-note story that teases an app 用应用里的小猪素材做的 20 秒竖屏故事：小猪往信箱里给伴侣塞情书，音效由代码生成，结尾带出应用。 jackfriks",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "jackfriks",
+  "authorUrl": "https://x.com/jackfriks/status/2103132260589338762",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/jackfriks-338762.mp4",
+  "bytes": 2678588,
+  "sha256": "550e7acd70ffe7242a4925d6479590b1f5ca7d2004d7cdc6b52864cc2da631cd",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103131986701230082/vid/avc1/720x1280/PKtoBL0Ue5MOqErn.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/jackfriks-338762.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/jackfriks-338762.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 19.5,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "jackfriks-338762",
+    "title": "Pig love-note story that teases an app",
+    "title_zh": "小猪送情书的应用预告短片",
+    "url": "https://x.com/jackfriks/status/2103132260589338762",
+    "author": "jackfriks",
+    "author_name": "jack friks",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 20-second 9:16 story built from the app's pig assets, where a pig leaves love notes in a mailbox, with code-made sound and an app tease.",
+    "description_zh": "用应用里的小猪素材做的 20 秒竖屏故事：小猪往信箱里给伴侣塞情书，音效由代码生成，结尾带出应用。",
+    "prompt": "can you help me use the pig assets on new branch of lovelee to make a 9:16 short story animation with sound effects about the pig sending his partner love notes in the mailbox and make it fun and good tease app at end?",
+    "prompt_lang": "en",
+    "prompt_zh": "你能帮我用 lovelee 新分支上的小猪素材，做一个 9:16 的带音效的短篇故事动画吗？讲小猪往信箱里给伴侣送情书，做得有趣一点，结尾好好预告一下这个应用？",
+    "prompt_url": "https://x.com/jackfriks/status/2103134485910892602",
+    "kind": "one-shot",
+    "inputs": [
+      "images"
+    ],
+    "note": "Author: one shot, no edits.",
+    "note_zh": "作者称一次生成，没有修改。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103131986701230082/img/9PcFlH2KPZDZVz_U.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103131986701230082/vid/avc1/320x568/Nq2f2cPO28tL8dcU.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103131986701230082/vid/avc1/720x1280/PKtoBL0Ue5MOqErn.mp4?tag=29",
+      "duration": 19.5,
+      "width": 1080,
+      "height": 1920
+    },
+    "metrics": {
+      "bookmarks": 192,
+      "likes": 161,
+      "views": 51336,
+      "reposts": 2
+    },
+    "category": "launch",
+    "remakes": [
+      {
+        "author": "jackfriks",
+        "url": "https://x.com/jackfriks/status/2103134485910892602"
+      }
+    ]
+  },
+  "styleClassificationSource": {
+    "id": "2103132260589338762",
+    "style": "cartoon",
+    "title_zh": "小猪送情书趣味动画",
+    "title_en": "Pig Love Note Short Animation",
+    "author": "jackfriks",
+    "post_url": "https://x.com/jackfriks/status/2103132260589338762",
+    "prompt": "can you help me use the pig assets on new branch of lovelee to make a 9:16 short story animation with sound effects about the pig sending his partner love notes in the mailbox and make it fun and good tease app at end?",
+    "prompt_partial": false,
+    "likes_2026_09_29": 161
+  },
+  "downloadedAt": "2026-10-14T09:11:06.394Z"
+}

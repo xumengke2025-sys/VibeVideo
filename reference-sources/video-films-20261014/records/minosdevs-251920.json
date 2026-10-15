@@ -1,0 +1,69 @@
+{
+  "id": "original/minosdevs-251920",
+  "title": "巴黎雨夜像素风 lofi 循环",
+  "group": "3D、着色器与世界",
+  "tags": "3D、着色器与世界 3D、着色器与世界 Pixel-art Paris night diorama lofi loop 4 分钟无缝循环的巴黎雨夜像素画，有埃菲尔铁塔、塞纳河和飘落的欧元钞票，用作 lofi 视频背景。 minosdevs",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "minosdevs",
+  "authorUrl": "https://x.com/minosdevs/status/2103112945341251920",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/minosdevs-251920.mp4",
+  "bytes": 467304,
+  "sha256": "c62afd9a727c2856654ed3f57a1436b9698d2ae07dfe64560615f44cd949a12b",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103112926575910912/vid/avc1/648x360/bit0b1-dlL-D7Ea0.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/minosdevs-251920.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/minosdevs-251920.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 6.1,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "minosdevs-251920",
+    "title": "Pixel-art Paris night diorama lofi loop",
+    "title_zh": "巴黎雨夜像素风 lofi 循环",
+    "url": "https://x.com/minosdevs/status/2103112945341251920",
+    "author": "minosdevs",
+    "author_name": "minos",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A seamless 4-minute pixel-art loop of rainy Paris at night with the Eiffel Tower, the Seine and falling euro notes, built as a lofi background.",
+    "description_zh": "4 分钟无缝循环的巴黎雨夜像素画，有埃菲尔铁塔、塞纳河和飘落的欧元钞票，用作 lofi 视频背景。",
+    "prompt": "Fais-moi un diorama pixel-art animé de Paris la nuit, pour servir de fond en boucle à une vidéo lofi de 10 heures sur YouTube. Tout dans un seul fichier HTML (canvas + JavaScript, sans librairie).\n\nAMBIANCE ET COULEURS\nJoue à fond sur le contraste chaud / froid : une nuit pluvieuse bleu nuit et violette, avec des coins de lumière chaude. La tour Eiffel dorée, les fenêtres éclairées, les réverbères, un café.\n\nLA SCÈNE (de l'arrière vers l'avant)\n- Un ciel en dégradé tramé (dithering façon pixel art), une lune avec un halo, et plusieurs couches de nuages qui défilent lentement, éclairées par la lune au-dessus et par la ville en dessous.\n- La tour Eiffel au centre, dorée, avec sa structure en treillis, ses 3 plateformes et son antenne. Son phare tourne et balaie le ciel. Elle scintille régulièrement (des points blancs qui clignotent partout), et une lumière rouge clignote tout en haut.\n- Au fond, une ligne de toits parisiens avec des fenêtres qui s'allument et s'éteignent, le dôme doré des Invalides et le Sacré-Cœur blanc sur sa colline.\n- Un quai avec des platanes et des réverbères.\n- La Seine, avec les reflets de la tour et des lampadaires qui ondulent, de longues traînées de lumière dorée, des ronds de pluie sur l'eau, et un bateau-mouche éclairé qui traverse de temps en temps.\n- À gauche, au premier plan, un immeuble haussmannien : toit en zinc mouillé, cheminée qui fume et crache des étincelles, un chat dans une lucarne qui bouge la queue, une fenêtre à la bougie qui vacille, une télé qui clignote en bleu, un balcon en fer forgé, un café avec un store rayé rouge et un néon « CAFÉ » qui grésille de temps en temps.\n- À droite, un réverbère parisien avec un halo chaud, qui vacille parfois.\n- Tout en bas, une balustrade en fer forgé avec des jardinières.\n\nEFFETS\n- De la pluie sur 3 profondeurs. Les gouttes deviennent orange quand elles passent dans une lumière, et elles éclaboussent sur les rebords, le store et la balustrade.\n- DES BILLETS QUI TOMBENT DU CIEL : des billets de 100 €, 50 € et 20 €, sur plusieurs profondeurs. Ils virevoltent comme des feuilles (ils se balancent, pivotent, se retournent et brillent quand ils font face).\n- De la fumée qui dérive avec le vent, des étincelles, des lumières qui vacillent, et 2 éclairs discrets dans les nuages par boucle.\n\nTECHNIQUE (important)\n- Le rendu interne est en 480×270, agrandi ×4 sans lissage (plus proche voisin), pour obtenir un 1920×1080 parfaitement net en plein écran.\n- La boucle est PARFAITE et dure 4 minutes : chaque animation est une fonction du temps modulo 240 s (fréquences entières, particules déterministes), donc aucun saut au moment où ça reboucle.\n- Touche R : enregistre exactement une boucle en 1920×1080, 60 fps, et télécharge le fichier vidéo (mp4 si possible, sinon webm).\n- Touche S : capture PNG en 1080p. Touche F ou double-clic : plein écran. Le curseur se cache quand on ne bouge pas la souris.\n- Optimise pour tenir 60 fps : sprites pré-rendus, halos en cache, et un canvas avec l'option willReadFrequently.",
+    "prompt_lang": "fr",
+    "prompt_en": "Make me an animated pixel-art diorama of Paris at night, to serve as the looping background for a 10-hour lofi video on YouTube. Everything in a single HTML file (canvas + JavaScript, no library).\n\nMOOD AND COLORS\nGo all in on the warm / cold contrast: a rainy midnight-blue and purple night, with pockets of warm light. The golden Eiffel Tower, lit windows, street lamps, a café.\n\nTHE SCENE (from back to front)\n- A gradient sky with ordered dithering (pixel-art style dithering), a moon with a halo, and several layers of clouds drifting slowly, lit by the moon from above and by the city from below.\n- The Eiffel Tower in the center, golden, with its lattice structure, its 3 platforms and its antenna. Its beacon rotates and sweeps the sky. It sparkles regularly (white dots blinking all over), and a red light blinks at the very top.\n- In the background, a line of Parisian rooftops with windows that turn on and off, the golden dome of Les Invalides and the white Sacré-Cœur on its hill.\n- A quay with plane trees and street lamps.\n- The Seine, with rippling reflections of the tower and the lampposts, long trails of golden light, rain rings on the water, and a lit bateau-mouche crossing from time to time.\n- On the left, in the foreground, a Haussmann building: wet zinc roof, a chimney that smokes and spits sparks, a cat in a dormer window moving its tail, a candlelit window that flickers, a TV flickering blue, a wrought-iron balcony, a café with a red striped awning and a « CAFÉ » neon sign that sputters now and then.\n- On the right, a Parisian street lamp with a warm halo, which sometimes flickers.\n- At the very bottom, a wrought-iron railing with planters.\n\nEFFECTS\n- Rain at 3 depths. The drops turn orange when they pass through a light, and they splash on the ledges, the awning and the railing.\n- BANKNOTES FALLING FROM THE SKY: 100 €, 50 € and 20 € notes, at several depths. They flutter like leaves (they sway, spin, flip over and shine when they face the viewer).\n- Smoke drifting with the wind, sparks, flickering lights, and 2 subtle lightning flashes in the clouds per loop.\n\nTECHNIQUE (important)\n- Internal rendering is 480×270, scaled ×4 without smoothing (nearest neighbor), to get a perfectly sharp 1920×1080 in full screen.\n- The loop is PERFECT and lasts 4 minutes: every animation is a function of time modulo 240 s (integer frequencies, deterministic particles), so there is no jump when it loops back.\n- R key: records exactly one loop at 1920×1080, 60 fps, and downloads the video file (mp4 if possible, otherwise webm).\n- S key: 1080p PNG capture. F key or double-click: full screen. The cursor hides when the mouse isn't moving.\n- Optimize to hold 60 fps: pre-rendered sprites, cached halos, and a canvas with the willReadFrequently option.",
+    "prompt_zh": "给我做一个巴黎夜景的像素风动画微缩场景（diorama），用作 YouTube 上 10 小时 lofi 视频的循环背景。全部放在一个 HTML 文件里（canvas + JavaScript，不用任何库）。\n\n氛围与配色\n把冷暖对比拉满：一个下雨的深蓝紫色夜晚，点缀着一处处暖光。金色的埃菲尔铁塔、亮着灯的窗户、路灯、一家咖啡馆。\n\n场景（从后往前）\n- 天空用网点抖动的渐变（像素画式 dithering），一轮带光晕的月亮，几层缓缓飘过的云，上方被月光照亮，下方被城市灯光照亮。\n- 埃菲尔铁塔在正中，金色，有格栅结构、3 层平台和天线。塔顶的探照灯旋转着扫过天空。它会定时闪烁（到处都有白点在闪），塔尖有一盏红灯在闪。\n- 远处是一排巴黎屋顶，窗户时亮时灭，还有荣军院的金色穹顶和山丘上白色的圣心大教堂。\n- 一段河岸，有梧桐树和路灯。\n- 塞纳河，铁塔和路灯的倒影在水面荡漾，拖着长长的金色光带，雨点在水面激起涟漪，一艘亮着灯的游船不时驶过。\n- 左侧前景是一栋奥斯曼式建筑：湿漉漉的锌皮屋顶，烟囱冒烟、喷出火星，老虎窗里一只猫在摆尾巴，一扇点着蜡烛的窗户光影摇曳，一台电视闪着蓝光，一个铸铁阳台，一家挂着红色条纹遮阳篷的咖啡馆，还有一块时不时滋滋作响的「CAFÉ」霓虹招牌。\n- 右侧是一盏带暖色光晕的巴黎路灯，偶尔闪一下。\n- 最下方是一道挂着花槽的铸铁栏杆。\n\n特效\n- 雨分 3 个景深。雨滴穿过灯光时变成橙色，落在窗台、遮阳篷和栏杆上会溅开。\n- 天上掉钞票：100 €、50 € 和 20 € 的钞票，分几个景深。它们像落叶一样翻飞（摇摆、旋转、翻面，正面朝向镜头时会反光）。\n- 随风飘散的烟、火星、闪烁的灯光，每次循环在云里有 2 次不显眼的闪电。\n\n技术（重要）\n- 内部渲染分辨率 480×270，不做平滑地放大 ×4（最近邻），得到全屏下完全清晰的 1920×1080。\n- 循环必须完美，时长 4 分钟：每个动画都是时间对 240 s 取模的函数（整数频率、确定性粒子），所以回到开头时不会有跳变。\n- 按 R 键：以 1920×1080、60 fps 精确录制一个循环，并下载视频文件（能用 mp4 就用 mp4，否则用 webm）。\n- 按 S 键：截一张 1080p 的 PNG。按 F 键或双击：全屏。鼠标不动时隐藏光标。\n- 优化到稳定 60 fps：预渲染精灵图、缓存光晕，canvas 开启 willReadFrequently 选项。",
+    "prompt_url": "https://x.com/minosdevs/status/2103112948478570675",
+    "kind": "spec",
+    "tools": [
+      "canvas",
+      "remotion"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103112926575910912/img/iZVnHGYtDMTFx5O4.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103112926575910912/vid/avc1/486x270/XoLIOgujLZXm9m_d.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103112926575910912/vid/avc1/648x360/bit0b1-dlL-D7Ea0.mp4?tag=29",
+      "duration": 6.1,
+      "width": 1448,
+      "height": 802
+    },
+    "metrics": {
+      "bookmarks": 1354,
+      "likes": 661,
+      "views": 135274,
+      "reposts": 27
+    },
+    "category": "worlds"
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:26:09.957Z"
+}

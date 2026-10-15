@@ -1,0 +1,78 @@
+{
+  "id": "original/hanifproduktif-411419",
+  "title": "1 分钟看完印尼 81 年历史",
+  "group": "扁平卡通",
+  "tags": "扁平卡通 历史与纪录 81 years of Indonesian history in a minute 59 秒线描动画，轻松有趣地回顾印尼 81 年的历史，配音乐和 ElevenLabs 旁白。 hanifproduktif",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "hanifproduktif",
+  "authorUrl": "https://x.com/hanifproduktif/status/2102695622042411419",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/hanifproduktif-411419.mp4",
+  "bytes": 4633123,
+  "sha256": "cfa7c66c50be2c8c38c55bbf5575b35e81b889a244d38852ce7b33bbe1e02428",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102694805210099712/vid/avc1/720x1280/79kcnPqloVjJyXGn.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/hanifproduktif-411419.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/hanifproduktif-411419.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 59,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "hanifproduktif-411419",
+    "title": "81 years of Indonesian history in a minute",
+    "title_zh": "1 分钟看完印尼 81 年历史",
+    "url": "https://x.com/hanifproduktif/status/2102695622042411419",
+    "author": "hanifproduktif",
+    "author_name": "Hanif | AI For Productivity",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "A 59-second, light-hearted line-drawing recap of 81 years of Indonesian history, with music and an ElevenLabs voiceover.",
+    "description_zh": "59 秒线描动画，轻松有趣地回顾印尼 81 年的历史，配音乐和 ElevenLabs 旁白。",
+    "prompt": "Create an animation that quickly recaps the 81 years of Indonesian history. The style should be simple, lighthearted and fun, in a line drawing animation format, with suitable music and voiceover added. The video should be less than 1 minute",
+    "prompt_lang": "en",
+    "prompt_zh": "制作一段动画，快速回顾印度尼西亚 81 年的历史。风格要简单、轻松、有趣，采用线描动画形式，配上合适的音乐和旁白。视频要短于 1 分钟",
+    "kind": "one-shot",
+    "tools": [
+      "elevenlabs"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: about Rp 9,000 per video, including Rp 2,000 for ElevenLabs.",
+    "note_zh": "作者称每支视频约 9000 印尼盾，其中 ElevenLabs 约 2000。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102694805210099712/img/TW-FBEEGs8QuMcJi.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102694805210099712/vid/avc1/320x568/U2RQBuJDzN1RfRJU.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102694805210099712/vid/avc1/720x1280/79kcnPqloVjJyXGn.mp4?tag=29",
+      "duration": 59,
+      "width": 1080,
+      "height": 1920
+    },
+    "metrics": {
+      "bookmarks": 120,
+      "likes": 165,
+      "views": 9880,
+      "reposts": 13
+    },
+    "category": "history"
+  },
+  "styleClassificationSource": {
+    "id": "2102695622042411419",
+    "style": "cartoon",
+    "title_zh": "印尼81年历史动画",
+    "title_en": "Indonesia history animation",
+    "author": "hanifproduktif",
+    "post_url": "https://x.com/hanifproduktif/status/2102695622042411419",
+    "prompt": "Create an animation that quickly recaps the 81 years of Indonesian history. The style should be simple, lighthearted and fun, in a line drawing animation",
+    "prompt_partial": false,
+    "likes_2026_09_29": 166
+  },
+  "downloadedAt": "2026-10-14T09:10:55.977Z"
+}

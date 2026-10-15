@@ -1,0 +1,82 @@
+{
+  "id": "original/anjmaxx-459455",
+  "title": "纸感 K-pop 风故事音乐视频",
+  "group": "像素",
+  "tags": "像素 MV 与歌词动画 K-pop-inspired story music video with paper textures 20 秒故事型 MV：两个古怪主角，纸感 JavaScript 动画配动态歌词和 AI 梗，可接 Seedance。 anjmaxx",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "anjmaxx",
+  "authorUrl": "https://x.com/anjmaxx/status/2103173729656459455",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/anjmaxx-459455.mp4",
+  "bytes": 2841694,
+  "sha256": "e0b3f7c1ea89376dcedf5eca5b27417979c4a47424044985c3ddc6bd6911374c",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103170637623922688/vid/avc1/720x900/R7rtCDPvdgXYfXGO.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/anjmaxx-459455.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/anjmaxx-459455.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 20,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "anjmaxx-459455",
+    "title": "K-pop-inspired story music video with paper textures",
+    "title_zh": "纸感 K-pop 风故事音乐视频",
+    "url": "https://x.com/anjmaxx/status/2103173729656459455",
+    "author": "anjmaxx",
+    "author_name": "anj",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 20-second story-led music video about two quirky characters, with papery JavaScript animation, kinetic lyrics and AI-timeline memes; the prompt allows Seedance 2.5 for base footage.",
+    "description_zh": "20 秒故事型 MV：两个古怪主角，纸感 JavaScript 动画配动态歌词和 AI 梗，可接 Seedance。",
+    "prompt": "I want you to independently do an end-to-end complete pass on making 20 second story led music video with two main protagonists a girl and a boy. I want the concept and storytelling to be reallyy unique and engaging. the audeince should be hooked to find out what happens next. the visuals shouls be pretty and really ccool. both the charcters should have a witty, quirky personality.  Use the right audio track and think and feel very deeply about what is the best way to visually represent all of the lyrics on screen. in terms of style, you can do truly anything that you think might best let you visually express yourself, including abstract motion graphics. You can use the internet freely to pull in references. You can look at motion design. I want you to make a fresh music video that has beautifully rendered JavaScript animations with a papery feel in a similar style to the reference that is created, but push the aesthetics in any direction you want and consider what is part of the modern zeitgeist. ive also attached another style that ypu explore and pick out whatever seems best to you.\n\nAlso, think about your current capabilities and what is realistic for you to be able to do. I think you should be mindful of aesthetics here, and I don't want you to produce something that is GPT slop. Instead, I'd be more impressed if you come up with a coherent style that works well. Generate the style sheet.\n\nThink critically about what is relevant here and what would be fun, and also perform well on Twitter as far as an aesthetic. I think that K-pop is a good anchor point visually that you can pull from, but I'll let you cook here.\nOnce you have your character sheet, you can make a few backup dancers and some supporting characters as you see fit. You can design your own sets. You can insert the characters and then do seedance 2.5 video generations to serve as the base assets for this, and you could pass in the lyrics so you can generate individual scenes.\nYou don't need to have vocal singing, like visible lip movement, throughout the entire thing. Think like a regular music video where you have some inserts that are done independently and don't have the characters in them, or you see the characters doing something else entirely different. I think that for the world building for this, we want to create the sense of speeding up, and so I would like you to audit all of the different events, like the Navi Stokes and all of the Twitter hype around math getting eaten up. Think really critically about how to integrate all of the current memes that are in the zeitgeist on the Twitter timeline, and all of the feelings around AI progress. Think about things like the Shinji meme and all of the words that are around him, and how you might be able to integrate this. You can also just take straight assets and insert things into the video in an internet brutalism style. You should feel very creatively free in order to do what you want here, but try and anchor to visual references that people will be able to understand. We need a very strong, compelling visual hook that gets people excited and appreciates the work that you've done here really quickly. You can also just go and study other music videos and understand what they've done really well. I think that K-pop is probably one of the best examples that we can pull from, and thinking about how they direct human attention and manage human psychology in the way that they use visual patterns.\n\nThis is probably your best approach, but taking more stylistic freedom instead of having to anchor to K-pop too intensely.\n\nI think too, we want to think about how to retain attention, and one of the best ways to do this is through text on screen. It'd be good to have amazing motion graphics of the text lyrics that are actually embedded into the video itself. And you can think about this as you are composing shots. As you're making backgrounds and inserting characters, we can think about where we want to have lyrics be really big and really present, so the background can be less busy there, and you can position the characters perhaps on the right as lyrics appear on the left.\n\nYou want to have some variance, so sometimes I think lyrics will just appear more like subtitles, and then other times they're going to be really present and really big. I think at the start for the visual hook, we do want to have lyrics be much more visually present because that's a strong way to grab people's attention. Remember, you can really do anything here. The goal is to make a banger for Twitter, and the stretch goal is to make something better than anyone's ever seen before. I think that what I would remind you of is that sometimes when things cohere together, it can be jarring or abrasive because the thought work has not been done beforehand in order for everything to mesh cleanly. You need to be really rigorous in planning of composition and timing to make sure this goes well.\nYou also need to be open to going back and revisiting things in order to be able to reiterate. You're going to want to watch the entire video multiple times, take screenshots at individual parts, and think about if something is really up to the bar of quality that we need here. I trust that you can do this, and I think that it's really important to nail the style of animations.\n\nYou can also use search abilities and find other references to pull from for motion, for JavaScript, animations, et cetera, and integrate them. Again, be economical; don't go crazy, but spend what you want here and see what you can cook up.",
+    "prompt_lang": "en",
+    "prompt_zh": "我希望你独立完成一整套端到端的流程，做一支 20 秒、以故事为主线的音乐视频，有两个主角：一个女孩和一个男孩。我希望概念和叙事真的非常独特、吸引人，观众会被勾住，想知道接下来会发生什么。画面要漂亮、非常酷。两个角色都要有机智、古灵精怪的性格。选用合适的音轨，认真深入地思考和感受，怎样在屏幕上以最好的方式视觉化呈现全部歌词。风格上你可以做任何你认为最能表达自己的东西，包括抽象动态图形。你可以自由上网找参考。你可以去看动效设计。我希望你做一支全新的音乐视频，用渲染精美、带纸张质感的 JavaScript 动画，风格与已经做出来的参考类似，但美学上可以往任何方向推，并考虑什么属于当下的时代精神。我还附上了另一种风格，你去探索一下，挑出你觉得最好的部分。\n\n另外，想想你目前的能力，以及什么对你来说是现实可行的。我觉得你在这里要注意审美，我不希望你做出 GPT 那种垃圾。相反，如果你能想出一个连贯、成立的风格，我会更佩服。生成风格表（style sheet）。\n\n批判性地思考什么是相关的、什么会有趣，以及在 Twitter 上从审美角度什么会表现好。我觉得 K-pop 是一个不错的视觉锚点，你可以从中借鉴，但放手让你发挥。\n有了角色设定表之后，你可以按需要做几个伴舞和一些配角。你可以设计自己的布景。你可以把角色放进去，然后用 seedance 2.5 生成视频作为基础素材，还可以把歌词传进去，分别生成各个场景。\n你不需要整段都有人声演唱，比如可见的口型。像普通音乐视频那样思考：有一些独立完成的插入镜头，里面没有角色，或者角色在做完全不同的事情。我觉得这支片子的世界观要营造一种不断加速的感觉，所以我希望你梳理所有不同的事件，比如 Navi Stokes，以及 Twitter 上关于数学被 AI 吃掉的所有热议。认真批判性地思考如何融入 Twitter 时间线上当下所有的时代梗，以及人们对 AI 进展的所有情绪。想想 Shinji 那个梗和围绕他的所有文字，以及你可以怎么把它融进来。你也可以直接拿现成素材，用互联网粗野主义（internet brutalism）的风格插进视频里。你应该感到非常自由地去做你想做的，但尽量锚定在大家能看懂的视觉参考上。我们需要一个非常强、非常抓人的视觉钩子，让人兴奋，并能很快欣赏到你在这里所做的工作。你也可以去研究其他音乐视频，理解它们哪里做得特别好。我觉得 K-pop 可能是我们能借鉴的最好的例子之一，想想它们如何引导人的注意力、如何利用视觉模式驾驭人的心理。\n\n这可能是你最好的路子，但要多一些风格上的自由，而不是过于死板地锚定 K-pop。\n\n我还觉得，我们要思考如何留住注意力，而最好的方法之一就是屏幕上的文字。如果能有嵌入视频本身的、非常出色的歌词动态文字就好了。你在构图时可以一并考虑这一点。在你做背景和放置角色的时候，我们可以想想在哪些地方让歌词非常大、非常醒目，这样那里的背景可以简单一些，你也可以把角色放在右边，歌词出现在左边。\n\n要有一些变化，所以我觉得有时歌词会更像字幕一样出现，有时又会非常醒目、非常大。我觉得开头为了视觉钩子，确实要让歌词在视觉上更突出，因为这是抓住注意力的有力方式。记住，你在这里真的可以做任何事。目标是给 Twitter 做一支爆款，延伸目标是做出一个比任何人见过的都更好的东西。我想提醒你的是，有时候东西组合在一起会显得突兀、刺眼，因为事先没有做足思考，所有东西没法干净地融合。你需要在构图和时间安排上做非常严谨的规划，确保顺利。\n你还需要愿意回头重做，才能反复迭代。你会想把整支视频完整看好几遍，在各个节点截图，思考它是否真的达到我们需要的质量标准。我相信你能做到，而且我觉得把动画风格做对真的非常重要。\n\n你也可以用搜索能力去找其他动效、JavaScript 动画等方面的参考，把它们整合进来。再说一次，要节省一点；别太疯狂，但该花的就花，看看你能做出什么。",
+    "prompt_url": "https://x.com/anjmaxx/status/2103174007319413155",
+    "kind": "pipeline",
+    "tools": [
+      "seedance"
+    ],
+    "inputs": [
+      "images"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103170637623922688/img/evTL55F1PySRV5f4.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103170637623922688/vid/avc1/320x400/yrtPkYCiIwGDvjFV.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103170637623922688/vid/avc1/720x900/R7rtCDPvdgXYfXGO.mp4?tag=29",
+      "duration": 20,
+      "width": 1080,
+      "height": 1350
+    },
+    "metrics": {
+      "bookmarks": 7,
+      "likes": 10,
+      "views": 794
+    },
+    "category": "music",
+    "remakes": [
+      {
+        "author": "anjmaxx",
+        "url": "https://x.com/anjmaxx/status/2103174007319413155"
+      }
+    ]
+  },
+  "styleClassificationSource": {
+    "id": "2103173729656459455",
+    "style": "pixel",
+    "title_zh": "男女主角奇幻音乐短片",
+    "title_en": "Quirky Boy Girl Music Video",
+    "author": "anjmaxx",
+    "post_url": "https://x.com/anjmaxx/status/2103173729656459455",
+    "prompt": "I want you to independently do an end-to-end complete pass on making 20 second story led music video with two main protagonists a girl and a boy. I want the concept and storytelling to be reallyy unique and engaging. the audeince should be hooked to find out what happens next. the visuals shouls be pretty and really ccool. both the charcters should have a witty, quirky personality.  Use the right audio track and think and feel very deeply about what is the best way to visually represent all of the lyrics on screen. in terms of style, you can do truly anything that you think might best let you visually express yourself, including abstract motion graphics. You can use the internet freely to pull in references. You can look at motion design. I want you to make a fresh music video that has beautifully rendered JavaScript animations with a papery feel in a similar style to the reference that is created, but push the aesthetics in any direction you want and consider what is part of the modern zeitgeist. ive also attached another style that ypu explore and pick out whatever seems best to you.\n\nAlso, think about your current capabilities and what is realistic for you to be able to do. I think you should be mindful of aesthetics here, and I don't want you to produce something that is GPT slop. Instead, I'd be more impressed if you come up with a coherent style that works well. Generate the style sheet.\n\nThink critically about what is relevant here and what would be fun, and also perform well on Twitter as far as an aesthetic. I think that K-pop is a good anchor point visually that you can pull from, but I'll let you cook here.\nOnce you have your character sheet, you can make a few backup dancers and some supporting characters as you see fit. You can design your own sets. You can insert the characters and then do seedance 2.5 video generations to serve as the base assets for this, and you could pass in the lyrics so you can generate individual scenes.\nYou don't need to have vocal singing, like visible lip movement, throughout the entire thing. Think like a regular music video where you have some inserts that are done independently and don't have the characters in them, or you see the characters doing something else entirely different. I think that for the world building for this, we want to create the sense of speeding up, and so I would like you to audit all of the different events, like the Navi Stokes and all of the Twitter hype around math getting eaten up. Think really critically about how to integrate all of the current memes that are in the zeitgeist on the Twitter timeline, and all of the feelings around AI progress. Think about things like the Shinji meme and all of the words that are around him, and how you might be able to integrate this. You can also just take straight assets and insert things into the video in an internet brutalism style. You should feel very creatively free in order to do what you want here, but try and anchor to visual references that people will be able to understand. We need a very strong, compelling visual hook that gets people excited and appreciates the work that you've done here really quickly. You can also just go and study other music videos and understand what they've done really well. I think that K-pop is probably one of the best examples that we can pull from, and thinking about how they direct human attention and manage human psychology in the way that they use visual patterns.\n\nThis is probably your best approach, but taking more stylistic freedom instead of having to anchor to K-pop too intensely.\n\nI think too, we want to think about how to retain attention, and one of the best ways to do this is through text on screen. It'd be good to have amazing motion graphics of the text lyrics that are actually embedded into the video itself. And you can think about this as you are composing shots. As you're making backgrounds and inserting characters, we can think about where we want to have lyrics be really big and really present, so the background can be less busy there, and you can position the characters perhaps on the right as lyrics appear on the left.\n\nYou want to have some variance, so sometimes I think lyrics will just appear more like subtitles, and then other times they're going to be really present and really big. I think at the start for the visual hook, we do want to have lyrics be much more visually present because that's a strong way to grab people's attention. Remember, you can really do anything here. The goal is to make a banger for Twitter, and the stretch goal is to make something better than anyone's ever seen before. I think that what I would remind you of is that sometimes when things cohere together, it can be jarring or abrasive because the thought work has not been done beforehand in order for everything to mesh cleanly. You need to be really rigorous in planning of composition and timing to make sure this goes well.\nYou also need to be open to going back and revisiting things in order to be able to reiterate. You're going to want to watch the entire video multiple times, take screenshots at individual parts, and think about if something is really up to the bar of quality that we need here. I trust that you can do this, and I think that it's really important to nail the style of animations.\n\nYou can also use search abilities and find other references to pull from for motion, for JavaScript, animations, et cetera, and integrate them. Again, be economical; don't go crazy, but spend what you want here and see what you can cook up.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 10
+  },
+  "downloadedAt": "2026-10-14T09:10:12.894Z"
+}

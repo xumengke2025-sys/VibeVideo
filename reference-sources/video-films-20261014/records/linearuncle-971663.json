@@ -1,0 +1,78 @@
+{
+  "id": "original/linearuncle-971663",
+  "title": "Manim 导数概念教学视频",
+  "group": "科普图解 · 数据可视化",
+  "tags": "科普图解 · 数据可视化 科普与讲解 Manim lesson on derivatives 7 分半的 Manim 导数入门课，带例子讲解，配音用 edge-tts。 LinearUncle",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "LinearUncle",
+  "authorUrl": "https://x.com/LinearUncle/status/2103128559174971663",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/linearuncle-971663.mp4",
+  "bytes": 17110972,
+  "sha256": "348b6cf75efbb04a5fa5ae124a230e5544b7a9ce2d1fa503241e9d1a2f22d0d7",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103128124305309696/vid/avc1/1280x720/KGbOd7MXGN87B_nh.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/linearuncle-971663.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/linearuncle-971663.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 457,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "linearuncle-971663",
+    "title": "Manim lesson on derivatives",
+    "title_zh": "Manim 导数概念教学视频",
+    "url": "https://x.com/LinearUncle/status/2103128559174971663",
+    "author": "LinearUncle",
+    "author_name": "LinearUncle",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 7.5-minute Manim lesson on the concept of the derivative, with worked examples and edge-tts voice-over.",
+    "description_zh": "7 分半的 Manim 导数入门课，带例子讲解，配音用 edge-tts。",
+    "prompt": "请用Manim给我制作一个导数概念学习的视频，要求通俗易懂，并且有例子，引人思考。配音使用edge-tts",
+    "prompt_lang": "zh",
+    "prompt_en": "Please use Manim to make me a video for learning the concept of the derivative. It should be easy to understand, include examples and make people think. Use edge-tts for the voice-over",
+    "kind": "one-shot",
+    "tools": [
+      "manim",
+      "tts"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103128124305309696/img/xFafXqUq1tPUkuVE.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103128124305309696/vid/avc1/480x270/hzSNzC9ZI9Wp1xgg.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103128124305309696/vid/avc1/1280x720/KGbOd7MXGN87B_nh.mp4?tag=29",
+      "duration": 457,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 360,
+      "likes": 258,
+      "views": 21973,
+      "reposts": 31
+    },
+    "category": "explainer"
+  },
+  "styleClassificationSource": {
+    "id": "2103128559174971663",
+    "style": "explainer",
+    "title_zh": "导数概念Manim教学动画",
+    "title_en": "Derivative Concept Math Animation",
+    "author": "LinearUncle",
+    "post_url": "https://x.com/LinearUncle/status/2103128559174971663",
+    "prompt": "请用Manim给我制作一个导数概念学习的视频，要求通俗易懂，并且有例子，引人思考。配音使用edge-tts",
+    "prompt_partial": false,
+    "likes_2026_09_29": 258
+  },
+  "downloadedAt": "2026-10-14T09:20:29.647Z"
+}

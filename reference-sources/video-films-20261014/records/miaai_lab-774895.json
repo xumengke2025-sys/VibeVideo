@@ -1,0 +1,80 @@
+{
+  "id": "original/miaai_lab-774895",
+  "title": "由一个词生成的宇宙诞生动画",
+  "group": "生成艺术 · 霓虹",
+  "tags": "生成艺术 · 霓虹 3D、着色器与世界 Word-seeded cosmic genesis animation 输入一个词就生成一整个宇宙的实时视听作品：星星、星系、行星都用着色器画，Web Audio 实时出音乐，不用素材文件。 MiaAI_lab",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "MiaAI_lab",
+  "authorUrl": "https://x.com/MiaAI_lab/status/2103837519615774895",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/miaai_lab-774895.mp4",
+  "bytes": 15314758,
+  "sha256": "15da9b33a2704f266f5a02e021477bbc597094505ad17629135ddb08e643cc6a",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103835194968973312/vid/avc1/720x1280/bfvPrvuYfjRTvJhD.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/miaai_lab-774895.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/miaai_lab-774895.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 97,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "miaai_lab-774895",
+    "title": "Word-seeded cosmic genesis animation",
+    "title_zh": "由一个词生成的宇宙诞生动画",
+    "url": "https://x.com/MiaAI_lab/status/2103837519615774895",
+    "author": "MiaAI_lab",
+    "author_name": "Mia",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A real-time audiovisual piece where a typed word seeds a universe of shader-drawn stars, galaxy and planet, with live Web Audio music and no asset files.",
+    "description_zh": "输入一个词就生成一整个宇宙的实时视听作品：星星、星系、行星都用着色器画，Web Audio 实时出音乐，不用素材文件。",
+    "prompt": "Build me something when people see it, they will say \"Wow\". Must be immersive, when people see it, they will be stunned by what they see.\n\nThis can be a video, or anything else you can think of.\n\nBe creative. Go wild. Dig deep.\n\nNo AI slop. Something unique, think outside of the box. Think big. Think amazing. Something no other model done before.\n\nBe proud. Show your best. Don't disappoint.",
+    "prompt_lang": "en",
+    "prompt_zh": "给我做一个东西，让人看到时会说「Wow」。必须有沉浸感，让人看到时被眼前的画面震住。\n\n它可以是一段视频，也可以是你能想到的任何别的东西。\n\n要有创意。放开了做。往深里挖。\n\n不要 AI 垃圾。要独特，跳出框框思考。往大处想。往惊艳处想。做一个其他模型从没做过的东西。\n\n要有骄傲感。拿出你最好的水平。别让我失望。",
+    "prompt_url": "https://x.com/MiaAI_lab/status/2103837523952763081",
+    "kind": "one-shot",
+    "tools": [
+      "webaudio"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: one run.",
+    "note_zh": "作者称一次就跑出了这个结果。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103835194968973312/img/vTWjv7AbUxDEVaTy.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103835194968973312/vid/avc1/320x568/ZZGniOdL_CSM_7Zr.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103835194968973312/vid/avc1/720x1280/bfvPrvuYfjRTvJhD.mp4?tag=29",
+      "duration": 97,
+      "width": 1080,
+      "height": 1920,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 747,
+      "likes": 1035,
+      "views": 75318,
+      "reposts": 69
+    },
+    "category": "worlds"
+  },
+  "styleClassificationSource": {
+    "id": "2103837519615774895",
+    "style": "generative",
+    "title_zh": "震撼视觉沉浸式体验",
+    "title_en": "Stunning Immersive Visual Experience",
+    "author": "MiaAI_lab",
+    "post_url": "https://x.com/MiaAI_lab/status/2103837519615774895",
+    "prompt": "Build me something when people see it, they will say \"Wow\". Must be immersive, when people see it, they will be stunned by what they see.\n\nThis can be a video, or anything else you can think of.\n\nBe creative. Go wild. Dig deep.\n\nNo AI slop. Something unique, think outside of the box. Think big. Think amazing. Something no other model done before.\n\nBe proud. Show your best. Don't disappoint.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 1108
+  },
+  "downloadedAt": "2026-10-14T09:15:54.783Z"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "original/itsolelehmann-762215",
+  "title": "火车窗外的四季",
+  "group": "扁平卡通",
+  "tags": "扁平卡通 叙事、手绘与定格 Four seasons outside a train window 30 秒动画短片：温馨车厢窗外四季流转，布达佩斯大饭店式画风，画面和配乐全靠约 2800 行代码。 itsolelehmann",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "itsolelehmann",
+  "authorUrl": "https://x.com/itsolelehmann/status/2103124033365762215",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/itsolelehmann-762215.mp4",
+  "bytes": 5137997,
+  "sha256": "0417c2e4a99bb6db9667b0ea8752084b03fc1da7af5d9ed8353e1dca1b38bca0",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103123980039458816/vid/avc1/1280x720/QADXvAbIdAkIGIXY.mp4?tag=16",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/itsolelehmann-762215.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/itsolelehmann-762215.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 30,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "itsolelehmann-762215",
+    "title": "Four seasons outside a train window",
+    "title_zh": "火车窗外的四季",
+    "url": "https://x.com/itsolelehmann/status/2103124033365762215",
+    "author": "itsolelehmann",
+    "author_name": "Ole Lehmann",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 30-second animated film of the seasons passing a cozy train carriage in a Grand Budapest Hotel look, drawn and scored in about 2,800 lines of code.",
+    "description_zh": "30 秒动画短片：温馨车厢窗外四季流转，布达佩斯大饭店式画风，画面和配乐全靠约 2800 行代码。",
+    "prompt": "4 seasons passing outside a train window, a cozy carriage, a cup of coffee on the table, Grand Budapest Hotel style",
+    "prompt_lang": "en",
+    "prompt_zh": "火车窗外四季流转，一节温馨的车厢，桌上放着一杯咖啡，《布达佩斯大饭店》风格",
+    "kind": "one-shot",
+    "tools": [
+      "claude-code"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: one prompt; the finished .mp4 came back in the chat.",
+    "note_zh": "作者称只发了一个提示词，成片 .mp4 直接回到对话里。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103123980039458816/img/DDPjksrlzGkxSB1K.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103123980039458816/vid/avc1/480x270/X-z6jblOWBd4TkX9.mp4?tag=16",
+      "video_hd": "https://video.twimg.com/amplify_video/2103123980039458816/vid/avc1/1280x720/QADXvAbIdAkIGIXY.mp4?tag=16",
+      "duration": 30,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 182,
+      "likes": 259,
+      "views": 18022,
+      "reposts": 18
+    },
+    "category": "story"
+  },
+  "styleClassificationSource": {
+    "id": "2103124033365762215",
+    "style": "cartoon",
+    "title_zh": "火车窗外四季风景",
+    "title_en": "Four Seasons Train Window View",
+    "author": "itsolelehmann",
+    "post_url": "https://x.com/itsolelehmann/status/2103124033365762215",
+    "prompt": "4 seasons passing outside a train window, a cozy carriage, a cup of coffee on the table, Grand Budapest Hotel style",
+    "prompt_partial": false,
+    "likes_2026_09_29": 261
+  },
+  "downloadedAt": "2026-10-14T09:10:55.969Z"
+}

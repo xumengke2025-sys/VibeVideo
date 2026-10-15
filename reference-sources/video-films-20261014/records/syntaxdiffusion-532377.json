@@ -1,0 +1,69 @@
+{
+  "id": "original/syntaxdiffusion-532377",
+  "title": "加密如何保护文件传输",
+  "group": "科普与讲解",
+  "tags": "科普与讲解 科普与讲解 How encryption secures file transfers 96 秒的加密文件传输可视化讲解，在 Sentinel 环境里完成，音效全用 Python 合成、ffmpeg 混音。 SyntaxDiffusion",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "SyntaxDiffusion",
+  "authorUrl": "https://x.com/SyntaxDiffusion/status/2103182358635532377",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/syntaxdiffusion-532377.mp4",
+  "bytes": 20465161,
+  "sha256": "f152d180ad804124e9a7aa50cb09f4e0f6887a2339cf591b58d9e82effcf2d17",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103182219124584448/vid/avc1/1280x720/CjSlHgZMcL6knXve.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/syntaxdiffusion-532377.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/syntaxdiffusion-532377.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 96,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "syntaxdiffusion-532377",
+    "title": "How encryption secures file transfers",
+    "title_zh": "加密如何保护文件传输",
+    "url": "https://x.com/SyntaxDiffusion/status/2103182358635532377",
+    "author": "SyntaxDiffusion",
+    "author_name": "Syntax Diffusion",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 96-second visual explainer of encryption in secure file transfers, built in the Sentinel agent environment, with all audio synthesized in Python and mixed with ffmpeg.",
+    "description_zh": "96 秒的加密文件传输可视化讲解，在 Sentinel 环境里完成，音效全用 Python 合成、ffmpeg 混音。",
+    "prompt": "create an insightful, yet state of the art visualization for how encryption works with secure file transfers",
+    "prompt_lang": "en",
+    "prompt_zh": "做一个既有洞见、又达到当前最高水准的可视化，讲清楚加密在安全文件传输中是如何工作的",
+    "prompt_url": "https://x.com/SyntaxDiffusion/status/2103182361366032407",
+    "kind": "one-shot",
+    "tools": [
+      "python",
+      "ffmpeg"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103182219124584448/img/9RnsxPVGgQ_wetiS.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103182219124584448/vid/avc1/480x270/ldRxP7CzRxcloRBG.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103182219124584448/vid/avc1/1280x720/CjSlHgZMcL6knXve.mp4?tag=29",
+      "duration": 96,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 567,
+      "likes": 519,
+      "views": 35537,
+      "reposts": 14
+    },
+    "category": "explainer"
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:23:10.242Z"
+}

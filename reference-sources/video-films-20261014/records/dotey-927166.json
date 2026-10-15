@@ -1,0 +1,66 @@
+{
+  "id": "original/dotey-927166",
+  "title": "《中华文明史》史诗编年片",
+  "group": "历史与纪录",
+  "tags": "历史与纪录 历史与纪录 Epic chronicle of Chinese civilization 3 分半的中华文明编年片，宣纸白描与玄底泥金两种画风交替，五声调式配乐的 BPM 随朝代加快。 dotey",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "dotey",
+  "authorUrl": "https://x.com/dotey/status/2103964025683927166",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/dotey-927166.mp4",
+  "bytes": 14702348,
+  "sha256": "b6447084f08dd3ac8e1f90c992c7baa04a5f210b6bf34f8d97b1f5c0ca31254e",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103961534720360448/vid/avc1/1280x720/QUw8Xd5S2z3bAu82.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/dotey-927166.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/dotey-927166.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 217.3,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "dotey-927166",
+    "title": "Epic chronicle of Chinese civilization",
+    "title_zh": "《中华文明史》史诗编年片",
+    "url": "https://x.com/dotey/status/2103964025683927166",
+    "author": "dotey",
+    "author_name": "宝玉",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 3.5-minute chronicle of Chinese history alternating ink line art and gold-on-black styles, cut to a pentatonic score whose BPM rises with each era.",
+    "description_zh": "3 分半的中华文明编年片，宣纸白描与玄底泥金两种画风交替，五声调式配乐的 BPM 随朝代加快。",
+    "prompt": "做一支史诗编年片《中华文明史》，可以写代码逐帧渲染，再用 ffmpeg 合成。\n配乐当时钟：五声调式，乐器从骨笛、编钟一路演进到管弦，BPM 随年代加快，所有切点踩拍。\n宣纸白描和玄底泥金两种画风交替；每卷一个主色和一套随时代演变的纹样（彩陶纹 → 饕餮纹 → 云气纹 → 卷草纹 → 缠枝纹 → 回纹）。\n每镜一个按词组出现的书法大字关键词，配一幅线稿。全片 HUD：左上朱印卷号，右侧竖排朝代名，底部卷轴时间尺和年份计数。\n卷交界用朱印盖下、鼓钟重击的冲击转场。先定拍点网格和分镜表，再渲染。\n地图只画示意，不画近现代真实人物，年代核对后再交付。",
+    "prompt_lang": "zh",
+    "prompt_en": "Make an epic chronicle film, 《中华文明史》 (\"A History of Chinese Civilization\"). You can write code to render it frame by frame, then composite it with ffmpeg.\nUse the score as the clock: pentatonic mode, with instruments evolving from bone flutes and bianzhong bronze bells all the way to a full orchestra; the BPM speeds up with the eras, and every cut lands on the beat.\nAlternate between two styles: fine ink line drawing on xuan paper, and gold paint on a black ground. Each scroll gets one main color and a set of patterns that evolve with the era (painted-pottery patterns → taotie motifs → cloud-and-qi patterns → scrolling-vine patterns → interlocking-branch patterns → key-fret patterns).\nEach shot gets one large calligraphy keyword that appears phrase by phrase, paired with a line drawing. Film-wide HUD: a red seal with the scroll number at top left, the dynasty name set vertically on the right, and a scroll-style timeline ruler with a year counter at the bottom.\nAt the boundary between scrolls, use an impact transition: a red seal stamps down with a heavy drum-and-bell hit. Lock the beat grid and the shot list first, then render.\nMaps are schematic only; do not draw real modern or contemporary people; check the dates before delivering.",
+    "kind": "brief",
+    "tools": [
+      "ffmpeg"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103961534720360448/img/YAzcNoKyq4Tk0IsR.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103961534720360448/vid/avc1/480x270/qgsMKHjcOP7L_4GM.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103961534720360448/vid/avc1/1280x720/QUw8Xd5S2z3bAu82.mp4?tag=29",
+      "duration": 217.3,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 212,
+      "likes": 239,
+      "views": 25491,
+      "reposts": 19
+    },
+    "category": "history"
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:24:00.772Z"
+}

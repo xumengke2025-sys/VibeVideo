@@ -1,0 +1,78 @@
+{
+  "id": "original/groundcontrol-230877",
+  "title": "铅笔手绘风：2026 日本酷暑",
+  "group": "手绘 · 线稿 · 漫画",
+  "tags": "手绘 · 线稿 · 漫画 科普与讲解 Japan's 2026 heat as a pencil-drawn data story 3 分钟动画数据故事，讲 2026 年日本酷暑。铅笔手绘风画真实气象数据，配乐是浏览器里合成的日本筝。 GroundControl",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "GroundControl",
+  "authorUrl": "https://x.com/GroundControl/status/2103678647777230877",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/groundcontrol-230877.mp4",
+  "bytes": 12115646,
+  "sha256": "6eddd858c5673a5aa97d639f388715ddf9ed58d13050e881d65aa579a7efb4b2",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103677581761368064/vid/avc1/1280x720/IW8541HStoTa83Kc.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/groundcontrol-230877.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/groundcontrol-230877.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 180,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "groundcontrol-230877",
+    "title": "Japan's 2026 heat as a pencil-drawn data story",
+    "title_zh": "铅笔手绘风：2026 日本酷暑",
+    "url": "https://x.com/GroundControl/status/2103678647777230877",
+    "author": "GroundControl",
+    "author_name": "Rafael Mendiola",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 3-minute animated data story on Japan's hot 2026 summer, drawn in shimmering pencil strokes over real JMA data, with a browser-synthesized koto score.",
+    "description_zh": "3 分钟动画数据故事，讲 2026 年日本酷暑。铅笔手绘风画真实气象数据，配乐是浏览器里合成的日本筝。",
+    "prompt": "All right, this is an empty repo. Make me a 3-minute animated visualization using JavaScript, or you can do it in TypeScript if you want, about Japan's hot weather in 2026. Pull some online data to see why it was hot and how it compares to other years. I really want the animation to be visually appealing. I wanted to use a hand-drawn pencil style with a little bit of tasteful chromatic aberration. And maybe a bit of a pastiche look but it's supposed to look really, really cool. Also, use a JavaScript synthesizer to make a melody for this visualization that goes along with the theme.",
+    "prompt_lang": "en",
+    "prompt_zh": "好，这是个空仓库。用 JavaScript 给我做一个 3 分钟的动画可视化，想用 TypeScript 也行，主题是 2026 年日本的炎热天气。从网上拉一些数据，看看为什么这么热、和往年比怎么样。我很希望这个动画视觉上好看。我想用手绘铅笔风格，再加一点有品位的色差效果。也许再带一点拼贴仿作的味道，但它必须看起来非常非常酷。另外，用一个 JavaScript 合成器为这个可视化写一段贴合主题的旋律。",
+    "prompt_url": "https://x.com/GroundControl/status/2103678916414132229",
+    "kind": "brief",
+    "tools": [
+      "canvas",
+      "webgl"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103677581761368064/img/yYwSzw639tJ7a9lK.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103677581761368064/vid/avc1/480x270/zS7EvigyORQubcho.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103677581761368064/vid/avc1/1280x720/IW8541HStoTa83Kc.mp4?tag=29",
+      "duration": 180,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 1,
+      "likes": 3,
+      "views": 399,
+      "reposts": 1
+    },
+    "category": "explainer"
+  },
+  "styleClassificationSource": {
+    "id": "2103678647777230877",
+    "style": "handdrawn",
+    "title_zh": "2026年日本高温数据可视化",
+    "title_en": "Japan 2026 Heat Wave Visualization",
+    "author": "GroundControl",
+    "post_url": "https://x.com/GroundControl/status/2103678647777230877",
+    "prompt": "All right, this is an empty repo. Make me a 3-minute animated visualization using JavaScript, or you can do it in TypeScript if you want, about Japan's hot weather in 2026. Pull some online data to see why it was hot and how it compares to other years. I really want the animation to be visually appealing. I wanted to use a hand-drawn pencil style with a little bit of tasteful chromatic aberration. And maybe a bit of a pastiche look but it's supposed to look really, really cool. Also, use a JavaScript synthesizer to make a melody for this visualization that goes along with the theme.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 3
+  },
+  "downloadedAt": "2026-10-14T09:09:04.856Z"
+}

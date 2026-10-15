@@ -1,0 +1,79 @@
+{
+  "id": "original/dannnnnok-716687",
+  "title": "Python 手写 3D 方块动效",
+  "group": "低多边形 · 体素",
+  "tags": "低多边形 · 体素 动效与作品集 Python-rendered 3D cube and type reel 20 秒、60fps 动效片，画面和配乐全用 Python 写：自写 3D 渲染器、784 个方块、字重渐变字体。 Dannnnnok",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "Dannnnnok",
+  "authorUrl": "https://x.com/Dannnnnok/status/2103846630088716687",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/dannnnnok-716687.mp4",
+  "bytes": 3321969,
+  "sha256": "6b35187ab7293b70cb4fb13225a3c12cac76b14147fb9938f9d3f411fa2c89d7",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103781198417788928/vid/avc1/1280x720/QbFw3bAvWF4fIwYy.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/dannnnnok-716687.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/dannnnnok-716687.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 20,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "dannnnnok-716687",
+    "title": "Python-rendered 3D cube and type reel",
+    "title_zh": "Python 手写 3D 方块动效",
+    "url": "https://x.com/Dannnnnok/status/2103846630088716687",
+    "author": "Dannnnnok",
+    "author_name": "Tasher",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 20-second, 60fps reel with every frame and the music written in Python: a from-scratch 3D renderer with 784 cubes and a morphing font.",
+    "description_zh": "20 秒、60fps 动效片，画面和配乐全用 Python 写：自写 3D 渲染器、784 个方块、字重渐变字体。",
+    "prompt": "I’m curious to see how strong you are as a motion designer. To prove it, create a polished 15-second animated graphic video that showcases your motion design skills. This piece will be presented to 10,000 people on X, so make it visually compelling, professional, and memorable. Take full creative freedom and make the strongest result you can",
+    "prompt_lang": "en",
+    "prompt_zh": "我很好奇你作为动效设计师到底有多强。为了证明这一点，请制作一段精致的 15 秒动画图形视频，展示你的动效设计能力。这件作品会展示给 X 上的 10,000 人看，所以要让它视觉上有吸引力、专业、令人难忘。你拥有完全的创作自由，做出你能做到的最强结果",
+    "prompt_url": "https://x.com/Dannnnnok/status/2103847239885939019",
+    "kind": "brief",
+    "tools": [
+      "python"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: one chat, about an hour.",
+    "note_zh": "作者称一次对话，约 1 小时。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103781198417788928/img/wGOsQjt4SWpmNrE4.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103781198417788928/vid/avc1/480x270/8KeBWpEVRQ7Wgzf-.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103781198417788928/vid/avc1/1280x720/QbFw3bAvWF4fIwYy.mp4?tag=29",
+      "duration": 20,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 9,
+      "likes": 14,
+      "views": 232
+    },
+    "category": "showreel"
+  },
+  "styleClassificationSource": {
+    "id": "2103846630088716687",
+    "style": "lowpoly",
+    "title_zh": "15秒精品动态设计展示",
+    "title_en": "Polished 15-Second Motion Design",
+    "author": "Dannnnnok",
+    "post_url": "https://x.com/Dannnnnok/status/2103846630088716687",
+    "prompt": "I’m curious to see how strong you are as a motion designer. To prove it, create a polished 15-second animated graphic video that showcases your motion design skills. This piece will be presented to 10,000 people on X, so make it visually compelling, professional, and memorable. Take full creative freedom and make the strongest result you can",
+    "prompt_partial": false,
+    "likes_2026_09_29": 14
+  },
+  "downloadedAt": "2026-10-14T09:15:12.502Z"
+}

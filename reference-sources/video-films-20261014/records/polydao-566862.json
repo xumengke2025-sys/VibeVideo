@@ -1,0 +1,76 @@
+{
+  "id": "original/polydao-566862",
+  "title": "可换主题和品牌色的作品集模板",
+  "group": "动态排版",
+  "tags": "动态排版 动效与作品集 Topic showreel template with brand colors 简历作品集提示词的填空版，可填时长、主题和品牌色，声音卡剪辑点；在 Claude Code 里用 max 档跑。 polydao",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "polydao",
+  "authorUrl": "https://x.com/polydao/status/2103783134206566862",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/polydao-566862.mp4",
+  "bytes": 3635175,
+  "sha256": "3dbb8c4ffa546027b4eb59d846026cc84dadaa4eaa5d0c8690e7b45baf79e41e",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103693209062842368/vid/avc1/1280x720/Sy-ZZfEV9tFfXq2k.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/polydao-566862.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/polydao-566862.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 24,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "polydao-566862",
+    "title": "Topic showreel template with brand colors",
+    "title_zh": "可换主题和品牌色的作品集模板",
+    "url": "https://x.com/polydao/status/2103783134206566862",
+    "author": "polydao",
+    "author_name": "Mr. Buzzoni",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A fill-in version of the résumé showreel prompt with slots for length, topic and brand colors, sound synced to cuts; run in Claude Code on max.",
+    "description_zh": "简历作品集提示词的填空版，可填时长、主题和品牌色，声音卡剪辑点；在 Claude Code 里用 max 档跑。",
+    "prompt": "Make a dynamic [24]-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a resume. Go all out.\n\nOnly about [TOPIC]. Style: [BRAND COLORS], sound synced to the cuts.",
+    "prompt_lang": "en",
+    "prompt_zh": "制作一段 [24] 秒的动态图形视频，展示你是多么出色的动效设计师，就像简历里的作品集一样。拿出全部本事。\n\n只围绕 [TOPIC]。风格：[BRAND COLORS]，声音与剪辑点同步。",
+    "kind": "template",
+    "tools": [
+      "claude-code"
+    ],
+    "inputs": [
+      "brand"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103693209062842368/img/u5o0IpLmvX0atbtS.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103693209062842368/vid/avc1/480x270/qu1pn8u_BbzjOn54.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103693209062842368/vid/avc1/1280x720/Sy-ZZfEV9tFfXq2k.mp4?tag=29",
+      "duration": 24,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 19,
+      "likes": 59,
+      "views": 3351,
+      "reposts": 7
+    },
+    "category": "showreel"
+  },
+  "styleClassificationSource": {
+    "id": "2103783134206566862",
+    "style": "typography",
+    "title_zh": "主题品牌动态设计展示",
+    "title_en": "Themed Brand Motion Showreel",
+    "author": "polydao",
+    "post_url": "https://x.com/polydao/status/2103783134206566862",
+    "prompt": "Make a dynamic [24]-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a resume. Go all out.\n\nOnly about [TOPIC]. Style: [BRAND COLORS], sound synced to the cuts.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 59
+  },
+  "downloadedAt": "2026-10-14T09:17:48.072Z"
+}

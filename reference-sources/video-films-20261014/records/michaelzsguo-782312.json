@@ -1,0 +1,86 @@
+{
+  "id": "original/michaelzsguo-782312",
+  "title": "沙画动画讲美国 250 年",
+  "group": "拼贴 · 剪纸 · 沙画",
+  "tags": "拼贴 · 剪纸 · 沙画 历史与纪录 Sand animation of 250 years of US history 2 分钟沙画动画讲美国 250 年历史，带配乐音效，纯代码生成，没用 Blender 或 Three.js。 Michaelzsguo",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "Michaelzsguo",
+  "authorUrl": "https://x.com/Michaelzsguo/status/2102592355165782312",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/michaelzsguo-782312.mp4",
+  "bytes": 17960882,
+  "sha256": "146d4c7cb0e53e0eb6b1e0f1bec6fbc2dcf0c7e4fc1d5d5445f5f6f583b76b2c",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102592220888965120/vid/avc1/1280x720/-Cn8Gxwg_4h_UIyP.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/michaelzsguo-782312.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/michaelzsguo-782312.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 120,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "michaelzsguo-782312",
+    "title": "Sand animation of 250 years of US history",
+    "title_zh": "沙画动画讲美国 250 年",
+    "url": "https://x.com/Michaelzsguo/status/2102592355165782312",
+    "author": "Michaelzsguo",
+    "author_name": "Michael Guo",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "A 2-minute sand-art animation of 250 years of U.S. history, with music and sound design, generated in code by Claude Code without Blender or Three.js.",
+    "description_zh": "2 分钟沙画动画讲美国 250 年历史，带配乐音效，纯代码生成，没用 Blender 或 Three.js。",
+    "prompt": "Make a 2-minute sand animation that tells the story of 250 years of U.S. history. Keep it lively, engaging, and tasteful. Add appropriate background music and sound design.",
+    "prompt_lang": "en",
+    "prompt_zh": "做一段 2 分钟的沙画动画，讲述美国 250 年的历史。保持生动、吸引人、有品位。加上合适的背景音乐和音效设计。",
+    "prompt_url": "https://x.com/Michaelzsguo/status/2102593579604377636",
+    "kind": "one-shot",
+    "tools": [
+      "claude-code"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: one prompt, no revisions; about 30% of a Pro plan's 5-hour limit.",
+    "note_zh": "作者称一个提示词、没有修改，用掉 Pro 账户 5 小时额度的约 30%。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102592220888965120/img/wUEZT8hOqEwK1d1r.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102592220888965120/vid/avc1/480x270/fV2rsa3Wqx9y1GKD.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102592220888965120/vid/avc1/1280x720/-Cn8Gxwg_4h_UIyP.mp4?tag=29",
+      "duration": 120,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 353,
+      "likes": 339,
+      "views": 71374,
+      "reposts": 21
+    },
+    "category": "history",
+    "remakes": [
+      {
+        "author": "Michaelzsguo",
+        "url": "https://x.com/Michaelzsguo/status/2102593579604377636"
+      }
+    ]
+  },
+  "styleClassificationSource": {
+    "id": "2102592355165782312",
+    "style": "collage",
+    "title_zh": "美国250年历史沙画",
+    "title_en": "250 Years US History Sand Art",
+    "author": "Michaelzsguo",
+    "post_url": "https://x.com/Michaelzsguo/status/2102592355165782312",
+    "prompt": "Make a 2-minute sand animation that tells the story of 250 years of U.S. history. Keep it lively, engaging, and tasteful. Add appropriate background music and sound design.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 344
+  },
+  "downloadedAt": "2026-10-14T09:09:34.496Z"
+}

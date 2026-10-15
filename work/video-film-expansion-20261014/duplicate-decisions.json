@@ -1,0 +1,77 @@
+{
+  "status": "complete",
+  "excludePreviewIds": [],
+  "related": [
+    {
+      "id": "adunext--adu-motion-video/assets/demos/03-A-portrait.mp4",
+      "relatedTo": "adunext--adu-motion-video/assets/demos/03-A.mp4",
+      "reason": "同一九场新片45.8–53.8秒的软件窗口段，横竖屏分别布局；按作者assets/demos/README.md保留两版，不视为两个独立风格。"
+    },
+    {
+      "id": "adunext--adu-motion-video/assets/demos/03-A.mp4",
+      "relatedTo": "adunext--adu-motion-video/assets/demos/03-A-portrait.mp4",
+      "reason": "同一软件窗口段的横屏版本；对应竖屏版另布局，二者同属一个03-A风格。"
+    },
+    {
+      "id": "sanjuhs--opus-5.5-film-experiment-with-animation/out/vietnam-war-explained-vertical-web.mp4",
+      "relatedTo": "sanjuhs--opus-5.5-film-experiment-with-animation/out/vietnam-war-explained-web.mp4",
+      "reason": "已有同片竖屏版本，与横屏共用内容；保留既有ID并关联，不计本轮新片。"
+    },
+    {
+      "id": "sanjuhs--opus-5.5-film-experiment-with-animation/out/vietnam-war-explained-web.mp4",
+      "relatedTo": "sanjuhs--opus-5.5-film-experiment-with-animation/out/vietnam-war-explained-vertical-web.mp4",
+      "reason": "已有同片横屏版本，与竖屏共用内容；保留既有ID并关联，不计本轮新片。"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "huashu/art-motion-35-styles",
+      "action": "reuse_existing_media_and_add_source",
+      "evidence": "SHA256=6a5782da4f6b04c3360dc5e3d4984ed49c279e178ee8b52e41c62655965ccf90；复用upstream-videos中已有35风格影片，仅补完整绘制源码。"
+    },
+    {
+      "action": "skip_existing_author_posts",
+      "count": 4,
+      "evidence": "duplicate-report.json.existingPostMatches；按status ID对应，全部downloadedInRound=false。"
+    },
+    {
+      "action": "retain_remaining_media",
+      "evidence": "328项SHA256与20/50/80%画面指纹检查；没有新旧近似候选命中，三帧方法不保证发现所有剪辑或变速重复。"
+    }
+  ],
+  "checkedMedia": 328,
+  "existingPostMatches": [
+    {
+      "candidateId": "twoclipping-402193",
+      "statusId": "2103273003555402193",
+      "existingIds": [
+        "jacobbubu--claude-opus-5-5-js-animation-research/media/strict/twoclipping-2103272964967804928.mp4"
+      ],
+      "downloadedInRound": false
+    },
+    {
+      "candidateId": "twoclipping-496100",
+      "statusId": "2103835273813496100",
+      "existingIds": [
+        "jacobbubu--claude-opus-5-5-js-animation-research/media/01-twoclipping-2103830256347910144.mp4"
+      ],
+      "downloadedInRound": false
+    },
+    {
+      "candidateId": "ror_fly-880547",
+      "statusId": "2102853258582880547",
+      "existingIds": [
+        "jacobbubu--claude-opus-5-5-js-animation-research/media/02-Ror_Fly-2102853041246347264.mp4"
+      ],
+      "downloadedInRound": false
+    },
+    {
+      "candidateId": "leo_xiaolei-305104",
+      "statusId": "2102724347446305104",
+      "existingIds": [
+        "jacobbubu--claude-opus-5-5-js-animation-research/media/strict/leo_xiaolei-2102724181070839808.mp4"
+      ],
+      "downloadedInRound": false
+    }
+  ]
+}

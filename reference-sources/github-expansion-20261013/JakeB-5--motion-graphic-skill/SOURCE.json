@@ -1,0 +1,483 @@
+{
+  "repo": "JakeB-5/motion-graphic-skill",
+  "repository": "https://github.com/JakeB-5/motion-graphic-skill",
+  "commit": "21e875e9f97c83ce637eb18d35ff29c7712ebc18",
+  "checked": "2026-10-13",
+  "scope": "完整仓库文件快照，排除 Codex 与 Sonnet 示例；只收录 Opus 影片",
+  "modelEvidence": [
+    "The first three samples were made with v0.4.0: Claude Opus 5.5 and Claude Sonnet 5.5 each made one film from the same prompt, so you can compare them side by side. Codex Motion Studio was also remade with v0.4.0, retaining its original 30-second, seven-scene brief. The videos below are recorded from the HTML with [`record.js`](skills/motion-graphic/scripts/record.js) (sound on 🔊); the ▶ links open the interactive HTML itself. Each folder in [`samples/`](samples) also keeps the sourced `facts.md`, the `storyboard.md` the agent wrote and, for the v0.4.0 films, the `review_log.md` of the scored critique rounds. The Claude samples had one storyboard approval before building; the Codex remake retains the existing sample’s story under the remake request.",
+    "**Opus 5.5** — a laptop lid collecting stickers",
+    "Cost and time with three critique rounds each: Opus 5.5 $17.06 in 52 min · Sonnet 5.5 $9.43 in 41 min.",
+    "**Opus 5.5** — a golden time machine",
+    "Cost and time with three critique rounds each: Opus 5.5 $19.24 in 58 min · Sonnet 5.5 $9.57 in 44 min.",
+    "**Opus 5.5** — one brew bar, read off the scale",
+    "Cost and time with three critique rounds each: Opus 5.5 $18.79 in 57 min · Sonnet 5.5 $9.96 in 50 min."
+  ],
+  "modelEvidenceStatus": "作者自述；未独立核实模型会话",
+  "licenseFiles": [
+    "LICENSE"
+  ],
+  "files": [
+    {
+      "path": ".agents/skills/motion-graphic",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/.agents/skills/motion-graphic.symlink.txt",
+      "gitBlobSha1": "818bbce73d8593f61b8e2b895b41966c317c8e18",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/.agents/skills/motion-graphic",
+      "bytes": 27,
+      "sha256": "69c95f544ed44b4ea2c4037dde5907c69e92fe286baf7c17975f828b6448228a",
+      "reusedExistingMedia": false,
+      "storedAs": "symlink target text; no symlink created"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/.claude-plugin/marketplace.json",
+      "gitBlobSha1": "8e91e84c5e0a84870282e90102ef0f05f9f6a63d",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/.claude-plugin/marketplace.json",
+      "bytes": 456,
+      "sha256": "86ebdcf4720098a79615bd45737ece327911e47df3f6619bfbfc96281553428f",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/.claude-plugin/plugin.json",
+      "gitBlobSha1": "4333c87176177bd9f5aab5842f9c9f1b2119135b",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/.claude-plugin/plugin.json",
+      "bytes": 589,
+      "sha256": "a095f9930154f1580a5ab8c555f6ebe09841a08423b3677db581272a09956de3",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": ".gitignore",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/.gitignore",
+      "gitBlobSha1": "485d7084c9d62d129a96901482cf055a14f1f1ec",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/.gitignore",
+      "bytes": 131,
+      "sha256": "84907e2ad470803a5997162cceb384671c944ebb4479eabfa142e5c7ab252583",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/CHANGELOG.md",
+      "gitBlobSha1": "d2e89c279bdbffa51913729730e51cdf9c96c7e2",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/CHANGELOG.md",
+      "bytes": 4927,
+      "sha256": "9319f125b4307378cba38fcd186027d303d2109b794c9d216e480d65e6d176bd",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/CONTRIBUTING.md",
+      "gitBlobSha1": "7097b93a4a9d19e90373c015fd09f0e0809d98bd",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/CONTRIBUTING.md",
+      "bytes": 1980,
+      "sha256": "7729d4d676d28306dffa588d7b77be74e94980b9b9de8494d64a6eaf79495935",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/images/phone-landscape.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/docs/images/phone-landscape.png",
+      "gitBlobSha1": "49460e3c30170148ec70aee7d8df92abe80fc44c",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/docs/images/phone-landscape.png",
+      "bytes": 163673,
+      "sha256": "9de74cc72015cb71a635aa50129b6b4c9ef92a354e78ed2ff0b80bfbe7177156",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/images/phone-portrait.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/docs/images/phone-portrait.png",
+      "gitBlobSha1": "0ebb8752aff347c4187cec3296dc6eaca5774202",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/docs/images/phone-portrait.png",
+      "bytes": 89565,
+      "sha256": "c46a853d8d000684f3db263926eba3281177fe240e00fb2c18249f838e3e3418",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/images/sheet-clean.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/docs/images/sheet-clean.png",
+      "gitBlobSha1": "a66fccedd124ab80e81b67385251196584aa7f77",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/docs/images/sheet-clean.png",
+      "bytes": 279044,
+      "sha256": "bb50a02a53c08f3129250a18c4d3d5ab664004d9022fe06ac71658f07e5e7096",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/images/sheet-console.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/docs/images/sheet-console.png",
+      "gitBlobSha1": "2cb13ba029154bc4b149a42d8f82d962862f3b05",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/docs/images/sheet-console.png",
+      "bytes": 450997,
+      "sha256": "36ffefde76b0f948ff00d88bea90bd38c30e2e660503fc92d5d729f4c5172089",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "examples/build.sh",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/examples/build.sh",
+      "gitBlobSha1": "e9da28643af30ce85aa2e1b70a80eb3969c0bbed",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/examples/build.sh",
+      "bytes": 571,
+      "sha256": "dc3cade527d50da536283ae2ca228025639983787791b4b629332921a9c8480b",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "examples/clean-style.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/examples/clean-style.html",
+      "gitBlobSha1": "998b64f8e544b2a4b6c7cec34886ce7b62d3c66f",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/examples/clean-style.html",
+      "bytes": 49547,
+      "sha256": "596db43a65721714e957d0a1acb6dcd2658ad734b7f5bcc5cd1efd7726353553",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "examples/clean-style/config.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/examples/clean-style/config.js",
+      "gitBlobSha1": "8ec6a4c68baa12439dc5559a2471f63833da0852",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/examples/clean-style/config.js",
+      "bytes": 776,
+      "sha256": "3b9936ab2a3094ae9873f6ca2978f29599f0672af916569306722fd656ec3b8f",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "examples/clean-style/style.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/examples/clean-style/style.js",
+      "gitBlobSha1": "ab0e59f2b033582b07e2b196ef41f22f57184cad",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/examples/clean-style/style.js",
+      "bytes": 889,
+      "sha256": "eb4d9478a4ae38795650c883bf3244911933eddd728e52cd485b2fdaeec49429",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/LICENSE",
+      "gitBlobSha1": "bc989a95a2e6fa7cb46703903f3120ed3dc733e3",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/LICENSE",
+      "bytes": 1090,
+      "sha256": "cdcdc272619dc7026de9374df6e04b4762d2ffcf23f8c0e9709d48f718a0c8a5",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "README.ko.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/README.ko.md",
+      "gitBlobSha1": "de9bfb6d7c7b2216dedd7873a566695794ccb044",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/README.ko.md",
+      "bytes": 19138,
+      "sha256": "91bc0d5236c4a0346b8aa69d60897d91a698bfa50a685664e9abc803e93b71e5",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "README.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/README.md",
+      "gitBlobSha1": "f3b4c900e42928420007dd4fa358e27003483f10",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/README.md",
+      "bytes": 17526,
+      "sha256": "c87e38de01e2ac3ded662fac624bde32f968b4e7dbc3ffa3dc1da679ba697f99",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/pour-over/index.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/pour-over/index.html",
+      "gitBlobSha1": "2f0abb02adf322abb4179af222e92ec59d84bd70",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/pour-over/index.html",
+      "bytes": 514,
+      "sha256": "ac2f70e0d51df69c7e2db2db67935745baf93cdca6d10d091fa7daef44abd51f",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/pour-over/opus/facts.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/pour-over/opus/facts.md",
+      "gitBlobSha1": "7b8704f10cba7b7d18def744221d1495f3a04710",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/pour-over/opus/facts.md",
+      "bytes": 7134,
+      "sha256": "c89404e98f25b5898ed199bf81bd517a66bd781652c700055781927599582717",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/pour-over/opus/index.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/pour-over/opus/index.html",
+      "gitBlobSha1": "bd4ccbefad67e2e0852f9469e859e556dc72e35e",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/pour-over/opus/index.html",
+      "bytes": 81566,
+      "sha256": "224301d8ac9685182610db43049660e5e258e3c21e565ffc85fc632db5bc8f7c",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/pour-over/opus/pour-over.mp4",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/pour-over/opus/pour-over.mp4",
+      "gitBlobSha1": "69f1d1cac9fd3df3fca1ba8b45d5e2d81718194b",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/pour-over/opus/pour-over.mp4",
+      "bytes": 10466445,
+      "sha256": "998969633ec740a8d135c522b49a6b3e09dd0185759130638759ca3c9cc9d3f1",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/pour-over/opus/review_log.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/pour-over/opus/review_log.md",
+      "gitBlobSha1": "ec89adb47e46706ecbca839c5c67f8727d8f3880",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/pour-over/opus/review_log.md",
+      "bytes": 29039,
+      "sha256": "ee3a60d4c7a59f2c49a419ab840617e9a77d9166febab3db17c4ddfdc291e90b",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/pour-over/opus/sheet-en.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/pour-over/opus/sheet-en.png",
+      "gitBlobSha1": "8284d0db775c30edba86958606a12707e4bd288a",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/pour-over/opus/sheet-en.png",
+      "bytes": 1741044,
+      "sha256": "679ea76f5d6848bd6291d4ee166250ba4e7df554bc8f04b3a9b104f0ed637824",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/pour-over/opus/storyboard.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/pour-over/opus/storyboard.md",
+      "gitBlobSha1": "8234d2a29b166ac3fed1229164753fa689547314",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/pour-over/opus/storyboard.md",
+      "bytes": 13019,
+      "sha256": "8f40fe6c096b8416df3d179c6e15e7b91af207e803ad0f8cbc7becc90eba459b",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/pour-over/PROMPT.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/pour-over/PROMPT.md",
+      "gitBlobSha1": "e1e780550f64263c38f951b2946b2d2fde3edd8b",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/pour-over/PROMPT.md",
+      "bytes": 326,
+      "sha256": "585ab0f6656c338009d4ac14f83694718a1fe8e962973d2e0d27ada183295d24",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/skill-intro/index.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/skill-intro/index.html",
+      "gitBlobSha1": "a5a19ea6288af9ea99d353dd02bf681a03dc2877",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/skill-intro/index.html",
+      "bytes": 521,
+      "sha256": "a08c9fc38307f465594ed876c6a02f2f82dfeaa3a724258368aeb8e3bc1d0c2a",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/skill-intro/opus/facts.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/skill-intro/opus/facts.md",
+      "gitBlobSha1": "329adbe147e13bf734eb81037894fc7ec838d435",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/skill-intro/opus/facts.md",
+      "bytes": 7265,
+      "sha256": "e102ff6e5e021c6ab6e9e02520a7814cfc4c2dd87c9fa00124320f875cdc2bf6",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/skill-intro/opus/index.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/skill-intro/opus/index.html",
+      "gitBlobSha1": "187ce3e7ef140ff9aabe203fddb1c4fdd5e74413",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/skill-intro/opus/index.html",
+      "bytes": 84259,
+      "sha256": "5e4c265b9a1e484d0e4d4aa53d0cc95ff5c44e2015122cb613b67ad80e129543",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/skill-intro/opus/review_log.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/skill-intro/opus/review_log.md",
+      "gitBlobSha1": "fb9dcb312e5560e316bf1a5318b97fbf966a31de",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/skill-intro/opus/review_log.md",
+      "bytes": 30029,
+      "sha256": "561fec75124c2e8774ff000c03818c1611ae118306e8573e3846a06f426f3dfa",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/skill-intro/opus/sheet-en.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/skill-intro/opus/sheet-en.png",
+      "gitBlobSha1": "29db24f355f7b575afb5fed7fc8e2ed7147e193d",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/skill-intro/opus/sheet-en.png",
+      "bytes": 505706,
+      "sha256": "dcbd7505a3214fc9362ca5dd156868f0fd488b73b8fb879656e4151c034f62bc",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/skill-intro/opus/skill-intro.mp4",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/skill-intro/opus/skill-intro.mp4",
+      "gitBlobSha1": "8ac1bddc26d6f27c68cd9453ac4beb2bac07df86",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/skill-intro/opus/skill-intro.mp4",
+      "bytes": 5935232,
+      "sha256": "35335d342315636acee082551e78fe86e02ab07f86143bad493d0ef57d16b60d",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/skill-intro/opus/storyboard.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/skill-intro/opus/storyboard.md",
+      "gitBlobSha1": "6a827ceb6ea76fd285cd8818a6080cfcc8439e58",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/skill-intro/opus/storyboard.md",
+      "bytes": 18206,
+      "sha256": "c8c680664ecf8cd7d6414e8f5c7eb946fbd3e7f33cb528437681fe9f8a5f81d2",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/skill-intro/PROMPT.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/skill-intro/PROMPT.md",
+      "gitBlobSha1": "a146118036947b0897f2a987df1565e8605ce490",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/skill-intro/PROMPT.md",
+      "bytes": 344,
+      "sha256": "278f3ec3625063ef302f5ba30545fe98096f49f4c6565342aa62bcff98713765",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/webb-telescope/index.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/webb-telescope/index.html",
+      "gitBlobSha1": "4e0953d47d125f79eb028c8191bbe45f2bf47fce",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/webb-telescope/index.html",
+      "bytes": 521,
+      "sha256": "38afd4c70bdf1d3822ebab0c1d35ce9160a3c671738b230c70bae2195e457c4f",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/webb-telescope/opus/facts.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/webb-telescope/opus/facts.md",
+      "gitBlobSha1": "09c985b98850cbe04a3c8955d4a39db9eb047897",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/webb-telescope/opus/facts.md",
+      "bytes": 10605,
+      "sha256": "a540367e916df3f04a57dbbf551e662dd30dfc598f42ca98963f9d340c48050b",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/webb-telescope/opus/index.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/webb-telescope/opus/index.html",
+      "gitBlobSha1": "8f8f4395ec2fd73e1561f2908aaa0ff461f58cd1",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/webb-telescope/opus/index.html",
+      "bytes": 82854,
+      "sha256": "2da1782b128a6cbd1efa56a03ed38af86e85d1584e6f4b10b7ef0581cf8ac962",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/webb-telescope/opus/review_log.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/webb-telescope/opus/review_log.md",
+      "gitBlobSha1": "bd917de38d31665dd4d390a83b770e208f1895b3",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/webb-telescope/opus/review_log.md",
+      "bytes": 30763,
+      "sha256": "2d813124345a32f3617471000a2094bf47984419b29740450a09a43c9d5e1036",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/webb-telescope/opus/sheet-en.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/webb-telescope/opus/sheet-en.png",
+      "gitBlobSha1": "43d56c8c4f546118932d5900e24e19abb654d92d",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/webb-telescope/opus/sheet-en.png",
+      "bytes": 1169276,
+      "sha256": "ef2d3736dd9bc464cff3032eea3d84d4999f4841470baf2b400f71a767bd83f0",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/webb-telescope/opus/storyboard.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/webb-telescope/opus/storyboard.md",
+      "gitBlobSha1": "593fead7a6242ab7087a841e576ce146a5a7e485",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/webb-telescope/opus/storyboard.md",
+      "bytes": 14387,
+      "sha256": "ae2584479b0b2b441011a00783680d3d83bc01521fef1730f40fbecf3f4f69b3",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/webb-telescope/opus/webb-telescope.mp4",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/webb-telescope/opus/webb-telescope.mp4",
+      "gitBlobSha1": "42332053c100a53b219bf7a47be720881f492cb4",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/webb-telescope/opus/webb-telescope.mp4",
+      "bytes": 10001956,
+      "sha256": "44a3b36f2e7f876156031bc4ec7d9787f2d5411875c1bafd3daa88e28ac2a15a",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "samples/webb-telescope/PROMPT.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/webb-telescope/PROMPT.md",
+      "gitBlobSha1": "92faa77c1177659f6b2e74375c814c654048e172",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/samples/webb-telescope/PROMPT.md",
+      "bytes": 322,
+      "sha256": "408564ac5802030e6a51e0bf8018a0e72b4539d0e182c5adbaeaa12be25143d9",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "skills/motion-graphic/agents/openai.yaml",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/skills/motion-graphic/agents/openai.yaml",
+      "gitBlobSha1": "bc55b1d1c2e4e43e220e80ecc741f8c2ba94245a",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/skills/motion-graphic/agents/openai.yaml",
+      "bytes": 292,
+      "sha256": "a87ff95f8d78810da02e28b5592c94b26c551ccc86264787b54f6e87ebf42174",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "skills/motion-graphic/assets/engine.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/skills/motion-graphic/assets/engine.html",
+      "gitBlobSha1": "3765e95002ea8a0b6f1598c83215abf778543522",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/skills/motion-graphic/assets/engine.html",
+      "bytes": 55184,
+      "sha256": "1845657a8ff4597d8f7e32d6c58a731e7ebc1f7cc03cbd28bef58878163aa910",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "skills/motion-graphic/references/critique.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/skills/motion-graphic/references/critique.md",
+      "gitBlobSha1": "1a0aa3d7028a97b43dcfafe926a93f7ab61e52a4",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/skills/motion-graphic/references/critique.md",
+      "bytes": 8835,
+      "sha256": "86e84867ed870243b05b634690785d71c8fb3975d57e58894606b41194c6943b",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "skills/motion-graphic/references/scene-patterns.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/skills/motion-graphic/references/scene-patterns.md",
+      "gitBlobSha1": "4639557fcf6810951c90df7fb88608ccb0aa3a14",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/skills/motion-graphic/references/scene-patterns.md",
+      "bytes": 20494,
+      "sha256": "a8a9bccb7fc88cd9e095d9680e8323b648e6c0b626292e9f622d725ae37e3b3e",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "skills/motion-graphic/references/story.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/skills/motion-graphic/references/story.md",
+      "gitBlobSha1": "3565e2b4addeae92ab2e065a1ce119afb435307e",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/skills/motion-graphic/references/story.md",
+      "bytes": 4914,
+      "sha256": "a15a26475ce83836df14de268c60d3422c5f66a1b7aff8c35c6bfc1618a3b4c8",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "skills/motion-graphic/references/styles.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/skills/motion-graphic/references/styles.md",
+      "gitBlobSha1": "1e08be80e4b21b720967fc5226c6fccce7e5e091",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/skills/motion-graphic/references/styles.md",
+      "bytes": 11930,
+      "sha256": "dadf324b410d47374296ee29de26db301f115561d0f9363bd594d0b9c1de03db",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "skills/motion-graphic/scripts/assemble.py",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/skills/motion-graphic/scripts/assemble.py",
+      "gitBlobSha1": "50b0d7461e6f337e4ce0bade457bae912df27bbb",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/skills/motion-graphic/scripts/assemble.py",
+      "bytes": 4280,
+      "sha256": "46d07f570b6fa3b5b7dd3c57f22bffc053da9015e6e461e036864216a62685b1",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "skills/motion-graphic/scripts/check.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/skills/motion-graphic/scripts/check.js",
+      "gitBlobSha1": "f426ed91128f88dd3ae68bb8a59c81f5a3cb67f0",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/skills/motion-graphic/scripts/check.js",
+      "bytes": 21350,
+      "sha256": "8f88003d2356012412e05ac20e30fe15622e583c4d72840e9cb6b3c4d8b5d092",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "skills/motion-graphic/scripts/record.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/skills/motion-graphic/scripts/record.js",
+      "gitBlobSha1": "3d13e15bfc5c613631c24f8fe290339754936db2",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/skills/motion-graphic/scripts/record.js",
+      "bytes": 10132,
+      "sha256": "edb27a5f08d85e8e3bb0d4fe4624d1f067303c7626bbb96ba4735484ac423f04",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "skills/motion-graphic/SKILL.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/skills/motion-graphic/SKILL.md",
+      "gitBlobSha1": "750d95eced16cb158a18a2955c061450cceef42a",
+      "url": "https://raw.githubusercontent.com/JakeB-5/motion-graphic-skill/21e875e9f97c83ce637eb18d35ff29c7712ebc18/skills/motion-graphic/SKILL.md",
+      "bytes": 17570,
+      "sha256": "56c3cd9bbc53a18f5ad75b43d3f7e7e57bc4bbd2da8e4a3eda1ce644ec7512cf",
+      "reusedExistingMedia": false
+    }
+  ],
+  "executed": false
+}

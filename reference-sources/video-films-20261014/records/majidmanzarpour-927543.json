@@ -1,0 +1,85 @@
+{
+  "id": "original/majidmanzarpour-927543",
+  "title": "施法的像素风巫师",
+  "group": "像素",
+  "tags": "像素 叙事、手绘与定格 Pixel art wizard casting a spell 无缝循环的 16 位像素动画：巫师蓄力、施法，用 Canvas 2D 以 128x96 程序化绘制。 majidmanzarpour",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "majidmanzarpour",
+  "authorUrl": "https://x.com/majidmanzarpour/status/2102476258948927543",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/majidmanzarpour-927543.mp4",
+  "bytes": 931139,
+  "sha256": "5d7eaa2266da73c08a11b41cca9c35d10b994e0f1fc08e6c2f5eec977e630fe3",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102476231740399616/vid/avc1/1080x890/8wOPIn__IAkbl9ho.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/majidmanzarpour-927543.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/majidmanzarpour-927543.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 11.2,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "majidmanzarpour-927543",
+    "title": "Pixel art wizard casting a spell",
+    "title_zh": "施法的像素风巫师",
+    "url": "https://x.com/majidmanzarpour/status/2102476258948927543",
+    "author": "majidmanzarpour",
+    "author_name": "Majid Manzarpour",
+    "platform": "x",
+    "date": "2026-09-22",
+    "description": "A seamless looping 16-bit pixel art animation of a wizard charging and casting a spell, drawn procedurally at 128x96 with Canvas 2D in one HTML file.",
+    "description_zh": "无缝循环的 16 位像素动画：巫师蓄力、施法，用 Canvas 2D 以 128x96 程序化绘制。",
+    "prompt": "Create a single self-contained HTML file that renders an animated pixel art wizard casting a spell, using vanilla JavaScript and Canvas 2D. No external assets, libraries, or network requests.\n\nRENDERING\n- Draw everything to an offscreen canvas at a fixed logical resolution of 128x96, then blit to a fullscreen display canvas scaled by the largest integer factor that fits the window, centered, with imageSmoothingEnabled = false and CSS image-rendering: pixelated.\n- All drawing snaps to integer coordinates on the logical canvas. No sub-pixel positions, anti-aliasing, gradients, or shadowBlur.\n- Fixed palette of ~24 hex colors: deep blues/purples for night sky, warm robe tones, 3-4 bright magic colors. Every pixel comes from this palette.\n\nCHARACTER\n- Build the wizard procedurally from filled rects and pixel runs, ~24x32 logical pixels: pointed hat with a bend, long beard, two-shade robe with darker outline, staff with a gem at the tip.\n- Parameterize the pose (staff angle, arm raise, head tilt, robe sway). Animate parameters smoothly, then quantize to the pixel grid each frame so motion reads at an 8-12 fps pixel animation feel even though the loop runs at 60fps.\n\nANIMATION\n- Looping state machine: IDLE (2-frame bob, beard sway) -> CHARGE (staff raises, gem flickers, sparks spiral inward) -> CAST (bright burst, projectile fires across the scene, 1-2 pixel screen shake) -> RECOVER (settle back). Ease pose parameters between keyframes.\n- Pooled allocation-free particle system: preallocate and reuse. Sparks orbit the gem during CHARGE, explode outward on CAST, each particle stepping its palette index from white to magic color to dark before despawn. Snap particle positions to the grid when drawing.\n- Fixed 60hz timestep update with rAF rendering. Zero object allocation inside the loop.\n\nSCENE\n- Minimal background: dark sky, a few twinkling 1px stars, moon, stone floor line. Character silhouette must read clearly.\n- Subtle 1px rim light on the wizard from the gem, brightening during CHARGE and CAST.\n\nQUALITY BAR\n- Crisp pixels at any window size, seamless loop, stable 60fps, readable silhouette. Should look like a polished 16-bit sprite animation, not vector shapes scaled down.",
+    "prompt_lang": "en",
+    "prompt_zh": "创建一个单文件、自包含的 HTML，用原生 JavaScript 和 Canvas 2D 渲染一个正在施法的像素风巫师动画。不使用任何外部素材、库或网络请求。\n\n渲染\n- 所有内容先画到一个固定逻辑分辨率 128x96 的离屏画布上，再贴到全屏显示画布上，按能放进窗口的最大整数倍缩放并居中，设置 imageSmoothingEnabled = false 和 CSS image-rendering: pixelated。\n- 所有绘制都对齐到逻辑画布的整数坐标。不要亚像素位置、抗锯齿、渐变或 shadowBlur。\n- 固定调色板，约 24 个十六进制颜色：夜空用深蓝和深紫，长袍用暖色调，另有 3-4 种明亮的魔法色。每个像素都来自这个调色板。\n\n角色\n- 用填充矩形和像素段程序化地拼出巫师，约 24x32 逻辑像素：带一道弯折的尖帽、长胡子、带深色描边的双色长袍、顶端镶宝石的法杖。\n- 把姿势参数化（法杖角度、抬臂、头部倾斜、长袍摆动）。参数平滑地做动画，然后每帧量化到像素网格，这样即使循环以 60fps 运行，动作看起来也像 8-12 fps 的像素动画。\n\n动画\n- 循环状态机：IDLE（两帧上下浮动、胡子摆动）-> CHARGE（举起法杖、宝石闪烁、火花向内螺旋汇聚）-> CAST（亮光爆发、一枚法术弹飞过场景、1-2 像素的屏幕震动）-> RECOVER（回到原位）。关键帧之间的姿势参数做缓动。\n- 对象池式、零分配的粒子系统：预先分配并重复使用。CHARGE 时火花绕宝石旋转，CAST 时向外炸开，每个粒子在消失前让调色板索引从白色逐级变到魔法色再到暗色。绘制时粒子位置对齐网格。\n- 固定 60hz 时间步长更新，用 rAF 渲染。循环内零对象分配。\n\n场景\n- 极简背景：深色夜空、几颗闪烁的 1px 星星、月亮、一条石头地面线。角色剪影必须清晰可辨。\n- 宝石在巫师身上投下一道细微的 1px 轮廓光，在 CHARGE 和 CAST 时变亮。\n\n质量标准\n- 任何窗口尺寸下像素都清晰、循环无缝、稳定 60fps、剪影易读。要看起来像精致的 16 位精灵动画，而不是缩小的矢量图形。",
+    "prompt_url": "https://x.com/majidmanzarpour/status/2102476499387383834",
+    "kind": "spec",
+    "tools": [
+      "canvas"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: about 30 minutes, and it barely dented usage.",
+    "note_zh": "作者称约 30 分钟，几乎没占用额度。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102476231740399616/img/c0rCI7sJtWi1Gq5Q.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102476231740399616/vid/avc1/326x270/MKizEntIrEOg-jXz.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102476231740399616/vid/avc1/1080x890/8wOPIn__IAkbl9ho.mp4?tag=29",
+      "duration": 11.2,
+      "width": 1080,
+      "height": 890
+    },
+    "metrics": {
+      "bookmarks": 2643,
+      "likes": 2533,
+      "views": 438678,
+      "reposts": 124
+    },
+    "category": "story",
+    "remakes": [
+      {
+        "author": "majidmanzarpour",
+        "url": "https://x.com/majidmanzarpour/status/2102476499387383834"
+      }
+    ]
+  },
+  "styleClassificationSource": {
+    "id": "2102476258948927543",
+    "style": "pixel",
+    "title_zh": "像素风巫师施法动画",
+    "title_en": "Pixel Art Wizard Casting Spell",
+    "author": "majidmanzarpour",
+    "post_url": "https://x.com/majidmanzarpour/status/2102476258948927543",
+    "prompt": "Create a single self-contained HTML file that renders an animated pixel art wizard casting a spell, using vanilla JavaScript and Canvas 2D. No external assets, libraries, or network requests.\n\nRENDERING\n- Draw everything to an offscreen canvas at a fixed logical resolution of 128x96, then blit to a fullscreen display canvas scaled by the largest integer factor that fits the window, centered, with imageSmoothingEnabled = false and CSS image-rendering: pixelated.\n- All drawing snaps to integer coordinates on the logical canvas. No sub-pixel positions, anti-aliasing, gradients, or shadowBlur.\n- Fixed palette of ~24 hex colors: deep blues/purples for night sky, warm robe tones, 3-4 bright magic colors. Every pixel comes from this palette.\n\nCHARACTER\n- Build the wizard procedurally from filled rects and pixel runs, ~24x32 logical pixels: pointed hat with a bend, long beard, two-shade robe with darker outline, staff with a gem at the tip.\n- Parameterize the pose (staff angle, arm raise, head tilt, robe sway). Animate parameters smoothly, then quantize to the pixel grid each frame so motion reads at an 8-12 fps pixel animation feel even though the loop runs at 60fps.\n\nANIMATION\n- Looping state machine: IDLE (2-frame bob, beard sway) -> CHARGE (staff raises, gem flickers, sparks spiral inward) -> CAST (bright burst, projectile fires across the scene, 1-2 pixel screen shake) -> RECOVER (settle back). Ease pose parameters between keyframes.\n- Pooled allocation-free particle system: preallocate and reuse. Sparks orbit the gem during CHARGE, explode outward on CAST, each particle stepping its palette index from white to magic color to dark before despawn. Snap particle positions to the grid when drawing.\n- Fixed 60hz timestep update with rAF rendering. Zero object allocation inside the loop.\n\nSCENE\n- Minimal background: dark sky, a few twinkling 1px stars, moon, stone floor line. Character silhouette must read clearly.\n- Subtle 1px rim light on the wizard from the gem, brightening during CHARGE and CAST.\n\nQUALITY BAR\n- Crisp pixels at any window size, seamless loop, stable 60fps, readable silhouette. Should look like a polished 16-bit sprite animation, not vector shapes scaled down.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 2547
+  },
+  "downloadedAt": "2026-10-14T09:09:51.042Z"
+}

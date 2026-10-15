@@ -1,0 +1,71 @@
+{
+  "id": "original/joaoli13-891137",
+  "title": "LLM 上下文窗口如何累积",
+  "group": "科普与讲解",
+  "tags": "科普与讲解 科普与讲解 How an LLM context window fills up 约 100 秒的葡语讲解动画，演示提问和回答如何在上下文窗口里叠加；先写 JavaScript，再导出 MP4。 joaoli13",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "joaoli13",
+  "authorUrl": "https://x.com/joaoli13/status/2102805376466891137",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/joaoli13-891137.mp4",
+  "bytes": 3787359,
+  "sha256": "6e37e742bebc5087dd99ada95fcf36141dde037701c642097a912a96c806d966",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102800964352614400/vid/avc1/874x720/-rGCxtmIkuZRV5Rx.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/joaoli13-891137.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/joaoli13-891137.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 101.1,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "joaoli13-891137",
+    "title": "How an LLM context window fills up",
+    "title_zh": "LLM 上下文窗口如何累积",
+    "url": "https://x.com/joaoli13/status/2102805376466891137",
+    "author": "joaoli13",
+    "author_name": "João Lima",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "A 100-second explainer with Portuguese labels showing user questions and model answers stacking up in the context window, built in JavaScript then exported to MP4.",
+    "description_zh": "约 100 秒的葡语讲解动画，演示提问和回答如何在上下文窗口里叠加；先写 JavaScript，再导出 MP4。",
+    "prompt": "Faça uma animação javascript de como um LLM vai compondo na janela de contexto as perguntas do usuário e as respostas geradas. É importante diferenciar a janela de contexto de entrada da de saída, que normalmente possuem tamanhos diferentes, e deve-se mostrar também que a resposta que foi gerada na janela de contexto de saída é transferida e concatenada ào contexto  da janela de entrada. Deve ser claro e didático e pode ter labels em português\n\nPROMPT2:\n\ngere a animação no formato MP4 para download",
+    "prompt_lang": "pt",
+    "prompt_en": "Make a JavaScript animation of how an LLM gradually composes the user's questions and the generated answers in the context window. It is important to distinguish the input context window from the output one, which usually have different sizes, and it should also show that the answer generated in the output context window is transferred and concatenated to the context of the input window. It should be clear and didactic and may have labels in Portuguese\n\nPROMPT2:\n\ngenerate the animation in MP4 format for download",
+    "prompt_zh": "做一个 JavaScript 动画，展示 LLM 如何在上下文窗口中逐步组合用户的提问和生成的回答。重要的是区分输入上下文窗口和输出上下文窗口，二者通常大小不同；还要展示在输出上下文窗口中生成的回答会被转移并拼接到输入窗口的上下文中。要清晰、有教学性，可以使用葡萄牙语标签\n\nPROMPT2:\n\n把动画生成为 MP4 格式供下载",
+    "prompt_url": "https://x.com/joaoli13/status/2102805381542220038",
+    "kind": "brief",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102800964352614400/img/a3E7qhdV9rLzgFSk.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102800964352614400/vid/avc1/328x270/DsjB1rIwjSSM50Wm.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102800964352614400/vid/avc1/874x720/-rGCxtmIkuZRV5Rx.mp4?tag=29",
+      "duration": 101.1,
+      "width": 1440,
+      "height": 1184
+    },
+    "metrics": {
+      "bookmarks": 179,
+      "likes": 274,
+      "views": 30925,
+      "reposts": 10
+    },
+    "category": "explainer",
+    "remakes": [
+      {
+        "author": "joaoli13",
+        "url": "https://x.com/joaoli13/status/2102805381542220038"
+      }
+    ]
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:22:35.450Z"
+}

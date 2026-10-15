@@ -1,0 +1,78 @@
+{
+  "id": "original/howdevelop-733090",
+  "title": "TanStack AI 发布片",
+  "group": "科普图解 · 数据可视化",
+  "tags": "科普图解 · 数据可视化 产品发布与广告 TanStack AI launch film in Remotion 用 Remotion 渲染的 TanStack AI 发布片，提示词按秒写好每段画面、屏幕文案、音效和事实核对规则。 HowDevelop",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "HowDevelop",
+  "authorUrl": "https://x.com/HowDevelop/status/2103840883812733090",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/howdevelop-733090.mp4",
+  "bytes": 2145330,
+  "sha256": "18d935daacd2fb2af00a38243c168500af37c23841041fe78dfb660c1af49dee",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103840297352343552/vid/avc1/1280x720/ZzYEtgLpdJMaK2XE.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/howdevelop-733090.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/howdevelop-733090.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 30.1,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "howdevelop-733090",
+    "title": "TanStack AI launch film in Remotion",
+    "title_zh": "TanStack AI 发布片",
+    "url": "https://x.com/HowDevelop/status/2103840883812733090",
+    "author": "HowDevelop",
+    "author_name": "Shivay Lamba",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A TanStack AI launch film rendered with Remotion from a second-by-second 15-second spec with on-screen copy, sound design and accuracy guardrails.",
+    "description_zh": "用 Remotion 渲染的 TanStack AI 发布片，提示词按秒写好每段画面、屏幕文案、音效和事实核对规则。",
+    "prompt": "Create and render a 15-second motion graphics video introducing TanStack AI. Make it feel like a premium\ndeveloper-tool launch film produced by Studio1: fast, precise, visually surprising, and polished enough to open a\nkeynote or lead a social campaign.\n\nUse the TanStack AI feature details below as the source of truth. Studio1 is presenting the film; do not imply\nStudio1 built TanStack AI.\n\nFormat and deliverables\n- 1920×1080, 30 fps, exactly 15 seconds; keep important content within a 9:16-safe central area.\n- Deliver the rendered MP4 and the editable project/source. Use Remotion or another code-based motion graphics\nworkflow if available.\n- Use real, editable typography and vector-style graphics. Do not rely on AI-generated text inside images.\n- Add an original electronic sound design: a restrained opening pulse, tightly synchronized transition hits, rising\n- Add an original electronic sound design: a restrained opening pulse, tightly synchronized transition hits, rising\nmomentum, and a satisfying final resolve. The story must also work muted.\n\nVisual direction\nDark graphite canvas; luminous gradients and controlled flashes inspired by TanStack’s identity. Crisp typography,\nkinetic code, layered interface fragments, streaming data, branching paths, and smooth camera moves with convincing\ndepth. High contrast and immaculate spacing. Every transition should visually demonstrate a feature, rather than\nsimply replace one title card with another. Keep all on-screen wording brief and legible. Avoid generic stock\nfootage, spinning logos, fake dashboards, excessive glitch effects, and tiny code nobody can read.\n\nExact 15-second sequence\n- 0:00–0:02 — Hook: A single prompt cursor blinks. It sends one signal that expands into a network of\npossibilities. On-screen: “What can one AI API become?”\n- 0:02–0:04 — Core and providers: The signal resolves into chat(); provider nodes connect and swap rapidly without\nbreaking the central flow. On-screen: “chat() · 24 providers”\n- 0:04–0:06.5 — Multimodal: One continuous stream transforms into text, waveform, image frame, and video timeline.\nOn-screen: “One pattern. Every modality.”\n- 0:06.5–0:09 — Agents and tools: The stream branches into sandboxed agent runs, then reaches external tools\nthrough MCP. Show distinct runs progressing in parallel. On-screen: “Agents · Sandboxes · MCP”\n- 0:09–0:11.5 — Reliability: An interrupted stream freezes, reconnects, and resumes from the same point; a clean\ntype-check confirmation snaps into place. On-screen: “Persistent. Durable. Type-safe.”\n- 0:11.5–0:15 — Reveal: All paths converge into a bold final composition: “TanStack AI” followed by “Build what’s\nnext.” Add a small “A Studio1 film” credit, visually subordinate to TanStack AI. Hold the final frame long enough\nto read it.\n\nAccuracy guardrails\nThe supplied article says TanStack AI is in the release candidate phase, supports 24 providers, uses AG-UI, and\noffers composable chat(), media generation, sandbox and agent-harness primitives, MCP, type safety, persistence,\nand resumable streams. Do not call it a stable v1 release. Do not present planned orchestration features as already\nshipped.\n\nMake the video, inspect the rendered result, and fix any clipped text, weak transitions, mistimed beats, or\nunreadable frames before delivering it. The goal is a memorable showreel, not a slideshow of feature bullets.",
+    "prompt_lang": "en",
+    "prompt_zh": "创建并渲染一段 15 秒的动态图形视频，介绍 TanStack AI。让它像 Studio1 出品的高端开发者工具发布片：快、精准、视觉上有惊喜，精致到足以给主题演讲开场，或者撑起一场社交媒体宣传。\n\n以下面的 TanStack AI 功能细节为准。影片由 Studio1 呈现；不要暗示 TanStack AI 是 Studio1 开发的。\n\n格式与交付物\n- 1920×1080，30 fps，正好 15 秒；重要内容放在 9:16 安全的中央区域内。\n- 交付渲染好的 MP4 和可编辑的项目/源码。如果可用，使用 Remotion 或其他基于代码的动态图形工作流。\n- 使用真实、可编辑的文字排版和矢量风格图形。不要依赖图片里 AI 生成的文字。\n- 加入原创的电子音效设计：克制的开场脉冲、与转场严丝合缝的重音、不断攀升的推进感，以及令人满足的最终收束。静音时故事也要成立。\n\n视觉方向\n深石墨色画布；受 TanStack 品牌识别启发的发光渐变和受控的闪光。利落的字体、动态代码、层叠的界面碎片、流动的数据、分叉的路径，以及有真实纵深感的顺滑运镜。高对比度，间距无可挑剔。每个转场都要直观演示一个功能，而不是简单地把一张标题卡换成另一张。屏幕上的文字都要简短易读。避免通用素材库画面、旋转的 logo、假仪表盘、过度的故障效果，以及没人看得清的小号代码。\n\n精确的 15 秒分镜\n- 0:00–0:02 — 钩子：一个提示词光标在闪烁。它发出一道信号，扩展成一张充满可能性的网络。屏幕文字：“What can one AI API become?”\n- 0:02–0:04 — 核心与提供商：信号收束成 chat()；提供商节点快速连接、切换，中央的流程不中断。屏幕文字：“chat() · 24 providers”\n- 0:04–0:06.5 — 多模态：一条连续的流依次变成文本、波形、图像帧和视频时间线。屏幕文字：“One pattern. Every modality.”\n- 0:06.5–0:09 — 智能体与工具：流分叉成多个沙箱里的智能体运行，再通过 MCP 连到外部工具。展示多个不同的运行并行推进。屏幕文字：“Agents · Sandboxes · MCP”\n- 0:09–0:11.5 — 可靠性：一条被中断的流冻结、重连，并从同一位置继续；一个干净的类型检查通过提示卡入到位。屏幕文字：“Persistent. Durable. Type-safe.”\n- 0:11.5–0:15 — 揭晓：所有路径汇聚成一个醒目的最终画面：“TanStack AI”，接着是“Build what’s next.”。加一个小小的“A Studio1 film”署名，视觉上从属于 TanStack AI。最后一帧停留足够久，让人看清。\n\n准确性护栏\n所提供的文章说，TanStack AI 处于 release candidate 阶段，支持 24 个提供商，使用 AG-UI，提供可组合的 chat()、媒体生成、沙箱和 agent-harness 原语、MCP、类型安全、持久化和可恢复的流。不要称它为稳定的 v1 版本。不要把计划中的编排功能说成已经发布。\n\n制作视频，检查渲染结果，交付前修掉所有被裁切的文字、无力的转场、没卡准的节拍或看不清的画面。目标是一部让人记住的作品集短片，而不是一页页功能要点的幻灯片。",
+    "prompt_url": "https://x.com/HowDevelop/status/2103840887562281145",
+    "kind": "spec",
+    "tools": [
+      "remotion"
+    ],
+    "inputs": [
+      "script"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103840297352343552/img/Kj0kNOm6nI-7e3mP.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103840297352343552/vid/avc1/480x270/MZgpw7TVRQkzI0Xy.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103840297352343552/vid/avc1/1280x720/ZzYEtgLpdJMaK2XE.mp4?tag=29",
+      "duration": 30.1,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 4,
+      "likes": 15,
+      "views": 1842,
+      "reposts": 1
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103840883812733090",
+    "style": "explainer",
+    "title_zh": "TanStack AI发布影片",
+    "title_en": "TanStack AI Launch Film",
+    "author": "HowDevelop",
+    "post_url": "https://x.com/HowDevelop/status/2103840883812733090",
+    "prompt": "Create and render a 15-second motion graphics video introducing TanStack AI. Make it feel like a premium            \n  developer-tool launch film produced by Studio1: fast, precise, visually surprising, and polished enough to open a   \n  keynote or lead a social campaign.                                                                                  \n                                                                                                                      \n  Use the TanStack AI feature details below as the source of truth. Studio1 is presenting the film; do not imply      \n  Studio1 built TanStack AI.                                                                                          \n                                                                                                                      \n  Format and deliverables                                                                                             \n  - 1920×1080, 30 fps, exactly 15 seconds; keep important content within a 9:16-safe central area.                    \n  - Deliver the rendered MP4 and the editable project/source. Use Remotion or another code-based motion graphics      \n  workflow if available.                                                                                              \n  - Use real, editable typography and vector-style graphics. Do not rely on AI-generated text inside images.          \n  - Add an original electronic sound design: a restrained opening pulse, tightly synchronized transition hits, rising \n  - Add an original electronic sound design: a restrained opening pulse, tightly synchronized transition hits, rising \n  momentum, and a satisfying final resolve. The story must also work muted.                                           \n                                                                                                                      \n  Visual direction                                                                                                    \n  Dark graphite canvas; luminous gradients and controlled flashes inspired by TanStack’s identity. Crisp typography,  \n  kinetic code, layered interface fragments, streaming data, branching paths, and smooth camera moves with convincing \n  depth. High contrast and immaculate spacing. Every transition should visually demonstrate a feature, rather than    \n  simply replace one title card with another. Keep all on-screen wording brief and legible. Avoid generic stock       \n  footage, spinning logos, fake dashboards, excessive glitch effects, and tiny code nobody can read.                  \n                                                                                                                      \n  Exact 15-second sequence                                                                                            \n  - 0:00–0:02 — Hook: A single prompt cursor blinks. It sends one signal that expands into a network of               \n  possibilities. On-screen: “What can one AI API become?”                                                             \n  - 0:02–0:04 — Core and providers: The signal resolves into chat(); provider nodes connect and swap rapidly without  \n  breaking the central flow. On-screen: “chat() · 24 providers”                                                       \n  - 0:04–0:06.5 — Multimodal: One continuous stream transforms into text, waveform, image frame, and video timeline.  \n  On-screen: “One pattern. Every modality.”                                                                           \n  - 0:06.5–0:09 — Agents and tools: The stream branches into sandboxed agent runs, then reaches external tools        \n  through MCP. Show distinct runs progressing in parallel. On-screen: “Agents · Sandboxes · MCP”                      \n  - 0:09–0:11.5 — Reliability: An interrupted stream freezes, reconnects, and resumes from the same point; a clean    \n  type-check confirmation snaps into place. On-screen: “Persistent. Durable. Type-safe.”                              \n  - 0:11.5–0:15 — Reveal: All paths converge into a bold final composition: “TanStack AI” followed by “Build what’s   \n  next.” Add a small “A Studio1 film” credit, visually subordinate to TanStack AI. Hold the final frame long enough   \n  to read it.                                                                                                         \n                                                                                                                      \n  Accuracy guardrails                                                                                                 \n  The supplied article says TanStack AI is in the release candidate phase, supports 24 providers, uses AG-UI, and     \n  offers composable chat(), media generation, sandbox and agent-harness primitives, MCP, type safety, persistence,    \n  and resumable streams. Do not call it a stable v1 release. Do not present planned orchestration features as already \n  shipped.                                                                                                            \n                                                                                                                      \n  Make the video, inspect the rendered result, and fix any clipped text, weak transitions, mistimed beats, or         \n  unreadable frames before delivering it. The goal is a memorable showreel, not a slideshow of feature bullets.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 24
+  },
+  "downloadedAt": "2026-10-14T09:21:04.102Z"
+}

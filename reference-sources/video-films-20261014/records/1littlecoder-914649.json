@@ -1,0 +1,81 @@
+{
+  "id": "original/1littlecoder-914649",
+  "title": "Opus 5.5 自我介绍",
+  "group": "动态排版",
+  "tags": "动态排版 让 Opus 讲自己 Opus 5.5 introduces itself in 10 seconds Opus 5.5 的 10 秒动效自我介绍，提示词特意禁止角落边框和文字这类典型 AI 痕迹。 1littlecoder",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "1littlecoder",
+  "authorUrl": "https://x.com/1littlecoder/status/2103587706999914649",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/1littlecoder-914649.mp4",
+  "bytes": 795985,
+  "sha256": "d9120a0a4d58f15e6d4de73428373fa2ac6fce919d78529aa738c412ee701213",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103587570198495233/vid/avc1/1280x720/X_ehF9_Eh-Ndl0nw.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/1littlecoder-914649.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/1littlecoder-914649.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 10,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "1littlecoder-914649",
+    "title": "Opus 5.5 introduces itself in 10 seconds",
+    "title_zh": "Opus 5.5 自我介绍",
+    "url": "https://x.com/1littlecoder/status/2103587706999914649",
+    "author": "1littlecoder",
+    "author_name": "1LittleCoder💻",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 10-second motion graphics self-introduction by Opus 5.5; the prompt bans corner frames and text, the usual giveaways of AI-made videos.",
+    "description_zh": "Opus 5.5 的 10 秒动效自我介绍，提示词特意禁止角落边框和文字这类典型 AI 痕迹。",
+    "prompt": "make a dynamic 10-second motion graphics video that shows who are you as Opus 5.5 - be as creative and dynamic as possible. Avoid the frames and texts on the corners which are typical ai made giveaways!",
+    "prompt_lang": "en",
+    "prompt_zh": "制作一段 10 秒的动态图形视频，展示作为 Opus 5.5 的你是谁——尽可能有创意、有动感。避免角落里的边框和文字，那是典型的 AI 制作痕迹！",
+    "kind": "one-shot",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103587570198495233/img/6qTkGcxF0eI0-1Tz.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103587570198495233/vid/avc1/480x270/F0M86R8O3qLLqgQJ.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103587570198495233/vid/avc1/1280x720/X_ehF9_Eh-Ndl0nw.mp4?tag=29",
+      "duration": 10,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 35,
+      "likes": 41,
+      "views": 2614,
+      "reposts": 4
+    },
+    "category": "self",
+    "remakes": [
+      {
+        "author": "souravbhar871",
+        "url": "https://x.com/souravbhar871/status/2103711849703477361",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103709802467876864/img/wIXY73aF5wBToqvS.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103709802467876864/vid/avc1/480x270/GV2aVFU-nbs_TRms.mp4?tag=29"
+      }
+    ]
+  },
+  "styleClassificationSource": {
+    "id": "2103587706999914649",
+    "style": "typography",
+    "title_zh": "Opus 5.5动态身份展示",
+    "title_en": "Opus 5.5 Dynamic Identity Reel",
+    "author": "1littlecoder",
+    "post_url": "https://x.com/1littlecoder/status/2103587706999914649",
+    "prompt": "make a dynamic 10-second motion graphics video that shows who are you as Opus 5.5 - be as creative and dynamic as possible. Avoid the frames and texts on the corners which are typical ai made giveaways!",
+    "prompt_partial": false,
+    "likes_2026_09_29": 42
+  },
+  "downloadedAt": "2026-10-14T09:18:01.497Z"
+}

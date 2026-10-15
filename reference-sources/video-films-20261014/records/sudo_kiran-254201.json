@@ -1,0 +1,72 @@
+{
+  "id": "original/sudo_kiran-254201",
+  "title": "Distilbook 产品讲解",
+  "group": "手绘 · 线稿 · 漫画",
+  "tags": "手绘 · 线稿 · 漫画 产品发布与广告 Product explainer for Distilbook 一句话加产品链接做出的 30 秒产品讲解动效视频，配乐是 Opus 自己加的。 sudo_kiran",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "sudo_kiran",
+  "authorUrl": "https://x.com/sudo_kiran/status/2103486573476254201",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/sudo_kiran-254201.mp4",
+  "bytes": 3412737,
+  "sha256": "1eca211a0de77ae25595febe91acfa4431450a87af0576d21a8f3d0f29dae7a1",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103486232395444224/vid/avc1/1280x720/2MCMiWbfc11Sccij.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/sudo_kiran-254201.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/sudo_kiran-254201.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 30.1,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "sudo_kiran-254201",
+    "title": "Product explainer for Distilbook",
+    "title_zh": "Distilbook 产品讲解",
+    "url": "https://x.com/sudo_kiran/status/2103486573476254201",
+    "author": "sudo_kiran",
+    "author_name": "Kiran",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 30-second motion-graphics product explainer from one sentence plus the product URL; Opus added the music on its own.",
+    "description_zh": "一句话加产品链接做出的 30 秒产品讲解动效视频，配乐是 Opus 自己加的。",
+    "prompt": "make a dynamic 30-seconds motion graphic video about the distilbook like a product explainer the video has to be very incredible\n(product url)",
+    "prompt_lang": "en",
+    "prompt_zh": "做一段 30 秒的动态图形视频，像产品讲解一样介绍 distilbook，视频要非常惊艳\n（产品链接）",
+    "kind": "one-shot",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103486232395444224/img/rB2EKRCXBv4Lwg2m.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103486232395444224/vid/avc1/480x270/sZeUKtwy88OGmN33.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103486232395444224/vid/avc1/1280x720/2MCMiWbfc11Sccij.mp4?tag=29",
+      "duration": 30.1,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 2,
+      "likes": 3,
+      "views": 415
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103486573476254201",
+    "style": "handdrawn",
+    "title_zh": "Distilbook产品介绍",
+    "title_en": "Distilbook Product Explainer Motion",
+    "author": "sudo_kiran",
+    "post_url": "https://x.com/sudo_kiran/status/2103486573476254201",
+    "prompt": "make a dynamic 30-seconds motion graphic video about the distilbook like a product explainer the video has to be very incredible\n(product url)",
+    "prompt_partial": false,
+    "likes_2026_09_29": 3
+  },
+  "downloadedAt": "2026-10-14T09:08:41.418Z"
+}

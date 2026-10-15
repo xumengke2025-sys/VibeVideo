@@ -1,0 +1,72 @@
+{
+  "id": "original/harryworld-460295",
+  "title": "沙画香港百年史",
+  "group": "拼贴 · 剪纸 · 沙画",
+  "tags": "拼贴 · 剪纸 · 沙画 历史与纪录 Sand animation of 100 years of Hong Kong 2 分钟沙画风动画，讲香港百年历史，配背景音乐和音效，作者同时贴出了 GPT-6 Astra 的版本做对比。 harryworld",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "harryworld",
+  "authorUrl": "https://x.com/harryworld/status/2103495753335460295",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/harryworld-460295.mp4",
+  "bytes": 13090074,
+  "sha256": "861558cdc77580f50a236777928c7cb5a2569fdae6820ef0be3c6e4aa307c86f",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103495077926707200/vid/avc1/720x810/O-f_ifDE8JMz7_tl.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/harryworld-460295.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/harryworld-460295.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 120,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "harryworld-460295",
+    "title": "Sand animation of 100 years of Hong Kong",
+    "title_zh": "沙画香港百年史",
+    "url": "https://x.com/harryworld/status/2103495753335460295",
+    "author": "harryworld",
+    "author_name": "Harry Ng 💻 Shipaton",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 2-minute sand-animation-style story of a century of Hong Kong history with music and sound design, posted alongside a GPT-6 Astra version.",
+    "description_zh": "2 分钟沙画风动画，讲香港百年历史，配背景音乐和音效，作者同时贴出了 GPT-6 Astra 的版本做对比。",
+    "prompt": "Make a 2-minute sand animation that tells the story of 100 years of Hong Kong history. Keep it lively, engaging, and tasteful. Add appropriate background music and sound design.",
+    "prompt_lang": "en",
+    "prompt_zh": "做一段 2 分钟的沙画动画，讲述香港 100 年的历史。要生动、引人入胜、有品位。配上合适的背景音乐和音效设计。",
+    "kind": "one-shot",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103495077926707200/img/YYBGxFDPsxfA6HGx.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103495077926707200/vid/avc1/320x360/v1EQeqBne7vpg37t.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103495077926707200/vid/avc1/720x810/O-f_ifDE8JMz7_tl.mp4?tag=29",
+      "duration": 120,
+      "width": 1280,
+      "height": 1440
+    },
+    "metrics": {
+      "bookmarks": 1,
+      "likes": 5,
+      "views": 389
+    },
+    "category": "history"
+  },
+  "styleClassificationSource": {
+    "id": "2103495753335460295",
+    "style": "collage",
+    "title_zh": "香港百年历史沙画",
+    "title_en": "Hong Kong 100 years sand animation",
+    "author": "harryworld",
+    "post_url": "https://x.com/harryworld/status/2103495753335460295",
+    "prompt": "Make a 2-minute sand animation that tells the story of 100 years of Hong Kong history. Keep it lively, engaging, and tasteful. Add appropriate background music and sound design.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 5
+  },
+  "downloadedAt": "2026-10-14T09:10:04.685Z"
+}

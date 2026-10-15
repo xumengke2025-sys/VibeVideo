@@ -1,0 +1,74 @@
+{
+  "id": "original/agi_fromwalmart-383089",
+  "title": "Three.js 体素足球动画",
+  "group": "低多边形 · 体素",
+  "tags": "低多边形 · 体素 3D、着色器与世界 Voxel soccer goal animation in Three.js 单个 HTML 文件里的体素风 Three.js 动画：方块球员连过两名后卫破门，随后飘起庆祝粒子。 AGI_FromWalmart",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "AGI_FromWalmart",
+  "authorUrl": "https://x.com/AGI_FromWalmart/status/2102739444256383089",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/agi_fromwalmart-383089.mp4",
+  "bytes": 1761723,
+  "sha256": "cdf422fc5633d15f9c3142864fd79d8dc0acf3391f3da610de2345b700fa5860",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102739314178400256/vid/avc1/810x360/8d2zvkBA_Ntq-2BO.mp4?tag=14",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/agi_fromwalmart-383089.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/agi_fromwalmart-383089.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 19.1,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "agi_fromwalmart-383089",
+    "title": "Voxel soccer goal animation in Three.js",
+    "title_zh": "Three.js 体素足球动画",
+    "url": "https://x.com/AGI_FromWalmart/status/2102739444256383089",
+    "author": "AGI_FromWalmart",
+    "author_name": "Delusionals",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "A short voxel-style Three.js animation in one HTML file: a blocky player dribbles past two defenders and scores, followed by celebration particles.",
+    "description_zh": "单个 HTML 文件里的体素风 Three.js 动画：方块球员连过两名后卫破门，随后飘起庆祝粒子。",
+    "prompt": "Create a single HTML file with Three.js (CDN) for a simple voxel-style soccer animation. A blocky player dribbles past 2 defenders and scores a spectacular goal with celebration particles. Colorful stadium look. Output ONLY the full HTML code.",
+    "prompt_lang": "en",
+    "prompt_zh": "用 Three.js（CDN）写一个单 HTML 文件，做一段简单的体素风足球动画。一个方块小人带球过掉 2 名后卫，打进一记精彩进球，并伴有庆祝粒子。球场要色彩丰富。只输出完整的 HTML 代码。",
+    "kind": "brief",
+    "tools": [
+      "threejs"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102739314178400256/img/CzvxEdPB8dkuikUB.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102739314178400256/vid/avc1/606x270/jus6ccceENoAR1ZB.mp4?tag=14",
+      "video_hd": "https://video.twimg.com/amplify_video/2102739314178400256/vid/avc1/810x360/8d2zvkBA_Ntq-2BO.mp4?tag=14",
+      "duration": 19.1,
+      "width": 2558,
+      "height": 1136
+    },
+    "metrics": {
+      "likes": 1,
+      "views": 210
+    },
+    "category": "worlds"
+  },
+  "styleClassificationSource": {
+    "id": "2102739444256383089",
+    "style": "lowpoly",
+    "title_zh": "像素风足球进球动画",
+    "title_en": "Voxel soccer goal animation",
+    "author": "AGI_FromWalmart",
+    "post_url": "https://x.com/AGI_FromWalmart/status/2102739444256383089",
+    "prompt": "Create a single HTML file with Three.js (CDN) for a simple voxel-style soccer animation. A blocky player dribbles past 2 defenders and scores a spectacular goal with celebration particles. Colorful stadium look. Output ONLY the full HTML code.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 1
+  },
+  "downloadedAt": "2026-10-14T09:15:13.177Z"
+}

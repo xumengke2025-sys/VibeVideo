@@ -1,0 +1,465 @@
+{
+  "repo": "c5inco/motion-showreel",
+  "repository": "https://github.com/c5inco/motion-showreel",
+  "commit": "fa37a7dea6fd346b6fb2aeee9fa35e1632538222",
+  "checked": "2026-10-13",
+  "scope": "完整仓库文件快照；发布影片另存 release-media",
+  "modelEvidence": [
+    "Designed and built with **Claude Opus 5.5** in [Claude Code](https://claude.com/claude-code).",
+    "## Made with Claude Opus 5.5",
+    "Claude Opus 5.5, working in Claude Code, did the concept, choreography, typography, AGSL shaders and Kotlin for this reel. It also verified the work on the Android emulator: it froze frames at chosen timestamps to review them, profiled the frame rate, and captured the recording."
+  ],
+  "modelEvidenceStatus": "作者自述；未独立核实模型会话",
+  "licenseFiles": [
+    "LICENSE",
+    "licenses/OFL-GeistMono.txt",
+    "licenses/OFL-InstrumentSerif.txt",
+    "licenses/OFL-InterTight.txt"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/.gitignore",
+      "gitBlobSha1": "166fb4ca6f6f1fd5208dd77529f8104d9bf548eb",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/.gitignore",
+      "bytes": 369,
+      "sha256": "d3fd1fda9e1a9e9f70b6d1e445afe214bd553cd47ceade70327877a5f5565767",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/.gitignore",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/.gitignore",
+      "gitBlobSha1": "42afabfd2abebf31384ca7797186a27a4b7dbee8",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/.gitignore",
+      "bytes": 6,
+      "sha256": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/build.gradle.kts",
+      "gitBlobSha1": "db05bfed4cc479fe4bbc956a233ca283a8c73de7",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/build.gradle.kts",
+      "bytes": 1991,
+      "sha256": "e18547270a051fd61ec52ad687ffb611f4ce93c20f30c944c3a20533d6860c8a",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/proguard-rules.pro",
+      "gitBlobSha1": "e05ab7aade78e232da6ce48f3046d2add9215ca7",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/proguard-rules.pro",
+      "bytes": 92,
+      "sha256": "2ab3bbae57df606609a5deb1ae6cbc83d021152e215c2bafdca19fbe4c3f49b4",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/AndroidManifest.xml",
+      "gitBlobSha1": "13e6412a3b56afc25a52b5d9daec52da73e0c5aa",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/AndroidManifest.xml",
+      "bytes": 920,
+      "sha256": "b16231874925be96a49ba37885346d47f267b280186af3c26b4a25d78a0d59a1",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/java/com/example/showreel/MainActivity.kt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/java/com/example/showreel/MainActivity.kt",
+      "gitBlobSha1": "1cc93c208f500736a6846a1fc13fef1ac27cdb03",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/java/com/example/showreel/MainActivity.kt",
+      "bytes": 2823,
+      "sha256": "012e6cad78ff40db8847f6deb0682f84fdc814f45fa18eeb9bf1c7a2c923e245",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/java/com/example/showreel/Motion.kt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/java/com/example/showreel/Motion.kt",
+      "gitBlobSha1": "44952ef4b9aeb2cf0fc857985b9b0e923c42289e",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/java/com/example/showreel/Motion.kt",
+      "bytes": 3281,
+      "sha256": "13da8b8f9f2155c5dd5eb2eefb55b54effddae029dcbd8a86cdce49872ca9ed5",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/java/com/example/showreel/Particles.kt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/java/com/example/showreel/Particles.kt",
+      "gitBlobSha1": "6b9462aed35457d91d8f4c4a53dce164e216e66f",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/java/com/example/showreel/Particles.kt",
+      "bytes": 6506,
+      "sha256": "0c791efdefae3eeb224c2f135c94edb48a5722bfa7586cb4827c4694fc50837e",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/java/com/example/showreel/Reel.kt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/java/com/example/showreel/Reel.kt",
+      "gitBlobSha1": "2567680c2eced5a61ca261c767ee65aacdca80ff",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/java/com/example/showreel/Reel.kt",
+      "bytes": 28871,
+      "sha256": "cb92fdb84a60cf0a52191e7a87f09c54242b01c8663a654fbbe0fae17a8604ed",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/java/com/example/showreel/Shaders.kt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/java/com/example/showreel/Shaders.kt",
+      "gitBlobSha1": "8b00d1a504dbb15af39bdae844902f89d80ad044",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/java/com/example/showreel/Shaders.kt",
+      "bytes": 4458,
+      "sha256": "9d0669b7908549c5e045ea2f4e31abd28a4a9e8c5c877c049ddf6d2061b68ed8",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/java/com/example/showreel/TextKit.kt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/java/com/example/showreel/TextKit.kt",
+      "gitBlobSha1": "9ba4a7050494461bdb9e9f4aa3d0c37b6eb13710",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/java/com/example/showreel/TextKit.kt",
+      "bytes": 3635,
+      "sha256": "1af9a15da7f9b8c70bf8f3ee76818733073d269bb78d23f472bc825c0dd2df69",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/drawable/ic_launcher_background.xml",
+      "gitBlobSha1": "07d5da9cbf141911847041df5d7b87f0dd5ef9d4",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "gitBlobSha1": "2b068d11462a4b96669193de13a711a3a36220a0",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 1702,
+      "sha256": "01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/font/geist_mono_semibold.ttf",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/font/geist_mono_semibold.ttf",
+      "gitBlobSha1": "b43e355db9142346ef5f36b1bb829cec2958cfe0",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/font/geist_mono_semibold.ttf",
+      "bytes": 71148,
+      "sha256": "fc769c5ca65bd787040f8c6fa273d8fc882eed881110de880b0911c5d8e8bc68",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/font/geist_mono.ttf",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/font/geist_mono.ttf",
+      "gitBlobSha1": "327e7c98ee1b73f14057335d5ce36da8a1fad797",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/font/geist_mono.ttf",
+      "bytes": 71160,
+      "sha256": "7022da390e9b401ea35b722f8ed2376948e70add10954bc798839b4bfe17ef3f",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/font/instrument_serif_italic.ttf",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/font/instrument_serif_italic.ttf",
+      "gitBlobSha1": "25d2a821941d47d480d3f614c4e9da8040466ece",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/font/instrument_serif_italic.ttf",
+      "bytes": 64208,
+      "sha256": "fecf4861d5202405b8bd45c683858b6870642a026784fe0dbf88ff55dedee8a0",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/font/instrument_serif.ttf",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/font/instrument_serif.ttf",
+      "gitBlobSha1": "8794c695013ddd0b43f345521496cefdbe18ca71",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/font/instrument_serif.ttf",
+      "bytes": 62284,
+      "sha256": "a99e3db50076202713812ed541feeb23ffeebb61db1fa6b1cf48fe590d37ef18",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/font/inter_tight_extrabold.ttf",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/font/inter_tight_extrabold.ttf",
+      "gitBlobSha1": "88018bf535b6dbca275936bd29530d2415bf4dd2",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/font/inter_tight_extrabold.ttf",
+      "bytes": 303868,
+      "sha256": "a6906a10c53fe29b0d05a73ce2404f3dfdd6b87cda063daf7e628c5ea207a805",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "gitBlobSha1": "6f3b755bf50c6b03d8714a9c6184705e6a08389f",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "gitBlobSha1": "6f3b755bf50c6b03d8714a9c6184705e6a08389f",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "gitBlobSha1": "b2dfe3d1ba5cf3ee31b3ecc1ced89044a1f3b7a9",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 2898,
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "gitBlobSha1": "c209e78ecd372343283f4157dcfd918ec5165bb3",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1404,
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "gitBlobSha1": "62b611da081676d42f6c3f78a2c91e7bcedddedb",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1772,
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "gitBlobSha1": "4f0f1d64e58ba64d180ce43ee13bf9a17835fbca",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 982,
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "gitBlobSha1": "1b9a6956b3acdc11f40ce2bb3f6efbd845cc243f",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 3918,
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "gitBlobSha1": "948a3070fe34c611c42c0d3ad3013a0dce358be0",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 1900,
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "gitBlobSha1": "9287f5083623b375139afb391af71cc533a7dd37",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 5914,
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "gitBlobSha1": "28d4b77f9f036a47549d47db79c16788749dca10",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 2884,
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "gitBlobSha1": "9126ae37cbc3587421d6889eadd1d91fbf1994d4",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 7778,
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "gitBlobSha1": "aa7d6427e6fa1074b79ccd52ef67ac15c5637e85",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 3844,
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/values/strings.xml",
+      "gitBlobSha1": "11a9b0ea4fc70bb8b13347c74f1a6ceeebd0d5fc",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/values/strings.xml",
+      "bytes": 70,
+      "sha256": "a5fa52c35406be4769f867227dd865f53cf79cab0637812f367f8ceafccffc9e",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/values/themes.xml",
+      "gitBlobSha1": "4993272953a5cc57b1d8aff52df222b05d8b9f8f",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/values/themes.xml",
+      "bytes": 304,
+      "sha256": "f5ac2d1ce6b2347db9322dac3c2e90f87662a4e5da62cfe90816551ba9649b08",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/xml/backup_rules.xml",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/xml/backup_rules.xml",
+      "gitBlobSha1": "4df925582478cf0d469c4cff9a4bb50859f3230a",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/xml/backup_rules.xml",
+      "bytes": 478,
+      "sha256": "6cf1a27e6807b1d24e41d3fbe7ddc1bfe1f42226027964f6eaf477d71b43b283",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/app/src/main/res/xml/data_extraction_rules.xml",
+      "gitBlobSha1": "9ee9997b0b4726e57c27b2f7b21462b604ff8a88",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 551,
+      "sha256": "cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "build.gradle.kts",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/build.gradle.kts",
+      "gitBlobSha1": "e3b24176500f2fc5640532887fcc88e9877d566d",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/build.gradle.kts",
+      "bytes": 216,
+      "sha256": "c477329879641a8880795c7dbebad5ac815b7be44a94dfcca3a428162ba7cac5",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/frames.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/docs/frames.png",
+      "gitBlobSha1": "985ed82c50678d7073a11be35a66794e9c205160",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/docs/frames.png",
+      "bytes": 1321126,
+      "sha256": "fee3e0d1626d3a110d69ca44b01cdf30d7bbde7acb35ed73670c9f820b67499e",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "gradle.properties",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/gradle.properties",
+      "gitBlobSha1": "32d72a9399f3352f538bb845a29873d9edc42560",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/gradle.properties",
+      "bytes": 1662,
+      "sha256": "3e2a08f6ddaea24aac70dfce7f069eb0aa3edee3103d6cc3479653552e949c75",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/gradle/libs.versions.toml",
+      "gitBlobSha1": "7e52119a7402b205d2f01eee60abea7f729c2064",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/gradle/libs.versions.toml",
+      "bytes": 2943,
+      "sha256": "cfccee9cb301cc6dfbe0788b9e3e5e37faa1d4d2829348b3b9d9347d49cda910",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/gradle/wrapper/gradle-wrapper.jar",
+      "gitBlobSha1": "f6b961fd5a86aa5fbfe90f707c3138408be7c718",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 54329,
+      "sha256": "381dff8aa434499aa93bc25572b049c8c586a67faff2c02f375e4f23e17e49de",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/gradle/wrapper/gradle-wrapper.properties",
+      "gitBlobSha1": "26dec6cde0c61e9aaba1065086a52f339b440a09",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 339,
+      "sha256": "42bc80546f2979857efc20b23ede63b1c5a20478aef5a5c7b89ca66fb46fc786",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "gradlew",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/gradlew",
+      "gitBlobSha1": "cccdd3d517fc5249beaefa600691cf150f2fa3e6",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/gradlew",
+      "bytes": 5296,
+      "sha256": "8c4c04dd98db1f00d49456dd162418a39312c5cb13d6865d783deb483bd1ed22",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "gradlew.bat",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/gradlew.bat",
+      "gitBlobSha1": "f9553162f122c71b34635112e717c3e733b5b212",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/gradlew.bat",
+      "bytes": 2176,
+      "sha256": "2f18fc6abd50803de7b3a225038d284268904c9d13caa6cf81f99365dc876479",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/LICENSE",
+      "gitBlobSha1": "c0375039c8e7524f68ca736059b79f0e2fa3db89",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/LICENSE",
+      "bytes": 1068,
+      "sha256": "0a7b3f2222bac257b07e3db6a546a7da944cda44b9d9164ca3681160fdd27514",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "licenses/OFL-GeistMono.txt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/licenses/OFL-GeistMono.txt",
+      "gitBlobSha1": "61f6f4b7853081236aec6407f2dd3c7170997f84",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/licenses/OFL-GeistMono.txt",
+      "bytes": 4387,
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "licenses/OFL-InstrumentSerif.txt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/licenses/OFL-InstrumentSerif.txt",
+      "gitBlobSha1": "669ce7917bec662fcf7244d37f49c4277f6fbd73",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/licenses/OFL-InstrumentSerif.txt",
+      "bytes": 4405,
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "licenses/OFL-InterTight.txt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/licenses/OFL-InterTight.txt",
+      "gitBlobSha1": "18d0da5dfcf4b1703293ed87f8e3efcf34aa643f",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/licenses/OFL-InterTight.txt",
+      "bytes": 4383,
+      "sha256": "50240ab035cf1b6b3307940235481d515c4b6de3ab1fa843dbe59e7892cb9d58",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "README.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/README.md",
+      "gitBlobSha1": "1f016a77cf2f7f696243542276740a04b37ffe3e",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/README.md",
+      "bytes": 6256,
+      "sha256": "77942ec091b3e1863dc260884da54e16093b9ebeb9bd37171f973f9d5577cca7",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "release-media/showreel.mp4",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/release-media/showreel.mp4",
+      "url": "https://github.com/c5inco/motion-showreel/releases/download/v1.0/showreel.mp4",
+      "releaseTag": "v1.0",
+      "releaseAssetId": 595723227,
+      "upstreamDigest": "sha256:e5685ba4bed74f89dca1df07d751c43545d39b2c33fdfb10caf84d2a5fe715d1",
+      "role": "author-release-film",
+      "bytes": 51746983,
+      "sha256": "e5685ba4bed74f89dca1df07d751c43545d39b2c33fdfb10caf84d2a5fe715d1"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/settings.gradle.kts",
+      "gitBlobSha1": "a2c5b6f9ae1e4aefa6f740e2062250b7fb94fb9e",
+      "url": "https://raw.githubusercontent.com/c5inco/motion-showreel/fa37a7dea6fd346b6fb2aeee9fa35e1632538222/settings.gradle.kts",
+      "bytes": 825,
+      "sha256": "01cbeded730ff3d8f24be08ac38c604945e9665f75d0df9b45874c926043bea2",
+      "reusedExistingMedia": false
+    }
+  ],
+  "executed": false
+}

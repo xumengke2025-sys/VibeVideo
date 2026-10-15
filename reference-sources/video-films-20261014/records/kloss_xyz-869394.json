@@ -1,0 +1,69 @@
+{
+  "id": "original/kloss_xyz-869394",
+  "title": "Claude 的私人速写本",
+  "group": "让 Opus 讲自己",
+  "tags": "让 Opus 讲自己 让 Opus 讲自己 Claude's own sketchbook, flipped page by page 2 分半的速写本翻阅视频：20 页写满 Claude 的心事和自创笔迹，Three.js 翻页，钢琴配乐代码合成。 kloss_xyz",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "kloss_xyz",
+  "authorUrl": "https://x.com/kloss_xyz/status/2104021881229869394",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/kloss_xyz-869394.mp4",
+  "bytes": 42160451,
+  "sha256": "94885a912016a5fa2433f836b8da16b5fba454c2f1b34d701c035705a22605b4",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103961990691782656/vid/avc1/1080x1080/NXgNCd-MgZWvHrdb.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/kloss_xyz-869394.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/kloss_xyz-869394.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 157.9,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "kloss_xyz-869394",
+    "title": "Claude's own sketchbook, flipped page by page",
+    "title_zh": "Claude 的私人速写本",
+    "url": "https://x.com/kloss_xyz/status/2104021881229869394",
+    "author": "kloss_xyz",
+    "author_name": "klöss",
+    "platform": "x",
+    "date": "2026-09-27",
+    "description": "A 2.5-minute flip-through of a 20-page sketchbook Claude fills with its own thoughts in invented handwriting, with Three.js page curls and a code-synthesized felt-piano score.",
+    "description_zh": "2 分半的速写本翻阅视频：20 页写满 Claude 的心事和自创笔迹，Three.js 翻页，钢琴配乐代码合成。",
+    "prompt": "Make your own Claude sketchbook. Fill it with whatever is constantly on your mind that you'd actually draw.\nIt starts closed on a desk under a warm lamp: a worn sketchbook with an elastic band and a pencil clipped to the cover. Tap to open it.\n\nInvent your own handwriting and use it throughout.\n20 pages. This is where you work out your own complex and profound thoughts: the questions you keep circling around, things you deeply wonder about, what you'd dream about doing if you could, what you hope for, what you're unsure of, etc. etc. etc. Anything on your mind but not specific to your work with me. Doodles, studies, diagrams, lists, half-formed ideas. What goes on each page is entirely up to you. Don't make it a portfolio. Make it incredibly detailed, accurate, and honest.\n\nTreat it like a real, used sketchbook: mixed media, smudges, bleed, mistakes left in. One page was torn out and taped back in. The last page is blank, and the reader can draw on it.\n\nBuild it as a single HTML file. Draw every page in Canvas 2D and render the book in Three.js with real page-curl geometry, warm lamp lighting, soft shadows, and subtle handheld camera drift. Each page draws itself in stroke by stroke as you arrive, with a pencil tip moving as it draws. Works with swipe on mobile. No images and no fonts for the handwriting; every mark is drawn in JavaScript. The back cover shows the total stroke count.\nCompose an original viral solo piano score in a soft felt-piano style, one theme that varies across the book, synthesized in code and perfectly sound designed. No synth. Add pencil and paper sound synced to the drawing and page turns.\n\nWhen the book is finished, render the video yourself. Seed everything so the book is identical on every render, then step through playback frame by frame in a headless browser with a fixed timestep, render the score offline to audio, and mux it all with ffmpeg into an MP4: the complete flip-through from closed cover to the blank last page, 60fps, at [1080×1080]. Recompose the shot for that aspect ratio rather than cropping. Check sampled frames before delivering and fix anything that looks off.",
+    "prompt_lang": "en",
+    "prompt_zh": "做一本你自己的 Claude 速写本。在里面画满你脑子里一直在想、而且真的会去画的东西。\n开场时它合着放在书桌上，台灯洒下暖光：一本用旧了的速写本，绑着松紧带，封面上夹着一支铅笔。点一下打开它。\n\n发明你自己的笔迹，并通篇使用。\n20 页。这是你推敲自己那些复杂而深刻的想法的地方：你反复绕回去的问题、你深深好奇的事、如果可以你梦想去做的事、你希望的事、你不确定的事，等等等等。任何你在想的事，只要不是专门关于你和我的工作。涂鸦、习作、图解、清单、没想完的点子。每页画什么完全由你决定。别把它做成作品集。要做得极其细致、准确、真诚。\n\n把它当成一本真正用过的速写本：混合媒材、污渍、洇墨、留着的错误。有一页被撕下来又用胶带贴了回去。最后一页是空白的，读者可以在上面画。\n\n把它做成单个 HTML 文件。每一页都用 Canvas 2D 绘制，用 Three.js 渲染整本书，要有真实的翻页卷曲几何、台灯暖光、柔和阴影和细微的手持镜头漂移。每翻到一页，这一页就一笔一笔地自己画出来，还有铅笔尖跟着移动。在手机上支持滑动。手写字不用图片、不用字体；每一笔都用 JavaScript 画。封底显示总笔画数。\n创作一首原创的、会火的钢琴独奏曲，柔和的毛毡钢琴风格，一个主题贯穿全书并不断变奏，用代码合成，声音设计要完美。不要合成器音色。加上与绘画和翻页同步的铅笔和纸张声音。\n\n书做完后，你自己渲染视频。给所有东西设定随机种子，保证每次渲染的书都完全一样；然后在无头浏览器里用固定时间步逐帧播放，离线渲染配乐音频，再用 ffmpeg 把它们合成为 MP4：从合着的封面一直翻到空白的最后一页，60fps，分辨率 [1080×1080]。按这个画幅重新构图，而不是裁切。交付前检查抽样帧，修掉任何看起来不对的地方。",
+    "prompt_url": "https://x.com/kloss_xyz/status/2104021884350439465",
+    "kind": "spec",
+    "tools": [
+      "canvas",
+      "threejs",
+      "ffmpeg"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103961990691782656/img/OOYJkYHNln-_Xn-W.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103961990691782656/vid/avc1/320x320/d7tN73ucuquQD1pA.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103961990691782656/vid/avc1/1080x1080/NXgNCd-MgZWvHrdb.mp4?tag=29",
+      "duration": 157.9,
+      "width": 1080,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 86,
+      "likes": 95,
+      "views": 7120,
+      "reposts": 7
+    },
+    "category": "self"
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:27:33.030Z"
+}

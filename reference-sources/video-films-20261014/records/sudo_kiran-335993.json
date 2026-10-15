@@ -1,0 +1,73 @@
+{
+  "id": "original/sudo_kiran-335993",
+  "title": "产品讲解视频填空模板",
+  "group": "手绘 · 线稿 · 漫画",
+  "tags": "手绘 · 线稿 · 漫画 产品发布与广告 Fill-in product explainer template 30 秒产品讲解动效模板，填入产品名和链接，脚本、配色、音乐都交给 Opus。 sudo_kiran",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "sudo_kiran",
+  "authorUrl": "https://x.com/sudo_kiran/status/2103761658745335993",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/sudo_kiran-335993.mp4",
+  "bytes": 3817695,
+  "sha256": "2c56f8323679f033e96259eba6c27dc625529d42d6f0748a0b329e99a7f8835b",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103761048969043968/vid/avc1/1280x720/-kGgygtVAq_JXb73.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/sudo_kiran-335993.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/sudo_kiran-335993.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 30.1,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "sudo_kiran-335993",
+    "title": "Fill-in product explainer template",
+    "title_zh": "产品讲解视频填空模板",
+    "url": "https://x.com/sudo_kiran/status/2103761658745335993",
+    "author": "sudo_kiran",
+    "author_name": "Kiran",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 30-second motion graphics product explainer template: swap in your product and link, and Opus writes the script, picks colors and adds music.",
+    "description_zh": "30 秒产品讲解动效模板，填入产品名和链接，脚本、配色、音乐都交给 Opus。",
+    "prompt": "create best motion graphics explainer of the (your product) with very good script and good design colors and good music make sure the video should be incredible and people should feels like watch it many times.. it has to be in 30 seconds good and very intresting, it has to be best of the best of the best of the best video\n(product link)",
+    "prompt_lang": "en",
+    "prompt_zh": "为 (your product) 做一个最好的动态图形讲解视频，要有很好的脚本、好看的设计配色和好听的音乐，一定要让视频惊艳，让人觉得想看很多遍……必须控制在 30 秒，好看又非常有趣，必须是最好中的最好中的最好中的最好的视频\n(product link)",
+    "kind": "template",
+    "inputs": [
+      "brand"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103761048969043968/img/YT4AXXDUDrlRSu0v.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103761048969043968/vid/avc1/480x270/yVPqB-mq9X54ND1H.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103761048969043968/vid/avc1/1280x720/-kGgygtVAq_JXb73.mp4?tag=29",
+      "duration": 30.1,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 14,
+      "likes": 13,
+      "views": 2275,
+      "reposts": 2
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103761658745335993",
+    "style": "handdrawn",
+    "title_zh": "产品动态图形宣传片",
+    "title_en": "30-second product motion explainer",
+    "author": "sudo_kiran",
+    "post_url": "https://x.com/sudo_kiran/status/2103761658745335993",
+    "prompt": "create best motion graphics explainer of the (your product) with very good script and good design colors and good music make sure the video should be incredible and people should feels like watch it many times.. it has to be in 30 seconds good and very intresting, it has to be best of the best of the best of the best video\n(product link)",
+    "prompt_partial": false,
+    "likes_2026_09_29": 13
+  },
+  "downloadedAt": "2026-10-14T09:08:14.030Z"
+}

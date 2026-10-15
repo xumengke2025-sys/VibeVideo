@@ -1,0 +1,75 @@
+{
+  "id": "original/moritzkremb-466494",
+  "title": "自选 SaaS 的产品发布视频",
+  "group": "产品发布与广告",
+  "tags": "产品发布与广告 产品发布与广告 SaaS launch video for a product Opus picks Opus 自己挑一个知名 SaaS，从网上找真实素材，剪出 46 秒的发布视频，用 HyperFrames 做成。 moritzkremb",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "moritzkremb",
+  "authorUrl": "https://x.com/moritzkremb/status/2103066071838466494",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/moritzkremb-466494.mp4",
+  "bytes": 3364795,
+  "sha256": "c4038cd1ec585f589b2c7dda4c24a196a4afdcb720a738b5dcd8c94852e98fe5",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103066013323624448/vid/avc1/1280x720/JATTm8-t9jUZPqG6.mp4?tag=16",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/moritzkremb-466494.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/moritzkremb-466494.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 46,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "moritzkremb-466494",
+    "title": "SaaS launch video for a product Opus picks",
+    "title_zh": "自选 SaaS 的产品发布视频",
+    "url": "https://x.com/moritzkremb/status/2103066071838466494",
+    "author": "moritzkremb",
+    "author_name": "Moritz Kremb",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 46-second SaaS launch video where Opus picks a well-known product, pulls real assets from the web and edits a features-and-benefits promo, built with HyperFrames.",
+    "description_zh": "Opus 自己挑一个知名 SaaS，从网上找真实素材，剪出 46 秒的发布视频，用 HyperFrames 做成。",
+    "prompt": "I want you to create a highly professional SaaS product launch video. Go and find some SaaS, preferably just one that people know, so it's easier to identify with it. Pick that, and then make sure to get actual assets and images and all of that stuff from the internet. Turn it into these typical, very professionally edited, motion-graphics-styled product launch videos that you see people making on Twitter when they launch new SaaS products (which are showing off the features, the benefits, and all of these things).",
+    "prompt_lang": "en",
+    "prompt_zh": "我希望你做一支非常专业的 SaaS 产品发布视频。去找一个 SaaS，最好是大家都知道的，这样更容易有代入感。选定它，然后一定要从网上拿到真实的素材、图片之类的东西。把它做成那种典型的、剪辑非常专业的动态图形风格产品发布视频，就是大家在 Twitter 上发布新 SaaS 产品时做的那种（展示功能、好处等等）。",
+    "prompt_url": "https://x.com/moritzkremb/status/2103066083905417476",
+    "kind": "brief",
+    "tools": [
+      "hyperframes"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103066013323624448/img/0dC1iLcOk74La4jK.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103066013323624448/vid/avc1/480x270/jNkgd3jm1yt-SnYZ.mp4?tag=16",
+      "video_hd": "https://video.twimg.com/amplify_video/2103066013323624448/vid/avc1/1280x720/JATTm8-t9jUZPqG6.mp4?tag=16",
+      "duration": 46,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 946,
+      "likes": 403,
+      "views": 88759,
+      "reposts": 20
+    },
+    "category": "launch",
+    "remakes": [
+      {
+        "author": "techyoutbe",
+        "url": "https://x.com/techyoutbe/status/2103465227807588678",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103465167795503104/img/oJBhdVCNCw33rFUP.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103465167795503104/vid/avc1/480x270/vTKu26P0wAZlbArI.mp4?tag=29"
+      }
+    ]
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:21:55.317Z"
+}

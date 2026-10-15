@@ -1,0 +1,77 @@
+{
+  "id": "original/emollick-019567",
+  "title": "九种画风讲递归",
+  "group": "扁平卡通",
+  "tags": "扁平卡通 科普与讲解 Recursion explained in nine video styles 75 秒自我指涉的递归讲解，画风切换九次；画面用 React 和 SVG 绘制，音乐音效用 Python 合成。 emollick",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "emollick",
+  "authorUrl": "https://x.com/emollick/status/2103688362960019567",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/emollick-019567.mp4",
+  "bytes": 11784389,
+  "sha256": "98cfacc20f0719ef6aa765bb795b8bcc136a339fc2b4284b702f8a35ece06899",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103687838420131840/vid/avc1/1280x720/t4wbzHKUlltQRbjh.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/emollick-019567.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/emollick-019567.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 74.9,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "emollick-019567",
+    "title": "Recursion explained in nine video styles",
+    "title_zh": "九种画风讲递归",
+    "url": "https://x.com/emollick/status/2103688362960019567",
+    "author": "emollick",
+    "author_name": "Ethan Mollick",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 75-second self-referential explainer of recursion that switches video style nine times; scenes drawn in React and SVG, music and effects synthesized in Python.",
+    "description_zh": "75 秒自我指涉的递归讲解，画风切换九次；画面用 React 和 SVG 绘制，音乐音效用 Python 合成。",
+    "prompt": "A video explaining recursion, where every explanation about recursion has a radically different video style, make this self-referential & clever & fast moving.",
+    "prompt_lang": "en",
+    "prompt_zh": "一段解释递归的视频，其中每一段关于递归的解释都采用截然不同的视频风格，让它自我指涉、机智、节奏飞快。",
+    "kind": "one-shot",
+    "tools": [
+      "svg",
+      "python"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103687838420131840/img/HC_R1rLMlIn0SvvN.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103687838420131840/vid/avc1/480x270/5-vR96CZnK5GPdLc.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103687838420131840/vid/avc1/1280x720/t4wbzHKUlltQRbjh.mp4?tag=29",
+      "duration": 74.9,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 275,
+      "likes": 537,
+      "views": 61108,
+      "reposts": 43
+    },
+    "category": "explainer"
+  },
+  "styleClassificationSource": {
+    "id": "2103688362960019567",
+    "style": "cartoon",
+    "title_zh": "递归概念多风格解说",
+    "title_en": "Recursion Explained Recursively",
+    "author": "emollick",
+    "post_url": "https://x.com/emollick/status/2103688362960019567",
+    "prompt": "A video explaining recursion, where every explanation about recursion has a radically different video style, make this self-referential & clever & fast moving.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 553
+  },
+  "downloadedAt": "2026-10-14T09:11:42.090Z"
+}

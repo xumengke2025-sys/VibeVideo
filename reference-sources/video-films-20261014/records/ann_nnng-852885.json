@@ -1,0 +1,79 @@
+{
+  "id": "original/ann_nnng-852885",
+  "title": "聚焦产品的动效视频模板",
+  "group": "产品 UI 宣传片",
+  "tags": "产品 UI 宣传片 产品发布与广告 Product-focused motion graphics video template 围绕你的产品做 15 秒动效视频：Opus 先去看产品页面，再自己写视频内容。作者用的是 Claude Code。 ann_nnng",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "ann_nnng",
+  "authorUrl": "https://x.com/ann_nnng/status/2103723183899852885",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/ann_nnng-852885.mp4",
+  "bytes": 1988751,
+  "sha256": "fd624a9bbb79581a716f047f0eeedf261ff0429eb5fb255e8574679034883bab",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103721031798325248/vid/avc1/1280x720/sdROYhwvScW8PrKx.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/ann_nnng-852885.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/ann_nnng-852885.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 15,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "ann_nnng-852885",
+    "title": "Product-focused motion graphics video template",
+    "title_zh": "聚焦产品的动效视频模板",
+    "url": "https://x.com/ann_nnng/status/2103723183899852885",
+    "author": "ann_nnng",
+    "author_name": "Ann Nguyen",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 15-second motion graphics video about your product: Opus first visits the product pages, then writes the video content itself. Made in Claude Code.",
+    "description_zh": "围绕你的产品做 15 秒动效视频：Opus 先去看产品页面，再自己写视频内容。作者用的是 Claude Code。",
+    "prompt": "Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are. The content should focus on [your product]. You should visit the pages first to learn about the product, then write the video content yourself.",
+    "prompt_lang": "en",
+    "prompt_zh": "制作一段 15 秒、充满动感的动态图形视频，展示你是多么出色的动效设计师。内容要聚焦在 [你的产品] 上。你应该先访问相关页面了解这个产品，然后自己写视频内容。",
+    "prompt_url": "https://x.com/ann_nnng/status/2103759390386057227",
+    "kind": "template",
+    "tools": [
+      "claude-code"
+    ],
+    "inputs": [
+      "brand"
+    ],
+    "note": "Author: one prompt, almost an hour.",
+    "note_zh": "作者称一条提示词，跑了将近一小时。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103721031798325248/img/AQACnSg93oS7mh4T.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103721031798325248/vid/avc1/480x270/jjji5AdNCtlGHOQ9.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103721031798325248/vid/avc1/1280x720/sdROYhwvScW8PrKx.mp4?tag=29",
+      "duration": 15,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 1087,
+      "likes": 962,
+      "views": 95202,
+      "reposts": 34
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103723183899852885",
+    "style": "productui",
+    "title_zh": "产品功能动态展示片",
+    "title_en": "Product Feature Motion Showcase",
+    "author": "ann_nnng",
+    "post_url": "https://x.com/ann_nnng/status/2103723183899852885",
+    "prompt": "Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are. The content should focus on [your product]. You should visit the pages first to learn about the product, then write the video content yourself.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 981
+  },
+  "downloadedAt": "2026-10-14T09:18:14.820Z"
+}

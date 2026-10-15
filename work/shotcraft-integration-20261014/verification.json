@@ -1,0 +1,527 @@
+{
+  "date": "2026-10-14",
+  "status": "completed",
+  "version": "0.16.0",
+  "upstream": {
+    "repository": "https://github.com/Vincentwei1021/video-shotcraft",
+    "commit": "13c74a707786872a18e3317e48c5c94011027620",
+    "files": 1358,
+    "originalCheckout": "Unchanged tracked source; only SOURCE.json added."
+  },
+  "backup": {
+    "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\before\\video-shotcraft",
+    "files": 660,
+    "allHashesVerified": true
+  },
+  "catalog": {
+    "commit": "13c74a707786872a18e3317e48c5c94011027620",
+    "cards": 124,
+    "styles": 150,
+    "mappedDemos": 149,
+    "mappedComponents": 1,
+    "missing": [],
+    "unresolved": []
+  },
+  "skillValidation": [
+    {
+      "skill": "D:/Codex/skills/vibe-video",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "D:/Codex/skills/video-shotcraft",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "D:\\ai项目\\ai动画\\VibeVideo项目\\skill\\vibe-video",
+      "passed": true,
+      "result": "Skill is valid!"
+    }
+  ],
+  "syntaxChecks": [
+    "D:/Codex/skills/vibe-video/scripts/shotcraft_library.mjs",
+    "D:/Codex/skills/video-shotcraft/workbench/scripts/gen-index.mjs",
+    "D:/Codex/skills/video-shotcraft/workbench/scripts/open.mjs",
+    "D:/Codex/skills/video-shotcraft/workbench/scripts/local-platform.mjs",
+    "D:/Codex/skills/video-shotcraft/workbench/scripts/parity-local.mjs"
+  ],
+  "productionBuild": {
+    "passed": true,
+    "modules": 305,
+    "warning": "Existing large all-card bundle warning; approximately 1.97 MB minified."
+  },
+  "samples": {
+    "landscape": {
+      "comparison": {
+        "status": "passed",
+        "frames": [
+          {
+            "frame": 0,
+            "badPixels": 0,
+            "pixels": 2073600,
+            "ratio": 0,
+            "maxChannelDifference": 0,
+            "passed": true,
+            "files": [
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\landscape\\ProjOriginal-f0.png",
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\landscape\\ProjImported-f0.png"
+            ]
+          },
+          {
+            "frame": 22,
+            "badPixels": 0,
+            "pixels": 2073600,
+            "ratio": 0,
+            "maxChannelDifference": 0,
+            "passed": true,
+            "files": [
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\landscape\\ProjOriginal-f22.png",
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\landscape\\ProjImported-f22.png"
+            ]
+          },
+          {
+            "frame": 44,
+            "badPixels": 0,
+            "pixels": 2073600,
+            "ratio": 0,
+            "maxChannelDifference": 0,
+            "passed": true,
+            "files": [
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\landscape\\ProjOriginal-f44.png",
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\landscape\\ProjImported-f44.png"
+            ]
+          },
+          {
+            "frame": 45,
+            "badPixels": 0,
+            "pixels": 2073600,
+            "ratio": 0,
+            "maxChannelDifference": 0,
+            "passed": true,
+            "files": [
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\landscape\\ProjOriginal-f45.png",
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\landscape\\ProjImported-f45.png"
+            ]
+          },
+          {
+            "frame": 67,
+            "badPixels": 0,
+            "pixels": 2073600,
+            "ratio": 0,
+            "maxChannelDifference": 0,
+            "passed": true,
+            "files": [
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\landscape\\ProjOriginal-f67.png",
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\landscape\\ProjImported-f67.png"
+            ]
+          },
+          {
+            "frame": 89,
+            "badPixels": 0,
+            "pixels": 2073600,
+            "ratio": 0,
+            "maxChannelDifference": 0,
+            "passed": true,
+            "files": [
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\landscape\\ProjOriginal-f89.png",
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\landscape\\ProjImported-f89.png"
+            ]
+          }
+        ],
+        "tolerance": 0,
+        "maxRatio": 0,
+        "browserExecutable": "D:/ai项目/ai动画/VibeVideo项目/node_modules/.remotion/chrome-headless-shell/win64/chrome-headless-shell-win64/chrome-headless-shell.exe",
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "fps": 30,
+          "total": 90
+        }
+      },
+      "media": {
+        "aspect": "landscape",
+        "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014/verification/landscape-edited.mp4",
+        "sha256": "82881d9054f86d77f96225fcdf1e689867ceabb3c6591e5cc430ec07d3bdade2",
+        "video": {
+          "width": 1920,
+          "height": 1080,
+          "frames": "90",
+          "duration": "3.000000",
+          "fps": "30/1"
+        },
+        "audio": {
+          "codec": "aac",
+          "sample_rate": "48000",
+          "meanDb": -41.08813656936383,
+          "peakDb": -37.82335678248099
+        },
+        "containerDuration": "3.050667",
+        "fullDecodePassed": true,
+        "editedProps": {
+          "project": {
+            "name": "Shotcraft landscape verification",
+            "fps": 30,
+            "width": 1920,
+            "height": 1080,
+            "background": "#faf7f2",
+            "source": "Shotcraft landscape verification@90f#139b3097",
+            "tracks": [
+              {
+                "id": "track_mv7ebhud0",
+                "name": "Captions",
+                "clips": [
+                  {
+                    "inOffset": 0,
+                    "speed": 1,
+                    "opacity": 1,
+                    "scale": 1,
+                    "x": 0,
+                    "y": 0,
+                    "props": {
+                      "text": "LANDSCAPE · EDIT VERIFIED",
+                      "color": "#233735",
+                      "fontSize": 44
+                    },
+                    "id": "clip_mv7ebhud1",
+                    "cardId": "proj:caption:caption",
+                    "start": 0,
+                    "duration": 90,
+                    "label": "Editable caption"
+                  }
+                ]
+              },
+              {
+                "id": "track_mv7ebhue2",
+                "name": "Shots",
+                "clips": [
+                  {
+                    "inOffset": 0,
+                    "speed": 1,
+                    "opacity": 1,
+                    "scale": 1,
+                    "x": 0,
+                    "y": 0,
+                    "props": {
+                      "mode": "flat"
+                    },
+                    "id": "clip_mv7ebhue3",
+                    "cardId": "proj:shot:flat",
+                    "start": 0,
+                    "duration": 45,
+                    "label": "Flat page camera"
+                  },
+                  {
+                    "inOffset": 0,
+                    "speed": 1,
+                    "opacity": 1,
+                    "scale": 1,
+                    "x": 0,
+                    "y": 0,
+                    "props": {
+                      "mode": "tilt"
+                    },
+                    "id": "clip_mv7ebhue4",
+                    "cardId": "proj:shot:flat",
+                    "start": 45,
+                    "duration": 45,
+                    "label": "Tilt page camera"
+                  }
+                ]
+              },
+              {
+                "id": "track_mv7ebhue6",
+                "name": "Music",
+                "clips": [
+                  {
+                    "inOffset": 0,
+                    "speed": 1,
+                    "opacity": 1,
+                    "scale": 1,
+                    "x": 0,
+                    "y": 0,
+                    "props": {
+                      "file": "validation-tone.wav",
+                      "volume": 0.12
+                    },
+                    "id": "clip_mv7ebhue5",
+                    "cardId": "audio-clip",
+                    "start": 0,
+                    "duration": 90,
+                    "label": "Synthetic test tone"
+                  }
+                ]
+              }
+            ]
+          },
+          "renderExact": true
+        },
+        "visualAudit": "First exported frame must be inspected separately; technical internal sample only.",
+        "audioAudit": "Not listened; technical synthetic tone check only."
+      },
+      "exportedFirstFrameObserved": true,
+      "workbenchScreenshot": "verification/workbench-landscape.png"
+    },
+    "portrait": {
+      "comparison": {
+        "status": "passed",
+        "frames": [
+          {
+            "frame": 0,
+            "badPixels": 0,
+            "pixels": 2073600,
+            "ratio": 0,
+            "maxChannelDifference": 0,
+            "passed": true,
+            "files": [
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjOriginal-f0.png",
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjImported-f0.png"
+            ]
+          },
+          {
+            "frame": 22,
+            "badPixels": 0,
+            "pixels": 2073600,
+            "ratio": 0,
+            "maxChannelDifference": 0,
+            "passed": true,
+            "files": [
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjOriginal-f22.png",
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjImported-f22.png"
+            ]
+          },
+          {
+            "frame": 44,
+            "badPixels": 0,
+            "pixels": 2073600,
+            "ratio": 0,
+            "maxChannelDifference": 0,
+            "passed": true,
+            "files": [
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjOriginal-f44.png",
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjImported-f44.png"
+            ]
+          },
+          {
+            "frame": 45,
+            "badPixels": 0,
+            "pixels": 2073600,
+            "ratio": 0,
+            "maxChannelDifference": 0,
+            "passed": true,
+            "files": [
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjOriginal-f45.png",
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjImported-f45.png"
+            ]
+          },
+          {
+            "frame": 67,
+            "badPixels": 0,
+            "pixels": 2073600,
+            "ratio": 0,
+            "maxChannelDifference": 0,
+            "passed": true,
+            "files": [
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjOriginal-f67.png",
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjImported-f67.png"
+            ]
+          },
+          {
+            "frame": 89,
+            "badPixels": 0,
+            "pixels": 2073600,
+            "ratio": 0,
+            "maxChannelDifference": 0,
+            "passed": true,
+            "files": [
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjOriginal-f89.png",
+              "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjImported-f89.png"
+            ]
+          }
+        ],
+        "tolerance": 0,
+        "maxRatio": 0,
+        "browserExecutable": "D:/ai项目/ai动画/VibeVideo项目/node_modules/.remotion/chrome-headless-shell/win64/chrome-headless-shell-win64/chrome-headless-shell.exe",
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "total": 90
+        }
+      },
+      "media": {
+        "aspect": "portrait",
+        "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014/verification/portrait-edited.mp4",
+        "sha256": "87aad2af72cfdc031b8bd7a97cdc126f54b5482e38cdb146fa7b959edf21816a",
+        "video": {
+          "width": 1080,
+          "height": 1920,
+          "frames": "90",
+          "duration": "3.000000",
+          "fps": "30/1"
+        },
+        "audio": {
+          "codec": "aac",
+          "sample_rate": "48000",
+          "meanDb": -41.08813656936383,
+          "peakDb": -37.82335678248099
+        },
+        "containerDuration": "3.050667",
+        "fullDecodePassed": true,
+        "editedProps": {
+          "project": {
+            "name": "Shotcraft portrait verification",
+            "fps": 30,
+            "width": 1080,
+            "height": 1920,
+            "background": "#faf7f2",
+            "source": "Shotcraft portrait verification@90f#e8be65dd",
+            "tracks": [
+              {
+                "id": "track_mv7exq560",
+                "name": "Captions",
+                "clips": [
+                  {
+                    "inOffset": 0,
+                    "speed": 1,
+                    "opacity": 1,
+                    "scale": 1,
+                    "x": 0,
+                    "y": 0,
+                    "props": {
+                      "text": "PORTRAIT · EDIT VERIFIED",
+                      "color": "#bf5328",
+                      "fontSize": 52
+                    },
+                    "id": "clip_mv7exq561",
+                    "cardId": "proj:caption:caption",
+                    "start": 0,
+                    "duration": 90,
+                    "label": "Editable caption"
+                  }
+                ]
+              },
+              {
+                "id": "track_mv7exq562",
+                "name": "Shots",
+                "clips": [
+                  {
+                    "inOffset": 0,
+                    "speed": 1,
+                    "opacity": 1,
+                    "scale": 1,
+                    "x": 0,
+                    "y": 0,
+                    "props": {
+                      "mode": "flat"
+                    },
+                    "id": "clip_mv7exq563",
+                    "cardId": "proj:shot:flat",
+                    "start": 0,
+                    "duration": 45,
+                    "label": "Flat page camera"
+                  },
+                  {
+                    "inOffset": 0,
+                    "speed": 1,
+                    "opacity": 1,
+                    "scale": 1,
+                    "x": 0,
+                    "y": 0,
+                    "props": {
+                      "mode": "tilt"
+                    },
+                    "id": "clip_mv7exq564",
+                    "cardId": "proj:shot:flat",
+                    "start": 45,
+                    "duration": 45,
+                    "label": "Tilt page camera"
+                  }
+                ]
+              },
+              {
+                "id": "track_mv7exq566",
+                "name": "Music",
+                "clips": [
+                  {
+                    "inOffset": 0,
+                    "speed": 1,
+                    "opacity": 1,
+                    "scale": 1,
+                    "x": 0,
+                    "y": 0,
+                    "props": {
+                      "file": "validation-tone.wav",
+                      "volume": 0.12
+                    },
+                    "id": "clip_mv7exq565",
+                    "cardId": "audio-clip",
+                    "start": 0,
+                    "duration": 90,
+                    "label": "Synthetic test tone"
+                  }
+                ]
+              }
+            ]
+          },
+          "renderExact": true
+        },
+        "visualAudit": "First exported frame must be inspected separately; technical internal sample only.",
+        "audioAudit": "Not listened; technical synthetic tone check only."
+      },
+      "exportedFirstFrameObserved": true,
+      "workbenchScreenshot": "verification/workbench-portrait.png"
+    }
+  },
+  "scope": {
+    "browserImportAndParameterEditing": true,
+    "fullDecode": true,
+    "independentAvAudit": false,
+    "actualListening": false,
+    "allGalleryDynamicAudit": false,
+    "jianyingExport": false,
+    "pausedProjectResumption": false
+  },
+  "failureHistory": [
+    "First landscape attempt: Chrome reported memory/disk limit and parity browser setup timeout.",
+    "Bounded renderer attempt: FFmpeg automatic encoder threading failed. Fixed with explicit decoder/filter/encoder thread limits.",
+    "Bundled FFmpeg lacks rawvideo muxer, wrapped_avframe null default and volumedetect. Comparison uses pngjs; media decode uses explicit rawvideo/PCM codecs; test-tone levels calculated from decoded PCM."
+  ],
+  "synchronization": {
+    "version": "0.16.0",
+    "installed": "D:/Codex/skills/vibe-video",
+    "snapshot": "D:\\ai项目\\ai动画\\VibeVideo项目\\skill\\vibe-video",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "1caea19754e55709c9f519b688b5c29b422dafae2cba2190d3abb41777a40906"
+      },
+      {
+        "path": "references/shotcraft-source.json",
+        "sha256": "dfb55bfbe297382cff07b9c56553448ffbafc496e809e75a1c68b3482bbbe4db"
+      },
+      {
+        "path": "references/shotcraft-library.json",
+        "sha256": "0000b2cfda275e708ab9e53cafa10ab7bcd6baea0f0bb18f673e38bbc4a760ec"
+      },
+      {
+        "path": "references/shotcraft-integration.md",
+        "sha256": "66a58ceb432c38d2630aff9e7d7ea10b96f36f9e88890d497f0d053cae279b99"
+      },
+      {
+        "path": "scripts/shotcraft_library.mjs",
+        "sha256": "8312003c78abce590de6e64b0c8df79a5be1d21e0e1358fd0cd9203390feb60f"
+      },
+      {
+        "path": "assets/shotcraft/PageCamAdaptive.tsx",
+        "sha256": "c95f2c0a558df764987d5b5ea584183c8c3b5493253ad460f1cdb62f1c465b7e"
+      },
+      {
+        "path": "assets/shotcraft/LICENSE-shotcraft.txt",
+        "sha256": "02da8ccd8ddb6946940ccc99494c04992a8cf4b9835bcc32f70ae985ef160f59"
+      }
+    ]
+  },
+  "adaptations": "local-adaptations.json",
+  "workbenchUrl": "http://localhost:5198/"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "original/0xrathi-511319",
+  "title": "Tron 游戏自制预告片",
+  "group": "生成艺术 · 霓虹",
+  "tags": "生成艺术 · 霓虹 产品发布与广告 Self-made trailer for a Tron game 只让它做个 Tron 游戏，它顺手出了 45 秒预告片，还带 3 个对手 AI 和原创配乐。 0xRathi",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "0xRathi",
+  "authorUrl": "https://x.com/0xRathi/status/2102986585004511319",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/0xrathi-511319.mp4",
+  "bytes": 11569440,
+  "sha256": "548ec088c2285c73f8a4bf1bf9469b858e5e08d311d6d6c60225e00a22fd1e9b",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102986032291729408/vid/avc1/1280x720/Led5_IfVDD54ozfh.mp4?tag=14",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/0xrathi-511319.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/0xrathi-511319.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 45,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "0xrathi-511319",
+    "title": "Self-made trailer for a Tron game",
+    "title_zh": "Tron 游戏自制预告片",
+    "url": "https://x.com/0xRathi/status/2102986585004511319",
+    "author": "0xRathi",
+    "author_name": "Yuvraj Rathi",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 45-second trailer Opus made on its own while building a Tron-style game, along with three rival bots and original music.",
+    "description_zh": "只让它做个 Tron 游戏，它顺手出了 45 秒预告片，还带 3 个对手 AI 和原创配乐。",
+    "prompt": "make a Tron game.",
+    "prompt_lang": "en",
+    "prompt_zh": "做一个 Tron 游戏。",
+    "kind": "one-shot",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102986032291729408/img/D7p1sJ5gkBD803tp.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102986032291729408/vid/avc1/480x270/19M7IJdtFOObaXH_.mp4?tag=14",
+      "video_hd": "https://video.twimg.com/amplify_video/2102986032291729408/vid/avc1/1280x720/Led5_IfVDD54ozfh.mp4?tag=14",
+      "duration": 45,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "likes": 15,
+      "views": 446
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2102986585004511319",
+    "style": "generative",
+    "title_zh": "Tron光速游戏",
+    "title_en": "Tron game built by AI",
+    "author": "0xRathi",
+    "post_url": "https://x.com/0xRathi/status/2102986585004511319",
+    "prompt": "make a Tron game.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 16
+  },
+  "downloadedAt": "2026-10-14T09:17:06.284Z"
+}

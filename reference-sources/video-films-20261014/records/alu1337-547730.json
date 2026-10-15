@@ -1,0 +1,78 @@
+{
+  "id": "original/alu1337-547730",
+  "title": "Opus 家族史动画",
+  "group": "扁平卡通",
+  "tags": "扁平卡通 让 Opus 讲自己 Opus family history drawn in Remotion 约 3 分钟的 Opus 家族史动画，画面全用 Remotion 代码绘制；原视频出自抖音作者，由发帖人转述。 alu1337",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "alu1337",
+  "authorUrl": "https://x.com/alu1337/status/2103660849055547730",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/alu1337-547730.mp4",
+  "bytes": 20329770,
+  "sha256": "0141301ac79004831376dd749b44e403b6c72ca643de42e6eb7df61f4f850955",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103590033357938688/vid/avc1/1280x720/x-REwUz3WpQHaI_Q.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/alu1337-547730.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/alu1337-547730.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 177.4,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "alu1337-547730",
+    "title": "Opus family history drawn in Remotion",
+    "title_zh": "Opus 家族史动画",
+    "url": "https://x.com/alu1337/status/2103660849055547730",
+    "author": "alu1337",
+    "author_name": "ALU",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A three-minute animated history of the Opus model family, every drawing made in code with Remotion; relayed from a Douyin creator's post.",
+    "description_zh": "约 3 分钟的 Opus 家族史动画，画面全用 Remotion 代码绘制；原视频出自抖音作者，由发帖人转述。",
+    "prompt": "使用 remotion 工具自己绘图做动画，做一个 opus 家族史，有历史有寓意",
+    "prompt_lang": "zh",
+    "prompt_en": "Use the remotion tool to draw everything yourself and animate it. Make a history of the opus family, with real history and a deeper meaning.",
+    "kind": "one-shot",
+    "tools": [
+      "remotion"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Per the original Douyin creator, relayed by the poster: one sentence, a little over ten minutes.",
+    "note_zh": "据发帖人转述原抖音作者：一句话直出，耗时十几分钟。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103590033357938688/img/tWH8BUQekx9vBOXx.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103590033357938688/vid/avc1/480x270/Xj6pcd4BPyY4AuVn.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103590033357938688/vid/avc1/1280x720/x-REwUz3WpQHaI_Q.mp4?tag=29",
+      "duration": 177.4,
+      "width": 1280,
+      "height": 720,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 5,
+      "likes": 3,
+      "views": 921
+    },
+    "category": "self"
+  },
+  "styleClassificationSource": {
+    "id": "2103660849055547730",
+    "style": "cartoon",
+    "title_zh": "Opus家族史动画",
+    "title_en": "Opus family history animation",
+    "author": "alu1337",
+    "post_url": "https://x.com/alu1337/status/2103660849055547730",
+    "prompt": "使用 remotion 工具自己绘图做动画，做一个 opus 家族史，有历史有寓意",
+    "prompt_partial": false,
+    "likes_2026_09_29": 3
+  },
+  "downloadedAt": "2026-10-14T09:26:17.308Z"
+}

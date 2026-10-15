@@ -1,0 +1,77 @@
+{
+  "id": "original/shribuilds-689364",
+  "title": "Wrapscribe 应用宣传片",
+  "group": "产品 UI 宣传片",
+  "tags": "产品 UI 宣传片 产品发布与广告 Promo video for the Wrapscribe app 41 秒 Wrapscribe 宣传片；Opus 读代码库找卖点，用 Remotion 做，配音配乐走 fal.ai。 shribuilds",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "shribuilds",
+  "authorUrl": "https://x.com/shribuilds/status/2102827288190689364",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/shribuilds-689364.mp4",
+  "bytes": 3925856,
+  "sha256": "1499d9f43230cd27682797288ef51e267d75c82b411bbafc550906c64a2d47f3",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102827208108826624/vid/avc1/1280x720/r6l8s0J75cn6OKmj.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/shribuilds-689364.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/shribuilds-689364.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 41,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "shribuilds-689364",
+    "title": "Promo video for the Wrapscribe app",
+    "title_zh": "Wrapscribe 应用宣传片",
+    "url": "https://x.com/shribuilds/status/2102827288190689364",
+    "author": "shribuilds",
+    "author_name": "Shri",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "A 41-second promo for Wrapscribe, a local dictation app; Opus read the codebase for features, used Remotion, and made voice-over and music through a fal.ai API key.",
+    "description_zh": "41 秒 Wrapscribe 宣传片；Opus 读代码库找卖点，用 Remotion 做，配音配乐走 fal.ai。",
+    "prompt": "Make a modern slick and punchy video for wrapscribe, check the wholebase to learn more about the features",
+    "prompt_lang": "en",
+    "prompt_zh": "为 wrapscribe 做一个现代、利落、有冲击力的视频，查看整个代码库来了解它的功能",
+    "kind": "one-shot",
+    "tools": [
+      "remotion"
+    ],
+    "inputs": [
+      "brand"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102827208108826624/img/qkMp0yVyvPjerjZe.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102827208108826624/vid/avc1/480x270/d5Kzbgj0eJmT5bT2.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102827208108826624/vid/avc1/1280x720/r6l8s0J75cn6OKmj.mp4?tag=29",
+      "duration": 41,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 380,
+      "likes": 281,
+      "views": 28526,
+      "reposts": 7
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2102827288190689364",
+    "style": "productui",
+    "title_zh": "Wrapscribe品牌视频",
+    "title_en": "Wrapscribe promo video",
+    "author": "shribuilds",
+    "post_url": "https://x.com/shribuilds/status/2102827288190689364",
+    "prompt": "Make a modern slick and punchy video for wrapscribe, check the wholebase to learn more about the features",
+    "prompt_partial": false,
+    "likes_2026_09_29": 296
+  },
+  "downloadedAt": "2026-10-14T09:18:24.463Z"
+}

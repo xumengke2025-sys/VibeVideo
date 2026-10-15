@@ -1,0 +1,74 @@
+{
+  "checked": "2026-10-14",
+  "preview": 319,
+  "withSource": 109,
+  "old98Preserved": true,
+  "newMediaDecoded": 191,
+  "sourceSnapshots": [
+    {
+      "repo": "crawfordxx/xiaoma-studio",
+      "commit": "326986dc06d8ce59c1526c7347e1b5495478059a",
+      "files": 81
+    },
+    {
+      "repo": "HarleyCoops/KimiK3Manim",
+      "commit": "ed954d17af1058dbc75e4b40fe92f28e17dc1404",
+      "files": 186
+    },
+    {
+      "repo": "alchaincyf/huashu-art-motion",
+      "commit": "64cb27271ee0ad3375298e2890b33cbec36d4051",
+      "files": 440
+    },
+    {
+      "repo": "adunext/adu-motion-video",
+      "commit": "f52490bd1ec37370091982d853990725b340f3f5",
+      "files": 1031
+    }
+  ],
+  "duplicateExcluded": [],
+  "related": [
+    {
+      "id": "adunext--adu-motion-video/assets/demos/03-A-portrait.mp4",
+      "relatedTo": "adunext--adu-motion-video/assets/demos/03-A.mp4",
+      "reason": "同一九场新片45.8–53.8秒的软件窗口段，横竖屏分别布局；按作者assets/demos/README.md保留两版，不视为两个独立风格。"
+    },
+    {
+      "id": "adunext--adu-motion-video/assets/demos/03-A.mp4",
+      "relatedTo": "adunext--adu-motion-video/assets/demos/03-A-portrait.mp4",
+      "reason": "同一软件窗口段的横屏版本；对应竖屏版另布局，二者同属一个03-A风格。"
+    },
+    {
+      "id": "sanjuhs--opus-5.5-film-experiment-with-animation/out/vietnam-war-explained-vertical-web.mp4",
+      "relatedTo": "sanjuhs--opus-5.5-film-experiment-with-animation/out/vietnam-war-explained-web.mp4",
+      "reason": "已有同片竖屏版本，与横屏共用内容；保留既有ID并关联，不计本轮新片。"
+    },
+    {
+      "id": "sanjuhs--opus-5.5-film-experiment-with-animation/out/vietnam-war-explained-web.mp4",
+      "relatedTo": "sanjuhs--opus-5.5-film-experiment-with-animation/out/vietnam-war-explained-vertical-web.mp4",
+      "reason": "已有同片横屏版本，与竖屏共用内容；保留既有ID并关联，不计本轮新片。"
+    }
+  ],
+  "identicalHashPreviewPairs": [],
+  "httpChecked": 1012,
+  "skillSync": [
+    "SKILL.md",
+    "scripts/video_examples.mjs",
+    "references/video-examples.json",
+    "references/video-example-library.md"
+  ],
+  "failures": [],
+  "problems": [],
+  "scope": "机械检查与本轮完整解码。近似三帧查重有局限；浏览器抽样另记；没有全库视听或重渲验收。",
+  "browserVerification": "browser-verification.json",
+  "cli": {
+    "verify": {
+      "items": 319,
+      "sourceCount": 109,
+      "missing": 0
+    },
+    "searchRanking": "纸艺 + source=present首条为小云纸艺绘本",
+    "sourceFilter": "present与missing均检查",
+    "card": "kimi-manim/MeltingSpace"
+  }
+}

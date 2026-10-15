@@ -1,0 +1,83 @@
+{
+  "id": "original/sayan_shanky-868515",
+  "title": "AI 数据中心内部 3D 短片",
+  "group": "科普图解 · 数据可视化",
+  "tags": "科普图解 · 数据可视化 科普与讲解 3D film inside an AI data centre 2.5 分钟 3D 短片，从电网一路深入到 Blackwell 芯片，单个 HTML 文件，不用任何 3D 素材。 Sayan_shanky",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "Sayan_shanky",
+  "authorUrl": "https://x.com/Sayan_shanky/status/2103736579449868515",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/sayan_shanky-868515.mp4",
+  "bytes": 4454972,
+  "sha256": "b9fb2eeaa5ed5f43d1fdf0d418c37b339e63cb1effafb66d2f0c4bdac4c7b5af",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103736171977461760/vid/avc1/702x360/0HT4rT-12HdUvDYx.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/sayan_shanky-868515.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/sayan_shanky-868515.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 97.9,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "sayan_shanky-868515",
+    "title": "3D film inside an AI data centre",
+    "title_zh": "AI 数据中心内部 3D 短片",
+    "url": "https://x.com/Sayan_shanky/status/2103736579449868515",
+    "author": "Sayan_shanky",
+    "author_name": "Sayan Gupta",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 2.5-minute 3D film that goes from the power grid down to Blackwell silicon, built as one HTML file with no 3D assets.",
+    "description_zh": "2.5 分钟 3D 短片，从电网一路深入到 Blackwell 芯片，单个 HTML 文件，不用任何 3D 素材。",
+    "prompt": "show me what goes on inside an AI data centre.",
+    "prompt_lang": "en",
+    "prompt_zh": "给我展示一下 AI 数据中心内部到底在发生什么。",
+    "kind": "one-shot",
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: about 35 minutes and about 7% of usage.",
+    "note_zh": "作者称用时约 35 分钟，消耗约 7% 的额度。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103736171977461760/img/8B_zzyArcz6ZYJdr.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103736171977461760/vid/avc1/526x270/lAkY947p1Lb0inc0.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103736171977461760/vid/avc1/702x360/0HT4rT-12HdUvDYx.mp4?tag=29",
+      "duration": 97.9,
+      "width": 2938,
+      "height": 1504
+    },
+    "metrics": {
+      "bookmarks": 38,
+      "likes": 39,
+      "views": 3827,
+      "reposts": 3
+    },
+    "category": "explainer",
+    "remakes": [
+      {
+        "author": "mdaman010",
+        "url": "https://x.com/mdaman010/status/2103845689713111079",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103845515997974528/img/ye_7p5G44LP9l5YY.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103845515997974528/vid/avc1/526x270/gDXc3TV-pJMicu38.mp4?tag=29"
+      }
+    ]
+  },
+  "styleClassificationSource": {
+    "id": "2103736579449868515",
+    "style": "explainer",
+    "title_zh": "AI数据中心内部探索",
+    "title_en": "Inside an AI Data Centre",
+    "author": "Sayan_shanky",
+    "post_url": "https://x.com/Sayan_shanky/status/2103736579449868515",
+    "prompt": "show me what goes on inside an AI data centre.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 39
+  },
+  "downloadedAt": "2026-10-14T09:21:04.957Z"
+}

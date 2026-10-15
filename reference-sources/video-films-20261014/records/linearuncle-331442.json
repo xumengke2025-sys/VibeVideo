@@ -1,0 +1,77 @@
+{
+  "id": "original/linearuncle-331442",
+  "title": "5 分钟纽约旅游宣传片",
+  "group": "写实 · 真人 · 实拍感",
+  "tags": "写实 · 真人 · 实拍感 产品发布与广告 5-minute New York travel promo 约 5 分钟的中文纽约旅游宣传片，面向新加坡游客，免费素材和配乐由 Opus 自己找，edge-tts 配音。 LinearUncle",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "LinearUncle",
+  "authorUrl": "https://x.com/LinearUncle/status/2103705625075331442",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/linearuncle-331442.mp4",
+  "bytes": 52446471,
+  "sha256": "e0a8a7596f7b9f593c4d6b054e4aef23e1531d2ade6dca437b56c819e3d882ce",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103704659915583488/vid/avc1/1280x720/4RELsXkPns3ZNbWg.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/linearuncle-331442.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/linearuncle-331442.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 314.5,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "linearuncle-331442",
+    "title": "5-minute New York travel promo",
+    "title_zh": "5 分钟纽约旅游宣传片",
+    "url": "https://x.com/LinearUncle/status/2103705625075331442",
+    "author": "LinearUncle",
+    "author_name": "LinearUncle",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A roughly 5-minute Chinese-language New York travel promo aimed at Singaporeans, with free stock footage and music Opus found itself and an edge-tts voiceover.",
+    "description_zh": "约 5 分钟的中文纽约旅游宣传片，面向新加坡游客，免费素材和配乐由 Opus 自己找，edge-tts 配音。",
+    "prompt": "给我制作一个介绍纽约的视频，视频素材和背景音全部找商用免费的平台,  配音请使用edge-tts，选择男音，字幕和声音都是中文，时长５分钟左右，这个视频将用来吸引新加坡人去纽约旅游",
+    "prompt_lang": "zh",
+    "prompt_en": "Make me a video introducing New York. Find all the footage and background audio on platforms that are free for commercial use. For the voiceover use edge-tts with a male voice. Subtitles and voice are both in Chinese, about 5 minutes long. This video will be used to attract Singaporeans to travel to New York",
+    "kind": "brief",
+    "tools": [
+      "tts"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103704659915583488/img/Ih2j5PSOpVEsQKJ9.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103704659915583488/vid/avc1/480x270/aPiqwi4FeqGRizzQ.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103704659915583488/vid/avc1/1280x720/4RELsXkPns3ZNbWg.mp4?tag=29",
+      "duration": 314.5,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 43,
+      "likes": 31,
+      "views": 4669,
+      "reposts": 5
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103705625075331442",
+    "style": "photoreal",
+    "title_zh": "纽约旅游宣传片",
+    "title_en": "New York tourism promo",
+    "author": "LinearUncle",
+    "post_url": "https://x.com/LinearUncle/status/2103705625075331442",
+    "prompt": "给我制作一个介绍纽约的视频，视频素材和背景音全部找商用免费的平台,",
+    "prompt_partial": false,
+    "likes_2026_09_29": 32
+  },
+  "downloadedAt": "2026-10-14T09:23:34.076Z"
+}

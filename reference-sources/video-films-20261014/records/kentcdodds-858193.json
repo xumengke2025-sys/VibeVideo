@@ -1,0 +1,79 @@
+{
+  "id": "original/kentcdodds-858193",
+  "title": "Kody 的 30 秒动效宣传片",
+  "group": "产品 UI 宣传片",
+  "tags": "产品 UI 宣传片 产品发布与广告 30-second showreel-style promo for Kody 改自热门“作品集”提示词的 Kody 30 秒宣传片；Opus 先调研，用 Remotion 做，还出了竖屏版。 kentcdodds",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "kentcdodds",
+  "authorUrl": "https://x.com/kentcdodds/status/2103638102333858193",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/kentcdodds-858193.mp4",
+  "bytes": 3141752,
+  "sha256": "e9ce5aeecc7b9c5f817ce1dd7065f87afefd993d65aed64301181a76871238da",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103637004932313088/vid/avc1/1280x720/i8HNxHj8xVDMtlrq.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/kentcdodds-858193.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/kentcdodds-858193.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 30,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "kentcdodds-858193",
+    "title": "30-second showreel-style promo for Kody",
+    "title_zh": "Kody 的 30 秒动效宣传片",
+    "url": "https://x.com/kentcdodds/status/2103638102333858193",
+    "author": "kentcdodds",
+    "author_name": "Kent C. Dodds 🐨",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 30-second motion graphics promo for the Kody project, adapted from the widely shared showreel prompt; Opus researched the topic, used Remotion, and also made a vertical version.",
+    "description_zh": "改自热门“作品集”提示词的 Kody 30 秒宣传片；Opus 先调研，用 Remotion 做，还出了竖屏版。",
+    "prompt": "make a dynamic 30-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out. Topic: Kody. Goal: make it click for people.\n\nStart with research. You make all decisions. Feel free to make multiple videos. Output to my Dropbox and message me on discord with links.",
+    "prompt_lang": "en",
+    "prompt_zh": "制作一段 30 秒的动态图形视频，展示你是多么出色的动效设计师，就像简历里的作品集一样。拿出全部本事。主题：Kody。目标：让人一下子看懂它。\n\n先做调研。所有决定由你来做。可以做多个视频。输出到我的 Dropbox，并在 discord 上把链接发给我。",
+    "prompt_url": "https://x.com/kentcdodds/status/2103638494388076905",
+    "kind": "brief",
+    "tools": [
+      "remotion"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: about an hour and a half.",
+    "note_zh": "作者称约一个半小时。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/media/HTGewiSbkAAYD0o.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103637004932313088/vid/avc1/480x270/LtauhsfrO3zvWLQZ.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103637004932313088/vid/avc1/1280x720/i8HNxHj8xVDMtlrq.mp4?tag=29",
+      "duration": 30,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 328,
+      "likes": 286,
+      "views": 31774,
+      "reposts": 10
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103638102333858193",
+    "style": "productui",
+    "title_zh": "Kody品牌动态宣传片",
+    "title_en": "Kody Brand Motion Showreel",
+    "author": "kentcdodds",
+    "post_url": "https://x.com/kentcdodds/status/2103638102333858193",
+    "prompt": "make a dynamic 30-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out. Topic: Kody. Goal: make it click for people. \n\nStart with research. You make all decisions. Feel free to make multiple videos. Output to my Dropbox and message me on discord with links.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 295
+  },
+  "downloadedAt": "2026-10-14T09:18:25.239Z"
+}

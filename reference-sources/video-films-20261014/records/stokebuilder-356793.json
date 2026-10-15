@@ -1,0 +1,67 @@
+{
+  "id": "original/stokebuilder-356793",
+  "title": "给播客成片插满讲解动画",
+  "group": "改编与复刻",
+  "tags": "改编与复刻 改编与复刻 Podcast cut filled with explainer animations 多 Agent 流程：在播客成片中找 35–50 处，插入统一品牌的全屏 HyperFrames 动画，保留画中画。 stokebuilder",
+  "kind": "作者改编参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "stokebuilder",
+  "authorUrl": "https://x.com/stokebuilder/status/2103896101120356793",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/stokebuilder-356793.mp4",
+  "bytes": 3187688,
+  "sha256": "6fc1f01aa1f3296765619bc25eb4eacac5c0753073e32233dfc75f24fe3e862a",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103894869651689472/vid/avc1/1280x720/HIOsejzrJLWM5P2c.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/stokebuilder-356793.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/stokebuilder-356793.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供；作者自行改编作品",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 15.8,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "stokebuilder-356793",
+    "title": "Podcast cut filled with explainer animations",
+    "title_zh": "给播客成片插满讲解动画",
+    "url": "https://x.com/stokebuilder/status/2103896101120356793",
+    "author": "stokebuilder",
+    "author_name": "victor",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A multi-agent workflow that finds 35–50 moments in a podcast cut and adds on-brand full-screen HyperFrames animations with the speaker in picture-in-picture.",
+    "description_zh": "多 Agent 流程：在播客成片中找 35–50 处，插入统一品牌的全屏 HyperFrames 动画，保留画中画。",
+    "prompt": "Go through the entire [episode] cut and add full-screen animations and graphics wherever they help. Be aggressive and over-inclusive: 35–50 moments, at least 2 per chapter. The goal is to fill empty talking-head time, explain ideas, and create visual hooks.\n\nStyle. Pick an aesthetic that's genuinely interesting and very, very cool, built in JavaScript with HyperFrames and assembled in Tesseract. Inspiration (all JS, no image assets):\n\nhttps://x.com/Voxyz_ai/status/2102531681450119426: paper, typewriter-tape labels, hand-drawn marks\nhttps://x.com/donaldjewkes/status/2102801274173587569: halftone, manga and pixel print, kinetic data type\n\nStay inside the LegalQuants brand (read brands/legalquants/): charcoal, white and black only, Arial, and the supplied lockup top-right, static. Write a shared style bible and a component kit first, so every animation looks like the same show.\n\nMoments I definitely want:\n\n[LIST]\n\nRules\n\nWhenever anything goes full-screen (animation, screen share or still), one of us is in a corner picture-in-picture, bottom-right, following whoever is talking.\nNo punch-ins or zooming on the cameras. Keep each speaker relatively centered.\nCopy must be verbatim or faithful to what's said. Never invent facts, numbers or quotes.\nSync each animation's beats to the spoken words.\nKeep each graphic inside one uncut stretch of audio, and leave a few seconds of faces between graphics.\n\nProcess\n\nAn Opus 5.5 agent at extra-high effort finds every timestamp where an animation could fill space and hook the viewer, with a concept for each.\nOpus 5.5 at medium effort builds each animation.\nOpus 5.5 at extra-high effort judges each one once on brand consistency with the others, visual interest, relevance to the narrative and creative judgment.\nOnly cues the judge considers egregiously bad go back for a fix. No blanket redo loops.\nAssemble the full cut with PiP baked into every full-screen visual, and give me a folder of the individual animations.",
+    "prompt_lang": "en",
+    "prompt_zh": "把整期 [episode] 成片从头过一遍，凡是有帮助的地方都加上全屏动画和图形。要激进、宁多勿少：35–50 个时间点，每章至少 2 个。目标是填满空洞的口播时段、讲清观点、制造视觉钩子。\n\n风格。选一种真正有意思、非常非常酷的美学，用 JavaScript 和 HyperFrames 制作，在 Tesseract 里组装。灵感参考（全是 JS，没有图片素材）：\n\nhttps://x.com/Voxyz_ai/status/2102531681450119426：纸张、打字机标签带、手绘记号\nhttps://x.com/donaldjewkes/status/2102801274173587569：半调网点、漫画和像素印刷、动态数据字体\n\n严格遵守 LegalQuants 品牌（读 brands/legalquants/）：只用炭灰、白色和黑色，字体 Arial，右上角放提供的组合标志，保持静止。先写一份共享的风格手册和一套组件库，让每个动画看起来都属于同一档节目。\n\n我一定要的时间点：\n\n[LIST]\n\n规则\n\n只要有内容全屏（动画、屏幕共享或静态图），我们中的一个人就以画中画出现在右下角，跟随正在说话的人。\n不要对摄像机画面做推近或缩放。让每位说话人保持大致居中。\n文案必须逐字引用或忠实于所说内容。绝不编造事实、数字或引语。\n每个动画的节奏点都要与说出的话同步。\n每个图形都要放在一段未剪断的连续音频之内，图形之间留几秒人脸画面。\n\n流程\n\n一个 extra-high effort 的 Opus 5.5 agent 找出每个可以用动画填补空白、抓住观众的时间戳，并为每个给出创意构思。\nmedium effort 的 Opus 5.5 制作每个动画。\nextra-high effort 的 Opus 5.5 对每个动画评审一次，标准是与其他动画的品牌一致性、视觉趣味、与叙事的相关性以及创意判断。\n只有评审认为特别糟糕的片段才返工修改。不要全面重做的循环。\n组装完整成片，每个全屏画面都内嵌画中画，并给我一个包含各个单独动画的文件夹。",
+    "prompt_url": "https://x.com/stokebuilder/status/2103896102894506424",
+    "kind": "pipeline",
+    "tools": [
+      "hyperframes"
+    ],
+    "inputs": [
+      "footage",
+      "brand"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103894869651689472/img/NX4NhFTUzwEBidTz.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103894869651689472/vid/avc1/480x270/Vm_DVmp9a_u688Ss.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103894869651689472/vid/avc1/1280x720/HIOsejzrJLWM5P2c.mp4?tag=29",
+      "duration": 15.8,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 19,
+      "likes": 12,
+      "views": 1654
+    },
+    "category": "remix"
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:27:32.196Z"
+}

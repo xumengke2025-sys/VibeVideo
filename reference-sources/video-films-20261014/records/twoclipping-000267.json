@@ -1,0 +1,82 @@
+{
+  "id": "original/twoclipping-000267",
+  "title": "极简风产品发布视频模板",
+  "group": "写实 · 真人 · 实拍感",
+  "tags": "写实 · 真人 · 实拍感 产品发布与广告 Minimal product launch video template 20 秒产品发布视频模板，卡 120 BPM 节拍，用你自己的竖屏素材，配遮罩文字和 3D 视频轮播。 twoclipping",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "twoclipping",
+  "authorUrl": "https://x.com/twoclipping/status/2102554209166000267",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/twoclipping-000267.mp4",
+  "bytes": 2584125,
+  "sha256": "940bd7e478bfb98a1cead7d1cc3b84d65a3a57dabc66f454223996a3f674e7f1",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102553635750125568/vid/avc1/1280x720/eU3QFmnI9sjC-5hK.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/twoclipping-000267.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/twoclipping-000267.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 20,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "twoclipping-000267",
+    "title": "Minimal product launch video template",
+    "title_zh": "极简风产品发布视频模板",
+    "url": "https://x.com/twoclipping/status/2102554209166000267",
+    "author": "twoclipping",
+    "author_name": "zero",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "A 20-second 1080p product launch template cut to a 120 BPM beat grid, using your own vertical clips, masked type, a 3D video carousel and peak-aligned sound effects.",
+    "description_zh": "20 秒产品发布视频模板，卡 120 BPM 节拍，用你自己的竖屏素材，配遮罩文字和 3D 视频轮播。",
+    "prompt": "<inputs>\nAsk me for: the product name and a one-line promise, 3 to 5 UI moments to show, one accent color, 10 to 20 real vertical clips I own, and a royalty-free song with a clear drop (e.g. Mixkit, free for commercial use).\n</inputs>\n\n<direction>\nHigh-end minimal. One idea per shot, lots of empty space, one accent color, one clean sans (Geist or Inter) with tight tracking. Masked type reveals, match cuts, one smooth camera language. Real footage only, never placeholder cards. No full stops in on-screen text.\nBanned: shockwave rings, particle bursts, RGB split, camera shake, lens flares, neon glows, grid floors, flashing backgrounds, bouncy easing.\n</direction>\n\n<structure>\n10 bars at 120 BPM, 2 seconds each.\nBar 1: the hook lands word by word on the beats.\nBar 2: one hook word morphs into the product UI. A cursor types and clicks.\nThe drop: a circle opens out of the button into a dark scene.\nThen one move per bar: a wall of real clips with a scan line and 3 winners, the key output as big type, a 3D carousel of real videos with floor reflections and a motion-blurred whip onto one hero clip, the hero in a phone next to a panel that flips into results, big stats on push cuts, a 3-word ticker, a logo reveal, a fade to black.\n</structure>\n\n<build>\n1. One HTML file at 1920x1080. Every style is computed from time inside http://window.seek(t): no CSS animations, no timers, no state between frames.\n2. Real video: extract clips to 30fps JPEG sequences with ffmpeg and swap img sources per frame. seek awaits the image decodes.\n3. Analyze the song with numpy: tempo, beat grid, energy per bar, the drop. Calibrate the grid to the real kick hits. Every cut sits on a downbeat, every UI hit on a beat.\n4. Render with Playwright: 3 subframes per frame at t minus, at, and plus 1/240s, then blend with ffmpeg tmix for real motion blur at 60fps.\n5. Place each sound effect so its measured peak, not its file start, lands on the event. Keep the effects quiet under the music. Loudnorm to -14 LUFS.\n6. Probe 20 or more frames before the full render. Fix anything cluttered, overlapping or hard to read.\n</build>\n\n<gotchas>\nNever set opacity or filter on a preserve-3d element, because it flattens and both faces show. Fade its wrapper instead. Measure element positions at runtime for match cuts. Only use music and sound effects whose license allows commercial use.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me a storyboard with every timing on the beat grid before you write any code.\n</start>",
+    "prompt_lang": "en",
+    "prompt_zh": "<inputs>\n先问我要：产品名称和一句话承诺、要展示的 3 到 5 个 UI 瞬间、一种强调色、10 到 20 段我自己拥有的真实竖屏素材，以及一首有明显 drop 的免版税歌曲（例如 Mixkit，可免费商用）。\n</inputs>\n\n<direction>\n高端极简。每个镜头只讲一个想法，大量留白，一种强调色，一种干净的无衬线字体（Geist 或 Inter），字距收紧。遮罩式文字出现、匹配剪辑、统一流畅的镜头语言。只用真实素材，绝不用占位卡片。屏幕文字里不用句号。\n禁止：冲击波圆环、粒子爆发、RGB 分离、镜头抖动、镜头光晕、霓虹辉光、网格地面、闪烁背景、弹跳缓动。\n</direction>\n\n<structure>\n120 BPM 下 10 小节，每小节 2 秒。\n第 1 小节：钩子文案踩着节拍逐词出现。\n第 2 小节：钩子里的一个词变形成产品 UI。光标打字并点击。\ndrop：一个圆从按钮里展开，进入一个深色场景。\n之后每小节一个动作：一面真实素材墙，扫描线扫过并选出 3 个胜出者；关键产出用大字呈现；一个带地面倒影的真实视频 3D 轮播，带动态模糊地甩到一个主视频上；主视频放在手机里，旁边一个面板翻转出结果；推镜切换展示大号数据；一个 3 个词的滚动字幕条；logo 揭示；渐隐到黑。\n</structure>\n\n<build>\n1. 一个 1920x1080 的 HTML 文件。所有样式都在 http://window.seek(t) 里由时间算出：不用 CSS 动画，不用定时器，帧与帧之间不保留状态。\n2. 真实视频：用 ffmpeg 把素材抽成 30fps 的 JPEG 序列，每帧切换 img 的 src。seek 要等待图片解码完成。\n3. 用 numpy 分析歌曲：速度、节拍网格、每小节能量、drop 的位置。把网格校准到真实的底鼓位置。每个剪辑点都落在强拍上，每个 UI 动作都落在拍子上。\n4. 用 Playwright 渲染：每帧在 t 减 1/240 秒、t、t 加 1/240 秒取 3 个子帧，再用 ffmpeg tmix 混合，得到 60fps 的真实动态模糊。\n5. 放置每个音效时，让它实测的峰值（而不是文件开头）落在事件上。音效压在音乐下面，保持小声。响度标准化到 -14 LUFS。\n6. 完整渲染前先抽查 20 帧或更多。把杂乱、重叠或难以看清的地方都修好。\n</build>\n\n<gotchas>\n永远不要在 preserve-3d 元素上设置 opacity 或 filter，因为它会被压平，正反两面都会显示出来。改为淡出它的外层容器。做匹配剪辑时，在运行时测量元素位置。只使用许可允许商用的音乐和音效。\n</gotchas>\n\n<start>\n先问我要输入，然后在写任何代码之前，给我看一份所有时间点都排在节拍网格上的分镜。\n</start>",
+    "kind": "template",
+    "tools": [
+      "playwright",
+      "ffmpeg",
+      "python"
+    ],
+    "inputs": [
+      "brand",
+      "footage",
+      "music"
+    ],
+    "note": "Author: cost 0.",
+    "note_zh": "作者称花费为 0。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102553635750125568/img/FhzzVrDbiRbpVBMN.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102553635750125568/vid/avc1/480x270/7ll7Qi_YGBF517hI.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102553635750125568/vid/avc1/1280x720/eU3QFmnI9sjC-5hK.mp4?tag=29",
+      "duration": 20,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 1422,
+      "likes": 602,
+      "views": 50065,
+      "reposts": 20
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2102554209166000267",
+    "style": "photoreal",
+    "title_zh": "极简风格产品发布片",
+    "title_en": "Minimal Product Launch Film",
+    "author": "twoclipping",
+    "post_url": "https://x.com/twoclipping/status/2102554209166000267",
+    "prompt": "<inputs>\nAsk me for: the product name and a one-line promise, 3 to 5 UI moments to show, one accent color, 10 to 20 real vertical clips I own, and a royalty-free song with a clear drop (e.g. Mixkit, free for commercial use).\n</inputs>\n\n<direction>\nHigh-end minimal. One idea per shot, lots of empty space, one accent color, one clean sans (Geist or Inter) with tight tracking. Masked type reveals, match cuts, one smooth camera language. Real footage only, never placeholder cards. No full stops in on-screen text.\nBanned: shockwave rings, particle bursts, RGB split, camera shake, lens flares, neon glows, grid floors, flashing backgrounds, bouncy easing.\n</direction>\n\n<structure>\n10 bars at 120 BPM, 2 seconds each.\nBar 1: the hook lands word by word on the beats.\nBar 2: one hook word morphs into the product UI. A cursor types and clicks.\nThe drop: a circle opens out of the button into a dark scene.\nThen one move per bar: a wall of real clips with a scan line and 3 winners, the key output as big type, a 3D carousel of real videos with floor reflections and a motion-blurred whip onto one hero clip, the hero in a phone next to a panel that flips into results, big stats on push cuts, a 3-word ticker, a logo reveal, a fade to black.\n</structure>\n\n<build>\n1. One HTML file at 1920x1080. Every style is computed from time inside \nhttp://\nwindow.seek(t): no CSS animations, no timers, no state between frames.\n2. Real video: extract clips to 30fps JPEG sequences with ffmpeg and swap img sources per frame. seek awaits the image decodes.\n3. Analyze the song with numpy: tempo, beat grid, energy per bar, the drop. Calibrate the grid to the real kick hits. Every cut sits on a downbeat, every UI hit on a beat.\n4. Render with Playwright: 3 subframes per frame at t minus, at, and plus 1/240s, then blend with ffmpeg tmix for real motion blur at 60fps.\n5. Place each sound effect so its measured peak, not its file start, lands on the event. Keep the effects quiet under the music. Loudnorm to -14 LUFS.\n6. Probe 20 or more frames before the full render. Fix anything cluttered, overlapping or hard to read.\n</build>\n\n<gotchas>\nNever set opacity or filter on a preserve-3d element, because it flattens and both faces show. Fade its wrapper instead. Measure element positions at runtime for match cuts. Only use music and sound effects whose license allows commercial use.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me a storyboard with every timing on the beat grid before you write any code.\n</start>",
+    "prompt_partial": false,
+    "likes_2026_09_29": 606
+  },
+  "downloadedAt": "2026-10-14T09:21:20.956Z"
+}

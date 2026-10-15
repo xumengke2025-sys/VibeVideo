@@ -1,0 +1,576 @@
+{
+  "repo": "crawfordxx/xiaoma-studio",
+  "repository": "https://github.com/crawfordxx/xiaoma-studio",
+  "commit": "326986dc06d8ce59c1526c7347e1b5495478059a",
+  "scope": "固定commit完整仓库文件快照；LFS指针按Git原样保存，实际视频另行取证",
+  "executed": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 113,
+      "sha256": "80b85118ed699a8abdf7359b401cfa13b067c947d7434080055c4da5be9f44d4",
+      "gitBlob": "c0d2908872b03f0f6022d53ad2a03bb068c6cb50",
+      "lfsPointer": false
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1083,
+      "sha256": "9d611ce6a893ddbb3178af3a8a0726e20b0c14f87fd652ecde2ad7d3e6dbf24c",
+      "gitBlob": "7fcf0a4f74d8772c8fac849625a51114e23e8f05",
+      "lfsPointer": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 6762,
+      "sha256": "e21ad36c09e63d9b312f91cf8628c8297abf8d576bba7f3da6f6d0b96456348e",
+      "gitBlob": "795f5669189d61c61708e9239bf61d536021670c",
+      "lfsPointer": false
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9046,
+      "sha256": "5dbb39fb0e0cca0adcd59791c571aa76c2cffd682652e612974348c0a963d76c",
+      "gitBlob": "7f2c190f810460a08e759eef23249f0653a813b2",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/gallery/blueprint-switch.gif",
+      "bytes": 330759,
+      "sha256": "da3dc9d8addba87a6ee72f157c2396849bf0cb184ce4ec3b9ccc5afde592c3db",
+      "gitBlob": "b15fbbd743094804adf0e275898d2d1c09408988",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/gallery/editorial-weeks.gif",
+      "bytes": 532627,
+      "sha256": "f3889ba098f9930f18aa9c2b4e4e3d09280bbaa40e2b0de301e15f8013d27633",
+      "gitBlob": "b4760eeff7b0f858c04c1d47152edb3f38cc045a",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/gallery/launch-morph.gif",
+      "bytes": 305257,
+      "sha256": "4774498ae54f03d606460881bfaf639c9d5f8ff6b8ca47ee40a179cb6b448bb4",
+      "gitBlob": "94486fc965927ab400b01b7f2812b116a4744ba1",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/gallery/museum-compound.gif",
+      "bytes": 189798,
+      "sha256": "ebbbab36317cfe9722b26bb788f9c45f105917e5c8526a813b92ff47c0a0d20d",
+      "gitBlob": "86832639cc0c20a48b78eb4166c1f87255e4cc87",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/gallery/neon-lyric.gif",
+      "bytes": 1626101,
+      "sha256": "a70b489fb0e72010b9f5666e7fd3faa4f288cbb62b7e204c835b44bcf18813db",
+      "gitBlob": "c8834147d4c43b7a8af3b7990ce143af98f05ce6",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/gallery/paper-cloud.gif",
+      "bytes": 1532270,
+      "sha256": "27b8d4e37d31b62e081c4baabe70d6e79e07401e2b3c918db51afaca95c83193",
+      "gitBlob": "ef3a6da16bca482236806faf1baef49a950aac05",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/gallery/research-deck.gif",
+      "bytes": 460584,
+      "sha256": "052dcc14c2759bd4c830347845aad722be40e220661847472924e1f23593b828",
+      "gitBlob": "4bc5d678f5ffb0355360075c6e255fa3acc6158f",
+      "lfsPointer": false
+    },
+    {
+      "path": "docs/gallery/swiss-reel.gif",
+      "bytes": 1128899,
+      "sha256": "18e40278af43cf4ebd1b42f49eb2310efd789ac00ef6ee76f11dc582a0249887",
+      "gitBlob": "5a930ed8c3f71ad161512ad67a1086440901650c",
+      "lfsPointer": false
+    },
+    {
+      "path": "engine/audio.py",
+      "bytes": 9724,
+      "sha256": "07146840a7e298e1f083acfef9621aa653c84e8e8f453857dae1a0e1ceba558f",
+      "gitBlob": "1c1f0da245c1aa94ada6e7b43de5fe44ddf5b927",
+      "lfsPointer": false
+    },
+    {
+      "path": "engine/base.css",
+      "bytes": 3846,
+      "sha256": "8a8821a78078b6a78a1f9779f75670401fdf7c3607ef9e85dac41f7fb2f4beca",
+      "gitBlob": "f742e8e2a7ece9b03bdd7811adcf8c003ce61f78",
+      "lfsPointer": false
+    },
+    {
+      "path": "engine/deck.js",
+      "bytes": 7465,
+      "sha256": "0811e50d470fe496f8c6a89bb21115726c5880cc2e14170e8dfe94b9d0f165ce",
+      "gitBlob": "1a661eeccd5c3c9fd49ee9507d668d384b3109e6",
+      "lfsPointer": false
+    },
+    {
+      "path": "engine/init.mjs",
+      "bytes": 1443,
+      "sha256": "3a5f1e167445d1a211eab294c29e4026dbbe459f6be77ec42f1b12311e5d991e",
+      "gitBlob": "e6e1fcd7e63390d3749f4585406bdfcf6f9945e7",
+      "lfsPointer": false
+    },
+    {
+      "path": "engine/lint.mjs",
+      "bytes": 9616,
+      "sha256": "356539f10fa6c98a10ed8f1083aa2a5d0bff6bc533d2024057f954ac8455de7e",
+      "gitBlob": "41761ee7f639ad688d20741ee41fc921f924d24c",
+      "lfsPointer": false
+    },
+    {
+      "path": "engine/package-lock.json",
+      "bytes": 697,
+      "sha256": "f5c3d2ef32d41dc87d98d7a4757a0ec4075bffd912c57f718a120fd0cc399682",
+      "gitBlob": "55906aedd0b361594acd92b9231328f370e49a33",
+      "lfsPointer": false
+    },
+    {
+      "path": "engine/package.json",
+      "bytes": 243,
+      "sha256": "4e8955da58602177309e911168a048ccbd28da834e58f9299b146721aad5cb9e",
+      "gitBlob": "0ba2681be1ea97ac0830da8b8afcc0a8ffa38396",
+      "lfsPointer": false
+    },
+    {
+      "path": "engine/qa.py",
+      "bytes": 3328,
+      "sha256": "bd93bef3097bc737c46065f338d270f383c05bc6c4ebeb002889a74b2c0583fd",
+      "gitBlob": "e2397649cc75017cf8effa69a8e1ae8090bb0b3e",
+      "lfsPointer": false
+    },
+    {
+      "path": "engine/render.mjs",
+      "bytes": 9880,
+      "sha256": "2bd8e4e93f1bb8643bdad26252297c5c836170ea8900138978a37a41230926ea",
+      "gitBlob": "4b88018cd964e9a67f3cf3a44e5290ae67e8ea51",
+      "lfsPointer": false
+    },
+    {
+      "path": "engine/runtime.js",
+      "bytes": 13130,
+      "sha256": "be0378b8e02a7e6fda5b94e25db4db5696e6a92cb1e1d7eb3deedd1900fdd4aa",
+      "gitBlob": "01f94e7f2ae67f4fd34dc59e87df52272b78abfe",
+      "lfsPointer": false
+    },
+    {
+      "path": "engine/themes.css",
+      "bytes": 5082,
+      "sha256": "787d4370c3bd09aca2dcc7c42ad2654b5945c69092951ceacd26c79bd8597cd6",
+      "gitBlob": "f5a8ceac8f0d787183207162d2984ffe11c715e1",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/blueprint-switch/cues.json",
+      "bytes": 601,
+      "sha256": "32464fce5bb62eac4088c3a254a70112066206bc9cf8f1ef7f95841116855b75",
+      "gitBlob": "4bdf3408a34a9cb3fe09f1cf8f0b71d4d4ddd1ae",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/blueprint-switch/index.html",
+      "bytes": 10045,
+      "sha256": "bd51de489d4170945937a81d4de2a9381d112cf99be4f897e37da9aae3d21987",
+      "gitBlob": "65f55f3618474e02332bb8adf01e7f7f0ffe3fd3",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/blueprint-switch/out/sheet.jpg",
+      "bytes": 200844,
+      "sha256": "e50ecd3e9363d8c25e94963fba93d27449dbdbb8dadef33c633f0c34ead4c0cb",
+      "gitBlob": "7c710859280a9b99cf6a3d23cd2a959ebad790cc",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/blueprint-switch/out/switch.mp4",
+      "bytes": 1755229,
+      "sha256": "54061048457c2f18aeb14426a8f03216e30e2baeedf96b1614500aa7b14431d7",
+      "gitBlob": "13c97c92a76219d9fdd9491f7493e484233e92e1",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/TEST_REPORT.md",
+      "bytes": 4191,
+      "sha256": "e158e54761eddcc0637b503c93f6a237f031640da88e19cf51cb2fa2276e090c",
+      "gitBlob": "91c207cb010347592ca8c6ee597b20a779183318",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/slides/STORYBOARD.md",
+      "bytes": 2281,
+      "sha256": "778699c4fe984253563f2e16456c4de0d19baac953fb692cbbfc77ed391b3f81",
+      "gitBlob": "2f6eb7857827a972595b445848c1bfac946a4c89",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/slides/engine/base.css",
+      "bytes": 3846,
+      "sha256": "7f44fecc5dd27b33d0faa96df15b1020fe3e2487b7d96eba1a3daa6013010e2e",
+      "gitBlob": "81b9c4c79e702bc0648a93dcd9644a4f39f1c3c5",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/slides/engine/deck.js",
+      "bytes": 7465,
+      "sha256": "caa422c813be599db6a55f8ccfafae44cef505a2a28a4eb41630d9e364656fe1",
+      "gitBlob": "e700113247a1dd8342f897b52b535b7358a5b72e",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/slides/engine/runtime.js",
+      "bytes": 13130,
+      "sha256": "6ed0ca2a6e418039953651c7c38b024f45bc62218ca01a5a0a0ec801fe7d208a",
+      "gitBlob": "c2950757c726c170f20756c6d4daf7c8114da47d",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/slides/engine/themes.css",
+      "bytes": 5082,
+      "sha256": "4292f7d6fcfea7a495618deb92b51068d3e465c0bbbc3978ec2f5b171c32cd85",
+      "gitBlob": "62a523eee39d3970714e7ea096387f570c0b1b33",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/slides/index.html",
+      "bytes": 12255,
+      "sha256": "989563f5038be7915c46d80256d5b21689b5acd4f5eb66edaae220b59f3a1265",
+      "gitBlob": "036161338d4ebe849c498e1ff17f74f24e35d11f",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/video/STORYBOARD.md",
+      "bytes": 7941,
+      "sha256": "7d663e30a13d4cb4b55431d8de1c2c3c9b8a633f9e13aa65e53d7a20edaa77ec",
+      "gitBlob": "b86a13e1bb11c7acb7f90107bcf59e0e747c7759",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/video/cues.json",
+      "bytes": 1594,
+      "sha256": "805707aa6fb0755c5aa39b2d67fc66bc1c11a5e086e4eee030694262c0910575",
+      "gitBlob": "050ad93055b31188b7746032d19f39863c11cb9f",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/video/engine/base.css",
+      "bytes": 3846,
+      "sha256": "7f44fecc5dd27b33d0faa96df15b1020fe3e2487b7d96eba1a3daa6013010e2e",
+      "gitBlob": "81b9c4c79e702bc0648a93dcd9644a4f39f1c3c5",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/video/engine/deck.js",
+      "bytes": 7465,
+      "sha256": "caa422c813be599db6a55f8ccfafae44cef505a2a28a4eb41630d9e364656fe1",
+      "gitBlob": "e700113247a1dd8342f897b52b535b7358a5b72e",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/video/engine/runtime.js",
+      "bytes": 13130,
+      "sha256": "6ed0ca2a6e418039953651c7c38b024f45bc62218ca01a5a0a0ec801fe7d208a",
+      "gitBlob": "c2950757c726c170f20756c6d4daf7c8114da47d",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/video/engine/themes.css",
+      "bytes": 5082,
+      "sha256": "4292f7d6fcfea7a495618deb92b51068d3e465c0bbbc3978ec2f5b171c32cd85",
+      "gitBlob": "62a523eee39d3970714e7ea096387f570c0b1b33",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/cross-model-glm-5.3/video/index.html",
+      "bytes": 34251,
+      "sha256": "0e89c0793a8fcf073ab4d70b4c824e9107dd0f2dca87faa1bf5c59b6cc0e923b",
+      "gitBlob": "d22ec9e19d2b4113d081c1c8c826a9614fbda29b",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/editorial-weeks/cues.json",
+      "bytes": 660,
+      "sha256": "29c2abe59d44710624d01606b08efeb8ce799fdfdf66267df6bcf3f8f772667e",
+      "gitBlob": "4a47b37b675f171031333dd1d865bcf0007c873a",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/editorial-weeks/index.html",
+      "bytes": 8296,
+      "sha256": "a73646a2fc2b9f894f956514587bb25fb14a2214eb3cbf681a2ce5851efbe737",
+      "gitBlob": "4003153f2b44ade4edc9b33147bd0e545f71382e",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/editorial-weeks/out/sheet.jpg",
+      "bytes": 599867,
+      "sha256": "88d0fc67cc45433a94fc4e6da4fbbe8a2efa8c71928aef246561f0b18cb9e063",
+      "gitBlob": "f615239a789b8fc84e0b96aaf5140f26907b3822",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/editorial-weeks/out/weeks.mp4",
+      "bytes": 4822593,
+      "sha256": "52885bd0683241fe6e0da3dd2a1c7d54a27800e7eea4c657e37520841b472215",
+      "gitBlob": "0d557a1548d29116567c9ff3a10c1ff95ea0c051",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/launch-morph/cues.json",
+      "bytes": 1001,
+      "sha256": "daf0159e4759ab57ac7acc4b1bf5a320b11d061c6bfcbcf8b41b82d6aea143ce",
+      "gitBlob": "02dcfe3d417db73d67392000313ce57944abec97",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/launch-morph/index.html",
+      "bytes": 9676,
+      "sha256": "2cb196cf9dd4abdad63689392a64d7074430ada283f618949c7c7f63660df482",
+      "gitBlob": "f5beb092b544921f3cbcf3bdf1f8628c8f90c741",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/launch-morph/out/launch.mp4",
+      "bytes": 902383,
+      "sha256": "be174ffc096ca533a8acd33792de89e9e349f6c0ec1e9f177747993f7edbb8b0",
+      "gitBlob": "5513109b3dc493ee287c05ec45f1da680b9a77a1",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/launch-morph/out/sheet.jpg",
+      "bytes": 113677,
+      "sha256": "e4e9b54329d57bee83cef24c363aad8ab9657b394bca8db8f305a03ec85395bd",
+      "gitBlob": "c7b80de7a5e01452fc8e1d5db7e2a0d0681e0503",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/museum-compound/cues.json",
+      "bytes": 753,
+      "sha256": "28f547c5c28ab77645a96bcf017fd1fd8ced0f108c891c6448b8b12f6dd7cbc5",
+      "gitBlob": "129f59682e03ea7d2d3c7b3274bb27720aef5bb2",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/museum-compound/index.html",
+      "bytes": 13279,
+      "sha256": "e25aa5af939c5e6ad0f2f030e6661ce22419be71a72f752efddc7d9d4d946b7e",
+      "gitBlob": "b3fe3d0a6203c768c327620322d4429bd18c576d",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/museum-compound/out/compound.mp4",
+      "bytes": 2025653,
+      "sha256": "c7e88352ca980000312d63b37e450e13f03eb8cea44ae4ea126cca8125253854",
+      "gitBlob": "26805d90d34432954881534449feeb7c849d0467",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/museum-compound/out/sheet.jpg",
+      "bytes": 248975,
+      "sha256": "63d629b64eb4da40dc0c92e66d1ee0a7cddd1adb0cff25560186ac58deef42a9",
+      "gitBlob": "debaca97d1e70ad1184028b7d9257400fd1f01ae",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/neon-lyric/cues.json",
+      "bytes": 693,
+      "sha256": "33aba2066644fc7cb76e62658d3f8cc53f8e8be4df7b96ad757c9e2c8f524ecd",
+      "gitBlob": "0d45fe356ec4f3e165d59db7c73584e73c4d136b",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/neon-lyric/index.html",
+      "bytes": 8004,
+      "sha256": "8cf04d4b3da6cef1079bdc58f3bbc2f5086447c7826a7f2411b737e6ac4315b9",
+      "gitBlob": "99fbad0a712ad689ed20213749ea096e161c9165",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/neon-lyric/out/neon.mp4",
+      "bytes": 4473467,
+      "sha256": "15c09e38c3e49753f50c4005f7ef09ba8944ae3e689fc1eb76e472ae02b53c64",
+      "gitBlob": "4dd423967b70bdc982a66a49f83ed4f5be099455",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/neon-lyric/out/sheet.jpg",
+      "bytes": 177816,
+      "sha256": "f27562851eb94e4bd1323a0a655a0bf63851af55a049602390e5717b60ee5440",
+      "gitBlob": "6538e2d510a694be12d5e59945561382ca57b996",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/paper-cloud/cues.json",
+      "bytes": 697,
+      "sha256": "5dafc6ba7512687dacf9a8e1eda26e5e960836e095d57f1635486ea65e5e4a5f",
+      "gitBlob": "e5b3f5a7a80065cf533c88f1da746de7d5cbd8be",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/paper-cloud/index.html",
+      "bytes": 10282,
+      "sha256": "8d6d9dbe6ca3217131468a1b54bc45a74648048458d57d5266ffcc7355822fff",
+      "gitBlob": "84eddea3df52a950edf7de4c81c175b8438f095c",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/paper-cloud/out/cloud.mp4",
+      "bytes": 6756079,
+      "sha256": "e6c5184aa69bf8bed5898e03fe20da743047c23bdbe8b3abaa9af1c0074df980",
+      "gitBlob": "0b91cbbe6fbea044e2068eefd78c939e7bf3ce64",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/paper-cloud/out/sheet.jpg",
+      "bytes": 212475,
+      "sha256": "b21ddd399f13598c437e214c4ebcfd10356f5fb52deb67eab30fbc4a8b4b6d9c",
+      "gitBlob": "82852088ac336ed6dc2965b4358f8c4abda7018d",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/research-deck/index.html",
+      "bytes": 13454,
+      "sha256": "feea0854edf75e8afed7f612374b14edb5bec60703c73c82d8ed4115c81d0d38",
+      "gitBlob": "9220b77b16d97bf687d04e65ae9e6ae076e08280",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/research-deck/out/deck.mp4",
+      "bytes": 2357635,
+      "sha256": "5f15cf125c5d48adb74c2208bf70bca10cfc4f09113829398490c679ebba7668",
+      "gitBlob": "3aa19155f8d17ca8e3d488e040ffef5e07f36919",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/research-deck/out/deck.pdf",
+      "bytes": 1263248,
+      "sha256": "0445f3b9565f9b883f7a97827c959c822cdcd4e352db9f273dfb69874e1b8562",
+      "gitBlob": "64c5603e47030126089769b165e9ca560e48a262",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/research-deck/out/sheet.jpg",
+      "bytes": 375148,
+      "sha256": "bd69897d668a974e5f5997c43299bd86bc8bf82c55661a70985ebb2cbef44e55",
+      "gitBlob": "fe31e767e6420c9f6bd7c18c6219998c6a3022bb",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/swiss-reel/cues.json",
+      "bytes": 889,
+      "sha256": "279ee957e2e2cae5364b3e3e7df5c594e14ed5c68ca73db01f61c41cfd4c7c95",
+      "gitBlob": "57ae3875cb83e1cfaf3d0f6a4f4032b927a885d0",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/swiss-reel/index.html",
+      "bytes": 11132,
+      "sha256": "5bb14846797e686f0c2ddb909b38cbb35ea8dd40d6fcd7cf27cbeefaee691443",
+      "gitBlob": "f52b6225f5ccb463fa6519a89065a1ef8fe83180",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/swiss-reel/out/reel.mp4",
+      "bytes": 6530308,
+      "sha256": "cf409a0a0c5df63459373b3edc021386e5f27db25f78fdaf4a85fb206e93dd7d",
+      "gitBlob": "cde95c58fdcb89677647b47d4d5653e6740ff0c8",
+      "lfsPointer": false
+    },
+    {
+      "path": "examples/swiss-reel/out/sheet.jpg",
+      "bytes": 265496,
+      "sha256": "49b4185e776f5dcd14f4a736e9f21641c644d0776cc8cfc56ee5aa02101097c3",
+      "gitBlob": "0ba91a69f910a8d35b65f0d1f9f64322448aaab0",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/aesthetics.md",
+      "bytes": 9019,
+      "sha256": "ec74a62c9d3c714f41690b120ce3ac13f9b4a95be27fcc7667f23961edb9a789",
+      "gitBlob": "de27ca290c102c1e182831eca90721b4f3335612",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/ai-assets.md",
+      "bytes": 4238,
+      "sha256": "41eed80c6cd4c477475f3a300abbef462901d6fffaec3932fd08731dc9a31505",
+      "gitBlob": "aeec969a28cc62ff92c539782096ad8c156c0a54",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/audio.md",
+      "bytes": 3803,
+      "sha256": "5abd8b5d53c5e0e4d45295cb1565f2f10b9e3c3bd9bd73f3d8f958bd8aaa3513",
+      "gitBlob": "45d7c01a132f84037ea9f2cd97aabecaed6ee410",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/code-rules.md",
+      "bytes": 8000,
+      "sha256": "90f1d1ca4c2c15ae7799061c0d62b1a526f00ce4e11c198c9429197a4a06fb7a",
+      "gitBlob": "1cbe183afd1975c3ef9a4580108eba6de8c79207",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/motion.md",
+      "bytes": 7222,
+      "sha256": "5c3ada7f054da942557c93fd7003cf914501191261d381a41c2266773b4bd8d7",
+      "gitBlob": "e8b25b9eddf23584567223d2ae36bae17810cfd4",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/prompts.md",
+      "bytes": 7648,
+      "sha256": "9978c06968a4298bfe9e51e98ffd68653f56a0cb70d2745525c128185052570a",
+      "gitBlob": "5209789149658e565a21d9b3611816e758e10f74",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/research.md",
+      "bytes": 12021,
+      "sha256": "3b3801aa5f205aa95e372f22dff38ef8f5e63cc93c0e8424c99a01456ea43189",
+      "gitBlob": "12cf98f6eae6aa21f8cf592a0a709edffc8875df",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/slides.md",
+      "bytes": 3019,
+      "sha256": "ff5843a4a60189578526a3cbc3919ea4fc9e80a35530b35f8c4f1462b08b32b9",
+      "gitBlob": "91778ca88ed9e9cb0795a98b0cd2fa8cced8641f",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/storyboard.md",
+      "bytes": 5868,
+      "sha256": "79eedc755d9138d748f19478d868c3c11e85f4ddbab3736156560152498a000c",
+      "gitBlob": "5f74096ad94b34e808501851d45ffd526ab31762",
+      "lfsPointer": false
+    },
+    {
+      "path": "templates/STORYBOARD.md",
+      "bytes": 1211,
+      "sha256": "f84afb1a9bad937af9c5981436ab9b699bad2bcf9601ff49cdddad2db8853313",
+      "gitBlob": "ac23982fadee9a7f742c126f6d1f28bfc477b03c",
+      "lfsPointer": false
+    },
+    {
+      "path": "templates/slides/index.html",
+      "bytes": 4133,
+      "sha256": "fc86d24e2a8d36bf1fc34ac39edf415973ac16724d45bf0b828c196d4e6fa518",
+      "gitBlob": "affe10c7089b15adc7c728baeb9951c72e42196e",
+      "lfsPointer": false
+    },
+    {
+      "path": "templates/video/index.html",
+      "bytes": 5190,
+      "sha256": "5600f6e4198f9502afe222c7bbcd58ac0f26647f14638ee1eedf68f1ebbece2a",
+      "gitBlob": "328d74cc802c49e9d51befb699b1efbfb818ffa8",
+      "lfsPointer": false
+    }
+  ]
+}

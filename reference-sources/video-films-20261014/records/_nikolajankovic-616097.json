@@ -1,0 +1,72 @@
+{
+  "id": "original/_nikolajankovic-616097",
+  "title": "手绘定格动画：产品自述",
+  "group": "手绘 · 线稿 · 漫画",
+  "tags": "手绘 · 线稿 · 漫画 叙事、手绘与定格 Hand-drawn stop-motion where a product explains itself 58 秒手绘定格动画短片，DeFi Saver 以第一人称介绍自己。 _nikolajankovic",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "_nikolajankovic",
+  "authorUrl": "https://x.com/_nikolajankovic/status/2102867033100616097",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/_nikolajankovic-616097.mp4",
+  "bytes": 13865961,
+  "sha256": "22a0a812532a678d3c8f9595a997a5a6fc053800c99e965cc3a3df3bf83f78f0",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102860741610967040/vid/avc1/1280x848/-XO8Hn3E_PIbaeDw.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/_nikolajankovic-616097.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/_nikolajankovic-616097.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 58,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "_nikolajankovic-616097",
+    "title": "Hand-drawn stop-motion where a product explains itself",
+    "title_zh": "手绘定格动画：产品自述",
+    "url": "https://x.com/_nikolajankovic/status/2102867033100616097",
+    "author": "_nikolajankovic",
+    "author_name": "nikola_j (🛟,🛟)",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "A 58-second hand-drawn stop-motion short in which the DeFi Saver app introduces itself in the first person.",
+    "description_zh": "58 秒手绘定格动画短片，DeFi Saver 以第一人称介绍自己。",
+    "prompt": "make a hand-drawn stop-motion animation;\nstory: you're defi saver and explaining yourself in 1st person",
+    "prompt_lang": "en",
+    "prompt_zh": "做一段手绘定格动画；\n故事：你是 defi saver，用第一人称介绍你自己",
+    "kind": "one-shot",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102860741610967040/img/TtymzxfT2sSP_I7F.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102860741610967040/vid/avc1/406x270/3viRVBVisd1zGnHv.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102860741610967040/vid/avc1/1280x848/-XO8Hn3E_PIbaeDw.mp4?tag=29",
+      "duration": 58,
+      "width": 1280,
+      "height": 848
+    },
+    "metrics": {
+      "bookmarks": 15,
+      "likes": 46,
+      "views": 3284
+    },
+    "category": "story"
+  },
+  "styleClassificationSource": {
+    "id": "2102867033100616097",
+    "style": "handdrawn",
+    "title_zh": "DeFi储蓄手绘定格动画",
+    "title_en": "DeFi Saver Stop Motion Animation",
+    "author": "_nikolajankovic",
+    "post_url": "https://x.com/_nikolajankovic/status/2102867033100616097",
+    "prompt": "make a hand-drawn stop-motion animation;\nstory: you're defi saver and explaining yourself in 1st person",
+    "prompt_partial": false,
+    "likes_2026_09_29": 46
+  },
+  "downloadedAt": "2026-10-14T09:08:04.741Z"
+}

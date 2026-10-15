@@ -1,0 +1,71 @@
+{
+  "id": "original/nolkeeg-635633",
+  "title": "放手让它自由发挥的动效片",
+  "group": "电影感 3D",
+  "tags": "电影感 3D 动效与作品集 Open-ended show-off motion graphic 不给方向、不许调用记忆和技能，让 Opus 5.5 自选风格和主题，做出 45 秒动效片。 nolkeeg",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "nolkeeg",
+  "authorUrl": "https://x.com/nolkeeg/status/2103841917603635633",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/nolkeeg-635633.mp4",
+  "bytes": 6519755,
+  "sha256": "b14a2546dc077d9df2ed0975e90f0b1e01f01b7d5cd07cc075fb14eaa61f3f82",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103841849345552384/vid/avc1/1280x720/FaY6nWlaDkidB72-.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/nolkeeg-635633.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/nolkeeg-635633.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 45,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "nolkeeg-635633",
+    "title": "Open-ended show-off motion graphic",
+    "title_zh": "放手让它自由发挥的动效片",
+    "url": "https://x.com/nolkeeg/status/2103841917603635633",
+    "author": "nolkeeg",
+    "author_name": "Nolan Keegan",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 45-second motion graphic where Opus 5.5 picks the style and subject itself, told not to use memories or skills and to beat GPT 6.",
+    "description_zh": "不给方向、不许调用记忆和技能，让 Opus 5.5 自选风格和主题，做出 45 秒动效片。",
+    "prompt": "Please do not reference any previous memories or skills. I've been seeing all of these motion graphics examples on X of people making cool videos with opus 5.5. So - I want you to just show off for me. You pick the design style, the look, subject etc. I just want to be extremely impressed by the motion graphic video that you create. I want you to destroy GPT 6 when it comes to motion graphics video - because astra just wants to give me a stupid glorified powerpoint presentation.",
+    "prompt_lang": "en",
+    "prompt_zh": "请不要参考任何之前的记忆或技能。我在 X 上看到很多人用 opus 5.5 做出很酷的动态图形视频。所以——我希望你尽情给我炫一下技。设计风格、视觉、主题等都由你来选。我只想被你做的动态图形视频狠狠惊艳到。我希望你在动态图形视频上碾压 GPT 6——因为 astra 只会给我一个愚蠢的、美化过的 powerpoint 演示。",
+    "kind": "brief",
+    "inputs": [
+      "none"
+    ],
+    "effort": "high",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103841849345552384/img/9xfY8JXjxbL4LSwv.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103841849345552384/vid/avc1/480x270/90AQHMYfIuMIgLB4.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103841849345552384/vid/avc1/1280x720/FaY6nWlaDkidB72-.mp4?tag=29",
+      "duration": 45,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "views": 96
+    },
+    "category": "showreel"
+  },
+  "styleClassificationSource": {
+    "id": "2103841917603635633",
+    "style": "cinematic3d",
+    "title_zh": "AI自选主题炫技动态图形",
+    "title_en": "AI Chosen Style Motion Graphics Showoff",
+    "author": "nolkeeg",
+    "post_url": "https://x.com/nolkeeg/status/2103841917603635633",
+    "prompt": "Please do not reference any previous memories or skills. I've been seeing all of these motion graphics examples on X of people making cool videos with opus 5.5. So - I want you to just show off for me. You pick the design style, the look, subject etc. I just want to be extremely impressed by the motion graphic video that you create. I want you to destroy GPT 6 when it comes to motion graphics video - because astra just wants to give me a stupid glorified powerpoint presentation.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 0
+  },
+  "downloadedAt": "2026-10-14T09:14:43.934Z"
+}

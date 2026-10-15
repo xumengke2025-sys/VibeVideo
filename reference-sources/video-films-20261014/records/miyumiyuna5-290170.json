@@ -1,0 +1,79 @@
+{
+  "id": "original/miyumiyuna5-290170",
+  "title": "角色设定图做 VTuber MV",
+  "group": "扁平卡通",
+  "tags": "扁平卡通 MV 与歌词动画 VTuber music video from a character sheet 3 分钟 VTuber MV，基于设定图和 VRM 模型；Opus 自查资料，调 GPT、Gemini、Veo 做素材。 miyumiyuna5",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "miyumiyuna5",
+  "authorUrl": "https://x.com/miyumiyuna5/status/2103817763991290170",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/miyumiyuna5-290170.mp4",
+  "bytes": 4622679,
+  "sha256": "c23fef7763eda59fbd13ec74a8d486f037bceab71c7740d68a3c3c306fae9ebd",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103816489241604096/vid/avc1/480x270/ZxkpfNvoocely0bt.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/miyumiyuna5-290170.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/miyumiyuna5-290170.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 180.3,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "miyumiyuna5-290170",
+    "title": "VTuber music video from a character sheet",
+    "title_zh": "角色设定图做 VTuber MV",
+    "url": "https://x.com/miyumiyuna5/status/2103817763991290170",
+    "author": "miyumiyuna5",
+    "author_name": "みゅみゅ",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 3-minute VTuber music video from a character sheet and VRM model; Opus researched the character and called GPT, Gemini and Veo for assets.",
+    "description_zh": "3 分钟 VTuber MV，基于设定图和 VRM 模型；Opus 自查资料，调 GPT、Gemini、Veo 做素材。",
+    "prompt": "フォルダにみゅみゅというキャラクターの設定図とVRMモデルがあります。 VTuberのみゅみゅをしらべて、かっこいいMVを作成してください 作成に画像や音楽が必要でした .api.envにGPTとgeminiのAPIキーがあるのでこれを使ってください。 現在風の文字が流れたりするかっこいい　みゅみゅの魅力が存分に出る惹きが良いMVを作成してください",
+    "prompt_lang": "ja",
+    "prompt_en": "In the folder there is a character sheet and a VRM model for a character called Myumyu. Look up the VTuber Myumyu and make a cool MV. Images and music are needed to make it, so use the GPT and gemini API keys in .api.env. Make a cool, catchy MV with trendy flowing text that fully brings out Myumyu’s charm",
+    "prompt_zh": "文件夹里有一个叫みゅみゅ的角色的设定图和 VRM 模型。去查一下 VTuber みゅみゅ，做一支很酷的 MV。制作需要图片和音乐，.api.env 里有 GPT 和 gemini 的 API Key，请用它们。做一支有时下流行的流动文字、很酷、能充分展现みゅみゅ魅力、足够抓人的 MV",
+    "kind": "pipeline",
+    "tools": [
+      "veo"
+    ],
+    "inputs": [
+      "images"
+    ],
+    "note": "Author: about 2 hours; Opus said most of the cost was Veo.",
+    "note_zh": "作者称约 2 小时；Opus 自己说大部分费用花在 Veo 上。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103816489241604096/img/9DwwGbQW4oyDxI2H.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103816489241604096/vid/avc1/480x270/ZxkpfNvoocely0bt.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103816489241604096/vid/avc1/1280x720/1sIewJx45rjTGe-U.mp4?tag=29",
+      "duration": 180.3,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 14,
+      "likes": 31,
+      "views": 2653,
+      "reposts": 2
+    },
+    "category": "music"
+  },
+  "styleClassificationSource": {
+    "id": "2103817763991290170",
+    "style": "cartoon",
+    "title_zh": "VTuber みゅみゅ MV",
+    "title_en": "VTuber character music video",
+    "author": "miyumiyuna5",
+    "post_url": "https://x.com/miyumiyuna5/status/2103817763991290170",
+    "prompt": "フォルダにみゅみゅというキャラクターの設定図とVRMモデルがあります。 VTuberのみゅみゅをしらべて、かっこいいMVを作成してください 作成に画像や音楽が必要でした",
+    "prompt_partial": false,
+    "likes_2026_09_29": 31
+  },
+  "downloadedAt": "2026-10-14T09:15:00.004Z"
+}

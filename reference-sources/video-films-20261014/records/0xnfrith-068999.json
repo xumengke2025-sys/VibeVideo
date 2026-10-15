@@ -1,0 +1,73 @@
+{
+  "id": "original/0xnfrith-068999",
+  "title": "讲清 celld 价值的动画",
+  "group": "扁平卡通",
+  "tags": "扁平卡通 产品发布与广告 Animated case for why celld matters 53 秒动画，讲作者的产品 celld 为什么值得用；提示词只有一句，但项目里有更多上下文。 0xnfrith",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "0xnfrith",
+  "authorUrl": "https://x.com/0xnfrith/status/2103358957050068999",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/0xnfrith-068999.mp4",
+  "bytes": 4765112,
+  "sha256": "1ee554d9f880aae2cc619bb05bcce1b41a3131fe095c5cd28b0e98341336a9f4",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103358243171102720/vid/avc1/1280x720/QnFKBynB6I0CU2qV.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/0xnfrith-068999.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/0xnfrith-068999.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 53,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "0xnfrith-068999",
+    "title": "Animated case for why celld matters",
+    "title_zh": "讲清 celld 价值的动画",
+    "url": "https://x.com/0xnfrith/status/2103358957050068999",
+    "author": "0xnfrith",
+    "author_name": "nick frith",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 53-second animation making the case for the author's product celld, from a one-line prompt inside a project that held more context.",
+    "description_zh": "53 秒动画，讲作者的产品 celld 为什么值得用；提示词只有一句，但项目里有更多上下文。",
+    "prompt": "make me an animation to explain why celld earns its place.",
+    "prompt_lang": "en",
+    "prompt_zh": "给我做一段动画，解释 celld 凭什么值得占一席之地。",
+    "kind": "one-shot",
+    "inputs": [
+      "brand"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103358243171102720/img/TWeVcCN2Kdmqquxu.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103358243171102720/vid/avc1/480x270/-WwlWS-NIkiVvWzR.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103358243171102720/vid/avc1/1280x720/QnFKBynB6I0CU2qV.mp4?tag=29",
+      "duration": 53,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 43,
+      "likes": 52,
+      "views": 16737,
+      "reposts": 1
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103358957050068999",
+    "style": "cartoon",
+    "title_zh": "Celld产品价值动画解说",
+    "title_en": "Why Celld Earns Its Place",
+    "author": "0xnfrith",
+    "post_url": "https://x.com/0xnfrith/status/2103358957050068999",
+    "prompt": "make me an animation to explain why celld earns its place.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 53
+  },
+  "downloadedAt": "2026-10-14T09:11:51.381Z"
+}

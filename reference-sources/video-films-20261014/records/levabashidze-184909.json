@@ -1,0 +1,72 @@
+{
+  "id": "original/levabashidze-184909",
+  "title": "不许提问的 15 秒作品集",
+  "group": "低多边形 · 体素",
+  "tags": "低多边形 · 体素 动效与作品集 No-questions 15-second showreel 走红的作品集提示词加上一句“别问，直接做”，用 max 档生成 15 秒动效短片。 levabashidze",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "levabashidze",
+  "authorUrl": "https://x.com/levabashidze/status/2103786742520184909",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/levabashidze-184909.mp4",
+  "bytes": 2434302,
+  "sha256": "7cce9c8e48894828df262d1f09938393e7e11c6c4fa7c23a25bc0c56a216823e",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103785942251122689/vid/avc1/1280x720/N0WdhGr4bgMs3MEm.mp4?tag=14",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/levabashidze-184909.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/levabashidze-184909.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 15,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "levabashidze-184909",
+    "title": "No-questions 15-second showreel",
+    "title_zh": "不许提问的 15 秒作品集",
+    "url": "https://x.com/levabashidze/status/2103786742520184909",
+    "author": "levabashidze",
+    "author_name": "Levan Abashidze",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "The viral showreel prompt plus \"dont ask just make\", run at max effort for a 15-second motion graphics reel.",
+    "description_zh": "走红的作品集提示词加上一句“别问，直接做”，用 max 档生成 15 秒动效短片。",
+    "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out. dont ask just make",
+    "prompt_lang": "en",
+    "prompt_zh": "制作一段 15 秒的动态图形视频，展示你是多么出色的动效设计师，就像简历里的作品集一样。拿出全部本事。别问，直接做。",
+    "kind": "one-shot",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103785942251122689/img/XwGFgbyIqZiYWhGQ.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103785942251122689/vid/avc1/480x270/_dqh7dAmakStDq93.mp4?tag=14",
+      "video_hd": "https://video.twimg.com/amplify_video/2103785942251122689/vid/avc1/1280x720/N0WdhGr4bgMs3MEm.mp4?tag=14",
+      "duration": 15,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 1,
+      "likes": 2,
+      "views": 46
+    },
+    "category": "showreel"
+  },
+  "styleClassificationSource": {
+    "id": "2103786742520184909",
+    "style": "lowpoly",
+    "title_zh": "动态设计作品集展示",
+    "title_en": "Motion Designer Showreel Animation",
+    "author": "levabashidze",
+    "post_url": "https://x.com/levabashidze/status/2103786742520184909",
+    "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out. dont ask just make",
+    "prompt_partial": false,
+    "likes_2026_09_29": 2
+  },
+  "downloadedAt": "2026-10-14T09:15:13.716Z"
+}

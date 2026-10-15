@@ -1,0 +1,70 @@
+{
+  "id": "original/monokern-613142",
+  "title": "呼应个人作品集的动效短片",
+  "group": "动效与作品集",
+  "tags": "动效与作品集 动效与作品集 Showreel tied to a designer's portfolio 和作者个人作品集概念呼应的 15 秒动效短片，含声音设计，在 Claude Code 云端会话里读作品集仓库完成。 monokern",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "monokern",
+  "authorUrl": "https://x.com/monokern/status/2103489794143613142",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/monokern-613142.mp4",
+  "bytes": 2224357,
+  "sha256": "a4488193cb975e6008983ddf820310dc61a4d801b99d5af1ecaa12f9526c579a",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103489704490385409/vid/avc1/1280x720/m2bJo9IbG-n65WT1.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/monokern-613142.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/monokern-613142.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 15,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "monokern-613142",
+    "title": "Showreel tied to a designer's portfolio",
+    "title_zh": "呼应个人作品集的动效短片",
+    "url": "https://x.com/monokern/status/2103489794143613142",
+    "author": "monokern",
+    "author_name": "monokern",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 15-second motion and sound design showreel conceptually tied to the author's portfolio, made in a Claude Code cloud session with access to the portfolio repo.",
+    "description_zh": "和作者个人作品集概念呼应的 15 秒动效短片，含声音设计，在 Claude Code 云端会话里读作品集仓库完成。",
+    "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out. make it conceptually connected to my portfolio at http://monokern.design",
+    "prompt_lang": "en",
+    "prompt_zh": "制作一段 15 秒的动态图形视频，展示你是多么出色的动效设计师，就像简历里的作品集一样。拿出全部本事。让它在概念上和我在 http://monokern.design 的作品集呼应",
+    "prompt_url": "https://x.com/monokern/status/2103491467402493975",
+    "kind": "one-shot",
+    "tools": [
+      "claude-code"
+    ],
+    "inputs": [
+      "brand"
+    ],
+    "effort": "xhigh",
+    "note": "Author: about $13 and about 1 hour from prompt to final MP4, including about 20 minutes of rendering.",
+    "note_zh": "作者称花费约 13 美元，从提示词到最终 MP4 约 1 小时，其中渲染约 20 分钟。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103489704490385409/img/t2fbfQ5hJS6eRo97.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103489704490385409/vid/avc1/480x270/K7JOoYvu6Cm9CSq1.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103489704490385409/vid/avc1/1280x720/m2bJo9IbG-n65WT1.mp4?tag=29",
+      "duration": 15,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 42,
+      "likes": 59,
+      "views": 4661,
+      "reposts": 1
+    },
+    "category": "showreel"
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:21:30.587Z"
+}

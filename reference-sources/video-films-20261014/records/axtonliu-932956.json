@@ -1,0 +1,70 @@
+{
+  "id": "original/axtonliu-932956",
+  "title": "真人口播改线稿动画",
+  "group": "改编与复刻",
+  "tags": "改编与复刻 改编与复刻 Talking-head clip turned into line-art explainer 83 秒竖屏口播改成线稿动画 B-roll，真人缩到右下角圆形画中画；线稿由 Opus 用 Python 逐帧画出。 AxtonLiu",
+  "kind": "作者改编参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "AxtonLiu",
+  "authorUrl": "https://x.com/AxtonLiu/status/2102827887732932956",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/axtonliu-932956.mp4",
+  "bytes": 6759625,
+  "sha256": "7b9dd74a5f010b97c18b6239622fae6e8a01b5c53dd16eea3358ffd611c88ed2",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102827850864934912/vid/avc1/720x1280/fR3aZJQW64Mqc85s.mp4?tag=16",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/axtonliu-932956.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/axtonliu-932956.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供；作者自行改编作品",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 83.7,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "axtonliu-932956",
+    "title": "Talking-head clip turned into line-art explainer",
+    "title_zh": "真人口播改线稿动画",
+    "url": "https://x.com/AxtonLiu/status/2102827887732932956",
+    "author": "AxtonLiu",
+    "author_name": "Axton",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "An 83-second vertical talking-head video rebuilt with line-art animated B-roll and the speaker in a round picture-in-picture; Opus drew every frame in Python, audio and subtitles untouched.",
+    "description_zh": "83 秒竖屏口播改成线稿动画 B-roll，真人缩到右下角圆形画中画；线稿由 Opus 用 Python 逐帧画出。",
+    "prompt": "把 short-1.mp4 做成一条新的竖屏短片 short-1-v5.mp4：\n\n1. 我的人像缩小成右下角的圆形画中画，能看清我在讲话，不遮字幕。\n2. 主画面换成一段动画 B-roll，跟着我讲的内容走：我说到哪个概念，画面就画哪个概念。风格轻松有趣，线稿动画就可以，不要写实。\n3. 原声、原字幕、时长都不变。",
+    "prompt_lang": "zh",
+    "prompt_en": "Turn short-1.mp4 into a new vertical short, short-1-v5.mp4:\n\n1. Shrink my portrait into a round picture-in-picture in the bottom-right corner, where you can see me talking, without covering the subtitles.\n2. Replace the main frame with animated B-roll that follows what I say: whatever concept I am talking about, draw that concept. Keep the style light and fun; line-art animation is fine, nothing realistic.\n3. Keep the original audio, original subtitles and length unchanged.",
+    "kind": "brief",
+    "tools": [
+      "claude-code",
+      "python"
+    ],
+    "inputs": [
+      "footage"
+    ],
+    "effort": "high",
+    "note": "Author: 28 min 53 s, with zero manual interventions.",
+    "note_zh": "作者称用时 28 分 53 秒，全程没有人工介入。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102827850864934912/img/gvpyuocSy0AV1hip.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102827850864934912/vid/avc1/320x568/7ImeYEF97Q2cVC_o.mp4?tag=16",
+      "video_hd": "https://video.twimg.com/amplify_video/2102827850864934912/vid/avc1/720x1280/fR3aZJQW64Mqc85s.mp4?tag=16",
+      "duration": 83.7,
+      "width": 1080,
+      "height": 1920
+    },
+    "metrics": {
+      "bookmarks": 411,
+      "likes": 370,
+      "views": 31619,
+      "reposts": 44
+    },
+    "category": "remix"
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:26:38.893Z"
+}

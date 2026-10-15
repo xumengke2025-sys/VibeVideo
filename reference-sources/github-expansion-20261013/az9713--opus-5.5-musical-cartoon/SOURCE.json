@@ -1,0 +1,434 @@
+{
+  "repo": "az9713/opus-5.5-musical-cartoon",
+  "repository": "https://github.com/az9713/opus-5.5-musical-cartoon",
+  "commit": "38201167ec193d919a70f9531d9ce131bc5c9828",
+  "checked": "2026-10-13",
+  "scope": "完整仓库文件快照；发布影片另存 release-media",
+  "modelEvidence": [
+    "A 15-second cartoon that stars Clawd, the Claude Code mascot. Claude Opus 5.5 wrote all of it in code: a p5.js + p5.brush watercolor picture, a synthesized score and sound effects, and a Puppeteer + FFmpeg render. The project uses no animation program, no video editor and no stock audio.",
+    "**The short version:** prompt → Claude Code (Opus 5.5) writes the code → Node.js runs it → headless Chrome runs the scene with p5.js + p5.brush → Puppeteer saves 360 PNG frames → `score.mjs` calculates `score.wav` → FFmpeg joins frames + WAV into the MP4 → ffprobe measures it → the model looks at sample frames and fixes the code.",
+    "| 3 | **Claude Opus 5.5** (the model) | The large language model that does the thinking | The brief, command output, images of frames | Plans the film, writes every line of code (`scene.js`, `clawd.js`, `paint.js`, `score.mjs`, `render.mjs`, `cues.json`), runs the render, then reads sample frames as images, finds errors, and changes the code. It cannot hear audio, so it checks the sound as numbers and as a waveform picture. | Source code |",
+    "| 4 | **Advisor** (Fable 5.1) | A second model that reads the whole session and gives advice | The session transcript | 2 calls in the build session: one after the pipeline proof (paint on paper colour, scale brushes up, check that renders are identical), one before \"done\" (read the final contact sheet, fix a lean jump at 12.083 s). It writes no code. | Advice to Opus 5.5 |",
+    "| 19 | **The check loop** (Opus 5.5 + FFmpeg + ffprobe) | Steps 3, 17 and 18 again | Stills, sheets, numbers | The model opens the contact sheet and stills as images, finds errors (for example reversed ribbon letters, a label off screen), changes the code, and renders again. Most of the build time went into this loop. | The final MP4 |",
+    "This project is inspired by the Code Bear YouTube video **[“I Asked Claude OPUS 5.5 to Make a Cartoon From Scratch… and It Did!”](https://www.youtube.com/watch?v=dT8OM3cqrMo)** ([repo: aadil6971/clawd-video](https://github.com/aadil6971/clawd-video))."
+  ],
+  "modelEvidenceStatus": "作者自述；未独立核实模型会话",
+  "licenseFiles": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/.gitignore",
+      "gitBlobSha1": "db2e4869bba27d3210cc804c6f028a722d363720",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/.gitignore",
+      "bytes": 23,
+      "sha256": "c80c2eb09aa920bc6c286e5f9c80c48b24f9bd719fcb2af0805269198bb7f4f8",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/clawd.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/clawd.js",
+      "gitBlobSha1": "e3cdceffa4397979b891be00a85600ff175c305d",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/clawd.js",
+      "bytes": 4072,
+      "sha256": "45e68c49c8fc9b126ac8fbff67886b66ac8c8670a80918d42a113ddd59d5619e",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/cues.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/cues.json",
+      "gitBlobSha1": "5d26cad762bec96c11158245739bcf9dd5b316a6",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/cues.json",
+      "bytes": 1176,
+      "sha256": "013da63bf9fcc6edcce1fda44ced69a88543474d056f2b8081a8c5730c9c7540",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/index.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/index.html",
+      "gitBlobSha1": "b63d82bb80781b32ba6a5c1e0f36f03cf66eb222",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/index.html",
+      "bytes": 671,
+      "sha256": "2b51bca7ad76af14cdc94cccdd7c7f5c5d8b6e78e3d0260aa94c030fa6a14b3a",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/out/assets.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/out/assets.png",
+      "gitBlobSha1": "09170589ea8d39f3176761de999186cfde6e2e31",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/out/assets.png",
+      "bytes": 787275,
+      "sha256": "dae34d105b65f78c375d1a6f66204cc56c1f1109eb6481ce325c09a49b43d903",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/out/clawd-prose.mp4",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/out/clawd-prose.mp4",
+      "gitBlobSha1": "13ede871a8ce5c818274aa60d232358a634ed048",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/out/clawd-prose.mp4",
+      "bytes": 8693220,
+      "sha256": "c3a8ff48d47565286c87c87de6474e37ee40b391bed7ce09afe5dae6b9b1af61",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/out/poses.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/out/poses.png",
+      "gitBlobSha1": "b89253b2dd26ef5ba5787e300cad3d29f27e6c90",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/out/poses.png",
+      "bytes": 101801,
+      "sha256": "d0ec27aaec11a3add52947084b81db40fe0cd0ccd93c1884eef3ed337e14afc5",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/out/score.wav",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/out/score.wav",
+      "gitBlobSha1": "c23254661fa580af9069f0959c791e77ee8d8a9c",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/out/score.wav",
+      "bytes": 1440044,
+      "sha256": "5d20b12149b5b6e1287a0739b70319d36aeca015baf2b904e8a6e9c96ebff26a",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/out/sheet.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/out/sheet.png",
+      "gitBlobSha1": "67e543cb45d2b691a31badafab098978d0e55214",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/out/sheet.png",
+      "bytes": 1785746,
+      "sha256": "29d03d1d3db22d1b90c1c0dfa1fe2a0026d20c5b747e2f6d63c8e94ef8f2408c",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/out/wave.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/out/wave.png",
+      "gitBlobSha1": "3f929178fd989bdc8614996dfed6fb0fbfe6a84c",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/out/wave.png",
+      "bytes": 13700,
+      "sha256": "0b0a87018f1a56dab6ed9c07a6e8d7490c3ea365b02287857f55b608c9eebead",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/package-lock.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/package-lock.json",
+      "gitBlobSha1": "75301a7636151583660b3fde95bdc5e453daebef",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/package-lock.json",
+      "bytes": 18734,
+      "sha256": "5d509e4fa6cf0a35b99302e06230b8cc2d74ab9241c9be8b03de7e5ffa18aea2",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/package.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/package.json",
+      "gitBlobSha1": "5b8c972a7aa40fec56b7e68b36aea92d0570ba08",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/package.json",
+      "bytes": 629,
+      "sha256": "8e657441246b85e32f165e48c6cbb7af1efdbafe3b2bd8b850c7fbaca6219db6",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/paint.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/paint.js",
+      "gitBlobSha1": "3904bef154e07fe136650c558c0aaeb3224b18f8",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/paint.js",
+      "bytes": 2789,
+      "sha256": "87187eb56b48224c5f6f09c37100a5f14a6dde9da268447ecedf16d93054b046",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/README.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/README.md",
+      "gitBlobSha1": "8dc58634dd7bbf7f4dd415fa12ec5ec6801d75c1",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/README.md",
+      "bytes": 3139,
+      "sha256": "b5259a3f39381fcb170cc2854e5e329e15823d002a089ddfebe158cddf9a1a40",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/render.mjs",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/render.mjs",
+      "gitBlobSha1": "815f4f947ad1225bb564bdae25f0e74fb50eff53",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/render.mjs",
+      "bytes": 5838,
+      "sha256": "8e25e6ed310d6ab5f0cf4c66fbb770a482d3562d05b1e1544354cb149b4982c8",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/scene.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/scene.js",
+      "gitBlobSha1": "fab7196a58186304f12ddf8f43e5b4b04254e85d",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/scene.js",
+      "bytes": 50334,
+      "sha256": "0766496ff230b2c9f66440e73ca47839ef9e597f893182eea15200c2a3e4b64e",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "clawd-prose/score.mjs",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/score.mjs",
+      "gitBlobSha1": "f07a1def9e2c3e1c336a082b8e3e1467cf48a20f",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/clawd-prose/score.mjs",
+      "bytes": 9712,
+      "sha256": "1d471bcc8a5d1f8119ff5274b5bde4ebeffda0a33e252fe910b7229824982802",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "DEVELOPMENT-JOURNEY.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/DEVELOPMENT-JOURNEY.html",
+      "gitBlobSha1": "30eec0c5ccfc05e3c33032f646882a8d999073b1",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/DEVELOPMENT-JOURNEY.html",
+      "bytes": 124521,
+      "sha256": "5a4dac01f3db92a6565ebeec1dfcd23c2b63887dbe1112410d8d1419cc286002",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "HANDOFF.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/HANDOFF.md",
+      "gitBlobSha1": "a69ddfdfd75b47133b43bf50c963f2d39c379e51",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/HANDOFF.md",
+      "bytes": 3976,
+      "sha256": "ad9eb9d41a31639e6507b6056ffb5813051a9f8750a61ab82436d0de039925ba",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "implementation-plan.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/implementation-plan.html",
+      "gitBlobSha1": "db196f521105df75e3607876793588710d68d20d",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/implementation-plan.html",
+      "bytes": 57096,
+      "sha256": "cb724c065bdb1fb67033d6bad2993fb65677af00b7253bca4ac786a972cbd207",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "index.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/index.html",
+      "gitBlobSha1": "71592f53c15fff3afa9cc8d47905c4438e9e0583",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/index.html",
+      "bytes": 2553,
+      "sha256": "9369f807cd083157fc7bc2fbfa5ecb902dbaa7bf05ab7ff50da3c856bb8b334d",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/assets.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/assets.jpg",
+      "gitBlobSha1": "885092d033f1ff57ae0c84a66beb73832f5df820",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/assets.jpg",
+      "bytes": 174155,
+      "sha256": "ce57e5665325f8244e2e7d2e131531c75a5eabe7e9f2829da7e8200db0932a5f",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/layer_0.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/layer_0.jpg",
+      "gitBlobSha1": "7f500e47518748b9fc2811a9a3f3b4a6ca189bce",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/layer_0.jpg",
+      "bytes": 77631,
+      "sha256": "f50bba4df8160a7e24722e2b41fa5ddb9a9b2043e910b8589d0bd66c99c4dd1b",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/layer_1.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/layer_1.jpg",
+      "gitBlobSha1": "d49bb43fc10f04cdbd50f981d2aacb6108c3b394",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/layer_1.jpg",
+      "bytes": 107250,
+      "sha256": "883b3cedda278852028b94e4131697312573e4f87e80b3ef6c21066b8db25bd0",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/layer_2.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/layer_2.jpg",
+      "gitBlobSha1": "74a0d246fe92bdda35be6c76791d4d630eac601b",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/layer_2.jpg",
+      "bytes": 154563,
+      "sha256": "c9cae7665a6f16792d5152292e594d6163569c1fd79a9dcebb3428863fd7afa4",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/layer_3.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/layer_3.jpg",
+      "gitBlobSha1": "7c0d68fb00843a092b5d6dcf7632373ca53cfbc3",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/layer_3.jpg",
+      "bytes": 154668,
+      "sha256": "cbc5554410d20b9348a4472540be777372d57c601af69443ba640ead0f4ae19d",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/layer_4.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/layer_4.jpg",
+      "gitBlobSha1": "90bd22da41bfde06594300f37aa6b986835d3723",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/layer_4.jpg",
+      "bytes": 157817,
+      "sha256": "eb7238aadfa305de712171d631639723b03badbf8e5273101d2843d179c72083",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/poses.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/poses.jpg",
+      "gitBlobSha1": "fd0fc7086786fefba0c73016595d1ced89843a66",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/poses.jpg",
+      "bytes": 118416,
+      "sha256": "1b7c9515b379c5250f42a61c93f402fab98a64e371608413208b3a3d8e9c2c95",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/sheet.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/sheet.jpg",
+      "gitBlobSha1": "7434030cd0e11c9ce026ae7e59f006b1b8cc72a8",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/sheet.jpg",
+      "bytes": 552170,
+      "sha256": "59827aed715cca2ef43da6a6c73196d4f1be16bb533d73e5664447f657b47e80",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/smoke.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/smoke.jpg",
+      "gitBlobSha1": "694e2c3a517f2d038498b686bc9aeee6b0e72fd6",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/smoke.jpg",
+      "bytes": 24668,
+      "sha256": "5e317351d289a3a04bbf8d762a7f7b2774746a3d1a0bc49fa8d583c27b4495d1",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/still_1.35.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/still_1.35.jpg",
+      "gitBlobSha1": "72550149ce66253cb6e97ab54f81d96379545519",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/still_1.35.jpg",
+      "bytes": 115560,
+      "sha256": "26cee26964636061dd923f5f72cb4ab3fe092bdafd9701379f2da20a5cd5e3c3",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/still_10.60.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/still_10.60.jpg",
+      "gitBlobSha1": "dde3efcbf119bb4d6b3ac7426de0a8e5b2afa278",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/still_10.60.jpg",
+      "bytes": 156524,
+      "sha256": "26d570ba9f085e968b81f21ce01aa5fb3f6c0442bb288a51705915b3c9598529",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/still_11.30.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/still_11.30.jpg",
+      "gitBlobSha1": "cd3fda13fec799261563f8405d669d1e306d71e5",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/still_11.30.jpg",
+      "bytes": 168203,
+      "sha256": "ca20c15bdecdd7df43cb7cfc2f3ad500f4460209fcd582704a10d5f2a2bc25c6",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/still_13.85.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/still_13.85.jpg",
+      "gitBlobSha1": "1a6717d1a01dff1db64987b8338a838bb55cd310",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/still_13.85.jpg",
+      "bytes": 106526,
+      "sha256": "c0697b8d31389b0a306dc1d9812dfdd9e2c8ca6347d4508c96b58ee6a716820c",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/still_14.30.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/still_14.30.jpg",
+      "gitBlobSha1": "63a61f36c7a2516a9f72a938bca0d828b27bb602",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/still_14.30.jpg",
+      "bytes": 121205,
+      "sha256": "f3180fb5ecc539fc1ec8334c8de887816d7b53ae05b3cd48efc0f0d509fdb2c6",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/still_14.60.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/still_14.60.jpg",
+      "gitBlobSha1": "98e9805af738bd073390e2c0aaf131d753d96b7e",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/still_14.60.jpg",
+      "bytes": 109819,
+      "sha256": "ef700c12520f2c4514e35e9c5c25c9e2a840422c3f9415fe4c63685020159c7d",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/still_2.75.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/still_2.75.jpg",
+      "gitBlobSha1": "74484d1e574daf8264ce71435437f52f22240d6b",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/still_2.75.jpg",
+      "bytes": 115435,
+      "sha256": "992b64503abf18d0e8ce78b69dba97174ef40b61294c33e26bdc7a12365294df",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/still_5.50.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/still_5.50.jpg",
+      "gitBlobSha1": "90bd22da41bfde06594300f37aa6b986835d3723",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/still_5.50.jpg",
+      "bytes": 157817,
+      "sha256": "eb7238aadfa305de712171d631639723b03badbf8e5273101d2843d179c72083",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/still_8.07.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/still_8.07.jpg",
+      "gitBlobSha1": "110de1585dfe12360a857dfe0870718a86686a0e",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/still_8.07.jpg",
+      "bytes": 194477,
+      "sha256": "5f705ca2b6463bdefd196f9715fd4d0fadecb720dc7fc54126cc5c4ea8553d4c",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/still_9.80.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/still_9.80.jpg",
+      "gitBlobSha1": "d4cfc55a600efb57db8de82aff6766021232452b",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/still_9.80.jpg",
+      "bytes": 164481,
+      "sha256": "931a62fb1c2d742acbe2dee25baf2f4949e50f9b301bfaf23dbb349891ca403a",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "journey/wave.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/journey/wave.jpg",
+      "gitBlobSha1": "cb06b3482787b8fd5e725400fd90de7d825f17bd",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/journey/wave.jpg",
+      "bytes": 25964,
+      "sha256": "42a8ce875bc257b0bea4153ba634b2443ca9cb9a3cde9a7943d4b382d7fe9eef",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "my_prompts.txt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/my_prompts.txt",
+      "gitBlobSha1": "098987a4fa08a9174137c9c2cff17d0f80b524dc",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/my_prompts.txt",
+      "bytes": 2935,
+      "sha256": "cf4535158f427e18cd12dac14986a45a12c6e1eaf52ac9a425f4816cc92656e4",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "my_storyboard.txt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/my_storyboard.txt",
+      "gitBlobSha1": "489dd9df7caba8d84e0b4d3fabd7f732b418ef5b",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/my_storyboard.txt",
+      "bytes": 2523,
+      "sha256": "c251e1f155e794a51cdab2ccab0e714039f2e9b16b59b4aff9cc46f59db84465",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "plan-smoke-frame.png",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/plan-smoke-frame.png",
+      "gitBlobSha1": "f5f84526da13579a9cc9bd9d29721ef6e0c07e0a",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/plan-smoke-frame.png",
+      "bytes": 326927,
+      "sha256": "322e5c01f84a327a11a5d722566c86f26f6fbc92c3a3d86537443e82a321c918",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "README.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/README.md",
+      "gitBlobSha1": "2bee37e1887ddaa3134cb5519ed34b239c85d19b",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/README.md",
+      "bytes": 15790,
+      "sha256": "287e861c91ecfc6e16d3db160e096ac25f92d6f0da4868bde97b1090a6e70563",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "TASKS.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/TASKS.md",
+      "gitBlobSha1": "c2e1632bfc583251e7eb7db26155f5b90988e769",
+      "url": "https://raw.githubusercontent.com/az9713/opus-5.5-musical-cartoon/38201167ec193d919a70f9531d9ce131bc5c9828/TASKS.md",
+      "bytes": 2293,
+      "sha256": "d6d4d0c3934966887c6abfc8121c49c88ea525be1ac3ab19d3a58ffa791baf01",
+      "reusedExistingMedia": false
+    }
+  ],
+  "executed": false
+}

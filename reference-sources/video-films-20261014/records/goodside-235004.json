@@ -1,0 +1,73 @@
+{
+  "id": "original/goodside-235004",
+  "title": "关于 Claude 的电影片头",
+  "group": "动态排版",
+  "tags": "动态排版 让 Opus 讲自己 Opening credits for a film about Claude 为一部虚构的「关于你」的电影做 75 秒片头字幕，人名全是编的；模型选了致敬几位导演的风格，直接交付 MP4。 goodside",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "goodside",
+  "authorUrl": "https://x.com/goodside/status/2102937913726235004",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/goodside-235004.mp4",
+  "bytes": 4989918,
+  "sha256": "9c62faf7e1feba6b75f72868045b808609bb644c46185307501ffe3bb5817b2d",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102937812727160833/vid/avc1/1280x720/PtDBXaV5T5WXATry.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/goodside-235004.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/goodside-235004.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 75,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "goodside-235004",
+    "title": "Opening credits for a film about Claude",
+    "title_zh": "关于 Claude 的电影片头",
+    "url": "https://x.com/goodside/status/2102937913726235004",
+    "author": "goodside",
+    "author_name": "Riley Goodside",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 75-second opening-credits sequence for an imagined film about Claude, with invented names; the model chose auteur homages as its style and returned an MP4.",
+    "description_zh": "为一部虚构的「关于你」的电影做 75 秒片头字幕，人名全是编的；模型选了致敬几位导演的风格，直接交付 MP4。",
+    "prompt": "Imagine there exists a really good movie about you. Animate the opening credits to this film with made-up names in any style you like. Return the sequence as an mp4.",
+    "prompt_lang": "en",
+    "prompt_zh": "想象有一部关于你的非常好的电影。用你喜欢的任何风格，为这部电影制作片头字幕动画，名字都用编造的。把这段片头以 mp4 格式返回。",
+    "kind": "one-shot",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102937812727160833/img/z78Wa9WmWaH9Pm7O.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102937812727160833/vid/avc1/480x270/dM0sSjMJHYUpv0ug.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102937812727160833/vid/avc1/1280x720/PtDBXaV5T5WXATry.mp4?tag=29",
+      "duration": 75,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 196,
+      "likes": 451,
+      "views": 57701,
+      "reposts": 16
+    },
+    "category": "self"
+  },
+  "styleClassificationSource": {
+    "id": "2102937913726235004",
+    "style": "typography",
+    "title_zh": "个人电影开场字幕动画",
+    "title_en": "Animated film opening credits",
+    "author": "goodside",
+    "post_url": "https://x.com/goodside/status/2102937913726235004",
+    "prompt": "Imagine there exists a really good movie about you. Animate the opening credits to this film with made-up names in any style you like. Return the sequence as an mp4.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 451
+  },
+  "downloadedAt": "2026-10-14T09:17:57.708Z"
+}

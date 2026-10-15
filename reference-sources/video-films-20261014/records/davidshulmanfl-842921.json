@@ -1,0 +1,71 @@
+{
+  "id": "original/davidshulmanfl-842921",
+  "title": "彼得·加布里埃尔风 MV",
+  "group": "拼贴 · 剪纸 · 沙画",
+  "tags": "拼贴 · 剪纸 · 沙画 MV 与歌词动画 Peter Gabriel-style music video with original song 60 秒音乐 MV，仿彼得·加布里埃尔《Sledgehammer》的风格，换上现代元素，歌也自己写。 DavidShulmanFL",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "DavidShulmanFL",
+  "authorUrl": "https://x.com/DavidShulmanFL/status/2103336310089842921",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/davidshulmanfl-842921.mp4",
+  "bytes": 7022181,
+  "sha256": "52c210269be60970315950a547bb91e0af04c695fbf21a2b9baf326e9b4add71",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103336274031484928/vid/avc1/1280x720/4KsCVay-JYyBiPOZ.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/davidshulmanfl-842921.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/davidshulmanfl-842921.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 60,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "davidshulmanfl-842921",
+    "title": "Peter Gabriel-style music video with original song",
+    "title_zh": "彼得·加布里埃尔风 MV",
+    "url": "https://x.com/DavidShulmanFL/status/2103336310089842921",
+    "author": "DavidShulmanFL",
+    "author_name": "David Shulman",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 60-second music video in the spirit of Peter Gabriel's Sledgehammer and Big Time, with modern references and a new song written to fit the album So.",
+    "description_zh": "60 秒音乐 MV，仿彼得·加布里埃尔《Sledgehammer》的风格，换上现代元素，歌也自己写。",
+    "prompt": "Create a 60 second music video in the style of Peter Gabriel's Sledgehammer and Big Time. But use modern references and figures. Also create the song, something sounds like it would fit on Peter Gabriel's So album.",
+    "prompt_lang": "en",
+    "prompt_zh": "做一支 60 秒的音乐 MV，风格参照 Peter Gabriel 的《Sledgehammer》和《Big Time》，但要用现代的文化元素和人物。歌也一起做，听起来要像能收进 Peter Gabriel《So》专辑的曲子。",
+    "kind": "one-shot",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103336274031484928/img/WLYweRTsoz7b_hsF.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103336274031484928/vid/avc1/480x270/4sd5BH0pWmJg_-Ty.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103336274031484928/vid/avc1/1280x720/4KsCVay-JYyBiPOZ.mp4?tag=29",
+      "duration": 60,
+      "width": 1280,
+      "height": 720
+    },
+    "metrics": {
+      "likes": 3,
+      "views": 354
+    },
+    "category": "music"
+  },
+  "styleClassificationSource": {
+    "id": "2103336310089842921",
+    "style": "collage",
+    "title_zh": "现代风格彼得盖布瑞尔MV",
+    "title_en": "Modern Peter Gabriel style music video",
+    "author": "DavidShulmanFL",
+    "post_url": "https://x.com/DavidShulmanFL/status/2103336310089842921",
+    "prompt": "Create a 60 second music video in the style of Peter Gabriel's Sledgehammer and Big Time. But use modern references and figures. Also create the song, something sounds like it would fit on Peter Gabriel's So album.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 3
+  },
+  "downloadedAt": "2026-10-14T09:09:53.639Z"
+}

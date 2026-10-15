@@ -1,0 +1,424 @@
+{
+  "checked": "2026-10-13",
+  "verification": "源码文本与作者发布关系核查；没有执行下载代码或重渲",
+  "mappings": [
+    {
+      "repo": "DDChen666/civilization-film",
+      "entry": "stage.html",
+      "drawing": "src/film.js + src/engine.js + src/scene_*.js",
+      "time": "stage.html: window.__seek(t), data/audio.json",
+      "export": "render.mjs → Chrome逐帧 → FFmpeg；score.py + scorekit.py合成配乐",
+      "evidence": [
+        {
+          "file": "stage.html",
+          "lines": [
+            {
+              "line": 25,
+              "text": "<script src=\"src/film.js\"></script>"
+            },
+            {
+              "line": 28,
+              "text": "//   正片（預設）：t 是配樂的時間，時間軸在 src/film.js，全部從 data/audio.json 來"
+            },
+            {
+              "line": 122,
+              "text": "window.__seek = (t) => draw(t);"
+            }
+          ]
+        },
+        {
+          "file": "src/film.js",
+          "lines": [
+            {
+              "line": 7,
+              "text": "(function (root) {"
+            },
+            {
+              "line": 76,
+              "text": "function init(audio) {"
+            },
+            {
+              "line": 168,
+              "text": "function track(items, t, sigma) {"
+            },
+            {
+              "line": 175,
+              "text": "function drawMarks(A, cam, t, items, alt) {"
+            },
+            {
+              "line": 179,
+              "text": "if (t < it.t || cam.hidden(it.p)) continue;"
+            },
+            {
+              "line": 181,
+              "text": "Globe.glow(A, cam, it.p, spr, (it.hero ? 26 : 17) * sz * (1 + 2.2 * born), 1);"
+            }
+          ]
+        },
+        {
+          "file": "render.mjs",
+          "lines": [
+            {
+              "line": 2,
+              "text": "// 逐格輸出：把合成頁（window.__seek(t)）一格一格截下來，交給 ffmpeg 編成影片。"
+            },
+            {
+              "line": 15,
+              "text": "// 需要：Node 18+、本機 Google Chrome、ffmpeg；npm i playwright-core"
+            },
+            {
+              "line": 68,
+              "text": "await page.evaluate((x) => window.__seek(x), t);"
+            },
+            {
+              "line": 71,
+              "text": "const ffmpeg = (args, stdin) => new Promise((resolve, reject) => {"
+            },
+            {
+              "line": 72,
+              "text": "const p = spawn('ffmpeg', ['-y', '-loglevel', 'error', ...args], { stdio: [stdin ? 'pipe' : 'ignore', 'inherit', 'inherit'] });"
+            },
+            {
+              "line": 73,
+              "text": "p.on('close', (c) => (c === 0 ? resolve() : reject(new Error(`ffmpeg exit ${c}`))));"
+            }
+          ]
+        }
+      ],
+      "note": "源码固定到影片v1.0标签；影片发布附件保留GitHub SHA256。",
+      "commit": "e33ad33757ab196c7349b9008a2205f572b5a3b6"
+    },
+    {
+      "repo": "az9713/opus-5.5-musical-cartoon",
+      "entry": "clawd-prose/index.html",
+      "drawing": "clawd-prose/scene.js + clawd.js + paint.js",
+      "time": "window.renderFrame(i)，帧数转换到秒",
+      "export": "clawd-prose/render.mjs → Puppeteer逐帧 + score.mjs合成配乐 → FFmpeg",
+      "evidence": [
+        {
+          "file": "clawd-prose/scene.js",
+          "lines": [
+            {
+              "line": 740,
+              "text": "window.renderFrame = (i) => {"
+            }
+          ]
+        },
+        {
+          "file": "clawd-prose/render.mjs",
+          "lines": [
+            {
+              "line": 20,
+              "text": "const FFMPEG = path.join(BIN, 'ffmpeg.exe'), FFPROBE = path.join(BIN, 'ffprobe.exe');"
+            },
+            {
+              "line": 65,
+              "text": "await page.evaluate((i) => window.renderFrame(i), Math.round(t * FPS));"
+            },
+            {
+              "line": 79,
+              "text": "await page.evaluate((k) => window.renderFrame(k), i);"
+            }
+          ]
+        }
+      ],
+      "note": "同仓库out/clawd-prose.mp4；未发现统一许可。",
+      "commit": "38201167ec193d919a70f9531d9ce131bc5c9828"
+    },
+    {
+      "repo": "bilaldemirerr/opus-video-recipes",
+      "entry": "kinetic-typography-explainer/index.html；captioned-vertical-clip/index.html",
+      "drawing": "HTML布局、CSS视觉、GSAP对象属性",
+      "time": "gsap.timeline({paused:true}) + window.__timelines.main",
+      "export": "HyperFrames按composition时间轴渲染；captioned示例包含vo.wav",
+      "evidence": [
+        {
+          "file": "kinetic-typography-explainer/index.html",
+          "lines": [
+            {
+              "line": 62,
+              "text": "const tl = gsap.timeline({ paused: true });"
+            },
+            {
+              "line": 72,
+              "text": "window.__timelines[\"main\"] = tl;"
+            }
+          ]
+        },
+        {
+          "file": "captioned-vertical-clip/index.html",
+          "lines": [
+            {
+              "line": 28,
+              "text": "<div class=\"card\" id=\"card\"><span class=\"line\"><span class=\"k\">&lt;div</span> data-duration=<span class=\"s\">\"15\"</span><span class=\"k\">&gt;</span></span><span class=\"line\">  <span class=\"k\">&lt;audio</span> src=<span class=\"s\">\"vo.wav\"</span><span cl"
+            },
+            {
+              "line": 31,
+              "text": "<audio id=\"vo\" src=\"assets/vo.wav\" data-start=\"0\" data-duration=\"14.76\" data-track-index=\"1\"></audio>"
+            },
+            {
+              "line": 40,
+              "text": "const tl = gsap.timeline({ paused: true });"
+            },
+            {
+              "line": 63,
+              "text": "window.__timelines[\"main\"] = tl;"
+            }
+          ]
+        }
+      ],
+      "note": "仅两项具备绘制HTML；App Store预览仅brief，排除。",
+      "commit": "04a7837efe742faa885d593198f5197adaaea788"
+    },
+    {
+      "repo": "c5inco/motion-showreel",
+      "entry": "app/src/main/java/com/example/showreel/Reel.kt",
+      "drawing": "Compose DrawScope；Shaders.kt AGSL；Particles.kt解析粒子轨迹",
+      "time": "MainActivity.kt帧钟 → Reel.render(drawScope,t)",
+      "export": "作者v1.0 Android模拟器录屏showreel.mp4；源代码同v1.0提交",
+      "evidence": [
+        {
+          "file": "app/src/main/java/com/example/showreel/Reel.kt",
+          "lines": [
+            {
+              "line": 5,
+              "text": "import android.graphics.RuntimeShader"
+            },
+            {
+              "line": 54,
+              "text": "private val fluid = RuntimeShader(Shaders.FLUID)"
+            },
+            {
+              "line": 56,
+              "text": "private val post = RuntimeShader(Shaders.POST)"
+            },
+            {
+              "line": 97,
+              "text": "layer.renderEffect = RenderEffect.createRuntimeShaderEffect(post, \"content\").asComposeRenderEffect()"
+            },
+            {
+              "line": 102,
+              "text": "fun render(scope: DrawScope, t: Float) = with(scope) {"
+            }
+          ]
+        },
+        {
+          "file": "app/src/main/java/com/example/showreel/MainActivity.kt",
+          "lines": [
+            {
+              "line": 27,
+              "text": "import androidx.compose.runtime.withFrameNanos"
+            },
+            {
+              "line": 59,
+              "text": "val start = withFrameNanos { it }"
+            },
+            {
+              "line": 61,
+              "text": "withFrameNanos { now -> time = from + (now - start) / 1_000_000_000f }"
+            }
+          ]
+        }
+      ],
+      "note": "录屏可能包含设备展示范围，无音轨属作者录屏，不误写成有声电影。",
+      "commit": "fa37a7dea6fd346b6fb2aeee9fa35e1632538222"
+    },
+    {
+      "repo": "toankhontech/pelican-test-opus55",
+      "entry": "pelican-bicycle-animated.svg",
+      "drawing": "SVG路径、轮组与腿部关节",
+      "time": "SVG SMIL animate/animateTransform 时间与循环",
+      "export": "作者同时提供7.2秒MP4；没有独立编码脚本，不宣称可按原参数重渲",
+      "evidence": [
+        {
+          "file": "pelican-bicycle-animated.svg",
+          "lines": [
+            {
+              "line": 99,
+              "text": "<animate attributeName=\"d\" values=\"M197,166 q8,-8 16,0 q8,-8 16,0;M199,170 q6,-8 14,-6 q8,-2 14,6;M197,166 q8,-8 16,0 q8,-8 16,0\" dur=\"0.9s\" repeatCount=\"indefinite\"/>"
+            },
+            {
+              "line": 102,
+              "text": "<animate attributeName=\"d\" values=\"M236,150 q6,-6 12,0 q6,-6 12,0;M238,153 q4.5,-6 10.5,-4.5 q6,-1.5 10.5,4.5;M236,150 q6,-6 12,0 q6,-6 12,0\" dur=\"0.72s\" repeatCount=\"indefinite\"/>"
+            },
+            {
+              "line": 111,
+              "text": "<animate attributeName=\"opacity\" values=\"0;0.85;0\" dur=\"2.4s\" repeatCount=\"indefinite\"/>"
+            },
+            {
+              "line": 118,
+              "text": "<animateTransform attributeName=\"transform\" type=\"translate\" values=\"0 0;0 1.5;0 0\" dur=\"3.6s\" repeatCount=\"indefinite\"/>"
+            },
+            {
+              "line": 124,
+              "text": "<animateTransform attributeName=\"transform\" type=\"translate\" from=\"0 0\" to=\"-400 0\" dur=\"7.2s\" repeatCount=\"indefinite\"/>"
+            },
+            {
+              "line": 136,
+              "text": "<animateTransform attributeName=\"transform\" type=\"translate\" from=\"0 0\" to=\"-142.16 0\" dur=\"0.225s\" repeatCount=\"indefinite\"/>"
+            }
+          ]
+        }
+      ],
+      "note": "作者声明Claude Opus 5.5 Max，没提供模型会话。",
+      "commit": "33fcbe36b0d64aba118b9f2031a81f9e5b961c19"
+    },
+    {
+      "repo": "JakeB-5/motion-graphic-skill",
+      "entry": "samples/{webb-telescope,pour-over,skill-intro}/opus/index.html",
+      "drawing": "各HTML自包含Canvas分场景；可选style.js",
+      "time": "render(t) + requestAnimationFrame + Web Audio播放时钟",
+      "export": "skills/motion-graphic/scripts/record.js：Chromium截图/合成音频/FFmpeg",
+      "evidence": [
+        {
+          "file": "samples/webb-telescope/opus/index.html",
+          "lines": [
+            {
+              "line": 786,
+              "text": "function render(t){"
+            },
+            {
+              "line": 936,
+              "text": "requestAnimationFrame(frame);"
+            },
+            {
+              "line": 986,
+              "text": "dirty = true; requestAnimationFrame(frame);"
+            }
+          ]
+        },
+        {
+          "file": "samples/pour-over/opus/index.html",
+          "lines": [
+            {
+              "line": 794,
+              "text": "function render(t){"
+            },
+            {
+              "line": 944,
+              "text": "requestAnimationFrame(frame);"
+            },
+            {
+              "line": 994,
+              "text": "dirty = true; requestAnimationFrame(frame);"
+            }
+          ]
+        },
+        {
+          "file": "skills/motion-graphic/scripts/record.js",
+          "lines": [
+            {
+              "line": 6,
+              "text": "// Needs puppeteer-core, Chrome/Chromium (same setup as check.js) and ffmpeg on PATH."
+            },
+            {
+              "line": 7,
+              "text": "// Because render(t) is a pure function of time, frames are drawn one by one at exact timestamps (no screen capture,"
+            },
+            {
+              "line": 59,
+              "text": "if (r.error) return () => console.log('ffprobe not found — output check skipped (it comes with ffmpeg); the MP4 is unchecked');"
+            },
+            {
+              "line": 112,
+              "text": "// 2. frames → ffmpeg (PNG over stdin), muxed with the WAV"
+            },
+            {
+              "line": 120,
+              "text": "const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'png', '-i', '-', '-i', wav,"
+            },
+            {
+              "line": 124,
+              "text": "const done = new Promise((res, rej) => { ff.on('error', rej); ff.on('close', c => c ? rej(new Error('ffmpeg exited ' + c + '\\n' + ffErr)) : res()); });"
+            }
+          ]
+        }
+      ],
+      "note": "仅3段Opus示例；不收Sonnet/Codex；两个工具入口软链接保存为目标文本，不创建软链接。",
+      "commit": "21e875e9f97c83ce637eb18d35ff29c7712ebc18"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "entry": "demos/<style>/index.html；三维例demos/04-3d-render/blender/scene.py",
+      "drawing": "15种Canvas/WebGL/Blender绘制源、资产、cue表与配乐脚本",
+      "time": "浏览器window.renderAt(t)；Blender scene.py/sim.py按时间求帧",
+      "export": "harness/render.mjs → Chrome截图 + FFmpeg；Blender渲染路线另见README",
+      "evidence": [
+        {
+          "file": "harness/render.mjs",
+          "lines": [
+            {
+              "line": 6,
+              "text": "//   window.renderAt = async (t) => { ... }                     // draw the frame for time t (seconds)"
+            },
+            {
+              "line": 7,
+              "text": "// Anything not driven by renderAt (CSS animations, WAAPI) is also seeked to t automatically."
+            },
+            {
+              "line": 100,
+              "text": "if (typeof window.renderAt === 'function') await window.renderAt(t);"
+            },
+            {
+              "line": 112,
+              "text": "function ffmpeg(args, opts = {}) {"
+            },
+            {
+              "line": 113,
+              "text": "const p = spawn('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-y', ...args], { stdio: ['pipe', 'inherit', 'inherit'], ...opts });"
+            },
+            {
+              "line": 114,
+              "text": "const done = new Promise((res, rej) => p.on('close', (c) => (c === 0 ? res() : rej(new Error('ffmpeg exit ' + c)))));"
+            }
+          ]
+        },
+        {
+          "file": "demos/04-3d-render/blender/scene.py",
+          "lines": [
+            {
+              "line": 3,
+              "text": "import bpy, bmesh, sys, os, math"
+            },
+            {
+              "line": 18,
+              "text": "bpy.ops.wm.read_factory_settings(use_empty=True)"
+            },
+            {
+              "line": 19,
+              "text": "sc = bpy.context.scene"
+            },
+            {
+              "line": 22,
+              "text": "bpy.context.preferences.edit.keyframe_new_interpolation_type = 'LINEAR'"
+            },
+            {
+              "line": 25,
+              "text": "def hexcol(h, a=1.0):"
+            },
+            {
+              "line": 35,
+              "text": "prefs = bpy.context.preferences.addons['cycles'].preferences"
+            }
+          ]
+        }
+      ],
+      "note": "15段原片已在upstream-videos，哈希一致复用；本次补齐全部上游资产与代码。上游仍未包含字体文件和安装依赖。",
+      "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c"
+    }
+  ],
+  "excluded": [
+    {
+      "repo": "Zane-0x5a/remotion-director",
+      "reason": "有插件源码与宣传MP4，未发现宣传成片对应绘制源码，排除预览。"
+    },
+    {
+      "repo": "aadil6971/clawd-video",
+      "reason": "影片与绘制示例存在，但作者仓库没明确写出模型5.5，暂不加入本次限定模型预览。"
+    },
+    {
+      "repo": "bilaldemirerr/opus-video-recipes:app-store-preview",
+      "reason": "只提供brief，没发布对应Remotion绘制代码。"
+    }
+  ]
+}

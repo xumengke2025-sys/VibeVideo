@@ -1,0 +1,75 @@
+{
+  "id": "original/faroukzy-138551",
+  "title": "一句话生成 4 分钟动画短片",
+  "group": "电影感 3D",
+  "tags": "电影感 3D 叙事、手绘与定格 Four-minute animated short from one line 4 分钟动画短片：Opus 写故事、调度 12 个智能体，用代码生成画面、管弦配乐和音效，配音用 ElevenLabs。 faroukzy",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "faroukzy",
+  "authorUrl": "https://x.com/faroukzy/status/2103387771180138551",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/faroukzy-138551.mp4",
+  "bytes": 33848042,
+  "sha256": "712062b13c7b53d0b02ce5473dd77ec023dde1f0cf45fbf2667c392e9d2ea465",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103384925428752384/vid/avc1/1280x720/ZuUPNRuKHxuVQ-ny.mp4?tag=14",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/faroukzy-138551.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/faroukzy-138551.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 240,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "faroukzy-138551",
+    "title": "Four-minute animated short from one line",
+    "title_zh": "一句话生成 4 分钟动画短片",
+    "url": "https://x.com/faroukzy/status/2103387771180138551",
+    "author": "faroukzy",
+    "author_name": "Farouk Alogba",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 4-minute animated short where Opus wrote the story, coordinated 12 agents and generated frames, score and effects in code; voices came from ElevenLabs.",
+    "description_zh": "4 分钟动画短片：Opus 写故事、调度 12 个智能体，用代码生成画面、管弦配乐和音效，配音用 ElevenLabs。",
+    "prompt": "make a 4-minute animated short that blows my mind.",
+    "prompt_lang": "en",
+    "prompt_zh": "做一部 4 分钟、能让我大开眼界的动画短片。",
+    "kind": "one-shot",
+    "tools": [
+      "elevenlabs"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103384925428752384/img/dxak3JMtUREXjBs7.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103384925428752384/vid/avc1/480x270/2gU60T7Hc4XwkwPU.mp4?tag=14",
+      "video_hd": "https://video.twimg.com/amplify_video/2103384925428752384/vid/avc1/1280x720/ZuUPNRuKHxuVQ-ny.mp4?tag=14",
+      "duration": 240,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 1,
+      "likes": 2,
+      "views": 80
+    },
+    "category": "story"
+  },
+  "styleClassificationSource": {
+    "id": "2103387771180138551",
+    "style": "cinematic3d",
+    "title_zh": "震撼短片动画",
+    "title_en": "Mind Blowing Animated Short Film",
+    "author": "faroukzy",
+    "post_url": "https://x.com/faroukzy/status/2103387771180138551",
+    "prompt": "make a 4-minute animated short that blows my mind.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 2
+  },
+  "downloadedAt": "2026-10-14T09:14:52.510Z"
+}

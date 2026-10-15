@@ -1,0 +1,73 @@
+{
+  "id": "original/xanderwow_a-597063",
+  "title": "Dario 大战 Sam",
+  "group": "扁平卡通",
+  "tags": "扁平卡通 叙事、手绘与定格 Dario vs. Sam comedy fight 1 分钟的 Dario 对 Sam 搞笑打斗短片，有剧情、分胜负，画风由模型自选，结果它让 Sam 赢了。 Xanderwow_A",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "Xanderwow_A",
+  "authorUrl": "https://x.com/Xanderwow_A/status/2103637769012597063",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/xanderwow_a-597063.mp4",
+  "bytes": 7181752,
+  "sha256": "4ca8842395d2bedfa57b5a658e281fe7d5fd3343822b53c2570377b610ab323a",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103637049446203392/vid/avc1/1280x720/zzLtF9TyfozuBns3.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/xanderwow_a-597063.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/xanderwow_a-597063.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 60,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "xanderwow_a-597063",
+    "title": "Dario vs. Sam comedy fight",
+    "title_zh": "Dario 大战 Sam",
+    "url": "https://x.com/Xanderwow_A/status/2103637769012597063",
+    "author": "Xanderwow_A",
+    "author_name": "Xanderwow",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A one-minute absurd comedy fight between Dario Amodei and Sam Altman with a plot and a clear winner; the model chose the style, and Sam wins.",
+    "description_zh": "1 分钟的 Dario 对 Sam 搞笑打斗短片，有剧情、分胜负，画风由模型自选，结果它让 Sam 赢了。",
+    "prompt": "制作一段1分钟长度的视频，内容是Dario和Sam的打斗，要求有剧情、有爆点、够搞笑且足够抽象，类型和画风不限，做你最擅长的。必须在两人之间分出胜负。",
+    "prompt_lang": "zh",
+    "prompt_en": "Make a 1-minute video of Dario and Sam fighting. It needs a plot and big payoff moments, and it should be funny enough and abstract enough. Any genre and art style, do what you are best at. There must be a clear winner between the two.",
+    "kind": "one-shot",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103637049446203392/img/JPp395xZfu10IhMq.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103637049446203392/vid/avc1/480x270/RcRehYdqHzG3_dc5.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103637049446203392/vid/avc1/1280x720/zzLtF9TyfozuBns3.mp4?tag=29",
+      "duration": 60,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 5,
+      "likes": 18,
+      "views": 2008,
+      "reposts": 2
+    },
+    "category": "story"
+  },
+  "styleClassificationSource": {
+    "id": "2103637769012597063",
+    "style": "cartoon",
+    "title_zh": "Dario与Sam爆笑对决动画",
+    "title_en": "Dario vs Sam Comedy Fight",
+    "author": "Xanderwow_A",
+    "post_url": "https://x.com/Xanderwow_A/status/2103637769012597063",
+    "prompt": "Create a 1-minute video featuring a fight between Dario and Sam. It needs plot, explosive moments, to be hilarious and sufficiently abstract, with no limits on genre or art style—do what you're best at. Must have a clear winner between the two.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 18
+  },
+  "downloadedAt": "2026-10-14T09:12:39.630Z"
+}

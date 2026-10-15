@@ -1,0 +1,72 @@
+{
+  "id": "original/tetumemo-584046",
+  "title": "3D 重现坛之浦之战",
+  "group": "历史与纪录",
+  "tags": "历史与纪录 历史与纪录 Battle of Dan-no-ura as a 3D TV special 74 秒 3D 俯瞰动画，重现坛之浦之战，有船队布阵、潮流反转和贴着海面的低空镜头。 tetumemo",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "tetumemo",
+  "authorUrl": "https://x.com/tetumemo/status/2102652072252584046",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/tetumemo-584046.mp4",
+  "bytes": 14545226,
+  "sha256": "b0c1b225f32363d5d3d94adfe82334507309e4515cb068bf82a27d24d124ea7f",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102650776539791360/vid/avc1/1280x720/ZuzT-9RVbEYvxRtK.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/tetumemo-584046.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/tetumemo-584046.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 73.7,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "tetumemo-584046",
+    "title": "Battle of Dan-no-ura as a 3D TV special",
+    "title_zh": "3D 重现坛之浦之战",
+    "url": "https://x.com/tetumemo/status/2102652072252584046",
+    "author": "tetumemo",
+    "author_name": "テツメモ｜AI図解×検証｜Newsletter",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "A 74-second 3D overhead reconstruction of the Battle of Dan-no-ura, showing fleets, shifting tidal currents and low cameras skimming the sea.",
+    "description_zh": "74 秒 3D 俯瞰动画，重现坛之浦之战，有船队布阵、潮流反转和贴着海面的低空镜头。",
+    "prompt": "壇ノ浦の戦いをテレビ特番級3D俯瞰デモ化。\n地形・軍勢・進軍矢印・霧・カメラ移動を滑らかに演出。\nさらに、関門海峡の潮流、源氏と平氏の船団配置、潮の反転による戦況変化を立体的に可視化する。\n海面すれすれの低空カメラ、船団を追う旋回カメラ、水しぶきや海霧を加え、戦況の変化が直感的に伝わる映像にする。",
+    "prompt_lang": "ja",
+    "prompt_en": "Turn the Battle of Dan-no-ura into a TV-special-grade 3D overhead demo.\nSmoothly stage the terrain, armies, advance arrows, fog and camera moves.\nAlso visualize in 3D the tidal currents of the Kanmon Strait, the positions of the Genji and Heike fleets, and how the reversal of the tide changed the course of the battle.\nAdd a low camera skimming the sea surface, an orbiting camera following the fleets, spray and sea mist, so the shifts in the battle come across intuitively.",
+    "prompt_zh": "把坛之浦之战做成电视特别节目级别的 3D 俯瞰演示。\n流畅地呈现地形、军队、进军箭头、雾气和镜头移动。\n另外，把关门海峡的潮流、源氏和平氏的船队部署、潮水反转带来的战局变化立体地可视化。\n加入贴着海面的低空镜头、追着船队转的环绕镜头、水花和海雾，让战局变化一看就懂。",
+    "prompt_url": "https://x.com/tetumemo/status/2102652076702716273",
+    "kind": "brief",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102650776539791360/img/Sadc4NxaayPoPP2D.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102650776539791360/vid/avc1/480x270/TIv2lFpZdOJgFde4.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102650776539791360/vid/avc1/1280x720/ZuzT-9RVbEYvxRtK.mp4?tag=29",
+      "duration": 73.7,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 47,
+      "likes": 56,
+      "views": 14377,
+      "reposts": 3
+    },
+    "category": "history",
+    "remakes": [
+      {
+        "author": "tetumemo",
+        "url": "https://x.com/tetumemo/status/2102652076702716273",
+        "thumb": "https://pbs.twimg.com/media/HS4d8E6a4AAwCTp.jpg?name=orig"
+      }
+    ]
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:24:09.591Z"
+}

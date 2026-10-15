@@ -1,0 +1,76 @@
+{
+  "id": "original/ajith_io-208546",
+  "title": "Distilbook 产品视频",
+  "group": "产品发布与广告",
+  "tags": "产品发布与广告 产品发布与广告 Product video for Distilbook 给 Distilbook 做的 40 秒动效产品视频：Opus 先调研产品，再当成自己的作品集来做。 ajith_io",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "ajith_io",
+  "authorUrl": "https://x.com/ajith_io/status/2103469807375208546",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/ajith_io-208546.mp4",
+  "bytes": 3531653,
+  "sha256": "1592b2b18587d91434c9c51d3e2f52a5ebad95f15d8e67a6848565981513fd60",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103468768802615296/vid/avc1/1280x720/12khMM7-uPQASRZN.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/ajith_io-208546.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/ajith_io-208546.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 40,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "ajith_io-208546",
+    "title": "Product video for Distilbook",
+    "title_zh": "Distilbook 产品视频",
+    "url": "https://x.com/ajith_io/status/2103469807375208546",
+    "author": "ajith_io",
+    "author_name": "Ajith",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 40-second motion graphics product video for Distilbook: Opus researches the product first, then treats the video as its own showreel. Made in Claude Code on max.",
+    "description_zh": "给 Distilbook 做的 40 秒动效产品视频：Opus 先调研产品，再当成自己的作品集来做。",
+    "prompt": "Research Distilbook.Make a dynamic 40-second motion graphics video on Distilbook that shows what an incredible motion designer you are. like it's your showreel - Go all out.",
+    "prompt_lang": "en",
+    "prompt_zh": "调研 Distilbook。为 Distilbook 做一段 40 秒、充满动感的动态图形视频，展示你是多么出色的动效设计师。就像你的作品集一样——拿出全部本事。",
+    "kind": "one-shot",
+    "tools": [
+      "claude-code"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: around 1 hour; about 1% of the weekly limit on the $200 plan.",
+    "note_zh": "作者称约 1 小时，约占 200 美元套餐周额度的 1%。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103468768802615296/img/-D4Bgp8BO_e9WSyf.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103468768802615296/vid/avc1/480x270/mscq6tqzAdHd64vl.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103468768802615296/vid/avc1/1280x720/12khMM7-uPQASRZN.mp4?tag=29",
+      "duration": 40,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 825,
+      "likes": 621,
+      "views": 97320,
+      "reposts": 40
+    },
+    "category": "launch",
+    "remakes": [
+      {
+        "author": "itisRazak",
+        "url": "https://x.com/itisRazak/status/2103517930424332386",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103517880780541952/img/74giBGRx6iz9g6KA.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103517880780541952/vid/avc1/476x270/tpxVDZsptp1cF_42.mp4?tag=29"
+      }
+    ]
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:21:48.346Z"
+}

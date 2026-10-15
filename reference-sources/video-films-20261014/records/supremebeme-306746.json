@@ -1,0 +1,72 @@
+{
+  "id": "original/supremebeme-306746",
+  "title": "终端上瘾 brainrot 视频",
+  "group": "扁平卡通",
+  "tags": "扁平卡通 改编与复刻 Brainrot video about terminal addiction 46 秒 brainrot 风格短片，讲离不开终端、对 AI 上瘾，素材是作者一并喂进去的一篇文章。 supremebeme",
+  "kind": "作者改编参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "supremebeme",
+  "authorUrl": "https://x.com/supremebeme/status/2103272941832306746",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/supremebeme-306746.mp4",
+  "bytes": 4582119,
+  "sha256": "800fabc3b9ca1318a95ceb25f2c4f4342e0873f2958c49f0ce77a05ea0028d54",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103272429724528640/vid/avc1/720x1280/FyKUEi81ocrz4VUn.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/supremebeme-306746.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/supremebeme-306746.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供；作者自行改编作品",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 46,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "supremebeme-306746",
+    "title": "Brainrot video about terminal addiction",
+    "title_zh": "终端上瘾 brainrot 视频",
+    "url": "https://x.com/supremebeme/status/2103272941832306746",
+    "author": "supremebeme",
+    "author_name": "Supreme",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 46-second brainrot-style video about being hooked on AI in the terminal, built from an article the author fed in with the prompt.",
+    "description_zh": "46 秒 brainrot 风格短片，讲离不开终端、对 AI 上瘾，素材是作者一并喂进去的一篇文章。",
+    "prompt": "make a brainrot video about the terminal. i can't escape it. ai is so addictive.",
+    "prompt_lang": "en",
+    "prompt_zh": "做一个关于终端的 brainrot 视频。我逃不掉它。AI 太让人上瘾了。",
+    "kind": "one-shot",
+    "inputs": [
+      "script"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103272429724528640/img/XXawVzlE98ZowBcA.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103272429724528640/vid/avc1/320x568/Yky1Xw52S0MNsHIu.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103272429724528640/vid/avc1/720x1280/FyKUEi81ocrz4VUn.mp4?tag=29",
+      "duration": 46,
+      "width": 1080,
+      "height": 1920
+    },
+    "metrics": {
+      "bookmarks": 1,
+      "likes": 4,
+      "views": 366
+    },
+    "category": "remix"
+  },
+  "styleClassificationSource": {
+    "id": "2103272941832306746",
+    "style": "cartoon",
+    "title_zh": "终端命令行AI上瘾洗脑视频",
+    "title_en": "Terminal AI Addiction Brainrot",
+    "author": "supremebeme",
+    "post_url": "https://x.com/supremebeme/status/2103272941832306746",
+    "prompt": "make a brainrot video about the terminal. i can't escape it. ai is so addictive.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 4
+  },
+  "downloadedAt": "2026-10-14T09:27:18.205Z"
+}

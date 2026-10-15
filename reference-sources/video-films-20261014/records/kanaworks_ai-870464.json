@@ -1,0 +1,76 @@
+{
+  "id": "original/kanaworks_ai-870464",
+  "title": "像素风兔子弓箭手动画",
+  "group": "像素",
+  "tags": "像素 叙事、手绘与定格 Pixel-art rabbit archer sprite animation loop 16-bit 风像素动画循环：机械眼兔子弓箭手演示 8 个动作，按参考图用 Canvas 2D 程序化绘制。 KanaWorks_AI",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "KanaWorks_AI",
+  "authorUrl": "https://x.com/KanaWorks_AI/status/2102598986393870464",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/kanaworks_ai-870464.mp4",
+  "bytes": 1167388,
+  "sha256": "81cbf1f58aae6e069092fada1e42643c6a09604e70e1d01d9f5256cb1504b056",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102595601041104896/vid/avc1/720x1280/Ad1Mo1lSXg0h-umC.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/kanaworks_ai-870464.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/kanaworks_ai-870464.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 17.6,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "kanaworks_ai-870464",
+    "title": "Pixel-art rabbit archer sprite animation loop",
+    "title_zh": "像素风兔子弓箭手动画",
+    "url": "https://x.com/KanaWorks_AI/status/2102598986393870464",
+    "author": "KanaWorks_AI",
+    "author_name": "KANA｜東京AI映像",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "A looping 16-bit style sprite showcase of a cyborg rabbit archer cycling through eight actions, drawn procedurally in Canvas 2D at 160x120 from a character reference.",
+    "description_zh": "16-bit 风像素动画循环：机械眼兔子弓箭手演示 8 个动作，按参考图用 Canvas 2D 程序化绘制。",
+    "prompt": "Create a single self-contained HTML file that renders an animated pixel art rabbit archer character using vanilla JavaScript and Canvas 2D.\n\nUse the attached KANA rabbit character as the visual reference:\n- White rabbit\n- Large upright ears with cyan/blue glowing inner-ear details\n- One normal blue eye\n- One red cybernetic mechanical eye\n- Yellow hoodie with “KANA”\n- Dark blue gloves and pants\n- Yellow/blue sci-fi mechanical leg armor\n- Cute chibi proportions\n- Futuristic bow and arrow weapon\n- Small quiver on the back\n\nDo not use external assets, libraries, images, fonts, or network requests.\nEverything must be drawn procedurally with code.\n\nRENDERING\n- Render everything first to an offscreen canvas at a fixed logical resolution of 160x120.\n- Scale it to a fullscreen display canvas using the largest integer scale that fits the browser window.\n- Center the canvas.\n- Set imageSmoothingEnabled = false.\n- Use CSS image-rendering: pixelated.\n- All coordinates must snap to integers.\n- No gradients, blur, anti-aliasing, shadowBlur, or sub-pixel rendering.\n- Use a fixed palette of approximately 28 colors:\n  dark navy background colors,\n  white/gray fur,\n  yellow hoodie colors,\n  blue clothing colors,\n  red cyber-eye colors,\n  cyan ear-light colors,\n  yellow/orange bow and arrow effects.\n\nCHARACTER\nBuild the rabbit procedurally from pixel rectangles, polygon-like pixel runs, circles approximated with pixels, and simple block shapes.\n\nApproximate character size:\n- 28–34 pixels wide\n- 40–48 pixels tall\n\nKeep the silhouette clearly recognizable:\n- Large rabbit ears\n- Round fluffy head\n- Small body\n- Cybernetic red eye\n- Yellow hoodie\n- Mechanical legs\n- Bow\n- Arrow\n- Quiver\n\nAnimate ears, head, arms, legs, hoodie, bow, arrow, and body separately.\n\nQuantize animation poses so that although the main loop renders at 60fps, the visual animation feels like polished 8–12fps sprite animation.\n\nACTIONS\n\nCreate a looping animation showcase containing these 8 actions:\n\n1. IDLE\n- Rabbit stands ready\n- Slight body bob\n- Ears move subtly\n- Hoodie and quiver sway\n- Cyber eye pulses softly\n- Bow held relaxed at the side\n\n2. RUN\n- Fast forward running animation\n- Strong alternating leg motion\n- Arms balance the movement\n- Bow held in one hand\n- Quiver bounces\n- Ears trail slightly backward\n- Small dust pixels appear under the feet\n\n3. AIM\n- Rabbit plants feet firmly\n- Raises bow\n- Pulls arrow from quiver\n- Nocks arrow\n- Draws bowstring backward\n- One eye focuses on target\n- Cyber eye becomes brighter\n- Body leans slightly into the shot\n\n4. SHOOT\n- Release the bowstring\n- Arrow fires rapidly across the screen\n- Bow recoils slightly\n- Rabbit’s arm follows through\n- Bright yellow energy trail follows the arrow\n- Small 1–2 pixel screen shake\n- Cyber eye flashes red\n- Brief muzzle-like light burst from bow\n\n5. JUMP\n- Rabbit crouches\n- Jumps upward\n- Legs tuck under body\n- Ears react with delayed motion\n- Bow held close to body\n- Small dust burst on takeoff\n- Slight squash and stretch using pixel-safe integer transformations\n\n6. DODGE / ROLL\n- Rabbit quickly ducks\n- Rolls sideways\n- Bow is kept close to the body\n- Ears flatten backward\n- Small dust particles and motion pixels\n- End in a low combat-ready pose\n\n7. HURT / HIT\n- Rabbit gets knocked backward slightly\n- Head snaps back\n- Ears react dramatically\n- Cyber eye flickers\n- Small pixel stars or impact sparks appear\n- Bow lowers or nearly drops\n- Character recovers after a short delay\n\n8. VICTORY\n- Rabbit raises bow overhead\n- Happy expression\n- One ear tilts playfully\n- Cyber eye glows brightly\n- Small yellow celebration particles appear\n- Character performs a short victory bounce\n- End pose should feel cute and heroic\n\nSTATE MACHINE\n\nUse this loop:\n\nIDLE\n→ RUN\n→ AIM\n→ SHOOT\n→ JUMP\n→ DODGE\n→ HURT\n→ VICTORY\n→ IDLE\n\nEach action should last long enough to clearly read visually.\n\nUse easing functions for pose transitions.\n\nAdd short transition animations between states so the loop feels continuous instead of abruptly switching poses.\n\nBOW AND ARROW\n- Futuristic curved bow\n- White / dark navy body\n- Yellow glowing mechanical joints\n- Thin bright bowstring\n- Arrow has a bright yellow arrowhead\n- Arrow trail during SHOOT should last briefly\n- Quiver contains several visible arrows\n\nPARTICLES\nImplement an allocation-free pooled particle system.\n\nPreallocate all particles before the animation loop.\n\nParticle types:\n- Foot dust\n- Arrow trail\n- Bow energy sparks\n- Cyber eye sparks\n- Hit stars\n- Victory particles\n\nEach particle changes palette color as it ages.\n\nDo not allocate new objects inside the main loop.\n\nSCENE\nCreate a minimal pixel-art environment:\n- Dark night sky\n- A few 1px stars\n- Large moon\n- Simple stone or futuristic platform\n- Very subtle distant silhouettes\n\nThe background must remain simple so the rabbit silhouette is always readable.\n\nAdd subtle cyan/red rim lighting from the cybernetic eye and yellow rim lighting from the bow during AIM and SHOOT.\n\nTECHNICAL REQUIREMENTS\n- Single HTML file\n- Vanilla JavaScript only\n- Canvas 2D only\n- No libraries\n- No SVG\n- No external images\n- No assets\n- No network requests\n- Fixed 60Hz timestep\n- requestAnimationFrame for rendering\n- Zero object allocation inside the main animation loop\n- Stable 60fps\n- Responsive fullscreen scaling\n- Crisp integer-scaled pixels\n\nQUALITY BAR\nThe result should look like a polished 16-bit action-game protagonist sprite animation.\n\nAvoid the appearance of simple geometric shapes.\n\nThe rabbit should feel expressive, cute, fast, and combat-capable.\n\nThe eight actions must all have clearly different silhouettes.\n\nThe character design must remain consistent across every animation state.\n\nThe final result should feel suitable for an actual pixel-art action game.",
+    "prompt_lang": "en",
+    "prompt_zh": "创建一个独立的单 HTML 文件，用原生 JavaScript 和 Canvas 2D 渲染一个会动的像素风兔子弓箭手角色。\n\n以附带的 KANA 兔子角色作为视觉参考：\n- 白色兔子\n- 竖立的大耳朵，耳朵内侧有青色/蓝色发光细节\n- 一只正常的蓝色眼睛\n- 一只红色的赛博机械眼\n- 印着 “KANA” 的黄色连帽衫\n- 深蓝色手套和裤子\n- 黄/蓝配色的科幻机械腿甲\n- 可爱的 Q 版比例\n- 未来感的弓箭武器\n- 背上的小箭袋\n\n不要使用外部素材、库、图片、字体或网络请求。\n所有东西都必须用代码程序化绘制。\n\n渲染\n- 所有内容先渲染到一个固定逻辑分辨率为 160x120 的离屏 canvas 上。\n- 再用适配浏览器窗口的最大整数倍，缩放到全屏显示的 canvas 上。\n- canvas 居中。\n- 设置 imageSmoothingEnabled = false。\n- 使用 CSS image-rendering: pixelated。\n- 所有坐标都必须对齐到整数。\n- 不要渐变、模糊、抗锯齿、shadowBlur 或亚像素渲染。\n- 使用约 28 种颜色的固定调色板：\n  深海军蓝背景色、\n  白/灰色毛发、\n  黄色连帽衫配色、\n  蓝色衣物配色、\n  红色赛博眼配色、\n  青色耳灯配色、\n  黄/橙色弓箭特效。\n\n角色\n用像素矩形、类似多边形的像素行、用像素近似的圆形和简单的方块形状，程序化地拼出兔子。\n\n角色大致尺寸：\n- 宽 28–34 像素\n- 高 40–48 像素\n\n保持剪影清晰可辨：\n- 兔子大耳朵\n- 圆圆的毛茸茸脑袋\n- 小身体\n- 红色赛博眼\n- 黄色连帽衫\n- 机械腿\n- 弓\n- 箭\n- 箭袋\n\n耳朵、头、手臂、腿、连帽衫、弓、箭和身体分别单独做动画。\n\n对动画姿势做量化，让主循环虽然以 60fps 渲染，视觉上却像精致的 8–12fps 精灵动画。\n\n动作\n\n做一个循环播放的动画展示，包含以下 8 个动作：\n\n1. IDLE（待机）\n- 兔子站立待命\n- 身体轻微上下起伏\n- 耳朵轻轻摆动\n- 连帽衫和箭袋晃动\n- 赛博眼柔和地脉动\n- 弓自然地握在身侧\n\n2. RUN（奔跑）\n- 快速向前奔跑的动画\n- 双腿有力地交替\n- 手臂摆动保持平衡\n- 一只手握弓\n- 箭袋上下颠动\n- 耳朵微微向后飘\n- 脚下冒出小的尘土像素\n\n3. AIM（瞄准）\n- 兔子双脚稳稳站定\n- 举起弓\n- 从箭袋中抽出箭\n- 搭箭上弦\n- 向后拉开弓弦\n- 一只眼盯住目标\n- 赛博眼变亮\n- 身体微微前倾，进入射击姿态\n\n4. SHOOT（射击）\n- 松开弓弦\n- 箭飞速射过屏幕\n- 弓轻微后坐\n- 兔子的手臂顺势跟进\n- 箭后拖着明亮的黄色能量尾迹\n- 1–2 像素的轻微屏幕震动\n- 赛博眼闪红光\n- 弓上迸出一下类似枪口焰的短暂闪光\n\n5. JUMP（跳跃）\n- 兔子下蹲\n- 向上跳起\n- 双腿收到身下\n- 耳朵带延迟地随动\n- 弓贴近身体\n- 起跳时扬起一小团尘土\n- 用不破坏像素的整数变换做轻微的挤压与拉伸\n\n6. DODGE / ROLL（闪避 / 翻滚）\n- 兔子迅速俯身\n- 侧向翻滚\n- 弓始终贴近身体\n- 耳朵向后贴平\n- 少量尘土粒子和运动像素\n- 以低姿态的备战姿势结束\n\n7. HURT / HIT（受击）\n- 兔子被稍稍击退\n- 头猛地后仰\n- 耳朵反应夸张\n- 赛博眼闪烁\n- 出现小的像素星星或撞击火花\n- 弓垂下或几乎脱手\n- 角色短暂停顿后恢复\n\n8. VICTORY（胜利）\n- 兔子把弓举过头顶\n- 开心的表情\n- 一只耳朵俏皮地歪着\n- 赛博眼明亮发光\n- 出现小的黄色庆祝粒子\n- 角色做一个短暂的胜利蹦跳\n- 结束姿势要既可爱又英勇\n\n状态机\n\n使用这个循环：\n\nIDLE\n→ RUN\n→ AIM\n→ SHOOT\n→ JUMP\n→ DODGE\n→ HURT\n→ VICTORY\n→ IDLE\n\n每个动作都要持续足够长的时间，让人能看清楚。\n\n姿势之间的过渡使用缓动函数。\n\n在状态之间加入简短的过渡动画，让循环连贯，而不是突然切换姿势。\n\n弓与箭\n- 未来感的弯弓\n- 白色 / 深海军蓝弓身\n- 发黄光的机械关节\n- 细而亮的弓弦\n- 箭头是亮黄色的\n- SHOOT 时的箭尾迹只持续很短时间\n- 箭袋里能看到几支箭\n\n粒子\n实现一个不分配内存的对象池粒子系统。\n\n在动画循环开始前预先分配好所有粒子。\n\n粒子类型：\n- 脚下尘土\n- 箭的尾迹\n- 弓的能量火花\n- 赛博眼火花\n- 受击星星\n- 胜利粒子\n\n每个粒子随生命周期推移切换调色板颜色。\n\n不要在主循环里分配新对象。\n\n场景\n创建一个极简的像素风环境：\n- 黑暗的夜空\n- 几颗 1px 的星星\n- 一轮大月亮\n- 简单的石台或未来感平台\n- 非常淡的远景剪影\n\n背景必须保持简洁，让兔子的剪影始终清晰可辨。\n\n在 AIM 和 SHOOT 时，加入来自赛博眼的淡淡青色/红色轮廓光，以及来自弓的黄色轮廓光。\n\n技术要求\n- 单个 HTML 文件\n- 只用原生 JavaScript\n- 只用 Canvas 2D\n- 不用任何库\n- 不用 SVG\n- 不用外部图片\n- 不用素材\n- 没有网络请求\n- 固定 60Hz 时间步长\n- 用 requestAnimationFrame 渲染\n- 主动画循环内零对象分配\n- 稳定 60fps\n- 响应式全屏缩放\n- 整数倍缩放的清晰像素\n\n质量标准\n成品应该像一款精致的 16-bit 动作游戏主角的精灵动画。\n\n避免看起来像简单的几何图形。\n\n兔子要显得表情丰富、可爱、敏捷，并且有战斗力。\n\n8 个动作的剪影必须明显不同。\n\n角色设计在每个动画状态下都必须保持一致。\n\n最终效果要让人觉得可以直接用在一款真正的像素动作游戏里。",
+    "kind": "spec",
+    "tools": [
+      "canvas"
+    ],
+    "inputs": [
+      "images"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102595601041104896/img/eTZRF5UQRsMlMa-I.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102595601041104896/vid/avc1/320x568/RLhMvo0I5UXWArla.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102595601041104896/vid/avc1/720x1280/Ad1Mo1lSXg0h-umC.mp4?tag=29",
+      "duration": 17.6,
+      "width": 1080,
+      "height": 1920
+    },
+    "metrics": {
+      "bookmarks": 38,
+      "likes": 67,
+      "views": 7270,
+      "reposts": 14
+    },
+    "category": "story"
+  },
+  "styleClassificationSource": {
+    "id": "2102598986393870464",
+    "style": "pixel",
+    "title_zh": "像素兔子弓箭手动画",
+    "title_en": "Pixel rabbit archer animation",
+    "author": "KanaWorks_AI",
+    "post_url": "https://x.com/KanaWorks_AI/status/2102598986393870464",
+    "prompt": "Create a single self-contained HTML file that renders an animated pixel art rabbit archer character using vanilla JavaScript and Canvas 2D.\n\nUse the attached KANA rabbit character as the",
+    "prompt_partial": false,
+    "likes_2026_09_29": 68
+  },
+  "downloadedAt": "2026-10-14T09:10:05.781Z"
+}

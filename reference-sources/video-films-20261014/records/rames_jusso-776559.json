@@ -1,0 +1,75 @@
+{
+  "id": "original/rames_jusso-776559",
+  "title": "英式 dubstep 音乐视频",
+  "group": "复古 · 终端 · 老电影",
+  "tags": "复古 · 终端 · 老电影 MV 与歌词动画 140 BPM UK dubstep music video 用 HyperFrames 的 /prod-by-claude 技能做的 dubstep 视频，提示词只写了曲风和速度。 Rames_Jusso",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "Rames_Jusso",
+  "authorUrl": "https://x.com/Rames_Jusso/status/2103200703598776559",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/rames_jusso-776559.mp4",
+  "bytes": 42864083,
+  "sha256": "b3ad70dbeea369b201ca43f7235663088f2fc68cedade99bb204bac0e36af087",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103199713579483136/vid/avc1/1080x1080/0R3O0hXUUAl0INwu.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/rames_jusso-776559.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/rames_jusso-776559.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 61.5,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "rames_jusso-776559",
+    "title": "140 BPM UK dubstep music video",
+    "title_zh": "英式 dubstep 音乐视频",
+    "url": "https://x.com/Rames_Jusso/status/2103200703598776559",
+    "author": "Rames_Jusso",
+    "author_name": "James Russo",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A one-minute dubstep track with visuals made through a HyperFrames /prod-by-claude skill, where the whole prompt is a genre and a tempo.",
+    "description_zh": "用 HyperFrames 的 /prod-by-claude 技能做的 dubstep 视频，提示词只写了曲风和速度。",
+    "prompt": "140 BPM rusko/skream style UK dubstep",
+    "prompt_lang": "en",
+    "prompt_zh": "140 BPM 的 rusko/skream 风格英式 dubstep",
+    "kind": "one-shot",
+    "tools": [
+      "hyperframes"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103199713579483136/img/J8gGDS3J9TaWmtih.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103199713579483136/vid/avc1/320x320/0QiJv22nKdMR_cCc.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103199713579483136/vid/avc1/1080x1080/0R3O0hXUUAl0INwu.mp4?tag=29",
+      "duration": 61.5,
+      "width": 1080,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 1,
+      "likes": 7,
+      "views": 1053
+    },
+    "category": "music"
+  },
+  "styleClassificationSource": {
+    "id": "2103200703598776559",
+    "style": "retro",
+    "title_zh": "英式低频电子音乐创作",
+    "title_en": "UK Dubstep Music Creation",
+    "author": "Rames_Jusso",
+    "post_url": "https://x.com/Rames_Jusso/status/2103200703598776559",
+    "prompt": "140 BPM rusko/skream style UK dubstep",
+    "prompt_partial": false,
+    "likes_2026_09_29": 7
+  },
+  "downloadedAt": "2026-10-14T09:21:12.814Z"
+}

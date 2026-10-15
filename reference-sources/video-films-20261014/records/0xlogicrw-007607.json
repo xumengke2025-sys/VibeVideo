@@ -1,0 +1,73 @@
+{
+  "id": "original/0xlogicrw-007607",
+  "title": "Opus 5.5 自我宣传动画",
+  "group": "像素",
+  "tags": "像素 让 Opus 讲自己 Opus 5.5 promo animation drawn in JavaScript Opus 5.5 给自己做的宣传动画，全用 JavaScript 绘制并配背景音乐，原帖与 GPT 6 Sol 版对比。 0xLogicrw",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "0xLogicrw",
+  "authorUrl": "https://x.com/0xLogicrw/status/2103053803386007607",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/0xlogicrw-007607.mp4",
+  "bytes": 4780921,
+  "sha256": "000e382f665e24fb6fd5f8b133bf26554ec8f7bf90f2b393a18721b4d70ba16f",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103050217767727105/vid/avc1/1280x720/JIt1X1jxA_EN3tL_.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/0xlogicrw-007607.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/0xlogicrw-007607.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 52.8,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "0xlogicrw-007607",
+    "title": "Opus 5.5 promo animation drawn in JavaScript",
+    "title_zh": "Opus 5.5 自我宣传动画",
+    "url": "https://x.com/0xLogicrw/status/2103053803386007607",
+    "author": "0xLogicrw",
+    "author_name": "思维怪怪",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A promo animation for Opus 5.5 itself, drawn entirely in JavaScript with background music; the post sets it beside GPT 6 Sol's attempt.",
+    "description_zh": "Opus 5.5 给自己做的宣传动画，全用 JavaScript 绘制并配背景音乐，原帖与 GPT 6 Sol 版对比。",
+    "prompt": "使用 JavaScript 去制作一个动画，主要是宣传 Opus 5.5/GPT 6 Sol 的动画。就是通过 JavaScript 去画出来，然后配上背景音乐",
+    "prompt_lang": "zh",
+    "prompt_en": "Use JavaScript to make an animation, mainly an animation promoting Opus 5.5/GPT 6 Sol. That is, draw it with JavaScript, then add background music",
+    "kind": "one-shot",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103050217767727105/img/B6u7RG0kC1yCNpWu.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103050217767727105/vid/avc1/480x270/qrfCJ29o4rXi9oqk.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103050217767727105/vid/avc1/1280x720/JIt1X1jxA_EN3tL_.mp4?tag=29",
+      "duration": 52.8,
+      "width": 1280,
+      "height": 720
+    },
+    "metrics": {
+      "bookmarks": 68,
+      "likes": 131,
+      "views": 20863,
+      "reposts": 10
+    },
+    "category": "self"
+  },
+  "styleClassificationSource": {
+    "id": "2103053803386007607",
+    "style": "pixel",
+    "title_zh": "JS动画对比视频",
+    "title_en": "JS animation AI promo",
+    "author": "0xLogicrw",
+    "post_url": "https://x.com/0xLogicrw/status/2103053803386007607",
+    "prompt": "使用 JavaScript 去制作一个动画，主要是宣传 Opus 5.5/GPT 6 Sol 的动画。就是通过 JavaScript",
+    "prompt_partial": false,
+    "likes_2026_09_29": 132
+  },
+  "downloadedAt": "2026-10-14T09:10:15.040Z"
+}

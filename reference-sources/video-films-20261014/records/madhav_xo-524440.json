@@ -1,0 +1,72 @@
+{
+  "id": "original/madhav_xo-524440",
+  "title": "Claude 眼中的我",
+  "group": "生成艺术 · 霓虹",
+  "tags": "生成艺术 · 霓虹 让 Opus 讲自己 10-second video of what Claude knows about me Opus 5.5 根据它对用户已有的了解，做了一段 10 秒的个人短片，用的是 xhigh 档位。 Madhav_XO",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "Madhav_XO",
+  "authorUrl": "https://x.com/Madhav_XO/status/2103605007396524440",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/madhav_xo-524440.mp4",
+  "bytes": 1985066,
+  "sha256": "bef8afdac3650b333d4de48b95998d16cbc97d548cdda3b91c706637707210cd",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103604974412595200/vid/avc1/1280x720/tR9ac0xzd2glWosO.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/madhav_xo-524440.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/madhav_xo-524440.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 10,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "madhav_xo-524440",
+    "title": "10-second video of what Claude knows about me",
+    "title_zh": "Claude 眼中的我",
+    "url": "https://x.com/Madhav_XO/status/2103605007396524440",
+    "author": "Madhav_XO",
+    "author_name": "Madhav",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 10-second video Opus 5.5 made about its user from whatever it already knew about them, on extra-high effort.",
+    "description_zh": "Opus 5.5 根据它对用户已有的了解，做了一段 10 秒的个人短片，用的是 xhigh 档位。",
+    "prompt": "make a 10 sec video on whatever you know about me",
+    "prompt_lang": "en",
+    "prompt_zh": "根据你对我的所有了解，做一段 10 秒的视频",
+    "kind": "one-shot",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103604974412595200/img/QNckoPfteZwa70if.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103604974412595200/vid/avc1/480x270/BmXZlG2FZ3BPif73.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103604974412595200/vid/avc1/1280x720/tR9ac0xzd2glWosO.mp4?tag=29",
+      "duration": 10,
+      "width": 1280,
+      "height": 720,
+      "dark": true
+    },
+    "metrics": {
+      "likes": 5,
+      "views": 100
+    },
+    "category": "self"
+  },
+  "styleClassificationSource": {
+    "id": "2103605007396524440",
+    "style": "generative",
+    "title_zh": "AI猜测用户个人信息",
+    "title_en": "AI Guesses Facts About You",
+    "author": "Madhav_XO",
+    "post_url": "https://x.com/Madhav_XO/status/2103605007396524440",
+    "prompt": "make a 10 sec video on whatever you know about me",
+    "prompt_partial": false,
+    "likes_2026_09_29": 6
+  },
+  "downloadedAt": "2026-10-14T09:17:12.188Z"
+}

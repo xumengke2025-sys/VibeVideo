@@ -1,0 +1,78 @@
+{
+  "id": "original/alexalbert__-274839",
+  "title": "1906 年旧金山市场街复原",
+  "group": "复古 · 终端 · 老电影",
+  "tags": "复古 · 终端 · 老电影 历史与纪录 1906 San Francisco Market Street in Blender 用 Blender Python 按保险地图、老影片和旧照片复原 1906 年地震前的旧金山市场街，沿街推进 10 秒。 alexalbert__",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "alexalbert__",
+  "authorUrl": "https://x.com/alexalbert__/status/2102466523164274839",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/alexalbert__-274839.mp4",
+  "bytes": 1486672,
+  "sha256": "7d2d137bf064137bc7a4d692bf0bc0b7a4f8eda7de13fb54c1dd48bc8e2b18ad",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102465460545675264/vid/avc1/960x680/pI_d-60Nkkemn0zI.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/alexalbert__-274839.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/alexalbert__-274839.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 8,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "alexalbert__-274839",
+    "title": "1906 San Francisco Market Street in Blender",
+    "title_zh": "1906 年旧金山市场街复原",
+    "url": "https://x.com/alexalbert__/status/2102466523164274839",
+    "author": "alexalbert__",
+    "author_name": "Alex Albert",
+    "platform": "x",
+    "date": "2026-09-22",
+    "description": "A 10-second camera move up San Francisco's Market Street on the eve of the 1906 earthquake, modeled in Blender Python from fire-insurance maps, period film and photos.",
+    "description_zh": "用 Blender Python 按保险地图、老影片和旧照片复原 1906 年地震前的旧金山市场街，沿街推进 10 秒。",
+    "prompt": "Recreate Market Street, San Francisco as it stood on April 17, 1906, the afternoon before the earthquake, in Blender.\n\nScope: the Ferry Building up Market to Fifth Street, including the Palace Hotel, the Call Building, the Chronicle Building, Lotta's Fountain and the Emporium.\n\nBefore modeling anything, build a source file from: the 1899-1905 Sanborn fire insurance maps (footprints, heights, materials, occupants), the Miles Brothers film \"A Trip Down Market Street\" (April 1906), period photographs from OpenSFHistory, the Library of Congress and the David Rumsey collection, and USGS topography. Record every building with footprint, height, facade material, occupant, and the source for each fact with a confidence level.\n\nBuild everything in Blender Python. No downloaded meshes, textures or HDRIs. Write reusable generators (Victorian commercial facade, mansard roof, bay windows, awnings, painted signage, gas and electric street lamps, cable car, horse-drawn wagon, early automobile) and assemble the street from the source file, so every building traces back to data.\n\nProvide a 10 second video up the street.",
+    "prompt_lang": "en",
+    "prompt_zh": "在 Blender 中重建 1906 年 4 月 17 日（地震前一天的下午）的旧金山 Market Street。\n\n范围：从渡轮大厦（Ferry Building）沿 Market 街到第五街（Fifth Street），包括皇宫酒店（Palace Hotel）、Call 大厦（Call Building）、纪事报大厦（Chronicle Building）、Lotta 喷泉（Lotta's Fountain）和 Emporium 百货。\n\n在建模任何东西之前，先根据以下资料建立一份源数据文件：1899-1905 年的 Sanborn 火灾保险地图（建筑轮廓、高度、材料、使用者）、Miles Brothers 拍摄的影片《A Trip Down Market Street》（1906 年 4 月）、来自 OpenSFHistory、美国国会图书馆和 David Rumsey 收藏的历史照片，以及 USGS 地形数据。记录每栋建筑的轮廓、高度、立面材料、使用者，并为每一条事实注明来源和置信度。\n\n全部用 Blender Python 构建。不要下载任何网格、贴图或 HDRI。编写可复用的生成器（维多利亚式商业立面、孟莎式屋顶、凸窗、遮阳篷、手绘招牌、煤气和电力路灯、缆车、马车、早期汽车），并根据源数据文件拼装整条街道，让每栋建筑都能追溯到数据。\n\n提供一段沿街而上的 10 秒视频。",
+    "prompt_url": "https://x.com/alexalbert__/status/2102466524934271381",
+    "kind": "spec",
+    "tools": [
+      "blender",
+      "python"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102465460545675264/img/ILlgAuA7ctODSBai.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102465460545675264/vid/avc1/380x270/QMxEP-FIURAOTrEY.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102465460545675264/vid/avc1/960x680/pI_d-60Nkkemn0zI.mp4?tag=29",
+      "duration": 8,
+      "width": 960,
+      "height": 680
+    },
+    "metrics": {
+      "bookmarks": 418,
+      "likes": 1120,
+      "views": 147187,
+      "reposts": 47
+    },
+    "category": "history"
+  },
+  "styleClassificationSource": {
+    "id": "2102466523164274839",
+    "style": "retro",
+    "title_zh": "1906年旧金山市场街复原",
+    "title_en": "1906 San Francisco Market Street Recreation",
+    "author": "alexalbert__",
+    "post_url": "https://x.com/alexalbert__/status/2102466523164274839",
+    "prompt": "Recreate Market Street, San Francisco as it stood on April 17, 1906, the afternoon before the earthquake, in Blender.\n\nScope: the Ferry Building up Market to Fifth Street, including the Palace Hotel, the Call Building, the Chronicle Building, Lotta's Fountain and the Emporium.\n\nBefore modeling anything, build a source file from: the 1899-1905 Sanborn fire insurance maps (footprints, heights, materials, occupants), the Miles Brothers film \"A Trip Down Market Street\" (April 1906), period photographs from OpenSFHistory, the Library of Congress and the David Rumsey collection, and USGS topography. Record every building with footprint, height, facade material, occupant, and the source for each fact with a confidence level.\n\nBuild everything in Blender Python. No downloaded meshes, textures or HDRIs. Write reusable generators (Victorian commercial facade, mansard roof, bay windows, awnings, painted signage, gas and electric street lamps, cable car, horse-drawn wagon, early automobile) and assemble the street from the source file, so every building traces back to data.\n\nProvide a 10 second video up the street.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 1130
+  },
+  "downloadedAt": "2026-10-14T09:18:46.851Z"
+}

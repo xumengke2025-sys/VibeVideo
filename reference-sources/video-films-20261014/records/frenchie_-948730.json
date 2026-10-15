@@ -1,0 +1,70 @@
+{
+  "id": "original/frenchie_-948730",
+  "title": "自由电子激光科普视频",
+  "group": "科普与讲解",
+  "tags": "科普与讲解 科普与讲解 Explainer on free-electron lasers 3 分多钟的自由电子激光（FEL）科普视频，带示意图、氛围音乐和音效，在 Claude 应用里用三行提示词完成。 Frenchie_",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "Frenchie_",
+  "authorUrl": "https://x.com/Frenchie_/status/2103731959918948730",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/frenchie_-948730.mp4",
+  "bytes": 10207789,
+  "sha256": "0a765288ae8417f758608a41d09aacf9d435dbe37512fee236f42214cfac001a",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103731855941865472/vid/avc1/1280x720/yoO0ELahFeG_jT4c.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/frenchie_-948730.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/frenchie_-948730.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 201.1,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "frenchie_-948730",
+    "title": "Explainer on free-electron lasers",
+    "title_zh": "自由电子激光科普视频",
+    "url": "https://x.com/Frenchie_/status/2103731959918948730",
+    "author": "Frenchie_",
+    "author_name": "Frenchie",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 3-minute educational video on free-electron lasers with diagrams, ambient music and sound effects, made from a three-line prompt in the Claude app.",
+    "description_zh": "3 分多钟的自由电子激光（FEL）科普视频，带示意图、氛围音乐和音效，在 Claude 应用里用三行提示词完成。",
+    "prompt": "Fait une vidéo sur les FEL\n\nElle sera instructive, utilise des images hyper réalistes et des schémas\n\nCalibre une musique d’ambiance et des effets sonores",
+    "prompt_lang": "fr",
+    "prompt_en": "Make a video about FELs\n\nIt will be educational, use hyper-realistic images and diagrams\n\nCalibrate ambient music and sound effects",
+    "prompt_zh": "做一个关于 FEL 的视频\n\n要有教育意义，使用超写实的图像和示意图\n\n调配好氛围音乐和音效",
+    "prompt_url": "https://x.com/Frenchie_/status/2103745539473018995",
+    "kind": "one-shot",
+    "tools": [
+      "claude-app"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: 1 prompt, about 1 hour, 1% of usage on a Max x5 plan.",
+    "note_zh": "作者称 1 个提示词、约 1 小时，用掉 Max x5 方案 1% 的额度。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103731855941865472/img/bSU-nf2mfunSje6t.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103731855941865472/vid/avc1/480x270/r7n3xGhDyAZ-7vUK.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103731855941865472/vid/avc1/1280x720/yoO0ELahFeG_jT4c.mp4?tag=29",
+      "duration": 201.1,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 172,
+      "likes": 266,
+      "views": 68557,
+      "reposts": 17
+    },
+    "category": "explainer"
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:23:13.605Z"
+}

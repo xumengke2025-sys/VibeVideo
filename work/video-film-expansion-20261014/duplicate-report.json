@@ -1,0 +1,42 @@
+{
+  "scope": "原帖URL和status ID、SHA256、三处20/50/80%时刻256bit dHash。近似候选须核对；无法证明不同剪辑/重编码/音轨均不重复。",
+  "existingMedia": 143,
+  "roundMedia": 191,
+  "checkedMedia": 328,
+  "existingPostMatches": [
+    {
+      "candidateId": "twoclipping-402193",
+      "statusId": "2103273003555402193",
+      "existingIds": [
+        "jacobbubu--claude-opus-5-5-js-animation-research/media/strict/twoclipping-2103272964967804928.mp4"
+      ],
+      "downloadedInRound": false
+    },
+    {
+      "candidateId": "twoclipping-496100",
+      "statusId": "2103835273813496100",
+      "existingIds": [
+        "jacobbubu--claude-opus-5-5-js-animation-research/media/01-twoclipping-2103830256347910144.mp4"
+      ],
+      "downloadedInRound": false
+    },
+    {
+      "candidateId": "ror_fly-880547",
+      "statusId": "2102853258582880547",
+      "existingIds": [
+        "jacobbubu--claude-opus-5-5-js-animation-research/media/02-Ror_Fly-2102853041246347264.mp4"
+      ],
+      "downloadedInRound": false
+    },
+    {
+      "candidateId": "leo_xiaolei-305104",
+      "statusId": "2102724347446305104",
+      "existingIds": [
+        "jacobbubu--claude-opus-5-5-js-animation-research/media/strict/leo_xiaolei-2102724181070839808.mp4"
+      ],
+      "downloadedInRound": false
+    }
+  ],
+  "postPairs": [],
+  "potentialPairs": []
+}

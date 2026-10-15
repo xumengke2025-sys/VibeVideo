@@ -1,0 +1,3089 @@
+{
+  "repo": "alchaincyf/huashu-art-motion",
+  "repository": "https://github.com/alchaincyf/huashu-art-motion",
+  "commit": "64cb27271ee0ad3375298e2890b33cbec36d4051",
+  "scope": "固定commit完整仓库文件快照；LFS指针按Git原样保存，实际视频另行取证",
+  "executed": false,
+  "files": [
+    {
+      "path": ".github/workflows/tests.yml",
+      "bytes": 1414,
+      "sha256": "91b5797ea6f59b6e31e53de2a846194e33ab1dbe24b2efb8c0ed4367324f8fbe",
+      "gitBlob": "b1f4db143d63a9a38270b277efaef900c399305a",
+      "lfsPointer": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 388,
+      "sha256": "28b7c75378a153807b8127362ba5e627b91870edf5170b7b3847fb19acf3d8a9",
+      "gitBlob": "b8f8fa40a91d2714418a03cd1be0512c9e84044c",
+      "lfsPointer": false
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 13707,
+      "sha256": "7447e6aa2c9b86766b8c7915bff38aa5c03411f96ad091a4b8ab271c08a86b18",
+      "gitBlob": "71361127d5b1ba9cd1c66d97ebf69cbcdfed2ebd",
+      "lfsPointer": false
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2209,
+      "sha256": "742a1a6071f6be25e82f0524a520fd6d09961be3f87d7a85940cd816ce7309a1",
+      "gitBlob": "4cf71c00a98f54dea72a0cbc5ad44b556d2dce3d",
+      "lfsPointer": false
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1086,
+      "sha256": "6d6a2a9caf2e6d2b76974050427053b2892d8aa4c33fd168ce63a537fcee9d96",
+      "gitBlob": "ed67368a2a79ed7be97b2a4852330cdac5b8b12a",
+      "lfsPointer": false
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 18259,
+      "sha256": "b3542ff3c54024eacf13e3aa3e697b651aa8bed7ae2623e608d5dbe6e7da825c",
+      "gitBlob": "280334ebca0974a988ef04429ee08e430e899bae",
+      "lfsPointer": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 17172,
+      "sha256": "ccbcd1a35ab439447e1343040deb67e449ff0cdc3eb6d513b1b56c6044245865",
+      "gitBlob": "8b3e832470d560b28c23dd73d3974f1f72492eaa",
+      "lfsPointer": false
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 21662,
+      "sha256": "f0d488b6c8cbb17e0b6d843d432f9258e060ae596f602b3eee69e98185776445",
+      "gitBlob": "707b4181a333cfbd8ac0682723c76bed5838bacd",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/showcase/clawd-clips.md",
+      "bytes": 1703,
+      "sha256": "e986e40a1a8bfccdcf745a3afad0c5c40889f4263eaa6afaedd089dea23cd7fb",
+      "gitBlob": "056af58ced26610a25c4a45443132fb06a3fe0a1",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/showcase/clawd-dawn.gif",
+      "bytes": 3410125,
+      "sha256": "5d512f5c2949c9576a03c970d646175a9f2755877010b359cc9282445944f252",
+      "gitBlob": "c8d061705d1f8400cc9cd859cb6a0d5460a951e3",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/showcase/clawd-trex.gif",
+      "bytes": 7498304,
+      "sha256": "6e3355bc8a9d8378bf2e23ca6a9b6601293c5638ea3d5db3fb164fc4826377f0",
+      "gitBlob": "bfd1cae6340dc21e0e4894d020314f8a14dda69d",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/showcase/clawd-vangogh.gif",
+      "bytes": 7699296,
+      "sha256": "d4ccfd7ae1b7a481e659124c0e759736ed7ae894689b36971cf0a76bfe358526",
+      "gitBlob": "07e25083376cf7fbfb37c02c110c274eec9e1d52",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/showcase/egypt.gif",
+      "bytes": 4965668,
+      "sha256": "256b946e2543192153f276dc46e0af98837c934ddb9e2e2c0c9843f0557cd54b",
+      "gitBlob": "fac4f54e69bbd4f0aba510846beb8a29ff910386",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/showcase/hero.png",
+      "bytes": 1668625,
+      "sha256": "3b6b42bfb00f84925aebe2a10f85052dc6b4efb492e86f581f21f652b6686407",
+      "gitBlob": "1caac91f2de63bdba028aeb2695e02a1fa8f35d4",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/showcase/mario-claude.gif",
+      "bytes": 2110438,
+      "sha256": "f63f2f464c1d7b477578d07359d85712086a39b615669f1d3bb015290c54741f",
+      "gitBlob": "4d949644aed9e962a12a465342bec0b0dc069023",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/showcase/mario-clips.md",
+      "bytes": 1112,
+      "sha256": "e29421cc252a439a33c81f26c18fb89c1c5584e3ec9bb278e469ffc772b61f6e",
+      "gitBlob": "b7f7df7fce8f9a29bf2f2265c1fff6eab977a095",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/showcase/mario-combo.gif",
+      "bytes": 3094450,
+      "sha256": "55b5ae17a3969a59c31f0dac870af1ea913d72446917a815e703384458b6ea36",
+      "gitBlob": "331e39379e54b8d83b4e4cda53676477f67ed42c",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/showcase/mario-pipe.gif",
+      "bytes": 4054279,
+      "sha256": "d89e5016810a3079e738aa9aad38312f2096d00dee22e752ef9befac8faf0a03",
+      "gitBlob": "26521430234320d227f4e6ec219ea1f7fd76e808",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/showcase/monet.gif",
+      "bytes": 5351144,
+      "sha256": "524e4e69ce9a2eecad6bdb2709db6587ba49aed59843a164f5e9c5b90b7a33c2",
+      "gitBlob": "9a70a6f0a2d843f5254eea1bd677a74bc0724f4b",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/showcase/pixel.gif",
+      "bytes": 2652588,
+      "sha256": "3eec9eb90adfa528ee7e660bb00a81128a07dcedada6273395bb623014a12db1",
+      "gitBlob": "1e6568d98df0b3454decabeadcd039fce7fa80d7",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/全风格总览.jpg",
+      "bytes": 1615447,
+      "sha256": "99512979c3ffd709ace498647cca95b4a31e45ebe435c0ce77f9522470f93f7e",
+      "gitBlob": "9f834ab2eb4a6f99680765114fe057b734e28556",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/动画语法/t1_3b1b_总览.jpg",
+      "bytes": 229006,
+      "sha256": "eeb77f3fb238b503612ad0075b17fa2a1315c629457eecdfd8f043e33ebc410a",
+      "gitBlob": "822f07d52d2a7af536a481946aec8aca7cd2f367",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/动画语法/t2_keynote_ui_总览.jpg",
+      "bytes": 202632,
+      "sha256": "2f7cb8e070512210ca4f1fccb7e86742658946f33af90fd17b84e997cb9785b9",
+      "gitBlob": "2db960251fb00bc8d33f5ccc1f93f9c9b754f0f4",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/动画语法/t3_finance_chart_总览.jpg",
+      "bytes": 185012,
+      "sha256": "4a761592ff73623cba1a1c065ba98a9f6fa46ff016735671f82fb3cb22ec7ee0",
+      "gitBlob": "8ae77d02479d189782885f29ab7949875bda427b",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/动画语法/y1_kurzgesagt_总览.jpg",
+      "bytes": 176587,
+      "sha256": "c76e685e90dc1b99e741d126c495086006e1393be4f8a16145677af457e05235",
+      "gitBlob": "df0f5dea278bffeccc6e3b42fc723d22d7c45597",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/动画语法/y2_vox_总览.jpg",
+      "bytes": 318800,
+      "sha256": "f70957fa84faf280eb29c4231d4bfddc0c43b07a23155b2d64ce83493359c765",
+      "gitBlob": "92f6230119af65813eafb808a27571b3a207302b",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/动画语法/y3_whiteboard_总览.jpg",
+      "bytes": 143612,
+      "sha256": "cc28d7e021d8bc094387f4e65627ad940417459250502e586e3f2fe9603ae841",
+      "gitBlob": "0e19c2cb4605da1b140c9600bd9d3205d90cb610",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/动画语法/y4_storytime_总览.jpg",
+      "bytes": 152838,
+      "sha256": "6cc308bee5624a6e11f063185af67bb1625332a44aabedb22f1329b1f60cfdc5",
+      "gitBlob": "b2d9dedbc8677869b86bcdbe749853e39039e041",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/动画语法/y5_kinetic_type_总览.jpg",
+      "bytes": 135213,
+      "sha256": "fbc1612a831eeaa05f03bdef32b477dc459769834f57ad6331517ebfb92651b9",
+      "gitBlob": "b1a547c25039f489a2594b683fb7659b3e3e6671",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/角色/花叔形象_对比.jpg",
+      "bytes": 298446,
+      "sha256": "e2dd1082f5a6d6c66182b27b16a71ad9b6426e567ff4b406e4ebec007e044615",
+      "gitBlob": "5460db2eb48e87ae288b1cec3c8260821aaf80c4",
+      "lfsPointer": false
+    },
+    {
+      "path": "assets/长卷穿越_总览.jpg",
+      "bytes": 483780,
+      "sha256": "3f925f5637553c2b5bc57052f65f8065dbd14837c9881bb5d8e2bb898f29dba4",
+      "gitBlob": "26c83738d1eceb34859fc12b7b17a0a21ccd93ab",
+      "lfsPointer": false
+    },
+    {
+      "path": "defaults/media.json",
+      "bytes": 916,
+      "sha256": "8e1c98a9b5b8195f66c4060e05e5dded9bb95b797164a8b9c587bdfa5df4e0b4",
+      "gitBlob": "a04ecc4dc9f0d2121a68d7edb080c88ef66812f8",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/01-拆解.md",
+      "bytes": 4692,
+      "sha256": "83dd492d5b1f616a6e45302b630a7fbcaa65a16120a8df443185df2ee615cb32",
+      "gitBlob": "0133872dddf70e4a428a1e567455aba233a9e6ad",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/02-机制.md",
+      "bytes": 5087,
+      "sha256": "ce0646784363c54e7299b5817aa86953d37b4ae0a245bf1b30aebc5a621ec94b",
+      "gitBlob": "316567657b107b1af2dffbb91e88ec9d7acce5a4",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/03-一帧先行四条路线.md",
+      "bytes": 4671,
+      "sha256": "cfc167ff5c13ed29f03fa967be4e775494e2f2d0a1879dfb8473cf2ea432c2d7",
+      "gitBlob": "e459acd1fc7647d9f8e03cd64c99bca81c932c1f",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/04-纯代码绘制.md",
+      "bytes": 11302,
+      "sha256": "7d234b7fb904626cc99af0cb687d3bb7104263c089b3ee2cda59408dc5dfc0eb",
+      "gitBlob": "832d59eddb107a1197c6ac27a62f962a11ddc8c0",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/05-节奏与配乐.md",
+      "bytes": 1495,
+      "sha256": "1086c15ea216548777d2fa5552cd5c874ff89df2da84f9ffa160737930e3d98f",
+      "gitBlob": "27b893f68b791fba84de07ef069dd41243e40be8",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/06-口播驱动的艺术短片.md",
+      "bytes": 2786,
+      "sha256": "9275abd6451831515ed9aed24724062bf47dda5e5d2d804baa8313c137236bc8",
+      "gitBlob": "d575b989ab3cb7aa42618316120945ad984bbc2b",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/07-正面经验.md",
+      "bytes": 21682,
+      "sha256": "b151c1cc6932a3cbc66b03d847e8a1b547073dc5a28d836a05da5ae9a11cb79b",
+      "gitBlob": "8740be767957e0db7a64fb46b4a3c1e957e9cc3a",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/08-风格作者规范.md",
+      "bytes": 5296,
+      "sha256": "30312801d2833b478bc80218a704d87971c08f50a7ee0e31f3c08eefe15f9b4e",
+      "gitBlob": "9354b260ccaed3955e2bea842c66825a83f7fecb",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/09-视频动画语法.md",
+      "bytes": 54763,
+      "sha256": "2a2e3256fc5dd2ba1e0c96312e0fa63299ff3a5f0bb9d1bcf84539af902a26e1",
+      "gitBlob": "0ecd580c1667a0ad6cbf2bec97d3b28230a76257",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/10-角色.md",
+      "bytes": 3819,
+      "sha256": "d0c90c6c82b9acba9a43b8f0f4231ae4aa2f316a39608af90e06e5462c736605",
+      "gitBlob": "f6bd1a94d8ce2723f181c759866319f174819cf5",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/11-长卷穿越片.md",
+      "bytes": 4250,
+      "sha256": "42f2e441687116c8d2dd789b187ada572390e242976996727a209959163a6ad6",
+      "gitBlob": "f1c22d0dab835a874e9fc89df2e2d304a454546a",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/12-口播整片与经验回流.md",
+      "bytes": 2224,
+      "sha256": "b85f6e8b665c13a5d98ea461c10af340679a6949101ee31dd64eee7e88aed415",
+      "gitBlob": "0ad71ec640a57f6e1934fe68b087f46f40aa605e",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/13-口播与语音复刻.md",
+      "bytes": 587,
+      "sha256": "cb12d2002f9c7a8a41b9abd711bd44a99f9929bcd66351015232cea2eda024a6",
+      "gitBlob": "56fc1521502ca3f9e13d4609f00c9a0d2dc13042",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/about-author.md",
+      "bytes": 9941,
+      "sha256": "4bb3dd5b67560d039762abf695b92701348fbdfd488f4f5428cd8383b2c107c5",
+      "gitBlob": "171ab35fc0ae4c8aa42248416168106b8892c71c",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/capabilities.md",
+      "bytes": 7346,
+      "sha256": "8d0577a8128d661711a3ca26f1b60a1e3d06cc5b6191b7007326dccd0e35d2ed",
+      "gitBlob": "35a8872afe414d6dc5ed456600251487ffba3731",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/compatibility.md",
+      "bytes": 3011,
+      "sha256": "c5665580fab722a3ed784a71f5cca725fc56cebf8c8c3ad66219b24b6b97bb0e",
+      "gitBlob": "9d0d9e3268b549285e14838d24c505d2af1a0302",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/images.md",
+      "bytes": 5788,
+      "sha256": "313bee677064eb46ee13c88c74effeecdb536579d7e8a25e23ddf9a2a06357e3",
+      "gitBlob": "78fbb82b06b696752b0a4ba6bb2f7238e5dcff72",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/动画语法/t1_3b1b.md",
+      "bytes": 14138,
+      "sha256": "23fc11ea77a5f14b34768398f61240787e459debeac8f3fd5109f6ea5e43d827",
+      "gitBlob": "9d65e7586641c3b4ce929aa99078d37bea43c9e1",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/动画语法/t2_keynote_ui.md",
+      "bytes": 14824,
+      "sha256": "0e2779a2e755f0513a8ac025482e542a4d873b02f0b00f0e908216e26d5a9625",
+      "gitBlob": "d923fd02db4ae0d8de50f6c20a7cd353746bd8ca",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/动画语法/t3_finance_chart.md",
+      "bytes": 13534,
+      "sha256": "ea1e21c49b50653ad48d0bd4ab0d1b1e88a698ccfbfd8e257c7e8f767adf2c20",
+      "gitBlob": "e340c36a81af2721bbd1799330416dd42237ad18",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/动画语法/y1_kurzgesagt.md",
+      "bytes": 17571,
+      "sha256": "a859f871f717c0017b4e4520f4c2760a7719784b54d92de37afb12e1967717a8",
+      "gitBlob": "facfc8228b10cca1c4cb24b3c412de578db04a17",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/动画语法/y2_vox.md",
+      "bytes": 16708,
+      "sha256": "9d651c95263c2cf42a63350b42a4e887efb0cded06f697c3498484e294e26ad4",
+      "gitBlob": "ffcdb0c8a7047452aa4289263c43bebd4787a726",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/动画语法/y3_whiteboard.md",
+      "bytes": 15286,
+      "sha256": "f2fda7768034d94928982193965f225a3c85a850eaf28f3f28459e85dbe0773d",
+      "gitBlob": "1ceef5f8176276b57e434e1c3a85f487d09357d4",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/动画语法/y4_storytime.md",
+      "bytes": 18371,
+      "sha256": "b3c7ed7af47734bc5ca8465082ef3aa1e55d0d64c225d21cca34180e0dd000ae",
+      "gitBlob": "6e99470145c510ceee4f28b4cba96474345d082b",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/动画语法/y5_kinetic_type.md",
+      "bytes": 17165,
+      "sha256": "97b200e68231d71cd10cf3f1027b4db36e99ce9a06004891d644994883bb15e2",
+      "gitBlob": "5583e154912cfd3d07bd37bd8e8439ce239adc93",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/动画语法/y6_presenter_explainer.md",
+      "bytes": 1899,
+      "sha256": "405318fc5aac9ce03cbc374af9633ec7d652dc8206ad3810919abdb174eff273",
+      "gitBlob": "94a88fcbc122bec2d8abf0daa553394ec683c7bc",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/口播API.md",
+      "bytes": 5603,
+      "sha256": "a9d2775fc97bf92f46cf0a6531f1921ccdcf195dd79475c575bf8f188ca5801e",
+      "gitBlob": "c3177bd8c791495c02e9de8ad10e29375b439d7e",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/色板.md",
+      "bytes": 3422,
+      "sha256": "3a1588ded19aba078131423b22f97fb8835f1656c1c5643afbba505ff8f6f8ae",
+      "gitBlob": "78e7759a5c67d38c39b76ee8c2837d4cf844f202",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/角色精细度.md",
+      "bytes": 4600,
+      "sha256": "7255ec6d9106843359ef5ab4b696a93a9a573aafdebbd26baf235597949b0f35",
+      "gitBlob": "bb4e4af00d443e8866d30e7b2b9c68d217d53aea",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/镜头表模板.md",
+      "bytes": 9530,
+      "sha256": "aef6aae50eaae318f1090a8135640bebb36974f6bbc537bc34253959d3523cae",
+      "gitBlob": "e0e565b817ac5c75ad97fc5aba222216981fae37",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/镜头语言.md",
+      "bytes": 10583,
+      "sha256": "7afbf9266b4e530a183e7c682ffb55166645a3cd9e628f1b5ace4ebb22d8d2eb",
+      "gitBlob": "8d6d7e7ccd5cc8106bc0e683c8e9d4f19095416d",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/01_cave.md",
+      "bytes": 7125,
+      "sha256": "ebdb5fc8f9a57d947ef3a325bfdaf275cbd906e36010945e05c7d2e7ef1f4d2c",
+      "gitBlob": "281849af2ec23f0dfe9379bd4382c479602be848",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/02_egypt.md",
+      "bytes": 8952,
+      "sha256": "a3097d1936d0e482a56a9745e31f3ba9a508aa2db50fbbefba4d97cc4d481ebb",
+      "gitBlob": "0816d71077f573a2194c75abbc738bfee336d84a",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/03_greek.md",
+      "bytes": 8933,
+      "sha256": "0caa761151cd76d1a31390f602dc6bc131dba745c6244a2b12ba037697077b50",
+      "gitBlob": "a4b3e6c7fd1ec88d5c2c28da1b80cc5b9539982a",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/04_roman.md",
+      "bytes": 12334,
+      "sha256": "4066fc1b3edfaa7ad4494646df5c6bef0a79d77cb0326d7487b2f833fbb2a81d",
+      "gitBlob": "7131869ee44abd191680a23d4e6b6f70a57b7a47",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/05_gothic.md",
+      "bytes": 4211,
+      "sha256": "2c33750ee754673f87828f1755c14d4c893cd0483e96ceb02fe8f0f33c3a440b",
+      "gitBlob": "0ed79e239d6edf7da7e1fd8259149ed5c1971f25",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/06_renaissance.md",
+      "bytes": 4144,
+      "sha256": "2fd2589f538747b7c2a178def2441e432a3ecc7bc5aee8e3a1f82c7a79792cc6",
+      "gitBlob": "8405bcd6bea31e56be7dc6929cf402c25bceae9a",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/08_impressionism.md",
+      "bytes": 4210,
+      "sha256": "dd353d6e2ff550c3601a20bd529c8908118b4453d12b009e1e82761aa1822b65",
+      "gitBlob": "a2593e5103152fe2af2dac0f10f28e9b80acaa9a",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/09_postimp.md",
+      "bytes": 1507,
+      "sha256": "20aebeaf193cb1ac960c73e70a289e52f6a939949ce558ec06f7d816311fdd0a",
+      "gitBlob": "50d7c8d8711fd19c46cd101742d36fc071f92457",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/10_nouveau.md",
+      "bytes": 5103,
+      "sha256": "ed5a38a201c7d4c69473a662d2e17b8a7081d09cdd2fcbeb57575da7bef3cc64",
+      "gitBlob": "71ac0d6a18dc0f248821e7e749c450c1fafd7795",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/11_cubism.md",
+      "bytes": 5405,
+      "sha256": "0ab951ff470aa6bf6a001fe4bdd51d02367f03754a94f0dc443d27351a9aa6ba",
+      "gitBlob": "40a647b8cc1a2980517fb9bea319f8166f47f2d4",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/12_bauhaus.md",
+      "bytes": 4435,
+      "sha256": "729623cbc414f11d1c1629dcae0d1e64452acd7fdfc5c07bd41f44149f13c59d",
+      "gitBlob": "cbc2298776594978409e539b321d1ee35f08a667",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/13_pop.md",
+      "bytes": 4293,
+      "sha256": "01e334a4b76ebfd0c71fa6997acafc6d02929498998f99e4544689bd5fb43913",
+      "gitBlob": "a940e8512e82383be22f0605f3950adbfa378a72",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/14_8bit.md",
+      "bytes": 2831,
+      "sha256": "fa237f81d76cea3dae16929093814b92399829e33175aae3d26bd4cec39b6569",
+      "gitBlob": "042c11185a9d4007572ff0a0b4a3ef83364de95e",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/15_raytrace.md",
+      "bytes": 3206,
+      "sha256": "44498145e8b99156b2ee36446444424322f0ed6ee2e0384f34ff242fe89f68b1",
+      "gitBlob": "2a1638c282defbd8c089ee382d553b143c8d28a5",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/16_2026.md",
+      "bytes": 5808,
+      "sha256": "4dfc199bdb1ed0b1fdc3ed9108bd5eb2e8078fdbb4de0e0bb5d00c6ba73f31f1",
+      "gitBlob": "e092f569a849dc774fd7cd37d4e8a96f2f6ac3b4",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/17_ink.md",
+      "bytes": 4442,
+      "sha256": "67f396530a9032b523151f649d0d8398562ff9f6acede3ef4aab85c831d2c032",
+      "gitBlob": "6a8e4c4188211cb16c0a71205f42cf08250f994b",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/18_klimt.md",
+      "bytes": 2845,
+      "sha256": "c4e96a0f531b8157e05592379a152a85a41acf2718f77883ce872e04865dfef9",
+      "gitBlob": "29178ca219f622ea7cbf06db0b29f8d768397d50",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/19_munch.md",
+      "bytes": 2838,
+      "sha256": "8c629e8bd02fb82c3355c37fe040c863f067827fde269d91ac7ab97bc118939e",
+      "gitBlob": "09111285f852c039616afdf081c46fc8b6e71faa",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/20_dunhuang.md",
+      "bytes": 3072,
+      "sha256": "3a5911346899c0f19cc5bee74bc4e8b4b1ffc9ae1c603a8a48b8277596057568",
+      "gitBlob": "cd301f2fab6d9b817daeddee9cde9ea8a708584d",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/21_kusama.md",
+      "bytes": 2268,
+      "sha256": "f39173eb8e80dba26fcdf822a60bb5cd0da2678d8efa4a8b2d19cbb2e1468a4a",
+      "gitBlob": "b95a193aa1b64e88e6631bc444420a892c4d9454",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/22_constructivism.md",
+      "bytes": 3959,
+      "sha256": "ff4adc806f0bf39d86136d805ef8e2cc48026fbcec3731fae22477fdafac846d",
+      "gitBlob": "ea5e95da0a2d2f35a450ed5670501bf81fbf963b",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/23_dali.md",
+      "bytes": 3479,
+      "sha256": "facf3f033d5dbe42ab663860490a32920423fc5950ddcabf5f44bf81b49b3f2f",
+      "gitBlob": "4b4a54a86479e30c6f8d85fca80e55a04961f0af",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/24_hopper.md",
+      "bytes": 2865,
+      "sha256": "fd19a530f9e0544d74e7eee40a88c01fa7f675ae94d9cacf2e5af4e214c64c63",
+      "gitBlob": "b48b743d9a5dd73c948a9e15b83e0ac7c19eb605",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/25_ghibli.md",
+      "bytes": 3655,
+      "sha256": "55522029929a296979180e6fac3556c7d85ea92de1369a4f11e94fbb64f48348",
+      "gitBlob": "faff25a89848deab34aae1ac72d1ac903a0023f1",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/26_vaporwave.md",
+      "bytes": 3140,
+      "sha256": "30cf8e825125ff74f02bff93b975a74c96ceae9df09fae06fd7ef887fb64ec44",
+      "gitBlob": "1087ae6cf953930c875229296c5f28a31bf6bfd0",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/27_kirby.md",
+      "bytes": 3396,
+      "sha256": "e64b8a69ce706311b1e81aa7d0756c7d7390b2b3f84a17f18b67c3193bce2408",
+      "gitBlob": "d213d6e2eadb60dad124a8ed8e5cab299daf88c6",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/28_monet.md",
+      "bytes": 2837,
+      "sha256": "61b2bf9da6044e44ea0fa4758b3c380be8e60cfb72e2907e5afbbaa0c00d3513",
+      "gitBlob": "cef93afef28257b46fadf2963b672ca180cea615",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/29_seurat.md",
+      "bytes": 2963,
+      "sha256": "2c50cfb11d3bcb83b50b946126e1c0ba76f9fc3b94eab055023eea2880440f84",
+      "gitBlob": "5b5cf9405b6f1967379fcd07c1e979021bf59ec4",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/30_matisse.md",
+      "bytes": 2509,
+      "sha256": "4da4fb6d6828fa529e2827d20bf0c4e45822427348db42b7016ca4bdc336c60b",
+      "gitBlob": "2f9ada95b11f46fe98cacbe4970c5e93c74d0ea7",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/31_haring.md",
+      "bytes": 1994,
+      "sha256": "adcf02ce8c7dd9446e79e3393f61c411335c6f1734d584f3389f64283c5ab30b",
+      "gitBlob": "147e6969b8c1a93139b9c64e41f99ed60f0df005",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/32_rembrandt.md",
+      "bytes": 2900,
+      "sha256": "383f5953f5b61249c5735fef4e31f0ed05148a7ec038f580bf39ddf7dc6ba7f7",
+      "gitBlob": "80793558e729c97b7290f733a01ab6287e78345c",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/33_rubberhose.md",
+      "bytes": 2483,
+      "sha256": "c99886da03aa74351d78695641b403c92f5f9ab4b242feb2be45d8b8a7da9617",
+      "gitBlob": "a2e4c90725a2ff06e221b8aedeb9cb1c85dc044d",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/34_shadowpuppet.md",
+      "bytes": 3133,
+      "sha256": "6cd4f9a090bff6d325695e8e4656ad041871f2ff0418b4eab1a46d51bd7d7609",
+      "gitBlob": "2fe632891b668d13354893a9767029943c8c647b",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/35_shinkai.md",
+      "bytes": 3345,
+      "sha256": "b327bf36ef2edc246576cbfb8f1f1857c52600691adbd651efbb1eeb75e7a554",
+      "gitBlob": "584b6c653e83651f87885347b2af6e54a2d6b380",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/36_picasso_blue.md",
+      "bytes": 2739,
+      "sha256": "7578a99b0dc416414eb2cfd5c6aa9055ded387531bfde65fd5c1f17f22e4404a",
+      "gitBlob": "fa017a3cb04a4ba54fb13bcfb0ad83eb0abef41a",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/INDEX.md",
+      "bytes": 9538,
+      "sha256": "077be3f350cf6022db3ba89fe7933323617381b315e8f6b86c07da28927f80fd",
+      "gitBlob": "dc704cdbce2e7e0a3aaacc55812efa379bb669a9",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/_转场_迁移测试.md",
+      "bytes": 7063,
+      "sha256": "16e901fb8c6bb2b9ff6596bec30209471227b74440dc9d5f3ba7931c99238677",
+      "gitBlob": "4f05627ad08f882241adebe304a7b6e7c3d1a616",
+      "lfsPointer": false
+    },
+    {
+      "path": "references/风格配方/_音轨_艺术史速通.md",
+      "bytes": 11844,
+      "sha256": "f9c360503ec366bf0833687fd00eb2a276f1c8dc5e02ab93651e676195d10d60",
+      "gitBlob": "070a0fe0f88bf1e49beaefd25318a543f2a811b0",
+      "lfsPointer": false
+    },
+    {
+      "path": "release-manifest.json",
+      "bytes": 52112,
+      "sha256": "6a20444443758bf00b2e660250ba35534456693f4601ef6336056af77763612f",
+      "gitBlob": "227c160f39b53c331d82c95e1663b649d8c4e6b6",
+      "lfsPointer": false
+    },
+    {
+      "path": "schemas/media.schema.json",
+      "bytes": 4916,
+      "sha256": "4b7d93ebb7edf5fa6219891f28325f68fc51f090eee756bc4cc3a3c746d48bda",
+      "gitBlob": "7b88da369cb85d67ede377bf6afa4c13616dbc67",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/analyze/breakdown.py",
+      "bytes": 6457,
+      "sha256": "5badcd4e3f5694f5b8c5a6d7d353f830e972ae5c8a6f24ed75af634411eb75f3",
+      "gitBlob": "ed52b8eb857f002abc30dd9afbb7ef39d1aaff41",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/audio/synth_艺术史速通.py",
+      "bytes": 31431,
+      "sha256": "6476605af684b477d47b7f47c3c987059277de36b97bff5d77d167c27efdb40d",
+      "gitBlob": "4a987fa9241f0c4b765b534e2ea56d66ad3977df",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/capabilities.py",
+      "bytes": 22376,
+      "sha256": "43b1dd58d9f42efc638270cf67190ce85dda4e25fd591925c2f31e5bd6b4f63b",
+      "gitBlob": "67ac04263ac615ebebde7c1b19ffd3dc0d8e30f0",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/check_release.py",
+      "bytes": 6159,
+      "sha256": "508388bdcfe87d97d486de7d76fec87b893469779af14cc75e4b72b4c17ecc60",
+      "gitBlob": "a44e47eff084eafa351865ff61332cba81056224",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/deliver.py",
+      "bytes": 12431,
+      "sha256": "dbd1cd2495816b09257cec544e1b43bb2fa2530639ff11cff64526e065e178ae",
+      "gitBlob": "19b46010824d2ba7d0b2a6fefcc60d1552d3e82d",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/clip.html",
+      "bytes": 1261,
+      "sha256": "73db3956310c7798452057e4328e961c899507483ab0bb72e817ce0372893874",
+      "gitBlob": "a2abb1ddbfac7d66354d559df7ea6b1182b6f303",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/clip.js",
+      "bytes": 10538,
+      "sha256": "e991e5c4edc9f463900cfc42106f5e0eaa2b48a28d3ba30111a3c80a16cf0f44",
+      "gitBlob": "8aabc3403e5eeeaba95f6bbe0537ca0465b45f7e",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/clips/t1_3b1b.js",
+      "bytes": 18940,
+      "sha256": "84ed102301a066410aca1b0d06ba0459f7d5da09ae4831edf58a27f2152a6e7a",
+      "gitBlob": "4bc656b603a341f080708c8dea2d2110c079bfa5",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/clips/t2_keynote_ui.js",
+      "bytes": 36229,
+      "sha256": "0f63d0d0ddc7b2426e0a160a4b51ce152908e7df30bceb475d3ceaf41a2e1a68",
+      "gitBlob": "c7dca6d8dbf20671036b8c5b662597744f07a1f3",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/clips/t3_finance_chart.js",
+      "bytes": 21116,
+      "sha256": "f175d45ea92e0a680fea9e08ce9270a59a63a5b4bb3d00db5a894848e2407b36",
+      "gitBlob": "67a378620483b762aaee1f31d6ef4383b3b2b782",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/clips/y1_kurzgesagt.js",
+      "bytes": 18633,
+      "sha256": "b64bf07471753f3ffd8d7f97473b886f7a71193c9ffd0000c2fb0af633ff4c77",
+      "gitBlob": "95c7c796d412b61da830a57dc3f4b64ea9333e04",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/clips/y2_vox.js",
+      "bytes": 14618,
+      "sha256": "6c00ac3e587595b94732750a191827674a818c5f143d2ecfd328c9e4059bc589",
+      "gitBlob": "86c516af2a2fc750187d9edddb0595e06016f26a",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/clips/y3_whiteboard.js",
+      "bytes": 21759,
+      "sha256": "1536d7a276580edd44fab6199b69671aecbae30b39b5f89921d08e43a738ff2d",
+      "gitBlob": "a489f3ad4a69693eb6ce7fceafac307ceaa6f357",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/clips/y4_storytime.js",
+      "bytes": 22039,
+      "sha256": "2ba8c7a05296c489b948c1b2f050a479dcef5a7a19bb1550aca07478f97e25d6",
+      "gitBlob": "4d30c1f2368bc88bbdf66133e97701e57251dc17",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/clips/y5_kinetic_type.js",
+      "bytes": 13104,
+      "sha256": "80e6f52ae2a07ce4f7c4d15e87e7eddb3174c7770079805d97feaba1f254bd83",
+      "gitBlob": "b3e28be9b043b162c1a45dfb03d3cfc57ffab397",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/compare.py",
+      "bytes": 1304,
+      "sha256": "7bf1d5ae2926de09f69431435e93ffa4c5357532b543217cd66bdc57e00256aa",
+      "gitBlob": "13c27ea81afff69c88775c814cbc01f31ca69219",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/_shared/hero.js",
+      "bytes": 8115,
+      "sha256": "96e9e520d1139aa617be7ad01901f6a9b6c31c7948f73b33ddd8d646c6cdf967",
+      "gitBlob": "80ee1925127970f3fe16860e90d117674416bc1e",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/_shared/hero/c1_0.png",
+      "bytes": 264291,
+      "sha256": "827032c6aa741f9895895224a67f81538d70ef970b10da6c3ee93e8deece3018",
+      "gitBlob": "47c62308a8081c74ff61b779e1c27a013fda3749",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/_shared/hero/c1_1.png",
+      "bytes": 263450,
+      "sha256": "9ab883b0af1460fae56970739ee82bdb8f59717ae2d3f11b56ca0b5088876c5e",
+      "gitBlob": "86ec86c47fb1479585c9e6fd50f8ff59889dc4e5",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/_shared/hero/c1_2.png",
+      "bytes": 285087,
+      "sha256": "94882c9cbb1cc7ea82afb736412d388bfb06e30b08ffec861192443b9fb1c28c",
+      "gitBlob": "a576008ac1d7fc6a072056581245368b2e808a4b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/_shared/hero/c3_line.png",
+      "bytes": 1022467,
+      "sha256": "b98528a02ccdfc1c7570e7a907990421d53d14e7f77068a31ba9ccfeb397a0da",
+      "gitBlob": "45ae5035c2d11a471b5d09cb81d96d33a669eda5",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/eras.js",
+      "bytes": 2375,
+      "sha256": "4c35e6e800f7d01a11f796fe052c11ca957c6c46665fd2b23927a8390357f617",
+      "gitBlob": "6c4b39a5568ae43d08a5d943efb0688e08151a1b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/01.png",
+      "bytes": 24169,
+      "sha256": "74d6834868571bd257bffa91022aa649f0a80802d5b678ff59590539c99f7cf0",
+      "gitBlob": "3ffb186c4c8deaae62511e31041a8644d958c123",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/02.png",
+      "bytes": 23024,
+      "sha256": "19806884da80aba0b271556b529934359587b7e4a69bd6da7b57ccfd69bbeba6",
+      "gitBlob": "f4fc4d8b948352107ad921aa6b3263764f549d27",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/03.png",
+      "bytes": 27450,
+      "sha256": "598557fa4ba263ecd000398614e552f2afe04a148f957ef020bd05d32cccf2f3",
+      "gitBlob": "b7e595902959f400001b91062acf9f180f65e120",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/04.png",
+      "bytes": 28052,
+      "sha256": "fa08801ea3d6b79acafaa451ac697a060b059747ffd89c0375e6ee1b0901dbb3",
+      "gitBlob": "9ff1e99bbeb648088bec44346aeaf54ca125aa11",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/05.png",
+      "bytes": 29165,
+      "sha256": "469a75afeab1a7c9602f27a7f5f9fe74ae4c88227f22ba8977c1a72cb2beaab0",
+      "gitBlob": "f12d09d7b63e40f07319a18b51d7001deb158aea",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/06.png",
+      "bytes": 23646,
+      "sha256": "1d26ed214328655a20233ec2b09e6181f431e1a4b40a2f308e4a03a8ac02f1b7",
+      "gitBlob": "cb8c3074c785fff766f009a965961331430d1ead",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/07.png",
+      "bytes": 24834,
+      "sha256": "867c900356062c27187298641969dfce81a1fbebed7808692759fba3fa74c4cb",
+      "gitBlob": "800875a88f21f294aed0c834955efba2d078fa19",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/08.png",
+      "bytes": 29374,
+      "sha256": "ae74efabbd91cca2570d51c141672d991f6e895796dc01e81dc62099568d2f74",
+      "gitBlob": "b33ac72e30b5b2ea4364af19e33ada4acb4b8942",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/meta.json",
+      "bytes": 839,
+      "sha256": "80dbaba87b9237958c392562338ac324687c50220ddb0c1572a8371f92131ff8",
+      "gitBlob": "af6de690c64170414ebe6c62c308f204cad49840",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/01.png",
+      "bytes": 28692,
+      "sha256": "422152e3831b1df4fd5e2889b413ca6c84d1646b84dca704a9f7312cc4da6bf0",
+      "gitBlob": "82a071c1fd45d24e30b86f7676de6c088995955c",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/02.png",
+      "bytes": 27408,
+      "sha256": "b5bcf6a167397e8b3c06a0f8570b2abccc55d5498390d9439b3a9f5f4c792ec4",
+      "gitBlob": "31a98062b284b3f661927c2f83428e372429437c",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/03.png",
+      "bytes": 27940,
+      "sha256": "2d3670bc129660ef46836ec9091ec08162119e7925825734821f3aed8f470700",
+      "gitBlob": "73c02cfe1becb0bcfdfe8f1a4082b91a9bc869f5",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/04.png",
+      "bytes": 27401,
+      "sha256": "fed712a2565ddde80c82f829bd6eeddc96eaa53193b0bfd21398460f21cb558a",
+      "gitBlob": "395e4072b4212adc2b48b1f0c02d946fee1b1f6a",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/05.png",
+      "bytes": 28635,
+      "sha256": "b5a663297f578133699fa6d345b9c2d36634722ecb1bc5e3a642be5b85cf6b24",
+      "gitBlob": "e60019f5959f5b07b04aa795ebe64c49b6a1c703",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/06.png",
+      "bytes": 27057,
+      "sha256": "5ae2393b76809bb3dbc929d3def67802fd2889ab12799faaceb68077e471c3d2",
+      "gitBlob": "99a872edc266adcec16a8ba785fe04d27bae1d5b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/07.png",
+      "bytes": 28038,
+      "sha256": "69a61db4c6910896790bf93b4d661a4860928cdb52cdccbfd4d5a94055f9b81e",
+      "gitBlob": "e762a2e6efc7230bf2eac7340cf294ec71a89f91",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/08.png",
+      "bytes": 27144,
+      "sha256": "62afb8496eebe9c0f58790d85835ebc9a0502a341c2a5c92fc81a90ee4cde0a6",
+      "gitBlob": "28d75bc79cbe258e77b59cd30893689db41f0543",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/meta.json",
+      "bytes": 835,
+      "sha256": "3391931eb00392c13c9d6d555292c5c6ed62ee1761a74160bc0b791669784891",
+      "gitBlob": "2181be41b069f3126fce576bba0a9a72f435e55f",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/01.png",
+      "bytes": 30890,
+      "sha256": "298d124a5201b9a6c2d2957471163ab9ead605690f14e1d0737f566a37d5ff0b",
+      "gitBlob": "3a03ebf0b8b6ab656fb18c087176be7d802271ae",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/02.png",
+      "bytes": 35408,
+      "sha256": "d7849492606178176783bebb932a593a8b84fa1d68e1669c1fd801e1f9646426",
+      "gitBlob": "99def0989c87d509f4c1cc5d405cf7a409eb6c1e",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/03.png",
+      "bytes": 33549,
+      "sha256": "282257c1b3f10db6813428e19e2cd118ad1367dd2ee119edd103908930a8bfe0",
+      "gitBlob": "f1e7f5184f1f57cdc19a79157314cc6e7a520750",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/04.png",
+      "bytes": 36543,
+      "sha256": "277517af7b758bb9ffc2d45267de6cdf5a405bb80aee1aa5569298248414a0b1",
+      "gitBlob": "d275318fbf77259d157e993ecd08d84f8e4013d7",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/05.png",
+      "bytes": 36224,
+      "sha256": "d3dbc34b29655a57cb26ea7886067b1539d97f317aef3cc29ab9c88e8018ee71",
+      "gitBlob": "93081fbed63baf388485f9914ed6486d4424db67",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/06.png",
+      "bytes": 33737,
+      "sha256": "0a50ce8323e4adb48c06ea493d5c6ee471a80c2028670b82b6266b5bd8451fa8",
+      "gitBlob": "7e26cef3977cc0373447cd179aa7067f93757bc2",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/07.png",
+      "bytes": 30857,
+      "sha256": "114f1aaaf3c157d0aa6ea6437261888e40b224cf3a4b9bff47a4b8e19e382177",
+      "gitBlob": "11ab597c6ade99cc4c07b5e1ed5ceb53cbcc48bd",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/08.png",
+      "bytes": 32654,
+      "sha256": "1716833fa180c6d3aac3ffd4b884a8fe0029438f676619cd5194a820d9ed083e",
+      "gitBlob": "90f53c0bd6d7c40831ef1792606e29704949d2bc",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/meta.json",
+      "bytes": 837,
+      "sha256": "7706f4d79fa8c336e31d7c2570b47d29d3b90b2e11ac9905323df1912493e8b5",
+      "gitBlob": "464923c365f6438042be2964671d6165b790a033",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/01.png",
+      "bytes": 35765,
+      "sha256": "7500fb8df1c49afde25c8f7ff0d082de925373f4548679ab6a9788b405aa17a4",
+      "gitBlob": "029228ec696c29e69ab79a506ec987f77bd746c3",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/02.png",
+      "bytes": 33656,
+      "sha256": "7e9b5b0f6b6c78a6f4562f0c753663e909e7a0b8324fd17cb4bf0ff4d151f90a",
+      "gitBlob": "9e3460e13f50ffb568becd478902c52a3f3f4788",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/03.png",
+      "bytes": 33987,
+      "sha256": "a0cfc27ca9b366ee07af25bfdcb2b030702945bd7ad039f9d0333d77cc3998a8",
+      "gitBlob": "06aaf9957cbc2fb69bdda16a8f533f7df057f4c0",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/04.png",
+      "bytes": 36599,
+      "sha256": "234955761a0485643b4310d646ab23d02c0afda2f9cae98f1e83c5384eea7ab4",
+      "gitBlob": "008e226d49ce38052af76684036652505a68154a",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/05.png",
+      "bytes": 35190,
+      "sha256": "977c7a00b05e1394391d17e74a9aa312f5a8d1f524f3b938ec1373948099e4df",
+      "gitBlob": "f7cd5d996ac8a85fac45a163a6a8c0d41ed13739",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/06.png",
+      "bytes": 32390,
+      "sha256": "c09db144378ffc255e2ec1b3d8bdf1936e7e18f4f2496cad61d4138d5d5b7304",
+      "gitBlob": "5a78c8d4e50c8cc130b8ef18dd7f890b0f98f967",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/07.png",
+      "bytes": 34317,
+      "sha256": "1e6286142b4457fbd35014b813742da0bd42771524823067142186cc280a1725",
+      "gitBlob": "f565793114c35977da90901718f9e47ef53a3f0a",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/08.png",
+      "bytes": 35166,
+      "sha256": "46dccbe4ede8a6c0620ad0ca96b4413ded56d7033cbbeffb8985588257c2d842",
+      "gitBlob": "79248351ee3697bdf96f3b4b156ada5ac65608ac",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/meta.json",
+      "bytes": 835,
+      "sha256": "9df61edb22b06ad111462082881fca88427909c0540f33aeef71ccbd44dff3d6",
+      "gitBlob": "ec779b459e70509228437dd4bb2e5c4af7bdb5fb",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/01.png",
+      "bytes": 56420,
+      "sha256": "6777d07ffceee31b1f0a2da4e9b68f74f74bf648282dae517fe4b2aecd244553",
+      "gitBlob": "e8daefbc39e39dead00740b3a4b4dbcb1a90cbad",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/02.png",
+      "bytes": 61815,
+      "sha256": "f594484eeaa48fe388986f78e940ecaf896a3fb3a21b2fd9cf05449dca04e923",
+      "gitBlob": "57e6f820273124bfe2b7dc2472e63b4ba0add232",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/03.png",
+      "bytes": 57115,
+      "sha256": "2490009faffca1452c7b2cecd5d4525b8f2921b60d46dd85b18dd50c0ffd7433",
+      "gitBlob": "7a6fee67fa28c18fa56fc23db45e0795b312225a",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/04.png",
+      "bytes": 58886,
+      "sha256": "150ef0221b74b27fcf7a9873df41df4a11a3ab2bfec21b7fd3964a596427481c",
+      "gitBlob": "d2462d60091aec4896a910b63b40b12ce335f479",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/05.png",
+      "bytes": 58946,
+      "sha256": "5aabc6f6164b99063eb8a8bd27cbc77de062f415179ec14fc8c44bb264e380af",
+      "gitBlob": "fd7f6e52b2aef3f9dc0a4755c100315c2072ba78",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/06.png",
+      "bytes": 58014,
+      "sha256": "175c1ee674743544b28dd2e04ad8dd26ea89a1f664cd31706c7270442a68368d",
+      "gitBlob": "17d345f571e817a47fde499214bb95853e891c58",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/07.png",
+      "bytes": 57998,
+      "sha256": "adb52ccb864ded668d02c17aa9d21acabc4c6c695561f5c7e221fee8fd8d711f",
+      "gitBlob": "8eae301018ef92b929c6647248f0e138948ea67b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/08.png",
+      "bytes": 58969,
+      "sha256": "a5befb97ddc1c17962011fd1b366c6c087c2fdc5ea4104f00f01ad0fb83a7fe8",
+      "gitBlob": "4ae33446bc859559de7d59b714cf1e549d5090ff",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/meta.json",
+      "bytes": 873,
+      "sha256": "01db607f2fa4e10998628a4f2b1c1ba184915d76070be2b9e92051527cd2d5cc",
+      "gitBlob": "311c66442ba925be5feeb2a3af290c66608bb7c0",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/01.png",
+      "bytes": 53133,
+      "sha256": "0e58b3f88bddb5d2488f59846a844f4bcf62f94e860eea7598e4e011de6ab9d9",
+      "gitBlob": "b291311bc60aac67cb8d0a856b88ba67b5a2ec44",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/02.png",
+      "bytes": 51650,
+      "sha256": "30ee4cf8e6e594115a8e13dca65728936d70fefdc189fec970bdd96c3635c618",
+      "gitBlob": "acbe8f6290b49afcf2fb9bf74547dfd801a9e783",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/03.png",
+      "bytes": 51494,
+      "sha256": "cff12f6a7fca6a001c995ea01d1fc194318856de38c97464dcd4a1b216d32986",
+      "gitBlob": "743ad169976631cb266126c6a7dc5d612ddd969a",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/04.png",
+      "bytes": 49533,
+      "sha256": "588a7a28307b1684522ecd3d7e39a3ab4d8ea42dfc0c8596236286a084f883c0",
+      "gitBlob": "83400e0c7ccc0f5af4042150c5b9e9a8b996b817",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/05.png",
+      "bytes": 53114,
+      "sha256": "7f0828088ba1dfde2821c3cd6d4b3c2f3435cc3176c3713b683ea1a4004d29b9",
+      "gitBlob": "cb83696aed33cb912177aaf33b015de42499ed9a",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/06.png",
+      "bytes": 52009,
+      "sha256": "d66fac1d04408e301dd9cf65eff68e0e7c6d3147103e9f775a413854ae0afeeb",
+      "gitBlob": "d5704949fc141af4a1fe56188f0ae949cad878ac",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/07.png",
+      "bytes": 51289,
+      "sha256": "75f1e003de49fa658f0b74f7d0e916503993ae838d02cb99f0b04d0286821477",
+      "gitBlob": "99a7aa57ac6d63f68c4e6d969b133191fa568d42",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/08.png",
+      "bytes": 49630,
+      "sha256": "4924bafb390350414c100c52043942b6ca7e2978dd9e20446b2ae65ca0d37392",
+      "gitBlob": "1a119c1dc429d4d251b75b4fb7ed293caa8db6fd",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/meta.json",
+      "bytes": 873,
+      "sha256": "fef96b1af712cb3f09b9ee3f987b6e97ae24bac2366e78878796045dd60856e8",
+      "gitBlob": "7f522f7bdfc579dcda40967f8f14c703baa2ba52",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/lib/acts.js",
+      "bytes": 7665,
+      "sha256": "db003703801f1ecead3552e38c7083d646aac1f669d907832e48173865095e02",
+      "gitBlob": "65e5de2549f9f2ede8de0d717a33b8ae368a5b1c",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/lib/crossing.js",
+      "bytes": 46063,
+      "sha256": "18853b65e3fbc8badc1cc8100d577241faab340d4d2e685a10667fdda78cd802",
+      "gitBlob": "dbb44eb1fa99f37a63520e4dea75c38b1f17ab2d",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/lib/world.js",
+      "bytes": 11814,
+      "sha256": "ba39f30231bcd510947c9dc32a1801f9e2cd0ba68a41a6aafccf2e8fb9bfa642",
+      "gitBlob": "44d28d9203eb1ce4024c411b3f977eecae0242ff",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/lib/xing2_ding.js",
+      "bytes": 3423,
+      "sha256": "685a341d785f211b999cfd493d41cdb2b84df99f7b640b19b3f1e09848cab21e",
+      "gitBlob": "ae09e166392cd0aa3c1b0d459d44907c0d469d6f",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/lib/xing2_jia.js",
+      "bytes": 10243,
+      "sha256": "d58e9e8a23152eb95854861ae35f871267820e20407a6e01eccdb2f9239278b5",
+      "gitBlob": "4ad47350f2ccfc73d24b728c17aebe0aa3291b01",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/lib/xing2_yi.js",
+      "bytes": 12966,
+      "sha256": "7913d931861847aac8028ce47ff003d8fde9b60638ecfa08e6a9159fd808e412",
+      "gitBlob": "03644346ded6af91442b6a44e062939403a00d88",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/segments/02_egypt.js",
+      "bytes": 26396,
+      "sha256": "85d22b9c9dee0a0772a85ca2d3437fbe2c7af073be6ff2cb79a62763d11c3646",
+      "gitBlob": "aeda459bc4f4dff04edb17318fd42067d6ca6f1c",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/segments/14_8bit.js",
+      "bytes": 13608,
+      "sha256": "cd1d348d8096b0bcf28ca946c75f3a64759f1158ce634571baf2024a97752b87",
+      "gitBlob": "f0714ec58c97f5020c381f139fcbec6c699a4ead",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/segments/28_monet.js",
+      "bytes": 9223,
+      "sha256": "c7e7542792a36695f07e60e90e118e566cde9b55c007fe42162e27ff25b1023b",
+      "gitBlob": "71a733f955ef0c2fd77ce838ccaa6c7473f2608a",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/t1_3b1b/eras.js",
+      "bytes": 864,
+      "sha256": "448e7293cf5a0e724b2cfa4cab1bc7148f8027ecc0ddfc6a04ade2817acb2216",
+      "gitBlob": "704a31b8d49f70d0882b7dfff6d87283ef2a373e",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/t1_3b1b/t1_s1.js",
+      "bytes": 6281,
+      "sha256": "10f1e0b82dae1c55f53f59ae6fbae8d976773d822c749171f924121214d47b3a",
+      "gitBlob": "b5d0c35c211fbd766a4aef11a76f5f2a28deb33f",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/t1_3b1b/t1_s2.js",
+      "bytes": 5606,
+      "sha256": "686b2c620be37ede852c92c3952f624dfbaf5724927328e9ab45d8bc7569922f",
+      "gitBlob": "ea22ea60d26087442be248e504c954784d7d948e",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/t1_3b1b/t1_s3.js",
+      "bytes": 5186,
+      "sha256": "042794b3c2257cae2d8616955eabdb2ec2af761e43ec4d8604d937faeb693d7b",
+      "gitBlob": "7dae1a437489ae1746bbcd1113e6351081965f14",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/t2_keynote_ui/eras.js",
+      "bytes": 772,
+      "sha256": "dff467d0c0bb90bb864707192cb7ee0b5771c3793448f4a9ffe04b579818e23a",
+      "gitBlob": "212b967ad16069a4910e03e52f0eb17c6e46bc29",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/t2_keynote_ui/t2_s1.js",
+      "bytes": 3846,
+      "sha256": "03ad91437ccad3d7da0135c0f85e5ea152a0f386061b003422f0d8ab2fb64118",
+      "gitBlob": "5ffed95a2d0ab252983858995e1dad5f9137bc2d",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/t2_keynote_ui/t2_s2.js",
+      "bytes": 4962,
+      "sha256": "58d26b8329b9596180447046b22742c290780dd75283de1b655fead0383cf3e5",
+      "gitBlob": "8d68008d1617de268ab06908d99d401fddd1e489",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/t2_keynote_ui/t2_s3.js",
+      "bytes": 4939,
+      "sha256": "9e2e574f158350de3d1d5da50d296ebe87fd1a18b12be3b53391895a0155220d",
+      "gitBlob": "37086e031372bf1f04f212c7b13595763a9345fe",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/t3_finance_chart/eras.js",
+      "bytes": 907,
+      "sha256": "7d8bcb0c7f1aa6e13ec6e565925ab6689541e12e5643a555b037b8d611963ab6",
+      "gitBlob": "0bb6853c8fa6e160d32e586b6e2003684259c435",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/t3_finance_chart/t3_s1.js",
+      "bytes": 4313,
+      "sha256": "a1ba20f354638ff97df547d3f352416850d17370f8af41169ec1b6f902fd2936",
+      "gitBlob": "fddcf7ff08761e34375664ae6a4f079ce5d1edbe",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/t3_finance_chart/t3_s2.js",
+      "bytes": 3433,
+      "sha256": "a50e8b705ade4b22515851c904c8035c8c8479d712594fb0a6c5e08688a871c2",
+      "gitBlob": "614bb2472a06cd1224ae42209068b5125bcbc436",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/t3_finance_chart/t3_s3.js",
+      "bytes": 4151,
+      "sha256": "45d1cd1cb0e8edf0b4b07229f9ee0ff9e4c3b4b52ec3d5e980fd23cc897a5c3e",
+      "gitBlob": "50260994769b1e293244ec664062e5089990f248",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y1_kurzgesagt/eras.js",
+      "bytes": 1049,
+      "sha256": "0ae30c83af4116e3a2b9cc74eef918638ff49f33f43e31e499def6ae66eed098",
+      "gitBlob": "720affa52118fd7818c073facc09307115aec512",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y1_kurzgesagt/kurzgesagt.js",
+      "bytes": 30396,
+      "sha256": "4620f12ad924a865f7bdc74e72bbc87be4f5375ac8fa7ea415aabff9179b7630",
+      "gitBlob": "c75083c4c140fa3d122c0e60201c1d039d701c91",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y2_vox/eras.js",
+      "bytes": 909,
+      "sha256": "5ff129a2d4bcfefe6d1c7602bdff9faa55f408256c6429c755e37a63249c3bce",
+      "gitBlob": "b0d34b5a39e8f3cb7fb9e78c7f4aba1bba88fcf5",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y2_vox/vox.js",
+      "bytes": 20625,
+      "sha256": "d288cca5eee2aee08e803025ab41dd73096f44ab50845bdde2cc8ed7e9e07ec4",
+      "gitBlob": "b7effb124309b64fe065f6dbf8e619b18fc2f5b4",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y3_whiteboard/eras.js",
+      "bytes": 936,
+      "sha256": "e073e6936000acc885e4ec8588e3ace496c25530dc6c03a4c5e2c1543b84278f",
+      "gitBlob": "a42fec27845e8fb7687dfeca5d98cea3c9230a5c",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y3_whiteboard/whiteboard.js",
+      "bytes": 12143,
+      "sha256": "24921e56f9b3d6c1c94d77e1102c907f36882f6e812dbdc1c01a2bac094fae5d",
+      "gitBlob": "ea9ab4a7b353661b39677cb70449ee319e264650",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/eras.js",
+      "bytes": 1356,
+      "sha256": "c3cf9816bb94b08d6065f1b5c67d71bf9ad23b1f6b398345e27ecb0f40af396c",
+      "gitBlob": "f7b1e4a9213f248f6db3429670dd4c0a68ae6989",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/s1_desk.js",
+      "bytes": 1179,
+      "sha256": "e687991b4127e99efd0c73339670a30a968708817a2ec32345b2931bf7105d45",
+      "gitBlob": "6b55722c398529fb93e4815decc59853cee27611",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/s2_screen.js",
+      "bytes": 7495,
+      "sha256": "414ebc1df2fa078fea7b0cb2dcc633d20a84ce9eda1f9fd331190b0ecd42c0da",
+      "gitBlob": "89e79326b18fb8f5da3b37e4bdd618afd91243e1",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/s3_react.js",
+      "bytes": 2681,
+      "sha256": "16ff4d5b624f57c84eac0f4bfca95d318635588fc362e89024b098483b7951bb",
+      "gitBlob": "db2857227cc6259d7f54c794ba0b8aa7881e64ab",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/s4_wide.js",
+      "bytes": 974,
+      "sha256": "a238d9accd8d789104be7f4d0984922698e371c38fb3780d457e907540c36602",
+      "gitBlob": "f091cebe4ab09aa3fb51cbee80fdd9f73aeffdcb",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/s5_close.js",
+      "bytes": 1187,
+      "sha256": "62323752eaf8c997d700e92f5900c2a8d86365d528534338e7a0ca8bf392eb19",
+      "gitBlob": "382abe057bef576466497db4469fbc0224743897",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/story.js",
+      "bytes": 1796,
+      "sha256": "945e7171975fbdfbd95c91cfca070e64f9c2a4f6ae8fc034468f1adcd9dec3e1",
+      "gitBlob": "2c96caf62af7381f79497d78fed170c5156d1117",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/vo_env.js",
+      "bytes": 3238,
+      "sha256": "04739a58e5bbce262ef1f2d3c1f7988d85d2fe07139a64bee7fc2318d50bd98d",
+      "gitBlob": "3d6a60938f164a390c632d669c6e861a12ab7b10",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/world.js",
+      "bytes": 6164,
+      "sha256": "36f387e9831723ad17249d0891e2c4974414d2061ee89bd696a87aa6c098b715",
+      "gitBlob": "d51b39da0d110234634c51785f4cfc356386c4de",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y5_kinetic_type/eras.js",
+      "bytes": 1306,
+      "sha256": "540e671b8d6e7e85684332c68c079c88da674fab8ba80bc3773a27badb5c4d50",
+      "gitBlob": "87285f334f5fc1e508d8e643c54b050ab573a7df",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y5_kinetic_type/k1_title.js",
+      "bytes": 2542,
+      "sha256": "b1c0d5ee07720e6f4df94dec9e6101bb5781a009e3bf7584d68dc48c413cd215",
+      "gitBlob": "e45f67771af0f04c000fbb41a703c9547aab11c9",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y5_kinetic_type/k2_complete.js",
+      "bytes": 3989,
+      "sha256": "3f2d6a463508cecc5ca2327f0a6ae3f7e5b30e90d8ffe48638113244baa25be9",
+      "gitBlob": "1d6fedf02a1622caeadf949561f8904321353bca",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y5_kinetic_type/k3_chat.js",
+      "bytes": 3492,
+      "sha256": "c810bb9c4462b7f60ff9e5eeeb8edd0e2a74d73fc42116c8a95a48210fb935a6",
+      "gitBlob": "22c6d53ec528fda63280c7a5c6a082d1597a47a4",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y5_kinetic_type/k4_agent.js",
+      "bytes": 3659,
+      "sha256": "368d734da08e17beff2a267b2d664a99f48fc28dd911da637c2e81e295b36e90",
+      "gitBlob": "938d458b3e2f84c1daff78bd5908ade553be5a84",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/demos/y5_kinetic_type/kinetic.js",
+      "bytes": 3716,
+      "sha256": "83b5ada7617db67f715203882eda22f54c846c7655418ab10744a373472a8c84",
+      "gitBlob": "b8381d918ed91beb792baa3b0208f8b7087b32ae",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/engine.js",
+      "bytes": 17491,
+      "sha256": "04b64953037ced7016ffb211cb12891dc4f1c840378a366e35572db8098fd3cd",
+      "gitBlob": "ee2f9dc0b7a4892ab442bf2ecab6027977a24029",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/eras.js",
+      "bytes": 6119,
+      "sha256": "2ccc90bed5e9ef337f8cf3444058705dc720743a78c9315a0e5ee814cd130fc9",
+      "gitBlob": "72e6f9f4416e838a45817acc192038ba750cbf4f",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/eras_gallery.js",
+      "bytes": 14906,
+      "sha256": "6e97dfe281b8360d400a657098a68dd224a1a081299b28b3137a1b1db1a8222a",
+      "gitBlob": "41342810cb0be0fc4aafaf969c83196b604b77f6",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/assets/K线图_横屏.png",
+      "bytes": 136588,
+      "sha256": "04a61f9be80bc4895136cfb168ed102860d96af41edab1957e326d647993cb19",
+      "gitBlob": "9e681fc782734d6ac1e2dc797cbfff11d3e93bf8",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/assets/终端_for循环求和.png",
+      "bytes": 45181,
+      "sha256": "8871dce38e3ce0bc94a2aa22ab5479152df40837b67ced2b87de269a740badc3",
+      "gitBlob": "b2919580d11c0a3a25eb91dd5be4f7efe1a8c5df",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/assets/终端_sum求和.png",
+      "bytes": 42757,
+      "sha256": "2af3cac8b7468c120163c0993d98c8666d75d4814c8f0fbeced8d21db07302bf",
+      "gitBlob": "4e33931eb947faf1021523c292b06f13f92326a7",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/assets/营收图_竖屏.png",
+      "bytes": 94276,
+      "sha256": "5c3c9207a8ea289347463408547fdd8f19c63e68e1cbcbcdbc5de77b556b1648",
+      "gitBlob": "5735ce105923d990587971456f7b10f492b00bd0",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/assets/财经图表_横屏.png",
+      "bytes": 104272,
+      "sha256": "95c56c106f6eed633cf2c8b6bc46465ecf335aefe5abd9bb8e91563b48c572e1",
+      "gitBlob": "b001e61fc486f7a148f05c8ee23fd32a1465a685",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/t1_3b1b.json",
+      "bytes": 1156,
+      "sha256": "28fa6f76f6849698f30d3fc69918a00ea0a9e99225614905bea5c505b82673c6",
+      "gitBlob": "32ac81b954dcc91eab11227693b2358b7824705e",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/t2_fullbleed_pulse.json",
+      "bytes": 733,
+      "sha256": "97d2a492cd3253e4ea0c0b1c499204357254814ce1130e7910bcfd1aaa239f25",
+      "gitBlob": "7d4fd72b94e0f4cc8a4ee2162e25d7285ee56350",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/t2_keynote_ui.json",
+      "bytes": 752,
+      "sha256": "9643bed1dd75dd4891efb2d364719b80435d55d162859336dba513332c2d81f3",
+      "gitBlob": "c53acf6cf43f281fbfdae703ed2cb62c9a08816e",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/t3_finance_chart.json",
+      "bytes": 945,
+      "sha256": "7537ef8c696349daf9005820c2eb02bd34c48482052bc8e30d21ee476b264efe",
+      "gitBlob": "d4cdc4431c269d4862d026e6ee4e03043a4aabd5",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/y1_kurzgesagt.json",
+      "bytes": 498,
+      "sha256": "4a28c3ff55fdd4a2b327701b062ff6dd3b571036d2a73ec4426bc050d2ddf34b",
+      "gitBlob": "f352ffc9e91336f1c17fb59fbc11c617df3829da",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/y2_vox.json",
+      "bytes": 508,
+      "sha256": "965ca7fc646ddbb6e7b81e356e12246c10694cd797b991a5baac14312641feea",
+      "gitBlob": "10c2d6548027e38f961ff4b3b6cf55dc7bf66d14",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/y3_whiteboard.json",
+      "bytes": 688,
+      "sha256": "9d5b0b6d4fa447a2e28c1db7447874aeafa26b915960a9beed154f9252e72a14",
+      "gitBlob": "fd53cae2f13e0f45ff4a327afbde54cd58044f66",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/y4_storytime.json",
+      "bytes": 1079,
+      "sha256": "16a334ee71e47504ec74ca992b26b7f663960298bfa8864c11edd275d23b1d7f",
+      "gitBlob": "a448fc6c316ffe1c82de6d860b6a569d417f449c",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/examples/y5_kinetic_type.json",
+      "bytes": 598,
+      "sha256": "a17d1f008e68822616560acfaf022304581db2b0fcd0cbc5a6d9c2818b6a9fdb",
+      "gitBlob": "d3a57a2be7e0578a1415ecd7765407b5aeb29683",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/index.html",
+      "bytes": 2001,
+      "sha256": "afc9c95a9ca1386b2f3513fe1fe21e595372c11a084be02b802b0ad254946d8e",
+      "gitBlob": "c80fabb11940be4c6249c6ae6795d13595c554d7",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/brush.js",
+      "bytes": 11947,
+      "sha256": "e83db04e5fc9fef83237d984d2ceba3c1ec71c0c2a8f8a798ecc939fc8c3b2d4",
+      "gitBlob": "1b993a940952b843cbe7c72ec3ee2e34c3c993e8",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/camera.js",
+      "bytes": 9762,
+      "sha256": "53ddc95e972900abfb49bfea704a2b77897b9237836ee653aeed966d39ceeec5",
+      "gitBlob": "7b50c44db598733264c1b7ecd542d7f896d93b47",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/chart.js",
+      "bytes": 10870,
+      "sha256": "93d3605cba7d7cf0bdda2c2dd8f9797734dd06c1f64fa18ef7a492f8755a8d27",
+      "gitBlob": "e18de00ae35ab951117f9547e6b946d4094ee216",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/collage.js",
+      "bytes": 8972,
+      "sha256": "4dcd3d15f8895dc6e3d4f2e4d82766782a4e77876fb863ded9480320b8959d93",
+      "gitBlob": "f3491e46ac4040ea4951a6215df7ef61e406514a",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/diagram.js",
+      "bytes": 20080,
+      "sha256": "98b15ba5f883dd95eca2ff52ba1d768c10a5bea7862bd13aee6d84b875e2b8c5",
+      "gitBlob": "8baf28f1c084426a886bcffb98225eb13a70d583",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts.js",
+      "bytes": 4442,
+      "sha256": "8d5ac65f41bd6df79a0f913adf7f425d46c847cc5d8ed831eccdc80b1c29531d",
+      "gitBlob": "c96e0f285a9902824a8ff9621db2d6061c00d914",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/AlfaSlabOne-400.woff",
+      "bytes": 41728,
+      "sha256": "2f8b04d3eada32d7047255260a0e81ab74938fada1aad154f5653850a68aebe8",
+      "gitBlob": "ed5ca898aee8d6c009883b8e175749c0546d9bc5",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Anton-400.woff",
+      "bytes": 61460,
+      "sha256": "791375bdbed00de4a3aad4811291220ead0e1405d6f8b5bdbf109798c8359ac5",
+      "gitBlob": "af925c19f8fba07fcedaa246def2ca066de8a0bc",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/ArchivoBlack-400.woff",
+      "bytes": 38316,
+      "sha256": "c029965cfbc3cbb79431babf56d0fee6bc185f366c4fc2a0957817137d374c95",
+      "gitBlob": "5273a9c1dd787f49f2c8259b90a14dff9e25b9b8",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Bangers-400.woff",
+      "bytes": 43808,
+      "sha256": "62f0a30b1d48cc21bb35b084ae5d17ad22135df5dc4c18f3f591fc5443eddf39",
+      "gitBlob": "46c888483959b08f93521c80a18112b8e6e38358",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Caveat-600.woff",
+      "bytes": 132264,
+      "sha256": "7a101c766f28866c5aa36ebbce5cfedcea2601f2439d3b16694b9c8eee75e9dc",
+      "gitBlob": "a9fc847617e47ab384c641e5e1bad555795f0f55",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Cinzel-400.woff",
+      "bytes": 22812,
+      "sha256": "39c4e70ca598e2c0d78d355cd5fbe37017353a5de3008787a03e0d30a2d715ad",
+      "gitBlob": "08649ede82c8d776224a015c55c90a2df4eea9c9",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Cinzel-700.woff",
+      "bytes": 24288,
+      "sha256": "1bb7ec5b84ee97a9eae36528d5bae3bfeddf035c19842fc1740ce44c09fac4ad",
+      "gitBlob": "28f02c19e71e75e823715e685ace79c88ffdd307",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/CormorantGaramond-500.woff",
+      "bytes": 90464,
+      "sha256": "f25b87d41579955733df25af8319b168d704b5333d8ac53e991fac442e7a9844",
+      "gitBlob": "4dccf368b0e59fb7f6bb4dfc1d38680ef2ffa5a1",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/CormorantGaramond-500i.woff",
+      "bytes": 93400,
+      "sha256": "0ab1e72da6037d218386d9a6e148d7f5b0357e1965abf743aef30d641a5e2874",
+      "gitBlob": "3bc493df4e4581c8dd9b8f88e5c15dfa732b9837",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/CormorantGaramond-700.woff",
+      "bytes": 87248,
+      "sha256": "6417fd78440278f109d84cf00283fbf9b91b6d639fc5afd208a121ae7c636e61",
+      "gitBlob": "f1ddbfb1ce61e58120d6955d59d21742d7426872",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/EBGaramond-400.woff",
+      "bytes": 162740,
+      "sha256": "61ea4fa656e4ec2c6103483625f0d6a2e1571c2be57015063b73f23392b3ff98",
+      "gitBlob": "7952db1dbe1b6174b7dea79dacee618c2b1b9e59",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/EBGaramond-400i.woff",
+      "bytes": 151904,
+      "sha256": "413c5879fa73e5e168dcb59e8e692b24049756c5b961fcd8adee3db2e1624ef4",
+      "gitBlob": "f6534947ee5bea1e5d5fc8eb384a84a148c86540",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/EBGaramond-600.woff",
+      "bytes": 179028,
+      "sha256": "d0ecbbe1d933b68d32ef2629e9a46673ae5eff5ce9c04cd7f4c012504da33a11",
+      "gitBlob": "d30aa9dc3d3acecfeeb3051ef232c30b18ee8ee5",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Exo2-800i.woff",
+      "bytes": 60124,
+      "sha256": "8296afc88a371a81345e07d852a06e45ae401d5793866fd9a7f351daf523740a",
+      "gitBlob": "7437aeef4e45b7f321063be69359af60aed680dc",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/GochiHand-400.woff",
+      "bytes": 23640,
+      "sha256": "152552ee5c95ec30b75edf3ba42f3406925462ea1a52d4c049d22f550f10167a",
+      "gitBlob": "b500d9a883dbb9c829b34c97cc07648a9d65029e",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/IMFellEnglish-400.woff",
+      "bytes": 108052,
+      "sha256": "b915ee6c7034491df57eed8153ec2a5c3ee1ba55788a96737465d4c3239bd2a0",
+      "gitBlob": "f9b84ad24d7df1c3de1c3ab487fad091320a26c4",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/IMFellEnglish-400i.woff",
+      "bytes": 111628,
+      "sha256": "7c6064b4e7ca80d131a01b9133ddaf11978d43bc954eb0d1c1dd1391371c56d6",
+      "gitBlob": "6c1d5e42240d0210a583386df4e6dc4defe1fefa",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Inter-var.woff",
+      "bytes": 126688,
+      "sha256": "a54bc9f6ba847df43752bfb35f63aa1599ccc113b58c23bfa07c4dc88976647b",
+      "gitBlob": "ace36e8017be19b3c1b1bf347f09d6835466e8e6",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/JosefinSans-700.woff",
+      "bytes": 26564,
+      "sha256": "1e9f0aab2caa768ead521a88be3ea118d47c29a3ae052f9b5d0c2af0d6a8eb8d",
+      "gitBlob": "2e2bfbf8407c0b70e348c4155c1481f8f7065fc7",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Kalam-700.woff",
+      "bytes": 186044,
+      "sha256": "53b9c2a4260ba9a1320d2a92c6dbd532fa509bdeda0897580611a9f16f1a2bda",
+      "gitBlob": "b31a7658b9e2d7978425ecaf1f1816660b7b4e23",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/LICENSES.md",
+      "bytes": 4498,
+      "sha256": "00b5f86c4d5162e6fee6d600b527c052933eb2884a61a5fab0f89fa4d4656ecd",
+      "gitBlob": "0533deaf8ce621691fbd791c134a4e4bede9154e",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/LXGWWenKai-500.woff",
+      "bytes": 2098296,
+      "sha256": "734bd187392579417ac83effe31d37b9de43c7b290bcb400800456511ed79e8f",
+      "gitBlob": "4f02c88fd17d3a10936351fef76596440163c805",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/LibreBaskerville-400.woff",
+      "bytes": 46628,
+      "sha256": "e5134e031d30b4dcc76f3806701cafe92ff4ed5b8b6271d06d63ca3ee7af9bc4",
+      "gitBlob": "70100bd82e15ce4df8e5e0ef2db7967326268efc",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/LibreBaskerville-700.woff",
+      "bytes": 47524,
+      "sha256": "57b9986d47ab6d7ea1964d5693c56b5e5e97c889e31ba9546815de365d356dab",
+      "gitBlob": "1ede9e63b750769cce553c85f16215f349798a4b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/LilitaOne-400.woff",
+      "bytes": 14372,
+      "sha256": "8f4283865fad7cbb92e3b9e8ec6e48ab1225f7fb2eaa9c75741ff46d4f230456",
+      "gitBlob": "73646caa4abc54bdbecf865b1cac02e80a0b6d0b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Marcellus-400.woff",
+      "bytes": 22320,
+      "sha256": "9893ac05a03ff1e80ecf97f73853bff1378edfdec633b6c3a67ae7c33d7018e7",
+      "gitBlob": "8d593988566742cb3a8fee262e4aa58743d8dd85",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSansSC-500.woff",
+      "bytes": 1416188,
+      "sha256": "928d841b1ec663ebce82593568cbc19749fe652f88b8ec960723b7d87b551512",
+      "gitBlob": "4c7cade7f4d92173af4c3a1b6e3a44919e2636bc",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSansSC-700.woff",
+      "bytes": 1425340,
+      "sha256": "dd0d39a9780eb995c499af0c20cca93b1dfdda865da70871a20890b3e406b968",
+      "gitBlob": "4e5c21514f3c9c69f2571c9889390a779843d4fe",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSansSC-800.woff",
+      "bytes": 1426988,
+      "sha256": "b57f9c645b1a4967a3c8914ed41f24d109394a8175e36af08f93e40803e84664",
+      "gitBlob": "056fba6424656387bd2a4a85efbc9ae3c5db1ef7",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSansSC-900.woff",
+      "bytes": 1394104,
+      "sha256": "d2d8a42438b18b65b6577434df4e41bb08c6b5051281757849af00ab743bb58f",
+      "gitBlob": "664a8d52cc3924e36c85599f8c26405c12797817",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSansSC-sub.woff",
+      "bytes": 331188,
+      "sha256": "f29be895b3e7002432e6d94756a163936e9586843864740b1fc172b1859e462d",
+      "gitBlob": "972a3b100fd1c74b0aa42eaaae0ab1eb6ee71edf",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSerifJP-600.woff",
+      "bytes": 4415000,
+      "sha256": "dce02fcc08d8629226ef017472eef25b5bc152d1c32a742075fcda8f351f87d0",
+      "gitBlob": "14163512883cb7ab9e075f16033fb7bb209a8ef4",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSerifSC-sub.woff",
+      "bytes": 435560,
+      "sha256": "be59f4f630f0fac191dbc6e8d6945da681e5613df7602b2cef8ca7049fa19b66",
+      "gitBlob": "62d4bee4dc6e53794846689996fcad1c9b8b33a2",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/OFL.txt",
+      "bytes": 4430,
+      "sha256": "67c5d5206b96f8340b95fabd02ae60701e0b20ce2594d976216f1065e5aa3822",
+      "gitBlob": "a4670b02de28ecdaa5cafd2356b4a41b629a2e20",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/PlayfairDisplay-400i.woff",
+      "bytes": 50928,
+      "sha256": "30cbe57e84bc719727dc54814f708eb9fa2d05a06f04d8c196b1466ecacb74d8",
+      "gitBlob": "b1f80d059ff71a3a34356fe311c768946d84d441",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/PlayfairDisplay-700.woff",
+      "bytes": 55652,
+      "sha256": "2644f0e3c7c8f79e9d0c56ad22d246294c7c2b21ea884a7a2b1a10261cb95469",
+      "gitBlob": "507012058185ee64b4f0e9a278a3836302b82c66",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/PlayfairDisplay-700i.woff",
+      "bytes": 53612,
+      "sha256": "f263323db61a414618d9cafe489d0e18adf6682cd36baa45239ed804fe26fcf1",
+      "gitBlob": "95def380ef3b56f5ae599a375c05c914ed5c8956",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Poppins-600.woff",
+      "bytes": 66232,
+      "sha256": "952d2591178ef0c2dea37fb2c14f01e18433c8d59db10f6365c9e1ca9e8efe2a",
+      "gitBlob": "5035ee775d447b94636e9859d3a570410b553538",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Poppins-700.woff",
+      "bytes": 65616,
+      "sha256": "282b1ac42689074c38c62378b1412544f5ab11b91ba145ce56c54802496b7d86",
+      "gitBlob": "64fbbd9ae3c0b5d59a8757662ead23bfa7bfa2fc",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Poppins-800.woff",
+      "bytes": 65344,
+      "sha256": "4c2bd05974d03c8058b14a452b2d0d869420b1671a22c35d52da4d58864e46a6",
+      "gitBlob": "fe74641c202b0f5f752322389894bc4f2478392b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/PressStart2P-400.woff",
+      "bytes": 36184,
+      "sha256": "f831461d0239882019837f2b1cfea598743768f89c0b052102a1fd55050f5ca1",
+      "gitBlob": "302418fa53e00fb032203b2be3a64ebee396b8ea",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Righteous-400.woff",
+      "bytes": 21028,
+      "sha256": "374317573c47429a8d87b5c862abc96572e90eef1a445439cc329d2768022121",
+      "gitBlob": "59c797f127fc0d243f8586c6dbcac1afecc173a0",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/RobotoCondensed-var.woff",
+      "bytes": 94036,
+      "sha256": "d149ef1478076ad3f201676de2f58d11de18257590d9faeee2318fa3bc4b90e6",
+      "gitBlob": "1196643983d70c8fcfc751c9bd4177981f0a4ddc",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Rye-400.woff",
+      "bytes": 62848,
+      "sha256": "2b6ae29cb40d75d69b547e7544f4ad540c5a641e7268df578a9bbc062376070e",
+      "gitBlob": "66c64f2e9616104014d094ab60881e57fc1d2d96",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/UnifrakturMaguntia-400.woff",
+      "bytes": 39076,
+      "sha256": "af995e1259780861fd6b8bb3dada5cb1272fc2fd24dbb2ba5b7cc4411ffde566",
+      "gitBlob": "580bb9bd4e6ed3971a782f6494cb1f4c7a7cb11b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/cmunrm.woff",
+      "bytes": 123340,
+      "sha256": "32115abbbfb231586813333bfa5a234f4dc7f28b27df7260f42f81146ccd9097",
+      "gitBlob": "9efca1264afa69d5f0cd016b8c9f48f5144446f8",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/cmunti.woff",
+      "bytes": 158668,
+      "sha256": "d9a02b7b67874c62f47f9c9a0914c115972ab77d43e82a163baf0888eb5d4a2d",
+      "gitBlob": "122340ad48803a8682b363cc83b0e99a00c80e24",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/fonts/index.json",
+      "bytes": 1972,
+      "sha256": "a0870057845b502a11037acef99b6e9cbc3994fdb5149caf3aac036140dbfbb1",
+      "gitBlob": "442742f351a2d1d53520be1ee3962b35ae0d2d92",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/kit.js",
+      "bytes": 6639,
+      "sha256": "a066c4d0d4dc7189dd9de7776938b4cbc6025a4bf4a38d2e181a6667744f3024",
+      "gitBlob": "e0790d7eeafd1627794d562e81f8ded1dbddf8ef",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/media.js",
+      "bytes": 8855,
+      "sha256": "81d07aa964b76b0e8cf7f9ae871dc6e5283dec83190f69fd1c0acfe4b0be0476",
+      "gitBlob": "3c680d7032d01ff693f7352d073c19f064e7db02",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/motion.js",
+      "bytes": 9402,
+      "sha256": "22762a3691464b7504da562b3761edc70f7c138721618639697df3a5a93c1b97",
+      "gitBlob": "6ee9cfa1f9ae84be9f812539f9badec574ec0857",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/paint.js",
+      "bytes": 15436,
+      "sha256": "95ccd1945a4a19b6e2d89a422d7ea7de96174acdbae1801090ca9ee48131f9a3",
+      "gitBlob": "6fc5bedd62c6497755ccd3c7d05fd5f61c2b4828",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/palettes.js",
+      "bytes": 4876,
+      "sha256": "934acc426ebdada51f613d6e7b1cb693590d615a01d7a66d5461483bf79ff30a",
+      "gitBlob": "172b2a2d9d3c52cb774603d88813189c2f66a1e2",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/post.js",
+      "bytes": 10036,
+      "sha256": "b63ce9e73929083b4e51cb1caa45f606c6556023b3024da45520386a3d5f6129",
+      "gitBlob": "63b4a2c5a6063e7ba60b48e3155a0eaf30ba3a8e",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/render.js",
+      "bytes": 17477,
+      "sha256": "d2855f044ddff579000d9f8b1abadc2b76f84875fc604bea79d10319e3fe92bf",
+      "gitBlob": "ae98ce074111733cac6af073f13312c31b70527d",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/rig.js",
+      "bytes": 34246,
+      "sha256": "62580706e14438c6b57289ce203d040c91d8a427e356f44084a65dfc53a13bbf",
+      "gitBlob": "01db1550076afef96981f89009534c801213c0f2",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/rig_huashu.js",
+      "bytes": 13708,
+      "sha256": "6419306bb314f89848b0adf842db0c305c2f6bc931df34388eb5389f29c1d392",
+      "gitBlob": "1beff1622066c92195d372bee5f244c9c71121cf",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/toon.js",
+      "bytes": 16043,
+      "sha256": "54778963a97767742257e5b68890e5b292f2b89ce3fd1a1f9711224573988d8b",
+      "gitBlob": "b0eae6595c3382a3afb95b35b56fa83c3118a9aa",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/typo.js",
+      "bytes": 9998,
+      "sha256": "30db0cc68145dca22532e487da01aeb3ec97155e8b2c3a0747a009ce6638be8f",
+      "gitBlob": "da397e5c3ff3b809242659ee80fb85b89b1f39ad",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/ui.js",
+      "bytes": 10548,
+      "sha256": "2608da0a38bfd429a9fe41c1a93a5d080d54c5fcccea80e7fea764e6ca3a97bf",
+      "gitBlob": "8dbf8f16c41dd60ce3a3adad2d691d38ab776cea",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/lib/util.js",
+      "bytes": 7402,
+      "sha256": "a2092233bbca337a29b00ce261d81a5c7b6baa020c9e301916ebe4a997450b9d",
+      "gitBlob": "0b3db4299e12072d033b3e6418e9bdf309c2564f",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/README.md",
+      "bytes": 2422,
+      "sha256": "dd19ad3495bc4e6733290af13732a57adafb039ae6a799f3054bd17b520dc353",
+      "gitBlob": "3a8abdff7eb16dc2f7f8bd670e7a4caf55c84074",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/eras_lin.js",
+      "bytes": 787,
+      "sha256": "6605819d67486729d65a36c7cde3c7bd1b631bdf4384473180ac61e01a38c2cf",
+      "gitBlob": "17603afb2de654f7e55d2c02b13a111ceb63be40",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/eras_spacex.js",
+      "bytes": 539,
+      "sha256": "0061954a4399c0b13896d7f482777ea2cc813ef7415c5a68c3ee56ae4a903c98",
+      "gitBlob": "9b2bac76b3f5ac819767c742698f69c70f35ae7a",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/eras_vox.js",
+      "bytes": 708,
+      "sha256": "4099fdbba709a42848f2608b77fa8991b9cca43cbe98ef2bea4fe4a7acad2a84",
+      "gitBlob": "07c65965e969316274329bf705e66e71ea000cb4",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/eras_wbx.js",
+      "bytes": 952,
+      "sha256": "039cb40eba4483ceb853ece6d23068e72ede0f8cabff38aca1da17127661b4b4",
+      "gitBlob": "490bc50c05e0ac53c4f86ece0ad0e19fc533a2fb",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/rockets.js",
+      "bytes": 11307,
+      "sha256": "c03146000da38e0999efcd06346956e84b72c0a5aaa2218b753f2558faf778ab",
+      "gitBlob": "bf827caa4577b4671aa115e166f2cc834e1d96f5",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s01.js",
+      "bytes": 13607,
+      "sha256": "237ce61de31f9de1bd59856eea4b1993c4cacef4965295d368f25078ad5dc560",
+      "gitBlob": "c9cc01ea1c2be7cb3f4c19f6656cb0be1395953d",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s02.js",
+      "bytes": 7510,
+      "sha256": "65c91538de70d4a7f15e80129a4af54a8ec37e6d8c01d67d5e74f52274e7e28d",
+      "gitBlob": "b264e0bcd0c070a549175be51c4216a36974e850",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s03.js",
+      "bytes": 19757,
+      "sha256": "39004e9f201565a6940cd98ca4703bbb3b5b13629bb972357f6c63829891bdb5",
+      "gitBlob": "d41b7691b6c28ebd32faf241111da1b4e324b740",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s04.js",
+      "bytes": 20912,
+      "sha256": "a59854fc3f5fcc5d97098cb77d266e28ff4dd8229d158576dba60a747465c64f",
+      "gitBlob": "1273dda11e0f8aa7fef7c206381b5379a729dfd4",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s05.js",
+      "bytes": 18291,
+      "sha256": "33c4e30f049f7fdb3f495f500cc3cf8ffa32913b1268455cacd08364bfb10877",
+      "gitBlob": "ddb5e5f9654114abd4fc8c8545dafe3f53256805",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s06.js",
+      "bytes": 17280,
+      "sha256": "7b751b39a2eb3bed6ea90119d713cebaebce149af1e2287386cef4072050a944",
+      "gitBlob": "61499bb473f94c8f5bfa03e9633d32785b2c75c2",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s07.js",
+      "bytes": 30204,
+      "sha256": "42e8a3712d7211391e34b924a2e324db5a70cb28753535362992197ba59a5043",
+      "gitBlob": "071d34e8e1e6ec44ab450f75a136827b02500315",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s08.js",
+      "bytes": 12727,
+      "sha256": "23c788cc6367f1a5db8c59d2ee5a839a699fb84c4bfaf9c3b55768d6b78f0a19",
+      "gitBlob": "f7d684281901fccb2766e8a502808dfff1a6b32b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s09.js",
+      "bytes": 19544,
+      "sha256": "7a32c09799906726767e810f3a8ad441ba8fcf055d507a8327aaab28920d92ae",
+      "gitBlob": "0262e7dcf8e28ccbf0ffaf01e447d377a66baef0",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s10.js",
+      "bytes": 21966,
+      "sha256": "98dada64b0641e5f284304743c9783261938e6466ab988fce52217f370cfcede",
+      "gitBlob": "2b9555ed798f8077ecba331f651fd3d6dfbba76c",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s11.js",
+      "bytes": 27766,
+      "sha256": "a5611386f7703c3ecca95b90beddf8d14a746d58217a1719f0d3d2504ce43d2b",
+      "gitBlob": "5a2cec6f0bf09e74916910fe4231f5703949e717",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s12.js",
+      "bytes": 26464,
+      "sha256": "87cb530f65504bfeac1b6c07a96821a28022d7298135a63b34149e582630161c",
+      "gitBlob": "9d86fa906088dd03c15e7a06e15e2e3028db5262",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/timing.js",
+      "bytes": 15196,
+      "sha256": "00fa0e7dcaa4cd18c7f927ac457fbb8dcbb599dfec7e5dfbe9daf60732d4365b",
+      "gitBlob": "aed95b06b1ac4669f121e56878ba272e7688b0a2",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/tm.js",
+      "bytes": 1038,
+      "sha256": "49d1198fcf58a4a44f48735c02ffc7443d6959c7938205bac513ddc24784bff9",
+      "gitBlob": "a0014191409f5271083943bad0c8d1d3918edf04",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/common.js",
+      "bytes": 41164,
+      "sha256": "e0d25c4901c81e985cd591b130bb4b263fcae8da8b5ea8c61fbf46a541f11481",
+      "gitBlob": "90ff436aeaafb3592414fd1f16e0952808a3f2b1",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/presenter_meta.js",
+      "bytes": 6341,
+      "sha256": "c4d839c0dcd1d370b8937c10c2f8cc48dd530d81e15c2b9513e624525e8a8a49",
+      "gitBlob": "4d4f5362a251c79a05d9b0bb376ea26d28e27848",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s01.js",
+      "bytes": 15145,
+      "sha256": "1d8db35fca961be9c2ae8861d32c5e10aa0312c54bfa817c415c572000c1424c",
+      "gitBlob": "5cbd1606961ba5973d3e9542b28ebde009d552ca",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s02.js",
+      "bytes": 6637,
+      "sha256": "cb812430ad81e957b1efe1a0b990fc61e88f4e0138f34de6ce4ed79d6aede071",
+      "gitBlob": "44133d041cf60fbf3736bdf567d7bb1a32a209c3",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s03.js",
+      "bytes": 12056,
+      "sha256": "e305844e95fba4000a728bfd84225d78fcf3163c973409a49bb820356a31374a",
+      "gitBlob": "8e42c9374656a32257cc83e71bee6d39da393ca5",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s04.js",
+      "bytes": 8281,
+      "sha256": "8508c6d1df05bc8976249ef6538023a9d5b19e369c89cc612cc97bfb271c92a5",
+      "gitBlob": "51126a8e77ff9c04a184ddb2da8330820091a5fa",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s05.js",
+      "bytes": 12074,
+      "sha256": "b7eb5e8949b557ed70fbf28d4f77850c513c172aacddfe1a75acf55fd66b8c11",
+      "gitBlob": "281126f55b04b3add2adae3db0a83faf88351c62",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s06.js",
+      "bytes": 6997,
+      "sha256": "7139a5b052c3c361cc750aeaffea972e43f4025481359d0d61ec6a38add8d243",
+      "gitBlob": "e2d9f28d5444369ce5337a5161f23b878f418b1f",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s07.js",
+      "bytes": 9524,
+      "sha256": "67f7f39a056e7edab0e89bf0a9829081e4a1f2916221cb214ac153394ffccd2b",
+      "gitBlob": "b7b52991553972df22bd7c6c637ee394c5aa7e55",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s08.js",
+      "bytes": 13954,
+      "sha256": "641497feea2324ab90bbde461851c5844bc6dd6b7d6febab8ebce60100be49b2",
+      "gitBlob": "d01900b2181f4f48f5b81ce5a6404d3f01f7a78c",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s09.js",
+      "bytes": 9393,
+      "sha256": "bfa575443084ca857ec14060262071d72480a99e022e121eb72d3a5fbb55e453",
+      "gitBlob": "c01b7bbd1875eb12412028f925fa5bde8ed4b222",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s10.js",
+      "bytes": 11043,
+      "sha256": "7b461f84ec85e1f08867462d5be134b9edc3a4df124753627d0d74d5d939aba2",
+      "gitBlob": "046741d1ad0f11ed117174e4654690e197687b72",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s11.js",
+      "bytes": 24016,
+      "sha256": "19737e5d99a2c6cfaed9307daa8520745110fc2ac68bfdcb5b6665ee3e653838",
+      "gitBlob": "7ee58fed7c01ec2ffaeced9ed853a34340e910ff",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s12.js",
+      "bytes": 10956,
+      "sha256": "917705ac8d9b1ab0aa8c27f74c42eb26f554934ee37389328f6bf72c75054332",
+      "gitBlob": "6d5221da7d0571597cfe233ce4c8f4f8b20815bf",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/tools/prep_presenter.py",
+      "bytes": 3147,
+      "sha256": "79bfe683a8311aa20b9a28e2e284eea7c0edfe7084128c3abf4584b6a73b46e4",
+      "gitBlob": "892ab71d1e1f0769fcd44529e76ef0946c791a45",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/common.js",
+      "bytes": 37950,
+      "sha256": "8a180bc158e658111c0dd76b13eca1f04f718773e016f4ac4fac2c88755cc280",
+      "gitBlob": "4b09a7be4882e113e7a4376acd22b6dd78aa81ec",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s01.js",
+      "bytes": 10514,
+      "sha256": "db79f6015d65b62187607f8d182d0a592c5fa84759f00ab0dbdb0a1e6fd5ebc8",
+      "gitBlob": "ee62f128b13c57c000e2de2d6a5d761e1bfafb65",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s02.js",
+      "bytes": 6000,
+      "sha256": "0f400ca0910c5a734aabcc7a5fb97e3b4ae0b6eb917e627203201f48d4c1b39e",
+      "gitBlob": "f793f04212cbe932ba2f40f054976bc84531cf75",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s03.js",
+      "bytes": 8153,
+      "sha256": "ca6c23aa451bdbd8305c075d8815c1e3d902be766f2e565ce9c7afdbacfb4d58",
+      "gitBlob": "53260a25ffc9c3ffc3142e02439e2dcaccd04042",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s04.js",
+      "bytes": 9816,
+      "sha256": "528938e10fd97cb69e7028411a08bae21332ae9f5b07b56ecab0635f1f78c057",
+      "gitBlob": "4de6ccd3a1db5a8788bd00c3816ff6b088fd4fdc",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s05.js",
+      "bytes": 11097,
+      "sha256": "b171c07b5e742765ef9e21ef262264a4d7d9dcf3713c941f43b0c4dbf28b49cf",
+      "gitBlob": "2a21c48ac81a3d8bf816cd2bc3e957c8c7d7807d",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s06.js",
+      "bytes": 7485,
+      "sha256": "9968153847fb26f19c183df2ae0b1ceea12df4cc132208d99c9c32f897a1fe1d",
+      "gitBlob": "785b2fbc35879ae2362dc4fe0843b14c1a018b16",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s07.js",
+      "bytes": 8324,
+      "sha256": "a5ac50564fe721d114dcb70e64ef932ed373c9167c7f128b8e17f52069ddc9a7",
+      "gitBlob": "a770a78dc618cc90a70c4076df0d66cd6860c777",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s08.js",
+      "bytes": 10058,
+      "sha256": "9c12be241ac5bcfc95388d62832086cddff0b8e5cc5c7fdec75a76b959f361f2",
+      "gitBlob": "2a5fff5b798eea5d679aa41daac6a937fab66d55",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s09.js",
+      "bytes": 6252,
+      "sha256": "95f64afaa6f632ea86a77c38c112e007b2560182d0acace06f7c37757bf80ff8",
+      "gitBlob": "a9722d1b1f079dec1b3073d8734131bf8d03eadd",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s10.js",
+      "bytes": 12772,
+      "sha256": "d186a59c8ccf38889c88baf25e3ac18efd54ac8f8b5e24f940fa2c6ab59f33bf",
+      "gitBlob": "6ac534e4bd80a27583d1e1da2fd2a6d55bb9bd7d",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s11.js",
+      "bytes": 12871,
+      "sha256": "642d7dd53f3a48ec8596be983739cb7a1e8c679e5fbb3a9595ff802699155cf2",
+      "gitBlob": "a3a8426965edbac9f34ece872f57e0c4178adc1d",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s12.js",
+      "bytes": 10265,
+      "sha256": "03804d0e8a0bbdfdddf7b36eab83c93ca7d5a0d7c464abfb3786080e74374b40",
+      "gitBlob": "f6210fbbf42ab54f08318bc43144af16794159a0",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/ARPHICPL.TXT",
+      "bytes": 6900,
+      "sha256": "5590533436c70f10f2f524ee61456238c290175c6662fbe1c700b5f038a6d328",
+      "gitBlob": "de7491ae3d4e485c9667d95bcde031dd54b42392",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/hand_1.png",
+      "bytes": 155292,
+      "sha256": "19761f892b70430e24b8e4780c547c0b1547f584d72b840d5a23fb06bb93c0c7",
+      "gitBlob": "a8146eb91ba14439c4dfdd41860a3471c5979576",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/hand_2.png",
+      "bytes": 157688,
+      "sha256": "f404f8d1f597cc4d97e91123e7e57d47c4514278ebf2b897498ba9483e4215c7",
+      "gitBlob": "29e942086392bac5e4923f75326813c780a5403a",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/hand_3.png",
+      "bytes": 165164,
+      "sha256": "c16036d4a837b88cf977ff0a0910b08497eceef9c605eff80bfeab712e3ef10b",
+      "gitBlob": "1a611d7f02d00c5a46ac47a1315aa3dcc286c924",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/make_hand.py",
+      "bytes": 1628,
+      "sha256": "5b5cedc474960ffeeff1cfab407e2a926f036a8beab0e43147327957dadf83cb",
+      "gitBlob": "81d0b8cb217096055d86a45d35abedb54d3b75ff",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/strokes.js",
+      "bytes": 56562,
+      "sha256": "7fd46e149eedf2c1e42becaa19e3279192d2889ea223c8dcbb696653b351a17c",
+      "gitBlob": "a449d407a7c858e2b0fa187209c757a72d558d9c",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/common.js",
+      "bytes": 54226,
+      "sha256": "d416da124e3a7219de49f2d4fe7f9c6a81b01ca47c5d2a0bb4cc0f8d997188bd",
+      "gitBlob": "007a2636404b146b32852d685883e4a7b456edfe",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s01.js",
+      "bytes": 6837,
+      "sha256": "a9e1d970d0a4447ce375f8050cc7555c959d0c7be8cc3b0d26b864723973aac7",
+      "gitBlob": "643bcf0b09db46d9914ea0343932c82308aeb0f1",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s02.js",
+      "bytes": 4793,
+      "sha256": "949855e8c87174757d3d3ffadd7ac8bfe8cb80663555c3c0eb21b1c451fe86dc",
+      "gitBlob": "795e20d7bf5f1f885e4d564dbc03b686018f91a7",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s03.js",
+      "bytes": 7160,
+      "sha256": "468e165e32d68ad46cbf3383b83b457341a200493388e6ebbfa25e202e560218",
+      "gitBlob": "4a1b35e449e7bcd05e489e1d81d635dfc6ddf9a9",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s04.js",
+      "bytes": 4133,
+      "sha256": "bba86920a73a29be003fe1ade0f59ffa1e21a2bcd8dd5ad524904c67ce87f961",
+      "gitBlob": "69f23e823bf73790ee473100990f6bb346d7207a",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s05.js",
+      "bytes": 6525,
+      "sha256": "057ac7bbd37ef79aafd43693def08f4225850ab094bab052557218118f430b59",
+      "gitBlob": "649bfaf67892ed690a13e1e4ce77e0a4f09567a9",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s06.js",
+      "bytes": 4969,
+      "sha256": "82c7edb955f010899acf33409ca1745d7b2c43bb9c0f9920d78384e13eae50d5",
+      "gitBlob": "ad08d87324d206b52cb7f8821227bbbd320f2ee0",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s07.js",
+      "bytes": 6076,
+      "sha256": "6a1af8466ee815c8c6cbe28ba1baf35174feb5f42124dd9428c8dc7cab02dee9",
+      "gitBlob": "5f4f13845c476bcd6020a1473f365b962e3d2d9a",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s08.js",
+      "bytes": 8827,
+      "sha256": "0c997e30d3904d7fc1e641c8171e1cb698f70d4090ae53e5cfbe81cc7f021e66",
+      "gitBlob": "b2a08827fa93c69d8139417c0433d9fbb3d1ceb3",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s09.js",
+      "bytes": 4461,
+      "sha256": "e9a3b6fbbe19c2ffe3de94470e9d545e69822b19fa0de9d780f1dc314fee4c1b",
+      "gitBlob": "1d3776fb8203c1538a783f734de27401bce585ff",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s10.js",
+      "bytes": 11234,
+      "sha256": "9fecdbc75264cd94173710b6d8b0b743cc9108e0cb39c1a207fb725882c4b19c",
+      "gitBlob": "0b05bb2b7e0a7d8b4e46609bcd124cd712ad882d",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s11.js",
+      "bytes": 7559,
+      "sha256": "080b86e5c76f091ba045d1a96ba875deb84639c0ef9a4e44aa42a58dfb0ab4e2",
+      "gitBlob": "4996fc9e9dfd99d99672e99fbade047e94d2bdef",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s12.js",
+      "bytes": 6028,
+      "sha256": "7b24f80e83e2aa209aa77b14bf82f13856bc240d2124af393f5a0e90e181974e",
+      "gitBlob": "31616baba7e0d009397d190e7d2b347ae07c5b95",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/cardFlip.js",
+      "bytes": 2370,
+      "sha256": "4044c78947d3e96afcd19c099fc3c3f06e54f6b2534fc842a570ce2d4286285b",
+      "gitBlob": "93a219c60ef43b697bd27db06b47a4d874b0ed13",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/deskPullOut.js",
+      "bytes": 535,
+      "sha256": "b8d7d3c7c6eca5585f4cb02193b23fe05b88c7615f8d494352c78018387eaa55",
+      "gitBlob": "3f852ea0fe1059f6c430999782427ee89f499fbd",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/kzBloom.js",
+      "bytes": 1812,
+      "sha256": "d16eeaa0aa5dad93df67af66d7116de260690294ab5d325938983643c97e2d2c",
+      "gitBlob": "0bf6c095848572e378a358af8bb3a852f1e341de",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/lin_page.js",
+      "bytes": 6035,
+      "sha256": "76006697fcca8b11ddd905a104ae9fdd0f2dedd3beedc39eb495feaa50f6addc",
+      "gitBlob": "82a9ed939196746eeec6b8b1b705c8d0f502ba0c",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/paperSlide.js",
+      "bytes": 1079,
+      "sha256": "14eb0b28a2e78a7feeaf158b81d3aef640f9776dd0bb578f21b7e6bfafe40e13",
+      "gitBlob": "ac12cade7585f9f9f8cf0859508d662f1a6c713b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/vox_pull.js",
+      "bytes": 591,
+      "sha256": "79db9ef00e31a4a44872ef57f9ce9a5a89ed631c1a83d9b7e72129e4a7355959",
+      "gitBlob": "b7580da060f2d143a034449362957a60702ad092",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/vox_slap.js",
+      "bytes": 771,
+      "sha256": "78f8fa308a434a33d7007b776c4e006d711fea61d4f4dab9426baeebc6c3d573",
+      "gitBlob": "c4c128ab4a396d0e1f11b590afabd54550674881",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/render.py",
+      "bytes": 8675,
+      "sha256": "7ae2eda1b2669c4f3a9f1150ecea4c553fc813023b70c0198412ba9bcf2f43ef",
+      "gitBlob": "4db5be0e6f463b93b066ceb63a7181b8b3e47175",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/01_cave.js",
+      "bytes": 31417,
+      "sha256": "06ff3360279ecf778d78ef5e56fa6d5cd6354a18033079eed32cba6af48dd781",
+      "gitBlob": "d9b9dae22060f34edd8cfae1d7f95912b53d0f73",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/02_egypt.js",
+      "bytes": 50018,
+      "sha256": "ce4acdce7f65f41686f7e5f04336fdf150bfd53a560a20f2a83a3db495a86353",
+      "gitBlob": "b562fdbdf86780c646cd7295888c05e76ba7de40",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/03_greek.js",
+      "bytes": 40744,
+      "sha256": "58e259062257ebf15d2fb141e10441119df0691e0cc2bd212922a8cffb3be184",
+      "gitBlob": "731f61622246d98cb715024d50164477ef1fb823",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/04_roman.js",
+      "bytes": 47611,
+      "sha256": "a5678635c8199b61700785915de9308fcb20abbff34f98a143b50ef740faeaf8",
+      "gitBlob": "a0c813416a5517a22ef4246cbf59eb2604800552",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/05_gothic.js",
+      "bytes": 40426,
+      "sha256": "a5b24f49d1dc01cc5d5eebba9404f6c6ebd6d6de1a61ef6c2eae36c1f591b327",
+      "gitBlob": "5df30d9435e7f66cc38412834f96cb94942dc354",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/06_renaissance.js",
+      "bytes": 31437,
+      "sha256": "ab7dca1e5f6f5911a55cb132eeea405ab3d0001f2f6ceed01cc624bacbf9279e",
+      "gitBlob": "d6df5f9eba6320eb588807c3be461aa3b348fcc3",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/08_impressionism.js",
+      "bytes": 20908,
+      "sha256": "6d5e4ee5f4329d7551ef84edc7f15d4396effd7b80e7091074c20920dabc7d24",
+      "gitBlob": "faaf347a12cd971e769569ccf7a2ea5f53fd7fd9",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/09_postimp.js",
+      "bytes": 16299,
+      "sha256": "a1806dd4dfbfe32ed9a18e70174750c0e932a2a2beca832be8dc25708c76277e",
+      "gitBlob": "483ecbfc91661c0b047cfc329e8a5d67c46389a3",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/10_nouveau.js",
+      "bytes": 30381,
+      "sha256": "4a390aa2d70b4a6afe0b35862e502ef78f42c36ff960f3ef49482be67320ca39",
+      "gitBlob": "0cff9a9cb978a32094b6e5cd1f907fdcff429e39",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/11_cubism.js",
+      "bytes": 27428,
+      "sha256": "dbdd5cba2eb07ecd75445c534d04b40d6206bbb252c28e31ecefeb08a83ee249",
+      "gitBlob": "e26e76a50c7cee2d8bbc88af4ac856f730a2b8a6",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/12_bauhaus.js",
+      "bytes": 17535,
+      "sha256": "647e3d52272eda0630150d04ed3f299da095c4e8e564e3fa7c84330c2993efad",
+      "gitBlob": "feade9f50aed8055df0d7015720abd666a12ca7f",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/13_pop.js",
+      "bytes": 24647,
+      "sha256": "80a893a23dc2d0a6350323b0b63a0cf4929e48908391f796422c402aa272935c",
+      "gitBlob": "04c1fc844a9cb533a3ddb3066923ab674927e499",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/14_8bit.js",
+      "bytes": 17139,
+      "sha256": "3351f505bd0f272a623061a8f49993b877339c619dceb2f5e08c05933397b71e",
+      "gitBlob": "8418bef5b6ffbfaba8a1866c7a2c02b2d50c17ec",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/15_raytrace.js",
+      "bytes": 25794,
+      "sha256": "b77169305a158c5161c6a4f30ed8f00adf0128cbfe837b0c4f37ebbc120213b4",
+      "gitBlob": "11838972b0d5f6b8ff9a5707290b3ff5eafdab44",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/16_2026.js",
+      "bytes": 50054,
+      "sha256": "915ab9a19ee937027ec1f449b8c3d358422df29d21986d237ac7c73169a5e710",
+      "gitBlob": "2d344cc46db931949461c835cf366c7b69eb0036",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/17_ink.js",
+      "bytes": 22782,
+      "sha256": "0d3360a701f23f6b5978686645b80d4ce69c15bec2be09f017c14e4646f05760",
+      "gitBlob": "59cc47c3f64100b07af5b13e341189e1fb9cbf6b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/18_klimt.js",
+      "bytes": 20835,
+      "sha256": "dc03848dc98d567f15561f6af4fb709050bac729e61269297c910fc312604244",
+      "gitBlob": "3ebe5dce8b79bd5b014d96bdfbc58bf4c53ea618",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/19_munch.js",
+      "bytes": 13393,
+      "sha256": "b415408930826beea0cd512bc5d1002f70478314b3f0357e7f88a40c01bcf0c0",
+      "gitBlob": "c9d35197e3a2a1e7091c1274403a333146cf140c",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/20_dunhuang.js",
+      "bytes": 21588,
+      "sha256": "33ec1c2c6a062feac415893ba232d227c715107746fd16653a573ad63c7f8780",
+      "gitBlob": "376bcc52c205e2a253e78ff5ebec5c1c7b89b2ef",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/21_kusama.js",
+      "bytes": 11935,
+      "sha256": "1ae771a76fd4b8c128a667f3c87227c243a43c0673d1bf68b1f7a3eba7d6e56d",
+      "gitBlob": "a0925da636bf4299898c4cee4de20b655e0803a4",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/22_constructivism.js",
+      "bytes": 16305,
+      "sha256": "79e64e9e664886b4c6e70094d161b48e8346be318ab9c84c4859beff98a83ab5",
+      "gitBlob": "ca468b5cf06de5552e75a50e88e6b1b9c4775198",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/23_dali.js",
+      "bytes": 20846,
+      "sha256": "5ff7dd1631b654aa0adc2d7bd27e8efffcbbd4d6f330e6002c60eb89e747fdfa",
+      "gitBlob": "2b02d6e9eb4414d08faf1c53df55782dd5988bfe",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/24_hopper.js",
+      "bytes": 13619,
+      "sha256": "672605310edebdc93c35e819bd1a2e97dba874e64b025952d24e9b81809000ed",
+      "gitBlob": "4f9eb1116d4905747a773c7fc58b18d46895f94c",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/25_ghibli.js",
+      "bytes": 22700,
+      "sha256": "bd0f6b22b6c8cd1ff4e18f207587f4995bc2ea949196b9a85296030c7dc5efd8",
+      "gitBlob": "bc9255fce34976211ad74ff14e31f327a65035f9",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/26_vaporwave.js",
+      "bytes": 17070,
+      "sha256": "f34aa1cc5ceb0b7cf60ac03adcf804ea7e39c7641446b88db9fb89b179daf02e",
+      "gitBlob": "02eb85d089ce592c9c52b920bc712399162440a6",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/27_kirby.js",
+      "bytes": 21894,
+      "sha256": "d82e039d7d4ba45ca01114f9330b1dcad3ddd516efa8bda7d190e85606487028",
+      "gitBlob": "16b54bc666f3a391e49e5f31cc12a1f454b02216",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/28_monet.js",
+      "bytes": 17322,
+      "sha256": "1ea1f0a1c77f7ea14c153b46a62daaf5fe84d3c02e73b5cb2a4a7838c7e14930",
+      "gitBlob": "424e9a165c7094f4f0ee07a78095e257800a8d9d",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/29_seurat.js",
+      "bytes": 11060,
+      "sha256": "a026713b9205c6a00c805dece5068722b15071f9bbb691203697c9cd0a33be23",
+      "gitBlob": "3cb8617479c06f05a598796b96422204d90c5208",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/30_matisse.js",
+      "bytes": 13787,
+      "sha256": "09d97003c451d9dbe723a942ea3146213943b75cac3a92ab1648e58279358aa8",
+      "gitBlob": "2617fd7b55d3732a4001ac5761e89e0ad59f57e1",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/31_haring.js",
+      "bytes": 10315,
+      "sha256": "5113c0318ed36db84acc7eac6855ec0f0a44511f6cedd3f326b78ba4e921f1ca",
+      "gitBlob": "aca68222ae4449e21bcfdd1d94b1eebd463d2f23",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/32_rembrandt.js",
+      "bytes": 20786,
+      "sha256": "47883474a7ed9aa7c5bfe39b953748da5003c601c3dcf48e3a2e6e18fd03bf4a",
+      "gitBlob": "264178b24fc6dd5112f7f7f867adebcdd0572dc1",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/33_rubberhose.js",
+      "bytes": 18226,
+      "sha256": "08a1340dd35de98830b81abd7026be6e2361f325215793e55369f5cd1fb50ad8",
+      "gitBlob": "b434105cc667561ea5abb589db02c8e31458791d",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/34_shadowpuppet.js",
+      "bytes": 18052,
+      "sha256": "08186a1764be2bdc2c27806850dea2fd86761936aeba1299e8ece9bf31f381a8",
+      "gitBlob": "02d9f91148fe7792ffb1008ba28d3f74b3883a7b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/35_shinkai.js",
+      "bytes": 22142,
+      "sha256": "8e7f5753a0ce49291ae35bc4f471b5ca62448eb9532403459395d88bc524a736",
+      "gitBlob": "8485c2925e4d24f3dc71ec31a7369cd6fe16d868",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/36_picasso_blue.js",
+      "bytes": 11565,
+      "sha256": "10023147e1e31afc162e1cfe51356867ef83595b41bbd5cc824d55532297ce09",
+      "gitBlob": "5db471d78b54483971ca69ec705b7079a465b3ab",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/scenes/index.js",
+      "bytes": 2439,
+      "sha256": "22da1210908a8083658eb53289656eeb578026b6deabc666928014d01ddae23e",
+      "gitBlob": "498c2b583c73638b3edf519ab72319dbec210216",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/spec_assets.py",
+      "bytes": 3643,
+      "sha256": "d963a9fa80a7c71ed4ff20f4bf5ff692b17d53aa49e8b9b234c4a1a671f60d41",
+      "gitBlob": "2936dd108e314ee517480427541f7416233c9e3b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/transitions.js",
+      "bytes": 69549,
+      "sha256": "c4bd441cf765db346933e5d18270f532d4c9782c9303b0bcda1ba59a2124b618",
+      "gitBlob": "b3b2520f059815ebbb8084f6ea2da2ba3a14be56",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/engine/时代作者规范.md",
+      "bytes": 4719,
+      "sha256": "4e7661571b60fa0ed776fb5631462aff3a30235c5e6343aa06f9cd23973391fc",
+      "gitBlob": "adb4060e051878c0df9360052ca50aca63000eda",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/film_gate.py",
+      "bytes": 44401,
+      "sha256": "2d375cc2bea291e7a1b837d5755b49fbda72f5f75515758c09bf7d83cd269e52",
+      "gitBlob": "45cf2a2cadf0abce1271820531149981246fd90f",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/font_subset.py",
+      "bytes": 7542,
+      "sha256": "ed826dffb4b370741602aa79caefd69157fcf6d7f9abd90a9078d4f7208896e0",
+      "gitBlob": "33614ba5b3e7007206df6d972651c07ac2f1cdc4",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/images.py",
+      "bytes": 15603,
+      "sha256": "a47a2663f251525bfbed5b46533e3d43415c9e10c8a2b8a9f754abf204529535",
+      "gitBlob": "839c057f7062154f7fb39f5c75a1e9667aa3d83d",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/key_green.py",
+      "bytes": 1930,
+      "sha256": "11ac28bb2508d6b4a240eb37a55b342a0f556943fe29a17962bbc0f93f90d303",
+      "gitBlob": "e2271d00820784468b1699ddf6fa04b58e6970f7",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/key_split.py",
+      "bytes": 1632,
+      "sha256": "889759cd6b5353b4d48d34faf3878682890e06ca79887c9ade9be401b7359f86",
+      "gitBlob": "357a4f25dc0f9b02b2a6c8acf0195e9540552a8f",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/koubo.py",
+      "bytes": 18331,
+      "sha256": "7837507e6bf02b20f8aa63efdc881c8de0d5de775b4bf31a1040bd3824348494",
+      "gitBlob": "e6bbe77162b7ca8ab8e0557983dc1d6cf2b6056b",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/qa.py",
+      "bytes": 27060,
+      "sha256": "b243900f0b91c246a297b81509b801c35b2b83c6f9a62b7adb68e3b217c34ee0",
+      "gitBlob": "98758fc3c7071b584fa40cb09dd76d40332ee344",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/storyboard_lint.py",
+      "bytes": 31806,
+      "sha256": "47168d3500f89018a351a5772f7ad59fccc232f66d08393cc16e79994bb39642",
+      "gitBlob": "803160663005cbde7f7fb3b46fdef5397392f670",
+      "lfsPointer": false
+    },
+    {
+      "path": "scripts/subzone_gate.py",
+      "bytes": 1811,
+      "sha256": "8641a3b1b38ac28c1562e454a0e370f36a73d1a0c79cddf36175c7444a9c1598",
+      "gitBlob": "03add14ba71328b9ba3728e4e7d8d2873d726243",
+      "lfsPointer": false
+    },
+    {
+      "path": "tests/fixtures/y4_storytime_test_frames.json",
+      "bytes": 985,
+      "sha256": "97fe2a512d57afb456dfddd261eefba89731c25f7af0b38383ff70ad6adf8b61",
+      "gitBlob": "f9d1ec4ad69dd3dae74b0a251668d9c7c8979d66",
+      "lfsPointer": false
+    },
+    {
+      "path": "tests/test_capabilities.py",
+      "bytes": 12435,
+      "sha256": "04ce548d5a72a11a87a3bd85c46a98e13f1aabafb096e3c59a6fc7a20bfdf4ad",
+      "gitBlob": "ff19beaf94e14bae0fe1dc6eacfa8aa6bfb3eeef",
+      "lfsPointer": false
+    },
+    {
+      "path": "tests/test_clip_theme.py",
+      "bytes": 9382,
+      "sha256": "efb0f2f6f5b7f180676af8d0929b2f19f4f94ef7af82e4b6f75d29fb8eeae9ad",
+      "gitBlob": "450389d12bba79765e4630f6bf9117e8e31cf74e",
+      "lfsPointer": false
+    },
+    {
+      "path": "tests/test_clip_world.py",
+      "bytes": 4219,
+      "sha256": "95051d28d2c42c14007059211977822204f13210f6ee06c23b8a0b8a89077d1d",
+      "gitBlob": "e926d10264c3df8ffb9ac4828d6881f09138ac3f",
+      "lfsPointer": false
+    },
+    {
+      "path": "tests/test_film_gate.py",
+      "bytes": 11354,
+      "sha256": "5a5a9945166ecea6daa5b58cff9bbacc4cd191f30a4032c3e5d6611987e78dac",
+      "gitBlob": "d25a80e076e5b3300bd4adef7c738da4b00542e6",
+      "lfsPointer": false
+    },
+    {
+      "path": "tests/test_film_gate_blank.py",
+      "bytes": 5326,
+      "sha256": "83a74e62484590ee31b0b68950b67c548e57a13c817da18dca8e708b6ab68528",
+      "gitBlob": "c4a887b2022fd8ac8952bd57ed07c06e3d569c3f",
+      "lfsPointer": false
+    },
+    {
+      "path": "tests/test_film_gate_color.py",
+      "bytes": 3039,
+      "sha256": "ad00c79f123575746f6fdf44267394bcfe62f53a4385d921ebc86c6f40502848",
+      "gitBlob": "f8cceeb2c2c7db199556325acf9266c36e34eddb",
+      "lfsPointer": false
+    },
+    {
+      "path": "tests/test_images.py",
+      "bytes": 8353,
+      "sha256": "5fe7533ec25a2644e3685e1677186eaf1554ebbbcc390fcd56a45afbad872040",
+      "gitBlob": "172b6822372b61e072f544d94a86fbb7600b1346",
+      "lfsPointer": false
+    },
+    {
+      "path": "tests/test_local_server.py",
+      "bytes": 4198,
+      "sha256": "b775a60c86c4a0914d67c4cfb7cb37256a447db700bfdba146a2db3704ea83ff",
+      "gitBlob": "28e3591e9fdcdcf55946ab021cfd8e412233260c",
+      "lfsPointer": false
+    },
+    {
+      "path": "tests/test_release.py",
+      "bytes": 4339,
+      "sha256": "a190d8825e23f6204263f3d00d6728bf709586bc178c980d53244a82ef198b41",
+      "gitBlob": "3e5d6513765d612dcec066826da12a9f90095167",
+      "lfsPointer": false
+    },
+    {
+      "path": "tests/test_storyboard_lint.py",
+      "bytes": 17339,
+      "sha256": "ad2781b3b0f0c2fcb99f01e6ea6f61bc8d66a39856934de447e86f2519a3cae9",
+      "gitBlob": "55c38437b3f2d9196322719b17016e7c8a7e6174",
+      "lfsPointer": false
+    }
+  ]
+}

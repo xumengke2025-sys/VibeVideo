@@ -1,0 +1,73 @@
+{
+  "id": "original/hanifproduktif-829311",
+  "title": "应聘动效设计师的作品集",
+  "group": "动态排版",
+  "tags": "动态排版 动效与作品集 Job-application showreel for a motion agency 以「应聘动效设计师」为设定的 15 秒作品集视频，直接在 Claude 里生成。 hanifproduktif",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "hanifproduktif",
+  "authorUrl": "https://x.com/hanifproduktif/status/2103404901451829311",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/hanifproduktif-829311.mp4",
+  "bytes": 1699395,
+  "sha256": "43b36511bb3d676e160a5e4ed55efd99ee22fe6fb4783c1e9c5ff901f527d2dd",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103404836717002752/vid/avc1/1280x720/cmmtdWtDhZuBSD_s.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/hanifproduktif-829311.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/hanifproduktif-829311.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 15,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "hanifproduktif-829311",
+    "title": "Job-application showreel for a motion agency",
+    "title_zh": "应聘动效设计师的作品集",
+    "url": "https://x.com/hanifproduktif/status/2103404901451829311",
+    "author": "hanifproduktif",
+    "author_name": "Hanif | AI For Productivity",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 15-second showreel framed as Opus applying for a motion designer job at an agency, made directly in Claude.",
+    "description_zh": "以「应聘动效设计师」为设定的 15 秒作品集视频，直接在 Claude 里生成。",
+    "prompt": "You are applying as a motion designer in my agency. Make 15s video to showcase your skills and capabilities. Send me a showreel",
+    "prompt_lang": "en",
+    "prompt_zh": "你正在应聘我公司的动效设计师。做一段 15 秒的视频，展示你的技能和能力。把作品集发给我",
+    "kind": "one-shot",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/media/HTDLjf6awAAE1aR.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103404836717002752/vid/avc1/480x270/cN1ehapspjUip3T7.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103404836717002752/vid/avc1/1280x720/cmmtdWtDhZuBSD_s.mp4?tag=29",
+      "duration": 15,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 51,
+      "likes": 48,
+      "views": 4554,
+      "reposts": 2
+    },
+    "category": "showreel"
+  },
+  "styleClassificationSource": {
+    "id": "2103404901451829311",
+    "style": "typography",
+    "title_zh": "动态设计师作品集展示卷",
+    "title_en": "Motion Designer Showreel Portfolio",
+    "author": "hanifproduktif",
+    "post_url": "https://x.com/hanifproduktif/status/2103404901451829311",
+    "prompt": "You are applying as a motion designer in my agency. Make 15s video to showcase your skills and capabilities. Send me a showreel",
+    "prompt_partial": false,
+    "likes_2026_09_29": 49
+  },
+  "downloadedAt": "2026-10-14T09:18:14.094Z"
+}

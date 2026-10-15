@@ -1,0 +1,69 @@
+{
+  "id": "original/kaolti-092204",
+  "title": "Cosmos 发布视频",
+  "group": "产品发布与广告",
+  "tags": "产品发布与广告 产品发布与广告 Cosmos launch video in HyperFrames 用 HyperFrames 做的 40 秒 Cosmos 发布视频：一条提示词调研并做出来，一条让它自查、刺激 5 倍。 kaolti",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "kaolti",
+  "authorUrl": "https://x.com/kaolti/status/2103481296018092204",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/kaolti-092204.mp4",
+  "bytes": 4269604,
+  "sha256": "b1970f4db87eb52c2b2b38b10b1d32edfddd9b08751afe1a36fee46adaa9af77",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103480314626539520/vid/avc1/1280x720/MGyp4R5ysJ0U8csm.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/kaolti-092204.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/kaolti-092204.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 39.5,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "kaolti-092204",
+    "title": "Cosmos launch video in HyperFrames",
+    "title_zh": "Cosmos 发布视频",
+    "url": "https://x.com/kaolti/status/2103481296018092204",
+    "author": "kaolti",
+    "author_name": "Zsolt Kacso",
+    "platform": "x",
+    "date": "2026-09-25",
+    "description": "A 40-second Cosmos launch video in HyperFrames Studio: one prompt researches and builds it, a second has Opus review it and make it 5x more exciting.",
+    "description_zh": "用 HyperFrames 做的 40 秒 Cosmos 发布视频：一条提示词调研并做出来，一条让它自查、刺激 5 倍。",
+    "prompt": "Create a launch video for http://Cosmos.so using HyperFrames. Research http://Cosmos.so yourself and identify its unique value proposition, then communicate that proposition accurately. Make the video exciting, engaging, modern, and worthy of a contemporary product launch. Its UI, colors, typography, branding, design language, and motion language should feel unmistakably Cosmos. Choose the concept, story, copy, pacing, imagery, and animation yourself. Build a complete, playable HyperFrames Studio project in this folder, review it at normal speed, and give me the Studio link.\n\nNeeded this prompt 2 to improve it:\n\nI want you to examine your result visually. I want you to examine the rhythm of it, the speed of it, everything, and look for ways to improve it. Remember that the goal is to make it exciting, more energetic, and more fit for social media, meaning probably quicker cuts and just more subtle detail and more subtle polish across the board.\n\nAs I'm looking at it, in some places it feels a bit slow. In some places it feels a bit boring. I need you to make it 5x more exciting. Think about using maybe 3JS, maybe some shaders, maybe whatever you need, or something to make it more exciting and more creative. Just make it much more creative, clever, fun to watch, and more exciting to watch, so that even if you're 10 years old and you have no idea what the video is about, you still want to watch to the end because it's just so fun and so exciting. Please create a v2 of it based on this feedback. You need to visually inspect your result and find the gap between what I described and what you currently have.",
+    "prompt_lang": "en",
+    "prompt_zh": "用 HyperFrames 为 http://Cosmos.so 做一支发布视频。自己去调研 http://Cosmos.so，找出它独特的价值主张，然后准确地传达这个主张。让视频令人兴奋、吸引人、现代，配得上一次当代的产品发布。它的 UI、配色、字体、品牌、设计语言和动效语言都要让人一眼认出是 Cosmos。概念、故事、文案、节奏、画面和动画都由你自己决定。在这个文件夹里搭一个完整、可播放的 HyperFrames Studio 项目，以正常速度检查一遍，然后把 Studio 链接给我。\n\n还需要这第 2 条提示词来改进它：\n\n我希望你从视觉上检查你的成果。检查它的节奏、速度，所有方面，找出可以改进的地方。记住目标是让它令人兴奋、更有活力、更适合社交媒体，这意味着大概要剪得更快，并且在各个方面加入更多细腻的细节和打磨。\n\n我看的时候，有些地方感觉有点慢，有些地方感觉有点无聊。我需要你让它刺激 5 倍。考虑用用 3JS，或者一些着色器，或者任何你需要的东西，让它更刺激、更有创意。就是让它更有创意、更巧妙、更好看、更刺激，让一个 10 岁的孩子即使完全不知道视频在讲什么，也想看到最后，因为它实在太好玩、太刺激了。请根据这些反馈做一个 v2。你需要从视觉上检查你的成果，找出我描述的和你目前做出来的之间的差距。",
+    "prompt_url": "https://x.com/kaolti/status/2103481493532148036",
+    "kind": "pipeline",
+    "tools": [
+      "hyperframes"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: 2 prompts, no references.",
+    "note_zh": "作者称只用了 2 条提示词，没给任何参考。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103480314626539520/img/RtNxx6qWwdAK5CL4.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103480314626539520/vid/avc1/480x270/MbJFruc2EdeHm88M.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103480314626539520/vid/avc1/1280x720/MGyp4R5ysJ0U8csm.mp4?tag=29",
+      "duration": 39.5,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 1783,
+      "likes": 1014,
+      "views": 64742,
+      "reposts": 38
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:21:45.500Z"
+}

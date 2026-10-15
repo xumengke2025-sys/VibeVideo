@@ -1,0 +1,72 @@
+{
+  "id": "original/sudeepsd_-158453",
+  "title": "Flexprice 品牌动效",
+  "group": "低多边形 · 体素",
+  "tags": "低多边形 · 体素 产品发布与广告 Flexprice motion graphic from model knowledge 15 秒 Flexprice 动效短片，套用作品集提示词，只让模型凭自己对这家公司的了解来做。 sudeepsd_",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "sudeepsd_",
+  "authorUrl": "https://x.com/sudeepsd_/status/2103776623548158453",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/sudeepsd_-158453.mp4",
+  "bytes": 1319157,
+  "sha256": "1b58a299077aebaf424493518b964b85c991a838c93e22e6d0b341e91ac8c3af",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103776344383606784/vid/avc1/1280x720/_C3OC-1lXIuVcBiG.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/sudeepsd_-158453.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/sudeepsd_-158453.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 15,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "sudeepsd_-158453",
+    "title": "Flexprice motion graphic from model knowledge",
+    "title_zh": "Flexprice 品牌动效",
+    "url": "https://x.com/sudeepsd_/status/2103776623548158453",
+    "author": "sudeepsd_",
+    "author_name": "Sudeep S D",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 15-second motion graphics piece about Flexprice built only from what the model already knows about the company, using the showreel prompt.",
+    "description_zh": "15 秒 Flexprice 动效短片，套用作品集提示词，只让模型凭自己对这家公司的了解来做。",
+    "prompt": "make a dynamic 15-second motion graphics video of what you know about @tryflexprice that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.",
+    "prompt_lang": "en",
+    "prompt_zh": "用你对 @tryflexprice 的了解，制作一段 15 秒的动态图形视频，展示你是多么出色的动效设计师，就像简历里的作品集一样。拿出全部本事。",
+    "kind": "one-shot",
+    "inputs": [
+      "brand"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103776344383606784/img/aSDlm_RceioVwdTW.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103776344383606784/vid/avc1/480x270/lBjHw0i0gyzqlbh4.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103776344383606784/vid/avc1/1280x720/_C3OC-1lXIuVcBiG.mp4?tag=29",
+      "duration": 15,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 4,
+      "likes": 13,
+      "views": 602
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103776623548158453",
+    "style": "lowpoly",
+    "title_zh": "FlexPrice品牌动态展示",
+    "title_en": "FlexPrice Brand Motion Reel",
+    "author": "sudeepsd_",
+    "post_url": "https://x.com/sudeepsd_/status/2103776623548158453",
+    "prompt": "make a dynamic 15-second motion graphics video of what you know about \n@tryflexprice\n that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 14
+  },
+  "downloadedAt": "2026-10-14T09:15:07.774Z"
+}

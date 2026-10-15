@@ -1,0 +1,72 @@
+{
+  "id": "original/tak3sh8-441895",
+  "title": "白板讲解复本对称破缺",
+  "group": "手绘 · 线稿 · 漫画",
+  "tags": "手绘 · 线稿 · 漫画 科普与讲解 Whiteboard explainer of replica symmetry breaking 约 5 分钟的手绘白板讲解，讲 SK 自旋玻璃模型里的复本对称破缺；第二条提示词把它做成带旁白的 MP4。 tak3sh8",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "tak3sh8",
+  "authorUrl": "https://x.com/tak3sh8/status/2103667481139441895",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/tak3sh8-441895.mp4",
+  "bytes": 12251596,
+  "sha256": "d4afa218ec49e1d274bdd4df01d01d7de9736aa02040c12522c6aaa76aec9a58",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103667426126921728/vid/avc1/1280x720/iwDk2sPEby91c7X8.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/tak3sh8-441895.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/tak3sh8-441895.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 308.4,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "tak3sh8-441895",
+    "title": "Whiteboard explainer of replica symmetry breaking",
+    "title_zh": "白板讲解复本对称破缺",
+    "url": "https://x.com/tak3sh8/status/2103667481139441895",
+    "author": "tak3sh8",
+    "author_name": "Dersu",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A five-minute hand-drawn whiteboard explainer of replica symmetry breaking in the SK spin-glass model; a second prompt turned it into a narrated MP4.",
+    "description_zh": "约 5 分钟的手绘白板讲解，讲 SK 自旋玻璃模型里的复本对称破缺；第二条提示词把它做成带旁白的 MP4。",
+    "prompt": "Prompt 1: \"Do a quick hand-drawn whiteboard animations explaining what is replica symmetry breaking in the SK model\"\n\nPrompt 2: \"build the mp4 version with narration\"",
+    "prompt_lang": "en",
+    "prompt_zh": "提示词 1：“快速做一段手绘白板动画，讲解 SK 模型中的复本对称破缺是什么”\n\n提示词 2：“做出带旁白的 mp4 版本”",
+    "kind": "pipeline",
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103667426126921728/img/_KptIiR-oF8fZ70T.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103667426126921728/vid/avc1/480x270/XJzjVz7yicm7EOuF.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103667426126921728/vid/avc1/1280x720/iwDk2sPEby91c7X8.mp4?tag=29",
+      "duration": 308.4,
+      "width": 1280,
+      "height": 720
+    },
+    "metrics": {
+      "bookmarks": 10,
+      "likes": 20,
+      "views": 1029
+    },
+    "category": "explainer"
+  },
+  "styleClassificationSource": {
+    "id": "2103667481139441895",
+    "style": "handdrawn",
+    "title_zh": "SK模型副本对称破缺讲解",
+    "title_en": "Replica Symmetry Breaking Whiteboard",
+    "author": "tak3sh8",
+    "post_url": "https://x.com/tak3sh8/status/2103667481139441895",
+    "prompt": "Do a quick hand-drawn whiteboard animations explaining what is replica symmetry breaking in the SK model\n\nPrompt 2: build the mp4 version with narration",
+    "prompt_partial": false,
+    "likes_2026_09_29": 20
+  },
+  "downloadedAt": "2026-10-14T09:08:24.177Z"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "original/0xevinho-436195",
+  "title": "照参考视频做的加密主题像素动画",
+  "group": "像素",
+  "tags": "像素 改编与复刻 Crypto-themed pixel animation from a reference 20 秒像素风动画：给一段参考视频，加一句话，让它照着做一个加密货币主题的版本。 0xEvinho",
+  "kind": "作者改编参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "0xEvinho",
+  "authorUrl": "https://x.com/0xEvinho/status/2103212966703436195",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/0xevinho-436195.mp4",
+  "bytes": 3134277,
+  "sha256": "62f5cd321224690f54a3ae8e897330beff8b10fd20f60c8563c9d7225d419167",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103212778534080512/vid/avc1/1280x720/uFf-Y-JqNUJXjXoX.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/0xevinho-436195.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/0xevinho-436195.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供；作者自行改编作品",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 20,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "0xevinho-436195",
+    "title": "Crypto-themed pixel animation from a reference",
+    "title_zh": "照参考视频做的加密主题像素动画",
+    "url": "https://x.com/0xEvinho/status/2103212966703436195",
+    "author": "0xEvinho",
+    "author_name": "Evinho",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 20-second pixel-art animation remade from a reference video with a crypto twist; the reference clip plus one sentence was the whole input.",
+    "description_zh": "20 秒像素风动画：给一段参考视频，加一句话，让它照着做一个加密货币主题的版本。",
+    "prompt": "make a similar version but with a crypto reference",
+    "prompt_lang": "en",
+    "prompt_zh": "做一个类似的版本，但加入加密货币元素",
+    "kind": "one-shot",
+    "inputs": [
+      "reference-video"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103212778534080512/img/5SGXqKXAHVCWDAzX.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103212778534080512/vid/avc1/480x270/d4KmUhscbnQgJP3F.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103212778534080512/vid/avc1/1280x720/uFf-Y-JqNUJXjXoX.mp4?tag=29",
+      "duration": 20,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 4,
+      "likes": 6,
+      "views": 1700
+    },
+    "category": "remix"
+  },
+  "styleClassificationSource": {
+    "id": "2103212966703436195",
+    "style": "pixel",
+    "title_zh": "加密货币主题动画",
+    "title_en": "Crypto themed animation",
+    "author": "0xEvinho",
+    "post_url": "https://x.com/0xEvinho/status/2103212966703436195",
+    "prompt": "make a similar version but with a crypto reference",
+    "prompt_partial": false,
+    "likes_2026_09_29": 6
+  },
+  "downloadedAt": "2026-10-14T09:10:24.911Z"
+}

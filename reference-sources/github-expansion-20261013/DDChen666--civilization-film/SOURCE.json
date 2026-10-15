@@ -1,0 +1,635 @@
+{
+  "repo": "DDChen666/civilization-film",
+  "repository": "https://github.com/DDChen666/civilization-film",
+  "commit": "e33ad33757ab196c7349b9008a2205f572b5a3b6",
+  "checked": "2026-10-13",
+  "scope": "完整仓库文件快照；发布影片另存 release-media",
+  "modelEvidence": [
+    "- **Who did what.** **Claude Opus 5.5**, working in **Claude Code**, made all of the visuals, the music, the on-screen text and the milestone list. The director, **欸不是**, set the direction and reviewed the film at each checkpoint. It took about four and a half hours from the first message to all three language versions being rendered.",
+    "- **Code, visuals, music and text**: Claude Opus 5.5 (Anthropic), made in Claude Code",
+    "> *Civilization* (人類大歷史). Directed by 欸不是, made by Claude Opus 5.5, 2026. https://github.com/DDChen666/civilization-film"
+  ],
+  "modelEvidenceStatus": "作者自述；未独立核实模型会话",
+  "licenseFiles": [
+    "CREDITS.md",
+    "LICENSE",
+    "LICENSE-MEDIA.md"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/.gitignore",
+      "gitBlobSha1": "cd25caf0d093de22f337f8350b5a324524481446",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/.gitignore",
+      "bytes": 64,
+      "sha256": "b569d5c8178744a2737754f131db391d2bcdb7447b46067f002782510579ab38",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": ".nojekyll",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/.nojekyll",
+      "gitBlobSha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "audio/score.m4a",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/audio/score.m4a",
+      "gitBlobSha1": "99183fea419b1c7e01749a99ae90dc306a1d933b",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/audio/score.m4a",
+      "bytes": 3769296,
+      "sha256": "3f1eabedfbcd20c0586a7dfa566e4408c7127f616cf5b924f45e286ba488419c",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "CREDITS.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/CREDITS.md",
+      "gitBlobSha1": "de30cb42fa31f7e689aa91b31a72291bfae01209",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/CREDITS.md",
+      "bytes": 1973,
+      "sha256": "d96cb83b67a3c9d350bb09af4164661530b492867c45b59c6b091a4ec9f6461b",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "data/audio.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/data/audio.json",
+      "gitBlobSha1": "2aea1ca082cb25872d8aa1d0f071d1d6c4243172",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/data/audio.json",
+      "bytes": 399089,
+      "sha256": "87a0cd27351408cbe1c1392966992032987ab0d7822c7438779a6ad858173a83",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "data/geo.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/data/geo.json",
+      "gitBlobSha1": "695c07f5f6e042948e9a085f0a62b890aeafd3e1",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/data/geo.json",
+      "bytes": 3867940,
+      "sha256": "ad111c3a62592cd804066432045eaf184862aa172da9206df63944d7a50292ce",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "data/geo/ne_110m_lakes.geojson",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/data/geo/ne_110m_lakes.geojson",
+      "gitBlobSha1": "1225bab890f0b29f19089f9ce36820407ee34913",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/data/geo/ne_110m_lakes.geojson",
+      "bytes": 36648,
+      "sha256": "eb02ecc86c82004fccbf979058bfabbbd6c2d07968c7844d38eb1c9152d2ffc9",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "data/geo/ne_110m_land.geojson",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/data/geo/ne_110m_land.geojson",
+      "gitBlobSha1": "04811d72fff2701ec67587e30ad8942675b511e3",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/data/geo/ne_110m_land.geojson",
+      "bytes": 138160,
+      "sha256": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "data/geo/ne_50m_lakes.geojson",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/data/geo/ne_50m_lakes.geojson",
+      "gitBlobSha1": "5ddced58279ea13ae5023929f135bb7ecfd12d95",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/data/geo/ne_50m_lakes.geojson",
+      "bytes": 876018,
+      "sha256": "d350b75978b26fe839b797c2c529b2fb8f47fb3983c03f4964e36d5df9378a52",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "data/geo/ne_50m_land.geojson",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/data/geo/ne_50m_land.geojson",
+      "gitBlobSha1": "c412c52b5286ba727dcb7047ecd6080bcbeb8298",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/data/geo/ne_50m_land.geojson",
+      "bytes": 1636166,
+      "sha256": "e874b27a51d146452be360cafb3cc50c86001074a67d534113e6534682f9826b",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "data/geo/ne_50m_populated_places_simple.geojson",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/data/geo/ne_50m_populated_places_simple.geojson",
+      "gitBlobSha1": "3fad8f0038ba95c7758800f3f3c148418e7c76d1",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/data/geo/ne_50m_populated_places_simple.geojson",
+      "bytes": 850767,
+      "sha256": "8e70756b39fae9bcdc1e332bfc510c024c5edd3a13203ffd20092ee37b61d978",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "data/geo/ne_50m_rivers_lake_centerlines.geojson",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/data/geo/ne_50m_rivers_lake_centerlines.geojson",
+      "gitBlobSha1": "6f9d88ea3498448c7f29f458ce42a771a36bd6be",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/data/geo/ne_50m_rivers_lake_centerlines.geojson",
+      "bytes": 827318,
+      "sha256": "f286e0ce978fde999ca2d7a78c764be08542e19b63cded52b05c12d5173ccc51",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/fact-check.en.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/fact-check.en.md",
+      "gitBlobSha1": "94be9abbd38841864f2dc66ff891085ad41ca2f9",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/fact-check.en.md",
+      "bytes": 19145,
+      "sha256": "a3b7bc4420f313a129ff638dca887db56c8b61f8d85c0d7b50772b1bda92d39c",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/fact-check.zh-CN.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/fact-check.zh-CN.md",
+      "gitBlobSha1": "31003587ca83618dec7039dd52e3bd1f8846a27b",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/fact-check.zh-CN.md",
+      "bytes": 20085,
+      "sha256": "79cd9fdc188bb9da80eb12e40df296e1e4fbe7e1e3159343b2add0e898e3d06c",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/fact-check.zh-TW.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/fact-check.zh-TW.md",
+      "gitBlobSha1": "0b4440b15ba7e39328e72b6c53744400d8aff146",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/fact-check.zh-TW.md",
+      "bytes": 19763,
+      "sha256": "f6610cef07c99c5c74e6d7e27b93bae9d4c788b731fd5f13045b2e6de31bfac7",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/how-it-works.en.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/how-it-works.en.md",
+      "gitBlobSha1": "ba94edd10f0eb77029819c91f8ff3d276942b75e",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/how-it-works.en.md",
+      "bytes": 9783,
+      "sha256": "e48390e3ebf4fad3fc6cb911f4d02e4af48fc2881bbe2779aa9c2a79005ca6cb",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/how-it-works.zh-CN.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/how-it-works.zh-CN.md",
+      "gitBlobSha1": "16102f98ecc5c933ab852008e3cbd8c9ab0f4972",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/how-it-works.zh-CN.md",
+      "bytes": 8946,
+      "sha256": "901eb5161e8e002a91adfbee02c7a28753cafc1ce490dc3319bd270ee791d634",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/how-it-works.zh-TW.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/how-it-works.zh-TW.md",
+      "gitBlobSha1": "229ade3c9512fa1fb073783694e1089a789aeab2",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/how-it-works.zh-TW.md",
+      "bytes": 8922,
+      "sha256": "46fa4de3ce1a911f3fbf715212c626cebe2d44c67dd07c0895e30ca61f833e20",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/images/gate1_keyframes.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/images/gate1_keyframes.jpg",
+      "gitBlobSha1": "c653ef917fb655eaf345fbf83f0c9ea2d709c170",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/images/gate1_keyframes.jpg",
+      "bytes": 164876,
+      "sha256": "0b2c646058bc9ff2a07ee7b2625d2b7eaf02638e779d0ea121063202bd9e2390",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/images/gate2_before_after.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/images/gate2_before_after.jpg",
+      "gitBlobSha1": "7760d3fdf26b8698b328dd2b99b7af948edfa188",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/images/gate2_before_after.jpg",
+      "bytes": 199550,
+      "sha256": "d48339b258431c9f52dbb66f5c2a3548c46c4f7268d4bc55b4747dc73628d5b1",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/images/pullback_en.gif",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/images/pullback_en.gif",
+      "gitBlobSha1": "0190c248f93e7a7f079832997a39e86956baefa5",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/images/pullback_en.gif",
+      "bytes": 6829737,
+      "sha256": "1ad60f1586dfd562be1f31baf4cb11585fb8535aa83ffd7447265fa3be0acc53",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/images/pullback_sc.gif",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/images/pullback_sc.gif",
+      "gitBlobSha1": "0eced481b56904c2ebd553a65f14f57c2d1e1502",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/images/pullback_sc.gif",
+      "bytes": 6725922,
+      "sha256": "ea8a1b5593c6d56833730b44c25a7a6ffa4a0f994ebe45845be919005ecab450",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/images/pullback_tc.gif",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/images/pullback_tc.gif",
+      "gitBlobSha1": "87f46ad72a6dca147d55e6d4a7657164aad1d907",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/images/pullback_tc.gif",
+      "bytes": 6727604,
+      "sha256": "77784937d06c34dd7f6abf3b9cb44b2eff0a768aacee0e094552330fffa62822",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/images/score_spectrogram.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/images/score_spectrogram.jpg",
+      "gitBlobSha1": "4687843334d7e2999b4bdba3a073c6b6514a4ecf",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/images/score_spectrogram.jpg",
+      "bytes": 249777,
+      "sha256": "de19404d933887103919054fbde9f8e637ed6ce911a5fb63864fa0dc46e1222e",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/images/stills_en.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/images/stills_en.jpg",
+      "gitBlobSha1": "b45bad8cd276c00c502eca824cb8f80c1698b0f6",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/images/stills_en.jpg",
+      "bytes": 370512,
+      "sha256": "1960ea5ea420529459695806c1a0873ddb0d3ad8b738e9c4cda29c5a11d79db3",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/images/stills_sc.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/images/stills_sc.jpg",
+      "gitBlobSha1": "8ed6f94dc11aadcf1c5dac83c25b0f654554d5f5",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/images/stills_sc.jpg",
+      "bytes": 363254,
+      "sha256": "50940f0ac2199ab998db92031dbd9780f998c066ee1ff07591b53ab7476e3a81",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/images/stills_tc.jpg",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/images/stills_tc.jpg",
+      "gitBlobSha1": "b506014bd4ad3846d62828fce0bd8edc4162a023",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/images/stills_tc.jpg",
+      "bytes": 363839,
+      "sha256": "4b9311c5e2d1702546d5f5ce9c8f150c5a38c9bb44d8b70026f0d93a174dbbba",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/making-of.en.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/making-of.en.md",
+      "gitBlobSha1": "51fdb23d89408f0ee343a23427d66fee23980fd6",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/making-of.en.md",
+      "bytes": 16673,
+      "sha256": "c03967b742cd9f6756c675d56acf9ae32cb48d221499b226dce5a904fe69f555",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/making-of.zh-CN.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/making-of.zh-CN.md",
+      "gitBlobSha1": "897b69d7768d3d52ee681df24d8bbf5c6a524a57",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/making-of.zh-CN.md",
+      "bytes": 14332,
+      "sha256": "dd513249862b1c5ddf2e9303ebc0c9b3f07f7449b3fd590514542d7045df1a23",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "docs/making-of.zh-TW.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/docs/making-of.zh-TW.md",
+      "gitBlobSha1": "cc027ffe4843cf63a7c85a95a2a1e71f2d66f32e",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/docs/making-of.zh-TW.md",
+      "bytes": 14284,
+      "sha256": "b830e691f40c375e9317830d130eb8d14e5baccb4eca534ecc9f2d1b06276c65",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "fonts/EBGaramond.ttf",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/fonts/EBGaramond.ttf",
+      "gitBlobSha1": "52d34b86ec20977f222ce37e8158e6b3002c0a31",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/fonts/EBGaramond.ttf",
+      "bytes": 851176,
+      "sha256": "ef9512f92f6d579e5dc75af59a5a4b1b8b47d2eda89e00b954d44520e5369027",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "fonts/NotoSerifSC.ttf",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/fonts/NotoSerifSC.ttf",
+      "gitBlobSha1": "eab063faf229160a52d3760f5555150e4eb9e5bf",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/fonts/NotoSerifSC.ttf",
+      "bytes": 25125512,
+      "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "fonts/NotoSerifTC.ttf",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/fonts/NotoSerifTC.ttf",
+      "gitBlobSha1": "f27659681d4141ddc96fe29cccf77e23a3d3b639",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/fonts/NotoSerifTC.ttf",
+      "bytes": 16851596,
+      "sha256": "0077e18f57c6908f4a000969880940bdb0dad057c0e8d98b49dc364c3d1b09c6",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "fonts/OFL_EBGaramond.txt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/fonts/OFL_EBGaramond.txt",
+      "gitBlobSha1": "c1ec5e1818415eab6f8fca95a230af477d64eb61",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/fonts/OFL_EBGaramond.txt",
+      "bytes": 4398,
+      "sha256": "0985066662eb755ed3683ae5482a81a9195b49ce3f7e165cc2388b3dbece7dd7",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "fonts/OFL_NotoSerif.txt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/fonts/OFL_NotoSerif.txt",
+      "gitBlobSha1": "94d1bf7b52481343e2983fb7751e8b7abe1ea07b",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/fonts/OFL_NotoSerif.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "index.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/index.html",
+      "gitBlobSha1": "5a986a1ce500f794112e762c00fadf12e46a61f6",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/index.html",
+      "bytes": 22067,
+      "sha256": "fa5a3031e7886a62ebb9f65d749ac76f0c2033b0cd3916eb1185ac77f80662bd",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "lib/motion.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/lib/motion.js",
+      "gitBlobSha1": "485d62036f2fb5e396de6c9ea74c21351e81a2a5",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/lib/motion.js",
+      "bytes": 10071,
+      "sha256": "282a59ec59f9ba721f139a2ae3bd9b8f9000fd6e9a232a5c643841810cfc75d4",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "lib/music.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/lib/music.js",
+      "gitBlobSha1": "361eed622202172ee6eb0bf81258094d3615494b",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/lib/music.js",
+      "bytes": 7380,
+      "sha256": "d289f2441316a98664a1561e1e3fac115ec5b532d6addb2f49a73517f7e8a935",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/LICENSE",
+      "gitBlobSha1": "258244b0a63e024f27a7ce28f9e2004a440d4e44",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/LICENSE",
+      "bytes": 1078,
+      "sha256": "b7c9065a44a09b7c3b3b223dd189f66eeccb93f3cb695c5201bcda1f73a73383",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "LICENSE-MEDIA.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/LICENSE-MEDIA.md",
+      "gitBlobSha1": "1a0e7bf7f56d63b696a56f809cb9b750cfc6377d",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/LICENSE-MEDIA.md",
+      "bytes": 1638,
+      "sha256": "2fb4972fd9988611f8ae7852479122817b97ae58a5349184ae34e2a2a9038f44",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "package.json",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/package.json",
+      "gitBlobSha1": "3e563f2c34d5c30fbd3dc27a3dfc11e838c23e9f",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/package.json",
+      "bytes": 979,
+      "sha256": "ac982725922366d55f785a136b4628ab4b87a72a4f05b6e221b13bee5fe49246",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "player.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/player.html",
+      "gitBlobSha1": "6bec4caf6c065241067e2b7de4ab6c3a677a5e47",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/player.html",
+      "bytes": 11159,
+      "sha256": "8640f266eefd8ca164a5efe9b26413ab07b2290faf95b4c222f3fbfd3eaf6833",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "README.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/README.md",
+      "gitBlobSha1": "9716336d7467a0b095c3b58513f92b9f22dc44ba",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/README.md",
+      "bytes": 9015,
+      "sha256": "d7c19917ca18656a8ab237aea164e2b6dfa4b7aab187c5699b29e5f065329e41",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "README.zh-CN.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/README.zh-CN.md",
+      "gitBlobSha1": "28e373d29fdb27177b8088e7f7715b02eb188ed4",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/README.zh-CN.md",
+      "bytes": 8355,
+      "sha256": "f6f24a1db9c61dbe2cf95b02a602022d5efa2437439d386666bfe22cc247c0ae",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "README.zh-TW.md",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/README.zh-TW.md",
+      "gitBlobSha1": "6d7d86b904812afd6860ea357fe523c12497010f",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/README.zh-TW.md",
+      "bytes": 8367,
+      "sha256": "b67a5808ea947564b7a79ec65b19a8c11af062b3c8b3dd0e1494f42fb7e25561",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "release-media/civilization_zh-CN_1080p.mp4",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/release-media/civilization_zh-CN_1080p.mp4",
+      "url": "https://github.com/DDChen666/civilization-film/releases/download/v1.0/civilization_zh-CN_1080p.mp4",
+      "releaseTag": "v1.0",
+      "releaseAssetId": 607878679,
+      "upstreamDigest": "sha256:1e0271a24354a2f4e2a6f73322582f74f556d5167d8c557a78e18ef20060fb40",
+      "role": "author-release-film",
+      "bytes": 302998736,
+      "sha256": "1e0271a24354a2f4e2a6f73322582f74f556d5167d8c557a78e18ef20060fb40"
+    },
+    {
+      "path": "render.mjs",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/render.mjs",
+      "gitBlobSha1": "3c78e273a047889b2063260148ef7b1cbe157317",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/render.mjs",
+      "bytes": 10350,
+      "sha256": "2c088a0ecebe45b7adcb47b6a2f0f5af617644d08853adeb68ef2339d6249f58",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "requirements.txt",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/requirements.txt",
+      "gitBlobSha1": "941be401c51f5277ea9efd8bf00107c9eac4eb69",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/requirements.txt",
+      "bytes": 198,
+      "sha256": "af75dc55cbe60854ae6838181f0d303d59a4c4a0faacf9470b13567846ee43c9",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "score.py",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/score.py",
+      "gitBlobSha1": "da463b858c99fee2d56e6be3ed49f6c53ea16e10",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/score.py",
+      "bytes": 17508,
+      "sha256": "bff080948c5c1bf5fffdf0ce1d70cc0c9c0708a259b8c8b091377fd1c73c7ff9",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "scorekit.py",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/scorekit.py",
+      "gitBlobSha1": "58dec66cbb41543bbf40b29113b2f694e3e1f66d",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/scorekit.py",
+      "bytes": 16024,
+      "sha256": "9f45db2dd87da8e8bd7743e8e010849cd19de3208c589f0c959d320139bde705",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "src/engine.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/src/engine.js",
+      "gitBlobSha1": "e0c845ac0d87823cbcd4bf1c629c54f1f7572b25",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/src/engine.js",
+      "bytes": 10500,
+      "sha256": "44113297d3201fa013722e1fa571f4912edac8b49c3789e032acd3683d8196e5",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "src/film.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/src/film.js",
+      "gitBlobSha1": "9b990a9f85337cecdfbfd6608330323e7798b820",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/src/film.js",
+      "bytes": 53389,
+      "sha256": "251f6da58139e28ce69a068454755e77f769ca954f4d9e44ec4466fc016dbf4f",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "src/i18n.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/src/i18n.js",
+      "gitBlobSha1": "3e71884aa0f357e4f7509676eb2cabd7865e5f35",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/src/i18n.js",
+      "bytes": 4555,
+      "sha256": "af9955046ceba6523be62f886516e63eb9cefa361e464c98b34d616bb2a30b1b",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "src/milestones.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/src/milestones.js",
+      "gitBlobSha1": "32677a1fc5b67acdfb48b9bd1d050b9171caa078",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/src/milestones.js",
+      "bytes": 17271,
+      "sha256": "d20c1900cf306c56675b921c9c16d8720caa1c093f14e0e0618d79fdd5017a59",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "src/scene_cave.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/src/scene_cave.js",
+      "gitBlobSha1": "7a07ada1e8b71288361b441a5b0f7d2866b404fa",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/src/scene_cave.js",
+      "bytes": 13182,
+      "sha256": "46cd64d7508d07569e3c28eec0f65d56cd62e65f1ea1bbc4e4d8ab7bc22ee1d2",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "src/scene_city.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/src/scene_city.js",
+      "gitBlobSha1": "eece8241578d15036cfa2975220d4f6bbee9f93a",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/src/scene_city.js",
+      "bytes": 16070,
+      "sha256": "f4c89bd7bc724b971484110e9d748100ca475c979ef039504fe50b6d3b812e60",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "src/scene_globe.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/src/scene_globe.js",
+      "gitBlobSha1": "6537b5d2f9e7dac20ab4251d52e0cf6b0d6e0264",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/src/scene_globe.js",
+      "bytes": 20895,
+      "sha256": "fef6c24da88196c224d9af2aca330cd55f26567d169c28b308ab34b38d9e9e07",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "src/scene_land.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/src/scene_land.js",
+      "gitBlobSha1": "ebe0fa7cfba0f5984d2d22fc4fa15c565787130b",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/src/scene_land.js",
+      "bytes": 16181,
+      "sha256": "e1b2e0ad66f0e8657d1a3dd26b7c5e201ee764c19f4103e12f7d9c2dce75ad5b",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "src/scene_wonders.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/src/scene_wonders.js",
+      "gitBlobSha1": "4f5fb505c74bdacdba18869f307f7177553a5134",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/src/scene_wonders.js",
+      "bytes": 32332,
+      "sha256": "6e0a3df7fa81ded24c8d1a54ef21927bb4ba3c2dc0e258202d0f25fb66bf47d5",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "src/scene_wonders2.js",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/src/scene_wonders2.js",
+      "gitBlobSha1": "fcc78c3a34842df98e4eb9ea95dcdcbb6ff95dff",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/src/scene_wonders2.js",
+      "bytes": 28866,
+      "sha256": "3e3734166d18c8bad21976dc5f5a6d5b5b468b11cf737108ff7f794f85c821fc",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "stage.html",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/stage.html",
+      "gitBlobSha1": "5bb7a27ae15dc6eff5b12ea5837cf61e42548eb6",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/stage.html",
+      "bytes": 7506,
+      "sha256": "d0d759e5c09ef2e9edc54aa56a316da264d386a1220233e66d0a6856f54b64f0",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "tools/check.sh",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/tools/check.sh",
+      "gitBlobSha1": "471b578a4ed34fa5bf89e9f5f7ffd1088814b7cd",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/tools/check.sh",
+      "bytes": 2669,
+      "sha256": "c2768f2a0e80285425a9dea9a42dd29b0e23f75730180ba22d4019983940ea7f",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "tools/pageerr.mjs",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/tools/pageerr.mjs",
+      "gitBlobSha1": "719d8c1a519057faaff7ba668013f64d256966e2",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/tools/pageerr.mjs",
+      "bytes": 1152,
+      "sha256": "33d0cece00df5efb806a75d20c7342c8314e7bae486825799a5c9044553e97ac",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "tools/prep_geo.py",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/tools/prep_geo.py",
+      "gitBlobSha1": "1ae6af4422b923e6e33f23853fa48ca7a139683d",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/tools/prep_geo.py",
+      "bytes": 3900,
+      "sha256": "d711e1882ae273651579a1472c4f68d616093b4abcd877e009e8eda239b857f5",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "tools/rhythm.py",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/tools/rhythm.py",
+      "gitBlobSha1": "e0c41041bdae091b2c9723573581d51c5e623e5f",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/tools/rhythm.py",
+      "bytes": 6197,
+      "sha256": "6e5d6004299892500397f24045582c9d3dd9c45444ef0463ea9a5af9b22eaf0a",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "tools/sections.py",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/tools/sections.py",
+      "gitBlobSha1": "cc902c729645f91140460d2bd232153c7a9e6e76",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/tools/sections.py",
+      "bytes": 1223,
+      "sha256": "94328b119321d17d0f3d5912822b77e994514643d4fc609d5b74d3c09846db1d",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "tools/shot.mjs",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/tools/shot.mjs",
+      "gitBlobSha1": "cc26135361cfcb4995571afe1c983a6f78b5cf8b",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/tools/shot.mjs",
+      "bytes": 720,
+      "sha256": "50f67dc34db10ba6df71a1fcf61c8747aa3542b877925feeefbb7948ef1c6360",
+      "reusedExistingMedia": false
+    },
+    {
+      "path": "tools/sync.py",
+      "localPath": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/tools/sync.py",
+      "gitBlobSha1": "b6d2b59f48bb024c42006df4fbc0af4548fe2c5e",
+      "url": "https://raw.githubusercontent.com/DDChen666/civilization-film/e33ad33757ab196c7349b9008a2205f572b5a3b6/tools/sync.py",
+      "bytes": 16956,
+      "sha256": "4bc7afdcaf86ced3c8f8fcbeb87e1ccb0dbf8b388f0e46ab125bd6157c8fe160",
+      "reusedExistingMedia": false
+    }
+  ],
+  "executed": false
+}

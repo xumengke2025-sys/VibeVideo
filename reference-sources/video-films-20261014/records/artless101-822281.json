@@ -1,0 +1,69 @@
+{
+  "id": "original/artless101-822281",
+  "title": "穿越山间高架桥的夜行列车",
+  "group": "3D、着色器与世界",
+  "tags": "3D、着色器与世界 3D、着色器与世界 Night train crossing a mountain viaduct Three.js 程序化夜景：酒红色列车绕石拱高架桥行驶，带四个机位、光照预设和 Web Audio 环境音。 Artless101",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "Artless101",
+  "authorUrl": "https://x.com/Artless101/status/2102598487170822281",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/artless101-822281.mp4",
+  "bytes": 9989234,
+  "sha256": "a9bb0316aa0fe25478447661b84ec61f24b0a17a232ac2f856bcb2c201535f0c",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102598400742924288/vid/avc1/1080x1200/jQA7B20zDqIEG7Us.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/artless101-822281.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/artless101-822281.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 25,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "artless101-822281",
+    "title": "Night train crossing a mountain viaduct",
+    "title_zh": "穿越山间高架桥的夜行列车",
+    "url": "https://x.com/Artless101/status/2102598487170822281",
+    "author": "Artless101",
+    "author_name": "PEP PEPICH",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "A procedural Three.js night scene of a burgundy train looping over a stone viaduct, with four cameras, lighting presets and Web Audio ambience.",
+    "description_zh": "Three.js 程序化夜景：酒红色列车绕石拱高架桥行驶，带四个机位、光照预设和 Web Audio 环境音。",
+    "prompt": "Create a polished, fully interactive 3D artwork called \"Nocturne - The Highland Night Train\" using Three.js and WebGL. Deliver the entire experience as one standalone HTML file that opens directly in Chrome. Generate the models, materials and textures procedurally, and embed dependencies so the final file can also work offline. Start from scratch and give the scene its own visual identity.\n\nART DIRECTION\nAn elegant burgundy night express crosses a monumental curved stone viaduct above a deep alpine valley. Dense conifer forests, a winding river, distant cottages and rugged snow-covered mountains surround the railway. Use a cinematic, carefully detailed miniature style, with cool moonlight, deep blue shadows and warm golden carriage windows. The result should feel like a finished interactive artwork, with thoughtful composition and readable details.\n\nTHE TRAIN\nBuild a convincing diesel locomotive and four passenger carriages. Use deep burgundy paint, cream stripes, brass handrails and charcoal roofs. Model rounded body panels, cab windows, front lamps, radiator grilles, roof fans, exhaust, walkways, steps, buffers, couplings, bogies, wheel flanges and suspension details. Include window frames, curtains and subtle passenger silhouettes. Keep windows and decorative parts visibly outside the body surfaces, without intersections or flickering.\n\nRAILWAY AND MOVEMENT\nCreate a continuous elliptical railway loop supported by a tall masonry viaduct. Construct actual open arches, piers, individual arch stones, parapets, rails and sleepers. Add procedural stone variation and subtle surface relief. Supports must meet the terrain and the track must have no gaps.\n\nMove the train at a believable, steady speed using an arc-length-parameterized route. Position and orient every carriage independently. Keep the wheels aligned with the rails and make bogies follow the track correctly through turns. Couplings must remain connected without overlapping carriages. Add restrained suspension movement, rotating wheels and exhaust that drifts away into world space.\n\nENVIRONMENT AND LIGHTING\nUse thousands of efficiently instanced conifers with varied heights, shapes and colors. Sculpt irregular mountain ridges with snow on the upper slopes. Add atmospheric depth, a starry sky, a moon halo and a softly feathered headlight beam through the mist. Use warm windows, controlled bloom, soft shadows and subtle color grading. Preserve detail in the train and bridge instead of crushing them into black silhouettes.\n\nINTERACTION\nProvide four smoothly transitioning cameras: Cinematic, Train, Window Seat and Free Orbit. Let users rotate and zoom freely. Keep useful framing on both desktop and mobile.\n\nAdd distinctly different Moonlight, Blue Hour and First Light presets. Include play/pause, speed controls, a horn button, sound on/off, volume and an option to hide the interface. Use a restrained English-only interface with elegant typography and unobtrusive controls.\n\nAUDIO AND QUALITY\nSynthesize quiet railway ambience with Web Audio: a low engine rumble, gentle wheel rhythm, wind and a distant-sounding horn. Start audio only after a user interaction and respect the volume control.\n\nBalance visual richness with smooth performance using instancing, geometry batching and sensible rendering limits. Test the finished HTML in desktop Chrome, capture screenshots, inspect the console and fix visible or technical issues. Verify every control, camera transitions, a complete train circuit, mobile resizing and direct offline opening. Return the final HTML file.",
+    "prompt_lang": "en",
+    "prompt_zh": "用 Three.js 和 WebGL 创作一件精致、完全可交互的 3D 艺术作品，名为“Nocturne - The Highland Night Train”。把整个体验做成一个能在 Chrome 中直接打开的独立 HTML 文件。模型、材质和纹理都用程序化方式生成，并内嵌依赖，让最终文件也能离线运行。从零开始，给场景一个独特的视觉风格。\n\n美术方向\n一列优雅的酒红色夜间快车驶过一座横跨深邃高山河谷的巨型弧形石拱高架桥。四周是茂密的针叶林、蜿蜒的河流、远处的小屋和嶙峋的雪山。采用电影感、细节考究的微缩模型风格，冷色月光、深蓝阴影、温暖的金色车窗。成品要像一件完成度很高的交互艺术品，构图用心，细节清晰可读。\n\n列车\n做一台逼真的柴油机车和四节客车车厢。使用深酒红色涂装、奶油色条纹、黄铜扶手和炭灰色车顶。建模圆润的车身面板、驾驶室车窗、前灯、散热格栅、车顶风扇、排气口、走道、踏板、缓冲器、车钩、转向架、轮缘和悬挂细节。加上窗框、窗帘和隐约的乘客剪影。车窗和装饰件要明显位于车身表面之外，不能穿插或闪烁。\n\n铁路与运动\n建一条连续的椭圆形环线铁路，由一座高大的砖石高架桥支撑。构建真正镂空的拱、桥墩、单块拱石、护墙、钢轨和枕木。加入程序化的石材变化和细微的表面起伏。桥墩要接到地面，轨道不能有缺口。\n\n让列车以可信、平稳的速度沿按弧长参数化的路线行驶。每节车厢独立定位和定向。车轮要与钢轨对齐，转弯时转向架要正确跟随轨道。车钩必须保持连接，车厢不能互相重叠。加入克制的悬挂起伏、转动的车轮，以及飘散到世界空间中的尾气。\n\n环境与光照\n用数千棵高效实例化的针叶树，高度、形状和颜色各不相同。塑造不规则的山脊，高坡上覆盖积雪。加入大气纵深、星空、月晕，以及一道穿过薄雾、边缘柔和的车头灯光束。使用温暖的车窗光、受控的泛光（bloom）、柔和阴影和细腻的调色。保留列车和桥梁的细节，不要把它们压成一片黑色剪影。\n\n交互\n提供四个可平滑切换的镜头：Cinematic、Train、Window Seat 和 Free Orbit。用户可以自由旋转和缩放。在桌面端和移动端都保持合适的取景。\n\n加入差异明显的 Moonlight、Blue Hour 和 First Light 预设。包含播放/暂停、速度控制、鸣笛按钮、声音开关、音量，以及隐藏界面的选项。界面克制、只用英文，字体优雅，控件不突兀。\n\n音频与质量\n用 Web Audio 合成安静的铁路环境音：低沉的引擎轰鸣、轻柔的车轮节奏、风声和听起来很远的汽笛。只在用户交互后才开始播放音频，并遵循音量控制。\n\n用实例化、几何体合批和合理的渲染上限，在视觉丰富度和流畅性能之间取得平衡。在桌面版 Chrome 中测试完成的 HTML，截图、检查控制台，修复可见或技术上的问题。验证每个控件、镜头切换、列车完整跑一圈、移动端缩放和直接离线打开。返回最终的 HTML 文件。",
+    "prompt_url": "https://x.com/Artless101/status/2102598632595701827",
+    "kind": "spec",
+    "tools": [
+      "threejs",
+      "webgl",
+      "webaudio"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102598400742924288/img/pwUVM1tgSfP1dueM.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102598400742924288/vid/avc1/320x354/DGitK4aUTaxWg7pl.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102598400742924288/vid/avc1/1080x1200/jQA7B20zDqIEG7Us.mp4?tag=29",
+      "duration": 25,
+      "width": 1080,
+      "height": 1200
+    },
+    "metrics": {
+      "bookmarks": 10,
+      "likes": 22,
+      "views": 5051,
+      "reposts": 1
+    },
+    "category": "worlds"
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:27:08.648Z"
+}

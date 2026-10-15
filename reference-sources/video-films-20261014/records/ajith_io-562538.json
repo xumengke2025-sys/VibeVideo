@@ -1,0 +1,73 @@
+{
+  "id": "original/ajith_io-562538",
+  "title": "奥本海默风配乐的产品宣传片",
+  "group": "动态排版",
+  "tags": "动态排版 产品发布与广告 Distilbook explainer with an Oppenheimer-style score 介绍 Distilbook 的 40 秒动态图形宣传片，配乐由 Opus 以《奥本海默》主题曲为灵感自己创作。 ajith_io",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "ajith_io",
+  "authorUrl": "https://x.com/ajith_io/status/2103800569584562538",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/ajith_io-562538.mp4",
+  "bytes": 8758248,
+  "sha256": "8efba627abafc4af521d08ab738abea81b828c4950ccff9b91c12a52c7ace426",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103800326029787136/vid/avc1/1280x720/ZgUxqSDQDaimTOtA.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/ajith_io-562538.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/ajith_io-562538.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 40,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "ajith_io-562538",
+    "title": "Distilbook explainer with an Oppenheimer-style score",
+    "title_zh": "奥本海默风配乐的产品宣传片",
+    "url": "https://x.com/ajith_io/status/2103800569584562538",
+    "author": "ajith_io",
+    "author_name": "Ajith",
+    "platform": "x",
+    "date": "2026-09-26",
+    "description": "A 40-second motion graphics promo explaining Distilbook, scored with original music Opus composed in the spirit of the Oppenheimer theme.",
+    "description_zh": "介绍 Distilbook 的 40 秒动态图形宣传片，配乐由 Opus 以《奥本海默》主题曲为灵感自己创作。",
+    "prompt": "Make a dynamic 40-second motion graphics video on Distilbook that shows what an incredible motion designer you are, like it's your showreel - go all out. Use the Oppenheimer theme music as inspiration, but compose it yourself.",
+    "prompt_lang": "en",
+    "prompt_zh": "制作一段关于 Distilbook 的 40 秒动态图形视频，展示你是多么出色的动效设计师，就像你的作品集一样——拿出全部本事。以《奥本海默》的主题音乐为灵感，但要自己作曲。",
+    "kind": "one-shot",
+    "inputs": [
+      "brand"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103800326029787136/img/YWu2Y3Nq01psafxf.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103800326029787136/vid/avc1/480x270/GhPveDT7PJ3m4ZWZ.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103800326029787136/vid/avc1/1280x720/ZgUxqSDQDaimTOtA.mp4?tag=29",
+      "duration": 40,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 54,
+      "likes": 60,
+      "views": 4344,
+      "reposts": 3
+    },
+    "category": "launch"
+  },
+  "styleClassificationSource": {
+    "id": "2103800569584562538",
+    "style": "typography",
+    "title_zh": "Distilbook动态图形展示卷",
+    "title_en": "Distilbook Motion Graphics Showreel",
+    "author": "ajith_io",
+    "post_url": "https://x.com/ajith_io/status/2103800569584562538",
+    "prompt": "Make a dynamic 40-second motion graphics video on Distilbook that shows what an incredible motion designer you are, like it's your showreel - go all out. Use the Oppenheimer theme music as inspiration, but compose it yourself.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 60
+  },
+  "downloadedAt": "2026-10-14T09:18:08.771Z"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "original/koldo2k-704965",
+  "title": "色轮与八种配色和谐",
+  "group": "科普与讲解",
+  "tags": "科普与讲解 科普与讲解 Color wheel harmonies explainer 22 秒讲清八种配色和谐：12 色相色轮旋转选色，每种和谐展开成全屏世界，音效由代码生成。 koldo2k",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "koldo2k",
+  "authorUrl": "https://x.com/koldo2k/status/2104114329322704965",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/koldo2k-704965.mp4",
+  "bytes": 5070070,
+  "sha256": "44dfb1d15fe30a3783ada0f3fea5eaad50191b086e3ce5b4e43dbfaa86da472b",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2104114275564318720/vid/avc1/1280x720/zQmfa9Ue8lQZGKni.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/koldo2k-704965.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/koldo2k-704965.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 22,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "koldo2k-704965",
+    "title": "Color wheel harmonies explainer",
+    "title_zh": "色轮与八种配色和谐",
+    "url": "https://x.com/koldo2k/status/2104114329322704965",
+    "author": "koldo2k",
+    "author_name": "Koldo Huici",
+    "platform": "x",
+    "date": "2026-09-27",
+    "description": "A 22-second explainer of eight color harmonies on a spinning 12-hue wheel, each opening into a full-screen world, with sound designed in code.",
+    "description_zh": "22 秒讲清八种配色和谐：12 色相色轮旋转选色，每种和谐展开成全屏世界，音效由代码生成。",
+    "prompt": "Explain the color wheel in a dynamic ~20-second motion graphics video, same energy as a motion designer's showreel. Use the classic 12-hue artist's wheel and cover eight color harmonies: complementary, split complementary, analogous, triadic, square, compound, monochromatic and shades. The wheel should spin and click into place while the colors get selected, and each harmony should be drawn as its own shape on the wheel. Make it a journey of colors, not a static diagram: every harmony becomes a full-screen world made from its palette, and the camera dives through the center of the wheel into the next one. Use short English captions with the name, the angle and the swatches with hex codes, and sound designed in code, synced to every spin and selection.",
+    "prompt_lang": "en",
+    "prompt_zh": "用一段约 20 秒、动感十足的动态图形视频讲解色轮，要有动效设计师作品集那样的劲头。使用经典的 12 色相美术色轮，涵盖八种配色和谐：互补、分裂互补、类似、三角、方形、复合、单色和明暗渐变（shades）。选色时色轮要旋转并“咔嗒”一声卡到位，每种和谐关系都要在色轮上画成独立的形状。要做成一场色彩之旅，而不是静态图表：每种和谐关系都变成由它的配色构成的全屏世界，镜头穿过色轮中心俯冲进入下一个。用简短的英文字幕标出名称、角度和带十六进制色值的色块，音效用代码设计，与每一次旋转和选色同步。",
+    "prompt_url": "https://x.com/koldo2k/status/2104114332430741714",
+    "kind": "brief",
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: about 50 minutes and 3 drafts; running this prompt in one go should take roughly 30–40 minutes.",
+    "note_zh": "作者称用了约 50 分钟、3 版草稿；一次性跑这个提示词大约需要 30–40 分钟。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2104114275564318720/img/xXOUKEj1VKLtWNtE.jpg",
+      "video": "https://video.twimg.com/amplify_video/2104114275564318720/vid/avc1/480x270/wZd0LxvtcnQfP0Ie.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2104114275564318720/vid/avc1/1280x720/zQmfa9Ue8lQZGKni.mp4?tag=29",
+      "duration": 22,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 12,
+      "likes": 31,
+      "views": 1193
+    },
+    "category": "explainer",
+    "remakes": [
+      {
+        "author": "koldo2k",
+        "url": "https://x.com/koldo2k/status/2104114332430741714"
+      }
+    ]
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:23:28.133Z"
+}

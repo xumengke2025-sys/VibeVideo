@@ -1,0 +1,78 @@
+{
+  "id": "original/emollick-918334",
+  "title": "伏尼契手稿短片的动漫风重制",
+  "group": "科普图解 · 数据可视化",
+  "tags": "科普图解 · 数据可视化 改编与复刻 Anime-style remake of Claude's Voynich film 追加一句提示词，把 Claude 自己做的伏尼契手稿讲解片重做成 2 分钟动漫风快剪版，结尾还有一首歌。 emollick",
+  "kind": "作者改编参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "emollick",
+  "authorUrl": "https://x.com/emollick/status/2103272686570918334",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/emollick-918334.mp4",
+  "bytes": 26303702,
+  "sha256": "8554335659782fe809b9cea81fb22034377da718e2a30455629374c75dc13578",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103272247418908672/vid/avc1/1280x720/voEQY2_RZx4YkdLZ.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/emollick-918334.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/emollick-918334.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供；作者自行改编作品",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 127.3,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "emollick-918334",
+    "title": "Anime-style remake of Claude's Voynich film",
+    "title_zh": "伏尼契手稿短片的动漫风重制",
+    "url": "https://x.com/emollick/status/2103272686570918334",
+    "author": "emollick",
+    "author_name": "Ethan Mollick",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A follow-up prompt that remade Claude's own Voynich Manuscript explainer film as a 2-minute anime-style, quick-cut version with a closing song, one-shot in Claude Projects.",
+    "description_zh": "追加一句提示词，把 Claude 自己做的伏尼契手稿讲解片重做成 2 分钟动漫风快剪版，结尾还有一首歌。",
+    "prompt": "make the same message much more interesting to a social media audience that loves anime and quick clips and compressed learning",
+    "prompt_lang": "en",
+    "prompt_zh": "把同样的内容改得对一群喜欢动漫、快节奏短片和压缩式学习的社交媒体观众更有吸引力",
+    "kind": "one-shot",
+    "tools": [
+      "claude-app"
+    ],
+    "inputs": [
+      "reference-video"
+    ],
+    "note": "Author: about 1 hour 20 minutes; about $80 at API prices, within his Max plan's daily usage.",
+    "note_zh": "作者称约 1 小时 20 分钟；按 API 价约 80 美元，在 Max 套餐当天额度内。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103272247418908672/img/Af9EtBVQ5ZZXOAP8.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103272247418908672/vid/avc1/480x270/0IRrQwgwVlnOWST7.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103272247418908672/vid/avc1/1280x720/voEQY2_RZx4YkdLZ.mp4?tag=29",
+      "duration": 127.3,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 642,
+      "likes": 1074,
+      "views": 98830,
+      "reposts": 62
+    },
+    "category": "remix"
+  },
+  "styleClassificationSource": {
+    "id": "2103272686570918334",
+    "style": "explainer",
+    "title_zh": "动漫风社媒动画",
+    "title_en": "Anime social media explainer",
+    "author": "emollick",
+    "post_url": "https://x.com/emollick/status/2103272686570918334",
+    "prompt": "make the same message much more interesting to a social media audience that loves anime and quick clips and compressed learning",
+    "prompt_partial": false,
+    "likes_2026_09_29": 1082
+  },
+  "downloadedAt": "2026-10-14T09:20:48.041Z"
+}

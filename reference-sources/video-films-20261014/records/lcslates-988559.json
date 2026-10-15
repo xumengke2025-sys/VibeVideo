@@ -1,0 +1,80 @@
+{
+  "id": "original/lcslates-988559",
+  "title": "会飞起来的玻璃金箔马赛克",
+  "group": "叙事、手绘与定格",
+  "tags": "叙事、手绘与定格 叙事、手绘与定格 Glass and gold mosaic that comes alive 80 秒方形 WebGL2 短片：玻璃金箔马赛克的瓷片飞起，聚成鱼、仙鹤和星座，再咔嗒归位，声音在浏览器里合成。 LCSlates",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "LCSlates",
+  "authorUrl": "https://x.com/LCSlates/status/2102503027340988559",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/lcslates-988559.mp4",
+  "bytes": 53169226,
+  "sha256": "be992c7d91e70edc21ac2bac812ea3448b52b32aa1f23d5d523ffa3366038046",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102502315185803264/vid/avc1/1080x1080/sAv8kDNKSV7KmtgO.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/lcslates-988559.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/lcslates-988559.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 80,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "lcslates-988559",
+    "title": "Glass and gold mosaic that comes alive",
+    "title_zh": "会飞起来的玻璃金箔马赛克",
+    "url": "https://x.com/LCSlates/status/2102503027340988559",
+    "author": "LCSlates",
+    "author_name": "Chris Riley",
+    "platform": "x",
+    "date": "2026-09-22",
+    "description": "An 80-second square WebGL2 film of a glass and gold-leaf mosaic whose tiles lift, flock into a fish, cranes and stars, then click back, with browser-synthesized sound.",
+    "description_zh": "80 秒方形 WebGL2 短片：玻璃金箔马赛克的瓷片飞起，聚成鱼、仙鹤和星座，再咔嗒归位，声音在浏览器里合成。",
+    "prompt": "Make an 80 second square animated film as a single HTML file, using WebGL2 and plain JavaScript, with no libraries and no image, font or audio files. It should look like a glass and gold leaf wall mosaic whose tiles were never glued down, so they can lift, flip, fly and click back into place. Figures are flocks of tiles, so a fish swims by its tiles swimming",
+    "prompt_lang": "en",
+    "prompt_zh": "用 WebGL2 和纯 JavaScript 做一部 80 秒的方形动画短片，做成单个 HTML 文件，不用任何库，也不用图片、字体或音频文件。它看起来要像一面玻璃和金箔拼成的墙面马赛克，瓷片从来没被粘牢，所以它们可以掀起、翻转、飞走，再咔嗒一声落回原位。图形由成群的瓷片组成，所以一条鱼游动，靠的是它的瓷片在游动",
+    "prompt_url": "https://x.com/LCSlates/status/2102503028859211905",
+    "kind": "brief",
+    "tools": [
+      "webgl"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102502315185803264/img/NvXg95Ah07VHzpL2.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102502315185803264/vid/avc1/320x320/Sfnw4hDdfw73M5Qf.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102502315185803264/vid/avc1/1080x1080/sAv8kDNKSV7KmtgO.mp4?tag=29",
+      "duration": 80,
+      "width": 1080,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 867,
+      "likes": 1037,
+      "views": 128651,
+      "reposts": 52
+    },
+    "category": "story",
+    "remakes": [
+      {
+        "author": "LCSlates",
+        "url": "https://x.com/LCSlates/status/2102503028859211905"
+      },
+      {
+        "author": "zeezomb",
+        "url": "https://x.com/zeezomb/status/2102906701552726206",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102906404621172736/img/PG2MnVqREUrWOl4V.jpg",
+        "video": "https://video.twimg.com/amplify_video/2102906404621172736/vid/avc1/320x320/Fc5tQnnh0NkMyMb2.mp4?tag=29"
+      }
+    ]
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:27:00.124Z"
+}

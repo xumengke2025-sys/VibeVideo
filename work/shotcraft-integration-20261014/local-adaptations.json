@@ -1,0 +1,104 @@
+{
+  "commit": "13c74a707786872a18e3317e48c5c94011027620",
+  "differences": [
+    {
+      "path": "SKILL.md",
+      "kind": "modified",
+      "upstream": "cdd27f70ffcdf31e2ba31fe36dff0025abf2575e1b304326133f79304abab59e",
+      "sha256": "c4e4f13216566cd7e52c66c2da5262aa8bee5bdcec3daa81a0d6a6bc2cf8a039"
+    },
+    {
+      "path": "workbench/demosrc",
+      "kind": "local-link",
+      "target": "D:\\Codex\\skills\\video-shotcraft\\demos",
+      "upstream": "00ec8ab362db8191f9713f8c38a6e6a31d0731633e5ebc54952cfe1862eb2d00"
+    },
+    {
+      "path": "workbench/package-lock.json",
+      "kind": "modified",
+      "upstream": "dd27b495cacb44ed5ecc71900faec450f1dfc7bf343ee94a4c9ea8901666d893",
+      "sha256": "504be3cb972a9a3c2119a17c5356925f3748dad8acbf1600dd219645a6d80e6d"
+    },
+    {
+      "path": "workbench/package.json",
+      "kind": "modified",
+      "upstream": "b97fceac847071266ce58cd8d0959aaf4e0362fc261819fe23f838fa0338dd45",
+      "sha256": "2a85dba5ba9ea8e2349dc4dc15dacf0be6a82ead296a2451c4a07e848a401d38"
+    },
+    {
+      "path": "workbench/remotion.config.ts",
+      "kind": "modified",
+      "upstream": "4c813775f0f96f38fe95d9a552fb30a20d1f182cfa1e1a6c178f9089ba1da7b0",
+      "sha256": "fb8197ab4ec38afd99d35128bfb0e435777872144e5e39ec6398514add02b174"
+    },
+    {
+      "path": "workbench/scripts/gen-index.mjs",
+      "kind": "modified",
+      "upstream": "777f999a414214335a3da25e7b65c27da1695e1a81b9257fa453ab2e7169b78c",
+      "sha256": "02340ae5debf6bc4f809a740c838c6bbdce41cb34925bcf07f8c6be721999a5a"
+    },
+    {
+      "path": "workbench/scripts/open.mjs",
+      "kind": "modified",
+      "upstream": "4d9e11f7c71d248bfd6b9947bf7ca4f3c36bc23c0317365f74c8349ddb034bc1",
+      "sha256": "6f1740cb2d44ecdce07a60bfc3447dfe3e24cd0e4031dfcdf2f2555c275497db"
+    },
+    {
+      "path": "workbench/vite.config.ts",
+      "kind": "modified",
+      "upstream": "96b80de9d6b2a019b9c582b288e28868898fd8d6640277c58be63b96a53210b6",
+      "sha256": "5811bac5eda969bbfc0d9ff7ed6e5b623e3db378f940093e4191ad95983107b8"
+    }
+  ],
+  "adapterFiles": [
+    {
+      "path": "SKILL.md",
+      "sha256": "c4e4f13216566cd7e52c66c2da5262aa8bee5bdcec3daa81a0d6a6bc2cf8a039"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "02da8ccd8ddb6946940ccc99494c04992a8cf4b9835bcc32f70ae985ef160f59"
+    },
+    {
+      "path": "references/upstream-skill.md",
+      "sha256": "cdd27f70ffcdf31e2ba31fe36dff0025abf2575e1b304326133f79304abab59e"
+    },
+    {
+      "path": "references/local-compatibility.md",
+      "sha256": "53d8a9f04cf1e7172fe4408b4d1ab3c3418720019632616184a7caf9a9341031"
+    },
+    {
+      "path": "workbench/package.json",
+      "sha256": "2a85dba5ba9ea8e2349dc4dc15dacf0be6a82ead296a2451c4a07e848a401d38"
+    },
+    {
+      "path": "workbench/package-lock.json",
+      "sha256": "504be3cb972a9a3c2119a17c5356925f3748dad8acbf1600dd219645a6d80e6d"
+    },
+    {
+      "path": "workbench/scripts/gen-index.mjs",
+      "sha256": "02340ae5debf6bc4f809a740c838c6bbdce41cb34925bcf07f8c6be721999a5a"
+    },
+    {
+      "path": "workbench/scripts/open.mjs",
+      "sha256": "6f1740cb2d44ecdce07a60bfc3447dfe3e24cd0e4031dfcdf2f2555c275497db"
+    },
+    {
+      "path": "workbench/scripts/local-platform.mjs",
+      "sha256": "3ba7131b24864887a4eb07a8b4c44180d953478a47ece83f3caa9c25525d1728"
+    },
+    {
+      "path": "workbench/scripts/parity-local.mjs",
+      "sha256": "1b5a46f55aa8ad6e38f8e0aebfd987775edb52842622c2202135df976d551332"
+    },
+    {
+      "path": "workbench/vite.config.ts",
+      "sha256": "5811bac5eda969bbfc0d9ff7ed6e5b623e3db378f940093e4191ad95983107b8"
+    },
+    {
+      "path": "workbench/remotion.config.ts",
+      "sha256": "fb8197ab4ec38afd99d35128bfb0e435777872144e5e39ec6398514add02b174"
+    }
+  ],
+  "note": "Generated workbench indexes/project assets reflect the last linked internal sample; regenerate via open.mjs. Original upstream source and old install remain intact."
+}

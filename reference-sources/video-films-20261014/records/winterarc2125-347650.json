@@ -1,0 +1,74 @@
+{
+  "id": "original/winterarc2125-347650",
+  "title": "奥斯特里茨战役 5 分钟电影",
+  "group": "历史与纪录",
+  "tags": "历史与纪录 历史与纪录 Battle of Austerlitz as a 5-minute film 用代码渲染的 5 分钟奥斯特里茨战役电影，地形来自真实卫星数据，日出位置按史实，配乐和旁白也是它自己做的。 WinterArc2125",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "WinterArc2125",
+  "authorUrl": "https://x.com/WinterArc2125/status/2103116235009347650",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/winterarc2125-347650.mp4",
+  "bytes": 17296325,
+  "sha256": "374fb63ddce1d31927559bac34928c5cfaea04e3bd3fd565ee0d91ec6d5c29e0",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103113452726140928/vid/avc1/1280x720/5hcy4_P8c101YYPS.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/winterarc2125-347650.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/winterarc2125-347650.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 301.3,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "winterarc2125-347650",
+    "title": "Battle of Austerlitz as a 5-minute film",
+    "title_zh": "奥斯特里茨战役 5 分钟电影",
+    "url": "https://x.com/WinterArc2125/status/2103116235009347650",
+    "author": "WinterArc2125",
+    "author_name": "Winter",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "A 5-minute cinematic film of the Battle of Austerlitz rendered in code, with real satellite terrain, a historically placed sunrise, and its own score and narration.",
+    "description_zh": "用代码渲染的 5 分钟奥斯特里茨战役电影，地形来自真实卫星数据，日出位置按史实，配乐和旁白也是它自己做的。",
+    "prompt": "Create a 4–5 minute cinematic video about the Battle of Austerlitz (1805), built entirely in code.\n\nResearch the battle thoroughly and decide for yourself how to tell the story, structure the pacing, explain the strategy, and visualize the events. I want it to be historically accurate, dramatic, easy to understand, and visually exceptional.\n\nUse the attached paintings as visual inspiration, not a strict style requirement. I love their scale, atmosphere, smoke, dramatic skies, cavalry, massed formations, landscape, and sense of chaos. Find a way to translate that feeling into code — but if you can invent a stronger visual language, do it.\n\nDon't make it feel like a generic infographic or strategy game. It should feel like a cinematic historical film that happens to be rendered with code.\n\nYou have complete creative control. Surprise me.",
+    "prompt_lang": "en",
+    "prompt_zh": "做一段 4–5 分钟的电影感视频，讲奥斯特里茨战役（1805），完全用代码构建。\n\n彻底调研这场战役，自己决定怎么讲故事、怎么安排节奏、怎么解释战略、怎么把事件视觉化。我希望它符合史实、有戏剧性、容易理解，并且视觉上非常出色。\n\n把附上的油画当作视觉灵感，而不是严格的风格要求。我喜欢它们的尺度、氛围、硝烟、戏剧化的天空、骑兵、密集的阵列、风景和那种混乱感。想办法把这种感觉翻译成代码——但如果你能发明更强的视觉语言，就去做。\n\n不要让它像一张普通的信息图或一款策略游戏。它应该像一部恰好用代码渲染出来的历史电影。\n\n你拥有完全的创作控制权。给我惊喜。",
+    "prompt_url": "https://x.com/WinterArc2125/status/2103116689944502720",
+    "kind": "brief",
+    "inputs": [
+      "images"
+    ],
+    "note": "Author: 90 minutes to build, 4 hours to render, $40 in cloud agent credits.",
+    "note_zh": "作者称搭建 90 分钟、渲染 4 小时，花了 40 美元云端 agent 额度。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103113452726140928/img/cjQI93QJwNev_gQ1.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103113452726140928/vid/avc1/480x270/JP2DCLKwcBebYoLQ.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103113452726140928/vid/avc1/1280x720/5hcy4_P8c101YYPS.mp4?tag=29",
+      "duration": 301.3,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 1042,
+      "likes": 1712,
+      "views": 394539,
+      "reposts": 185
+    },
+    "category": "history",
+    "remakes": [
+      {
+        "author": "WinterArc2125",
+        "url": "https://x.com/WinterArc2125/status/2103116689944502720",
+        "thumb": "https://pbs.twimg.com/media/HS_FTwwXcAIpMjc.jpg?name=orig"
+      }
+    ]
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:24:29.317Z"
+}

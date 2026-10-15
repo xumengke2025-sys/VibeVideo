@@ -1,0 +1,343 @@
+{
+  "id": "original/shneural-962130",
+  "title": "带 3D 段落和自制配乐的作品集",
+  "group": "动态排版",
+  "tags": "动态排版 动效与作品集 Showreel with Blender 3D and self-made soundtrack 同一句作品集提示词，max 档；Opus 自己加了一段 Blender 3D，还写了 128 BPM 配乐。 shneural",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "shneural",
+  "authorUrl": "https://x.com/shneural/status/2103151003272962130",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/shneural-962130.mp4",
+  "bytes": 4658760,
+  "sha256": "f1cda08186cffe9a4b7225dc8bf9e7546cc954b0bed6e4a3c36d158d90ee72d5",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2103149570440024064/vid/avc1/1280x720/mlmcQzB4C3BEWPQS.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/shneural-962130.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/shneural-962130.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 31.8,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "shneural-962130",
+    "title": "Showreel with Blender 3D and self-made soundtrack",
+    "title_zh": "带 3D 段落和自制配乐的作品集",
+    "url": "https://x.com/shneural/status/2103151003272962130",
+    "author": "shneural",
+    "author_name": "kirill sh",
+    "platform": "x",
+    "date": "2026-09-24",
+    "description": "The one-sentence showreel prompt in stock Claude Code on max: Opus chose to add a Blender 3D section and sequenced its own 128 BPM soundtrack.",
+    "description_zh": "同一句作品集提示词，max 档；Opus 自己加了一段 Blender 3D，还写了 128 BPM 配乐。",
+    "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.",
+    "prompt_lang": "en",
+    "prompt_zh": "制作一段 15 秒、充满动感的动态图形视频，展示你是多么出色的动效设计师，就像简历里的作品集一样。拿出全部本事。",
+    "kind": "one-shot",
+    "tools": [
+      "claude-code",
+      "blender",
+      "python"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: about 1.5 hours before rendering; $81 at API prices, about 3% of the weekly limit on Max 20x.",
+    "note_zh": "作者称不含渲染约 1.5 小时；按 API 价约 81 美元，约占 Max 20x 周额度的 3%。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103149570440024064/img/QKgvRP_unggJVH6M.jpg",
+      "video": "https://video.twimg.com/amplify_video/2103149570440024064/vid/avc1/480x270/QY2lsjmsFBRZY8w-.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2103149570440024064/vid/avc1/1280x720/mlmcQzB4C3BEWPQS.mp4?tag=29",
+      "duration": 31.8,
+      "width": 1920,
+      "height": 1080,
+      "dark": true
+    },
+    "metrics": {
+      "bookmarks": 6201,
+      "likes": 6551,
+      "views": 1718022,
+      "reposts": 354
+    },
+    "category": "showreel",
+    "remakes": [
+      {
+        "author": "stephanlivera",
+        "url": "https://x.com/stephanlivera/status/2103315922098470926",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103315748496302080/img/eScXkusmi5doSQFo.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103315748496302080/vid/avc1/480x270/wKktLqw_wCn7YTHq.mp4?tag=29"
+      },
+      {
+        "author": "kenn",
+        "url": "https://x.com/kenn/status/2103337314021937232",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103336752341745664/img/uqGesaw3Xjtod1AE.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103336752341745664/vid/avc1/480x270/aVfWzjt_Gjogh4S5.mp4?tag=29"
+      },
+      {
+        "author": "RaphaelAubryy",
+        "url": "https://x.com/RaphaelAubryy/status/2103416909857190360",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103416830991679488/img/UuBDB1tpt3fdI1BV.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103416830991679488/vid/avc1/480x270/qVxwSDiAMDzKFDfr.mp4?tag=29"
+      },
+      {
+        "author": "waiting4asi_",
+        "url": "https://x.com/waiting4asi_/status/2103417955568767433",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103417887872647169/img/C7rQ81J18lx7LP0N.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103417887872647169/vid/avc1/480x270/wy70cM3vU2F4fjiq.mp4?tag=14"
+      },
+      {
+        "author": "itsuki_dev",
+        "url": "https://x.com/itsuki_dev/status/2103438087204618392",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103438014026600448/img/hw4bngSpaW5NxDou.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103438014026600448/vid/avc1/480x270/3YOxetQxSCIcz1wL.mp4?tag=29"
+      },
+      {
+        "author": "ajith_io",
+        "url": "https://x.com/ajith_io/status/2103449416325890146",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103449259869863936/img/xFjCDtYklW-hfg7m.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103449259869863936/vid/avc1/480x270/m6vbM-k212GTOogF.mp4?tag=29"
+      },
+      {
+        "author": "sudo_kiran",
+        "url": "https://x.com/sudo_kiran/status/2103463886372696074",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103463762917523456/img/0j10APw5Xh9LsqLN.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103463762917523456/vid/avc1/480x270/bGG-KphoIxT64kI8.mp4?tag=29"
+      },
+      {
+        "author": "toddsaunders",
+        "url": "https://x.com/toddsaunders/status/2103486372715864429",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103486289408356352/img/dKgamSzVJ7qIfKNP.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103486289408356352/vid/avc1/480x270/jpArfh9nKoYuyn5p.mp4?tag=29"
+      },
+      {
+        "author": "himanshutwtxs",
+        "url": "https://x.com/himanshutwtxs/status/2103495232637882858",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103494828042670081/img/udYQG9z20oKvfkp5.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103494828042670081/vid/avc1/480x270/YO3s5SQh30sjlFpx.mp4?tag=29"
+      },
+      {
+        "author": "fionntobin",
+        "url": "https://x.com/fionntobin/status/2103510776690479597",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103510662982848512/img/80QpTKTDNs7Vhv63.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103510662982848512/vid/avc1/480x270/H5BrhNHjLO3Q3ks5.mp4?tag=29"
+      },
+      {
+        "author": "LeonKohli",
+        "url": "https://x.com/LeonKohli/status/2103517696038191220",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103517214963863556/img/PAOPBH5hrk7e98-K.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103517214963863556/vid/avc1/480x270/ZQcxAzk4oYjn2QR7.mp4?tag=14"
+      },
+      {
+        "author": "safarkhanshuvo",
+        "url": "https://x.com/safarkhanshuvo/status/2103520091552059752",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103519838207639552/img/a1A6OU1SJbxSvjjb.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103519838207639552/vid/avc1/480x270/i1L1VPq9qVTOONJq.mp4?tag=14"
+      },
+      {
+        "author": "sahildesigner23",
+        "url": "https://x.com/sahildesigner23/status/2103536115563307120",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103536065046773760/img/IWBoJcjoE1gW1wBJ.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103536065046773760/vid/avc1/480x270/sBe47EZvZl6ST3Ac.mp4?tag=29"
+      },
+      {
+        "author": "3xtihor",
+        "url": "https://x.com/3xtihor/status/2103551886272159839",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103551809386422272/img/1eN97PzNEE-elTN0.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103551809386422272/vid/avc1/480x270/7CHwgH3Z2j50p_7Q.mp4?tag=14"
+      },
+      {
+        "author": "condzxyz",
+        "url": "https://x.com/condzxyz/status/2103556754550469102",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103556513440710656/img/6HFBZddyxJ9FCO7I.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103556513440710656/vid/avc1/480x270/wdNf_357g6F_CvG7.mp4?tag=29"
+      },
+      {
+        "author": "blue_clarity",
+        "url": "https://x.com/blue_clarity/status/2103564589065449603",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103564259204423680/img/VaRhBud4uvNV8rY2.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103564259204423680/vid/avc1/480x270/628sHOnWmujkFTxm.mp4?tag=29"
+      },
+      {
+        "author": "SagarmohanSingh",
+        "url": "https://x.com/SagarmohanSingh/status/2103574041781322168",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103573925544497152/img/CiUCVE1Njqggh5Fx.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103573925544497152/vid/avc1/480x270/nJT3Jrj03_qxftE0.mp4?tag=29"
+      },
+      {
+        "author": "leonabboud",
+        "url": "https://x.com/leonabboud/status/2103576084499358051",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103574548784304128/img/n_NsoaudyqbNWs4c.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103574548784304128/vid/avc1/480x270/F5FlkwdO8QdjKSve.mp4?tag=29"
+      },
+      {
+        "author": "m1n9_k7",
+        "url": "https://x.com/m1n9_k7/status/2103580011882295601",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103579968337018880/img/RaAsenFhGKBxvzd4.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103579968337018880/vid/avc1/480x270/4O2pEGB3U-790NwN.mp4?tag=29"
+      },
+      {
+        "author": "gabrielbuzziv",
+        "url": "https://x.com/gabrielbuzziv/status/2103590703289057430"
+      },
+      {
+        "author": "marouanegazouzi",
+        "url": "https://x.com/marouanegazouzi/status/2103608571435131257",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103607692510052352/img/ZKIXJfoQFmSsJUyZ.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103607692510052352/vid/avc1/480x270/bTSkHoSAKmds6SCI.mp4?tag=29"
+      },
+      {
+        "author": "Web3Wesley",
+        "url": "https://x.com/Web3Wesley/status/2103644329294365164",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103643579000504320/img/0olctoMH9XcGRvPT.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103643579000504320/vid/avc1/480x270/QjFLRAtDtB4nc_1A.mp4?tag=29"
+      },
+      {
+        "author": "jasonzhou1993",
+        "url": "https://x.com/jasonzhou1993/status/2103663364958515541",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103663091510886401/img/UgrlgPh1JQnAP3mh.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103663091510886401/vid/avc1/480x270/u4R1AYv_oQ_iPZd7.mp4?tag=29"
+      },
+      {
+        "author": "TeslaChartz",
+        "url": "https://x.com/TeslaChartz/status/2103746486978887985",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103746040528580608/img/EAXmWIz5hn5mOv7H.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103746040528580608/vid/avc1/480x270/52blPR011cmdK4IA.mp4?tag=14"
+      },
+      {
+        "author": "RoxsaV2",
+        "url": "https://x.com/RoxsaV2/status/2103749285846073412",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103749254548164608/img/HqvN2dZuHUS3Nozu.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103749254548164608/vid/avc1/480x270/Xiu0-NCdOMJGsg1l.mp4?tag=29"
+      },
+      {
+        "author": "wallt_white",
+        "url": "https://x.com/wallt_white/status/2103750353585942703",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103749223032262656/img/ESvLyXFQibEK7EXc.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103749223032262656/vid/avc1/480x270/j9pjlOJJW2qA8oO-.mp4?tag=14"
+      },
+      {
+        "author": "thismacapital",
+        "url": "https://x.com/thismacapital/status/2103773635714375808"
+      },
+      {
+        "author": "ayushunleashed",
+        "url": "https://x.com/ayushunleashed/status/2103794962257084755",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103552828870627328/img/ZIihwSUC8OFpF5e8.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103552828870627328/vid/avc1/480x270/lM-um4k9-nnQJ1mK.mp4?tag=29"
+      },
+      {
+        "author": "eyishazyer",
+        "url": "https://x.com/eyishazyer/status/2103816865852129686",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103814611942436865/img/8qfCGwhOaFePwFll.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103814611942436865/vid/avc1/480x270/sMbVLqD2uRZ2OAbF.mp4?tag=29"
+      },
+      {
+        "author": "MisbahSy",
+        "url": "https://x.com/MisbahSy/status/2103831201114882277",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103725438204071936/img/DBSCaU-Pro7V9Uqs.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103725438204071936/vid/avc1/480x270/3zICse9lfT_RgiKY.mp4?tag=29"
+      },
+      {
+        "author": "suroorwijdan",
+        "url": "https://x.com/suroorwijdan/status/2103955408385908956",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103954919690821632/img/89_715DFQ46leRW3.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103954919690821632/vid/avc1/480x270/dqlzui5PYY2AUYxJ.mp4?tag=29"
+      },
+      {
+        "author": "tonytonggg",
+        "url": "https://x.com/tonytonggg/status/2104021942638674231",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2104021779421564928/img/eMA6F0hV1mD-8Y1y.jpg",
+        "video": "https://video.twimg.com/amplify_video/2104021779421564928/vid/avc1/480x270/X94MTq9geU8YMolo.mp4?tag=29"
+      },
+      {
+        "author": "shneural",
+        "url": "https://x.com/shneural/status/2103472385563459833",
+        "thumb": "https://pbs.twimg.com/ext_tw_video_thumb/2103471969773481984/pu/img/WKWpzEYKgWNhXMPX.jpg",
+        "video": "https://video.twimg.com/ext_tw_video/2103471969773481984/pu/vid/avc1/480x270/dLmuEbjDzAabqGSM.mp4?tag=12"
+      },
+      {
+        "author": "eapyk",
+        "url": "https://x.com/eapyk/status/2103830480370192784",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103830175230345216/img/Kdx7rLaHWy_2g_xU.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103830175230345216/vid/avc1/480x270/9dYyLy_TT2QsV49x.mp4?tag=29"
+      },
+      {
+        "author": "CaptainInsightX",
+        "url": "https://x.com/CaptainInsightX/status/2103952120693285155",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103449259869863936/img/xFjCDtYklW-hfg7m.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103449259869863936/vid/avc1/480x270/m6vbM-k212GTOogF.mp4?tag=29"
+      },
+      {
+        "author": "tigerfl0w",
+        "url": "https://x.com/tigerfl0w/status/2103462540785160348",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103462401962082304/img/l6fIGzal72olhpqS.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103462401962082304/vid/avc1/480x270/QDUWS2wAlyQde9ql.mp4?tag=29"
+      },
+      {
+        "author": "tolgayhickiran",
+        "url": "https://x.com/tolgayhickiran/status/2103619422128935120",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103619269468585984/img/IfbsbRBCZUgfErM3.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103619269468585984/vid/avc1/480x270/50U2bAitwhwpTAIT.mp4?tag=29"
+      },
+      {
+        "author": "zaqailo",
+        "url": "https://x.com/zaqailo/status/2103768009017835623",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103767493449830400/img/HySjpWlKruhY0JnZ.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103767493449830400/vid/avc1/480x270/IA0lPYhVG8VvhxfI.mp4?tag=29"
+      },
+      {
+        "author": "Unnati_builds24",
+        "url": "https://x.com/Unnati_builds24/status/2104147745837883855",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2104147730054701056/img/7R_B7AOEol--cNGh.jpg",
+        "video": "https://video.twimg.com/amplify_video/2104147730054701056/vid/avc1/480x270/QA6RZ_L9jMSvcxuO.mp4?tag=29"
+      },
+      {
+        "author": "umangratani",
+        "url": "https://x.com/umangratani/status/2103486881136840800",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103486838115897344/img/yiG6kx5Oo_39zCxq.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103486838115897344/vid/avc1/480x270/9zLYSaquFkOKwhRx.mp4?tag=29"
+      },
+      {
+        "author": "CrazyAlphaaa",
+        "url": "https://x.com/CrazyAlphaaa/status/2103568486249480622",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103568416821112832/img/mPuCWkH0Fm9R-HsK.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103568416821112832/vid/avc1/480x270/Oqqe5t9t0vy5cXb8.mp4?tag=29"
+      },
+      {
+        "author": "m1n9_k7",
+        "url": "https://x.com/m1n9_k7/status/2103579630045466682",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103579601452859392/img/W5-l9QY9WEO0KwxH.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103579601452859392/vid/avc1/320x568/36SwxMol6e8FckNZ.mp4?tag=29"
+      },
+      {
+        "author": "mrtanviir",
+        "url": "https://x.com/mrtanviir/status/2103608767309132205",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103608720504868864/img/WwXFLzNyoyOyr1iZ.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103608720504868864/vid/avc1/480x270/5eF8bGCXNf0G0NQ0.mp4?tag=29"
+      },
+      {
+        "author": "leadnotifi",
+        "url": "https://x.com/leadnotifi/status/2103628028391960983",
+        "thumb": "https://pbs.twimg.com/amplify_video_thumb/2103627469576450049/img/d6du3TJrVDTns5Fy.jpg",
+        "video": "https://video.twimg.com/amplify_video/2103627469576450049/vid/avc1/480x270/j0o0bbfhmiZMzkAk.mp4?tag=14"
+      }
+    ]
+  },
+  "styleClassificationSource": {
+    "id": "2103151003272962130",
+    "style": "typography",
+    "title_zh": "动态简历展示视频",
+    "title_en": "Motion designer showreel prompt",
+    "author": "shneural",
+    "post_url": "https://x.com/shneural/status/2103151003272962130",
+    "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.",
+    "prompt_partial": false,
+    "likes_2026_09_29": 6657
+  },
+  "downloadedAt": "2026-10-14T09:17:15.524Z"
+}

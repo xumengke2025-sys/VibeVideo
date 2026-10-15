@@ -1,0 +1,69 @@
+{
+  "id": "original/akokoi1-941028",
+  "title": "线稿风「大气环流」地理课",
+  "group": "科普与讲解",
+  "tags": "科普与讲解 科普与讲解 Atmospheric circulation lesson in line art 近 5 分钟的线稿风高中地理课，讲「大气环流」，中英双语字幕加配乐，TTS 解说通过 TTS.md 和 .env 接入。 akokoi1",
+  "kind": "原片参考（无源码）",
+  "repo": "Li-Evan/awesome-opus-5.5-video-prompts",
+  "repository": "https://github.com/Li-Evan/awesome-opus-5.5-video-prompts",
+  "author": "akokoi1",
+  "authorUrl": "https://x.com/akokoi1/status/2102606609574941028",
+  "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/original-media/akokoi1-941028.mp4",
+  "bytes": 24071297,
+  "sha256": "476d9cb0e3e83fc9b9f4932fa3435bb14577bcc5c6bacb5b7e026213a215cb53",
+  "remoteUrl": "https://video.twimg.com/amplify_video/2102600725981446144/vid/avc1/1280x720/fz1qX0vbPo-7rr33.mp4?tag=29",
+  "entry": null,
+  "sourceRecord": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/akokoi1-941028.json",
+  "researchEntry": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-films-20261014/records/akokoi1-941028.json",
+  "newlyDownloaded": true,
+  "addedRound": "film-2026-10-14",
+  "license": "索引文档CC BY 4.0；影片、歌曲和素材权利归原作者，未取得开放影片许可",
+  "representation": "作者原帖视频，地址由公开索引提供",
+  "sourceStatus": "保存原帖、原提示词与完整媒体文件；实际绘制工程未取得，不能作开源源码证明",
+  "declaredDuration": 288.1,
+  "modelEvidence": "合集归为Opus 5.5；作者声明未独立核验",
+  "duplicateOf": null,
+  "indexCommit": "7f731215e5efbce772caf49d8dd016f310a97377",
+  "originalEntry": {
+    "id": "akokoi1-941028",
+    "title": "Atmospheric circulation lesson in line art",
+    "title_zh": "线稿风「大气环流」地理课",
+    "url": "https://x.com/akokoi1/status/2102606609574941028",
+    "author": "akokoi1",
+    "author_name": "WY",
+    "platform": "x",
+    "date": "2026-09-23",
+    "description": "A nearly 5-minute line-art lesson on atmospheric circulation for high school geography, with bilingual subtitles, music and TTS narration wired in through a TTS.md doc and .env keys.",
+    "description_zh": "近 5 分钟的线稿风高中地理课，讲「大气环流」，中英双语字幕加配乐，TTS 解说通过 TTS.md 和 .env 接入。",
+    "prompt": "做一个动画，讲解高中地理知识点“大气环流”。风格轻松有趣，动画格式为线稿，添加合适的音乐，请务必做到引人入胜，字幕用中英双语，解说用TTS，如果 TTS 接口有关闭水印的参数就关掉，文档在TTS.md，API KEY 和音色分别是 .env 里的 APIKEY 和 VOICE，最终视频要能直接导出。",
+    "prompt_lang": "zh",
+    "prompt_en": "Make an animation explaining the high school geography topic \"atmospheric circulation\". Keep the style light and fun, use line art as the animation format, add suitable music, and make sure it is truly engaging. Subtitles in both Chinese and English, narration with TTS; if the TTS API has a parameter to turn off the watermark, turn it off. The docs are in TTS.md, and the API KEY and voice are APIKEY and VOICE in .env. The final video must be directly exportable.",
+    "kind": "brief",
+    "tools": [
+      "tts",
+      "svg"
+    ],
+    "inputs": [
+      "none"
+    ],
+    "note": "Author: Opus worked 26 minutes with very low token use; about $0.2–0.5 per video on a Claude subscription.",
+    "note_zh": "作者称 Opus 用时 26 分钟，token 消耗很低；走 Claude 订阅一条约 0.2–0.5 美元。",
+    "media": {
+      "thumb": "https://pbs.twimg.com/amplify_video_thumb/2102600725981446144/img/CLPpa3fm0WFkm7U1.jpg",
+      "video": "https://video.twimg.com/amplify_video/2102600725981446144/vid/avc1/480x270/Z-qilXFlWRU1-OVX.mp4?tag=29",
+      "video_hd": "https://video.twimg.com/amplify_video/2102600725981446144/vid/avc1/1280x720/fz1qX0vbPo-7rr33.mp4?tag=29",
+      "duration": 288.1,
+      "width": 1920,
+      "height": 1080
+    },
+    "metrics": {
+      "bookmarks": 808,
+      "likes": 695,
+      "views": 134485,
+      "reposts": 89
+    },
+    "category": "explainer"
+  },
+  "styleClassificationSource": null,
+  "downloadedAt": "2026-10-14T09:23:17.433Z"
+}
