@@ -1,0 +1,208 @@
+{
+  "duration": 56,
+  "fps": 24,
+  "representatives": [
+    {
+      "shot": "horizon-city",
+      "state": "establish",
+      "time": 1,
+      "frame": 24
+    },
+    {
+      "shot": "horizon-city",
+      "state": "action",
+      "time": 3.5,
+      "frame": 84
+    },
+    {
+      "shot": "horizon-city",
+      "state": "result",
+      "time": 7,
+      "frame": 168
+    },
+    {
+      "shot": "miniature-courier",
+      "state": "establish",
+      "time": 9,
+      "frame": 216
+    },
+    {
+      "shot": "miniature-courier",
+      "state": "action",
+      "time": 12,
+      "frame": 288
+    },
+    {
+      "shot": "miniature-courier",
+      "state": "result",
+      "time": 17,
+      "frame": 408
+    },
+    {
+      "shot": "terrace-landing",
+      "state": "establish",
+      "time": 19,
+      "frame": 456
+    },
+    {
+      "shot": "terrace-landing",
+      "state": "action",
+      "time": 23,
+      "frame": 552
+    },
+    {
+      "shot": "terrace-landing",
+      "state": "result",
+      "time": 25,
+      "frame": 600
+    },
+    {
+      "shot": "first-light",
+      "state": "establish",
+      "time": 27,
+      "frame": 648
+    },
+    {
+      "shot": "first-light",
+      "state": "action",
+      "time": 30,
+      "frame": 720
+    },
+    {
+      "shot": "first-light",
+      "state": "result",
+      "time": 33,
+      "frame": 792
+    },
+    {
+      "shot": "canal-lights",
+      "state": "establish",
+      "time": 37,
+      "frame": 888
+    },
+    {
+      "shot": "canal-lights",
+      "state": "action",
+      "time": 40,
+      "frame": 960
+    },
+    {
+      "shot": "canal-lights",
+      "state": "result",
+      "time": 45,
+      "frame": 1080
+    },
+    {
+      "shot": "city-reveal",
+      "state": "establish",
+      "time": 47,
+      "frame": 1128
+    },
+    {
+      "shot": "city-reveal",
+      "state": "action",
+      "time": 49,
+      "frame": 1176
+    },
+    {
+      "shot": "city-reveal",
+      "state": "result",
+      "time": 53,
+      "frame": 1272
+    }
+  ],
+  "continuous_windows": [
+    {
+      "shot": "horizon-city",
+      "reason": "risk",
+      "start_frame": 36,
+      "end_frame": 156
+    },
+    {
+      "shot": "horizon-city",
+      "reason": "risk",
+      "start_frame": 156,
+      "end_frame": 190
+    },
+    {
+      "shot": "miniature-courier",
+      "reason": "risk",
+      "start_frame": 192,
+      "end_frame": 336
+    },
+    {
+      "shot": "miniature-courier",
+      "reason": "risk",
+      "start_frame": 372,
+      "end_frame": 430
+    },
+    {
+      "shot": "terrace-landing",
+      "reason": "risk",
+      "start_frame": 432,
+      "end_frame": 552
+    },
+    {
+      "shot": "terrace-landing",
+      "reason": "risk",
+      "start_frame": 552,
+      "end_frame": 622
+    },
+    {
+      "shot": "first-light",
+      "reason": "risk",
+      "start_frame": 684,
+      "end_frame": 792
+    },
+    {
+      "shot": "canal-lights",
+      "reason": "risk",
+      "start_frame": 864,
+      "end_frame": 936
+    },
+    {
+      "shot": "canal-lights",
+      "reason": "risk",
+      "start_frame": 1032,
+      "end_frame": 1102
+    },
+    {
+      "shot": "city-reveal",
+      "reason": "risk",
+      "start_frame": 1104,
+      "end_frame": 1188
+    },
+    {
+      "reason": "地平线揭示转高位移轴",
+      "anchor": "temple-01与gate-01",
+      "start_frame": 144,
+      "end_frame": 288
+    },
+    {
+      "reason": "高位跟拍转下降",
+      "anchor": "dragon-01与terrace-01",
+      "start_frame": 384,
+      "end_frame": 504
+    },
+    {
+      "reason": "落地后保持接触舞台",
+      "anchor": "feet-contact与ember-01",
+      "start_frame": 576,
+      "end_frame": 672
+    },
+    {
+      "reason": "首灯向相邻灯交接",
+      "anchor": "beacon-01与lantern-02",
+      "start_frame": 816,
+      "end_frame": 936
+    },
+    {
+      "reason": "运河灯链转全城揭示",
+      "anchor": "canal-01与gate-01",
+      "start_frame": 1056,
+      "end_frame": 1176
+    }
+  ],
+  "errors": [],
+  "scope": "Plan/evidence consistency only; visual and sound judgments require actual observation."
+}

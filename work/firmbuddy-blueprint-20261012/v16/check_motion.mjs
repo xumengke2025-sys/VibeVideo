@@ -1,0 +1,8 @@
+import fs from 'node:fs';import vm from 'node:vm';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const root=path.dirname(fileURLToPath(import.meta.url)),s=fs.readFileSync(path.join(root,'scene-body.js'),'utf8'),story=fs.readFileSync(path.join(root,'story.js'),'utf8');
+const ctx={Math};vm.createContext(ctx);
+vm.runInContext('const clamp=x=>Math.max(0,Math.min(1,x)),p=(t,a,b)=>clamp((t-a)/(b-a)),mix=(a,b,u)=>a+(b-a)*u;const bez=()=>[];'+s.slice(s.indexOf('const keys='),s.indexOf('function pathPoint'))+story.slice(0,story.indexOf('function judgment'))+';this.cam=storyCamera;this.knots=storyClock;this.detour=detourKeys;',ctx);
+const h=.0001,val=t=>{const c=ctx.cam(t);return[c.x,c.y,Math.log(c.z),c.r]},joins=[...new Set([...ctx.knots.map(k=>k[0]),...ctx.detour.map(k=>k[0])])].filter(t=>t>0&&t<104).sort((a,b)=>a-b).map(t=>{const a=val(t-h),b=val(t),c=val(t+h);return{t,velocity_error:a.map((v,j)=>Math.abs((b[j]-v)/h-(c[j]-b[j])/h)),position_step:a.map((v,j)=>Math.abs(c[j]-v))};});
+const samples=Array.from({length:3121},(_,i)=>ctx.cam(i/30));let maxStep=0;for(let i=1;i<samples.length;i++)maxStep=Math.max(maxStep,Math.hypot(samples[i].x-samples[i-1].x,samples[i].y-samples[i-1].y)*samples[i].z);
+const pass=joins.every(j=>j.velocity_error[0]<.2&&j.velocity_error[1]<.2&&j.velocity_error[2]<.002&&j.velocity_error[3]<.002)&&samples.every(c=>Object.values(c).every(Number.isFinite));
+fs.writeFileSync(path.join(root,'motion-checks.json'),JSON.stringify({scope:'Numerical joins and finite camera positions; not perceptual review',pass,maxStep,joins},null,2));console.log(JSON.stringify({pass,maxStep,bad:joins.filter(j=>j.velocity_error.some(v=>v>.2))}));if(!pass)process.exitCode=1;

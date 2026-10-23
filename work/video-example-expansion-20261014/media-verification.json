@@ -1,0 +1,392 @@
+{
+  "checked": "2026-10-14",
+  "scope": "SHA256、元数据及完整音视频解码；未重渲、未完整动态观看或听音",
+  "items": [
+    {
+      "id": "shotcraft/drone-dive-landing",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/drone-dive-landing.mp4",
+      "sha256": "ff81ae976de9599422c572ed9c5760b7c7d7fb99793f589c40f4c2f1d35ec616",
+      "bytes": 1831033,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 3.5,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/ff81ae976de9599422c5.jpg"
+    },
+    {
+      "id": "shotcraft/steep-tilt-glide",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/steep-tilt-glide.mp4",
+      "sha256": "32df49fb3b5d28e108a4402388231f09601004ed39d5a34a38297f7e9bece9ce",
+      "bytes": 2053301,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 4,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/32df49fb3b5d28e108a4.jpg"
+    },
+    {
+      "id": "shotcraft/graze-face-tour",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/graze-face-tour.mp4",
+      "sha256": "4c9fea524f3dca51f799fd8dfbe2248f49a5f90147bc27030265abd455e86b8f",
+      "bytes": 2880092,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 5,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/4c9fea524f3dca51f799.jpg"
+    },
+    {
+      "id": "shotcraft/cursor-flyover",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/cursor-flyover.mp4",
+      "sha256": "0ef5e8e40ce5a4933741c9ec38b576a731b1dfc1014730b98adadf61a519fd29",
+      "bytes": 2783502,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 8,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/0ef5e8e40ce5a4933741.jpg"
+    },
+    {
+      "id": "shotcraft/icon-flip-bloom",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/icon-flip-bloom.mp4",
+      "sha256": "aa7cfde5eda9a0248bb74a57baed86465f5093a5b02fa04b8104cc5d00e04813",
+      "bytes": 748080,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 4.333008,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/aa7cfde5eda9a0248bb7.jpg"
+    },
+    {
+      "id": "shotcraft/line-carry-transition",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/line-carry-transition.mp4",
+      "sha256": "cab235a911826c2ba7dd50ef0f3b36aecfc7c8e5b46f5e28633e3e15dcfb3932",
+      "bytes": 1931941,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 6.333333,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/cab235a911826c2ba7dd.jpg"
+    },
+    {
+      "id": "shotcraft/input-morph-assemble",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/input-morph-assemble.mp4",
+      "sha256": "f02dc027dab54c0051a633f93a0e20a17829f3125bbe08cb0d1ee388cc65040d",
+      "bytes": 1129584,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 5.6,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/f02dc027dab54c0051a6.jpg"
+    },
+    {
+      "id": "shotcraft/autolayout-gap-dial",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/autolayout-gap-dial.mp4",
+      "sha256": "0fbd42a6cee56371dd626b2ff8286ca64e491af22b69fc3acc59ff99636061e8",
+      "bytes": 2399120,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 5,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/0fbd42a6cee56371dd62.jpg"
+    },
+    {
+      "id": "shotcraft/circle-match-iris",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/circle-match-iris.mp4",
+      "sha256": "1106cce1fb0dfc43f1d801656554217812d8dec1a233777f2a9e0cd3d1ba2ec2",
+      "bytes": 2490949,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 5.5,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/1106cce1fb0dfc43f1d8.jpg"
+    },
+    {
+      "id": "shotcraft/basic-3d-scene",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/basic-3d-scene.mp4",
+      "sha256": "971ed30038b8ad64cd91c5f0a9ef9281ddefb8ea32a9ac3bf6cedbc65e66546a",
+      "bytes": 3301722,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 7.5,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/971ed30038b8ad64cd91.jpg"
+    },
+    {
+      "id": "shotcraft/mosaic-reframe",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/mosaic-reframe.mp4",
+      "sha256": "52ea9a41921122adeada596142b53b8e46cc38d131d172cdd58e168b685565d8",
+      "bytes": 4876942,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 7.133333,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/52ea9a41921122adeada.jpg"
+    },
+    {
+      "id": "shotcraft/terminal-3d",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/terminal-3d.mp4",
+      "sha256": "d7d88629682076fae5fdd896cf56ec435ec7f405c5468052e445321f1c94dad1",
+      "bytes": 3570601,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 8.2,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/d7d88629682076fae5fd.jpg"
+    },
+    {
+      "id": "shotcraft/oscilloscope-stream",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/oscilloscope-stream.mp4",
+      "sha256": "c6484ad7e81835fc7113cda7b61616b10096b0dfad5fa0cdbab1b6ca49c4c52e",
+      "bytes": 2829034,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 5.5,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/c6484ad7e81835fc7113.jpg"
+    },
+    {
+      "id": "shotcraft/exploded-view",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/exploded-view.mp4",
+      "sha256": "83cb69796d43209a2a99c42c2793fd2b22c30502b81b8ee34efb85eeea2b5f4b",
+      "bytes": 2912973,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 5.666667,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/83cb69796d43209a2a99.jpg"
+    },
+    {
+      "id": "shotcraft/bullet-time-freeze-orbit",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/bullet-time-freeze-orbit.mp4",
+      "sha256": "6929925b1811302e725444cc6d4bfd5b2bbfa7796f845653f4d3b2c36f2e989c",
+      "bytes": 2783824,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 5.666667,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/6929925b1811302e7254.jpg"
+    },
+    {
+      "id": "shotcraft/unit-dot-swarm-regroup",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/unit-dot-swarm-regroup.mp4",
+      "sha256": "dba32e06d1f879ad25030fafdd69fb8c1a60b39d960946c595899692987b72af",
+      "bytes": 2970028,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 6.4,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/dba32e06d1f879ad2503.jpg"
+    },
+    {
+      "id": "shotcraft/needle-sweep-selftest",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/needle-sweep-selftest.mp4",
+      "sha256": "c0bc3c5430576d44aee2ba59d55d7e960afc2a270d2e3860744531382993ebac",
+      "bytes": 1279721,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 4.666667,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/c0bc3c5430576d44aee2.jpg"
+    },
+    {
+      "id": "shotcraft/axis-rescale-shock",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/axis-rescale-shock.mp4",
+      "sha256": "206a6e201e55d8462236d6ec186fd32b0916a8ef2811676d46f66185df50e002",
+      "bytes": 2539496,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 5.6,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/206a6e201e55d8462236.jpg"
+    },
+    {
+      "id": "shotcraft/timeline-travel",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/timeline-travel.mp4",
+      "sha256": "7aede27ebc916f1ebebebdf996c9aab4c1379ab45b3fa91fe7c0bed152861408",
+      "bytes": 1182105,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 5.333008,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/7aede27ebc916f1ebebe.jpg"
+    },
+    {
+      "id": "shotcraft/tape-scroll-fixed-pointer",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/shotcraft-media/tape-scroll-fixed-pointer.mp4",
+      "sha256": "20f7b5518bffc6e16fb48073ad8eda313604c2dba92f4d09428b6079865f08a8",
+      "bytes": 1205866,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 5,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": []
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/20f7b5518bffc6e16fb4.jpg"
+    },
+    {
+      "id": "opus-paints/_timeline",
+      "repo": "Chaoqi31/opus-paints",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/video-examples-20261014/Chaoqi31--opus-paints/plates/_timeline.mp4",
+      "sha256": "966e1885bb7f9eddee65d17caa141548bafaf2e7e9318d319b53a37d65a316a6",
+      "bytes": 33133353,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 59.6,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ]
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/966e1885bb7f9eddee65.jpg"
+    },
+    {
+      "id": "particle-beach/trailer-1",
+      "repo": "ishuagrawal/particle-beach",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/particle-beach/trailer-1.mp4",
+      "sha256": "37195ba171e6233a950f52c5eff8e319d6c9fc823e273939bf9e1b15c2afce5c",
+      "bytes": 7540330,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1280,
+        "height": 720,
+        "duration": 60,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ]
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/video-example-expansion-20261014/posters/37195ba171e6233a950f.jpg"
+    }
+  ]
+}

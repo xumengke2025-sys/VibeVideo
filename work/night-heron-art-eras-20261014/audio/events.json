@@ -1,0 +1,1421 @@
+{
+  "duration": 40,
+  "sampleRate": 48000,
+  "bpm": 106.66666666666667,
+  "events": [
+    {
+      "time": 2,
+      "type": "pluck",
+      "midi": 48,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 3.125,
+      "type": "pluck",
+      "midi": 55,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 2,
+      "type": "pluck",
+      "midi": 72,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 2.2800000000000002,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 2.5625,
+      "type": "pluck",
+      "midi": 76,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 2.8425000000000002,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 3.125,
+      "type": "pluck",
+      "midi": 79,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 3.4050000000000002,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 3.6875,
+      "type": "pluck",
+      "midi": 76,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 3.9675000000000002,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 3.035,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 3.58,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 4.25,
+      "type": "pluck",
+      "midi": 48,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 5.375,
+      "type": "pluck",
+      "midi": 55,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 4.25,
+      "type": "bell",
+      "midi": 72,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 4.53,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 4.8125,
+      "type": "bell",
+      "midi": 76,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 5.0925,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 5.375,
+      "type": "bell",
+      "midi": 79,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 5.655,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 5.9375,
+      "type": "bell",
+      "midi": 76,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 6.2175,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 5.285,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 5.83,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 6.5,
+      "type": "pluck",
+      "midi": 50,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 7.625,
+      "type": "pluck",
+      "midi": 57,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 6.5,
+      "type": "pluck",
+      "midi": 74,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 6.78,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 7.0625,
+      "type": "pluck",
+      "midi": 78,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 7.3425,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 7.625,
+      "type": "pluck",
+      "midi": 81,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 7.905,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 8.1875,
+      "type": "pluck",
+      "midi": 78,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 8.4675,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 7.535,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 8.08,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 8.75,
+      "type": "pluck",
+      "midi": 50,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 9.875,
+      "type": "pluck",
+      "midi": 57,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 8.75,
+      "type": "pluck",
+      "midi": 74,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 9.03,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 9.3125,
+      "type": "pluck",
+      "midi": 78,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 9.5925,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 9.875,
+      "type": "pluck",
+      "midi": 81,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 10.155,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 10.4375,
+      "type": "pluck",
+      "midi": 78,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 10.7175,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 9.785,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 10.33,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 11,
+      "type": "pluck",
+      "midi": 53,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 12.125,
+      "type": "pluck",
+      "midi": 60,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 11,
+      "type": "pluck",
+      "midi": 77,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 11.28,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 11.5625,
+      "type": "pluck",
+      "midi": 81,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 11.8425,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 12.125,
+      "type": "pluck",
+      "midi": 84,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 12.405,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 12.6875,
+      "type": "pluck",
+      "midi": 81,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 12.9675,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 12.035,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 12.58,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 13.25,
+      "type": "pluck",
+      "midi": 53,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 14.375,
+      "type": "pluck",
+      "midi": 60,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 13.25,
+      "type": "bell",
+      "midi": 77,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 13.53,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 13.8125,
+      "type": "bell",
+      "midi": 81,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 14.0925,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 14.375,
+      "type": "bell",
+      "midi": 84,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 14.655,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 14.9375,
+      "type": "bell",
+      "midi": 81,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 15.2175,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 14.285,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 14.83,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 15.5,
+      "type": "pluck",
+      "midi": 55,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 16.625,
+      "type": "pluck",
+      "midi": 62,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 15.5,
+      "type": "pluck",
+      "midi": 79,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 15.78,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 16.0625,
+      "type": "pluck",
+      "midi": 83,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 16.3425,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 16.625,
+      "type": "pluck",
+      "midi": 86,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 16.905,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 17.1875,
+      "type": "pluck",
+      "midi": 83,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 17.4675,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 16.535,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 17.08,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 17.75,
+      "type": "pluck",
+      "midi": 55,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 18.875,
+      "type": "pluck",
+      "midi": 62,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 17.75,
+      "type": "pluck",
+      "midi": 79,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 18.03,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 18.3125,
+      "type": "pluck",
+      "midi": 83,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 18.5925,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 18.875,
+      "type": "pluck",
+      "midi": 86,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 19.155,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 19.4375,
+      "type": "pluck",
+      "midi": 83,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 19.7175,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 18.785,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 19.33,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 20,
+      "type": "pluck",
+      "midi": 48,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 21.125,
+      "type": "pluck",
+      "midi": 55,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 20,
+      "type": "flute",
+      "midi": 72,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 20.28,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 20.5625,
+      "type": "flute",
+      "midi": 76,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 20.8425,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 21.125,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 21.405,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 21.6875,
+      "type": "flute",
+      "midi": 76,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 21.9675,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 21.035,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 21.58,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 22.25,
+      "type": "pluck",
+      "midi": 48,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 23.375,
+      "type": "pluck",
+      "midi": 55,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 22.25,
+      "type": "pluck",
+      "midi": 72,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 22.53,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 22.8125,
+      "type": "pluck",
+      "midi": 76,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 23.0925,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 23.375,
+      "type": "pluck",
+      "midi": 79,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 23.655,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 23.9375,
+      "type": "pluck",
+      "midi": 76,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 24.2175,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 23.285,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 23.83,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 24.5,
+      "type": "pluck",
+      "midi": 50,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 25.625,
+      "type": "pluck",
+      "midi": 57,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 24.5,
+      "type": "pluck",
+      "midi": 74,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 24.78,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 25.0625,
+      "type": "pluck",
+      "midi": 78,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 25.3425,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 25.625,
+      "type": "pluck",
+      "midi": 81,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 25.905,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 26.1875,
+      "type": "pluck",
+      "midi": 78,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 26.4675,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 25.535,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 26.08,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 26.75,
+      "type": "pluck",
+      "midi": 50,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 27.875,
+      "type": "pluck",
+      "midi": 57,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 26.75,
+      "type": "pluck",
+      "midi": 74,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 27.03,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 27.3125,
+      "type": "pluck",
+      "midi": 78,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 27.5925,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 27.875,
+      "type": "pluck",
+      "midi": 81,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 28.155,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 28.4375,
+      "type": "pluck",
+      "midi": 78,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 28.7175,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 27.785,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 28.33,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 29,
+      "type": "pluck",
+      "midi": 53,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 30.125,
+      "type": "pluck",
+      "midi": 60,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 29,
+      "type": "pluck",
+      "midi": 77,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 29.28,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 29.5625,
+      "type": "pluck",
+      "midi": 81,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 29.8425,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 30.125,
+      "type": "pluck",
+      "midi": 84,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 30.405,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 30.6875,
+      "type": "pluck",
+      "midi": 81,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 30.9675,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 30.035,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 30.58,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 31.25,
+      "type": "pluck",
+      "midi": 53,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 32.375,
+      "type": "pluck",
+      "midi": 60,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 31.25,
+      "type": "pluck",
+      "midi": 77,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 31.53,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 31.8125,
+      "type": "pluck",
+      "midi": 81,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 32.0925,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 32.375,
+      "type": "pluck",
+      "midi": 84,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 32.655,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 32.9375,
+      "type": "pluck",
+      "midi": 81,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 33.2175,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 32.285,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 32.83,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 33.5,
+      "type": "pluck",
+      "midi": 55,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 34.625,
+      "type": "pluck",
+      "midi": 62,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 33.5,
+      "type": "pluck",
+      "midi": 79,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 33.78,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 34.0625,
+      "type": "pluck",
+      "midi": 83,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 34.3425,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 34.625,
+      "type": "pluck",
+      "midi": 86,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 34.905,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 35.1875,
+      "type": "pluck",
+      "midi": 83,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 35.4675,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 34.535,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 35.08,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 35.75,
+      "type": "pluck",
+      "midi": 48,
+      "duration": 1.4,
+      "gain": 0.14,
+      "pan": 0.42
+    },
+    {
+      "time": 36.875,
+      "type": "pluck",
+      "midi": 55,
+      "duration": 0.9,
+      "gain": 0.09,
+      "pan": 0.4
+    },
+    {
+      "time": 35.75,
+      "type": "wood",
+      "midi": 72,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 36.03,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 36.3125,
+      "type": "wood",
+      "midi": 76,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 36.5925,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 36.875,
+      "type": "wood",
+      "midi": 79,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.35
+    },
+    {
+      "time": 37.155,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 37.4375,
+      "type": "wood",
+      "midi": 76,
+      "duration": 0.5,
+      "gain": 0.105,
+      "pan": 0.66
+    },
+    {
+      "time": 37.7175,
+      "type": "brush",
+      "gain": 0.015
+    },
+    {
+      "time": 36.785,
+      "type": "wood",
+      "midi": 91,
+      "duration": 0.17,
+      "gain": 0.035,
+      "pan": 0.63
+    },
+    {
+      "time": 37.33,
+      "type": "flute",
+      "midi": 79,
+      "duration": 0.24,
+      "gain": 0.032,
+      "pan": 0.42
+    },
+    {
+      "time": 0.15,
+      "type": "pluck",
+      "midi": 60,
+      "duration": 1.5,
+      "gain": 0.1,
+      "pan": 0.45
+    },
+    {
+      "time": 0.6,
+      "type": "pluck",
+      "midi": 67,
+      "duration": 1.2,
+      "gain": 0.08,
+      "pan": 0.55
+    },
+    {
+      "time": 1.05,
+      "type": "pluck",
+      "midi": 72,
+      "duration": 0.85,
+      "gain": 0.07,
+      "pan": 0.6
+    },
+    {
+      "time": 38.2,
+      "type": "bell",
+      "midi": 48,
+      "duration": 1.7,
+      "gain": 0.085,
+      "pan": 0.35
+    },
+    {
+      "time": 38.290000000000006,
+      "type": "bell",
+      "midi": 60,
+      "duration": 1.7,
+      "gain": 0.085,
+      "pan": 0.43
+    },
+    {
+      "time": 38.38,
+      "type": "bell",
+      "midi": 64,
+      "duration": 1.7,
+      "gain": 0.085,
+      "pan": 0.51
+    },
+    {
+      "time": 38.470000000000006,
+      "type": "bell",
+      "midi": 67,
+      "duration": 1.7,
+      "gain": 0.085,
+      "pan": 0.59
+    },
+    {
+      "time": 38.56,
+      "type": "bell",
+      "midi": 72,
+      "duration": 1.7,
+      "gain": 0.085,
+      "pan": 0.6699999999999999
+    }
+  ],
+  "statistics": {
+    "peak": 0.72,
+    "rms": 0.055487456472938665,
+    "clipped": false
+  },
+  "perception": "not listened"
+}

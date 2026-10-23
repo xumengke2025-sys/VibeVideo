@@ -1,0 +1,762 @@
+{
+  "video_path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\film\\out\\final-reference-v5\\video.mp4",
+  "video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+  "reviewer": {
+    "mode": "independent_agent",
+    "id": "/root/heron_review"
+  },
+  "review_round": {
+    "initial_review": true,
+    "production_repairs_used": 0,
+    "localized_recheck": false
+  },
+  "coverage": {
+    "decoded_frames": 1200,
+    "visual_ranges": [
+      {
+        "start_frame": 0,
+        "end_frame": 23,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0000-0023.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "清晨影窗、树枝与夜鹭出发序列；彩色镂空角色与关节可见。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0000-0023.jpg": "c7d63aa61e6d71e40155f3127b78c30164badea95ee22094f84c9a36e9b850ad"
+        }
+      },
+      {
+        "start_frame": 24,
+        "end_frame": 47,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0024-0047.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "清晨影窗、树枝与夜鹭出发序列；彩色镂空角色与关节可见。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0024-0047.jpg": "33d5c24c725bab76932821be932b0fffe34c478a994a735b1adff0ca791037aa"
+        }
+      },
+      {
+        "start_frame": 48,
+        "end_frame": 71,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0048-0071.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "清晨影窗、树枝与夜鹭出发序列；彩色镂空角色与关节可见。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0048-0071.jpg": "c3a122d131698bc562b2249ea7a70dd0ed67d3fe214cea24a96002972985390e"
+        }
+      },
+      {
+        "start_frame": 72,
+        "end_frame": 95,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0072-0095.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "清晨影窗、树枝与夜鹭出发序列；彩色镂空角色与关节可见。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0072-0095.jpg": "d0df68a16557e7b653ac6a31d044fa7bd9d2bb199a88098690ca946c860acfb9"
+        }
+      },
+      {
+        "start_frame": 96,
+        "end_frame": 119,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0096-0119.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "清晨影窗、树枝与夜鹭出发序列；彩色镂空角色与关节可见。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0096-0119.jpg": "59f2d01c21705d80d13128ac8ded70552ffd23b36378a65aaedcb3ac763993f3"
+        }
+      },
+      {
+        "start_frame": 120,
+        "end_frame": 143,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0120-0143.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "夜鹭通过园门；门牌文字棕色低对比，地点交代不清，记录 NH-V5-01。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0120-0143.jpg": "64f83a75bec44598f5792ec8279dba9bd7a5738b8a1b755611b1cbb3c5037bf0"
+        }
+      },
+      {
+        "start_frame": 144,
+        "end_frame": 167,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0144-0167.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "夜鹭通过园门；门牌文字棕色低对比，地点交代不清，记录 NH-V5-01。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0144-0167.jpg": "4b5f859c248d784b607356644f04f36ec2a57455a38b015163dd9fd42dcd8b0a"
+        }
+      },
+      {
+        "start_frame": 168,
+        "end_frame": 191,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0168-0191.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "夜鹭通过园门；门牌文字棕色低对比，地点交代不清，记录 NH-V5-01。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0168-0191.jpg": "4f7fbd3a590cfaf98d129f2584887a44c506c2ffafbd5f5bd320d4ccc0725ed4"
+        }
+      },
+      {
+        "start_frame": 192,
+        "end_frame": 215,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0192-0215.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "夜鹭通过园门；门牌文字棕色低对比，地点交代不清，记录 NH-V5-01。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0192-0215.jpg": "21cdc97ddf079c97c3826b17be784d8994ef8b25cc7467e834265cadac0090c2"
+        }
+      },
+      {
+        "start_frame": 216,
+        "end_frame": 239,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0216-0239.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "夜鹭通过园门；门牌文字棕色低对比，地点交代不清，记录 NH-V5-01。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0216-0239.jpg": "5496e0989096fc02b2fd3ae867a5fc14f53616f646287e7e93257e6d6fd3a2f5"
+        }
+      },
+      {
+        "start_frame": 240,
+        "end_frame": 263,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0240-0263.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "企鹅、桶及假山建立；主角回看，刚性压窄翻面序列可辨。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0240-0263.jpg": "bfe7ec1a2eddeecdbc6bcdeac8a4929e30f51b37fe44a8761318073bf1444efe"
+        }
+      },
+      {
+        "start_frame": 264,
+        "end_frame": 287,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0264-0287.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "企鹅、桶及假山建立；主角回看，刚性压窄翻面序列可辨。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0264-0287.jpg": "b94f857863c4316941a851d86406a1f7846428cfc16016631668b568700a441b"
+        }
+      },
+      {
+        "start_frame": 288,
+        "end_frame": 311,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0288-0311.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "企鹅、桶及假山建立；主角回看，刚性压窄翻面序列可辨。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0288-0311.jpg": "59b3b20cb1caf2dc101c98ad850328a0f7237fbf47807be2a1eb51ee5f87ea75"
+        }
+      },
+      {
+        "start_frame": 312,
+        "end_frame": 335,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0312-0335.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "企鹅、桶及假山建立；主角回看，刚性压窄翻面序列可辨。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0312-0335.jpg": "9176b2b474889b250fc965fa989f35dda131d195adfdadf6ae17f11a6bc9193d"
+        }
+      },
+      {
+        "start_frame": 336,
+        "end_frame": 359,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0336-0359.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "企鹅、桶及假山建立；主角回看，刚性压窄翻面序列可辨。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0336-0359.jpg": "10e31226c19af923510b35e8cf63cb95140f0af5399b4d565276c311353eaf6d"
+        }
+      },
+      {
+        "start_frame": 360,
+        "end_frame": 383,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0360-0383.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "伪装动作从常态转为直立收颈，腿靠近、小步；与企鹅身高接近。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0360-0383.jpg": "6e7f66023401071355418125fdc6d9f13d97a30d362d9145a7523eb33c48825e"
+        }
+      },
+      {
+        "start_frame": 384,
+        "end_frame": 407,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0384-0407.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "伪装动作从常态转为直立收颈，腿靠近、小步；与企鹅身高接近。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0384-0407.jpg": "5c64c3983b766844bbe1d0b188970735cac22dac5489226d38e81bb0d63dab54"
+        }
+      },
+      {
+        "start_frame": 408,
+        "end_frame": 431,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0408-0431.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "伪装动作从常态转为直立收颈，腿靠近、小步；与企鹅身高接近。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0408-0431.jpg": "797aa89e6c1954ba29954df6b5b16c70fc025584c23f45a598c4ad679947dc70"
+        }
+      },
+      {
+        "start_frame": 432,
+        "end_frame": 455,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0432-0455.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "伪装动作从常态转为直立收颈，腿靠近、小步；与企鹅身高接近。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0432-0455.jpg": "b8539f569b0e3b1dba993c19dfc4c6cf6f1c1d1c537da02ef9f39cf604475976"
+        }
+      },
+      {
+        "start_frame": 456,
+        "end_frame": 479,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0456-0479.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "伪装动作从常态转为直立收颈，腿靠近、小步；与企鹅身高接近。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0456-0479.jpg": "bda34ed236693cdfc3d5ed8acef5a0580f0416d2085b3539e1205e45cc3c4a87"
+        }
+      },
+      {
+        "start_frame": 480,
+        "end_frame": 503,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0480-0503.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "伪装动作从常态转为直立收颈，腿靠近、小步；与企鹅身高接近。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0480-0503.jpg": "e675c18ac261662ceffa6e3fcbe1da80b2ca60016b79032b46d94f4e62326f4a"
+        }
+      },
+      {
+        "start_frame": 504,
+        "end_frame": 527,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0504-0527.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "停步回看再朝桶转向；压窄薄边与另一面连续，主角身份纹样保留。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0504-0527.jpg": "668da886a991c77282fac31484f486fd29b35696f7b6b14bbda8adbb79c326ef"
+        }
+      },
+      {
+        "start_frame": 528,
+        "end_frame": 551,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0528-0551.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "停步回看再朝桶转向；压窄薄边与另一面连续，主角身份纹样保留。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0528-0551.jpg": "3e62a40a210ac9424e2c7a7266ab959b18278a9bf90c6c3f7704b48088996fc7"
+        }
+      },
+      {
+        "start_frame": 552,
+        "end_frame": 575,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0552-0575.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "停步回看再朝桶转向；压窄薄边与另一面连续，主角身份纹样保留。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0552-0575.jpg": "03f7ef1547132096b9b3ab225ca995de87c54ef735503fc51c01d46bd8cdfb65"
+        }
+      },
+      {
+        "start_frame": 576,
+        "end_frame": 599,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0576-0599.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "停步回看再朝桶转向；压窄薄边与另一面连续，主角身份纹样保留。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0576-0599.jpg": "1bd1f9ae4adad771b5b72e75dbef97bf7be2252f0f9857c795e913283fb5cfb2"
+        }
+      },
+      {
+        "start_frame": 600,
+        "end_frame": 623,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0600-0623.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "停步回看再朝桶转向；压窄薄边与另一面连续，主角身份纹样保留。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0600-0623.jpg": "76fa0da02a12b166b4505d1d5f2a47f84fe271c8cd0a7c1ac0d8a72d3cf956d9"
+        }
+      },
+      {
+        "start_frame": 624,
+        "end_frame": 647,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0624-0647.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "停步回看再朝桶转向；压窄薄边与另一面连续，主角身份纹样保留。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0624-0647.jpg": "9a6a9c6ab2d6dc28410c3fd643c04ed6c0b3bf2cf7bea8c96b77c867b75468f3"
+        }
+      },
+      {
+        "start_frame": 648,
+        "end_frame": 671,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0648-0671.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "伸颈、开喙入桶、取鱼并收颈；鱼在缩图偏难辨，原尺寸能追踪。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0648-0671.jpg": "bbce2ad714e02a029e3b2db111421c0f2d176de0d5cac8e1ba0ce797d3abd437"
+        }
+      },
+      {
+        "start_frame": 672,
+        "end_frame": 695,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0672-0695.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "伸颈、开喙入桶、取鱼并收颈；鱼在缩图偏难辨，原尺寸能追踪。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0672-0695.jpg": "c5eeaeef96f68a936095a2cccebfe6f2f333220400ffb62b76566448ce139447"
+        }
+      },
+      {
+        "start_frame": 696,
+        "end_frame": 719,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0696-0719.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "伸颈、开喙入桶、取鱼并收颈；鱼在缩图偏难辨，原尺寸能追踪。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0696-0719.jpg": "6854c543b2afde964cd4f37532c6ea1a75d49f0bfb31a52450f429327c45511f"
+        }
+      },
+      {
+        "start_frame": 720,
+        "end_frame": 743,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0720-0743.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "伸颈、开喙入桶、取鱼并收颈；鱼在缩图偏难辨，原尺寸能追踪。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0720-0743.jpg": "71198d08a3850f4fb8cf10f4e9b538ffd2b9f48102e9c9b46a6e5107cc2d069c"
+        }
+      },
+      {
+        "start_frame": 744,
+        "end_frame": 767,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0744-0767.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "伸颈、开喙入桶、取鱼并收颈；鱼在缩图偏难辨，原尺寸能追踪。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0744-0767.jpg": "5cf48f56c166f25038acf4fc3b330dac74805032144fae791894ebc0ad68c078"
+        }
+      },
+      {
+        "start_frame": 768,
+        "end_frame": 791,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0768-0791.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "企鹅回看，夜鹭停顿并翻面离开；鱼仍在喙边。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0768-0791.jpg": "458d8b0b6c34defdc6214b7a302f9e0dac8905dbc4271177fa6411f336232db3"
+        }
+      },
+      {
+        "start_frame": 792,
+        "end_frame": 815,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0792-0815.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "企鹅回看，夜鹭停顿并翻面离开；鱼仍在喙边。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0792-0815.jpg": "3cee73d1a069a8da4c1dda5fe5eff5d3413028638cc75c5e1f276403d715aecd"
+        }
+      },
+      {
+        "start_frame": 816,
+        "end_frame": 839,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0816-0839.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "企鹅回看，夜鹭停顿并翻面离开；鱼仍在喙边。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0816-0839.jpg": "b23431de850493ca2cdf56c51cb857c28071e2aeb64e6ce66c2a3c24ade4a0e1"
+        }
+      },
+      {
+        "start_frame": 840,
+        "end_frame": 863,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0840-0863.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "企鹅回看，夜鹭停顿并翻面离开；鱼仍在喙边。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0840-0863.jpg": "65fd4d2cfb8d2b5e30c5e5e6396ee4ea0de5a8ff58b3d4b6f565605dea2fd3ad"
+        }
+      },
+      {
+        "start_frame": 864,
+        "end_frame": 887,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0864-0887.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "夜鹭向左返家，携带鱼；植被有前景遮盖，脸与路线可辨。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0864-0887.jpg": "428148930ad24fbacb725c661b3e97e73eb5e013fcfc5665d4b11e593df35ff9"
+        }
+      },
+      {
+        "start_frame": 888,
+        "end_frame": 911,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0888-0911.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "夜鹭向左返家，携带鱼；植被有前景遮盖，脸与路线可辨。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0888-0911.jpg": "a0cdf7889b7dcfdcdf7bd1cf009294e0b614526d8cfff61ea584ab2b142cbefb"
+        }
+      },
+      {
+        "start_frame": 912,
+        "end_frame": 935,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0912-0935.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "夜鹭向左返家，携带鱼；植被有前景遮盖，脸与路线可辨。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0912-0935.jpg": "1805ac4af6faa88100aeb618b1b48554a9c7877b3d33a6dcaec4b26fd164423b"
+        }
+      },
+      {
+        "start_frame": 936,
+        "end_frame": 959,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0936-0959.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "夜鹭向左返家，携带鱼；植被有前景遮盖，脸与路线可辨。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0936-0959.jpg": "6e1ba3d1a67cc25bcaba61789aefb154443d4dfb4be76cfcbebf7d375034b230"
+        }
+      },
+      {
+        "start_frame": 960,
+        "end_frame": 983,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0960-0983.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "夜鹭向左返家，携带鱼；植被有前景遮盖，脸与路线可辨。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0960-0983.jpg": "51eb8b23e55788cbebcdd8a88401f5957a94c3ebba7c0edc07ce1eba3dc5978b"
+        }
+      },
+      {
+        "start_frame": 984,
+        "end_frame": 1007,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0984-1007.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "两只幼鸟迎食、伸颈；成年鸟低头将鱼移向巢，巢前沿遮挡归属交接。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0984-1007.jpg": "0b74d2816479e1229b5796ae844fcc494a841b053ece23098250897881bbca0f"
+        }
+      },
+      {
+        "start_frame": 1008,
+        "end_frame": 1031,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1008-1031.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "两只幼鸟迎食、伸颈；成年鸟低头将鱼移向巢，巢前沿遮挡归属交接。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1008-1031.jpg": "d456c8213e3844237fa4dce03c3f7e22f9593539e88ea8b59bf98b5fd80a00fa"
+        }
+      },
+      {
+        "start_frame": 1032,
+        "end_frame": 1055,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1032-1055.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "两只幼鸟迎食、伸颈；成年鸟低头将鱼移向巢，巢前沿遮挡归属交接。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1032-1055.jpg": "488f5ec4ef85f2a5944638dde95c9137b607e36cf482371d9f6d61c0e51c092f"
+        }
+      },
+      {
+        "start_frame": 1056,
+        "end_frame": 1079,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1056-1079.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "鱼进入巢后消失于成年鸟喙边，成年鸟收颈，幼鸟回落。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1056-1079.jpg": "2a8eb4d36abcf4719a73252a1ccc521896c443dbf8adb8cc948f7ae459a1a055"
+        }
+      },
+      {
+        "start_frame": 1080,
+        "end_frame": 1103,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1080-1103.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "鱼进入巢后消失于成年鸟喙边，成年鸟收颈，幼鸟回落。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1080-1103.jpg": "31195cbe48145629f55941d667beca003a010630138ec8ccb81aff0ec9e71633"
+        }
+      },
+      {
+        "start_frame": 1104,
+        "end_frame": 1127,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1104-1127.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "家庭结尾与晚间收场字卡，主体完整，未见突兀空帧。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1104-1127.jpg": "18d0641f0db91894d58c810f8a5c2542be237ce29a2572dc48bacf8ca47b769b"
+        }
+      },
+      {
+        "start_frame": 1128,
+        "end_frame": 1151,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1128-1151.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "家庭结尾与晚间收场字卡，主体完整，未见突兀空帧。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1128-1151.jpg": "7cefd8629540e00c8d7fce91059b4488e6bb4ebee8de0283ad88c8ddf8d1bb54"
+        }
+      },
+      {
+        "start_frame": 1152,
+        "end_frame": 1175,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1152-1175.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "家庭结尾与晚间收场字卡，主体完整，未见突兀空帧。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1152-1175.jpg": "2be459c2e7838c4c9af99a24d615ce28d28818fb44cfedffc5f9a99bc4a549f6"
+        }
+      },
+      {
+        "start_frame": 1176,
+        "end_frame": 1199,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1176-1199.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "家庭结尾与晚间收场字卡，主体完整，未见突兀空帧。",
+        "source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1176-1199.jpg": "7d7e606a906e8c19eea24385149bf5d75fd561f896c8351a132e32803071b5a5"
+        }
+      }
+    ],
+    "unreviewed_frame_ranges": [],
+    "full_resolution_frames": [
+      168,
+      480,
+      678,
+      680,
+      684,
+      696,
+      720,
+      790,
+      1044,
+      1048,
+      1052,
+      1060
+    ],
+    "realtime_viewed_ranges_seconds": [],
+    "audio_listened_ranges_seconds": [],
+    "audio_perception": {
+      "status": "unavailable",
+      "tool": null
+    },
+    "audio_status": "pending"
+  },
+  "findings": [
+    {
+      "id": "NH-V5-01",
+      "severity": "major",
+      "frame_range": [
+        120,
+        239
+      ],
+      "time_range": [
+        5,
+        10
+      ],
+      "evidence": [
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\00168.jpg"
+      ],
+      "observation": "动物园门牌文字与底板同为棕色且被横梁叠过，原尺寸仍难辨。",
+      "impact": "入园地点交代受损，用户明确要求动物园场景。",
+      "proposed_fix": "浅金色透光镂空字，提高明暗对比并避开横梁叠字。",
+      "recheck_status": "pending"
+    },
+    {
+      "id": "NH-V5-02",
+      "severity": "minor",
+      "frame_range": [
+        696,
+        1060
+      ],
+      "time_range": [
+        29,
+        44.208333
+      ],
+      "evidence": [
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\00696.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\00720.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\01044.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\01048.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\01052.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\01060.jpg"
+      ],
+      "observation": "鱼原尺寸可追踪但色近喙/巢，喙遮住鱼身，小屏近似尺寸像小蝴蝶结。",
+      "impact": "核心偷鱼、带鱼叙事道具识别需依靠字幕和仔细观察。",
+      "proposed_fix": "提高鱼明度或淡青银色透明皮革，鱼身露出喙下，保持归属顺序。",
+      "recheck_status": "pending"
+    },
+    {
+      "id": "NH-V5-03",
+      "severity": "minor",
+      "frame_range": [
+        0,
+        1199
+      ],
+      "time_range": [
+        0,
+        50
+      ],
+      "evidence": [
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\00480.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\00720.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\01044.jpg"
+      ],
+      "observation": "固定舞台下部承载动作，上半部留白多，鱼和眼神细节偏小。",
+      "impact": "手机小屏的细微动作可读性减弱。",
+      "proposed_fix": "优先改善鱼对比；必要时仅取鱼/喂鱼镜头适度放大，保留舞台形式。",
+      "recheck_status": "pending"
+    }
+  ],
+  "limitations": [
+    "听音未完成；正常速度观看未完成。采用有时间码的连续帧序列检查变化顺序。",
+    "首次观察未打开详细 brief，但继承的对话包含剧情，非严格信息盲看。",
+    "音画同步、音频听感及正常速度运动观感不能从接触表推断通过。"
+  ],
+  "verdict": "needs_revision"
+}

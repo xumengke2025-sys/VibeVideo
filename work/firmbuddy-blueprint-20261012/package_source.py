@@ -10,7 +10,7 @@ def stamp(t):
 subs = '\n\n'.join(f'{i+1}\n{stamp(e["start"])} --> {stamp(e["end"])}\n{e["text"]}' for i, e in enumerate(data['entries']))
 (root / 'audio/narration.srt').write_text(subs+'\n', encoding='utf-8-sig')
 with zipfile.ZipFile(root / 'FirmBuddy-source.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
-    files = [p for p in root.iterdir() if p.suffix in {'.js','.mjs','.html','.ps1','.py','.md'}]
+    files = [p for p in root.iterdir() if p.suffix in {'.js','.mjs','.html','.ps1','.py','.md'} and not p.name.startswith('revise_v')]
     for folder in ['assets/reference','vendor','audio']:
         files.extend(p for p in (root/folder).rglob('*') if p.is_file())
     for file in files:

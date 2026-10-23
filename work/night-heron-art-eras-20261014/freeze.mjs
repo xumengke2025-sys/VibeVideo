@@ -1,0 +1,5 @@
+import fs from 'node:fs';import path from 'node:path';import{fileURLToPath}from'node:url';import{createHash}from'node:crypto';
+const root=path.dirname(fileURLToPath(import.meta.url)),version=process.argv[2]||'film-v1',out=path.join(root,'out',version),e=JSON.parse(fs.readFileSync(path.join(out,'evidence.json'))),hash=b=>createHash('sha256').update(b).digest('hex');
+const files=['src/film.js','src/art.js','index.html','audio/score.wav'];if(hash(Buffer.concat(files.map(f=>fs.readFileSync(path.join(root,f)))))!==e.signature)throw Error('Current sources differ from this render');
+const source=path.join(out,'source'),manifest=[];for(const f of[...files,'audio.mjs','audio/events.json','audio/ATTRIBUTION.json','render.mjs','serve.mjs','production-plan.json','README.md']){const b=fs.readFileSync(path.join(root,f)),dest=path.join(source,f);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,b);manifest.push({path:f,sha256:hash(b)})}fs.writeFileSync(path.join(out,'source-manifest.json'),JSON.stringify({version,video_sha256:e.sha256,files:manifest},null,2));
+console.log('Frozen source and audio match media signature: '+version);

@@ -19,20 +19,31 @@ vec3 paper(vec2 p){
   // 普鲁士蓝：低频褪色 + 涂布刷痕（横向拉长）
   float n1 = fbm(p/760.), n2 = fbm(vec2(p.x/1500., p.y/70.) + 3.), n3 = fbm(p/190. + 9.);
   vec3 dark = vec3(.094,.200,.420), light = vec3(.165,.345,.650);   // ≈ #18336B → #2A58A6
-  float m = clamp(.10 + .95*(n1-.25) + .22*(n2-.5) + .14*(n3-.5) + .18*(p.x/sheet.x) , 0., 1.);
+  float m = clamp(.10 + 1.18*(n1-.25) + .38*(n2-.5) + .32*(n3-.5) + .18*(p.x/sheet.x) , 0., 1.);
   vec3 c = mix(dark, light, m);
   // 纸纤维：高频亮暗 + 稀疏纤维丝
   float fib = vn(p*.55)*.5 + vn(p*1.7)*.5;
-  c *= .955 + .075*fib;
+  c *= .91 + .17*fib;
   float fl = smoothstep(.93, 1., vn(vec2(p.x*.02 + p.y*.07, p.y*.9 - p.x*.3)*.35));
-  c = mix(c, c*1.12 + .02, fl*.35);
+  c = mix(c, c*1.16 + .028, fl*.52);
+  // Mid-scale cellulose and brush coating stay anchored to the paper, not the screen.
+  float pulp = fbm(p/22. + 6.);
+  float tooth = vn(vec2(p.x*.18,p.y*.62));
+  c *= .88 + .24*pulp + .055*(tooth-.5)*smoothstep(.18,.55,cam.z);
+  float brush = fbm(vec2(p.x/640.,p.y/14.)+25.);
+  c += vec3(.028,.037,.043)*(brush-.5);
+  float stain = smoothstep(.48,.79,fbm(p/280.+43.));
+  c = mix(c,c*vec3(.84,.91,.95),stain*.30);
   // 折痕：纸面十字折（亮边/暗边 + 折线上掉色磨白）
   float fx = p.x - sheet.x*.5 - 6.*(vn(vec2(p.y*.01, 2.))-.5), fy = p.y - sheet.y*.5 - 6.*(vn(vec2(p.x*.01, 5.))-.5);
   float cx = exp(-fx*fx/18.), cy = exp(-fy*fy/18.);
   float sx = smoothstep(-14., 0., fx) - smoothstep(0., 14., fx), sy = smoothstep(-14., 0., fy) - smoothstep(0., 14., fy);
-  c *= 1. + .06*sign(fx)*(1.-abs(sx))*exp(-fx*fx/260.) + .05*sign(fy)*exp(-fy*fy/260.);
+  c *= 1. + .13*sign(fx)*(1.-abs(sx))*exp(-fx*fx/380.) + .12*sign(fy)*exp(-fy*fy/380.);
   float wear = (cx + cy)*smoothstep(.45, .8, fbm(p/9.));
-  c = mix(c, vec3(.55,.66,.82), clamp(wear*.55, 0., .6));
+  c = mix(c, vec3(.55,.66,.82), clamp(wear*.70, 0., .65));
+  float secondary = p.x-sheet.x*.75-4.*(vn(vec2(p.y*.008,8.))-.5);
+  c *= 1.+.075*sign(secondary)*exp(-secondary*secondary/190.);
+  c = mix(c,vec3(.40,.52,.68),exp(-secondary*secondary/8.)*smoothstep(.4,.76,fbm(p/12.))*.28);
   // 边缘褪白：不规则
   float e = min(min(p.x, sheet.x - p.x), min(p.y, sheet.y - p.y));
   float bl = smoothstep(90., 0., e + 70.*(fbm(p/60.)-.5));

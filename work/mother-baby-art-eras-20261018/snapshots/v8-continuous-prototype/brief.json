@@ -1,0 +1,170 @@
+{
+  "title": "宝宝与妈妈 · 跨时代同动作",
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "delivery_mode": "ai_review_once",
+  "fps": 24,
+  "target_duration_seconds": 210,
+  "style_count": 35,
+  "creative_failure_conditions": [
+    "出现3D塑形或摄影脸部，违背二维卡通方向",
+    "单个时代内动作未完成就换时代，或杯子/奶瓶在持握时离开手",
+    "人物长期遮挡关键接触，或放大到占满竖屏",
+    "仅替换背景调色，人物与时代画法完全没有对应变化"
+  ],
+  "duration_status": "v7整片210秒，5040帧，24fps，1080×1920；每时代6秒，完整解码通过。",
+  "style": {
+    "base": "平面二维卡通",
+    "reference_frame": "research/source-flat-2026.png",
+    "identity": "只保留可识别的脸型、眼型、发型、眼镜与婴幼儿比例，不贴摄影人脸",
+    "eras": "人物、服饰、道具、背景同步改变平面造型、线条、色块与装饰媒介；不是给同一人物换背景",
+    "prohibited": [
+      "3D塑形",
+      "写实油画脸",
+      "摄影拼贴脸",
+      "立体皮肤与布料质感",
+      "角色放大成头像"
+    ],
+    "digital_era_adaptation": "参考中的光追CGI等时代也以二维卡通图形演绎，不照搬其三维体积表现"
+  },
+  "composition": {
+    "mother_bbox": [
+      0.53,
+      0.527,
+      0.8,
+      0.779
+    ],
+    "mother_bbox_area_fraction": 0.068,
+    "baby_bbox": [
+      0.224,
+      0.671,
+      0.45,
+      0.786
+    ],
+    "baby_bbox_area_fraction": 0.026,
+    "table_bbox": [
+      0.41,
+      0.62,
+      0.6,
+      0.79
+    ],
+    "basis": "v4生成图实际观察的大致范围，人工估计而非程序精确测量；用户要求进一步缩小后的当前方案。",
+    "ground_y": 0.79,
+    "placements": "妈妈右侧朝左举杯；宝宝左下双手抱奶瓶喝奶；小桌在两人之间",
+    "portrait_reflow": "直接为9:16布局，按自然比例与面积权重重排，不裁切横屏片"
+  },
+  "concepts": {
+    "rejected": [
+      "concepts/v1/impressionism-v1.png",
+      "concepts/v1/impressionism-v2.png"
+    ],
+    "rejection": "人物仍偏大，写实油画过于立体，与原二维模板不符",
+    "current": "concepts/v1/flat-cartoon-v4.png",
+    "feedback_status": "v4落实二维卡通、小人物和更多环境，按用户现有反馈继续制作；没有将沉默记录为认可。",
+    "generated_pixel_size": [
+      940,
+      1672
+    ],
+    "generation_mode": "内置image_gen；准确调用提示词保存于concepts/v1/prompt-flat-cartoon-v3.txt与prompt-flat-cartoon-v4.txt"
+  },
+  "action": {
+    "clock": "可寻址绝对时间轴，每时代6秒，主动作于5.3秒前完成，5.5秒后进入环境过渡。",
+    "mother": "看杯→伸手→握柄→举杯→杯口接嘴→轻倾喝一口→回正→放桌→松手→收回大腿→停稳",
+    "baby": "双手抱低位奶瓶→预备→抬瓶→奶嘴接嘴→倾瓶喝奶→回正→降低到腿上→停稳",
+    "identity_persistence": [
+      "mother",
+      "baby",
+      "coffee_cup",
+      "saucer",
+      "milk_bottle",
+      "small_table"
+    ],
+    "contact_constraints": [
+      "妈妈杯子与握持点持续连接",
+      "宝宝只有两只手，两臂连接对应肩膀",
+      "奶瓶被双手抱持，喝奶时奶嘴接嘴",
+      "每时代完整动作结束再跨时代，两场转场期间动作相位均为0"
+    ],
+    "timing": "0–0.55建立；0.55–1.35注意与伸手；1.35–1.55握持；1.55–2.5举起；2.5–3.4接嘴/饮用/回正；3.4–4.5放回；4.5–5.3松手/收回；5.3–6停稳。宝宝略错时且同场完成。",
+    "generated_assets": "assets/rig-v4原分层人物与环境，assets/rig-v7新增35独立杯与35松弛空手；保留生成母图与提取登记。",
+    "route": "固定两段骨长，肩点随躯干登记，头/上身/下身重叠刚体；手杯分离；24帧环境过渡、6帧整个人物叠化。",
+    "bone_lengths": {
+      "mother": [
+        76,
+        88
+      ],
+      "baby_left": [
+        53,
+        55
+      ],
+      "baby_right": [
+        50,
+        52
+      ]
+    },
+    "shoulder_registration": {
+      "mother": [
+        0.77,
+        0.43
+      ],
+      "baby_left": [
+        0.4,
+        0.6
+      ],
+      "baby_right": [
+        0.88,
+        0.66
+      ]
+    }
+  },
+  "audio": {
+    "planned": "有意无声，沿用参考片无音轨方案；无旁白与配乐",
+    "intentional_silence": true,
+    "reference_audio_present": false,
+    "verification": "如正式成片有音轨，审片者需实际完整听取；没有音轨则核对无音轨与预期一致"
+  },
+  "review": {
+    "reviewers_used": 1,
+    "max_independent_reviewers": 1,
+    "max_repair_passes": 1,
+    "status": "沿用原唯一审片者，对v7改动和相邻转场做必要局部复核；实际结论：incomplete；未继承旧版覆盖。",
+    "reviewer_id": "/root/av_review",
+    "repair_passes_used": 1
+  },
+  "next": "交付v7成片和可编辑源码素材包；后续按用户反馈定向修改，不自动增加全面审核轮次。",
+  "transition": {
+    "version": 7,
+    "environment_frames": 24,
+    "whole_actor_blend_frames": 6,
+    "anatomy_fragment_masks": false,
+    "camera": "shared absolute-time camera path",
+    "study": "research/action-completeness-v7.md；research/transition-and-rig-v6.md",
+    "remaining_limit": "二维分层关节动作；跨风格用短叠化，服装发型仍可能短暂重影，非连续拓扑变形。"
+  },
+  "current_video": "out/mother-baby-35-eras-portrait-v7.mp4",
+  "current_video_sha256": "04fb68c5af02b28e8893c321eedb35a5cb1c373d83e1a85721c231cdac9f48e5",
+  "planned_revision": {
+    "status": "plan_only_not_implemented",
+    "plan": "PLAN-40s-motion.md",
+    "target_duration_seconds": 40,
+    "style_count": 35,
+    "user_requirement": "40秒内动作更多样；动作内容与时代背景、生活情境及可见物件呼应，不是动作速度或快慢；先建立逐场背景与互动对象对应表",
+    "motion": "约6–8个动作段落；加入观察、指认、图册互动、挥手和相视；妈妈喝咖啡与宝宝抱奶瓶喝奶保留，每人建议1–2次完整饮用",
+    "continuity": "新版动作跨时代延续，不随风格重启；取代旧版每时代完整饮用并归零的规则；按40秒原生节奏制作",
+    "environment": "按时代分层设计可感知的背景独立运动",
+    "next": "细化事件表，制作8–10秒正常速度样段；本次仅更新计划，未启动制作"
+  },
+  "latest_delivery": {
+    "video": "out/mother-baby-35-eras-portrait-v7-40s.mp4",
+    "duration_seconds": 40,
+    "speed_factor": 5.25,
+    "source_video": "out/mother-baby-35-eras-portrait-v7.mp4",
+    "sha256": "3bd15fb317c7a6f58b9210c6a7e105e2fd8b4cf8db1e57e6d4219e4677c76192",
+    "aspect_ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "verification": "qa/v7-40s/engineering-check.json"
+  }
+}

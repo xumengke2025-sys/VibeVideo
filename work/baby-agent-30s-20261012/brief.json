@@ -1,0 +1,82 @@
+{
+  "title": "代号：小小读者",
+  "delivery_mode": "ai_review_once",
+  "duration": 30,
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "audience": "宝宝家人，家庭纪念短片",
+  "character": "用户已认可v5五官。专注表情为基准，轻侧观察、轻笑为变化。简洁剪纸身体与固定人像素材结合。 用户进一步明确：宝宝移动必须为爬行；四肢肤色依据认可脸部素材像素取样统一为#f8c28b。",
+  "story": "宝宝翻书点中小鸭，小鸭跃出；宝宝沿纸路爬行追寻，通过洞口和路线线索找到它，抱回书旁，笑脸收尾。",
+  "creative_candidates": [
+    {
+      "idea": "书页里的追寻",
+      "event": "点中图案后小鸭跳出书页，跟随线索带回",
+      "chosen": true,
+      "reason": "用户同意小小读者方向，与实际翻书行为相连，适合原源码文字场景与图形押韵"
+    },
+    {
+      "idea": "给家人的秘密信",
+      "event": "翻页拼齐一封信，最后呈现宝宝肖像",
+      "chosen": false,
+      "reason": "动作递进弱于当前追寻"
+    },
+    {
+      "idea": "宝宝指挥音乐",
+      "event": "指尖逐个唤醒书里乐器，最后组成乐队",
+      "chosen": false,
+      "reason": "需要额外乐器表演资产，偏离已提出的故事"
+    }
+  ],
+  "style": "1960年代间谍片头剪纸，墨黑/奶油白/朱红/暖黄，保留认可五官。全片无文字、字母、数字或印章。六次0.56秒斜向纸页擦拭。",
+  "audio": "原创60秒音乐与拟音经atempo=2压缩到30秒，保持音高，无旁白。",
+  "creative_failure": "只有静态头像缩放或标题卡轮播，指图案、寻找、找回三个动作不成立；更换已认可宝宝五官。",
+  "review": {
+    "initial_reviews": 1,
+    "repairs": 1,
+    "reviewer": "/root/baby_av_review",
+    "status": "Prior one-review budget exhausted; user-requested revision with engineering checks and maker inspection; no new independent review.",
+    "current_version": "30s-final-v1",
+    "current_sha256": "26d8fe82118606ddb7a7b6cd88eee74dfb02317a832b972aae2ce18b5179710d",
+    "resolved": [
+      "V1-01",
+      "V1-02",
+      "V1-03"
+    ],
+    "remaining": [
+      "V2-01 minor: point approach amplitude weak"
+    ],
+    "v2_visual_ranges": [
+      [
+        60,
+        389
+      ],
+      [
+        750,
+        839
+      ]
+    ],
+    "history_version": "final-v2 (60s)",
+    "maker_inspection": "15 representative rendered frames and six consecutive transition contact sheets; no actual audio listening or realtime viewing"
+  },
+  "sources": [
+    {
+      "source": "lemomo-ai/lemo-opuscar",
+      "commit": "e3cb16f63768c68693ff0e15171d6e755457cc32",
+      "license": "MIT",
+      "read": "styles/spy-titles/demo/paper.js, story.js, film.js, chars.js相关片段",
+      "adoption": "固定局部剪边、纸纹、绝对时间节拍、纸偶、跟随摄影。原文字场景改为纸片、路径与不规则洞口。",
+      "not_claimed": "不是原片逐像素复现；不复用上游第三方音乐/字体素材"
+    },
+    {
+      "source": "用户视频",
+      "research": "0.5s采样35帧，查看两张接触表及2.0s和12.5s大图",
+      "purpose": "五官与翻书动作参考"
+    },
+    {
+      "source": "内置imagegen",
+      "asset": "assets/head-atlas.png",
+      "purpose": "已认可v5角色透明表情素材"
+    }
+  ]
+}

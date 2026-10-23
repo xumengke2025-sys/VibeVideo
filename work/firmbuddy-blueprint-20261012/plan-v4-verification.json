@@ -1,0 +1,57 @@
+{
+  "scope": "Plan structure only; no rendered picture, playback or listening validation.",
+  "revision": "2026-10-13-plan-review",
+  "duration": 68,
+  "frames": 2040,
+  "shots": 8,
+  "read_windows": 23,
+  "connections": 7,
+  "checked": [
+    "continuous timeline",
+    "frame alignment",
+    "ordered states",
+    "bounded reads and risks",
+    "connection boundaries",
+    "markdown timing and exact narration parity"
+  ],
+  "narration_estimates": [
+    {
+      "id": "position-and-input",
+      "han_characters_per_second": 4
+    },
+    {
+      "id": "candidate-signals",
+      "han_characters_per_second": 3
+    },
+    {
+      "id": "expert-work-branches",
+      "han_characters_per_second": 3.33
+    },
+    {
+      "id": "question-with-evidence",
+      "han_characters_per_second": 3.17
+    },
+    {
+      "id": "visit-preparation",
+      "han_characters_per_second": 2.5
+    },
+    {
+      "id": "followup-feedback",
+      "han_characters_per_second": 2.67
+    },
+    {
+      "id": "capability-index",
+      "han_characters_per_second": 4
+    },
+    {
+      "id": "lifecycle-reveal",
+      "han_characters_per_second": 3.14
+    }
+  ],
+  "remaining": [
+    "actual narration timing",
+    "projected text density",
+    "dynamic causality and pacing",
+    "render and sound"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title":"雾金之城", "aspect_ratio":"9:16", "width":1080, "height":1920, "fps":24, "duration":90,
+  "delivery_mode":"ai_review_once", "review_rounds_used":0, "repair_rounds_used":0,
+  "direction":"One inhabited 18th-century fantasy city, revealed by the camera. A new bronze bell carried on a navy-flagged canal barge briefly stops a burgundy mail coach at a low mechanical bridge.",
+  "world":"X east-west, Y north-south, Z up, metres. Canal x=-9..9 in a low valley; bridge deck z=3.1 at y=18. Terraced mountain city rises on both banks, cathedral on a 32m platform west/north of bridge; west upper districts reach 100m+, east working quays stay low. Shared terrain function for streets, foundations and moving actors.",
+  "protected":["same city in every shot","traffic stopped before bridge rise","boat stern clears before closing","horse and wheel motion tied to travelled distance","background activity continues","all geometry and score editable"],
+  "shots":[
+    {"start":0,"end":10,"reads":"Spire, dome and clock tower emerge over a fixed foreground hill; city spreads beneath."},
+    {"start":10,"end":25,"reads":"Follow roofs northwards; cathedral, canal and workshops share one world."},
+    {"start":25,"end":40,"reads":"Waterwheel, working quays; identify navy-flagged bell boat and approaching mail coach."},
+    {"start":40,"end":62,"reads":"Signal, stop, lift, bell barge passes; raised deck remains clear."},
+    {"start":62,"end":76,"reads":"Deck settles, gate opens, coach crosses; camera accompanies it then rises."},
+    {"start":76,"end":90,"reads":"Reveal inhabited city to horizon, main subjects continue and merge into daily life."}
+  ],
+  "event_seconds":{"signal":40.5,"coach_stop":43,"gate_closed":43.5,"bridge_rise_start":44,"bridge_open":49,"boat_enter":50,"boat_clear":59.5,"bridge_lower_start":60,"bridge_closed":64,"gate_open":65,"coach_restart":65.5},
+  "concept":"concept/organic-v2/02064.png", "concept_feedback":"Flat and regular mountain concepts rejected. Implemented organic old-city fabric based on actually viewed historic Prague aerial photographs and period paintings: irregular perimeter blocks, narrow lanes, inner courts, varied rooflines, ridge palace and cathedral terraces. Continuous production authorized.",
+  "audio":"Original sampled orchestral chamber score with strings, oboe/flute, harpsichord, horn and restrained foley. Actual listening unavailable at setup."
+}

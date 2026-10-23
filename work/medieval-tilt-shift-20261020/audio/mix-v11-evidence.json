@@ -1,0 +1,26 @@
+{
+  "duration": 76,
+  "source_excerpt": [
+    29.5,
+    105.5
+  ],
+  "fade_in": 0.15,
+  "fade_out": [
+    73,
+    76
+  ],
+  "ambience_loop_crossfade_seconds": 2,
+  "loudness": {
+    "input_i": "-15.40",
+    "input_tp": "-0.92",
+    "input_lra": "8.40",
+    "input_thresh": "-25.55",
+    "output_i": "-17.30",
+    "output_tp": "-2.30",
+    "output_lra": "8.70",
+    "output_thresh": "-27.37",
+    "normalization_type": "dynamic",
+    "target_offset": "0.30"
+  },
+  "actual_listening": false
+}

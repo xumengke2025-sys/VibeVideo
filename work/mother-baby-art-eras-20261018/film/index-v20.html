@@ -1,0 +1,5 @@
+<!doctype html><meta charset="utf-8"><title>妈妈与婴儿 · 二十时代</title>
+<style>html,body{margin:0;background:#f4ead7}canvas{display:block;width:100vw;height:auto}</style>
+<canvas id="film" width="1080" height="1920"></canvas>
+<script src="eras.js"></script><script src="chase-scenes-v9.js"></script><script src="environment-stopmotion-v15.js"></script><script src="environment-life-v20.js"></script><script src="transitions-v16.js"></script><script src="sequences-v20.js"></script>
+<script>window.__loadPromise.then(()=>{let playing=false,start=0,held=0;const tick=now=>{if(!playing)return;renderAt((held+(now-start)/1000)%40);requestAnimationFrame(tick)};document.querySelector('canvas').addEventListener('click',()=>{if(playing){held=(held+(performance.now()-start)/1000)%40;playing=false}else{start=performance.now();playing=true;requestAnimationFrame(tick)}})});</script>

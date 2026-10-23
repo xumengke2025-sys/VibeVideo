@@ -1,0 +1,314 @@
+{
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "duration": 152,
+  "audio_mode": "music_only",
+  "audio": "audio/music-only.wav",
+  "captions": [
+    {
+      "stage": "intro",
+      "text": "小甲、小乙约好碰面，一起去巴士生日会。",
+      "start": 0,
+      "end": 4,
+      "duration": 4
+    },
+    {
+      "stage": "intro",
+      "text": "小甲向西跑 ←　小乙向东跑 →",
+      "start": 4,
+      "end": 8,
+      "duration": 4
+    },
+    {
+      "stage": "mystery",
+      "text": "巴士追上小甲，6秒后车尾才离开。",
+      "start": 8,
+      "end": 16,
+      "duration": 8
+    },
+    {
+      "stage": "mystery",
+      "text": "小甲：咦，你怎么还没过去呀？",
+      "start": 16,
+      "end": 19,
+      "duration": 3
+    },
+    {
+      "stage": "mystery",
+      "text": "再过30秒，车头遇到迎面跑来的小乙。",
+      "start": 19,
+      "end": 21,
+      "duration": 2
+    },
+    {
+      "stage": "mystery",
+      "text": "又过2秒，车尾就离开了小乙！",
+      "start": 21,
+      "end": 25,
+      "duration": 4
+    },
+    {
+      "stage": "mystery",
+      "text": "巴士：我没变速！他们还要多久才能碰面？",
+      "start": 25,
+      "end": 28,
+      "duration": 3
+    },
+    {
+      "stage": "units",
+      "text": "先看巴士：车身15米，车速18千米/小时。",
+      "start": 28,
+      "end": 32,
+      "duration": 4
+    },
+    {
+      "stage": "units",
+      "text": "18千米＝18000米；1小时＝3600秒。",
+      "start": 32,
+      "end": 36,
+      "duration": 4
+    },
+    {
+      "stage": "units",
+      "text": "换好单位：巴士每秒走5米。",
+      "start": 36,
+      "end": 40,
+      "duration": 4
+    },
+    {
+      "stage": "passA",
+      "text": "同向跑，小甲也在前进。看完这6秒！",
+      "start": 40,
+      "end": 48,
+      "duration": 8
+    },
+    {
+      "stage": "passA",
+      "text": "从车头齐平，到车尾齐平，巴士多赶上15米。",
+      "start": 48,
+      "end": 50,
+      "duration": 2
+    },
+    {
+      "stage": "solveA",
+      "text": "15米分成6秒：每秒多赶上2.5米。",
+      "start": 50,
+      "end": 56,
+      "duration": 6
+    },
+    {
+      "stage": "solveA",
+      "text": "巴士每秒5米，减去多赶上的，就是小甲的速度。",
+      "start": 56,
+      "end": 62,
+      "duration": 6
+    },
+    {
+      "stage": "passB",
+      "text": "迎面跑：巴士和小乙一起靠近。看这2秒！",
+      "start": 62,
+      "end": 66,
+      "duration": 4
+    },
+    {
+      "stage": "passB",
+      "text": "15米分成2秒：每秒一起靠近7.5米。",
+      "start": 66,
+      "end": 70,
+      "duration": 4
+    },
+    {
+      "stage": "solveB",
+      "text": "7.5米里，巴士贡献5米。剩下的就是小乙的。",
+      "start": 70,
+      "end": 76,
+      "duration": 6
+    },
+    {
+      "stage": "solveB",
+      "text": "分别算完才发现：两人都是2.5米/秒。",
+      "start": 76,
+      "end": 80,
+      "duration": 4
+    },
+    {
+      "stage": "flag",
+      "text": "接下来只盯车尾，不要混用车头和车尾。",
+      "start": 80,
+      "end": 84,
+      "duration": 4
+    },
+    {
+      "stage": "flag",
+      "text": "车尾刚离开小甲时，在这里插一面起点旗。",
+      "start": 84,
+      "end": 88,
+      "duration": 4
+    },
+    {
+      "stage": "flag",
+      "text": "再过30秒车头遇乙，再过2秒车尾离乙。共32秒。",
+      "start": 88,
+      "end": 96,
+      "duration": 8
+    },
+    {
+      "stage": "mapbus",
+      "text": "32秒里，车尾从旗子出发，走了160米。",
+      "start": 96,
+      "end": 100,
+      "duration": 4
+    },
+    {
+      "stage": "mapbus",
+      "text": "此刻车尾与小乙齐平，所以小乙在160米处。",
+      "start": 100,
+      "end": 104,
+      "duration": 4
+    },
+    {
+      "stage": "mapA",
+      "text": "同样32秒，小甲从旗子出发，走了80米。",
+      "start": 104,
+      "end": 112,
+      "duration": 8
+    },
+    {
+      "stage": "gap",
+      "text": "小甲在80米处，小乙在160米处。",
+      "start": 112,
+      "end": 116,
+      "duration": 4
+    },
+    {
+      "stage": "gap",
+      "text": "两人中间，还剩80米空隙。",
+      "start": 116,
+      "end": 120,
+      "duration": 4
+    },
+    {
+      "stage": "close",
+      "text": "慢放1秒：甲走2.5米，乙也走2.5米。",
+      "start": 120,
+      "end": 125,
+      "duration": 5
+    },
+    {
+      "stage": "close",
+      "text": "两边一起跑：空隙每秒少5米！",
+      "start": 125,
+      "end": 130,
+      "duration": 5
+    },
+    {
+      "stage": "answer",
+      "text": "80米空隙，每秒少5米：再过16秒就碰面！",
+      "start": 130,
+      "end": 138,
+      "duration": 8
+    },
+    {
+      "stage": "answer",
+      "text": "记住：从车尾离开小乙的那一刻开始计时。",
+      "start": 138,
+      "end": 142,
+      "duration": 4
+    },
+    {
+      "stage": "ending",
+      "text": "击掌！相遇谜案破解啦！",
+      "start": 142,
+      "end": 145,
+      "duration": 3
+    },
+    {
+      "stage": "ending",
+      "text": "巴士：我的速度没变，是你们方向不同呀！",
+      "start": 145,
+      "end": 148,
+      "duration": 3
+    },
+    {
+      "stage": "ending",
+      "text": "同向看差，迎面看和。你也是相遇小侦探！",
+      "start": 148,
+      "end": 152,
+      "duration": 4
+    }
+  ],
+  "stages": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 8
+    },
+    {
+      "id": "mystery",
+      "start": 8,
+      "end": 28
+    },
+    {
+      "id": "units",
+      "start": 28,
+      "end": 40
+    },
+    {
+      "id": "passA",
+      "start": 40,
+      "end": 50
+    },
+    {
+      "id": "solveA",
+      "start": 50,
+      "end": 62
+    },
+    {
+      "id": "passB",
+      "start": 62,
+      "end": 70
+    },
+    {
+      "id": "solveB",
+      "start": 70,
+      "end": 80
+    },
+    {
+      "id": "flag",
+      "start": 80,
+      "end": 96
+    },
+    {
+      "id": "mapbus",
+      "start": 96,
+      "end": 104
+    },
+    {
+      "id": "mapA",
+      "start": 104,
+      "end": 112
+    },
+    {
+      "id": "gap",
+      "start": 112,
+      "end": 120
+    },
+    {
+      "id": "close",
+      "start": 120,
+      "end": 130
+    },
+    {
+      "id": "answer",
+      "start": 130,
+      "end": 142
+    },
+    {
+      "id": "ending",
+      "start": 142,
+      "end": 152
+    }
+  ],
+  "events": []
+}

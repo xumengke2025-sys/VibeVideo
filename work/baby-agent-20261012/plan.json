@@ -1,0 +1,170 @@
+{
+  "duration": 60,
+  "fps": 24,
+  "shots": [
+    {
+      "id": "briefing",
+      "start": 0,
+      "end": 7.5,
+      "intent": "认出专注宝宝，接到点触小鸭任务",
+      "states": {
+        "establish": 0.5,
+        "action": 3,
+        "result": 6
+      },
+      "reads": "宝宝脸→档案纸片→点一下小鸭任务",
+      "action": "摄影从脸部拉开，档案纸片与标记显露",
+      "camera": "从脸部特写拉开到档案纸片",
+      "sound": "开场和弦、纸片落定"
+    },
+    {
+      "id": "touch",
+      "start": 7.5,
+      "end": 15,
+      "intent": "手指点中小鸭，小鸭离开书页",
+      "states": {
+        "establish": 8.2,
+        "action": 10.8,
+        "result": 13.7
+      },
+      "reads": "坐姿宝宝和打开的书→手指接触鸭图案→鸭跃出",
+      "action": "书页展开后，固定135/118局部单位上臂/前臂长度，以肘关节折转把指尖伸向小鸭，点触后鸭跳开",
+      "camera": "桌面中景，接触时定机，离开后靠近图案",
+      "sound": "翻页声、点触、小鸭短叫"
+    },
+    {
+      "id": "paper-world",
+      "start": 15,
+      "end": 26.25,
+      "intent": "宝宝爬行追寻小鸭进入字母世界",
+      "states": {
+        "establish": 16,
+        "action": 19,
+        "result": 25
+      },
+      "reads": "鸭离开圆框→宝宝沿纸路爬行→鸭藏入O",
+      "action": "手掌和膝盖交替撑地，低位躯干前移，背景大字随伴随摄影产生相对位移",
+      "camera": "伴随主体，保留鸭的行进空间",
+      "subjectId": "baby",
+      "subjectPath": "x=260+1150*ease(p),y=1460-355*ease(p)",
+      "cameraPath": "x=baby.x+140,y=baby.y-300,z=1",
+      "sound": "低音行进、颤音琴短句"
+    },
+    {
+      "id": "hide",
+      "start": 26.25,
+      "end": 33.75,
+      "intent": "检查字母洞穴，停顿后找到鸭的线索",
+      "states": {
+        "establish": 27,
+        "action": 30,
+        "result": 33
+      },
+      "reads": "大O与藏身影子→宝宝侧头→鸭嘴露出",
+      "action": "宝宝从O旁探头，鸭嘴露出；31.4–32.8全场静音停时",
+      "camera": "O孔近景，停时定机",
+      "sound": "铜管落点，真静音，短嘎声"
+    },
+    {
+      "id": "connect",
+      "start": 33.75,
+      "end": 43.125,
+      "intent": "宝宝用指尖点亮路线，找到小鸭",
+      "states": {
+        "establish": 34.5,
+        "action": 37,
+        "result": 42
+      },
+      "reads": "三处图形线索→指尖点亮→线条通向鸭",
+      "action": "宝宝沿纸路爬行接近线索，路线依次点亮，到达终点时小鸭在上方出现",
+      "camera": "先近景看点触，再拉开揭示完整路线",
+      "sound": "三次点触由同一事件表驱动，结尾鸭叫"
+    },
+    {
+      "id": "return",
+      "start": 43.125,
+      "end": 52.5,
+      "intent": "抓住小鸭并带回打开的书",
+      "states": {
+        "establish": 44,
+        "action": 46.4,
+        "result": 51
+      },
+      "reads": "宝宝与鸭→手靠近并接触→鸭随手回怀中，页合拢",
+      "action": "鸭从固定坐标平滑切换为手部锚点，抱持后书页围合",
+      "camera": "接触中景后拉远到书",
+      "sound": "柔和和弦与纸页声"
+    },
+    {
+      "id": "ending",
+      "start": 52.5,
+      "end": 60,
+      "intent": "任务完成，回到家庭翻书场景",
+      "states": {
+        "establish": 53,
+        "action": 55.4,
+        "result": 58.2
+      },
+      "reads": "宝宝与书和小鸭→完成印章落下→片名与笑脸停留",
+      "action": "标题纸片沿斜线落定，宝宝轻笑拍书，小鸭在书页上点头",
+      "camera": "稳定收尾，保留片名阅读3秒",
+      "sound": "印章纸拍、尾奏、0.5s淡出"
+    }
+  ],
+  "connections": [
+    {
+      "time": 7.5,
+      "kind": "diagonal paper wipe",
+      "anchor": "书页",
+      "window": [
+        7.2,
+        7.8
+      ]
+    },
+    {
+      "time": 15,
+      "kind": "circle match",
+      "anchor": "书页图案的圆框",
+      "window": [
+        14.7,
+        15.3
+      ]
+    },
+    {
+      "time": 26.25,
+      "kind": "circle match",
+      "anchor": "字母O孔",
+      "window": [
+        26,
+        26.5
+      ]
+    },
+    {
+      "time": 33.75,
+      "kind": "diagonal strips",
+      "anchor": "朱红斜线与鸭的去向",
+      "window": [
+        33.5,
+        34
+      ]
+    },
+    {
+      "time": 43.125,
+      "kind": "circle match",
+      "anchor": "小鸭所在圆框",
+      "window": [
+        42.8,
+        43.4
+      ]
+    },
+    {
+      "time": 52.5,
+      "kind": "book-page wipe",
+      "anchor": "合拢书页",
+      "window": [
+        52.2,
+        52.8
+      ]
+    }
+  ]
+}

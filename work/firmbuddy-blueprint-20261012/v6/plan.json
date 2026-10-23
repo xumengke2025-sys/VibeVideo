@@ -1,0 +1,175 @@
+{
+  "duration": 52,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "world": [
+    8200,
+    4800
+  ],
+  "delivery_mode": "ai_review_once",
+  "review_budget": "already_used",
+  "source_categories": [
+    "投行业务",
+    "机构业务",
+    "财富业务",
+    "资管业务",
+    "国际业务",
+    "投资业务",
+    "期货与衍生品",
+    "行业研究",
+    "综合专家"
+  ],
+  "camera_rules": [
+    "One absolute-time world-space path; no per-shot camera resets.",
+    "C1 continuity at all joins, preferably C2 during travel; interpolate zoom in log domain.",
+    "Only planned reading holds reduce velocity to zero; no default stop/start at every phase.",
+    "Rounded paths with tangent continuity; no instantaneous 90-degree turns.",
+    "Track subject ahead into destination; shared anchor stays visible throughout handoff.",
+    "Keep paper texture in world coordinates; text projected from real anchors.",
+    "Concepts cannot certify motion smoothness; later validate critical 16–31s dynamic segment and every boundary."
+  ],
+  "revision": "V6",
+  "shots": [
+    {
+      "id": "01-input",
+      "name": "三个入口，同一专业系统",
+      "start": 0,
+      "end": 5,
+      "action": "查询路经过线索筛选；答疑与拜访路绕过筛选、进入专家会商。",
+      "camera": "先看三入口，沿查询载纸向右跟随，逐步靠近筛选器。",
+      "handoff": "请求载纸与向右主轨持续可见，下一镜复用相同位置与速度。",
+      "anchor": "有切角与圆孔的请求载纸",
+      "voiceover": "查商机、问业务、备拜访，一句业务问题，随时进入。",
+      "establish": "Discover existing station in one continuous world",
+      "change": "查询路经过线索筛选；答疑与拜访路绕过筛选、进入专家会商。",
+      "result": "请求载纸与向右主轨持续可见，下一镜复用相同位置与速度。"
+    },
+    {
+      "id": "02-signal",
+      "name": "从信息中筛出待核实线索",
+      "start": 5,
+      "end": 10,
+      "action": "市场/名单资料经过扫描，示例扩产披露进入候选；保留来源与待核实状态。",
+      "camera": "沿主轨向右移动至扫描接触处，减速读状态，再沿出口离开。",
+      "handoff": "筛选输出沿同一水平轨道送向会场，轨道保持向右。",
+      "anchor": "同一请求载纸与筛选出口",
+      "voiceover": "市场信息和客户名单，筛出待核实线索，并保留来源。",
+      "establish": "Discover existing station in one continuous world",
+      "change": "市场/名单资料经过扫描，示例扩产披露进入候选；保留来源与待核实状态。",
+      "result": "筛选输出沿同一水平轨道送向会场，轨道保持向右。"
+    },
+    {
+      "id": "03-experts",
+      "name": "数十位专家，按议题协作",
+      "start": 10,
+      "end": 18,
+      "action": "完整阶梯会场先显露规模，按系统九业务席区组织；选中互补专家，意见线汇入中央。",
+      "camera": "顺着来轨进入会场，略退开见全席，再平顺推近中央会商处。",
+      "handoff": "中央核查点沿可见证据支路向左下进入知识库，镜头先保留会场弧边再向下移。",
+      "anchor": "请求载纸停入中央讨论席",
+      "voiceover": "数十位专家，覆盖九类业务。按议题匹配、互补会商，让问题得到多角度研判。",
+      "establish": "Discover existing station in one continuous world",
+      "change": "完整阶梯会场先显露规模，按系统九业务席区组织；选中互补专家，意见线汇入中央。",
+      "result": "中央核查点沿可见证据支路向左下进入知识库，镜头先保留会场弧边再向下移。"
+    },
+    {
+      "id": "04-knowledge",
+      "name": "沿依据下探知识库",
+      "start": 18,
+      "end": 28,
+      "action": "知识库剖面展示六组既有资料；抽出示例资料，指出资金安排缺失，保留原文依据。",
+      "camera": "从会场弧边沿证据支路向左下移动，剖切开始后停稳；跟随资料抽出轻推。",
+      "handoff": "资料页上的待核实项进入右侧长导轨，带镜头向右进入成果台，不甩回专家全景。",
+      "anchor": "沿证据支路移动的引用前沿与既有资料页",
+      "voiceover": "专家从已装配的知识库查证。比如扩产计划没有资金安排，就先核实来源和缺口，不把信号当成确定需求。",
+      "establish": "Discover existing station in one continuous world",
+      "change": "知识库剖面展示六组既有资料；抽出示例资料，指出资金安排缺失，保留原文依据。",
+      "result": "资料页上的待核实项进入右侧长导轨，带镜头向右进入成果台，不甩回专家全景。"
+    },
+    {
+      "id": "05-output",
+      "name": "把待核实项变成可用方案",
+      "start": 28,
+      "end": 37,
+      "action": "沿导轨移入拜访策略包，缺项转成提问；旁侧展示诊断、陪练、经营计划成果口，突出广泛能力。",
+      "camera": "与滑块并行向右跟拍，接触页面时减速停稳，随后略拉开见成果出口。",
+      "handoff": "成果页右侧延伸同一机架，提前露出确认锁扣，镜头顺势继续向右。",
+      "anchor": "承载资金缺项的导轨滑块",
+      "voiceover": "信息缺项，变成具体拜访提问。还可按需生成商机诊断、销售陪练报告和客户经营计划。",
+      "establish": "Discover existing station in one continuous world",
+      "change": "沿导轨移入拜访策略包，缺项转成提问；旁侧展示诊断、陪练、经营计划成果口，突出广泛能力。",
+      "result": "成果页右侧延伸同一机架，提前露出确认锁扣，镜头顺势继续向右。"
+    },
+    {
+      "id": "06-feedback",
+      "name": "确认后跟进，记录回到判断",
+      "start": 37,
+      "end": 44,
+      "action": "确认开关接通跟进任务出口；一条记录沿外围轨道返回，进入下一次诊断。",
+      "camera": "从成果页平移到锁扣，确认后跟随记录沿圆弧下弯，平滑转向底部回路。",
+      "handoff": "圆弧提前变缓并逐渐拉远，原记录保持在画面中直到整机结构可辨。",
+      "anchor": "用户确认锁扣与新跟进记录",
+      "voiceover": "用户确认后，创建跟进任务。实际记录再反馈给专家，更新商机判断。",
+      "establish": "Discover existing station in one continuous world",
+      "change": "确认开关接通跟进任务出口；一条记录沿外围轨道返回，进入下一次诊断。",
+      "result": "圆弧提前变缓并逐渐拉远，原记录保持在画面中直到整机结构可辨。"
+    },
+    {
+      "id": "07-reveal",
+      "name": "拉远看见整台客户经营机器",
+      "start": 44,
+      "end": 52,
+      "action": "随反馈渐退为整页，六项能力从局部回收到整体，最后品牌标题栏停读。",
+      "camera": "从右下回路连续拉远并移向图纸中心；后段只小幅靠近标题栏，不再突然大倍率推进。",
+      "handoff": "末尾保持约1.8秒稳定品牌画面，音乐收束。",
+      "anchor": "外围反馈载纸与整机共同机架",
+      "voiceover": "从线索、答疑到拜访和持续经营。FirmBuddy，把业务问题，变成有依据的行动。",
+      "establish": "Discover existing station in one continuous world",
+      "change": "随反馈渐退为整页，六项能力从局部回收到整体，最后品牌标题栏停读。",
+      "result": "末尾保持约1.8秒稳定品牌画面，音乐收束。"
+    }
+  ],
+  "reading_windows": [
+    [
+      0.6,
+      2.9
+    ],
+    [
+      6.6,
+      8.25
+    ],
+    [
+      14,
+      16.1
+    ],
+    [
+      23.7,
+      25.6
+    ],
+    [
+      32.7,
+      34.7
+    ],
+    [
+      39.5,
+      40.1
+    ],
+    [
+      48.4,
+      51.9
+    ]
+  ],
+  "concepts": "concepts/v6-stages/production-handoff.json",
+  "source_reference": {
+    "repository": "lemomo-ai/lemo-opuscar",
+    "commit": "e3cb16f63768c68693ff0e15171d6e755457cc32"
+  },
+  "truth_limits": [
+    "Illustrative workflow, not live system execution",
+    "Nine business domains; individual selected experts are not domain names",
+    "Knowledge preconfigured; retrieval does not imply automatic training",
+    "Confirmation only gates task creation",
+    "Outputs are available by need, not all automatically generated"
+  ]
+}

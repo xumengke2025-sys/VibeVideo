@@ -1,0 +1,202 @@
+{
+  "duration": 48,
+  "fps": 24,
+  "representatives": [
+    {
+      "shot": "town",
+      "state": "establish",
+      "time": 1,
+      "frame": 24
+    },
+    {
+      "shot": "town",
+      "state": "action",
+      "time": 4,
+      "frame": 96
+    },
+    {
+      "shot": "town",
+      "state": "result",
+      "time": 6,
+      "frame": 144
+    },
+    {
+      "shot": "courier",
+      "state": "establish",
+      "time": 8,
+      "frame": 192
+    },
+    {
+      "shot": "courier",
+      "state": "action",
+      "time": 11,
+      "frame": 264
+    },
+    {
+      "shot": "courier",
+      "state": "result",
+      "time": 14,
+      "frame": 336
+    },
+    {
+      "shot": "descent",
+      "state": "establish",
+      "time": 16,
+      "frame": 384
+    },
+    {
+      "shot": "descent",
+      "state": "action",
+      "time": 19,
+      "frame": 456
+    },
+    {
+      "shot": "descent",
+      "state": "result",
+      "time": 22,
+      "frame": 528
+    },
+    {
+      "shot": "first-light",
+      "state": "establish",
+      "time": 24,
+      "frame": 576
+    },
+    {
+      "shot": "first-light",
+      "state": "action",
+      "time": 27,
+      "frame": 648
+    },
+    {
+      "shot": "first-light",
+      "state": "result",
+      "time": 30,
+      "frame": 720
+    },
+    {
+      "shot": "light-relay",
+      "state": "establish",
+      "time": 33,
+      "frame": 792
+    },
+    {
+      "shot": "light-relay",
+      "state": "action",
+      "time": 35,
+      "frame": 840
+    },
+    {
+      "shot": "light-relay",
+      "state": "result",
+      "time": 39,
+      "frame": 936
+    },
+    {
+      "shot": "reveal",
+      "state": "establish",
+      "time": 41,
+      "frame": 984
+    },
+    {
+      "shot": "reveal",
+      "state": "action",
+      "time": 43,
+      "frame": 1032
+    },
+    {
+      "shot": "reveal",
+      "state": "result",
+      "time": 46,
+      "frame": 1104
+    }
+  ],
+  "continuous_windows": [
+    {
+      "shot": "town",
+      "reason": "risk",
+      "start_frame": 96,
+      "end_frame": 166
+    },
+    {
+      "shot": "courier",
+      "reason": "risk",
+      "start_frame": 240,
+      "end_frame": 300
+    },
+    {
+      "shot": "courier",
+      "reason": "risk",
+      "start_frame": 324,
+      "end_frame": 358
+    },
+    {
+      "shot": "descent",
+      "reason": "risk",
+      "start_frame": 360,
+      "end_frame": 480
+    },
+    {
+      "shot": "descent",
+      "reason": "risk",
+      "start_frame": 480,
+      "end_frame": 550
+    },
+    {
+      "shot": "first-light",
+      "reason": "risk",
+      "start_frame": 612,
+      "end_frame": 708
+    },
+    {
+      "shot": "light-relay",
+      "reason": "risk",
+      "start_frame": 768,
+      "end_frame": 828
+    },
+    {
+      "shot": "light-relay",
+      "reason": "risk",
+      "start_frame": 900,
+      "end_frame": 958
+    },
+    {
+      "shot": "reveal",
+      "reason": "risk",
+      "start_frame": 960,
+      "end_frame": 1020
+    },
+    {
+      "reason": "连续跟拍接入",
+      "anchor": "dragon-01与ember-01",
+      "start_frame": 144,
+      "end_frame": 192
+    },
+    {
+      "reason": "跟拍转下降与变速",
+      "anchor": "dragon-01与terrace-01",
+      "start_frame": 336,
+      "end_frame": 408
+    },
+    {
+      "reason": "落地后停机",
+      "anchor": "feet-contact与ember-01",
+      "start_frame": 504,
+      "end_frame": 576
+    },
+    {
+      "reason": "注意由首灯交给灯链",
+      "anchor": "beacon-01与lantern-02",
+      "start_frame": 720,
+      "end_frame": 816
+    },
+    {
+      "reason": "传播跟随转整体揭示",
+      "anchor": "bridge-01与tower-01",
+      "start_frame": 912,
+      "end_frame": 1008
+    }
+  ],
+  "errors": [],
+  "scope": "Plan/evidence consistency only; visual and sound judgments require actual observation."
+}

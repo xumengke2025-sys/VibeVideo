@@ -1,0 +1,772 @@
+[
+  {
+    "era": 0,
+    "source_cell": [
+      0,
+      0,
+      212,
+      212
+    ],
+    "source_bbox": [
+      56,
+      60,
+      186,
+      148
+    ],
+    "file": "assets/rig-v7/open-hand-00.png",
+    "alpha_components": 1,
+    "main_component_pixels": 6984,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 1,
+    "source_cell": [
+      212,
+      0,
+      424,
+      212
+    ],
+    "source_bbox": [
+      50,
+      57,
+      180,
+      147
+    ],
+    "file": "assets/rig-v7/open-hand-01.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7092,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 2,
+    "source_cell": [
+      424,
+      0,
+      636,
+      212
+    ],
+    "source_bbox": [
+      48,
+      58,
+      175,
+      147
+    ],
+    "file": "assets/rig-v7/open-hand-02.png",
+    "alpha_components": 1,
+    "main_component_pixels": 6876,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 3,
+    "source_cell": [
+      636,
+      0,
+      848,
+      212
+    ],
+    "source_bbox": [
+      41,
+      57,
+      178,
+      147
+    ],
+    "file": "assets/rig-v7/open-hand-03.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7571,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 4,
+    "source_cell": [
+      848,
+      0,
+      1060,
+      212
+    ],
+    "source_bbox": [
+      40,
+      58,
+      169,
+      147
+    ],
+    "file": "assets/rig-v7/open-hand-04.png",
+    "alpha_components": 1,
+    "main_component_pixels": 6960,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 5,
+    "source_cell": [
+      0,
+      212,
+      212,
+      424
+    ],
+    "source_bbox": [
+      50,
+      52,
+      184,
+      143
+    ],
+    "file": "assets/rig-v7/open-hand-05.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7278,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 6,
+    "source_cell": [
+      212,
+      212,
+      424,
+      424
+    ],
+    "source_bbox": [
+      45,
+      52,
+      180,
+      145
+    ],
+    "file": "assets/rig-v7/open-hand-06.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7448,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 7,
+    "source_cell": [
+      424,
+      212,
+      636,
+      424
+    ],
+    "source_bbox": [
+      42,
+      52,
+      174,
+      143
+    ],
+    "file": "assets/rig-v7/open-hand-07.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7229,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 8,
+    "source_cell": [
+      636,
+      212,
+      848,
+      424
+    ],
+    "source_bbox": [
+      38,
+      52,
+      175,
+      143
+    ],
+    "file": "assets/rig-v7/open-hand-08.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7514,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 9,
+    "source_cell": [
+      848,
+      212,
+      1060,
+      424
+    ],
+    "source_bbox": [
+      34,
+      52,
+      169,
+      143
+    ],
+    "file": "assets/rig-v7/open-hand-09.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7417,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 10,
+    "source_cell": [
+      0,
+      424,
+      212,
+      636
+    ],
+    "source_bbox": [
+      52,
+      48,
+      185,
+      137
+    ],
+    "file": "assets/rig-v7/open-hand-10.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7104,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 11,
+    "source_cell": [
+      212,
+      424,
+      424,
+      636
+    ],
+    "source_bbox": [
+      47,
+      47,
+      180,
+      135
+    ],
+    "file": "assets/rig-v7/open-hand-11.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7163,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 12,
+    "source_cell": [
+      424,
+      424,
+      636,
+      636
+    ],
+    "source_bbox": [
+      43,
+      47,
+      175,
+      136
+    ],
+    "file": "assets/rig-v7/open-hand-12.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7162,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 13,
+    "source_cell": [
+      636,
+      424,
+      848,
+      636
+    ],
+    "source_bbox": [
+      37,
+      43,
+      177,
+      136
+    ],
+    "file": "assets/rig-v7/open-hand-13.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7898,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 14,
+    "source_cell": [
+      848,
+      424,
+      1060,
+      636
+    ],
+    "source_bbox": [
+      38,
+      47,
+      170,
+      137
+    ],
+    "file": "assets/rig-v7/open-hand-14.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7147,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 15,
+    "source_cell": [
+      0,
+      636,
+      212,
+      848
+    ],
+    "source_bbox": [
+      50,
+      46,
+      184,
+      136
+    ],
+    "file": "assets/rig-v7/open-hand-15.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7193,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 16,
+    "source_cell": [
+      212,
+      636,
+      424,
+      848
+    ],
+    "source_bbox": [
+      46,
+      44,
+      180,
+      134
+    ],
+    "file": "assets/rig-v7/open-hand-16.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7268,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 17,
+    "source_cell": [
+      424,
+      636,
+      636,
+      848
+    ],
+    "source_bbox": [
+      44,
+      44,
+      176,
+      134
+    ],
+    "file": "assets/rig-v7/open-hand-17.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7192,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 18,
+    "source_cell": [
+      636,
+      636,
+      848,
+      848
+    ],
+    "source_bbox": [
+      41,
+      45,
+      177,
+      136
+    ],
+    "file": "assets/rig-v7/open-hand-18.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7515,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 19,
+    "source_cell": [
+      848,
+      636,
+      1060,
+      848
+    ],
+    "source_bbox": [
+      39,
+      44,
+      170,
+      134
+    ],
+    "file": "assets/rig-v7/open-hand-19.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7082,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 20,
+    "source_cell": [
+      0,
+      848,
+      212,
+      1060
+    ],
+    "source_bbox": [
+      55,
+      43,
+      191,
+      135
+    ],
+    "file": "assets/rig-v7/open-hand-20.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7616,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 21,
+    "source_cell": [
+      212,
+      848,
+      424,
+      1060
+    ],
+    "source_bbox": [
+      44,
+      42,
+      180,
+      135
+    ],
+    "file": "assets/rig-v7/open-hand-21.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7655,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 22,
+    "source_cell": [
+      424,
+      848,
+      636,
+      1060
+    ],
+    "source_bbox": [
+      42,
+      43,
+      178,
+      135
+    ],
+    "file": "assets/rig-v7/open-hand-22.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7595,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 23,
+    "source_cell": [
+      636,
+      848,
+      848,
+      1060
+    ],
+    "source_bbox": [
+      41,
+      42,
+      178,
+      135
+    ],
+    "file": "assets/rig-v7/open-hand-23.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7717,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 24,
+    "source_cell": [
+      848,
+      848,
+      1060,
+      1060
+    ],
+    "source_bbox": [
+      33,
+      42,
+      169,
+      135
+    ],
+    "file": "assets/rig-v7/open-hand-24.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7695,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 25,
+    "source_cell": [
+      0,
+      1060,
+      212,
+      1272
+    ],
+    "source_bbox": [
+      50,
+      38,
+      187,
+      131
+    ],
+    "file": "assets/rig-v7/open-hand-25.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7792,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 26,
+    "source_cell": [
+      212,
+      1060,
+      424,
+      1272
+    ],
+    "source_bbox": [
+      46,
+      38,
+      180,
+      130
+    ],
+    "file": "assets/rig-v7/open-hand-26.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7649,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 27,
+    "source_cell": [
+      424,
+      1060,
+      636,
+      1272
+    ],
+    "source_bbox": [
+      39,
+      40,
+      175,
+      132
+    ],
+    "file": "assets/rig-v7/open-hand-27.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7647,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 28,
+    "source_cell": [
+      636,
+      1060,
+      848,
+      1272
+    ],
+    "source_bbox": [
+      35,
+      38,
+      173,
+      131
+    ],
+    "file": "assets/rig-v7/open-hand-28.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7880,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 29,
+    "source_cell": [
+      848,
+      1060,
+      1060,
+      1272
+    ],
+    "source_bbox": [
+      41,
+      39,
+      174,
+      135
+    ],
+    "file": "assets/rig-v7/open-hand-29.png",
+    "alpha_components": 1,
+    "main_component_pixels": 8248,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 30,
+    "source_cell": [
+      0,
+      1272,
+      212,
+      1484
+    ],
+    "source_bbox": [
+      50,
+      44,
+      185,
+      133
+    ],
+    "file": "assets/rig-v7/open-hand-30.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7302,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 31,
+    "source_cell": [
+      212,
+      1272,
+      424,
+      1484
+    ],
+    "source_bbox": [
+      47,
+      42,
+      180,
+      133
+    ],
+    "file": "assets/rig-v7/open-hand-31.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7362,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 32,
+    "source_cell": [
+      424,
+      1272,
+      636,
+      1484
+    ],
+    "source_bbox": [
+      40,
+      40,
+      176,
+      133
+    ],
+    "file": "assets/rig-v7/open-hand-32.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7659,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 33,
+    "source_cell": [
+      636,
+      1272,
+      848,
+      1484
+    ],
+    "source_bbox": [
+      36,
+      41,
+      174,
+      133
+    ],
+    "file": "assets/rig-v7/open-hand-33.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7709,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "era": 34,
+    "source_cell": [
+      848,
+      1272,
+      1060,
+      1484
+    ],
+    "source_bbox": [
+      34,
+      42,
+      169,
+      133
+    ],
+    "file": "assets/rig-v7/open-hand-34.png",
+    "alpha_components": 1,
+    "main_component_pixels": 7428,
+    "corner_alpha": [
+      0,
+      255
+    ]
+  }
+]

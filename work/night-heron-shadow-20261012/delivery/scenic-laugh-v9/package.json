@@ -1,0 +1,14 @@
+{
+  "name": "night-heron-shadow-puppet",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "node film/server.mjs",
+    "audio": "node film/audio.mjs",
+    "render": "node film/render.mjs --mode=final --version=custom",
+    "stills": "node film/render.mjs --mode=stills --version=custom"
+  },
+  "dependencies": {
+    "playwright-core": "1.62.1"
+  }
+}

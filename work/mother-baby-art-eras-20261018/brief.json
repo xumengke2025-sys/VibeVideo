@@ -1,0 +1,23 @@
+{
+  "title": "宝宝与妈妈 · 20时代连续亲子互动",
+  "version": 21,
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "duration": 40,
+  "style_count": 20,
+  "delivery_mode": "ai_review_once",
+  "review_budget_exhausted": true,
+  "audio": "assets/audio-v21/warm-family-40s.wav",
+  "entry": "film/index-v21.html",
+  "plan": "PLAN-v17-continuity.md",
+  "source": "out/mother-baby-v21-source-and-assets.zip",
+  "video": "out/mother-baby-20-eras-portrait-v21-40s-music.mp4",
+  "concept_approval": "沿用已认可二维人物与构图；用户要求每个动作承接上一个动作，直接制作",
+  "composition": "人物整组放大22%；妈妈右侧低坐、婴儿近邻左侧坐垫，面对面共享互动区；无桌花",
+  "production_route": "Text-free; exact-clock actor resampling, local hand/prop matte repair, four newly generated handover poses; stationary cushion and background details retained; original 40s family score",
+  "historical_versions_preserved": true,
+  "silent": false,
+  "text_overlay": false
+}

@@ -1,0 +1,135 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "id": "master",
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\waterloo-20261012\\studio\\assets-v4\\master.png",
+      "source": "C:\\Users\\67236\\.codex\\generated_images\\01a12fda-7b5e-7ff3-913c-c8f79fb2ccc7\\exec-6e558a1e-09b3-4ab9-963d-1249c4c83e0e.png",
+      "sha256": "ec36a4d04a36fa7eee20250188baaf4623733f480f9ff8c740df81a5bd7302df",
+      "size": [
+        941,
+        1672
+      ],
+      "mode": "RGB",
+      "alpha_range": null,
+      "alpha_visible_bbox": [
+        0,
+        0,
+        941,
+        1672
+      ],
+      "canvas_crop": "none",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "notes": "统一纸雕灯箱风格设定母图；渲染使用其分层编辑图"
+    },
+    {
+      "id": "hero",
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\waterloo-20261012\\studio\\assets-v4\\hero.png",
+      "source": "C:\\Users\\67236\\.codex\\generated_images\\01a12fda-7b5e-7ff3-913c-c8f79fb2ccc7\\exec-e3aa42bd-6df0-4821-8e6b-70de664a9fdf.png",
+      "sha256": "badb22c81db1e4f6ab13495e29daa5489e59f26cc64ae80d1277c106e31e635b",
+      "size": [
+        941,
+        1672
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_visible_bbox": [
+        0,
+        34,
+        941,
+        1672
+      ],
+      "canvas_crop": "none",
+      "anchor": [
+        0.29,
+        0.82
+      ],
+      "notes": "整幅同源透明近层，手/旗杆/鹰固定；左下纸岩坡遮挡"
+    },
+    {
+      "id": "backdrop",
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\waterloo-20261012\\studio\\assets-v4\\backdrop.png",
+      "source": "C:\\Users\\67236\\.codex\\generated_images\\01a12fda-7b5e-7ff3-913c-c8f79fb2ccc7\\exec-6951b621-e8c2-47fa-9b6f-55628444c6dc.png",
+      "sha256": "a44f61ef36123d32f62f4410f5f9e26582662f275e0c36fb4aed16172649683a",
+      "size": [
+        941,
+        1672
+      ],
+      "mode": "RGB",
+      "alpha_range": null,
+      "alpha_visible_bbox": [
+        0,
+        0,
+        941,
+        1672
+      ],
+      "canvas_crop": "none",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "notes": "无旗手同源军阵；不宣称历史地形复原"
+    },
+    {
+      "id": "artillery",
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\waterloo-20261012\\studio\\assets-v4\\artillery.png",
+      "source": "C:\\Users\\67236\\.codex\\generated_images\\01a12fda-7b5e-7ff3-913c-c8f79fb2ccc7\\exec-df6efc61-ae97-4e7a-827e-7babf06bbdb7.png",
+      "sha256": "cbebe8b8bdb52d7f0a64b5e7b256ec45fc4c1299ef7c08b91ff3141fcc8c1e1f",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "alpha_visible_bbox": [
+        31,
+        47,
+        1517,
+        995
+      ],
+      "canvas_crop": "none",
+      "anchor": [
+        0.53,
+        0.96
+      ],
+      "notes": "完整炮组；动态闪光与烟由时间轴绘制"
+    },
+    {
+      "id": "horse",
+      "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\waterloo-20261012\\studio\\assets-v4\\horse.png",
+      "source": "C:\\Users\\67236\\.codex\\generated_images\\01a12fda-7b5e-7ff3-913c-c8f79fb2ccc7\\exec-14c05af1-ad99-44ef-b415-7f6a1ea58a9f.png",
+      "sha256": "a50e6089935b2406770de8ca21eb00f2ecdf8eb8d26f836b254948f2a11bf0b5",
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_visible_bbox": [
+        78,
+        0,
+        1228,
+        1189
+      ],
+      "canvas_crop": "none",
+      "anchor": [
+        0.5,
+        0.96
+      ],
+      "notes": "一个完整骑手与马；整体短程平移，不逐腿奔跑"
+    }
+  ],
+  "prompts": "assets-v4/prompts.json; original horse/artillery prompt export pending running generation cell72"
+}

@@ -1,0 +1,307 @@
+{
+  "duration": 90,
+  "source_excerpt": [
+    29.5,
+    119.5
+  ],
+  "fade_in": 0.15,
+  "fade_out": [
+    87,
+    90
+  ],
+  "ambience": "original deterministic synthesis: scene-shaped wind, water, quiet stone footfalls, rolling tyres, brass bicycle bell, gentle braking and altar contact; no synthesized speech or claimed crowd recording",
+  "events": [
+    {
+      "time": 19.45,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.4761382041501967
+    },
+    {
+      "time": 19.91,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.5030574596582537
+    },
+    {
+      "time": 20.479,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.3589455534240802
+    },
+    {
+      "time": 20.945,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.4298715268333383
+    },
+    {
+      "time": 21.478,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.4264092502893975
+    },
+    {
+      "time": 21.872,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.3808043591860414
+    },
+    {
+      "time": 22.307,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.5387900961963389
+    },
+    {
+      "time": 22.823,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.4691787843977163
+    },
+    {
+      "time": 23.219,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.4113142808622614
+    },
+    {
+      "time": 23.64,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.34195409362779355
+    },
+    {
+      "time": 24.014,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.7612247243104133
+    },
+    {
+      "time": 24.721,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.6707783361210888
+    },
+    {
+      "time": 25.246,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.3266502285153289
+    },
+    {
+      "time": 25.737,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.250662628691476
+    },
+    {
+      "time": 26.331,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.2375864370712727
+    },
+    {
+      "time": 26.951,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.765858499559857
+    },
+    {
+      "time": 27.595,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.2986435669634198
+    },
+    {
+      "time": 28.11,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.40429569597022325
+    },
+    {
+      "time": 28.608,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.6202755454558171
+    },
+    {
+      "time": 29.273,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.4389775185894371
+    },
+    {
+      "time": 29.606,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.7716373895767958
+    },
+    {
+      "time": 30.317,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.4532089062626455
+    },
+    {
+      "time": 32.7,
+      "kind": "quay water lap",
+      "gain": 0.0017,
+      "pan": 0.7
+    },
+    {
+      "time": 35.1,
+      "kind": "quay water lap",
+      "gain": 0.0017,
+      "pan": 0.24
+    },
+    {
+      "time": 38.4,
+      "kind": "quay water lap",
+      "gain": 0.0017,
+      "pan": 0.65
+    },
+    {
+      "time": 42.1,
+      "kind": "quay water lap",
+      "gain": 0.0017,
+      "pan": 0.35
+    },
+    {
+      "time": 72.474,
+      "kind": "offering dish contacts altar",
+      "gain": 0.005,
+      "pan": 0.5
+    },
+    {
+      "time": 12.65,
+      "kind": "bicycle brass bell",
+      "gain": 0.0038,
+      "pan": 0.48
+    },
+    {
+      "time": 24.1,
+      "kind": "bicycle brass bell",
+      "gain": 0.0038,
+      "pan": 0.48
+    },
+    {
+      "time": 35.2,
+      "kind": "bicycle brass bell",
+      "gain": 0.0038,
+      "pan": 0.48
+    },
+    {
+      "time": 65.4,
+      "kind": "gentle bicycle braking",
+      "gain": 0.0017,
+      "pan": 0.5
+    }
+  ],
+  "scene_levels": [
+    {
+      "scene": "opening",
+      "range": [
+        0,
+        8
+      ],
+      "music_rms": 0.14217984676361084,
+      "ambience_rms": 0.001042198739014566,
+      "ambience_relative_db": -42.697749969185914
+    },
+    {
+      "scene": "gate",
+      "range": [
+        8,
+        19
+      ],
+      "music_rms": 0.14988639950752258,
+      "ambience_rms": 0.0013260975247249007,
+      "ambience_relative_db": -41.063735258452624
+    },
+    {
+      "scene": "market",
+      "range": [
+        19,
+        31
+      ],
+      "music_rms": 0.14126384258270264,
+      "ambience_rms": 0.0013754776446148753,
+      "ambience_relative_db": -40.231549584897465
+    },
+    {
+      "scene": "canal",
+      "range": [
+        31,
+        44
+      ],
+      "music_rms": 0.12077560275793076,
+      "ambience_rms": 0.0035502358805388212,
+      "ambience_relative_db": -30.63444009437804
+    },
+    {
+      "scene": "garden",
+      "range": [
+        44,
+        55
+      ],
+      "music_rms": 0.06952004879713058,
+      "ambience_rms": 0.0013478092150762677,
+      "ambience_relative_db": -34.24963293854761
+    },
+    {
+      "scene": "temple approach",
+      "range": [
+        55,
+        64
+      ],
+      "music_rms": 0.11931030452251434,
+      "ambience_rms": 0.0011663198238238692,
+      "ambience_relative_db": -40.19720593664686
+    },
+    {
+      "scene": "ritual",
+      "range": [
+        64,
+        74
+      ],
+      "music_rms": 0.17153559625148773,
+      "ambience_rms": 0.0011095224181190133,
+      "ambience_relative_db": -43.784363495902085
+    },
+    {
+      "scene": "return",
+      "range": [
+        74,
+        81
+      ],
+      "music_rms": 0.045638393610715866,
+      "ambience_rms": 0.0014387114206328988,
+      "ambience_relative_db": -30.027133170812444
+    },
+    {
+      "scene": "panorama",
+      "range": [
+        81,
+        90
+      ],
+      "music_rms": 0.02365630678832531,
+      "ambience_rms": 0.0011576790129765868,
+      "ambience_relative_db": -26.207175669803778
+    }
+  ],
+  "loudness": {
+    "input_i": "-15.61",
+    "input_tp": "-0.92",
+    "input_lra": "13.80",
+    "input_thresh": "-26.26",
+    "output_i": "-17.73",
+    "output_tp": "-2.29",
+    "output_lra": "11.30",
+    "output_thresh": "-27.98",
+    "normalization_type": "dynamic",
+    "target_offset": "0.73"
+  },
+  "actual_listening": false,
+  "limitation": "Technical mix measurements only; no perceptual loudness, timbre or synchronization approval."
+}

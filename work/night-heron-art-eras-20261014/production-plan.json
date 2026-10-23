@@ -1,0 +1,587 @@
+{
+  "title": "夜鹭偷鱼艺术史",
+  "version": "rebuild-v3-generated-all-eras",
+  "date": "2026-10-15",
+  "status": "playable_engineering_verified",
+  "brief": {
+    "aspect_ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 40,
+    "eraCount": 16,
+    "delivery_mode": "ai_review_once",
+    "onscreenText": "仅时代与年份，无片名、说明、动作旁白或画风名",
+    "audio": "沿用原创合成配乐，无旁白"
+  },
+  "requirements": [
+    "16时代分别生图，夜鹭、鱼和其他动物均采用对应画风",
+    "实际移植花叔背景和材质源码并重排为竖屏",
+    "同一偷鱼动作和同一动物反应",
+    "多关节缩颈—伸颈—收颈；全程无对抗",
+    "地点/年代/动物相容，证据强度见历史台账"
+  ],
+  "direction": {
+    "promise": "同一只夜鹭、同一偷鱼节拍跨越16时代与画风",
+    "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+    "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+    "rig": "肩根、上颈、下颈、头部连接四控制关节；共享解析时间；各时代生成羽毛纹理随颈部轮廓伸展连接。",
+    "camera": "固定竖屏正侧面，保留取鱼接触点；主体锚点与动作相位跨时代保持。",
+    "concept": "out/rebuild-concept-final/styleboard.jpg",
+    "sample": "out/rebuild-sample-v2/video.mp4"
+  },
+  "timeline": {
+    "opening": {
+      "start": 0,
+      "end": 2,
+      "action": "缩颈静候，鱼在旁边动物脚边"
+    },
+    "shots": [
+      {
+        "id": "era_01",
+        "start": 2,
+        "end": 4.25,
+        "date": "约公元前16000年",
+        "style": "Upper Paleolithic cave painting circa 16000 BCE. Authentic ochre red and charcoal mineral pigments, incised delicate contour strokes and stippled pigment, flat expressive animal anatomy, worn mineral color INSIDE silhouettes. No modern realistic shaded gouache. Black crown red iris still subtly recognizable.",
+        "owner": "Ursus arctos, Eurasian brown bear sitting calmly facing left",
+        "atlas": "assets/rebuild-v3/era-01.png",
+        "referenceScene": "01_cave",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_02",
+        "start": 4.25,
+        "end": 6.5,
+        "date": "约公元前1350年",
+        "style": "New Kingdom Egyptian wall painting circa 1350 BCE. Precise elegant dark contours, flat Egyptian mineral pigment fields, lapis blue, muted ochre, ivory, terracotta, subtle plaster wear WITHIN figures. Animal side profiles, no photorealistic fur shading, fine ornamental feather strokes, no jewelry or clothes.",
+        "owner": "slender sandy striped domestic cat, ancient natural short-haired type, sitting facing left, no collar",
+        "atlas": "assets/rebuild-v3/era-02.png",
+        "referenceScene": "02_egypt",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_03",
+        "start": 6.5,
+        "end": 8.75,
+        "date": "约公元前530年",
+        "style": "Attic black-figure vase painting circa 530 BCE: pure lustrous charcoal-black figures, restrained terracotta and ivory incised internal feather and fur lines, elegant archaic silhouette, no painterly volume. Burnt orange used ONLY inside tiny incised details; entire background TRANSPARENT.",
+        "owner": "great white pelican Pelecanus onocrotalus resting on folded legs, LEFT facing",
+        "atlas": "assets/rebuild-v3/era-03.png",
+        "referenceScene": "03_greek",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_04",
+        "start": 8.75,
+        "end": 11,
+        "date": "公元79年",
+        "style": "Roman opus vermiculatum mosaic circa 79 CE. Extremely fine individual irregular stone tesserae, muted limestone ivory, slate gray, black, ochre and russet, thin warm grout between tiles INSIDE each silhouette. Detailed animal anatomy assembled from tesserae, mosaic outlines follow plumage. No rectangular mosaic slab around cutouts.",
+        "owner": "Eurasian otter Lutra lutra sitting calmly facing LEFT",
+        "atlas": "assets/rebuild-v3/era-04.png",
+        "referenceScene": "04_roman",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_05",
+        "start": 11,
+        "end": 13.25,
+        "date": "约1050年",
+        "style": "Northern Song Chinese translucent carved leather shadow puppetry circa 1050. Beautiful intricate pierced leather patterns INSIDE silhouette, amber oxhide, vermilion, teal and ink-black sections, fine colored engraving, translucent leathery membrane texture, elegant articulated silhouette, credible birds. No human costumes no rods, no modern natural-history painting.",
+        "owner": "great cormorant Phalacrocorax carbo, standing facing LEFT, folded wings, yellow throat",
+        "atlas": "assets/rebuild-v3/era-05.png",
+        "referenceScene": "34_shadowpuppet",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_06",
+        "start": 13.25,
+        "end": 15.5,
+        "date": "约1290年",
+        "style": "French Gothic illuminated bestiary manuscript circa 1290. Delicate ink contours, ultramarine, vermilion, malachite and burnished gold details INSIDE silhouettes, fine hatch-mark fur and feather lines, elegant medieval animal illustration, restrained flat shading, hand-applied pigment on parchment texture inside figures only. No page, no frame.",
+        "owner": "Eurasian otter Lutra lutra sitting facing LEFT",
+        "atlas": "assets/rebuild-v3/era-06.png",
+        "referenceScene": "05_gothic",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_07",
+        "start": 15.5,
+        "end": 17.75,
+        "date": "1503年",
+        "style": "Italian High Renaissance painting circa 1503. Exquisitely refined naturalistic tempera and oil, subtle sfumato volume, fine layered feathers, muted earth colors, silver slate wings, warm ivory breast, delicate dark crown, precise natural history anatomy, soft upper left daylight. No gilded outline, no cartoon look.",
+        "owner": "slender European brown tabby domestic cat sitting facing LEFT",
+        "atlas": "assets/rebuild-v3/era-07.png",
+        "referenceScene": "06_renaissance",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_08",
+        "start": 17.75,
+        "end": 20,
+        "date": "1642年",
+        "style": "Dutch Golden Age oil painting circa 1642. Rembrandt-like warm golden side light from upper left, deep umber shadows, delicate impasto highlights INSIDE feathers/fur, visible subtle oil brush texture, highly refined accurate anatomy, brown-black and muted ivory palette with small ruby eye. No opaque dark rectangular background, all outside silhouettes fully transparent.",
+        "owner": "Eurasian otter Lutra lutra sitting facing LEFT",
+        "atlas": "assets/rebuild-v3/era-08.png",
+        "referenceScene": "32_rembrandt",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_09",
+        "start": 20,
+        "end": 22.25,
+        "date": "约1690年",
+        "style": "Early Qing Chinese bird-and-flower ink wash circa 1690, Bada Shanren manner. Expressive refined dry-brush ink contour, broken ink feather strokes, subtle wet wash blooming INSIDE shapes, blank ivory breast suggested by VERY PALE warm opaque wash, black crown, gray wings, tiny cinnabar iris. Cormorant in sparse ink washes. No gold, no western oil rendering, no calligraphy or seal.",
+        "owner": "great cormorant Phalacrocorax carbo standing facing LEFT, folded wings, yellow throat",
+        "atlas": "assets/rebuild-v3/era-09.png",
+        "referenceScene": "17_ink",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_10",
+        "start": 22.25,
+        "end": 24.5,
+        "date": "1874年",
+        "style": "French Impressionism circa 1874. Refined visible short broken brushstrokes, luminous lavender and blue shadows, warm sunlit cream highlights, painterly interlocking color strokes form detailed anatomically credible birds and animal, no hard black outline, no flat vector. Same animal shapes and right-facing heron.",
+        "owner": "European brown tabby cat sitting facing LEFT",
+        "atlas": "assets/rebuild-v3/era-10.png",
+        "referenceScene": "08_impressionism",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_11",
+        "start": 24.5,
+        "end": 26.75,
+        "date": "1889年",
+        "style": "Post-Impressionist painting in southern France circa 1889. Distinct directional impasto marks following feathers and fur, cobalt indigo shadows, luminous ochre and ivory highlights, rhythmic curved linear brush strokes, fine dark contour, expressive but anatomical silhouettes. No generic smooth digital shading.",
+        "owner": "Eurasian otter Lutra lutra sitting facing LEFT",
+        "atlas": "assets/rebuild-v3/era-11.png",
+        "referenceScene": "09_postimp",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_12",
+        "start": 26.75,
+        "end": 29,
+        "date": "1912年",
+        "style": "Analytical Cubism circa 1912 Paris. Sophisticated overlapping translucent faceted angular planes, ochre, warm gray, umber, charcoal and pale cream, fine crosshatching, simultaneously readable species silhouettes; beak and legs anatomically consistent despite subtle internal planar fragmentation. No photo-realistic fur, no abstract blobs, no lettering.",
+        "owner": "European brown tabby cat sitting facing LEFT",
+        "atlas": "assets/rebuild-v3/era-12.png",
+        "referenceScene": "11_cubism",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_13",
+        "start": 29,
+        "end": 31.25,
+        "date": "1930年",
+        "style": "American 1930 rubber-hose black-and-white hand-inked cel animation. Extremely clean tapered India ink contours, ivory white, charcoal black and gray, restrained pie-cut eye pupils but preserve night-heron species: black crown, short stout body, long pointed bill, long slender legs, folded wing markings. Elegant confident 1930 ink drawing, no color, no giant exaggerated eyes, no costumes.",
+        "owner": "northern raccoon Procyon lotor sitting facing LEFT",
+        "atlas": "assets/rebuild-v3/era-13.png",
+        "referenceScene": "33_rubberhose",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_14",
+        "start": 31.25,
+        "end": 33.5,
+        "date": "1931年",
+        "style": "Spanish Surrealism circa 1931, meticulous smooth oil-painted animal surfaces, precise uncanny academic modeling, golden Catalan afternoon light, warm pale ivory breast, slate gray wings, black crown, extremely crisp silhouette and subtle elongated elegance. Real species anatomy remains credible, no melting animals, no clocks attached to animals.",
+        "owner": "Eurasian otter Lutra lutra sitting facing LEFT",
+        "atlas": "assets/rebuild-v3/era-14.png",
+        "referenceScene": "23_dali",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_15",
+        "start": 33.5,
+        "end": 35.75,
+        "date": "1962年",
+        "style": "American 1962 Pop Art comic screen printing. Bold elegant black contours, cyan, primary yellow, scarlet, ivory and navy, precisely spaced Ben-Day halftone dots clipped INSIDE colored areas, high-quality confident anatomical silhouettes, beautiful print misregistration of one pixel, no captions no sound effects no speech bubbles.",
+        "owner": "northern raccoon Procyon lotor sitting facing LEFT",
+        "atlas": "assets/rebuild-v3/era-15.png",
+        "referenceScene": "13_pop",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      },
+      {
+        "id": "era_16",
+        "start": 35.75,
+        "end": 38,
+        "date": "1985年",
+        "style": "Authentic Japanese 1985 eight-bit pixel art. Crisp deliberately placed square pixels, limited 16 color NES-like palette, no antialiasing, readable black crown, small red eye, gray wings, ivory breast, yellow legs, elegant anatomically recognizable night heron, carefully clustered highlights and dark outlines. Pixel art sprite cutouts, no tileset background, no text.",
+        "owner": "Japanese brown tabby domestic cat sitting facing LEFT",
+        "atlas": "assets/rebuild-v3/era-16.png",
+        "referenceScene": "14_8bit",
+        "action": "初始缩颈→伸颈到旁边动物脚边→叼走地上的鱼→抬头吞咽→收颈归位",
+        "reaction": "同一相位：发现鱼被取走后轻微后仰抬头，再俯身查看原位置；无争抢、追逐或对抗。",
+        "phases": {
+          "reach": [
+            0.15,
+            0.43
+          ],
+          "grab": 0.44,
+          "lift": [
+            0.52,
+            0.69
+          ],
+          "swallow": [
+            0.67,
+            0.77
+          ],
+          "reset": [
+            0.74,
+            0.91
+          ]
+        },
+        "connectionToNext": "半秒平滑叠化；保持脚底、取鱼点和头部相位；不宣称几何变形。"
+      }
+    ],
+    "outro": {
+      "start": 38,
+      "end": 40,
+      "action": "最后一时代缩颈停留，无标题"
+    }
+  },
+  "source": {
+    "upstream": "alchaincyf/huashu-art-motion",
+    "commit": "64cb27271ee0ad3375298e2890b33cbec36d4051",
+    "license": "MIT",
+    "vendor": "vendor/huashu",
+    "provenance": "vendor/huashu/provenance.json",
+    "adaptation": "运行原生背景、材质和装饰；移除原叙事角色、文字及部分家具；竖屏裁取与局部同源材质铺底。"
+  },
+  "assets": {
+    "generation": "内置image_gen，16次分别生成各时代5拆件，原PNG保留",
+    "prompts": "assets/rebuild-v3/prompts.json",
+    "manifest": "assets/rebuild-v3/atlas-manifest.json",
+    "history": "research/history-v3.md"
+  },
+  "review": {
+    "mode": "ai_review_once",
+    "budget": "既有一轮与一次修复已使用，不另派新审片者，不重开全面审核。",
+    "currentStatus": "主制作查看样段与代表帧，非独立；未完成完整听音或实时视听审核。",
+    "oldReports": "qa/film-v1/report.md 与 qa/film-v2/delivery-report.md，不覆盖新版。"
+  },
+  "deliverables": {
+    "video": "out/film-v3/video.mp4",
+    "sha256": "da9e5bc9e9a6a46966bcd87f947bd1e78a63c61515369e51f06ec25c76cf8b5b",
+    "entry": "rebuild-v3.html",
+    "source": "src/film-v3.js",
+    "sourceSnapshot": "out/film-v3/source",
+    "legacy": "旧入口、源码与历史影片保留"
+  }
+}

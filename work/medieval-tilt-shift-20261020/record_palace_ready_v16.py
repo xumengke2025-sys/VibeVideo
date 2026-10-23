@@ -1,0 +1,12 @@
+from pathlib import Path
+import json,datetime,hashlib
+P=Path(__file__).resolve().parent
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+proof=[P/'render/proof-v16-final/00672.png',P/'render/proof-v16-final/00743.png']
+observations={'version':'v16-palace-final-model','model':str(P/'model/babylon-city-v16-palace.blend'),'model_sha256':sha(P/'model/babylon-city-v16-palace.blend'),'renderer_sha256':sha(P/'render_city_v16.py'),'camera_sha256':sha(P/'v16_camera.py'),'proof_frames':[{'path':str(p),'sha256':sha(p),'actually_viewed':p.name=='00672.png'} for p in proof],'actually_viewed':['v16 first model 192,696,864','v16 camera revision 672','v16 final model 672'],'observations':['First camera cropped palace and looked toward empty outer ground; replaced with west-bank eastward composition.','Final frame 672 shows all palace roof tiers, front colonnade, internal supporting columns, blue friezes, connected stair, bridge and extended quay.','The palace shot intentionally shifts primary attention from cyclist to city architecture; same rider world route retained.'],'motion_evidence':'Static head-target ray tests at 0.25s intervals across 25–30.75s gave no occluder candidates on camera revision. Full encoded motion still pending.','listening':False,'independent_review':'No new independent reviewer; current project one-round budget exhausted.','not_yet_verified':['Full final motion','Encoded full film','Actual audio listening']}
+(P/'qa/v16/producer-observations.json').write_text(json.dumps(observations,ensure_ascii=False,indent=2),encoding='utf8')
+c=json.loads((P/'CHECKPOINT-v16.json').read_text(encoding='utf8'))
+c['completed']+=['Built final palace with 82680 new vertices across 11 grouped meshes; preserved featureless rider and traffic sources','Viewed actual 1080x1920 proof frames and corrected clipped palace composition','Added balcony slab/lower gallery supports and extended existing riverside pavement','Checked new-shot rider head sightline at .25-second steps; no static occluder candidates','Compiled all new Python entry points successfully','Viewed final model proof frame 672; source hashes saved in qa/v16/producer-observations.json']
+c.update(status='ready_for_frozen_full_render',next_action='Run finish_palace_v16.py; first encode 27–29s palace excerpt, then continue full 2160-frame film. Preserve old v15 frames.',updated_at=datetime.datetime.now().astimezone().isoformat())
+(P/'CHECKPOINT-v16.json').write_text(json.dumps(c,ensure_ascii=False,indent=2),encoding='utf8')
+print('PALACE_EVIDENCE_RECORDED')

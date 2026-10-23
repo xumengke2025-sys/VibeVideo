@@ -1,0 +1,4132 @@
+[
+  {
+    "index": 0,
+    "mode": "cave",
+    "source": "assets\\generated-v2\\00-cave-v3-pack.png",
+    "source_size": [
+      2075,
+      758
+    ],
+    "detected_background_edge": 441,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          17,
+          12,
+          497,
+          576
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          402,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          12,
+          497,
+          576
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          356,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          11,
+          497,
+          576
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          363,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          12,
+          497,
+          576
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          370,
+          302
+        ]
+      }
+    ],
+    "sha256": "89bedfb9c29df03df7906e1551f0573f570f3cba61871324ed16f406bd0fb490"
+  },
+  {
+    "index": 1,
+    "mode": "egypt",
+    "source": "assets\\generated-v2\\01-egypt-v3-pack.png",
+    "source_size": [
+      2075,
+      758
+    ],
+    "detected_background_edge": 433,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          26,
+          10,
+          497,
+          593
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          394,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          10,
+          497,
+          593
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          344,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          79,
+          9,
+          497,
+          593
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          363,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          78,
+          10,
+          497,
+          593
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          366,
+          302
+        ]
+      }
+    ],
+    "sha256": "aa0e6d614193a1f65aea7aab1aa4d80fb0d98cc6bf84e7b6021014b87a2fb9f0"
+  },
+  {
+    "index": 2,
+    "mode": "greek",
+    "source": "assets\\generated-v2\\02-greek-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 436,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          25,
+          7,
+          497,
+          600
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          393,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          7,
+          497,
+          600
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          348,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          8,
+          497,
+          599
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          20,
+          370,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          7,
+          497,
+          599
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          357,
+          302
+        ]
+      }
+    ],
+    "sha256": "8c1266ca1632facdafebfb79dc7e714e5777fc172a85fa887277705c56fc22f2"
+  },
+  {
+    "index": 3,
+    "mode": "mosaic",
+    "source": "assets\\generated-v2\\03-mosaic-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 429,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          19,
+          13,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          397,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          13,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          22,
+          356,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          73,
+          13,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          21,
+          385,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          70,
+          13,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          21,
+          363,
+          302
+        ]
+      }
+    ],
+    "sha256": "483e81452e1f8592085b0a583695963d76e72b61bde7f2cb428235c2055d745d"
+  },
+  {
+    "index": 4,
+    "mode": "dunhuang",
+    "source": "assets\\generated-v2\\04-dunhuang-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 434,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          14,
+          5,
+          497,
+          590
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          30,
+          497,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          5,
+          497,
+          590
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          86,
+          16,
+          463,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          5,
+          497,
+          590
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          468,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          5,
+          497,
+          589
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          20,
+          460,
+          302
+        ]
+      }
+    ],
+    "sha256": "bc8c2928190bff7e3c7ba9036d422722864921b5550f468a5a23583e85867b90"
+  },
+  {
+    "index": 5,
+    "mode": "puppet",
+    "source": "assets\\generated-v2\\05-puppet-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 440,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          26,
+          14,
+          497,
+          591
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          20,
+          371,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          14,
+          497,
+          591
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          350,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          14,
+          497,
+          590
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          358,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          14,
+          497,
+          591
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          360,
+          302
+        ]
+      }
+    ],
+    "sha256": "a3da61c57083d5abfe46bd2983d66839ad11855b1a259562e7070abc42af750a"
+  },
+  {
+    "index": 6,
+    "mode": "gothic",
+    "source": "assets\\generated-v2\\06-gothic-v3-pack.png",
+    "source_size": [
+      2075,
+      758
+    ],
+    "detected_background_edge": 429,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          22,
+          4,
+          497,
+          594
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          366,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          6,
+          497,
+          597
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          86,
+          19,
+          341,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          5,
+          497,
+          595
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          361,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          4,
+          497,
+          596
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          86,
+          17,
+          348,
+          302
+        ]
+      }
+    ],
+    "sha256": "f3a5ebff77c2e7fcf930b05a338f41a2efb5f840a8554a296c29920f93e9a934"
+  },
+  {
+    "index": 7,
+    "mode": "renaissance",
+    "source": "assets\\generated-v2\\07-renaissance-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 431,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          19,
+          13,
+          497,
+          591
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          362,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          12,
+          497,
+          591
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          343,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          12,
+          497,
+          591
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          18,
+          353,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          12,
+          497,
+          591
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          363,
+          302
+        ]
+      }
+    ],
+    "sha256": "c98c03c199856a578c9d7e72e5b37e49f5ae174c2069daf31ecd5cc84ab9f2a8"
+  },
+  {
+    "index": 8,
+    "mode": "rembrandt",
+    "source": "assets\\generated-v2\\08-rembrandt-v3-pack.png",
+    "source_size": [
+      2075,
+      758
+    ],
+    "detected_background_edge": 434,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          18,
+          7,
+          497,
+          589
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          374,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          55,
+          7,
+          497,
+          589
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          351,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          58,
+          7,
+          497,
+          589
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          357,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          60,
+          7,
+          497,
+          589
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          363,
+          302
+        ]
+      }
+    ],
+    "sha256": "cc1713e99742b767f6294e2ff5fbeecff3f27079b7cbff751d3e3189014667ca"
+  },
+  {
+    "index": 9,
+    "mode": "ink",
+    "source": "assets\\generated-v2\\09-ink-v3-pack.png",
+    "source_size": [
+      2075,
+      758
+    ],
+    "detected_background_edge": 415,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          25,
+          14,
+          497,
+          584
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          375,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          15,
+          497,
+          583
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          369,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          14,
+          497,
+          583
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          20,
+          366,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          56,
+          14,
+          497,
+          583
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          371,
+          302
+        ]
+      }
+    ],
+    "sha256": "326655f4d96c98b984ef962164d901a2083f8c5b0583c3b4eb269a020eec100d"
+  },
+  {
+    "index": 10,
+    "mode": "impression",
+    "source": "assets\\generated-v2\\10-impression-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 431,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          15,
+          12,
+          497,
+          584
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          20,
+          335,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          13,
+          497,
+          584
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          18,
+          330,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          13,
+          497,
+          584
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          18,
+          347,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          12,
+          497,
+          608
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          345,
+          302
+        ]
+      }
+    ],
+    "sha256": "29fabe6c72b9d102880bcdfd4d0a4778c4ba462e83547ff2c158d8be1d0b8d93"
+  },
+  {
+    "index": 11,
+    "mode": "pointill",
+    "source": "assets\\generated-v2\\11-pointill-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 436,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          10,
+          9,
+          497,
+          594
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          21,
+          336,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          9,
+          497,
+          593
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          20,
+          329,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          8,
+          497,
+          593
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          20,
+          346,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          9,
+          497,
+          593
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          342,
+          302
+        ]
+      }
+    ],
+    "sha256": "5bf8ccb9fa35b3f71b0d1aa60a21d0484a1903e49778cacddf74349b26078123"
+  },
+  {
+    "index": 12,
+    "mode": "postimp",
+    "source": "assets\\generated-v2\\12-postimp-v3-pack.png",
+    "source_size": [
+      2075,
+      758
+    ],
+    "detected_background_edge": 431,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          16,
+          10,
+          495,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          338,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          48,
+          9,
+          491,
+          587
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          330,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          44,
+          11,
+          486,
+          587
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          21,
+          353,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          43,
+          10,
+          490,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          347,
+          302
+        ]
+      }
+    ],
+    "sha256": "7f73961cb1b8eb942d83238f2a0e6b402e775ab337bf2702a95de529a12ccc78"
+  },
+  {
+    "index": 13,
+    "mode": "expression",
+    "source": "assets\\generated-v2\\13-expression-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 432,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          16,
+          9,
+          497,
+          575
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          343,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          9,
+          497,
+          576
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          20,
+          337,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          9,
+          497,
+          578
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          21,
+          354,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          9,
+          497,
+          578
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          347,
+          302
+        ]
+      }
+    ],
+    "sha256": "29bbc4876a6ae5eb00ad792d880970e5ed25a7eca56755cba196619223db05f5"
+  },
+  {
+    "index": 14,
+    "mode": "nouveau",
+    "source": "assets\\generated-v2\\14-nouveau-v3-pack.png",
+    "source_size": [
+      2075,
+      758
+    ],
+    "detected_background_edge": 438,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          11,
+          8,
+          497,
+          608
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          389,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          9,
+          497,
+          608
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          378,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          8,
+          497,
+          608
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          399,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          8,
+          497,
+          608
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          387,
+          302
+        ]
+      }
+    ],
+    "sha256": "aaac36a7e6a917dfa7f95af5658820209f5b8c96d4d3f1ab588c666d857d0982"
+  },
+  {
+    "index": 15,
+    "mode": "lilies",
+    "source": "assets\\generated-v2\\15-lilies-v3-pack.png",
+    "source_size": [
+      2076,
+      757
+    ],
+    "detected_background_edge": 436,
+    "row_split": 502,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          10,
+          11,
+          497,
+          593
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          370,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          11,
+          497,
+          593
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          343,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          10,
+          497,
+          596
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          351,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          10,
+          497,
+          593
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          344,
+          302
+        ]
+      }
+    ],
+    "sha256": "c7e41da8864cf3862e5fb78a5087470f534a91d9247e5ac190e19dfa095bd77a"
+  },
+  {
+    "index": 16,
+    "mode": "blue",
+    "source": "assets\\generated-v2\\16-blue-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 412,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          44,
+          12,
+          497,
+          608
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          343,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          12,
+          497,
+          608
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          330,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          13,
+          497,
+          608
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          343,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          12,
+          497,
+          608
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          343,
+          302
+        ]
+      }
+    ],
+    "sha256": "7bcd18970cae7865659661c912b6a6415d6d61a691dce60fcba66b1e736158a2"
+  },
+  {
+    "index": 17,
+    "mode": "gold",
+    "source": "assets\\generated-v2\\17-gold-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 434,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          18,
+          10,
+          497,
+          591
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          374,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          10,
+          497,
+          591
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          341,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          10,
+          497,
+          591
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          347,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          10,
+          497,
+          591
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          350,
+          302
+        ]
+      }
+    ],
+    "sha256": "ff5737d6752784dbc5336bd43480f7d382c2d03aa63031302752e2ff705e3701"
+  },
+  {
+    "index": 18,
+    "mode": "cubism",
+    "source": "assets\\generated-v2\\18-cubism-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 430,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          20,
+          8,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          356,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          7,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          344,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          7,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          350,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          7,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          355,
+          302
+        ]
+      }
+    ],
+    "sha256": "3906d09e026c8fcf29d6437c84bf509f95411c47d2fa4f971ad861d639aacd03"
+  },
+  {
+    "index": 19,
+    "mode": "bauhaus",
+    "source": "assets\\generated-v2\\19-bauhaus-v3-pack.png",
+    "source_size": [
+      2073,
+      759
+    ],
+    "detected_background_edge": 426,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          32,
+          7,
+          497,
+          583
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          366,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          7,
+          497,
+          583
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          341,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          7,
+          497,
+          582
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          355,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          7,
+          497,
+          582
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          360,
+          302
+        ]
+      }
+    ],
+    "sha256": "fc70778b5d4ab75ca3c1ec27d2bba1fd5e0961117c966cffe414f02a44272442"
+  },
+  {
+    "index": 20,
+    "mode": "construct",
+    "source": "assets\\generated-v2\\20-construct-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 432,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          16,
+          9,
+          497,
+          587
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          384,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          10,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          346,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          10,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          367,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          8,
+          497,
+          587
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          359,
+          302
+        ]
+      }
+    ],
+    "sha256": "3fe2faa6743aeec92f6488a6cb2f4db84b2a1debe7d2374f5c8457894b76641b"
+  },
+  {
+    "index": 21,
+    "mode": "rubber",
+    "source": "assets\\generated-v2\\21-rubber-v3-pack.png",
+    "source_size": [
+      2076,
+      757
+    ],
+    "detected_background_edge": 431,
+    "row_split": 502,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          32,
+          13,
+          497,
+          594
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          365,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          13,
+          497,
+          594
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          350,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          13,
+          497,
+          594
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          356,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          14,
+          494,
+          595
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          361,
+          302
+        ]
+      }
+    ],
+    "sha256": "b9480e628d80e814f3fd206400823e405319cbda7e57f0f45f001d1f2b8616ba"
+  },
+  {
+    "index": 22,
+    "mode": "surreal",
+    "source": "assets\\generated-v2\\22-surreal-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 430,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          17,
+          12,
+          497,
+          590
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          376,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          12,
+          497,
+          590
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          352,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          46,
+          12,
+          493,
+          590
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          362,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          40,
+          11,
+          492,
+          591
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          358,
+          302
+        ]
+      }
+    ],
+    "sha256": "503a68e870a4035288a25642ce7b3ffa396a771a6281acc3860ec87f1aaf13b6"
+  },
+  {
+    "index": 23,
+    "mode": "hopper",
+    "source": "assets\\generated-v2\\23-hopper-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 434,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          21,
+          8,
+          497,
+          589
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          371,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          61,
+          8,
+          497,
+          589
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          348,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          65,
+          8,
+          497,
+          589
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          20,
+          358,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          59,
+          8,
+          497,
+          589
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          22,
+          357,
+          302
+        ]
+      }
+    ],
+    "sha256": "deb993bf8198889b15f429e084421e08ab965c924e6b649f2ff4a24655651d2c"
+  },
+  {
+    "index": 24,
+    "mode": "cutout",
+    "source": "assets\\generated-v2\\24-cutout-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 434,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          18,
+          10,
+          497,
+          590
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          20,
+          382,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          57,
+          9,
+          497,
+          590
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          348,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          9,
+          497,
+          590
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          362,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          9,
+          497,
+          590
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          370,
+          302
+        ]
+      }
+    ],
+    "sha256": "e3fc45775108117ff80dc39dff59073fbf884f88db5db76e792ad5dbea27f114"
+  },
+  {
+    "index": 25,
+    "mode": "pop",
+    "source": "assets\\generated-v2\\25-pop-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 436,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          21,
+          7,
+          497,
+          598
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          352,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          65,
+          7,
+          497,
+          598
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          341,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          66,
+          7,
+          497,
+          598
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          349,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          72,
+          7,
+          497,
+          598
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          339,
+          302
+        ]
+      }
+    ],
+    "sha256": "79d54cb46060dc3909f6581ccbb60f0e11f10bc39855bdaf613b233b6b79da39"
+  },
+  {
+    "index": 26,
+    "mode": "dots",
+    "source": "assets\\generated-v2\\26-dots-v3-pack.png",
+    "source_size": [
+      2075,
+      758
+    ],
+    "detected_background_edge": 441,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          14,
+          9,
+          497,
+          584
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          350,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          50,
+          9,
+          497,
+          584
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          334,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          54,
+          9,
+          497,
+          584
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          339,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          9,
+          497,
+          584
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          333,
+          302
+        ]
+      }
+    ],
+    "sha256": "5a650b867eb09c83d16bf1b26e437c6d458271d3577b752c6889f3069d1af479"
+  },
+  {
+    "index": 27,
+    "mode": "comic",
+    "source": "assets\\generated-v2\\27-comic-v3-pack.png",
+    "source_size": [
+      2075,
+      758
+    ],
+    "detected_background_edge": 434,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          17,
+          11,
+          497,
+          586
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          350,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          58,
+          12,
+          497,
+          586
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          343,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          64,
+          11,
+          497,
+          586
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          344,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          58,
+          11,
+          497,
+          586
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          21,
+          339,
+          302
+        ]
+      }
+    ],
+    "sha256": "16d5b3a3c9ac4dc215ac3406d75b35b93903b8698f363b70ddd394b3e8d45770"
+  },
+  {
+    "index": 28,
+    "mode": "haring",
+    "source": "assets\\generated-v2\\28-haring-v3-pack.png",
+    "source_size": [
+      2075,
+      758
+    ],
+    "detected_background_edge": 443,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          15,
+          8,
+          497,
+          592
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          21,
+          354,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          8,
+          497,
+          592
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          20,
+          342,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          8,
+          497,
+          592
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          21,
+          346,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          8,
+          497,
+          592
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          345,
+          302
+        ]
+      }
+    ],
+    "sha256": "d3e6b26c8a41467aee3b964c677154dfa6e54d84001acd63ed206449a1036cd7"
+  },
+  {
+    "index": 29,
+    "mode": "pixel",
+    "source": "assets\\generated-v2\\29-pixel-v3-pack.png",
+    "source_size": [
+      2076,
+      757
+    ],
+    "detected_background_edge": 446,
+    "row_split": 502,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          23,
+          10,
+          497,
+          580
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          364,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          10,
+          497,
+          580
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          359,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          10,
+          497,
+          580
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          352,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          10,
+          497,
+          580
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          352,
+          302
+        ]
+      }
+    ],
+    "sha256": "3ab9633ddf2baea32f818839f1cceaffbc5650381149a5393f9ab593b8015bf9"
+  },
+  {
+    "index": 30,
+    "mode": "watercolor",
+    "source": "assets\\generated-v2\\30-watercolor-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 443,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          31,
+          9,
+          497,
+          592
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          350,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          9,
+          497,
+          593
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          357,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          9,
+          497,
+          593
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          363,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          9,
+          497,
+          593
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          365,
+          302
+        ]
+      }
+    ],
+    "sha256": "4b6ee137cae4f5dc13ad94b283fdc8d0de57bb509cb41a6650c497d3d2ad5765"
+  },
+  {
+    "index": 31,
+    "mode": "digital",
+    "source": "assets\\generated-v2\\31-digital-v3-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 465,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          8,
+          11,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          358,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          53,
+          11,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          356,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          56,
+          11,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          371,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          11,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          359,
+          302
+        ]
+      }
+    ],
+    "sha256": "f1a6d5ceb1464d08b86e4dc4593fd1e04db517192dc92efc76956845cda4eedb"
+  },
+  {
+    "index": 32,
+    "mode": "vapor",
+    "source": "assets\\generated-v2\\32-vapor-v3-pack.png",
+    "source_size": [
+      2075,
+      758
+    ],
+    "detected_background_edge": 434,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          13,
+          11,
+          496,
+          587
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          356,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          50,
+          11,
+          497,
+          587
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          20,
+          358,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          51,
+          11,
+          495,
+          587
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          371,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          52,
+          10,
+          497,
+          587
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          360,
+          302
+        ]
+      }
+    ],
+    "sha256": "f5eb75e023a7d1b6ba6965e4b2006d43a1d3e9dc288ce8b8dbd21de78da89eac"
+  },
+  {
+    "index": 33,
+    "mode": "anime",
+    "source": "assets\\generated-v2\\33-anime-v3-pack.png",
+    "source_size": [
+      2075,
+      758
+    ],
+    "detected_background_edge": 421,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          25,
+          7,
+          497,
+          589
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          351,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          7,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          353,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          7,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          363,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          3,
+          7,
+          497,
+          588
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          368,
+          302
+        ]
+      }
+    ],
+    "sha256": "93c24d5d08fc13f4fb4c6f92da5dcb5dd4f800933cd80dc97e04b585eee17123"
+  },
+  {
+    "index": 34,
+    "mode": "modern",
+    "source": "assets\\generated-v2\\34-modern-pack.png",
+    "source_size": [
+      2076,
+      758
+    ],
+    "detected_background_edge": 429,
+    "row_split": 503,
+    "alpha": [
+      {
+        "sprite": "mother-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          18,
+          12,
+          489,
+          582
+        ]
+      },
+      {
+        "sprite": "baby-0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          17,
+          356,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          49,
+          12,
+          486,
+          582
+        ]
+      },
+      {
+        "sprite": "baby-1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          360,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          44,
+          12,
+          479,
+          582
+        ]
+      },
+      {
+        "sprite": "baby-2",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          19,
+          364,
+          302
+        ]
+      },
+      {
+        "sprite": "mother-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          42,
+          11,
+          482,
+          582
+        ]
+      },
+      {
+        "sprite": "baby-3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox": [
+          85,
+          16,
+          361,
+          302
+        ]
+      }
+    ],
+    "sha256": "2c4d1ceeb6b7fc699ef1bb1d3c215cc3e7be00715b74a0047df4d086ef1695d1"
+  }
+]

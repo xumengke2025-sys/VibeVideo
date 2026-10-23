@@ -1,0 +1,1 @@
+{"name":"napoleon-shadow-film","private":true,"type":"module","scripts":{"preview":"node server.mjs","precompute":"node precompute.mjs","stills":"node render.mjs --mode=stills","render":"node render.mjs --mode=final --version=v1"}}

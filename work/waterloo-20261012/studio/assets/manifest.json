@@ -1,0 +1,546 @@
+[
+  {
+    "id": "cavalry",
+    "kind": "generated_concept_art",
+    "tool": "built-in image_gen",
+    "original_path": "C:\\Users\\67236\\.codex\\generated_images\\01a12fda-7b5e-7ff3-913c-c8f79fb2ccc7\\exec-368df4ad-24da-4500-856e-565eee23b853.png",
+    "file": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\waterloo-20261012\\studio\\assets\\cavalry.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "a8c6e1a3ac6bb04fb2a446504e72da28db02b14398814b371a389e4da52de574"
+  },
+  {
+    "id": "horse-body",
+    "kind": "alpha-preserving crop",
+    "source": "cavalry",
+    "crop": [
+      0,
+      0,
+      685,
+      426
+    ],
+    "alpha_trim": [
+      0,
+      0,
+      685,
+      426
+    ],
+    "size": [
+      685,
+      426
+    ],
+    "file": "assets/horse-body.png"
+  },
+  {
+    "id": "horse-front-upper",
+    "kind": "alpha-preserving crop",
+    "source": "cavalry",
+    "crop": [
+      687,
+      0,
+      938,
+      423
+    ],
+    "alpha_trim": [
+      3,
+      23,
+      251,
+      423
+    ],
+    "size": [
+      248,
+      400
+    ],
+    "file": "assets/horse-front-upper.png"
+  },
+  {
+    "id": "horse-front-lower",
+    "kind": "alpha-preserving crop",
+    "source": "cavalry",
+    "crop": [
+      976,
+      0,
+      1230,
+      425
+    ],
+    "alpha_trim": [
+      0,
+      25,
+      254,
+      420
+    ],
+    "size": [
+      254,
+      395
+    ],
+    "file": "assets/horse-front-lower.png"
+  },
+  {
+    "id": "horse-back-upper",
+    "kind": "alpha-preserving crop",
+    "source": "cavalry",
+    "crop": [
+      106,
+      425,
+      407,
+      814
+    ],
+    "alpha_trim": [
+      0,
+      0,
+      301,
+      389
+    ],
+    "size": [
+      301,
+      389
+    ],
+    "file": "assets/horse-back-upper.png"
+  },
+  {
+    "id": "horse-back-lower",
+    "kind": "alpha-preserving crop",
+    "source": "cavalry",
+    "crop": [
+      532,
+      427,
+      792,
+      819
+    ],
+    "alpha_trim": [
+      0,
+      0,
+      260,
+      389
+    ],
+    "size": [
+      260,
+      389
+    ],
+    "file": "assets/horse-back-lower.png"
+  },
+  {
+    "id": "horse-tail",
+    "kind": "alpha-preserving crop",
+    "source": "cavalry",
+    "crop": [
+      910,
+      423,
+      1279,
+      826
+    ],
+    "alpha_trim": [
+      1,
+      4,
+      330,
+      403
+    ],
+    "size": [
+      329,
+      399
+    ],
+    "file": "assets/horse-tail.png"
+  },
+  {
+    "id": "rider-body",
+    "kind": "alpha-preserving crop",
+    "source": "cavalry",
+    "crop": [
+      45,
+      799,
+      431,
+      1279
+    ],
+    "alpha_trim": [
+      0,
+      0,
+      385,
+      455
+    ],
+    "size": [
+      385,
+      455
+    ],
+    "file": "assets/rider-body.png"
+  },
+  {
+    "id": "rider-arm",
+    "kind": "alpha-preserving crop",
+    "source": "cavalry",
+    "crop": [
+      444,
+      866,
+      913,
+      1279
+    ],
+    "alpha_trim": [
+      1,
+      0,
+      469,
+      388
+    ],
+    "size": [
+      468,
+      388
+    ],
+    "file": "assets/rider-arm.png"
+  },
+  {
+    "id": "rider-leg",
+    "kind": "alpha-preserving crop",
+    "source": "cavalry",
+    "crop": [
+      951,
+      824,
+      1279,
+      1279
+    ],
+    "alpha_trim": [
+      0,
+      0,
+      285,
+      406
+    ],
+    "size": [
+      285,
+      406
+    ],
+    "file": "assets/rider-leg.png"
+  },
+  {
+    "id": "infantry",
+    "kind": "generated_concept_art",
+    "tool": "built-in image_gen",
+    "original_path": "C:\\Users\\67236\\.codex\\generated_images\\01a12fda-7b5e-7ff3-913c-c8f79fb2ccc7\\exec-ec0979fa-848e-4e7c-a54e-d9c266d912b8.png",
+    "file": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\waterloo-20261012\\studio\\assets\\infantry.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "d53ba0046dd699b5daae0bb9b5454b2113fffc2ee7eab41d182d2206bbe98921"
+  },
+  {
+    "id": "guard-body",
+    "kind": "alpha-preserving crop",
+    "source": "infantry",
+    "crop": [
+      0,
+      0,
+      427,
+      428
+    ],
+    "alpha_trim": [
+      0,
+      0,
+      418,
+      428
+    ],
+    "size": [
+      418,
+      428
+    ],
+    "file": "assets/guard-body.png"
+  },
+  {
+    "id": "british-body",
+    "kind": "alpha-preserving crop",
+    "source": "infantry",
+    "crop": [
+      427,
+      0,
+      852,
+      430
+    ],
+    "alpha_trim": [
+      8,
+      0,
+      413,
+      430
+    ],
+    "size": [
+      405,
+      430
+    ],
+    "file": "assets/british-body.png"
+  },
+  {
+    "id": "prussian-body",
+    "kind": "alpha-preserving crop",
+    "source": "infantry",
+    "crop": [
+      853,
+      0,
+      1279,
+      430
+    ],
+    "alpha_trim": [
+      8,
+      0,
+      375,
+      430
+    ],
+    "size": [
+      367,
+      430
+    ],
+    "file": "assets/prussian-body.png"
+  },
+  {
+    "id": "leg-upper",
+    "kind": "alpha-preserving crop",
+    "source": "infantry",
+    "crop": [
+      0,
+      428,
+      427,
+      798
+    ],
+    "alpha_trim": [
+      33,
+      0,
+      424,
+      364
+    ],
+    "size": [
+      391,
+      364
+    ],
+    "file": "assets/leg-upper.png"
+  },
+  {
+    "id": "leg-lower",
+    "kind": "alpha-preserving crop",
+    "source": "infantry",
+    "crop": [
+      428,
+      430,
+      853,
+      797
+    ],
+    "alpha_trim": [
+      7,
+      0,
+      420,
+      367
+    ],
+    "size": [
+      413,
+      367
+    ],
+    "file": "assets/leg-lower.png"
+  },
+  {
+    "id": "guard-arm",
+    "kind": "alpha-preserving crop",
+    "source": "infantry",
+    "crop": [
+      853,
+      430,
+      1279,
+      798
+    ],
+    "alpha_trim": [
+      22,
+      0,
+      385,
+      368
+    ],
+    "size": [
+      363,
+      368
+    ],
+    "file": "assets/guard-arm.png"
+  },
+  {
+    "id": "british-arm",
+    "kind": "alpha-preserving crop",
+    "source": "infantry",
+    "crop": [
+      0,
+      799,
+      427,
+      1279
+    ],
+    "alpha_trim": [
+      0,
+      5,
+      426,
+      455
+    ],
+    "size": [
+      426,
+      450
+    ],
+    "file": "assets/british-arm.png"
+  },
+  {
+    "id": "musket",
+    "kind": "alpha-preserving crop",
+    "source": "infantry",
+    "crop": [
+      428,
+      799,
+      852,
+      1279
+    ],
+    "alpha_trim": [
+      5,
+      0,
+      420,
+      455
+    ],
+    "size": [
+      415,
+      455
+    ],
+    "file": "assets/musket.png"
+  },
+  {
+    "id": "napoleon",
+    "kind": "alpha-preserving crop",
+    "source": "infantry",
+    "crop": [
+      853,
+      799,
+      1279,
+      1279
+    ],
+    "alpha_trim": [
+      23,
+      0,
+      379,
+      455
+    ],
+    "size": [
+      356,
+      455
+    ],
+    "file": "assets/napoleon.png"
+  },
+  {
+    "id": "hero",
+    "kind": "generated_concept_art",
+    "tool": "built-in image_gen",
+    "original_path": "C:\\Users\\67236\\.codex\\generated_images\\01a12fda-7b5e-7ff3-913c-c8f79fb2ccc7\\exec-f948891a-dcae-4548-819a-d6136321489a.png",
+    "file": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\waterloo-20261012\\studio\\assets\\hero.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "b0edb300e82d67552c9bc4f3af8e81b5756c44858c90dd21050736d54fff9d3f"
+  },
+  {
+    "id": "eagle",
+    "kind": "alpha-preserving crop",
+    "source": "hero",
+    "crop": [
+      0,
+      0,
+      635,
+      654
+    ],
+    "alpha_trim": [
+      0,
+      4,
+      629,
+      654
+    ],
+    "size": [
+      629,
+      650
+    ],
+    "file": "assets/eagle.png"
+  },
+  {
+    "id": "flag",
+    "kind": "alpha-preserving crop",
+    "source": "hero",
+    "crop": [
+      637,
+      0,
+      1279,
+      651
+    ],
+    "alpha_trim": [
+      2,
+      30,
+      617,
+      651
+    ],
+    "size": [
+      615,
+      621
+    ],
+    "file": "assets/flag.png"
+  },
+  {
+    "id": "cannon",
+    "kind": "alpha-preserving crop",
+    "source": "hero",
+    "crop": [
+      0,
+      776,
+      715,
+      1191
+    ],
+    "alpha_trim": [
+      0,
+      0,
+      715,
+      415
+    ],
+    "size": [
+      715,
+      415
+    ],
+    "file": "assets/cannon.png"
+  },
+  {
+    "id": "wheel",
+    "kind": "alpha-preserving crop",
+    "source": "hero",
+    "crop": [
+      711,
+      647,
+      1279,
+      1213
+    ],
+    "alpha_trim": [
+      0,
+      0,
+      517,
+      553
+    ],
+    "size": [
+      517,
+      553
+    ],
+    "file": "assets/wheel.png"
+  },
+  {
+    "id": "battlefield",
+    "kind": "generated_concept_art",
+    "tool": "built-in image_gen",
+    "original_path": "C:\\Users\\67236\\.codex\\generated_images\\01a12fda-7b5e-7ff3-913c-c8f79fb2ccc7\\exec-33e39151-08b8-4590-9f66-aef02012d4ab.png",
+    "file": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\waterloo-20261012\\studio\\assets\\battlefield.png",
+    "size": [
+      941,
+      1672
+    ],
+    "sha256": "76025d96692660e6da319aca9add823c00272659b076d376d4423cf181ebacf0"
+  },
+  {
+    "id": "elevated-horse",
+    "kind": "generated_concept_art",
+    "tool": "built-in image_gen",
+    "original_path": "C:\\Users\\67236\\.codex\\generated_images\\01a12fda-7b5e-7ff3-913c-c8f79fb2ccc7\\exec-300f59b6-2495-4453-aed0-eb76e17888dd.png",
+    "file": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\waterloo-20261012\\studio\\assets\\elevated-horse.png",
+    "size": [
+      1145,
+      1374
+    ],
+    "sha256": "cd3701929b57aec387acc5410fb12e0e85ef25b7f5a656a7ee9cadc266c19897"
+  }
+]

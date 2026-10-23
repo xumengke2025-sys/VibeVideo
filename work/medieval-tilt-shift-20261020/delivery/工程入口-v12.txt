@@ -1,0 +1,13 @@
+可编辑模型：../model/babylon-city-v12.blend
+模型生成：../model/revise_city_v12.py
+渲染入口：../render_city_v12.py
+完整流水线：../render_pipeline_v12.py full
+镜头：../v12-timeline.json
+交通：../traffic-v12.npz
+冻结输入：../render/frozen-v12-manifest.json
+帧序列：../render/frames-v12/
+音频：../audio/final-mix-v11.wav
+
+Blender 4.5.3，Cycles，OptiX，32采样，GPU多级高斯移轴景深。
+原样例机制迁移说明：../source-adoption.json
+当前编码帧扫描使用本地imageio FFmpeg完整版本；Remotion精简版不支持rawvideo muxer。

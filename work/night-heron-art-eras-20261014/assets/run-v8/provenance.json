@@ -1,0 +1,95 @@
+{
+  "asset_origin": "Existing v6 era-specific generated sprite sheets, reused without new image generation.",
+  "source_manifest": "assets/run-v6/provenance.json",
+  "preparation": "prepare-run-v8.py: rigid bottom-foot registration, fixed lower pixels.",
+  "active_poses": [
+    0,
+    1,
+    3,
+    4
+  ],
+  "sequence": "neutral -> startled -> lower head -> hold eyes on original empty fish ground",
+  "excluded_behavior": "No front/right yaw, look-back or thief-position-driven head motion.",
+  "sources": [
+    {
+      "era": 1,
+      "path": "assets/run-v6/owner-01-sheet.png",
+      "sha256": "159db774d6dbf5ec46c5a74942bb48a039b8944b6bb3e9bc2d85b4ebf175469f"
+    },
+    {
+      "era": 2,
+      "path": "assets/run-v6/owner-02-sheet.png",
+      "sha256": "607bce38c71eb08d0efbf6aeab4a604fc9b4fddc23b8006c07f3cc4a3e32b1d0"
+    },
+    {
+      "era": 3,
+      "path": "assets/run-v6/owner-03-sheet.png",
+      "sha256": "55379a2d519deab0dc04bda0e6b7ef26351cfaa0cc67f4d03f922c0d6de7e01c"
+    },
+    {
+      "era": 4,
+      "path": "assets/run-v6/owner-04-sheet.png",
+      "sha256": "ec2a57cb757b5428b24a9027bdd70da39a696e0f428ef2b87f90143d708dabcb"
+    },
+    {
+      "era": 5,
+      "path": "assets/run-v6/owner-05-sheet.png",
+      "sha256": "b910c03fc3722a03b6cef56ef07a5ae3ebb6724b227da87db33ff1cb2fe503f2"
+    },
+    {
+      "era": 6,
+      "path": "assets/run-v6/owner-06-sheet.png",
+      "sha256": "c9c1a7f1c2bd12d287f9e2703f502eb32edf6373ceaee3d69d8fe0c65fd01cc0"
+    },
+    {
+      "era": 7,
+      "path": "assets/run-v6/owner-07-sheet.png",
+      "sha256": "7182a44dbd66662d98c9a1855f986f96cf0f2a3c4b63b5db110942a46a03bcc7"
+    },
+    {
+      "era": 8,
+      "path": "assets/run-v6/owner-08-sheet.png",
+      "sha256": "359d2ef5c53a24d8b0a4e4e3f0524a74a020ddaded09f664f535af1e20c35391"
+    },
+    {
+      "era": 9,
+      "path": "assets/run-v6/owner-09-sheet.png",
+      "sha256": "830f0c29e0d769412552cb2472a829688496377f168b2c57b9045aa63fb72a81"
+    },
+    {
+      "era": 10,
+      "path": "assets/run-v6/owner-10-sheet.png",
+      "sha256": "55d5eaec3d1be7dd15c69eda9a363927419dbb0828fb20fba61cae2054bbf865"
+    },
+    {
+      "era": 11,
+      "path": "assets/run-v6/owner-11-sheet.png",
+      "sha256": "5c5eb61b7ab66557b3089ad1ee214f2fc99a705bcdde632772098f6f89809378"
+    },
+    {
+      "era": 12,
+      "path": "assets/run-v6/owner-12-sheet.png",
+      "sha256": "1566a24bdf5328d14fb6712c08a77c4f01e354451a282315c336f6dfd9a43eb3"
+    },
+    {
+      "era": 13,
+      "path": "assets/run-v6/owner-13-sheet.png",
+      "sha256": "5d3ece674081318412daaaabbd88fa9d9f55d3c37772d299d8b45fe3e65a0150"
+    },
+    {
+      "era": 14,
+      "path": "assets/run-v6/owner-14-sheet.png",
+      "sha256": "7171698b442f1093b78030f81680ee32bb6da8d961e70317b4e44b36904cadea"
+    },
+    {
+      "era": 15,
+      "path": "assets/run-v6/owner-15-sheet.png",
+      "sha256": "8c4c5f49430d7952ee93d3bc8e9a86d0f5b7d4dc18a842ef6c93ef7618b9ff06"
+    },
+    {
+      "era": 16,
+      "path": "assets/run-v6/owner-16-sheet.png",
+      "sha256": "400067fc68579c2b849e4e7fd7dfcee6ae04bdb1379eae0a2408f8e244dce69e"
+    }
+  ]
+}

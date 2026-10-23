@@ -1,0 +1,663 @@
+{
+  "title": "暮河城的第一盏灯",
+  "version": "v2",
+  "status": "concept_approved_source_based_production",
+  "duration": 56,
+  "fps": 24,
+  "frame_count": 1344,
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "delivery_mode": "ai_review_once",
+  "startup_choices": {
+    "resolved": true,
+    "aspect_ratio": [
+      "16:9 / 1920×1080",
+      "9:16 / 1080×1920"
+    ],
+    "delivery_mode": [
+      "user_feedback",
+      "ai_review_once"
+    ],
+    "previously_asked": true
+  },
+  "user_requirements": [
+    "城市从地平线上渐渐冒出的开头",
+    "近东巴比伦风格",
+    "精细的移轴摄影效果",
+    "明确音乐计划"
+  ],
+  "intent": "通过地平线揭示与微缩城邦摄影，呈现信使龙送火、神庙首灯点燃、灯火沿运河展开的完整事件。",
+  "revision": {
+    "previous_version": "history/v1/plan.json",
+    "duration_reason": "由48秒建议延长至56秒，为新增城市显露和结尾留时间；不是用户指定时长。",
+    "opening_interpretation": "镜头从低土坡后升高解除遮挡，城市固定在世界；不是城市从地下生长。",
+    "style": "近东巴比伦意象的幻想城邦，不是考古复原；有翼信使龙为原创幻想。"
+  },
+  "audio": {
+    "voiceover": false,
+    "master_clock": "动作事件",
+    "planned_bpm": 90,
+    "meter": "4/4",
+    "planned_bars": 21,
+    "sample_rate": 48000,
+    "loudness_candidate_lufs": [
+      -16,
+      -14
+    ],
+    "true_peak_ceiling_dbtp": -1,
+    "music": "近东风格奇幻原创编配或许可清楚的可剪辑音乐；不是古巴比伦音乐复原。",
+    "palette": [
+      "气息感木管或笛类短句",
+      "里拉琴或竖琴类拨弦",
+      "低弦持续音",
+      "轻框鼓",
+      "铜质短共鸣"
+    ],
+    "optional_palette": [
+      "乌德琴式拨弦",
+      "少量扬琴式装饰"
+    ],
+    "motif": "三至四音动机：城市显露时建立，点燃时减配器重述，灯火铺开时扩展音区与声部。",
+    "source_status": "音乐、音源、音效和许可尚未选定；先清点本地合法素材，不启用未授权付费服务。",
+    "stems": [
+      "music melody",
+      "music plucked",
+      "music percussion",
+      "ambience",
+      "foley"
+    ],
+    "notes": "56秒为90BPM下21小节；动作音效按事件同步，不强制每个镜头边界落整小节；不声称8Hz与本配乐严格同拍。",
+    "cues": [
+      {
+        "start": 0,
+        "end": 2,
+        "music": "风声与稀疏拨弦，保留空隙"
+      },
+      {
+        "start": 2,
+        "end": 5,
+        "music": "神庙显露时低弦渐入"
+      },
+      {
+        "start": 5,
+        "end": 8,
+        "music": "城墙展开时主题完整，声场拓宽"
+      },
+      {
+        "start": 8,
+        "end": 18,
+        "music": "轻框鼓、拨弦循环和木管短句"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "music": "鼓渐退，给翼声与24秒接地留白"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "music": "稀疏支撑，30秒触槽与30.8秒点燃清晰"
+      },
+      {
+        "start": 36,
+        "end": 46,
+        "music": "灯组响应带回主题与节奏；38秒非画内铜质配乐重音"
+      },
+      {
+        "start": 46,
+        "end": 52,
+        "music": "主题完成，52秒落定"
+      },
+      {
+        "start": 52,
+        "end": 56,
+        "music": "停止新旋律，完整余韵与自然淡出"
+      }
+    ]
+  },
+  "assets_status": "尚未制作或确认近东城邦、信使龙及音频资产可用性",
+  "world": {
+    "route": [
+      "城外低土坡",
+      "蓝釉城门",
+      "运河街巷",
+      "阶梯神庙露台",
+      "灯链回到蓝门"
+    ],
+    "landmarks": [
+      "gate-01",
+      "canal-01",
+      "temple-01",
+      "terrace-01"
+    ],
+    "materials": [
+      "哑光泥砖",
+      "蓝釉砖与浮雕",
+      "暖灰露台石材",
+      "青铜灯座",
+      "有深浅变化的水面",
+      "青铜绿鳞片与膜翼"
+    ],
+    "lighting": "固定的日落前侧向暖光与偏冷天空填充；初始太阳高度15–25度待试；固定曝光保持材料细节。",
+    "historical_scope": "现代近东奇幻艺术方向；不附未经查证的历史名称、文字或仪式说明。"
+  },
+  "clock_design": {
+    "camera": "连续影片时间t",
+    "world": "预积分rate(t)后取样；高倍率8Hz，中倍率12Hz，正常速度连续",
+    "hero": "连续影片事件时间编排飞行、姿态与接触，不强制8Hz跳动；混合时间为艺术处理。",
+    "speed_curve": [
+      {
+        "start": 0,
+        "end": 18,
+        "from": 12,
+        "to": 12
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "from": 12,
+        "to": 1
+      },
+      {
+        "start": 23,
+        "end": 40,
+        "from": 1,
+        "to": 1
+      },
+      {
+        "start": 40,
+        "end": 44,
+        "from": 1,
+        "to": 6
+      },
+      {
+        "start": 44,
+        "end": 56,
+        "from": 6,
+        "to": 6
+      }
+    ]
+  },
+  "shots": [
+    {
+      "id": "horizon-city",
+      "start": 0,
+      "end": 8,
+      "intent": "城市从地平线上逐层显露，建立近东城邦规模与地域身份",
+      "states": {
+        "establish": 1,
+        "action": 3.5,
+        "result": 7
+      },
+      "action": "城市固定；机位缓升解除城外低土坡遮挡，神庙顶端、蓝门上缘、城墙依次露出。",
+      "camera": {
+        "subjectId": "temple-01",
+        "mode": "低地平线升机揭示",
+        "position": "由土坡后缓升并略前移，正式坐标待画幅",
+        "target": "先神庙轮廓，再纳入城门与城墙",
+        "screenRegion": "城邦逐步扩展，避免天空长期占据无意义面积",
+        "parallax": "近土坡先退，远城慢显露",
+        "handoff": "蓝门与神庙轮廓保持到高位段"
+      },
+      "sound": "风声、拨弦单音、低弦随显露渐入；不做开场重击",
+      "risks": [
+        [
+          1.5,
+          6.5
+        ],
+        [
+          6.5,
+          7.9
+        ]
+      ],
+      "reads": [
+        {
+          "item": "远处神庙顶端",
+          "appear": 2,
+          "readable": 3.5,
+          "leave": 8
+        },
+        {
+          "item": "蓝门与城墙组成一座城市",
+          "appear": 5,
+          "readable": 7,
+          "leave": 8
+        }
+      ]
+    },
+    {
+      "id": "miniature-courier",
+      "start": 8,
+      "end": 18,
+      "intent": "明确微缩摄影质感，认出携火种的信使及其目的地",
+      "states": {
+        "establish": 9,
+        "action": 12,
+        "result": 17
+      },
+      "action": "城市日常流动；8.5秒信使入画沿运河飞向神庙，14秒起露台进入视野。",
+      "camera": {
+        "subjectId": "dragon-01",
+        "mode": "升至高位后斜俯侧后跟拍",
+        "position": "先完成地平线向高位过渡，后随主体；俯角45–60度、垂直FOV24–32度为起点",
+        "target": "龙与火种，随后带入露台",
+        "screenRegion": "主角画高约8–12%为起点，保留前方路径",
+        "parallax": "泥砖垛口、运河、神庙层次分离",
+        "handoff": "神庙露台在下降前已经可辨"
+      },
+      "sound": "木管主题、拨弦与轻框鼓；翼声和水声有近远变化",
+      "risks": [
+        [
+          8,
+          14
+        ],
+        [
+          15.5,
+          17.9
+        ]
+      ],
+      "reads": [
+        {
+          "item": "运河与微缩街区",
+          "appear": 8,
+          "readable": 10,
+          "leave": 18
+        },
+        {
+          "item": "信使携火种",
+          "appear": 8.5,
+          "readable": 10.5,
+          "leave": 18
+        },
+        {
+          "item": "露台是目的地",
+          "appear": 14,
+          "readable": 16,
+          "leave": 18
+        }
+      ]
+    },
+    {
+      "id": "terrace-landing",
+      "start": 18,
+      "end": 26,
+      "intent": "从城邦整体进入信使降落的局部动作",
+      "states": {
+        "establish": 19,
+        "action": 23,
+        "result": 25
+      },
+      "action": "18–23秒减速，展开翼面制动；24秒双足接地，25秒站稳收翼。",
+      "camera": {
+        "subjectId": "dragon-01",
+        "mode": "神庙外侧连续下降并减速",
+        "position": "高度平滑变化，保留约30–40度斜俯作为近景目标，不降至水平角色机位",
+        "target": "先露台灯座，再龙与足部",
+        "screenRegion": "主角画高约25–35%，足和接触平面同框",
+        "parallax": "退台边缘与远城仍可见",
+        "handoff": "维持站稳姿态和火种位置"
+      },
+      "sound": "鼓退出，翼膜声和24秒足部接触清晰",
+      "risks": [
+        [
+          18,
+          23
+        ],
+        [
+          23,
+          25.9
+        ]
+      ],
+      "reads": [
+        {
+          "item": "安全落地区域",
+          "appear": 18,
+          "readable": 19,
+          "leave": 26
+        },
+        {
+          "item": "足接地并站稳",
+          "appear": 24,
+          "readable": 25,
+          "leave": 26
+        }
+      ]
+    },
+    {
+      "id": "first-light",
+      "start": 26,
+      "end": 36,
+      "intent": "看清火种被放入铜灯并点亮首灯",
+      "states": {
+        "establish": 27,
+        "action": 30,
+        "result": 33
+      },
+      "action": "举火种靠近灯槽；30秒接触，30.4秒松爪，30.8秒点燃，32秒亮度稳定；龙抬头看灯。",
+      "camera": {
+        "subjectId": "ember-01",
+        "mode": "斜俯中近景，接触期停机",
+        "position": "露台外侧，约30–40度下视，避免身体挡爪",
+        "target": "火种与铜灯凹槽；光学焦点独立求值",
+        "screenRegion": "爪、火种与凹槽均可辨，仍留露台和远城尺度参照",
+        "parallax": "近护栏只作轻微前景，不遮接触",
+        "handoff": "首灯稳定后再看相邻灯"
+      },
+      "sound": "稀疏拨弦；30秒轻触、30.8秒铜质共鸣及火声",
+      "risks": [
+        [
+          28.5,
+          33
+        ]
+      ],
+      "reads": [
+        {
+          "item": "空铜灯凹槽",
+          "appear": 26,
+          "readable": 27,
+          "leave": 30
+        },
+        {
+          "item": "火种受支承后松爪",
+          "appear": 29,
+          "readable": 30.5,
+          "leave": 32
+        },
+        {
+          "item": "首灯照亮龙与石面",
+          "appear": 30.8,
+          "readable": 33,
+          "leave": 36
+        }
+      ]
+    },
+    {
+      "id": "canal-lights",
+      "start": 36,
+      "end": 46,
+      "intent": "先读清相邻灯的接力，再看到沿运河与街巷展开",
+      "states": {
+        "establish": 37,
+        "action": 40,
+        "result": 45
+      },
+      "action": "首灯稳定，灯组按沿路距离先后亮起，信使在露台追看；38秒灯链进入运河主段。",
+      "camera": {
+        "subjectId": "light-front",
+        "mode": "退出露台后升高，注意沿灯链推进",
+        "position": "神庙开放侧通道，避开退台和墙身",
+        "target": "首灯到邻灯，再到运河灯组",
+        "screenRegion": "重要相邻两灯同时可辨，逐步放宽景深",
+        "parallax": "神庙成为前景地标，运河进入中景",
+        "handoff": "运河与蓝门保持原来方位"
+      },
+      "sound": "主题变奏与轻框鼓回归；灯组有限呼应，38秒非画内铜质配乐重音",
+      "risks": [
+        [
+          36,
+          39
+        ],
+        [
+          43,
+          45.9
+        ]
+      ],
+      "reads": [
+        {
+          "item": "相邻灯有先后响应",
+          "appear": 36,
+          "readable": 37.5,
+          "leave": 40
+        },
+        {
+          "item": "灯火沿运河展开",
+          "appear": 39,
+          "readable": 41,
+          "leave": 46
+        }
+      ]
+    },
+    {
+      "id": "city-reveal",
+      "start": 46,
+      "end": 56,
+      "intent": "回收开头地标，理解一盏灯与整座城的关系",
+      "states": {
+        "establish": 47,
+        "action": 49,
+        "result": 53
+      },
+      "action": "48秒城门灯段亮起；49–52秒认出神庙、运河和蓝门；52–56秒保持完成状态。",
+      "camera": {
+        "subjectId": "city-light-route",
+        "mode": "高位斜俯拉远收稳",
+        "position": "升至能同时看清三地标，不复制模板820米高度",
+        "target": "灯链前沿回到整体关系",
+        "screenRegion": "城邦主导，远景不挤掉主体；保持前后柔虚",
+        "parallax": "神庙由局部成为全城地标",
+        "handoff": "52秒收稳，轻微环境运动与余音继续"
+      },
+      "sound": "52秒和弦落定，保留4秒环境与自然尾音",
+      "risks": [
+        [
+          46,
+          49.5
+        ]
+      ],
+      "reads": [
+        {
+          "item": "蓝门灯段完成",
+          "appear": 48,
+          "readable": 49,
+          "leave": 56
+        },
+        {
+          "item": "一盏灯与全城的关系",
+          "appear": 49,
+          "readable": 52,
+          "leave": 56
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "time": 8,
+      "kind": "地平线揭示转高位移轴",
+      "anchor": "temple-01与gate-01",
+      "window": [
+        6,
+        12
+      ]
+    },
+    {
+      "time": 18,
+      "kind": "高位跟拍转下降",
+      "anchor": "dragon-01与terrace-01",
+      "window": [
+        16,
+        21
+      ]
+    },
+    {
+      "time": 26,
+      "kind": "落地后保持接触舞台",
+      "anchor": "feet-contact与ember-01",
+      "window": [
+        24,
+        28
+      ]
+    },
+    {
+      "time": 36,
+      "kind": "首灯向相邻灯交接",
+      "anchor": "beacon-01与lantern-02",
+      "window": [
+        34,
+        39
+      ]
+    },
+    {
+      "time": 46,
+      "kind": "运河灯链转全城揭示",
+      "anchor": "canal-01与gate-01",
+      "window": [
+        44,
+        49
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "horizon-reveal",
+      "at": 2,
+      "end": 8,
+      "trigger": "镜头升高解除土坡遮挡",
+      "response": "先神庙后城门与墙体；配器渐入"
+    },
+    {
+      "id": "hero-enter",
+      "at": 8.5,
+      "trigger": "信使入画",
+      "response": "焦点捕捉龙与火种"
+    },
+    {
+      "id": "slow-down",
+      "at": 18,
+      "end": 23,
+      "trigger": "接近神庙露台",
+      "response": "背景倍率12到1；鼓渐退"
+    },
+    {
+      "id": "feet-contact",
+      "at": 24,
+      "trigger": "双足接地",
+      "response": "足部锁定、身体缓冲、接触拟音"
+    },
+    {
+      "id": "ember-contact",
+      "at": 30,
+      "trigger": "火种触灯槽",
+      "response": "锚点由前爪转铜灯，世界位置连续"
+    },
+    {
+      "id": "claws-release",
+      "at": 30.4,
+      "trigger": "火种已受支承",
+      "response": "松爪缩回"
+    },
+    {
+      "id": "beacon-ignite",
+      "at": 30.8,
+      "end": 32,
+      "trigger": "火种就位",
+      "response": "首灯亮起并照亮邻近龙和石面"
+    },
+    {
+      "id": "relay",
+      "at": 36,
+      "end": 48,
+      "trigger": "首灯稳定",
+      "response": "依灯链路程点亮灯组；视觉与声音共用事件数组"
+    },
+    {
+      "id": "bronze-accent",
+      "at": 38,
+      "trigger": "灯链进入运河主段",
+      "response": "非画内铜质配乐重音；不虚构现场铜器动作，不使用欧洲教堂钟声"
+    },
+    {
+      "id": "return-speed",
+      "at": 40,
+      "end": 44,
+      "trigger": "局部关系已可读",
+      "response": "背景城市1到6倍；灯链仍按影片时间"
+    },
+    {
+      "id": "gate-lit",
+      "at": 48,
+      "trigger": "灯链到达城门",
+      "response": "最终灯段亮起"
+    },
+    {
+      "id": "hold",
+      "at": 52,
+      "end": 56,
+      "trigger": "全景完成",
+      "response": "相机收稳，配乐落定并保留尾音"
+    }
+  ],
+  "quality_contract": {
+    "status": "planned_unverified",
+    "asset_priority": [
+      "信使龙爪与膜翼",
+      "铜灯与火种接触",
+      "神庙露台",
+      "经过的釉砖门面和运河",
+      "远景泥砖街区"
+    ],
+    "base_render": "关闭景深与辉光检查模型、材质和光照，再与开启效果比较；不能用模糊掩盖占位资产。",
+    "focus_depth": "使用主体在相机前向轴的深度与视空间深度图比较，不直接套机位到主体的欧氏距离。",
+    "dof_risks": [
+      "有符号CoC混合相消造成假清晰带",
+      "翼缘与棕榈遮挡漏色",
+      "半透明翼膜或水面缺失深度",
+      "高光被辉光吞没",
+      "带中心跳动"
+    ],
+    "final_sampling": "最终尺寸样段比较1倍与2倍宽高场景缓冲；景深128次采样为参考起点，按结果和显存决定。",
+    "motion_blur": "克制且可关闭比较；真实子帧采样时锁定离散背景状态，接触点不允许重影。",
+    "encoding": "无损代表帧对照最终MP4；CRF16–18为支持时的候选，检查砖缝、釉面、暗部和火光。",
+    "proof_times": [
+      3.5,
+      11,
+      30.8,
+      49
+    ],
+    "material_motion_window": [
+      8,
+      12
+    ]
+  },
+  "concept": {
+    "status": "awaiting_visual_feedback",
+    "paths": [
+      "concepts/city-overview-v1.png",
+      "concepts/city-reveal-early-v1.png",
+      "concepts/city-reveal-late-v1.png"
+    ],
+    "feedback": [],
+    "protected_items": [],
+    "manifest": "concepts/manifest-v1.json",
+    "planned_images": [
+      "完整近东城邦与运河神庙关系",
+      "同一城邦的地平线显露",
+      "同一神庙露台的火种接触近景"
+    ],
+    "acceptance": "画幅确定后生成并展示，落实反馈或明确连续推进授权；不逐图增加审批。"
+  },
+  "pilot": {
+    "material": [
+      8,
+      12
+    ],
+    "primary": [
+      17,
+      27
+    ],
+    "secondary": [
+      29,
+      38
+    ],
+    "status": "not_started",
+    "notes": "同一最终路线验证材质移动、下降落地、持物点灯；材质段复用为正式内容，不另派审片。"
+  },
+  "evidence": {
+    "source_study": "../tilt-shift-study-20261020/CHECKPOINT.json",
+    "runtime_rendered": false,
+    "viewed_frames": false,
+    "heard_audio": false,
+    "validation_scope": "计划结构检查不等同实际画面或声音通过"
+  }
+}

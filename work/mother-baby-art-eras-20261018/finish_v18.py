@@ -1,0 +1,6 @@
+from pathlib import Path
+import json
+R=Path(__file__).resolve().parent;Q=R/'qa/v18'
+p=Q/'production-review.json';d=json.loads(p.read_text(encoding='utf8'));d['video']=json.loads((Q/'final/engineering-check.json').read_text());d['viewed']+=['Final encoded repair-and-sky-check-sheet.png:16 detail samples, opening and36.35–39.55s','Final encoded all-actors-midpoint.jpg:20 eras','Final encoded cut-02.jpg and cut-38.jpg:8 frames each'];d['limits']=[x for x in d['limits'] if x!='Final encoded evidence pending'];d['observations']+=['Final encoded inspected hand gaps show underlying environment instead of white patches','Tiny isolated dark fleck remains near ending39.55s; no additional aesthetic rework in this targeted fix'];p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf8')
+p=R/'CHECKPOINT.md';s=p.read_text(encoding='utf8');s=s.replace('- 下一步：浏览器动作/背景端点检查、正式渲染、编码后抽帧、打包解包运行；无新一轮独立或正常速度全片审美审核声明。','- 已完成40秒1080×1920/24fps正式渲染和960帧全解码；19动作与19背景连接、乱序/重载检查通过。SHA256='+d['video']['sha256']+'。\n- 已实看编码后20时代中点、16局部及2/38秒转场各8帧；人物间透明空隙修复。结尾39.55秒附近仍有微小孤立深色点。\n- video: out/mother-baby-20-eras-portrait-v18-40s.mp4；source: out/mother-baby-v18-source-and-assets.zip。下一步：完成源码打包与解包运行验证后交付；无新增独立或正常速度全片审美审核声明。');p.write_text(s,encoding='utf8')
+print('Encoded checks recorded')

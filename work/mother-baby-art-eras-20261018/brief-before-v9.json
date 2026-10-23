@@ -1,0 +1,139 @@
+{
+  "title": "宝宝与妈妈 · 35时代独立动作",
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "delivery_mode": "ai_review_once",
+  "fps": 24,
+  "target_duration_seconds": 40,
+  "style_count": 35,
+  "creative_failure_conditions": [
+    "出现3D塑形或摄影脸部，违背二维卡通方向",
+    "单个时代内动作未完成就换时代，或杯子/奶瓶在持握时离开手",
+    "人物长期遮挡关键接触，或放大到占满竖屏",
+    "仅替换背景调色，人物与时代画法完全没有对应变化"
+  ],
+  "duration_status": "v8原生40秒/960帧，35个独立场景动作；完整成片验证见qa/v8/full/engineering-check.json。",
+  "style": {
+    "base": "平面二维卡通",
+    "reference_frame": "research/source-flat-2026.png",
+    "identity": "只保留可识别的脸型、眼型、发型、眼镜与婴幼儿比例，不贴摄影人脸",
+    "eras": "人物、服饰、道具、背景同步改变平面造型、线条、色块与装饰媒介；不是给同一人物换背景",
+    "prohibited": [
+      "3D塑形",
+      "写实油画脸",
+      "摄影拼贴脸",
+      "立体皮肤与布料质感",
+      "角色放大成头像"
+    ],
+    "digital_era_adaptation": "参考中的光追CGI等时代也以二维卡通图形演绎，不照搬其三维体积表现"
+  },
+  "composition": {
+    "mother_bbox": [
+      0.53,
+      0.527,
+      0.8,
+      0.779
+    ],
+    "mother_bbox_area_fraction": 0.068,
+    "baby_bbox": [
+      0.224,
+      0.671,
+      0.45,
+      0.786
+    ],
+    "baby_bbox_area_fraction": 0.026,
+    "table_bbox": [
+      0.41,
+      0.62,
+      0.6,
+      0.79
+    ],
+    "basis": "v4生成图实际观察的大致范围，人工估计而非程序精确测量；用户要求进一步缩小后的当前方案。",
+    "ground_y": 0.79,
+    "placements": "妈妈右侧、宝宝左下，小桌居中偏右；场景动作见timeline-v8.json。",
+    "portrait_reflow": "直接为9:16布局，按自然比例与面积权重重排，不裁切横屏片"
+  },
+  "concepts": {
+    "rejected": [
+      "concepts/v1/impressionism-v1.png",
+      "concepts/v1/impressionism-v2.png"
+    ],
+    "rejection": "人物仍偏大，写实油画过于立体，与原二维模板不符",
+    "current": "concepts/v1/flat-cartoon-v4.png",
+    "feedback_status": "v4落实二维卡通、小人物和更多环境，按用户现有反馈继续制作；没有将沉默记录为认可。",
+    "generated_pixel_size": [
+      940,
+      1672
+    ],
+    "generation_mode": "内置image_gen；准确调用提示词保存于concepts/v1/prompt-flat-cartoon-v3.txt与prompt-flat-cartoon-v4.txt"
+  },
+  "action": {
+    "clock": "原生40秒，每场40/35秒；每场准备姿态进入，一次动作后停留，不跨时代延续。",
+    "mother": "按时代操作道具；第24场窗边喝一次咖啡。",
+    "baby": "按时代操作玩具、拍手、追蝶、接叶；第35场双手抱起奶瓶喝奶。",
+    "timeline": "timeline-v8.json",
+    "plan": "PLAN-v8-independent-scenes.md",
+    "contact_constraints": [
+      "固定肩肘腕骨长；不拉伸全身轮廓",
+      "宝宝仅两条手臂，各接对应肩膀",
+      "咖啡杯持握与奶嘴接嘴有几何约束",
+      "道具在各自场景内跟随手或离手后独立移动"
+    ],
+    "generated_assets": "assets/rig-v4、assets/rig-v7和assets/interaction-v8；保留生成母图与提取登记。"
+  },
+  "audio": {
+    "planned": "有意无声，沿用参考片无音轨方案；无旁白与配乐",
+    "intentional_silence": true,
+    "reference_audio_present": false,
+    "verification": "如正式成片有音轨，审片者需实际完整听取；没有音轨则核对无音轨与预期一致"
+  },
+  "review": {
+    "reviewers_used": 1,
+    "max_independent_reviewers": 1,
+    "max_repair_passes": 1,
+    "status": "原一轮预算已用完；v8仅制作检查，实际范围见qa/v8/production-review.json。",
+    "reviewer_id": "/root/av_review",
+    "repair_passes_used": 1
+  },
+  "next": "交付v8成片和可编辑源码，后续按用户反馈修改。",
+  "transition": {
+    "version": 8,
+    "environment_frames": 12,
+    "whole_actor_blend_frames": 3,
+    "anatomy_fragment_masks": false,
+    "camera": "shared absolute-time camera path",
+    "study": "PLAN-v8-independent-scenes.md",
+    "remaining_limit": "二维分层关节动作；跨风格用短叠化，服装发型仍可能短暂重影，非连续拓扑变形。"
+  },
+  "current_video": "out/mother-baby-35-eras-portrait-v8-40s.mp4",
+  "planned_revision": {
+    "status": "implemented",
+    "plan": "PLAN-v8-independent-scenes.md",
+    "target_duration_seconds": 40,
+    "style_count": 35,
+    "motion": "35个独立时代动作",
+    "continuity": "每场独立，动作不跨时代持续",
+    "environment": "局部植物、窗帘、水面、云与动作物件各自运动"
+  },
+  "latest_delivery": {
+    "video": "out/mother-baby-35-eras-portrait-v8-40s.mp4",
+    "source": "out/mother-baby-v8-source-and-assets.zip",
+    "duration_seconds": 40,
+    "speed_factor": 1,
+    "aspect_ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "verification": "qa/v8/full/engineering-check.json",
+    "sha256": "c5379bc8e49f8bc94a553643b0f46218158d6db7a108986e3e2bb91d1e97cbc5"
+  },
+  "current_delivery": {
+    "version": 8,
+    "video": "out/mother-baby-35-eras-portrait-v8-40s.mp4",
+    "source": "out/mother-baby-v8-source-and-assets.zip",
+    "intentional_silence": true,
+    "review_status": "原独立审核预算已结束；v8执行制作检查，覆盖见qa/v8/production-review.json，不宣称全片独立审核通过。"
+  },
+  "current_video_sha256": "c5379bc8e49f8bc94a553643b0f46218158d6db7a108986e3e2bb91d1e97cbc5"
+}

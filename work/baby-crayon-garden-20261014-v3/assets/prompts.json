@@ -1,0 +1,32 @@
+{
+  "mode": "built-in image_gen",
+  "useCase": "illustration-story",
+  "assets": [
+    {
+      "name": "front",
+      "path": "assets/head-front.png",
+      "prompt": "Use case: illustration-story. Create ONE isolated baby head sprite for a deliberately SIMPLE chunky wax-crayon children's storybook animation, transparent background. Input 1 is a crayon animation style reference only. Inputs 2 and 3 are identity references for the same baby, NOT a request to reproduce the photographs or make a portrait. Strongly abstract the baby into an economical flat drawing: broad high forehead, rounded plump cheeks and small chin, sparse short upright dark hair, small narrow dark eye strokes, low soft eyebrows, tiny nose drawn with only ONE short curved mark, small CLOSED smiling mouth drawn with only ONE curved brown stroke. Straight FRONT view, level head, centered eyes and nose, both ears, facing the viewer without tilt. 6 muted colors maximum, warm peach crayon fill with coarse diagonal wax strokes and many little paper gaps, irregular thick brown outline, flat pink cheek dabs. Hair is a simple scribbly dark brown patch with 8-12 short spike marks. Every face feature should be legible with a handful of strokes at 100 pixels. No realistic shading, gradients, anatomical nose, rendered lips, iris details, eyelashes, highlights, skin texture, individual hair strands, realistic colored-pencil portrait, airbrush, or polished digital illustration. Head only, no body/neck/clothing, no words or props. Fit entire head within central 78% of square canvas, actual transparent alpha. The crayon roughness and abstraction must match the reference animation's character, not the detailed v2 portrait."
+    },
+    {
+      "name": "quarter",
+      "path": "assets/head-quarter.png",
+      "prompt": "Edit the supplied simple wax-crayon baby head into a RIGHT-facing three-quarter view, head turned 45 degrees toward the viewer's RIGHT (nose must shift to the RIGHT side of the face, near ear on LEFT, far eye on RIGHT slightly narrower). This is a direction asset for a baby moving from left to right. Preserve same broad forehead, rounded lower cheeks, short dark spiky hair, very small narrow dark eyes, tiny single-mark nose, CLOSED curved-stroke smile, 6 flat muted colors, thick uneven brown line and coarse diagonal wax strokes with paper gaps. Keep the SAME simplicity as this supplied crayon drawing; do not make a detailed or realistic portrait. Both eyes should read as awake narrow dark eye marks, not huge cartoon eyes. Keep square canvas, same overall head height, center, scale, transparent alpha, head only without clothing/neck/body, no words. No smooth shading, lips, hair strands or gradients."
+    },
+    {
+      "name": "profile",
+      "path": "assets/head-profile.png",
+      "prompt": "Edit this SAME simple crayon baby head into a TRUE RIGHT-SIDE PROFILE suitable for crawling to the RIGHT. Nose silhouette points toward RIGHT edge, one visible narrow dark eye, one near ear behind on the LEFT, cheek and tiny closed smile also face RIGHT. Preserve the identity's very high forehead, full lower cheek, small chin and short scribbly dark hair. Preserve exact rough flat wax-crayon medium, thick irregular brown contour, peach diagonal strokes with white gaps, pink cheek dab, six-color simplicity and square transparent canvas. No neck/body or objects/text. Entire head upright, same head HEIGHT and center as input, do not tilt. Minimal nose: a tiny rounded bump on contour, no realistic nostril/shading. Tiny single-line CLOSED mouth. No anatomy details, hair strands, soft gradients or portrait rendering."
+    },
+    {
+      "name": "yawn",
+      "path": "assets/head-yawn.png",
+      "prompt": "Edit ONLY the expression of this supplied simple FRONT-facing crayon baby head for a short sleepy yawn. Keep all head contours, ears, hair, forehead, cheek placement, scale, position, brown outline and flat peach wax strokes EXACTLY the same. Change the tiny eyes to thin relaxed closed strokes and change the closed smile to a SMALL rounded vertical oval mouth, flat muted reddish brown inside, no teeth or detailed tongue. Preserve extremely simple chunky crayon storybook drawing, no anatomy detail or shading. Head only, actual transparent background, same square canvas."
+    }
+  ],
+  "savedOutputs": [
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\baby-crayon-garden-20261014-v3\\assets\\head-front.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\baby-crayon-garden-20261014-v3\\assets\\head-quarter.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\baby-crayon-garden-20261014-v3\\assets\\head-profile.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\baby-crayon-garden-20261014-v3\\assets\\head-yawn.png"
+  ]
+}

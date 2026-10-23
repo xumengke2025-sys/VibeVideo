@@ -1,0 +1,146 @@
+{
+  "continuity": [
+    {
+      "t": 10.4,
+      "dossierDelta": 1.29467946452716e-10,
+      "heroDelta": 0,
+      "cameraDelta": 0
+    },
+    {
+      "t": 12,
+      "dossierDelta": 0.0010413414119057084,
+      "heroDelta": 4.7634785005357116e-11,
+      "cameraDelta": 4.547601404758567e-11
+    },
+    {
+      "t": 18.4,
+      "dossierDelta": 0.00017160573543801064,
+      "heroDelta": 4.843059286940843e-11,
+      "cameraDelta": 4.7749689900803776e-11
+    },
+    {
+      "t": 19.2,
+      "dossierDelta": 2.5021428240145205e-9,
+      "heroDelta": 0,
+      "cameraDelta": 0.0003725527953974961
+    },
+    {
+      "t": 20.8,
+      "dossierDelta": 1.0242676323807708e-9,
+      "heroDelta": 0,
+      "cameraDelta": 0.0021459040922309214
+    },
+    {
+      "t": 21.6,
+      "dossierDelta": 3.033162273736127e-10,
+      "heroDelta": 0,
+      "cameraDelta": 0.002920813903074304
+    },
+    {
+      "t": 24,
+      "dossierDelta": 1.8055458238074297e-9,
+      "heroDelta": 0,
+      "cameraDelta": 0.0029208139026195568
+    },
+    {
+      "t": 24.8,
+      "dossierDelta": 1.5190492371220283e-9,
+      "heroDelta": 0,
+      "cameraDelta": 0.0021459040922309214
+    },
+    {
+      "t": 27.2,
+      "dossierDelta": 0.0000068286699390126435,
+      "heroDelta": 4.843059286940843e-11,
+      "cameraDelta": 4.774847184307873e-11
+    },
+    {
+      "t": 33.6,
+      "dossierDelta": 0.000568846473813105,
+      "heroDelta": 4.9112713895738125e-11,
+      "cameraDelta": 4.865796654485166e-11
+    },
+    {
+      "t": 40.8,
+      "dossierDelta": 1.4730021005089324e-9,
+      "heroDelta": 0,
+      "cameraDelta": 0.000425250001171662
+    },
+    {
+      "t": 41.6,
+      "dossierDelta": 0.000022454902818988523,
+      "heroDelta": 4.865796654485166e-11,
+      "cameraDelta": 4.956798274313687e-11
+    },
+    {
+      "t": 48,
+      "dossierDelta": 0.00034415205254845915,
+      "heroDelta": 4.9112713895738125e-11,
+      "cameraDelta": 4.911324022087032e-11
+    },
+    {
+      "t": 51.2,
+      "dossierDelta": 2.091837814077735e-11,
+      "heroDelta": 0,
+      "cameraDelta": 0
+    },
+    {
+      "t": 67.2,
+      "dossierDelta": 1.3669705367647111e-9,
+      "heroDelta": 0,
+      "cameraDelta": 0.006600219768037649
+    },
+    {
+      "t": 68,
+      "dossierDelta": 0.0003791049956612379,
+      "heroDelta": 5.3660187404602766e-11,
+      "cameraDelta": 2.937457576147183e-11
+    },
+    {
+      "t": 74.4,
+      "dossierDelta": 0.001093997107205789,
+      "heroDelta": 5.4569682106375694e-11,
+      "cameraDelta": 5.4569682106375694e-11
+    },
+    {
+      "t": 75.2,
+      "dossierDelta": 1.406078808940947e-9,
+      "heroDelta": 0,
+      "cameraDelta": 0
+    },
+    {
+      "t": 81.6,
+      "dossierDelta": 1.406078808940947e-9,
+      "heroDelta": 0,
+      "cameraDelta": 0
+    },
+    {
+      "t": 82.4,
+      "dossierDelta": 0.003773807899051659,
+      "heroDelta": 1.8553691916167736e-10,
+      "cameraDelta": 1.8553862584961462e-10
+    },
+    {
+      "t": 86.4,
+      "dossierDelta": 0.0017009927365742648,
+      "heroDelta": 1.864464138634503e-10,
+      "cameraDelta": 5.446394564667016e-11
+    },
+    {
+      "t": 87.2,
+      "dossierDelta": 1.5033947420306504e-9,
+      "heroDelta": 0,
+      "cameraDelta": 0.055799409471078025
+    }
+  ],
+  "framingViolation": [],
+  "heroWorldRange": [
+    760,
+    7160
+  ],
+  "buffer": [
+    960,
+    540
+  ],
+  "pass": true
+}

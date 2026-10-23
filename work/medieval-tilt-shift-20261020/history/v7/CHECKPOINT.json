@@ -1,0 +1,93 @@
+{
+  "objective": "完成优雅、精细的近东巴比伦巨型城市移轴短片；街道连贯、城区延伸到地平线，无龙；1080×1920、56秒、一次AI审核。",
+  "date": "2026-10-20",
+  "version": "v7",
+  "status": "delivered_playable_video_review_incomplete",
+  "project_title": "暮河城 · 街巷与运河",
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "delivery_mode": "ai_review_once",
+  "duration": 56,
+  "fps": 24,
+  "frame_count": 1344,
+  "plan": "视频制作计划.md",
+  "structured_plan": "plan.json",
+  "history": "history/v1/",
+  "completed": [
+    "核对原计划对材质、曝光、低位角色摄影及最终品质证明的不足",
+    "将欧洲中世纪城镇替换为近东巴比伦幻想城邦，保留送火点灯主线",
+    "安排城市固定、镜头升高解除土坡遮挡的地平线开场；建议全片由48秒延至56秒",
+    "补充精细资产分层、侧向暖光、斜俯近景、景深边缘与视深对焦、采样及编码对照要求",
+    "补充90BPM、4/4、21小节的音乐设计、配器、分轨、现场声与关键事件响应；区分近东风格配乐与历史复原",
+    "同步镜头、阅读顺序、事件、配乐段落和关键样段的时间",
+    "保存4份v1历史文件并对v2重新运行本地shot_contract.py",
+    "保存v2历史，取消龙与送火链，重排六段城市街景",
+    "编写模型优先质量样板脚本model/build_city.py，尚未渲染",
+    "v1模型样板真实生成和渲染；制作检查发现不足后扩建v2城市模型",
+    "取消龙与送火，完成可编辑Blender城市模型v3及无景深实渲图",
+    "保存原样例代码来源和实际迁移范围source-adoption.json",
+    "v4完成12种细节院落变体、露台绿植、市集、66名居民与第四艘船；v5扩展10972座远景院落、1800米主轴大道与1900米运河及横纵路网",
+    "原创56秒配乐和环境音已生成；48kHz立体声，测得-15.91 LUFS、-1.83dBTP；实际听音尚未完成",
+    "定位原失败为GPU/shared host memory分配失败；没有终止无关进程或降低正式画幅",
+    "CUDA/CPU合成成功但较慢；OptiX 256px分块+GPU降噪/合成连续4帧通过，约8–10秒/帧",
+    "v6补齐远景西岸横街至桥头，保留v5模型及旧输出",
+    "采用独立frames-v6目录、原子PNG写入、32帧进程、断点续渲，避免不同降噪器样片混入成片",
+    "1344帧完整1080×1920 Cycles渲染完成，56秒24fps；v6原配乐影片保留",
+    "用户提供Alexander / Dream Of Babylon本地音频，v7已替换原配乐，画面流直接复制",
+    "v7技术检查通过：实际解码1344帧、完整音视频无解码错误、48kHz立体声",
+    "全帧审核证据已导出45页；启动唯一独立审片角色babylon_av_review"
+  ],
+  "verification": {
+    "plan_structure": "v3: 6 shots, 18 representative states, 11 continuous windows, 0 errors",
+    "render": "全部1344帧已输出并编码；当前v7成片完整解码通过。v6编码后的检查曾遇GBK文本解码与精简ffmpeg null默认编码器缺失，已改UTF-8与显式rawvideo/pcm_s16le。成片本身无解码错误。",
+    "assets": "model/babylon-city-v6.blend 保留v5的10972座远景院落、原有精细核心区；横街从x=12延伸到x=23西岸桥头。结构见model/out/street-connections-v6.json；新版最终画面待检查。",
+    "audio": "已使用用户提供Dream Of Babylon原曲0–56秒，1.2秒渐入、52–56秒渐出，环境声低混入。最终混音测得约-17.63LUFS、-1.52dBTP；实际听音未完成。",
+    "limits": "结构检查不证明美术、动作、景深、音画或听感成立",
+    "independent_review": "当前独立审片持久记录覆盖0–749帧（31.25秒）；其余画面审核未完成。实际听音未完成。"
+  },
+  "user_confirmed_requirements": [
+    "近东巴比伦风格",
+    "城市从地平线上渐渐冒出的开头",
+    "精细的移轴摄影效果",
+    "音乐要有完整计划",
+    "街道连贯；巴比伦为宏伟、一望无际的巨型城市"
+  ],
+  "unresolved": [
+    "后半段独立画面审核未完成；同一审片者仍在工作",
+    "工具无法让模型实际感知音频，听音未完成，不宣称完整视听通过"
+  ],
+  "concept_paths": [
+    "concepts/city-overview-v1.png",
+    "concepts/city-reveal-early-v1.png",
+    "concepts/city-reveal-late-v1.png"
+  ],
+  "concept_manifest": "concepts/manifest-v1.json",
+  "concept_verification": "三张概念图已实际查看并复制入项目，均为941×1672；未进行三维、动画、音频或成片审核。",
+  "feedback": [
+    "用户要求强化最终移轴与精细效果",
+    "用户指定地平线显城、近东巴比伦风格及音乐计划",
+    "用户认可概念图：很好，但注意参考样例视频的生成代码",
+    "用户指出实景渲染毫无质感，要求先做好模型",
+    "用户取消龙，城市街景即可"
+  ],
+  "protected_items": [
+    "蓝釉门楼与土金泥砖",
+    "右后方阶梯神庙和纵深运河",
+    "暖侧光与可读材料",
+    "地平线由真实遮挡解除显露"
+  ],
+  "next_action": "已展示完整v7；同一审片者继续保存报告。后续依据实际报告及用户反馈处理，不另开审核轮次。",
+  "do_not_resume_other_projects": true,
+  "updated_at": "2026-10-20T15:18:56",
+  "render_session_id": 82597,
+  "review_budget": {
+    "reviewer_started": true,
+    "reviewer": "/root/babylon_av_review",
+    "repair_rounds_used": 0,
+    "max_repair_rounds": 1
+  },
+  "final_candidate": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\暮河城-巴比伦巨城-Dream-of-Babylon-v7.mp4",
+  "final_candidate_sha256": "79dec32dfafd697b51ce534044f37bbe685a1fffe2abd7f8013e7594804c50e0",
+  "delivery_note": "依据项目约10分钟无实质审核进展即交付当前版本的规则，交付可播放成片并标明审核缺口；未停止审片者。"
+}

@@ -1,0 +1,597 @@
+[
+  {
+    "era": 0,
+    "source_cell": [
+      0,
+      0,
+      212,
+      212
+    ],
+    "source_bbox": [
+      47,
+      63,
+      171,
+      168
+    ],
+    "file": "assets\\rig-v7\\cup-00.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 1,
+    "source_cell": [
+      212,
+      0,
+      424,
+      212
+    ],
+    "source_bbox": [
+      46,
+      63,
+      168,
+      167
+    ],
+    "file": "assets\\rig-v7\\cup-01.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 2,
+    "source_cell": [
+      424,
+      0,
+      636,
+      212
+    ],
+    "source_bbox": [
+      49,
+      62,
+      178,
+      168
+    ],
+    "file": "assets\\rig-v7\\cup-02.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 3,
+    "source_cell": [
+      636,
+      0,
+      848,
+      212
+    ],
+    "source_bbox": [
+      49,
+      61,
+      176,
+      166
+    ],
+    "file": "assets\\rig-v7\\cup-03.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 4,
+    "source_cell": [
+      848,
+      0,
+      1060,
+      212
+    ],
+    "source_bbox": [
+      43,
+      62,
+      169,
+      165
+    ],
+    "file": "assets\\rig-v7\\cup-04.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 5,
+    "source_cell": [
+      0,
+      212,
+      212,
+      424
+    ],
+    "source_bbox": [
+      48,
+      57,
+      173,
+      164
+    ],
+    "file": "assets\\rig-v7\\cup-05.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 6,
+    "source_cell": [
+      212,
+      212,
+      424,
+      424
+    ],
+    "source_bbox": [
+      48,
+      57,
+      175,
+      164
+    ],
+    "file": "assets\\rig-v7\\cup-06.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 7,
+    "source_cell": [
+      424,
+      212,
+      636,
+      424
+    ],
+    "source_bbox": [
+      49,
+      57,
+      175,
+      164
+    ],
+    "file": "assets\\rig-v7\\cup-07.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 8,
+    "source_cell": [
+      636,
+      212,
+      848,
+      424
+    ],
+    "source_bbox": [
+      47,
+      56,
+      176,
+      164
+    ],
+    "file": "assets\\rig-v7\\cup-08.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 9,
+    "source_cell": [
+      848,
+      212,
+      1060,
+      424
+    ],
+    "source_bbox": [
+      46,
+      59,
+      171,
+      164
+    ],
+    "file": "assets\\rig-v7\\cup-09.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 10,
+    "source_cell": [
+      0,
+      424,
+      212,
+      636
+    ],
+    "source_bbox": [
+      47,
+      55,
+      177,
+      164
+    ],
+    "file": "assets\\rig-v7\\cup-10.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 11,
+    "source_cell": [
+      212,
+      424,
+      424,
+      636
+    ],
+    "source_bbox": [
+      47,
+      56,
+      177,
+      165
+    ],
+    "file": "assets\\rig-v7\\cup-11.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 12,
+    "source_cell": [
+      424,
+      424,
+      636,
+      636
+    ],
+    "source_bbox": [
+      49,
+      55,
+      180,
+      164
+    ],
+    "file": "assets\\rig-v7\\cup-12.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 13,
+    "source_cell": [
+      636,
+      424,
+      848,
+      636
+    ],
+    "source_bbox": [
+      48,
+      55,
+      178,
+      165
+    ],
+    "file": "assets\\rig-v7\\cup-13.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 14,
+    "source_cell": [
+      848,
+      424,
+      1060,
+      636
+    ],
+    "source_bbox": [
+      44,
+      55,
+      173,
+      164
+    ],
+    "file": "assets\\rig-v7\\cup-14.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 15,
+    "source_cell": [
+      0,
+      636,
+      212,
+      848
+    ],
+    "source_bbox": [
+      47,
+      55,
+      178,
+      163
+    ],
+    "file": "assets\\rig-v7\\cup-15.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 16,
+    "source_cell": [
+      212,
+      636,
+      424,
+      848
+    ],
+    "source_bbox": [
+      45,
+      52,
+      180,
+      163
+    ],
+    "file": "assets\\rig-v7\\cup-16.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 17,
+    "source_cell": [
+      424,
+      636,
+      636,
+      848
+    ],
+    "source_bbox": [
+      47,
+      53,
+      179,
+      163
+    ],
+    "file": "assets\\rig-v7\\cup-17.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 18,
+    "source_cell": [
+      636,
+      636,
+      848,
+      848
+    ],
+    "source_bbox": [
+      46,
+      53,
+      177,
+      163
+    ],
+    "file": "assets\\rig-v7\\cup-18.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 19,
+    "source_cell": [
+      848,
+      636,
+      1060,
+      848
+    ],
+    "source_bbox": [
+      44,
+      54,
+      171,
+      164
+    ],
+    "file": "assets\\rig-v7\\cup-19.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 20,
+    "source_cell": [
+      0,
+      848,
+      212,
+      1060
+    ],
+    "source_bbox": [
+      47,
+      55,
+      177,
+      163
+    ],
+    "file": "assets\\rig-v7\\cup-20.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 21,
+    "source_cell": [
+      212,
+      848,
+      424,
+      1060
+    ],
+    "source_bbox": [
+      48,
+      54,
+      177,
+      163
+    ],
+    "file": "assets\\rig-v7\\cup-21.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 22,
+    "source_cell": [
+      424,
+      848,
+      636,
+      1060
+    ],
+    "source_bbox": [
+      49,
+      55,
+      179,
+      163
+    ],
+    "file": "assets\\rig-v7\\cup-22.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 23,
+    "source_cell": [
+      636,
+      848,
+      848,
+      1060
+    ],
+    "source_bbox": [
+      43,
+      53,
+      175,
+      164
+    ],
+    "file": "assets\\rig-v7\\cup-23.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 24,
+    "source_cell": [
+      848,
+      848,
+      1060,
+      1060
+    ],
+    "source_bbox": [
+      43,
+      54,
+      174,
+      162
+    ],
+    "file": "assets\\rig-v7\\cup-24.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 25,
+    "source_cell": [
+      0,
+      1060,
+      212,
+      1272
+    ],
+    "source_bbox": [
+      47,
+      47,
+      176,
+      154
+    ],
+    "file": "assets\\rig-v7\\cup-25.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 26,
+    "source_cell": [
+      212,
+      1060,
+      424,
+      1272
+    ],
+    "source_bbox": [
+      45,
+      45,
+      175,
+      154
+    ],
+    "file": "assets\\rig-v7\\cup-26.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 27,
+    "source_cell": [
+      424,
+      1060,
+      636,
+      1272
+    ],
+    "source_bbox": [
+      46,
+      44,
+      180,
+      154
+    ],
+    "file": "assets\\rig-v7\\cup-27.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 28,
+    "source_cell": [
+      636,
+      1060,
+      848,
+      1272
+    ],
+    "source_bbox": [
+      47,
+      45,
+      176,
+      154
+    ],
+    "file": "assets\\rig-v7\\cup-28.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 29,
+    "source_cell": [
+      848,
+      1060,
+      1060,
+      1272
+    ],
+    "source_bbox": [
+      40,
+      46,
+      170,
+      151
+    ],
+    "file": "assets\\rig-v7\\cup-29.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 30,
+    "source_cell": [
+      0,
+      1272,
+      212,
+      1484
+    ],
+    "source_bbox": [
+      47,
+      43,
+      177,
+      152
+    ],
+    "file": "assets\\rig-v7\\cup-30.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 31,
+    "source_cell": [
+      212,
+      1272,
+      424,
+      1484
+    ],
+    "source_bbox": [
+      46,
+      43,
+      175,
+      152
+    ],
+    "file": "assets\\rig-v7\\cup-31.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 32,
+    "source_cell": [
+      424,
+      1272,
+      636,
+      1484
+    ],
+    "source_bbox": [
+      48,
+      43,
+      177,
+      152
+    ],
+    "file": "assets\\rig-v7\\cup-32.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 33,
+    "source_cell": [
+      636,
+      1272,
+      848,
+      1484
+    ],
+    "source_bbox": [
+      45,
+      43,
+      176,
+      152
+    ],
+    "file": "assets\\rig-v7\\cup-33.png",
+    "alpha_components": 1
+  },
+  {
+    "era": 34,
+    "source_cell": [
+      848,
+      1272,
+      1060,
+      1484
+    ],
+    "source_bbox": [
+      42,
+      44,
+      172,
+      152
+    ],
+    "file": "assets\\rig-v7\\cup-34.png",
+    "alpha_components": 1
+  }
+]

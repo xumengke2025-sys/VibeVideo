@@ -1,0 +1,22 @@
+from pathlib import Path
+r=Path(__file__).resolve().parent
+p=r/'v4/scene-body.js';s=p.read_text(encoding='utf-8')
+s=s.replace("[50,3500,3070,.53],[54,3500,3090,.55],[58,3500,3090,.55],[61,3550,3000,.53]","[50,3500,3130,.52],[54,3500,3130,.52],[58,3500,3130,.52],[61,3550,3090,.50]")
+s=s.replace("moving('record',64,63,67)","moving('record',64,64,68)").replace("moving('record',65,63,67)","moving('record',65,64,68)").replace("moving('record',66,63,67)","moving('record',66,64,68)")
+s=s.replace("[67,1100,3090,.89]","[67,...moving('record',67,64,68),.82],[68,1100,3090,.89]")
+s=s.replace("if(t<63)return[5000,2500];if(t<67)return moving('record',t,63,67);","if(t<64)return[5000,2500];if(t<68)return moving('record',t,64,68);")
+s=s.replace("return i===0?0:i===1?eventProgress('assumptions',1.5):eventProgress('assumptions',1.5);","return eventProgress('assumptions',1.5);")
+s=s.replace("${sub?32:34}","${w>400?40:sub?32:34}")
+s=s.replace("'同一证据快照 / 同一轮次 / 仅假设不同',0,90,42","'同一证据快照 / 同一轮次 / 仅假设不同',0,65,42")
+s=s.replace("card(x,y,290,110,'案件 A-001',status);","card(x,y,290,110,'案件 A-001',status,'#c9b781',ease(p(T,9.5,10)));")
+# Assumption cards carry the technical qualification only once at screen level.
+s=s.replace("'情景假设 · 不是事实',trialColors[i],alpha","'输入假设',trialColors[i],alpha")
+p.write_text(s,encoding='utf-8')
+p=r/'v4/vendor/paper.js';s=p.read_text(encoding='utf-8').replace("float inside = step(0., p.x)*step(p.x, sheet.x)*step(0., p.y)*step(p.y, sheet.y);","float inside = 1.;");p.write_text(s,encoding='utf-8')
+p=r/'v4/render.mjs';s=p.read_text(encoding='utf-8')
+s=s.replace("${args.concept?'&concept':''}","${args.concept?'&concept':''}${args.shutter?'&shutter':''}")
+s=s.replace("['film.js','vendor/draw.js'","['film.js','render.mjs','vendor/draw.js'")
+s=s.replace("config={signature,start,duration,fps,width,height,count}","config={signature,start,duration,fps,width,height,count,shutter:!!args.shutter}")
+s=s.replace("'-crf','17'","'-crf','18','-maxrate','12M','-bufsize','24M'")
+p.write_text(s,encoding='utf-8')
+print('Refined readable framing, source-case handover, travel and shutter export')

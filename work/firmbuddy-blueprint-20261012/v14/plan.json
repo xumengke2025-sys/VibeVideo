@@ -1,0 +1,485 @@
+{
+  "duration": 90,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "world": [
+    8200,
+    4800
+  ],
+  "delivery_mode": "ai_review_once",
+  "review_budget": "already_used",
+  "source_categories": [
+    "投行业务",
+    "机构业务",
+    "财富业务",
+    "资管业务",
+    "国际业务",
+    "投资业务",
+    "期货与衍生品",
+    "行业研究",
+    "综合专家"
+  ],
+  "camera_rules": [
+    "One absolute-time world-space path; no per-shot camera resets.",
+    "C1 continuity at all joins, preferably C2 during travel; interpolate zoom in log domain.",
+    "Only planned reading holds reduce velocity to zero; no default stop/start at every phase.",
+    "Rounded paths with tangent continuity; no instantaneous 90-degree turns.",
+    "Track subject ahead into destination; shared anchor stays visible throughout handoff.",
+    "Keep paper texture in world coordinates; text projected from real anchors.",
+    "Concepts cannot certify motion smoothness; later validate critical 16–31s dynamic segment and every boundary."
+  ],
+  "revision": "V14: continuous business-person journey, six burdens relieved, opportunity logic station",
+  "shots": [
+    {
+      "start": 0,
+      "end": 8,
+      "id": "burden",
+      "reads": "业务人员背负六项准备负担",
+      "voiceover": false
+    },
+    {
+      "start": 8,
+      "end": 18,
+      "id": "entry",
+      "reads": "多类业务抽卡进入原机器",
+      "voiceover": false
+    },
+    {
+      "start": 18,
+      "end": 22,
+      "id": "collection",
+      "reads": "资料归集卸下搜集负担",
+      "voiceover": false
+    },
+    {
+      "start": 22,
+      "end": 46,
+      "id": "logic",
+      "reads": "新工位展示来源、判断逻辑与业务方向",
+      "voiceover": false
+    },
+    {
+      "start": 46,
+      "end": 54,
+      "id": "experts",
+      "reads": "专业会商卸下找专家负担",
+      "voiceover": false
+    },
+    {
+      "start": 54,
+      "end": 68,
+      "id": "knowledge",
+      "reads": "依据检索卸下查资料负担",
+      "voiceover": false
+    },
+    {
+      "start": 68,
+      "end": 78,
+      "id": "preparation",
+      "reads": "准备包卸下重复准备负担",
+      "voiceover": false
+    },
+    {
+      "start": 78,
+      "end": 84,
+      "id": "records",
+      "reads": "记录接续卸下经营接续负担",
+      "voiceover": false
+    },
+    {
+      "start": 84,
+      "end": 90,
+      "id": "reveal",
+      "reads": "轻装前行并揭示完整机器",
+      "voiceover": false
+    }
+  ],
+  "reading_windows": [
+    [
+      0.6,
+      2.9
+    ],
+    [
+      6.6,
+      8.25
+    ],
+    [
+      14,
+      16.1
+    ],
+    [
+      23.7,
+      25.6
+    ],
+    [
+      32.7,
+      34.7
+    ],
+    [
+      39.5,
+      40.1
+    ],
+    [
+      48.4,
+      51.9
+    ]
+  ],
+  "concepts": [
+    "../concepts/v11/3.png",
+    "../concepts/v11/6.png",
+    "../concepts/v11/9.5.png"
+  ],
+  "source_reference": {
+    "repository": "lemomo-ai/lemo-opuscar",
+    "commit": "e3cb16f63768c68693ff0e15171d6e755457cc32"
+  },
+  "truth_limits": [
+    "Illustrative workflow, not live system execution",
+    "Nine business domains; individual selected experts are not domain names",
+    "Knowledge preconfigured; retrieval does not imply automatic training",
+    "Outputs are available by need, not all automatically generated",
+    "Precontact signal is not confirmed reduction demand or individual reduction probability",
+    "Contact/watch/hold depends on evidence, customer segment and counter-signals",
+    "Human confirmation to track a precursor candidate does not confirm a reduction intention",
+    "The displayed existing-holder/contact example is illustrative, not an actual scan or live opportunity"
+  ],
+  "soundtrack": {
+    "master_clock": "visual action events; musical phrases fit their anchor times",
+    "voiceover": false,
+    "narration_captions": false,
+    "sample_rate": 48000,
+    "style": "Original instrumental electronic groove, warm analog bass, precision percussion, D minor harmony",
+    "phrases": [
+      {
+        "start": 0.0,
+        "end": 6.4,
+        "beats": 16
+      },
+      {
+        "start": 6.4,
+        "end": 12.8,
+        "beats": 16
+      },
+      {
+        "start": 12.8,
+        "end": 19.200000000000003,
+        "beats": 16
+      },
+      {
+        "start": 19.200000000000003,
+        "end": 25.6,
+        "beats": 16
+      },
+      {
+        "start": 25.6,
+        "end": 32.0,
+        "beats": 16
+      },
+      {
+        "start": 32.0,
+        "end": 38.4,
+        "beats": 16
+      },
+      {
+        "start": 38.400000000000006,
+        "end": 44.800000000000004,
+        "beats": 16
+      },
+      {
+        "start": 44.800000000000004,
+        "end": 51.2,
+        "beats": 16
+      },
+      {
+        "start": 51.2,
+        "end": 57.6,
+        "beats": 16
+      },
+      {
+        "start": 57.6,
+        "end": 64.0,
+        "beats": 16
+      },
+      {
+        "start": 64.0,
+        "end": 70.4,
+        "beats": 16
+      },
+      {
+        "start": 70.4,
+        "end": 76.80000000000001,
+        "beats": 16
+      },
+      {
+        "start": 76.80000000000001,
+        "end": 83.20000000000002,
+        "beats": 16
+      },
+      {
+        "start": 83.2,
+        "end": 89.6,
+        "beats": 16
+      }
+    ],
+    "events": [
+      {
+        "id": "collection",
+        "at": 21.6,
+        "sound": "relay",
+        "note": 74,
+        "action": "burden accepted by machine"
+      },
+      {
+        "id": "judgement",
+        "at": 40.8,
+        "sound": "relay",
+        "note": 76,
+        "action": "burden accepted by machine"
+      },
+      {
+        "id": "expert",
+        "at": 52.4,
+        "sound": "relay",
+        "note": 78,
+        "action": "burden accepted by machine"
+      },
+      {
+        "id": "evidence",
+        "at": 66.4,
+        "sound": "relay",
+        "note": 80,
+        "action": "burden accepted by machine"
+      },
+      {
+        "id": "preparation",
+        "at": 76.8,
+        "sound": "relay",
+        "note": 82,
+        "action": "burden accepted by machine"
+      },
+      {
+        "id": "records",
+        "at": 83.2,
+        "sound": "relay",
+        "note": 84,
+        "action": "burden accepted by machine"
+      },
+      {
+        "id": "cards",
+        "at": 8,
+        "sound": "downbeat",
+        "action": "cards"
+      },
+      {
+        "id": "entry",
+        "at": 14,
+        "sound": "drop",
+        "action": "entry"
+      },
+      {
+        "id": "logic",
+        "at": 26,
+        "sound": "drop",
+        "action": "logic"
+      },
+      {
+        "id": "outro",
+        "at": 88,
+        "sound": "resolve",
+        "action": "outro"
+      }
+    ],
+    "breaks": [
+      [
+        39.9,
+        40.6
+      ],
+      [
+        82.4,
+        83.0
+      ]
+    ],
+    "density": [
+      {
+        "start": 0,
+        "end": 8,
+        "gain": 0.55
+      },
+      {
+        "start": 8,
+        "end": 26,
+        "gain": 0.9
+      },
+      {
+        "start": 26,
+        "end": 42,
+        "gain": 0.55
+      },
+      {
+        "start": 42,
+        "end": 90,
+        "gain": 0.78
+      }
+    ],
+    "retained_body_audio": "audio/retained-v10.wav; starts exactly at 8s, original action accents shifted by 8s"
+  },
+  "professional_expert_basis": [
+    "专业角色与业务方法",
+    "版本化知识装备",
+    "材料驱动培养",
+    "试炼和人工发布"
+  ],
+  "ai_workflow": [
+    "理解问题和调用工具",
+    "解读扫描结果",
+    "专业专家协作研判",
+    "检索与交叉查证",
+    "辅助客户分型",
+    "生成行动成果",
+    "记录反馈与辅助复评"
+  ],
+  "facts": {
+    "training": "知识装备、专业工作协议与培养试炼；不宣称模型参数微调",
+    "scan": "确定性规则求值；AI负责解释和策略生成",
+    "feedback": "记录辅助复评；不宣称自动改模型或规则",
+    "display_policy": "业务状态采用正向动作，人工审核仍保留"
+  },
+  "aspect_ratio": "16:9",
+  "business_messages": [
+    {
+      "start": 18,
+      "end": 22,
+      "pain": "找线索慢：资料分散，搜集筛选耗时",
+      "result": "归集客户线索，少做重复搜集"
+    },
+    {
+      "start": 26,
+      "end": 42,
+      "pain": "判断费力：信号很多，哪些值得业务跟进？",
+      "result": "看清来源与判断逻辑，再决定业务切入点"
+    },
+    {
+      "start": 46,
+      "end": 54,
+      "pain": "专业支持难找：客户需求涉及多个业务领域",
+      "result": "围绕需求、时机与服务思路，获得多专业支持"
+    },
+    {
+      "start": 59,
+      "end": 68,
+      "pain": "依据难找：规则、案例和研究分散",
+      "result": "让复杂业务研判有依据，减少反复查找"
+    },
+    {
+      "start": 72,
+      "end": 78,
+      "pain": "跟进准备重复：材料与沟通重点反复整理",
+      "result": "形成客户跟进准备包，把精力还给客户沟通"
+    },
+    {
+      "start": 80,
+      "end": 84,
+      "pain": "经营难接续：沟通过什么，下一步做什么？",
+      "result": "经营记录接得上，每次跟进都有来由"
+    }
+  ],
+  "narrative_priority": [
+    "业务痛点",
+    "业务处理与研判",
+    "业务人员得到的结果",
+    "AI辅助承担的具体工作"
+  ],
+  "time_map": [
+    [
+      0,
+      0
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      14,
+      8
+    ],
+    [
+      22,
+      16
+    ],
+    [
+      26,
+      16
+    ],
+    [
+      42,
+      16
+    ],
+    [
+      46,
+      20
+    ],
+    [
+      54,
+      24.1
+    ],
+    [
+      63,
+      31
+    ],
+    [
+      68,
+      33.6
+    ],
+    [
+      78,
+      42.7
+    ],
+    [
+      84,
+      48.1
+    ],
+    [
+      90,
+      60
+    ]
+  ],
+  "burdens": [
+    {
+      "id": "records",
+      "label": "记录难接续",
+      "end": 83.2,
+      "result": "经营记录接续"
+    },
+    {
+      "id": "preparation",
+      "label": "准备重复",
+      "end": 76.8,
+      "result": "跟进材料齐备"
+    },
+    {
+      "id": "evidence",
+      "label": "依据难找",
+      "end": 66.4,
+      "result": "研判有据可查"
+    },
+    {
+      "id": "expert",
+      "label": "专家难找",
+      "end": 52.4,
+      "result": "多专业协作"
+    },
+    {
+      "id": "judgement",
+      "label": "判断费力",
+      "end": 40.8,
+      "result": "判断逻辑清晰"
+    },
+    {
+      "id": "collection",
+      "label": "资料分散",
+      "end": 21.6,
+      "result": "客户线索归集"
+    }
+  ]
+}

@@ -1,507 +1,1712 @@
 {
-  "duration": 50,
+  "duration": 36,
   "sampleRate": 48000,
   "channels": 2,
-  "method": "original deterministic synthesized percussion, bird chirps and short plucked-string phrases",
-  "peak": 0.17040095179973766,
-  "rms": 0.009072924236828215,
+  "method": "Recorded night-heron calls and recorded Jingju percussion strokes; original action-driven arrangement and short stereo room reflections. Chick voices are processed adult calls, not juvenile field recordings.",
+  "license": "CC BY-SA 4.0 audiovisual adaptation; see audio-assets/ATTRIBUTION.md",
+  "peak": 0.79,
+  "rms": 0.05732173415021107,
+  "masterGain": 2.3039712897342794,
+  "actualListening": false,
   "events": [
     {
-      "t": 0.4,
-      "len": 0.32,
-      "gain": 0.04,
-      "pan": 0.5,
-      "type": "bird_chirp"
+      "t": 0.28,
+      "len": 0.18391373645808828,
+      "gain": 0.24626392378228446,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0100976518176947
     },
     {
-      "t": 1.9,
-      "len": 0.32,
-      "gain": 0.04,
-      "pan": 0.5,
-      "type": "bird_chirp"
+      "t": 0.28,
+      "len": 1.03,
+      "gain": 0.10079999999999999,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
     },
     {
-      "t": 5.4,
-      "len": 0.32,
-      "gain": 0.04,
-      "pan": 0.5,
-      "type": "bird_chirp"
+      "t": 0.8300000000000001,
+      "len": 0.20674409748969466,
+      "gain": 0.1667901568100248,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0109115691219082
     },
     {
-      "t": 7.8,
-      "len": 0.32,
-      "gain": 0.04,
-      "pan": 0.5,
-      "type": "bird_chirp"
+      "t": 1.094,
+      "len": 0.12,
+      "gain": 0.0816,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
     },
     {
-      "t": 2.5,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 1.3800000000000001,
+      "len": 0.18545677339705474,
+      "gain": 0.1762984036950198,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0016934400967183
     },
     {
-      "t": 3.35,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 1.9300000000000002,
+      "len": 0.2109154561219048,
+      "gain": 0.17414803820047828,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9909183700563049
     },
     {
-      "t": 4.2,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 2.194,
+      "len": 0.12,
+      "gain": 0.0816,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
     },
     {
-      "t": 5,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 2.4800000000000004,
+      "len": 0.1879334001261446,
+      "gain": 0.23264620173261719,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9884929087040424
     },
     {
-      "t": 5.85,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 3.0300000000000002,
+      "len": 0.2097031316600801,
+      "gain": 0.17850747140879794,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9966470140216129
     },
     {
-      "t": 6.699999999999999,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 3.2940000000000005,
+      "len": 0.12,
+      "gain": 0.0816,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
     },
     {
-      "t": 7.549999999999999,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 3.58,
+      "len": 0.18431770221022822,
+      "gain": 0.17048923206887112,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0078838391846254
     },
     {
-      "t": 8.399999999999999,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 3.8770000000000002,
+      "len": 0.20654780273648857,
+      "gain": 0.0898128665343465,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0118722989594806
     },
     {
-      "t": 9.249999999999998,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 4.0035,
+      "len": 0.18485663927535287,
+      "gain": 0.12403684144290887,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.004945421822901
     },
     {
-      "t": 17,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 4.13,
+      "len": 0.21037337065768077,
+      "gain": 0.16768205899554856,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9934717466693276
     },
     {
-      "t": 18.05,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 4.394,
+      "len": 0.12,
+      "gain": 0.0816,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
     },
     {
-      "t": 19.1,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 4.68,
+      "len": 0.18802713687866654,
+      "gain": 0.2413984320297121,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9880001175213916
+    },
+    {
+      "t": 4.68,
+      "len": 1.03,
+      "gain": 0.10079999999999999,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 5.2299999999999995,
+      "len": 0.21035444598676983,
+      "gain": 0.17657623291499835,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9935611249839947
+    },
+    {
+      "t": 5.494,
+      "len": 0.12,
+      "gain": 0.0816,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 6.05,
+      "len": 0.18483887490502277,
+      "gain": 0.18336000804608565,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0050420044419197
+    },
+    {
+      "t": 6.05,
+      "len": 1.03,
+      "gain": 0.0798,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 6.67,
+      "len": 0.20654474309847845,
+      "gain": 0.1401811393609794,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0118872882683385
+    },
+    {
+      "t": 6.9676,
+      "len": 0.12,
+      "gain": 0.0646,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 7.29,
+      "len": 0.18433240388382235,
+      "gain": 0.13707525004516638,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0078034540818854
+    },
+    {
+      "t": 7.91,
+      "len": 0.2097245647734128,
+      "gain": 0.13305207562911947,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9965451602000193
+    },
+    {
+      "t": 8.2076,
+      "len": 0.12,
+      "gain": 0.0646,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 8.53,
+      "len": 0.1879390428261247,
+      "gain": 0.1965542419869577,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9884632300974453
+    },
+    {
+      "t": 8.53,
+      "len": 1.03,
+      "gain": 0.0798,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 9.18,
+      "len": 0.21090060396698782,
+      "gain": 0.1962858757557486,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9909881530387399
+    },
+    {
+      "t": 9.18,
+      "len": 1.03,
+      "gain": 0.084,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 9.61,
+      "len": 0.1854373193973495,
+      "gain": 0.1425960444646534,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0017985265159555
+    },
+    {
+      "t": 9.8164,
+      "len": 0.12,
+      "gain": 0.068,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 10.04,
+      "len": 0.2067351455683388,
+      "gain": 0.14854501327214997,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0109553430087315
+    },
+    {
+      "t": 10.469999999999999,
+      "len": 0.18392425812187857,
+      "gain": 0.13934748881608236,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0100398676624327
+    },
+    {
+      "t": 10.6764,
+      "len": 0.12,
+      "gain": 0.068,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 10.899999999999999,
+      "len": 0.20902220144184228,
+      "gain": 0.2022981944569598,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9998937842885152
+    },
+    {
+      "t": 11.329999999999998,
+      "len": 0.18767662278437525,
+      "gain": 0.14644753730708648,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9898453551498979
+    },
+    {
+      "t": 11.536399999999999,
+      "len": 0.12,
+      "gain": 0.068,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 11.759999999999998,
+      "len": 0.21129614257631088,
+      "gain": 0.1390838291531899,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9891330596559205
+    },
+    {
+      "t": 11.992199999999999,
+      "len": 0.186066347814544,
+      "gain": 0.07816574465921244,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9984117789988267
+    },
+    {
+      "t": 12.091099999999997,
+      "len": 0.20710484540005894,
+      "gain": 0.09961668191501205,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0091507014057552
+    },
+    {
+      "t": 12.189999999999998,
+      "len": 0.1836630226082073,
+      "gain": 0.14063202327142255,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0114765111408541
+    },
+    {
+      "t": 12.396399999999998,
+      "len": 0.12,
+      "gain": 0.068,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 12.619999999999997,
+      "len": 0.20832276986967171,
+      "gain": 0.20699997543241927,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0032508694596944
+    },
+    {
+      "t": 12.619999999999997,
+      "len": 1.03,
+      "gain": 0.084,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 13.049999999999997,
+      "len": 0.18726211515146013,
+      "gain": 0.14065193800513434,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9920363933894444
+    },
+    {
+      "t": 13.256399999999998,
+      "len": 0.12,
+      "gain": 0.068,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.479999999999997,
+      "len": 0.21150771574272142,
+      "gain": 0.14342148453853273,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9881436205108857
+    },
+    {
+      "t": 13.909999999999997,
+      "len": 0.18667592253549034,
+      "gain": 0.1481189639546962,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9951515482561232
+    },
+    {
+      "t": 14.116399999999997,
+      "len": 0.12,
+      "gain": 0.068,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.339999999999996,
+      "len": 0.2076261130584448,
+      "gain": 0.19318025226445454,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0066171201749003
+    },
+    {
+      "t": 14.769999999999996,
+      "len": 0.18356820898173945,
+      "gain": 0.14642415756311847,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0119989423212872
+    },
+    {
+      "t": 14.976399999999996,
+      "len": 0.12,
+      "gain": 0.068,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 15.199999999999996,
+      "len": 0.20768143219993285,
+      "gain": 0.14567990225737282,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0063489922334403
+    },
+    {
+      "t": 15.432199999999996,
+      "len": 0.18673028941892353,
+      "gain": 0.07353912277216273,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9948618079660462
+    },
+    {
+      "t": 15.531099999999995,
+      "len": 0.21151734111262416,
+      "gain": 0.10314819986337238,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9880986537586827
+    },
+    {
+      "t": 15.629999999999995,
+      "len": 0.1872166056323986,
+      "gain": 0.1426217129194962,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.992277542399716
+    },
+    {
+      "t": 15.836399999999996,
+      "len": 0.12,
+      "gain": 0.068,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 16.059999999999995,
+      "len": 0.2082593416987734,
+      "gain": 0.19625448814042035,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0035564229445126
+    },
+    {
+      "t": 16.059999999999995,
+      "len": 1.03,
+      "gain": 0.084,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 16.489999999999995,
+      "len": 0.1836468574068419,
+      "gain": 0.14897187150532204,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.011565544635409
+    },
+    {
+      "t": 16.696399999999993,
+      "len": 0.12,
+      "gain": 0.068,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 17.03,
+      "len": 0.20714781722267375,
+      "gain": 0.23345248501522722,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0089413579257522
+    },
+    {
+      "t": 17.03,
+      "len": 1.03,
+      "gain": 0.10079999999999999,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 17.27,
+      "len": 0.18612511728736186,
+      "gain": 0.1731156854096007,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9980965279743435
+    },
+    {
+      "t": 17.3852,
+      "len": 0.12,
+      "gain": 0.0816,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 17.509999999999998,
+      "len": 0.211324198174677,
+      "gain": 0.17709354355166665,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9890017414250124
+    },
+    {
+      "t": 17.749999999999996,
+      "len": 0.18764376142976255,
+      "gain": 0.16676294436080705,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9900187030884569
+    },
+    {
+      "t": 17.865199999999998,
+      "len": 0.12,
+      "gain": 0.0816,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 19.25,
+      "len": 0.20895561300065965,
+      "gain": 0.2758611676115408,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.000212423101265
+    },
+    {
+      "t": 19.25,
+      "len": 1.03,
+      "gain": 0.1134,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 19.55,
+      "len": 0.18389312958808401,
+      "gain": 0.19556826376586106,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0102108422944094
+    },
+    {
+      "t": 19.694,
+      "len": 0.12,
+      "gain": 0.0918,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 19.85,
+      "len": 0.20676252754317379,
+      "gain": 0.18862318705224418,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0108214601717858
     },
     {
       "t": 20.150000000000002,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "len": 0.18549576584084168,
+      "gain": 0.20092964012715614,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0014828774729427
     },
     {
-      "t": 21,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 20.294,
+      "len": 0.12,
+      "gain": 0.0918,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
     },
     {
-      "t": 22.05,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 20.450000000000003,
+      "len": 0.21094471109092613,
+      "gain": 0.2659385106376869,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.990780944064116
     },
     {
-      "t": 23.1,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 20.450000000000003,
+      "len": 1.03,
+      "gain": 0.1134,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
     },
     {
-      "t": 24.150000000000002,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 20.750000000000004,
+      "len": 0.187921602050936,
+      "gain": 0.19176710495366484,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9885549681668864
     },
     {
-      "t": 25.200000000000003,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 20.894000000000002,
+      "len": 0.12,
+      "gain": 0.0918,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
     },
     {
-      "t": 36,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 21.65,
+      "len": 0.2096601145024415,
+      "gain": 0.28926526627344284,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9968515017555528
     },
     {
-      "t": 36.55,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 21.65,
+      "len": 1.03,
+      "gain": 0.11760000000000001,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
     },
     {
-      "t": 37.099999999999994,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 22.04,
+      "len": 0.18428864580697532,
+      "gain": 0.19544096603945557,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0080427501101206
     },
     {
-      "t": 37.64999999999999,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 22.2272,
+      "len": 0.12,
+      "gain": 0.09520000000000002,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
     },
     {
-      "t": 38.19999999999999,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 22.43,
+      "len": 0.20655449167108886,
+      "gain": 0.20313624156743892,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0118395311044859
     },
     {
-      "t": 38.749999999999986,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 22.82,
+      "len": 0.1848923907623725,
+      "gain": 0.20571191212198867,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.004751101802182
     },
     {
-      "t": 39.29999999999998,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 23.0072,
+      "len": 0.12,
+      "gain": 0.09520000000000002,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
     },
     {
-      "t": 39.84999999999998,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 23.21,
+      "len": 0.21041090370499183,
+      "gain": 0.270256141021638,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9932945314137807
     },
     {
-      "t": 40.39999999999998,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 23.21,
+      "len": 1.03,
+      "gain": 0.11760000000000001,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
     },
     {
-      "t": 40.949999999999974,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": -0.4,
-      "type": "woodblock"
+      "t": 23.6,
+      "len": 0.18802660012781514,
+      "gain": 0.20683671129051256,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9880029379196965
     },
     {
-      "t": 16.4,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": 0,
-      "type": "woodblock"
+      "t": 23.787200000000002,
+      "len": 0.12,
+      "gain": 0.09520000000000002,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
     },
     {
-      "t": 28.333333,
-      "len": 0.16,
-      "gain": 0.09,
-      "pan": 0,
-      "type": "woodblock"
+      "t": 23.990000000000002,
+      "len": 0.21031628804944866,
+      "gain": 0.20163738813795304,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.993741387974957
     },
     {
-      "t": 28.5,
-      "len": 0.45,
-      "gain": 0.02,
-      "pan": 0.4,
-      "type": "small_splash"
+      "t": 24.2006,
+      "len": 0.18480357565718805,
+      "gain": 0.10360988539799788,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.005233977062974
     },
     {
-      "t": 33.05,
-      "len": 1.5,
+      "t": 24.290300000000002,
+      "len": 0.20653919459514877,
+      "gain": 0.14486610563619656,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0119144717770145
+    },
+    {
+      "t": 24.380000000000003,
+      "len": 0.1843621486875668,
+      "gain": 0.1975490847631617,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0076408560856696
+    },
+    {
+      "t": 24.567200000000003,
+      "len": 0.12,
+      "gain": 0.09520000000000002,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 24.770000000000003,
+      "len": 0.20976727150778243,
+      "gain": 0.2777650878568916,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9963422725467734
+    },
+    {
+      "t": 24.770000000000003,
+      "len": 1.03,
+      "gain": 0.11760000000000001,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 25.160000000000004,
+      "len": 0.18794981318599835,
+      "gain": 0.2077951736905316,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9884065867598992
+    },
+    {
+      "t": 25.347200000000004,
+      "len": 0.12,
+      "gain": 0.09520000000000002,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 25.550000000000004,
+      "len": 0.21087045645082472,
+      "gain": 0.1949537453877085,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9911298316402093
+    },
+    {
+      "t": 25.940000000000005,
+      "len": 0.18539850337692046,
+      "gain": 0.20426130646844887,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0020082684036338
+    },
+    {
+      "t": 26.127200000000006,
+      "len": 0.12,
+      "gain": 0.09520000000000002,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 26.330000000000005,
+      "len": 0.2067177712150893,
+      "gain": 0.28430545172483707,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0110403124583616
+    },
+    {
+      "t": 26.330000000000005,
+      "len": 1.03,
+      "gain": 0.11760000000000001,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 27.22,
+      "len": 0.1839457340329141,
+      "gain": 0.21258796627040472,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0099219441538811
+    },
+    {
+      "t": 27.22,
+      "len": 1.03,
+      "gain": 0.0924,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 27.73,
+      "len": 0.20906661151764408,
+      "gain": 0.1630757273466496,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9996813861517124
+    },
+    {
+      "t": 27.974800000000002,
+      "len": 0.12,
+      "gain": 0.0748,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 28.240000000000002,
+      "len": 0.18769778378174945,
+      "gain": 0.15750601425907862,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9897337602522961
+    },
+    {
+      "t": 28.750000000000004,
+      "len": 0.21127653256241413,
+      "gain": 0.15491555517843422,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9892248678317285
+    },
+    {
+      "t": 28.994800000000005,
+      "len": 0.12,
+      "gain": 0.0748,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 29.260000000000005,
+      "len": 0.18602707032484375,
+      "gain": 0.22769054139595155,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9986225822346018
+    },
+    {
+      "t": 29.260000000000005,
+      "len": 1.03,
+      "gain": 0.0924,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 30.1,
+      "len": 0.20707694101975163,
+      "gain": 0.2048373027760063,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0092866881786946
+    },
+    {
+      "t": 30.1,
+      "len": 1.03,
+      "gain": 0.08819999999999999,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 30.490000000000002,
+      "len": 0.18367461813024344,
+      "gain": 0.15086778580688437,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0114126558390526
+    },
+    {
+      "t": 30.677200000000003,
+      "len": 0.12,
+      "gain": 0.0714,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 30.880000000000003,
+      "len": 0.20836534409215354,
+      "gain": 0.1553598347028789,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0030458803531443
+    },
+    {
+      "t": 31.270000000000003,
+      "len": 0.18729188003929287,
+      "gain": 0.1459890179630838,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9918787365173523
+    },
+    {
+      "t": 31.457200000000004,
+      "len": 0.12,
+      "gain": 0.0714,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 31.660000000000004,
+      "len": 0.211500304812487,
+      "gain": 0.21386676396410473,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.988178244874381
+    },
+    {
+      "t": 31.660000000000004,
+      "len": 1.03,
+      "gain": 0.08819999999999999,
+      "pan": 0.16,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 6,
+      "len": 1,
+      "gain": 0.21,
+      "pan": 0.08,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 9.933333333333332,
+      "len": 1,
+      "gain": 0.16,
+      "pan": 0.08,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 18.1999997,
+      "len": 0.882375,
+      "gain": 0.28,
+      "pan": 0.08,
+      "type": "cymbal",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 22.141666666666666,
+      "len": 2,
+      "gain": 0.28,
+      "pan": 0.08,
+      "type": "bigGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 29.99999925,
+      "len": 1,
+      "gain": 0.24,
+      "pan": 0.08,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 1
+    },
+    {
+      "t": 9,
+      "len": 0.18663933702143617,
+      "gain": 0.272680471070754,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9953466203750868
+    },
+    {
+      "t": 9.1,
+      "len": 0.20758978206834894,
+      "gain": 0.13557007806819038,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0067932916427782
+    },
+    {
+      "t": 9.2,
+      "len": 0.1835690616025711,
+      "gain": 0.20644746804296227,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0119942419029688
+    },
+    {
+      "t": 9.29,
+      "len": 0.12,
       "gain": 0.1,
-      "pan": 0.25,
-      "type": "light_gong"
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
     },
     {
-      "t": 43.666666,
-      "len": 0.16,
-      "gain": 0.09,
+      "t": 16.633333333333333,
+      "len": 0.20771884387216483,
+      "gain": 0.26694477881000717,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0061677414718504
+    },
+    {
+      "t": 16.733333333333334,
+      "len": 0.186766176031674,
+      "gain": 0.13759778634476916,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9946706479755099
+    },
+    {
+      "t": 16.833333333333332,
+      "len": 0.21152276086484134,
+      "gain": 0.2068360906830344,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9880733361529195
+    },
+    {
+      "t": 16.923333333333332,
+      "len": 0.12,
+      "gain": 0.1,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 21.591666666666665,
+      "len": 0.18718570567780823,
+      "gain": 0.26233508770702174,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9924413440687065
+    },
+    {
+      "t": 21.691666666666666,
+      "len": 0.20821736394332727,
+      "gain": 0.1405108299829383,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.003758745389197
+    },
+    {
+      "t": 21.791666666666664,
+      "len": 0.18363690391535611,
+      "gain": 0.20470527347080636,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0116203735332023
+    },
+    {
+      "t": 21.881666666666664,
+      "len": 0.12,
+      "gain": 0.1,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 26.694444444444443,
+      "len": 0.2071771962222788,
+      "gain": 0.26055029849470934,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0087982838408796
+    },
+    {
+      "t": 26.794444444444444,
+      "len": 0.18616418101634943,
+      "gain": 0.14323560733318946,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9978870925606169
+    },
+    {
+      "t": 26.894444444444442,
+      "len": 0.2113419865118114,
+      "gain": 0.20084032866314697,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 0.9889184986359513
+    },
+    {
+      "t": 26.984444444444442,
+      "len": 0.12,
+      "gain": 0.1,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 18.35,
+      "len": 0.4,
+      "gain": 0.045,
+      "pan": 0.36,
+      "type": "fish_bucket_splash",
+      "bus": "foley"
+    },
+    {
+      "t": 0,
+      "len": 36,
+      "gain": 0.045,
+      "pan": 0,
+      "type": "original_air_water_bed",
+      "bus": "foley"
+    },
+    {
+      "t": 0.24000000000000005,
+      "len": 0.22,
+      "gain": 0.07,
+      "pan": -0.3,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1,
+      "sourceTime": 0.4,
+      "role": "adult_murmur"
+    },
+    {
+      "t": 4.68,
+      "len": 0.22,
+      "gain": 0.07,
+      "pan": -0.2,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1,
+      "sourceTime": 7.8,
+      "role": "adult_murmur"
+    },
+    {
+      "t": 27.9,
+      "len": 0.22,
+      "gain": 0.095,
       "pan": 0.3,
-      "type": "woodblock"
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1.22,
+      "sourceTime": 41.8,
+      "role": "chick_response"
     },
     {
-      "t": 41.8,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.35,
-      "type": "bird_chirp"
+      "t": 28.9125,
+      "len": 0.22,
+      "gain": 0.095,
+      "pan": 0.55,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1.22,
+      "sourceTime": 42.7,
+      "role": "chick_response"
     },
     {
-      "t": 41.97,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.7,
-      "type": "bird_chirp"
+      "t": 30.9375,
+      "len": 0.22,
+      "gain": 0.095,
+      "pan": 0.4,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1.22,
+      "sourceTime": 44.5,
+      "role": "chick_response"
     },
     {
-      "t": 42.25,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.35,
-      "type": "bird_chirp"
+      "t": 32.085,
+      "len": 0.268,
+      "gain": 0.3,
+      "pan": -0.32,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 1,
+      "sourceTime": 45.65,
+      "role": "adult"
     },
     {
-      "t": 42.42,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.7,
-      "type": "bird_chirp"
+      "t": 32.1255,
+      "len": 0.21417322834645672,
+      "gain": 0.15,
+      "pan": 0.24,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1.27,
+      "sourceTime": 45.695,
+      "role": "chick_1",
+      "processed": true
     },
     {
-      "t": 42.7,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.35,
-      "type": "bird_chirp"
+      "t": 32.166000000000004,
+      "len": 0.19142857142857145,
+      "gain": 0.12,
+      "pan": 0.62,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 1.4,
+      "sourceTime": 45.74,
+      "role": "chick_2",
+      "processed": true
     },
     {
-      "t": 42.870000000000005,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.7,
-      "type": "bird_chirp"
+      "t": 32.427,
+      "len": 0.2804123711340206,
+      "gain": 0.26,
+      "pan": -0.32,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 0.97,
+      "sourceTime": 46.03,
+      "role": "adult"
     },
     {
-      "t": 43.3,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.35,
-      "type": "bird_chirp"
+      "t": 32.4675,
+      "len": 0.20694980694980697,
+      "gain": 0.12,
+      "pan": 0.24,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 1.295,
+      "sourceTime": 46.075,
+      "role": "chick_1",
+      "processed": true
     },
     {
-      "t": 43.47,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.7,
-      "type": "bird_chirp"
+      "t": 32.508,
+      "len": 0.19681620839363245,
+      "gain": 0.145,
+      "pan": 0.62,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1.382,
+      "sourceTime": 46.120000000000005,
+      "role": "chick_2",
+      "processed": true
     },
     {
-      "t": 44.05,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.35,
-      "type": "bird_chirp"
+      "t": 32.769,
+      "len": 0.2614634146341464,
+      "gain": 0.28,
+      "pan": -0.32,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 1.025,
+      "sourceTime": 46.41,
+      "role": "adult"
     },
     {
-      "t": 44.22,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.7,
-      "type": "bird_chirp"
+      "t": 32.8095,
+      "len": 0.20606060606060606,
+      "gain": 0.145,
+      "pan": 0.24,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1.32,
+      "sourceTime": 46.455,
+      "role": "chick_1",
+      "processed": true
     },
     {
-      "t": 44.5,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.35,
-      "type": "bird_chirp"
+      "t": 32.85,
+      "len": 0.1964809384164223,
+      "gain": 0.11,
+      "pan": 0.62,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 1.3639999999999999,
+      "sourceTime": 46.5,
+      "role": "chick_2",
+      "processed": true
     },
     {
-      "t": 44.67,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.7,
-      "type": "bird_chirp"
+      "t": 33.336,
+      "len": 0.272,
+      "gain": 0.3,
+      "pan": -0.32,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1,
+      "sourceTime": 47.04,
+      "role": "adult"
     },
     {
-      "t": 46.2,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.35,
-      "type": "bird_chirp"
+      "t": 33.3765,
+      "len": 0.2110236220472441,
+      "gain": 0.15,
+      "pan": 0.24,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 1.27,
+      "sourceTime": 47.085,
+      "role": "chick_1",
+      "processed": true
     },
     {
-      "t": 46.370000000000005,
-      "len": 0.32,
-      "gain": 0.07,
-      "pan": 0.7,
-      "type": "bird_chirp"
+      "t": 33.417,
+      "len": 0.1942857142857143,
+      "gain": 0.12,
+      "pan": 0.62,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1.4,
+      "sourceTime": 47.13,
+      "role": "chick_2",
+      "processed": true
     },
     {
-      "t": 0.8,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 33.678000000000004,
+      "len": 0.27628865979381445,
+      "gain": 0.26,
+      "pan": -0.32,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 0.97,
+      "sourceTime": 47.42,
+      "role": "adult"
     },
     {
-      "t": 2.3,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 33.718500000000006,
+      "len": 0.21003861003861007,
+      "gain": 0.12,
+      "pan": 0.24,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1.295,
+      "sourceTime": 47.465,
+      "role": "chick_1",
+      "processed": true
     },
     {
-      "t": 5.2,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 33.75900000000001,
+      "len": 0.19392185238784374,
+      "gain": 0.145,
+      "pan": 0.62,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 1.382,
+      "sourceTime": 47.510000000000005,
+      "role": "chick_2",
+      "processed": true
     },
     {
-      "t": 7,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 34.019999999999996,
+      "len": 0.26536585365853665,
+      "gain": 0.28,
+      "pan": -0.32,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1.025,
+      "sourceTime": 47.8,
+      "role": "adult"
     },
     {
-      "t": 10.6,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 34.0605,
+      "len": 0.20303030303030303,
+      "gain": 0.145,
+      "pan": 0.24,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 1.32,
+      "sourceTime": 47.845,
+      "role": "chick_1",
+      "processed": true
     },
     {
-      "t": 12.2,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 34.101,
+      "len": 0.19941348973607043,
+      "gain": 0.11,
+      "pan": 0.62,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1.3639999999999999,
+      "sourceTime": 47.89,
+      "role": "chick_2",
+      "processed": true
     },
     {
-      "t": 15.3,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 34.587,
+      "len": 0.268,
+      "gain": 0.3,
+      "pan": -0.32,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 1,
+      "sourceTime": 48.43,
+      "role": "adult"
     },
     {
-      "t": 17.5,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 34.6275,
+      "len": 0.21417322834645672,
+      "gain": 0.15,
+      "pan": 0.24,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1.27,
+      "sourceTime": 48.475,
+      "role": "chick_1",
+      "processed": true
     },
     {
-      "t": 19.7,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 34.668000000000006,
+      "len": 0.19142857142857145,
+      "gain": 0.12,
+      "pan": 0.62,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 1.4,
+      "sourceTime": 48.52,
+      "role": "chick_2",
+      "processed": true
     },
     {
-      "t": 21.6,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 34.929,
+      "len": 0.2804123711340206,
+      "gain": 0.26,
+      "pan": -0.32,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 0.97,
+      "sourceTime": 48.81,
+      "role": "adult"
     },
     {
-      "t": 24.3,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 34.969500000000004,
+      "len": 0.20694980694980697,
+      "gain": 0.12,
+      "pan": 0.24,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 1.295,
+      "sourceTime": 48.855000000000004,
+      "role": "chick_1",
+      "processed": true
     },
     {
-      "t": 27.2,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 35.010000000000005,
+      "len": 0.19681620839363245,
+      "gain": 0.145,
+      "pan": 0.62,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1.382,
+      "sourceTime": 48.900000000000006,
+      "role": "chick_2",
+      "processed": true
     },
     {
-      "t": 30.5,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 35.271,
+      "len": 0.2614634146341464,
+      "gain": 0.28,
+      "pan": -0.32,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 1.025,
+      "sourceTime": 49.19,
+      "role": "adult"
     },
     {
-      "t": 36.3,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 35.3115,
+      "len": 0.20606060606060606,
+      "gain": 0.145,
+      "pan": 0.24,
+      "type": "callB",
+      "bus": "birds",
+      "playbackRate": 1.32,
+      "sourceTime": 49.235,
+      "role": "chick_1",
+      "processed": true
     },
     {
-      "t": 38.2,
-      "len": 1.8,
-      "gain": 0.033,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 35.352000000000004,
+      "len": 0.1964809384164223,
+      "gain": 0.11,
+      "pan": 0.62,
+      "type": "callA",
+      "bus": "birds",
+      "playbackRate": 1.3639999999999999,
+      "sourceTime": 49.28,
+      "role": "chick_2",
+      "processed": true
     },
     {
-      "t": 41.2,
-      "len": 1.8,
-      "gain": 0.048,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 33.066,
+      "len": 0.18762111790803862,
+      "gain": 0.08255961690662336,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 0.9901381859604301
     },
     {
-      "t": 42.8,
-      "len": 1.8,
-      "gain": 0.048,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 33.136,
+      "len": 0.12,
+      "gain": 0.035,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
     },
     {
-      "t": 45,
-      "len": 1.8,
-      "gain": 0.048,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 34.317,
+      "len": 0.20891125875221864,
+      "gain": 0.08789479779386965,
+      "pan": -0.18,
+      "type": "drumB",
+      "bus": "percussion",
+      "playbackRate": 1.0004247796328039
     },
     {
-      "t": 46.5,
-      "len": 1.8,
-      "gain": 0.048,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 34.387,
+      "len": 0.12,
+      "gain": 0.035,
+      "pan": 0.22,
+      "type": "original_clapper",
+      "bus": "percussion"
     },
     {
-      "t": 48,
-      "len": 1.8,
-      "gain": 0.048,
-      "pan": -0.1,
-      "type": "plucked_string"
+      "t": 35.55,
+      "len": 0.45,
+      "gain": 0.1,
+      "pan": 0.08,
+      "type": "smallGong",
+      "bus": "percussion",
+      "playbackRate": 0.96
+    },
+    {
+      "t": 35.55,
+      "len": 0.18387310969888998,
+      "gain": 0.10816612449222862,
+      "pan": -0.18,
+      "type": "drumA",
+      "bus": "percussion",
+      "playbackRate": 1.0103208328697495
     }
   ]
 }

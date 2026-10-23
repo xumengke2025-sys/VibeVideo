@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-13",
+  "objective": "结合 FirmBuddy 实际项目重新梳理产品特点，诊断 V3 表达问题，形成下一版叙事依据；本轮不渲染",
+  "source_root": "D:/ai项目/firmbuddy",
+  "research_scope": "只读检查源码、静态专家配置与已有文档；未验证在线数据源、生产知识库存量或运行效果",
+  "positioning": "面向券商展业与企业客户经营的 AI 专家协作平台",
+  "core_message": "把业务问题和市场信号，转成有依据的客户服务方案与持续跟进行动",
+  "constraints": {
+    "resolution": "1920x1080",
+    "visual": "同一张有蓝晒纸质感的工程图纸，无人物主体",
+    "delivery_mode": "ai_review_once",
+    "review_budget": "沿用已使用的一轮，不自动再派审片",
+    "duration": "当前 V3 48 秒；建议下一版约 65–70 秒，尚未作为制作指令锁定"
+  },
+  "evidence": [
+    {
+      "feature": "企业全生命周期与跨业务服务视角",
+      "source": "web/js/panorama.js:25",
+      "mechanism": "上市前、上市中、上市后；投行、机构、财富、资管、国际、投资业务矩阵及期货横条；点击业务标签预填问题，点击专家启动对话",
+      "boundary": "业务矩阵展示服务地图，不等于每个业务都已有独立主专家或交易执行能力"
+    },
+    {
+      "feature": "专业 AI 专家团队",
+      "source": "plugins/expert-personas/plugin.mjs:139",
+      "mechanism": "两份静态源合计59条，enabled后59条，排除hall_hidden后56条；六类原始分类，包括14条行业研究系列；全部56条可见配置带工具白名单",
+      "boundary": "仅为本次读取的静态基线；运行时活跃版本、用户自定义专家会影响实际目录；并非真人顾问"
+    },
+    {
+      "feature": "智能组局与专家接力",
+      "source": "src/smart-assembly.mjs:4",
+      "mechanism": "从目标拆子问题，按专业范围和职责边界选互补专家，规定具体任务、成果与顺序；顺序分析、独立观点、方案复核、自由讨论；超出当前专业可建议一键接力",
+      "additional_source": "plugins/expert-personas/plugin.mjs:219",
+      "boundary": "组局只是拟定方案，不代表已完成分析；圆桌主要分析检索，不自动写业务工作流"
+    },
+    {
+      "feature": "主动和定向发现候选商机",
+      "source": "plugins/client-opportunity/plugin.mjs:93",
+      "mechanism": "市场事件扫描、客户定向扫描、上传名单持续监控、监测报告",
+      "additional_source": "plugins/client-watchlist/plugin.mjs:1229",
+      "boundary": "候选线索须核验；数据源和扫描范围以实际返回为准"
+    },
+    {
+      "feature": "前置经营线索",
+      "source": "plugins/client-watchlist/plugin.mjs:1373",
+      "mechanism": "减持前置信号经规则与装备专家分析分组；回购事前名单支持名单扫描或A股分批筛选",
+      "boundary": "减持当前描述仅历史减持信号确认上线；回购初筛不能直接触达；单批不等于全市场覆盖；不自动创建商机"
+    },
+    {
+      "feature": "从信号推导服务切入点",
+      "source": "plugins/demand-map/plugin.mjs:4",
+      "mechanism": "人、家、企、社四维31场景，触发场景→需求→解决主体→券商切入点→话术→异议处理→合规提示；A/C/B分级",
+      "boundary": "场景匹配是需求假设，不等于客户需求已确认；私密信息需授权补充"
+    },
+    {
+      "feature": "知识库成为专家的知识装备",
+      "source": "plugins/knowledge-system/plugin.mjs:49",
+      "mechanism": "在当前身份及专家装备范围内检索，返回引用；文档和装备版本化，提示有效期与替代版本，支持原文追溯",
+      "additional_source": "src/knowledge/knowledge-service.mjs:440",
+      "boundary": "不把测试文档数量当生产库存，不声称所有专家已经装配所有知识"
+    },
+    {
+      "feature": "商机研判有证据与分项判断",
+      "source": "plugins/opportunity-center/plugin.mjs:174",
+      "mechanism": "分开记录事实可信度、需求确认度、服务适配度、行动优先级；商机详情关联证据、反馈、变更、任务及跟进",
+      "boundary": "不得把四类评分合成虚假成交概率；事实核验不等于需求确认"
+    },
+    {
+      "feature": "成果与持续经营闭环",
+      "source": "plugins/sales-sop/plugin.mjs:10",
+      "mechanism": "客户经营计划、拜访策略包、商机健康报告、销售陪练复盘、客户经营作战地图；商机登记去重、认领转交、状态跟进、今日行动",
+      "additional_source": "src/customer-context.mjs:58",
+      "boundary": "任务和商机写入按实际确认机制执行；外部CRM、通知需配置，不等于已在线接通"
+    },
+    {
+      "feature": "拜访之后也有诊断与陪练",
+      "source": "plugins/expert-personas/data/personas.json: opportunity-diagnosis / sales-coach / client-strategy",
+      "mechanism": "诊断推进阻塞与决策链缺口；按真实记录复盘需求挖掘、价值表达、异议处理；指定客户角色文本对练；客户组合分层和资源投入建议",
+      "boundary": "专家协议说明预期工作方法，非本轮真实执行验收"
+    }
+  ],
+  "v3_diagnosis": [
+    "专家席位只说明数量，没有展示各自分工及协作",
+    "知识档案只表现存储，没有表现资料被专家检索、引用和用于判断",
+    "拜访/答疑/查询是入口，没有具体业务问题、处理中间过程和可用结果",
+    "遗漏主动监测、前置筛选、需求推导、商机诊断、销售陪练和持续客户经营",
+    "各模块依次描绘，使观众难以建立一套产品如何工作的因果关系"
+  ],
+  "proposed_story": [
+    {"time": "0–6s", "action": "图纸出现三条真实任务式问题：哪些客户值得跟进？业务问题如何回答？见客户该准备什么？立即给产品定位"},
+    {"time": "6–17s", "action": "市场事件/客户名单/主动查询汇入候选信号；展示核验依据、需求假设、服务切入点；示例明确标注"},
+    {"time": "17–31s", "action": "从专家广场选出与问题相关的互补AI专家，各自承担行业、需求、财务或合规子问题；输出汇合成判断"},
+    {"time": "31–42s", "action": "知识档案展开为专家装备；问题连向原文条目，带出处和版本的依据返回专家判断"},
+    {"time": "42–57s", "action": "三个入口各自落到对应结果：查询得到优先线索和待验证问题；答疑得到有依据的分析；拜访得到目标/话术/材料；确认后进入跟进，反馈可再诊断或陪练"},
+    {"time": "57–68s", "action": "拉回上市前/中/后业务全景，刚才流程作为其中一条活跃路径；收束品牌与核心价值"}
+  ],
+  "production_guidance": "减少纯标题停留、增加有因果的动作；专家和知识数量通过广场/装备背景表现，前景始终是具体问题如何被解决。关键判断留足阅读时间，不能仅靠提速增加信息量。",
+  "next_action": "向用户解释产品定位、核心差异、V3漏讲与新版叙事建议；等待进一步制作指令"
+}

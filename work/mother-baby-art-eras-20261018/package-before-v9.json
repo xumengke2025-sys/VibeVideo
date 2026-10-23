@@ -1,0 +1,17 @@
+{
+  "name": "mother-baby-art-eras",
+  "version": "8.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render-v8.mjs full",
+    "stills": "node render-v8.mjs stills",
+    "sample": "node render-v8.mjs sample",
+    "check": "node check_v8.mjs check",
+    "preview": "node preview-v8.mjs"
+  },
+  "devDependencies": {
+    "@remotion/renderer": "4.0.506",
+    "@remotion/compositor-win32-x64-msvc": "4.0.506"
+  }
+}

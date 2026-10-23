@@ -1,0 +1,45 @@
+{
+  "reference": "Lemo Toy Town Rush Hour",
+  "source_root": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261011/lemomo-ai--lemo-opuscar",
+  "license": "MIT Copyright 2026 LemoLab",
+  "files": [
+    {
+      "path": "styles/tilt-shift/demo/post.js",
+      "sha256": "FF8A5CC53F9B0B3E7D6286CA0D48B90BCA16D7771299D4B9710120E051E42E43"
+    },
+    {
+      "path": "styles/tilt-shift/demo/main.js",
+      "sha256": "0D12708FC8F0FB3BC0F6D3FFA09A404EB789FDFC86B60984D66AA2848637BFB7"
+    },
+    {
+      "path": "styles/tilt-shift/demo/story.js",
+      "sha256": "128CAC0605EEA63ED5CA67262A569A48C4F47C3D9382ED11974B7C169463B44B"
+    },
+    {
+      "path": "styles/tilt-shift/demo/geo.js",
+      "sha256": "926857F0B324BD5503F8E99326582CA1B005BDE1AAEB99771114FDE6B79823E2"
+    },
+    {
+      "path": "styles/tilt-shift/demo/build.sh",
+      "sha256": "3A9112A69D45EDF32EE9A0E00BCC2A37E5A1CFABE7B07D446767CD81B10BF67F"
+    },
+    {
+      "path": "styles/tilt-shift/demo/index.html",
+      "sha256": "E526B4784990C8598F6D30ADA5E18679E93063708B74038F2F0F79CA3837F3E7"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "14C9FF6F14BFB2391E74FEDB01C256891D2A3BBA1C2ACF5789901BDF77E54E33"
+    }
+  ],
+  "adoption": {
+    "post": "film/post.js实际改编：输出分辨率CoC/128采样Gather、bloom、grade；新增符号抵消处理",
+    "timing": "旧预演实现解析积分背景时间与8/12Hz量化，相机连续",
+    "model": "当前Blender城邦为原创几何，不复制原片city.js或鸭子叙事",
+    "camera": "旧预演实现分离机位/目标、对数高度和view-space焦深"
+  },
+  "verification": {
+    "current_model": "model/build_city.py Cycles v2正在渲染；尚未接入最终移轴影片",
+    "old_previs": "真实渲染并检查，seek一致，无加载错误，但用户否定质感；已弃用为交付"
+  }
+}

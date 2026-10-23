@@ -1,0 +1,397 @@
+{
+  "version": "v19-mechanical-relief",
+  "duration": 120,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "aspect_ratio": "16:9",
+  "delivery_mode": "ai_review_once",
+  "review_budget": "historical_already_used",
+  "shots": [
+    {
+      "id": "s1",
+      "start": 0,
+      "end": 10,
+      "title": "准备被重复工作占满",
+      "benefit": "搜、筛、抄，挤占研判",
+      "voiceover": false,
+      "subjectId": "A01",
+      "understanding": "搜、筛、抄，挤占研判"
+    },
+    {
+      "id": "s2",
+      "start": 10,
+      "end": 24,
+      "title": "商机查询",
+      "benefit": "从业务场景找到线索",
+      "voiceover": false,
+      "subjectId": "A01",
+      "understanding": "从业务场景找到线索"
+    },
+    {
+      "id": "s3",
+      "start": 24,
+      "end": 40,
+      "title": "归集与研判",
+      "benefit": "少搜少抄，先排重点",
+      "voiceover": false,
+      "subjectId": "A01",
+      "understanding": "少搜少抄，先排重点"
+    },
+    {
+      "id": "s4",
+      "start": 40,
+      "end": 54.4,
+      "title": "专业会商",
+      "benefit": "少找专家，共同研判",
+      "voiceover": false,
+      "subjectId": "A01",
+      "understanding": "少找专家，共同研判"
+    },
+    {
+      "id": "s5",
+      "start": 54.4,
+      "end": 67.2,
+      "title": "产业研究",
+      "benefit": "补齐背景，沟通更深入",
+      "voiceover": false,
+      "subjectId": "A01",
+      "understanding": "补齐背景，沟通更深入"
+    },
+    {
+      "id": "s6",
+      "start": 67.2,
+      "end": 80,
+      "title": "知识查证",
+      "benefit": "少翻资料，依据随用随取",
+      "voiceover": false,
+      "subjectId": "A01",
+      "understanding": "少翻资料，依据随用随取"
+    },
+    {
+      "id": "s7",
+      "start": 80,
+      "end": 96,
+      "title": "跟进准备",
+      "benefit": "少拼材料，沟通更有重点",
+      "voiceover": false,
+      "subjectId": "A01",
+      "understanding": "少拼材料，沟通更有重点"
+    },
+    {
+      "id": "s8",
+      "start": 96,
+      "end": 104,
+      "title": "持续跟进",
+      "benefit": "少重复交接，后续接得上",
+      "voiceover": false,
+      "subjectId": "A01",
+      "understanding": "少重复交接，后续接得上"
+    },
+    {
+      "id": "s9",
+      "start": 104,
+      "end": 113,
+      "title": "记录回流",
+      "benefit": "同一客户，持续经营",
+      "voiceover": false,
+      "subjectId": "A01",
+      "understanding": "同一客户，持续经营"
+    },
+    {
+      "id": "s10",
+      "start": 113,
+      "end": 120,
+      "title": "完整机器",
+      "benefit": "AI 辅助准备，业务专注判断",
+      "voiceover": false,
+      "subjectId": "A01",
+      "understanding": "AI 辅助准备，业务专注判断"
+    }
+  ],
+  "business_messages": [],
+  "burdens": [],
+  "soundtrack": {
+    "sample_rate": 48000,
+    "events": [
+      {
+        "id": "engage",
+        "at": 9.6,
+        "sound": "drop",
+        "action": "输入齿轮啮合"
+      },
+      {
+        "id": "fan",
+        "at": 14.4,
+        "sound": "tick",
+        "action": "业务卡扇形展开"
+      },
+      {
+        "id": "select",
+        "at": 21.6,
+        "sound": "accent",
+        "action": "抽出股东服务卡"
+      },
+      {
+        "id": "travel1",
+        "at": 24,
+        "sound": "travel",
+        "action": "跟随档案进入归集"
+      },
+      {
+        "id": "merge",
+        "at": 30.4,
+        "sound": "tick",
+        "action": "重复纸张进入滚轮"
+      },
+      {
+        "id": "file",
+        "at": 33.6,
+        "sound": "drop",
+        "action": "客户档案归集落定"
+      },
+      {
+        "id": "judge",
+        "at": 37.6,
+        "sound": "accent",
+        "action": "背景与信号对齐"
+      },
+      {
+        "id": "travel2",
+        "at": 40,
+        "sound": "travel",
+        "action": "档案进入专家会场"
+      },
+      {
+        "id": "expert1",
+        "at": 46.4,
+        "sound": "relay",
+        "action": "股东专家输出需求",
+        "note": 69
+      },
+      {
+        "id": "expert2",
+        "at": 48,
+        "sound": "relay",
+        "action": "解禁专家输出时机",
+        "note": 62
+      },
+      {
+        "id": "expert3",
+        "at": 49.6,
+        "sound": "relay",
+        "action": "策略专家输出切入",
+        "note": 65
+      },
+      {
+        "id": "consult",
+        "at": 52,
+        "sound": "drop",
+        "action": "会商结果接合"
+      },
+      {
+        "id": "travel3",
+        "at": 54.4,
+        "sound": "travel",
+        "action": "会商转产业研究"
+      },
+      {
+        "id": "industry",
+        "at": 61.6,
+        "sound": "accent",
+        "action": "客户定位衬底节点"
+      },
+      {
+        "id": "evidence",
+        "at": 65.6,
+        "sound": "tick",
+        "action": "研究依据装入档案"
+      },
+      {
+        "id": "travel4",
+        "at": 67.2,
+        "sound": "travel",
+        "action": "下降进入知识仓"
+      },
+      {
+        "id": "drawer",
+        "at": 73.6,
+        "sound": "tick",
+        "action": "知识抽屉打开"
+      },
+      {
+        "id": "retrieve",
+        "at": 77.6,
+        "sound": "drop",
+        "action": "引用证据装入档案"
+      },
+      {
+        "id": "travel5",
+        "at": 80,
+        "sound": "travel",
+        "action": "跟随档案进入装配"
+      },
+      {
+        "id": "page1",
+        "at": 86.4,
+        "sound": "tick",
+        "action": "关注依据装配"
+      },
+      {
+        "id": "page2",
+        "at": 88,
+        "sound": "tick",
+        "action": "沟通重点装配"
+      },
+      {
+        "id": "page3",
+        "at": 89.6,
+        "sound": "tick",
+        "action": "跟进安排装配"
+      },
+      {
+        "id": "human",
+        "at": 92.8,
+        "sound": "accent",
+        "action": "人工审阅闸门开启"
+      },
+      {
+        "id": "travel6",
+        "at": 96,
+        "sound": "travel",
+        "action": "准备包送至跟进"
+      },
+      {
+        "id": "record",
+        "at": 101.6,
+        "sound": "tick",
+        "action": "沟通记录归档"
+      },
+      {
+        "id": "return",
+        "at": 104,
+        "sound": "travel",
+        "action": "同一档案沿反馈回路返回"
+      },
+      {
+        "id": "resolve",
+        "at": 114.4,
+        "sound": "resolve",
+        "action": "全机揭示"
+      }
+    ],
+    "breaks": [
+      [
+        9.25,
+        9.6
+      ],
+      [
+        33.25,
+        33.6
+      ],
+      [
+        92.45,
+        92.8
+      ]
+    ],
+    "phrases": [
+      {
+        "start": 0,
+        "end": 9.6,
+        "beats": 24
+      },
+      {
+        "start": 9.6,
+        "end": 24,
+        "beats": 36
+      },
+      {
+        "start": 24,
+        "end": 40,
+        "beats": 40
+      },
+      {
+        "start": 40,
+        "end": 54.4,
+        "beats": 36
+      },
+      {
+        "start": 54.4,
+        "end": 67.2,
+        "beats": 32
+      },
+      {
+        "start": 67.2,
+        "end": 80,
+        "beats": 32
+      },
+      {
+        "start": 80,
+        "end": 96,
+        "beats": 40
+      },
+      {
+        "start": 96,
+        "end": 104,
+        "beats": 20
+      },
+      {
+        "start": 104,
+        "end": 114.4,
+        "beats": 26
+      },
+      {
+        "start": 114.4,
+        "end": 120,
+        "beats": 14
+      }
+    ],
+    "density": [
+      {
+        "start": 0,
+        "end": 9.6,
+        "gain": 0.5
+      },
+      {
+        "start": 9.6,
+        "end": 24,
+        "gain": 0.9
+      },
+      {
+        "start": 24,
+        "end": 40,
+        "gain": 0.78
+      },
+      {
+        "start": 40,
+        "end": 54.4,
+        "gain": 0.55
+      },
+      {
+        "start": 54.4,
+        "end": 67.2,
+        "gain": 0.6
+      },
+      {
+        "start": 67.2,
+        "end": 80,
+        "gain": 0.72
+      },
+      {
+        "start": 80,
+        "end": 96,
+        "gain": 0.78
+      },
+      {
+        "start": 96,
+        "end": 114.4,
+        "gain": 0.9
+      },
+      {
+        "start": 114.4,
+        "end": 120,
+        "gain": 0.55
+      }
+    ]
+  }
+}

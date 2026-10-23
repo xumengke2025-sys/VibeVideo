@@ -1,0 +1,6 @@
+import fs from'node:fs';import path from'node:path';import{fileURLToPath}from'node:url';import{createHash}from'node:crypto';import{simulate,sampleCache}from'./simulation.js';
+const root=path.dirname(fileURLToPath(import.meta.url)),a=simulate(),b=simulate(),noThreat=simulate({threat:false}),hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
+fs.writeFileSync(path.join(root,'flock-cache.json'),JSON.stringify(a));
+const seeks=[1,8,12,15,19,25,29],snap=Object.fromEntries(seeks.map(t=>[t,hash(sampleCache(a,t))]));
+const check={deterministic:hash(a)===hash(b),shuffleSeeking:seeks.reverse().every(t=>hash(sampleCache(a,t))===snap[t]),threatChangesTrajectories:hash(a.frames)!==hash(noThreat.frames),sha256:hash(a),metrics:a.metrics,summaries:[0,7,9,12,15,18,21,24,29].map(t=>{const v=sampleCache(a,t);return{t,center:[0,1].map(k=>v.reduce((s,x)=>s+x[k],0)/v.length),bounds:[Math.min(...v.map(x=>x[0])),Math.min(...v.map(x=>x[1])),Math.max(...v.map(x=>x[0])),Math.max(...v.map(x=>x[1]))]};})};
+fs.writeFileSync(path.join(root,'simulation-checks.json'),JSON.stringify(check,null,2));if(!check.deterministic||!check.shuffleSeeking||!check.threatChangesTrajectories)throw Error('Simulation verification failed');console.log(JSON.stringify(check,null,2));

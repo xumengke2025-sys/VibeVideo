@@ -1,0 +1,7 @@
+Generation prompt summary reconstructed from the prior tool-call handoff; not a verbatim original prompt.
+
+Edit the reference atlas, preserving its exact five-column by seven-row grid and all 35 cup designs, shapes, flat 2D materials, decoration order, coffee rims, cell locations and relative scale. Remove every human hand and finger from each cup, reconstructing the right-side handles where occluded. Keep the background transparent. No people, arms, hands, saucers, labels, or additional objects. Output all 35 cups, one per existing cell.
+
+Input: cups-reference-35.png
+Output: cups-only-atlas.png
+Tool: built-in image_gen. Original generated image is preserved without retouching.

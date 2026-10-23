@@ -1,0 +1,41 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {execFileSync} from 'node:child_process';import {fileURLToPath} from 'node:url';
+const work=path.dirname(fileURLToPath(import.meta.url)),root=path.resolve(work,'../..'),base=path.join(root,'reference-sources/video-examples-20261014');fs.mkdirSync(base,{recursive:true});
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,'')),write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex'),gitHash=b=>crypto.createHash('sha1').update(`blob ${b.length}\0`).update(b).digest('hex'),abs=p=>path.resolve(p).replaceAll('\\','/');
+const gh=args=>JSON.parse(execFileSync('C:/Program Files/GitHub CLI/gh.exe',args,{encoding:'utf8',timeout:60000,maxBuffer:15*1024*1024}));
+async function download(url,p,expected){
+ fs.mkdirSync(path.dirname(p),{recursive:true});
+ if(fs.existsSync(p)){const b=fs.readFileSync(p);if(!expected||gitHash(b)===expected)return b;}
+ let error;for(let n=0;n<2;n++){try{const r=await fetch(url,{signal:AbortSignal.timeout(120000)});if(!r.ok)throw Error(`HTTP ${r.status}: ${url}`);const b=Buffer.from(await r.arrayBuffer());if(expected&&gitHash(b)!==expected)throw Error('Git blob mismatch '+p);fs.writeFileSync(p,b);return b;}catch(e){error=e;}}
+ throw error;
+}
+async function pool(items,fn,n=4){let cursor=0;await Promise.all(Array.from({length:n},async()=>{while(cursor<items.length){const i=cursor++;await fn(items[i],i);}}));}
+const lib=read(path.join(root,'skill/vibe-video/references/shotcraft-library.json'));
+const groups={
+ '产品运镜':['cursor-flyover','graze-face-tour','drone-dive-landing','steep-tilt-glide'],
+ '连续变形与状态交接':['mosaic-reframe','line-carry-transition','input-morph-assemble','icon-flip-bloom','autolayout-gap-dial','circle-match-iris'],
+ '空间镜头':['basic-3d-scene','exploded-view','terminal-3d','bullet-time-freeze-orbit'],
+ '数据叙事':['oscilloscope-stream','unit-dot-swarm-regroup','axis-rescale-shock','needle-sweep-selftest','tape-scroll-fixed-pointer','timeline-travel']
+};
+const media=[];const failures=[];
+const selected=Object.entries(groups).flatMap(([group,keys])=>keys.map(key=>{const card=lib.cards.find(c=>c.styles.some(s=>s.key===key));if(!card)throw Error('No card '+key);return{group,key,card,style:card.styles.find(s=>s.key===key)};}));
+await pool(selected,async({group,key,card,style})=>{try{
+ const p=path.join(base,'shotcraft-media',key+'.mp4'),b=await download(style.preview,p);
+ const sourceRoot=path.join(root,'reference-sources/video-shotcraft-20261014'),entry=abs(path.join(sourceRoot,style.source));
+ if(!fs.existsSync(entry))throw Error('Missing source '+entry);
+ const m={id:'shotcraft/'+key,title:'Shotcraft / '+key,group,kind:'镜头样段与源码',repo:'Vincentwei1021/video-shotcraft',repository:lib.source.repository,commit:lib.source.commit,path:abs(p),bytes:b.length,sha256:hash(b),entry,card:abs(path.join(sourceRoot,card.card)),tags:group+' '+card.summary,description:card.summary,license:'代码/文档 Apache-2.0；声音素材许可分别见 assets/audio/ATTRIBUTION.md，品牌及页面素材独立',sourceStatus:'固定版本Gallery条目映射到对应TSX；下载作者公开预览，未验证同版本重渲一致性',representation:'作者Gallery发布的镜头样段',remoteUrl:style.preview,sourceRecord:abs(p+'.source.json'),newlyDownloaded:true,addedRound:'2026-10-14',executed:false};
+ write(p+'.source.json',{...m,downloadedAt:new Date().toISOString(),sourceSha256:hash(fs.readFileSync(entry)),correspondence:'固定commit gallery/api/library.json 的style media URL、镜头卡及准确demo映射；部署媒体未提供固定Git版本，不宣称源码逐像素一致',spatialScope:group==='空间镜头'?'CSS透视/页面空间镜头，不等同真实Three三维世界':null});media.push(m);console.log('Preview '+key+' '+Math.round(b.length/1024)+' KB');
+ }catch(e){failures.push({key,error:String(e)});console.log('Unavailable '+key+' '+e.message);}});
+write(path.join(work,'shotcraft-downloads.json'),{media,failures});
+const repo='Chaoqi31/opus-paints',discovery=path.join(work,'discovery/Chaoqi31--opus-paints'),tree=read(path.join(discovery,'tree.json')),dest=path.join(base,'Chaoqi31--opus-paints');fs.mkdirSync(dest,{recursive:true});
+// Save the complete pinned repository, including the author's finished film and its input plates.
+if(tree.truncated)throw Error('Truncated tree');const files=tree.tree.filter(f=>f.type==='blob');let count=0;
+await pool(files,async f=>{const url=`https://raw.githubusercontent.com/${repo}/${tree.sha}/${f.path}`,p=path.join(dest,f.path),b=await download(url,p,f.sha);f.localSha256=hash(b);count++;if(count%30===0)console.log('Paints source '+count+'/'+files.length);});
+const source={repo,repository:'https://github.com/'+repo,commit:tree.sha,retrieved:'2026-10-14',license:'代码 MIT；绘画 plates/ 下 CC BY 4.0；macOS字体未打包，重建时需替换或合法取得',scope:'完整固定仓库快照（不含Git历史或已安装依赖）',files:files.map(f=>({path:f.path,bytes:f.size,gitBlobSha1:f.sha,sha256:f.localSha256})),modelEvidence:['README声明绘画及影片由Claude Opus 5.5制作；属于作者声明，未独立验证编码会话']};write(path.join(dest,'SOURCE.json'),source);
+const film=path.join(dest,'plates/_timeline.mp4'),filmBytes=fs.readFileSync(film);
+const paints={id:'opus-paints/_timeline',title:'The Claude Glass / 程序绘画解释片',group:'绘制过程与像素解释',kind:'影片与源码',repo,repository:source.repository,commit:tree.sha,path:abs(film),bytes:filmBytes.length,sha256:hash(filmBytes),entry:abs(path.join(dest,'timeline.py')),tags:'科普 程序绘画 Python 笔触 像素 相机 推进 代码 音乐',description:'从代码笔刷到落墨、代码构图、像素放大，再汇成60幅画的墙面。',license:source.license,sourceStatus:'同一Git树内作者MP4及timeline.py绘制/编码入口，输入画作和score.py均保存；未验证重渲一致性',representation:'作者仓库发布完整影片',sourceRecord:abs(path.join(dest,'SOURCE.json')),remoteUrl:`https://raw.githubusercontent.com/${repo}/${tree.sha}/plates/_timeline.mp4`,newlyDownloaded:true,addedRound:'2026-10-14',executed:false};media.push(paints);
+const beach=read(path.join(root,'reference-sources/upstream-videos/manifest.json')).items.find(m=>m.id==='particle-beach/trailer-1'&&m.status==='downloaded');
+if(beach){const sourceRoot=path.join(root,'skill/vibe-video/assets/code-studies/particle-beach');media.push({id:'particle-beach/trailer-1',title:'Particle Beach / 60秒三维海滩预告',group:'三维场景',kind:'影片与源码',repo:'ishuagrawal/particle-beach',repository:beach.repository,commit:'92db82255b962acf2930f19bf6e5e7790174a790',path:beach.path,bytes:beach.bytes,sha256:beach.sha256,entry:abs(path.join(sourceRoot,'js/trailer-shots.js')),tags:'三维 Three 粒子 海滩 长焦 跟拍 相机 夕阳 预告片',description:'已有作者预告视频接入统一目录，配套完整cinematic runtime已保存在项目技能副本。',license:'MIT；外部依赖按其许可',sourceStatus:'已有作者README视频与固定cinematic runtime；未验证作者视频重渲一致性',representation:'已有作者预告片（本次加入统一播放目录）',sourceRecord:abs(path.join(sourceRoot,'SOURCE.json')),remoteUrl:beach.url,newlyDownloaded:false,addedRound:'2026-10-14',executed:false});}
+const packages=[{id:'video-shotcraft',repo:'Vincentwei1021/video-shotcraft',path:abs(path.join(root,'reference-sources/video-shotcraft-20261014')),commit:lib.source.commit,kind:'镜头配方与源码',title:'Shotcraft精选镜头',tags:'产品 空间 连续状态 图表',license:media.find(m=>m.repo.includes('video-shotcraft'))?.license,entries:['gallery/api/library.json','assets/lib/PageCam.tsx'],note:'20段作者镜头样段；CSS空间镜头与真实三维场景分开。'},{id:'opus-paints',repo,path:abs(dest),commit:tree.sha,kind:'完整影片工程',title:'The Claude Glass',tags:'Python 程序绘画 解释片',license:source.license,entries:['timeline.py','score.py','render.py'],note:'作者发布影片、逐帧Python绘制、原创乐谱及60幅程序画作。'},{id:'particle-beach',repo:'ishuagrawal/particle-beach',path:abs(path.join(root,'skill/vibe-video/assets/code-studies/particle-beach')),commit:'92db82255b962acf2930f19bf6e5e7790174a790',kind:'三维影片运行源码',title:'Particle Beach',tags:'Three 三维 摄影 粒子',license:'MIT',entries:['index.html','js/trailer-shots.js','record.mjs'],note:'复用已有作者影片与完整cinematic runtime，首次接入统一目录。'}];
+write(path.join(base,'manifest.json'),{date:'2026-10-14',packages,media,failures,excluded:[{repo:'AbubakrChan/product-launch-motion',reason:'有发布影片，但未公开该影片实际绘制工程，仅技能/技法源码'},{repo:'tin-computer/tin-film-lab',reason:'有影片和源码，未见仓库统一开源许可证，本轮按用户偏好排除'},{repo:'claude-skills-kit/cosmic-opus',reason:'三维交互网页未提供可直接取得的效果视频'},{repo:'Intentface/intentface-launch',reason:'只有YouTube展示链接与本地需重渲示例，本轮未取得可直接保存的作者视频文件'},{repo:'francozanardi/papermotion',reason:'6个附件此前已连续404，不重复同一路径失败下载'}]});
+console.log(JSON.stringify({entries:media.length,newVideos:media.filter(m=>m.newlyDownloaded).length,failures:failures.length,sourceFiles:files.length}));

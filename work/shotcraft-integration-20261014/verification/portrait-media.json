@@ -1,0 +1,120 @@
+{
+  "aspect": "portrait",
+  "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014/verification/portrait-edited.mp4",
+  "sha256": "87aad2af72cfdc031b8bd7a97cdc126f54b5482e38cdb146fa7b959edf21816a",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "frames": "90",
+    "duration": "3.000000",
+    "fps": "30/1"
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "meanDb": -41.08813656936383,
+    "peakDb": -37.82335678248099
+  },
+  "containerDuration": "3.050667",
+  "fullDecodePassed": true,
+  "editedProps": {
+    "project": {
+      "name": "Shotcraft portrait verification",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "background": "#faf7f2",
+      "source": "Shotcraft portrait verification@90f#e8be65dd",
+      "tracks": [
+        {
+          "id": "track_mv7exq560",
+          "name": "Captions",
+          "clips": [
+            {
+              "inOffset": 0,
+              "speed": 1,
+              "opacity": 1,
+              "scale": 1,
+              "x": 0,
+              "y": 0,
+              "props": {
+                "text": "PORTRAIT · EDIT VERIFIED",
+                "color": "#bf5328",
+                "fontSize": 52
+              },
+              "id": "clip_mv7exq561",
+              "cardId": "proj:caption:caption",
+              "start": 0,
+              "duration": 90,
+              "label": "Editable caption"
+            }
+          ]
+        },
+        {
+          "id": "track_mv7exq562",
+          "name": "Shots",
+          "clips": [
+            {
+              "inOffset": 0,
+              "speed": 1,
+              "opacity": 1,
+              "scale": 1,
+              "x": 0,
+              "y": 0,
+              "props": {
+                "mode": "flat"
+              },
+              "id": "clip_mv7exq563",
+              "cardId": "proj:shot:flat",
+              "start": 0,
+              "duration": 45,
+              "label": "Flat page camera"
+            },
+            {
+              "inOffset": 0,
+              "speed": 1,
+              "opacity": 1,
+              "scale": 1,
+              "x": 0,
+              "y": 0,
+              "props": {
+                "mode": "tilt"
+              },
+              "id": "clip_mv7exq564",
+              "cardId": "proj:shot:flat",
+              "start": 45,
+              "duration": 45,
+              "label": "Tilt page camera"
+            }
+          ]
+        },
+        {
+          "id": "track_mv7exq566",
+          "name": "Music",
+          "clips": [
+            {
+              "inOffset": 0,
+              "speed": 1,
+              "opacity": 1,
+              "scale": 1,
+              "x": 0,
+              "y": 0,
+              "props": {
+                "file": "validation-tone.wav",
+                "volume": 0.12
+              },
+              "id": "clip_mv7exq565",
+              "cardId": "audio-clip",
+              "start": 0,
+              "duration": 90,
+              "label": "Synthetic test tone"
+            }
+          ]
+        }
+      ]
+    },
+    "renderExact": true
+  },
+  "visualAudit": "First exported frame must be inspected separately; technical internal sample only.",
+  "audioAudit": "Not listened; technical synthetic tone check only."
+}

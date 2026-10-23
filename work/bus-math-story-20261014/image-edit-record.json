@@ -1,0 +1,9 @@
+{
+  "mode": "built-in image_gen edit",
+  "input": "concept-v1.png",
+  "output": "concept-v2.png",
+  "request": "去掉脸侧突出的圆球形部位，鼻子小巧自然、五官协调、人物更萌；保留天空太阳与其他布局",
+  "approved": true,
+  "purpose": "人物与全片视觉方向参考；正式动画重建可独立活动的原生角色、车身、数字和标签",
+  "history": "第一次误读为移除天空太阳的调用被用户中止，未采用。第二次按用户澄清修改并认可。"
+}

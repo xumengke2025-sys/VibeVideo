@@ -1,0 +1,447 @@
+{
+  "title": "Risky · 证据不变，假设改变",
+  "version": "v4",
+  "duration": 80,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "aspect_ratio": "16:9",
+  "delivery_mode": "ai_review_once",
+  "review_budget_used": true,
+  "shots": [
+    {
+      "id": "signal",
+      "start": 0,
+      "end": 8,
+      "caption": "发现异常，先找依据",
+      "action": "一个信号点亮，采集机构响应"
+    },
+    {
+      "id": "evidence",
+      "start": 8,
+      "end": 16,
+      "caption": "AI 整理线索，保留原文索引",
+      "action": "来源装入同一个案件匣"
+    },
+    {
+      "id": "relations",
+      "start": 16,
+      "end": 24,
+      "caption": "有据连接，保留待核实的关系",
+      "action": "关系先核实，潜在路径不等于必然传导"
+    },
+    {
+      "id": "experts",
+      "start": 24,
+      "end": 32,
+      "caption": "专业知识与方法，支撑专家会商",
+      "action": "知识档案与相关席位响应"
+    },
+    {
+      "id": "conditions",
+      "start": 32,
+      "end": 40,
+      "caption": "共同依据、保留分歧、明确假设",
+      "action": "检索依据进入会商，假设记录随案件出发"
+    },
+    {
+      "id": "snapshot",
+      "start": 40,
+      "end": 48,
+      "caption": "固定同一份证据与初始状态",
+      "action": "夹具固定S-001，再解锁分发"
+    },
+    {
+      "id": "assumptions",
+      "start": 48,
+      "end": 54,
+      "caption": "同一快照，只改变情景假设",
+      "action": "分发试验副本，在52秒装入差异假设"
+    },
+    {
+      "id": "simulation",
+      "start": 54,
+      "end": 62,
+      "caption": "在假设下比较可能路径，不是预测",
+      "action": "业务与舆情示意分步响应，保留未触达支路"
+    },
+    {
+      "id": "records",
+      "start": 62,
+      "end": 69,
+      "caption": "三份情景记录，回到同一个案件",
+      "action": "记录归档；不合并为确定性结论"
+    },
+    {
+      "id": "review",
+      "start": 69,
+      "end": 76,
+      "caption": "带着条件与疑点，返回专家复核",
+      "action": "原案件携带记录，形成核查和监测事项"
+    },
+    {
+      "id": "reveal",
+      "start": 76,
+      "end": 80,
+      "caption": "有据研判 · 情景推演 · 持续跟踪",
+      "action": "拉远揭示完整闭环"
+    }
+  ],
+  "events": [
+    {
+      "id": "signal",
+      "at": 2,
+      "sound": "bell",
+      "action": "异常指针到位",
+      "note": 62
+    },
+    {
+      "id": "bind",
+      "at": 10,
+      "sound": "lock",
+      "action": "原文索引进入案件",
+      "note": 69
+    },
+    {
+      "id": "edge",
+      "at": 18,
+      "sound": "lock",
+      "action": "有据关系展开",
+      "note": 74
+    },
+    {
+      "id": "expert",
+      "at": 28,
+      "sound": "bell",
+      "action": "专家席位响应",
+      "note": 62
+    },
+    {
+      "id": "knowledge",
+      "at": 32,
+      "sound": "scan",
+      "action": "检索档案送出",
+      "note": 69
+    },
+    {
+      "id": "conditions",
+      "at": 36,
+      "sound": "lock",
+      "action": "条件记录就位",
+      "note": 74
+    },
+    {
+      "id": "freeze",
+      "at": 44,
+      "sound": "lock",
+      "action": "固定快照S-001",
+      "note": 62
+    },
+    {
+      "id": "split",
+      "at": 48,
+      "sound": "relay",
+      "action": "分发试验副本",
+      "note": 69
+    },
+    {
+      "id": "copies",
+      "at": 50,
+      "sound": "lock",
+      "action": "三个同源副本就位",
+      "note": 74
+    },
+    {
+      "id": "assumptions",
+      "at": 52,
+      "sound": "drop",
+      "action": "三种假设装入",
+      "note": 62
+    },
+    {
+      "id": "run",
+      "at": 54,
+      "sound": "bell",
+      "action": "在假设下启动推演",
+      "note": 69
+    },
+    {
+      "id": "business",
+      "at": 56,
+      "sound": "relay",
+      "action": "业务层示意响应",
+      "note": 74
+    },
+    {
+      "id": "sentiment",
+      "at": 58,
+      "sound": "relay",
+      "action": "舆情层示意响应",
+      "note": 62
+    },
+    {
+      "id": "trace",
+      "at": 60,
+      "sound": "relay",
+      "action": "比较条件下的路径",
+      "note": 69
+    },
+    {
+      "id": "records",
+      "at": 62,
+      "sound": "lock",
+      "action": "形成三份独立记录",
+      "note": 74
+    },
+    {
+      "id": "record0",
+      "at": 63.5,
+      "sound": "relay",
+      "action": "基准记录归入原案件",
+      "note": 62
+    },
+    {
+      "id": "record1",
+      "at": 63.75,
+      "sound": "relay",
+      "action": "不利记录归入原案件",
+      "note": 69
+    },
+    {
+      "id": "collect",
+      "at": 64,
+      "sound": "lock",
+      "action": "三份记录完成归档",
+      "note": 74
+    },
+    {
+      "id": "archive",
+      "at": 68,
+      "sound": "lock",
+      "action": "过程与依据存档",
+      "note": 62
+    },
+    {
+      "id": "review",
+      "at": 75,
+      "sound": "resolve",
+      "action": "带条件返回专家",
+      "note": 69
+    },
+    {
+      "id": "reveal",
+      "at": 78,
+      "sound": "bell",
+      "action": "全局闭环揭示",
+      "note": 74
+    }
+  ],
+  "soundtrack": {
+    "sample_rate": 48000,
+    "bpm": 120,
+    "beat": 0.5,
+    "bars_per_phrase": 4,
+    "phrases": [
+      {
+        "start": 0,
+        "end": 8,
+        "beats": 16
+      },
+      {
+        "start": 8,
+        "end": 16,
+        "beats": 16
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "beats": 16
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "beats": 16
+      },
+      {
+        "start": 32,
+        "end": 40,
+        "beats": 16
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "beats": 16
+      },
+      {
+        "start": 48,
+        "end": 56,
+        "beats": 16
+      },
+      {
+        "start": 56,
+        "end": 64,
+        "beats": 16
+      },
+      {
+        "start": 64,
+        "end": 72,
+        "beats": 16
+      },
+      {
+        "start": 72,
+        "end": 80,
+        "beats": 16
+      }
+    ],
+    "events": [
+      {
+        "id": "signal",
+        "at": 2,
+        "sound": "bell",
+        "action": "异常指针到位",
+        "note": 62
+      },
+      {
+        "id": "bind",
+        "at": 10,
+        "sound": "lock",
+        "action": "原文索引进入案件",
+        "note": 69
+      },
+      {
+        "id": "edge",
+        "at": 18,
+        "sound": "lock",
+        "action": "有据关系展开",
+        "note": 74
+      },
+      {
+        "id": "expert",
+        "at": 28,
+        "sound": "bell",
+        "action": "专家席位响应",
+        "note": 62
+      },
+      {
+        "id": "knowledge",
+        "at": 32,
+        "sound": "scan",
+        "action": "检索档案送出",
+        "note": 69
+      },
+      {
+        "id": "conditions",
+        "at": 36,
+        "sound": "lock",
+        "action": "条件记录就位",
+        "note": 74
+      },
+      {
+        "id": "freeze",
+        "at": 44,
+        "sound": "lock",
+        "action": "固定快照S-001",
+        "note": 62
+      },
+      {
+        "id": "split",
+        "at": 48,
+        "sound": "relay",
+        "action": "分发试验副本",
+        "note": 69
+      },
+      {
+        "id": "copies",
+        "at": 50,
+        "sound": "lock",
+        "action": "三个同源副本就位",
+        "note": 74
+      },
+      {
+        "id": "assumptions",
+        "at": 52,
+        "sound": "drop",
+        "action": "三种假设装入",
+        "note": 62
+      },
+      {
+        "id": "run",
+        "at": 54,
+        "sound": "bell",
+        "action": "在假设下启动推演",
+        "note": 69
+      },
+      {
+        "id": "business",
+        "at": 56,
+        "sound": "relay",
+        "action": "业务层示意响应",
+        "note": 74
+      },
+      {
+        "id": "sentiment",
+        "at": 58,
+        "sound": "relay",
+        "action": "舆情层示意响应",
+        "note": 62
+      },
+      {
+        "id": "trace",
+        "at": 60,
+        "sound": "relay",
+        "action": "比较条件下的路径",
+        "note": 69
+      },
+      {
+        "id": "records",
+        "at": 62,
+        "sound": "lock",
+        "action": "形成三份独立记录",
+        "note": 74
+      },
+      {
+        "id": "record0",
+        "at": 63.5,
+        "sound": "relay",
+        "action": "基准记录归入原案件",
+        "note": 62
+      },
+      {
+        "id": "record1",
+        "at": 63.75,
+        "sound": "relay",
+        "action": "不利记录归入原案件",
+        "note": 69
+      },
+      {
+        "id": "collect",
+        "at": 64,
+        "sound": "lock",
+        "action": "三份记录完成归档",
+        "note": 74
+      },
+      {
+        "id": "archive",
+        "at": 68,
+        "sound": "lock",
+        "action": "过程与依据存档",
+        "note": 62
+      },
+      {
+        "id": "review",
+        "at": 75,
+        "sound": "resolve",
+        "action": "带条件返回专家",
+        "note": 69
+      },
+      {
+        "id": "reveal",
+        "at": 78,
+        "sound": "bell",
+        "action": "全局闭环揭示",
+        "note": 74
+      }
+    ]
+  },
+  "disclosure": "合成案例 · 假设推演示意，非预测结果"
+}

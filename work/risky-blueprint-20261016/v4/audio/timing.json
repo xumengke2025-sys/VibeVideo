@@ -1,0 +1,2058 @@
+{
+  "duration": 80.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "provider": "Original deterministic instrumental synthesis",
+  "voiceover": false,
+  "speech_assets_read": 0,
+  "narration_captions": false,
+  "entries": [],
+  "peak": 0.84326171875,
+  "loudness": {
+    "input_i": "-19.94",
+    "input_tp": "-1.21",
+    "input_lra": "10.10",
+    "input_thresh": "-29.95",
+    "output_i": "-14.86",
+    "output_tp": "-1.50",
+    "output_lra": "5.70",
+    "output_thresh": "-24.87",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.14"
+  },
+  "phrases": [
+    {
+      "start": 0,
+      "end": 8,
+      "beats": 16
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "beats": 16
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "beats": 16
+    },
+    {
+      "start": 24,
+      "end": 32,
+      "beats": 16
+    },
+    {
+      "start": 32,
+      "end": 40,
+      "beats": 16
+    },
+    {
+      "start": 40,
+      "end": 48,
+      "beats": 16
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "beats": 16
+    },
+    {
+      "start": 56,
+      "end": 64,
+      "beats": 16
+    },
+    {
+      "start": 64,
+      "end": 72,
+      "beats": 16
+    },
+    {
+      "start": 72,
+      "end": 80,
+      "beats": 16
+    }
+  ],
+  "action_sync": [
+    {
+      "id": "signal",
+      "visual_seconds": 2,
+      "audio_sample": 96000,
+      "error_ms": 0.0,
+      "action": "signal"
+    },
+    {
+      "id": "bind",
+      "visual_seconds": 10,
+      "audio_sample": 480000,
+      "error_ms": 0.0,
+      "action": "bind"
+    },
+    {
+      "id": "edge",
+      "visual_seconds": 18,
+      "audio_sample": 864000,
+      "error_ms": 0.0,
+      "action": "edge"
+    },
+    {
+      "id": "expert",
+      "visual_seconds": 28,
+      "audio_sample": 1344000,
+      "error_ms": 0.0,
+      "action": "expert"
+    },
+    {
+      "id": "knowledge",
+      "visual_seconds": 32,
+      "audio_sample": 1536000,
+      "error_ms": 0.0,
+      "action": "knowledge"
+    },
+    {
+      "id": "conditions",
+      "visual_seconds": 36,
+      "audio_sample": 1728000,
+      "error_ms": 0.0,
+      "action": "conditions"
+    },
+    {
+      "id": "freeze",
+      "visual_seconds": 44,
+      "audio_sample": 2112000,
+      "error_ms": 0.0,
+      "action": "freeze"
+    },
+    {
+      "id": "split",
+      "visual_seconds": 48,
+      "audio_sample": 2304000,
+      "error_ms": 0.0,
+      "action": "split"
+    },
+    {
+      "id": "copies",
+      "visual_seconds": 50,
+      "audio_sample": 2400000,
+      "error_ms": 0.0,
+      "action": "copies"
+    },
+    {
+      "id": "assumptions",
+      "visual_seconds": 52,
+      "audio_sample": 2496000,
+      "error_ms": 0.0,
+      "action": "assumptions"
+    },
+    {
+      "id": "run",
+      "visual_seconds": 54,
+      "audio_sample": 2592000,
+      "error_ms": 0.0,
+      "action": "run"
+    },
+    {
+      "id": "business",
+      "visual_seconds": 56,
+      "audio_sample": 2688000,
+      "error_ms": 0.0,
+      "action": "business"
+    },
+    {
+      "id": "sentiment",
+      "visual_seconds": 58,
+      "audio_sample": 2784000,
+      "error_ms": 0.0,
+      "action": "sentiment"
+    },
+    {
+      "id": "trace",
+      "visual_seconds": 60,
+      "audio_sample": 2880000,
+      "error_ms": 0.0,
+      "action": "trace"
+    },
+    {
+      "id": "records",
+      "visual_seconds": 62,
+      "audio_sample": 2976000,
+      "error_ms": 0.0,
+      "action": "records"
+    },
+    {
+      "id": "record0",
+      "visual_seconds": 63.5,
+      "audio_sample": 3048000,
+      "error_ms": 0.0,
+      "action": "record0"
+    },
+    {
+      "id": "record1",
+      "visual_seconds": 63.75,
+      "audio_sample": 3060000,
+      "error_ms": 0.0,
+      "action": "record1"
+    },
+    {
+      "id": "collect",
+      "visual_seconds": 64,
+      "audio_sample": 3072000,
+      "error_ms": 0.0,
+      "action": "collect"
+    },
+    {
+      "id": "archive",
+      "visual_seconds": 68,
+      "audio_sample": 3264000,
+      "error_ms": 0.0,
+      "action": "archive"
+    },
+    {
+      "id": "review",
+      "visual_seconds": 75,
+      "audio_sample": 3600000,
+      "error_ms": 0.0,
+      "action": "review"
+    },
+    {
+      "id": "reveal",
+      "visual_seconds": 78,
+      "audio_sample": 3744000,
+      "error_ms": 0.0,
+      "action": "reveal"
+    }
+  ],
+  "sound_ledger": [
+    {
+      "kind": "phrase-harmony",
+      "at": 0,
+      "sample": 0,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 0,
+      "sample": 0,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 2,
+      "sample": 96000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 4,
+      "sample": 192000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 6,
+      "sample": 288000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 0.0,
+      "sample": 0,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 0.0,
+      "sample": 0,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 1.0,
+      "sample": 48000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 2.0,
+      "sample": 96000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 2.0,
+      "sample": 96000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 3.0,
+      "sample": 144000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 4.0,
+      "sample": 192000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 4.0,
+      "sample": 192000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 5.0,
+      "sample": 240000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 6.0,
+      "sample": 288000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 6.0,
+      "sample": 288000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 7.0,
+      "sample": 336000,
+      "event": null
+    },
+    {
+      "kind": "phrase-harmony",
+      "at": 8,
+      "sample": 384000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 8,
+      "sample": 384000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 10,
+      "sample": 480000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 12,
+      "sample": 576000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 14,
+      "sample": 672000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 8.0,
+      "sample": 384000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 8.0,
+      "sample": 384000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 8.0,
+      "sample": 384000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 9.0,
+      "sample": 432000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 9.0,
+      "sample": 432000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 10.0,
+      "sample": 480000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 10.0,
+      "sample": 480000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 10.0,
+      "sample": 480000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 11.0,
+      "sample": 528000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 11.0,
+      "sample": 528000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 12.0,
+      "sample": 576000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 12.0,
+      "sample": 576000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 12.0,
+      "sample": 576000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 13.0,
+      "sample": 624000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 13.0,
+      "sample": 624000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 14.0,
+      "sample": 672000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 14.0,
+      "sample": 672000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 14.0,
+      "sample": 672000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 15.0,
+      "sample": 720000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 15.0,
+      "sample": 720000,
+      "event": null
+    },
+    {
+      "kind": "phrase-harmony",
+      "at": 16,
+      "sample": 768000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 16,
+      "sample": 768000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 18,
+      "sample": 864000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 20,
+      "sample": 960000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 22,
+      "sample": 1056000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 16.0,
+      "sample": 768000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 16.0,
+      "sample": 768000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 16.0,
+      "sample": 768000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 17.0,
+      "sample": 816000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 17.0,
+      "sample": 816000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 18.0,
+      "sample": 864000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 18.0,
+      "sample": 864000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 18.0,
+      "sample": 864000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 19.0,
+      "sample": 912000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 19.0,
+      "sample": 912000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 20.0,
+      "sample": 960000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 20.0,
+      "sample": 960000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 20.0,
+      "sample": 960000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 21.0,
+      "sample": 1008000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 21.0,
+      "sample": 1008000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 22.0,
+      "sample": 1056000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 22.0,
+      "sample": 1056000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 22.0,
+      "sample": 1056000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 23.0,
+      "sample": 1104000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 23.0,
+      "sample": 1104000,
+      "event": null
+    },
+    {
+      "kind": "phrase-harmony",
+      "at": 24,
+      "sample": 1152000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 24,
+      "sample": 1152000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 26,
+      "sample": 1248000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 28,
+      "sample": 1344000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 30,
+      "sample": 1440000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 24.0,
+      "sample": 1152000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 24.0,
+      "sample": 1152000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 24.0,
+      "sample": 1152000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 25.0,
+      "sample": 1200000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 25.0,
+      "sample": 1200000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 26.0,
+      "sample": 1248000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 26.0,
+      "sample": 1248000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 26.0,
+      "sample": 1248000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 27.0,
+      "sample": 1296000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 27.0,
+      "sample": 1296000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 28.0,
+      "sample": 1344000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 28.0,
+      "sample": 1344000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 28.0,
+      "sample": 1344000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 29.0,
+      "sample": 1392000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 29.0,
+      "sample": 1392000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 30.0,
+      "sample": 1440000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 30.0,
+      "sample": 1440000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 30.0,
+      "sample": 1440000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 31.0,
+      "sample": 1488000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 31.0,
+      "sample": 1488000,
+      "event": null
+    },
+    {
+      "kind": "phrase-harmony",
+      "at": 32,
+      "sample": 1536000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 32,
+      "sample": 1536000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 34,
+      "sample": 1632000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 36,
+      "sample": 1728000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 38,
+      "sample": 1824000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 32.0,
+      "sample": 1536000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 32.0,
+      "sample": 1536000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 32.0,
+      "sample": 1536000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 33.0,
+      "sample": 1584000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 33.0,
+      "sample": 1584000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 34.0,
+      "sample": 1632000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 34.0,
+      "sample": 1632000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 34.0,
+      "sample": 1632000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 35.0,
+      "sample": 1680000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 35.0,
+      "sample": 1680000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 36.0,
+      "sample": 1728000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 36.0,
+      "sample": 1728000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 36.0,
+      "sample": 1728000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 37.0,
+      "sample": 1776000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 37.0,
+      "sample": 1776000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 38.0,
+      "sample": 1824000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 38.0,
+      "sample": 1824000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 38.0,
+      "sample": 1824000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 39.0,
+      "sample": 1872000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 39.0,
+      "sample": 1872000,
+      "event": null
+    },
+    {
+      "kind": "phrase-harmony",
+      "at": 40,
+      "sample": 1920000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 40,
+      "sample": 1920000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 42,
+      "sample": 2016000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 44,
+      "sample": 2112000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 46,
+      "sample": 2208000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 40.0,
+      "sample": 1920000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 40.0,
+      "sample": 1920000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 40.0,
+      "sample": 1920000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 41.0,
+      "sample": 1968000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 41.0,
+      "sample": 1968000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 42.0,
+      "sample": 2016000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 42.0,
+      "sample": 2016000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 42.0,
+      "sample": 2016000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 43.0,
+      "sample": 2064000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 43.0,
+      "sample": 2064000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 44.0,
+      "sample": 2112000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 44.0,
+      "sample": 2112000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 44.0,
+      "sample": 2112000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 45.0,
+      "sample": 2160000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 45.0,
+      "sample": 2160000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 46.0,
+      "sample": 2208000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 46.0,
+      "sample": 2208000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 46.0,
+      "sample": 2208000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 47.0,
+      "sample": 2256000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 47.0,
+      "sample": 2256000,
+      "event": null
+    },
+    {
+      "kind": "phrase-harmony",
+      "at": 48,
+      "sample": 2304000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 48,
+      "sample": 2304000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 50,
+      "sample": 2400000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 52,
+      "sample": 2496000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 54,
+      "sample": 2592000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 48.0,
+      "sample": 2304000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 48.0,
+      "sample": 2304000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 48.0,
+      "sample": 2304000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 48.5,
+      "sample": 2328000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 48.5,
+      "sample": 2328000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 49.0,
+      "sample": 2352000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 49.0,
+      "sample": 2352000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 49.5,
+      "sample": 2376000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 49.5,
+      "sample": 2376000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 50.0,
+      "sample": 2400000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 50.0,
+      "sample": 2400000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 50.0,
+      "sample": 2400000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 50.5,
+      "sample": 2424000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 50.5,
+      "sample": 2424000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 51.0,
+      "sample": 2448000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 51.0,
+      "sample": 2448000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 51.5,
+      "sample": 2472000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 51.5,
+      "sample": 2472000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 52.0,
+      "sample": 2496000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 52.0,
+      "sample": 2496000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 52.0,
+      "sample": 2496000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 52.5,
+      "sample": 2520000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 52.5,
+      "sample": 2520000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 53.0,
+      "sample": 2544000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 53.0,
+      "sample": 2544000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 53.5,
+      "sample": 2568000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 53.5,
+      "sample": 2568000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 54.0,
+      "sample": 2592000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 54.0,
+      "sample": 2592000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 54.0,
+      "sample": 2592000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 54.5,
+      "sample": 2616000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 54.5,
+      "sample": 2616000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 55.0,
+      "sample": 2640000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 55.0,
+      "sample": 2640000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 55.5,
+      "sample": 2664000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 55.5,
+      "sample": 2664000,
+      "event": null
+    },
+    {
+      "kind": "phrase-harmony",
+      "at": 56,
+      "sample": 2688000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 56,
+      "sample": 2688000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 58,
+      "sample": 2784000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 60,
+      "sample": 2880000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 62,
+      "sample": 2976000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 56.0,
+      "sample": 2688000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 56.0,
+      "sample": 2688000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 56.0,
+      "sample": 2688000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 56.5,
+      "sample": 2712000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 56.5,
+      "sample": 2712000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 57.0,
+      "sample": 2736000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 57.0,
+      "sample": 2736000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 57.5,
+      "sample": 2760000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 57.5,
+      "sample": 2760000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 58.0,
+      "sample": 2784000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 58.0,
+      "sample": 2784000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 58.0,
+      "sample": 2784000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 58.5,
+      "sample": 2808000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 58.5,
+      "sample": 2808000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 59.0,
+      "sample": 2832000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 59.0,
+      "sample": 2832000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 59.5,
+      "sample": 2856000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 59.5,
+      "sample": 2856000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 60.0,
+      "sample": 2880000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 60.0,
+      "sample": 2880000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 60.0,
+      "sample": 2880000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 60.5,
+      "sample": 2904000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 60.5,
+      "sample": 2904000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 61.0,
+      "sample": 2928000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 61.0,
+      "sample": 2928000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 61.5,
+      "sample": 2952000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 61.5,
+      "sample": 2952000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 62.0,
+      "sample": 2976000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 62.0,
+      "sample": 2976000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 62.0,
+      "sample": 2976000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 62.5,
+      "sample": 3000000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 62.5,
+      "sample": 3000000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 63.0,
+      "sample": 3024000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 63.0,
+      "sample": 3024000,
+      "event": null
+    },
+    {
+      "kind": "clock",
+      "at": 63.5,
+      "sample": 3048000,
+      "event": null
+    },
+    {
+      "kind": "counterpoint",
+      "at": 63.5,
+      "sample": 3048000,
+      "event": null
+    },
+    {
+      "kind": "phrase-harmony",
+      "at": 64,
+      "sample": 3072000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 64,
+      "sample": 3072000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 66,
+      "sample": 3168000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 68,
+      "sample": 3264000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 70,
+      "sample": 3360000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 64.0,
+      "sample": 3072000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 64.0,
+      "sample": 3072000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 64.0,
+      "sample": 3072000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 65.0,
+      "sample": 3120000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 65.0,
+      "sample": 3120000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 66.0,
+      "sample": 3168000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 66.0,
+      "sample": 3168000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 66.0,
+      "sample": 3168000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 67.0,
+      "sample": 3216000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 67.0,
+      "sample": 3216000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 68.0,
+      "sample": 3264000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 68.0,
+      "sample": 3264000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 68.0,
+      "sample": 3264000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 69.0,
+      "sample": 3312000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 69.0,
+      "sample": 3312000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 70.0,
+      "sample": 3360000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 70.0,
+      "sample": 3360000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 70.0,
+      "sample": 3360000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 71.0,
+      "sample": 3408000,
+      "event": null
+    },
+    {
+      "kind": "quiet-clock",
+      "at": 71.0,
+      "sample": 3408000,
+      "event": null
+    },
+    {
+      "kind": "phrase-harmony",
+      "at": 72,
+      "sample": 3456000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 72,
+      "sample": 3456000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 74,
+      "sample": 3552000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 76,
+      "sample": 3648000,
+      "event": null
+    },
+    {
+      "kind": "theme",
+      "at": 78,
+      "sample": 3744000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 72.0,
+      "sample": 3456000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 72.0,
+      "sample": 3456000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 73.0,
+      "sample": 3504000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 74.0,
+      "sample": 3552000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 74.0,
+      "sample": 3552000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 75.0,
+      "sample": 3600000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 76.0,
+      "sample": 3648000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 76.0,
+      "sample": 3648000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 77.0,
+      "sample": 3696000,
+      "event": null
+    },
+    {
+      "kind": "pulse",
+      "at": 78.0,
+      "sample": 3744000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 78.0,
+      "sample": 3744000,
+      "event": null
+    },
+    {
+      "kind": "soft-rim",
+      "at": 79.0,
+      "sample": 3792000,
+      "event": null
+    },
+    {
+      "kind": "action-note",
+      "at": 2,
+      "sample": 96000,
+      "event": "signal"
+    },
+    {
+      "kind": "action-pulse",
+      "at": 2,
+      "sample": 96000,
+      "event": "signal"
+    },
+    {
+      "kind": "contact",
+      "at": 10,
+      "sample": 480000,
+      "event": "bind"
+    },
+    {
+      "kind": "contact-tone",
+      "at": 10,
+      "sample": 480000,
+      "event": "bind"
+    },
+    {
+      "kind": "contact",
+      "at": 18,
+      "sample": 864000,
+      "event": "edge"
+    },
+    {
+      "kind": "contact-tone",
+      "at": 18,
+      "sample": 864000,
+      "event": "edge"
+    },
+    {
+      "kind": "action-note",
+      "at": 28,
+      "sample": 1344000,
+      "event": "expert"
+    },
+    {
+      "kind": "action-pulse",
+      "at": 28,
+      "sample": 1344000,
+      "event": "expert"
+    },
+    {
+      "kind": "scan-approach",
+      "at": 31.2,
+      "sample": 1497600,
+      "event": null
+    },
+    {
+      "kind": "scan-arrival",
+      "at": 32,
+      "sample": 1536000,
+      "event": "knowledge"
+    },
+    {
+      "kind": "contact",
+      "at": 36,
+      "sample": 1728000,
+      "event": "conditions"
+    },
+    {
+      "kind": "contact-tone",
+      "at": 36,
+      "sample": 1728000,
+      "event": "conditions"
+    },
+    {
+      "kind": "contact",
+      "at": 44,
+      "sample": 2112000,
+      "event": "freeze"
+    },
+    {
+      "kind": "contact-tone",
+      "at": 44,
+      "sample": 2112000,
+      "event": "freeze"
+    },
+    {
+      "kind": "action-note",
+      "at": 48,
+      "sample": 2304000,
+      "event": "split"
+    },
+    {
+      "kind": "contact",
+      "at": 50,
+      "sample": 2400000,
+      "event": "copies"
+    },
+    {
+      "kind": "contact-tone",
+      "at": 50,
+      "sample": 2400000,
+      "event": "copies"
+    },
+    {
+      "kind": "action-note",
+      "at": 52,
+      "sample": 2496000,
+      "event": "assumptions"
+    },
+    {
+      "kind": "action-pulse",
+      "at": 52,
+      "sample": 2496000,
+      "event": "assumptions"
+    },
+    {
+      "kind": "action-note",
+      "at": 54,
+      "sample": 2592000,
+      "event": "run"
+    },
+    {
+      "kind": "action-pulse",
+      "at": 54,
+      "sample": 2592000,
+      "event": "run"
+    },
+    {
+      "kind": "action-note",
+      "at": 56,
+      "sample": 2688000,
+      "event": "business"
+    },
+    {
+      "kind": "action-note",
+      "at": 58,
+      "sample": 2784000,
+      "event": "sentiment"
+    },
+    {
+      "kind": "action-note",
+      "at": 60,
+      "sample": 2880000,
+      "event": "trace"
+    },
+    {
+      "kind": "contact",
+      "at": 62,
+      "sample": 2976000,
+      "event": "records"
+    },
+    {
+      "kind": "contact-tone",
+      "at": 62,
+      "sample": 2976000,
+      "event": "records"
+    },
+    {
+      "kind": "action-note",
+      "at": 63.5,
+      "sample": 3048000,
+      "event": "record0"
+    },
+    {
+      "kind": "action-note",
+      "at": 63.75,
+      "sample": 3060000,
+      "event": "record1"
+    },
+    {
+      "kind": "contact",
+      "at": 64,
+      "sample": 3072000,
+      "event": "collect"
+    },
+    {
+      "kind": "contact-tone",
+      "at": 64,
+      "sample": 3072000,
+      "event": "collect"
+    },
+    {
+      "kind": "contact",
+      "at": 68,
+      "sample": 3264000,
+      "event": "archive"
+    },
+    {
+      "kind": "contact-tone",
+      "at": 68,
+      "sample": 3264000,
+      "event": "archive"
+    },
+    {
+      "kind": "resolve-chord",
+      "at": 75,
+      "sample": 3600000,
+      "event": "review"
+    },
+    {
+      "kind": "resolve-note",
+      "at": 75,
+      "sample": 3600000,
+      "event": "review"
+    },
+    {
+      "kind": "action-note",
+      "at": 78,
+      "sample": 3744000,
+      "event": "reveal"
+    },
+    {
+      "kind": "action-pulse",
+      "at": 78,
+      "sample": 3744000,
+      "event": "reveal"
+    },
+    {
+      "kind": "assumption-pickup",
+      "at": 50.5,
+      "sample": 2424000,
+      "event": null
+    },
+    {
+      "kind": "assumption-pickup",
+      "at": 51.0,
+      "sample": 2448000,
+      "event": null
+    },
+    {
+      "kind": "assumption-pickup",
+      "at": 51.5,
+      "sample": 2472000,
+      "event": null
+    }
+  ],
+  "listening_verified": false,
+  "mix_sha256": "eb539ede9402aba014c07df5a0a5815d63f47f29b397f3a4e0aae464d3130d95"
+}

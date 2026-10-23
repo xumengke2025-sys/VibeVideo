@@ -1,0 +1,12 @@
+{
+  "mode": "built-in image_gen",
+  "references": "three user baby photos; same identity",
+  "smile": "Use case: illustration-story. Asset: transparent head sprite for a Chinese baby's wax-crayon storybook animation. The three input photographs are identity references for the SAME baby. Generate ONE isolated head only, complete fuzzy hair, ears, face and tiny neck stub, no clothing/body, no objects, no text. Very slight three-quarter turn toward viewer's right, both eyes visible. Preserve this specific baby's high broad forehead, very short upright wispy dark hair, narrow softly curved eye openings with dark irises and very little white, soft low sparse brows, plump lower cheeks, small round chin, tiny nose, small CLOSED lips with a gentle content smile. It must resemble the photos rather than a generic cartoon baby. Hand colored wax crayon and colored pencil, visible dry grain and imperfect warm brown outlines, muted warm peach skin, subtle pink cheeks, flat children's picture-book shading, delicate simple facial marks, NOT photorealistic, NOT anime, no large round eyes, no solid hair cap. Head fills central 75% of square with padding, upright, transparent background with actual alpha.",
+  "blink": "Edit target is the supplied transparent wax-crayon baby head. Change ONLY the eyelids into a relaxed full blink: both eyes gently closed, curved thin eyelid lines. Keep exact same baby identity, head silhouette, fuzzy hair, ears, nose, CLOSED small smile, color, grain, orientation, position and square canvas. No body, text or props. Maintain actual transparent background.",
+  "yawn": "Edit target is supplied transparent crayon baby head. Change ONLY expression for one sleepy yawn at story ending: eyes gently closed, small mouth opening vertically into a soft rounded oval with muted reddish interior, relaxed sleepy cheeks. Preserve exact same identity, silhouette, forehead, short fuzzy hair, ears, nose, head orientation, position, scale, coloring and wax-pencil grain. No body, props, text, exaggerated teeth or huge mouth. Actual transparent background, identical square canvas.",
+  "savedOutputs": [
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\baby-crayon-garden-20261013-v2\\assets\\head-smile.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\baby-crayon-garden-20261013-v2\\assets\\head-blink.png",
+    "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\baby-crayon-garden-20261013-v2\\assets\\head-yawn.png"
+  ]
+}

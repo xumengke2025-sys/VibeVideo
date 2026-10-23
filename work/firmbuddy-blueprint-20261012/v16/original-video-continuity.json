@@ -1,0 +1,18 @@
+{
+  "base": "v13",
+  "protected": [
+    "card fanning and extraction",
+    "paper compositor",
+    "shared machine geometry",
+    "nine expert domains",
+    "six knowledge slots",
+    "quintic camera",
+    "feedback loop"
+  ],
+  "base_hashes": {
+    "film.js": "8535fa0d1a38398fbe20e1794c95ac8b014c08d318c8dcda944c764491c8e51d",
+    "scene-body.js": "4b99cceaf90cc25206dbddf9a7f4315a0d2affdf8cc04afcf3aaa9af428df4f6",
+    "intro.js": "0262a8be6d9019816bd35298c924528850121756781be7f81df22a2fa3af5702"
+  },
+  "reference_image_sha256": "4c6526bd611dc03c7e3cdebb25feaf49b0b280ce00c42f6da0801e7f9c1b093d"
+}

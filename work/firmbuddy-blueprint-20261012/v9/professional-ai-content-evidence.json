@@ -1,0 +1,121 @@
+{
+  "revision": "V9",
+  "product_read_only": true,
+  "sources": [
+    {
+      "path": "D:/ai项目/firmbuddy/README.md",
+      "read_lines": [
+        3,
+        17
+      ],
+      "purpose": "专家体系、工具调用、多专家会商与知识装备",
+      "sha256": "812ad891ea2baacc26569651cdd199c091e3c3daa5fff0f73e7213b96de75423",
+      "inspection_kind": "text_read"
+    },
+    {
+      "path": "D:/ai项目/firmbuddy/项目相关文本与素材/历史规划与设计/docs/PLAN-FIRMBUDDY-V2.md",
+      "read_lines": [
+        174,
+        237
+      ],
+      "purpose": "早期整体需求，结合当前实施文档解读",
+      "sha256": "ec36c4062bf3a5f9e093ca4074307d0809bd7c21578f368ddbf7dd06b7d0bff4",
+      "inspection_kind": "targeted_search"
+    },
+    {
+      "path": "D:/ai项目/firmbuddy/项目相关文本与素材/工程规划与执行/AI-EXECUTION-PLAN.md",
+      "read_lines": [
+        24,
+        24
+      ],
+      "purpose": "客户经营链路整体目标，历史计划不当已实现证据",
+      "sha256": "c5f016a391f69128ea2def6977ae80ca106c3f882e4a17f8559e047d687b16ae",
+      "inspection_kind": "targeted_search"
+    },
+    {
+      "path": "D:/ai项目/firmbuddy/docs/implementation/M12-KNOWLEDGE-EQUIPMENT-2026-09-15.md",
+      "read_lines": [
+        29,
+        85
+      ],
+      "purpose": "六槽专业装备、专家培养/试炼、专业方法和知识检索",
+      "sha256": "178accf40d8e5da74089149b4028e5085ab0b2a19629e0df5c55a68addd894fb",
+      "inspection_kind": "text_read"
+    },
+    {
+      "path": "D:/ai项目/firmbuddy/docs/implementation/KNOWLEDGE-OPTIMIZATION-20260929.md",
+      "read_lines": [
+        24,
+        34
+      ],
+      "purpose": "多源知识目录、中文全文检索与可追溯引用",
+      "sha256": "96dc2594326708bcde5d2c796d08d9e7f45874622ef428498de7e89fed07afae",
+      "inspection_kind": "text_read"
+    },
+    {
+      "path": "D:/ai项目/firmbuddy/docs/implementation/REDUCTION-PRECONTACT-V2-20260922.md",
+      "read_lines": [
+        3,
+        38
+      ],
+      "purpose": "专业打法、真实知识引用、客户分型与确定性扫描",
+      "sha256": "123482dc9a6e197d5cdd6237c5ba13881e658d61c1c1995c0bad3dff3a8e3729",
+      "inspection_kind": "text_read"
+    },
+    {
+      "path": "D:/ai项目/firmbuddy/src/experts/training-service.mjs",
+      "read_lines": [
+        195,
+        245
+      ],
+      "purpose": "材料驱动培养建议与受控字段",
+      "sha256": "e5ca7a411e27721e8a041229066e447037ca494e4462b84da66e6d969164ff00",
+      "inspection_kind": "targeted_search"
+    },
+    {
+      "path": "D:/ai项目/firmbuddy/plugins/knowledge-system/plugin.mjs",
+      "read_lines": [
+        42,
+        50
+      ],
+      "purpose": "实际知识检索工具与真实引用约束",
+      "sha256": "16a17cda324bbfcd7a4efd495e0c8f69477e0b6e6e5f0cc64bc0f0870f3d3ae8",
+      "inspection_kind": "targeted_search"
+    }
+  ],
+  "wording": {
+    "training": "知识装备、专业工作协议与培养试炼；不宣称模型参数微调",
+    "scan": "确定性规则求值；AI负责解释和策略生成",
+    "feedback": "记录辅助复评；不宣称自动改模型或规则",
+    "display_policy": "业务状态采用正向动作，人工审核仍保留"
+  },
+  "ai_chain": [
+    "理解问题和调用工具",
+    "解读扫描结果",
+    "专业专家协作研判",
+    "检索与交叉查证",
+    "辅助客户分型",
+    "生成行动成果",
+    "记录反馈与辅助复评"
+  ],
+  "motion": "V8 camera and paths preserved; knowledge equipment clutches timed to existing expert selection beats at 12.1/12.5/12.9s",
+  "delivery_mode": "ai_review_once",
+  "review_budget": "already_used; no new roles",
+  "runtime_checks": {
+    "layout_samples": 35,
+    "layout_issues": 0,
+    "representative_stills": 10,
+    "deterministic_seeks": 3,
+    "sample": {
+      "start": 10.4,
+      "duration": 7.1,
+      "frames": 213,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "decoded": true,
+      "sha256": "2ef42501d36362d8424a6d8575127cd0440de7a355f0113fe260141e20bf60cf"
+    },
+    "sample_observation": "Actual view of decoded contact sheet, 11.9–16.3 seconds every .4 seconds; expert selection, foundation plaque engagement and opinion convergence sampled; not real-time full playback"
+  }
+}

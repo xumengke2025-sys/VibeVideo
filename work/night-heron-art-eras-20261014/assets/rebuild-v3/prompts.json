@@ -1,0 +1,118 @@
+{
+  "mode": "built-in image_gen",
+  "common": "Production ANIMATION PARTS SPRITE ATLAS. One PORTRAIT image with exactly 2 columns and 3 equal rows. Transparent background, empty transparent gutters. 5 separate cutouts, sixth cell EMPTY. Strict positions: cell1 TOP LEFT: HEADLESS and NECKLESS night-heron BODY ONLY, right-facing, folded wing, short tail, two yellow legs and feet, round shoulder attachment at upper front. Cell2 TOP RIGHT: isolated night-heron HEAD ONLY facing RIGHT, horizontal long pointed dark beak closed, black crown, small red eye, ivory cheek, 2 thin white nape feathers sweeping left, tiny throat attachment, NO body. Cell3 MIDDLE LEFT: isolated curved S-shaped long pale heron NECK ONLY, vertical, dark slate narrow left edge, broad bottom, narrow top, no head or beak. Cell4 MIDDLE RIGHT: OWNER ANIMAL as specified, fully intact body, facing LEFT, calm and unaware. Cell5 BOTTOM LEFT: one small common silver cyprinid freshwater fish, horizontal profile, tail left, head right. Cell6 BOTTOM RIGHT: entirely EMPTY transparent. Keep all separate parts fully within their equal cells, 15 percent transparent margin on every cell, no overlapping cells, no white rectangle, no ground, no cast shadows. Reference image defines heron anatomy and identity, but MUST REDRAW ALL FIVE PARTS in requested ERA STYLE. No reference-colored gouache if style differs. No typography, no labels, no grid, no captions, no clothing, no props. Main heron is adult Nycticorax nycticorax, not an egret or crane. Match body/head/neck paint and contour thickness exactly so pieces assemble seamlessly.",
+  "specs": [
+    {
+      "id": "01",
+      "era": "史前",
+      "key": "cave",
+      "owner": "Ursus arctos, Eurasian brown bear sitting calmly facing left",
+      "style": "Upper Paleolithic cave painting circa 16000 BCE. Authentic ochre red and charcoal mineral pigments, incised delicate contour strokes and stippled pigment, flat expressive animal anatomy, worn mineral color INSIDE silhouettes. No modern realistic shaded gouache. Black crown red iris still subtly recognizable."
+    },
+    {
+      "id": "02",
+      "era": "古埃及",
+      "key": "egypt",
+      "owner": "slender sandy striped domestic cat, ancient natural short-haired type, sitting facing left, no collar",
+      "style": "New Kingdom Egyptian wall painting circa 1350 BCE. Precise elegant dark contours, flat Egyptian mineral pigment fields, lapis blue, muted ochre, ivory, terracotta, subtle plaster wear WITHIN figures. Animal side profiles, no photorealistic fur shading, fine ornamental feather strokes, no jewelry or clothes."
+    },
+    {
+      "id": "03",
+      "era": "古希腊",
+      "key": "greek",
+      "owner": "great white pelican Pelecanus onocrotalus resting on folded legs, LEFT facing",
+      "style": "Attic black-figure vase painting circa 530 BCE: pure lustrous charcoal-black figures, restrained terracotta and ivory incised internal feather and fur lines, elegant archaic silhouette, no painterly volume. Burnt orange used ONLY inside tiny incised details; entire background TRANSPARENT."
+    },
+    {
+      "id": "04",
+      "era": "古罗马",
+      "key": "roman",
+      "owner": "Eurasian otter Lutra lutra sitting calmly facing LEFT",
+      "style": "Roman opus vermiculatum mosaic circa 79 CE. Extremely fine individual irregular stone tesserae, muted limestone ivory, slate gray, black, ochre and russet, thin warm grout between tiles INSIDE each silhouette. Detailed animal anatomy assembled from tesserae, mosaic outlines follow plumage. No rectangular mosaic slab around cutouts."
+    },
+    {
+      "id": "05",
+      "era": "北宋",
+      "key": "shadow",
+      "owner": "great cormorant Phalacrocorax carbo, standing facing LEFT, folded wings, yellow throat",
+      "style": "Northern Song Chinese translucent carved leather shadow puppetry circa 1050. Beautiful intricate pierced leather patterns INSIDE silhouette, amber oxhide, vermilion, teal and ink-black sections, fine colored engraving, translucent leathery membrane texture, elegant articulated silhouette, credible birds. No human costumes no rods, no modern natural-history painting."
+    },
+    {
+      "id": "06",
+      "era": "中世纪",
+      "key": "gothic",
+      "owner": "Eurasian otter Lutra lutra sitting facing LEFT",
+      "style": "French Gothic illuminated bestiary manuscript circa 1290. Delicate ink contours, ultramarine, vermilion, malachite and burnished gold details INSIDE silhouettes, fine hatch-mark fur and feather lines, elegant medieval animal illustration, restrained flat shading, hand-applied pigment on parchment texture inside figures only. No page, no frame."
+    },
+    {
+      "id": "07",
+      "era": "文艺复兴",
+      "key": "renaissance",
+      "owner": "slender European brown tabby domestic cat sitting facing LEFT",
+      "style": "Italian High Renaissance painting circa 1503. Exquisitely refined naturalistic tempera and oil, subtle sfumato volume, fine layered feathers, muted earth colors, silver slate wings, warm ivory breast, delicate dark crown, precise natural history anatomy, soft upper left daylight. No gilded outline, no cartoon look."
+    },
+    {
+      "id": "08",
+      "era": "荷兰黄金时代",
+      "key": "rembrandt",
+      "owner": "Eurasian otter Lutra lutra sitting facing LEFT",
+      "style": "Dutch Golden Age oil painting circa 1642. Rembrandt-like warm golden side light from upper left, deep umber shadows, delicate impasto highlights INSIDE feathers/fur, visible subtle oil brush texture, highly refined accurate anatomy, brown-black and muted ivory palette with small ruby eye. No opaque dark rectangular background, all outside silhouettes fully transparent."
+    },
+    {
+      "id": "09",
+      "era": "清初",
+      "key": "ink",
+      "owner": "great cormorant Phalacrocorax carbo standing facing LEFT, folded wings, yellow throat",
+      "style": "Early Qing Chinese bird-and-flower ink wash circa 1690, Bada Shanren manner. Expressive refined dry-brush ink contour, broken ink feather strokes, subtle wet wash blooming INSIDE shapes, blank ivory breast suggested by VERY PALE warm opaque wash, black crown, gray wings, tiny cinnabar iris. Cormorant in sparse ink washes. No gold, no western oil rendering, no calligraphy or seal."
+    },
+    {
+      "id": "10",
+      "era": "19世纪",
+      "key": "impressionism",
+      "owner": "European brown tabby cat sitting facing LEFT",
+      "style": "French Impressionism circa 1874. Refined visible short broken brushstrokes, luminous lavender and blue shadows, warm sunlit cream highlights, painterly interlocking color strokes form detailed anatomically credible birds and animal, no hard black outline, no flat vector. Same animal shapes and right-facing heron."
+    },
+    {
+      "id": "11",
+      "era": "19世纪末",
+      "key": "postimp",
+      "owner": "Eurasian otter Lutra lutra sitting facing LEFT",
+      "style": "Post-Impressionist painting in southern France circa 1889. Distinct directional impasto marks following feathers and fur, cobalt indigo shadows, luminous ochre and ivory highlights, rhythmic curved linear brush strokes, fine dark contour, expressive but anatomical silhouettes. No generic smooth digital shading."
+    },
+    {
+      "id": "12",
+      "era": "20世纪初",
+      "key": "cubism",
+      "owner": "European brown tabby cat sitting facing LEFT",
+      "style": "Analytical Cubism circa 1912 Paris. Sophisticated overlapping translucent faceted angular planes, ochre, warm gray, umber, charcoal and pale cream, fine crosshatching, simultaneously readable species silhouettes; beak and legs anatomically consistent despite subtle internal planar fragmentation. No photo-realistic fur, no abstract blobs, no lettering."
+    },
+    {
+      "id": "13",
+      "era": "1930年代",
+      "key": "rubberhose",
+      "owner": "northern raccoon Procyon lotor sitting facing LEFT",
+      "style": "American 1930 rubber-hose black-and-white hand-inked cel animation. Extremely clean tapered India ink contours, ivory white, charcoal black and gray, restrained pie-cut eye pupils but preserve night-heron species: black crown, short stout body, long pointed bill, long slender legs, folded wing markings. Elegant confident 1930 ink drawing, no color, no giant exaggerated eyes, no costumes."
+    },
+    {
+      "id": "14",
+      "era": "1930年代",
+      "key": "surreal",
+      "owner": "Eurasian otter Lutra lutra sitting facing LEFT",
+      "style": "Spanish Surrealism circa 1931, meticulous smooth oil-painted animal surfaces, precise uncanny academic modeling, golden Catalan afternoon light, warm pale ivory breast, slate gray wings, black crown, extremely crisp silhouette and subtle elongated elegance. Real species anatomy remains credible, no melting animals, no clocks attached to animals."
+    },
+    {
+      "id": "15",
+      "era": "1960年代",
+      "key": "pop",
+      "owner": "northern raccoon Procyon lotor sitting facing LEFT",
+      "style": "American 1962 Pop Art comic screen printing. Bold elegant black contours, cyan, primary yellow, scarlet, ivory and navy, precisely spaced Ben-Day halftone dots clipped INSIDE colored areas, high-quality confident anatomical silhouettes, beautiful print misregistration of one pixel, no captions no sound effects no speech bubbles."
+    },
+    {
+      "id": "16",
+      "era": "1980年代",
+      "key": "pixel",
+      "owner": "Japanese brown tabby domestic cat sitting facing LEFT",
+      "style": "Authentic Japanese 1985 eight-bit pixel art. Crisp deliberately placed square pixels, limited 16 color NES-like palette, no antialiasing, readable black crown, small red eye, gray wings, ivory breast, yellow legs, elegant anatomically recognizable night heron, carefully clustered highlights and dark outlines. Pixel art sprite cutouts, no tileset background, no text."
+    }
+  ]
+}

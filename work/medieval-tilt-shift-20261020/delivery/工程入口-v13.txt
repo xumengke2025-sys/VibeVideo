@@ -1,0 +1,12 @@
+可编辑模型：../model/babylon-city-v13.blend
+模型修订：../model/revise_city_v13.py
+渲染：../render_city_v13.py
+完整流水线：../render_pipeline_v13.py full
+镜头：../v13-timeline.json
+交通：../traffic-v13.npz
+路径修订：../refine_v13_paths.py
+冻结输入：../render/frozen-v13-manifest.json
+帧序列：../render/frames-v13/
+音频：../audio/final-mix-v11.wav
+
+Blender 4.5.3，Cycles OptiX，32采样，GPU多级高斯移轴合成。原样例机制迁移见../source-adoption.json。

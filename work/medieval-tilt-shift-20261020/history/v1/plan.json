@@ -1,0 +1,484 @@
+{
+  "title": "暮钟镇的第一盏灯",
+  "version": "v1",
+  "status": "planned_not_produced",
+  "duration": 48,
+  "fps": 24,
+  "aspect_ratio": null,
+  "width": null,
+  "height": null,
+  "delivery_mode": null,
+  "pending_choices": {
+    "aspect_ratio": [
+      "16:9 / 1920×1080",
+      "9:16 / 1080×1920"
+    ],
+    "delivery_mode": [
+      "user_feedback",
+      "ai_review_once"
+    ],
+    "previously_asked": true
+  },
+  "intent": "以实体微缩模型般的中世纪奇幻城镇，呈现小龙送来火种、灯光沿街道展开的完整事件。",
+  "audio": {
+    "voiceover": false,
+    "music": "拨弦、木管与轻打击的原创或已授权音乐；素材未选定",
+    "master_clock": "动作事件",
+    "planned_bpm": 96,
+    "notes": "BPM 为编曲起点，不强制每个动作落拍；8Hz视觉步进不宣称与96BPM细分完全一致。"
+  },
+  "assets_status": "尚未制作或确认模型与音频可用性",
+  "clock_design": {
+    "camera": "连续影片时间t",
+    "world": "预积分rate(t)后取样；高倍率8Hz，中倍率12Hz，正常速度连续",
+    "hero": "影片事件时间编排主体路径与接触，远景可按同一tq取样；不宣称所有物体服从统一物理变速",
+    "speed_curve": [
+      {
+        "start": 0,
+        "end": 15,
+        "from": 12,
+        "to": 12
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "from": 12,
+        "to": 1
+      },
+      {
+        "start": 20,
+        "end": 36,
+        "from": 1,
+        "to": 1
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "from": 1,
+        "to": 6
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "from": 6,
+        "to": 6
+      }
+    ]
+  },
+  "shots": [
+    {
+      "id": "town",
+      "start": 0,
+      "end": 7,
+      "intent": "认出暮色中的微缩城镇，并发现唯一移动的暖色火种",
+      "states": {
+        "establish": 1,
+        "action": 4,
+        "result": 6
+      },
+      "action": "河流、水车、桥上马车建立日常运转；小龙由城门方向进入并携带暖色火种，街灯仍熄灭。",
+      "camera": {
+        "subjectId": "dragon-01",
+        "mode": "高位斜俯缓慢侧移",
+        "position": "城门外上空，俯角约50–60度，正式路径待画幅",
+        "target": "先桥与钟楼，再交给龙",
+        "screenRegion": "主角出现后保留飞行前方空间",
+        "parallax": "前景城墙、中景屋顶、远景山谷",
+        "handoff": "6–8秒由火种色彩及龙的运动交接"
+      },
+      "sound": "水声、轮轴与轻拨弦；主角出现时一声铃音",
+      "risks": [
+        [
+          4,
+          6.9
+        ]
+      ],
+      "reads": [
+        {
+          "item": "城镇空间",
+          "appear": 0,
+          "readable": 1,
+          "leave": 7
+        },
+        {
+          "item": "小龙携带火种",
+          "appear": 4,
+          "readable": 5.5,
+          "leave": 7
+        }
+      ]
+    },
+    {
+      "id": "courier",
+      "start": 7,
+      "end": 15,
+      "intent": "跟随小龙穿过城镇，建立它正在前往钟楼",
+      "states": {
+        "establish": 8,
+        "action": 11,
+        "result": 14
+      },
+      "action": "小龙沿河道和市场外沿飞向钟楼；转弯先偏头再侧倾，火种始终固定在前爪。",
+      "camera": {
+        "subjectId": "dragon-01",
+        "mode": "高位侧后跟拍",
+        "position": "S(t)加连续变化侧后上方偏移",
+        "target": "龙胸部与前方路径，14秒带入露台",
+        "screenRegion": "主角约画面高度8–12%，横屏偏左向右；竖屏沿纵深上行",
+        "parallax": "前景檐角比远处钟楼移动快",
+        "handoff": "钟楼露台先可见，随后靠近"
+      },
+      "sound": "木管接入主题、翼声渐近；水车声跨段延续",
+      "risks": [
+        [
+          10,
+          12.5
+        ],
+        [
+          13.5,
+          14.9
+        ]
+      ],
+      "reads": [
+        {
+          "item": "小龙身份与火种",
+          "appear": 7,
+          "readable": 8,
+          "leave": 15
+        },
+        {
+          "item": "露台是目的地",
+          "appear": 12,
+          "readable": 13.5,
+          "leave": 15
+        }
+      ]
+    },
+    {
+      "id": "descent",
+      "start": 15,
+      "end": 23,
+      "intent": "从看城镇转为看小龙准备完成投递",
+      "states": {
+        "establish": 16,
+        "action": 19,
+        "result": 22
+      },
+      "action": "小龙减速、降低高度、展开翼面制动，双足接触露台，收翼；完整接地结果保留到23秒。",
+      "camera": {
+        "subjectId": "dragon-01",
+        "mode": "连续下降后减速",
+        "position": "沿无屋顶遮挡的露台外侧通道，对数高度插值配合世界路径",
+        "target": "先落向露台灯座，再收敛至龙和火种",
+        "screenRegion": "主角由远景增长到高度25–35%，接地时足与露台同框",
+        "parallax": "钟楼檐口、露台边缘与远街道分层",
+        "handoff": "23秒保持落地姿态与火种锚点"
+      },
+      "sound": "配器于15–20秒逐步稀疏；翼声、爪接石面的拟音清晰",
+      "risks": [
+        [
+          15,
+          20
+        ],
+        [
+          20,
+          22.9
+        ]
+      ],
+      "reads": [
+        {
+          "item": "降落目的地",
+          "appear": 15,
+          "readable": 16,
+          "leave": 23
+        },
+        {
+          "item": "双足落地并站稳",
+          "appear": 20.5,
+          "readable": 22,
+          "leave": 23
+        }
+      ]
+    },
+    {
+      "id": "first-light",
+      "start": 23,
+      "end": 32,
+      "intent": "读清火种放入灯座，第一盏灯由此点亮",
+      "states": {
+        "establish": 24,
+        "action": 27,
+        "result": 30
+      },
+      "action": "小龙看向空灯座，双爪举起火种；27秒火种接触凹槽，27.4秒松爪，27.8秒灯芯开始亮，29秒达到稳定亮度；小龙缩回爪、抬头看灯。",
+      "camera": {
+        "subjectId": "ember-01",
+        "mode": "低位中近景，接触期停机",
+        "position": "露台外侧偏斜角，展示爪、火种与灯座间距",
+        "target": "注意由龙转给火种与灯座；光学对焦独立",
+        "screenRegion": "主角与灯座并列，接触点不被身体或护栏遮挡",
+        "parallax": "少量虚化护栏作前景，不盖住接触",
+        "handoff": "先看清首灯稳定，再由灯光引出下一盏"
+      },
+      "sound": "27秒轻金属触声、27.8秒柔和共鸣；主题留白，火焰细响",
+      "risks": [
+        [
+          25.5,
+          29.5
+        ]
+      ],
+      "reads": [
+        {
+          "item": "空灯座等待火种",
+          "appear": 23,
+          "readable": 24,
+          "leave": 27
+        },
+        {
+          "item": "放置与松爪",
+          "appear": 25.5,
+          "readable": 27.5,
+          "leave": 29
+        },
+        {
+          "item": "火种点亮第一盏灯",
+          "appear": 27.8,
+          "readable": 30,
+          "leave": 32
+        }
+      ]
+    },
+    {
+      "id": "light-relay",
+      "start": 32,
+      "end": 40,
+      "intent": "看到首灯引发沿城镇灯链的连续响应",
+      "states": {
+        "establish": 33,
+        "action": 35,
+        "result": 39
+      },
+      "action": "能量以短而克制的光脉冲沿既有灯链传播，依次点亮露台下街灯、桥灯和市场灯；小龙始终留在原露台，转头追看。",
+      "camera": {
+        "subjectId": "light-front",
+        "mode": "从露台退开并沿灯链升高",
+        "position": "先退离护栏再升高，避免穿檐与塔身",
+        "target": "32–34秒由首灯交给最近未亮灯，再沿传播前沿看向桥",
+        "screenRegion": "重要相邻两盏灯同时可辨；放宽清晰区",
+        "parallax": "露台退为近景锚点，桥与市场进入中景",
+        "handoff": "首灯、钟楼轮廓与桥共同保持方位"
+      },
+      "sound": "点灯铃音由稀到密；城钟在34秒响一次，主题逐层回归",
+      "risks": [
+        [
+          32,
+          34.5
+        ],
+        [
+          37.5,
+          39.9
+        ]
+      ],
+      "reads": [
+        {
+          "item": "第一盏与第二盏有联系",
+          "appear": 32,
+          "readable": 33.5,
+          "leave": 35
+        },
+        {
+          "item": "灯光沿道路扩展",
+          "appear": 34,
+          "readable": 35.5,
+          "leave": 40
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "start": 40,
+      "end": 48,
+      "intent": "全镇亮起，回收开场空间与小龙的贡献",
+      "states": {
+        "establish": 41,
+        "action": 43,
+        "result": 46
+      },
+      "action": "最后一段城门灯在42秒点亮；镜头升到能认出桥、钟楼与城门的高度，45–48秒收稳，小龙在钟楼露台留下小剪影。",
+      "camera": {
+        "subjectId": "town-light-route",
+        "mode": "升高拉远并平稳结束",
+        "position": "从钟楼外侧升至全景，不强制套原模板820m",
+        "target": "从灯链前沿回到桥与钟楼的整体关系",
+        "screenRegion": "灯链和城镇轮廓主导，避免大面积空山谷",
+        "parallax": "钟楼由局部变地标，山谷提供远景尺度",
+        "handoff": "45秒后只保留轻微环境运动"
+      },
+      "sound": "低强度全配器落在结尾和弦，环境与余音完整收尾",
+      "risks": [
+        [
+          40,
+          42.5
+        ]
+      ],
+      "reads": [
+        {
+          "item": "城门完成点亮",
+          "appear": 41,
+          "readable": 42.5,
+          "leave": 48
+        },
+        {
+          "item": "小龙与全镇灯光的关系",
+          "appear": 43,
+          "readable": 45,
+          "leave": 48
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "time": 7,
+      "kind": "连续跟拍接入",
+      "anchor": "dragon-01与ember-01",
+      "window": [
+        6,
+        8
+      ]
+    },
+    {
+      "time": 15,
+      "kind": "跟拍转下降与变速",
+      "anchor": "dragon-01与terrace-01",
+      "window": [
+        14,
+        17
+      ]
+    },
+    {
+      "time": 23,
+      "kind": "落地后停机",
+      "anchor": "feet-contact与ember-01",
+      "window": [
+        21,
+        24
+      ]
+    },
+    {
+      "time": 32,
+      "kind": "注意由首灯交给灯链",
+      "anchor": "beacon-01与lantern-02",
+      "window": [
+        30,
+        34
+      ]
+    },
+    {
+      "time": 40,
+      "kind": "传播跟随转整体揭示",
+      "anchor": "bridge-01与tower-01",
+      "window": [
+        38,
+        42
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hero-enter",
+      "at": 4,
+      "trigger": "dragon-01进入城门",
+      "response": "清晰带与音乐主题捕捉主角"
+    },
+    {
+      "id": "slow-down",
+      "at": 15,
+      "end": 20,
+      "trigger": "接近露台",
+      "response": "城市倍率12到1，音乐逐步稀疏，相机仍逐帧平滑"
+    },
+    {
+      "id": "feet-contact",
+      "at": 21,
+      "trigger": "双足接地",
+      "response": "足部固定、身体缓冲、接触拟音"
+    },
+    {
+      "id": "ember-contact",
+      "at": 27,
+      "trigger": "火种触灯槽",
+      "response": "道具由前爪锚点转为灯座锚点，保持世界位置连续"
+    },
+    {
+      "id": "claws-release",
+      "at": 27.4,
+      "trigger": "火种已支承",
+      "response": "爪松开缩回"
+    },
+    {
+      "id": "beacon-ignite",
+      "at": 27.8,
+      "end": 29,
+      "trigger": "火种就位",
+      "response": "灯芯稳定发光，附近石面与龙面部受暖光影响"
+    },
+    {
+      "id": "relay",
+      "at": 32,
+      "end": 42,
+      "trigger": "首灯稳定",
+      "response": "沿预设灯链按路程分段传播；相邻灯由同一事件数组控制亮度与声音"
+    },
+    {
+      "id": "bell",
+      "at": 34,
+      "trigger": "点灯仪式",
+      "response": "钟摆动作与钟声同步"
+    },
+    {
+      "id": "return-speed",
+      "at": 36,
+      "end": 40,
+      "trigger": "局部因果已读清",
+      "response": "背景城市倍率1到6，点灯事件仍按影片时间展示"
+    },
+    {
+      "id": "hold",
+      "at": 45,
+      "end": 48,
+      "trigger": "全景完成",
+      "response": "相机收稳并保留音乐尾音"
+    }
+  ],
+  "concept": {
+    "status": "not_started",
+    "paths": [],
+    "feedback": [],
+    "protected_items": [],
+    "planned_images": [
+      "整体城镇与飞行通道",
+      "同一布局的露台接触近景"
+    ],
+    "acceptance": "画幅确定后制作并展示；收到方向反馈或明确连续推进授权后展开"
+  },
+  "pilot": {
+    "primary": [
+      14,
+      24
+    ],
+    "secondary": [
+      25,
+      34
+    ],
+    "status": "not_started",
+    "notes": "前者验证连续下降与落地；后者验证持物、接触与灯光接棒。同一主体/场景可复用，不另派审片。"
+  },
+  "evidence": {
+    "source_study": "../tilt-shift-study-20261020/CHECKPOINT.json",
+    "runtime_rendered": false,
+    "viewed_frames": false,
+    "heard_audio": false
+  }
+}
+

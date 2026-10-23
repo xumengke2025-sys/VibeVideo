@@ -1,0 +1,371 @@
+{
+  "duration": 40,
+  "shots": [
+    {
+      "id": "discover",
+      "start": 0,
+      "end": 5.5,
+      "action": "妈妈指认墙上与庭院纹样，宝宝抬头回应",
+      "reads": "先看壁画/纹样，再看妈妈的展示手势，再看宝宝抬头"
+    },
+    {
+      "id": "story",
+      "start": 5.5,
+      "end": 11.5,
+      "action": "影偶与图册、窗前竹叶引起两人的注意",
+      "reads": "幕前影偶→妈妈展示图册→宝宝探头→窗前竹叶"
+    },
+    {
+      "id": "garden",
+      "start": 11.5,
+      "end": 18.5,
+      "action": "妈妈喝一次咖啡，宝宝追看花间蝴蝶后抱起奶瓶",
+      "reads": "蝴蝶从花丛飞出→宝宝回应→妈妈举杯饮用"
+    },
+    {
+      "id": "play",
+      "start": 18.5,
+      "end": 24,
+      "action": "宝宝喝完奶放下；几何玩具滚近，宝宝轻推",
+      "reads": "奶瓶回到地面→手释放→几何玩具响应"
+    },
+    {
+      "id": "paper",
+      "start": 24,
+      "end": 32,
+      "action": "两人看漂浮物，妈妈展示纸花，宝宝伸手回应",
+      "reads": "梦境漂浮→桌上纸花→妈妈抬起展示→宝宝伸手"
+    },
+    {
+      "id": "follow",
+      "start": 32,
+      "end": 35.5,
+      "action": "宝宝追看像素蝴蝶，妈妈向花叶方向示意",
+      "reads": "墙上花朵与飞蝶→宝宝视线和手势跟随"
+    },
+    {
+      "id": "together",
+      "start": 35.5,
+      "end": 40,
+      "action": "妈妈轻挥手，宝宝回应，最后相视停留",
+      "reads": "挥手回应→缓慢落手→相视收尾"
+    }
+  ],
+  "eras": [
+    {
+      "index": 0,
+      "name": "洞穴壁画",
+      "start": 0,
+      "end": 1.1,
+      "background": "洞穴手印与太阳纹样",
+      "action": "抬手指认壁面，宝宝抬头",
+      "environment": "火光与洞口空气"
+    },
+    {
+      "index": 1,
+      "name": "古埃及壁画",
+      "start": 1.1,
+      "end": 2.2,
+      "background": "尼罗河帆船与莲花",
+      "action": "继续展示窗外，宝宝回应",
+      "environment": "水波与棕榈叶"
+    },
+    {
+      "index": 2,
+      "name": "古希腊黑绘陶",
+      "start": 2.2,
+      "end": 3.3,
+      "background": "黑绘陶瓶与海景",
+      "action": "沿视线指认陶瓶纹样",
+      "environment": "海面波纹与橄榄枝"
+    },
+    {
+      "index": 3,
+      "name": "罗马马赛克",
+      "start": 3.3,
+      "end": 4.4,
+      "background": "马赛克庭院",
+      "action": "落手看庭院",
+      "environment": "窗外云与植物"
+    },
+    {
+      "index": 4,
+      "name": "敦煌壁画",
+      "start": 4.4,
+      "end": 5.5,
+      "background": "敦煌莲池与飘带",
+      "action": "宝宝追看莲池方向",
+      "environment": "云气、池水与枝叶"
+    },
+    {
+      "index": 5,
+      "name": "皮影戏",
+      "start": 5.5,
+      "end": 6.7,
+      "background": "影戏窗格",
+      "action": "观看新增兔形影偶",
+      "environment": "影偶与灯笼"
+    },
+    {
+      "index": 6,
+      "name": "哥特手抄本",
+      "start": 6.7,
+      "end": 7.9,
+      "background": "手抄本书房",
+      "action": "妈妈拿起装饰图册",
+      "environment": "书页与窗景"
+    },
+    {
+      "index": 7,
+      "name": "文艺复兴",
+      "start": 7.9,
+      "end": 9.1,
+      "background": "文艺复兴凉廊",
+      "action": "翻页给宝宝看花鸟图",
+      "environment": "翻页、庭园云与植物"
+    },
+    {
+      "index": 8,
+      "name": "伦勃朗明暗",
+      "start": 9.1,
+      "end": 10.3,
+      "background": "明暗书房",
+      "action": "宝宝探头看书，妈妈合拢放回",
+      "environment": "窗光与书页"
+    },
+    {
+      "index": 9,
+      "name": "水墨写意",
+      "start": 10.3,
+      "end": 11.5,
+      "background": "水墨竹窗",
+      "action": "放下图册后指向竹叶",
+      "environment": "竹叶与远山薄雾"
+    },
+    {
+      "index": 10,
+      "name": "印象派",
+      "start": 11.5,
+      "end": 12.66,
+      "background": "印象派花窗",
+      "action": "宝宝发现花间蝴蝶",
+      "environment": "蝴蝶、窗纱和花叶"
+    },
+    {
+      "index": 11,
+      "name": "修拉点彩",
+      "start": 12.66,
+      "end": 13.83,
+      "background": "点彩花窗",
+      "action": "妈妈伸手拿咖啡杯",
+      "environment": "窗外云和花叶"
+    },
+    {
+      "index": 12,
+      "name": "后印象派",
+      "start": 13.83,
+      "end": 15,
+      "background": "后印象花房",
+      "action": "妈妈举杯，宝宝看花",
+      "environment": "枝叶与窗外光"
+    },
+    {
+      "index": 13,
+      "name": "表现主义",
+      "start": 15,
+      "end": 16.16,
+      "background": "表现主义室内",
+      "action": "妈妈饮用，宝宝准备抱瓶",
+      "environment": "窗帘与云"
+    },
+    {
+      "index": 14,
+      "name": "新艺术海报",
+      "start": 16.16,
+      "end": 17.33,
+      "background": "新艺术花窗",
+      "action": "宝宝抬起奶瓶",
+      "environment": "花藤与蝴蝶"
+    },
+    {
+      "index": 15,
+      "name": "睡莲与庭园",
+      "start": 17.33,
+      "end": 18.5,
+      "background": "睡莲庭园",
+      "action": "妈妈放杯，宝宝喝奶",
+      "environment": "池水与垂柳"
+    },
+    {
+      "index": 16,
+      "name": "蓝色时期",
+      "start": 18.5,
+      "end": 19.6,
+      "background": "蓝色室内",
+      "action": "宝宝喝奶后回正",
+      "environment": "窗外云与枝叶"
+    },
+    {
+      "index": 17,
+      "name": "金色装饰画",
+      "start": 19.6,
+      "end": 20.7,
+      "background": "金色装饰室内",
+      "action": "宝宝放低奶瓶",
+      "environment": "光斑与花叶"
+    },
+    {
+      "index": 18,
+      "name": "立体主义",
+      "start": 20.7,
+      "end": 21.8,
+      "background": "立体主义室内",
+      "action": "奶瓶放稳，注意几何玩具",
+      "environment": "几何陈设与植物"
+    },
+    {
+      "index": 19,
+      "name": "包豪斯",
+      "start": 21.8,
+      "end": 22.9,
+      "background": "包豪斯室内",
+      "action": "妈妈示意玩具，宝宝伸手",
+      "environment": "木球滚到宝宝手边"
+    },
+    {
+      "index": 20,
+      "name": "构成主义",
+      "start": 22.9,
+      "end": 24,
+      "background": "构成主义室内",
+      "action": "宝宝推球，妈妈回应",
+      "environment": "木球缓慢滚离"
+    },
+    {
+      "index": 21,
+      "name": "橡皮管卡通",
+      "start": 24,
+      "end": 25.14,
+      "background": "橡皮管室内",
+      "action": "宝宝收手，两人看窗景",
+      "environment": "云和吊灯"
+    },
+    {
+      "index": 22,
+      "name": "超现实梦境",
+      "start": 25.14,
+      "end": 26.28,
+      "background": "超现实室内",
+      "action": "两人看漂浮纸花",
+      "environment": "纸花、云与窗外景物"
+    },
+    {
+      "index": 23,
+      "name": "美式现实插画",
+      "start": 26.28,
+      "end": 27.42,
+      "background": "美式现实室内",
+      "action": "纸花落桌，妈妈注意花",
+      "environment": "窗帘与日光"
+    },
+    {
+      "index": 24,
+      "name": "彩色剪纸",
+      "start": 27.42,
+      "end": 28.56,
+      "background": "剪纸室内",
+      "action": "妈妈拿起纸花给宝宝看",
+      "environment": "纸花与剪纸枝叶"
+    },
+    {
+      "index": 25,
+      "name": "波普艺术",
+      "start": 28.56,
+      "end": 29.7,
+      "background": "波普室内",
+      "action": "宝宝朝纸花伸手回应",
+      "environment": "花瓣与植物"
+    },
+    {
+      "index": 26,
+      "name": "无限波点",
+      "start": 29.7,
+      "end": 30.84,
+      "background": "波点室内",
+      "action": "继续展示纸花",
+      "environment": "波点花瓣与窗景"
+    },
+    {
+      "index": 27,
+      "name": "美式漫画",
+      "start": 30.84,
+      "end": 32,
+      "background": "漫画室内",
+      "action": "妈妈放回纸花，宝宝收手",
+      "environment": "窗帘和云"
+    },
+    {
+      "index": 28,
+      "name": "活力涂鸦",
+      "start": 32,
+      "end": 33.16,
+      "background": "涂鸦室内",
+      "action": "妈妈示意墙上花朵，宝宝追看飞蝶",
+      "environment": "花朵笔迹与蝴蝶"
+    },
+    {
+      "index": 29,
+      "name": "8-bit像素",
+      "start": 33.16,
+      "end": 34.33,
+      "background": "像素室内",
+      "action": "视线跟随像素蝴蝶",
+      "environment": "像素蝶、云和叶片"
+    },
+    {
+      "index": 30,
+      "name": "手绘水彩动画",
+      "start": 34.33,
+      "end": 35.5,
+      "background": "水彩室内",
+      "action": "蝴蝶飞向花叶，两人收回视线",
+      "environment": "水彩枝叶与飞蝶"
+    },
+    {
+      "index": 31,
+      "name": "早期数字动画",
+      "start": 35.5,
+      "end": 36.625,
+      "background": "数字室内",
+      "action": "妈妈看向宝宝",
+      "environment": "窗帘和云"
+    },
+    {
+      "index": 32,
+      "name": "蒸汽波",
+      "start": 36.625,
+      "end": 37.75,
+      "background": "蒸汽波窗景",
+      "action": "妈妈轻挥手，宝宝回应",
+      "environment": "海面、棕榈与云"
+    },
+    {
+      "index": 33,
+      "name": "日系光影动画",
+      "start": 37.75,
+      "end": 38.875,
+      "background": "日系窗景",
+      "action": "两人挥手后落手",
+      "environment": "绿叶和阳光"
+    },
+    {
+      "index": 34,
+      "name": "现代扁平插画",
+      "start": 38.875,
+      "end": 40,
+      "background": "现代扁平室内",
+      "action": "相视微笑，动作安定",
+      "environment": "植物缓动与窗外云"
+    }
+  ]
+}

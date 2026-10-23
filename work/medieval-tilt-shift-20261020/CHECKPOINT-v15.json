@@ -1,0 +1,51 @@
+{
+  "objective": "Redesign and produce Babylon with one continuous trench-coated bicyclist and playful environmental interactions.",
+  "status": "superseded_by_palace_v16",
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "duration": 90,
+  "frame_count": 2160,
+  "delivery_mode": "ai_review_once",
+  "review_budget": "Existing independent review round exhausted. Producer verification only; no new reviewer.",
+  "protected": [
+    "v13/v14 files",
+    "continuous populated city",
+    "blue glaze",
+    "coordinated patrol",
+    "two-bank towing",
+    "user music"
+  ],
+  "completed": [
+    "Continuous 90-second rider route and interaction design recorded in DESIGN-v15.md",
+    "Verified no active Blender or v14 pipeline process after interruption; do not restart superseded v14 render",
+    "Built base cyclist and opened connected streets with 70 additional visitors and stalls",
+    "Rendered 9 base v15 proof frames",
+    "Static route sampled at .25sec; 2 awning head-height candidates covered by intended duck; 46 original camera obstruction candidates",
+    "Compared 12 authored offsets over 12 route intervals; replaced unstable ray-driven elevation corrections with authored clear offsets",
+    "User requested more precise rider; added separate refinement script for anatomy, tailored cloth, hands, boots and bicycle detail",
+    "Rebuilt revision 4 rider with no facial features or eyeballs",
+    "Rendered 181 final-size sample frames; reviewed 23 representative thumbnails and original frames 1632,1212",
+    "Corrected only shot 4 look target after actual output showed rider outside frame; preserved unaffected frozen samples with reverse-patch hash evidence",
+    "Rendered 15 corrected final-size proof frames; featureless rider retained",
+    "Fixed garden-street framing and stop-approach reversal; restart yaw step max 2.367 degrees in checked restart window"
+  ],
+  "verification": [
+    "Producer viewed base proof frames 552 and 1632",
+    "Camera candidate ray report saved to qa/v15/camera-candidates.json; not visual approval",
+    "No active Babylon renderer at continuation; other project Blender allowed to finish",
+    "Featureless rider visibly confirmed at sample frame 1632 (68s)",
+    "Producer viewed corrected 15-frame sheet and original corrected frame 1212",
+    "Producer viewed previous continuous contact sheets 948-983,1560-1679; superseded stop poses archived after discovered yaw defect"
+  ],
+  "unresolved": [
+    "Full 2160-frame film pending",
+    "Final encoded picture inspection pending",
+    "Actual listening unavailable"
+  ],
+  "resource_priority": "User authorized Babylon priority; Mist Gold pause marker remains until Babylon task finishes, then release it without auto-starting its renderer.",
+  "next_action": "Preserve frozen inputs and old frames; continue CHECKPOINT-v16.json.",
+  "user_correction": "No facial features or eyeballs. Precision means coat silhouette, riding posture, contacts, bicycle structure and interactions.",
+  "updated_at": "2026-10-23T13:03:07.000465+08:00"
+}

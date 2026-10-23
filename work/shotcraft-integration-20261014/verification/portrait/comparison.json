@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "frames": [
+    {
+      "frame": 0,
+      "badPixels": 0,
+      "pixels": 2073600,
+      "ratio": 0,
+      "maxChannelDifference": 0,
+      "passed": true,
+      "files": [
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjOriginal-f0.png",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjImported-f0.png"
+      ]
+    },
+    {
+      "frame": 22,
+      "badPixels": 0,
+      "pixels": 2073600,
+      "ratio": 0,
+      "maxChannelDifference": 0,
+      "passed": true,
+      "files": [
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjOriginal-f22.png",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjImported-f22.png"
+      ]
+    },
+    {
+      "frame": 44,
+      "badPixels": 0,
+      "pixels": 2073600,
+      "ratio": 0,
+      "maxChannelDifference": 0,
+      "passed": true,
+      "files": [
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjOriginal-f44.png",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjImported-f44.png"
+      ]
+    },
+    {
+      "frame": 45,
+      "badPixels": 0,
+      "pixels": 2073600,
+      "ratio": 0,
+      "maxChannelDifference": 0,
+      "passed": true,
+      "files": [
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjOriginal-f45.png",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjImported-f45.png"
+      ]
+    },
+    {
+      "frame": 67,
+      "badPixels": 0,
+      "pixels": 2073600,
+      "ratio": 0,
+      "maxChannelDifference": 0,
+      "passed": true,
+      "files": [
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjOriginal-f67.png",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjImported-f67.png"
+      ]
+    },
+    {
+      "frame": 89,
+      "badPixels": 0,
+      "pixels": 2073600,
+      "ratio": 0,
+      "maxChannelDifference": 0,
+      "passed": true,
+      "files": [
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjOriginal-f89.png",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\shotcraft-integration-20261014\\verification\\portrait\\ProjImported-f89.png"
+      ]
+    }
+  ],
+  "tolerance": 0,
+  "maxRatio": 0,
+  "browserExecutable": "D:/ai项目/ai动画/VibeVideo项目/node_modules/.remotion/chrome-headless-shell/win64/chrome-headless-shell-win64/chrome-headless-shell.exe",
+  "metadata": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "total": 90
+  }
+}

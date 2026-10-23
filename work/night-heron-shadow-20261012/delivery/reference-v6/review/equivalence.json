@@ -1,0 +1,34 @@
+{
+  "old_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+  "new_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+  "method": "Exact SHA256 comparisons of corresponding rendered JPEGs and independently decoded JPEGs, not an aesthetic or listening review",
+  "rendered_frame_equal_ranges": [
+    {
+      "start_frame": 0,
+      "end_frame": 119
+    },
+    {
+      "start_frame": 240,
+      "end_frame": 1199
+    }
+  ],
+  "decoded_frame_equal_ranges": [
+    {
+      "start_frame": 0,
+      "end_frame": 99
+    },
+    {
+      "start_frame": 240,
+      "end_frame": 1199
+    }
+  ],
+  "decoded_frame_different_ranges": [
+    {
+      "start_frame": 100,
+      "end_frame": 239
+    }
+  ],
+  "old_actual_audio_sha256": "14d06367c6bfee5d76f2b8780e71b30bc8d5c3b97f8c09a87b55696bc8bbd15c",
+  "new_actual_audio_sha256": "14d06367c6bfee5d76f2b8780e71b30bc8d5c3b97f8c09a87b55696bc8bbd15c",
+  "actual_audio_byte_identical": true
+}

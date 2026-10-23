@@ -1,0 +1,611 @@
+{
+  "repo": "holooooo/myriad-worlds",
+  "commit": "cdaab73d15993914be057adf57897955f88b9382",
+  "checked": "2026-10-20",
+  "scope": "固定提交完整仓库快照；未执行上游代码；Myriad固定影片发布标签v1.0.2",
+  "modelEvidence": "作者声明Opus 5.5奠基、GLM 5.3F继续开发；混合模型作品",
+  "files": [
+    {
+      "path": ".github/workflows/cloudflare-pages.yml",
+      "bytes": 4628,
+      "sha256": "61a935c77bdbbdebfe633a8cf534d09c137a21a5a03fb3f2c6b6b73c14280e2e",
+      "gitBlob": "c76bce855445ea7a8469e689e9835e7df2713922",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/.github/workflows/cloudflare-pages.yml"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 101,
+      "sha256": "bfea710e2cf0974da78a3832c9cd78ce0d135b4a7781adcdaa330f0efb5ebd8e",
+      "gitBlob": "ecbbc6418e74c555a1bc6d4313c96f3c54804112",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/.gitignore"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1065,
+      "sha256": "dbe2a6c418fdad0061dc876cfd1a7ecf2391d198516424531f2c8fe258fa00da",
+      "gitBlob": "e8198542573b3c49e6d48ecedf4702a8b5682999",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9278,
+      "sha256": "4d46f5b74b9ffb768359e6b03142f214ff89f7e1fd893785e44feee3fb941595",
+      "gitBlob": "4ae0012241dc46bd78037a329c15fb16a1afe29f",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/README.md"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 8289,
+      "sha256": "d8f5cb936626b946749d4e5b77bb70495305e46b3cd3f9df1d6075d79797a360",
+      "gitBlob": "9607cd14523ec1b9b1623a504514ccfdc4776769",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/README.zh-CN.md"
+    },
+    {
+      "path": "build.py",
+      "bytes": 5112,
+      "sha256": "62cd3da15b1311bda427a81605fdec955a74b84a4ac82d4614ea0db8691ece60",
+      "gitBlob": "8038fd35009bad3d48a457aca11e7031d74904a1",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/build.py"
+    },
+    {
+      "path": "docs/media/scenery-tour-poster.jpg",
+      "bytes": 973015,
+      "sha256": "37f231f4bebf6e1c29c502b9cb92b9b110a6416f3f5536350e8c7d6b200b7f24",
+      "gitBlob": "a258a29451a0f695f44da68be88be2a91aaec2af",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/media/scenery-tour-poster.jpg"
+    },
+    {
+      "path": "docs/media/scenery-tour-preview.gif",
+      "bytes": 1742150,
+      "sha256": "e9b71a53272d3f77171c6a08d6742abaafec8bf4e6e76acfae817d3f60e89d4b",
+      "gitBlob": "f71bac9c4f247a78d7ff24d033b129730029a1ba",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/media/scenery-tour-preview.gif"
+    },
+    {
+      "path": "docs/media/scenery-tour-validation.json",
+      "bytes": 2939,
+      "sha256": "7d8e358ed09608b5ac337a0b8ad0dec5a2a234da7db82faf19e05f7cbeb01685",
+      "gitBlob": "1159b15cde4545ad135378b697f9b9a7e9234544",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/media/scenery-tour-validation.json"
+    },
+    {
+      "path": "docs/media/scenery-tour.json",
+      "bytes": 13892,
+      "sha256": "7dd7c1e24ce3b8ca9d8e76c4f5538a71be87e7e8a12eb7b618a3896ab119409c",
+      "gitBlob": "e195ae1ce7baa1a93c37b60dfe6c67a4e70dd128",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/media/scenery-tour.json"
+    },
+    {
+      "path": "docs/performance/china-release-first.json",
+      "bytes": 757,
+      "sha256": "505368e7f7009e4638c404c52ec6ff0413236fd993e55858c8c5578e93cc14b7",
+      "gitBlob": "dd690cb19dc694c0cc10129823bbbaab8ef766fe",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/performance/china-release-first.json"
+    },
+    {
+      "path": "docs/performance/china-release-side.json",
+      "bytes": 756,
+      "sha256": "37c44a91c980d4702ff838d2f79bbd5af55c8c0f6aad9dbef8a735a20441ac8d",
+      "gitBlob": "e43f22fc133812e25c306dfcfca0e5ba206137a6",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/performance/china-release-side.json"
+    },
+    {
+      "path": "docs/performance/japan-release-first.json",
+      "bytes": 749,
+      "sha256": "46d7d9560afd7dc15e0d22dfaa5f9b7d5f3d1e99c333ce1a87011ff2797bb4f0",
+      "gitBlob": "4280c6eb694131b2726ccc2ce9c8aea25dd2d4a2",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/performance/japan-release-first.json"
+    },
+    {
+      "path": "docs/performance/japan-release-side.json",
+      "bytes": 750,
+      "sha256": "bf609e6372e233e7b412348236cfe3b241dbd70d81d8bfbd93d0145088008dbf",
+      "gitBlob": "0fbd5b8b9de4e94387a2ecda177e3ba1e4904d22",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/performance/japan-release-side.json"
+    },
+    {
+      "path": "docs/recording.md",
+      "bytes": 4955,
+      "sha256": "0df8ec0b2815a33bcb8f768b95e938c8316e7237007862e2f31b3e4fe6206ccc",
+      "gitBlob": "2a70a6d3842fcc37180cc53e48d3a64a5f447410",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/recording.md"
+    },
+    {
+      "path": "docs/screenshots/boats.jpg",
+      "bytes": 496836,
+      "sha256": "56d40a937bcae56d40f87c7027da21e9ea029b310dbba531bfeeaf44a1a9c198",
+      "gitBlob": "a27f2cc9fdc0f81fba7372f715e5eb6c1ccd1fa9",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/screenshots/boats.jpg"
+    },
+    {
+      "path": "docs/screenshots/capture.json",
+      "bytes": 3394,
+      "sha256": "d338fdedcaa1ebe2118404252a75327fe834cab57cdad7760c295159e1d322d7",
+      "gitBlob": "b0828311713b4beb83ab017df7ad594e2b11d895",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/screenshots/capture.json"
+    },
+    {
+      "path": "docs/screenshots/giant-planet.jpg",
+      "bytes": 412929,
+      "sha256": "a345e1d9e58dcc2bd59567de63a4d7265ac5d28493ac56ea07ac7d30eb71eca8",
+      "gitBlob": "53efe6c2dd1973f72d4fbe98fdfb518ac6f3412d",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/screenshots/giant-planet.jpg"
+    },
+    {
+      "path": "docs/screenshots/hanami-castle.jpg",
+      "bytes": 530493,
+      "sha256": "e071ca5676bce08379477ce073155bb25a459bb31f405fb870d8046b6f103bb7",
+      "gitBlob": "6e4a8dfb4e012ae66153e0272783ec2985deb5f2",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/screenshots/hanami-castle.jpg"
+    },
+    {
+      "path": "docs/screenshots/shanshui-lakes.jpg",
+      "bytes": 500287,
+      "sha256": "36afca7cdb89123e27f940eda0a8319c490a3bb4c2868064075d316d0dc32318",
+      "gitBlob": "b1b07c464d9201a4ec5c6524985eef6e443d7c2d",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/screenshots/shanshui-lakes.jpg"
+    },
+    {
+      "path": "docs/screenshots/shanshui-palace.jpg",
+      "bytes": 406418,
+      "sha256": "afa293be085aa6d961237bd22fe6ae53f434f710ba5cbc2f9570d917d4c18a92",
+      "gitBlob": "e767f2bf8fa7731b3e7d06fd81363633f5e9707a",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/screenshots/shanshui-palace.jpg"
+    },
+    {
+      "path": "docs/screenshots/teahouse.jpg",
+      "bytes": 497029,
+      "sha256": "180176bce20b950e4f4922181f577a3af07c918b71580785ce400e8d91d03d99",
+      "gitBlob": "f054f4b05143cd1a2800089b7cde27129f172bd9",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/screenshots/teahouse.jpg"
+    },
+    {
+      "path": "docs/validation.md",
+      "bytes": 5938,
+      "sha256": "9846022a34850b162bb97d6d52f582e59ada3975b3270668ac3e5783b54aa19e",
+      "gitBlob": "5e243882b475485e60797f9ede6f9480b0d2c47f",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/validation.md"
+    },
+    {
+      "path": "docs/x-post.txt",
+      "bytes": 325,
+      "sha256": "ea9a1fc742570efd25eaacb0eb9f823aea77d6663a937567c0241a441c261505",
+      "gitBlob": "117c0bbfbf8e8b4a3c261764844582da83862c57",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/docs/x-post.txt"
+    },
+    {
+      "path": "index.html",
+      "bytes": 562032,
+      "sha256": "27bf2882cdc043b43f09f86d49ecb58a15b23ed1228add047ad61602959ab766",
+      "gitBlob": "43485e632bdc689a2873ccf4b50fd831fec6d8a9",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/index.html"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 50731,
+      "sha256": "7c603a5799f89a4aca32df4b73929ce8224094836c88591160f9a74d2525bc07",
+      "gitBlob": "a5386550c90cd9df55fef780e54a773a5d1fdfb3",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/package-lock.json"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1193,
+      "sha256": "a307d0c00e36c01b46edc38fae002c2bc74d8e7ad58583171812e8b10508b1c5",
+      "gitBlob": "2d959ad27ecc815a0adf76540303f916ff5a18ab",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/package.json"
+    },
+    {
+      "path": "public/_headers",
+      "bytes": 137,
+      "sha256": "bb2dd99767140c6cb353a60cd0fe6bf968aed8eba65b0ff8c627ccf84930e65b",
+      "gitBlob": "139a529317373572f739f92a9d1a543c885fc006",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/public/_headers"
+    },
+    {
+      "path": "screenshot.png",
+      "bytes": 3476831,
+      "sha256": "ecc19bff0be0339b0aaf79b874b76928608667d77c1afc9b111c96df2a078ce8",
+      "gitBlob": "d21933a74488b74530738abc5e614f0cdd1752fa",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/screenshot.png"
+    },
+    {
+      "path": "scripts/capture_screenshots.py",
+      "bytes": 6804,
+      "sha256": "77973ab75ac47f457cf350cc6908d30ad37b16a39074c36866727cd621973132",
+      "gitBlob": "1ee68d8b8100a63b692c37504b3cf3fb58547ae2",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/scripts/capture_screenshots.py"
+    },
+    {
+      "path": "scripts/record_demos.py",
+      "bytes": 8004,
+      "sha256": "4b6d4dd8b143023997f7d7db26de58dab328525cd63645412ab51a43fd91730b",
+      "gitBlob": "7c1c92d3a6b9484c21e5f0e6fdede7c2dbe6cead",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/scripts/record_demos.py"
+    },
+    {
+      "path": "scripts/record_scenery.py",
+      "bytes": 19019,
+      "sha256": "055ad1d88d242a76587ef45b181ffb6d622c02da94c4d4aebf3459435bae78e3",
+      "gitBlob": "b931c25fea64000a867fd65250f977150367eb44",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/scripts/record_scenery.py"
+    },
+    {
+      "path": "src/00_shell.html",
+      "bytes": 25336,
+      "sha256": "cdeb9a84e28c38023ee12b9b520f7b86879055b0f23ef26de1acbca5fc2fec13",
+      "gitBlob": "5d0e90392f7837373d9ccec799f97e26351893ad",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/00_shell.html"
+    },
+    {
+      "path": "src/10_gen_core.js",
+      "bytes": 17995,
+      "sha256": "3723151171969c032ca182e18e529103854a49d82ec3b99ce329be245ec29744",
+      "gitBlob": "faaf70ee99080f1e9aa01568ddcc6bebd441a518",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/10_gen_core.js"
+    },
+    {
+      "path": "src/10_gen_habitat.js",
+      "bytes": 2117,
+      "sha256": "79bcc40b6dd8cea5bdaf92a01589165a136c19154b6bd3168312abc4dd1d1b7d",
+      "gitBlob": "d2b58906199caa6060b3ddace1c9e92f9fb24208",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/10_gen_habitat.js"
+    },
+    {
+      "path": "src/10_gen_profiles.js",
+      "bytes": 4458,
+      "sha256": "20bee0f9d255f7dfd231800ae9696b7d00afabe50a7556e07b6fb15a235e3fee",
+      "gitBlob": "fe56b30460e6939784c8e7a2c320160247ab9d14",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/10_gen_profiles.js"
+    },
+    {
+      "path": "src/10_gen_sakura.js",
+      "bytes": 6290,
+      "sha256": "bd261df5970ad77dd41ca12cc4d3211f6d43eaf26172e439e99c8d589ba3e5e5",
+      "gitBlob": "dc08968694ef6bf8eed2c1b888f966293f6aa16c",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/10_gen_sakura.js"
+    },
+    {
+      "path": "src/10_gen_shanshui.js",
+      "bytes": 16516,
+      "sha256": "fdecdc5fbb5180e9584801678efd13ac1a2ee9d792600c0ef2650845d570972f",
+      "gitBlob": "3af785661755299b7ba91c722d6b3faf2ae518ad",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/10_gen_shanshui.js"
+    },
+    {
+      "path": "src/11_gen_kit.js",
+      "bytes": 27614,
+      "sha256": "db05a1b0f0f644c5d4acb141ea364d42a971ab01f8e8f1403a95293572466aa3",
+      "gitBlob": "fd1ab34a627601bed95aac27bf163c3488e209bf",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/11_gen_kit.js"
+    },
+    {
+      "path": "src/11_gen_landmarks.js",
+      "bytes": 6316,
+      "sha256": "b3dd25d852b23179328a3ecc91e419914f8b85efb0393cde68748e7f6ef7d3ab",
+      "gitBlob": "8c87e37d8b618ee6bb537c1c0a0c8fe917ff6b6f",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/11_gen_landmarks.js"
+    },
+    {
+      "path": "src/11_gen_palace.js",
+      "bytes": 4818,
+      "sha256": "f2d694ad19f777aeb3bec891a98589f9d47c3366b152b507a2b28bfd2612dbaf",
+      "gitBlob": "a12d4e83ce3ad4609fd04d2ec9cc15eb330d1d28",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/11_gen_palace.js"
+    },
+    {
+      "path": "src/11_gen_plants.js",
+      "bytes": 24349,
+      "sha256": "b93dd4a4e45c39c947d6794509d23d8512303ac0d50be162702c08f515648724",
+      "gitBlob": "4d6e1f2837a85e9fdb5062996b81b3e0f7e7dce8",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/11_gen_plants.js"
+    },
+    {
+      "path": "src/11_gen_shanshui_arch.js",
+      "bytes": 13163,
+      "sha256": "81d80b22b9ce324af7486a26b0afd39782e0c9bdd42d8df35c9c03e21787185e",
+      "gitBlob": "7a1092c804c2ba59b79e73163b5089690315aa27",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/11_gen_shanshui_arch.js"
+    },
+    {
+      "path": "src/11_gen_shanshui_assets.js",
+      "bytes": 30478,
+      "sha256": "66ce492d6a5acafd019278d8a8a815e6a9c36a989366b51cfd4dbaf619d736f3",
+      "gitBlob": "51f72d342864240a9b9186c83674e073c4845a9b",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/11_gen_shanshui_assets.js"
+    },
+    {
+      "path": "src/12_gen_chunk.js",
+      "bytes": 43666,
+      "sha256": "07abb27a20db829e162dcc2cba1a839253c55fc2a00974316bce4795fcd12d71",
+      "gitBlob": "c9d6d2ba489a3cbfd854efee48627c9d7cd06c76",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/12_gen_chunk.js"
+    },
+    {
+      "path": "src/12_gen_lod.js",
+      "bytes": 16315,
+      "sha256": "d0a794f473426c263cf3b0c508dc0f852348ee7345165189af5e7853e850c017",
+      "gitBlob": "8cf0ad198d05f9be8dbb9dc6ec487b884c379d28",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/12_gen_lod.js"
+    },
+    {
+      "path": "src/20_engine.js",
+      "bytes": 28511,
+      "sha256": "b571f849ff2619769c72b599f08776e1f2d3963f99bd6cf128d297f93ff6c29b",
+      "gitBlob": "6a6bfabf34c2a91a12bfef5639797a6ab12c46b5",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/20_engine.js"
+    },
+    {
+      "path": "src/20_light_bounds.js",
+      "bytes": 1141,
+      "sha256": "3ff6eada3ddd03f8a89f7d68b30b843a0f7eb929ff88923b64fca966cd5347e0",
+      "gitBlob": "693908528bbf4d6f98731ff40bff882da43bb8d7",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/20_light_bounds.js"
+    },
+    {
+      "path": "src/20_pools.js",
+      "bytes": 5481,
+      "sha256": "ef37aa4bb56f68130ffc20a51792339f5866f086c81461ea87250d908dece6f1",
+      "gitBlob": "796a90fa037690b5bcca07a7f0078920c418f42c",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/20_pools.js"
+    },
+    {
+      "path": "src/20_vegetation.js",
+      "bytes": 5471,
+      "sha256": "966830efbd5d8a88205a2340d0ddf8496a6853e2972350db1cba759eb3b0224d",
+      "gitBlob": "e8ecd39e2a98f08a34a04a96b4e77b497b952477",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/20_vegetation.js"
+    },
+    {
+      "path": "src/20_water.js",
+      "bytes": 13237,
+      "sha256": "f47e06073d838cd9ba2c608f2fd03be7823ea221ac2675bdaee2d2556adc6dce",
+      "gitBlob": "6a2e6fbb3fb3ed03197292abc865f96ea20dc03a",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/20_water.js"
+    },
+    {
+      "path": "src/21_stream.js",
+      "bytes": 11843,
+      "sha256": "0f036f24db943a37ef23f8f7b240ddd7408c65e30f4fb2b7a61b8e34c3cc2e87",
+      "gitBlob": "00ea8b5b2b20b0d73e64121284a67aa3a2e7d69b",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/21_stream.js"
+    },
+    {
+      "path": "src/21_visibility.js",
+      "bytes": 3002,
+      "sha256": "e2542087303cb03543a12855eac856e96e8325451d3099a0ea7b9352ac170120",
+      "gitBlob": "21c2d506242424f9b32626b888ac9ea740f7e849",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/21_visibility.js"
+    },
+    {
+      "path": "src/22_atmo.js",
+      "bytes": 27861,
+      "sha256": "84f96c94f48f7e14ae56ca2dbe1c8e69b6857f00c75009b14da9eb2b24df477d",
+      "gitBlob": "a8bc0dfc47ebc2eb019f251aafce71b6e2a66013",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/22_atmo.js"
+    },
+    {
+      "path": "src/22_mist.js",
+      "bytes": 3711,
+      "sha256": "4610c79f56b3680dab989d70b85087cd4515d5a7fb0c62b6babb4f0038c9ddff",
+      "gitBlob": "b8b3aac43dc26d3438009d06b6e5a594ea164b48",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/22_mist.js"
+    },
+    {
+      "path": "src/22_sky_settings.js",
+      "bytes": 19840,
+      "sha256": "acc2bab98929e1e4e728b0825fdb0709b41f03fe801e982bc05468093c31071d",
+      "gitBlob": "f0a0cffbd3daa2fe2143a410090780dae653a97b",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/22_sky_settings.js"
+    },
+    {
+      "path": "src/23_fx.js",
+      "bytes": 24163,
+      "sha256": "03166d0e5047d02995c5f10e7ab451e9a935f64eaa980ae956495a9e9938c9dd",
+      "gitBlob": "bff4431384977da5460b3b239885ae35059c4abb",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/23_fx.js"
+    },
+    {
+      "path": "src/23_lanterns.js",
+      "bytes": 7751,
+      "sha256": "3184d62858b913db3e0b92559638e9956415352029cee6fa01238840a8d72d66",
+      "gitBlob": "4ce6681b9649b9c826ccb7bbf0ffd9f5138d3ea6",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/23_lanterns.js"
+    },
+    {
+      "path": "src/23_settlement_assets.js",
+      "bytes": 13990,
+      "sha256": "db3ca2b6641814b365bcb2d028163cd1f94a95b52b27691e107b00fb6fec5d13",
+      "gitBlob": "bce59428f29a86e23f1617cec990e3db520d24b6",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/23_settlement_assets.js"
+    },
+    {
+      "path": "src/23_settlements.js",
+      "bytes": 14073,
+      "sha256": "a03f1ac77389dc4a00aa74dfc728ff674282170c2801e73958998a44c2ed7bd9",
+      "gitBlob": "ffa0d952f110f405b0efb8edd1e039689ef99c0f",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/23_settlements.js"
+    },
+    {
+      "path": "src/23_unit_assets.js",
+      "bytes": 11468,
+      "sha256": "07ba8164874577e1751573c1c40a4c19c31ebaae9ad5e885c54661dfbab3bfa0",
+      "gitBlob": "5aecedae0f1860350087ca59f2110c1a7a242649",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/23_unit_assets.js"
+    },
+    {
+      "path": "src/23_wildlife.js",
+      "bytes": 9113,
+      "sha256": "b8995b1f888291c0e479e47c3235d12db863a6cccbc416a8bf723940dc01ce04",
+      "gitBlob": "f864777c10c91b48aff671aa874106ba0137964f",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/23_wildlife.js"
+    },
+    {
+      "path": "src/24_app.js",
+      "bytes": 45977,
+      "sha256": "e839e24e5d21e87f50a7dadd1efb867a62a80e7418715d67c0a5fbe100a975a8",
+      "gitBlob": "a0358f3ce54a4bd93ceabf78e04e4f0b86f83e60",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/24_app.js"
+    },
+    {
+      "path": "src/24_cinematic.js",
+      "bytes": 23449,
+      "sha256": "d1268fdae342828d059b2416d52dfd4fdf1d3fa0a7399cee969eb1474433246d",
+      "gitBlob": "83b2b87dc7171416dce78247a8e1a88c1e1cedba",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/24_cinematic.js"
+    },
+    {
+      "path": "src/24_follow.js",
+      "bytes": 15579,
+      "sha256": "f9a0a326121532a3bfbb812fe65fbccdb61fa993d4d64cbe5b50a276592a9eeb",
+      "gitBlob": "d879ab9d2ef4c390185d655b41ed21ab63151394",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/24_follow.js"
+    },
+    {
+      "path": "src/24_i18n.js",
+      "bytes": 30500,
+      "sha256": "8088d330a7b1a6eb20955232993d72a092caa5489fe028b1295416478d4661d6",
+      "gitBlob": "bf68cdf7a0b6f42eccda5e55f2947da26e9a4b5f",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/24_i18n.js"
+    },
+    {
+      "path": "src/24_navigation.js",
+      "bytes": 6483,
+      "sha256": "f17fb655aea7f48e048c8029772b0e33fe1b29d215ec001eed3268a1af02a73d",
+      "gitBlob": "0ed02ef6cbe209f997316488b120737132753bcc",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/src/24_navigation.js"
+    },
+    {
+      "path": "tests/build.py",
+      "bytes": 5993,
+      "sha256": "49ea2e45d1ded15c2e80b83bf6cc1ed502cfd22984f81218bcdc0da5f6f0cfd1",
+      "gitBlob": "e528711bda09d69cdc856c6b2014f1a69d00ecb5",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/build.py"
+    },
+    {
+      "path": "tests/buildings.cjs",
+      "bytes": 3655,
+      "sha256": "e918a27342b5ca045952656a138fab18f6d69ed432232aa7c5220f25fca2400b",
+      "gitBlob": "06a878af44473bb0c9fcc9a90fae0a2d28d33b8c",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/buildings.cjs"
+    },
+    {
+      "path": "tests/cinematic.mjs",
+      "bytes": 20479,
+      "sha256": "37297d3ffcf6fc588c331f79ef9eee26b2470cf9ded68316adc09c56f77cd827",
+      "gitBlob": "f9415806b9d0d1f8ed2cf6e89fe4773f76f7b22c",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/cinematic.mjs"
+    },
+    {
+      "path": "tests/creatures.cjs",
+      "bytes": 3710,
+      "sha256": "11c1e26757c1c6ac8e0b6a50a3e9d00f36a5708c1d5faf9e81be2b3577db3352",
+      "gitBlob": "e4c9d04aed4f02c31b3a426c5fe64578aecd1061",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/creatures.cjs"
+    },
+    {
+      "path": "tests/follow_menu.cjs",
+      "bytes": 14500,
+      "sha256": "5f9cbd22e94301db64b872ad6490213b88c40e695c398971944483b2473c0077",
+      "gitBlob": "4828d35496f6caf03b985bdc0bfa5c7e22edd58e",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/follow_menu.cjs"
+    },
+    {
+      "path": "tests/hydrology.cjs",
+      "bytes": 5106,
+      "sha256": "f91a27f725e17d9b0b1517f9478c35864726eb8524e85fca080189bf320d0915",
+      "gitBlob": "becbdec158aefcb879b5396503666ad365af7863",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/hydrology.cjs"
+    },
+    {
+      "path": "tests/i18n.cjs",
+      "bytes": 6806,
+      "sha256": "ec7b509d22965fa50d696a04b4554c045addaf9edb9a6d274650df8bc6f4c430",
+      "gitBlob": "7e98fe3b3d80a12d0a5138a8647063c404d525bd",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/i18n.cjs"
+    },
+    {
+      "path": "tests/mist.cjs",
+      "bytes": 2921,
+      "sha256": "2d2f4e7e07355ae145c06f45de021e7ff7e00638134f9cf0084505ec7c5d06cf",
+      "gitBlob": "d2963873f865b075399029dca34ac78e01ca6328",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/mist.cjs"
+    },
+    {
+      "path": "tests/pools.cjs",
+      "bytes": 2278,
+      "sha256": "7b2316d9094e9a846e8c734a0401c9e141a3babf535d4770a8546e370968b363",
+      "gitBlob": "d4e5be44e0d24ef2be788bac6087d4e3fb37e173",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/pools.cjs"
+    },
+    {
+      "path": "tests/profiles.cjs",
+      "bytes": 2743,
+      "sha256": "66d99da94b622744fe15f58be157482730ea430a32abb10da24c23b24b72b226",
+      "gitBlob": "c981cf6dbdc134b02919b3df6288f11914886af8",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/profiles.cjs"
+    },
+    {
+      "path": "tests/settlements.mjs",
+      "bytes": 10964,
+      "sha256": "2c0676d00b9ec7807f76bbfd524ecb416e221f3cbb1cd4e17174a40b6e6e5654",
+      "gitBlob": "4e17cb627493992fecfeae1e18805fb87673c602",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/settlements.mjs"
+    },
+    {
+      "path": "tests/shores.cjs",
+      "bytes": 2724,
+      "sha256": "2d148d82dd08de1475873e2ee40875b3d0758dcec8fa9cd02e0270601f08ceea",
+      "gitBlob": "b4174aba594353eedf68b60ae1b70b63ffa3e27b",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/shores.cjs"
+    },
+    {
+      "path": "tests/sky.mjs",
+      "bytes": 18790,
+      "sha256": "59cd22bb6e521cd8aacd31f06f22a59b71d8014805cd07ac2f6e8ac2e1c4eae3",
+      "gitBlob": "8d3e08c38b47d9e8831da1d792567a041eb2c582",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/sky.mjs"
+    },
+    {
+      "path": "tests/town_lod.cjs",
+      "bytes": 6877,
+      "sha256": "adb87f2de589f1c76cf3ba4be82c5d5d32f78faf2e2e067ee9024aa1681d93f6",
+      "gitBlob": "ccfc7623a63d18c9eaa2911f4702ed35eb0108aa",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/town_lod.cjs"
+    },
+    {
+      "path": "tests/visibility.cjs",
+      "bytes": 4036,
+      "sha256": "79c4ff414672432d524ff51851430f62c86234e476252eb2038add2982cebb1d",
+      "gitBlob": "c3f1fea2d2b52cf2e5a9bd71854fa03282b6fc68",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/visibility.cjs"
+    },
+    {
+      "path": "tests/water.mjs",
+      "bytes": 6065,
+      "sha256": "d2042c24213fd7588c2f64bd82f3465b236679a1e6aeb82ccf4e6a3b7d20706c",
+      "gitBlob": "916f6fae6c5e7939f7610570602412a9a40fd1f7",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/water.mjs"
+    },
+    {
+      "path": "tests/world.cjs",
+      "bytes": 6386,
+      "sha256": "1bf0d6a11296d909a520c96a354163dbfb90d06d9a70fed614ad0722c5e4b742",
+      "gitBlob": "f87c34b135bfd498a196ec7516360142bc90d985",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/tests/world.cjs"
+    },
+    {
+      "path": "world.manifest.json",
+      "bytes": 826,
+      "sha256": "d5c9059aa306030e3ee9dedbd9fbf1922e0c9e45482db742dc1201032e7a1966",
+      "gitBlob": "c606d44132523461f68aaa1441091485011fef43",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/world.manifest.json"
+    },
+    {
+      "path": "wrangler.jsonc",
+      "bytes": 125,
+      "sha256": "d62beb63ddafd22296f759e2473f5ce84dee095a9e68a13508f6c88a0a66269d",
+      "gitBlob": "e7620a45c68cbafaae99ef760b03df8211d46bd5",
+      "url": "https://raw.githubusercontent.com/holooooo/myriad-worlds/cdaab73d15993914be057adf57897955f88b9382/wrangler.jsonc"
+    }
+  ]
+}

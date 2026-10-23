@@ -1,0 +1,57 @@
+{
+  "kind": "generated_concept",
+  "generator": "built-in image_gen",
+  "date": "2026-10-20",
+  "intended_video": {
+    "aspect_ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "delivery_mode": "ai_review_once"
+  },
+  "actual_images": {
+    "width": 941,
+    "height": 1672,
+    "note": "工具返回的近9:16概念图尺寸；不作为1080×1920正式视频帧。"
+  },
+  "assets": [
+    {
+      "id": "city-overview-v1",
+      "local_path": "city-overview-v1.png",
+      "source_path": "C:/Users/67236/.codex/generated_images/01a156ad-ea86-7703-ae05-48c9da87045f/exec-d4501b1f-f77d-49f3-a9a1-2100f3da4cbf.png",
+      "sha256": "BE0CDB5CCEE5C447548371B18B68CEBDF16113B9E8871245995160BF6D284AF4",
+      "prompt": "prompts-v1.json",
+      "used_in": "整体世界、美术与材质方向；灯已部分点亮，不能当未亮灯开场",
+      "visual_observation": "蓝门、纵深运河、石桥和右后方阶梯神庙可辨；暖光、砖与釉面细节清楚；底前景与远景柔虚；龙是小比例细节。"
+    },
+    {
+      "id": "city-reveal-late-v1",
+      "local_path": "city-reveal-late-v1.png",
+      "source_path": "C:/Users/67236/.codex/generated_images/01a156ad-ea86-7703-ae05-48c9da87045f/exec-f7eb0062-550d-4931-8c1b-ad8a34fa8e25.png",
+      "sha256": "889693131E008459ECB363E6A272EF3868ABFDF22D9017A4F0B4C568D703A178",
+      "prompt": "opening-prompt-v1.json",
+      "used_in": "开场显露完成后的阶段参考",
+      "visual_observation": "整体城墙和神庙已大幅可见，最初作为早期显露未满足遮挡量，故保留为后期阶段参考；无龙，存在少量亮点需三维制作时校准未点灯状态。"
+    },
+    {
+      "id": "city-reveal-early-v1",
+      "local_path": "city-reveal-early-v1.png",
+      "source_path": "C:/Users/67236/.codex/generated_images/01a156ad-ea86-7703-ae05-48c9da87045f/exec-13c5a7ed-30bc-4b58-87d1-8d034ad9b14d.png",
+      "sha256": "933344EAFC7EAF0AA03841A7BD329E46558BD82B2D657B1A322AE3E16400E1A6",
+      "prompt": "opening-early-prompt-v1.json",
+      "used_in": "早期低机位、地平线遮挡参考",
+      "visual_observation": "土坡隐藏大部分下城，蓝门上部和神庙露出；天空和前景留白服务开头揭示，不是整片固定构图。"
+    }
+  ],
+  "limits": [
+    "只完成生成概念图的视觉查看，未制作或播放动画，未生成或听取音乐。",
+    "地标方向和材料语汇用于设计；生图透视、相对尺度与接触几何不能证明跨图连续，需要统一三维世界校准。",
+    "用户已认可方向；尚未进行完整成片AI审核。"
+  ],
+  "protected_items_proposed": [
+    "蓝釉门楼与土金泥砖",
+    "右后方阶梯神庙和纵深运河",
+    "暖侧光与可读材料",
+    "地平线由遮挡解除显露"
+  ],
+  "user_approved": true
+}

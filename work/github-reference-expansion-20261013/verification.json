@@ -1,0 +1,81 @@
+{
+  "checked": "2026-10-13",
+  "sourceFiles": 632,
+  "sourceBytes": 1101755830,
+  "packages": [
+    {
+      "repo": "az9713/opus-5.5-musical-cartoon",
+      "commit": "38201167ec193d919a70f9531d9ce131bc5c9828",
+      "files": 46,
+      "licenseFiles": [],
+      "films": 1
+    },
+    {
+      "repo": "bilaldemirerr/opus-video-recipes",
+      "commit": "04a7837efe742faa885d593198f5197adaaea788",
+      "files": 25,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "films": 2
+    },
+    {
+      "repo": "c5inco/motion-showreel",
+      "commit": "fa37a7dea6fd346b6fb2aeee9fa35e1632538222",
+      "files": 49,
+      "licenseFiles": [
+        "LICENSE",
+        "licenses/OFL-GeistMono.txt",
+        "licenses/OFL-InstrumentSerif.txt",
+        "licenses/OFL-InterTight.txt"
+      ],
+      "films": 1
+    },
+    {
+      "repo": "DDChen666/civilization-film",
+      "commit": "e33ad33757ab196c7349b9008a2205f572b5a3b6",
+      "files": 68,
+      "licenseFiles": [
+        "CREDITS.md",
+        "LICENSE",
+        "LICENSE-MEDIA.md"
+      ],
+      "films": 1
+    },
+    {
+      "repo": "JakeB-5/motion-graphic-skill",
+      "commit": "21e875e9f97c83ce637eb18d35ff29c7712ebc18",
+      "files": 51,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "films": 3
+    },
+    {
+      "repo": "toankhontech/pelican-test-opus55",
+      "commit": "33fcbe36b0d64aba118b9f2031a81f9e5b961c19",
+      "files": 9,
+      "licenseFiles": [],
+      "films": 1
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+      "files": 384,
+      "licenseFiles": [
+        "LICENSE",
+        "site/vendor/highlight.LICENSE"
+      ],
+      "films": 15
+    }
+  ],
+  "errors": [],
+  "preview": {
+    "before": 52,
+    "after": 76,
+    "added": 24,
+    "newFilms": 9,
+    "existingFilmsPaired": 15
+  },
+  "passed": true
+}

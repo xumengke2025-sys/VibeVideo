@@ -1,0 +1,10 @@
+{
+  "checked": "2026-10-13",
+  "githubQueries": ["\"opus 5.5\" animation", "\"opus 5.5\" video", "\"claude-opus-5-5\""],
+  "webQueries": ["site:github.com \"Opus 5.5\" \"mp4\"", "site:github.com \"Opus 5.5\" film source animation"],
+  "detailedResearch": "research/<owner--repo>/research.json 保存固定提交树、仓库信息和发布资产；README.md保存当次作者说明。",
+  "eligibility": "实际作者MP4与对应绘制源码同时归档；作者明确标注Opus 5.5；纯代码绘制或代码驱动动画，不把影片模型API/图库源码作为影片绘制源码；排除GIF-only/仅提示词/仅视频链接。",
+  "duplicateHandling": "原52项预览保留；MG15个已有原片不重复下载或称为新发现，只补齐完整源码/资产并加入当前预览。",
+  "modelEvidence": "依据作者仓库文字声明，未独立验证模型调用。",
+  "scope": "本地参考归档，不启动新视频制作，不安装技能或执行下载代码。"
+}

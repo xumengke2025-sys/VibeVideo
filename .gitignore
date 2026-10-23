@@ -117,3 +117,20 @@ work/workflow-optimization-20261011/source-study/functional-emotions-video/STORY
 work/shotcraft-integration-20261014/before/
 work/shotcraft-integration-20261014/runtime-temp/
 work/shotcraft-integration-20261014/validation-deps/
+
+# Local 3D runtime, scene builds and disposable downloads (source scripts remain publishable).
+/tmp/
+/tools/blender-portable/
+**/.tools/
+**/vendor-python/
+**/python-deps/
+**/*.dist-info/
+*.blend
+*.blend[0-9]*
+*.tar
+*.tar.gz
+*.tgz
+*.whl
+*.pyd
+**/render/
+work/night-heron-shadow-20261012/film/audio-assets/*.html

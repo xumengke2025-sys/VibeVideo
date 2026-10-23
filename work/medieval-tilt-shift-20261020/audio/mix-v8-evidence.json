@@ -1,0 +1,24 @@
+{
+  "source_excerpt": [
+    29.5,
+    85.5
+  ],
+  "fade_in": 0.15,
+  "fade_out": [
+    53,
+    56
+  ],
+  "loudness": {
+    "input_i": "-15.74",
+    "input_tp": "-2.31",
+    "input_lra": "8.00",
+    "input_thresh": "-25.97",
+    "output_i": "-18.20",
+    "output_tp": "-4.84",
+    "output_lra": "7.00",
+    "output_thresh": "-28.31",
+    "normalization_type": "dynamic",
+    "target_offset": "1.20"
+  },
+  "actual_listening": false
+}

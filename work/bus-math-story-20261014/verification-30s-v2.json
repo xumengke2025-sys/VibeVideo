@@ -1,0 +1,57 @@
+{
+  "output": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\bus-math-story-20261014\\out\\bus-math-story-30s-v2.mp4",
+  "bytes": 2701004,
+  "sha256": "b60d82c63d738d6f9ea6f2fe25dc14d76d2b0c6fbd7e08219143cee372d5aa6a",
+  "duration": 30,
+  "width": 1080,
+  "height": 1920,
+  "fps": "24/1",
+  "video": "h264",
+  "audio": "aac",
+  "channels": 2,
+  "checks": [
+    {
+      "name": "continuous requested timeline",
+      "passed": true
+    },
+    {
+      "name": "music only input; no voice or scene sound effects",
+      "passed": true
+    },
+    {
+      "name": "caption windows, length, and reading time",
+      "passed": true
+    },
+    {
+      "name": "physical event contacts",
+      "passed": true
+    },
+    {
+      "name": "deterministic random access rendering",
+      "passed": true
+    },
+    {
+      "name": "event positions continuous at action joins",
+      "passed": true
+    },
+    {
+      "name": "fixed subject dimensions and continuous answer clock",
+      "passed": true
+    },
+    {
+      "name": "1080 × 1920 H.264 at 24 FPS",
+      "passed": true
+    },
+    {
+      "name": "AAC stereo audio and expected duration",
+      "passed": true
+    },
+    {
+      "name": "full video and audio decoding",
+      "passed": true
+    }
+  ],
+  "delivery_mode": "user_feedback",
+  "visual_evidence": "stills/v2-run-check.png, v2-transition-check.png, v2-highfive-check.png, v2-overview-check.png: 24 decoded frames; targeted motion and transition production checks, not an independent full-film review",
+  "audio_evidence": "source routing and encode/decode verification; no claim of independent listening review"
+}

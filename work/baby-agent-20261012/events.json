@@ -1,0 +1,24 @@
+{
+ "bpm":128,"duration":60,"stop_time":[31.4,32.8],
+ "scenes":[0,7.5,15,26.25,33.75,43.125,52.5,60],
+ "foley":[
+  {"t":0.15,"kind":"paper","gain":0.7},
+  {"t":3,"kind":"slap","gain":0.6},
+  {"t":8.2,"kind":"paper","gain":0.7},
+  {"t":10.8,"kind":"tap","gain":0.8},
+  {"t":11.1,"kind":"quack","gain":0.7},
+  {"t":15,"kind":"paper","gain":0.7},
+  {"t":26.25,"kind":"slap","gain":0.6},
+  {"t":32.8,"kind":"quack","gain":0.65},
+  {"t":33.75,"kind":"paper","gain":0.7},
+  {"t":36.55,"kind":"tap","gain":0.7},
+  {"t":38.35,"kind":"tap","gain":0.7},
+  {"t":40.15,"kind":"tap","gain":0.7},
+  {"t":41.25,"kind":"quack","gain":0.6},
+  {"t":45.525,"kind":"tap","gain":0.6},
+  {"t":49.1,"kind":"paper","gain":0.6},
+  {"t":52.5,"kind":"paper","gain":0.6},
+  {"t":54.9,"kind":"slap","gain":0.7},
+  {"t":56.4,"kind":"quack","gain":0.4}
+ ]
+}

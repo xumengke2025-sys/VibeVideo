@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/brown_photostudio_02_1k.hdr",
+    "file": "assets\\brown_photostudio_02_1k.hdr",
+    "sha256": "469abc5e6035b6c450bae8adbb448f8d1fa7c51d9e384e501516c28352c91b58",
+    "authority": "Poly Haven",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/brown_photostudio_02"
+  },
+  {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dark_wood/dark_wood_diff_1k.jpg",
+    "file": "assets\\dark_wood_diff_1k.jpg",
+    "sha256": "d68da31655bf47024af893156a6a01a6c95bb60f55d97e2dc9bdd47be320e5b5",
+    "authority": "Poly Haven",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/dark_wood"
+  },
+  {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dark_wood/dark_wood_nor_gl_1k.jpg",
+    "file": "assets\\dark_wood_nor_gl_1k.jpg",
+    "sha256": "c42541f1bda0a14b39f120c24407eeba699af8ac85b371c7cef98ffd7d7b13bf",
+    "authority": "Poly Haven",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/dark_wood"
+  },
+  {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dark_wood/dark_wood_rough_1k.jpg",
+    "file": "assets\\dark_wood_rough_1k.jpg",
+    "sha256": "47ea12dbf649109b02eaa164dde9732a74e839957f29ad0ec7f5266b575d1835",
+    "authority": "Poly Haven",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/dark_wood"
+  },
+  {
+    "url": "https://unpkg.com/three@0.186.0/examples/jsm/loaders/HDRLoader.js",
+    "file": "vendor\\HDRLoader.js",
+    "sha256": "0986b578f9acd14cec74e5ee85e07f45e681b40bcd229a601a0391201f9b5ff1",
+    "license": "MIT",
+    "authority": "Three.js r186"
+  }
+]

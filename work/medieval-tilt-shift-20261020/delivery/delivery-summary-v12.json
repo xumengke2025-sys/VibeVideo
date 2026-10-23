@@ -1,0 +1,30 @@
+{
+  "version": "v12",
+  "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\暮河城-巴比伦巨城-Dream-of-Babylon-v12.mp4",
+  "sha256": "eb3690a4d3b997517b28de24df4da048f5a65c614abea552bbea40c3a65cdd2b",
+  "engineering": {
+    "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\暮河城-巴比伦巨城-Dream-of-Babylon-v12.mp4",
+    "sha256": "eb3690a4d3b997517b28de24df4da048f5a65c614abea552bbea40c3a65cdd2b",
+    "width": 1080,
+    "height": 1920,
+    "frame_rate": "24/1",
+    "frames": 1824,
+    "duration": 76.0,
+    "sample_rate": "48000",
+    "channels": 2,
+    "decode_exit": 0,
+    "decode_errors": "",
+    "audio_perceived": false,
+    "independent_review": "single-round budget already used; producer verification only"
+  },
+  "observations": "qa/v12/producer-observations-v12.json",
+  "independent_review": false,
+  "audio_perceived": false,
+  "limits": [
+    "Producer representative and stated continuous-window checks only; not all 1824 frames visually reviewed.",
+    "No new independent review round. Historical review is bound to its own historical video.",
+    "Actual audio listening unavailable; subjective music synchronization remains unverified.",
+    "Technical scan addresses strong colour faults and isolated jumps; subtle temporal shimmer is not ruled out.",
+    "Fantasy interpretation of Babylon; not an archaeological reconstruction."
+  ]
+}

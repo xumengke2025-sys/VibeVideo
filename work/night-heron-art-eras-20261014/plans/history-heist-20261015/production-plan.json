@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-15",
+  "title": "夜鹭历史失物记",
+  "status": "proposal_only_no_production_started",
+  "objective": "制定同一夜鹭跨年代和画风叼走关键物件的历史荒诞动画计划；每段真实损失和作用有来源，鸟作案明确虚构。",
+  "scope": {
+    "authorized": "研究、史料核对、完整计划",
+    "notStarted": [
+      "新概念图",
+      "新人物资产",
+      "样段",
+      "录音",
+      "新成片"
+    ]
+  },
+  "brief": {
+    "aspect_ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 48,
+    "durationSeconds": 90,
+    "frames": 4320,
+    "eraCount": 5,
+    "delivery_mode": "ai_review_once",
+    "deliveryModeOrigin": "existing_project",
+    "reviewBudget": "existing_one_round_used_no_automatic_reset",
+    "audioProposed": "稀疏中文旁白、动作拟音、一条原创或许可明确的音乐主题",
+    "onscreenTextProposed": "年份+人物名+每段一条准确后果字幕；开场与片尾明示夜鹭作案虚构",
+    "proposalNeedsFeedback": [
+      "事件组合",
+      "90秒节奏",
+      "旁白及额外字幕建议"
+    ]
+  },
+  "existingEvidence": {
+    "checkpoint": "../../CHECKPOINT.md",
+    "imageActuallyViewed": "../../out/film-run-v7-bank-tracking-final/styleboard.jpg",
+    "sourceTargetedRead": "../../src/run-v7.js",
+    "limits": "本次未完整播放旧片或听音；未对旧渲染状态作新验收"
+  },
+  "truthContract": {
+    "historical": "有记录的军需损失、通信遭截及相应影响",
+    "fictional": [
+      "夜鹭为盗取者",
+      "从本人手边取物",
+      "五事件串成同一只鸟的旅程",
+      "反应表情与局部舞台空间压缩"
+    ],
+    "forbidden": [
+      "把单件小物当作唯一败因",
+      "把通信保密性丧失说成原件永久失踪",
+      "把战败后被缴的东西倒写为该仗败因",
+      "把史料未定的丢失人、数量及具体原件说成确定事实",
+      "以一条片尾免责声明替代每场准确表达"
+    ],
+    "explanatoryTitlesMustNarrowCausation": true
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.gushiwen.cn/guwen/bookv_845e11fb4c24.aspx",
+      "title": "三国志卷一 武帝纪及裴松之注",
+      "read": "正文与官渡段裴注",
+      "supports": "乌巢袭击、袁军崩溃；焚粮细节由注文引曹瞒传提供",
+      "limits": "古代文献记述；非对每个兵力数字或视觉器物的现代核定"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.gushiwen.cn/guwen/bookv_9502721748ce.aspx",
+      "title": "新唐书卷一百一十一 薛仁贵传",
+      "read": "咸亨元年大非川记述",
+      "supports": "郭待封带辎重前进被截、粮仗尽没、退军大非川与后续大败",
+      "limits": "不采纳书中夸大或存在争议的兵力数为精确数字"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.bl.uk/stories/blogs/posts/the-gallows-letter",
+      "title": "British Library The Gallows Letter",
+      "read": "馆员正文",
+      "supports": "1586年通信被截译、重新封送、改写与附言及文献档号",
+      "limits": "不把情报人员补写内容冒充玛丽原文；处决年份1587需明确递进"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.napoleon-series.org/military-info/battles/1814/Weil/Volume3/Weil17j.pdf",
+      "title": "Weil 1814战史相关英译",
+      "read": "PDF第11页及邻近上下文",
+      "supports": "致玛丽路易丝通信被截及联军获得行动信息",
+      "limits": "历史战史英译；未核原信原件；不写精确未定日时，不作原物摹本"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.napoleon.org/histoire-des-2-empires/chronologies/mars-avril-mai-1814-de-la-capitulation-au-traite-de-paris/",
+      "title": "Fondation Napoléon 1814年3至5月年表",
+      "read": "3月转向巴黎及后续年表",
+      "supports": "另封据称来自萨瓦里的信与联军直趋巴黎的决策",
+      "limits": "不可与S04合成同一封原信；通信为多个决策因素之一"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.nps.gov/mono/learn/historyculture/an-invitation-to-battle.htm",
+      "title": "NPS An Invitation to Battle Special Orders 191",
+      "read": "正文及谁丢失等问答",
+      "supports": "9月13日北军发现军令、部署泄露、对手加快行动",
+      "limits": "丢失者不确定；雪茄数量有异说；对后果的权重存在讨论"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.nps.gov/anti/planyourvisit/military-group.htm",
+      "title": "NPS Antietam Military Groups",
+      "read": "战术平局与李撤军的说明",
+      "supports": "战术平局及战略层面变化",
+      "limits": "不能说军令直接导致李在安提坦被全歼或1865年投降"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "yuan-shao-200",
+      "year": 200,
+      "person": "袁绍",
+      "propId": "yuan-grain-bag",
+      "historicalLoss": "乌巢储粮遭焚与据点失守",
+      "category": "material_destroyed",
+      "causation": "官渡败局的重要转折，非单独唯一原因",
+      "style": "东汉画像石启发的线刻",
+      "fictionalAction": "夜鹭从手边代表粮袋偷啄；相机另外揭示人类袭击乌巢与火攻",
+      "consequenceText": "乌巢失守，军粮遭焚",
+      "narration": "乌巢的粮草被焚，成了袁绍败局的重要转折。",
+      "sourceIds": [
+        "S01"
+      ],
+      "propStates": [
+        "手边粮袋",
+        "鸟啄取少量谷物",
+        "谷物被吃",
+        "另景真实类型的军粮损毁"
+      ],
+      "humanHandSceneIsFictional": true
+    },
+    {
+      "id": "xue-rengui-670",
+      "year": 670,
+      "person": "薛仁贵",
+      "propId": "xue-supply-pouch",
+      "historicalLoss": "郭待封运输的辎重遭截",
+      "category": "material_captured",
+      "causation": "军需损失与退军战败的记述链成立，另有违令和部署因素",
+      "style": "唐代壁画勾线设色",
+      "fictionalAction": "手边车队小包系绳被叼，鸟受阻后拖走小包；另景揭示运输队遭截",
+      "consequenceText": "辎重被截，退军大非川",
+      "narration": "军需辎重遭截后，薛仁贵退回大非川，随后战败。",
+      "sourceIds": [
+        "S02"
+      ],
+      "propStates": [
+        "车侧小包",
+        "喙接触系绳",
+        "受阻",
+        "包随鸟被拖动",
+        "另景车队已失"
+      ],
+      "humanHandSceneIsFictional": true
+    },
+    {
+      "id": "mary-1586",
+      "year": 1586,
+      "person": "苏格兰女王玛丽",
+      "propId": "mary-cipher-letter",
+      "historicalLoss": "密信保密性丧失",
+      "category": "confidentiality_lost",
+      "causation": "截译的通信成为追诉关键证据；次年处决",
+      "style": "16世纪后期英国肖像细密画",
+      "fictionalAction": "鸟叼纸角送入暗处，抄读后重新封送；鸟不永久吞掉信",
+      "consequenceText": "密信遭截译，成为定罪证据",
+      "narration": "被截译的密信成为定罪证据。次年，玛丽被处决。",
+      "sourceIds": [
+        "S03"
+      ],
+      "propStates": [
+        "交接前",
+        "绑定鸟喙",
+        "情报员处",
+        "复制解密",
+        "重新封送"
+      ],
+      "humanHandSceneIsFictional": true
+    },
+    {
+      "id": "napoleon-1814",
+      "year": 1814,
+      "person": "拿破仑",
+      "propId": "napoleon-war-letter",
+      "historicalLoss": "战时通信信息泄露",
+      "category": "confidentiality_lost",
+      "causation": "通信提供行动及巴黎局势情报，为联军决策因素之一",
+      "style": "帝政时期新古典主义油画",
+      "fictionalAction": "从递信交接点叼走，落入联军情报环节，地图显示对手转向巴黎",
+      "consequenceText": "通信泄密，联军直趋巴黎",
+      "narration": "遭截通信提供了关键情报，联军决定直趋巴黎。",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ],
+      "propStates": [
+        "拿破仑递出",
+        "交接点",
+        "绑定鸟喙",
+        "落下",
+        "联军读到"
+      ],
+      "humanHandSceneIsFictional": true,
+      "limits": "不同通信不混为同一封确认原信，不写滑铁卢、不画埃菲尔铁塔"
+    },
+    {
+      "id": "lee-1862",
+      "year": 1862,
+      "person": "罗伯特·李",
+      "propId": "lee-order-191-copy",
+      "historicalLoss": "第191号命令副本遗失并被敌方获得",
+      "category": "document_lost_and_discovered",
+      "causation": "对手掌握部署、加快行动并迫使提前应战；本次进攻受挫，非内战最终败亡的单因",
+      "style": "1860年代美国新闻木刻",
+      "fictionalAction": "发布命令经副本交接，鸟带起伴有雪茄的信封并掉落，北军发现阅读",
+      "consequenceText": "军令落入敌手，部署暴露",
+      "narration": "遗失的军令暴露了部署，迫使李提前应战。",
+      "sourceIds": [
+        "S06",
+        "S07"
+      ],
+      "propStates": [
+        "命令副本",
+        "信封伴随物",
+        "鸟叼起",
+        "地面",
+        "北军捡起阅读"
+      ],
+      "humanHandSceneIsFictional": true,
+      "limits": "不认定李本人遗失；不固定雪茄数量；不用白旗投降画面"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "hook",
+      "startFrame": 0,
+      "endFrameExclusive": 240,
+      "seconds": 5,
+      "content": "1814年闪前，信将被叼；接触前切回200年"
+    },
+    {
+      "id": "yuan-shao-200",
+      "startFrame": 240,
+      "endFrameExclusive": 960,
+      "seconds": 15
+    },
+    {
+      "id": "xue-rengui-670",
+      "startFrame": 960,
+      "endFrameExclusive": 1680,
+      "seconds": 15
+    },
+    {
+      "id": "mary-1586",
+      "startFrame": 1680,
+      "endFrameExclusive": 2448,
+      "seconds": 16
+    },
+    {
+      "id": "napoleon-1814",
+      "startFrame": 2448,
+      "endFrameExclusive": 3264,
+      "seconds": 17
+    },
+    {
+      "id": "lee-1862",
+      "startFrame": 3264,
+      "endFrameExclusive": 4032,
+      "seconds": 16
+    },
+    {
+      "id": "ending",
+      "startFrame": 4032,
+      "endFrameExclusive": 4320,
+      "seconds": 6,
+      "content": "河岸抓到鱼，幼鸟偷走，成年夜鹭成为被偷者"
+    }
+  ],
+  "production": {
+    "phaseOrder": [
+      "反馈计划",
+      "五时代整体概念及连续旅程布局图",
+      "玛丽到拿破仑交接与切换样段",
+      "薛仁贵拖包重量感样段",
+      "按媒介扩展人物/鸟/物件资产",
+      "实际旁白与事件同步",
+      "全片渲染及工程检查",
+      "展示并记录实际视听覆盖"
+    ],
+    "reuse": [
+      "renderAt绝对时间",
+      "世界摄影和固定对象锚点",
+      "脚底接触约束",
+      "前景遮挡切换思路",
+      "源码及来源快照机制"
+    ],
+    "newWork": [
+      "独立入口",
+      "人物手部和反应资产",
+      "任意物件状态链",
+      "不同物件接触与重量",
+      "历史后果揭示层",
+      "简短旁白及字幕"
+    ],
+    "prohibitions": [
+      "覆盖旧片",
+      "鱼绑定直接改名冒充任意物件系统",
+      "纸件吞咽",
+      "人脸通用网格拉伸",
+      "只换滤镜充作五媒介",
+      "静图平移冒充交接动作",
+      "自动调用额外导演或审片者"
+    ]
+  },
+  "backups": [
+    {
+      "person": "魏安釐王",
+      "prop": "兵符",
+      "reasonNotMain": "真实被盗，但结果为军令控制失效和救赵，不是魏王战败",
+      "source": "https://www.gushiwen.cn/shiwenv_577190c4b339.aspx"
+    },
+    {
+      "person": "安东尼",
+      "prop": "遗嘱",
+      "reasonNotMain": "政治宣传打击；非唯一战败因，真伪与利用另需处理",
+      "source": "https://www.lexundria.com/plut_ant/58/prr"
+    },
+    {
+      "person": "无敌舰队",
+      "prop": "舰锚",
+      "reasonNotMain": "割缆损失真实，但不是腓力二世手中小物且需超能力",
+      "source": "https://www.rmg.co.uk/collections/objects/rmgc-object-11755"
+    },
+    {
+      "person": "齐默尔曼",
+      "prop": "电报",
+      "reasonNotMain": "外交失密事件真实，但不能单因归结德国最终战败且机制重复",
+      "source": "https://www.archives.gov/milestone-documents/zimmermann-telegram"
+    }
+  ]
+}

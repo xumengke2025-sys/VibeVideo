@@ -1,0 +1,18 @@
+{
+  "title":"雪山钟城：第一篮面包", "aspect_ratio":"9:16", "width":1080,"height":1920,"fps":24,"duration":90,"frames":2160,
+  "delivery_mode":"ai_review_once","continuous_authorization":true,
+  "creative_direction":"已由用户确定事件与六段结构；深化同一篮面包的连续送达，不另开候选。开场雪坡解除遮挡，结尾回收同一城镇，面包让宏观山城有具体生活尺度。",
+  "world":{"axes":"Z up, +Y uphill/north","upper_bakery":[-12,23,9],"lower_station":[7,1,2.8],"clock_tower":[-2,7,3],"road":"宽缓坡石路以连续曲线连接入口、旅馆、广场，台阶在另一通道","wind":[0.8,0.25,0]},
+  "protected":["单一共享世界","同一个红篮与面包箱持续存在","工人双手与箱侧接触","索道承重绳及牵引线/轮轴","卸货后面包留在台面","机械鸟短暂铰链展开","全景仍有道路活动"],
+  "failure_condition":"若仅有漂亮景物飞行而装卸接触与小事件不可读，即使解码通过也未达到目标。",
+  "shots":[
+    {"start":0,"end":12,"reads":"雪坡/松枝→尖顶→完整小城","camera":"升高解除真实几何遮挡，双轨平滑摄影"},
+    {"start":12,"end":27,"reads":"屋顶与生活→高处烘焙坊→固定箱体/关盖/启动","camera":"沿街向上层烘焙坊前进，保留钟楼地标"},
+    {"start":27,"end":43,"reads":"红篮→屋顶视差→下方马车木桥","camera":"S(t)+侧上方偏移，S(t)为真实索道轨迹"},
+    {"start":43,"end":60,"reads":"减速→停稳→夹持→开盖→双手搬箱→台面落定/热气","camera":"靠近后停留，拓宽清晰带；事件声按同一时间表"},
+    {"start":60,"end":74,"reads":"钟楼→钟锤接触/鸟翼→广场开市","camera":"从货运站向钟楼抬升，再落回广场"},
+    {"start":74,"end":90,"reads":"面包已到达→红篮返程→同一城市生活延续","camera":"升高拉远，最后减速"}
+  ],
+  "events":{"cargo_loading": [20,22],"lid_close":[23,24],"depart":26,"arrive":46,"clamp":[46.5,47.5],"lid_open":[48,49.5],"crate_lift":[50,52],"crate_transfer":[52,55],"crate_set":56,"crate_open":[57,58],"bell_hits":[62,64,66],"bird":[62,68],"basket_return":76},
+  "evidence":{"concept":null,"sample":null,"full":null,"review":null}
+}

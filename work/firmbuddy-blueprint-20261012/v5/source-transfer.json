@@ -1,0 +1,15 @@
+{
+  "reference": "lemomo-ai/lemo-opuscar/styles/blueprint",
+  "commit": "e3cb16f63768c68693ff0e15171d6e755457cc32",
+  "code_read": [{"file":"STYLE.md","lines":"6–119"},{"file":"demo/film.js","lines":"1–210"},{"file":"demo/machine.js","lines":"1–210"}],
+  "implementation": [
+    {"mechanism":"piecewise camera tracks, detail cut, follow transmission, pullback then title block","source":"demo/film.js 16–32","target":"film.js keys/cameraAt"},
+    {"mechanism":"opposite mesh phase based on teeth and center angle","source":"demo/machine.js 15–18","target":"film.js meshAngle/experts"},
+    {"mechanism":"section plane exposes existing interior","source":"demo/machine.js 55–96","target":"film.js knowledge"},
+    {"mechanism":"layered offsets, part drafting and truss structure","source":"demo/machine.js 20–33,111–130,158–183","target":"film.js gear/truss/cartridge/knowledge"}
+  ],
+  "modified":"Mechanical geometry, source warehouse, query rollers and output carriage are original FirmBuddy explanatory structures. Not a physical simulator or real-time app capture.",
+  "prior_reference_visual_observation":"Historical 18s still and16–20s at3fps only; no new original-film playback this revision.",
+  "license":"vendor/LICENSE-Lemo",
+  "material_engine":"V4 migrated draw.js and world-coordinate procedural paper.js preserved. No generated video or raster asset generation used in V5."
+}

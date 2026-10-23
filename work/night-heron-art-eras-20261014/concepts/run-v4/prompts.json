@@ -1,0 +1,31 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "note": "前三幅基础图的规范从会话保存的结构化提示恢复，标为reconstructed_base_spec；不伪称API调用日志。仰头关键姿态为完整调用原文。全部原图仍保留在generated_images，新版资产已复制到工作区。",
+  "sharedBaseSpec": "Use case: historical-scene. 1080x1920 portrait concept frame, 9:16. One compact adult black-crowned night heron, black crown, red iris, pale cheek, slate wings, short tucked S neck, two correctly articulated avian legs and folded wings. Running right on a continuous outdoor river bank, low side tracking view. Exactly one owner animal and one small fish, credible relative adult scale, shared ground plane. Entire image uses one indivisible period medium: bird, owner, fish, water, ground, reeds. No fighting, chase, people, costumes, text, collage or exposed sprite joints. Upper 12 percent quiet for era label added in code.",
+  "items": [
+    {
+      "file": "01-cave-bear.png",
+      "promptType": "reconstructed_base_spec_and_recorded_edit",
+      "base": "Upper Paleolithic cave painting, circa16000BCE westernEurope. Ochre/red earth/charcoal contours and mineral pigments integrated with limestone. Adult brown bear on four feet substantially larger than compact running night heron; head and front feet readable; one12cm fish by front paw. Bird approaches in tucked-neck rightward midstride; continuous river strokes and reeds. No photo fur or glossy feathers.",
+      "edit": "Change ONLY the fish next to the bear's front paw: reduce its length to55percent of current length, proportional height, keep center and cave medium. Preserve all animals, positions, pose, background, palette and portrait framing. Exactly one fish."
+    },
+    {
+      "file": "03-black-figure-pelican.png",
+      "promptType": "reconstructed_base_spec",
+      "base": "Attic blackfigure circa530BCE. Warm terracotta ground, nearblack silhouettes, fine incised terracotta lines with tiny cream/red accents. Great white pelican, long pouch bill and feet visible, bulky body larger than compact running heron. One12cm smallfish, aboutonefifth heron beak-to-tail length. Heron runningright reaches down and lifts fish, owner mildly surprised. Flat incised wetland riverbank, one bottom meander strip, no frame, no naturalistic feather shading.",
+      "inspectionDeviation": "鹈鹕生成站姿而非低颈休息；按站姿评估体型，不宣称原提示1.45倍休息高度已满足。"
+    },
+    {
+      "file": "09-ink-cormorant.png",
+      "promptType": "reconstructed_base_spec_and_recorded_edit",
+      "base": "EarlyQing1690 Chinese ink bird-and-flower painting. Ivory xuanpaper, dry/wet ink, light washes, calligraphic featherstrokes and negative space. All animals/riverbank/rocks/reeds sameinkbrushwork. One adult greatcormorant standing onright, plausible larger adultbird scale than lowrunningheron. Heron runningright tuckedneck, one10cm fish inbeak. Cormorant mildturn toemptyspot. Onefish only; no seal/calligraphy, room/window/frame.",
+      "edit": "Remove ONLY the extra fish lying on the ground by cormorant feet. Restore ink-wash rock/soil. Keep smallfish in NIGHT HERON'S BEAK unchanged; exactlyONEfish inimage. Preserve bothbirds, runningpose, sizes, positions, brushwork, river, paper, palette, portraitframing. No addedobject/text."
+    },
+    {
+      "file": "09-ink-swallow.png",
+      "promptType": "verbatim",
+      "prompt": "Use case: precise-object-edit. Input image is EDIT TARGET: portrait early Qing ink-wash running night heron beside a great cormorant. Create the NEXT KEY POSE of the same action, preserving the exact riverbank, camera, relative animal sizes, whole-scene ink brushwork and paper. The night heron still runs RIGHT with low compact torso, folded wings, TWO articulated avian legs midstride. Change its neck/head to a clear upward SWALLOWING pose: S-curved flexible neck stretches upward only moderately, head tipped back, beak points about 65 degrees above horizontal toward upper right, beak slightly open. The SINGLE little fish is oriented HEAD FIRST down the heron's throat, its head and front two thirds ALREADY inside the open beak; only the small tail protrudes upward from the beak. Fish must be no longer than 1/6 of the heron's beak-to-tail body length. Cormorant tips its head down mildly toward the now EMPTY former fish spot by its feet, no fighting or chase. No fish on ground, no fish floating away, no second fish, no second heron, no text. Leave all other elements intact. This is dignified bird anatomy drawn with the SAME Chinese ink and restrained pale wash throughout, not a giraffe neck, not an egret."
+    }
+  ]
+}

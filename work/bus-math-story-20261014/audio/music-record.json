@@ -1,0 +1,22 @@
+{
+  "title": "长长巴士的玩具琴散步",
+  "origin": "Original locally synthesized instrumental composition",
+  "script": "make-music-only.py",
+  "seed": 20261014,
+  "bpm": 120,
+  "meter": "4/4",
+  "duration": 152,
+  "sample_rate": 48000,
+  "channels": 2,
+  "peak_dbfs": -2.8533500713746314,
+  "rms_dbfs": -18.70214311943585,
+  "speech": false,
+  "sfx": false,
+  "instruments": [
+    "toy piano",
+    "plucked strings",
+    "rounded bass",
+    "light percussion"
+  ],
+  "historical_voice_files_used": false
+}

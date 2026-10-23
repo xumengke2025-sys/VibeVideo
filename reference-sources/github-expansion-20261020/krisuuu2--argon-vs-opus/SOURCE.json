@@ -1,0 +1,44 @@
+{
+  "repo": "krisuuu2/argon-vs-opus",
+  "commit": "dd3ff79b8258cf1192fa2ccc37cbfdcd39efa260",
+  "checked": "2026-10-20",
+  "scope": "固定提交完整仓库快照；未执行上游代码；Myriad固定影片发布标签v1.0.2",
+  "modelEvidence": "作者声明Gemini 4 Argon与Claude Opus 5.5同提示词对照",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1556,
+      "sha256": "41948de47df0152c4634be3ad3c1e10b063577e8027a033bdd3a6de5b2084e42",
+      "gitBlob": "887e88733b0029ee0bea9f436a8a264e1dd2fede",
+      "url": "https://raw.githubusercontent.com/krisuuu2/argon-vs-opus/dd3ff79b8258cf1192fa2ccc37cbfdcd39efa260/README.md"
+    },
+    {
+      "path": "claude-opus-5.5.html",
+      "bytes": 17822,
+      "sha256": "47d64490f4a63ab2c352ef85f2ea8d60ff742e7e6ae4c4bb4a857991321e1fbb",
+      "gitBlob": "0e1b383efcfdf51588732d331fb5e010fb79295a",
+      "url": "https://raw.githubusercontent.com/krisuuu2/argon-vs-opus/dd3ff79b8258cf1192fa2ccc37cbfdcd39efa260/claude-opus-5.5.html"
+    },
+    {
+      "path": "gemini-4-argon.html",
+      "bytes": 55231,
+      "sha256": "38ece3ec022ef0d572133e06312b1a286d2eb90f682a349b4209d10134f7d2f7",
+      "gitBlob": "f441f417317a881f8c451072758e4b98abbe6a90",
+      "url": "https://raw.githubusercontent.com/krisuuu2/argon-vs-opus/dd3ff79b8258cf1192fa2ccc37cbfdcd39efa260/gemini-4-argon.html"
+    },
+    {
+      "path": "prompt.txt",
+      "bytes": 1238,
+      "sha256": "79f2701e481fa632d719a921d5f4f3b2e327a6e1f42f58397fc8ff35a4a59a6f",
+      "gitBlob": "8772647dc113d9f1ff045850f4844212a14a511f",
+      "url": "https://raw.githubusercontent.com/krisuuu2/argon-vs-opus/dd3ff79b8258cf1192fa2ccc37cbfdcd39efa260/prompt.txt"
+    },
+    {
+      "path": "side-by-side.mp4",
+      "bytes": 1137895,
+      "sha256": "921403ee307ce1505830064af2e6a786b2d21d56446c28fefb2bb9d3813c3471",
+      "gitBlob": "8d1439b8ec8c5b52378596f3d45c084d436734cc",
+      "url": "https://raw.githubusercontent.com/krisuuu2/argon-vs-opus/dd3ff79b8258cf1192fa2ccc37cbfdcd39efa260/side-by-side.mp4"
+    }
+  ]
+}

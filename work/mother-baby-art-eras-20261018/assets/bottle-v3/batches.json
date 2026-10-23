@@ -1,0 +1,330 @@
+[
+  {
+    "start": 0,
+    "reference": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\mother-baby-art-eras-20261018\\assets\\bottle-v3\\reference-00.png",
+    "prompt": "Edit this 4-column by 5-row transparent sprite atlas. Preserve EXACT grid, each cell 500x310 on a 2000x1550 sheet, no borders or labels. Each row is a different historical cartoon medium; maintain the SAME baby identity, head, round cheeks, short dark hair, facing right, body proportions and exact seated hip and floor registration in ALL cells. Change the yellow star toy and ALL arm poses to a baby lifting and drinking from a milk feeding bottle held with BOTH hands. Remove ALL stars completely. One baby and exactly ONE feeding bottle in each cell. The bottle has white milk and a clearly readable soft nipple. The bottle is deliberately a recognizable feeding bottle in every historical art medium, not a cup or vase. Four action columns left to right: (1) seated baby bends slightly, reaches BOTH hands toward the upright milk bottle immediately beside the feet on the floor; (2) baby hugs bottle in BOTH hands at chest; (3) baby drinks happily, bottle nipple touching mouth, head slightly tipped back, bottle angled upward with bottom higher than nipple, BOTH hands firmly hugging bottle; (4) baby lowers bottle to lap still held with BOTH hands. Make arm movements readable; bottle must stay attached to hands after lifting. Keep the fixed head and hips similar across columns. No separate floating hands. Every row STRICTLY 2D CARTOON with flat colored shapes; cute and warm, no realistic skin, no 3D. Keep clear gaps between all cells and rows, TRUE transparent background. Preserve each row art medium and costume described below. Do not draw environment, furniture, text, grids, numbers, mother or extra people. Output exact same aspect ratio and registration as reference.\nROW 1 ONLY: Ochre and charcoal cave pictographs on warm sandstone; earthy red flat silhouettes and handprints, cute readable faces, rough dry-pigment edges. Costume: simple prehistoric hide wraps, bare feet, stone stool and stone side table.\nROW 2 ONLY: Ancient Egyptian planar mural, ochre turquoise vermilion, lotus ornament, strong clean profile-inspired contour, cute faces. Costume: cream linen dresses/tunics with broad turquoise Egyptian collars, headband, wooden stool and side table.\nROW 3 ONLY: Ancient Greek black-figure vase painting, terracotta ground, ink-black planar figures, fine cream incised contour details, adorable expressive faces. Costume: classical Greek peplos and baby tunic, simple sandals, Greek wooden furniture.\nROW 4 ONLY: Roman mosaic made of visibly discrete little flat stone tesserae, cream red sage and gold, every face and object built in mosaic tiles. Costume: Roman stola and infant tunic, Roman patterned stool and side table.\nROW 5 ONLY: Dunhuang mural in dusty turquoise mineral green ochre and cinnabar, delicate flat outlines, decorative cloud and lotus scrolls. Costume: Tang-inspired cross-collar robe with flowing sleeves, infant wrap tunic, carved wooden furniture.\n",
+    "rows": [
+      {
+        "index": 0,
+        "mode": "cave",
+        "name": "洞穴壁画",
+        "medium": "Ochre and charcoal cave pictographs on warm sandstone; earthy red flat silhouettes and handprints, cute readable faces, rough dry-pigment edges",
+        "costume": "simple prehistoric hide wraps, bare feet, stone stool and stone side table",
+        "room": "cave shelter, painted deer and handprints, stone opening and distant soft hills"
+      },
+      {
+        "index": 1,
+        "mode": "egypt",
+        "name": "古埃及壁画",
+        "medium": "Ancient Egyptian planar mural, ochre turquoise vermilion, lotus ornament, strong clean profile-inspired contour, cute faces",
+        "costume": "cream linen dresses/tunics with broad turquoise Egyptian collars, headband, wooden stool and side table",
+        "room": "Nile palace nursery, papyrus pillars, lotus plants, sun disc, framed bird motifs"
+      },
+      {
+        "index": 2,
+        "mode": "greek",
+        "name": "古希腊黑绘陶",
+        "medium": "Ancient Greek black-figure vase painting, terracotta ground, ink-black planar figures, fine cream incised contour details, adorable expressive faces",
+        "costume": "classical Greek peplos and baby tunic, simple sandals, Greek wooden furniture",
+        "room": "terracotta chamber with meander frieze, olive leaves, Greek columns, distant Aegean opening"
+      },
+      {
+        "index": 3,
+        "mode": "mosaic",
+        "name": "罗马马赛克",
+        "medium": "Roman mosaic made of visibly discrete little flat stone tesserae, cream red sage and gold, every face and object built in mosaic tiles",
+        "costume": "Roman stola and infant tunic, Roman patterned stool and side table",
+        "room": "Roman atrium, mosaic border, olive trees, arch overlooking garden"
+      },
+      {
+        "index": 4,
+        "mode": "dunhuang",
+        "name": "敦煌壁画",
+        "medium": "Dunhuang mural in dusty turquoise mineral green ochre and cinnabar, delicate flat outlines, decorative cloud and lotus scrolls",
+        "costume": "Tang-inspired cross-collar robe with flowing sleeves, infant wrap tunic, carved wooden furniture",
+        "room": "Dunhuang-inspired warm mural chamber, arch niche, lotus vines, desert oasis garden"
+      }
+    ]
+  },
+  {
+    "start": 5,
+    "reference": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\mother-baby-art-eras-20261018\\assets\\bottle-v3\\reference-05.png",
+    "prompt": "Edit this 4-column by 5-row transparent sprite atlas. Preserve EXACT grid, each cell 500x310 on a 2000x1550 sheet, no borders or labels. Each row is a different historical cartoon medium; maintain the SAME baby identity, head, round cheeks, short dark hair, facing right, body proportions and exact seated hip and floor registration in ALL cells. Change the yellow star toy and ALL arm poses to a baby lifting and drinking from a milk feeding bottle held with BOTH hands. Remove ALL stars completely. One baby and exactly ONE feeding bottle in each cell. The bottle has white milk and a clearly readable soft nipple. The bottle is deliberately a recognizable feeding bottle in every historical art medium, not a cup or vase. Four action columns left to right: (1) seated baby bends slightly, reaches BOTH hands toward the upright milk bottle immediately beside the feet on the floor; (2) baby hugs bottle in BOTH hands at chest; (3) baby drinks happily, bottle nipple touching mouth, head slightly tipped back, bottle angled upward with bottom higher than nipple, BOTH hands firmly hugging bottle; (4) baby lowers bottle to lap still held with BOTH hands. Make arm movements readable; bottle must stay attached to hands after lifting. Keep the fixed head and hips similar across columns. No separate floating hands. Every row STRICTLY 2D CARTOON with flat colored shapes; cute and warm, no realistic skin, no 3D. Keep clear gaps between all cells and rows, TRUE transparent background. Preserve each row art medium and costume described below. Do not draw environment, furniture, text, grids, numbers, mother or extra people. Output exact same aspect ratio and registration as reference.\nROW 1 ONLY: Traditional Chinese shadow puppets, translucent amber red cut leather, intricate perforated flat patterns, visible tiny joint pivots, projected on pale parchment. Costume: ornate Chinese robe and baby tunic in cut leather, carved leather stool and side table.\nROW 2 ONLY: Medieval Gothic illuminated manuscript, flat gold leaf and ultramarine red paint, crisp ink contours, small decorative flowers. Costume: medieval long gown and small cap, baby linen tunic, carved Gothic stool and table.\nROW 3 ONLY: Renaissance-inspired 2D STORYBOOK miniature, flat tempera colored shapes, warm terracotta sage and cream, decorative clear contours; absolutely no sfumato or sculpted realism. Costume: 1500s simple high-waist gown, infant linen tunic, carved walnut stool and side table.\nROW 4 ONLY: Dutch golden-age chiaroscuro reinterpreted as strictly flat 2D woodcut cartoon, large graphic amber and deep brown ink shapes, no realistic skin shading. Costume: 1640s dark dress with cream collar, linen baby bonnet/tunic, dark wooden chair and side table.\nROW 5 ONLY: Chinese ink and wash, sparse expressive black brush contours and pale sage flat washes on rice paper, warm cute faces, large quiet negative space. Costume: traditional loose Chinese robe and infant wrap shirt, bamboo stool and side table.\n",
+    "rows": [
+      {
+        "index": 5,
+        "mode": "puppet",
+        "name": "皮影戏",
+        "medium": "Traditional Chinese shadow puppets, translucent amber red cut leather, intricate perforated flat patterns, visible tiny joint pivots, projected on pale parchment",
+        "costume": "ornate Chinese robe and baby tunic in cut leather, carved leather stool and side table",
+        "room": "paper theater stage, cut-leather pavilion arch, floral lattice and decorative plants"
+      },
+      {
+        "index": 6,
+        "mode": "gothic",
+        "name": "哥特手抄本",
+        "medium": "Medieval Gothic illuminated manuscript, flat gold leaf and ultramarine red paint, crisp ink contours, small decorative flowers",
+        "costume": "medieval long gown and small cap, baby linen tunic, carved Gothic stool and table",
+        "room": "pointed arch nursery, illuminated foliate border, little castle garden"
+      },
+      {
+        "index": 7,
+        "mode": "renaissance",
+        "name": "文艺复兴",
+        "medium": "Renaissance-inspired 2D STORYBOOK miniature, flat tempera colored shapes, warm terracotta sage and cream, decorative clear contours; absolutely no sfumato or sculpted realism",
+        "costume": "1500s simple high-waist gown, infant linen tunic, carved walnut stool and side table",
+        "room": "Renaissance loggia with simple columns, garden hills, geometric terracotta floor"
+      },
+      {
+        "index": 8,
+        "mode": "rembrandt",
+        "name": "伦勃朗明暗",
+        "medium": "Dutch golden-age chiaroscuro reinterpreted as strictly flat 2D woodcut cartoon, large graphic amber and deep brown ink shapes, no realistic skin shading",
+        "costume": "1640s dark dress with cream collar, linen baby bonnet/tunic, dark wooden chair and side table",
+        "room": "cozy Dutch nursery, amber window shapes, dark wood wall, still-life plants"
+      },
+      {
+        "index": 9,
+        "mode": "ink",
+        "name": "水墨写意",
+        "medium": "Chinese ink and wash, sparse expressive black brush contours and pale sage flat washes on rice paper, warm cute faces, large quiet negative space",
+        "costume": "traditional loose Chinese robe and infant wrap shirt, bamboo stool and side table",
+        "room": "airy scholar room, round garden window, bamboo, mountain silhouettes, ink orchids"
+      }
+    ]
+  },
+  {
+    "start": 10,
+    "reference": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\mother-baby-art-eras-20261018\\assets\\bottle-v3\\reference-10.png",
+    "prompt": "Edit this 4-column by 5-row transparent sprite atlas. Preserve EXACT grid, each cell 500x310 on a 2000x1550 sheet, no borders or labels. Each row is a different historical cartoon medium; maintain the SAME baby identity, head, round cheeks, short dark hair, facing right, body proportions and exact seated hip and floor registration in ALL cells. Change the yellow star toy and ALL arm poses to a baby lifting and drinking from a milk feeding bottle held with BOTH hands. Remove ALL stars completely. One baby and exactly ONE feeding bottle in each cell. The bottle has white milk and a clearly readable soft nipple. The bottle is deliberately a recognizable feeding bottle in every historical art medium, not a cup or vase. Four action columns left to right: (1) seated baby bends slightly, reaches BOTH hands toward the upright milk bottle immediately beside the feet on the floor; (2) baby hugs bottle in BOTH hands at chest; (3) baby drinks happily, bottle nipple touching mouth, head slightly tipped back, bottle angled upward with bottom higher than nipple, BOTH hands firmly hugging bottle; (4) baby lowers bottle to lap still held with BOTH hands. Make arm movements readable; bottle must stay attached to hands after lifting. Keep the fixed head and hips similar across columns. No separate floating hands. Every row STRICTLY 2D CARTOON with flat colored shapes; cute and warm, no realistic skin, no 3D. Keep clear gaps between all cells and rows, TRUE transparent background. Preserve each row art medium and costume described below. Do not draw environment, furniture, text, grids, numbers, mother or extra people. Output exact same aspect ratio and registration as reference.\nROW 1 ONLY: Flat 2D cartoon with lively pastel impressionist dabs, peach lilac mint and butter yellow, painted paper marks, no dimensional face modeling. Costume: 1870s light dress and baby romper, simple bentwood chair and side table.\nROW 2 ONLY: Neo-impressionist pointillism as flat 2D cartoon, all colored shapes filled with tiny crisp colored dots, navy contours, cream coral sage sky-blue. Costume: 1880s day dress and infant tunic, period wooden furniture.\nROW 3 ONLY: Flat post-impressionist cartoon, bold short ochre and cobalt brush dashes, outlined swirling decorative sky, saffron blue green. Costume: 1880s cream blouse and blue skirt, infant striped tunic, rustic wooden furniture.\nROW 4 ONLY: Flat expressionist cartoon, simplified flowing contours, exaggerated warm-colored graphic perspective, coral ochre teal and violet, friendly faces. Costume: 1890s dress and infant smock, simple period furniture.\nROW 5 ONLY: Art Nouveau lithographic poster, flat cream sage dusty rose gold, elegant long whiplash ink contours, decorative flowers, clearly 2D. Costume: 1890s flowing floral gown and baby linen smock, curved wooden furniture.\n",
+    "rows": [
+      {
+        "index": 10,
+        "mode": "impression",
+        "name": "印象派",
+        "medium": "Flat 2D cartoon with lively pastel impressionist dabs, peach lilac mint and butter yellow, painted paper marks, no dimensional face modeling",
+        "costume": "1870s light dress and baby romper, simple bentwood chair and side table",
+        "room": "sunny French garden room, leafy window, flowers, pastel curtain"
+      },
+      {
+        "index": 11,
+        "mode": "pointill",
+        "name": "修拉点彩",
+        "medium": "Neo-impressionist pointillism as flat 2D cartoon, all colored shapes filled with tiny crisp colored dots, navy contours, cream coral sage sky-blue",
+        "costume": "1880s day dress and infant tunic, period wooden furniture",
+        "room": "sunlit conservatory with garden window, dotted foliage and floor"
+      },
+      {
+        "index": 12,
+        "mode": "postimp",
+        "name": "后印象派",
+        "medium": "Flat post-impressionist cartoon, bold short ochre and cobalt brush dashes, outlined swirling decorative sky, saffron blue green",
+        "costume": "1880s cream blouse and blue skirt, infant striped tunic, rustic wooden furniture",
+        "room": "warm little room, cypress and star-sun window, patterned wall and sunflowers"
+      },
+      {
+        "index": 13,
+        "mode": "expression",
+        "name": "表现主义",
+        "medium": "Flat expressionist cartoon, simplified flowing contours, exaggerated warm-colored graphic perspective, coral ochre teal and violet, friendly faces",
+        "costume": "1890s dress and infant smock, simple period furniture",
+        "room": "cozy room with gently curving window and hills, bold graphic warm wood"
+      },
+      {
+        "index": 14,
+        "mode": "nouveau",
+        "name": "新艺术海报",
+        "medium": "Art Nouveau lithographic poster, flat cream sage dusty rose gold, elegant long whiplash ink contours, decorative flowers, clearly 2D",
+        "costume": "1890s flowing floral gown and baby linen smock, curved wooden furniture",
+        "room": "arched floral window, botanical wall panels, iris and vine ornament"
+      }
+    ]
+  },
+  {
+    "start": 15,
+    "reference": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\mother-baby-art-eras-20261018\\assets\\bottle-v3\\reference-15.png",
+    "prompt": "Edit this 4-column by 5-row transparent sprite atlas. Preserve EXACT grid, each cell 500x310 on a 2000x1550 sheet, no borders or labels. Each row is a different historical cartoon medium; maintain the SAME baby identity, head, round cheeks, short dark hair, facing right, body proportions and exact seated hip and floor registration in ALL cells. Change the yellow star toy and ALL arm poses to a baby lifting and drinking from a milk feeding bottle held with BOTH hands. Remove ALL stars completely. One baby and exactly ONE feeding bottle in each cell. The bottle has white milk and a clearly readable soft nipple. The bottle is deliberately a recognizable feeding bottle in every historical art medium, not a cup or vase. Four action columns left to right: (1) seated baby bends slightly, reaches BOTH hands toward the upright milk bottle immediately beside the feet on the floor; (2) baby hugs bottle in BOTH hands at chest; (3) baby drinks happily, bottle nipple touching mouth, head slightly tipped back, bottle angled upward with bottom higher than nipple, BOTH hands firmly hugging bottle; (4) baby lowers bottle to lap still held with BOTH hands. Make arm movements readable; bottle must stay attached to hands after lifting. Keep the fixed head and hips similar across columns. No separate floating hands. Every row STRICTLY 2D CARTOON with flat colored shapes; cute and warm, no realistic skin, no 3D. Keep clear gaps between all cells and rows, TRUE transparent background. Preserve each row art medium and costume described below. Do not draw environment, furniture, text, grids, numbers, mother or extra people. Output exact same aspect ratio and registration as reference.\nROW 1 ONLY: Flat 2D decorative garden painting, soft mint lavender pink and turquoise dabs, broad simple pastel shapes with clear cartoon figures. Costume: 1900s soft dress and infant tunic, garden wicker chair and little table.\nROW 2 ONLY: Flat monochrome blue-period cartoon, indigo teal pale blue and soft ivory, gentle flowing contour and planar color, warm expressions. Costume: 1903 long blue dress and baby romper, simple blue wooden furniture.\nROW 3 ONLY: Flat gold decorative painting with ornamental spirals tiny squares and triangles, gold leaf pattern and black red sage, faces simple warm flat cartoon. Costume: 1907 patterned long dress and baby tunic, gold decorated furniture.\nROW 4 ONLY: Friendly synthetic cubist flat paper collage, angular overlapping planar polygons, cream ochre muted coral sage, recognizable gentle faces not distorted grotesquely. Costume: 1910s dress and infant playsuit drawn as folded geometric color blocks, angular wooden furniture.\nROW 5 ONLY: Bauhaus flat screenprint, circles squares and arcs, cream ground red yellow cobalt and black, charming geometric 2D cartoon people. Costume: 1920s geometric modern clothing and baby romper, tubular-style furniture drawn in flat lines.\n",
+    "rows": [
+      {
+        "index": 15,
+        "mode": "lilies",
+        "name": "睡莲与庭园",
+        "medium": "Flat 2D decorative garden painting, soft mint lavender pink and turquoise dabs, broad simple pastel shapes with clear cartoon figures",
+        "costume": "1900s soft dress and infant tunic, garden wicker chair and little table",
+        "room": "garden veranda open to a lily pond and willow tree, spacious gentle floral setting"
+      },
+      {
+        "index": 16,
+        "mode": "blue",
+        "name": "蓝色时期",
+        "medium": "Flat monochrome blue-period cartoon, indigo teal pale blue and soft ivory, gentle flowing contour and planar color, warm expressions",
+        "costume": "1903 long blue dress and baby romper, simple blue wooden furniture",
+        "room": "quiet blue room with tall arch, pale sky, potted plant"
+      },
+      {
+        "index": 17,
+        "mode": "gold",
+        "name": "金色装饰画",
+        "medium": "Flat gold decorative painting with ornamental spirals tiny squares and triangles, gold leaf pattern and black red sage, faces simple warm flat cartoon",
+        "costume": "1907 patterned long dress and baby tunic, gold decorated furniture",
+        "room": "gold ornamental room with tree-of-life motifs, patterned garden window"
+      },
+      {
+        "index": 18,
+        "mode": "cubism",
+        "name": "立体主义",
+        "medium": "Friendly synthetic cubist flat paper collage, angular overlapping planar polygons, cream ochre muted coral sage, recognizable gentle faces not distorted grotesquely",
+        "costume": "1910s dress and infant playsuit drawn as folded geometric color blocks, angular wooden furniture",
+        "room": "geometric cubist interior, faceted flat window and plant shapes"
+      },
+      {
+        "index": 19,
+        "mode": "bauhaus",
+        "name": "包豪斯",
+        "medium": "Bauhaus flat screenprint, circles squares and arcs, cream ground red yellow cobalt and black, charming geometric 2D cartoon people",
+        "costume": "1920s geometric modern clothing and baby romper, tubular-style furniture drawn in flat lines",
+        "room": "geometric sunny nursery with circle window and primary-color shelf shapes"
+      }
+    ]
+  },
+  {
+    "start": 20,
+    "reference": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\mother-baby-art-eras-20261018\\assets\\bottle-v3\\reference-20.png",
+    "prompt": "Edit this 4-column by 5-row transparent sprite atlas. Preserve EXACT grid, each cell 500x310 on a 2000x1550 sheet, no borders or labels. Each row is a different historical cartoon medium; maintain the SAME baby identity, head, round cheeks, short dark hair, facing right, body proportions and exact seated hip and floor registration in ALL cells. Change the yellow star toy and ALL arm poses to a baby lifting and drinking from a milk feeding bottle held with BOTH hands. Remove ALL stars completely. One baby and exactly ONE feeding bottle in each cell. The bottle has white milk and a clearly readable soft nipple. The bottle is deliberately a recognizable feeding bottle in every historical art medium, not a cup or vase. Four action columns left to right: (1) seated baby bends slightly, reaches BOTH hands toward the upright milk bottle immediately beside the feet on the floor; (2) baby hugs bottle in BOTH hands at chest; (3) baby drinks happily, bottle nipple touching mouth, head slightly tipped back, bottle angled upward with bottom higher than nipple, BOTH hands firmly hugging bottle; (4) baby lowers bottle to lap still held with BOTH hands. Make arm movements readable; bottle must stay attached to hands after lifting. Keep the fixed head and hips similar across columns. No separate floating hands. Every row STRICTLY 2D CARTOON with flat colored shapes; cute and warm, no realistic skin, no 3D. Keep clear gaps between all cells and rows, TRUE transparent background. Preserve each row art medium and costume described below. Do not draw environment, furniture, text, grids, numbers, mother or extra people. Output exact same aspect ratio and registration as reference.\nROW 1 ONLY: Constructivist 2D cut-paper poster, strong diagonal red black and warm cream geometry, bold flat silhouettes, fine cartoon face details. Costume: 1920s practical modern dress and infant romper, geometric furniture.\nROW 2 ONLY: 1930s hand-inked rubber-hose cartoon, cream paper and charcoal black, flexible curved limbs, white gloves only if hands remain natural, cute expressive eyes. Costume: 1930s dark dress and simple baby romper, round old-fashioned chair and table.\nROW 3 ONLY: Gentle flat 2D surrealist dream illustration, apricot dusty blue warm cream, graphic floating shapes and soft outlined forms, no realistic oil modeling. Costume: 1930s soft flowing dress and infant smock, whimsical but functional furniture.\nROW 4 ONLY: 1940s American interior reinterpreted as flat 2D editorial cartoon, clear graphic sunlight shapes, coral teal ochre cream, no photoreal faces. Costume: 1940s blouse and skirt, baby romper, simple period wooden furniture.\nROW 5 ONLY: Hand-cut colored paper collage, visible paper edges, coral cobalt turquoise yellow and cream, faces minimal and cute, all truly flat. Costume: 1940s simplified paper-cut dress and baby romper, paper-cut furniture.\n",
+    "rows": [
+      {
+        "index": 20,
+        "mode": "construct",
+        "name": "构成主义",
+        "medium": "Constructivist 2D cut-paper poster, strong diagonal red black and warm cream geometry, bold flat silhouettes, fine cartoon face details",
+        "costume": "1920s practical modern dress and infant romper, geometric furniture",
+        "room": "graphic room with diagonal window beams and minimalist plant blocks, no slogans"
+      },
+      {
+        "index": 21,
+        "mode": "rubber",
+        "name": "橡皮管卡通",
+        "medium": "1930s hand-inked rubber-hose cartoon, cream paper and charcoal black, flexible curved limbs, white gloves only if hands remain natural, cute expressive eyes",
+        "costume": "1930s dark dress and simple baby romper, round old-fashioned chair and table",
+        "room": "cozy vintage cartoon nursery with arched window, musical round shapes but no lettering"
+      },
+      {
+        "index": 22,
+        "mode": "surreal",
+        "name": "超现实梦境",
+        "medium": "Gentle flat 2D surrealist dream illustration, apricot dusty blue warm cream, graphic floating shapes and soft outlined forms, no realistic oil modeling",
+        "costume": "1930s soft flowing dress and infant smock, whimsical but functional furniture",
+        "room": "dream room with floating window, cloud garden, one melting decorative clock high on wall, safe cozy mood"
+      },
+      {
+        "index": 23,
+        "mode": "hopper",
+        "name": "美式现实插画",
+        "medium": "1940s American interior reinterpreted as flat 2D editorial cartoon, clear graphic sunlight shapes, coral teal ochre cream, no photoreal faces",
+        "costume": "1940s blouse and skirt, baby romper, simple period wooden furniture",
+        "room": "sunny mid-century nursery, tall city window, clean walls and quiet houseplants"
+      },
+      {
+        "index": 24,
+        "mode": "cutout",
+        "name": "彩色剪纸",
+        "medium": "Hand-cut colored paper collage, visible paper edges, coral cobalt turquoise yellow and cream, faces minimal and cute, all truly flat",
+        "costume": "1940s simplified paper-cut dress and baby romper, paper-cut furniture",
+        "room": "cheerful room with cut-paper leaves, abstract window and floral shapes"
+      }
+    ]
+  },
+  {
+    "start": 25,
+    "reference": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\mother-baby-art-eras-20261018\\assets\\bottle-v3\\reference-25.png",
+    "prompt": "Edit this 4-column by 5-row transparent sprite atlas. Preserve EXACT grid, each cell 500x310 on a 2000x1550 sheet, no borders or labels. Each row is a different historical cartoon medium; maintain the SAME baby identity, head, round cheeks, short dark hair, facing right, body proportions and exact seated hip and floor registration in ALL cells. Change the yellow star toy and ALL arm poses to a baby lifting and drinking from a milk feeding bottle held with BOTH hands. Remove ALL stars completely. One baby and exactly ONE feeding bottle in each cell. The bottle has white milk and a clearly readable soft nipple. The bottle is deliberately a recognizable feeding bottle in every historical art medium, not a cup or vase. Four action columns left to right: (1) seated baby bends slightly, reaches BOTH hands toward the upright milk bottle immediately beside the feet on the floor; (2) baby hugs bottle in BOTH hands at chest; (3) baby drinks happily, bottle nipple touching mouth, head slightly tipped back, bottle angled upward with bottom higher than nipple, BOTH hands firmly hugging bottle; (4) baby lowers bottle to lap still held with BOTH hands. Make arm movements readable; bottle must stay attached to hands after lifting. Keep the fixed head and hips similar across columns. No separate floating hands. Every row STRICTLY 2D CARTOON with flat colored shapes; cute and warm, no realistic skin, no 3D. Keep clear gaps between all cells and rows, TRUE transparent background. Preserve each row art medium and costume described below. Do not draw environment, furniture, text, grids, numbers, mother or extra people. Output exact same aspect ratio and registration as reference.\nROW 1 ONLY: 1960s Pop Art screenprint, flat primary color blocks and Ben-Day dots, bold navy ink contours, cute expressive cartoon faces. Costume: 1960s coral dress and yellow baby romper, mod furniture.\nROW 2 ONLY: Playful polka-dot flat screenprint, yellow coral black sage, small high-contrast dots covering clothes and decor, clear flat shapes. Costume: 1960s polka-dot dress and baby romper, dotted mod furniture.\nROW 3 ONLY: 1960s four-color comic book cel illustration, clear black ink line, flat colors and restrained halftones, no dramatic or threatening content. Costume: 1960s everyday cardigan skirt and infant romper, simple home furniture.\nROW 4 ONLY: 1980s energetic flat outline graffiti, thick dark flowing lines and bright warm flat color shapes, recognizable glasses hair and round baby cheeks. Costume: simple 1980s casual dress and baby onesie, bold outlined furniture.\nROW 5 ONLY: Authentic flat 8-bit pixel sprite art, visible square pixels, limited warm pastel palette, no smoothing no 3D lighting. Costume: 1980s pixel casual clothes and baby onesie, pixel furniture.\n",
+    "rows": [
+      {
+        "index": 25,
+        "mode": "pop",
+        "name": "波普艺术",
+        "medium": "1960s Pop Art screenprint, flat primary color blocks and Ben-Day dots, bold navy ink contours, cute expressive cartoon faces",
+        "costume": "1960s coral dress and yellow baby romper, mod furniture",
+        "room": "bright mod nursery, dotted wall shapes and graphic city window, no speech bubbles or slogans"
+      },
+      {
+        "index": 26,
+        "mode": "dots",
+        "name": "无限波点",
+        "medium": "Playful polka-dot flat screenprint, yellow coral black sage, small high-contrast dots covering clothes and decor, clear flat shapes",
+        "costume": "1960s polka-dot dress and baby romper, dotted mod furniture",
+        "room": "round-window nursery with patterned plants and playful dots, all two-dimensional"
+      },
+      {
+        "index": 27,
+        "mode": "comic",
+        "name": "美式漫画",
+        "medium": "1960s four-color comic book cel illustration, clear black ink line, flat colors and restrained halftones, no dramatic or threatening content",
+        "costume": "1960s everyday cardigan skirt and infant romper, simple home furniture",
+        "room": "cheerful comic-book living room with city window and graphic plants, no text or bubbles"
+      },
+      {
+        "index": 28,
+        "mode": "haring",
+        "name": "活力涂鸦",
+        "medium": "1980s energetic flat outline graffiti, thick dark flowing lines and bright warm flat color shapes, recognizable glasses hair and round baby cheeks",
+        "costume": "simple 1980s casual dress and baby onesie, bold outlined furniture",
+        "room": "bright flat room with dancing abstract wall doodles and bold plants, no text"
+      },
+      {
+        "index": 29,
+        "mode": "pixel",
+        "name": "8-bit像素",
+        "medium": "Authentic flat 8-bit pixel sprite art, visible square pixels, limited warm pastel palette, no smoothing no 3D lighting",
+        "costume": "1980s pixel casual clothes and baby onesie, pixel furniture",
+        "room": "cozy pixel game nursery, squared window, potted pixel plants and rug"
+      }
+    ]
+  },
+  {
+    "start": 30,
+    "reference": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\mother-baby-art-eras-20261018\\assets\\bottle-v3\\reference-30.png",
+    "prompt": "Edit this 4-column by 5-row transparent sprite atlas. Preserve EXACT grid, each cell 500x310 on a 2000x1550 sheet, no borders or labels. Each row is a different historical cartoon medium; maintain the SAME baby identity, head, round cheeks, short dark hair, facing right, body proportions and exact seated hip and floor registration in ALL cells. Change the yellow star toy and ALL arm poses to a baby lifting and drinking from a milk feeding bottle held with BOTH hands. Remove ALL stars completely. One baby and exactly ONE feeding bottle in each cell. The bottle has white milk and a clearly readable soft nipple. The bottle is deliberately a recognizable feeding bottle in every historical art medium, not a cup or vase. Four action columns left to right: (1) seated baby bends slightly, reaches BOTH hands toward the upright milk bottle immediately beside the feet on the floor; (2) baby hugs bottle in BOTH hands at chest; (3) baby drinks happily, bottle nipple touching mouth, head slightly tipped back, bottle angled upward with bottom higher than nipple, BOTH hands firmly hugging bottle; (4) baby lowers bottle to lap still held with BOTH hands. Make arm movements readable; bottle must stay attached to hands after lifting. Keep the fixed head and hips similar across columns. No separate floating hands. Every row STRICTLY 2D CARTOON with flat colored shapes; cute and warm, no realistic skin, no 3D. Keep clear gaps between all cells and rows, TRUE transparent background. Preserve each row art medium and costume described below. Do not draw environment, furniture, text, grids, numbers, mother or extra people. Output exact same aspect ratio and registration as reference.\nROW 1 ONLY: Hand-drawn flat 2D watercolor animation cel, delicate pencil contour, translucent pale coral sage cream washes and paper texture, no modeled shading. Costume: 1980s cozy red cardigan and soft baby romper, simple painted wooden furniture.\nROW 2 ONLY: Early 1990s flat digital cartoon, crisp aliased bitmap contours, pastel cyan coral lilac and cream, simple solid cel color, absolutely NO 3D rendering. Costume: 1990s casual cardigan and baby onesie, rounded pastel furniture.\nROW 3 ONLY: Flat 2D vaporwave illustration, pastel pink lilac teal peach, clean graphic silhouettes, subtle pixel-grid motifs, no 3D or luminous volume. Costume: 2010s lilac casual clothing and pastel infant romper, pastel retro furniture.\nROW 4 ONLY: Warm Japanese 2D hand-drawn anime cel, fine clean contours and flat cel color, gentle peach mint cream, beautiful airy background painted as flat watercolor, no volumetric skin. Costume: 2010s red cardigan cream shirt navy trousers and cream baby romper with coral sleeves, simple green chair and blue side table.\nROW 5 ONLY: Warm modern flat 2D children book cartoon, textured solid pastel colors. Costume: cream romper with coral sleeves.\n",
+    "rows": [
+      {
+        "index": 30,
+        "mode": "watercolor",
+        "name": "手绘水彩动画",
+        "medium": "Hand-drawn flat 2D watercolor animation cel, delicate pencil contour, translucent pale coral sage cream washes and paper texture, no modeled shading",
+        "costume": "1980s cozy red cardigan and soft baby romper, simple painted wooden furniture",
+        "room": "gentle hand-painted nursery with trees outside window and little plants"
+      },
+      {
+        "index": 31,
+        "mode": "digital",
+        "name": "早期数字动画",
+        "medium": "Early 1990s flat digital cartoon, crisp aliased bitmap contours, pastel cyan coral lilac and cream, simple solid cel color, absolutely NO 3D rendering",
+        "costume": "1990s casual cardigan and baby onesie, rounded pastel furniture",
+        "room": "1990s digital-cartoon nursery, geometric window and playful houseplants"
+      },
+      {
+        "index": 32,
+        "mode": "vapor",
+        "name": "蒸汽波",
+        "medium": "Flat 2D vaporwave illustration, pastel pink lilac teal peach, clean graphic silhouettes, subtle pixel-grid motifs, no 3D or luminous volume",
+        "costume": "2010s lilac casual clothing and pastel infant romper, pastel retro furniture",
+        "room": "pastel room with sunset circle window, palms and flat grid-pattern rug"
+      },
+      {
+        "index": 33,
+        "mode": "anime",
+        "name": "日系光影动画",
+        "medium": "Warm Japanese 2D hand-drawn anime cel, fine clean contours and flat cel color, gentle peach mint cream, beautiful airy background painted as flat watercolor, no volumetric skin",
+        "costume": "2010s red cardigan cream shirt navy trousers and cream baby romper with coral sleeves, simple green chair and blue side table",
+        "room": "sunny family room with blue sky window, hanging lamp, books and plants"
+      },
+      {
+        "index": 34,
+        "mode": "modern",
+        "name": "现代扁平插画",
+        "medium": "Warm modern flat 2D children book cartoon, textured solid pastel colors",
+        "costume": "cream romper with coral sleeves"
+      }
+    ]
+  }
+]

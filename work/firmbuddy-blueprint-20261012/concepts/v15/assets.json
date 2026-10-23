@@ -1,0 +1,47 @@
+{
+  "stage": "concept_only",
+  "generation": "built_in_image_gen",
+  "video_target": [
+    1920,
+    1080
+  ],
+  "images": [
+    {
+      "file": "01-character.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "95044c9e001ce84727c0c5718d2a261ad0be01bc58607718f75f48ce433d345e"
+    },
+    {
+      "file": "02-connected-workshop.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "47809fcb898905def139eb78927458d9bdfc51d188c2ebc447ab7c7aa7244e2d"
+    },
+    {
+      "file": "03-expert-conversation.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "6e602fc51c23ef778a29e55ed71c1106a8c5b760e546133c63fea024dc6f48df"
+    },
+    {
+      "file": "04-abstract-character.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "77eece6920a81c7fc8a2d5d4daaf726822dcdb287bd414ef2600e655bb16e74a"
+    },
+    {
+      "file": "05-abstract-conversation.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "69f32756331505505f8c24e75b78e8db7810518685a7b5e4f741ad82cba8bec2"
+    }
+  ],
+  "observed": "角色设定、修订后连通空间、专家会商关键帧已实际查看；概念不等同于可动资产。",
+  "next": "用户反馈方向后制作连续动作样段。"
+}

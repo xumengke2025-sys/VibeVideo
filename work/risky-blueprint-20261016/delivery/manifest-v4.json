@@ -1,0 +1,190 @@
+{
+  "v4/film.js": {
+    "bytes": 22865,
+    "sha256": "3423fbbead1fb5c4e98cdd569645a9c7a009cea9c0da1d50e720626c87dbe352"
+  },
+  "v4/index.html": {
+    "bytes": 564,
+    "sha256": "10ed403311ec6327f20c7d3007071f4aa2fd7d623fed1f492c3f08deb537f2be"
+  },
+  "v4/make_audio.py": {
+    "bytes": 9688,
+    "sha256": "2efcec66470b82b7d5922c5ec3ee2fa9e090efbe597cdd98ead8bd32b642e0ec"
+  },
+  "v4/plan.json": {
+    "bytes": 9285,
+    "sha256": "daf8454fa14a9cbffe9e43e8ca243e6d7a6f4c8e85ab3f353fcdd44670040641"
+  },
+  "v4/primitives.js.txt": {
+    "bytes": 4518,
+    "sha256": "1f4da20e654af20c675e5fc5e6fe27b961e2868492c9780e9e40002758ef7ea6"
+  },
+  "v4/render.mjs": {
+    "bytes": 5779,
+    "sha256": "50e72daad9f52ed45ab0730273c79d221df27fdf76dbd3aa2da2dc65a640409a"
+  },
+  "v4/scene-body.js": {
+    "bytes": 18346,
+    "sha256": "696e45e3fa93f91837d6e437c572ee763842fa1dd5d4ed29e0348500c442f899"
+  },
+  "v4/audio/foley.wav": {
+    "bytes": 15360044,
+    "sha256": "37d71e8218ed13c2b14a4f65ee078a04485b4efc48755d301f5795ed46053e49"
+  },
+  "v4/audio/mix.wav": {
+    "bytes": 15360078,
+    "sha256": "eb539ede9402aba014c07df5a0a5815d63f47f29b397f3a4e0aae464d3130d95"
+  },
+  "v4/audio/music.wav": {
+    "bytes": 15360044,
+    "sha256": "1b9c33a0dc2c0331d64acce314f50503fd1686d959404e7194a819f60ebe1f52"
+  },
+  "v4/audio/premix.wav": {
+    "bytes": 15360044,
+    "sha256": "0f475762d00eec797757a481662750a0857f51fda50e959479933ee58cee647b"
+  },
+  "v4/audio/timing.json": {
+    "bytes": 37343,
+    "sha256": "7cf9be476d8a10cc2cf702f015436436b36fac0d247e6480d39829454ba0c7d5"
+  },
+  "v4/vendor/draw.js": {
+    "bytes": 14763,
+    "sha256": "b7ab31527c8709d7fae763754fcd467b827ad252948c3dbc6aea9b78aa19ad1c"
+  },
+  "v4/vendor/LICENSE-Lemo": {
+    "bytes": 1064,
+    "sha256": "14c9ff6f14bfb2391e74fedb01c256891d2a3bba1c2acf5789901bdf77e54e33"
+  },
+  "v4/vendor/paper.js": {
+    "bytes": 7204,
+    "sha256": "95e8796c89498551d0d26abe1461ecbb3abb46389f5fd94343768050502e8a79"
+  },
+  "evidence/SOURCES.md": {
+    "bytes": 1548,
+    "sha256": "0e6cb8c8ed4b68d1e65121a6a7fed2c043ef76f4cadee0a8c33e2537d5b1b9bf"
+  },
+  "qa/v4/motion-metrics.json": {
+    "bytes": 1095924,
+    "sha256": "b93616f405389b675f0f8f6e05e06208b545fdd82943058510b3e75939111492"
+  },
+  "qa/v4/production-check.md": {
+    "bytes": 1240,
+    "sha256": "a0bd7a3348272813146c7f31c1ee4e467ea40c3c8b8dd85432112a2a51dff613"
+  },
+  "qa/v4/return-contact.jpg": {
+    "bytes": 128367,
+    "sha256": "d7a22a9dc6f1ddbe5f6c89df7be2cfa525c91d00fe974dcccefe39941757f25a"
+  },
+  "out/stills-v4-final-look/10.png": {
+    "bytes": 1150583,
+    "sha256": "df5fda441708f8af08b1df84877be2ffbbc506af1b30eae4b9eb479d4471f942"
+  },
+  "out/stills-v4-final-look/18.png": {
+    "bytes": 1084912,
+    "sha256": "90e4d31dc222be05d7e2afcfa354ad746ae6db9298b07be54a123d2164d2bcd5"
+  },
+  "out/stills-v4-final-look/28.png": {
+    "bytes": 1450678,
+    "sha256": "ee651aec788d1b635d2eddbdd74c1f358d2468b84fb1c2207a1e7be73ee10fac"
+  },
+  "out/stills-v4-final-look/3.png": {
+    "bytes": 1104937,
+    "sha256": "d95cd68677090610df8fd446698d8c8c00961311c2c92533b5af0aedaf177024"
+  },
+  "out/stills-v4-final-look/32.png": {
+    "bytes": 1367079,
+    "sha256": "e98a5024d62efbdc07f789b001eef2a687c1a27038b0a3b0d43145140b7695e0"
+  },
+  "out/stills-v4-final-look/36.png": {
+    "bytes": 1465380,
+    "sha256": "aed285d07c6346a860b583cda7304f7eb754936762169ca1c5b69c36d9fc74ec"
+  },
+  "out/stills-v4-final-look/44.png": {
+    "bytes": 1109181,
+    "sha256": "c5e6e29defebaff8b9a27a28b494157a6977b9a1fc9f988161cae89aa9bc18cf"
+  },
+  "out/stills-v4-final-look/52.png": {
+    "bytes": 1566307,
+    "sha256": "7c074d6f2944d0c94b94c4a8dfa46c1186a0d4b6d46f31f40a2c55d9f4a25a5c"
+  },
+  "out/stills-v4-final-look/58.png": {
+    "bytes": 1592714,
+    "sha256": "dfb3d1cac0031c2224c301dcb5b5917cf1b80c8c601986e6757aa975fb0eaaee"
+  },
+  "out/stills-v4-final-look/63.png": {
+    "bytes": 1474901,
+    "sha256": "3370a1d5c525b80fd6e09ed733317ff029242df808eab1de00d893bcadecb5f4"
+  },
+  "out/stills-v4-final-look/68.png": {
+    "bytes": 1131198,
+    "sha256": "02df76ac9f9556d3b84136a315f2ec5ba3c9e0dcbc43db8ba4cf8d2136809321"
+  },
+  "out/stills-v4-final-look/72.png": {
+    "bytes": 1427152,
+    "sha256": "336a5a1fd721ba4507fa9e94a302e9d3805b04ffa7fa597f3bfe35a4aa404572"
+  },
+  "out/stills-v4-final-look/75.png": {
+    "bytes": 1466126,
+    "sha256": "46db0ef6814d9909d174744b3f3db0c04c5b01cdf54c95104af6e08b09ba4114"
+  },
+  "out/stills-v4-final-look/79.png": {
+    "bytes": 2043090,
+    "sha256": "5efea6716a3448981d8f52d276bcee550b154d2d3ceed67d10818317579a5980"
+  },
+  "out/stills-v4-final-look/checks.json": {
+    "bytes": 71820,
+    "sha256": "766a913e61e2c038082f094572f484ebac0b57f730cf1613879543f65e9bf7f5"
+  },
+  "out/stills-v4-final-overall/60.png": {
+    "bytes": 2009744,
+    "sha256": "853e081e4c5f30a5c986d86c761e97d4fd85a040ecb7df94dfd598e93a870cd2"
+  },
+  "out/stills-v4-final-overall/checks.json": {
+    "bytes": 952,
+    "sha256": "577ad2437d731b5ece117c95a8149bf786d965fec4834cdd459001cacce2de92"
+  },
+  "build-v4.mjs": {
+    "bytes": 3242,
+    "sha256": "c36339174bea0c8b176dca0bd6b541bdf68f956103bdb751f0eee6cd98e00c14"
+  },
+  "verify-v4-motion.mjs": {
+    "bytes": 2643,
+    "sha256": "8d47d5eee3b3a8944ca11a7df01ee8baaebff73d198c6460d4728562d4eb8147"
+  },
+  "README-V4.md": {
+    "bytes": 2581,
+    "sha256": "fe50afa506c02038915b91d585f7f410347e6f6e6952b2480399ff0bff66ba54"
+  },
+  "V4-DIRECTION.md": {
+    "bytes": 1901,
+    "sha256": "530f5bdff038b646515ce3a2d2e1faa3d666146cc0a78bd88d931db70c3834ed"
+  },
+  "CHECKPOINT.md": {
+    "bytes": 6893,
+    "sha256": "ecb81e8fcfccbf9f86f3382f2d1f379a85af6ac0cf37dcbc00cc5ca86e594dcb"
+  },
+  "package_v4.py": {
+    "bytes": 1400,
+    "sha256": "ab7695a926a8d0105425981ae45de43b1417b10f6396de0731c5b4877da8be9c"
+  },
+  "out/video-v4-final/config.json": {
+    "bytes": 201,
+    "sha256": "b29e46684d4770c47faa946ec8b2663dc9d98163819d162d91c1d1eaf753ff4f"
+  },
+  "out/video-v4-final/evidence.json": {
+    "bytes": 469,
+    "sha256": "5b65b4487437ce3537e4faf7daba09a87df008021e5671461990e4e1dc84eda4"
+  },
+  "out/video-v4-final/ffprobe.json": {
+    "bytes": 3713,
+    "sha256": "d173996f402a4850757f43b266e1044ea88e4ceac2c96069d1e099a940a53669"
+  },
+  "out/video-v4-final/progress.json": {
+    "bytes": 49,
+    "sha256": "05ba44eddbdc4c8bbd73ee54bdd93fc2a3d542c38622b9abffc9531e9430d46b"
+  },
+  "out/video-v4-final/video.mp4": {
+    "bytes": 47444665,
+    "sha256": "fee796bdcfee2d0f4e86ef0108ee808251853e1b457a42d56cfacae474d23a44"
+  }
+}

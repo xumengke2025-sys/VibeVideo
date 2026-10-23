@@ -1,0 +1,265 @@
+{
+  "version": "soundstage-v10",
+  "files": [
+    {
+      "file": "assets/bucket.png",
+      "bytes": 1565225,
+      "sha256": "4b68f5a3c82cb5d66e3b6b9bb29ebca91e3fd825770ba0a02314cbacd89ee5d4"
+    },
+    {
+      "file": "assets/chick.png",
+      "bytes": 1660258,
+      "sha256": "d9bc0a7819cdfd5db6942a2c3cc405e94c04d8b62a57e4d3e129c3b7863dbdc4"
+    },
+    {
+      "file": "assets/fish.png",
+      "bytes": 1842486,
+      "sha256": "f5cb769f76e5c1151a95dc7798281cb1539a11f4fd56f000ed7a74b710b10511"
+    },
+    {
+      "file": "assets/heron_contact-v2.png",
+      "bytes": 1353461,
+      "sha256": "8a75f45cce7cee4b0abc6f6111d9813b682455ad38324110e54e19cc830a3df5"
+    },
+    {
+      "file": "assets/heron_disguise.png",
+      "bytes": 1710704,
+      "sha256": "80a22fccf1a1dbbf6bb7051f741e7d49cfa9c52dbac1a106d9fb0d1a66efe54a"
+    },
+    {
+      "file": "assets/heron_idle.png",
+      "bytes": 1161607,
+      "sha256": "aa3be34d92fd1639fb9a71669cfefd2e9bbc61e8caa54818ad02608744842504"
+    },
+    {
+      "file": "assets/heron_neck-v2.png",
+      "bytes": 770739,
+      "sha256": "29fc2eb3fd7536f80c36a801ffd0d11d1509b75df6b680d3f31cc3aecfff6366"
+    },
+    {
+      "file": "assets/heron_walk.png",
+      "bytes": 2414518,
+      "sha256": "e44b2d12745af6e53d7158640a9357cb44f8dc5d9c882777baebf90b59ab2208"
+    },
+    {
+      "file": "assets/nest.png",
+      "bytes": 1825093,
+      "sha256": "8e30a1a63ca97d9246e8f3fa333f5699b27e0456c75b7aae7ed14cbd3918b8ec"
+    },
+    {
+      "file": "assets/penguin_react.png",
+      "bytes": 1365460,
+      "sha256": "5fb12dd6a8c714f395d49b65892b41d44806a923e44a3d72dd58cc0caedfca6d"
+    },
+    {
+      "file": "delivery-mode.json",
+      "bytes": 69,
+      "sha256": "4267f439ca7da48ba34705fc61deee692104a0a068ba65b59ebdd6e6df537e18"
+    },
+    {
+      "file": "film/art.js",
+      "bytes": 4942,
+      "sha256": "1241f1cf7d89ae90a1fe7adf9661d9258ba2075ec4b61181aeed2e4de478bbe1"
+    },
+    {
+      "file": "film/audio-assets/205974-48k.wav",
+      "bytes": 99274,
+      "sha256": "e35b48a02dc4e74a18bb1c8db623c2b5c450e70725ca2c973988a77509617971"
+    },
+    {
+      "file": "film/audio-assets/205974.mp3",
+      "bytes": 25569,
+      "sha256": "24584a83a1fc59f88812d598a455de4a307f63d050ab8bad53216a6c52d1d3ea"
+    },
+    {
+      "file": "film/audio-assets/222168-48k.wav",
+      "bytes": 20142,
+      "sha256": "7bf6a15b913e4bd579f78af5d19d6153c7a72cac70c7b98059554cb9dfaf3b2a"
+    },
+    {
+      "file": "film/audio-assets/222168.mp3",
+      "bytes": 7202,
+      "sha256": "c56e0d5683fbb6b9a3d87be06c9f18c2c609eb35dca623072aee43363fc1563e"
+    },
+    {
+      "file": "film/audio-assets/222184-48k.wav",
+      "bytes": 17912,
+      "sha256": "2539aac91d829a58ed4e71d16aee9b36d3929cfd0905901a16d0031774e611b8"
+    },
+    {
+      "file": "film/audio-assets/222184.mp3",
+      "bytes": 6680,
+      "sha256": "6070aa64e28db84a7f3d47afe7c4e6f4e4dab3080c5ddc1d6c2059e89e64ded6"
+    },
+    {
+      "file": "film/audio-assets/222190-48k.wav",
+      "bytes": 366838,
+      "sha256": "af6d6abd9c2e9e13d0915de4f2c8ba7ec12d36372c216735ca7d3f1f26bb7d44"
+    },
+    {
+      "file": "film/audio-assets/222190.mp3",
+      "bytes": 88600,
+      "sha256": "34fae42bec12f5cd8ce292919414151ed7eaa8cc41ed58beeda215251b51ec20"
+    },
+    {
+      "file": "film/audio-assets/222255-48k.wav",
+      "bytes": 84786,
+      "sha256": "bc59bd646643703bbd47388e083a2ef9ea69c087c7a3c83504fc0068e4d1cda8"
+    },
+    {
+      "file": "film/audio-assets/222255.mp3",
+      "bytes": 22126,
+      "sha256": "93537779c249e1126c9851ad3e092a49b42d2637d45afb5e0c8995bccfe9416b"
+    },
+    {
+      "file": "film/audio-assets/ATTRIBUTION.md",
+      "bytes": 2567,
+      "sha256": "aefd1670eaeacfa2b4123fadeefda8a88179f1ea095e5ea3f1daf84cf4aa4aa8"
+    },
+    {
+      "file": "film/audio-assets/heron-Sangli-48k.wav",
+      "bytes": 476580,
+      "sha256": "493c136355f87c318420c167220e296a1f3bd3cb8a188fa6c440fca0572ccafd"
+    },
+    {
+      "file": "film/audio-assets/heron-Sangli.wav",
+      "bytes": 658796,
+      "sha256": "3bacc3bf364ee626dab934b1fa42d080faf8cfeaea6acf14a0be2a6a440a24f8"
+    },
+    {
+      "file": "film/audio-assets/sources.json",
+      "bytes": 4313,
+      "sha256": "a2b00781ff17f8f6858c92d15372c97af58c75a742f28e244a8a12cd228a99ea"
+    },
+    {
+      "file": "film/audio-stems/birds.wav",
+      "bytes": 6912044,
+      "sha256": "98fa6c6928712854601548748aa2344b4f6f5cf9df26dd4e978d1f1ff1bc83af"
+    },
+    {
+      "file": "film/audio-stems/foley.wav",
+      "bytes": 6912044,
+      "sha256": "2dffad3753d3ecdffb5dfecdcbd26b2bb24ea3d89c506197cd732154875c3747"
+    },
+    {
+      "file": "film/audio-stems/percussion.wav",
+      "bytes": 6912044,
+      "sha256": "5c4a48cf0ff1251d1d6bfd631e18cb27820d1cd7090b74c03592fc35cea8c94b"
+    },
+    {
+      "file": "film/audio.mjs",
+      "bytes": 6426,
+      "sha256": "d1d32b49695cd5f03a28d57036f14c676f5e733581a0281eaa430c36336ca67b"
+    },
+    {
+      "file": "film/audio.wav",
+      "bytes": 6912044,
+      "sha256": "298452c763a5e8cb2e8034be8de93b62e82a45ad28a8bee032ee3d41230f6d89"
+    },
+    {
+      "file": "film/film.js",
+      "bytes": 16316,
+      "sha256": "6d3c7bbab93bee0a86d5d887e7e806ca092794ff82a6eaf279ff72294970b711"
+    },
+    {
+      "file": "film/frame-rig-864.json",
+      "bytes": 1312659,
+      "sha256": "5b2a8fe6fa746532044958e557836a8d167b81fb4aea5c1df6dd897c541959f2"
+    },
+    {
+      "file": "film/index.html",
+      "bytes": 739,
+      "sha256": "a4f4665da2f5f0e81f271bb4c6b5a51ceb27b4bb9ba5e61e9678abd6e718c305"
+    },
+    {
+      "file": "film/production-brief.md",
+      "bytes": 2954,
+      "sha256": "d7854851190a73348c903eb26747dbdb69b427d59b06ed4c79efbfaf1b1ece8d"
+    },
+    {
+      "file": "film/render.mjs",
+      "bytes": 4888,
+      "sha256": "d4532dd4bcc84f4317573b829531e82e5d1a13c7289709a21758ee1404bbe508"
+    },
+    {
+      "file": "film/server.mjs",
+      "bytes": 999,
+      "sha256": "65f1d53023ab63fd31005b8cd00ef311dd18484273b04f8d88305047247ee2d9"
+    },
+    {
+      "file": "film/sound-events.json",
+      "bytes": 38273,
+      "sha256": "923cdd203f37477ccb5d02cd94dd30f71b36aeb9e931c192c5082a77ec2bd6fb"
+    },
+    {
+      "file": "film/timeline.js",
+      "bytes": 680,
+      "sha256": "bb71faaca91a311367eb3fe50e54e3e8e7c088019a145d5d9b15c1b704317785"
+    },
+    {
+      "file": "film/upper-scenery.js",
+      "bytes": 3520,
+      "sha256": "02eee9b35d68e32d2641e0afb01c81b7638910513096de666dbbfb1d2c836bf4"
+    },
+    {
+      "file": "film/vendor/carve.js",
+      "bytes": 10810,
+      "sha256": "a439554a32c75c8d65b7a8d7d25786abe274f565b28fbbb1d062c73b84097223"
+    },
+    {
+      "file": "film/vendor/gl.js",
+      "bytes": 8916,
+      "sha256": "e2ef60ce02e2eae389c3a8613980d67c2e4f786e9567d9dceb62eb97e4b5c6fa"
+    },
+    {
+      "file": "film/vendor/LICENSE",
+      "bytes": 1064,
+      "sha256": "14c9ff6f14bfb2391e74fedb01c256891d2a3bba1c2acf5789901bdf77e54e33"
+    },
+    {
+      "file": "film/vendor/NOTICE.md",
+      "bytes": 483,
+      "sha256": "9d9c32286c9dd53efd2922882569c34b38b1160a251d27cfac9eb9f5bba45d7c"
+    },
+    {
+      "file": "film/vendor/random.js",
+      "bytes": 142,
+      "sha256": "68664145b2f5e3613654d5a648f1f68c529e01ac6fc8abb8c015caa32f040407"
+    },
+    {
+      "file": "film/vendor/scenery.js",
+      "bytes": 13964,
+      "sha256": "46553bcc07136508fe6969c39ec06bba5940600374699d5b4fea0961244f2b45"
+    },
+    {
+      "file": "package.json",
+      "bytes": 368,
+      "sha256": "f5e587f86fb7212ceced1ebd74417a7a40a737aeaa3e2c19324a6c1ecb4d1945"
+    },
+    {
+      "file": "README.md",
+      "bytes": 3792,
+      "sha256": "c8e57d98cfb4c6032a7b881cce431c5af4117487c4bd33b70687d1f78786c624"
+    },
+    {
+      "file": "verification/config.json",
+      "bytes": 486,
+      "sha256": "644963217cec9642f91e0ea50d4ed1bc4678d3293f57a9221f19facff7bec05a"
+    },
+    {
+      "file": "verification/evidence.json",
+      "bytes": 977,
+      "sha256": "a7d84872d6447b8dcc846dad8da037440b88c5675fcf51475693a29c630fc56c"
+    },
+    {
+      "file": "verification/ffprobe.json",
+      "bytes": 3920,
+      "sha256": "570b163d2f1ed5fa39780cfa5c95f4b35e8976f4068adc8691809de9c39a23ed"
+    },
+    {
+      "file": "夜鹭的一天.mp4",
+      "bytes": 43006238,
+      "sha256": "2a86462d091d75ea5be0c5a45c4e736a92319406a0a598637f72973f06c9748e"
+    }
+  ]
+}

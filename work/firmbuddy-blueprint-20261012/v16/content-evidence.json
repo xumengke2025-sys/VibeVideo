@@ -1,0 +1,18 @@
+{
+  "case": "A01 is one fictional workflow example: a semiconductor substrate company and its shareholder-service lead. No real company identity or measured outcome is asserted.",
+  "product_access": "read_only",
+  "facts": [
+    {"claim": "Rules scan and AI interpretation are distinct; a company unlocking window is a service research signal", "source": "D:/ai项目/firmbuddy/docs/implementation/REDUCTION-PRECONTACT-V2-20260922.md", "read_lines": "1-78", "application": "Sources and assessment stages show subject, event, time and questions; no inferred confirmed sale or automated outreach."},
+    {"claim": "Professional expertise is equipped with knowledge and methods, cultivated and trialled", "source": "D:/ai项目/firmbuddy/docs/implementation/M12-KNOWLEDGE-EQUIPMENT-2026-09-15.md", "read_lines": "1-100", "application": "Expert hall preserves six knowledge slots, cultivation and business methods; no model fine-tuning claim."},
+    {"claim": "The wide-bandgap semiconductor expert maps company evidence onto industry nodes and uses reports, patents and research tools", "source": "D:/ai项目/firmbuddy/plugins/expert-personas/data/personas.json", "read_method": "Targeted matches including profile at 3362-3383 and the complete relevant scope/tool excerpt", "application": "Industry station supports understanding the client's industry position; it does not independently issue a shareholder opportunity decision."},
+    {"claim": "Boundary-scan specialist has a narrowly scoped JTAG/interconnect-testing role", "source": "D:/ai项目/firmbuddy/plugins/expert-personas/data/personas.json", "read_method": "Targeted matches at 2443-2492", "application": "The reference layout is retained, but this example uses a shareholder specialist alongside the two relevant industry specialists instead of assigning a substrate question to the boundary-scan expert."}
+  ],
+  "visual_reference": "assets/industry-roundtable-reference.png, user supplied",
+  "source_reuse": {
+    "base": "v13, original V11 blueprint frame preserved",
+    "reference_commit": "e3cb16f63768c68693ff0e15171d6e755457cc32",
+    "read_this_turn": ["vendor/draw.js lines 1-200", "vendor/paper.js lines 1-150", "v13 helpers, intro and scene-body", "v13 render and verification pipeline"],
+    "preserved": ["drawing engine and paper shader", "card extraction", "expert auditorium", "knowledge cabinets", "output carriage and follow-up loop"],
+    "added": ["one-case narrative clock", "business assessment content", "connected industry research table", "continuous camera detour", "104-second music arrangement"]
+  }
+}

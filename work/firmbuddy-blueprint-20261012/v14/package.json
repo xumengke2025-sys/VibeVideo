@@ -1,0 +1,10 @@
+{
+  "name": "firmbuddy-blueprint-v14",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "node ../server.mjs --serve",
+    "render": "node render.mjs --mode=final --version=v14-export --duration=90 --width=1920 --fps=30"
+  },
+  "devDependencies": { "playwright-core": "1.62.1" }
+}

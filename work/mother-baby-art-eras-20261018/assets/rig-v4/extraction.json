@@ -1,0 +1,7702 @@
+[
+  {
+    "era": 0,
+    "name": "mother",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      0,
+      0,
+      188,
+      291
+    ],
+    "alpha_box": [
+      21,
+      19,
+      185,
+      281
+    ],
+    "size": [
+      164,
+      262
+    ],
+    "sha256": "28b515650b4faef7b353f0438446011385c6e6cab2d03159de303c9fec8f9bbe"
+  },
+  {
+    "era": 0,
+    "name": "baby",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      188,
+      0,
+      351,
+      291
+    ],
+    "alpha_box": [
+      9,
+      101,
+      159,
+      281
+    ],
+    "size": [
+      150,
+      180
+    ],
+    "sha256": "a89ce56ff79094e53ac1d7ca721d34d9603146a9cf34fa799f40c325f3201b97"
+  },
+  {
+    "era": 0,
+    "name": "cuphand",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      351,
+      0,
+      483,
+      291
+    ],
+    "alpha_box": [
+      10,
+      181,
+      125,
+      264
+    ],
+    "size": [
+      115,
+      83
+    ],
+    "sha256": "7e3979c3f101abff84fef84c947da377f19d5e8517a2f9539c26db0834cb7cef"
+  },
+  {
+    "era": 0,
+    "name": "m-upper",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      483,
+      0,
+      571,
+      291
+    ],
+    "alpha_box": [
+      4,
+      110,
+      67,
+      269
+    ],
+    "size": [
+      63,
+      159
+    ],
+    "sha256": "ac89643d1998f6cabd32ca701f9488e524be8a45b2bd9ff148dc038efc99a175"
+  },
+  {
+    "era": 0,
+    "name": "m-lower",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      571,
+      0,
+      658,
+      291
+    ],
+    "alpha_box": [
+      10,
+      118,
+      71,
+      272
+    ],
+    "size": [
+      61,
+      154
+    ],
+    "sha256": "0ffb0a992a016ce31c1bb0730c0394c2f96f182c68312670305994619fe8bb7e"
+  },
+  {
+    "era": 0,
+    "name": "bottle",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      658,
+      0,
+      759,
+      291
+    ],
+    "alpha_box": [
+      15,
+      166,
+      77,
+      290
+    ],
+    "size": [
+      62,
+      124
+    ],
+    "sha256": "1f57270aa25123acffdcdf3b4323e468dc83845e280922dce82404c88354ec2f"
+  },
+  {
+    "era": 0,
+    "name": "b-upper",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      759,
+      0,
+      877,
+      291
+    ],
+    "alpha_box": [
+      14,
+      162,
+      103,
+      272
+    ],
+    "size": [
+      89,
+      110
+    ],
+    "sha256": "e81d57bfd6ad867169d4bc50b651926b924399c358267fd474d7439913732d66"
+  },
+  {
+    "era": 0,
+    "name": "b-lower-left",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      877,
+      0,
+      1003,
+      291
+    ],
+    "alpha_box": [
+      19,
+      163,
+      104,
+      259
+    ],
+    "size": [
+      85,
+      96
+    ],
+    "sha256": "4faf64020e63f39fed0c0224228124e889383c354b1108e904ee91652bb2bace"
+  },
+  {
+    "era": 0,
+    "name": "b-lower-right",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      1003,
+      0,
+      1110,
+      291
+    ],
+    "alpha_box": [
+      17,
+      162,
+      94,
+      259
+    ],
+    "size": [
+      77,
+      97
+    ],
+    "sha256": "97f067219b09a38bb57fbbd1d053177f15ff9895157d78a17569fb6fc853400a"
+  },
+  {
+    "era": 0,
+    "name": "branch",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      1110,
+      0,
+      1254,
+      291
+    ],
+    "alpha_box": [
+      2,
+      22,
+      124,
+      289
+    ],
+    "size": [
+      122,
+      267
+    ],
+    "sha256": "610d791b1eec5fe5d0eac20aa490c00ce87c3e98859648b1ba97988bf95ad656"
+  },
+  {
+    "era": 1,
+    "name": "mother",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      0,
+      291,
+      188,
+      536
+    ],
+    "alpha_box": [
+      16,
+      0,
+      177,
+      245
+    ],
+    "size": [
+      161,
+      245
+    ],
+    "sha256": "f67ac2bc8e3e66fa7f093875c1d49e153b235cbafb2eb59ff0f6bfd13f9b2c03"
+  },
+  {
+    "era": 1,
+    "name": "baby",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      188,
+      291,
+      351,
+      536
+    ],
+    "alpha_box": [
+      7,
+      58,
+      160,
+      240
+    ],
+    "size": [
+      153,
+      182
+    ],
+    "sha256": "7c1a2b991d737a6475a29cf2f07c179f417a6ea337623400e8aac480e704c91d"
+  },
+  {
+    "era": 1,
+    "name": "cuphand",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      351,
+      291,
+      483,
+      536
+    ],
+    "alpha_box": [
+      10,
+      129,
+      126,
+      209
+    ],
+    "size": [
+      116,
+      80
+    ],
+    "sha256": "55d060af593520bf6e00faa0dc1d186e9fe2048429314bd1b42924ac8a8647d0"
+  },
+  {
+    "era": 1,
+    "name": "m-upper",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      483,
+      291,
+      571,
+      536
+    ],
+    "alpha_box": [
+      4,
+      46,
+      69,
+      224
+    ],
+    "size": [
+      65,
+      178
+    ],
+    "sha256": "fc3ef40197edefa9117340642c224fa550043560e546586ec38f52a341af5388"
+  },
+  {
+    "era": 1,
+    "name": "m-lower",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      571,
+      291,
+      658,
+      536
+    ],
+    "alpha_box": [
+      10,
+      63,
+      71,
+      227
+    ],
+    "size": [
+      61,
+      164
+    ],
+    "sha256": "fe0ec5c244b18eb8bdea72f2d55be5ed9f5c7c5dc3f9b90a20cb54357d73c44e"
+  },
+  {
+    "era": 1,
+    "name": "bottle",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      658,
+      291,
+      759,
+      536
+    ],
+    "alpha_box": [
+      13,
+      113,
+      79,
+      244
+    ],
+    "size": [
+      66,
+      131
+    ],
+    "sha256": "d3fca78dedede6db1937b0253719f0361eee97e0db0f471b7ee2700c9f42deb0"
+  },
+  {
+    "era": 1,
+    "name": "b-upper",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      759,
+      291,
+      877,
+      536
+    ],
+    "alpha_box": [
+      16,
+      112,
+      103,
+      222
+    ],
+    "size": [
+      87,
+      110
+    ],
+    "sha256": "fe90cfbdfa813bd30bbb643fc3d5606c7dd64e73277845bdd532ca86c79165f0"
+  },
+  {
+    "era": 1,
+    "name": "b-lower-left",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      877,
+      291,
+      1003,
+      536
+    ],
+    "alpha_box": [
+      19,
+      123,
+      105,
+      214
+    ],
+    "size": [
+      86,
+      91
+    ],
+    "sha256": "1626e8b5e9e5bdda6e89e2bc6244bb71f569d1b9c149874eba4c90f37710dcb8"
+  },
+  {
+    "era": 1,
+    "name": "b-lower-right",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      1003,
+      291,
+      1110,
+      536
+    ],
+    "alpha_box": [
+      18,
+      116,
+      93,
+      212
+    ],
+    "size": [
+      75,
+      96
+    ],
+    "sha256": "2590f5f95ed3293ef70b740801444b76173b3b6ac08fa8fc71cf7dcdc0c083ec"
+  },
+  {
+    "era": 1,
+    "name": "branch",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      1110,
+      291,
+      1254,
+      536
+    ],
+    "alpha_box": [
+      5,
+      0,
+      132,
+      245
+    ],
+    "size": [
+      127,
+      245
+    ],
+    "sha256": "2256aa050ec1da4268699a6ea16690b71a21e924afdce0b1629c83d6961b1807"
+  },
+  {
+    "era": 2,
+    "name": "mother",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      0,
+      536,
+      188,
+      777
+    ],
+    "alpha_box": [
+      18,
+      0,
+      177,
+      241
+    ],
+    "size": [
+      159,
+      241
+    ],
+    "sha256": "35470b4a2d1367441dab0ef8f47fa3b8a7f859efddca823e3f387d0d807bc5ac"
+  },
+  {
+    "era": 2,
+    "name": "baby",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      188,
+      536,
+      351,
+      777
+    ],
+    "alpha_box": [
+      10,
+      63,
+      162,
+      241
+    ],
+    "size": [
+      152,
+      178
+    ],
+    "sha256": "01ca097579c69ffb33c3507ff4e6a4b02a3848d952081ac96ec27c7af84d7387"
+  },
+  {
+    "era": 2,
+    "name": "cuphand",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      351,
+      536,
+      483,
+      777
+    ],
+    "alpha_box": [
+      11,
+      129,
+      127,
+      206
+    ],
+    "size": [
+      116,
+      77
+    ],
+    "sha256": "8749d1d9a86f68e9b5153a27d843b1e511a9040870048ebcac377cbebe160e5e"
+  },
+  {
+    "era": 2,
+    "name": "m-upper",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      483,
+      536,
+      571,
+      777
+    ],
+    "alpha_box": [
+      7,
+      45,
+      67,
+      217
+    ],
+    "size": [
+      60,
+      172
+    ],
+    "sha256": "f10c8980f42aabad1c064346f77b93d6c5ca88e0cfaffd3341fbebe7fec0ae82"
+  },
+  {
+    "era": 2,
+    "name": "m-lower",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      571,
+      536,
+      658,
+      777
+    ],
+    "alpha_box": [
+      8,
+      65,
+      70,
+      224
+    ],
+    "size": [
+      62,
+      159
+    ],
+    "sha256": "a482d223fbfea0db1f1b1dec34c087c37194d24789ce4ec414323b088babd45d"
+  },
+  {
+    "era": 2,
+    "name": "bottle",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      658,
+      536,
+      759,
+      777
+    ],
+    "alpha_box": [
+      11,
+      107,
+      77,
+      241
+    ],
+    "size": [
+      66,
+      134
+    ],
+    "sha256": "9c2f02a54c6aec519a2278c309cab9b0216a3af7522873f3bb9c97d237f0a428"
+  },
+  {
+    "era": 2,
+    "name": "b-upper",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      759,
+      536,
+      877,
+      777
+    ],
+    "alpha_box": [
+      13,
+      109,
+      101,
+      222
+    ],
+    "size": [
+      88,
+      113
+    ],
+    "sha256": "aed131a1719e5cf65535a3a2c119a9a347b2b475717010b4a3a40df2d4083959"
+  },
+  {
+    "era": 2,
+    "name": "b-lower-left",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      877,
+      536,
+      1003,
+      777
+    ],
+    "alpha_box": [
+      19,
+      117,
+      104,
+      209
+    ],
+    "size": [
+      85,
+      92
+    ],
+    "sha256": "549129f36457c0c3fd2b505d4425e02a57bd2fb865bd432721591fbe6a72cace"
+  },
+  {
+    "era": 2,
+    "name": "b-lower-right",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      1003,
+      536,
+      1110,
+      777
+    ],
+    "alpha_box": [
+      17,
+      111,
+      90,
+      209
+    ],
+    "size": [
+      73,
+      98
+    ],
+    "sha256": "e50ff39e50fefbd9f73d064e9095384beb00c1e61ccebbf0eb851d1ce33b9c13"
+  },
+  {
+    "era": 2,
+    "name": "branch",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      1110,
+      536,
+      1254,
+      777
+    ],
+    "alpha_box": [
+      4,
+      0,
+      134,
+      241
+    ],
+    "size": [
+      130,
+      241
+    ],
+    "sha256": "00009c903d118a620a0b1b2f0d9ab7af862723ae22132a2315b900e4a6553016"
+  },
+  {
+    "era": 3,
+    "name": "mother",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      0,
+      777,
+      189,
+      1028
+    ],
+    "alpha_box": [
+      20,
+      0,
+      188,
+      251
+    ],
+    "size": [
+      168,
+      251
+    ],
+    "sha256": "5ab5ca50dce2c3dd8738d5b5f5d6bf142e51622f12ed61a748ed5cd19aa224c5"
+  },
+  {
+    "era": 3,
+    "name": "baby",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      189,
+      777,
+      354,
+      1028
+    ],
+    "alpha_box": [
+      7,
+      72,
+      164,
+      249
+    ],
+    "size": [
+      157,
+      177
+    ],
+    "sha256": "dc66a683f189406f2f771be4edc6c0788a183cc7a321c952accfa9bda0b5d609"
+  },
+  {
+    "era": 3,
+    "name": "cuphand",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      354,
+      777,
+      483,
+      1028
+    ],
+    "alpha_box": [
+      11,
+      127,
+      125,
+      204
+    ],
+    "size": [
+      114,
+      77
+    ],
+    "sha256": "2bcd17554f52a1e334c2f3faa283337e9aaa23f661784e2f19a93abe2a026448"
+  },
+  {
+    "era": 3,
+    "name": "m-upper",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      483,
+      777,
+      571,
+      1028
+    ],
+    "alpha_box": [
+      6,
+      48,
+      66,
+      219
+    ],
+    "size": [
+      60,
+      171
+    ],
+    "sha256": "1e5e4c2ce8ac54c72652741b5f31a7bb4cdb1e9e6e10cbcef6a46315e9b53022"
+  },
+  {
+    "era": 3,
+    "name": "m-lower",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      571,
+      777,
+      658,
+      1028
+    ],
+    "alpha_box": [
+      9,
+      68,
+      72,
+      226
+    ],
+    "size": [
+      63,
+      158
+    ],
+    "sha256": "257b1e6081fa10020c912cc6a3486a64707cf9bba33f5d9b619c25b0f3136fe3"
+  },
+  {
+    "era": 3,
+    "name": "bottle",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      658,
+      777,
+      759,
+      1028
+    ],
+    "alpha_box": [
+      15,
+      109,
+      78,
+      242
+    ],
+    "size": [
+      63,
+      133
+    ],
+    "sha256": "bef96741eb760c7f1f9ab9d6fe2f83dd29f11aa51a0f3fc16422f33cc8268235"
+  },
+  {
+    "era": 3,
+    "name": "b-upper",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      759,
+      777,
+      877,
+      1028
+    ],
+    "alpha_box": [
+      13,
+      110,
+      101,
+      221
+    ],
+    "size": [
+      88,
+      111
+    ],
+    "sha256": "5ec014400bcde00eb5c0bd4a0945fd2076e50acb393fcb99ff02f63bd7b8ee35"
+  },
+  {
+    "era": 3,
+    "name": "b-lower-left",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      877,
+      777,
+      1003,
+      1028
+    ],
+    "alpha_box": [
+      12,
+      131,
+      102,
+      221
+    ],
+    "size": [
+      90,
+      90
+    ],
+    "sha256": "4cc4ad6a8b0fbaef32b15b88ed372573eaf24c5250e277a4c3343ca6ed82e44c"
+  },
+  {
+    "era": 3,
+    "name": "b-lower-right",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      1003,
+      777,
+      1108,
+      1028
+    ],
+    "alpha_box": [
+      12,
+      128,
+      97,
+      222
+    ],
+    "size": [
+      85,
+      94
+    ],
+    "sha256": "ff77dc38354617a1c5744dbfeb36460891952055d9751c295bfb1a54b47cdefd"
+  },
+  {
+    "era": 3,
+    "name": "branch",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      1108,
+      777,
+      1254,
+      1028
+    ],
+    "alpha_box": [
+      2,
+      9,
+      132,
+      251
+    ],
+    "size": [
+      130,
+      242
+    ],
+    "sha256": "9b2d3fc97bee3c278b4727ee92faa8558c4dd4423544a33565a014adcb441a96"
+  },
+  {
+    "era": 4,
+    "name": "mother",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      0,
+      1028,
+      192,
+      1254
+    ],
+    "alpha_box": [
+      16,
+      0,
+      192,
+      218
+    ],
+    "size": [
+      176,
+      218
+    ],
+    "sha256": "26cc4e319c16baab866e239e98dd8ff1c541044787d90b73885a99641ae8d0d3"
+  },
+  {
+    "era": 4,
+    "name": "baby",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      192,
+      1028,
+      355,
+      1254
+    ],
+    "alpha_box": [
+      0,
+      52,
+      162,
+      210
+    ],
+    "size": [
+      162,
+      158
+    ],
+    "sha256": "7b02bd1436efe42d35ba3dcf99920ed93f7d5e539c010eaad2406f377f6f67db"
+  },
+  {
+    "era": 4,
+    "name": "cuphand",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      355,
+      1028,
+      483,
+      1254
+    ],
+    "alpha_box": [
+      10,
+      101,
+      123,
+      176
+    ],
+    "size": [
+      113,
+      75
+    ],
+    "sha256": "e8793e69ae0827025c36329e89cac8b2762356486e8f3e456669f498571f2853"
+  },
+  {
+    "era": 4,
+    "name": "m-upper",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      483,
+      1028,
+      571,
+      1254
+    ],
+    "alpha_box": [
+      2,
+      17,
+      70,
+      201
+    ],
+    "size": [
+      68,
+      184
+    ],
+    "sha256": "86b2b72e56af4f22cbc0800b6729fa8f06cb09b12a922a573b43b30754a9449c"
+  },
+  {
+    "era": 4,
+    "name": "m-lower",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      571,
+      1028,
+      658,
+      1254
+    ],
+    "alpha_box": [
+      8,
+      43,
+      71,
+      204
+    ],
+    "size": [
+      63,
+      161
+    ],
+    "sha256": "0f49df977a352aaa87b2e300116df0fb388c704d4620816c59cc862914f28a74"
+  },
+  {
+    "era": 4,
+    "name": "bottle",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      658,
+      1028,
+      759,
+      1254
+    ],
+    "alpha_box": [
+      17,
+      82,
+      78,
+      211
+    ],
+    "size": [
+      61,
+      129
+    ],
+    "sha256": "f4d0577c1026645885069492d2b0952bf2e82f87df6184f53171f6ea1135617d"
+  },
+  {
+    "era": 4,
+    "name": "b-upper",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      759,
+      1028,
+      877,
+      1254
+    ],
+    "alpha_box": [
+      14,
+      81,
+      104,
+      194
+    ],
+    "size": [
+      90,
+      113
+    ],
+    "sha256": "45df13e5927216eed25b4a840ee79d73212e789d03379a8f95bc019760b8d745"
+  },
+  {
+    "era": 4,
+    "name": "b-lower-left",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      877,
+      1028,
+      1003,
+      1254
+    ],
+    "alpha_box": [
+      9,
+      92,
+      101,
+      191
+    ],
+    "size": [
+      92,
+      99
+    ],
+    "sha256": "0014ea9605278b911899151b7a3b50b6efbd2fcfc2274ce651e3cc9d0d416d7f"
+  },
+  {
+    "era": 4,
+    "name": "b-lower-right",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      1003,
+      1028,
+      1110,
+      1254
+    ],
+    "alpha_box": [
+      14,
+      88,
+      100,
+      190
+    ],
+    "size": [
+      86,
+      102
+    ],
+    "sha256": "c6f6d45f97739bf8cb2e714cfd8497ed939f623ed93a3869454375dfbfa00827"
+  },
+  {
+    "era": 4,
+    "name": "branch",
+    "source": "batch-00-clean.png",
+    "source_box": [
+      1110,
+      1028,
+      1254,
+      1254
+    ],
+    "alpha_box": [
+      9,
+      0,
+      131,
+      212
+    ],
+    "size": [
+      122,
+      212
+    ],
+    "sha256": "6afaca39994d3d82792087bfe03a567f5b782b317daa9f39ef1e4d35e7eaf38c"
+  },
+  {
+    "era": 5,
+    "name": "mother",
+    "source": "batch-05.png",
+    "source_box": [
+      0,
+      0,
+      188,
+      293
+    ],
+    "alpha_box": [
+      15,
+      11,
+      177,
+      281
+    ],
+    "size": [
+      162,
+      270
+    ],
+    "sha256": "8efdab1b208c9fed123384e36fa9649ea99db5a9273705ad9209531f3e766bf8"
+  },
+  {
+    "era": 5,
+    "name": "baby",
+    "source": "batch-05.png",
+    "source_box": [
+      188,
+      0,
+      351,
+      293
+    ],
+    "alpha_box": [
+      8,
+      102,
+      159,
+      281
+    ],
+    "size": [
+      151,
+      179
+    ],
+    "sha256": "49b01506f1f3a31832af52bbb153b54845292b6617dbd31dd4ce913eb7e68a18"
+  },
+  {
+    "era": 5,
+    "name": "cuphand",
+    "source": "batch-05.png",
+    "source_box": [
+      351,
+      0,
+      483,
+      293
+    ],
+    "alpha_box": [
+      8,
+      183,
+      123,
+      268
+    ],
+    "size": [
+      115,
+      85
+    ],
+    "sha256": "28202aa764516ff8b4d5834b417f77ad4646bafe4f23c0732d468cc65b1f519a"
+  },
+  {
+    "era": 5,
+    "name": "m-upper",
+    "source": "batch-05.png",
+    "source_box": [
+      483,
+      0,
+      571,
+      293
+    ],
+    "alpha_box": [
+      5,
+      110,
+      70,
+      271
+    ],
+    "size": [
+      65,
+      161
+    ],
+    "sha256": "1407a94d3ddc6bfc4e357bece09a1e3dfbd899bc8f33663a39dd11fec4fa3178"
+  },
+  {
+    "era": 5,
+    "name": "m-lower",
+    "source": "batch-05.png",
+    "source_box": [
+      571,
+      0,
+      658,
+      293
+    ],
+    "alpha_box": [
+      9,
+      119,
+      70,
+      274
+    ],
+    "size": [
+      61,
+      155
+    ],
+    "sha256": "fa2f6906a2929d757bd26c58d434675cdd4b0b64ffc363ebd339264e2418ff26"
+  },
+  {
+    "era": 5,
+    "name": "bottle",
+    "source": "batch-05.png",
+    "source_box": [
+      658,
+      0,
+      759,
+      293
+    ],
+    "alpha_box": [
+      18,
+      166,
+      79,
+      292
+    ],
+    "size": [
+      61,
+      126
+    ],
+    "sha256": "ece85b556bd0a12e06893c929c7ffe93a17739fc8c170e4585b42da7fa8e0b51"
+  },
+  {
+    "era": 5,
+    "name": "b-upper",
+    "source": "batch-05.png",
+    "source_box": [
+      759,
+      0,
+      877,
+      293
+    ],
+    "alpha_box": [
+      18,
+      169,
+      105,
+      274
+    ],
+    "size": [
+      87,
+      105
+    ],
+    "sha256": "6d20ff4f5f063886fba8685c333b1e73035dbc503aa4e8837d5cc47105082333"
+  },
+  {
+    "era": 5,
+    "name": "b-lower-left",
+    "source": "batch-05.png",
+    "source_box": [
+      877,
+      0,
+      1003,
+      293
+    ],
+    "alpha_box": [
+      18,
+      168,
+      109,
+      264
+    ],
+    "size": [
+      91,
+      96
+    ],
+    "sha256": "8c306616bf62eeef260e9e6f75da852fa5c272c91f6df1facbfa855047ce0c73"
+  },
+  {
+    "era": 5,
+    "name": "b-lower-right",
+    "source": "batch-05.png",
+    "source_box": [
+      1003,
+      0,
+      1102,
+      293
+    ],
+    "alpha_box": [
+      15,
+      168,
+      98,
+      264
+    ],
+    "size": [
+      83,
+      96
+    ],
+    "sha256": "94825acdcf5fd4ccade14b4f7aa973ed00db88ac95cbcdddffb9345db4d211ee"
+  },
+  {
+    "era": 5,
+    "name": "branch",
+    "source": "batch-05.png",
+    "source_box": [
+      1102,
+      0,
+      1254,
+      293
+    ],
+    "alpha_box": [
+      0,
+      21,
+      140,
+      292
+    ],
+    "size": [
+      140,
+      271
+    ],
+    "sha256": "827e67561039838be935a61b6f04a6fd670527510ca326c21989499a84879868"
+  },
+  {
+    "era": 6,
+    "name": "mother",
+    "source": "batch-05.png",
+    "source_box": [
+      0,
+      293,
+      189,
+      538
+    ],
+    "alpha_box": [
+      12,
+      0,
+      188,
+      245
+    ],
+    "size": [
+      176,
+      245
+    ],
+    "sha256": "5ee6b91fd475b1cbe478a9ab36b09fba09739cb6c3dc513668254126c7d0ce6c"
+  },
+  {
+    "era": 6,
+    "name": "baby",
+    "source": "batch-05.png",
+    "source_box": [
+      189,
+      293,
+      351,
+      538
+    ],
+    "alpha_box": [
+      8,
+      60,
+      160,
+      239
+    ],
+    "size": [
+      152,
+      179
+    ],
+    "sha256": "ee5132e52cf2f085ebc24008f7411fa0680ce4614695e21bac76158bc3abfd34"
+  },
+  {
+    "era": 6,
+    "name": "cuphand",
+    "source": "batch-05.png",
+    "source_box": [
+      351,
+      293,
+      483,
+      538
+    ],
+    "alpha_box": [
+      11,
+      130,
+      124,
+      207
+    ],
+    "size": [
+      113,
+      77
+    ],
+    "sha256": "b7d3365f8a19b470fa67307237b80f70873186425e8b93cfc4ce3e8492506ba7"
+  },
+  {
+    "era": 6,
+    "name": "m-upper",
+    "source": "batch-05.png",
+    "source_box": [
+      483,
+      293,
+      571,
+      538
+    ],
+    "alpha_box": [
+      3,
+      51,
+      68,
+      224
+    ],
+    "size": [
+      65,
+      173
+    ],
+    "sha256": "a30f2f860d99564166b5cc7a4dde88fa770e989e51b03c2c2fbd5a5fbaddc7a0"
+  },
+  {
+    "era": 6,
+    "name": "m-lower",
+    "source": "batch-05.png",
+    "source_box": [
+      571,
+      293,
+      658,
+      538
+    ],
+    "alpha_box": [
+      9,
+      63,
+      74,
+      225
+    ],
+    "size": [
+      65,
+      162
+    ],
+    "sha256": "6390bfdfacdc4fed707b9d94f7a7da0ddbc1da6e0cdcc9765aa50d57be2b2160"
+  },
+  {
+    "era": 6,
+    "name": "bottle",
+    "source": "batch-05.png",
+    "source_box": [
+      658,
+      293,
+      759,
+      538
+    ],
+    "alpha_box": [
+      15,
+      111,
+      77,
+      244
+    ],
+    "size": [
+      62,
+      133
+    ],
+    "sha256": "10194de341508a077c17085706ea15256611df93ee1b334d912bcddeb3f63d3c"
+  },
+  {
+    "era": 6,
+    "name": "b-upper",
+    "source": "batch-05.png",
+    "source_box": [
+      759,
+      293,
+      877,
+      538
+    ],
+    "alpha_box": [
+      15,
+      117,
+      105,
+      223
+    ],
+    "size": [
+      90,
+      106
+    ],
+    "sha256": "d04328023d71c59cd21e6d84f376b104de606fc06b33e01f7565ef2138ec8f6b"
+  },
+  {
+    "era": 6,
+    "name": "b-lower-left",
+    "source": "batch-05.png",
+    "source_box": [
+      877,
+      293,
+      1003,
+      538
+    ],
+    "alpha_box": [
+      19,
+      119,
+      110,
+      213
+    ],
+    "size": [
+      91,
+      94
+    ],
+    "sha256": "b4c063c8934b0cceec6e5b9618c728a04e35864c10dbe3179055975e8bd1b50c"
+  },
+  {
+    "era": 6,
+    "name": "b-lower-right",
+    "source": "batch-05.png",
+    "source_box": [
+      1003,
+      293,
+      1102,
+      538
+    ],
+    "alpha_box": [
+      15,
+      118,
+      98,
+      214
+    ],
+    "size": [
+      83,
+      96
+    ],
+    "sha256": "73b4517f327413bed53d5538cc675501794331a6797b83d83168fb74bd56f5d8"
+  },
+  {
+    "era": 6,
+    "name": "branch",
+    "source": "batch-05.png",
+    "source_box": [
+      1102,
+      293,
+      1254,
+      538
+    ],
+    "alpha_box": [
+      2,
+      0,
+      143,
+      245
+    ],
+    "size": [
+      141,
+      245
+    ],
+    "sha256": "5415716f64206d3ebc5861a6dc8e2332dc18b2d467b505b6e8d81e666db406b5"
+  },
+  {
+    "era": 7,
+    "name": "mother",
+    "source": "batch-05.png",
+    "source_box": [
+      0,
+      538,
+      188,
+      783
+    ],
+    "alpha_box": [
+      14,
+      0,
+      185,
+      245
+    ],
+    "size": [
+      171,
+      245
+    ],
+    "sha256": "1276003e4adbcb84d76fd81ebc2676578258ca6165233ea6885b5cfe1dd470a9"
+  },
+  {
+    "era": 7,
+    "name": "baby",
+    "source": "batch-05.png",
+    "source_box": [
+      188,
+      538,
+      352,
+      783
+    ],
+    "alpha_box": [
+      7,
+      60,
+      163,
+      238
+    ],
+    "size": [
+      156,
+      178
+    ],
+    "sha256": "0d7875742b67a35d723733b5440631ef70b8d352447e876eab2fd2eb96534e55"
+  },
+  {
+    "era": 7,
+    "name": "cuphand",
+    "source": "batch-05.png",
+    "source_box": [
+      352,
+      538,
+      483,
+      783
+    ],
+    "alpha_box": [
+      13,
+      132,
+      127,
+      208
+    ],
+    "size": [
+      114,
+      76
+    ],
+    "sha256": "ea3d194d86da569e868e8aa76c5a5df4d3c4e68c4d1b14fd30f164c4b79349c6"
+  },
+  {
+    "era": 7,
+    "name": "m-upper",
+    "source": "batch-05.png",
+    "source_box": [
+      483,
+      538,
+      571,
+      783
+    ],
+    "alpha_box": [
+      3,
+      57,
+      68,
+      220
+    ],
+    "size": [
+      65,
+      163
+    ],
+    "sha256": "de66056d053b6abb7a0704fd65f16af2d136d03dc3c462ca386ed4382de2a47c"
+  },
+  {
+    "era": 7,
+    "name": "m-lower",
+    "source": "batch-05.png",
+    "source_box": [
+      571,
+      538,
+      658,
+      783
+    ],
+    "alpha_box": [
+      9,
+      62,
+      71,
+      225
+    ],
+    "size": [
+      62,
+      163
+    ],
+    "sha256": "c736bb74954f70fc64647685b192d48fd5de53e55891315a7cf6d75a03318e56"
+  },
+  {
+    "era": 7,
+    "name": "bottle",
+    "source": "batch-05.png",
+    "source_box": [
+      658,
+      538,
+      759,
+      783
+    ],
+    "alpha_box": [
+      13,
+      110,
+      76,
+      242
+    ],
+    "size": [
+      63,
+      132
+    ],
+    "sha256": "bd11451c404e495d209b21a6284b6ba4f58d148ad555227ec245680ccded34f4"
+  },
+  {
+    "era": 7,
+    "name": "b-upper",
+    "source": "batch-05.png",
+    "source_box": [
+      759,
+      538,
+      877,
+      783
+    ],
+    "alpha_box": [
+      13,
+      112,
+      102,
+      223
+    ],
+    "size": [
+      89,
+      111
+    ],
+    "sha256": "0b53193979d9f31089e1474f5c3e225d5fbd9ba27378abae07eddc69726f9d9b"
+  },
+  {
+    "era": 7,
+    "name": "b-lower-left",
+    "source": "batch-05.png",
+    "source_box": [
+      877,
+      538,
+      1003,
+      783
+    ],
+    "alpha_box": [
+      17,
+      116,
+      108,
+      208
+    ],
+    "size": [
+      91,
+      92
+    ],
+    "sha256": "e53abcc7478d0b16da3d0cd9afe94c825e76c362fb9460c3a8e94ccf2cacd73f"
+  },
+  {
+    "era": 7,
+    "name": "b-lower-right",
+    "source": "batch-05.png",
+    "source_box": [
+      1003,
+      538,
+      1101,
+      783
+    ],
+    "alpha_box": [
+      14,
+      115,
+      97,
+      208
+    ],
+    "size": [
+      83,
+      93
+    ],
+    "sha256": "ad6f82b962a0f304234bcc0dcf34a87c515424490bec4e0d273fea63f9268074"
+  },
+  {
+    "era": 7,
+    "name": "branch",
+    "source": "batch-05.png",
+    "source_box": [
+      1101,
+      538,
+      1254,
+      783
+    ],
+    "alpha_box": [
+      0,
+      0,
+      140,
+      245
+    ],
+    "size": [
+      140,
+      245
+    ],
+    "sha256": "8685348907a91929e252f7a55cd1348545ba30dc28adcb305bee4b9f1aed2494"
+  },
+  {
+    "era": 8,
+    "name": "mother",
+    "source": "batch-05.png",
+    "source_box": [
+      0,
+      783,
+      193,
+      1027
+    ],
+    "alpha_box": [
+      15,
+      0,
+      192,
+      244
+    ],
+    "size": [
+      177,
+      244
+    ],
+    "sha256": "5fb8d41ec81ac12f86d8d943be29a9dc62d18f5edefdac2a742c1d113318db63"
+  },
+  {
+    "era": 8,
+    "name": "baby",
+    "source": "batch-05.png",
+    "source_box": [
+      193,
+      783,
+      353,
+      1027
+    ],
+    "alpha_box": [
+      4,
+      71,
+      159,
+      244
+    ],
+    "size": [
+      155,
+      173
+    ],
+    "sha256": "f0b82cf7f7244ef38054b33c15ba25b793cb1866b0af02b6d8357e9bb3334569"
+  },
+  {
+    "era": 8,
+    "name": "cuphand",
+    "source": "batch-05.png",
+    "source_box": [
+      353,
+      783,
+      483,
+      1027
+    ],
+    "alpha_box": [
+      10,
+      127,
+      126,
+      202
+    ],
+    "size": [
+      116,
+      75
+    ],
+    "sha256": "1d7711579a68deb43eb7b6e3c4958b733b008a8b2bbd759f625117361e6e5540"
+  },
+  {
+    "era": 8,
+    "name": "m-upper",
+    "source": "batch-05.png",
+    "source_box": [
+      483,
+      783,
+      571,
+      1027
+    ],
+    "alpha_box": [
+      2,
+      48,
+      69,
+      211
+    ],
+    "size": [
+      67,
+      163
+    ],
+    "sha256": "dcb3798ee6204b9e628a051c912fbd58c35962df2d0f82ef9a75610c3ef3cf94"
+  },
+  {
+    "era": 8,
+    "name": "m-lower",
+    "source": "batch-05.png",
+    "source_box": [
+      571,
+      783,
+      658,
+      1027
+    ],
+    "alpha_box": [
+      10,
+      65,
+      73,
+      220
+    ],
+    "size": [
+      63,
+      155
+    ],
+    "sha256": "f1f05d4e51342f4ebaf057173d80cdefe56a534b480d638c21a8d3b7d9a3af4f"
+  },
+  {
+    "era": 8,
+    "name": "bottle",
+    "source": "batch-05.png",
+    "source_box": [
+      658,
+      783,
+      759,
+      1027
+    ],
+    "alpha_box": [
+      17,
+      111,
+      76,
+      239
+    ],
+    "size": [
+      59,
+      128
+    ],
+    "sha256": "83ab99472fa8ef17f9e7c44c148bdc6674a62be4fcc2855c57c32fd2a1a8c39a"
+  },
+  {
+    "era": 8,
+    "name": "b-upper",
+    "source": "batch-05.png",
+    "source_box": [
+      759,
+      783,
+      877,
+      1027
+    ],
+    "alpha_box": [
+      15,
+      110,
+      104,
+      217
+    ],
+    "size": [
+      89,
+      107
+    ],
+    "sha256": "d1cbacddcfee64e5c304c8967531ab785073e8a7a7c1c818583fabe23fc12a36"
+  },
+  {
+    "era": 8,
+    "name": "b-lower-left",
+    "source": "batch-05.png",
+    "source_box": [
+      877,
+      783,
+      1003,
+      1027
+    ],
+    "alpha_box": [
+      9,
+      125,
+      105,
+      218
+    ],
+    "size": [
+      96,
+      93
+    ],
+    "sha256": "4487480d80dd7be416d46a5dd3e7519751a4ca83121606b9657d454c9e066bda"
+  },
+  {
+    "era": 8,
+    "name": "b-lower-right",
+    "source": "batch-05.png",
+    "source_box": [
+      1003,
+      783,
+      1104,
+      1027
+    ],
+    "alpha_box": [
+      13,
+      123,
+      100,
+      218
+    ],
+    "size": [
+      87,
+      95
+    ],
+    "sha256": "750a2f9bd5379e53528e4912eae86c1885d0bf7d8c3e76cd51a7f0bae1e2e3b7"
+  },
+  {
+    "era": 8,
+    "name": "branch",
+    "source": "batch-05.png",
+    "source_box": [
+      1104,
+      783,
+      1254,
+      1027
+    ],
+    "alpha_box": [
+      0,
+      9,
+      139,
+      244
+    ],
+    "size": [
+      139,
+      235
+    ],
+    "sha256": "afae0b67bfd1e1414cd4c6a177c78f333ed77c2ddeca054d135dcd155ed15317"
+  },
+  {
+    "era": 9,
+    "name": "mother",
+    "source": "batch-05.png",
+    "source_box": [
+      0,
+      1027,
+      188,
+      1254
+    ],
+    "alpha_box": [
+      17,
+      0,
+      182,
+      223
+    ],
+    "size": [
+      165,
+      223
+    ],
+    "sha256": "2fb9b65290586321951a74cf03ef099f880ab0bf4e4eb285086d9f78ad7689e7"
+  },
+  {
+    "era": 9,
+    "name": "baby",
+    "source": "batch-05.png",
+    "source_box": [
+      188,
+      1027,
+      355,
+      1254
+    ],
+    "alpha_box": [
+      3,
+      52,
+      166,
+      213
+    ],
+    "size": [
+      163,
+      161
+    ],
+    "sha256": "5fd3ce4ec1a08ab85e00ea08e88a79b62bab94c22ca49fcfa231e6ff2529cf43"
+  },
+  {
+    "era": 9,
+    "name": "cuphand",
+    "source": "batch-05.png",
+    "source_box": [
+      355,
+      1027,
+      479,
+      1254
+    ],
+    "alpha_box": [
+      9,
+      109,
+      122,
+      181
+    ],
+    "size": [
+      113,
+      72
+    ],
+    "sha256": "ae76d800c26fd7869dd9bf3bd3ed3b994b1e3d1df4beaef28af13ca54895adc3"
+  },
+  {
+    "era": 9,
+    "name": "m-upper",
+    "source": "batch-05.png",
+    "source_box": [
+      479,
+      1027,
+      571,
+      1254
+    ],
+    "alpha_box": [
+      2,
+      19,
+      80,
+      202
+    ],
+    "size": [
+      78,
+      183
+    ],
+    "sha256": "316b32140d89d0d719817b1ecbaa93ba01466b057e96a12f8aa15ba87d47603b"
+  },
+  {
+    "era": 9,
+    "name": "m-lower",
+    "source": "batch-05.png",
+    "source_box": [
+      571,
+      1027,
+      658,
+      1254
+    ],
+    "alpha_box": [
+      8,
+      43,
+      77,
+      211
+    ],
+    "size": [
+      69,
+      168
+    ],
+    "sha256": "ff8088cf1036e02981e6039407329cd387cf954b8aace4bc0f87205ffc22dcaa"
+  },
+  {
+    "era": 9,
+    "name": "bottle",
+    "source": "batch-05.png",
+    "source_box": [
+      658,
+      1027,
+      759,
+      1254
+    ],
+    "alpha_box": [
+      18,
+      87,
+      78,
+      214
+    ],
+    "size": [
+      60,
+      127
+    ],
+    "sha256": "ddd271ee73cedf4205bee3504f07a1b8aa15a2c877903f881d30a8fa3005b0ca"
+  },
+  {
+    "era": 9,
+    "name": "b-upper",
+    "source": "batch-05.png",
+    "source_box": [
+      759,
+      1027,
+      877,
+      1254
+    ],
+    "alpha_box": [
+      13,
+      89,
+      107,
+      199
+    ],
+    "size": [
+      94,
+      110
+    ],
+    "sha256": "5f3c323fc20bb4fb44647c40a5b34e14f7421ee426e50e40111c45cd5e3ced04"
+  },
+  {
+    "era": 9,
+    "name": "b-lower-left",
+    "source": "batch-05.png",
+    "source_box": [
+      877,
+      1027,
+      1003,
+      1254
+    ],
+    "alpha_box": [
+      8,
+      95,
+      106,
+      194
+    ],
+    "size": [
+      98,
+      99
+    ],
+    "sha256": "b7f08fefc0f70226a2b27a27c1ea9c013b4ea615686d574feba8e3137c2574ab"
+  },
+  {
+    "era": 9,
+    "name": "b-lower-right",
+    "source": "batch-05.png",
+    "source_box": [
+      1003,
+      1027,
+      1110,
+      1254
+    ],
+    "alpha_box": [
+      15,
+      94,
+      104,
+      193
+    ],
+    "size": [
+      89,
+      99
+    ],
+    "sha256": "11eb85ae1be637e1a775fa8fddb3bea7ae428f841ed0b44a285de82abfe76a99"
+  },
+  {
+    "era": 9,
+    "name": "branch",
+    "source": "batch-05.png",
+    "source_box": [
+      1110,
+      1027,
+      1254,
+      1254
+    ],
+    "alpha_box": [
+      2,
+      0,
+      133,
+      223
+    ],
+    "size": [
+      131,
+      223
+    ],
+    "sha256": "c3edbfd70ae9e76a318288a92c5cf697bf430e46e900c912694a519da5cd6031"
+  },
+  {
+    "era": 10,
+    "name": "mother",
+    "source": "batch-10.png",
+    "source_box": [
+      0,
+      0,
+      189,
+      289
+    ],
+    "alpha_box": [
+      14,
+      16,
+      188,
+      282
+    ],
+    "size": [
+      174,
+      266
+    ],
+    "sha256": "9156fa8ea01f638b7a85460a696a41fd09983ece2e4c2c7c32871cec9fd23e16"
+  },
+  {
+    "era": 10,
+    "name": "baby",
+    "source": "batch-10.png",
+    "source_box": [
+      189,
+      0,
+      351,
+      289
+    ],
+    "alpha_box": [
+      13,
+      104,
+      160,
+      280
+    ],
+    "size": [
+      147,
+      176
+    ],
+    "sha256": "ea836b6f22448bd61d2b617e085fc5b0a4b042375255e256aa8ba5bc98a85c15"
+  },
+  {
+    "era": 10,
+    "name": "cuphand",
+    "source": "batch-10.png",
+    "source_box": [
+      351,
+      0,
+      477,
+      289
+    ],
+    "alpha_box": [
+      13,
+      181,
+      126,
+      267
+    ],
+    "size": [
+      113,
+      86
+    ],
+    "sha256": "f8cd7b5fdd0a6ed2a04c459ff626fff271bd10e3c53021d9aec3dbbdfd41a2cc"
+  },
+  {
+    "era": 10,
+    "name": "m-upper",
+    "source": "batch-10.png",
+    "source_box": [
+      477,
+      0,
+      571,
+      289
+    ],
+    "alpha_box": [
+      0,
+      115,
+      83,
+      270
+    ],
+    "size": [
+      83,
+      155
+    ],
+    "sha256": "0d999108067579cdfb56da2e310ea8d5eab070d92a7b4d6378c28b4090403397"
+  },
+  {
+    "era": 10,
+    "name": "m-lower",
+    "source": "batch-10.png",
+    "source_box": [
+      571,
+      0,
+      658,
+      289
+    ],
+    "alpha_box": [
+      15,
+      118,
+      75,
+      274
+    ],
+    "size": [
+      60,
+      156
+    ],
+    "sha256": "9e45609dde613a4c0dff650bf415355f873881ce6908b7b30a4d3eb0b2c157f5"
+  },
+  {
+    "era": 10,
+    "name": "bottle",
+    "source": "batch-10.png",
+    "source_box": [
+      658,
+      0,
+      759,
+      289
+    ],
+    "alpha_box": [
+      14,
+      167,
+      72,
+      288
+    ],
+    "size": [
+      58,
+      121
+    ],
+    "sha256": "89cc97698373c5b7387dc06ce140b6c6430c4075736383e6abdb642fdc556011"
+  },
+  {
+    "era": 10,
+    "name": "b-upper",
+    "source": "batch-10.png",
+    "source_box": [
+      759,
+      0,
+      877,
+      289
+    ],
+    "alpha_box": [
+      12,
+      164,
+      104,
+      274
+    ],
+    "size": [
+      92,
+      110
+    ],
+    "sha256": "480dccd60372009956864bba525240771c875c6ae66917522cdb095401a5fd72"
+  },
+  {
+    "era": 10,
+    "name": "b-lower-left",
+    "source": "batch-10.png",
+    "source_box": [
+      877,
+      0,
+      1003,
+      289
+    ],
+    "alpha_box": [
+      12,
+      164,
+      116,
+      264
+    ],
+    "size": [
+      104,
+      100
+    ],
+    "sha256": "0c2db9c9e1a6de0f03351cd8e24eb6de851b21acae05180270204add8177505c"
+  },
+  {
+    "era": 10,
+    "name": "b-lower-right",
+    "source": "batch-10.png",
+    "source_box": [
+      1003,
+      0,
+      1110,
+      289
+    ],
+    "alpha_box": [
+      11,
+      163,
+      107,
+      266
+    ],
+    "size": [
+      96,
+      103
+    ],
+    "sha256": "afa6f62596f593980ee7728a48f21be3b5a9f495f17658e984c662cc85b4a268"
+  },
+  {
+    "era": 10,
+    "name": "branch",
+    "source": "batch-10.png",
+    "source_box": [
+      1110,
+      0,
+      1254,
+      289
+    ],
+    "alpha_box": [
+      0,
+      21,
+      125,
+      286
+    ],
+    "size": [
+      125,
+      265
+    ],
+    "sha256": "eaf6f41f3cb107f71db5c6088de6077c81707b065bff8bdbf3e5dbc9bdd083e8"
+  },
+  {
+    "era": 11,
+    "name": "mother",
+    "source": "batch-10.png",
+    "source_box": [
+      0,
+      289,
+      188,
+      542
+    ],
+    "alpha_box": [
+      19,
+      0,
+      181,
+      247
+    ],
+    "size": [
+      162,
+      247
+    ],
+    "sha256": "5ace3e7d80f2342da562933e9e0d2725e8c54539e0683c00f0e3539dd12d4af6"
+  },
+  {
+    "era": 11,
+    "name": "baby",
+    "source": "batch-10.png",
+    "source_box": [
+      188,
+      289,
+      352,
+      542
+    ],
+    "alpha_box": [
+      13,
+      63,
+      163,
+      243
+    ],
+    "size": [
+      150,
+      180
+    ],
+    "sha256": "71c8dc9e8244dac62bae0ece268970366998b17f96007ab41692e0d2970199e0"
+  },
+  {
+    "era": 11,
+    "name": "cuphand",
+    "source": "batch-10.png",
+    "source_box": [
+      352,
+      289,
+      477,
+      542
+    ],
+    "alpha_box": [
+      12,
+      131,
+      125,
+      218
+    ],
+    "size": [
+      113,
+      87
+    ],
+    "sha256": "585f91606c8ab66d0f5111ad6db90a842cd1ce62bcc1010d03e2e5b10c0bd80e"
+  },
+  {
+    "era": 11,
+    "name": "m-upper",
+    "source": "batch-10.png",
+    "source_box": [
+      477,
+      289,
+      571,
+      542
+    ],
+    "alpha_box": [
+      0,
+      57,
+      81,
+      219
+    ],
+    "size": [
+      81,
+      162
+    ],
+    "sha256": "60e10b517cae086e4852a1c9261f7d16d44dc22e8aa9003e513ed1b3fd67c601"
+  },
+  {
+    "era": 11,
+    "name": "m-lower",
+    "source": "batch-10.png",
+    "source_box": [
+      571,
+      289,
+      658,
+      542
+    ],
+    "alpha_box": [
+      14,
+      67,
+      76,
+      217
+    ],
+    "size": [
+      62,
+      150
+    ],
+    "sha256": "2e450545cb3c4ddc56cce3132b8a9efe1d8a256b72d969647cf816cf27e40f8e"
+  },
+  {
+    "era": 11,
+    "name": "bottle",
+    "source": "batch-10.png",
+    "source_box": [
+      658,
+      289,
+      759,
+      542
+    ],
+    "alpha_box": [
+      13,
+      118,
+      74,
+      252
+    ],
+    "size": [
+      61,
+      134
+    ],
+    "sha256": "e7bc62457639f1dd77c5205fcb59f5fa23450650d10ff39cfd4416a0942682a0"
+  },
+  {
+    "era": 11,
+    "name": "b-upper",
+    "source": "batch-10.png",
+    "source_box": [
+      759,
+      289,
+      877,
+      542
+    ],
+    "alpha_box": [
+      12,
+      116,
+      103,
+      224
+    ],
+    "size": [
+      91,
+      108
+    ],
+    "sha256": "af694535870763ab21ffd90a1f71ea11ecb5c3a1ba23fc26b03b5bf1ebc40aea"
+  },
+  {
+    "era": 11,
+    "name": "b-lower-left",
+    "source": "batch-10.png",
+    "source_box": [
+      877,
+      289,
+      1003,
+      542
+    ],
+    "alpha_box": [
+      9,
+      118,
+      113,
+      215
+    ],
+    "size": [
+      104,
+      97
+    ],
+    "sha256": "057e19f20d34ff7bf31ad310d942c2806cc349e0dc4f41936b06c889591086fd"
+  },
+  {
+    "era": 11,
+    "name": "b-lower-right",
+    "source": "batch-10.png",
+    "source_box": [
+      1003,
+      289,
+      1105,
+      542
+    ],
+    "alpha_box": [
+      10,
+      116,
+      101,
+      216
+    ],
+    "size": [
+      91,
+      100
+    ],
+    "sha256": "13e44bca25c12f04b042bcf30797629167b472c9753312596d72358835b174d9"
+  },
+  {
+    "era": 11,
+    "name": "branch",
+    "source": "batch-10.png",
+    "source_box": [
+      1105,
+      289,
+      1254,
+      542
+    ],
+    "alpha_box": [
+      11,
+      0,
+      132,
+      253
+    ],
+    "size": [
+      121,
+      253
+    ],
+    "sha256": "2d99f0775feea643bcfb4d26c7c73cb421540c1aa5d6c76a142234a2a301cbe1"
+  },
+  {
+    "era": 12,
+    "name": "mother",
+    "source": "batch-10.png",
+    "source_box": [
+      0,
+      542,
+      192,
+      784
+    ],
+    "alpha_box": [
+      15,
+      0,
+      191,
+      242
+    ],
+    "size": [
+      176,
+      242
+    ],
+    "sha256": "4a7b8493403083bc285dc080e5dab502eb536360ff5b4f8702df62eb093dc199"
+  },
+  {
+    "era": 12,
+    "name": "baby",
+    "source": "batch-10.png",
+    "source_box": [
+      192,
+      542,
+      353,
+      784
+    ],
+    "alpha_box": [
+      10,
+      57,
+      160,
+      233
+    ],
+    "size": [
+      150,
+      176
+    ],
+    "sha256": "b32febbb86e1eb8440dfb51bc683fd4c9d59f80707ec738196ca14da32c35fba"
+  },
+  {
+    "era": 12,
+    "name": "cuphand",
+    "source": "batch-10.png",
+    "source_box": [
+      353,
+      542,
+      475,
+      784
+    ],
+    "alpha_box": [
+      10,
+      124,
+      122,
+      205
+    ],
+    "size": [
+      112,
+      81
+    ],
+    "sha256": "8e3f99018d17a0fe44d034ce8c431028736ec1bc836d4fec0936d04bda14c598"
+  },
+  {
+    "era": 12,
+    "name": "m-upper",
+    "source": "batch-10.png",
+    "source_box": [
+      475,
+      542,
+      571,
+      784
+    ],
+    "alpha_box": [
+      0,
+      38,
+      87,
+      210
+    ],
+    "size": [
+      87,
+      172
+    ],
+    "sha256": "54738052a44c992cd046303019eeb2bfbef579c3510117cac4cf4b541fe44afd"
+  },
+  {
+    "era": 12,
+    "name": "m-lower",
+    "source": "batch-10.png",
+    "source_box": [
+      571,
+      542,
+      658,
+      784
+    ],
+    "alpha_box": [
+      17,
+      51,
+      78,
+      206
+    ],
+    "size": [
+      61,
+      155
+    ],
+    "sha256": "478e992c9c29ce7094f437c0970d84299e5b2b4a0969eb9a46f21aab965420d8"
+  },
+  {
+    "era": 12,
+    "name": "bottle",
+    "source": "batch-10.png",
+    "source_box": [
+      658,
+      542,
+      759,
+      784
+    ],
+    "alpha_box": [
+      11,
+      100,
+      73,
+      233
+    ],
+    "size": [
+      62,
+      133
+    ],
+    "sha256": "1c4c615ff500a4db129d1eca81c43813dbe1996951f906404452b8783073c530"
+  },
+  {
+    "era": 12,
+    "name": "b-upper",
+    "source": "batch-10.png",
+    "source_box": [
+      759,
+      542,
+      877,
+      784
+    ],
+    "alpha_box": [
+      11,
+      102,
+      104,
+      215
+    ],
+    "size": [
+      93,
+      113
+    ],
+    "sha256": "c97ec366ca98363a9dc044b5ba13031a649f0dd47bd869b549341c72285af9b5"
+  },
+  {
+    "era": 12,
+    "name": "b-lower-left",
+    "source": "batch-10.png",
+    "source_box": [
+      877,
+      542,
+      1003,
+      784
+    ],
+    "alpha_box": [
+      12,
+      111,
+      113,
+      207
+    ],
+    "size": [
+      101,
+      96
+    ],
+    "sha256": "2ff8803fafbd9f9452910c40e0dd4a35700c4fbcb0fa4df5b9e70f3db976fe65"
+  },
+  {
+    "era": 12,
+    "name": "b-lower-right",
+    "source": "batch-10.png",
+    "source_box": [
+      1003,
+      542,
+      1113,
+      784
+    ],
+    "alpha_box": [
+      9,
+      102,
+      109,
+      210
+    ],
+    "size": [
+      100,
+      108
+    ],
+    "sha256": "da5af082c2bb410d5d7e0cb170e917f90a9f98489a139741233a1b1e8038a6ee"
+  },
+  {
+    "era": 12,
+    "name": "branch",
+    "source": "batch-10.png",
+    "source_box": [
+      1113,
+      542,
+      1254,
+      784
+    ],
+    "alpha_box": [
+      4,
+      0,
+      132,
+      242
+    ],
+    "size": [
+      128,
+      242
+    ],
+    "sha256": "df9ba31acf516719765f49ded464def76684c98d02472e2d508e405bfcc1a4e1"
+  },
+  {
+    "era": 13,
+    "name": "mother",
+    "source": "batch-10.png",
+    "source_box": [
+      0,
+      784,
+      194,
+      1034
+    ],
+    "alpha_box": [
+      18,
+      0,
+      193,
+      250
+    ],
+    "size": [
+      175,
+      250
+    ],
+    "sha256": "1a39b82fb962863dc49551745084e5719bee74c97091f862ca5ba7dffb44e65e"
+  },
+  {
+    "era": 13,
+    "name": "baby",
+    "source": "batch-10.png",
+    "source_box": [
+      194,
+      784,
+      354,
+      1034
+    ],
+    "alpha_box": [
+      5,
+      65,
+      159,
+      242
+    ],
+    "size": [
+      154,
+      177
+    ],
+    "sha256": "e154f111dde56e1c70de01c3231e499daed4d4be61f94d78fea0ff7e1484f909"
+  },
+  {
+    "era": 13,
+    "name": "cuphand",
+    "source": "batch-10.png",
+    "source_box": [
+      354,
+      784,
+      475,
+      1034
+    ],
+    "alpha_box": [
+      11,
+      123,
+      121,
+      202
+    ],
+    "size": [
+      110,
+      79
+    ],
+    "sha256": "d04f562890fee0727c8f9db5b2e06d839a27846e89c6894f7cdbd9b4a2be18c8"
+  },
+  {
+    "era": 13,
+    "name": "m-upper",
+    "source": "batch-10.png",
+    "source_box": [
+      475,
+      784,
+      571,
+      1034
+    ],
+    "alpha_box": [
+      0,
+      46,
+      88,
+      214
+    ],
+    "size": [
+      88,
+      168
+    ],
+    "sha256": "85377d05bf944289bc5a3e7a9cf0b2aaa6fbdee5ad53bd8fe249007dd7864120"
+  },
+  {
+    "era": 13,
+    "name": "m-lower",
+    "source": "batch-10.png",
+    "source_box": [
+      571,
+      784,
+      658,
+      1034
+    ],
+    "alpha_box": [
+      14,
+      58,
+      77,
+      213
+    ],
+    "size": [
+      63,
+      155
+    ],
+    "sha256": "f1cfef918188af5a9248071e73054bc1bcd256daac0cfa7ce039d3033ac374e5"
+  },
+  {
+    "era": 13,
+    "name": "bottle",
+    "source": "batch-10.png",
+    "source_box": [
+      658,
+      784,
+      759,
+      1034
+    ],
+    "alpha_box": [
+      15,
+      103,
+      76,
+      235
+    ],
+    "size": [
+      61,
+      132
+    ],
+    "sha256": "028bf21f5db387709ced832e85840ed21ef01b6de43978c99330d13aa25118da"
+  },
+  {
+    "era": 13,
+    "name": "b-upper",
+    "source": "batch-10.png",
+    "source_box": [
+      759,
+      784,
+      877,
+      1034
+    ],
+    "alpha_box": [
+      9,
+      103,
+      106,
+      216
+    ],
+    "size": [
+      97,
+      113
+    ],
+    "sha256": "f77adbd7ace41f7bab1e8bd24feeb35a9ef592dac2ae4efb68da2b894a61de90"
+  },
+  {
+    "era": 13,
+    "name": "b-lower-left",
+    "source": "batch-10.png",
+    "source_box": [
+      877,
+      784,
+      1003,
+      1034
+    ],
+    "alpha_box": [
+      14,
+      119,
+      115,
+      213
+    ],
+    "size": [
+      101,
+      94
+    ],
+    "sha256": "09d433d6ee10927cc6a3a4d8171263dfa3e4a4ec60f0b54989a242f6dec5299a"
+  },
+  {
+    "era": 13,
+    "name": "b-lower-right",
+    "source": "batch-10.png",
+    "source_box": [
+      1003,
+      784,
+      1113,
+      1034
+    ],
+    "alpha_box": [
+      11,
+      115,
+      110,
+      215
+    ],
+    "size": [
+      99,
+      100
+    ],
+    "sha256": "5c8cf8ab3fe2cd1bf72c83d9d543e36dc58a0926aa9d47b3cfd5f50aa7879d27"
+  },
+  {
+    "era": 13,
+    "name": "branch",
+    "source": "batch-10.png",
+    "source_box": [
+      1113,
+      784,
+      1254,
+      1034
+    ],
+    "alpha_box": [
+      0,
+      0,
+      128,
+      250
+    ],
+    "size": [
+      128,
+      250
+    ],
+    "sha256": "07bb24a7400b185b1a9f82c121da4c7b682af3a98f9843fddf8804130c0a9691"
+  },
+  {
+    "era": 14,
+    "name": "mother",
+    "source": "batch-10.png",
+    "source_box": [
+      0,
+      1034,
+      196,
+      1254
+    ],
+    "alpha_box": [
+      7,
+      0,
+      195,
+      215
+    ],
+    "size": [
+      188,
+      215
+    ],
+    "sha256": "fe111d0b5d8c649bd11c105d6225892587c3c8078972606ad01af7df8a9af3fa"
+  },
+  {
+    "era": 14,
+    "name": "baby",
+    "source": "batch-10.png",
+    "source_box": [
+      196,
+      1034,
+      352,
+      1254
+    ],
+    "alpha_box": [
+      5,
+      39,
+      155,
+      210
+    ],
+    "size": [
+      150,
+      171
+    ],
+    "sha256": "67bf30221890754de0c21d7542908d4ecc86c0c4287876fea1c6d8e188ce9c1b"
+  },
+  {
+    "era": 14,
+    "name": "cuphand",
+    "source": "batch-10.png",
+    "source_box": [
+      352,
+      1034,
+      478,
+      1254
+    ],
+    "alpha_box": [
+      14,
+      92,
+      126,
+      174
+    ],
+    "size": [
+      112,
+      82
+    ],
+    "sha256": "d3fa253501db1aacf6aa5d7fff3a50cfbbdab6e67e26c7cc6a1aba90f6084fd2"
+  },
+  {
+    "era": 14,
+    "name": "m-upper",
+    "source": "batch-10.png",
+    "source_box": [
+      478,
+      1034,
+      571,
+      1254
+    ],
+    "alpha_box": [
+      0,
+      7,
+      83,
+      189
+    ],
+    "size": [
+      83,
+      182
+    ],
+    "sha256": "d092846253af93255cd331fb276e4bc265e493cdf944774c75da54b43eef4a48"
+  },
+  {
+    "era": 14,
+    "name": "m-lower",
+    "source": "batch-10.png",
+    "source_box": [
+      571,
+      1034,
+      658,
+      1254
+    ],
+    "alpha_box": [
+      12,
+      32,
+      75,
+      198
+    ],
+    "size": [
+      63,
+      166
+    ],
+    "sha256": "8a9289d5772090054e5c06008e3328ade45aec6f279bfd3f889418f735adc23b"
+  },
+  {
+    "era": 14,
+    "name": "bottle",
+    "source": "batch-10.png",
+    "source_box": [
+      658,
+      1034,
+      759,
+      1254
+    ],
+    "alpha_box": [
+      16,
+      68,
+      78,
+      206
+    ],
+    "size": [
+      62,
+      138
+    ],
+    "sha256": "a4f083afb7d00c96805bda3033b4313c97dfac0e8080ea37c9b50c9994d13f29"
+  },
+  {
+    "era": 14,
+    "name": "b-upper",
+    "source": "batch-10.png",
+    "source_box": [
+      759,
+      1034,
+      877,
+      1254
+    ],
+    "alpha_box": [
+      12,
+      79,
+      107,
+      190
+    ],
+    "size": [
+      95,
+      111
+    ],
+    "sha256": "233a86cc8be91247b67eaedfcac7755197aaf016b31443caff036efd62547ff3"
+  },
+  {
+    "era": 14,
+    "name": "b-lower-left",
+    "source": "batch-10.png",
+    "source_box": [
+      877,
+      1034,
+      1003,
+      1254
+    ],
+    "alpha_box": [
+      9,
+      85,
+      112,
+      188
+    ],
+    "size": [
+      103,
+      103
+    ],
+    "sha256": "b214cb4d11ab0dbd8e7175c9d4c1ed8ad4b8246609366588d56e14b5d2e1a137"
+  },
+  {
+    "era": 14,
+    "name": "b-lower-right",
+    "source": "batch-10.png",
+    "source_box": [
+      1003,
+      1034,
+      1112,
+      1254
+    ],
+    "alpha_box": [
+      9,
+      83,
+      109,
+      191
+    ],
+    "size": [
+      100,
+      108
+    ],
+    "sha256": "8e3347d62b2dbbb8181c4fcb7dffb24a237ed6da6504abf401326fb0d7b09a0c"
+  },
+  {
+    "era": 14,
+    "name": "branch",
+    "source": "batch-10.png",
+    "source_box": [
+      1112,
+      1034,
+      1254,
+      1254
+    ],
+    "alpha_box": [
+      2,
+      0,
+      128,
+      208
+    ],
+    "size": [
+      126,
+      208
+    ],
+    "sha256": "e7a91c44cf9ea61447289de0083db7763d04f32668165f020c555ca6329a44e3"
+  },
+  {
+    "era": 15,
+    "name": "mother",
+    "source": "batch-15.png",
+    "source_box": [
+      0,
+      0,
+      188,
+      293
+    ],
+    "alpha_box": [
+      14,
+      18,
+      186,
+      285
+    ],
+    "size": [
+      172,
+      267
+    ],
+    "sha256": "ce67e214feaff46b65c1ab4ae76e20f19d1d592ab4978c9b8fe95007ad9eca3c"
+  },
+  {
+    "era": 15,
+    "name": "baby",
+    "source": "batch-15.png",
+    "source_box": [
+      188,
+      0,
+      351,
+      293
+    ],
+    "alpha_box": [
+      9,
+      101,
+      159,
+      281
+    ],
+    "size": [
+      150,
+      180
+    ],
+    "sha256": "5ab6e2341a336d4fdf943480c5d49a4b6f12277256b67d15376cd042e1a5d83d"
+  },
+  {
+    "era": 15,
+    "name": "cuphand",
+    "source": "batch-15.png",
+    "source_box": [
+      351,
+      0,
+      483,
+      293
+    ],
+    "alpha_box": [
+      10,
+      181,
+      125,
+      266
+    ],
+    "size": [
+      115,
+      85
+    ],
+    "sha256": "cb38f5d839973afc0605b8e8239cd8092d78f643de72b7aee5ab2f6c7f47a73c"
+  },
+  {
+    "era": 15,
+    "name": "m-upper",
+    "source": "batch-15.png",
+    "source_box": [
+      483,
+      0,
+      571,
+      293
+    ],
+    "alpha_box": [
+      2,
+      110,
+      69,
+      271
+    ],
+    "size": [
+      67,
+      161
+    ],
+    "sha256": "0232c43b61a74f943a5c7bec89355939e8e22653aca3c9471a805f6184e4a380"
+  },
+  {
+    "era": 15,
+    "name": "m-lower",
+    "source": "batch-15.png",
+    "source_box": [
+      571,
+      0,
+      658,
+      293
+    ],
+    "alpha_box": [
+      8,
+      113,
+      73,
+      272
+    ],
+    "size": [
+      65,
+      159
+    ],
+    "sha256": "f3ec0a737e4232409395cba51185d5bad6dea42e5b353b63a5c39ba0ed03a927"
+  },
+  {
+    "era": 15,
+    "name": "bottle",
+    "source": "batch-15.png",
+    "source_box": [
+      658,
+      0,
+      759,
+      293
+    ],
+    "alpha_box": [
+      16,
+      165,
+      77,
+      292
+    ],
+    "size": [
+      61,
+      127
+    ],
+    "sha256": "16ae08c4360454f3be718ae93244fb3e72b217b0a111c5b90737517308583448"
+  },
+  {
+    "era": 15,
+    "name": "b-upper",
+    "source": "batch-15.png",
+    "source_box": [
+      759,
+      0,
+      877,
+      293
+    ],
+    "alpha_box": [
+      13,
+      161,
+      104,
+      273
+    ],
+    "size": [
+      91,
+      112
+    ],
+    "sha256": "8920fe349c007eb0fcd1898540577907a48c12a441852e379626ee765dc66f82"
+  },
+  {
+    "era": 15,
+    "name": "b-lower-left",
+    "source": "batch-15.png",
+    "source_box": [
+      877,
+      0,
+      1003,
+      293
+    ],
+    "alpha_box": [
+      17,
+      164,
+      105,
+      260
+    ],
+    "size": [
+      88,
+      96
+    ],
+    "sha256": "c57184e2e851a8ed032f0c8dfd4d7988ee6ac2d806699ba970835525489d9e90"
+  },
+  {
+    "era": 15,
+    "name": "b-lower-right",
+    "source": "batch-15.png",
+    "source_box": [
+      1003,
+      0,
+      1105,
+      293
+    ],
+    "alpha_box": [
+      16,
+      161,
+      98,
+      260
+    ],
+    "size": [
+      82,
+      99
+    ],
+    "sha256": "670d2cc219b0f2ec8d5e64d816e289d9a24dc73a37b2ea280b5f459f9401cf80"
+  },
+  {
+    "era": 15,
+    "name": "branch",
+    "source": "batch-15.png",
+    "source_box": [
+      1105,
+      0,
+      1254,
+      293
+    ],
+    "alpha_box": [
+      2,
+      19,
+      135,
+      293
+    ],
+    "size": [
+      133,
+      274
+    ],
+    "sha256": "fff1dac090881d630779c5035dda1fcd04a543e91c62699edb2c070a5b84b216"
+  },
+  {
+    "era": 16,
+    "name": "mother",
+    "source": "batch-15.png",
+    "source_box": [
+      0,
+      293,
+      188,
+      545
+    ],
+    "alpha_box": [
+      15,
+      0,
+      180,
+      252
+    ],
+    "size": [
+      165,
+      252
+    ],
+    "sha256": "c913b9072d44410f7768f0b80eaef77072b79d4611fa4530980fb0dac0a32092"
+  },
+  {
+    "era": 16,
+    "name": "baby",
+    "source": "batch-15.png",
+    "source_box": [
+      188,
+      293,
+      351,
+      545
+    ],
+    "alpha_box": [
+      10,
+      56,
+      161,
+      239
+    ],
+    "size": [
+      151,
+      183
+    ],
+    "sha256": "44e3fbe6260001d9f1271a322ded44ee18d07d2555f319d12f4dc90e8bfb52b4"
+  },
+  {
+    "era": 16,
+    "name": "cuphand",
+    "source": "batch-15.png",
+    "source_box": [
+      351,
+      293,
+      483,
+      545
+    ],
+    "alpha_box": [
+      9,
+      128,
+      125,
+      210
+    ],
+    "size": [
+      116,
+      82
+    ],
+    "sha256": "d339321c5467793d231a5faee988617e9dc53ca9942f83c6256bc47f7d8691a0"
+  },
+  {
+    "era": 16,
+    "name": "m-upper",
+    "source": "batch-15.png",
+    "source_box": [
+      483,
+      293,
+      571,
+      545
+    ],
+    "alpha_box": [
+      2,
+      40,
+      69,
+      225
+    ],
+    "size": [
+      67,
+      185
+    ],
+    "sha256": "6dda5937a2a0cbfd5b0ecc181f9346f77f7d452f74d01c55bc7821eea6639970"
+  },
+  {
+    "era": 16,
+    "name": "m-lower",
+    "source": "batch-15.png",
+    "source_box": [
+      571,
+      293,
+      658,
+      545
+    ],
+    "alpha_box": [
+      9,
+      60,
+      73,
+      223
+    ],
+    "size": [
+      64,
+      163
+    ],
+    "sha256": "6c0234c84d93a105f70458458865fd3327f2d6d6b61c31920f095edae611a792"
+  },
+  {
+    "era": 16,
+    "name": "bottle",
+    "source": "batch-15.png",
+    "source_box": [
+      658,
+      293,
+      759,
+      545
+    ],
+    "alpha_box": [
+      16,
+      108,
+      80,
+      246
+    ],
+    "size": [
+      64,
+      138
+    ],
+    "sha256": "d74cdd9e37df846ba51ef7354b62ce3db1265293cd3a9e228b6a143affc583e4"
+  },
+  {
+    "era": 16,
+    "name": "b-upper",
+    "source": "batch-15.png",
+    "source_box": [
+      759,
+      293,
+      877,
+      545
+    ],
+    "alpha_box": [
+      14,
+      111,
+      104,
+      221
+    ],
+    "size": [
+      90,
+      110
+    ],
+    "sha256": "64bfff1e9a92a0f448bf5e9c34613f48d9e2d8319f8eca9075fc5b1d9fa4cb52"
+  },
+  {
+    "era": 16,
+    "name": "b-lower-left",
+    "source": "batch-15.png",
+    "source_box": [
+      877,
+      293,
+      1003,
+      545
+    ],
+    "alpha_box": [
+      18,
+      119,
+      107,
+      212
+    ],
+    "size": [
+      89,
+      93
+    ],
+    "sha256": "285c5b358b581092d567c5dbb3867aefb07177054242a6e466b9beb2336b66cd"
+  },
+  {
+    "era": 16,
+    "name": "b-lower-right",
+    "source": "batch-15.png",
+    "source_box": [
+      1003,
+      293,
+      1106,
+      545
+    ],
+    "alpha_box": [
+      17,
+      115,
+      95,
+      211
+    ],
+    "size": [
+      78,
+      96
+    ],
+    "sha256": "334ba0f547df5df139b76ebac7acddbb3222aa595eade995fa4c8609d383956f"
+  },
+  {
+    "era": 16,
+    "name": "branch",
+    "source": "batch-15.png",
+    "source_box": [
+      1106,
+      293,
+      1254,
+      545
+    ],
+    "alpha_box": [
+      7,
+      0,
+      134,
+      252
+    ],
+    "size": [
+      127,
+      252
+    ],
+    "sha256": "90562ea0f886f0fcc8aa7ba5d102a28e939ad7d1d9fb9d37eb0580a9f3ae84a7"
+  },
+  {
+    "era": 17,
+    "name": "mother",
+    "source": "batch-15.png",
+    "source_box": [
+      0,
+      545,
+      188,
+      778
+    ],
+    "alpha_box": [
+      15,
+      0,
+      178,
+      230
+    ],
+    "size": [
+      163,
+      230
+    ],
+    "sha256": "9d12b78f88992f23812b290da14de9436fc01638599bc7b55a754b9db01cd72d"
+  },
+  {
+    "era": 17,
+    "name": "baby",
+    "source": "batch-15.png",
+    "source_box": [
+      188,
+      545,
+      351,
+      778
+    ],
+    "alpha_box": [
+      10,
+      53,
+      162,
+      232
+    ],
+    "size": [
+      152,
+      179
+    ],
+    "sha256": "bcfcff6e34d1c4e2e0439ccc261009abd0ef38aecf4e534906283926faa05a16"
+  },
+  {
+    "era": 17,
+    "name": "cuphand",
+    "source": "batch-15.png",
+    "source_box": [
+      351,
+      545,
+      483,
+      778
+    ],
+    "alpha_box": [
+      11,
+      119,
+      125,
+      198
+    ],
+    "size": [
+      114,
+      79
+    ],
+    "sha256": "c058c735c810f079ef4738c75c12c30335aa164080b596154cc27c9563e167a7"
+  },
+  {
+    "era": 17,
+    "name": "m-upper",
+    "source": "batch-15.png",
+    "source_box": [
+      483,
+      545,
+      571,
+      778
+    ],
+    "alpha_box": [
+      5,
+      37,
+      68,
+      209
+    ],
+    "size": [
+      63,
+      172
+    ],
+    "sha256": "8a2933210b62aba958d58b0ba8bfa89743423c586b5d9d16ac8e1993909717ad"
+  },
+  {
+    "era": 17,
+    "name": "m-lower",
+    "source": "batch-15.png",
+    "source_box": [
+      571,
+      545,
+      658,
+      778
+    ],
+    "alpha_box": [
+      9,
+      57,
+      71,
+      216
+    ],
+    "size": [
+      62,
+      159
+    ],
+    "sha256": "035d95585c5b79b1718c0dd808843ce3c2d4cb8cb87bcbddcfcc7d8dc292c345"
+  },
+  {
+    "era": 17,
+    "name": "bottle",
+    "source": "batch-15.png",
+    "source_box": [
+      658,
+      545,
+      759,
+      778
+    ],
+    "alpha_box": [
+      16,
+      97,
+      78,
+      233
+    ],
+    "size": [
+      62,
+      136
+    ],
+    "sha256": "7c27acd044aeebadae50a48128a27debcaa447b2b78ea523615cdaef08ad78a4"
+  },
+  {
+    "era": 17,
+    "name": "b-upper",
+    "source": "batch-15.png",
+    "source_box": [
+      759,
+      545,
+      877,
+      778
+    ],
+    "alpha_box": [
+      13,
+      101,
+      104,
+      214
+    ],
+    "size": [
+      91,
+      113
+    ],
+    "sha256": "7a5db70206290163c874b8cca27c2da0960afb74ac41d13a4497add9d0fca063"
+  },
+  {
+    "era": 17,
+    "name": "b-lower-left",
+    "source": "batch-15.png",
+    "source_box": [
+      877,
+      545,
+      1003,
+      778
+    ],
+    "alpha_box": [
+      16,
+      109,
+      105,
+      201
+    ],
+    "size": [
+      89,
+      92
+    ],
+    "sha256": "ee3398aa2ec5630422f9c3401974cf9e1089b7e7d64f5c6c4d637e091c410b7c"
+  },
+  {
+    "era": 17,
+    "name": "b-lower-right",
+    "source": "batch-15.png",
+    "source_box": [
+      1003,
+      545,
+      1108,
+      778
+    ],
+    "alpha_box": [
+      16,
+      103,
+      95,
+      201
+    ],
+    "size": [
+      79,
+      98
+    ],
+    "sha256": "9935f938a1b09b0cd9607dc553b412c96adbdcd0ebd2555d9a06a1738d7d854a"
+  },
+  {
+    "era": 17,
+    "name": "branch",
+    "source": "batch-15.png",
+    "source_box": [
+      1108,
+      545,
+      1254,
+      778
+    ],
+    "alpha_box": [
+      2,
+      0,
+      133,
+      233
+    ],
+    "size": [
+      131,
+      233
+    ],
+    "sha256": "19ca6bf721b5bf3b7c334a11335249677a913a47ceb474110baf486ec6fd97eb"
+  },
+  {
+    "era": 18,
+    "name": "mother",
+    "source": "batch-15.png",
+    "source_box": [
+      0,
+      778,
+      189,
+      1025
+    ],
+    "alpha_box": [
+      16,
+      0,
+      188,
+      247
+    ],
+    "size": [
+      172,
+      247
+    ],
+    "sha256": "ba2727bab8e88df595fc3d397c1040103bc280005cf28b5bbbb258c935e0163d"
+  },
+  {
+    "era": 18,
+    "name": "baby",
+    "source": "batch-15.png",
+    "source_box": [
+      189,
+      778,
+      355,
+      1025
+    ],
+    "alpha_box": [
+      7,
+      74,
+      165,
+      247
+    ],
+    "size": [
+      158,
+      173
+    ],
+    "sha256": "8db21215c9e18e7d3c6de3b9201955be71f3781445fe6b272d419f3d45b3d2d8"
+  },
+  {
+    "era": 18,
+    "name": "cuphand",
+    "source": "batch-15.png",
+    "source_box": [
+      355,
+      778,
+      483,
+      1025
+    ],
+    "alpha_box": [
+      11,
+      128,
+      121,
+      203
+    ],
+    "size": [
+      110,
+      75
+    ],
+    "sha256": "21011a036fbbcdefec5244dfbaed0b9e046ba115635c5699873a10c0be643226"
+  },
+  {
+    "era": 18,
+    "name": "m-upper",
+    "source": "batch-15.png",
+    "source_box": [
+      483,
+      778,
+      571,
+      1025
+    ],
+    "alpha_box": [
+      3,
+      46,
+      69,
+      217
+    ],
+    "size": [
+      66,
+      171
+    ],
+    "sha256": "615cc595ea1752ea91707189a9e5ffecaa3f7c81ae61c34b9c0b42bac8e7024e"
+  },
+  {
+    "era": 18,
+    "name": "m-lower",
+    "source": "batch-15.png",
+    "source_box": [
+      571,
+      778,
+      658,
+      1025
+    ],
+    "alpha_box": [
+      8,
+      67,
+      72,
+      225
+    ],
+    "size": [
+      64,
+      158
+    ],
+    "sha256": "63002da8c3f82b045dca00955917dca1a77f9fcdabab1c013901b58053d0eeec"
+  },
+  {
+    "era": 18,
+    "name": "bottle",
+    "source": "batch-15.png",
+    "source_box": [
+      658,
+      778,
+      759,
+      1025
+    ],
+    "alpha_box": [
+      17,
+      110,
+      77,
+      243
+    ],
+    "size": [
+      60,
+      133
+    ],
+    "sha256": "6649f21be894203550aedfcb0b41a4bc1e64eea036732f74ac9bfa8e3abbf445"
+  },
+  {
+    "era": 18,
+    "name": "b-upper",
+    "source": "batch-15.png",
+    "source_box": [
+      759,
+      778,
+      877,
+      1025
+    ],
+    "alpha_box": [
+      14,
+      115,
+      104,
+      224
+    ],
+    "size": [
+      90,
+      109
+    ],
+    "sha256": "7786cd08e8174e8c308db0988f0d0618e8c16a802053c6c3c347ca28d68ab9f1"
+  },
+  {
+    "era": 18,
+    "name": "b-lower-left",
+    "source": "batch-15.png",
+    "source_box": [
+      877,
+      778,
+      1003,
+      1025
+    ],
+    "alpha_box": [
+      11,
+      130,
+      104,
+      221
+    ],
+    "size": [
+      93,
+      91
+    ],
+    "sha256": "93bbda62db8280fcb4e05a406506547c1b0d2f1da42da5ef7a157d360245fe2a"
+  },
+  {
+    "era": 18,
+    "name": "b-lower-right",
+    "source": "batch-15.png",
+    "source_box": [
+      1003,
+      778,
+      1109,
+      1025
+    ],
+    "alpha_box": [
+      13,
+      129,
+      102,
+      221
+    ],
+    "size": [
+      89,
+      92
+    ],
+    "sha256": "0ba0ed2c81d0c827f344f3a11422bf7e357fbc0e2fd7b96efb22b2b8ed401688"
+  },
+  {
+    "era": 18,
+    "name": "branch",
+    "source": "batch-15.png",
+    "source_box": [
+      1109,
+      778,
+      1254,
+      1025
+    ],
+    "alpha_box": [
+      2,
+      0,
+      126,
+      247
+    ],
+    "size": [
+      124,
+      247
+    ],
+    "sha256": "4a944b64d3530f205732cbb774216c1355080ae43b7d829e94fe723550411a5e"
+  },
+  {
+    "era": 19,
+    "name": "mother",
+    "source": "batch-15.png",
+    "source_box": [
+      0,
+      1025,
+      188,
+      1254
+    ],
+    "alpha_box": [
+      15,
+      0,
+      185,
+      221
+    ],
+    "size": [
+      170,
+      221
+    ],
+    "sha256": "b0598c9c3fd13ef9fb5c4b193a07439f47d38f6e756bab40514376bf4529b39d"
+  },
+  {
+    "era": 19,
+    "name": "baby",
+    "source": "batch-15.png",
+    "source_box": [
+      188,
+      1025,
+      357,
+      1254
+    ],
+    "alpha_box": [
+      7,
+      55,
+      168,
+      217
+    ],
+    "size": [
+      161,
+      162
+    ],
+    "sha256": "868138fb9b3ae38d27a5701764da60a1745d0dc718968eb97994ccab254f32ff"
+  },
+  {
+    "era": 19,
+    "name": "cuphand",
+    "source": "batch-15.png",
+    "source_box": [
+      357,
+      1025,
+      483,
+      1254
+    ],
+    "alpha_box": [
+      8,
+      105,
+      120,
+      183
+    ],
+    "size": [
+      112,
+      78
+    ],
+    "sha256": "6004d006ca4fc5e004b1c930deef84446aaed742c2281e2d648d56f962c6a11a"
+  },
+  {
+    "era": 19,
+    "name": "m-upper",
+    "source": "batch-15.png",
+    "source_box": [
+      483,
+      1025,
+      571,
+      1254
+    ],
+    "alpha_box": [
+      3,
+      16,
+      68,
+      204
+    ],
+    "size": [
+      65,
+      188
+    ],
+    "sha256": "c36ecc51dea21d9c9244039bbecb055d00bc27580548d364a2d2013147e17bed"
+  },
+  {
+    "era": 19,
+    "name": "m-lower",
+    "source": "batch-15.png",
+    "source_box": [
+      571,
+      1025,
+      658,
+      1254
+    ],
+    "alpha_box": [
+      9,
+      42,
+      72,
+      206
+    ],
+    "size": [
+      63,
+      164
+    ],
+    "sha256": "687da7b6283848709154723a88798517b3d883483f9df19db377af0274c50ded"
+  },
+  {
+    "era": 19,
+    "name": "bottle",
+    "source": "batch-15.png",
+    "source_box": [
+      658,
+      1025,
+      759,
+      1254
+    ],
+    "alpha_box": [
+      18,
+      84,
+      78,
+      215
+    ],
+    "size": [
+      60,
+      131
+    ],
+    "sha256": "f0352c10d4d8f491ad38929b5fd6343999bdf207c0c959b4b27bae5653d5cbc0"
+  },
+  {
+    "era": 19,
+    "name": "b-upper",
+    "source": "batch-15.png",
+    "source_box": [
+      759,
+      1025,
+      877,
+      1254
+    ],
+    "alpha_box": [
+      14,
+      85,
+      106,
+      198
+    ],
+    "size": [
+      92,
+      113
+    ],
+    "sha256": "d5980cfd8f291b1f6f1b099768e58f14a2b09dcb59f4a6e5c97c3b9c56c3e98c"
+  },
+  {
+    "era": 19,
+    "name": "b-lower-left",
+    "source": "batch-15.png",
+    "source_box": [
+      877,
+      1025,
+      1003,
+      1254
+    ],
+    "alpha_box": [
+      8,
+      96,
+      105,
+      197
+    ],
+    "size": [
+      97,
+      101
+    ],
+    "sha256": "0ff99fbb99f617a81a4b1ddd380539fa7acae9f1250cf12007f0b63f9ffd3d99"
+  },
+  {
+    "era": 19,
+    "name": "b-lower-right",
+    "source": "batch-15.png",
+    "source_box": [
+      1003,
+      1025,
+      1110,
+      1254
+    ],
+    "alpha_box": [
+      13,
+      91,
+      106,
+      196
+    ],
+    "size": [
+      93,
+      105
+    ],
+    "sha256": "f8951493d31aa459b2cf16efc6457022782b6b4078636c2b8449e4d16f907f6a"
+  },
+  {
+    "era": 19,
+    "name": "branch",
+    "source": "batch-15.png",
+    "source_box": [
+      1110,
+      1025,
+      1254,
+      1254
+    ],
+    "alpha_box": [
+      6,
+      0,
+      128,
+      212
+    ],
+    "size": [
+      122,
+      212
+    ],
+    "sha256": "74b699d69f146750f950ba14c3d81ebd5043461fa4d6640deab5d0be7168afbc"
+  },
+  {
+    "era": 20,
+    "name": "mother",
+    "source": "batch-20.png",
+    "source_box": [
+      0,
+      0,
+      190,
+      290
+    ],
+    "alpha_box": [
+      15,
+      19,
+      179,
+      283
+    ],
+    "size": [
+      164,
+      264
+    ],
+    "sha256": "f17275cc4903189398aa0193a5951a82194a77458671a98f0ea95f16c348fe64"
+  },
+  {
+    "era": 20,
+    "name": "baby",
+    "source": "batch-20.png",
+    "source_box": [
+      190,
+      0,
+      354,
+      290
+    ],
+    "alpha_box": [
+      6,
+      104,
+      156,
+      284
+    ],
+    "size": [
+      150,
+      180
+    ],
+    "sha256": "6d729b4322cd860d1245c0108312e08f34fdc455d589d9b8ee688dd160a06d13"
+  },
+  {
+    "era": 20,
+    "name": "cuphand",
+    "source": "batch-20.png",
+    "source_box": [
+      354,
+      0,
+      487,
+      290
+    ],
+    "alpha_box": [
+      9,
+      180,
+      127,
+      260
+    ],
+    "size": [
+      118,
+      80
+    ],
+    "sha256": "4f4729ed988e25c521d0391438ed8b592700549864b2242748240a8dbad95bec"
+  },
+  {
+    "era": 20,
+    "name": "m-upper",
+    "source": "batch-20.png",
+    "source_box": [
+      487,
+      0,
+      575,
+      290
+    ],
+    "alpha_box": [
+      4,
+      105,
+      70,
+      275
+    ],
+    "size": [
+      66,
+      170
+    ],
+    "sha256": "d604c4371885da266ec2f7471f22ea4ea1d4412c7739de31de82e4002ae70a78"
+  },
+  {
+    "era": 20,
+    "name": "m-lower",
+    "source": "batch-20.png",
+    "source_box": [
+      575,
+      0,
+      664,
+      290
+    ],
+    "alpha_box": [
+      11,
+      116,
+      72,
+      272
+    ],
+    "size": [
+      61,
+      156
+    ],
+    "sha256": "e81e8aef3563a3d0a35dbea18887fc4505c4cd0fcc7b764b3c904bad952abad7"
+  },
+  {
+    "era": 20,
+    "name": "bottle",
+    "source": "batch-20.png",
+    "source_box": [
+      664,
+      0,
+      765,
+      290
+    ],
+    "alpha_box": [
+      17,
+      161,
+      75,
+      287
+    ],
+    "size": [
+      58,
+      126
+    ],
+    "sha256": "bc25c4b5383380126c995a5e2d0cdd0d211c5be40e7a5c4d0cf41807f321d110"
+  },
+  {
+    "era": 20,
+    "name": "b-upper",
+    "source": "batch-20.png",
+    "source_box": [
+      765,
+      0,
+      884,
+      290
+    ],
+    "alpha_box": [
+      9,
+      165,
+      102,
+      271
+    ],
+    "size": [
+      93,
+      106
+    ],
+    "sha256": "71b75d124bdfcaf428a728f3f6579f8de6e61530302a71f825cb30e883a0fcb6"
+  },
+  {
+    "era": 20,
+    "name": "b-lower-left",
+    "source": "batch-20.png",
+    "source_box": [
+      884,
+      0,
+      1011,
+      290
+    ],
+    "alpha_box": [
+      13,
+      172,
+      117,
+      262
+    ],
+    "size": [
+      104,
+      90
+    ],
+    "sha256": "e1dabd4c0513a6a5d89b515a1f195320139d737c6d363a8ac9c622b79e1bda93"
+  },
+  {
+    "era": 20,
+    "name": "b-lower-right",
+    "source": "batch-20.png",
+    "source_box": [
+      1011,
+      0,
+      1120,
+      290
+    ],
+    "alpha_box": [
+      12,
+      164,
+      106,
+      264
+    ],
+    "size": [
+      94,
+      100
+    ],
+    "sha256": "63271bd958118a3f2146c83bc4fc026b6fef92353a955a52418595c5ccd64569"
+  },
+  {
+    "era": 20,
+    "name": "branch",
+    "source": "batch-20.png",
+    "source_box": [
+      1120,
+      0,
+      1264,
+      290
+    ],
+    "alpha_box": [
+      0,
+      27,
+      133,
+      290
+    ],
+    "size": [
+      133,
+      263
+    ],
+    "sha256": "dd18f7f5b59d5d1dcaf2485bc2c1771013f406f9cab67c64552ccce33ee73aa0"
+  },
+  {
+    "era": 21,
+    "name": "mother",
+    "source": "batch-20.png",
+    "source_box": [
+      0,
+      290,
+      190,
+      548
+    ],
+    "alpha_box": [
+      14,
+      2,
+      176,
+      257
+    ],
+    "size": [
+      162,
+      255
+    ],
+    "sha256": "5b512dc563c0b22beae4a4803817c41ee5e32e7c6bb25197f6f4496847b835f6"
+  },
+  {
+    "era": 21,
+    "name": "baby",
+    "source": "batch-20.png",
+    "source_box": [
+      190,
+      290,
+      354,
+      548
+    ],
+    "alpha_box": [
+      6,
+      60,
+      156,
+      246
+    ],
+    "size": [
+      150,
+      186
+    ],
+    "sha256": "c84f2558bf1e8c94d023da632a666c822a3c4fd51bda776b4107c5e19f66868f"
+  },
+  {
+    "era": 21,
+    "name": "cuphand",
+    "source": "batch-20.png",
+    "source_box": [
+      354,
+      290,
+      487,
+      548
+    ],
+    "alpha_box": [
+      9,
+      140,
+      127,
+      220
+    ],
+    "size": [
+      118,
+      80
+    ],
+    "sha256": "3ac6ae887e8f300b13e3d09fc13be955f375609da184fea9d0c5805cedff22f3"
+  },
+  {
+    "era": 21,
+    "name": "m-upper",
+    "source": "batch-20.png",
+    "source_box": [
+      487,
+      290,
+      575,
+      548
+    ],
+    "alpha_box": [
+      2,
+      49,
+      70,
+      208
+    ],
+    "size": [
+      68,
+      159
+    ],
+    "sha256": "d5cbaa6940aa38641f6e0d3deaf4feea05664d2071b4cff6b84299e9e49da313"
+  },
+  {
+    "era": 21,
+    "name": "m-lower",
+    "source": "batch-20.png",
+    "source_box": [
+      575,
+      290,
+      664,
+      548
+    ],
+    "alpha_box": [
+      9,
+      66,
+      73,
+      220
+    ],
+    "size": [
+      64,
+      154
+    ],
+    "sha256": "01a32d929f12c188d9a53cece36d56b509fbca7a8fda3d631859c4aa2f59701b"
+  },
+  {
+    "era": 21,
+    "name": "bottle",
+    "source": "batch-20.png",
+    "source_box": [
+      664,
+      290,
+      765,
+      548
+    ],
+    "alpha_box": [
+      16,
+      112,
+      74,
+      240
+    ],
+    "size": [
+      58,
+      128
+    ],
+    "sha256": "79301239c5a4c86bae171337e77f67ec17e42be971400b08e2d6d7584a6058f7"
+  },
+  {
+    "era": 21,
+    "name": "b-upper",
+    "source": "batch-20.png",
+    "source_box": [
+      765,
+      290,
+      884,
+      548
+    ],
+    "alpha_box": [
+      15,
+      121,
+      104,
+      224
+    ],
+    "size": [
+      89,
+      103
+    ],
+    "sha256": "1b5e91c4dcaa98d4454056f88bb2a8a675a749c3871bb35b44064259cbe8aa66"
+  },
+  {
+    "era": 21,
+    "name": "b-lower-left",
+    "source": "batch-20.png",
+    "source_box": [
+      884,
+      290,
+      1011,
+      548
+    ],
+    "alpha_box": [
+      13,
+      125,
+      118,
+      223
+    ],
+    "size": [
+      105,
+      98
+    ],
+    "sha256": "0d486364df150917b29a6ab4fcb4c42f2b2beafa45bd1b3edc47af565b19ddc3"
+  },
+  {
+    "era": 21,
+    "name": "b-lower-right",
+    "source": "batch-20.png",
+    "source_box": [
+      1011,
+      290,
+      1124,
+      548
+    ],
+    "alpha_box": [
+      17,
+      123,
+      112,
+      223
+    ],
+    "size": [
+      95,
+      100
+    ],
+    "sha256": "686f3def6dcf3f10baf96256f8799f00e976a7df5084b38f9c2866aae8a34f16"
+  },
+  {
+    "era": 21,
+    "name": "branch",
+    "source": "batch-20.png",
+    "source_box": [
+      1124,
+      290,
+      1264,
+      548
+    ],
+    "alpha_box": [
+      0,
+      13,
+      131,
+      254
+    ],
+    "size": [
+      131,
+      241
+    ],
+    "sha256": "5115e2b50fc2f89f46b5095fe91e1d9922e7a8a104758906206f581e435d1f34"
+  },
+  {
+    "era": 22,
+    "name": "mother",
+    "source": "batch-20.png",
+    "source_box": [
+      0,
+      548,
+      190,
+      787
+    ],
+    "alpha_box": [
+      15,
+      1,
+      188,
+      239
+    ],
+    "size": [
+      173,
+      238
+    ],
+    "sha256": "1e3a7b1673bd83e1d279d042ecbbae94d57aca30bef9a4029becfca2e5586db3"
+  },
+  {
+    "era": 22,
+    "name": "baby",
+    "source": "batch-20.png",
+    "source_box": [
+      190,
+      548,
+      354,
+      787
+    ],
+    "alpha_box": [
+      9,
+      53,
+      162,
+      237
+    ],
+    "size": [
+      153,
+      184
+    ],
+    "sha256": "3adc66a036cea7850f9a9a4d91830c22939a5e72cea22c3f6a4811769d8066a4"
+  },
+  {
+    "era": 22,
+    "name": "cuphand",
+    "source": "batch-20.png",
+    "source_box": [
+      354,
+      548,
+      487,
+      787
+    ],
+    "alpha_box": [
+      11,
+      128,
+      129,
+      204
+    ],
+    "size": [
+      118,
+      76
+    ],
+    "sha256": "5d60566298f69920024e92289be9f4703a3ce47ddd5736e245b862a9e43874d5"
+  },
+  {
+    "era": 22,
+    "name": "m-upper",
+    "source": "batch-20.png",
+    "source_box": [
+      487,
+      548,
+      575,
+      787
+    ],
+    "alpha_box": [
+      5,
+      38,
+      71,
+      219
+    ],
+    "size": [
+      66,
+      181
+    ],
+    "sha256": "61e8acde2caf228787c7b180d40c52383a8385170398b5806096b1b6f0e244b5"
+  },
+  {
+    "era": 22,
+    "name": "m-lower",
+    "source": "batch-20.png",
+    "source_box": [
+      575,
+      548,
+      664,
+      787
+    ],
+    "alpha_box": [
+      12,
+      59,
+      73,
+      217
+    ],
+    "size": [
+      61,
+      158
+    ],
+    "sha256": "fe7e8c772e2c3d3c17e185999ee7752468670134beb5154590c0ee37068a24e9"
+  },
+  {
+    "era": 22,
+    "name": "bottle",
+    "source": "batch-20.png",
+    "source_box": [
+      664,
+      548,
+      765,
+      787
+    ],
+    "alpha_box": [
+      18,
+      103,
+      80,
+      237
+    ],
+    "size": [
+      62,
+      134
+    ],
+    "sha256": "f5c556abaecfbd26e1917183283463b46264a348f165edd46c4218137153352b"
+  },
+  {
+    "era": 22,
+    "name": "b-upper",
+    "source": "batch-20.png",
+    "source_box": [
+      765,
+      548,
+      884,
+      787
+    ],
+    "alpha_box": [
+      15,
+      104,
+      108,
+      215
+    ],
+    "size": [
+      93,
+      111
+    ],
+    "sha256": "a3414a3e40417c0314c86b8c450c6c773bb6b11d412d1ee861fc36464995688f"
+  },
+  {
+    "era": 22,
+    "name": "b-lower-left",
+    "source": "batch-20.png",
+    "source_box": [
+      884,
+      548,
+      1011,
+      787
+    ],
+    "alpha_box": [
+      14,
+      114,
+      121,
+      212
+    ],
+    "size": [
+      107,
+      98
+    ],
+    "sha256": "1e1febd3510c45f1a4e7c9a32ca2eafbd521e9a0fee37a33bfc2909fa527286b"
+  },
+  {
+    "era": 22,
+    "name": "b-lower-right",
+    "source": "batch-20.png",
+    "source_box": [
+      1011,
+      548,
+      1134,
+      787
+    ],
+    "alpha_box": [
+      23,
+      110,
+      122,
+      212
+    ],
+    "size": [
+      99,
+      102
+    ],
+    "sha256": "99450bf3e7df6601ce243dc0ef56ed25eb741b581d8b2c4e929377d4210347c8"
+  },
+  {
+    "era": 22,
+    "name": "branch",
+    "source": "batch-20.png",
+    "source_box": [
+      1134,
+      548,
+      1264,
+      787
+    ],
+    "alpha_box": [
+      0,
+      0,
+      124,
+      239
+    ],
+    "size": [
+      124,
+      239
+    ],
+    "sha256": "e8260d5bb5fa04cd224a0b885a2e3d6ba55c1198ac5e487b72927dad255b4129"
+  },
+  {
+    "era": 23,
+    "name": "mother",
+    "source": "batch-20.png",
+    "source_box": [
+      0,
+      787,
+      190,
+      1036
+    ],
+    "alpha_box": [
+      14,
+      0,
+      187,
+      248
+    ],
+    "size": [
+      173,
+      248
+    ],
+    "sha256": "3a91e068b56253f58c6eb88ff7c6d5bea4cef3b5d2feaae3c6f099ee0eb7fb1d"
+  },
+  {
+    "era": 23,
+    "name": "baby",
+    "source": "batch-20.png",
+    "source_box": [
+      190,
+      787,
+      354,
+      1036
+    ],
+    "alpha_box": [
+      8,
+      69,
+      157,
+      245
+    ],
+    "size": [
+      149,
+      176
+    ],
+    "sha256": "11401ef07f5c9a3a5de79901233d14921f1d151d77adb70fcc7f9c0c00a8ab27"
+  },
+  {
+    "era": 23,
+    "name": "cuphand",
+    "source": "batch-20.png",
+    "source_box": [
+      354,
+      787,
+      487,
+      1036
+    ],
+    "alpha_box": [
+      10,
+      130,
+      130,
+      209
+    ],
+    "size": [
+      120,
+      79
+    ],
+    "sha256": "5887004d2f5dca04562bae2fe5a1fe901ab7cceee4e248bc1b290854b2df262b"
+  },
+  {
+    "era": 23,
+    "name": "m-upper",
+    "source": "batch-20.png",
+    "source_box": [
+      487,
+      787,
+      575,
+      1036
+    ],
+    "alpha_box": [
+      2,
+      51,
+      73,
+      223
+    ],
+    "size": [
+      71,
+      172
+    ],
+    "sha256": "783ab859f7e643242ccb5e7613a4eb227c59bfef509d19c5fbf1ab1aca65cef7"
+  },
+  {
+    "era": 23,
+    "name": "m-lower",
+    "source": "batch-20.png",
+    "source_box": [
+      575,
+      787,
+      664,
+      1036
+    ],
+    "alpha_box": [
+      14,
+      71,
+      71,
+      224
+    ],
+    "size": [
+      57,
+      153
+    ],
+    "sha256": "b86c329190e1c5185d078e23422c4bb5547453b5b2035f07f3db3bc0e3ef1c1e"
+  },
+  {
+    "era": 23,
+    "name": "bottle",
+    "source": "batch-20.png",
+    "source_box": [
+      664,
+      787,
+      765,
+      1036
+    ],
+    "alpha_box": [
+      19,
+      111,
+      76,
+      244
+    ],
+    "size": [
+      57,
+      133
+    ],
+    "sha256": "327640381bb1b3e5d71e67379a6ebd72cb6f1cdd67400a016d1f7db577f2b16b"
+  },
+  {
+    "era": 23,
+    "name": "b-upper",
+    "source": "batch-20.png",
+    "source_box": [
+      765,
+      787,
+      884,
+      1036
+    ],
+    "alpha_box": [
+      16,
+      122,
+      107,
+      222
+    ],
+    "size": [
+      91,
+      100
+    ],
+    "sha256": "ded2894b0d989053fdfde8a73ff69801227b3ff6b7831c5a81cffb1f47dff8d9"
+  },
+  {
+    "era": 23,
+    "name": "b-lower-left",
+    "source": "batch-20.png",
+    "source_box": [
+      884,
+      787,
+      1011,
+      1036
+    ],
+    "alpha_box": [
+      19,
+      131,
+      119,
+      222
+    ],
+    "size": [
+      100,
+      91
+    ],
+    "sha256": "09fb7a193696b9438b53d161361ad618f25335c9acc36b2181b1bb1c6022e4b7"
+  },
+  {
+    "era": 23,
+    "name": "b-lower-right",
+    "source": "batch-20.png",
+    "source_box": [
+      1011,
+      787,
+      1127,
+      1036
+    ],
+    "alpha_box": [
+      22,
+      131,
+      116,
+      224
+    ],
+    "size": [
+      94,
+      93
+    ],
+    "sha256": "7135da7cf183a10207759c5e6b3140bcb735953852114f0166138a56964a1e4e"
+  },
+  {
+    "era": 23,
+    "name": "branch",
+    "source": "batch-20.png",
+    "source_box": [
+      1127,
+      787,
+      1264,
+      1036
+    ],
+    "alpha_box": [
+      0,
+      3,
+      127,
+      246
+    ],
+    "size": [
+      127,
+      243
+    ],
+    "sha256": "74749c159a729ffd4c2c6a1f5878bf130a657f831a86dc5899f143f8f130de5d"
+  },
+  {
+    "era": 24,
+    "name": "mother",
+    "source": "batch-20.png",
+    "source_box": [
+      0,
+      1036,
+      190,
+      1244
+    ],
+    "alpha_box": [
+      20,
+      0,
+      189,
+      205
+    ],
+    "size": [
+      169,
+      205
+    ],
+    "sha256": "bc72171d08e0d345163c233fff0a96ba1c4a8ae7819aab387194701fff2fccf7"
+  },
+  {
+    "era": 24,
+    "name": "baby",
+    "source": "batch-20.png",
+    "source_box": [
+      190,
+      1036,
+      354,
+      1244
+    ],
+    "alpha_box": [
+      12,
+      38,
+      159,
+      204
+    ],
+    "size": [
+      147,
+      166
+    ],
+    "sha256": "96ae42a241e7e321c13f65e4ec184832bccd15679945e5f1c4b1b628b129a239"
+  },
+  {
+    "era": 24,
+    "name": "cuphand",
+    "source": "batch-20.png",
+    "source_box": [
+      354,
+      1036,
+      487,
+      1244
+    ],
+    "alpha_box": [
+      12,
+      102,
+      131,
+      179
+    ],
+    "size": [
+      119,
+      77
+    ],
+    "sha256": "8f5fe7289adbf35eb3a02518f82aaefb68e9c1f755a16b2b3e82b41d48658cca"
+  },
+  {
+    "era": 24,
+    "name": "m-upper",
+    "source": "batch-20.png",
+    "source_box": [
+      487,
+      1036,
+      575,
+      1244
+    ],
+    "alpha_box": [
+      5,
+      16,
+      74,
+      197
+    ],
+    "size": [
+      69,
+      181
+    ],
+    "sha256": "71d923401f44b614f6c2e9547f92c534bd4d4c10cb6b425380163f37fe5b1497"
+  },
+  {
+    "era": 24,
+    "name": "m-lower",
+    "source": "batch-20.png",
+    "source_box": [
+      575,
+      1036,
+      664,
+      1244
+    ],
+    "alpha_box": [
+      13,
+      35,
+      74,
+      195
+    ],
+    "size": [
+      61,
+      160
+    ],
+    "sha256": "055d1a192bc3d3f5832ef923037705fb1a90b9c936c025780381c7ddff660d8c"
+  },
+  {
+    "era": 24,
+    "name": "bottle",
+    "source": "batch-20.png",
+    "source_box": [
+      664,
+      1036,
+      765,
+      1244
+    ],
+    "alpha_box": [
+      18,
+      71,
+      76,
+      202
+    ],
+    "size": [
+      58,
+      131
+    ],
+    "sha256": "8fbb90b7d44dbb5d89789d4c630ce951e03e800410f58e5ed1bdb065c296382b"
+  },
+  {
+    "era": 24,
+    "name": "b-upper",
+    "source": "batch-20.png",
+    "source_box": [
+      765,
+      1036,
+      884,
+      1244
+    ],
+    "alpha_box": [
+      10,
+      91,
+      100,
+      186
+    ],
+    "size": [
+      90,
+      95
+    ],
+    "sha256": "8fed11ec69b1ff66337a9af7273bbf95a64f53ba6c640653cd783a5c9f0c8138"
+  },
+  {
+    "era": 24,
+    "name": "b-lower-left",
+    "source": "batch-20.png",
+    "source_box": [
+      884,
+      1036,
+      1011,
+      1244
+    ],
+    "alpha_box": [
+      12,
+      100,
+      113,
+      184
+    ],
+    "size": [
+      101,
+      84
+    ],
+    "sha256": "e1eaa2680f522706d7cec17774b0534dab4c9a6f34f75c375c45f18b039111e1"
+  },
+  {
+    "era": 24,
+    "name": "b-lower-right",
+    "source": "batch-20.png",
+    "source_box": [
+      1011,
+      1036,
+      1119,
+      1244
+    ],
+    "alpha_box": [
+      10,
+      92,
+      106,
+      184
+    ],
+    "size": [
+      96,
+      92
+    ],
+    "sha256": "3de0f749f3591fb1b000b349fa539e468e4893f00dbe641995b2b54077f11db1"
+  },
+  {
+    "era": 24,
+    "name": "branch",
+    "source": "batch-20.png",
+    "source_box": [
+      1119,
+      1036,
+      1264,
+      1244
+    ],
+    "alpha_box": [
+      5,
+      0,
+      132,
+      207
+    ],
+    "size": [
+      127,
+      207
+    ],
+    "sha256": "77185187c7a0d574a5a465db2dbec7250c830c3ed9f673903798f3de987b98d0"
+  },
+  {
+    "era": 25,
+    "name": "mother",
+    "source": "batch-25.png",
+    "source_box": [
+      0,
+      0,
+      188,
+      295
+    ],
+    "alpha_box": [
+      18,
+      13,
+      179,
+      293
+    ],
+    "size": [
+      161,
+      280
+    ],
+    "sha256": "85bd08df88ea706f669b5346dc8364efe7cbeaac66cd4d9f625bec25ed8fe30a"
+  },
+  {
+    "era": 25,
+    "name": "baby",
+    "source": "batch-25.png",
+    "source_box": [
+      188,
+      0,
+      351,
+      295
+    ],
+    "alpha_box": [
+      9,
+      102,
+      159,
+      283
+    ],
+    "size": [
+      150,
+      181
+    ],
+    "sha256": "5933dc359f6418a5f3c3c478c5e858de81dd1ec159e3f038a41caa7566e9ea87"
+  },
+  {
+    "era": 25,
+    "name": "cuphand",
+    "source": "batch-25.png",
+    "source_box": [
+      351,
+      0,
+      481,
+      295
+    ],
+    "alpha_box": [
+      2,
+      183,
+      128,
+      269
+    ],
+    "size": [
+      126,
+      86
+    ],
+    "sha256": "72ba4a5e7410ef73767196aeacbc7df9df29c2200e3ae7552fa20f195493a017"
+  },
+  {
+    "era": 25,
+    "name": "m-upper",
+    "source": "batch-25.png",
+    "source_box": [
+      481,
+      0,
+      571,
+      295
+    ],
+    "alpha_box": [
+      2,
+      106,
+      77,
+      275
+    ],
+    "size": [
+      75,
+      169
+    ],
+    "sha256": "364f9df4dde430e27d9dd6bc3bf4f4364d1c8539ebc23e6f57799f23ab46281f"
+  },
+  {
+    "era": 25,
+    "name": "m-lower",
+    "source": "batch-25.png",
+    "source_box": [
+      571,
+      0,
+      658,
+      295
+    ],
+    "alpha_box": [
+      7,
+      112,
+      74,
+      278
+    ],
+    "size": [
+      67,
+      166
+    ],
+    "sha256": "57dd8ef0bcfa49424702d1e8758f540e82d9b57335448774640a11bba6e80b2e"
+  },
+  {
+    "era": 25,
+    "name": "bottle",
+    "source": "batch-25.png",
+    "source_box": [
+      658,
+      0,
+      759,
+      295
+    ],
+    "alpha_box": [
+      16,
+      164,
+      78,
+      294
+    ],
+    "size": [
+      62,
+      130
+    ],
+    "sha256": "02e18de26fe16ccd1ff0b16e26dcfe09ad463a9ea562998e34ced8967ada58c3"
+  },
+  {
+    "era": 25,
+    "name": "b-upper",
+    "source": "batch-25.png",
+    "source_box": [
+      759,
+      0,
+      877,
+      295
+    ],
+    "alpha_box": [
+      11,
+      165,
+      107,
+      278
+    ],
+    "size": [
+      96,
+      113
+    ],
+    "sha256": "8f1eefd0f0069da70f9fb34e33e89ce91b91178f87422fe552a1fa3923c102b0"
+  },
+  {
+    "era": 25,
+    "name": "b-lower-left",
+    "source": "batch-25.png",
+    "source_box": [
+      877,
+      0,
+      1003,
+      295
+    ],
+    "alpha_box": [
+      9,
+      173,
+      113,
+      274
+    ],
+    "size": [
+      104,
+      101
+    ],
+    "sha256": "737314de1da640db8aaeb9407b92c62727470c807b8012e4e093212937dcc261"
+  },
+  {
+    "era": 25,
+    "name": "b-lower-right",
+    "source": "batch-25.png",
+    "source_box": [
+      1003,
+      0,
+      1102,
+      295
+    ],
+    "alpha_box": [
+      6,
+      171,
+      98,
+      277
+    ],
+    "size": [
+      92,
+      106
+    ],
+    "sha256": "be6ce4e81c9cf71f84d84316411e23c682123b5c6ff52a21b151ef0b25fff125"
+  },
+  {
+    "era": 25,
+    "name": "branch",
+    "source": "batch-25.png",
+    "source_box": [
+      1102,
+      0,
+      1254,
+      295
+    ],
+    "alpha_box": [
+      0,
+      16,
+      136,
+      293
+    ],
+    "size": [
+      136,
+      277
+    ],
+    "sha256": "8b27b139f019673322afd081bdab73c71752bd6de5f3a2b4cfafd8bcfe552636"
+  },
+  {
+    "era": 26,
+    "name": "mother",
+    "source": "batch-25.png",
+    "source_box": [
+      0,
+      295,
+      188,
+      543
+    ],
+    "alpha_box": [
+      24,
+      0,
+      181,
+      248
+    ],
+    "size": [
+      157,
+      248
+    ],
+    "sha256": "b822262d8f82543d429163fa67b9e5b378486e31b98e2557bbe7909a6780ba4d"
+  },
+  {
+    "era": 26,
+    "name": "baby",
+    "source": "batch-25.png",
+    "source_box": [
+      188,
+      295,
+      351,
+      543
+    ],
+    "alpha_box": [
+      9,
+      58,
+      158,
+      239
+    ],
+    "size": [
+      149,
+      181
+    ],
+    "sha256": "27cebc93e98cd20684db10ba904dce3dc1e506651806f8b5b5c6827e8b05c93a"
+  },
+  {
+    "era": 26,
+    "name": "cuphand",
+    "source": "batch-25.png",
+    "source_box": [
+      351,
+      295,
+      481,
+      543
+    ],
+    "alpha_box": [
+      3,
+      134,
+      128,
+      215
+    ],
+    "size": [
+      125,
+      81
+    ],
+    "sha256": "3e96ec4b69cf08783fdeabca90d11fd807e64b52c8450a1fbffb2297eedcb36f"
+  },
+  {
+    "era": 26,
+    "name": "m-upper",
+    "source": "batch-25.png",
+    "source_box": [
+      481,
+      295,
+      571,
+      543
+    ],
+    "alpha_box": [
+      2,
+      55,
+      77,
+      218
+    ],
+    "size": [
+      75,
+      163
+    ],
+    "sha256": "eadfddb754e1755414dc306a6a1fa3c4388dbe961628233358c4c0f2ebccd823"
+  },
+  {
+    "era": 26,
+    "name": "m-lower",
+    "source": "batch-25.png",
+    "source_box": [
+      571,
+      295,
+      658,
+      543
+    ],
+    "alpha_box": [
+      7,
+      66,
+      75,
+      221
+    ],
+    "size": [
+      68,
+      155
+    ],
+    "sha256": "50c26e2522ebfae61280af1efe87bf815546eee44bf4c7983b9a436819ff8342"
+  },
+  {
+    "era": 26,
+    "name": "bottle",
+    "source": "batch-25.png",
+    "source_box": [
+      658,
+      295,
+      759,
+      543
+    ],
+    "alpha_box": [
+      17,
+      105,
+      81,
+      243
+    ],
+    "size": [
+      64,
+      138
+    ],
+    "sha256": "972889881cd3b0c243388c1592196be17ecbecc7dcefaf131500a144cd7df6c6"
+  },
+  {
+    "era": 26,
+    "name": "b-upper",
+    "source": "batch-25.png",
+    "source_box": [
+      759,
+      295,
+      877,
+      543
+    ],
+    "alpha_box": [
+      12,
+      123,
+      105,
+      228
+    ],
+    "size": [
+      93,
+      105
+    ],
+    "sha256": "2c77fb4d61a3fc4c1aab76d4b74cb5fa87d9e46016baf2576631f883dd2e4f8a"
+  },
+  {
+    "era": 26,
+    "name": "b-lower-left",
+    "source": "batch-25.png",
+    "source_box": [
+      877,
+      295,
+      1003,
+      543
+    ],
+    "alpha_box": [
+      10,
+      134,
+      113,
+      224
+    ],
+    "size": [
+      103,
+      90
+    ],
+    "sha256": "880577d5bfed5b5f992606f14c4cdca10bcb6709a7a942189b890d5b4e7234e7"
+  },
+  {
+    "era": 26,
+    "name": "b-lower-right",
+    "source": "batch-25.png",
+    "source_box": [
+      1003,
+      295,
+      1107,
+      543
+    ],
+    "alpha_box": [
+      9,
+      128,
+      98,
+      225
+    ],
+    "size": [
+      89,
+      97
+    ],
+    "sha256": "e173d374a354428b06a04685c6173bc5e611068e65ace3ec3f45d6643d9f4d0a"
+  },
+  {
+    "era": 26,
+    "name": "branch",
+    "source": "batch-25.png",
+    "source_box": [
+      1107,
+      295,
+      1254,
+      543
+    ],
+    "alpha_box": [
+      2,
+      0,
+      131,
+      248
+    ],
+    "size": [
+      129,
+      248
+    ],
+    "sha256": "f55f377a10f441aa51a8e2f3ea6aabfe4012f7a3719b9a73df34f593bff5dc95"
+  },
+  {
+    "era": 27,
+    "name": "mother",
+    "source": "batch-25.png",
+    "source_box": [
+      0,
+      543,
+      188,
+      793
+    ],
+    "alpha_box": [
+      16,
+      0,
+      183,
+      250
+    ],
+    "size": [
+      167,
+      250
+    ],
+    "sha256": "103e5b453331e5337d54946c1aa5ccb46d84b205ce2216096291b141a86c34ee"
+  },
+  {
+    "era": 27,
+    "name": "baby",
+    "source": "batch-25.png",
+    "source_box": [
+      188,
+      543,
+      351,
+      793
+    ],
+    "alpha_box": [
+      10,
+      60,
+      162,
+      235
+    ],
+    "size": [
+      152,
+      175
+    ],
+    "sha256": "fb9737a21d3d859d3d5780a2840cdafa887c383dd7732f0d13f87f0b1260c477"
+  },
+  {
+    "era": 27,
+    "name": "cuphand",
+    "source": "batch-25.png",
+    "source_box": [
+      351,
+      543,
+      484,
+      793
+    ],
+    "alpha_box": [
+      6,
+      128,
+      132,
+      213
+    ],
+    "size": [
+      126,
+      85
+    ],
+    "sha256": "60349396e2d3c27a388d26e9331d3fc1985f0be6d5571e9b056c578def479c29"
+  },
+  {
+    "era": 27,
+    "name": "m-upper",
+    "source": "batch-25.png",
+    "source_box": [
+      484,
+      543,
+      571,
+      793
+    ],
+    "alpha_box": [
+      7,
+      54,
+      81,
+      218
+    ],
+    "size": [
+      74,
+      164
+    ],
+    "sha256": "a9215cf30ae4de81b0cffb7723e8ca53068453ec51175fe3b324a2ad61daffa2"
+  },
+  {
+    "era": 27,
+    "name": "m-lower",
+    "source": "batch-25.png",
+    "source_box": [
+      571,
+      543,
+      658,
+      793
+    ],
+    "alpha_box": [
+      9,
+      64,
+      77,
+      219
+    ],
+    "size": [
+      68,
+      155
+    ],
+    "sha256": "06bcd0ce2b1cff30223b5de66833cfc62bfbce049bf4bdf4c040c43a10c41cf5"
+  },
+  {
+    "era": 27,
+    "name": "bottle",
+    "source": "batch-25.png",
+    "source_box": [
+      658,
+      543,
+      759,
+      793
+    ],
+    "alpha_box": [
+      16,
+      104,
+      81,
+      240
+    ],
+    "size": [
+      65,
+      136
+    ],
+    "sha256": "62f36b85efcee83fbcbaf765c132314a4ef59ade5360fff7175656ae39c7930f"
+  },
+  {
+    "era": 27,
+    "name": "b-upper",
+    "source": "batch-25.png",
+    "source_box": [
+      759,
+      543,
+      877,
+      793
+    ],
+    "alpha_box": [
+      10,
+      114,
+      106,
+      228
+    ],
+    "size": [
+      96,
+      114
+    ],
+    "sha256": "0c6d1f123528e52a8821d18021ea01a3b0931dad42b7b2c561612c32904b2c5f"
+  },
+  {
+    "era": 27,
+    "name": "b-lower-left",
+    "source": "batch-25.png",
+    "source_box": [
+      877,
+      543,
+      1003,
+      793
+    ],
+    "alpha_box": [
+      15,
+      123,
+      112,
+      220
+    ],
+    "size": [
+      97,
+      97
+    ],
+    "sha256": "13230c00dee88affc291c3f2ee26bc1901ba647c919215e28263c9e479f3024d"
+  },
+  {
+    "era": 27,
+    "name": "b-lower-right",
+    "source": "batch-25.png",
+    "source_box": [
+      1003,
+      543,
+      1101,
+      793
+    ],
+    "alpha_box": [
+      7,
+      122,
+      96,
+      221
+    ],
+    "size": [
+      89,
+      99
+    ],
+    "sha256": "89af461dc2cf2e05035832866abc338bf4525304e3e48e85ee5c496e81b235f2"
+  },
+  {
+    "era": 27,
+    "name": "branch",
+    "source": "batch-25.png",
+    "source_box": [
+      1101,
+      543,
+      1254,
+      793
+    ],
+    "alpha_box": [
+      11,
+      0,
+      139,
+      250
+    ],
+    "size": [
+      128,
+      250
+    ],
+    "sha256": "a8bae7ebbe6fb0b088de9eb1b688eb455d2d5effb2304c68babea052e180edcf"
+  },
+  {
+    "era": 28,
+    "name": "mother",
+    "source": "batch-25.png",
+    "source_box": [
+      0,
+      793,
+      188,
+      1044
+    ],
+    "alpha_box": [
+      15,
+      0,
+      183,
+      251
+    ],
+    "size": [
+      168,
+      251
+    ],
+    "sha256": "7f36f8a3a49c4626e94d35c678772594d66db93c5b6c554c1cd8832f723e0b49"
+  },
+  {
+    "era": 28,
+    "name": "baby",
+    "source": "batch-25.png",
+    "source_box": [
+      188,
+      793,
+      352,
+      1044
+    ],
+    "alpha_box": [
+      9,
+      54,
+      163,
+      234
+    ],
+    "size": [
+      154,
+      180
+    ],
+    "sha256": "b4818e220670a959296a4bca62a6f2c8986b851fbe176e3df2cb74731f9b44ff"
+  },
+  {
+    "era": 28,
+    "name": "cuphand",
+    "source": "batch-25.png",
+    "source_box": [
+      352,
+      793,
+      483,
+      1044
+    ],
+    "alpha_box": [
+      12,
+      115,
+      130,
+      194
+    ],
+    "size": [
+      118,
+      79
+    ],
+    "sha256": "296a5000ec108da63caa3dd3acf8840e528ec77d42a9997735593e11e5a38a8d"
+  },
+  {
+    "era": 28,
+    "name": "m-upper",
+    "source": "batch-25.png",
+    "source_box": [
+      483,
+      793,
+      571,
+      1044
+    ],
+    "alpha_box": [
+      3,
+      48,
+      77,
+      211
+    ],
+    "size": [
+      74,
+      163
+    ],
+    "sha256": "fc1fcc8bc369ebce64bcb7fb5e8400755b2954c67ebbefbab7467fa53df5a839"
+  },
+  {
+    "era": 28,
+    "name": "m-lower",
+    "source": "batch-25.png",
+    "source_box": [
+      571,
+      793,
+      658,
+      1044
+    ],
+    "alpha_box": [
+      6,
+      55,
+      76,
+      209
+    ],
+    "size": [
+      70,
+      154
+    ],
+    "sha256": "320498d76e9c0aceece836c91ce22507ced8f4eef7fe8adfa9034097d12356ff"
+  },
+  {
+    "era": 28,
+    "name": "bottle",
+    "source": "batch-25.png",
+    "source_box": [
+      658,
+      793,
+      759,
+      1044
+    ],
+    "alpha_box": [
+      14,
+      100,
+      85,
+      236
+    ],
+    "size": [
+      71,
+      136
+    ],
+    "sha256": "70d75c8227d4ee0521277e568679c184d27d2073e7b016b452e29478c3dc5f9e"
+  },
+  {
+    "era": 28,
+    "name": "b-upper",
+    "source": "batch-25.png",
+    "source_box": [
+      759,
+      793,
+      877,
+      1044
+    ],
+    "alpha_box": [
+      16,
+      109,
+      111,
+      224
+    ],
+    "size": [
+      95,
+      115
+    ],
+    "sha256": "720bee52256ac27979241a926400f52b5410bf3093a7cdd944796ea41a47d10f"
+  },
+  {
+    "era": 28,
+    "name": "b-lower-left",
+    "source": "batch-25.png",
+    "source_box": [
+      877,
+      793,
+      1003,
+      1044
+    ],
+    "alpha_box": [
+      11,
+      121,
+      112,
+      221
+    ],
+    "size": [
+      101,
+      100
+    ],
+    "sha256": "5a8173bcde3a680ff2298c84b74d074a00125e8dbc19f96b55324f3116b8a9b2"
+  },
+  {
+    "era": 28,
+    "name": "b-lower-right",
+    "source": "batch-25.png",
+    "source_box": [
+      1003,
+      793,
+      1108,
+      1044
+    ],
+    "alpha_box": [
+      6,
+      113,
+      104,
+      219
+    ],
+    "size": [
+      98,
+      106
+    ],
+    "sha256": "ecd4661199dd246dbae7576c116983c515d30862e89836f1bbd49dac1b8057a5"
+  },
+  {
+    "era": 28,
+    "name": "branch",
+    "source": "batch-25.png",
+    "source_box": [
+      1108,
+      793,
+      1254,
+      1044
+    ],
+    "alpha_box": [
+      0,
+      0,
+      134,
+      251
+    ],
+    "size": [
+      134,
+      251
+    ],
+    "sha256": "2930d3295b41a8cdfd605c27066cee713649b5e3148692d9f7103019ea32286f"
+  },
+  {
+    "era": 29,
+    "name": "mother",
+    "source": "batch-25.png",
+    "source_box": [
+      0,
+      1044,
+      188,
+      1254
+    ],
+    "alpha_box": [
+      15,
+      0,
+      176,
+      204
+    ],
+    "size": [
+      161,
+      204
+    ],
+    "sha256": "6a319bb94389b6698a141b0d806835860bf8d35aa43751fa6203c201e9d85cc1"
+  },
+  {
+    "era": 29,
+    "name": "baby",
+    "source": "batch-25.png",
+    "source_box": [
+      188,
+      1044,
+      352,
+      1254
+    ],
+    "alpha_box": [
+      13,
+      15,
+      163,
+      201
+    ],
+    "size": [
+      150,
+      186
+    ],
+    "sha256": "fe693a9e56b620196a64997680339019335416fb2059465f1762bcaff6dae5ea"
+  },
+  {
+    "era": 29,
+    "name": "cuphand",
+    "source": "batch-25.png",
+    "source_box": [
+      352,
+      1044,
+      485,
+      1254
+    ],
+    "alpha_box": [
+      7,
+      91,
+      132,
+      170
+    ],
+    "size": [
+      125,
+      79
+    ],
+    "sha256": "10048e0b299de62f938dedfe90f65741da81ba8df69c413a9ae66f6b6bcaa814"
+  },
+  {
+    "era": 29,
+    "name": "m-upper",
+    "source": "batch-25.png",
+    "source_box": [
+      485,
+      1044,
+      571,
+      1254
+    ],
+    "alpha_box": [
+      7,
+      9,
+      82,
+      179
+    ],
+    "size": [
+      75,
+      170
+    ],
+    "sha256": "9268829c78f2e8985800dfc06a69bd5c01e211a13a0f65c10b690c2f921f558d"
+  },
+  {
+    "era": 29,
+    "name": "m-lower",
+    "source": "batch-25.png",
+    "source_box": [
+      571,
+      1044,
+      658,
+      1254
+    ],
+    "alpha_box": [
+      9,
+      21,
+      74,
+      186
+    ],
+    "size": [
+      65,
+      165
+    ],
+    "sha256": "c3b82aa29eea42039871834f6d6f8a7461eb7a5472e63fb2fa1133b23b5f627e"
+  },
+  {
+    "era": 29,
+    "name": "bottle",
+    "source": "batch-25.png",
+    "source_box": [
+      658,
+      1044,
+      759,
+      1254
+    ],
+    "alpha_box": [
+      12,
+      55,
+      89,
+      196
+    ],
+    "size": [
+      77,
+      141
+    ],
+    "sha256": "54824e2e9e8c6046725772eb7f2be255da52a0b75ebb688ac2d783c2220aaecb"
+  },
+  {
+    "era": 29,
+    "name": "b-upper",
+    "source": "batch-25.png",
+    "source_box": [
+      759,
+      1044,
+      877,
+      1254
+    ],
+    "alpha_box": [
+      16,
+      74,
+      112,
+      182
+    ],
+    "size": [
+      96,
+      108
+    ],
+    "sha256": "c1aab7d4e33aa4b9b0011d71284414bb9c7eb1b6f0fe1261ef03f84e718052bc"
+  },
+  {
+    "era": 29,
+    "name": "b-lower-left",
+    "source": "batch-25.png",
+    "source_box": [
+      877,
+      1044,
+      1003,
+      1254
+    ],
+    "alpha_box": [
+      18,
+      90,
+      115,
+      186
+    ],
+    "size": [
+      97,
+      96
+    ],
+    "sha256": "e008b51c6cce165bc13221d6baa11a99044e8a43d00388a16c2097d8b8c51149"
+  },
+  {
+    "era": 29,
+    "name": "b-lower-right",
+    "source": "batch-25.png",
+    "source_box": [
+      1003,
+      1044,
+      1108,
+      1254
+    ],
+    "alpha_box": [
+      3,
+      82,
+      103,
+      188
+    ],
+    "size": [
+      100,
+      106
+    ],
+    "sha256": "dbc7caea3575516140a6b54d8997cc22b4187d13f07fa167640e079a91fb93a6"
+  },
+  {
+    "era": 29,
+    "name": "branch",
+    "source": "batch-25.png",
+    "source_box": [
+      1108,
+      1044,
+      1254,
+      1254
+    ],
+    "alpha_box": [
+      2,
+      0,
+      133,
+      205
+    ],
+    "size": [
+      131,
+      205
+    ],
+    "sha256": "f7eb2794650ee6d05135d5e1866ed6817b2880b6ad095a0224ebd88160ee8d25"
+  },
+  {
+    "era": 30,
+    "name": "mother",
+    "source": "batch-30.png",
+    "source_box": [
+      0,
+      0,
+      187,
+      281
+    ],
+    "alpha_box": [
+      15,
+      12,
+      169,
+      281
+    ],
+    "size": [
+      154,
+      269
+    ],
+    "sha256": "bab1df8b6501eb2269c4a72f24b3ddcb7658130442b73cbd89452c7e61193e19"
+  },
+  {
+    "era": 30,
+    "name": "baby",
+    "source": "batch-30.png",
+    "source_box": [
+      187,
+      0,
+      354,
+      281
+    ],
+    "alpha_box": [
+      2,
+      100,
+      154,
+      275
+    ],
+    "size": [
+      152,
+      175
+    ],
+    "sha256": "32da0ace1ce6747846bd718bf6ee26ba1053c2f60a5bf321e24064ca6609a741"
+  },
+  {
+    "era": 30,
+    "name": "cuphand",
+    "source": "batch-30.png",
+    "source_box": [
+      354,
+      0,
+      486,
+      281
+    ],
+    "alpha_box": [
+      5,
+      172,
+      129,
+      257
+    ],
+    "size": [
+      124,
+      85
+    ],
+    "sha256": "09e2c067ea7946bb94241f5aa8368d8623ca9bc37962c98acc4cf40b9e9b4ec8"
+  },
+  {
+    "era": 30,
+    "name": "m-upper",
+    "source": "batch-30.png",
+    "source_box": [
+      486,
+      0,
+      575,
+      281
+    ],
+    "alpha_box": [
+      10,
+      100,
+      84,
+      269
+    ],
+    "size": [
+      74,
+      169
+    ],
+    "sha256": "c3bafd22d7b4806106161f8e96abb033ea8bba39f54ee898c3914ec7338b775d"
+  },
+  {
+    "era": 30,
+    "name": "m-lower",
+    "source": "batch-30.png",
+    "source_box": [
+      575,
+      0,
+      663,
+      281
+    ],
+    "alpha_box": [
+      17,
+      109,
+      79,
+      265
+    ],
+    "size": [
+      62,
+      156
+    ],
+    "sha256": "0c391f5dcacb80fa895336c26a1bbcd42e2f99feeef01e8693b167da8d1ce0f5"
+  },
+  {
+    "era": 30,
+    "name": "bottle",
+    "source": "batch-30.png",
+    "source_box": [
+      663,
+      0,
+      764,
+      281
+    ],
+    "alpha_box": [
+      26,
+      150,
+      92,
+      276
+    ],
+    "size": [
+      66,
+      126
+    ],
+    "sha256": "e5f9297cdb83dbde836bff334d0ba9298156a7a27c6217c46e547bc874a3d0cf"
+  },
+  {
+    "era": 30,
+    "name": "b-upper",
+    "source": "batch-30.png",
+    "source_box": [
+      764,
+      0,
+      884,
+      281
+    ],
+    "alpha_box": [
+      25,
+      159,
+      119,
+      264
+    ],
+    "size": [
+      94,
+      105
+    ],
+    "sha256": "ec834fb9c8cb1917ed197c3959c0e0c94630584ac900416203e0ed1e51cef77a"
+  },
+  {
+    "era": 30,
+    "name": "b-lower-left",
+    "source": "batch-30.png",
+    "source_box": [
+      884,
+      0,
+      1010,
+      281
+    ],
+    "alpha_box": [
+      25,
+      160,
+      119,
+      262
+    ],
+    "size": [
+      94,
+      102
+    ],
+    "sha256": "2ddbbb66af860367cf2f671f3865949da8926b1ad8049df28f4037a36a9e525c"
+  },
+  {
+    "era": 30,
+    "name": "b-lower-right",
+    "source": "batch-30.png",
+    "source_box": [
+      1010,
+      0,
+      1125,
+      281
+    ],
+    "alpha_box": [
+      23,
+      161,
+      112,
+      261
+    ],
+    "size": [
+      89,
+      100
+    ],
+    "sha256": "89adcf6caea181c1d17834b525db312537d24cadb97a90184b896fc21c8f8697"
+  },
+  {
+    "era": 30,
+    "name": "branch",
+    "source": "batch-30.png",
+    "source_box": [
+      1125,
+      0,
+      1263,
+      281
+    ],
+    "alpha_box": [
+      0,
+      25,
+      128,
+      281
+    ],
+    "size": [
+      128,
+      256
+    ],
+    "sha256": "9672bdadadfb84c344d8792dafedaa5863ab7ebab60c6a6f27155f94f8b6328a"
+  },
+  {
+    "era": 31,
+    "name": "mother",
+    "source": "batch-30.png",
+    "source_box": [
+      0,
+      281,
+      189,
+      549
+    ],
+    "alpha_box": [
+      15,
+      2,
+      171,
+      268
+    ],
+    "size": [
+      156,
+      266
+    ],
+    "sha256": "c2d590b0317156a7f379e2cb9d02c3c6f779cf91d2e02375013c442ee91149c5"
+  },
+  {
+    "era": 31,
+    "name": "baby",
+    "source": "batch-30.png",
+    "source_box": [
+      189,
+      281,
+      354,
+      549
+    ],
+    "alpha_box": [
+      7,
+      85,
+      159,
+      265
+    ],
+    "size": [
+      152,
+      180
+    ],
+    "sha256": "9f8a990cd31c4409f3430fc6e17c36172338882a6ea7415a0861efad7afd3f4e"
+  },
+  {
+    "era": 31,
+    "name": "cuphand",
+    "source": "batch-30.png",
+    "source_box": [
+      354,
+      281,
+      488,
+      549
+    ],
+    "alpha_box": [
+      13,
+      159,
+      133,
+      240
+    ],
+    "size": [
+      120,
+      81
+    ],
+    "sha256": "5390a819dfa60c37e64b5218e77699475e2dbb5ddde53b16b81b3efb0c33cc1f"
+  },
+  {
+    "era": 31,
+    "name": "m-upper",
+    "source": "batch-30.png",
+    "source_box": [
+      488,
+      281,
+      575,
+      549
+    ],
+    "alpha_box": [
+      9,
+      70,
+      85,
+      248
+    ],
+    "size": [
+      76,
+      178
+    ],
+    "sha256": "c734638343f930a9736fc59b624eca3818db90751a538235ddab3390fa22b988"
+  },
+  {
+    "era": 31,
+    "name": "m-lower",
+    "source": "batch-30.png",
+    "source_box": [
+      575,
+      281,
+      663,
+      549
+    ],
+    "alpha_box": [
+      17,
+      91,
+      80,
+      246
+    ],
+    "size": [
+      63,
+      155
+    ],
+    "sha256": "70d1e037bd30695c6b78ec53b17294aa86d630a0fd2ee00bb8cd098656682a08"
+  },
+  {
+    "era": 31,
+    "name": "bottle",
+    "source": "batch-30.png",
+    "source_box": [
+      663,
+      281,
+      764,
+      549
+    ],
+    "alpha_box": [
+      27,
+      128,
+      95,
+      259
+    ],
+    "size": [
+      68,
+      131
+    ],
+    "sha256": "3097b7fb24989e9fb954ac505e222c71926bf2245699e838bef866a3be40e723"
+  },
+  {
+    "era": 31,
+    "name": "b-upper",
+    "source": "batch-30.png",
+    "source_box": [
+      764,
+      281,
+      884,
+      549
+    ],
+    "alpha_box": [
+      27,
+      144,
+      119,
+      247
+    ],
+    "size": [
+      92,
+      103
+    ],
+    "sha256": "fc47a80f0fabd94bd15b0ba2e9fa127b3ae15a0b0329a58cf059c25641b2c998"
+  },
+  {
+    "era": 31,
+    "name": "b-lower-left",
+    "source": "batch-30.png",
+    "source_box": [
+      884,
+      281,
+      1010,
+      549
+    ],
+    "alpha_box": [
+      22,
+      148,
+      119,
+      249
+    ],
+    "size": [
+      97,
+      101
+    ],
+    "sha256": "1bec8482661bc7b530d19c4cdfbd86c28d8e0ca6e0a8c1b748402e6688ad6d76"
+  },
+  {
+    "era": 31,
+    "name": "b-lower-right",
+    "source": "batch-30.png",
+    "source_box": [
+      1010,
+      281,
+      1118,
+      549
+    ],
+    "alpha_box": [
+      13,
+      148,
+      108,
+      249
+    ],
+    "size": [
+      95,
+      101
+    ],
+    "sha256": "13bfee27ebf5335633813e48b7e7f17840bf416df7cb35ed3d2bf15727414ba6"
+  },
+  {
+    "era": 31,
+    "name": "branch",
+    "source": "batch-30.png",
+    "source_box": [
+      1118,
+      281,
+      1263,
+      549
+    ],
+    "alpha_box": [
+      0,
+      19,
+      132,
+      268
+    ],
+    "size": [
+      132,
+      249
+    ],
+    "sha256": "a187b3b3bca1471855040248fe039c0470a2d672e9d7cfc9c91b89f14b53f056"
+  },
+  {
+    "era": 32,
+    "name": "mother",
+    "source": "batch-30.png",
+    "source_box": [
+      0,
+      549,
+      189,
+      818
+    ],
+    "alpha_box": [
+      12,
+      0,
+      179,
+      268
+    ],
+    "size": [
+      167,
+      268
+    ],
+    "sha256": "c0de4f59696df78085ce81d7df6d3e58ab17e9911be8bf4d7dc610aa91b3e0c4"
+  },
+  {
+    "era": 32,
+    "name": "baby",
+    "source": "batch-30.png",
+    "source_box": [
+      189,
+      549,
+      359,
+      818
+    ],
+    "alpha_box": [
+      15,
+      75,
+      169,
+      255
+    ],
+    "size": [
+      154,
+      180
+    ],
+    "sha256": "ec4a60965dd3f02db6b33f6dbcae8f41087989f016cd5621ae7ce9b201cb1c55"
+  },
+  {
+    "era": 32,
+    "name": "cuphand",
+    "source": "batch-30.png",
+    "source_box": [
+      359,
+      549,
+      489,
+      818
+    ],
+    "alpha_box": [
+      13,
+      154,
+      129,
+      233
+    ],
+    "size": [
+      116,
+      79
+    ],
+    "sha256": "e940133e9511e21b70c525296e8e7e676d2a31bfe655eb568a97fbaa0cea001e"
+  },
+  {
+    "era": 32,
+    "name": "m-upper",
+    "source": "batch-30.png",
+    "source_box": [
+      489,
+      549,
+      577,
+      818
+    ],
+    "alpha_box": [
+      9,
+      67,
+      87,
+      238
+    ],
+    "size": [
+      78,
+      171
+    ],
+    "sha256": "fbf477ed67662615d58d125ef4ffea0821464c4cae3c0cf66f4aa4d3037f5cbf"
+  },
+  {
+    "era": 32,
+    "name": "m-lower",
+    "source": "batch-30.png",
+    "source_box": [
+      577,
+      549,
+      663,
+      818
+    ],
+    "alpha_box": [
+      16,
+      75,
+      83,
+      241
+    ],
+    "size": [
+      67,
+      166
+    ],
+    "sha256": "24476aa65720aee077b32324b3c740c3e90a017df03e863cce989487b9390282"
+  },
+  {
+    "era": 32,
+    "name": "bottle",
+    "source": "batch-30.png",
+    "source_box": [
+      663,
+      549,
+      764,
+      818
+    ],
+    "alpha_box": [
+      26,
+      120,
+      93,
+      251
+    ],
+    "size": [
+      67,
+      131
+    ],
+    "sha256": "c61f362a42e43e6127e97d03f885d967355e6fc82841ea01e7d6097db1f312bb"
+  },
+  {
+    "era": 32,
+    "name": "b-upper",
+    "source": "batch-30.png",
+    "source_box": [
+      764,
+      549,
+      883,
+      818
+    ],
+    "alpha_box": [
+      22,
+      130,
+      116,
+      236
+    ],
+    "size": [
+      94,
+      106
+    ],
+    "sha256": "0d2693b6ea6518de4fc7d32e5dfd6a8076fe36e3ff7fd6057f3465df5c610621"
+  },
+  {
+    "era": 32,
+    "name": "b-lower-left",
+    "source": "batch-30.png",
+    "source_box": [
+      883,
+      549,
+      1010,
+      818
+    ],
+    "alpha_box": [
+      21,
+      137,
+      119,
+      237
+    ],
+    "size": [
+      98,
+      100
+    ],
+    "sha256": "572c25d9dfad95c3e3186c256497caa7daa4339dfe942dfdc9f54735a907b645"
+  },
+  {
+    "era": 32,
+    "name": "b-lower-right",
+    "source": "batch-30.png",
+    "source_box": [
+      1010,
+      549,
+      1123,
+      818
+    ],
+    "alpha_box": [
+      20,
+      136,
+      113,
+      237
+    ],
+    "size": [
+      93,
+      101
+    ],
+    "sha256": "eb219dbe91e2b17cf7dac2e6963760b175a3f09557ee4f3d78497554f9de0d81"
+  },
+  {
+    "era": 32,
+    "name": "branch",
+    "source": "batch-30.png",
+    "source_box": [
+      1123,
+      549,
+      1263,
+      818
+    ],
+    "alpha_box": [
+      0,
+      5,
+      131,
+      267
+    ],
+    "size": [
+      131,
+      262
+    ],
+    "sha256": "e8c49e997af2d72fb5999f024b886d0f7952d08a2a87a9f393b306697af3291b"
+  },
+  {
+    "era": 33,
+    "name": "mother",
+    "source": "batch-30.png",
+    "source_box": [
+      0,
+      818,
+      189,
+      1059
+    ],
+    "alpha_box": [
+      15,
+      1,
+      174,
+      241
+    ],
+    "size": [
+      159,
+      240
+    ],
+    "sha256": "895974c238c722b35d98fc4288aa64fda49576ec602e03e26f35b9e53c34e66b"
+  },
+  {
+    "era": 33,
+    "name": "baby",
+    "source": "batch-30.png",
+    "source_box": [
+      189,
+      818,
+      357,
+      1059
+    ],
+    "alpha_box": [
+      16,
+      68,
+      167,
+      240
+    ],
+    "size": [
+      151,
+      172
+    ],
+    "sha256": "c43a88ac57fd04eacf9a8385663c3d3701942ef16efdb197e3e658e9a3aa9076"
+  },
+  {
+    "era": 33,
+    "name": "cuphand",
+    "source": "batch-30.png",
+    "source_box": [
+      357,
+      818,
+      488,
+      1059
+    ],
+    "alpha_box": [
+      13,
+      125,
+      130,
+      203
+    ],
+    "size": [
+      117,
+      78
+    ],
+    "sha256": "e31fecd1ec823fa1350c25b734370e6709e96541df24ca7c0d8ba51295ead405"
+  },
+  {
+    "era": 33,
+    "name": "m-upper",
+    "source": "batch-30.png",
+    "source_box": [
+      488,
+      818,
+      575,
+      1059
+    ],
+    "alpha_box": [
+      10,
+      45,
+      85,
+      217
+    ],
+    "size": [
+      75,
+      172
+    ],
+    "sha256": "eae21ca50bb97c8713cfca76af24f03e8ee9f7f918b82ece61f73fe28112c20f"
+  },
+  {
+    "era": 33,
+    "name": "m-lower",
+    "source": "batch-30.png",
+    "source_box": [
+      575,
+      818,
+      663,
+      1059
+    ],
+    "alpha_box": [
+      19,
+      62,
+      81,
+      216
+    ],
+    "size": [
+      62,
+      154
+    ],
+    "sha256": "6f8393b15f6d1064abbad9f0d940009a0952b07779900fc35706c6ad9cb68e03"
+  },
+  {
+    "era": 33,
+    "name": "bottle",
+    "source": "batch-30.png",
+    "source_box": [
+      663,
+      818,
+      764,
+      1059
+    ],
+    "alpha_box": [
+      27,
+      99,
+      89,
+      232
+    ],
+    "size": [
+      62,
+      133
+    ],
+    "sha256": "6b6f860ddd8010d43c2be0f6f4ce887fa6179ff3f882e13b3f55ee2ccb9f9b34"
+  },
+  {
+    "era": 33,
+    "name": "b-upper",
+    "source": "batch-30.png",
+    "source_box": [
+      764,
+      818,
+      883,
+      1059
+    ],
+    "alpha_box": [
+      22,
+      121,
+      116,
+      223
+    ],
+    "size": [
+      94,
+      102
+    ],
+    "sha256": "2102c92240cd85ab35cfe0e2a088677f9198f44dff00561634b2a63920c736bb"
+  },
+  {
+    "era": 33,
+    "name": "b-lower-left",
+    "source": "batch-30.png",
+    "source_box": [
+      883,
+      818,
+      1010,
+      1059
+    ],
+    "alpha_box": [
+      22,
+      123,
+      117,
+      223
+    ],
+    "size": [
+      95,
+      100
+    ],
+    "sha256": "7225d0cc977cb85e81343a90690988ad5f525e751d2fc812c0d8e0d79c8e6298"
+  },
+  {
+    "era": 33,
+    "name": "b-lower-right",
+    "source": "batch-30.png",
+    "source_box": [
+      1010,
+      818,
+      1126,
+      1059
+    ],
+    "alpha_box": [
+      20,
+      122,
+      112,
+      223
+    ],
+    "size": [
+      92,
+      101
+    ],
+    "sha256": "52ca13b579cc234019935d57d239e657e303611ed7754f3696d0d65a91582908"
+  },
+  {
+    "era": 33,
+    "name": "branch",
+    "source": "batch-30.png",
+    "source_box": [
+      1126,
+      818,
+      1263,
+      1059
+    ],
+    "alpha_box": [
+      2,
+      7,
+      131,
+      240
+    ],
+    "size": [
+      129,
+      233
+    ],
+    "sha256": "72b7d2dd101dc008b0fa86fda605e7ed803a50c66df90784a5dfe4450756a37d"
+  },
+  {
+    "era": 34,
+    "name": "mother",
+    "source": "batch-30.png",
+    "source_box": [
+      0,
+      1059,
+      189,
+      1245
+    ],
+    "alpha_box": [
+      15,
+      0,
+      179,
+      186
+    ],
+    "size": [
+      164,
+      186
+    ],
+    "sha256": "939031928b6d8d35998a62131e2af0410afcae226ba1c5853f647dab32d4350e"
+  },
+  {
+    "era": 34,
+    "name": "baby",
+    "source": "batch-30.png",
+    "source_box": [
+      189,
+      1059,
+      355,
+      1245
+    ],
+    "alpha_box": [
+      26,
+      49,
+      165,
+      186
+    ],
+    "size": [
+      139,
+      137
+    ],
+    "sha256": "9eb0ed3177f90e23f31f5428c990e3de411954008b3a036e0a36dc92db4cdf22"
+  },
+  {
+    "era": 34,
+    "name": "cuphand",
+    "source": "batch-30.png",
+    "source_box": [
+      355,
+      1059,
+      495,
+      1245
+    ],
+    "alpha_box": [
+      22,
+      92,
+      139,
+      169
+    ],
+    "size": [
+      117,
+      77
+    ],
+    "sha256": "d41466bf6c9d6c257782d328f0101b714698f83e43490b3d49d4f7046746f51e"
+  },
+  {
+    "era": 34,
+    "name": "m-upper",
+    "source": "batch-30.png",
+    "source_box": [
+      495,
+      1059,
+      580,
+      1245
+    ],
+    "alpha_box": [
+      9,
+      27,
+      84,
+      172
+    ],
+    "size": [
+      75,
+      145
+    ],
+    "sha256": "c92f56f7b556818bfeadd9d783fb06a7b721ac76135b7c85efeac92e6be9ca9a"
+  },
+  {
+    "era": 34,
+    "name": "m-lower",
+    "source": "batch-30.png",
+    "source_box": [
+      580,
+      1059,
+      663,
+      1245
+    ],
+    "alpha_box": [
+      17,
+      35,
+      75,
+      177
+    ],
+    "size": [
+      58,
+      142
+    ],
+    "sha256": "cbaeb51c2073cbbf0b5d48611521c2a0af852d8377ee0abf9b1fa498c58c250a"
+  },
+  {
+    "era": 34,
+    "name": "bottle",
+    "source": "batch-30.png",
+    "source_box": [
+      663,
+      1059,
+      764,
+      1245
+    ],
+    "alpha_box": [
+      30,
+      64,
+      90,
+      184
+    ],
+    "size": [
+      60,
+      120
+    ],
+    "sha256": "73878552d2148f2cfb4a05a0cf13abf2a4eef7c8f393828c98f24440bc6646b5"
+  },
+  {
+    "era": 34,
+    "name": "b-upper",
+    "source": "batch-30.png",
+    "source_box": [
+      764,
+      1059,
+      883,
+      1245
+    ],
+    "alpha_box": [
+      27,
+      77,
+      116,
+      172
+    ],
+    "size": [
+      89,
+      95
+    ],
+    "sha256": "8ac1cc42bca38ebfd9ef53c32539c5432c0b929c593472dc834379cc6a79239e"
+  },
+  {
+    "era": 34,
+    "name": "b-lower-left",
+    "source": "batch-30.png",
+    "source_box": [
+      883,
+      1059,
+      1010,
+      1245
+    ],
+    "alpha_box": [
+      27,
+      84,
+      115,
+      172
+    ],
+    "size": [
+      88,
+      88
+    ],
+    "sha256": "7a5d3b3c9e2f3e0a2e30c8fb235a6ff2161f142a5c37989de3a4fd38267aab3a"
+  },
+  {
+    "era": 34,
+    "name": "b-lower-right",
+    "source": "batch-30.png",
+    "source_box": [
+      1010,
+      1059,
+      1119,
+      1245
+    ],
+    "alpha_box": [
+      18,
+      80,
+      108,
+      171
+    ],
+    "size": [
+      90,
+      91
+    ],
+    "sha256": "129349dc856de4438ff7a3e55fa88cd4bdab3220ee8917e388d5c5dde2a09951"
+  },
+  {
+    "era": 34,
+    "name": "branch",
+    "source": "batch-30.png",
+    "source_box": [
+      1119,
+      1059,
+      1263,
+      1245
+    ],
+    "alpha_box": [
+      0,
+      0,
+      124,
+      178
+    ],
+    "size": [
+      124,
+      178
+    ],
+    "sha256": "762f3e2844096b463331fda4261dc091f13c7931875fd464b05329899cf2909a"
+  }
+]

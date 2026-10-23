@@ -1,0 +1,1165 @@
+{
+  "title": "夜鹭偷鱼艺术史",
+  "version": "plan-v1",
+  "date": "2026-10-14",
+  "status": "planning_complete_pending_concept",
+  "scope": "本轮只研究并制定完整计划；尚未制作效果图、动画或启动审片。",
+  "brief": {
+    "aspect_ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 64,
+    "delivery_mode": "ai_review_once",
+    "eraCount": 16,
+    "format": "音乐与动作驱动的跨时代喜剧；默认无旁白，短时代标签",
+    "userConfirmed": [
+      "竖屏9:16",
+      "AI审核一轮",
+      "十几个时代，允许快速切换"
+    ],
+    "proposed": [
+      "16个时代",
+      "约64秒",
+      "艺术史时间线，动物按相应地区场景安排；不把动物描述成该时代独有物种"
+    ]
+  },
+  "direction": {
+    "promise": "同一只夜鹭穿过十六种绘画世界，每到一个时代就偷吃当地动物守着的鱼；越偷越熟练，画风与动作一起加速。",
+    "selected": "偷鱼接力：世界各自守鱼，夜鹭保持身份、行进方向和喙鱼锚点；每段换偷法。",
+    "alternatives": [
+      {
+        "concept": "一条鱼引发跨时代追逐",
+        "event": "同一条鱼穿越，众动物追赶",
+        "cost": "跨段群体持续状态复杂",
+        "decision": "会弱化每时代偷吃不同动物的鱼，不采用"
+      },
+      {
+        "concept": "偷鱼接力",
+        "event": "每时代有新的鱼主和不同障碍",
+        "cost": "角色皮肤与道具多，但动作语义可共享",
+        "decision": "采用，最贴近用户原意"
+      },
+      {
+        "concept": "博物馆画框内潜行",
+        "event": "偷取画中鱼并躲避画框警报",
+        "cost": "画框空间简单、互动可控",
+        "decision": "容易变成展柜浏览，时代生活感较弱，不采用"
+      }
+    ],
+    "failureCondition": "只给同一个皮影角色套颜色、只换背景、只做风格标题卡，或看不出鱼原属谁与何时被偷。",
+    "ending": "59–64秒：回到旧片皮影世界，夜鹭刚得意，幼鸟从它喙边抢走最后留下的小鱼；夜鹭第一次露出和此前对手一样的表情。结尾共享鱼锚点，具体吞咽/保留最后一鱼在事件表锁定，避免重复鱼。"
+  },
+  "timeline": {
+    "opening": {
+      "start": 0,
+      "end": 3,
+      "action": "旧片夜鹭缩颈盯鱼，伸喙触到画风裂口；动作不停进入洞穴绘画。短标题避开接触。"
+    },
+    "shots": [
+      {
+        "id": "era_01",
+        "start": 3,
+        "end": 7,
+        "style": "史前洞穴绘画",
+        "periodLabel": "旧石器时代意象",
+        "referenceScene": "01_cave",
+        "opponent": "棕熊",
+        "fish": "河鱼",
+        "action": "熊低头护着鱼；夜鹭先装岩壁上的画，再伸喙叼走；熊抬掌摸到空地",
+        "visual": "粗赭石线、炭黑轮廓、岩石颗粒",
+        "connectionToNext": "熊掌扫过，岩壁分块成为埃及灰泥",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 3,
+            "readableAt": 3.45,
+            "to": 3.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 3.9,
+            "readableAt": 4.45,
+            "to": 6.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 6.2,
+            "readableAt": 6.5,
+            "to": 7
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_02",
+        "start": 7,
+        "end": 11,
+        "style": "古埃及壁画",
+        "periodLabel": "古埃及",
+        "referenceScene": "02_egypt",
+        "opponent": "猫",
+        "fish": "尼罗河鱼",
+        "action": "猫尾巴护住浅盘；夜鹭跟着尾巴摆动找空隙，从盘边抽走鱼；猫低头愣住",
+        "visual": "侧面程式、平涂矿物色、灰泥裂纹",
+        "connectionToNext": "鱼的弧线匹配黑绘陶器上的鱼",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 7,
+            "readableAt": 7.45,
+            "to": 7.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 7.9,
+            "readableAt": 8.45,
+            "to": 10.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 10.2,
+            "readableAt": 10.5,
+            "to": 11
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_03",
+        "start": 11,
+        "end": 14,
+        "style": "古希腊黑绘陶",
+        "periodLabel": "古希腊",
+        "referenceScene": "03_greek",
+        "opponent": "鹈鹕",
+        "fish": "近岸鱼",
+        "action": "鹈鹕昂头准备吞鱼；夜鹭从侧下方截走；鹈鹕空吞一次",
+        "visual": "陶红底、黑色剪影、刻划羽线",
+        "connectionToNext": "陶器装饰带碎成马赛克",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 11,
+            "readableAt": 11.45,
+            "to": 11.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 11.9,
+            "readableAt": 12.45,
+            "to": 13.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 13.2,
+            "readableAt": 13.5,
+            "to": 14
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_04",
+        "start": 14,
+        "end": 17,
+        "style": "古罗马马赛克",
+        "periodLabel": "古罗马",
+        "referenceScene": "04_roman",
+        "opponent": "水獭",
+        "fish": "河鱼",
+        "action": "水獭将鱼摆在石台；夜鹭沿砖缝偷步叼走；水獭只抓住一块小石子",
+        "visual": "彩石镶嵌、石缝、有限形体分块",
+        "connectionToNext": "鱼尾甩起的亮石块接皮影灯光",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 14,
+            "readableAt": 14.45,
+            "to": 14.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 14.9,
+            "readableAt": 15.45,
+            "to": 16.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 16.2,
+            "readableAt": 16.5,
+            "to": 17
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_05",
+        "start": 17,
+        "end": 21,
+        "style": "中国皮影",
+        "periodLabel": "宋代意象",
+        "referenceScene": "34_shadowpuppet",
+        "opponent": "鸬鹚",
+        "fish": "淡水鱼",
+        "action": "鸬鹚刚把鱼放上岸，夜鹭缩颈装木桩；趁它转身迅速叼走；鸬鹚回头张嘴",
+        "visual": "镂空皮革、透光染色、关节、布幕",
+        "connectionToNext": "翼展开遮挡，布纹接手抄本纸面",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 17,
+            "readableAt": 17.45,
+            "to": 17.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 17.9,
+            "readableAt": 18.45,
+            "to": 20.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 20.2,
+            "readableAt": 20.5,
+            "to": 21
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_06",
+        "start": 21,
+        "end": 24,
+        "style": "哥特手抄本",
+        "periodLabel": "中世纪欧洲",
+        "referenceScene": "05_gothic",
+        "opponent": "狐狸",
+        "fish": "溪鱼",
+        "action": "狐狸用尾巴盖住鱼，夜鹭从装饰边框探头偷走；狐狸揭尾时只剩鱼形空白",
+        "visual": "金箔、平面装饰、边框与兽形花饰",
+        "connectionToNext": "装饰拱门打开为透视空间",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 21,
+            "readableAt": 21.45,
+            "to": 21.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 21.9,
+            "readableAt": 22.45,
+            "to": 23.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 23.2,
+            "readableAt": 23.5,
+            "to": 24
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_07",
+        "start": 24,
+        "end": 28,
+        "style": "文艺复兴",
+        "periodLabel": "文艺复兴时期",
+        "referenceScene": "06_renaissance",
+        "opponent": "翠鸟",
+        "fish": "小河鱼",
+        "action": "翠鸟在石栏上晾鱼；夜鹭借柱子遮挡靠近、叼走；翠鸟回头追视",
+        "visual": "透视建筑、柔和体积、明确接触阴影",
+        "connectionToNext": "柱影掠过，留下一束巴洛克侧光",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 24,
+            "readableAt": 24.45,
+            "to": 24.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 24.9,
+            "readableAt": 25.45,
+            "to": 27.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 27.2,
+            "readableAt": 27.5,
+            "to": 28
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_08",
+        "start": 28,
+        "end": 31,
+        "style": "巴洛克明暗法",
+        "periodLabel": "17世纪欧洲",
+        "referenceScene": "32_rembrandt",
+        "opponent": "海豹",
+        "fish": "近岸海鱼",
+        "action": "海豹拍鳍把鱼滑进亮区；夜鹭的喙从暗处伸入叼走；灯光只照到空盘",
+        "visual": "强明暗、暖油画层、局部高光",
+        "connectionToNext": "鱼身高光化为宣纸上的留白",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 28,
+            "readableAt": 28.45,
+            "to": 28.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 28.9,
+            "readableAt": 29.45,
+            "to": 30.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 30.2,
+            "readableAt": 30.5,
+            "to": 31
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_09",
+        "start": 31,
+        "end": 35,
+        "style": "中国水墨写意",
+        "periodLabel": "17世纪末意象",
+        "referenceScene": "17_ink",
+        "opponent": "鸬鹚",
+        "fish": "淡水鱼",
+        "action": "鸬鹚拨开芦苇找鱼；夜鹭顺着它视线反方向取走岸上的鱼；鸬鹚回头只见墨点水花",
+        "visual": "飞白、浓淡墨、湿边、宣纸留白",
+        "connectionToNext": "涟漪分散成印象派色点",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 31,
+            "readableAt": 31.45,
+            "to": 31.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 31.9,
+            "readableAt": 32.45,
+            "to": 34.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 34.2,
+            "readableAt": 34.5,
+            "to": 35
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_10",
+        "start": 35,
+        "end": 38,
+        "style": "印象派",
+        "periodLabel": "19世纪后期",
+        "referenceScene": "08_impressionism",
+        "opponent": "水獭",
+        "fish": "河鱼",
+        "action": "水獭将鱼藏在荷叶后；夜鹭顺水推叶、露鱼即叼；水獭抱住空荷叶",
+        "visual": "短碎笔触、环境色、反光水面",
+        "connectionToNext": "水面笔触沿同一弧线卷向夜空",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 35,
+            "readableAt": 35.45,
+            "to": 35.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 35.9,
+            "readableAt": 36.45,
+            "to": 37.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 37.2,
+            "readableAt": 37.5,
+            "to": 38
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_11",
+        "start": 38,
+        "end": 41,
+        "style": "后印象派",
+        "periodLabel": "19世纪末",
+        "referenceScene": "09_postimp",
+        "opponent": "白鹭",
+        "fish": "河鱼",
+        "action": "白鹭看着月亮，脚边放鱼；夜鹭沿旋转草丛潜近叼走；白鹭低头后颈部一顿",
+        "visual": "方向性笔触、蓝黄对照、旋流天空",
+        "connectionToNext": "鱼尾与芦苇拆成有对应关系的几何面",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 38,
+            "readableAt": 38.45,
+            "to": 38.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 38.9,
+            "readableAt": 39.45,
+            "to": 40.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 40.2,
+            "readableAt": 40.5,
+            "to": 41
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_12",
+        "start": 41,
+        "end": 44,
+        "style": "立体主义",
+        "periodLabel": "20世纪初",
+        "referenceScene": "11_cubism",
+        "opponent": "鹈鹕",
+        "fish": "海鱼",
+        "action": "鹈鹕从一个切面盯鱼；夜鹭从另一侧伸喙取走；鹈鹕转头时面片重新组合",
+        "visual": "多视点分面、有限色域、拼贴纹理",
+        "connectionToNext": "鱼的三角切面落定为黑白卡通轮廓",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 41,
+            "readableAt": 41.45,
+            "to": 41.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 41.9,
+            "readableAt": 42.45,
+            "to": 43.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 43.2,
+            "readableAt": 43.5,
+            "to": 44
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_13",
+        "start": 44,
+        "end": 47,
+        "style": "橡皮管卡通",
+        "periodLabel": "1930年代",
+        "referenceScene": "33_rubberhose",
+        "opponent": "猫",
+        "fish": "鱼",
+        "action": "猫弹性尾巴圈住鱼；夜鹭踩住尾尖、叼鱼松脚；猫尾巴弹回形成惊讶圈",
+        "visual": "黑白、橡皮管节奏、胶片颗粒",
+        "connectionToNext": "弹性圆圈拉成超现实软表轮廓",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 44,
+            "readableAt": 44.45,
+            "to": 44.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 44.9,
+            "readableAt": 45.45,
+            "to": 46.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 46.2,
+            "readableAt": 46.5,
+            "to": 47
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_14",
+        "start": 47,
+        "end": 51,
+        "style": "超现实主义",
+        "periodLabel": "1930年代",
+        "referenceScene": "23_dali",
+        "opponent": "鳄鱼",
+        "fish": "河鱼",
+        "action": "鳄鱼面前的鱼缓慢融软滑落；夜鹭接住软鱼后鱼恢复，鳄鱼咬到空影子",
+        "visual": "长投影、梦境空间、可控软化形变",
+        "connectionToNext": "鱼恢复形状的一瞬匹配波普轮廓",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 47,
+            "readableAt": 47.45,
+            "to": 47.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 47.9,
+            "readableAt": 48.45,
+            "to": 50.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 50.2,
+            "readableAt": 50.5,
+            "to": 51
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_15",
+        "start": 51,
+        "end": 54,
+        "style": "波普艺术",
+        "periodLabel": "1960年代",
+        "referenceScene": "13_pop",
+        "opponent": "浣熊",
+        "fish": "溪鱼",
+        "action": "浣熊用爪抱鱼；夜鹭从漫画分格外探入抢走；浣熊反应在相邻小格出现",
+        "visual": "粗轮廓、网点、有限高饱和色、漫画分格",
+        "connectionToNext": "网点对齐成像素网格",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 51,
+            "readableAt": 51.45,
+            "to": 51.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 51.9,
+            "readableAt": 52.45,
+            "to": 53.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 53.2,
+            "readableAt": 53.5,
+            "to": 54
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      },
+      {
+        "id": "era_16",
+        "start": 54,
+        "end": 59,
+        "style": "8-bit像素",
+        "periodLabel": "1980年代",
+        "referenceScene": "14_8bit",
+        "opponent": "棕熊",
+        "fish": "像素鱼",
+        "action": "棕熊守着最后一条鱼；夜鹭跳台取鱼，叼着鱼逃走，熊追一步停住；夜鹭保留这条鱼，落地姿势匹配开场",
+        "visual": "真实低分辨率精灵、整数网格、最近邻放大",
+        "connectionToNext": "同一落地姿势切回旧片皮影世界",
+        "reads": [
+          {
+            "what": "对手、鱼的归属和夜鹭视线",
+            "from": 54,
+            "readableAt": 54.45,
+            "to": 54.9
+          },
+          {
+            "what": "夜鹭实际接触并取得鱼",
+            "from": 54.9,
+            "readableAt": 55.45,
+            "to": 58.2
+          },
+          {
+            "what": "鱼被吃掉/带走、对手发现落空",
+            "from": 58.2,
+            "readableAt": 58.5,
+            "to": 59
+          }
+        ],
+        "camera": {
+          "subjectId": "heron_main",
+          "worldPath": "沿岸或石台从左下向右上行进；各段配置绝对时间路径",
+          "relativeOffset": "进入时侧后跟随，接触前减速停机，结果后跟向出口",
+          "lookAt": "夜鹭眼睛→鱼与喙接触点→对手反应→下一时代入口",
+          "screenRegions": {
+            "heron": [
+              0.12,
+              0.38,
+              0.58,
+              0.82
+            ],
+            "opponent": [
+              0.52,
+              0.28,
+              0.9,
+              0.7
+            ],
+            "contact": [
+              0.38,
+              0.45,
+              0.7,
+              0.72
+            ]
+          },
+          "speedResponse": "绝对时间平滑；动作结果后再加速"
+        },
+        "risk": "上述鱼类、动物地域与艺术时期标签为创意草案；制作前核对。偷鱼为拟人化喜剧情节。"
+      }
+    ],
+    "ending": {
+      "start": 59,
+      "end": 64,
+      "action": "回到皮影，幼鸟抢走夜鹭保留的一条鱼；夜鹭呆住，短叫收尾。像素段须保留最后这条鱼，不吞咽它，替换该段草案中的吞咽动作。"
+    },
+    "rhythm": "前段4秒建立规则，中后段多数3秒快切；接触清楚后才切，0.2–0.45秒风格过渡计入段长；不以固定拍点压掉反应。"
+  },
+  "visualSystem": {
+    "identity": [
+      "短粗缩颈体态",
+      "墨色头顶与灰翅、浅腹",
+      "红眼（黑白/像素风以形状和位置保留识别）",
+      "黑喙、黄腿",
+      "旧片头身比例和机灵神态"
+    ],
+    "rig": [
+      "root",
+      "body",
+      "neckBase",
+      "neckElbow",
+      "head",
+      "jaw",
+      "wing",
+      "legs",
+      "feet",
+      "beakGrip"
+    ],
+    "styleRules": "每种风格同时重绘形状概括、线条、色板、表面、环境与节奏。旧PNG只用于形象参考和皮影段，不能横跨全片充当统一贴纸。",
+    "portraitLayout": "主体对角错位、场景纵向分层；鱼与喙接触放中段安全区，顶部保留短标签，底部留平台UI余量。无需把全部角色都缩小塞到同一水平线。",
+    "transitions": "多数为动作匹配切、世界内遮挡或材质边界揭示；仅实际有路径对应的片段称连续形变。保留红眼/喙/鱼之一作为视觉锚点。"
+  },
+  "implementation": {
+    "route": "在独立目录制作Canvas 2D确定性绘制与逐帧输出；借用参考风格材质方法、旧片角色关节逻辑及本地Playwright/FFmpeg。皮影段按需使用既有WebGL透光合成。",
+    "modules": [
+      "src/film.js（总入口renderAt(t)）",
+      "src/timeline.js（镜头、接触与声音事件）",
+      "src/actors/heron-rig.js",
+      "src/actors/opponents.js",
+      "src/styles/*.js（16种风格绘制）",
+      "src/world.js",
+      "src/camera.js",
+      "src/transitions.js",
+      "render.mjs",
+      "audio/ATTRIBUTION.json"
+    ],
+    "state": "前15段偷取后以抬喙、鱼进入口腔、喉部轻动与满意反应明确偷吃结果，动作长短有变化；第16段保留鱼给结尾转交。鱼的owner严格为对手→空中/喙→吞咽结束或结尾转交；接触帧绑定beakGrip，禁止凭视觉交叉推断归属。每段唯一fishId。",
+    "determinism": "固定随机种子和对象ID；纹理缓存随尺寸/风格/种子失效。顺序、逆序、跳帧与新进程同一时刻一致。",
+    "reuseLimits": "旧版timeline.js含36秒→50秒重映射，不能整段拷贝到新片；world.js写死1920×1080及横向长卷，借用主体/相机/边界关系，重写竖屏布局；长卷示范只公开3段且角色含生成帧，不称24段纯代码完整复现。"
+  },
+  "audio": {
+    "clock": "以动作事件为主时钟，拍点配合接触/偷成/反应，不强制复刻原参考128BPM。",
+    "design": "同一轻巧动机贯穿，随时期换编配质感；水声、翅声、叼取和对手反应分轨；后半段加速但接触保持可读。",
+    "reuse": "旧版真实夜鹭短叫可评估复用，沿用其来源与许可；不机械沿用整条36秒锣鼓音轨。",
+    "license": "代码MIT不覆盖全部媒体；逐项保留来源。复用旧片CC BY-SA录音须满足其署名与适用许可要求；未落实许可的音乐不进入成片。",
+    "evidence": "参考release本次ffprobe仅见视频流；本轮未实际听音，不从画面推断原片音乐。"
+  },
+  "phases": [
+    {
+      "step": 1,
+      "name": "已完成的研究与计划",
+      "deliverable": "本JSON、研究抽帧与覆盖记录、CHECKPOINT",
+      "done": true
+    },
+    {
+      "step": 2,
+      "name": "效果图先行",
+      "deliverable": "正式9:16整体代表构图，表现夜鹭/鱼/对手/跨时代边界；另做必要的风格阶段图保持同一角色骨架。16风格总览是辅助，不代替完整构图。",
+      "gate": "展示并落实用户反馈后展开整片；本轮只交计划。"
+    },
+    {
+      "step": 3,
+      "name": "动作与转场样段",
+      "deliverable": "8–10秒正式品质样段：皮影→水墨→像素测试组合（技术测试，不作正式历史顺序），完整展示偷取、鱼绑定、对手反应、两次换风格与音效。",
+      "gate": "主Agent判断制作质量，无独立审片。先低清540×960验证路径，再正式1080×1920验证细线与接触。"
+    },
+    {
+      "step": 4,
+      "name": "扩展16时代",
+      "deliverable": "独立风格绘制、事件表、全片低清预演及64秒正式片。"
+    },
+    {
+      "step": 5,
+      "name": "基本工程检查",
+      "deliverable": "非空文件、完整解码、1080×1920/24fps/64秒/1536帧、预期音轨、中文字体、确定性寻址、鱼归属与关键遮挡/裁切检查。"
+    },
+    {
+      "step": 6,
+      "name": "一次AI视听审核",
+      "deliverable": "一个继承当前模型和推理设置的审片角色；当前成片SHA256、实际画面覆盖、完整听音覆盖及时间码缺陷。",
+      "gate": "制作方按报告最多修一次；同一审片者做修改与相邻镜头/音画同步复核，不重开第二轮。实际工具不可听音时说明限制，不能声称完整通过。审核时再读independent-av-review及role-orchestration。"
+    },
+    {
+      "step": 7,
+      "name": "交付",
+      "deliverable": "可播放MP4、可编辑源码、配置/事件表、素材来源与许可、与成片哈希绑定的实际审核报告；旧片及历史版本保持原位。"
+    }
+  ],
+  "research": {
+    "repository": "alchaincyf/huashu-art-motion",
+    "commit": "64cb27271ee0ad3375298e2890b33cbec36d4051",
+    "sourceDirectory": "../../reference-sources/video-films-20261014/alchaincyf--huashu-art-motion",
+    "actualRead": [
+      "scripts/engine/engine.js:1–180,188–278",
+      "scripts/engine/eras.js:1–61",
+      "scripts/engine/eras_gallery.js:1–100",
+      "scripts/engine/demos/long_scroll/eras.js:1–24",
+      "scripts/engine/demos/long_scroll/lib/world.js:1–144",
+      "scripts/engine/demos/long_scroll/lib/crossing.js:1–68",
+      "scripts/engine/scenes/02_egypt.js:1–61",
+      "scripts/engine/scenes/17_ink.js:1–24",
+      "scripts/engine/scenes/14_8bit.js:1–24",
+      "旧夜鹭film/art.js、timeline.js、render.mjs及film.js关节/鱼绑定相关函数"
+    ],
+    "observed": "作者release 41.25秒1920×1080/24fps；35个时刻抽帧+1.05–1.55秒六帧过渡取样；320×180读取，已查看contact.jpg。未实时观看、未听音、未运行上游完整工程。",
+    "findings": [
+      "角色/猫/桌子的空间关系跨风格稳定，变的是绘画语言",
+      "埃及进入为块状揭示，并非角色几何连续变形",
+      "引擎支持任意时间双缓冲合成，但风格场景仍需单独竖屏重排",
+      "reference release与归档源码版本不同，不能宣称逐像素一致"
+    ],
+    "oldProject": "../night-heron-shadow-20261012；v10为36秒竖屏皮影片，其直接反馈模式不覆盖本新片已选AI审核模式。"
+  },
+  "openItems": [
+    "效果图待制作和反馈",
+    "16时代清单与64秒是本计划建议，可按用户反馈调整",
+    "制作前核对动物地域/鱼类和年代标签；风格标签用时期，不把画风诞生写成精确单年",
+    "不同画风的有机角色品质与完整接触动作尚待样段验证"
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "title": "Risky 风险传导与决策试验机",
+  "duration": 80,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "aspect_ratio": "16:9",
+  "delivery_mode": "ai_review_once",
+  "shots": [
+    {
+      "id": "signal",
+      "start": 0,
+      "end": 6,
+      "caption": "风险研判，从一个信号开始",
+      "action": "指针偏转，采集响应",
+      "reads": [
+        {
+          "at": 0.5,
+          "understood": 2,
+          "leave": 5.6,
+          "text": "风险研判，从一个信号开始"
+        }
+      ],
+      "states": {
+        "establish": 0.5,
+        "action": 3,
+        "result": 5.3
+      },
+      "subjectId": "A-001"
+    },
+    {
+      "id": "evidence",
+      "start": 6,
+      "end": 16,
+      "caption": "AI 汇集线索，证据定位到原文",
+      "action": "来源比对，装入案件匣",
+      "reads": [
+        {
+          "at": 6.5,
+          "understood": 8,
+          "leave": 15.6,
+          "text": "AI 汇集线索，证据定位到原文"
+        }
+      ],
+      "states": {
+        "establish": 6.5,
+        "action": 11,
+        "result": 15.3
+      },
+      "subjectId": "A-001"
+    },
+    {
+      "id": "relations",
+      "start": 16,
+      "end": 26,
+      "caption": "看清关联，识别潜在传导",
+      "action": "关系臂展开，证据保留",
+      "reads": [
+        {
+          "at": 16.5,
+          "understood": 18,
+          "leave": 25.6,
+          "text": "看清关联，识别潜在传导"
+        }
+      ],
+      "states": {
+        "establish": 16.5,
+        "action": 21,
+        "result": 25.3
+      },
+      "subjectId": "A-001"
+    },
+    {
+      "id": "experts",
+      "start": 26,
+      "end": 40,
+      "caption": "专业知识支撑，多专家协同研判",
+      "action": "检索档案，激活相关席位，形成条件",
+      "reads": [
+        {
+          "at": 26.5,
+          "understood": 28,
+          "leave": 39.6,
+          "text": "专业知识支撑，多专家协同研判"
+        }
+      ],
+      "states": {
+        "establish": 26.5,
+        "action": 33,
+        "result": 39.3
+      },
+      "subjectId": "A-001"
+    },
+    {
+      "id": "snapshot",
+      "start": 40,
+      "end": 46,
+      "caption": "固定证据与假设，建立可回放情景",
+      "action": "参数旋钮，夹具锁住同源起点",
+      "reads": [
+        {
+          "at": 40.5,
+          "understood": 42,
+          "leave": 45.6,
+          "text": "固定证据与假设，建立可回放情景"
+        }
+      ],
+      "states": {
+        "establish": 40.5,
+        "action": 43,
+        "result": 45.3
+      },
+      "subjectId": "A-001"
+    },
+    {
+      "id": "compare",
+      "start": 46,
+      "end": 54,
+      "caption": "同一起点，对照三种情景",
+      "action": "同源 A-001 分流，标签共同尺度",
+      "reads": [
+        {
+          "at": 46.5,
+          "understood": 48,
+          "leave": 53.6,
+          "text": "同一起点，对照三种情景"
+        }
+      ],
+      "states": {
+        "establish": 46.5,
+        "action": 50,
+        "result": 53.3
+      },
+      "subjectId": "A-001"
+    },
+    {
+      "id": "dual",
+      "start": 54,
+      "end": 59,
+      "caption": "业务 × 舆情，逐轮观察",
+      "action": "两层沿同一轮次推进",
+      "reads": [
+        {
+          "at": 54.5,
+          "understood": 56,
+          "leave": 58.6,
+          "text": "业务 × 舆情，逐轮观察"
+        }
+      ],
+      "states": {
+        "establish": 54.5,
+        "action": 56.5,
+        "result": 58.3
+      },
+      "subjectId": "A-001"
+    },
+    {
+      "id": "result",
+      "start": 59,
+      "end": 64,
+      "caption": "比较路径、范围与恢复过程",
+      "action": "模型状态记录形成差异",
+      "reads": [
+        {
+          "at": 59.5,
+          "understood": 61,
+          "leave": 63.6,
+          "text": "比较路径、范围与恢复过程"
+        }
+      ],
+      "states": {
+        "establish": 59.5,
+        "action": 61.5,
+        "result": 63.3
+      },
+      "subjectId": "A-001"
+    },
+    {
+      "id": "return",
+      "start": 64,
+      "end": 74,
+      "caption": "结果回到专家，研判落到行动",
+      "action": "记录与案件一起回程，形成核查事项",
+      "reads": [
+        {
+          "at": 64.5,
+          "understood": 66,
+          "leave": 73.6,
+          "text": "结果回到专家，研判落到行动"
+        }
+      ],
+      "states": {
+        "establish": 64.5,
+        "action": 69,
+        "result": 73.3
+      },
+      "subjectId": "A-001"
+    },
+    {
+      "id": "reveal",
+      "start": 74,
+      "end": 80,
+      "caption": "有据研判 · 情景推演 · 持续跟踪",
+      "action": "拉远揭示同一台机器及完整反馈回路",
+      "reads": [
+        {
+          "at": 74.5,
+          "understood": 76,
+          "leave": 79.6,
+          "text": "有据研判 · 情景推演 · 持续跟踪"
+        }
+      ],
+      "states": {
+        "establish": 74.5,
+        "action": 77,
+        "result": 79.3
+      },
+      "subjectId": "A-001"
+    }
+  ],
+  "events": [
+    {
+      "at": 2.5,
+      "id": "signal",
+      "sound": "bell"
+    },
+    {
+      "at": 8,
+      "id": "source",
+      "sound": "scan"
+    },
+    {
+      "at": 10,
+      "id": "bind",
+      "sound": "lock"
+    },
+    {
+      "at": 20.5,
+      "id": "relation",
+      "sound": "lock"
+    },
+    {
+      "at": 29,
+      "id": "experts",
+      "sound": "bell"
+    },
+    {
+      "at": 34,
+      "id": "knowledge",
+      "sound": "scan"
+    },
+    {
+      "at": 38,
+      "id": "condition",
+      "sound": "lock"
+    },
+    {
+      "at": 44,
+      "id": "freeze",
+      "sound": "lock"
+    },
+    {
+      "at": 48.5,
+      "id": "split",
+      "sound": "lock"
+    },
+    {
+      "at": 51,
+      "id": "trial",
+      "sound": "bell"
+    },
+    {
+      "at": 55,
+      "id": "dual",
+      "sound": "scan"
+    },
+    {
+      "at": 61,
+      "id": "record",
+      "sound": "lock"
+    },
+    {
+      "at": 67,
+      "id": "return",
+      "sound": "scan"
+    },
+    {
+      "at": 73,
+      "id": "review",
+      "sound": "bell"
+    },
+    {
+      "at": 77.5,
+      "id": "reveal",
+      "sound": "bell"
+    }
+  ],
+  "soundtrack": {
+    "sample_rate": 48000,
+    "phrases": [
+      {
+        "start": 0,
+        "end": 8,
+        "beats": 16
+      },
+      {
+        "start": 8,
+        "end": 16,
+        "beats": 16
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "beats": 16
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "beats": 16
+      },
+      {
+        "start": 32,
+        "end": 40,
+        "beats": 16
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "beats": 16
+      },
+      {
+        "start": 48,
+        "end": 56,
+        "beats": 16
+      },
+      {
+        "start": 56,
+        "end": 64,
+        "beats": 16
+      },
+      {
+        "start": 64,
+        "end": 72,
+        "beats": 16
+      },
+      {
+        "start": 72,
+        "end": 80,
+        "beats": 16
+      }
+    ],
+    "density": [
+      {
+        "start": 0,
+        "end": 6,
+        "gain": 0.32
+      },
+      {
+        "start": 6,
+        "end": 26,
+        "gain": 0.58
+      },
+      {
+        "start": 26,
+        "end": 40,
+        "gain": 0.5
+      },
+      {
+        "start": 40,
+        "end": 46,
+        "gain": 0.68
+      },
+      {
+        "start": 46,
+        "end": 64,
+        "gain": 0.95
+      },
+      {
+        "start": 64,
+        "end": 74,
+        "gain": 0.62
+      },
+      {
+        "start": 74,
+        "end": 80,
+        "gain": 0.32
+      }
+    ],
+    "breaks": [
+      [
+        43.8,
+        44
+      ],
+      [
+        50.8,
+        51
+      ],
+      [
+        76.8,
+        77
+      ]
+    ],
+    "events": [
+      {
+        "at": 2.5,
+        "id": "signal",
+        "sound": "bell"
+      },
+      {
+        "at": 8,
+        "id": "source",
+        "sound": "scan"
+      },
+      {
+        "at": 10,
+        "id": "bind",
+        "sound": "lock"
+      },
+      {
+        "at": 20.5,
+        "id": "relation",
+        "sound": "lock"
+      },
+      {
+        "at": 29,
+        "id": "experts",
+        "sound": "bell"
+      },
+      {
+        "at": 34,
+        "id": "knowledge",
+        "sound": "scan"
+      },
+      {
+        "at": 38,
+        "id": "condition",
+        "sound": "lock"
+      },
+      {
+        "at": 44,
+        "id": "freeze",
+        "sound": "lock"
+      },
+      {
+        "at": 48.5,
+        "id": "split",
+        "sound": "lock"
+      },
+      {
+        "at": 51,
+        "id": "trial",
+        "sound": "bell"
+      },
+      {
+        "at": 55,
+        "id": "dual",
+        "sound": "scan"
+      },
+      {
+        "at": 61,
+        "id": "record",
+        "sound": "lock"
+      },
+      {
+        "at": 67,
+        "id": "return",
+        "sound": "scan"
+      },
+      {
+        "at": 73,
+        "id": "review",
+        "sound": "bell"
+      },
+      {
+        "at": 77.5,
+        "id": "reveal",
+        "sound": "bell"
+      }
+    ]
+  },
+  "facts": "Synthetic mechanism demonstration; not engine output, probabilities, ratings or loss estimates.",
+  "creative_direction": "风险传导与决策试验机；已由用户指定，无需三选一。",
+  "protected": [
+    "同一个案件",
+    "同源快照",
+    "专家半圆会场",
+    "三组共同尺度",
+    "双轨",
+    "返回复核"
+  ]
+}

@@ -1,0 +1,4274 @@
+[
+  {
+    "era": 1,
+    "atlas": "era-01-atlas.png",
+    "sha256": "719017707be94d950f28e2f0f2f4c750212adac480de9289d7778087340ec580",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          35,
+          105,
+          384,
+          353
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          39,
+          98,
+          384,
+          352
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          31,
+          100,
+          379,
+          348
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          18,
+          101,
+          376,
+          327
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          35,
+          103,
+          384,
+          353
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          35,
+          98,
+          384,
+          351
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          33,
+          99,
+          384,
+          352
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          16,
+          101,
+          381,
+          332
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          29,
+          100,
+          381,
+          351
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          15,
+          116,
+          382,
+          351
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          25,
+          68,
+          369,
+          353
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          33,
+          0,
+          355,
+          351
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          17,
+          118,
+          367,
+          368
+        ],
+        "cell": 12,
+        "atlasROI": [
+          17,
+          972,
+          334,
+          1197
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          16,
+          104,
+          367,
+          367
+        ],
+        "cell": 13,
+        "atlasROI": [
+          352,
+          974,
+          648,
+          1196
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          17,
+          180,
+          368,
+          368
+        ],
+        "cell": 14,
+        "atlasROI": [
+          690,
+          1040,
+          915,
+          1160
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          50,
+          17,
+          333,
+          368
+        ],
+        "cell": 15,
+        "atlasROI": [
+          976,
+          910,
+          1232,
+          1228
+        ]
+      }
+    ]
+  },
+  {
+    "era": 2,
+    "atlas": "era-02-atlas.png",
+    "sha256": "f504b937ec15a4376aaa3309af083a33fd609535a5ca062930095f8e11d1b8aa",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          36,
+          114,
+          379,
+          360
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          41,
+          110,
+          381,
+          357
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          22,
+          109,
+          378,
+          356
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          17,
+          108,
+          383,
+          330
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          36,
+          109,
+          379,
+          350
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          37,
+          104,
+          382,
+          350
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          26,
+          108,
+          381,
+          347
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          22,
+          105,
+          383,
+          322
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          38,
+          115,
+          380,
+          357
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          35,
+          129,
+          382,
+          357
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          30,
+          68,
+          370,
+          357
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          33,
+          0,
+          340,
+          357
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          63,
+          17,
+          322,
+          368
+        ],
+        "cell": 12,
+        "atlasROI": [
+          64,
+          920,
+          282,
+          1215
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          18,
+          17,
+          366,
+          368
+        ],
+        "cell": 13,
+        "atlasROI": [
+          364,
+          964,
+          613,
+          1215
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          16,
+          158,
+          368,
+          368
+        ],
+        "cell": 14,
+        "atlasROI": [
+          695,
+          1036,
+          907,
+          1163
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          43,
+          16,
+          341,
+          367
+        ],
+        "cell": 15,
+        "atlasROI": [
+          964,
+          926,
+          1221,
+          1229
+        ]
+      }
+    ]
+  },
+  {
+    "era": 3,
+    "atlas": "era-03-atlas.png",
+    "sha256": "7065da1e67a8b8c9adcbcc6157f260e9fbc93b83797bd5ba761ee9d447f0db26",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          40,
+          95,
+          384,
+          349
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          34,
+          95,
+          384,
+          350
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          16,
+          96,
+          381,
+          348
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          5,
+          95,
+          370,
+          329
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          40,
+          92,
+          384,
+          342
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          38,
+          92,
+          384,
+          338
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          15,
+          92,
+          378,
+          341
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          14,
+          92,
+          370,
+          319
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          37,
+          99,
+          384,
+          337
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          27,
+          107,
+          384,
+          340
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          29,
+          62,
+          382,
+          340
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          30,
+          0,
+          340,
+          339
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          16,
+          18,
+          368,
+          368
+        ],
+        "cell": 12,
+        "atlasROI": [
+          24,
+          908,
+          320,
+          1203
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          16,
+          42,
+          367,
+          368
+        ],
+        "cell": 13,
+        "atlasROI": [
+          377,
+          967,
+          635,
+          1206
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          17,
+          201,
+          368,
+          368
+        ],
+        "cell": 14,
+        "atlasROI": [
+          701,
+          1044,
+          901,
+          1140
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          54,
+          16,
+          330,
+          368
+        ],
+        "cell": 15,
+        "atlasROI": [
+          977,
+          910,
+          1219,
+          1219
+        ]
+      }
+    ]
+  },
+  {
+    "era": 4,
+    "atlas": "era-04-atlas.png",
+    "sha256": "546a4bf3e359974325a07dafa19ac9db4a08446e5c2c364e0cc2c3098b722389",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          44,
+          84,
+          384,
+          349
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          44,
+          84,
+          384,
+          353
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          9,
+          84,
+          384,
+          344
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          6,
+          80,
+          382,
+          325
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          37,
+          83,
+          384,
+          342
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          44,
+          81,
+          384,
+          341
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          26,
+          80,
+          384,
+          341
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          16,
+          77,
+          382,
+          318
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          41,
+          90,
+          384,
+          344
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          26,
+          109,
+          384,
+          346
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          26,
+          73,
+          379,
+          348
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          29,
+          1,
+          349,
+          346
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          17,
+          130,
+          368,
+          368
+        ],
+        "cell": 12,
+        "atlasROI": [
+          10,
+          955,
+          377,
+          1203
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          16,
+          160,
+          368,
+          368
+        ],
+        "cell": 13,
+        "atlasROI": [
+          349,
+          1003,
+          687,
+          1203
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          16,
+          176,
+          367,
+          367
+        ],
+        "cell": 14,
+        "atlasROI": [
+          669,
+          1029,
+          906,
+          1159
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          71,
+          17,
+          312,
+          368
+        ],
+        "cell": 15,
+        "atlasROI": [
+          1004,
+          911,
+          1227,
+          1234
+        ]
+      }
+    ]
+  },
+  {
+    "era": 5,
+    "atlas": "era-05-atlas.png",
+    "sha256": "1bd15feb67776ec8cc166dd235de683182899445b96832c52c6a395c5f96a171",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          33,
+          100,
+          384,
+          349
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          32,
+          100,
+          379,
+          349
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          8,
+          99,
+          374,
+          349
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          18,
+          95,
+          371,
+          334
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          34,
+          100,
+          384,
+          355
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          32,
+          100,
+          381,
+          351
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          22,
+          96,
+          381,
+          344
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          20,
+          89,
+          372,
+          310
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          36,
+          100,
+          384,
+          350
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          27,
+          117,
+          384,
+          347
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          30,
+          81,
+          367,
+          349
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          29,
+          11,
+          338,
+          350
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          22,
+          16,
+          361,
+          367
+        ],
+        "cell": 12,
+        "atlasROI": [
+          35,
+          926,
+          314,
+          1216
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          32,
+          16,
+          352,
+          368
+        ],
+        "cell": 13,
+        "atlasROI": [
+          394,
+          952,
+          634,
+          1216
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          17,
+          180,
+          367,
+          367
+        ],
+        "cell": 14,
+        "atlasROI": [
+          689,
+          1035,
+          903,
+          1150
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          26,
+          16,
+          357,
+          366
+        ],
+        "cell": 15,
+        "atlasROI": [
+          946,
+          918,
+          1236,
+          1225
+        ]
+      }
+    ]
+  },
+  {
+    "era": 6,
+    "atlas": "era-06-atlas.png",
+    "sha256": "2237fd399656644b36b4247c4452986ae52428a917962ba3c42de574933c7bb2",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          44,
+          99,
+          384,
+          343
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          43,
+          98,
+          380,
+          344
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          30,
+          99,
+          377,
+          341
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          22,
+          97,
+          365,
+          321
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          45,
+          97,
+          384,
+          339
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          43,
+          98,
+          383,
+          339
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          36,
+          96,
+          375,
+          337
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          30,
+          94,
+          370,
+          322
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          45,
+          98,
+          384,
+          326
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          38,
+          112,
+          384,
+          327
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          35,
+          67,
+          368,
+          331
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          46,
+          0,
+          349,
+          330
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          33,
+          16,
+          352,
+          368
+        ],
+        "cell": 12,
+        "atlasROI": [
+          38,
+          906,
+          316,
+          1212
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          38,
+          16,
+          346,
+          368
+        ],
+        "cell": 13,
+        "atlasROI": [
+          393,
+          942,
+          629,
+          1212
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          16,
+          182,
+          368,
+          368
+        ],
+        "cell": 14,
+        "atlasROI": [
+          691,
+          1026,
+          914,
+          1145
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          62,
+          16,
+          320,
+          368
+        ],
+        "cell": 15,
+        "atlasROI": [
+          982,
+          903,
+          1224,
+          1231
+        ]
+      }
+    ]
+  },
+  {
+    "era": 7,
+    "atlas": "era-07-atlas.png",
+    "sha256": "0b291230b1df9f18b4b1add11768a5e7a59fd000bc79bdbbe28f9367634c98db",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          24,
+          98,
+          384,
+          361
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          41,
+          95,
+          384,
+          367
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          21,
+          96,
+          383,
+          358
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          0,
+          92,
+          378,
+          329
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          24,
+          94,
+          384,
+          353
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          39,
+          95,
+          384,
+          354
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          16,
+          94,
+          382,
+          354
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          10,
+          92,
+          378,
+          329
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          34,
+          95,
+          384,
+          355
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          37,
+          107,
+          384,
+          355
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          24,
+          68,
+          370,
+          354
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          27,
+          0,
+          335,
+          354
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          17,
+          45,
+          367,
+          367
+        ],
+        "cell": 12,
+        "atlasROI": [
+          30,
+          950,
+          309,
+          1207
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          19,
+          44,
+          367,
+          368
+        ],
+        "cell": 13,
+        "atlasROI": [
+          400,
+          991,
+          627,
+          1201
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          17,
+          177,
+          367,
+          368
+        ],
+        "cell": 14,
+        "atlasROI": [
+          686,
+          1034,
+          903,
+          1152
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          46,
+          16,
+          336,
+          367
+        ],
+        "cell": 15,
+        "atlasROI": [
+          964,
+          920,
+          1227,
+          1238
+        ]
+      }
+    ]
+  },
+  {
+    "era": 8,
+    "atlas": "era-08-atlas.png",
+    "sha256": "7466e0906f4f8657c1070b750b0184782a1ab35c568739cd1d775c2e4d024a6b",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          37,
+          93,
+          384,
+          339
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          36,
+          91,
+          382,
+          345
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          19,
+          93,
+          377,
+          340
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          8,
+          86,
+          373,
+          313
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          34,
+          87,
+          384,
+          329
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          33,
+          87,
+          382,
+          330
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          23,
+          87,
+          375,
+          329
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          18,
+          83,
+          373,
+          308
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          39,
+          90,
+          382,
+          325
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          28,
+          104,
+          380,
+          327
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          26,
+          69,
+          373,
+          326
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          28,
+          0,
+          348,
+          325
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          16,
+          100,
+          368,
+          368
+        ],
+        "cell": 12,
+        "atlasROI": [
+          26,
+          945,
+          382,
+          1217
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          16,
+          156,
+          366,
+          367
+        ],
+        "cell": 13,
+        "atlasROI": [
+          348,
+          1007,
+          697,
+          1217
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          16,
+          170,
+          367,
+          367
+        ],
+        "cell": 14,
+        "atlasROI": [
+          691,
+          1030,
+          908,
+          1152
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          44,
+          16,
+          340,
+          368
+        ],
+        "cell": 15,
+        "atlasROI": [
+          945,
+          897,
+          1235,
+          1241
+        ]
+      }
+    ]
+  },
+  {
+    "era": 9,
+    "atlas": "era-09-atlas.png",
+    "sha256": "3b28f4022ee991db1a55e9896efec700fcabcd9af89da097628a45b714f47a57",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          40,
+          97,
+          380,
+          328
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          38,
+          93,
+          378,
+          328
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          19,
+          95,
+          370,
+          327
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          13,
+          84,
+          372,
+          301
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          39,
+          90,
+          384,
+          321
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          38,
+          87,
+          378,
+          324
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          21,
+          91,
+          371,
+          321
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          21,
+          80,
+          372,
+          303
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          40,
+          91,
+          379,
+          319
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          29,
+          103,
+          371,
+          323
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          22,
+          73,
+          370,
+          319
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          27,
+          0,
+          339,
+          318
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          57,
+          16,
+          326,
+          367
+        ],
+        "cell": 12,
+        "atlasROI": [
+          57,
+          912,
+          294,
+          1221
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          44,
+          16,
+          340,
+          368
+        ],
+        "cell": 13,
+        "atlasROI": [
+          390,
+          945,
+          622,
+          1221
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          17,
+          182,
+          367,
+          368
+        ],
+        "cell": 14,
+        "atlasROI": [
+          690,
+          1033,
+          889,
+          1138
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          63,
+          16,
+          322,
+          367
+        ],
+        "cell": 15,
+        "atlasROI": [
+          965,
+          903,
+          1212,
+          1238
+        ]
+      }
+    ]
+  },
+  {
+    "era": 10,
+    "atlas": "era-10-atlas.png",
+    "sha256": "ed07278672417b597c63038a055290bed152607f2283005721fcd5fa5dde2504",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          38,
+          91,
+          384,
+          349
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          36,
+          91,
+          382,
+          347
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          30,
+          90,
+          379,
+          345
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          14,
+          85,
+          373,
+          325
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          41,
+          87,
+          384,
+          337
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          37,
+          83,
+          384,
+          335
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          32,
+          89,
+          379,
+          332
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          16,
+          81,
+          373,
+          316
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          32,
+          85,
+          384,
+          328
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          27,
+          101,
+          384,
+          332
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          26,
+          61,
+          381,
+          329
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          33,
+          0,
+          337,
+          328
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          38,
+          16,
+          346,
+          368
+        ],
+        "cell": 12,
+        "atlasROI": [
+          39,
+          900,
+          316,
+          1216
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          33,
+          16,
+          351,
+          368
+        ],
+        "cell": 13,
+        "atlasROI": [
+          384,
+          954,
+          621,
+          1216
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          16,
+          167,
+          367,
+          368
+        ],
+        "cell": 14,
+        "atlasROI": [
+          684,
+          1018,
+          915,
+          1150
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          59,
+          16,
+          325,
+          368
+        ],
+        "cell": 15,
+        "atlasROI": [
+          972,
+          899,
+          1227,
+          1236
+        ]
+      }
+    ]
+  },
+  {
+    "era": 11,
+    "atlas": "era-11-atlas.png",
+    "sha256": "25cb7c3b60804396d823f50e3f99caf3175ab40fe1bc4b639246d917277f1bf5",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          39,
+          107,
+          384,
+          373
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          26,
+          108,
+          384,
+          377
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          10,
+          106,
+          379,
+          371
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          0,
+          94,
+          374,
+          353
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          22,
+          98,
+          384,
+          361
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          28,
+          92,
+          384,
+          362
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          7,
+          93,
+          384,
+          364
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          12,
+          91,
+          378,
+          350
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          38,
+          109,
+          384,
+          369
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          20,
+          132,
+          384,
+          369
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          19,
+          68,
+          374,
+          370
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          19,
+          0,
+          333,
+          366
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          16,
+          140,
+          367,
+          367
+        ],
+        "cell": 12,
+        "atlasROI": [
+          25,
+          979,
+          373,
+          1205
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          17,
+          156,
+          368,
+          368
+        ],
+        "cell": 13,
+        "atlasROI": [
+          350,
+          1007,
+          672,
+          1202
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          17,
+          161,
+          368,
+          368
+        ],
+        "cell": 14,
+        "atlasROI": [
+          686,
+          1034,
+          900,
+          1160
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          42,
+          16,
+          340,
+          367
+        ],
+        "cell": 15,
+        "atlasROI": [
+          963,
+          932,
+          1224,
+          1239
+        ]
+      }
+    ]
+  },
+  {
+    "era": 12,
+    "atlas": "era-12-atlas.png",
+    "sha256": "499fc41129bfafb2ce8978cd1b06b9880148e8c291ba8e1d8b6639c858826327",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          34,
+          82,
+          384,
+          354
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          32,
+          82,
+          384,
+          356
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          18,
+          85,
+          384,
+          350
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          12,
+          80,
+          376,
+          326
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          34,
+          82,
+          384,
+          341
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          33,
+          81,
+          384,
+          342
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          26,
+          81,
+          384,
+          339
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          15,
+          76,
+          375,
+          320
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          28,
+          86,
+          384,
+          340
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          21,
+          109,
+          384,
+          343
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          27,
+          49,
+          384,
+          341
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          33,
+          2,
+          351,
+          340
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          51,
+          16,
+          333,
+          367
+        ],
+        "cell": 12,
+        "atlasROI": [
+          60,
+          909,
+          311,
+          1222
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          16,
+          37,
+          368,
+          367
+        ],
+        "cell": 13,
+        "atlasROI": [
+          342,
+          957,
+          626,
+          1224
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          16,
+          173,
+          368,
+          368
+        ],
+        "cell": 14,
+        "atlasROI": [
+          671,
+          1028,
+          895,
+          1153
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          47,
+          17,
+          336,
+          368
+        ],
+        "cell": 15,
+        "atlasROI": [
+          971,
+          909,
+          1236,
+          1231
+        ]
+      }
+    ]
+  },
+  {
+    "era": 13,
+    "atlas": "era-13-atlas.png",
+    "sha256": "931d8741fc4c0d93cdd7fc770cf5397503798da9792b3dfbaf9c4ac854e1edbc",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          41,
+          97,
+          384,
+          365
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          39,
+          98,
+          384,
+          371
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          23,
+          98,
+          384,
+          370
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          27,
+          99,
+          381,
+          350
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          35,
+          96,
+          384,
+          367
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          40,
+          95,
+          384,
+          368
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          29,
+          98,
+          384,
+          368
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          33,
+          98,
+          384,
+          342
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          42,
+          98,
+          384,
+          364
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          38,
+          123,
+          384,
+          362
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          38,
+          82,
+          378,
+          362
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          38,
+          6,
+          338,
+          364
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          18,
+          137,
+          368,
+          368
+        ],
+        "cell": 12,
+        "atlasROI": [
+          9,
+          991,
+          329,
+          1202
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          16,
+          126,
+          368,
+          368
+        ],
+        "cell": 13,
+        "atlasROI": [
+          357,
+          1008,
+          639,
+          1202
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          17,
+          171,
+          367,
+          367
+        ],
+        "cell": 14,
+        "atlasROI": [
+          690,
+          1062,
+          895,
+          1177
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          51,
+          16,
+          332,
+          367
+        ],
+        "cell": 15,
+        "atlasROI": [
+          993,
+          939,
+          1225,
+          1229
+        ]
+      }
+    ]
+  },
+  {
+    "era": 14,
+    "atlas": "era-14-atlas.png",
+    "sha256": "8ce2209d2d859cfc504391c7e3d8ea611fc4d89aeb95d7fb7a4990e2ee6ee95a",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          43,
+          102,
+          384,
+          352
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          39,
+          97,
+          383,
+          354
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          13,
+          98,
+          375,
+          353
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          4,
+          88,
+          368,
+          326
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          34,
+          110,
+          384,
+          357
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          37,
+          106,
+          383,
+          359
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          17,
+          104,
+          380,
+          359
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          14,
+          102,
+          368,
+          336
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          38,
+          99,
+          384,
+          355
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          29,
+          112,
+          384,
+          357
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          29,
+          70,
+          376,
+          357
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          25,
+          4,
+          349,
+          360
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          16,
+          119,
+          367,
+          367
+        ],
+        "cell": 12,
+        "atlasROI": [
+          25,
+          987,
+          366,
+          1228
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          16,
+          168,
+          365,
+          368
+        ],
+        "cell": 13,
+        "atlasROI": [
+          338,
+          1029,
+          684,
+          1227
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          17,
+          181,
+          368,
+          368
+        ],
+        "cell": 14,
+        "atlasROI": [
+          693,
+          1040,
+          908,
+          1155
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          48,
+          16,
+          337,
+          368
+        ],
+        "cell": 15,
+        "atlasROI": [
+          969,
+          929,
+          1219,
+          1232
+        ]
+      }
+    ]
+  },
+  {
+    "era": 15,
+    "atlas": "era-15-atlas.png",
+    "sha256": "842e3c07a7a6d13aad226c7fd062e6c1fba8445280d9bd955df0187e3bec210c",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          35,
+          100,
+          384,
+          358
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          36,
+          98,
+          384,
+          358
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          6,
+          99,
+          384,
+          357
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          11,
+          99,
+          378,
+          331
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          36,
+          89,
+          384,
+          346
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          35,
+          89,
+          384,
+          346
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          29,
+          89,
+          383,
+          346
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          22,
+          87,
+          376,
+          325
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          31,
+          91,
+          384,
+          346
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          19,
+          106,
+          384,
+          346
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          28,
+          66,
+          383,
+          346
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          35,
+          0,
+          354,
+          346
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          27,
+          16,
+          357,
+          368
+        ],
+        "cell": 12,
+        "atlasROI": [
+          47,
+          922,
+          330,
+          1224
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          17,
+          29,
+          368,
+          367
+        ],
+        "cell": 13,
+        "atlasROI": [
+          365,
+          959,
+          640,
+          1224
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          16,
+          163,
+          368,
+          368
+        ],
+        "cell": 14,
+        "atlasROI": [
+          678,
+          1039,
+          912,
+          1176
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          49,
+          16,
+          333,
+          368
+        ],
+        "cell": 15,
+        "atlasROI": [
+          970,
+          915,
+          1229,
+          1235
+        ]
+      }
+    ]
+  },
+  {
+    "era": 16,
+    "atlas": "era-16-atlas.png",
+    "sha256": "f21e53590f98837d2761794de4aa0634b6de3bcfb729c8c36e05ab0d9a141f7f",
+    "size": [
+      1254,
+      1254
+    ],
+    "cells": [
+      {
+        "name": "run-0.png",
+        "alphaBounds": [
+          37,
+          94,
+          370,
+          338
+        ],
+        "cell": 0,
+        "atlasROI": [
+          0,
+          0,
+          314,
+          314
+        ]
+      },
+      {
+        "name": "run-1.png",
+        "alphaBounds": [
+          37,
+          94,
+          371,
+          337
+        ],
+        "cell": 1,
+        "atlasROI": [
+          314,
+          0,
+          627,
+          314
+        ]
+      },
+      {
+        "name": "run-2.png",
+        "alphaBounds": [
+          37,
+          94,
+          370,
+          338
+        ],
+        "cell": 2,
+        "atlasROI": [
+          627,
+          0,
+          940,
+          314
+        ]
+      },
+      {
+        "name": "run-3.png",
+        "alphaBounds": [
+          20,
+          94,
+          368,
+          322
+        ],
+        "cell": 3,
+        "atlasROI": [
+          940,
+          0,
+          1254,
+          314
+        ]
+      },
+      {
+        "name": "run-4.png",
+        "alphaBounds": [
+          37,
+          91,
+          378,
+          333
+        ],
+        "cell": 4,
+        "atlasROI": [
+          0,
+          314,
+          314,
+          627
+        ]
+      },
+      {
+        "name": "run-5.png",
+        "alphaBounds": [
+          37,
+          90,
+          378,
+          332
+        ],
+        "cell": 5,
+        "atlasROI": [
+          314,
+          314,
+          627,
+          627
+        ]
+      },
+      {
+        "name": "run-6.png",
+        "alphaBounds": [
+          37,
+          91,
+          379,
+          328
+        ],
+        "cell": 6,
+        "atlasROI": [
+          627,
+          314,
+          940,
+          627
+        ]
+      },
+      {
+        "name": "run-7.png",
+        "alphaBounds": [
+          25,
+          91,
+          377,
+          320
+        ],
+        "cell": 7,
+        "atlasROI": [
+          940,
+          314,
+          1254,
+          627
+        ]
+      },
+      {
+        "name": "feed-0.png",
+        "alphaBounds": [
+          37,
+          92,
+          374,
+          329
+        ],
+        "cell": 8,
+        "atlasROI": [
+          0,
+          627,
+          314,
+          940
+        ]
+      },
+      {
+        "name": "feed-1.png",
+        "alphaBounds": [
+          31,
+          109,
+          372,
+          329
+        ],
+        "cell": 9,
+        "atlasROI": [
+          314,
+          627,
+          627,
+          940
+        ]
+      },
+      {
+        "name": "feed-2.png",
+        "alphaBounds": [
+          30,
+          72,
+          371,
+          331
+        ],
+        "cell": 10,
+        "atlasROI": [
+          627,
+          627,
+          940,
+          940
+        ]
+      },
+      {
+        "name": "feed-3.png",
+        "alphaBounds": [
+          25,
+          10,
+          336,
+          326
+        ],
+        "cell": 11,
+        "atlasROI": [
+          940,
+          627,
+          1254,
+          940
+        ]
+      },
+      {
+        "name": "owner-neutral.png",
+        "alphaBounds": [
+          36,
+          16,
+          347,
+          367
+        ],
+        "cell": 12,
+        "atlasROI": [
+          29,
+          917,
+          297,
+          1218
+        ]
+      },
+      {
+        "name": "owner-down.png",
+        "alphaBounds": [
+          16,
+          33,
+          367,
+          368
+        ],
+        "cell": 13,
+        "atlasROI": [
+          365,
+          959,
+          636,
+          1218
+        ]
+      },
+      {
+        "name": "fish.png",
+        "alphaBounds": [
+          18,
+          173,
+          368,
+          366
+        ],
+        "cell": 14,
+        "atlasROI": [
+          688,
+          1028,
+          896,
+          1145
+        ]
+      },
+      {
+        "name": "reeds.png",
+        "alphaBounds": [
+          54,
+          16,
+          329,
+          368
+        ],
+        "cell": 15,
+        "atlasROI": [
+          971,
+          901,
+          1230,
+          1232
+        ]
+      }
+    ]
+  }
+]

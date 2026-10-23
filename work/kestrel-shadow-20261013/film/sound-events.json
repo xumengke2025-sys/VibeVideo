@@ -1,0 +1,2677 @@
+{
+  "duration": 30,
+  "sampleRate": 48000,
+  "channels": 2,
+  "events": 333,
+  "peak": 0.79,
+  "rms": 0.04228611170194386,
+  "actualListening": false,
+  "method": "Recorded Jingju percussion samples arranged on shared action events; original synthesized leather-wing, air and flight foley. No recorded bird voices.",
+  "license": "CC BY 4.0 sample attribution in audio-assets/ATTRIBUTION.md",
+  "timeline": [
+    {
+      "t": 0.35,
+      "len": 0.18577083333333333,
+      "gain": 0.14,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 0.35,
+      "len": 0.9,
+      "gain": 0.051800000000000006,
+      "pan": 0.25,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 1.15,
+      "len": 0.209,
+      "gain": 0.09100000000000001,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 1.5499999999999998,
+      "len": 0.12,
+      "gain": 0.03780000000000001,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 1.95,
+      "len": 0.18577083333333333,
+      "gain": 0.09100000000000001,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 2.75,
+      "len": 0.209,
+      "gain": 0.09100000000000001,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 3.15,
+      "len": 0.12,
+      "gain": 0.03780000000000001,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 3.55,
+      "len": 0.18577083333333333,
+      "gain": 0.14,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 4.65,
+      "len": 0.209,
+      "gain": 0.22,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 4.65,
+      "len": 0.9,
+      "gain": 0.0814,
+      "pan": 0.25,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 4.91,
+      "len": 0.18577083333333333,
+      "gain": 0.14300000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 5.04,
+      "len": 0.12,
+      "gain": 0.0594,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 5.17,
+      "len": 0.209,
+      "gain": 0.14300000000000002,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 5.43,
+      "len": 0.18577083333333333,
+      "gain": 0.14300000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 5.56,
+      "len": 0.12,
+      "gain": 0.0594,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 5.6899999999999995,
+      "len": 0.209,
+      "gain": 0.22,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 5.949999999999999,
+      "len": 0.18577083333333333,
+      "gain": 0.14300000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 6.079999999999999,
+      "len": 0.12,
+      "gain": 0.0594,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 6.4,
+      "len": 0.209,
+      "gain": 0.23,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 6.4,
+      "len": 0.9,
+      "gain": 0.08510000000000001,
+      "pan": 0.25,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 6.74,
+      "len": 0.18577083333333333,
+      "gain": 0.14950000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 6.91,
+      "len": 0.12,
+      "gain": 0.06210000000000001,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 7.08,
+      "len": 0.209,
+      "gain": 0.14950000000000002,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 7.42,
+      "len": 0.18577083333333333,
+      "gain": 0.14950000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 7.59,
+      "len": 0.12,
+      "gain": 0.06210000000000001,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 7.76,
+      "len": 0.209,
+      "gain": 0.23,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 8.1,
+      "len": 0.18577083333333333,
+      "gain": 0.14950000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 8.27,
+      "len": 0.12,
+      "gain": 0.06210000000000001,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 8.44,
+      "len": 0.209,
+      "gain": 0.14950000000000002,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 8.78,
+      "len": 0.18577083333333333,
+      "gain": 0.14950000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 8.95,
+      "len": 0.12,
+      "gain": 0.06210000000000001,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 9.12,
+      "len": 0.209,
+      "gain": 0.23,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 9.12,
+      "len": 0.9,
+      "gain": 0.08510000000000001,
+      "pan": 0.25,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 9.459999999999999,
+      "len": 0.18577083333333333,
+      "gain": 0.14950000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 9.629999999999999,
+      "len": 0.12,
+      "gain": 0.06210000000000001,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 9.799999999999999,
+      "len": 0.209,
+      "gain": 0.14950000000000002,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 10.139999999999999,
+      "len": 0.18577083333333333,
+      "gain": 0.14950000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 10.309999999999999,
+      "len": 0.12,
+      "gain": 0.06210000000000001,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 10.479999999999999,
+      "len": 0.209,
+      "gain": 0.23,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 10.819999999999999,
+      "len": 0.18577083333333333,
+      "gain": 0.14950000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 10.989999999999998,
+      "len": 0.12,
+      "gain": 0.06210000000000001,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 11.159999999999998,
+      "len": 0.209,
+      "gain": 0.14950000000000002,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 11.8,
+      "len": 0.18577083333333333,
+      "gain": 0.26,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 11.8,
+      "len": 0.9,
+      "gain": 0.09620000000000001,
+      "pan": 0.25,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 12.030000000000001,
+      "len": 0.209,
+      "gain": 0.169,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 12.145000000000001,
+      "len": 0.12,
+      "gain": 0.07020000000000001,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 12.260000000000002,
+      "len": 0.18577083333333333,
+      "gain": 0.169,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 12.490000000000002,
+      "len": 0.209,
+      "gain": 0.169,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 12.605000000000002,
+      "len": 0.12,
+      "gain": 0.07020000000000001,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 12.720000000000002,
+      "len": 0.18577083333333333,
+      "gain": 0.26,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.2,
+      "len": 0.209,
+      "gain": 0.25,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.2,
+      "len": 0.9,
+      "gain": 0.0925,
+      "pan": 0.25,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.42,
+      "len": 0.18577083333333333,
+      "gain": 0.1625,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.53,
+      "len": 0.12,
+      "gain": 0.0675,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.64,
+      "len": 0.209,
+      "gain": 0.1625,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.860000000000001,
+      "len": 0.18577083333333333,
+      "gain": 0.1625,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.97,
+      "len": 0.12,
+      "gain": 0.0675,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.080000000000002,
+      "len": 0.209,
+      "gain": 0.25,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.300000000000002,
+      "len": 0.18577083333333333,
+      "gain": 0.1625,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.410000000000002,
+      "len": 0.12,
+      "gain": 0.0675,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.520000000000003,
+      "len": 0.209,
+      "gain": 0.1625,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.740000000000004,
+      "len": 0.18577083333333333,
+      "gain": 0.1625,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.850000000000003,
+      "len": 0.12,
+      "gain": 0.0675,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.960000000000004,
+      "len": 0.209,
+      "gain": 0.25,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.960000000000004,
+      "len": 0.9,
+      "gain": 0.0925,
+      "pan": 0.25,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 15.180000000000005,
+      "len": 0.18577083333333333,
+      "gain": 0.1625,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 15.290000000000004,
+      "len": 0.12,
+      "gain": 0.0675,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 16.5,
+      "len": 0.209,
+      "gain": 0.22,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 16.5,
+      "len": 0.9,
+      "gain": 0.0814,
+      "pan": 0.25,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 16.83,
+      "len": 0.18577083333333333,
+      "gain": 0.14300000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 16.994999999999997,
+      "len": 0.12,
+      "gain": 0.0594,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 17.159999999999997,
+      "len": 0.209,
+      "gain": 0.14300000000000002,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 17.489999999999995,
+      "len": 0.18577083333333333,
+      "gain": 0.14300000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 17.654999999999994,
+      "len": 0.12,
+      "gain": 0.0594,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 17.819999999999993,
+      "len": 0.209,
+      "gain": 0.22,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 18.14999999999999,
+      "len": 0.18577083333333333,
+      "gain": 0.14300000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 18.31499999999999,
+      "len": 0.12,
+      "gain": 0.0594,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 18.47999999999999,
+      "len": 0.209,
+      "gain": 0.14300000000000002,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 18.809999999999988,
+      "len": 0.18577083333333333,
+      "gain": 0.14300000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 18.974999999999987,
+      "len": 0.12,
+      "gain": 0.0594,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 19.139999999999986,
+      "len": 0.209,
+      "gain": 0.22,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 19.139999999999986,
+      "len": 0.9,
+      "gain": 0.0814,
+      "pan": 0.25,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 19.469999999999985,
+      "len": 0.18577083333333333,
+      "gain": 0.14300000000000002,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 19.634999999999984,
+      "len": 0.12,
+      "gain": 0.0594,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 19.799999999999983,
+      "len": 0.209,
+      "gain": 0.14300000000000002,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 20.8,
+      "len": 0.18577083333333333,
+      "gain": 0.15,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 20.8,
+      "len": 0.9,
+      "gain": 0.0555,
+      "pan": 0.25,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 21.37,
+      "len": 0.209,
+      "gain": 0.0975,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 21.655,
+      "len": 0.12,
+      "gain": 0.0405,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 21.94,
+      "len": 0.18577083333333333,
+      "gain": 0.0975,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 22.51,
+      "len": 0.209,
+      "gain": 0.0975,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 22.795,
+      "len": 0.12,
+      "gain": 0.0405,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 23.080000000000002,
+      "len": 0.18577083333333333,
+      "gain": 0.15,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 23.650000000000002,
+      "len": 0.209,
+      "gain": 0.0975,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 23.935000000000002,
+      "len": 0.12,
+      "gain": 0.0405,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 24.220000000000002,
+      "len": 0.18577083333333333,
+      "gain": 0.0975,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 24.790000000000003,
+      "len": 0.209,
+      "gain": 0.0975,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 25.075000000000003,
+      "len": 0.12,
+      "gain": 0.0405,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 25.360000000000003,
+      "len": 0.18577083333333333,
+      "gain": 0.15,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 25.360000000000003,
+      "len": 0.9,
+      "gain": 0.0555,
+      "pan": 0.25,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 26.4,
+      "len": 0.209,
+      "gain": 0.13,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 26.4,
+      "len": 0.9,
+      "gain": 0.048100000000000004,
+      "pan": 0.25,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 27.22,
+      "len": 0.18577083333333333,
+      "gain": 0.0845,
+      "pan": -0.15,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 27.63,
+      "len": 0.12,
+      "gain": 0.035100000000000006,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 28.04,
+      "len": 0.209,
+      "gain": 0.0845,
+      "pan": -0.15,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 4.85,
+      "len": 0.9,
+      "gain": 0.2,
+      "pan": 0.1,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 6.35,
+      "len": 0.65,
+      "gain": 0.22,
+      "pan": -0.1,
+      "type": "cymbal",
+      "bus": "percussion"
+    },
+    {
+      "t": 12.25,
+      "len": 1.3,
+      "gain": 0.25,
+      "pan": 0,
+      "type": "bigGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 15.2,
+      "len": 1.1,
+      "gain": 0.3,
+      "pan": 0.1,
+      "type": "bigGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 20.4,
+      "len": 0.9,
+      "gain": 0.12,
+      "pan": -0.2,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 28.05,
+      "len": 0.12,
+      "gain": 0.09,
+      "pan": 0.23,
+      "type": "original_wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 28.5,
+      "len": 1.0332916666666667,
+      "gain": 0.105,
+      "pan": 0.1,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 0,
+      "len": 30,
+      "gain": 0.034,
+      "pan": 0,
+      "type": "original_forest_air",
+      "bus": "foley"
+    },
+    {
+      "t": 5.1,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": 0.249583972635738,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 5.417460317460317,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": 0.24925920645952376,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 5.734920634920634,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": 0.24440943392030473,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 6.052380952380951,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": 0.2350786106453686,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 6.3698412698412685,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": 0.2213513060009783,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 6.687301587301586,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": 0.20335193660290984,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 7.004761904761903,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": 0.18124363867379578,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 7.32222222222222,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": 0.15522678946759594,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 7.639682539682537,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": 0.12553719116217726,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 7.957142857142855,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": 0.09244393368018716,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 8.274603174603172,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": 0.0562469558084141,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 8.59206349206349,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": 0.017274326720289723,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 8.909523809523808,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.02412072745970953,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 9.226984126984126,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.06756302510020307,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 9.544444444444444,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.11265882949948636,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 9.861904761904762,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.15899941749489896,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 10.17936507936508,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.20616478390109508,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 10.496825396825399,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.2537274482022621,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 10.814285714285717,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.3012563289965561,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 11.131746031746035,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.34832065107695354,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 11.449206349206353,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.39449384973692786,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 11.766666666666671,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.4393574369144994,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 12.08412698412699,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.4825047941340965,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 12.401587301587307,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.5235448578691193,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 12.719047619047625,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.5621056639231418,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 13.036507936507943,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.5978377187054604,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 13.353968253968262,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.6304171668456364,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 13.67142857142858,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.6595487264375371,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 13.988888888888898,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.6849683653094727,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 14.306349206349216,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.7064456940642074,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 14.623809523809534,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.723786054199668,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 14.941269841269852,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.7368322823847944,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 15.25873015873017,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.7454661349001173,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 15.576190476190488,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.7496093593327346,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 15.893650793650806,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.7492244038124387,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 16.211111111111123,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.7443147573608767,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 16.52857142857144,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.7349249182690083,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 16.846031746031755,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.7211399907894716,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 17.163492063492072,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.7030849137992092,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 17.480952380952388,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.6809233284233291,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 17.798412698412704,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.6548560948834211,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 18.11587301587302,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.6251194720127882,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 18.433333333333337,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.5919829759384501,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 18.750793650793653,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.5557469373376261,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 19.06825396825397,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.5167397794083616,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 19.385714285714286,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.47531504122524715,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 19.703174603174602,
+      "len": 0.125,
+      "gain": 0.05,
+      "pan": -0.4318481734588746,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 20.02063492063492,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": -0.38673313550083455,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 20.338095238095235,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": -0.34037882483601256,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 20.65555555555555,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": -0.29320537102435906,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 20.973015873015868,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": -0.2456403278814089,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 21.290476190476184,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": -0.1981147983694985,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 21.6079365079365,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": -0.15105952732150052,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 21.925396825396817,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": -0.10490099741044384,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 22.242857142857133,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": -0.06005756374896751,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 22.56031746031745,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": -0.016935662152439107,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 22.877777777777766,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.0240738745680793,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 23.195238095238082,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.06259935889595653,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 23.5126984126984,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.09829161737687064,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 23.830158730158715,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.13082715533181222,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 24.14761904761903,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.1599110888320222,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 24.465079365079347,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.1852798173620831,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 24.782539682539664,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.20670341294763883,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 25.09999999999998,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.22398770409402524,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 25.417460317460296,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.23697603564815656,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 25.734920634920613,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.24555068863326301,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 26.05238095238093,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.24963394718789206,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 26.369841269841245,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.24918880293903328,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 26.68730158730156,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.24421929042532414,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 27.004761904761878,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.23477045053024687,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 27.322222222222194,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.22092792225673824,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 27.63968253968251,
+      "len": 0.125,
+      "gain": 0.035,
+      "pan": 0.20281716654313914,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 6.3,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": 0.015130371249511514,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 6.425,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": 0.12592883770972854,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 6.55,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": 0.22889765896756817,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 6.675,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": 0.31763473243859897,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 6.8,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": 0.3866228166854231,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 6.925,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": 0.43157256676792904,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 7.05,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": 0.44968922493656294,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 7.175,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": 0.43984638513300717,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 7.3,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": 0.4026560274632269,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 7.425,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": 0.34043046823855894,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 7.55,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": 0.25703859134699486,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 7.675,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": 0.15766529979166025,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 7.8,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": 0.048489143534749826,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 7.925,
+      "len": 0.125,
+      "gain": 0.0338,
+      "pan": -0.06370183281380123,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 8.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.1719321377328041,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 8.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.2694725350673567,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 8.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.3502584353404343,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 8.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.4092669625532063,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 8.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.4428292522867395,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 8.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.4488585639217114,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 8.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.42698002406315577,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 8.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.37855393435249196,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 9.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.30659119449997496,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 9.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.21556609912376826,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 9.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.1111381477814794,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 9.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.0001998353009907861,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 9.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.11152539359233192,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 9.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.21591684307456752,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 9.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.306883629030661,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 9.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.3787698773003303,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 10.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.4271060491415526,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 10.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.44888683550168446,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 10.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.44275801257837727,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 10.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.4091006408965308,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 10.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.35000737281049177,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 10.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.2691523415162574,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 10.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.17156272124472305,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 10.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.06330616191672848,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 11.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.04888646794083589,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 11.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.15803957399959867,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 11.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.2573665447993037,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 11.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.3406917103779904,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 11.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.4028343155188568,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 11.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.4399306340170607,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 11.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.44967419646148243,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 11.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.4314591953315058,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 12.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.38641815117446826,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 12.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.3173514979633024,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 12.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.22855346567577994,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 12.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.12554508587325894,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 12.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.014730920698880394,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 12.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.0969991417764996,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 12.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.2026982674239252,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 12.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.29579459655603496,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 13.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.3704998503321367,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 13.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.4221692179014491,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 13.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.4475901482450272,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 13.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.44518209103838247,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 13.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.4150947676153886,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 13.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.35919886202090456,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 13.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.28096971093737616,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 13.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.18527122408244137,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 14.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.07805346986065145,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 14.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.03401727107123613,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 14.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.14397298284788915,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 14.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.24497715187287072,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 14.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.33074982812195,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 14.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.39595808201916544,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 14.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.4365475801682334,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 14.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.44999466416628436,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 15.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.43546325946021236,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 15.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.39385685841292606,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 15.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.32776234552421707,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 15.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.2412891574819345,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 15.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.1398137782924675,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 15.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.029645455545805277,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 15.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.08236607804126461,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 15.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.18925648782934457,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 16.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.2843798458530982,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 16.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.361821842433106,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 16.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.41676750930623785,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 16.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.44580059103133524,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 16.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.4471159512061777,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 16.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.42063180710593706,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 16.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.3679948145368988,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 16.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.29247768675387537,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 17.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.1987757130011507,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 17.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.0927148281685347,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 17.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.019110615622628186,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 17.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.1297478538951386,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 17.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.23231799903596714,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 17.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.32044373621068173,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 17.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.3886458339118302,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 17.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.43268381603584716,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 18.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.4498196141487613,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 18.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.4389878073198012,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 18.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.40086186483458763,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 18.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.33781227313684975,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 18.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.25375915046261815,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 18.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.15392851287509268,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 18.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.0445273458976303,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 18.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.06764231578305165,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 19.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.1756063058885758,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 19.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.27265194642926877,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 19.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.35274540950923183,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 19.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.41090687152053706,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 19.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.44352013445578486,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 19.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.4485574635854335,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 19.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.42570566218210865,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 19.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.3763855445761676,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 20.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.3036635968022401,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 20.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.21206131734987893,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 20.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.10727409228700142,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 20.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.004182916260659413,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 20.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.11537985133485812,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 20.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.2194030260862837,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 20.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.3097847833369517,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 20.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.3809056231779428,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 21.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.4283435962561341,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 21.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.4491492391676123,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 21.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.44202895780663554,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 21.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.40742545678170705,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 21.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.34749021418722326,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 21.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.2659497131160793,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 21.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.16787374698987995,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 21.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.059360204359130024,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 22.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.05284406827219308,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 22.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.16176275268443652,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 22.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.2606238126199219,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 22.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.34328054619762316,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 22.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.4045937580650619,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 22.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.44075128967403665,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 22.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.4495050408352595,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 22.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.4303107456996305,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 23.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.38436181257262536,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 23.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.3145151235660403,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 23.3,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.22511340750536415,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 23.425,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.12171523008507497,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 23.55,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": 0.010749389176232487,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 23.675,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.10088479668776773,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 23.8,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.20624645452129464,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 23.925,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.29878470675115615,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 24.05,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.37274597305544044,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 24.175,
+      "len": 0.125,
+      "gain": 0.026,
+      "pan": -0.423531700120919,
+      "type": "original_leather_wing",
+      "bus": "foley"
+    },
+    {
+      "t": 5.7,
+      "len": 1.7,
+      "gain": 0.065,
+      "pan": 0,
+      "type": "original_flight_whoosh",
+      "bus": "foley"
+    },
+    {
+      "t": 11.75,
+      "len": 0.8,
+      "gain": 0.07,
+      "pan": 0,
+      "type": "original_flight_whoosh",
+      "bus": "foley"
+    },
+    {
+      "t": 14.9,
+      "len": 0.65,
+      "gain": 0.09,
+      "pan": 0,
+      "type": "original_flight_whoosh",
+      "bus": "foley"
+    },
+    {
+      "t": 20,
+      "len": 1,
+      "gain": 0.055,
+      "pan": 0,
+      "type": "original_flight_whoosh",
+      "bus": "foley"
+    }
+  ]
+}

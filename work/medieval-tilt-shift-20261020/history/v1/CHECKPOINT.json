@@ -1,0 +1,35 @@
+{
+  "objective": "制定符合本地规范的中世纪奇幻移轴短片完整计划",
+  "date": "2026-10-20",
+  "status": "planning_complete_pending_choices",
+  "project_title": "暮钟镇的第一盏灯",
+  "aspect_ratio": null,
+  "width": null,
+  "height": null,
+  "delivery_mode": null,
+  "duration": 48,
+  "fps": 24,
+  "plan": "视频制作计划.md",
+  "structured_plan": "plan.json",
+  "completed": [
+    "已核对本地AGENTS及概念、导演、美术、运动、摄影、声音、样段规范",
+    "已制定创意比较、拟选故事、48秒镜头与事件表、资产路线、概念图与验证流程"
+  ],
+  "verification": {
+    "plan_structure": "passed: 6 shots, 18 representative states, 14 continuous windows, 0 errors; see plan-validation.json",
+    "render": "not_started",
+    "audio": "not_created_or_heard"
+  },
+  "unresolved": [
+    "画幅待用户选择，启动问题已问过",
+    "交付方式待用户选择，启动问题已问过",
+    "概念图方向尚未展示或获认可",
+    "小龙模型、音乐音效与运行依赖待制作阶段确认"
+  ],
+  "concept_paths": [],
+  "feedback": [],
+  "protected_items": [],
+  "next_action": "向用户交付计划。本轮不生成概念图或成片。用户后续选择画幅与交付方式后更新字段，制作整体效果图。",
+  "do_not_resume_other_projects": true
+}
+

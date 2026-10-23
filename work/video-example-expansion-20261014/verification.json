@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-14",
+  "previewBefore": 76,
+  "previewAfter": 98,
+  "addedEntries": 22,
+  "newVideos": 21,
+  "newVideoBytes": 80833267,
+  "shots": 20,
+  "fullFilmsAdded": 2,
+  "reusedFilms": 1,
+  "pinnedSourceFiles": 257,
+  "allAcquiredGitBlobsVerified": true,
+  "oldPreviewIdsPreserved": true,
+  "duplicateNewMedia": [],
+  "missingLinks": [],
+  "mediaDecodes": 22,
+  "allDecodePassed": true,
+  "httpChecks": [
+    {
+      "id": "shotcraft/drone-dive-landing",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/steep-tilt-glide",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/graze-face-tour",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/cursor-flyover",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/icon-flip-bloom",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/line-carry-transition",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/input-morph-assemble",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/autolayout-gap-dial",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/circle-match-iris",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/basic-3d-scene",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/mosaic-reframe",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/terminal-3d",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/oscilloscope-stream",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/exploded-view",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/bullet-time-freeze-orbit",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/unit-dot-swarm-regroup",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/needle-sweep-selftest",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/axis-rescale-shock",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/timeline-travel",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "shotcraft/tape-scroll-fixed-pointer",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "opus-paints/_timeline",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    },
+    {
+      "id": "particle-beach/trailer-1",
+      "rangeStatus": 206,
+      "sourceStatus": 200
+    }
+  ],
+  "skillSync": [
+    {
+      "file": "SKILL.md",
+      "project": "c4a14b9465352a6d9ebd0cc4e1f2dfd290da671d9aec10e7fcbcfcef827408b1",
+      "installed": "c4a14b9465352a6d9ebd0cc4e1f2dfd290da671d9aec10e7fcbcfcef827408b1"
+    },
+    {
+      "file": "scripts/video_examples.mjs",
+      "project": "07e409f0f42e72d80c3ce1a408698f6396ee6523608d087105d770fdcc918d5d",
+      "installed": "07e409f0f42e72d80c3ce1a408698f6396ee6523608d087105d770fdcc918d5d"
+    },
+    {
+      "file": "references/video-example-library.md",
+      "project": "e77281cf5aa6f38cf2a04a4793c0d9b3d02a6d893d3fdb6b40b31f2f1a6c4fd1",
+      "installed": "e77281cf5aa6f38cf2a04a4793c0d9b3d02a6d893d3fdb6b40b31f2f1a6c4fd1"
+    },
+    {
+      "file": "references/video-examples.json",
+      "project": "d38d0e7625b175296e7df81c927cc35b4b40eb1139661faa93d6cba750696f08",
+      "installed": "d38d0e7625b175296e7df81c927cc35b4b40eb1139661faa93d6cba750696f08"
+    }
+  ],
+  "cliChecks": {
+    "verify": true,
+    "dataGroupCount": 6,
+    "filmKindCount": 2,
+    "exactDemo": true
+  },
+  "scope": "工程检查；浏览器播放mosaic-reframe已观察到时间推进/readyState4/无错误；未全库动态观看、听音或重渲",
+  "limitations": [
+    "Shotcraft部署预览未提供固定Git版本，Gallery映射不证明同版本重渲一致性",
+    "Claude Glass使用macOS字体，Windows重建需替换或合法取得",
+    "本次新媒体和源码在本地归档，未发布GitHub"
+  ],
+  "skillValidation": {
+    "installed": true,
+    "project": true,
+    "pythonUtf8": true
+  },
+  "browserFilters": {
+    "newRoundAll": 22,
+    "newRoundFilmKind": 2,
+    "searchMosaic": 1,
+    "total": 98
+  },
+  "screenshot": "work/video-example-expansion-20261014/gallery.png"
+}

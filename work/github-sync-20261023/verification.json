@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-23",
+  "repository": "https://github.com/xumengke2025-sys/VibeVideo",
+  "branch": "main",
+  "baseline": "f8f73d8",
+  "scope": "Updated tracked files and new project source, documentation, source metadata and notices; new binary production assets and local caches remain local. This is not a complete production-asset backup.",
+  "userConfirmedExistingPublicationRules": true,
+  "stagedSnapshotBeforeReceipt": {
+    "files": 2068,
+    "bytes": 73723025
+  },
+  "checks": {
+    "credentialPatterns": {
+      "hits": []
+    },
+    "fileSize": {
+      "over100MiB": []
+    },
+    "referenceCoverage": {
+      "catalog": 498,
+      "sourceCount": 288,
+      "restoreFiles": 8745,
+      "restoreBytes": 6506105086,
+      "duplicateRestorePaths": 0,
+      "unpublishedRequiredPaths": []
+    },
+    "localReferenceIntegrity": {
+      "completed": 8745,
+      "total": 8745,
+      "errors": []
+    },
+    "coreJsonParse": "passed",
+    "whitespace": {
+      "exitCode": 2,
+      "reportLines": 255,
+      "note": "Existing source snapshots, prompts and upstream licenses contain trailing whitespace or blank EOF lines. Preserved originals; not represented as a passing full diff check."
+    }
+  },
+  "publication": "prepared; push and remote-commit confirmation follow in the local checkpoint"
+}

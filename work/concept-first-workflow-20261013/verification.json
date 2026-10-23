@@ -1,0 +1,46 @@
+{
+  "version": "0.15.1",
+  "files": [
+    {
+      "file": "SKILL.md",
+      "project_sha256": "658c78cb907e5f53f9c7165c9a2937e48100acc8500d3ea824c084cffc42abc5",
+      "installed_sha256": "658c78cb907e5f53f9c7165c9a2937e48100acc8500d3ea824c084cffc42abc5",
+      "copies_equal": true
+    },
+    {
+      "file": "references/concept-first.md",
+      "project_sha256": "99599fae4ad23f593e383643aba1f5c3ca1e87f1274f9e0b16a9f76f16ae8bee",
+      "installed_sha256": "99599fae4ad23f593e383643aba1f5c3ca1e87f1274f9e0b16a9f76f16ae8bee",
+      "copies_equal": true
+    },
+    {
+      "file": "references/production-quality.md",
+      "project_sha256": "b94a2eb5963d058d3255dd09d5b4cd90c49101d461602555516250a7db252f2e",
+      "installed_sha256": "b94a2eb5963d058d3255dd09d5b4cd90c49101d461602555516250a7db252f2e",
+      "copies_equal": true
+    },
+    {
+      "file": "references/director-design.md",
+      "project_sha256": "a6158af98b398ab25b8dded2ccb4bc1d6da8c71bcdf6bd662265db8285c7bf44",
+      "installed_sha256": "a6158af98b398ab25b8dded2ccb4bc1d6da8c71bcdf6bd662265db8285c7bf44",
+      "copies_equal": true
+    }
+  ],
+  "experience_paths": [
+    {
+      "path": "work/firmbuddy-blueprint-20261012/concepts/v6b",
+      "exists": true
+    },
+    {
+      "path": "work/firmbuddy-blueprint-20261012/concepts/v6-stages",
+      "exists": true
+    },
+    {
+      "path": "work/firmbuddy-blueprint-20261012/v10",
+      "exists": true
+    }
+  ],
+  "validation": "Both quick_validate runs passed (exit 0, Skill is valid); git diff --check passed.",
+  "scope": "Workflow documentation only; no video rendered.",
+  "validation_environment": "Task-local PyYAML 6.0.3; Python -X utf8; no global dependency changes."
+}

@@ -1,0 +1,956 @@
+{
+  "video_path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\film\\out\\final-reference-v6\\video.mp4",
+  "video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+  "reviewer": {
+    "mode": "independent_agent",
+    "id": "/root/heron_review"
+  },
+  "review_round": {
+    "initial_review": false,
+    "production_repairs_used": 1,
+    "localized_recheck": true,
+    "round_complete": true
+  },
+  "prior_review": {
+    "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+    "video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+    "previous_actual_visual_coverage": [
+      0,
+      1199
+    ],
+    "automatically_inherited": false
+  },
+  "coverage": {
+    "decoded_frames": 1200,
+    "visual_ranges": [
+      {
+        "start_frame": 0,
+        "end_frame": 23,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0000-0023.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。清晨影窗、树枝与夜鹭出发序列；彩色镂空角色与关节可见。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0000-0023.jpg": "c7d63aa61e6d71e40155f3127b78c30164badea95ee22094f84c9a36e9b850ad"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 24,
+        "end_frame": 47,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0024-0047.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。清晨影窗、树枝与夜鹭出发序列；彩色镂空角色与关节可见。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0024-0047.jpg": "33d5c24c725bab76932821be932b0fffe34c478a994a735b1adff0ca791037aa"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 48,
+        "end_frame": 71,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0048-0071.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。清晨影窗、树枝与夜鹭出发序列；彩色镂空角色与关节可见。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0048-0071.jpg": "c3a122d131698bc562b2249ea7a70dd0ed67d3fe214cea24a96002972985390e"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 72,
+        "end_frame": 95,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0072-0095.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。清晨影窗、树枝与夜鹭出发序列；彩色镂空角色与关节可见。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0072-0095.jpg": "d0df68a16557e7b653ac6a31d044fa7bd9d2bb199a88098690ca946c860acfb9"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 96,
+        "end_frame": 119,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0096-0119.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "清晨出发尾段，F119 到 F120 切入园场景，没有空帧或残留叠影。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0096-0119.jpg": "109b7755c8377e8920c66da0ba664f1b6ccca112988173601e31d4bee6462cab"
+        }
+      },
+      {
+        "start_frame": 120,
+        "end_frame": 143,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0120-0143.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "入园镜头开端：浅金色动物园门牌位于横梁上方，缩图中地点清楚。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0120-0143.jpg": "27633db71545f14d0dd4958d6dd35d31e213976b0108f768e59963b797106048"
+        }
+      },
+      {
+        "start_frame": 144,
+        "end_frame": 167,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0144-0167.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "夜鹭穿门的小步序列，牌字保持清楚，门架和角色完整。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0144-0167.jpg": "aa2a9ef934c3817fb1660631806932aabe19d3fbae8b3afd5c1ade4e6fc39bdc"
+        }
+      },
+      {
+        "start_frame": 168,
+        "end_frame": 191,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0168-0191.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "门牌文字对比和位置稳定；另看 F168 原尺寸，字形清楚无横梁遮字。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0168-0191.jpg": "ab415ecc73ca44d26d89820df38abd5c76f7ffc681939c27d266ee760c6bc568"
+        }
+      },
+      {
+        "start_frame": 192,
+        "end_frame": 215,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0192-0215.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "入园中后段，门牌清楚，夜鹭逐帧前进，未见修复引入的抖动或文字跳变。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0192-0215.jpg": "4c1de30c4070b8fdffcebc2f31c1b1cab66981b3fbe0ba6d5685cb56a4057add"
+        }
+      },
+      {
+        "start_frame": 216,
+        "end_frame": 239,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0216-0239.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "入园尾段稳定，F239 到 F240 切到企鹅假山场景，没有黑帧或门牌残留。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0216-0239.jpg": "a1e7e1a4c1baaa045fd486132fe1eb512786a0a48daf1965eced9ae4148f4122"
+        }
+      },
+      {
+        "start_frame": 240,
+        "end_frame": 263,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0240-0263.jpg"
+        ],
+        "method": "continuous_contact_sheet",
+        "observation": "相邻企鹅场景首段，假山、企鹅、桶与主角完整，场景硬切因果清楚。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\sheet-0240-0263.jpg": "bfe7ec1a2eddeecdbc6bcdeac8a4929e30f51b37fe44a8761318073bf1444efe"
+        }
+      },
+      {
+        "start_frame": 264,
+        "end_frame": 287,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0264-0287.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。企鹅、桶及假山建立；主角回看，刚性压窄翻面序列可辨。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0264-0287.jpg": "b94f857863c4316941a851d86406a1f7846428cfc16016631668b568700a441b"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 288,
+        "end_frame": 311,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0288-0311.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。企鹅、桶及假山建立；主角回看，刚性压窄翻面序列可辨。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0288-0311.jpg": "59b3b20cb1caf2dc101c98ad850328a0f7237fbf47807be2a1eb51ee5f87ea75"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 312,
+        "end_frame": 335,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0312-0335.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。企鹅、桶及假山建立；主角回看，刚性压窄翻面序列可辨。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0312-0335.jpg": "9176b2b474889b250fc965fa989f35dda131d195adfdadf6ae17f11a6bc9193d"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 336,
+        "end_frame": 359,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0336-0359.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。企鹅、桶及假山建立；主角回看，刚性压窄翻面序列可辨。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0336-0359.jpg": "10e31226c19af923510b35e8cf63cb95140f0af5399b4d565276c311353eaf6d"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 360,
+        "end_frame": 383,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0360-0383.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。伪装动作从常态转为直立收颈，腿靠近、小步；与企鹅身高接近。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0360-0383.jpg": "6e7f66023401071355418125fdc6d9f13d97a30d362d9145a7523eb33c48825e"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 384,
+        "end_frame": 407,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0384-0407.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。伪装动作从常态转为直立收颈，腿靠近、小步；与企鹅身高接近。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0384-0407.jpg": "5c64c3983b766844bbe1d0b188970735cac22dac5489226d38e81bb0d63dab54"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 408,
+        "end_frame": 431,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0408-0431.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。伪装动作从常态转为直立收颈，腿靠近、小步；与企鹅身高接近。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0408-0431.jpg": "797aa89e6c1954ba29954df6b5b16c70fc025584c23f45a598c4ad679947dc70"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 432,
+        "end_frame": 455,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0432-0455.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。伪装动作从常态转为直立收颈，腿靠近、小步；与企鹅身高接近。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0432-0455.jpg": "b8539f569b0e3b1dba993c19dfc4c6cf6f1c1d1c537da02ef9f39cf604475976"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 456,
+        "end_frame": 479,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0456-0479.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。伪装动作从常态转为直立收颈，腿靠近、小步；与企鹅身高接近。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0456-0479.jpg": "bda34ed236693cdfc3d5ed8acef5a0580f0416d2085b3539e1205e45cc3c4a87"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 480,
+        "end_frame": 503,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0480-0503.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。伪装动作从常态转为直立收颈，腿靠近、小步；与企鹅身高接近。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0480-0503.jpg": "e675c18ac261662ceffa6e3fcbe1da80b2ca60016b79032b46d94f4e62326f4a"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 504,
+        "end_frame": 527,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0504-0527.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。停步回看再朝桶转向；压窄薄边与另一面连续，主角身份纹样保留。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0504-0527.jpg": "668da886a991c77282fac31484f486fd29b35696f7b6b14bbda8adbb79c326ef"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 528,
+        "end_frame": 551,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0528-0551.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。停步回看再朝桶转向；压窄薄边与另一面连续，主角身份纹样保留。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0528-0551.jpg": "3e62a40a210ac9424e2c7a7266ab959b18278a9bf90c6c3f7704b48088996fc7"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 552,
+        "end_frame": 575,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0552-0575.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。停步回看再朝桶转向；压窄薄边与另一面连续，主角身份纹样保留。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0552-0575.jpg": "03f7ef1547132096b9b3ab225ca995de87c54ef735503fc51c01d46bd8cdfb65"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 576,
+        "end_frame": 599,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0576-0599.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。停步回看再朝桶转向；压窄薄边与另一面连续，主角身份纹样保留。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0576-0599.jpg": "1bd1f9ae4adad771b5b72e75dbef97bf7be2252f0f9857c795e913283fb5cfb2"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 600,
+        "end_frame": 623,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0600-0623.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。停步回看再朝桶转向；压窄薄边与另一面连续，主角身份纹样保留。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0600-0623.jpg": "76fa0da02a12b166b4505d1d5f2a47f84fe271c8cd0a7c1ac0d8a72d3cf956d9"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 624,
+        "end_frame": 647,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0624-0647.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。停步回看再朝桶转向；压窄薄边与另一面连续，主角身份纹样保留。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0624-0647.jpg": "9a6a9c6ab2d6dc28410c3fd643c04ed6c0b3bf2cf7bea8c96b77c867b75468f3"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 648,
+        "end_frame": 671,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0648-0671.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。伸颈、开喙入桶、取鱼并收颈；鱼在缩图偏难辨，原尺寸能追踪。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0648-0671.jpg": "bbce2ad714e02a029e3b2db111421c0f2d176de0d5cac8e1ba0ce797d3abd437"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 672,
+        "end_frame": 695,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0672-0695.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。伸颈、开喙入桶、取鱼并收颈；鱼在缩图偏难辨，原尺寸能追踪。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0672-0695.jpg": "c5eeaeef96f68a936095a2cccebfe6f2f333220400ffb62b76566448ce139447"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 696,
+        "end_frame": 719,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0696-0719.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。伸颈、开喙入桶、取鱼并收颈；鱼在缩图偏难辨，原尺寸能追踪。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0696-0719.jpg": "6854c543b2afde964cd4f37532c6ea1a75d49f0bfb31a52450f429327c45511f"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 720,
+        "end_frame": 743,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0720-0743.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。伸颈、开喙入桶、取鱼并收颈；鱼在缩图偏难辨，原尺寸能追踪。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0720-0743.jpg": "71198d08a3850f4fb8cf10f4e9b538ffd2b9f48102e9c9b46a6e5107cc2d069c"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 744,
+        "end_frame": 767,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0744-0767.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。伸颈、开喙入桶、取鱼并收颈；鱼在缩图偏难辨，原尺寸能追踪。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0744-0767.jpg": "5cf48f56c166f25038acf4fc3b330dac74805032144fae791894ebc0ad68c078"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 768,
+        "end_frame": 791,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0768-0791.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。企鹅回看，夜鹭停顿并翻面离开；鱼仍在喙边。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0768-0791.jpg": "458d8b0b6c34defdc6214b7a302f9e0dac8905dbc4271177fa6411f336232db3"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 792,
+        "end_frame": 815,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0792-0815.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。企鹅回看，夜鹭停顿并翻面离开；鱼仍在喙边。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0792-0815.jpg": "3cee73d1a069a8da4c1dda5fe5eff5d3413028638cc75c5e1f276403d715aecd"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 816,
+        "end_frame": 839,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0816-0839.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。企鹅回看，夜鹭停顿并翻面离开；鱼仍在喙边。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0816-0839.jpg": "b23431de850493ca2cdf56c51cb857c28071e2aeb64e6ce66c2a3c24ade4a0e1"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 840,
+        "end_frame": 863,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0840-0863.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。企鹅回看，夜鹭停顿并翻面离开；鱼仍在喙边。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0840-0863.jpg": "65fd4d2cfb8d2b5e30c5e5e6396ee4ea0de5a8ff58b3d4b6f565605dea2fd3ad"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 864,
+        "end_frame": 887,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0864-0887.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。夜鹭向左返家，携带鱼；植被有前景遮盖，脸与路线可辨。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0864-0887.jpg": "428148930ad24fbacb725c661b3e97e73eb5e013fcfc5665d4b11e593df35ff9"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 888,
+        "end_frame": 911,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0888-0911.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。夜鹭向左返家，携带鱼；植被有前景遮盖，脸与路线可辨。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0888-0911.jpg": "a0cdf7889b7dcfdcdf7bd1cf009294e0b614526d8cfff61ea584ab2b142cbefb"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 912,
+        "end_frame": 935,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0912-0935.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。夜鹭向左返家，携带鱼；植被有前景遮盖，脸与路线可辨。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0912-0935.jpg": "1805ac4af6faa88100aeb618b1b48554a9c7877b3d33a6dcaec4b26fd164423b"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 936,
+        "end_frame": 959,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0936-0959.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。夜鹭向左返家，携带鱼；植被有前景遮盖，脸与路线可辨。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0936-0959.jpg": "6e1ba3d1a67cc25bcaba61789aefb154443d4dfb4be76cfcbebf7d375034b230"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 960,
+        "end_frame": 983,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0960-0983.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。夜鹭向左返家，携带鱼；植被有前景遮盖，脸与路线可辨。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0960-0983.jpg": "51eb8b23e55788cbebcdd8a88401f5957a94c3ebba7c0edc07ce1eba3dc5978b"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 984,
+        "end_frame": 1007,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0984-1007.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。两只幼鸟迎食、伸颈；成年鸟低头将鱼移向巢，巢前沿遮挡归属交接。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-0984-1007.jpg": "0b74d2816479e1229b5796ae844fcc494a841b053ece23098250897881bbca0f"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 1008,
+        "end_frame": 1031,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1008-1031.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。两只幼鸟迎食、伸颈；成年鸟低头将鱼移向巢，巢前沿遮挡归属交接。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1008-1031.jpg": "d456c8213e3844237fa4dce03c3f7e22f9593539e88ea8b59bf98b5fd80a00fa"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 1032,
+        "end_frame": 1055,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1032-1055.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。两只幼鸟迎食、伸颈；成年鸟低头将鱼移向巢，巢前沿遮挡归属交接。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1032-1055.jpg": "488f5ec4ef85f2a5944638dde95c9137b607e36cf482371d9f6d61c0e51c092f"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 1056,
+        "end_frame": 1079,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1056-1079.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。鱼进入巢后消失于成年鸟喙边，成年鸟收颈，幼鸟回落。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1056-1079.jpg": "2a8eb4d36abcf4719a73252a1ccc521896c443dbf8adb8cc948f7ae459a1a055"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 1080,
+        "end_frame": 1103,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1080-1103.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。鱼进入巢后消失于成年鸟喙边，成年鸟收颈，幼鸟回落。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1080-1103.jpg": "31195cbe48145629f55941d667beca003a010630138ec8ccb81aff0ec9e71633"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 1104,
+        "end_frame": 1127,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1104-1127.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。家庭结尾与晚间收场字卡，主体完整，未见突兀空帧。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1104-1127.jpg": "18d0641f0db91894d58c810f8a5c2542be237ce29a2572dc48bacf8ca47b769b"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 1128,
+        "end_frame": 1151,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1128-1151.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。家庭结尾与晚间收场字卡，主体完整，未见突兀空帧。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1128-1151.jpg": "7cefd8629540e00c8d7fce91059b4488e6bb4ebee8de0283ad88c8ddf8d1bb54"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 1152,
+        "end_frame": 1175,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1152-1175.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。家庭结尾与晚间收场字卡，主体完整，未见突兀空帧。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1152-1175.jpg": "2be459c2e7838c4c9af99a24d615ce28d28818fb44cfedffc5f9a99bc4a549f6"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      },
+      {
+        "start_frame": 1176,
+        "end_frame": 1199,
+        "evidence": [
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1176-1199.jpg"
+        ],
+        "method": "continuous_contact_sheet_reused_by_exact_decoded_frame_equivalence",
+        "observation": "复用旧版已实际查看的逐帧证据；新版对应解码帧 SHA256 完全相同。家庭结尾与晚间收场字卡，主体完整，未见突兀空帧。",
+        "source_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+        "evidence_sha256": {
+          "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\sheet-1176-1199.jpg": "7d7e606a906e8c19eea24385149bf5d75fd561f896c8351a132e32803071b5a5"
+        },
+        "original_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+        "original_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+        "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+      }
+    ],
+    "unreviewed_frame_ranges": [],
+    "full_resolution_frames": [
+      168
+    ],
+    "realtime_viewed_ranges_seconds": [],
+    "audio_listened_ranges_seconds": [],
+    "audio_perception": {
+      "status": "unavailable",
+      "tool": null
+    },
+    "audio_status": "pending",
+    "directly_viewed_current_version_frame_ranges": [
+      {
+        "start_frame": 96,
+        "end_frame": 263
+      }
+    ],
+    "reused_previous_observation_frame_ranges": [
+      {
+        "start_frame": 0,
+        "end_frame": 95
+      },
+      {
+        "start_frame": 264,
+        "end_frame": 1199
+      }
+    ],
+    "effective_visual_coverage_frames": 1200,
+    "directly_viewed_current_version_frames": 168
+  },
+  "findings": [
+    {
+      "id": "NH-V5-01",
+      "severity": "major",
+      "frame_range": [
+        120,
+        239
+      ],
+      "time_range": [
+        5,
+        10
+      ],
+      "evidence": [
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\decoded\\00168.jpg"
+      ],
+      "observation": "动物园门牌文字与底板同为棕色且被横梁叠过，原尺寸仍难辨。",
+      "impact": "入园地点交代受损，用户明确要求动物园场景。",
+      "proposed_fix": "浅金色透光镂空字，提高明暗对比并避开横梁叠字。",
+      "recheck_status": "resolved",
+      "recheck_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+      "recheck_observation": "新版 F120–239 门牌浅金透光字清楚，横梁在牌下方；F168 原尺寸无横梁遮字，地点交代恢复。"
+    },
+    {
+      "id": "NH-V5-02",
+      "severity": "minor",
+      "frame_range": [
+        696,
+        1060
+      ],
+      "time_range": [
+        29,
+        44.208333
+      ],
+      "evidence": [
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\00696.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\00720.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\01044.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\01048.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\01052.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\01060.jpg"
+      ],
+      "observation": "鱼原尺寸可追踪但色近喙/巢，喙遮住鱼身，小屏近似尺寸像小蝴蝶结。",
+      "impact": "核心偷鱼、带鱼叙事道具识别需依靠字幕和仔细观察。",
+      "proposed_fix": "提高鱼明度或淡青银色透明皮革，鱼身露出喙下，保持归属顺序。",
+      "recheck_status": "retained_not_rechecked",
+      "observation_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+      "carried_from_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+      "current_version_evidence_status": "prior_observation_retained_with_exact_decoded_frame_equivalence",
+      "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+    },
+    {
+      "id": "NH-V5-03",
+      "severity": "minor",
+      "frame_range": [
+        0,
+        1199
+      ],
+      "time_range": [
+        0,
+        50
+      ],
+      "evidence": [
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\00480.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\00720.jpg",
+        "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\decoded\\01044.jpg"
+      ],
+      "observation": "固定舞台下部承载动作，上半部留白多，鱼和眼神细节偏小。",
+      "impact": "手机小屏的细微动作可读性减弱。",
+      "proposed_fix": "优先改善鱼对比；必要时仅取鱼/喂鱼镜头适度放大，保留舞台形式。",
+      "recheck_status": "retained_not_rechecked",
+      "observation_source_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+      "carried_from_review": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v5\\av-review.json",
+      "current_version_evidence_status": "prior_observation_retained_with_exact_decoded_frame_equivalence",
+      "equivalence_evidence": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json"
+    }
+  ],
+  "limitations": [
+    "新版直接查看 F96–263；其余 1032 帧复用同一审片者旧版已实际查看的证据，依据对应新版解码帧 SHA256 完全相同。",
+    "听音未完成；正常速度观看未完成。采用有时间码的连续帧序列检查变化顺序。",
+    "音频字节等同只证明音轨未变，不代表已听过；音画同步与运动节奏不能从接触表推断通过。"
+  ],
+  "verdict": "incomplete",
+  "localized_fix_verdict": "resolved",
+  "equivalence": {
+    "old_video_sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4",
+    "new_video_sha256": "4e60565415a7f362809c352a3746a69fe6af3e7ebfa0ac1ed88e51f11cfa0577",
+    "method": "Exact SHA256 comparisons of corresponding rendered JPEGs and independently decoded JPEGs, not an aesthetic or listening review",
+    "rendered_frame_equal_ranges": [
+      {
+        "start_frame": 0,
+        "end_frame": 119
+      },
+      {
+        "start_frame": 240,
+        "end_frame": 1199
+      }
+    ],
+    "decoded_frame_equal_ranges": [
+      {
+        "start_frame": 0,
+        "end_frame": 99
+      },
+      {
+        "start_frame": 240,
+        "end_frame": 1199
+      }
+    ],
+    "decoded_frame_different_ranges": [
+      {
+        "start_frame": 100,
+        "end_frame": 239
+      }
+    ],
+    "old_actual_audio_sha256": "14d06367c6bfee5d76f2b8780e71b30bc8d5c3b97f8c09a87b55696bc8bbd15c",
+    "new_actual_audio_sha256": "14d06367c6bfee5d76f2b8780e71b30bc8d5c3b97f8c09a87b55696bc8bbd15c",
+    "actual_audio_byte_identical": true,
+    "evidence_path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\night-heron-shadow-20261012\\qa\\reference-v6\\equivalence.json",
+    "evidence_sha256": "5c73cd12a81700a15088696b2dec040912afff6ddb2cdf967081c4d6facf85e5",
+    "reviewer_checked_mapping": true
+  }
+}

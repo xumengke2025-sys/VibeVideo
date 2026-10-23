@@ -1,0 +1,115 @@
+{
+  "duration": 90,
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "aspect_ratio": "9:16",
+  "subject_id": "persistent trenchcoat cyclist",
+  "facial_detail": "none, explicit user request",
+  "shots": [
+    {
+      "range": [
+        0,
+        8
+      ],
+      "reads": "rider silhouette; city emerges from horizon",
+      "camera": "v15_motion.camera(t)",
+      "route": "v15_route.state(t)"
+    },
+    {
+      "range": [
+        8,
+        15
+      ],
+      "reads": "recognise trenchcoat and bicycle; greet Egyptian delegation",
+      "camera": "v15_motion.camera(t)",
+      "route": "v15_route.state(t)"
+    },
+    {
+      "range": [
+        15,
+        19
+      ],
+      "reads": "front view after gate passage",
+      "camera": "v15_motion.camera(t)",
+      "route": "v15_route.state(t)"
+    },
+    {
+      "range": [
+        19,
+        25
+      ],
+      "reads": "market bell; pedestrians make room",
+      "camera": "v15_motion.camera(t)",
+      "route": "v15_route.state(t)"
+    },
+    {
+      "range": [
+        25,
+        31
+      ],
+      "reads": "connected right turn toward canal",
+      "camera": "v15_motion.camera(t)",
+      "route": "v15_route.state(t)"
+    },
+    {
+      "range": [
+        31,
+        44
+      ],
+      "reads": "wave to boat crew; duck beneath awning",
+      "camera": "v15_motion.camera(t)",
+      "route": "v15_route.state(t)"
+    },
+    {
+      "range": [
+        44,
+        55
+      ],
+      "reads": "inhabited north street; festival ribbon",
+      "camera": "v15_motion.camera(t)",
+      "route": "v15_route.state(t)"
+    },
+    {
+      "range": [
+        55,
+        64
+      ],
+      "reads": "slow at temple approach",
+      "camera": "v15_motion.camera(t)",
+      "route": "v15_route.state(t)"
+    },
+    {
+      "range": [
+        64,
+        74
+      ],
+      "reads": "foot down; tip hat; ritual finishes",
+      "camera": "v15_motion.camera(t)",
+      "route": "v15_route.state(t)"
+    },
+    {
+      "range": [
+        74,
+        81
+      ],
+      "reads": "push off; return to avenue",
+      "camera": "v15_motion.camera(t)",
+      "route": "v15_route.state(t)"
+    },
+    {
+      "range": [
+        81,
+        90
+      ],
+      "reads": "rider continues; metropolis unfolds",
+      "camera": "v15_motion.camera(t)",
+      "route": "v15_route.state(t)"
+    }
+  ],
+  "music_source_excerpt": [
+    29.5,
+    119.5
+  ],
+  "actual_listening": false
+}

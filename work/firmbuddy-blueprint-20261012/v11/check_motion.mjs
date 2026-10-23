@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.dirname(fileURLToPath(import.meta.url));
+const s=fs.readFileSync(path.join(root,'film.js'),'utf8');
+const code=s.slice(s.indexOf('const keys='),s.indexOf('function pathPoint'));
+const ctx={Math};vm.createContext(ctx);vm.runInContext('const clamp=x=>Math.max(0,Math.min(1,x)),p=(t,a,b)=>clamp((t-a)/(b-a));'+code+';this.cameraAt=cameraAt;this.keys=keys;',ctx);
+const h=.0001,properties=['x','y','logzoom','r'];
+const values=t=>{const c=ctx.cameraAt(t);return[c.x,c.y,Math.log(c.z),c.r]};
+const joins=ctx.keys.slice(1,-1).map(([t])=>{const a=values(t-h),b=values(t),c=values(t+h);return{time:t+8,position_step:a.map((v,j)=>Math.abs(c[j]-v)),velocity_mismatch:a.map((v,j)=>Math.abs((b[j]-v)/h-(c[j]-b[j])/h))};});
+const samples=[];for(let f=0;f<1560;f++)samples.push(ctx.cameraAt(f/30));
+const maxStep=Math.max(...samples.slice(1).map((c,i)=>Math.hypot(c.x-samples[i].x,c.y-samples[i].y)*c.z));
+const minZoom=Math.min(...samples.map(c=>c.z)),maxZoom=Math.max(...samples.map(c=>c.z));
+const pass=joins.every(j=>j.velocity_mismatch[0]<.1&&j.velocity_mismatch[1]<.1&&j.velocity_mismatch[2]<.001&&j.velocity_mismatch[3]<.001)&&samples.every(c=>Object.values(c).every(Number.isFinite));
+const result={scope:'Numerical camera continuity at all joins, per-frame travel; not a perceptual smoothness review',method:'Quintic Hermite, shared velocity, zero acceleration at joins, logarithmic zoom',properties,joins,max_world_motion_in_screen_px_per_frame:maxStep,minZoom,maxZoom,pass};
+fs.mkdirSync(path.join(root,'../out'),{recursive:true});fs.writeFileSync(path.join(root,'../out/motion-v11.json'),JSON.stringify(result,null,2));console.log(JSON.stringify({pass,maxStep,minZoom,maxZoom}));if(!pass)process.exitCode=1;

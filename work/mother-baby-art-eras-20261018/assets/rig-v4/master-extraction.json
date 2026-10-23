@@ -1,0 +1,182 @@
+[
+  {
+    "name": "mother",
+    "source_box": [
+      60,
+      0,
+      450,
+      590
+    ],
+    "alpha_box": [
+      39,
+      18,
+      352,
+      576
+    ],
+    "size": [
+      313,
+      558
+    ],
+    "sha256": "6605a6d5623a456572044e6f61d63ff311385262106f2a13ef224c6c96866c1c"
+  },
+  {
+    "name": "baby",
+    "source_box": [
+      470,
+      40,
+      900,
+      560
+    ],
+    "alpha_box": [
+      43,
+      59,
+      405,
+      489
+    ],
+    "size": [
+      362,
+      430
+    ],
+    "sha256": "72b950cea6c4f0c4a8066ff809703893c6665e7f1573ed5e542dbfd581fa7a95"
+  },
+  {
+    "name": "cuphand",
+    "source_box": [
+      930,
+      195,
+      1309,
+      440
+    ],
+    "alpha_box": [
+      49,
+      41,
+      328,
+      212
+    ],
+    "size": [
+      279,
+      171
+    ],
+    "sha256": "3de7770f11aecb36f7d514d49d066d9b227f48e27be27fd5491ddaf3a21e3ab3"
+  },
+  {
+    "name": "m-upper",
+    "source_box": [
+      120,
+      590,
+      350,
+      910
+    ],
+    "alpha_box": [
+      58,
+      18,
+      191,
+      305
+    ],
+    "size": [
+      133,
+      287
+    ],
+    "sha256": "2a631babb8ff979d368d3258db0f63c5e291b8f0b6eb60694db003c865f9ad47"
+  },
+  {
+    "name": "m-lower",
+    "source_box": [
+      570,
+      590,
+      780,
+      915
+    ],
+    "alpha_box": [
+      47,
+      24,
+      165,
+      299
+    ],
+    "size": [
+      118,
+      275
+    ],
+    "sha256": "e4285fb67160bab46b1f3f28286bd743443eacc836c4b12c949d665f72da2eb6"
+  },
+  {
+    "name": "bottle",
+    "source_box": [
+      985,
+      580,
+      1205,
+      920
+    ],
+    "alpha_box": [
+      53,
+      45,
+      186,
+      325
+    ],
+    "size": [
+      133,
+      280
+    ],
+    "sha256": "4e2d7568072c6ba1aa90bd714b342224edd88cf8e9366768d46aa078e4da9621"
+  },
+  {
+    "name": "b-upper",
+    "source_box": [
+      130,
+      920,
+      350,
+      1202
+    ],
+    "alpha_box": [
+      52,
+      15,
+      180,
+      245
+    ],
+    "size": [
+      128,
+      230
+    ],
+    "sha256": "2a527179e87dd568208383bff23d21bd23658649fc7851be1675c68c9bd0bb7a"
+  },
+  {
+    "name": "b-lower-left",
+    "source_box": [
+      570,
+      920,
+      800,
+      1202
+    ],
+    "alpha_box": [
+      35,
+      14,
+      205,
+      249
+    ],
+    "size": [
+      170,
+      235
+    ],
+    "sha256": "ca63767f6cea819177f5f1dc3af39f4e5366ba3a217dc2e6cf958b63cf6a3d4f"
+  },
+  {
+    "name": "b-lower-right",
+    "source_box": [
+      950,
+      920,
+      1200,
+      1202
+    ],
+    "alpha_box": [
+      35,
+      15,
+      197,
+      250
+    ],
+    "size": [
+      162,
+      235
+    ],
+    "sha256": "a4f4e81ad9430ee76b55855a5d6c569125737cf188ea9a1855d2dbcb5a20c24d"
+  }
+]

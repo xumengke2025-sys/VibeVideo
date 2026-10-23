@@ -1,0 +1,419 @@
+{
+  "status": "planned_not_rendered",
+  "revision": "2026-10-13-plan-review",
+  "duration": 68,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "delivery_mode": "ai_review_once",
+  "review_budget": "previous_round_already_used",
+  "treatment": "ANIMATION-PLAN-V4.md",
+  "facts": "product-reassessment-20261013.json",
+  "reference_commit": "e3cb16f63768c68693ff0e15171d6e755457cc32",
+  "core_memories": [
+    "专业分工",
+    "知识有据",
+    "持续经营"
+  ],
+  "scenario_ids": {
+    "S": "查商机",
+    "A": "问业务",
+    "V": "备拜访"
+  },
+  "constraints": [
+    "三种场景可独立进入，每种均显示新输入、处理和结果；示例议题相同不等于强制工作流",
+    "装配关系在请求前成立；当前只表现可见范围内检索，不表现自动装配或训练",
+    "全部示例资料和回答持续标记流程示例，不伪造真实公告、法规、来源ID或在线运行结果",
+    "用户确认跟进行动不等于客户确认需求；任务写入与专家会商分开",
+    "同一张蓝晒图纸，无人物、手或人影；屏幕文字按投影字号校准"
+  ],
+  "shots": [
+    {
+      "id": "position-and-input",
+      "start": 0,
+      "end": 6,
+      "intent": "开场认清服务对象和三个独立入口",
+      "states": {
+        "establish": 0,
+        "action": 3,
+        "result": 3.5
+      },
+      "action": "品牌定位从首帧可见，三个入口与一句查商机输入落定",
+      "camera": "固定中近景，先定位后问题",
+      "reads": [
+        {
+          "object": "FirmBuddy／券商客户经营·AI专家平台",
+          "appear": 0,
+          "readable": 0,
+          "leave": 6
+        },
+        {
+          "object": "查商机／问业务／备拜访；谁值得先跟进？",
+          "appear": 3,
+          "readable": 3.5,
+          "leave": 6
+        }
+      ],
+      "voiceover": "券商客户经营，查商机、问业务、备拜访，都能从一句问题开始。",
+      "sound": "轻笔触建立入口，避免三次重击",
+      "risks": [
+        [
+          3,
+          3.5
+        ]
+      ]
+    },
+    {
+      "id": "candidate-signals",
+      "start": 6,
+      "end": 15,
+      "intent": "查询和监测发现待核实线索",
+      "states": {
+        "establish": 6,
+        "action": 7,
+        "result": 12.5
+      },
+      "action": "双轨资料带筛出扩产披露示例，保留来源端口与待核实状态",
+      "camera": "6–9秒扫描，9秒后以停读为主",
+      "reads": [
+        {
+          "object": "查询／监测",
+          "appear": 6,
+          "readable": 9,
+          "leave": 12
+        },
+        {
+          "object": "扩产相关披露·流程示例／待核实",
+          "appear": 12,
+          "readable": 12.5,
+          "leave": 15
+        }
+      ],
+      "voiceover": "主动查询，也能监测市场和客户名单，从变化中发现待核实的线索。",
+      "sound": "扫描细擦，选中轻落定",
+      "risks": [
+        [
+          7,
+          9
+        ]
+      ]
+    },
+    {
+      "id": "expert-work-branches",
+      "start": 15,
+      "end": 24,
+      "intent": "数十位专家按专业分工，商机场景获得结果",
+      "states": {
+        "establish": 15,
+        "action": 17,
+        "result": 21
+      },
+      "action": "广场先显规模，行业／财务／资本运作三席依次展开职责，收束到候选与待核实问题",
+      "camera": "广场转三分支近景，21秒停读结果",
+      "reads": [
+        {
+          "object": "数十位AI专家",
+          "appear": 15,
+          "readable": 15.2,
+          "leave": 17.5
+        },
+        {
+          "object": "行业·看扩产逻辑",
+          "appear": 17,
+          "readable": 17.5,
+          "leave": 21
+        },
+        {
+          "object": "财务·查资金安排",
+          "appear": 18,
+          "readable": 18.5,
+          "leave": 21
+        },
+        {
+          "object": "资本运作·研判服务方向",
+          "appear": 19,
+          "readable": 19.5,
+          "leave": 22
+        },
+        {
+          "object": "候选线索＋待核实问题",
+          "appear": 21,
+          "readable": 21.5,
+          "leave": 24
+        }
+      ],
+      "voiceover": "数十位AI专家按专业分工，复杂问题协作研判，找出服务方向和待核实问题。",
+      "sound": "三次错开接合，收束减音",
+      "risks": [
+        [
+          17,
+          21
+        ]
+      ]
+    },
+    {
+      "id": "question-with-evidence",
+      "start": 24,
+      "end": 36,
+      "intent": "独立业务答疑，证据让服务假设收敛为核实问题",
+      "states": {
+        "establish": 24,
+        "action": 27,
+        "result": 33
+      },
+      "action": "新输入后单专家检索已配备知识；示例资料只给扩产计划，资金安排未提供；引用返回，融资服务？收敛为先确认资金来源与缺口",
+      "camera": "短匹配切入新输入，固定剖面展开，结论时停机",
+      "reads": [
+        {
+          "object": "有扩产计划，就有融资需求吗？",
+          "appear": 24,
+          "readable": 24.5,
+          "leave": 27
+        },
+        {
+          "object": "知识库／专家已装配（既有关系）",
+          "appear": 27,
+          "readable": 27.5,
+          "leave": 30
+        },
+        {
+          "object": "示例资料：扩产计划；资金安排未提供",
+          "appear": 30,
+          "readable": 30.5,
+          "leave": 33
+        },
+        {
+          "object": "先确认资金来源与缺口",
+          "appear": 33,
+          "readable": 33.5,
+          "leave": 36
+        }
+      ],
+      "voiceover": "有疑问，直接问。专家检索已配备的知识，带着依据回答：有扩产计划，还要确认资金来源与缺口。",
+      "sound": "纸页轻擦，证据回接一声，结论留静",
+      "risks": [
+        [
+          27,
+          36
+        ]
+      ]
+    },
+    {
+      "id": "visit-preparation",
+      "start": 36,
+      "end": 46,
+      "intent": "独立拜访输入形成具体提问与策略包",
+      "states": {
+        "establish": 36,
+        "action": 39,
+        "result": 42
+      },
+      "action": "新输入准备拜访；资金安排缺项同形对齐成资金怎么安排？；展开落地时间、决策参与者，保留目标／话术／材料页签",
+      "camera": "短匹配切换输入，固定看缺项变提问，42秒后停读",
+      "reads": [
+        {
+          "object": "帮我准备这次拜访",
+          "appear": 36,
+          "readable": 36.5,
+          "leave": 39
+        },
+        {
+          "object": "资金怎么安排？",
+          "appear": 39,
+          "readable": 40,
+          "leave": 46
+        },
+        {
+          "object": "何时落地？／谁参与决策？",
+          "appear": 41,
+          "readable": 42,
+          "leave": 46
+        }
+      ],
+      "voiceover": "准备拜访，把信息缺口变成具体提问，再组织目标、话术和材料。",
+      "sound": "纸页折展，提问成形轻落定",
+      "risks": [
+        [
+          39,
+          42
+        ]
+      ]
+    },
+    {
+      "id": "followup-feedback",
+      "start": 46,
+      "end": 55,
+      "intent": "确认跟进后记录反馈，诊断推进下一步",
+      "states": {
+        "establish": 46,
+        "action": 47.5,
+        "result": 52
+      },
+      "action": "先用户确认，再建立待跟进任务；跟进后时间标识下，资金安排尚未明确的示例记录经诊断得到补问资金计划",
+      "camera": "确认停机，反馈短回流，52秒固定读结果",
+      "reads": [
+        {
+          "object": "确认跟进→待跟进任务",
+          "appear": 46,
+          "readable": 47,
+          "leave": 49
+        },
+        {
+          "object": "跟进后·示例记录：资金安排尚未明确",
+          "appear": 49,
+          "readable": 49.5,
+          "leave": 52
+        },
+        {
+          "object": "下一步：补问资金计划",
+          "appear": 52,
+          "readable": 52.5,
+          "leave": 55
+        }
+      ],
+      "voiceover": "确认后进入跟进。记录带回商机诊断，找出卡点，调整下一步。",
+      "sound": "确认轻点击，反馈细笔声",
+      "risks": [
+        [
+          47.5,
+          50
+        ]
+      ]
+    },
+    {
+      "id": "capability-index",
+      "start": 55,
+      "end": 61,
+      "intent": "三场景属于更广泛的客户经营能力",
+      "states": {
+        "establish": 55,
+        "action": 55.2,
+        "result": 58.5
+      },
+      "action": "后退一级显示两组功能，先查询／答疑／拜访，再诊断／陪练／经营计划，原路径保留",
+      "camera": "55–55.5秒短退后固定，以对比度切换两组重点",
+      "reads": [
+        {
+          "object": "商机查询／业务答疑／拜访准备",
+          "appear": 55,
+          "readable": 55.5,
+          "leave": 58
+        },
+        {
+          "object": "商机诊断／销售陪练／经营计划",
+          "appear": 58,
+          "readable": 58.5,
+          "leave": 61
+        }
+      ],
+      "voiceover": "从商机查询到诊断、陪练和经营计划，支持持续的客户经营。",
+      "sound": "短纸擦，两组各一次轻提示",
+      "risks": [
+        [
+          55,
+          58.5
+        ]
+      ]
+    },
+    {
+      "id": "lifecycle-reveal",
+      "start": 61,
+      "end": 68,
+      "intent": "三阶段服务范围与品牌主张落定",
+      "states": {
+        "establish": 61,
+        "action": 61.2,
+        "result": 64.5
+      },
+      "action": "同纸面再退一级，三阶段外框展开；业务条线降为结构，标题栏写入品牌与价值主张",
+      "camera": "61–64.5秒拉远，64.5–68秒完全停住",
+      "reads": [
+        {
+          "object": "上市前／上市中／上市后",
+          "appear": 62,
+          "readable": 64.5,
+          "leave": 68
+        },
+        {
+          "object": "FirmBuddy·把业务问题，变成有依据的行动",
+          "appear": 64,
+          "readable": 64.5,
+          "leave": 68
+        }
+      ],
+      "voiceover": "覆盖企业全生命周期，把业务问题，变成有依据的行动。",
+      "sound": "克制收束，尾音自然衰减",
+      "risks": [
+        [
+          61,
+          65
+        ]
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "time": 6,
+      "kind": "path_follow",
+      "anchor": "查商机输入引线",
+      "window": [
+        5,
+        7
+      ]
+    },
+    {
+      "time": 15,
+      "kind": "causal_link",
+      "anchor": "扩产议题与来源端口",
+      "window": [
+        14,
+        16
+      ]
+    },
+    {
+      "time": 24,
+      "kind": "match_cut_new_request",
+      "anchor": "同一扩产议题；问业务新输入",
+      "window": [
+        23,
+        25
+      ]
+    },
+    {
+      "time": 36,
+      "kind": "match_cut_new_request",
+      "anchor": "资金安排缺项；拜访新输入",
+      "window": [
+        35,
+        37
+      ]
+    },
+    {
+      "time": 46,
+      "kind": "confirmation_gate",
+      "anchor": "策略包跟进端口",
+      "window": [
+        45,
+        48
+      ]
+    },
+    {
+      "time": 55,
+      "kind": "world_reveal_level_1",
+      "anchor": "下一步与原三场景结果",
+      "window": [
+        54,
+        56
+      ]
+    },
+    {
+      "time": 61,
+      "kind": "world_reveal_level_2",
+      "anchor": "功能索引与原路径",
+      "window": [
+        60,
+        65
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\暮河城-巴比伦巨城-Dream-of-Babylon-v7.mp4",
+  "sha256": "79dec32dfafd697b51ce534044f37bbe685a1fffe2abd7f8013e7594804c50e0",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "decoded_frames": 1344,
+  "duration": 56.0,
+  "audio_sample_rate": "48000",
+  "audio_channels": 2,
+  "decode_exit": 0,
+  "decode_errors": "",
+  "visual_source": "v6, video stream copied without re-encoding",
+  "audio_source": "D:\\ai项目\\ai动画\\music\\亚历山大福音 - _16_巴比伦梦(vangelis - a_爱给网_aigei_com (1).mp3",
+  "audio_source_sha256": "e049aa5c5de96cdb5c72428968f18daf6b9ed451d38df12dbed2daddf58f7aa1",
+  "source_excerpt_seconds": [
+    0,
+    56
+  ],
+  "fade_in_seconds": 1.2,
+  "fade_out_seconds": [
+    52,
+    56
+  ],
+  "ambience_gain": 0.65,
+  "normalization": {
+    "input_i": "-15.97",
+    "input_tp": "-2.51",
+    "input_lra": "18.30",
+    "input_thresh": "-27.28",
+    "output_i": "-17.63",
+    "output_tp": "-1.52",
+    "output_lra": "21.30",
+    "output_thresh": "-28.92",
+    "normalization_type": "dynamic",
+    "target_offset": "0.63"
+  },
+  "audio_perceived": false,
+  "independent_review": "pending"
+}

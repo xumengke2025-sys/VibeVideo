@@ -1,0 +1,61 @@
+{
+  "checked": "2026-10-20",
+  "scope": "全部新旧记录的SHA256；有缓存帧记录的原帖ID、时长与20/50/80%三时刻256bit dHash；相似候选需人工决定；复刻保留并标明关联",
+  "hashCompared": 507,
+  "fingerprinted": 502,
+  "missingFingerprintIds": [
+    "misbahsy--claude-horizon-animation/docs/lab-explainer.gif",
+    "misbahsy--claude-horizon-animation/docs/preview.gif",
+    "misbahsy--claude-horizon-animation/docs/sketch-to-sim.gif",
+    "klsoen--opus-js-animations/docs/script-of-me-opening.gif",
+    "klsoen--opus-js-animations/docs/shaml-opening-2.8s.gif"
+  ],
+  "newMedia": 179,
+  "exact": [],
+  "potentialPairs": [],
+  "related": [
+    {
+      "id": "imagine-20261020/05-launch-muda",
+      "reason": "与已收录原帖2102787937482252537共享灵感来源；本条是独立复刻代码与重制样片",
+      "ids": [
+        "original/deedydas-252537"
+      ]
+    },
+    {
+      "id": "imagine-20261020/04-reel-depth",
+      "reason": "与已收录原帖2103151003272962130共享灵感来源；本条是独立复刻代码与重制样片",
+      "ids": [
+        "original/shneural-962130"
+      ]
+    },
+    {
+      "id": "imagine-20261020/06-screen-to-wall-prints",
+      "reason": "与已收录原帖2103835273813496100共享灵感来源；本条是独立复刻代码与重制样片",
+      "ids": [
+        "jacobbubu--claude-opus-5-5-js-animation-research/media/01-twoclipping-2103830256347910144.mp4"
+      ]
+    },
+    {
+      "id": "imagine-20261020/16-ai-workspace-launch",
+      "reason": "与已收录原帖2103066071838466494共享灵感来源；本条是独立复刻代码与重制样片",
+      "ids": [
+        "original/moritzkremb-466494"
+      ]
+    },
+    {
+      "id": "imagine-20261020/19-lowpoly-logo-reveal",
+      "reason": "与已收录原帖2103704250329301409共享灵感来源；本条是独立复刻代码与重制样片",
+      "ids": [
+        "original/tdinh_me-301409"
+      ]
+    },
+    {
+      "id": "imagine-20261020/22-maker-map-globe",
+      "reason": "与已收录原帖2103483957266268381共享灵感来源；本条是独立复刻代码与重制样片",
+      "ids": [
+        "original/verbove-268381"
+      ]
+    }
+  ],
+  "excludePreviewIds": []
+}

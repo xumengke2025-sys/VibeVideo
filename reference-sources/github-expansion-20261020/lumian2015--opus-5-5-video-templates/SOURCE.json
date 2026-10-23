@@ -1,0 +1,3056 @@
+{
+  "repo": "lumian2015/opus-5-5-video-templates",
+  "repository": "https://github.com/lumian2015/opus-5-5-video-templates",
+  "commit": "79bbf5b1940341cd5e29c4c1edfbbd807af639da",
+  "checked": "2026-10-20",
+  "scope": "固定提交完整仓库快照，不含Git历史；未安装依赖或执行上游代码",
+  "modelEvidence": "README声明复刻热门Claude Opus 5.5影片；复刻源码模型未逐例证实",
+  "license": "MIT；GSAP、字体及第三方资源另按原许可",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 50,
+      "sha256": "5cdaaed3e0488baf031b0e0910c3173e3ad06f4a9005eea68112ae6282106333",
+      "gitBlob": "97eaaeef82b37f1cb652af8a3dbe288a120923dc",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/.gitignore"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1071,
+      "sha256": "44d21966f0a58157327cfdde2b8dc5bcbeea8b960d58d96c1f1a1fb0abcc4c4e",
+      "gitBlob": "c0c6203275865a7609d9a57a12e53433a3bcd5ce",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12333,
+      "sha256": "293b3362d58c0f48ef1e7d7688aadc8f4483d33a743c3a7045c9eaeb1e63dd15",
+      "gitBlob": "937c2ef4e6333cf574551c00ccf75822e7973e4f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/README.md"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4495,
+      "sha256": "1cf99844f8855bf6e23ac8c04ff5cc589ac81024ae618c99567b3593876ba68d",
+      "gitBlob": "b240e34625c1c3aff3afbeaa4d3290daaf5e6f0d",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/SKILL.md"
+    },
+    {
+      "path": "catalog.md",
+      "bytes": 9921,
+      "sha256": "b4ec774d694918404c23d24d43b1765d88bfec83611dea96bc85affb19bfb194",
+      "gitBlob": "e145dfff1470279a4eccdd96eac179ff79928bf7",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/catalog.md"
+    },
+    {
+      "path": "licenses/fonts/anton-OFL.txt",
+      "bytes": 4484,
+      "sha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "gitBlob": "93feddee37145696e123ea65a6772cab09663f9e",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/anton-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/archivo-OFL.txt",
+      "bytes": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "gitBlob": "8597481ebc941863ab228e79ea4305507cd73cc6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/archivo-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/audiowide-OFL.txt",
+      "bytes": 4430,
+      "sha256": "4fe01b13ffb41faa8f030d84843a95dab32792dfeeca7c072abbfd3f4d6896ad",
+      "gitBlob": "19bb4adffab57778a892f98e9552441208896226",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/audiowide-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/caveat-OFL.txt",
+      "bytes": 4385,
+      "sha256": "1f9d81d094273d82f3898a1ee8b598a717d050ecbf5ff7bede105b704880157b",
+      "gitBlob": "6e5220c9576d98dfc684e550ddf0d87f68b3edc5",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/caveat-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/dmsans-OFL.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "gitBlob": "4430b85ac62998e2edb914360f9ebdfe43f4deaa",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/dmsans-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/dmserifdisplay-OFL.txt",
+      "bytes": 4605,
+      "sha256": "a3e5cdd67d4571dd0a24fcc968de0efde7ae97ef752daf0906e4767619dd7231",
+      "gitBlob": "be384f0ec9b54c6fed236106d3f6dfa029780b1b",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/dmserifdisplay-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/ibmplexmono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "gitBlob": "c35c4c618fab33da8695177b3a6cefe0810b7b28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/ibmplexmono-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/instrumentserif-OFL.txt",
+      "bytes": 4405,
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "gitBlob": "669ce7917bec662fcf7244d37f49c4277f6fbd73",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/instrumentserif-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "gitBlob": "21f6aff961064c2e429f570995e446bcdd555422",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/inter-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/intertight-OFL.txt",
+      "bytes": 4383,
+      "sha256": "50240ab035cf1b6b3307940235481d515c4b6de3ab1fa843dbe59e7892cb9d58",
+      "gitBlob": "18d0da5dfcf4b1703293ed87f8e3efcf34aa643f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/intertight-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/montserrat-OFL.txt",
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+      "gitBlob": "fe576a2ee1f96353b05d030c0b7620d525cc53a8",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/montserrat-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/notosansdevanagari-OFL.txt",
+      "bytes": 4386,
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+      "gitBlob": "cd2cc5c94b4151933eba6ee508e3975274d6fa07",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/notosansdevanagari-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/notoserifjp-OFL.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+      "gitBlob": "94d1bf7b52481343e2983fb7751e8b7abe1ea07b",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/notoserifjp-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/nunito-OFL.txt",
+      "bytes": 4385,
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "gitBlob": "c8210f08ca3cece05b4f7baa428afe8e1abe3293",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/nunito-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/patrickhand-OFL.txt",
+      "bytes": 4376,
+      "sha256": "377f4f9c19e935228552478eb68cc2ed82910988a60ba60e2ac73b09f32d02d1",
+      "gitBlob": "4d5f9447f48357b6a4ac294604954b274059d119",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/patrickhand-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/plusjakartasans-OFL.txt",
+      "bytes": 4402,
+      "sha256": "995c7199cab65954f545996326755daee7b63cc6b42b06c13da1f9502ab08a99",
+      "gitBlob": "ea69b0ca12a02556c436680ea0a159efb7a748fa",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/plusjakartasans-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/sourceserif4-OFL.txt",
+      "bytes": 4400,
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "gitBlob": "318074ec9d43c936a56ee1dae92999f4df073ce8",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/sourceserif4-OFL.txt"
+    },
+    {
+      "path": "licenses/fonts/vt323-OFL.txt",
+      "bytes": 4367,
+      "sha256": "27d9af34210253e7ca1251fbace86c6f65b40031d6ce1a75493a1b2093631298",
+      "gitBlob": "bcb092f7e62f6e0455177e95e75cf8a6b822911f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/licenses/fonts/vt323-OFL.txt"
+    },
+    {
+      "path": "scripts/new-video.mjs",
+      "bytes": 1790,
+      "sha256": "b7c4953897aed5b5560f08ffa302a5c234bedfd554e92d9f5acfb93b8f378f71",
+      "gitBlob": "4ec9ef41b156d67b5e5f8de6ca839b38c6028f67",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/scripts/new-video.mjs"
+    },
+    {
+      "path": "scripts/vars.mjs",
+      "bytes": 2175,
+      "sha256": "10c189d75db1287861abf3605da145e4c3bdcc765955755c1e6af1b500ff9775",
+      "gitBlob": "8f9d7de1da9b938b3e47cb69fa9ceec28b5a621e",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/scripts/vars.mjs"
+    },
+    {
+      "path": "templates/01-launch-paper/assets/fonts.css",
+      "bytes": 3843,
+      "sha256": "8fe6493539ed46c558778b7941677444b71b73676248f5786b213e8505ef15c2",
+      "gitBlob": "8b97eb0d67f452f24880abd0f85841223abfe2d6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/assets/fonts.css"
+    },
+    {
+      "path": "templates/01-launch-paper/assets/fonts/Anton-400.woff2",
+      "bytes": 12004,
+      "sha256": "23aab0b2692a0c89eb7997d3c7cf5bda41276d6cd4ab6cc0edc3edfcece32b09",
+      "gitBlob": "35e8f012a8465a5a58da9f3420c179d3f7ff4372",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/assets/fonts/Anton-400.woff2"
+    },
+    {
+      "path": "templates/01-launch-paper/assets/fonts/Caveat-600.woff2",
+      "bytes": 74572,
+      "sha256": "7a0049db01fdd8fc7af7ef36675862a72a5c76d0cb45ae63c9f5b6f1b769dac7",
+      "gitBlob": "836dbda093eb92e5277d39b9b5af6a00222b176a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/assets/fonts/Caveat-600.woff2"
+    },
+    {
+      "path": "templates/01-launch-paper/assets/fonts/Caveat-700.woff2",
+      "bytes": 74572,
+      "sha256": "7a0049db01fdd8fc7af7ef36675862a72a5c76d0cb45ae63c9f5b6f1b769dac7",
+      "gitBlob": "836dbda093eb92e5277d39b9b5af6a00222b176a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/assets/fonts/Caveat-700.woff2"
+    },
+    {
+      "path": "templates/01-launch-paper/assets/fonts/IBMPlexMono-400.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac",
+      "gitBlob": "52b6c7595dd5e2106676e7c52fcff18539607879",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/assets/fonts/IBMPlexMono-400.woff2"
+    },
+    {
+      "path": "templates/01-launch-paper/assets/fonts/IBMPlexMono-500.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0",
+      "gitBlob": "3308bce2432c298817ed344eeac33007c83cecd0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/assets/fonts/IBMPlexMono-500.woff2"
+    },
+    {
+      "path": "templates/01-launch-paper/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/01-launch-paper/assets/fonts/Inter-500.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/assets/fonts/Inter-500.woff2"
+    },
+    {
+      "path": "templates/01-launch-paper/assets/fonts/Inter-600.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/assets/fonts/Inter-600.woff2"
+    },
+    {
+      "path": "templates/01-launch-paper/assets/fonts/Inter-700.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/assets/fonts/Inter-700.woff2"
+    },
+    {
+      "path": "templates/01-launch-paper/assets/fonts/InterTight-700.woff2",
+      "bytes": 22784,
+      "sha256": "381e3f55dbb210af4f31f827d187b33a166a6e95843eed570f87675fc20a4bf5",
+      "gitBlob": "ff486c987c20c8e5a3bc497c0e579f2c73aa5341",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/assets/fonts/InterTight-700.woff2"
+    },
+    {
+      "path": "templates/01-launch-paper/assets/fonts/SourceSerif4-400.woff2",
+      "bytes": 48536,
+      "sha256": "bfc645351d6b6c7c9d6528847e3740eb64acb532638f1659c97f09864e0332fe",
+      "gitBlob": "0afbad65dedf5534cea98fa107da6ab76f52f37b",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/assets/fonts/SourceSerif4-400.woff2"
+    },
+    {
+      "path": "templates/01-launch-paper/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/01-launch-paper/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/hyperframes.json"
+    },
+    {
+      "path": "templates/01-launch-paper/index.html",
+      "bytes": 45116,
+      "sha256": "702c4f91bb0c43b1e46a7fce1e47922ae754ea6d68d7d0997650c1b08183c2d2",
+      "gitBlob": "3c9f426e2ec23deda4459aa2450b30049bb1514a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/index.html"
+    },
+    {
+      "path": "templates/01-launch-paper/meta.json",
+      "bytes": 102,
+      "sha256": "d5d1203fc613fc485b439b71de9d9ab0d089b4e3d9a6abf0ee8d3b248e7e5f0c",
+      "gitBlob": "bfe8c5cc6db4b5e89776b50f7331886da3a9970f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/meta.json"
+    },
+    {
+      "path": "templates/01-launch-paper/package.json",
+      "bytes": 300,
+      "sha256": "7ba12d6aa4391b499e2103d0a5ec405d63772385acc63d642ce7e404051e0ec6",
+      "gitBlob": "d5f6a88be8209642a3a909ce53f2a23c965966fa",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/package.json"
+    },
+    {
+      "path": "templates/01-launch-paper/template.json",
+      "bytes": 1544,
+      "sha256": "fddebf113c9243b719edd18ccf104389c2f9ddf98bb833088810a1c17f93e379",
+      "gitBlob": "db20b237cbbaac64cd78123fa180a0b5b44af0ca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/01-launch-paper/template.json"
+    },
+    {
+      "path": "templates/02-showreel-kinetic/assets/fonts.css",
+      "bytes": 679,
+      "sha256": "9ac45c09fc9175d2e4fb4ae7fc8dc862dd43de2dcb186f47f682944ec352a244",
+      "gitBlob": "7eae16bf5392f3866753611f2774700bd6bdd9c3",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/02-showreel-kinetic/assets/fonts.css"
+    },
+    {
+      "path": "templates/02-showreel-kinetic/assets/fonts/Archivo-normal-100-900.woff2",
+      "bytes": 90096,
+      "sha256": "4c98b9d490d1698ec95f2ff17a6c7d0e72691864c0c5d7bc2a2c161b45afe5ad",
+      "gitBlob": "7af3f7db56708079e71cc2c265b3889d7f4649a6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/02-showreel-kinetic/assets/fonts/Archivo-normal-100-900.woff2"
+    },
+    {
+      "path": "templates/02-showreel-kinetic/assets/fonts/IBMPlexMono-400.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac",
+      "gitBlob": "52b6c7595dd5e2106676e7c52fcff18539607879",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/02-showreel-kinetic/assets/fonts/IBMPlexMono-400.woff2"
+    },
+    {
+      "path": "templates/02-showreel-kinetic/assets/fonts/IBMPlexMono-500.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0",
+      "gitBlob": "3308bce2432c298817ed344eeac33007c83cecd0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/02-showreel-kinetic/assets/fonts/IBMPlexMono-500.woff2"
+    },
+    {
+      "path": "templates/02-showreel-kinetic/assets/fonts/InstrumentSerif-italic-400.woff2",
+      "bytes": 15684,
+      "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702",
+      "gitBlob": "ce3c417c8d0e9f012bb697d25a0874d148ea89e6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/02-showreel-kinetic/assets/fonts/InstrumentSerif-italic-400.woff2"
+    },
+    {
+      "path": "templates/02-showreel-kinetic/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/02-showreel-kinetic/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/02-showreel-kinetic/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/02-showreel-kinetic/assets/kit.js"
+    },
+    {
+      "path": "templates/02-showreel-kinetic/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/02-showreel-kinetic/hyperframes.json"
+    },
+    {
+      "path": "templates/02-showreel-kinetic/index.html",
+      "bytes": 28260,
+      "sha256": "4e8032cc43dd7a8faec04c8a5e1d99178ce5c0289abf344d86cc53748d56da58",
+      "gitBlob": "ea5f5c156e3ed8dfd4f2aa17fc585a665fad90f2",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/02-showreel-kinetic/index.html"
+    },
+    {
+      "path": "templates/02-showreel-kinetic/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/02-showreel-kinetic/meta.json"
+    },
+    {
+      "path": "templates/02-showreel-kinetic/package.json",
+      "bytes": 304,
+      "sha256": "0843b8dcc968dc844746adae80a52c6e2ccf3cba1432f3447cd754745e72db96",
+      "gitBlob": "801203198a470b8a4e8fea241e16dad095151bae",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/02-showreel-kinetic/package.json"
+    },
+    {
+      "path": "templates/02-showreel-kinetic/template.json",
+      "bytes": 852,
+      "sha256": "3ff8cb505aeef1134548d452932dc14b763d24f5d41a485468835a9423c8963e",
+      "gitBlob": "42f543f0a58ea5923e123bb3096b58e6e7c6ec0a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/02-showreel-kinetic/template.json"
+    },
+    {
+      "path": "templates/03-resume-reel/assets/fonts.css",
+      "bytes": 660,
+      "sha256": "e8b84833191cb4cebe562bfebd1d73b0d950d36e89f0d298dfe155857b7759ad",
+      "gitBlob": "9580f04594c2db05fff17f2e7679b4277da0e3c8",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/03-resume-reel/assets/fonts.css"
+    },
+    {
+      "path": "templates/03-resume-reel/assets/fonts/DMSerifDisplay-normal-400.woff2",
+      "bytes": 17844,
+      "sha256": "f273cf2c9ce9bc7d6b0f4fcb8aee72f8cf5a249991308b6a144217e0760c5d3f",
+      "gitBlob": "7c9fa83c3e8a476883cb844e96b1c00869875f6d",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/03-resume-reel/assets/fonts/DMSerifDisplay-normal-400.woff2"
+    },
+    {
+      "path": "templates/03-resume-reel/assets/fonts/IBMPlexMono-400.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac",
+      "gitBlob": "52b6c7595dd5e2106676e7c52fcff18539607879",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/03-resume-reel/assets/fonts/IBMPlexMono-400.woff2"
+    },
+    {
+      "path": "templates/03-resume-reel/assets/fonts/IBMPlexMono-500.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0",
+      "gitBlob": "3308bce2432c298817ed344eeac33007c83cecd0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/03-resume-reel/assets/fonts/IBMPlexMono-500.woff2"
+    },
+    {
+      "path": "templates/03-resume-reel/assets/fonts/Montserrat-normal-100-900.woff2",
+      "bytes": 35508,
+      "sha256": "6438d7b8ea9c7c3992d5e2fd2afdb1ff948570a3ef0bedae76247b51632960ba",
+      "gitBlob": "61220a0f6bb5d74f2cea3c53094c31e2a875f90f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/03-resume-reel/assets/fonts/Montserrat-normal-100-900.woff2"
+    },
+    {
+      "path": "templates/03-resume-reel/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/03-resume-reel/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/03-resume-reel/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/03-resume-reel/assets/kit.js"
+    },
+    {
+      "path": "templates/03-resume-reel/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/03-resume-reel/hyperframes.json"
+    },
+    {
+      "path": "templates/03-resume-reel/index.html",
+      "bytes": 21340,
+      "sha256": "58b0dd8907bef91b985d693a4fbb6a3234fda2e30741c13701a2462b00b92d0a",
+      "gitBlob": "724abde37e947da8130b6db1f8c75434fe08d8b4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/03-resume-reel/index.html"
+    },
+    {
+      "path": "templates/03-resume-reel/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/03-resume-reel/meta.json"
+    },
+    {
+      "path": "templates/03-resume-reel/package.json",
+      "bytes": 299,
+      "sha256": "a029d44315c59844e7d38a7d49036dfcea979024a0780528c2cadd43d2badac0",
+      "gitBlob": "77debf523561a166184d85197fe09d588cfd540d",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/03-resume-reel/package.json"
+    },
+    {
+      "path": "templates/03-resume-reel/template.json",
+      "bytes": 855,
+      "sha256": "1f49366f2806449651106920d16b788c0503fda9f9d7ffb1bd11bf9188bfdbc8",
+      "gitBlob": "415d34f02e5791f6a3d2e92d67e883f9bfade945",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/03-resume-reel/template.json"
+    },
+    {
+      "path": "templates/04-reel-depth/assets/fonts.css",
+      "bytes": 828,
+      "sha256": "6fc81032c67b8ea11c9d4ff8f1b2fcfa8222f35b9a15105458c8535255183811",
+      "gitBlob": "80909ac223c443f2bbcf8a16f130cb64f1c33560",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/04-reel-depth/assets/fonts.css"
+    },
+    {
+      "path": "templates/04-reel-depth/assets/fonts/Archivo-normal-100-900.woff2",
+      "bytes": 90096,
+      "sha256": "4c98b9d490d1698ec95f2ff17a6c7d0e72691864c0c5d7bc2a2c161b45afe5ad",
+      "gitBlob": "7af3f7db56708079e71cc2c265b3889d7f4649a6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/04-reel-depth/assets/fonts/Archivo-normal-100-900.woff2"
+    },
+    {
+      "path": "templates/04-reel-depth/assets/fonts/IBMPlexMono-400.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac",
+      "gitBlob": "52b6c7595dd5e2106676e7c52fcff18539607879",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/04-reel-depth/assets/fonts/IBMPlexMono-400.woff2"
+    },
+    {
+      "path": "templates/04-reel-depth/assets/fonts/IBMPlexMono-500.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0",
+      "gitBlob": "3308bce2432c298817ed344eeac33007c83cecd0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/04-reel-depth/assets/fonts/IBMPlexMono-500.woff2"
+    },
+    {
+      "path": "templates/04-reel-depth/assets/fonts/InstrumentSerif-italic-400.woff2",
+      "bytes": 15684,
+      "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702",
+      "gitBlob": "ce3c417c8d0e9f012bb697d25a0874d148ea89e6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/04-reel-depth/assets/fonts/InstrumentSerif-italic-400.woff2"
+    },
+    {
+      "path": "templates/04-reel-depth/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/04-reel-depth/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/04-reel-depth/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/04-reel-depth/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/04-reel-depth/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/04-reel-depth/assets/kit.js"
+    },
+    {
+      "path": "templates/04-reel-depth/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/04-reel-depth/hyperframes.json"
+    },
+    {
+      "path": "templates/04-reel-depth/index.html",
+      "bytes": 18982,
+      "sha256": "1c53a67c21d8519ccbe1d887e3d5fad8e0df2e580406e64e857cd02393a4f41f",
+      "gitBlob": "bd4634269a87ca68510afb4d7ae9f996084894ee",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/04-reel-depth/index.html"
+    },
+    {
+      "path": "templates/04-reel-depth/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/04-reel-depth/meta.json"
+    },
+    {
+      "path": "templates/04-reel-depth/package.json",
+      "bytes": 298,
+      "sha256": "77edd779516a36c178a5a5b4fdd1a5db63c99722ad748263e081ff7a053467e8",
+      "gitBlob": "37e8d07916e8f8eec7a774c6176005040e4f7980",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/04-reel-depth/package.json"
+    },
+    {
+      "path": "templates/04-reel-depth/template.json",
+      "bytes": 814,
+      "sha256": "80eac9091e320c217839eb2fe479ea3151ff5dcf01c4642f8f985cf8f80af185",
+      "gitBlob": "38e2a797d0e1a58d8434d6ce86b36cbd26f9798e",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/04-reel-depth/template.json"
+    },
+    {
+      "path": "templates/05-launch-muda/assets/fonts.css",
+      "bytes": 948,
+      "sha256": "0e5f1dfe4bc86db7121e8dc09f1c7085ceadf2c96da8c8b0f2744defb83109d9",
+      "gitBlob": "fa56173a8052f17f83ff95dbf5d37552410634d3",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/assets/fonts.css"
+    },
+    {
+      "path": "templates/05-launch-muda/assets/fonts/IBMPlexMono-400.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac",
+      "gitBlob": "52b6c7595dd5e2106676e7c52fcff18539607879",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/assets/fonts/IBMPlexMono-400.woff2"
+    },
+    {
+      "path": "templates/05-launch-muda/assets/fonts/IBMPlexMono-500.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0",
+      "gitBlob": "3308bce2432c298817ed344eeac33007c83cecd0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/assets/fonts/IBMPlexMono-500.woff2"
+    },
+    {
+      "path": "templates/05-launch-muda/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/05-launch-muda/assets/fonts/InterTight-700.woff2",
+      "bytes": 22784,
+      "sha256": "381e3f55dbb210af4f31f827d187b33a166a6e95843eed570f87675fc20a4bf5",
+      "gitBlob": "ff486c987c20c8e5a3bc497c0e579f2c73aa5341",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/assets/fonts/InterTight-700.woff2"
+    },
+    {
+      "path": "templates/05-launch-muda/assets/fonts/NotoSerifJP-sozo-300.woff2",
+      "bytes": 2512,
+      "sha256": "dafb79d80f04244335adacc659b5fff7c65400787be873aa9a1325e5150345b3",
+      "gitBlob": "0453aa6647da10bf7d9b49c8ca2ef73995bf5b5e",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/assets/fonts/NotoSerifJP-sozo-300.woff2"
+    },
+    {
+      "path": "templates/05-launch-muda/assets/fonts/SourceSerif4-400.woff2",
+      "bytes": 48536,
+      "sha256": "bfc645351d6b6c7c9d6528847e3740eb64acb532638f1659c97f09864e0332fe",
+      "gitBlob": "0afbad65dedf5534cea98fa107da6ab76f52f37b",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/assets/fonts/SourceSerif4-400.woff2"
+    },
+    {
+      "path": "templates/05-launch-muda/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/05-launch-muda/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/assets/kit.js"
+    },
+    {
+      "path": "templates/05-launch-muda/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/hyperframes.json"
+    },
+    {
+      "path": "templates/05-launch-muda/index.html",
+      "bytes": 22291,
+      "sha256": "f1ca540cfd91fc1b779fa9a17fa819d5800ec4a23ee2a4033af361e2c110fc60",
+      "gitBlob": "30bb5c65c6f0349da2e3c00274d87c1dfcfbdda6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/index.html"
+    },
+    {
+      "path": "templates/05-launch-muda/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/meta.json"
+    },
+    {
+      "path": "templates/05-launch-muda/package.json",
+      "bytes": 299,
+      "sha256": "7ed3f73787cef96003d5351706fa9dc337df7dcb279d82e36b4327626b81651f",
+      "gitBlob": "c8a979e64514ff87dba122995029a9a8e361b6c9",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/package.json"
+    },
+    {
+      "path": "templates/05-launch-muda/template.json",
+      "bytes": 1228,
+      "sha256": "217e6febc96c2c3a8576f97bf490eef6fae4f1c3326750afc2b1131467d219c5",
+      "gitBlob": "9ffd0583254bf47111c614d0d83b21aa258e91e5",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/05-launch-muda/template.json"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/fonts.css",
+      "bytes": 352,
+      "sha256": "98a9000dc933e69a94499ede6f3f1626956e6a58ff0341c973feb36293cc8d36",
+      "gitBlob": "e970a50735fe607dc27f67bda5ec592589d22442",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/fonts.css"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/fonts/Archivo-wdth-62-125-wght-100-900.woff2",
+      "bytes": 90096,
+      "sha256": "4c98b9d490d1698ec95f2ff17a6c7d0e72691864c0c5d7bc2a2c161b45afe5ad",
+      "gitBlob": "7af3f7db56708079e71cc2c265b3889d7f4649a6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/fonts/Archivo-wdth-62-125-wght-100-900.woff2"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/arch.jpg",
+      "bytes": 472816,
+      "sha256": "9dbf3fe0ea653a8ea6ae4b17d38536bf8c54ded77464800a689b40904315a18d",
+      "gitBlob": "8076ddd9f0b1d9a357ac4a9f544bcb16d35ec710",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/arch.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/arch_blur.jpg",
+      "bytes": 46819,
+      "sha256": "5897db444d876825846a35c76b5af0f539aaa016e67b63c1aab9a06be5228b8b",
+      "gitBlob": "1f87a18c2d687fe5a4c441aa5a5ec9ba7fa802c7",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/arch_blur.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/arch_gold.jpg",
+      "bytes": 449323,
+      "sha256": "a5667f5ad6a2c320384b5f52499ba48029c1862b86e92955159b9a4502c65fe5",
+      "gitBlob": "35fd1eb842838c081ff10371fa00dc42f9a975c3",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/arch_gold.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/astro.jpg",
+      "bytes": 272398,
+      "sha256": "7eb23f1163f3671d8b83befe1cdbfdd672f96585924084ea6cd1521761edbae2",
+      "gitBlob": "7e836de25cf4122223d6ab70ff2b0f7a3a9f5b18",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/astro.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/astro_blur.jpg",
+      "bytes": 42702,
+      "sha256": "ff1471667edddde95f8d894eab8d56570f07b63d0005946013e87d635fdb0750",
+      "gitBlob": "364537d88d3818e631357cbcc49920212496d468",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/astro_blur.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/cyclist.jpg",
+      "bytes": 65019,
+      "sha256": "652b7f5c8a1ec24aab84353994b833d6d5e6748ad09f2fdc08da2b19a9e12656",
+      "gitBlob": "66905a153d29f60faad5675f887169960993866d",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/cyclist.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/door.jpg",
+      "bytes": 115056,
+      "sha256": "36c3815e62d577d05f2d921c4fdcdd59d0732d1a713d0af09eed1679df933e7f",
+      "gitBlob": "0ff2e63415df81914f7cbcbd8f103f47f4006568",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/door.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/earth.jpg",
+      "bytes": 64349,
+      "sha256": "a5ea3d7d720f0fc977cd7da5bf850ea7ba20586ce83139638b321d10e0450d46",
+      "gitBlob": "876de04bbe042fa64e8a7eafee9ebd489a00a0c3",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/earth.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/hands_cut.png",
+      "bytes": 302709,
+      "sha256": "62b18cb2740fdf1c0163d4d3df08b5e9572623f48ed27f4f450dc9f53549c935",
+      "gitBlob": "94fa43f2d10be93366bf67453116aaeeed2974c6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/hands_cut.png"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/hills.jpg",
+      "bytes": 60652,
+      "sha256": "d8369a4ac9f82ee48bddc94dad2b0c4dba929879f27c38ec6464116c624599fd",
+      "gitBlob": "502ac25581e8caa47b6b42ddbb9e8eaf90d3e75a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/hills.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/hole.jpg",
+      "bytes": 132955,
+      "sha256": "7551b56e37489eab61f3824c623802f45049d7d19a09953543da8e6985f98442",
+      "gitBlob": "360f0f669ee10519a49eea47ccfe42d56061aa63",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/hole.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/mountain.jpg",
+      "bytes": 114519,
+      "sha256": "3b04281e5f57b8631c6f26434b70f1b3f14b91482094ed5b2921c8da76214eec",
+      "gitBlob": "a8e1bb9105223a7b081b0c0f7109f218b6f1130e",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/mountain.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/nebula.jpg",
+      "bytes": 132140,
+      "sha256": "62b7db77f718d450504f77e5c603fae61c7fa3bd97b99b2cb715fd51c67cf46b",
+      "gitBlob": "8a1aada8e170827c3a0e3293a94b80fedc85897c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/nebula.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/portrait.jpg",
+      "bytes": 77963,
+      "sha256": "a5eaab21eb5d975baeafcffccab4b771fb054d7c85a76f42a4753f804f1bb180",
+      "gitBlob": "885c4c72ffd385484854c1a498a15f9a05d0fdc5",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/portrait.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/ribbon.jpg",
+      "bytes": 202884,
+      "sha256": "6cb5e22b1067c761a1294207348aa941cc6a701ed5fb598b125a8207359b5ebd",
+      "gitBlob": "97ca848ae38c949d3234fd862ac047b45bde95ee",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/ribbon.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/img/wall.jpg",
+      "bytes": 264293,
+      "sha256": "66b77a1701e00e17e79948622dfcffec1c3c19eb736d46f42ca4b77c90f35ff0",
+      "gitBlob": "c5dad82823a1a2a0b1a785dc5b1f39636e96a199",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/img/wall.jpg"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/assets/kit.js"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/hyperframes.json"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/index.html",
+      "bytes": 63194,
+      "sha256": "c23ad71efa2902e0cf80133787a21927ae3c915a51a658012dce390e75bede6f",
+      "gitBlob": "c845362d40edd97efa936c38eefb420a157bc8b9",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/index.html"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/meta.json",
+      "bytes": 120,
+      "sha256": "67d57b013140f4447291ae0a983e745c4dcc2e3b450de18f1e005f8963965568",
+      "gitBlob": "d9e8f492d0c782c070d93252fee6f9a4848608c8",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/meta.json"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/package.json",
+      "bytes": 309,
+      "sha256": "3f76cdb90bc220e6b634aaea1fd8499a74f18288aba1abd9819f983e84119f46",
+      "gitBlob": "6b892c70426a7b69b4f7eb12bec069e76c22af66",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/package.json"
+    },
+    {
+      "path": "templates/06-screen-to-wall-prints/template.json",
+      "bytes": 6704,
+      "sha256": "579500b3ed6ae3446791823dc9103588feebfdc247ef406a30b81f7ee3a3389a",
+      "gitBlob": "03eadc57c26f5e007b68af2de1820a3df35a9fd0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/06-screen-to-wall-prints/template.json"
+    },
+    {
+      "path": "templates/07-i-make-things-move/assets/fonts.css",
+      "bytes": 610,
+      "sha256": "89b73f0965f6cd39a97014288b58a74f688d1e199befa862efaabe214eb41d52",
+      "gitBlob": "972bfcda9360a9c4177efb10362780bbd7821c3c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/07-i-make-things-move/assets/fonts.css"
+    },
+    {
+      "path": "templates/07-i-make-things-move/assets/fonts/Anton-400.woff2",
+      "bytes": 12004,
+      "sha256": "23aab0b2692a0c89eb7997d3c7cf5bda41276d6cd4ab6cc0edc3edfcece32b09",
+      "gitBlob": "35e8f012a8465a5a58da9f3420c179d3f7ff4372",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/07-i-make-things-move/assets/fonts/Anton-400.woff2"
+    },
+    {
+      "path": "templates/07-i-make-things-move/assets/fonts/Caveat-700.woff2",
+      "bytes": 74572,
+      "sha256": "7a0049db01fdd8fc7af7ef36675862a72a5c76d0cb45ae63c9f5b6f1b769dac7",
+      "gitBlob": "836dbda093eb92e5277d39b9b5af6a00222b176a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/07-i-make-things-move/assets/fonts/Caveat-700.woff2"
+    },
+    {
+      "path": "templates/07-i-make-things-move/assets/fonts/IBMPlexMono-400.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac",
+      "gitBlob": "52b6c7595dd5e2106676e7c52fcff18539607879",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/07-i-make-things-move/assets/fonts/IBMPlexMono-400.woff2"
+    },
+    {
+      "path": "templates/07-i-make-things-move/assets/fonts/IBMPlexMono-500.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0",
+      "gitBlob": "3308bce2432c298817ed344eeac33007c83cecd0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/07-i-make-things-move/assets/fonts/IBMPlexMono-500.woff2"
+    },
+    {
+      "path": "templates/07-i-make-things-move/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/07-i-make-things-move/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/07-i-make-things-move/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/07-i-make-things-move/assets/kit.js"
+    },
+    {
+      "path": "templates/07-i-make-things-move/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/07-i-make-things-move/hyperframes.json"
+    },
+    {
+      "path": "templates/07-i-make-things-move/index.html",
+      "bytes": 29557,
+      "sha256": "11674fa9e595b64382e2d444cbdfcfeb4476ed8407836f09548c68ec92be81b0",
+      "gitBlob": "5e12ea4459714b8a90899918e671935052b196cb",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/07-i-make-things-move/index.html"
+    },
+    {
+      "path": "templates/07-i-make-things-move/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/07-i-make-things-move/meta.json"
+    },
+    {
+      "path": "templates/07-i-make-things-move/package.json",
+      "bytes": 306,
+      "sha256": "82a993ed0c6e7013425536dcd3d56b38f2c05d71af121f92f6b5b69236c1e599",
+      "gitBlob": "c44090a056f3f23d1010bc7738fc9374d5041b0f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/07-i-make-things-move/package.json"
+    },
+    {
+      "path": "templates/07-i-make-things-move/template.json",
+      "bytes": 942,
+      "sha256": "e0f97462e4f0840e7f8ba3215f8ead3621c177a85b20ddb8712b8c9c81c25614",
+      "gitBlob": "c4ed304ed63bb5625f8a442a44e5cccc2464393a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/07-i-make-things-move/template.json"
+    },
+    {
+      "path": "templates/08-saas-launch-growth/assets/fonts.css",
+      "bytes": 467,
+      "sha256": "ad9058dfb4a2ba4818b654818655363f7381769dd93d2f593447fffabb2edebe",
+      "gitBlob": "bb235a221bd6df70c10af89267c09b33059e3dc9",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/08-saas-launch-growth/assets/fonts.css"
+    },
+    {
+      "path": "templates/08-saas-launch-growth/assets/fonts/IBMPlexMono-400.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac",
+      "gitBlob": "52b6c7595dd5e2106676e7c52fcff18539607879",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/08-saas-launch-growth/assets/fonts/IBMPlexMono-400.woff2"
+    },
+    {
+      "path": "templates/08-saas-launch-growth/assets/fonts/IBMPlexMono-500.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0",
+      "gitBlob": "3308bce2432c298817ed344eeac33007c83cecd0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/08-saas-launch-growth/assets/fonts/IBMPlexMono-500.woff2"
+    },
+    {
+      "path": "templates/08-saas-launch-growth/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/08-saas-launch-growth/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/08-saas-launch-growth/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/08-saas-launch-growth/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/08-saas-launch-growth/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/08-saas-launch-growth/assets/kit.js"
+    },
+    {
+      "path": "templates/08-saas-launch-growth/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/08-saas-launch-growth/hyperframes.json"
+    },
+    {
+      "path": "templates/08-saas-launch-growth/index.html",
+      "bytes": 74423,
+      "sha256": "51da2187542236be999aeac4bde7d60b2befe397e4cf254d35c6de2b6578ba83",
+      "gitBlob": "f98230fc048434334ebdc37fef74a6d30589d61c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/08-saas-launch-growth/index.html"
+    },
+    {
+      "path": "templates/08-saas-launch-growth/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/08-saas-launch-growth/meta.json"
+    },
+    {
+      "path": "templates/08-saas-launch-growth/package.json",
+      "bytes": 306,
+      "sha256": "1698912c618d9c3f4ef8de36095c9a35907725f1e7aeb29438d29acc33b6746c",
+      "gitBlob": "7d57436157f6d3279372e24ba8f03fafbbe6910d",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/08-saas-launch-growth/package.json"
+    },
+    {
+      "path": "templates/08-saas-launch-growth/template.json",
+      "bytes": 1735,
+      "sha256": "59ee0d45e82c81fe9802eb7f019c7a1826d3f5180691964aea646702b57a3251",
+      "gitBlob": "be69deaa6ab51f271b78ad5663d09a12037721eb",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/08-saas-launch-growth/template.json"
+    },
+    {
+      "path": "templates/09-app-launch-mascot/assets/fonts.css",
+      "bytes": 472,
+      "sha256": "b01d5e47ac53c87e46ced8b81974816ae9e54a9df4a20d6ec9f77c6ff79779d5",
+      "gitBlob": "1efb5555f298266065c7e5edfe5632093b18533c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/09-app-launch-mascot/assets/fonts.css"
+    },
+    {
+      "path": "templates/09-app-launch-mascot/assets/fonts/IBMPlexMono-500.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0",
+      "gitBlob": "3308bce2432c298817ed344eeac33007c83cecd0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/09-app-launch-mascot/assets/fonts/IBMPlexMono-500.woff2"
+    },
+    {
+      "path": "templates/09-app-launch-mascot/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/09-app-launch-mascot/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/09-app-launch-mascot/assets/fonts/Nunito-normal-200-1000.woff2",
+      "bytes": 39152,
+      "sha256": "20fc9b6fc618e7c3c68d3ac750a2a5dfbceb8521675458d2cea580b5693e4798",
+      "gitBlob": "e1188184cb73bf77d4e7896f739ad64b38f61bd9",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/09-app-launch-mascot/assets/fonts/Nunito-normal-200-1000.woff2"
+    },
+    {
+      "path": "templates/09-app-launch-mascot/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/09-app-launch-mascot/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/09-app-launch-mascot/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/09-app-launch-mascot/assets/kit.js"
+    },
+    {
+      "path": "templates/09-app-launch-mascot/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/09-app-launch-mascot/hyperframes.json"
+    },
+    {
+      "path": "templates/09-app-launch-mascot/index.html",
+      "bytes": 54974,
+      "sha256": "342291a1570260ac9116d79cb995f652e7a34ae19e27400891ac99d0994ec246",
+      "gitBlob": "db18ce1ff40a109fa2c64b6d9ee707888c435cc0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/09-app-launch-mascot/index.html"
+    },
+    {
+      "path": "templates/09-app-launch-mascot/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/09-app-launch-mascot/meta.json"
+    },
+    {
+      "path": "templates/09-app-launch-mascot/package.json",
+      "bytes": 305,
+      "sha256": "5bdab5a49466bf71e420e206539e85dac4987e105b68c532452fa735255e25cf",
+      "gitBlob": "520d4c6692d920f08887772f8f1b600cfb377792",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/09-app-launch-mascot/package.json"
+    },
+    {
+      "path": "templates/09-app-launch-mascot/template.json",
+      "bytes": 1452,
+      "sha256": "0b558e93cad4050780edb2a6b309d123f15211a1412001ee589f703653396c0d",
+      "gitBlob": "7a78d839ee3203321b4bc79146e6c6be7968fdcf",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/09-app-launch-mascot/template.json"
+    },
+    {
+      "path": "templates/10-saas-demo-warm/assets/fonts.css",
+      "bytes": 149,
+      "sha256": "cd98157363205b44dc1cd6037d9224cdbb86ee3b3607ffce701ee23281c29dc1",
+      "gitBlob": "d4eb807f9a210a475cc4579497e4cb769b3662df",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/10-saas-demo-warm/assets/fonts.css"
+    },
+    {
+      "path": "templates/10-saas-demo-warm/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/10-saas-demo-warm/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/10-saas-demo-warm/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/10-saas-demo-warm/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/10-saas-demo-warm/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/10-saas-demo-warm/assets/kit.js"
+    },
+    {
+      "path": "templates/10-saas-demo-warm/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/10-saas-demo-warm/hyperframes.json"
+    },
+    {
+      "path": "templates/10-saas-demo-warm/index.html",
+      "bytes": 54474,
+      "sha256": "90de82739b98bfc31aa5f9442ee22c14d833b3a841c0ca6e90557e7f1cce62b0",
+      "gitBlob": "17ff3966d04d266e53402655bf97cc34aa1a7c74",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/10-saas-demo-warm/index.html"
+    },
+    {
+      "path": "templates/10-saas-demo-warm/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/10-saas-demo-warm/meta.json"
+    },
+    {
+      "path": "templates/10-saas-demo-warm/package.json",
+      "bytes": 302,
+      "sha256": "18a628dec431d8961dcbd2cae5b1abdbf3856a5aeb722b7afb6d900ca2940f90",
+      "gitBlob": "d2c78c008addacd80f11aad156c6b3a5f3fb3001",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/10-saas-demo-warm/package.json"
+    },
+    {
+      "path": "templates/10-saas-demo-warm/template.json",
+      "bytes": 1449,
+      "sha256": "db058843fa6acf91b567d4ca2883528fdf0e915531dbe413892e82733bf5f94d",
+      "gitBlob": "52a5f5c2475f51657ebd4157fa596cf56cb12f41",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/10-saas-demo-warm/template.json"
+    },
+    {
+      "path": "templates/11-synthwave-app-promo/assets/fonts.css",
+      "bytes": 298,
+      "sha256": "496fe5806b6f0e8334a29b69ae6f92f7dbe25924b91106ba5319627b7e3390b7",
+      "gitBlob": "4dfa64c2ac7f0af34e23605363d40d53457e1023",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/11-synthwave-app-promo/assets/fonts.css"
+    },
+    {
+      "path": "templates/11-synthwave-app-promo/assets/fonts/Audiowide-400.woff2",
+      "bytes": 13744,
+      "sha256": "2da113c9964a66eeab098d816dd4c13af85d902a733a4df30493f454151b9180",
+      "gitBlob": "853fbfc518b935e2ffee9dfd5a7611baf40adff7",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/11-synthwave-app-promo/assets/fonts/Audiowide-400.woff2"
+    },
+    {
+      "path": "templates/11-synthwave-app-promo/assets/fonts/VT323-400.woff2",
+      "bytes": 7192,
+      "sha256": "043a60145af2ddbcd0a6452625cb0bfc4e18b222c76dcd1d4a0106715472faba",
+      "gitBlob": "efd2d4ce78125c6d1b9eb7425e69f138d913c9b9",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/11-synthwave-app-promo/assets/fonts/VT323-400.woff2"
+    },
+    {
+      "path": "templates/11-synthwave-app-promo/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/11-synthwave-app-promo/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/11-synthwave-app-promo/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/11-synthwave-app-promo/assets/kit.js"
+    },
+    {
+      "path": "templates/11-synthwave-app-promo/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/11-synthwave-app-promo/hyperframes.json"
+    },
+    {
+      "path": "templates/11-synthwave-app-promo/index.html",
+      "bytes": 77183,
+      "sha256": "686ec1ba74b394bcb1e6e5908e8ad669ba66286b54d10166d4503fb0cbcf13ac",
+      "gitBlob": "7cd09d3e83b91c3b8359a92212871562261626e2",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/11-synthwave-app-promo/index.html"
+    },
+    {
+      "path": "templates/11-synthwave-app-promo/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/11-synthwave-app-promo/meta.json"
+    },
+    {
+      "path": "templates/11-synthwave-app-promo/package.json",
+      "bytes": 307,
+      "sha256": "00b9b6fda12a184c2a7e76b71e6a015aa694fb76a9a2f6ba6e8edf78b1989010",
+      "gitBlob": "74f2c00890f4c9e0e554706982f396aeae4dc05d",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/11-synthwave-app-promo/package.json"
+    },
+    {
+      "path": "templates/11-synthwave-app-promo/template.json",
+      "bytes": 1304,
+      "sha256": "899160a6e34d806969bb72589db8480c819cd4efdeb09fc12239c1abbd78c1a0",
+      "gitBlob": "89975ce81c9c43324e138bc344e4b8dbe7e25546",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/11-synthwave-app-promo/template.json"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/brand-mark.png",
+      "bytes": 290871,
+      "sha256": "82d5a0b63c353865da1e08a8b783dde2adfc8d8957cef9a6f4e202edc577ce96",
+      "gitBlob": "b12af29689585b473e9a3bb0f9bdeae2a544ea32",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/brand-mark.png"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/fonts.css",
+      "bytes": 322,
+      "sha256": "289231e319ee94618822a08c54749cfea2619ba9d5cc18dca0218f7815f5ec28",
+      "gitBlob": "99b2dc18999c174b8f772cff3af9fe00f1279aba",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/fonts.css"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/fonts/InstrumentSerif-italic-400.woff2",
+      "bytes": 15684,
+      "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702",
+      "gitBlob": "ce3c417c8d0e9f012bb697d25a0874d148ea89e6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/fonts/InstrumentSerif-italic-400.woff2"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-01-portrait.webp",
+      "bytes": 101944,
+      "sha256": "5b5f777cfe5f5a904f91fee11cb9b256e26e2508e6207cbc61634b9b62b84573",
+      "gitBlob": "65980bec9cd3f9dad12a7c1228b088c9b67f7d57",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-01-portrait.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-02-anime.webp",
+      "bytes": 168432,
+      "sha256": "975914d472cc2d93bd303571ed3e70033208708a7f1e8670ba4e7d3e9ba868e6",
+      "gitBlob": "4b56c2433ae1e80d4441e0c27816347e61fc39c9",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-02-anime.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-03-product.webp",
+      "bytes": 24148,
+      "sha256": "aeffb50d322e5cf9667af07da49ef0ca61a064178414140bb71ea157a1967ef4",
+      "gitBlob": "0b2e8c7ddf365cd5fe742e61eacc054595317717",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-03-product.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-04-landscape.webp",
+      "bytes": 65566,
+      "sha256": "dc9fb572a58dfbf740c069d8ec9dd440998a2757791103e64085713c50b8ac89",
+      "gitBlob": "7f83dd404caea374edfff2cd78cdf65281c74f46",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-04-landscape.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-05-creative.webp",
+      "bytes": 222956,
+      "sha256": "f1703eb59a6046ad6c8087b544eb65a904fa3393b7fa743db589a7e8a5e1f447",
+      "gitBlob": "c4522cc6cbe21bd99eca7bfcf594e71ce6ee881a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-05-creative.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-06-icon.webp",
+      "bytes": 43588,
+      "sha256": "957ccb40ca107c88fd1ec931c8d4ae6e88a54e8b8bb98dff3a8b7ef979cedee5",
+      "gitBlob": "d88a540cf55ffe5edceb8bdd9958dfb9d0edb934",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-06-icon.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-07-interior.webp",
+      "bytes": 132972,
+      "sha256": "0aea6b90d548a15895a71e2d4456a4b5287e9b29b87418d5afe8840c805843af",
+      "gitBlob": "f5d5649282362d9e8add76fd23f806e18ba52192",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-07-interior.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-08-architecture.webp",
+      "bytes": 120268,
+      "sha256": "8d5b6a6dd9a80c7ed93c944944bafb18a901bae563ab8e47f8e444944457e2e5",
+      "gitBlob": "3afdc270110ecc3de753987041ce600f88a79b06",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-08-architecture.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-09-food-ramen.webp",
+      "bytes": 165428,
+      "sha256": "5621738842f72db2a799881184b908a8e32e45930c1c743a3149d965d313e981",
+      "gitBlob": "74145733d59e22da47a43288405562a84db89d9a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-09-food-ramen.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-10-food-tart.webp",
+      "bytes": 181336,
+      "sha256": "20667f03b06077aa9382152c908ecb65865159c8d5b6ef587b5d0992028afb71",
+      "gitBlob": "c2fb89ad1e9e06cb9dde4b3e8da6121c01ecaf8d",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-10-food-tart.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-11-fantasy-dragon.webp",
+      "bytes": 105956,
+      "sha256": "761988b5b07db58d78e57d82d1efaaf081157db5fc54d1f7c3e194d48e9f395f",
+      "gitBlob": "a41a146d927e27223dde09df3ecb0092e19f5d08",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-11-fantasy-dragon.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-12-cyberpunk.webp",
+      "bytes": 246846,
+      "sha256": "8fe729eef18253eafcb7193ff9d2f7ecb51bb76fbd5a860d79f4cfdafeb0edf1",
+      "gitBlob": "52fa73a670e2d50c776e521f91c9bb6a8510b491",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-12-cyberpunk.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-13-fashion-red.webp",
+      "bytes": 72038,
+      "sha256": "70f29685dd59688b038b69a974df7b638df832520b59159b70805ce353e50ae5",
+      "gitBlob": "24dc6a6233d3092a6a9fffefdb0ce49ab3cff38f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-13-fashion-red.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-14-portrait-studio.webp",
+      "bytes": 37592,
+      "sha256": "fabfad8ea14ba2fd8807889c23f08aa4d1d126da11d4f0e04ebeaee983b49288",
+      "gitBlob": "166fb2db68511401aaed93710348cddefa287d9b",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-14-portrait-studio.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-15-watercolor-venice.webp",
+      "bytes": 254674,
+      "sha256": "594e44479ae10c985be9a4923e2616ef2d8d90af68dc307114165c4953dca030",
+      "gitBlob": "e02da66b281b27c6dfc5e6b19862e9ec30e4f9da",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-15-watercolor-venice.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-16-oil-sunflowers.webp",
+      "bytes": 446456,
+      "sha256": "5cd95bb24ba9ab61b85cd3a33f5acdcfe7dedbb0ddd86d67cb6b50b3ed34758c",
+      "gitBlob": "cd0642dee4f73366068240eb12fe5c09f5678252",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-16-oil-sunflowers.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-17-isometric-cafe.webp",
+      "bytes": 94494,
+      "sha256": "64eb422d2beb584ecfa174b29d1da16e37edfef5147dce3e5a5e01571c09f018",
+      "gitBlob": "e4e9d94b9300af657a68b60628e86949b786db95",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-17-isometric-cafe.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gallery/gallery-18-3d-robot.webp",
+      "bytes": 37134,
+      "sha256": "7365f452f6aa8e0af9c5f294497b475cbba52d64a52244feb325e9b8f4196533",
+      "gitBlob": "6404c1d1ef2855d7ee7aef62cbb269cd69c60086",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gallery/gallery-18-3d-robot.webp"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/assets/kit.js"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/hyperframes.json"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/index.html",
+      "bytes": 47735,
+      "sha256": "edf896fae17f47cf21f1b78afbcdaa163e7a8e0f5f3f06992d4c5486c9bf6e53",
+      "gitBlob": "62768614abd94d98272ec58883b660e4896e78ea",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/index.html"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/meta.json"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/package.json",
+      "bytes": 305,
+      "sha256": "eabacff8271fb707d47c837bce8c7ee034b4f3fc4c738eb2e31d253834bf4eed",
+      "gitBlob": "40c041a1f62f4d508c2c79b481deb01b3719689f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/package.json"
+    },
+    {
+      "path": "templates/12-launch-reel-ember/template.json",
+      "bytes": 2326,
+      "sha256": "6057022ce3423ff110cf083451fdfbb74daa4041b224f9270624c030001769cc",
+      "gitBlob": "fd80faab330caa02144252c27d90d5c1faf34e44",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/12-launch-reel-ember/template.json"
+    },
+    {
+      "path": "templates/13-self-planning-calendar/assets/fonts.css",
+      "bytes": 305,
+      "sha256": "d76efa7d8a53931a88ca190f9098510cd2b82c23842daca5bd9a2892121a21fe",
+      "gitBlob": "b43c60eba6562a4e99ebfc227eabd70c8ea9f4ad",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/13-self-planning-calendar/assets/fonts.css"
+    },
+    {
+      "path": "templates/13-self-planning-calendar/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/13-self-planning-calendar/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/13-self-planning-calendar/assets/fonts/InterTight-700.woff2",
+      "bytes": 22784,
+      "sha256": "381e3f55dbb210af4f31f827d187b33a166a6e95843eed570f87675fc20a4bf5",
+      "gitBlob": "ff486c987c20c8e5a3bc497c0e579f2c73aa5341",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/13-self-planning-calendar/assets/fonts/InterTight-700.woff2"
+    },
+    {
+      "path": "templates/13-self-planning-calendar/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/13-self-planning-calendar/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/13-self-planning-calendar/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/13-self-planning-calendar/assets/kit.js"
+    },
+    {
+      "path": "templates/13-self-planning-calendar/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/13-self-planning-calendar/hyperframes.json"
+    },
+    {
+      "path": "templates/13-self-planning-calendar/index.html",
+      "bytes": 82531,
+      "sha256": "a15213ab6f2a4908b6ec81179b5049ce41e5b8fd75bb874532cf666a0465bf77",
+      "gitBlob": "d8ec2ca7896fd887425daed0f65eaee19d6e952d",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/13-self-planning-calendar/index.html"
+    },
+    {
+      "path": "templates/13-self-planning-calendar/meta.json",
+      "bytes": 122,
+      "sha256": "40894cfc40a7180d805c70ea67a71f38b12f2c87c202eba7f1a0d70ed5078802",
+      "gitBlob": "bb609f81fe0e72c340c93d11efb6b634fe9dd555",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/13-self-planning-calendar/meta.json"
+    },
+    {
+      "path": "templates/13-self-planning-calendar/package.json",
+      "bytes": 310,
+      "sha256": "46f0b132fb7d0bd6cada7a4f7993410561051f0f6670721b1948e1422a3b489e",
+      "gitBlob": "74c2dcd4c966ed2b599e5fc38a8e4ee4c9a9c0b4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/13-self-planning-calendar/package.json"
+    },
+    {
+      "path": "templates/13-self-planning-calendar/template.json",
+      "bytes": 2497,
+      "sha256": "3d922855f71174bd1a5eec0a06a61a8a5786562af7198b45623768a896916561",
+      "gitBlob": "088b27f92e3bde29f221d3f08033424bff0907ed",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/13-self-planning-calendar/template.json"
+    },
+    {
+      "path": "templates/14-publish-everywhere/assets/fonts.css",
+      "bytes": 182,
+      "sha256": "79fea3f353c575abb6228a62a93e3d028b98ce9d3117c316a43a19e241c58a28",
+      "gitBlob": "473eeaf4c355131392f1313abac50d1a94455a9a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/14-publish-everywhere/assets/fonts.css"
+    },
+    {
+      "path": "templates/14-publish-everywhere/assets/fonts/PlusJakartaSans-normal-200-800.woff2",
+      "bytes": 27272,
+      "sha256": "cd8db90cd950e26bc8761f65d323588bd5cd112d326d6d322bc7c8ea86771215",
+      "gitBlob": "5ec77eddf5417124cd427066149ba6adc78160ef",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/14-publish-everywhere/assets/fonts/PlusJakartaSans-normal-200-800.woff2"
+    },
+    {
+      "path": "templates/14-publish-everywhere/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/14-publish-everywhere/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/14-publish-everywhere/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/14-publish-everywhere/assets/kit.js"
+    },
+    {
+      "path": "templates/14-publish-everywhere/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/14-publish-everywhere/hyperframes.json"
+    },
+    {
+      "path": "templates/14-publish-everywhere/index.html",
+      "bytes": 34448,
+      "sha256": "d8ceed91c70a3aa6903ecb1b0e14d9a8feff65fb207f74c8d18188dc5719f385",
+      "gitBlob": "35a87ea57965aa3402d88c5b6df48b1ddf7ba1cc",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/14-publish-everywhere/index.html"
+    },
+    {
+      "path": "templates/14-publish-everywhere/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/14-publish-everywhere/meta.json"
+    },
+    {
+      "path": "templates/14-publish-everywhere/package.json",
+      "bytes": 306,
+      "sha256": "7b29e78cbaa2f421905b29f9ee7680863a83fc071c1722da72b5e2d4e06cb9c8",
+      "gitBlob": "1cffe105bc792b76513f66d91629b328b1403430",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/14-publish-everywhere/package.json"
+    },
+    {
+      "path": "templates/14-publish-everywhere/template.json",
+      "bytes": 1446,
+      "sha256": "51b16a076da66d2c8787321ac2f7e487023ac9c4d5b0cb734a80be637e364756",
+      "gitBlob": "711e14452d1b1a5b1bf00baaf7acec06017b1acb",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/14-publish-everywhere/template.json"
+    },
+    {
+      "path": "templates/15-bauhaus-motion-reel/assets/fonts.css",
+      "bytes": 679,
+      "sha256": "9ac45c09fc9175d2e4fb4ae7fc8dc862dd43de2dcb186f47f682944ec352a244",
+      "gitBlob": "7eae16bf5392f3866753611f2774700bd6bdd9c3",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/15-bauhaus-motion-reel/assets/fonts.css"
+    },
+    {
+      "path": "templates/15-bauhaus-motion-reel/assets/fonts/Archivo-normal-100-900.woff2",
+      "bytes": 90096,
+      "sha256": "4c98b9d490d1698ec95f2ff17a6c7d0e72691864c0c5d7bc2a2c161b45afe5ad",
+      "gitBlob": "7af3f7db56708079e71cc2c265b3889d7f4649a6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/15-bauhaus-motion-reel/assets/fonts/Archivo-normal-100-900.woff2"
+    },
+    {
+      "path": "templates/15-bauhaus-motion-reel/assets/fonts/IBMPlexMono-400.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac",
+      "gitBlob": "52b6c7595dd5e2106676e7c52fcff18539607879",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/15-bauhaus-motion-reel/assets/fonts/IBMPlexMono-400.woff2"
+    },
+    {
+      "path": "templates/15-bauhaus-motion-reel/assets/fonts/IBMPlexMono-500.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0",
+      "gitBlob": "3308bce2432c298817ed344eeac33007c83cecd0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/15-bauhaus-motion-reel/assets/fonts/IBMPlexMono-500.woff2"
+    },
+    {
+      "path": "templates/15-bauhaus-motion-reel/assets/fonts/InstrumentSerif-italic-400.woff2",
+      "bytes": 15684,
+      "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702",
+      "gitBlob": "ce3c417c8d0e9f012bb697d25a0874d148ea89e6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/15-bauhaus-motion-reel/assets/fonts/InstrumentSerif-italic-400.woff2"
+    },
+    {
+      "path": "templates/15-bauhaus-motion-reel/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/15-bauhaus-motion-reel/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/15-bauhaus-motion-reel/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/15-bauhaus-motion-reel/assets/kit.js"
+    },
+    {
+      "path": "templates/15-bauhaus-motion-reel/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/15-bauhaus-motion-reel/hyperframes.json"
+    },
+    {
+      "path": "templates/15-bauhaus-motion-reel/index.html",
+      "bytes": 44624,
+      "sha256": "57e5885ca1ee37ea35d802f9f51990a5dadbc43f2de286e4fca715351f1aa567",
+      "gitBlob": "6c6c2f80e0337615aa0b8aa151394e9bf4d865a9",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/15-bauhaus-motion-reel/index.html"
+    },
+    {
+      "path": "templates/15-bauhaus-motion-reel/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/15-bauhaus-motion-reel/meta.json"
+    },
+    {
+      "path": "templates/15-bauhaus-motion-reel/package.json",
+      "bytes": 307,
+      "sha256": "389fb29ac13f3915b978d2b0e24c526059062208b6f3eea76bf96643596fca67",
+      "gitBlob": "c3d082fe1c30770bbba6623e2923f933dd0ea676",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/15-bauhaus-motion-reel/package.json"
+    },
+    {
+      "path": "templates/15-bauhaus-motion-reel/template.json",
+      "bytes": 1504,
+      "sha256": "1ff66ef94699ec538a8f8032f9bf8fa2f5b95199663dc5db4961890ba4fe9906",
+      "gitBlob": "c101b08cc71d39eb1fccc4a94051aca5be992e4b",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/15-bauhaus-motion-reel/template.json"
+    },
+    {
+      "path": "templates/16-ai-workspace-launch/assets/fonts.css",
+      "bytes": 481,
+      "sha256": "e95a2bc3ed12bdc822157af3143a3629ca0270babe6addc1f372659eb0ecc600",
+      "gitBlob": "218fa9e7ba7532cdfa6e2e74d869ccd74fa9d486",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/16-ai-workspace-launch/assets/fonts.css"
+    },
+    {
+      "path": "templates/16-ai-workspace-launch/assets/fonts/IBMPlexMono-400.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac",
+      "gitBlob": "52b6c7595dd5e2106676e7c52fcff18539607879",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/16-ai-workspace-launch/assets/fonts/IBMPlexMono-400.woff2"
+    },
+    {
+      "path": "templates/16-ai-workspace-launch/assets/fonts/InstrumentSerif-italic-400.woff2",
+      "bytes": 15684,
+      "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702",
+      "gitBlob": "ce3c417c8d0e9f012bb697d25a0874d148ea89e6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/16-ai-workspace-launch/assets/fonts/InstrumentSerif-italic-400.woff2"
+    },
+    {
+      "path": "templates/16-ai-workspace-launch/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/16-ai-workspace-launch/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/16-ai-workspace-launch/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/16-ai-workspace-launch/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/16-ai-workspace-launch/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/16-ai-workspace-launch/assets/kit.js"
+    },
+    {
+      "path": "templates/16-ai-workspace-launch/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/16-ai-workspace-launch/hyperframes.json"
+    },
+    {
+      "path": "templates/16-ai-workspace-launch/index.html",
+      "bytes": 81713,
+      "sha256": "f17d8f8b71e0f99c5159571d6a334c9dc0d673ee27dcb646c9026f5a3aa270c1",
+      "gitBlob": "b54df56811ad9c76c9eb660cae158a381fa6b5ec",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/16-ai-workspace-launch/index.html"
+    },
+    {
+      "path": "templates/16-ai-workspace-launch/meta.json",
+      "bytes": 116,
+      "sha256": "f27bcdc60aee6f4044ebb6fba7a9246a2d3c5e8417f1b5e31a2b437c900b55e7",
+      "gitBlob": "c09a814ddf2b39f2caa9f805f2626c577e5753b9",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/16-ai-workspace-launch/meta.json"
+    },
+    {
+      "path": "templates/16-ai-workspace-launch/package.json",
+      "bytes": 307,
+      "sha256": "03749f86f83dfcffaf43610522e6ed2ae36b86f7d8913362c6aabdf0774e5e3a",
+      "gitBlob": "f864be31766c18b6e559a09a2f1e03e7f0dcb9fe",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/16-ai-workspace-launch/package.json"
+    },
+    {
+      "path": "templates/16-ai-workspace-launch/template.json",
+      "bytes": 2831,
+      "sha256": "1f71b4676acb14e6a2ef2b84129df8d9464881e539985dc476f6aca28364c437",
+      "gitBlob": "3e09b31498de13bed128e7c7dd7384d34acff154",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/16-ai-workspace-launch/template.json"
+    },
+    {
+      "path": "templates/17-vertical-app-update/assets/fonts.css",
+      "bytes": 331,
+      "sha256": "8329b1ca76f37a22106f38693f6cd8f5ef76b33079fd7b97499a1b5f6089c81b",
+      "gitBlob": "64a8471f6f15cc4e7f9178bbd2bf4566a1ceb133",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/17-vertical-app-update/assets/fonts.css"
+    },
+    {
+      "path": "templates/17-vertical-app-update/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/17-vertical-app-update/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/17-vertical-app-update/assets/fonts/PlusJakartaSans-normal-200-800.woff2",
+      "bytes": 27272,
+      "sha256": "cd8db90cd950e26bc8761f65d323588bd5cd112d326d6d322bc7c8ea86771215",
+      "gitBlob": "5ec77eddf5417124cd427066149ba6adc78160ef",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/17-vertical-app-update/assets/fonts/PlusJakartaSans-normal-200-800.woff2"
+    },
+    {
+      "path": "templates/17-vertical-app-update/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/17-vertical-app-update/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/17-vertical-app-update/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/17-vertical-app-update/assets/kit.js"
+    },
+    {
+      "path": "templates/17-vertical-app-update/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/17-vertical-app-update/hyperframes.json"
+    },
+    {
+      "path": "templates/17-vertical-app-update/index.html",
+      "bytes": 63616,
+      "sha256": "857d7b98c77b09e6453f5d7fb303efd4c93ed12abbaf05124d6c6b9a685f6483",
+      "gitBlob": "b479caae8ec7bc1370ef6237598a261da1fa6ac0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/17-vertical-app-update/index.html"
+    },
+    {
+      "path": "templates/17-vertical-app-update/meta.json",
+      "bytes": 115,
+      "sha256": "604e1eb85a149f2b5b20df7eb1d5fe1dff614d588f6b81bdf9bb4da7a966c69f",
+      "gitBlob": "9d4d28c15d1f2edf791f343d0a299c30d61241bb",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/17-vertical-app-update/meta.json"
+    },
+    {
+      "path": "templates/17-vertical-app-update/package.json",
+      "bytes": 307,
+      "sha256": "7aa583513858395803173c895045b06dfac05b8bce0408f07b245eb38295a70a",
+      "gitBlob": "3a43efb167711fb2c2e02012831e121a5d48b81d",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/17-vertical-app-update/package.json"
+    },
+    {
+      "path": "templates/17-vertical-app-update/template.json",
+      "bytes": 1560,
+      "sha256": "be772764f968b50f56330cd671eb8f7a96de12ecd1e67b515e4f19f05084be3c",
+      "gitBlob": "557b718efd3b7a2fed6a4047629cbbd2ae570dad",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/17-vertical-app-update/template.json"
+    },
+    {
+      "path": "templates/18-kinetic-type-cat/assets/fonts.css",
+      "bytes": 188,
+      "sha256": "897c4b6e6d47d000b9fab0430750e68e24ae0651170c66222d4648b68ae3ee9f",
+      "gitBlob": "830de54f329dec73a4c31a8172b141621bf35dbd",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/18-kinetic-type-cat/assets/fonts.css"
+    },
+    {
+      "path": "templates/18-kinetic-type-cat/assets/fonts/Archivo-normal-100-900.woff2",
+      "bytes": 90096,
+      "sha256": "4c98b9d490d1698ec95f2ff17a6c7d0e72691864c0c5d7bc2a2c161b45afe5ad",
+      "gitBlob": "7af3f7db56708079e71cc2c265b3889d7f4649a6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/18-kinetic-type-cat/assets/fonts/Archivo-normal-100-900.woff2"
+    },
+    {
+      "path": "templates/18-kinetic-type-cat/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/18-kinetic-type-cat/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/18-kinetic-type-cat/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/18-kinetic-type-cat/assets/kit.js"
+    },
+    {
+      "path": "templates/18-kinetic-type-cat/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/18-kinetic-type-cat/hyperframes.json"
+    },
+    {
+      "path": "templates/18-kinetic-type-cat/index.html",
+      "bytes": 39650,
+      "sha256": "365255748c7bb220f40efb4797b510abab8981ec43a5f00c36684bcfd693edf4",
+      "gitBlob": "f863eba311e010347f0e374e502525f3716c78ad",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/18-kinetic-type-cat/index.html"
+    },
+    {
+      "path": "templates/18-kinetic-type-cat/meta.json",
+      "bytes": 109,
+      "sha256": "78aba43c9d633002f4be5e4d2979ff27b47c5875afa3521f59a0c058901aebab",
+      "gitBlob": "cf14cf5438e53f5187b86181ecb2f3c8bd820cc8",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/18-kinetic-type-cat/meta.json"
+    },
+    {
+      "path": "templates/18-kinetic-type-cat/package.json",
+      "bytes": 304,
+      "sha256": "867db224c20a2fe36abaa98b1ac4ff3a9e5dad1d6bd3ec891c35f07c963e298f",
+      "gitBlob": "00907d7541d998ded9d55f1788edd241e4fa3163",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/18-kinetic-type-cat/package.json"
+    },
+    {
+      "path": "templates/18-kinetic-type-cat/template.json",
+      "bytes": 1799,
+      "sha256": "3d05e504813fa15c319c5bd3ee688181f1a7f34b6398776cc8130772cba2dae8",
+      "gitBlob": "f49b6ad6356ea2c8e2fb4be9c30577b2c0f8cd67",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/18-kinetic-type-cat/template.json"
+    },
+    {
+      "path": "templates/19-lowpoly-logo-reveal/assets/fonts.css",
+      "bytes": 149,
+      "sha256": "cd98157363205b44dc1cd6037d9224cdbb86ee3b3607ffce701ee23281c29dc1",
+      "gitBlob": "d4eb807f9a210a475cc4579497e4cb769b3662df",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/19-lowpoly-logo-reveal/assets/fonts.css"
+    },
+    {
+      "path": "templates/19-lowpoly-logo-reveal/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/19-lowpoly-logo-reveal/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/19-lowpoly-logo-reveal/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/19-lowpoly-logo-reveal/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/19-lowpoly-logo-reveal/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/19-lowpoly-logo-reveal/assets/kit.js"
+    },
+    {
+      "path": "templates/19-lowpoly-logo-reveal/assets/logo.png",
+      "bytes": 290871,
+      "sha256": "82d5a0b63c353865da1e08a8b783dde2adfc8d8957cef9a6f4e202edc577ce96",
+      "gitBlob": "b12af29689585b473e9a3bb0f9bdeae2a544ea32",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/19-lowpoly-logo-reveal/assets/logo.png"
+    },
+    {
+      "path": "templates/19-lowpoly-logo-reveal/assets/mesh.js",
+      "bytes": 3309,
+      "sha256": "3f30ddb10a1174691ba9386d133e176b0d50b3129a6801ec88a10491d17437ba",
+      "gitBlob": "456f11fe14da902a45823974690105b36dc67bba",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/19-lowpoly-logo-reveal/assets/mesh.js"
+    },
+    {
+      "path": "templates/19-lowpoly-logo-reveal/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/19-lowpoly-logo-reveal/hyperframes.json"
+    },
+    {
+      "path": "templates/19-lowpoly-logo-reveal/index.html",
+      "bytes": 12930,
+      "sha256": "5e46411f3925bdc1e15fbcb387e627c7b2d2724eb1b6c1df87235d792732fbd5",
+      "gitBlob": "5522b77384840f1e7c5743856c421884af28bbdf",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/19-lowpoly-logo-reveal/index.html"
+    },
+    {
+      "path": "templates/19-lowpoly-logo-reveal/meta.json",
+      "bytes": 115,
+      "sha256": "53a5903536377d22d269799808167ba14a1e27fe0d1362378e0529ed40ea6ba4",
+      "gitBlob": "79eba75ea8355e2bad182912478253557f8a457c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/19-lowpoly-logo-reveal/meta.json"
+    },
+    {
+      "path": "templates/19-lowpoly-logo-reveal/package.json",
+      "bytes": 307,
+      "sha256": "1f4084590846989ed0d2317f3c395d3657c98dd0a0a93e2bf922c71b5647ccc5",
+      "gitBlob": "f9b677674a5c20436a3af4b3da6a2c2ef85dceb3",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/19-lowpoly-logo-reveal/package.json"
+    },
+    {
+      "path": "templates/19-lowpoly-logo-reveal/template.json",
+      "bytes": 1533,
+      "sha256": "20a64bf423e23ca0582c81dfc53b32b815c43ec8836dacd70484c8a7bbccd1bf",
+      "gitBlob": "2b7d7ec8b486762451314ecb7ccd5ea861176369",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/19-lowpoly-logo-reveal/template.json"
+    },
+    {
+      "path": "templates/19-lowpoly-logo-reveal/tools/mesh.py",
+      "bytes": 2626,
+      "sha256": "02fa797241455052667d0d281a5f44dbb22e9d9b5a0b07a3ff92500a130a0ee3",
+      "gitBlob": "18505d91d718189b64612a1f270b7805946d7bae",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/19-lowpoly-logo-reveal/tools/mesh.py"
+    },
+    {
+      "path": "templates/20-product-parody-launch/assets/fonts.css",
+      "bytes": 149,
+      "sha256": "cd98157363205b44dc1cd6037d9224cdbb86ee3b3607ffce701ee23281c29dc1",
+      "gitBlob": "d4eb807f9a210a475cc4579497e4cb769b3662df",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/20-product-parody-launch/assets/fonts.css"
+    },
+    {
+      "path": "templates/20-product-parody-launch/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/20-product-parody-launch/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/20-product-parody-launch/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/20-product-parody-launch/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/20-product-parody-launch/assets/img/baguette.jpg",
+      "bytes": 290884,
+      "sha256": "2d67da0ade1fe095eb7486557f2e1663f27cfc41b5a6823ca51da6742b6bd8f2",
+      "gitBlob": "90cc6f727d5d005fffc7e1a0ce21cc81e3d4a987",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/20-product-parody-launch/assets/img/baguette.jpg"
+    },
+    {
+      "path": "templates/20-product-parody-launch/assets/img/crust.jpg",
+      "bytes": 667021,
+      "sha256": "8113f0a82f084dce13271af819ae16e596158d584b999e3edf881775c7432f84",
+      "gitBlob": "9154b355183506f5b7a7cb49998cd75a5ea4ff60",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/20-product-parody-launch/assets/img/crust.jpg"
+    },
+    {
+      "path": "templates/20-product-parody-launch/assets/img/stack.jpg",
+      "bytes": 403013,
+      "sha256": "b9175cbebc641be5a4dc090ad68bd0a730cfbdb0c42efad963fffca19ebb2008",
+      "gitBlob": "801de492dd9c89e97a4600d8a8a30a90c68dedf9",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/20-product-parody-launch/assets/img/stack.jpg"
+    },
+    {
+      "path": "templates/20-product-parody-launch/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/20-product-parody-launch/assets/kit.js"
+    },
+    {
+      "path": "templates/20-product-parody-launch/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/20-product-parody-launch/hyperframes.json"
+    },
+    {
+      "path": "templates/20-product-parody-launch/index.html",
+      "bytes": 19539,
+      "sha256": "34be61a18d3a86f5b62a19022c67638cd0ad8d45eacf2cce4410f836a9416999",
+      "gitBlob": "cd5cbf86c78ea01d4409baf9f3f82b9d3f1deb13",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/20-product-parody-launch/index.html"
+    },
+    {
+      "path": "templates/20-product-parody-launch/meta.json",
+      "bytes": 120,
+      "sha256": "5ea0e4a6bbbafb137a5c6bd5931517fc992411b30658e792143f7118c29e77c9",
+      "gitBlob": "dc9f07ba99e394b13a95831923f8f753119f03c2",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/20-product-parody-launch/meta.json"
+    },
+    {
+      "path": "templates/20-product-parody-launch/package.json",
+      "bytes": 309,
+      "sha256": "63d59c815757ac5ef9ea4e8ea15fb4f6b0a71e7561f74a9a1d273d9ba1c78637",
+      "gitBlob": "4ad3f7ba23208f5c9b0ea9b4d7fe30cc058f2bd6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/20-product-parody-launch/package.json"
+    },
+    {
+      "path": "templates/20-product-parody-launch/template.json",
+      "bytes": 3828,
+      "sha256": "fc4586cdf9bda9174916f3d7d645d69c30eb65db2458540867db1f1b7615c1cd",
+      "gitBlob": "7fa10e427b6eea386d4b870d6b1de14567b43e15",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/20-product-parody-launch/template.json"
+    },
+    {
+      "path": "templates/21-ecg-device-film/assets/fonts.css",
+      "bytes": 490,
+      "sha256": "a7929c21ae0407b5d3b2de1cf9c5b575840335012d1b00786f96de7a98fdd2d3",
+      "gitBlob": "521733ae4a98fa0240a61ccc510f6a47e1eefcf7",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/assets/fonts.css"
+    },
+    {
+      "path": "templates/21-ecg-device-film/assets/fonts/IBMPlexMono-500.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0",
+      "gitBlob": "3308bce2432c298817ed344eeac33007c83cecd0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/assets/fonts/IBMPlexMono-500.woff2"
+    },
+    {
+      "path": "templates/21-ecg-device-film/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/21-ecg-device-film/assets/fonts/PlusJakartaSans-normal-200-800.woff2",
+      "bytes": 27272,
+      "sha256": "cd8db90cd950e26bc8761f65d323588bd5cd112d326d6d322bc7c8ea86771215",
+      "gitBlob": "5ec77eddf5417124cd427066149ba6adc78160ef",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/assets/fonts/PlusJakartaSans-normal-200-800.woff2"
+    },
+    {
+      "path": "templates/21-ecg-device-film/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/21-ecg-device-film/assets/img/close.webp",
+      "bytes": 33136,
+      "sha256": "81dab29bede1e7e7204c87cd210f18fae1b1f7a32b973996de28df4ce0f886f1",
+      "gitBlob": "6cf61a398977098822997346b7280decf14ef803",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/assets/img/close.webp"
+    },
+    {
+      "path": "templates/21-ecg-device-film/assets/img/front.webp",
+      "bytes": 24422,
+      "sha256": "d36998540001d1a5e5f46102aef4e3c7217a08928ea57f2eb533b4cdd9a9369e",
+      "gitBlob": "4b5a627fdf8f661b59064bd7ae77f09a912763e5",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/assets/img/front.webp"
+    },
+    {
+      "path": "templates/21-ecg-device-film/assets/img/slot.jpg",
+      "bytes": 108223,
+      "sha256": "af350bc798e75c9b2c2d6369afb0c4f67ae3358770e18ec94c4ad5e5610cd4b1",
+      "gitBlob": "fafd7c7e86247d8656ff40b216ffe077251dc30b",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/assets/img/slot.jpg"
+    },
+    {
+      "path": "templates/21-ecg-device-film/assets/img/three.webp",
+      "bytes": 33136,
+      "sha256": "a56898bca492e0188d01e524609ce94a80e35fe7ed609e5ce25df5a26789a286",
+      "gitBlob": "b017fdd544aa99bcb50532431873a886cdc91148",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/assets/img/three.webp"
+    },
+    {
+      "path": "templates/21-ecg-device-film/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/assets/kit.js"
+    },
+    {
+      "path": "templates/21-ecg-device-film/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/hyperframes.json"
+    },
+    {
+      "path": "templates/21-ecg-device-film/index.html",
+      "bytes": 35579,
+      "sha256": "98809eeb1ff05361170d8f3ec29e44028ca2d9302641873628590f67c08e5478",
+      "gitBlob": "9ebddadd6707869243d6a2b8bd435effb3dc0e25",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/index.html"
+    },
+    {
+      "path": "templates/21-ecg-device-film/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/meta.json"
+    },
+    {
+      "path": "templates/21-ecg-device-film/package.json",
+      "bytes": 303,
+      "sha256": "599427e294b4bd3046fed290bf0a5030f1c0b21d586f7caff5beb196acd2d734",
+      "gitBlob": "b8ddf39d7c3f63bd543f86b279d600a923a7e29f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/package.json"
+    },
+    {
+      "path": "templates/21-ecg-device-film/template.json",
+      "bytes": 5591,
+      "sha256": "1f4902115c50a128084719f613695cc6cca6a74f45add7e89d7e07a7189018b4",
+      "gitBlob": "f1c4fe92d021d27c66a3905c532047e26d1b8a38",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/template.json"
+    },
+    {
+      "path": "templates/21-ecg-device-film/tools/screen_quad.py",
+      "bytes": 4591,
+      "sha256": "62afd028c05fde61290c21283de5354855a5c1cbb643b2db4c3509c2d82bf7ed",
+      "gitBlob": "d6523a27088f38da45f7b4d1a9aa0e1244d6ad93",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/21-ecg-device-film/tools/screen_quad.py"
+    },
+    {
+      "path": "templates/22-maker-map-globe/assets/fonts.css",
+      "bytes": 464,
+      "sha256": "3a36979d41de4a5b21c793ad7675544b620a0519d967e7c0217eac0648d18c24",
+      "gitBlob": "67534214b82ca38a0a047ca14abae1393c359e56",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/22-maker-map-globe/assets/fonts.css"
+    },
+    {
+      "path": "templates/22-maker-map-globe/assets/fonts/IBMPlexMono-400.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac",
+      "gitBlob": "52b6c7595dd5e2106676e7c52fcff18539607879",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/22-maker-map-globe/assets/fonts/IBMPlexMono-400.woff2"
+    },
+    {
+      "path": "templates/22-maker-map-globe/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/22-maker-map-globe/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/22-maker-map-globe/assets/fonts/InterTight-700.woff2",
+      "bytes": 22784,
+      "sha256": "381e3f55dbb210af4f31f827d187b33a166a6e95843eed570f87675fc20a4bf5",
+      "gitBlob": "ff486c987c20c8e5a3bc497c0e579f2c73aa5341",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/22-maker-map-globe/assets/fonts/InterTight-700.woff2"
+    },
+    {
+      "path": "templates/22-maker-map-globe/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/22-maker-map-globe/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/22-maker-map-globe/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/22-maker-map-globe/assets/kit.js"
+    },
+    {
+      "path": "templates/22-maker-map-globe/assets/land.js",
+      "bytes": 65990,
+      "sha256": "cd134d65a72ed7af8df41bdef1cbde964ecb0e78fa009eb0f29b3d2d9d1a1841",
+      "gitBlob": "b975c5433f1f8399f5d8be10f622b661dde5b84a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/22-maker-map-globe/assets/land.js"
+    },
+    {
+      "path": "templates/22-maker-map-globe/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/22-maker-map-globe/hyperframes.json"
+    },
+    {
+      "path": "templates/22-maker-map-globe/index.html",
+      "bytes": 40456,
+      "sha256": "b724c01338ba5b76aa84484f4fc6a738d6f0cb8480a748e58dc08efe97136471",
+      "gitBlob": "023c34fa2a6acd5d6556ad92fb0a0ad194d8f122",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/22-maker-map-globe/index.html"
+    },
+    {
+      "path": "templates/22-maker-map-globe/meta.json",
+      "bytes": 108,
+      "sha256": "f372c9851b4de20c48b475c203c5f179a2869a6de6218ab91362b16af1e9dd65",
+      "gitBlob": "089c43eeb6d8390cb14deb62eaa96e70304545b2",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/22-maker-map-globe/meta.json"
+    },
+    {
+      "path": "templates/22-maker-map-globe/package.json",
+      "bytes": 303,
+      "sha256": "66b6856688b6d905567f2f510935af79d8954e2e06a0f9071a47c89640a6bdb9",
+      "gitBlob": "8c8f4b147485c483844f51ff55e4a81930fe0bd3",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/22-maker-map-globe/package.json"
+    },
+    {
+      "path": "templates/22-maker-map-globe/template.json",
+      "bytes": 2447,
+      "sha256": "5b4051f19fa30fddfbcd1747c2f465eee1fcb42291c5704dadee561dab3daa8c",
+      "gitBlob": "859e1d4ee3a938717f10c8116f2b865cb4e10bba",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/22-maker-map-globe/template.json"
+    },
+    {
+      "path": "templates/22-maker-map-globe/tools/land.py",
+      "bytes": 2059,
+      "sha256": "ed8944e5394d91ae5aebd4a59aa6ef1cd071ce693bd60bf59107617d801db2e9",
+      "gitBlob": "03aef4a35f7c391bd7f6f1079e0a95656bd92b29",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/22-maker-map-globe/tools/land.py"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/fonts.css",
+      "bytes": 949,
+      "sha256": "74843351dca94b4e5453cb797536be81bba71d3d88ea04cfcb71a2af488c6089",
+      "gitBlob": "5db21caff6eb6d662efdcd04fb2797314d4d8a94",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/fonts.css"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/fonts/Anton-400.woff2",
+      "bytes": 12004,
+      "sha256": "23aab0b2692a0c89eb7997d3c7cf5bda41276d6cd4ab6cc0edc3edfcece32b09",
+      "gitBlob": "35e8f012a8465a5a58da9f3420c179d3f7ff4372",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/fonts/Anton-400.woff2"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/fonts/Caveat-700.woff2",
+      "bytes": 74572,
+      "sha256": "7a0049db01fdd8fc7af7ef36675862a72a5c76d0cb45ae63c9f5b6f1b769dac7",
+      "gitBlob": "836dbda093eb92e5277d39b9b5af6a00222b176a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/fonts/Caveat-700.woff2"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/fonts/DMSans-normal-100-1000.woff2",
+      "bytes": 62556,
+      "sha256": "aa530716b0d351866af7dbfa3eee4120fb36f2d071baff8c234185141865c7ff",
+      "gitBlob": "9313206b1ff91d44a7f48bd0e631aacb563a84ca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/fonts/DMSans-normal-100-1000.woff2"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/fonts/InstrumentSerif-italic-400.woff2",
+      "bytes": 15684,
+      "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702",
+      "gitBlob": "ce3c417c8d0e9f012bb697d25a0874d148ea89e6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/fonts/InstrumentSerif-italic-400.woff2"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/fonts/Montserrat-normal-100-900.woff2",
+      "bytes": 35508,
+      "sha256": "6438d7b8ea9c7c3992d5e2fd2afdb1ff948570a3ef0bedae76247b51632960ba",
+      "gitBlob": "61220a0f6bb5d74f2cea3c53094c31e2a875f90f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/fonts/Montserrat-normal-100-900.woff2"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/img/bbq.jpg",
+      "bytes": 359588,
+      "sha256": "8e34b31eb1828372497d950dd1548756ebf04e119f0a0a2888961f030fa3444a",
+      "gitBlob": "1fb87fda0e276882a27c01e8059b48533eb8810b",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/img/bbq.jpg"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/img/cafe.jpg",
+      "bytes": 320650,
+      "sha256": "40783e8c9d2bccf46308b48564770f1fd45ce020b422e5ff59ba286e5fedc6e1",
+      "gitBlob": "4ad7a8d9e1c43321d0605b02ab9b2dd5480489cc",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/img/cafe.jpg"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/img/close.jpg",
+      "bytes": 156522,
+      "sha256": "66d54340d2a961ab5f561159cf4d487719eb1673b4d8a716702f3a8b6c029d6d",
+      "gitBlob": "dbf5d1aec099a808924b09583c191da02f8a33b4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/img/close.jpg"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/img/grill.jpg",
+      "bytes": 378785,
+      "sha256": "0007f6b149fef8637d2f1a6fd5d3812300d203c09e9623507baf8238b8fb3d3a",
+      "gitBlob": "b687f477321c9519bfed4ae4889e4d56b933cb51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/img/grill.jpg"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/img/hall.jpg",
+      "bytes": 179202,
+      "sha256": "c78c05647aaacdda8d33902f44a0477aff2dfb6061edb4726d6fde1866096505",
+      "gitBlob": "4235582a2cedd924ec7597570755722de4fd97c1",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/img/hall.jpg"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/img/hand_grid.webp",
+      "bytes": 109570,
+      "sha256": "c9bad651b792dcaae5390e0ca4b901ffb839a798b486c7aca41761e87ecf42b5",
+      "gitBlob": "4021c97b730688176be3baf972daa7cf9908d622",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/img/hand_grid.webp"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/img/hand_party.webp",
+      "bytes": 164768,
+      "sha256": "862996ce7d997b0bbd51216e886a8d98a616e4ae9b1859568c69a4d899fe2183",
+      "gitBlob": "bbffc34067d0546a97f30058212b272a5d0eff72",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/img/hand_party.webp"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/img/resin.jpg",
+      "bytes": 286807,
+      "sha256": "7097a435338c49eb42cb44529c5460e6d6308217408dba37791c96449b1edd27",
+      "gitBlob": "79c014a917ed714e8c35c8b307185eafed54115e",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/img/resin.jpg"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/img/t_cafe.webp",
+      "bytes": 67398,
+      "sha256": "a28e01ef0443a02b9dd78c985e87f3b3d7a2b4b0df03ddff891e1b536201eeac",
+      "gitBlob": "fa029acf49d0a8a0d215a64648503d100869f5c3",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/img/t_cafe.webp"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/img/t_craft.webp",
+      "bytes": 87140,
+      "sha256": "6bc45068cd8556b31627771cd45947cb78d76640eb24017ff76a2dc64407420e",
+      "gitBlob": "77442f7acb0b238df96933e1015511d402e5588e",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/img/t_craft.webp"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/img/t_desk.webp",
+      "bytes": 138460,
+      "sha256": "86a5827f5673fa072da1f90d17bce84759a548122262dcb9f8591fee14552801",
+      "gitBlob": "9d75af240db235d54dcfa8766e06833064a0df1f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/img/t_desk.webp"
+    },
+    {
+      "path": "templates/23-caption-app-promo/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/assets/kit.js"
+    },
+    {
+      "path": "templates/23-caption-app-promo/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/hyperframes.json"
+    },
+    {
+      "path": "templates/23-caption-app-promo/index.html",
+      "bytes": 52293,
+      "sha256": "d2b7316f5892de427fa5a970c386455e03994154dd3f416a6ea71f4e4fdf0e53",
+      "gitBlob": "0098658922967eddb45a9a5f47d9702846aae97c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/index.html"
+    },
+    {
+      "path": "templates/23-caption-app-promo/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/meta.json"
+    },
+    {
+      "path": "templates/23-caption-app-promo/package.json",
+      "bytes": 305,
+      "sha256": "0f1f785bcc0a3a35c164b9d93453fa4e6cbfc126332b6f7216380545dec6ba70",
+      "gitBlob": "581b2d6117beab97182d4003646bddcde5112623",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/package.json"
+    },
+    {
+      "path": "templates/23-caption-app-promo/template.json",
+      "bytes": 8099,
+      "sha256": "d8d7c82d3614337289046df926f5ad2ede31c830deff36a1b91988f47ae6650b",
+      "gitBlob": "2b67ab18c8d28a844f1fc3bc907872ae589cd130",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/template.json"
+    },
+    {
+      "path": "templates/23-caption-app-promo/tools/screen_quad.py",
+      "bytes": 4591,
+      "sha256": "62afd028c05fde61290c21283de5354855a5c1cbb643b2db4c3509c2d82bf7ed",
+      "gitBlob": "d6523a27088f38da45f7b4d1a9aa0e1244d6ad93",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/23-caption-app-promo/tools/screen_quad.py"
+    },
+    {
+      "path": "templates/24-one-time-bundle/assets/fonts.css",
+      "bytes": 685,
+      "sha256": "13e033f56a1b299f84ee7dd2a2d43db0077a50253844e862d729e7abba369320",
+      "gitBlob": "24e840c0d87a34ec71af373f3134af8e55f79767",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/24-one-time-bundle/assets/fonts.css"
+    },
+    {
+      "path": "templates/24-one-time-bundle/assets/fonts/IBMPlexMono-500.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0",
+      "gitBlob": "3308bce2432c298817ed344eeac33007c83cecd0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/24-one-time-bundle/assets/fonts/IBMPlexMono-500.woff2"
+    },
+    {
+      "path": "templates/24-one-time-bundle/assets/fonts/PlusJakartaSans-normal-200-800.woff2",
+      "bytes": 27272,
+      "sha256": "cd8db90cd950e26bc8761f65d323588bd5cd112d326d6d322bc7c8ea86771215",
+      "gitBlob": "5ec77eddf5417124cd427066149ba6adc78160ef",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/24-one-time-bundle/assets/fonts/PlusJakartaSans-normal-200-800.woff2"
+    },
+    {
+      "path": "templates/24-one-time-bundle/assets/fonts/SourceSerif4-italic-var.woff2",
+      "bytes": 129940,
+      "sha256": "011e0ca2bd14c5dff94aa4c61121b8d057b95dbdbb2af621b175fed1059cfd5e",
+      "gitBlob": "e99ceb843883658f50e29564e1ba1d717c542b65",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/24-one-time-bundle/assets/fonts/SourceSerif4-italic-var.woff2"
+    },
+    {
+      "path": "templates/24-one-time-bundle/assets/fonts/SourceSerif4-normal-var.woff2",
+      "bytes": 122168,
+      "sha256": "2a24bad466f09b88b8e9cbc488bf774117c912e66374c57bf4716855849143f8",
+      "gitBlob": "56a26e1b3ec97e71a16e701352b2222f44bc6152",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/24-one-time-bundle/assets/fonts/SourceSerif4-normal-var.woff2"
+    },
+    {
+      "path": "templates/24-one-time-bundle/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/24-one-time-bundle/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/24-one-time-bundle/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/24-one-time-bundle/assets/kit.js"
+    },
+    {
+      "path": "templates/24-one-time-bundle/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/24-one-time-bundle/hyperframes.json"
+    },
+    {
+      "path": "templates/24-one-time-bundle/index.html",
+      "bytes": 70285,
+      "sha256": "603bea2b0b131be207e0816f6a4f8c9076e0a2470a3452c5cf8f81508962d273",
+      "gitBlob": "81ca8d50d9129b7db6347eb633c69dc0a84017de",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/24-one-time-bundle/index.html"
+    },
+    {
+      "path": "templates/24-one-time-bundle/meta.json",
+      "bytes": 107,
+      "sha256": "d9639ef70df72a1dfce981f756a3a6ebe6de6a87aa386470f58f9749e787bdaf",
+      "gitBlob": "df1511663e8a1d4148a069601e63473ba0edca92",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/24-one-time-bundle/meta.json"
+    },
+    {
+      "path": "templates/24-one-time-bundle/package.json",
+      "bytes": 303,
+      "sha256": "e5b54f4292c2c3dfa62cfed3e3bf56ff1a07c0b6b5976ea8712eb0517816e26b",
+      "gitBlob": "4be5a5db6550528973bb6819ef789d720d9d4f3c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/24-one-time-bundle/package.json"
+    },
+    {
+      "path": "templates/24-one-time-bundle/template.json",
+      "bytes": 2182,
+      "sha256": "57d397797f54218bdc80b52f7eabf170fdb401f1c5d02380534a894cd0a18e73",
+      "gitBlob": "3c72d5573738aafc5bccfc17fa27ef13b9569feb",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/24-one-time-bundle/template.json"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/assets/fonts.css",
+      "bytes": 149,
+      "sha256": "cd98157363205b44dc1cd6037d9224cdbb86ee3b3607ffce701ee23281c29dc1",
+      "gitBlob": "d4eb807f9a210a475cc4579497e4cb769b3662df",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/assets/fonts.css"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/assets/img/box.jpg",
+      "bytes": 261823,
+      "sha256": "e4f93268302e72a62105173ccd58052fa81550db489ef5d10c07a2f37b426e3f",
+      "gitBlob": "3937498ebbace516e460662fe38aaff4415cc34a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/assets/img/box.jpg"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/assets/img/cafe.jpg",
+      "bytes": 291533,
+      "sha256": "0af549421f395805cd09bc2c311bb4eae8e46d608df5f9bf3b4226678fbd762a",
+      "gitBlob": "fcd3ea4547d29542fb47d443bfa92f8bc5aaecfc",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/assets/img/cafe.jpg"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/assets/img/hero.jpg",
+      "bytes": 219734,
+      "sha256": "c3d0dc47252812aff48d762f922f3b955ebc5040544c869e70480e318b53521e",
+      "gitBlob": "0a404ff975f40ff6e8597897f8086d5cd13e2350",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/assets/img/hero.jpg"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/assets/img/lips.jpg",
+      "bytes": 310432,
+      "sha256": "fd41bf4921fcaa797673e5b5260e9b97ae0d2d8d6a2f1dccad0f3a5e49040c66",
+      "gitBlob": "ace444e4f0baa9fa9fc0c0b360e7a2ce76ec81c6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/assets/img/lips.jpg"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/assets/img/swatch.jpg",
+      "bytes": 264297,
+      "sha256": "ee64df8388c5599c02d9e56294f3d4a76ed9ca397b4df067004c325a31b22ad2",
+      "gitBlob": "9697dfab34c9bb7d8e0b8c49e78234eec98a7a73",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/assets/img/swatch.jpg"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/assets/img/wand.jpg",
+      "bytes": 197424,
+      "sha256": "5eea9358aaa0d753b41c7464caab10264a9218994170ba164e4d39805ab7475a",
+      "gitBlob": "7fc266d9286cd3f05cdc4b406d24ee8a1de10155",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/assets/img/wand.jpg"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/assets/kit.js"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/hyperframes.json"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/index.html",
+      "bytes": 7843,
+      "sha256": "2bcce862e7a2f6d4d32d483dd8a26fcf85dc399cfb5b4e9efd7805e675f8f1df",
+      "gitBlob": "7d8cdc2d7f1e6fbf5e2bcfb5725fe6e8661b6e77",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/index.html"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/meta.json",
+      "bytes": 110,
+      "sha256": "5563627ee2f336c52149c705020138389eed58ae601847e4e99f7c2c16c65a20",
+      "gitBlob": "2c57ee803f61e299c13d4464b5d3f256d2cb26d5",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/meta.json"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/package.json",
+      "bytes": 304,
+      "sha256": "2430f3cb6c635a48db6d144a3321483b83089ca0868f899579323009e6600320",
+      "gitBlob": "19e40f0c8be1512c554b5b03e0312e3b4ad67652",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/package.json"
+    },
+    {
+      "path": "templates/25-ugc-product-reel/template.json",
+      "bytes": 4718,
+      "sha256": "989004cd52da1635b14b3e1caf45029745c31614cdca9b2594de1ba79a5b83f5",
+      "gitBlob": "da6f926dc9fecb84e1d7e20d4cbcd27ad10f135e",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/template.json"
+    },
+    {
+      "path": "templates/26-pay-per-job-vs-pro/assets/fonts.css",
+      "bytes": 337,
+      "sha256": "7aea983d2e273ae2b3d7afefc855a2aa743a9907be93bdddcf8553abd579758d",
+      "gitBlob": "e5826d5437943bb1da4b0f12a7aea502e0a002bc",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/26-pay-per-job-vs-pro/assets/fonts.css"
+    },
+    {
+      "path": "templates/26-pay-per-job-vs-pro/assets/fonts/DMSans-normal-100-1000.woff2",
+      "bytes": 62556,
+      "sha256": "aa530716b0d351866af7dbfa3eee4120fb36f2d071baff8c234185141865c7ff",
+      "gitBlob": "9313206b1ff91d44a7f48bd0e631aacb563a84ca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/26-pay-per-job-vs-pro/assets/fonts/DMSans-normal-100-1000.woff2"
+    },
+    {
+      "path": "templates/26-pay-per-job-vs-pro/assets/fonts/DMSerifDisplay-normal-400.woff2",
+      "bytes": 17844,
+      "sha256": "f273cf2c9ce9bc7d6b0f4fcb8aee72f8cf5a249991308b6a144217e0760c5d3f",
+      "gitBlob": "7c9fa83c3e8a476883cb844e96b1c00869875f6d",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/26-pay-per-job-vs-pro/assets/fonts/DMSerifDisplay-normal-400.woff2"
+    },
+    {
+      "path": "templates/26-pay-per-job-vs-pro/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/26-pay-per-job-vs-pro/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/26-pay-per-job-vs-pro/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/26-pay-per-job-vs-pro/assets/kit.js"
+    },
+    {
+      "path": "templates/26-pay-per-job-vs-pro/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/26-pay-per-job-vs-pro/hyperframes.json"
+    },
+    {
+      "path": "templates/26-pay-per-job-vs-pro/index.html",
+      "bytes": 36375,
+      "sha256": "b7a520a312c226d98bd5cc5b8cc0f18089199ad0a34a16f8ebd5462e1d394262",
+      "gitBlob": "80b9c1bd8bf74fbd6219dd550cd1c48ecb690a4a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/26-pay-per-job-vs-pro/index.html"
+    },
+    {
+      "path": "templates/26-pay-per-job-vs-pro/meta.json",
+      "bytes": 114,
+      "sha256": "a95d4fe911fe7a64dce467957b2235c44cf92033eaaa2434acd39bcf9e353c58",
+      "gitBlob": "d29be7a0ecbbb5d7b01db36c5122e36b464e9800",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/26-pay-per-job-vs-pro/meta.json"
+    },
+    {
+      "path": "templates/26-pay-per-job-vs-pro/package.json",
+      "bytes": 306,
+      "sha256": "9eefa03d2200df9bca6b2525eed3ed5353efb846fb0b2bd1163947521abc334c",
+      "gitBlob": "e91046397f0ef89c09cc4dd4cda5da5a0a26346e",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/26-pay-per-job-vs-pro/package.json"
+    },
+    {
+      "path": "templates/26-pay-per-job-vs-pro/template.json",
+      "bytes": 2488,
+      "sha256": "9ddadc25d5ed4a2677fc0c8f99a5081eea165ac786dfdb7aac6bbe483f4cefc7",
+      "gitBlob": "639a78673457988e616461eaa06acbe22fef5a3f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/26-pay-per-job-vs-pro/template.json"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/fonts.css",
+      "bytes": 2624,
+      "sha256": "7e7643702df683137110df815ed391c69cd22b19bfa1c14db8e6a67c2bcc7a43",
+      "gitBlob": "1205a72132696a91abca8182c4d725080a5201ff",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/fonts.css"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/fonts/Caveat-600.woff2",
+      "bytes": 74572,
+      "sha256": "7a0049db01fdd8fc7af7ef36675862a72a5c76d0cb45ae63c9f5b6f1b769dac7",
+      "gitBlob": "836dbda093eb92e5277d39b9b5af6a00222b176a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/fonts/Caveat-600.woff2"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/fonts/Caveat-700.woff2",
+      "bytes": 74572,
+      "sha256": "7a0049db01fdd8fc7af7ef36675862a72a5c76d0cb45ae63c9f5b6f1b769dac7",
+      "gitBlob": "836dbda093eb92e5277d39b9b5af6a00222b176a",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/fonts/Caveat-700.woff2"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/fonts/IBMPlexMono-400.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac",
+      "gitBlob": "52b6c7595dd5e2106676e7c52fcff18539607879",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/fonts/IBMPlexMono-400.woff2"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/fonts/Inter-cyrillic-100-900.woff2",
+      "bytes": 18744,
+      "sha256": "aebf2ab4a4ce6810d73c1ac7be7cafb4e5ec4cee2d6db5fb3e09691747ec4bd6",
+      "gitBlob": "bc0e0ab261be55e60502e8f0ab104faeb84c3888",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/fonts/Inter-cyrillic-100-900.woff2"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/fonts/Inter-greek-100-900.woff2",
+      "bytes": 19044,
+      "sha256": "46dd4cdca58c26ae87cc6927657bf83b2e8abfc39ffd0ab176e301a8d28d22bf",
+      "gitBlob": "9c71603a56134495cb3ace105a0928e9cc29a860",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/fonts/Inter-greek-100-900.woff2"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/fonts/Inter-latin-ext-100-900.woff2",
+      "bytes": 85272,
+      "sha256": "a28eb6d3ccb534ae0c94ca999371df024aab60b08c3c8a5720ee9e32fa0faaa2",
+      "gitBlob": "57da6f8d46e2e42d0fd7d8b1d69d39b3b5fda6d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/fonts/Inter-latin-ext-100-900.woff2"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/fonts/Inter-vietnamese-100-900.woff2",
+      "bytes": 10280,
+      "sha256": "8db00ff46c67b22cda8bed865acf7077651cac8d2841d5b40980556b48961931",
+      "gitBlob": "072229b870650dd4ef5370a52c6aa62b3a9752c7",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/fonts/Inter-vietnamese-100-900.woff2"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/fonts/NotoSansDevanagari-devanagari-400-800.woff2",
+      "bytes": 121188,
+      "sha256": "12223f2beeb4752c6fe7662550978ee22be4d56e49a8f937c324b015ac5ef77a",
+      "gitBlob": "2a41a30fa47a824b60fc84c974c05f9efdc9805f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/fonts/NotoSansDevanagari-devanagari-400-800.woff2"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/fonts/PatrickHand-400.woff2",
+      "bytes": 14224,
+      "sha256": "42156e008dd5fc3000679ff4e9ba9cbd3f417b6317c6dcbe11a12e9c87a09b28",
+      "gitBlob": "eecd8e5cbed5a2085f5f5996f0ceaf69e6279062",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/fonts/PatrickHand-400.woff2"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/fonts/SourceSerif4-normal-var.woff2",
+      "bytes": 122168,
+      "sha256": "2a24bad466f09b88b8e9cbc488bf774117c912e66374c57bf4716855849143f8",
+      "gitBlob": "56a26e1b3ec97e71a16e701352b2222f44bc6152",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/fonts/SourceSerif4-normal-var.woff2"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/assets/kit.js"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/hyperframes.json"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/index.html",
+      "bytes": 77053,
+      "sha256": "d620eead0e6949dffef846b041950be187868faa45eecbdb53775de852a0c707",
+      "gitBlob": "10c4da76e80cbacf2dcb00c2a2d639e00e5e2123",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/index.html"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/meta.json",
+      "bytes": 114,
+      "sha256": "17acad26fd64162902b1b7cf1ae0c6120ea2ae287dbe15d972dba5ac3ed631ec",
+      "gitBlob": "d4ebf9fbd2aa2ae64033ab205c4b06c791017f89",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/meta.json"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/package.json",
+      "bytes": 306,
+      "sha256": "52ebf3c2b591f5f3b75fb8944bee840255f975381b108e301b4100b53bec7e03",
+      "gitBlob": "ed3a6d0c459ec649febdd1b9391c648604db9090",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/package.json"
+    },
+    {
+      "path": "templates/27-doc-to-drawn-video/template.json",
+      "bytes": 2826,
+      "sha256": "b406030b7a2730d971053445777ac7a80d9b3590dabfea0e6ae7c2d1a45b99f4",
+      "gitBlob": "c63d0d3e41e05921597e2a6579d5a9a83d5d60cc",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/27-doc-to-drawn-video/template.json"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/assets/fonts.css",
+      "bytes": 305,
+      "sha256": "d76efa7d8a53931a88ca190f9098510cd2b82c23842daca5bd9a2892121a21fe",
+      "gitBlob": "b43c60eba6562a4e99ebfc227eabd70c8ea9f4ad",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/assets/fonts.css"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/assets/fonts/InterTight-700.woff2",
+      "bytes": 22784,
+      "sha256": "381e3f55dbb210af4f31f827d187b33a166a6e95843eed570f87675fc20a4bf5",
+      "gitBlob": "ff486c987c20c8e5a3bc497c0e579f2c73aa5341",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/assets/fonts/InterTight-700.woff2"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/assets/img/flashing.jpg",
+      "bytes": 403362,
+      "sha256": "15f78d83fa1b59ffb08979cd8c230fe0589af0a95687adb5f37e1fa4d8ea0295",
+      "gitBlob": "44b38d2aa15b412c94c5645e6da5fcd299d8ed0e",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/assets/img/flashing.jpg"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/assets/img/gutter.jpg",
+      "bytes": 324986,
+      "sha256": "520ed77387544b2cc0f37716d02a487d224beadf7c181fe327e6c41e544fc77f",
+      "gitBlob": "fa280f441d3619a38f1a3b8e7a155b31786cecfb",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/assets/img/gutter.jpg"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/assets/img/house.jpg",
+      "bytes": 577435,
+      "sha256": "ed9a79f7699b320e551cf4ff251a98deb2ca52df99b92063972401a110e41289",
+      "gitBlob": "7069afac04aa269c95e72915ab23e808b4edca60",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/assets/img/house.jpg"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/assets/img/measure.jpg",
+      "bytes": 356784,
+      "sha256": "ad593b2ae5bd6b67a23bbee89c8f55f37ecc595fddb3c67f1d3eefe22d70cf19",
+      "gitBlob": "8bfb0e92b3d177d6bd5428298e7816e73f0cc1aa",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/assets/img/measure.jpg"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/assets/img/roof.jpg",
+      "bytes": 275441,
+      "sha256": "a8f7a1e9318f1a2124047c003d117931eed36c6c4d922b8c53f094afce15b1f3",
+      "gitBlob": "91b032d13090480465f982b95d34a21d67faa607",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/assets/img/roof.jpg"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/assets/kit.js"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/hyperframes.json"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/index.html",
+      "bytes": 58968,
+      "sha256": "d89cc4f1d55dc4b9d3a4ce0c6cb92896937efdd58c8959443cbb8067220b07c3",
+      "gitBlob": "edfca1a5e67de6432fd964dcab3c78f4bffec055",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/index.html"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/meta.json",
+      "bytes": 89,
+      "sha256": "8dc7273c46466396a0047aaff953d58a518dd01035e1ab943a9b97dd93f9ae00",
+      "gitBlob": "dd620ff7fe87d507045cea52d76014ce4d0bba28",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/meta.json"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/package.json",
+      "bytes": 308,
+      "sha256": "f63557186f9a90b480925b3df673382735b85adb87b1397c87678cb07b2dcd34",
+      "gitBlob": "6051184dfa098678b139c8778a10339f0f54ffe9",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/package.json"
+    },
+    {
+      "path": "templates/28-roof-inspection-film/template.json",
+      "bytes": 5289,
+      "sha256": "7294b6d78d3fd32734fbd4e10e553b5c4b26aea8d77e4ab2067d36193a41538b",
+      "gitBlob": "a936c8a35ff1c15ac4c114a4d87632f1a1d0c44e",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/28-roof-inspection-film/template.json"
+    },
+    {
+      "path": "templates/29-habit-app-ui-reel/assets/fonts.css",
+      "bytes": 321,
+      "sha256": "908946244b593d280100d59e30374e9573ae88178a3311a05f1cc60ded109d38",
+      "gitBlob": "e3465b38c761d0b56b7b1c63971e56b2c58954d9",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/29-habit-app-ui-reel/assets/fonts.css"
+    },
+    {
+      "path": "templates/29-habit-app-ui-reel/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/29-habit-app-ui-reel/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/29-habit-app-ui-reel/assets/fonts/SourceSerif4-normal-var.woff2",
+      "bytes": 122168,
+      "sha256": "2a24bad466f09b88b8e9cbc488bf774117c912e66374c57bf4716855849143f8",
+      "gitBlob": "56a26e1b3ec97e71a16e701352b2222f44bc6152",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/29-habit-app-ui-reel/assets/fonts/SourceSerif4-normal-var.woff2"
+    },
+    {
+      "path": "templates/29-habit-app-ui-reel/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/29-habit-app-ui-reel/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/29-habit-app-ui-reel/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/29-habit-app-ui-reel/assets/kit.js"
+    },
+    {
+      "path": "templates/29-habit-app-ui-reel/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/29-habit-app-ui-reel/hyperframes.json"
+    },
+    {
+      "path": "templates/29-habit-app-ui-reel/index.html",
+      "bytes": 32402,
+      "sha256": "daa39ff3cc31353a8a9a9786ebbfa2a2d97b690c93ffcadfbd2d38c6aeb7108d",
+      "gitBlob": "c6267e99f0765eadfda424b958421594691e5130",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/29-habit-app-ui-reel/index.html"
+    },
+    {
+      "path": "templates/29-habit-app-ui-reel/meta.json",
+      "bytes": 112,
+      "sha256": "d24ceff8bde7f390b51f5dc19d36539035c98869180c5a7f2cfae4519409a763",
+      "gitBlob": "c550107a5b70b1c28db3256eeab831204f943b52",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/29-habit-app-ui-reel/meta.json"
+    },
+    {
+      "path": "templates/29-habit-app-ui-reel/package.json",
+      "bytes": 305,
+      "sha256": "d9fcce3ad369a0f5fe156bee9245804be7011f2d8b492bbea2bc45e4d4d957e1",
+      "gitBlob": "c2c3c4155e1e6f3f876c93b5815b8e571be2fef4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/29-habit-app-ui-reel/package.json"
+    },
+    {
+      "path": "templates/29-habit-app-ui-reel/template.json",
+      "bytes": 2022,
+      "sha256": "c44ed7243c7802eccefedb5792187dd730d7ffbf48fae788309a955df3034d2a",
+      "gitBlob": "eaf6ed725a6c529f03ff4ba0e68604a9b203ba8b",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/29-habit-app-ui-reel/template.json"
+    },
+    {
+      "path": "templates/30-best-replies-mcp/assets/fonts.css",
+      "bytes": 640,
+      "sha256": "2d65abc626fc75b9a0e86a93b3e42c4efaea5bcd9effdc30cf4b5eadd758abd9",
+      "gitBlob": "6ea89d3f96a66542194e61b75ff17876cc573307",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/30-best-replies-mcp/assets/fonts.css"
+    },
+    {
+      "path": "templates/30-best-replies-mcp/assets/fonts/IBMPlexMono-400.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac",
+      "gitBlob": "52b6c7595dd5e2106676e7c52fcff18539607879",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/30-best-replies-mcp/assets/fonts/IBMPlexMono-400.woff2"
+    },
+    {
+      "path": "templates/30-best-replies-mcp/assets/fonts/IBMPlexMono-500.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0",
+      "gitBlob": "3308bce2432c298817ed344eeac33007c83cecd0",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/30-best-replies-mcp/assets/fonts/IBMPlexMono-500.woff2"
+    },
+    {
+      "path": "templates/30-best-replies-mcp/assets/fonts/InstrumentSerif-italic-400.woff2",
+      "bytes": 15684,
+      "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702",
+      "gitBlob": "ce3c417c8d0e9f012bb697d25a0874d148ea89e6",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/30-best-replies-mcp/assets/fonts/InstrumentSerif-italic-400.woff2"
+    },
+    {
+      "path": "templates/30-best-replies-mcp/assets/fonts/Inter-400.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "gitBlob": "91dc3e8529921cabc74fb1dacf5253260b9c8cca",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/30-best-replies-mcp/assets/fonts/Inter-400.woff2"
+    },
+    {
+      "path": "templates/30-best-replies-mcp/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "gitBlob": "fde57af06cc445f47ca2a6fc1232ec04666346d4",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/30-best-replies-mcp/assets/gsap.min.js"
+    },
+    {
+      "path": "templates/30-best-replies-mcp/assets/kit.js",
+      "bytes": 3719,
+      "sha256": "cd7772d857a0a9b279178f0d2fc4c9dc6b1e84fa16200817decedb23a73dd219",
+      "gitBlob": "0a802c5e03606c56277915ed49a001ae4e308b51",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/30-best-replies-mcp/assets/kit.js"
+    },
+    {
+      "path": "templates/30-best-replies-mcp/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "gitBlob": "dc9ec2eb28c67a93113c201a65a3155a19915d7c",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/30-best-replies-mcp/hyperframes.json"
+    },
+    {
+      "path": "templates/30-best-replies-mcp/index.html",
+      "bytes": 65530,
+      "sha256": "7da1609bd394f7779297e516903a5e151e7136749e996f5aefc3665f3bd18a7a",
+      "gitBlob": "43beb45a0130b7f9c3c217d32d6373160beda75f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/30-best-replies-mcp/index.html"
+    },
+    {
+      "path": "templates/30-best-replies-mcp/meta.json",
+      "bytes": 110,
+      "sha256": "2c297c58a79e7c6529d78e62e89916d56c28018d9487dd20486ea21a46bb68ee",
+      "gitBlob": "60238c1152f10427e6cd696d0311104898b1e3a1",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/30-best-replies-mcp/meta.json"
+    },
+    {
+      "path": "templates/30-best-replies-mcp/package.json",
+      "bytes": 304,
+      "sha256": "aade7cf28a51acb3d14549255581ac5e8a5a26b66d6e9859fa7358aab6a9549c",
+      "gitBlob": "510f8307e3061530435e655c047f3e890374faaf",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/30-best-replies-mcp/package.json"
+    },
+    {
+      "path": "templates/30-best-replies-mcp/template.json",
+      "bytes": 2594,
+      "sha256": "ae539a9018902b74b49c6afae9606efe9a8369fae43d3cbaa039195308604882",
+      "gitBlob": "81b2b5f86ebdfd74593206c69340c9a28c10a70f",
+      "url": "https://raw.githubusercontent.com/lumian2015/opus-5-5-video-templates/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/30-best-replies-mcp/template.json"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "objective": "Complete 90-second featureless cyclist Babylon film with a detailed river palace inspired by user image.",
+  "status": "full_render_running",
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "duration": 90,
+  "frame_count": 2160,
+  "delivery_mode": "ai_review_once",
+  "review_budget": "Existing independent review round exhausted; producer verification only, actual listening unavailable.",
+  "reference_image": "C:/Users/67236/AppData/Local/Temp/codex-clipboard-5e8df68e-c771-4cb6-b181-4ab736ff4c46.jpg",
+  "protected": [
+    "v15 frozen inputs and 107 existing frames",
+    "featureless rider geometry and continuous world route",
+    "blue glaze and city population",
+    "two-bank towpaths and bridges",
+    "user Dream of Babylon music"
+  ],
+  "completed": [
+    "Read project and current v15 checkpoint",
+    "Verified no active Blender or Babylon pipeline process",
+    "Inspected reference image and east-bank site; selected southern riverfront before temple and south of bridge",
+    "Authored original layered palace builder and versioned v16 renderer; no mixed-world frame reuse",
+    "Built final palace with 82680 new vertices across 11 grouped meshes; preserved featureless rider and traffic sources",
+    "Viewed actual 1080x1920 proof frames and corrected clipped palace composition",
+    "Added balcony slab/lower gallery supports and extended existing riverside pavement",
+    "Checked new-shot rider head sightline at .25-second steps; no static occluder candidates",
+    "Compiled all new Python entry points successfully",
+    "Viewed final model proof frame 672; source hashes saved in qa/v16/producer-observations.json",
+    "Rendered frozen final-world frames 648–695; encoded playable two-second excerpt with original music",
+    "Excerpt ffprobe verified 1080x1920, 24fps, 48 video frames and stereo audio; full decode exited 0",
+    "Producer actually viewed all 48 source frames on three ordered contact sheets; no obvious isolated flash or palace clipping seen at thumbnail scale",
+    "Fixed preview-only decode invocation for stripped FFmpeg by explicitly selecting rawvideo/pcm_s16le; final-film assembler already uses these codecs",
+    "Restarted missing-frame pipeline after excerpt check; existing 48 frames preserved"
+  ],
+  "unresolved": [
+    "Full 2160-frame film render/encode pending",
+    "Final encoded picture inspection pending",
+    "Actual listening unavailable"
+  ],
+  "incremental_cache": {
+    "user_feedback": "Local modifications must not default to full-film rerendering.",
+    "implementation": "shot_cache.py: complete baseline registration, explicit shot scope, per-frame verified reuse and patch staging, audio-only stream copy.",
+    "documentation": "局部修改与缓存.md",
+    "baseline_constraint": "v13 is complete but lacks cyclist and lasts 76s. v15 contains only 107 frames. Current v16 must first complete the 90s cyclist baseline.",
+    "current_process": "Keep current valid v16 frames and existing pipeline. Do not restart for cache tooling.",
+    "v16_registration": "prepare_final_evidence_v16.py registers render/shot-cache-v16.json after successful full encode/decode.",
+    "verification": "qa/incremental-cache/verification.json: 6 functional checks passed; real v13 baseline indexed; v16 baseline pending"
+  },
+  "next_action": "Render frozen v16, with 27-29s palace excerpt first; then full 2160 frames, temporal scan, encode and decode. Actual final picture observations remain pending.",
+  "updated_at": "2026-10-23T15:29:30.841835+08:00",
+  "excerpt": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\临河宫殿-v16-实际运镜样段.mp4",
+  "latest_resume": {
+    "existing_png_files": 564,
+    "total_frames": 2160,
+    "process_id": 22656,
+    "reason": "No active Blender or Babylon pipeline found; previous log ends at frame 515 without a recorded error. Resume missing frames only.",
+    "cache_policy": "Retain valid current-world frames. Later local edits use explicit affected-shot plans."
+  }
+}

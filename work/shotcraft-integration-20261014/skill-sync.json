@@ -1,0 +1,35 @@
+{
+  "version": "0.16.0",
+  "installed": "D:/Codex/skills/vibe-video",
+  "snapshot": "D:\\ai项目\\ai动画\\VibeVideo项目\\skill\\vibe-video",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "1caea19754e55709c9f519b688b5c29b422dafae2cba2190d3abb41777a40906"
+    },
+    {
+      "path": "references/shotcraft-source.json",
+      "sha256": "dfb55bfbe297382cff07b9c56553448ffbafc496e809e75a1c68b3482bbbe4db"
+    },
+    {
+      "path": "references/shotcraft-library.json",
+      "sha256": "0000b2cfda275e708ab9e53cafa10ab7bcd6baea0f0bb18f673e38bbc4a760ec"
+    },
+    {
+      "path": "references/shotcraft-integration.md",
+      "sha256": "66a58ceb432c38d2630aff9e7d7ea10b96f36f9e88890d497f0d053cae279b99"
+    },
+    {
+      "path": "scripts/shotcraft_library.mjs",
+      "sha256": "8312003c78abce590de6e64b0c8df79a5be1d21e0e1358fd0cd9203390feb60f"
+    },
+    {
+      "path": "assets/shotcraft/PageCamAdaptive.tsx",
+      "sha256": "c95f2c0a558df764987d5b5ea584183c8c3b5493253ad460f1cdb62f1c465b7e"
+    },
+    {
+      "path": "assets/shotcraft/LICENSE-shotcraft.txt",
+      "sha256": "02da8ccd8ddb6946940ccc99494c04992a8cf4b9835bcc32f70ae985ef160f59"
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "revision": "V18 / One customer task becomes evidence-backed action",
+  "duration": 154,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "aspect_ratio": "16:9",
+  "world": [
+    9800,
+    6500
+  ],
+  "delivery_mode": "ai_review_once",
+  "review_budget": "already_used",
+  "base": "v17",
+  "case": {
+    "id": "A01",
+    "label": "示例客户信息",
+    "industry": "半导体衬底企业（流程示意）",
+    "opportunity": "股东服务／减持线索",
+    "fictional": true
+  },
+  "shots": [
+    {
+      "start": 0,
+      "end": 6.4,
+      "id": "task",
+      "name": "客户经理要找到这家企业的服务切入点",
+      "voiceover": "",
+      "reads": "客户经理→A01任务档案→准备目的",
+      "action": "A01持续留在同一蓝图工作台；主动作与文字错时建立"
+    },
+    {
+      "start": 6.4,
+      "end": 12.8,
+      "id": "collect-pain",
+      "name": "搜集耗时与切入不明",
+      "voiceover": "",
+      "reads": "资料反复搜筛→联系谁何时谈→研判时间被占用",
+      "action": "A01持续留在同一蓝图工作台；主动作与文字错时建立"
+    },
+    {
+      "start": 12.8,
+      "end": 19.6,
+      "id": "expert-pain",
+      "name": "背景不全与专业难找",
+      "voiceover": "",
+      "reads": "资料缺口→跨领域专业意见→准备返工",
+      "action": "A01持续留在同一蓝图工作台；主动作与文字错时建立"
+    },
+    {
+      "start": 19.6,
+      "end": 24,
+      "id": "cost",
+      "name": "业务代价与方案承诺",
+      "voiceover": "",
+      "reads": "线索和行动之间的断开齿轮→完整流程承诺",
+      "action": "A01持续留在同一蓝图工作台；主动作与文字错时建立"
+    },
+    {
+      "start": 24,
+      "end": 34,
+      "id": "origins",
+      "name": "商机从公开信息和客户扫描范围中来",
+      "voiceover": "",
+      "reads": "18–21秒识别公告和解禁日历；21–24秒看到统一规则识别事件并分类；24–28秒读取来源与扫描范围",
+      "action": "两个有名称的数据源沿轨道进入规则分拣器，来源凭据保留在输出卡上"
+    },
+    {
+      "start": 34,
+      "end": 44,
+      "id": "cards",
+      "name": "按业务分类抽卡，选取同一客户的解禁线索",
+      "voiceover": "",
+      "reads": "28–32秒读取五类业务及各自信号；32–35秒抽出股东服务；35–38秒A01线索卡沿既有轨道进入资料站",
+      "action": "同色蓝图卡片展开，选中卡从卡列抬起并收拢成A01档案"
+    },
+    {
+      "start": 44,
+      "end": 58,
+      "id": "sources",
+      "name": "归集同主体、事件与时间",
+      "voiceover": "",
+      "reads": "归集同主体、事件与时间"
+    },
+    {
+      "start": 58,
+      "end": 72,
+      "id": "judgment",
+      "name": "线索怎样成为跟进判断",
+      "voiceover": "",
+      "reads": "线索怎样成为跟进判断"
+    },
+    {
+      "start": 72,
+      "end": 86,
+      "id": "experts",
+      "name": "专业会商，形成服务思路",
+      "voiceover": "",
+      "reads": "专业会商，形成服务思路"
+    },
+    {
+      "start": 86,
+      "end": 102,
+      "id": "industry",
+      "name": "深入理解同一客户的产业位置",
+      "voiceover": "",
+      "reads": "深入理解同一客户的产业位置"
+    },
+    {
+      "start": 102,
+      "end": 109,
+      "id": "knowledge",
+      "name": "研究与规则依据回接客户档案",
+      "voiceover": "",
+      "reads": "研究与规则依据回接客户档案"
+    },
+    {
+      "start": 109,
+      "end": 122,
+      "id": "preparation",
+      "name": "形成沟通材料，经人工审核",
+      "voiceover": "",
+      "reads": "形成沟通材料，经人工审核"
+    },
+    {
+      "start": 122,
+      "end": 128,
+      "id": "feedback",
+      "name": "记录回流，持续客户经营",
+      "voiceover": "",
+      "reads": "记录回流，持续客户经营"
+    },
+    {
+      "start": 128,
+      "end": 134,
+      "id": "unfold",
+      "name": "从完整机器回到同一A01成果",
+      "voiceover": "",
+      "reads": "机器总图→下方成果图纸→单一档案展开",
+      "action": "相机沿图纸向下滑行，A01展开为三联成果页"
+    },
+    {
+      "start": 134,
+      "end": 148,
+      "id": "outcomes",
+      "name": "用具体产物回应开头的业务问题",
+      "voiceover": "",
+      "reads": "为什么关注→与谁沟通→下一步做什么→传动闭合",
+      "action": "三页依次标记落定；脱开的传动齿轮接合启动"
+    },
+    {
+      "start": 148,
+      "end": 154,
+      "id": "promise",
+      "name": "品牌价值与业务延展",
+      "voiceover": "",
+      "reads": "有依据的客户行动→可延伸业务场景",
+      "action": "三页结果保留，品牌承诺在图纸底部落定"
+    }
+  ],
+  "business_messages": [
+    {
+      "start": 44,
+      "end": 49,
+      "pain": "先解决搜集问题：把同一家客户的资料放在一起",
+      "result": "工具取数与规则筛选，AI 辅助解读、归纳来源"
+    },
+    {
+      "start": 49,
+      "end": 57.5,
+      "pain": "资料归到 A01：主体、事件、时间与出处",
+      "result": "输出：一份能回到原文的客户线索档案"
+    },
+    {
+      "start": 58,
+      "end": 63,
+      "pain": "发现解禁窗口后，为什么值得继续关注？",
+      "result": "结合公司与股东资料，研判股份管理服务背景"
+    },
+    {
+      "start": 63,
+      "end": 71.5,
+      "pain": "把线索变成业务问题：联系谁，先了解什么？",
+      "result": "AI 辅助整理关注理由、适用条件与沟通问题"
+    },
+    {
+      "start": 73,
+      "end": 79,
+      "pain": "一个业务问题，需要哪些专业判断？",
+      "result": "九大业务领域的专家，依托知识装备与培养试炼"
+    },
+    {
+      "start": 79,
+      "end": 85.5,
+      "pain": "同一份 A01 档案，交给有分工的专家会商",
+      "result": "股东增减持看服务需求，解禁预警看时机，拜访策略看切入"
+    },
+    {
+      "start": 86,
+      "end": 91,
+      "pain": "再深入一步：这家企业在产业链的什么位置？",
+      "result": "会商后的产业研究，继续围绕同一个客户展开"
+    },
+    {
+      "start": 91,
+      "end": 97,
+      "pain": "把客户放回产业链，业务背景才更完整",
+      "result": "AI 辅助检索年报、专利与产业资料，关联来源"
+    },
+    {
+      "start": 97,
+      "end": 101.5,
+      "pain": "产业研究得到的依据，回到 A01 客户档案",
+      "result": "让股份服务的沟通准备，也理解客户的产业背景"
+    },
+    {
+      "start": 102.5,
+      "end": 108.5,
+      "pain": "专业意见为什么有依据？",
+      "result": "从规则、案例与研究资料中检索，并保留引用"
+    },
+    {
+      "start": 110,
+      "end": 116,
+      "pain": "研判之后，客户经理拿着什么去沟通？",
+      "result": "AI 辅助整理联系目的、客户背景、沟通问题与后续安排"
+    },
+    {
+      "start": 116,
+      "end": 121.8,
+      "pain": "准备包形成后，由业务人员审阅并安排跟进",
+      "result": "AI 支持准备与整理，客户经理负责判断和沟通"
+    },
+    {
+      "start": 122,
+      "end": 126,
+      "pain": "这次沟通的记录，成为下一次研判的起点",
+      "result": "需求、服务安排与跟进事项，留在同一份客户档案"
+    }
+  ],
+  "soundtrack": {
+    "sample_rate": 48000,
+    "phrases": [
+      {
+        "start": 0.0,
+        "end": 6.4,
+        "beats": 16
+      },
+      {
+        "start": 6.4,
+        "end": 12.8,
+        "beats": 16
+      },
+      {
+        "start": 12.8,
+        "end": 19.2,
+        "beats": 16
+      },
+      {
+        "start": 19.2,
+        "end": 25.6,
+        "beats": 16
+      },
+      {
+        "start": 25.6,
+        "end": 32.0,
+        "beats": 16
+      },
+      {
+        "start": 32.0,
+        "end": 38.4,
+        "beats": 16
+      },
+      {
+        "start": 38.4,
+        "end": 44.8,
+        "beats": 16
+      },
+      {
+        "start": 44.8,
+        "end": 51.2,
+        "beats": 16
+      },
+      {
+        "start": 51.2,
+        "end": 57.6,
+        "beats": 16
+      },
+      {
+        "start": 57.6,
+        "end": 64.0,
+        "beats": 16
+      },
+      {
+        "start": 64.0,
+        "end": 70.4,
+        "beats": 16
+      },
+      {
+        "start": 70.4,
+        "end": 76.8,
+        "beats": 16
+      },
+      {
+        "start": 76.8,
+        "end": 83.2,
+        "beats": 16
+      },
+      {
+        "start": 83.2,
+        "end": 89.6,
+        "beats": 16
+      },
+      {
+        "start": 89.6,
+        "end": 96.0,
+        "beats": 16
+      },
+      {
+        "start": 96.0,
+        "end": 102.4,
+        "beats": 16
+      },
+      {
+        "start": 102.4,
+        "end": 108.8,
+        "beats": 16
+      },
+      {
+        "start": 108.8,
+        "end": 115.2,
+        "beats": 16
+      },
+      {
+        "start": 115.2,
+        "end": 121.6,
+        "beats": 16
+      },
+      {
+        "start": 121.6,
+        "end": 128.0,
+        "beats": 16
+      },
+      {
+        "start": 128.0,
+        "end": 134.4,
+        "beats": 16
+      },
+      {
+        "start": 134.4,
+        "end": 140.8,
+        "beats": 16
+      },
+      {
+        "start": 140.8,
+        "end": 147.2,
+        "beats": 16
+      },
+      {
+        "start": 147.2,
+        "end": 153.6,
+        "beats": 16
+      },
+      {
+        "start": 153.6,
+        "end": 154.0,
+        "beats": 1
+      }
+    ],
+    "density": [
+      {
+        "start": 0,
+        "end": 6.4,
+        "gain": 0.48
+      },
+      {
+        "start": 6.4,
+        "end": 19.2,
+        "gain": 0.58
+      },
+      {
+        "start": 19.2,
+        "end": 24,
+        "gain": 0.4
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "gain": 0.8
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "gain": 0.98
+      },
+      {
+        "start": 44,
+        "end": 72,
+        "gain": 0.68
+      },
+      {
+        "start": 72,
+        "end": 86,
+        "gain": 0.55
+      },
+      {
+        "start": 86,
+        "end": 91,
+        "gain": 0.9
+      },
+      {
+        "start": 91,
+        "end": 100,
+        "gain": 0.56
+      },
+      {
+        "start": 100,
+        "end": 110,
+        "gain": 0.78
+      },
+      {
+        "start": 110,
+        "end": 122,
+        "gain": 0.68
+      },
+      {
+        "start": 122,
+        "end": 134.4,
+        "gain": 0.9
+      },
+      {
+        "start": 134.4,
+        "end": 143.2,
+        "gain": 0.62
+      },
+      {
+        "start": 143.2,
+        "end": 148.8,
+        "gain": 0.88
+      },
+      {
+        "start": 148.8,
+        "end": 154,
+        "gain": 0.28
+      }
+    ],
+    "breaks": [
+      [
+        37.6,
+        38
+      ],
+      [
+        133.96,
+        134.4
+      ],
+      [
+        142.8,
+        143.2
+      ]
+    ],
+    "events": [
+      {
+        "at": 0.4,
+        "id": "client-task",
+        "sound": "accent"
+      },
+      {
+        "at": 6.4,
+        "id": "collect-pain",
+        "sound": "tick"
+      },
+      {
+        "at": 12.8,
+        "id": "professional-pain",
+        "sound": "tick"
+      },
+      {
+        "at": 19.6,
+        "id": "stalled-workflow",
+        "sound": "accent"
+      },
+      {
+        "at": 24.0,
+        "id": "source-bench",
+        "sound": "travel"
+      },
+      {
+        "at": 26.4,
+        "id": "public-source",
+        "sound": "tick"
+      },
+      {
+        "at": 27.2,
+        "id": "unlock-source",
+        "sound": "tick"
+      },
+      {
+        "at": 30.0,
+        "id": "rule-sort",
+        "sound": "accent"
+      },
+      {
+        "at": 34.0,
+        "id": "source-cards",
+        "sound": "travel"
+      },
+      {
+        "at": 38.0,
+        "id": "card-selected",
+        "sound": "drop"
+      },
+      {
+        "at": 43.6,
+        "id": "archive-handoff",
+        "sound": "tick"
+      },
+      {
+        "at": 54.4,
+        "id": "sources-merge",
+        "sound": "drop"
+      },
+      {
+        "at": 59.2,
+        "id": "judgment-open",
+        "sound": "tick"
+      },
+      {
+        "at": 63.6,
+        "id": "criteria-connect",
+        "sound": "accent"
+      },
+      {
+        "at": 67.6,
+        "id": "judgment-result",
+        "sound": "drop"
+      },
+      {
+        "at": 76.4,
+        "id": "expert-1",
+        "sound": "tick"
+      },
+      {
+        "at": 77.6,
+        "id": "expert-2",
+        "sound": "tick"
+      },
+      {
+        "at": 78.8,
+        "id": "expert-3",
+        "sound": "accent"
+      },
+      {
+        "at": 86.4,
+        "id": "industry-travel",
+        "sound": "travel"
+      },
+      {
+        "at": 90.4,
+        "id": "atlas-open",
+        "sound": "accent"
+      },
+      {
+        "at": 92.4,
+        "id": "company-position",
+        "sound": "drop"
+      },
+      {
+        "at": 94.8,
+        "id": "evidence-connect",
+        "sound": "tick"
+      },
+      {
+        "at": 98.4,
+        "id": "research-result",
+        "sound": "accent"
+      },
+      {
+        "at": 100,
+        "id": "return-evidence",
+        "sound": "travel"
+      },
+      {
+        "at": 105.6,
+        "id": "knowledge-read",
+        "sound": "accent"
+      },
+      {
+        "at": 115.2,
+        "id": "preparation",
+        "sound": "drop"
+      },
+      {
+        "at": 120,
+        "id": "human-review",
+        "sound": "tick"
+      },
+      {
+        "at": 122.4,
+        "id": "feedback",
+        "sound": "travel"
+      },
+      {
+        "at": 128,
+        "id": "outcome-camera",
+        "sound": "travel"
+      },
+      {
+        "at": 132.4,
+        "id": "dossier-unfold",
+        "sound": "travel"
+      },
+      {
+        "at": 134.4,
+        "id": "three-outputs",
+        "sound": "drop"
+      },
+      {
+        "at": 135.6,
+        "id": "why",
+        "sound": "tick"
+      },
+      {
+        "at": 138,
+        "id": "who",
+        "sound": "tick"
+      },
+      {
+        "at": 140.8,
+        "id": "next",
+        "sound": "accent"
+      },
+      {
+        "at": 143.2,
+        "id": "clutch-engaged",
+        "sound": "drop"
+      },
+      {
+        "at": 148.8,
+        "id": "brand-promise",
+        "sound": "resolve"
+      }
+    ]
+  },
+  "connections": [
+    {
+      "time": 6.4,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        5.9,
+        6.9
+      ]
+    },
+    {
+      "time": 12.8,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        12.3,
+        13.3
+      ]
+    },
+    {
+      "time": 19.6,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        19.1,
+        20.1
+      ]
+    },
+    {
+      "time": 24,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        23.5,
+        24.5
+      ]
+    },
+    {
+      "time": 34,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        33.5,
+        34.5
+      ]
+    },
+    {
+      "time": 44,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        43.5,
+        44.5
+      ]
+    },
+    {
+      "time": 58,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        57.5,
+        58.5
+      ]
+    },
+    {
+      "time": 72,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        71.5,
+        72.5
+      ]
+    },
+    {
+      "time": 86,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        85.5,
+        86.5
+      ]
+    },
+    {
+      "time": 102,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        101.5,
+        102.5
+      ]
+    },
+    {
+      "time": 109,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        108.5,
+        109.5
+      ]
+    },
+    {
+      "time": 122,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        121.5,
+        122.5
+      ]
+    },
+    {
+      "time": 128,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        127.5,
+        128.5
+      ]
+    },
+    {
+      "time": 134,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        133.5,
+        134.5
+      ]
+    },
+    {
+      "time": 148,
+      "kind": "shared-world",
+      "anchor": "A01 customer dossier; same blueprint rails",
+      "window": [
+        147.5,
+        148.5
+      ]
+    }
+  ],
+  "methodology": {
+    "source": "AI创新大赛_叙事与演讲.pdf",
+    "pages_read": "1–10 text; 3–4 rendered",
+    "structure": [
+      "人和痛点",
+      "业务代价",
+      "单一主路径",
+      "具体成果对照",
+      "应用方向"
+    ],
+    "no_pilot_metrics": true,
+    "user_confirmed_no_metrics": true
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "title": "暮河城 · 街巷与运河",
+  "version": "v7",
+  "status": "candidate_complete_review_in_progress",
+  "duration": 56,
+  "fps": 24,
+  "frame_count": 1344,
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "delivery_mode": "ai_review_once",
+  "startup_choices": {
+    "resolved": true,
+    "aspect_ratio": [
+      "16:9 / 1920×1080",
+      "9:16 / 1080×1920"
+    ],
+    "delivery_mode": [
+      "user_feedback",
+      "ai_review_once"
+    ],
+    "previously_asked": true
+  },
+  "user_requirements": [
+    "城市从地平线上渐渐冒出的开头",
+    "近东巴比伦风格",
+    "精细的移轴摄影效果",
+    "明确音乐计划",
+    "先做好模型",
+    "不要龙，城市街景即可",
+    "街道连贯",
+    "宏伟、一望无际的巨型巴比伦城市"
+  ],
+  "intent": "先建立精细巴比伦城邦模型，再以连续摄影与移轴表现城市街景的日常生命。",
+  "revision": {
+    "previous_version": "history/v2-before-streets/plan.json",
+    "reason": "用户指出质感不足，要求模型优先并删除龙；保留认可的近东巴比伦、地平线显城、竖屏和一次AI审核。",
+    "duration_reason": "保留原56秒作为编排起点；模型验证后按空间与音乐调整。"
+  },
+  "audio": {
+    "voiceover": false,
+    "master_clock": "已渲染56秒画面；原曲连续节选配合画面",
+    "planned_bpm": null,
+    "meter": "4/4",
+    "planned_bars": null,
+    "sample_rate": 48000,
+    "loudness_candidate_lufs": [
+      -16,
+      -14
+    ],
+    "true_peak_ceiling_dbtp": -1,
+    "music": "Vangelis — Dream Of Babylon，Alexander电影原声；用户提供本地MP3",
+    "palette": [
+      "用户提供的电影原声成品"
+    ],
+    "optional_palette": [],
+    "motif": "使用原曲，不新增或重写旋律；连续节选，不作歌曲内部跳切。",
+    "source_status": "已复制用户文件并混入v7；未实际听音",
+    "stems": [
+      "music melody",
+      "music plucked",
+      "music percussion",
+      "ambience",
+      "foley"
+    ],
+    "notes": "原90BPM原创方案保留在history及audio/music.wav；v7不宣称该电影配乐是90BPM，也不宣称实际听感已审核。",
+    "cues": [
+      {
+        "start": 0,
+        "end": 1.2,
+        "music": "原曲从头渐入"
+      },
+      {
+        "start": 1.2,
+        "end": 52,
+        "music": "原曲连续节选；风水环境低混入"
+      },
+      {
+        "start": 52,
+        "end": 56,
+        "music": "随全城收束渐弱至结束"
+      }
+    ],
+    "foley": [
+      "风",
+      "水流",
+      "船桨",
+      "远人群",
+      "棚布",
+      "足步"
+    ],
+    "source_excerpt_seconds": [
+      0,
+      56
+    ],
+    "fade_in_seconds": 1.2,
+    "fade_out_seconds": [
+      52,
+      56
+    ]
+  },
+  "assets_status": "可编辑Blender模型model/babylon-city-v6.blend；精细核心区、一万余座远景院落、连续中轴大道与运河、横街补接西岸桥头。",
+  "world": {
+    "route": [
+      "城外地平线",
+      "蓝釉城门",
+      "门内市集",
+      "运河与码头",
+      "阶梯神庙",
+      "全城"
+    ],
+    "landmarks": [
+      "gate-01",
+      "canal-01",
+      "temple-01",
+      "terrace-01"
+    ],
+    "materials": [
+      "独立倒角釉砖",
+      "有真实厚度的拱洞与浮雕",
+      "泥砖与磨损石材",
+      "深窗与木梁",
+      "织物棚布",
+      "陶罐",
+      "有反射的水面"
+    ],
+    "lighting": "固定的日落前侧向暖光与偏冷天空填充；初始太阳高度15–25度待试；固定曝光保持材料细节。",
+    "historical_scope": "现代近东奇幻艺术方向；不附未经查证的历史名称、文字或仪式说明。",
+    "extent_m": [
+      -650,
+      650,
+      -29,
+      1800
+    ],
+    "street_continuity_evidence": "model/out/street-connections-v6.json"
+  },
+  "clock_design": {
+    "camera": "连续影片时间t",
+    "world": "floor(t*10)/10的绝对时间量化；船只与行人10Hz步进，相机24fps连续。水面变化保持连续。",
+    "hero": "已取消角色表演；船只与行人只作尺度和日常活动。",
+    "speed_curve": [
+      {
+        "start": 0,
+        "end": 56,
+        "from": 1,
+        "to": 1
+      }
+    ]
+  },
+  "shots": [
+    {
+      "id": "horizon-city",
+      "start": 0,
+      "end": 8,
+      "intent": "城市从地平线上逐层显露",
+      "states": {
+        "establish": 1,
+        "action": 4.0,
+        "result": 7
+      },
+      "action": "镜头升高解除土坡遮挡；神庙、城门、城墙先后可辨。",
+      "camera": {
+        "mode": "低位升机，逐步建立城市体量",
+        "subjectId": "horizon-city",
+        "handoff": "保留共同城邦坐标与相邻地标"
+      },
+      "reads": [
+        {
+          "item": "城市从地平线上逐层显露",
+          "appear": 0,
+          "readable": 2,
+          "leave": 8
+        }
+      ],
+      "risks": [
+        [
+          6,
+          7.9
+        ]
+      ]
+    },
+    {
+      "id": "glazed-gate",
+      "start": 8,
+      "end": 18,
+      "intent": "蓝釉门楼和微缩街区",
+      "states": {
+        "establish": 9,
+        "action": 13.0,
+        "result": 17
+      },
+      "action": "在斜俯机位辨认蓝釉、立体浮雕、厚拱洞以及穿门街道。",
+      "camera": {
+        "mode": "约45–55度斜俯，缓推并偏移建立真实视差",
+        "subjectId": "glazed-gate",
+        "handoff": "保留共同城邦坐标与相邻地标"
+      },
+      "reads": [
+        {
+          "item": "蓝釉门楼和微缩街区",
+          "appear": 8,
+          "readable": 10,
+          "leave": 18
+        }
+      ],
+      "risks": [
+        [
+          16,
+          17.9
+        ]
+      ]
+    },
+    {
+      "id": "market-street",
+      "start": 18,
+      "end": 28,
+      "intent": "城内日常与材质",
+      "states": {
+        "establish": 19,
+        "action": 23.0,
+        "result": 27
+      },
+      "action": "看见棚布、陶罐、木梁、院落与少量行人，不安排复杂角色表演。",
+      "camera": {
+        "mode": "顺街道移动，保持前中后景与屋顶锚点",
+        "subjectId": "market-street",
+        "handoff": "保留共同城邦坐标与相邻地标"
+      },
+      "reads": [
+        {
+          "item": "城内日常与材质",
+          "appear": 18,
+          "readable": 20,
+          "leave": 28
+        }
+      ],
+      "risks": [
+        [
+          26,
+          27.9
+        ]
+      ]
+    },
+    {
+      "id": "canal-quay",
+      "start": 28,
+      "end": 38,
+      "intent": "水面、船只与街巷关系",
+      "states": {
+        "establish": 29,
+        "action": 33.0,
+        "result": 37
+      },
+      "action": "沿码头进入纵深运河，船慢行，水面反射随视角变化。",
+      "camera": {
+        "mode": "顺河斜俯侧移；桥和岸墙构成尺度参照",
+        "subjectId": "canal-quay",
+        "handoff": "保留共同城邦坐标与相邻地标"
+      },
+      "reads": [
+        {
+          "item": "水面、船只与街巷关系",
+          "appear": 28,
+          "readable": 30,
+          "leave": 38
+        }
+      ],
+      "risks": [
+        [
+          36,
+          37.9
+        ]
+      ]
+    },
+    {
+      "id": "terraced-temple",
+      "start": 38,
+      "end": 48,
+      "intent": "城市的神庙核心",
+      "states": {
+        "establish": 39,
+        "action": 43.0,
+        "result": 47
+      },
+      "action": "露台、阶梯、蓝釉饰带和种植层逐层展开。",
+      "camera": {
+        "mode": "从河道抬升，先对准神庙再移动机位",
+        "subjectId": "terraced-temple",
+        "handoff": "保留共同城邦坐标与相邻地标"
+      },
+      "reads": [
+        {
+          "item": "城市的神庙核心",
+          "appear": 38,
+          "readable": 40,
+          "leave": 48
+        }
+      ],
+      "risks": [
+        [
+          46,
+          47.9
+        ]
+      ]
+    },
+    {
+      "id": "whole-city",
+      "start": 48,
+      "end": 56,
+      "intent": "局部重新回到整座城",
+      "states": {
+        "establish": 49,
+        "action": 52.0,
+        "result": 55
+      },
+      "action": "城门、运河与神庙同处一幅画面，52秒起落定。",
+      "camera": {
+        "mode": "高位斜俯拉远，保留四秒收束",
+        "subjectId": "whole-city",
+        "handoff": "保留共同城邦坐标与相邻地标"
+      },
+      "reads": [
+        {
+          "item": "局部重新回到整座城",
+          "appear": 48,
+          "readable": 50,
+          "leave": 56
+        }
+      ],
+      "risks": [
+        [
+          54,
+          55.9
+        ]
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "time": 8,
+      "kind": "连续世界中的注意交接",
+      "anchor": "gate-01 + temple-01",
+      "window": [
+        6.5,
+        9.5
+      ]
+    },
+    {
+      "time": 18,
+      "kind": "连续世界中的注意交接",
+      "anchor": "gate-01 + market-01",
+      "window": [
+        16.5,
+        19.5
+      ]
+    },
+    {
+      "time": 28,
+      "kind": "连续世界中的注意交接",
+      "anchor": "market-01 + quay-01",
+      "window": [
+        26.5,
+        29.5
+      ]
+    },
+    {
+      "time": 38,
+      "kind": "连续世界中的注意交接",
+      "anchor": "canal-01 + temple-01",
+      "window": [
+        36.5,
+        39.5
+      ]
+    },
+    {
+      "time": 48,
+      "kind": "连续世界中的注意交接",
+      "anchor": "temple-01 + gate-01",
+      "window": [
+        46.5,
+        49.5
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "horizon-reveal",
+      "at": 2,
+      "end": 8,
+      "trigger": "机位升高",
+      "response": "土坡遮挡逐渐解除"
+    },
+    {
+      "id": "street-slow",
+      "at": 18,
+      "end": 23,
+      "trigger": "进入街区细节",
+      "response": "背景活动速度降至正常"
+    },
+    {
+      "id": "quay-pass",
+      "at": 28,
+      "end": 38,
+      "trigger": "转入运河",
+      "response": "船、水、码头与桥呈现空间关系"
+    },
+    {
+      "id": "temple-rise",
+      "at": 38,
+      "end": 48,
+      "trigger": "神庙逐层揭示",
+      "response": "镜头与配乐渐展开"
+    },
+    {
+      "id": "hold",
+      "at": 52,
+      "end": 56,
+      "trigger": "全城关系完整",
+      "response": "相机落定，音乐留尾韵"
+    }
+  ],
+  "quality_contract": {
+    "status": "model_and_static_proofs_rendered_continuous_candidate_pending",
+    "asset_priority": [
+      "城门拱洞与蓝釉浮雕",
+      "门内街巷、屋顶与布棚",
+      "阶梯神庙",
+      "码头船只与水面",
+      "远景街区"
+    ],
+    "base_render": "关闭景深与辉光检查模型、材质和光照，再与开启效果比较；不能用模糊掩盖占位资产。",
+    "focus_depth": "Blender Z pass为相机到表面的距离，焦点使用相机到目标的距离；与屏幕清晰带幅值混合。不同于原Three参考的view-space z。",
+    "dof_risks": [
+      "有符号CoC抵消",
+      "棕榈和屋檐边缘漏色",
+      "水面深度",
+      "釉面高光过曝",
+      "焦点跳变"
+    ],
+    "final_sampling": "Cycles OptiX 24 samples、adaptive threshold .065、GPU降噪；1080×1920原生输出、256px内部块；Blender Defocus合成。未使用原参考128次WebGL gather或2倍宽高超采样。",
+    "motion_blur": "克制且可关闭比较；真实子帧采样时锁定离散背景状态，接触点不允许重影。",
+    "encoding": "对照无损源帧与MP4，重点检查砖缝、水面、植被和细小人物。",
+    "proof_times": [
+      3.5,
+      11,
+      23,
+      33,
+      44,
+      51
+    ],
+    "material_motion_window": [
+      8,
+      12
+    ]
+  },
+  "concept": {
+    "status": "approved_direction_retained",
+    "paths": [
+      "concepts/city-overview-v1.png",
+      "concepts/city-reveal-early-v1.png"
+    ],
+    "user_feedback": "保留建筑视觉方向，删除龙；实际渲染需先提升模型质感。"
+  },
+  "pilot": {
+    "material": [
+      8,
+      12
+    ],
+    "primary": [
+      15,
+      23
+    ],
+    "secondary": [
+      28,
+      33
+    ],
+    "status": "v5_static_proofs_complete_v6_continuous_rendering",
+    "notes": "先完成无景深模型样板，再验证城门向街巷及运河的连续空间移动。"
+  },
+  "evidence": {
+    "source_study": "../tilt-shift-study-20261020/CHECKPOINT.json",
+    "runtime_rendered": true,
+    "viewed_frames": true,
+    "heard_audio": false,
+    "validation_scope": "模型及v5设定帧已看；v6输出中，不等同全片或听感通过。",
+    "engineering_report": "delivery/engineering-check-v7.json",
+    "frame_audit": "qa/v7/frames/frame-audit.json"
+  },
+  "removed": [
+    "龙",
+    "送火",
+    "降落",
+    "火种接触",
+    "点燃仪式",
+    "由送火触发的灯链"
+  ]
+}

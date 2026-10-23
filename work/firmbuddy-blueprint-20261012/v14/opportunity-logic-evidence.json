@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "path": "D:/ai项目/firmbuddy/docs/opportunity-rules-v2.md",
+      "read_lines": "1-48",
+      "sha256": "87bb9c36b9929acebe490fbe88ed4b48cf699e8065419a5686cd82479b8f5445"
+    },
+    {
+      "path": "D:/ai项目/firmbuddy/plugins/_shared/opportunity-rules.mjs",
+      "read_lines": "1-53",
+      "sha256": "ff5c4cb0bd76e7f39c6d11afc5136d41aab59e7d95716f4166466f095371e81f"
+    },
+    {
+      "path": "D:/ai项目/firmbuddy/docs/implementation/REDUCTION-PRECONTACT-V2-20260922.md",
+      "read_lines": "1-39",
+      "sha256": "123482dc9a6e197d5cdd6237c5ba13881e658d61c1c1995c0bad3dff3a8e3729"
+    }
+  ],
+  "claims": [
+    "Public announcements and structured unlock calendar feed deterministic versioned rules.",
+    "Financing candidates filter execution/approval/issuance/ongoing stages.",
+    "MA assesses stage and consideration; shareholder services assess identity and windows; hedging uses real exposures; crossborder uses geography and currency.",
+    "AI supports explanation and expert research; business judgement and human review retained."
+  ],
+  "limits": [
+    "Title-level signals are leads, not confirmed needs or deal probabilities.",
+    "Private needs require authorized client evidence.",
+    "Not full-market historical coverage; no guaranteed conversion."
+  ]
+}

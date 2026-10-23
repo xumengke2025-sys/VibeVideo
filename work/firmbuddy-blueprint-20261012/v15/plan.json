@@ -1,0 +1,267 @@
+{
+  "version": "v15-human-mechanism",
+  "duration": 90,
+  "fps": 30,
+  "aspect_ratio": "16:9",
+  "width": 1920,
+  "height": 1080,
+  "delivery_mode": "ai_review_once",
+  "review_budget": "already_used",
+  "burdens": [],
+  "shots": [
+    {
+      "id": "s1",
+      "start": 0,
+      "end": 12,
+      "title": "从哪里切入客户需求？",
+      "result": "线索散、搜集慢，业务人员反复翻查",
+      "ai": "",
+      "voiceover": ""
+    },
+    {
+      "id": "s2",
+      "start": 12,
+      "end": 28,
+      "title": "把分散信息，归到一份客户档案",
+      "result": "公告、解禁日历与客户资料形成可用线索",
+      "ai": "AI 辅助归集与摘要",
+      "voiceover": ""
+    },
+    {
+      "id": "s3",
+      "start": 28,
+      "end": 44,
+      "title": "有了线索，怎样判断跟进方向？",
+      "result": "看阶段、看主体、看窗口，形成业务研判要点",
+      "ai": "AI 辅助解读与条件整理",
+      "voiceover": ""
+    },
+    {
+      "id": "s4",
+      "start": 44,
+      "end": 58,
+      "title": "遇到专业问题，找到对口专家",
+      "result": "专业知识与业务方法支撑多专业协作",
+      "ai": "AI 辅助匹配与专家协作",
+      "voiceover": ""
+    },
+    {
+      "id": "s5",
+      "start": 58,
+      "end": 70,
+      "title": "研判有依据，沟通更有准备",
+      "result": "规则、案例与研究资料，回到当前客户问题",
+      "ai": "AI 辅助检索与引用整理",
+      "voiceover": ""
+    },
+    {
+      "id": "s6",
+      "start": 70,
+      "end": 84,
+      "title": "材料少重复，经营能接续",
+      "result": "沟通要点、问题清单与跟进记录归入同一档案",
+      "ai": "AI 辅助材料整理与记录梳理",
+      "voiceover": ""
+    },
+    {
+      "id": "s7",
+      "start": 84,
+      "end": 90,
+      "title": "把时间，留给客户与业务判断",
+      "result": "FirmBuddy · 商机查询 / 业务研判 / 客户经营",
+      "ai": "",
+      "voiceover": ""
+    }
+  ],
+  "soundtrack": {
+    "sample_rate": 48000,
+    "bpm": 150,
+    "phrases": [
+      {
+        "start": 0,
+        "end": 89.6,
+        "beats": 224
+      }
+    ],
+    "density": [
+      {
+        "start": 0,
+        "end": 9.6,
+        "gain": 0.55
+      },
+      {
+        "start": 9.6,
+        "end": 28,
+        "gain": 0.95
+      },
+      {
+        "start": 28,
+        "end": 44,
+        "gain": 0.8
+      },
+      {
+        "start": 44,
+        "end": 70,
+        "gain": 0.6
+      },
+      {
+        "start": 70,
+        "end": 84,
+        "gain": 0.95
+      },
+      {
+        "start": 84,
+        "end": 90,
+        "gain": 0.65
+      }
+    ],
+    "breaks": [
+      [
+        20.55,
+        20.8
+      ],
+      [
+        38.15,
+        38.4
+      ],
+      [
+        78.95,
+        79.2
+      ]
+    ],
+    "events": [
+      {
+        "id": "e0",
+        "at": 6.4,
+        "sound": "tick",
+        "action": "分散资料翻查",
+        "note": 74
+      },
+      {
+        "id": "e1",
+        "at": 10.4,
+        "sound": "relay",
+        "action": "抽取业务场景卡",
+        "note": 74
+      },
+      {
+        "id": "e2",
+        "at": 19.2,
+        "sound": "tick",
+        "action": "档案入槽",
+        "note": 74
+      },
+      {
+        "id": "e3",
+        "at": 20.8,
+        "sound": "drop",
+        "action": "来源归集",
+        "note": 74
+      },
+      {
+        "id": "e4",
+        "at": 24,
+        "sound": "relay",
+        "action": "取回客户档案",
+        "note": 74
+      },
+      {
+        "id": "e5",
+        "at": 35.2,
+        "sound": "tick",
+        "action": "条件比对",
+        "note": 74
+      },
+      {
+        "id": "e6",
+        "at": 38.4,
+        "sound": "drop",
+        "action": "形成研判要点",
+        "note": 74
+      },
+      {
+        "id": "e7",
+        "at": 40.8,
+        "sound": "relay",
+        "action": "携档案寻找专家",
+        "note": 74
+      },
+      {
+        "id": "e8",
+        "at": 51.2,
+        "sound": "tick",
+        "action": "档案放上会商桌",
+        "note": 74
+      },
+      {
+        "id": "e9",
+        "at": 54.4,
+        "sound": "drop",
+        "action": "专家协作",
+        "note": 74
+      },
+      {
+        "id": "e10",
+        "at": 60.8,
+        "sound": "travel",
+        "action": "知识页沿导轨送达",
+        "note": 74
+      },
+      {
+        "id": "e11",
+        "at": 64,
+        "sound": "tick",
+        "action": "引用接入档案",
+        "note": 74
+      },
+      {
+        "id": "e12",
+        "at": 66.4,
+        "sound": "relay",
+        "action": "依据齐备",
+        "note": 74
+      },
+      {
+        "id": "e13",
+        "at": 76,
+        "sound": "tick",
+        "action": "沟通材料归并",
+        "note": 74
+      },
+      {
+        "id": "e14",
+        "at": 79.2,
+        "sound": "drop",
+        "action": "档案合册",
+        "note": 74
+      },
+      {
+        "id": "e15",
+        "at": 81.6,
+        "sound": "tick",
+        "action": "经营记录回接",
+        "note": 74
+      },
+      {
+        "id": "e16",
+        "at": 85.6,
+        "sound": "relay",
+        "action": "进入客户沟通",
+        "note": 74
+      },
+      {
+        "id": "e17",
+        "at": 88,
+        "sound": "resolve",
+        "action": "客户经营价值",
+        "note": 74
+      }
+    ]
+  },
+  "reference": {
+    "drawing": "Lemo blueprint draw.js/paper.js, retained license",
+    "camera": "original V15 shared-world subject path and camera path; quintic transitions",
+    "content": "../v14/opportunity-logic-evidence.json"
+  },
+  "style": "low-contrast abstract silhouette / cyanotype / functional mechanisms / amber dossier"
+}

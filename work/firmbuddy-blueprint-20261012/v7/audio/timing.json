@@ -1,0 +1,5819 @@
+{
+  "duration": 52.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "provider": "Original deterministic instrumental synthesis",
+  "voiceover": false,
+  "speech_assets_read": 0,
+  "narration_captions": false,
+  "entries": [],
+  "peak": 0.851043701171875,
+  "loudness": {
+    "input_i": "-15.79",
+    "input_tp": "-1.00",
+    "input_lra": "2.80",
+    "input_thresh": "-25.81",
+    "output_i": "-14.98",
+    "output_tp": "-1.50",
+    "output_lra": "2.70",
+    "output_thresh": "-25.00",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.02"
+  },
+  "phrases": [
+    {
+      "start": 1.2,
+      "end": 12.1,
+      "beats": 28,
+      "name": "input to experts",
+      "bpm": 154.12844036697248
+    },
+    {
+      "start": 12.1,
+      "end": 21.4,
+      "beats": 24,
+      "name": "expert relay to evidence",
+      "bpm": 154.83870967741936
+    },
+    {
+      "start": 21.4,
+      "end": 31.2,
+      "beats": 24,
+      "name": "evidence to question",
+      "bpm": 146.93877551020407
+    },
+    {
+      "start": 31.2,
+      "end": 37.9,
+      "beats": 16,
+      "name": "outputs to confirmation",
+      "bpm": 143.28358208955225
+    },
+    {
+      "start": 37.9,
+      "end": 47.5,
+      "beats": 24,
+      "name": "feedback to whole machine",
+      "bpm": 149.99999999999997
+    },
+    {
+      "start": 47.5,
+      "end": 50.4,
+      "beats": 8,
+      "name": "brand resolution",
+      "bpm": 165.51724137931043
+    }
+  ],
+  "action_sync": [
+    {
+      "id": "entry-one",
+      "visual_seconds": 0.2,
+      "audio_sample": 9600,
+      "error_ms": 0.0,
+      "action": "商机入口描绘"
+    },
+    {
+      "id": "entry-two",
+      "visual_seconds": 0.36,
+      "audio_sample": 17280,
+      "error_ms": 0.0,
+      "action": "疑问入口描绘"
+    },
+    {
+      "id": "entry-three",
+      "visual_seconds": 0.52,
+      "audio_sample": 24960,
+      "error_ms": 0.0,
+      "action": "拜访入口描绘"
+    },
+    {
+      "id": "paper-enter",
+      "visual_seconds": 1.2,
+      "audio_sample": 57600,
+      "error_ms": 0.0,
+      "action": "载纸进入"
+    },
+    {
+      "id": "scan",
+      "visual_seconds": 5.1,
+      "audio_sample": 244800,
+      "error_ms": 0.0,
+      "action": "筛选扫描启动"
+    },
+    {
+      "id": "expert-one",
+      "visual_seconds": 12.1,
+      "audio_sample": 580800,
+      "error_ms": 0.0,
+      "action": "专家一亮起"
+    },
+    {
+      "id": "expert-two",
+      "visual_seconds": 12.5,
+      "audio_sample": 600000,
+      "error_ms": 0.0,
+      "action": "专家二亮起"
+    },
+    {
+      "id": "expert-three",
+      "visual_seconds": 12.9,
+      "audio_sample": 619200,
+      "error_ms": 0.0,
+      "action": "专家三亮起"
+    },
+    {
+      "id": "opinion-one",
+      "visual_seconds": 14,
+      "audio_sample": 672000,
+      "error_ms": 0.0,
+      "action": "意见一汇入"
+    },
+    {
+      "id": "opinion-two",
+      "visual_seconds": 14.4,
+      "audio_sample": 691200,
+      "error_ms": 0.0,
+      "action": "意见二汇入"
+    },
+    {
+      "id": "opinion-three",
+      "visual_seconds": 14.8,
+      "audio_sample": 710400,
+      "error_ms": 0.0,
+      "action": "意见三汇入"
+    },
+    {
+      "id": "archive-travel",
+      "visual_seconds": 16.3,
+      "audio_sample": 782400,
+      "error_ms": 0.0,
+      "action": "沿支路进入知识库"
+    },
+    {
+      "id": "evidence-extract",
+      "visual_seconds": 21.4,
+      "audio_sample": 1027200,
+      "error_ms": 0.0,
+      "action": "资料抽页"
+    },
+    {
+      "id": "gap-reveal",
+      "visual_seconds": 22.5,
+      "audio_sample": 1080000,
+      "error_ms": 0.0,
+      "action": "资金安排未提供"
+    },
+    {
+      "id": "evidence-result",
+      "visual_seconds": 23.4,
+      "audio_sample": 1123200,
+      "error_ms": 0.0,
+      "action": "核实结论出现"
+    },
+    {
+      "id": "output-travel",
+      "visual_seconds": 25.8,
+      "audio_sample": 1238400,
+      "error_ms": 0.0,
+      "action": "缺项送向成果台"
+    },
+    {
+      "id": "slider-travel",
+      "visual_seconds": 29.4,
+      "audio_sample": 1411200,
+      "error_ms": 0.0,
+      "action": "缺项滑块移动"
+    },
+    {
+      "id": "slider-lock",
+      "visual_seconds": 31.2,
+      "audio_sample": 1497600,
+      "error_ms": 0.0,
+      "action": "滑块落定成为具体问题"
+    },
+    {
+      "id": "output-one",
+      "visual_seconds": 32.8,
+      "audio_sample": 1574400,
+      "error_ms": 0.0,
+      "action": "成果口一出现"
+    },
+    {
+      "id": "output-two",
+      "visual_seconds": 33,
+      "audio_sample": 1584000,
+      "error_ms": 0.0,
+      "action": "成果口二出现"
+    },
+    {
+      "id": "output-three",
+      "visual_seconds": 33.2,
+      "audio_sample": 1593600,
+      "error_ms": 0.0,
+      "action": "成果口三出现"
+    },
+    {
+      "id": "confirm-lock",
+      "visual_seconds": 37.9,
+      "audio_sample": 1819200,
+      "error_ms": 0.0,
+      "action": "用户确认锁扣闭合"
+    },
+    {
+      "id": "task-create",
+      "visual_seconds": 38.3,
+      "audio_sample": 1838400,
+      "error_ms": 0.0,
+      "action": "跟进任务出现"
+    },
+    {
+      "id": "feedback-travel",
+      "visual_seconds": 40.3,
+      "audio_sample": 1934400,
+      "error_ms": 0.0,
+      "action": "记录沿反馈轨道返回"
+    },
+    {
+      "id": "machine-reveal",
+      "visual_seconds": 44,
+      "audio_sample": 2112000,
+      "error_ms": 0.0,
+      "action": "全景关系标注"
+    },
+    {
+      "id": "brand-complete",
+      "visual_seconds": 46.8,
+      "audio_sample": 2246400,
+      "error_ms": 0.0,
+      "action": "品牌标题栏完成"
+    },
+    {
+      "id": "pullback-complete",
+      "visual_seconds": 47.5,
+      "audio_sample": 2280000,
+      "error_ms": 0.0,
+      "action": "整机拉远完成"
+    },
+    {
+      "id": "ending-hold",
+      "visual_seconds": 50.4,
+      "audio_sample": 2419200,
+      "error_ms": 0.0,
+      "action": "稳定结尾"
+    }
+  ],
+  "sound_ledger": [
+    {
+      "kind": "harmony",
+      "at": 0,
+      "sample": 0,
+      "event": null
+    },
+    {
+      "kind": "harmony",
+      "at": 5.1,
+      "sample": 244800,
+      "event": null
+    },
+    {
+      "kind": "harmony",
+      "at": 12.1,
+      "sample": 580800,
+      "event": null
+    },
+    {
+      "kind": "harmony",
+      "at": 16.3,
+      "sample": 782400,
+      "event": null
+    },
+    {
+      "kind": "harmony",
+      "at": 21.4,
+      "sample": 1027200,
+      "event": null
+    },
+    {
+      "kind": "harmony",
+      "at": 25.8,
+      "sample": 1238400,
+      "event": null
+    },
+    {
+      "kind": "harmony",
+      "at": 31.2,
+      "sample": 1497600,
+      "event": null
+    },
+    {
+      "kind": "harmony",
+      "at": 35,
+      "sample": 1680000,
+      "event": null
+    },
+    {
+      "kind": "harmony",
+      "at": 37.9,
+      "sample": 1819200,
+      "event": null
+    },
+    {
+      "kind": "harmony",
+      "at": 44,
+      "sample": 2112000,
+      "event": null
+    },
+    {
+      "kind": "harmony",
+      "at": 47.5,
+      "sample": 2280000,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 1.2,
+      "sample": 57600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 1.2,
+      "sample": 57600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 1.394642857142857,
+      "sample": 66943,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 1.2,
+      "sample": 57600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 1.4919642857142856,
+      "sample": 71614,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 1.2973214285714285,
+      "sample": 62271,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 1.4919642857142856,
+      "sample": 71614,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 1.5892857142857142,
+      "sample": 76286,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 1.5892857142857142,
+      "sample": 76286,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 1.5892857142857142,
+      "sample": 76286,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 1.7839285714285713,
+      "sample": 85629,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 1.7839285714285713,
+      "sample": 85629,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 1.6866071428571427,
+      "sample": 80957,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 1.8812499999999999,
+      "sample": 90300,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 1.9785714285714286,
+      "sample": 94971,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 1.9785714285714286,
+      "sample": 94971,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 2.1732142857142858,
+      "sample": 104314,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 1.9785714285714286,
+      "sample": 94971,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 2.2705357142857143,
+      "sample": 108986,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 2.075892857142857,
+      "sample": 99643,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 2.2705357142857143,
+      "sample": 108986,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 2.367857142857143,
+      "sample": 113657,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 2.367857142857143,
+      "sample": 113657,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 2.367857142857143,
+      "sample": 113657,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 2.5625,
+      "sample": 123000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 2.5625,
+      "sample": 123000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 2.4651785714285714,
+      "sample": 118329,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 2.6598214285714286,
+      "sample": 127671,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 2.757142857142857,
+      "sample": 132343,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 2.757142857142857,
+      "sample": 132343,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 2.9517857142857142,
+      "sample": 141686,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 2.757142857142857,
+      "sample": 132343,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 3.049107142857143,
+      "sample": 146357,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 2.8544642857142857,
+      "sample": 137014,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 3.049107142857143,
+      "sample": 146357,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 3.1464285714285714,
+      "sample": 151029,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 3.1464285714285714,
+      "sample": 151029,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 3.1464285714285714,
+      "sample": 151029,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 3.3410714285714285,
+      "sample": 160371,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 3.3410714285714285,
+      "sample": 160371,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 3.24375,
+      "sample": 155700,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 3.438392857142857,
+      "sample": 165043,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 3.5357142857142856,
+      "sample": 169714,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 3.5357142857142856,
+      "sample": 169714,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 3.7303571428571427,
+      "sample": 179057,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 3.5357142857142856,
+      "sample": 169714,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 3.8276785714285713,
+      "sample": 183729,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 3.633035714285714,
+      "sample": 174386,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 3.8276785714285713,
+      "sample": 183729,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 3.925,
+      "sample": 188400,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 3.925,
+      "sample": 188400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 3.925,
+      "sample": 188400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 4.119642857142857,
+      "sample": 197743,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 4.119642857142857,
+      "sample": 197743,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 4.022321428571429,
+      "sample": 193071,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 4.216964285714286,
+      "sample": 202414,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 4.314285714285714,
+      "sample": 207086,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 4.314285714285714,
+      "sample": 207086,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 4.508928571428571,
+      "sample": 216429,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 4.314285714285714,
+      "sample": 207086,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 4.60625,
+      "sample": 221100,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 4.411607142857143,
+      "sample": 211757,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 4.60625,
+      "sample": 221100,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 4.703571428571428,
+      "sample": 225771,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 4.703571428571428,
+      "sample": 225771,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 4.703571428571428,
+      "sample": 225771,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 4.898214285714285,
+      "sample": 235114,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 4.898214285714285,
+      "sample": 235114,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 4.800892857142857,
+      "sample": 230443,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 4.995535714285714,
+      "sample": 239786,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 5.0928571428571425,
+      "sample": 244457,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 5.0928571428571425,
+      "sample": 244457,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 5.2875,
+      "sample": 253800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 5.0928571428571425,
+      "sample": 244457,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 5.384821428571429,
+      "sample": 258471,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 5.1901785714285715,
+      "sample": 249129,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 5.384821428571429,
+      "sample": 258471,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 5.482142857142858,
+      "sample": 263143,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 5.482142857142858,
+      "sample": 263143,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 5.482142857142858,
+      "sample": 263143,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 5.676785714285715,
+      "sample": 272486,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 5.676785714285715,
+      "sample": 272486,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 5.579464285714287,
+      "sample": 267814,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 5.774107142857144,
+      "sample": 277157,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 5.871428571428572,
+      "sample": 281829,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 5.871428571428572,
+      "sample": 281829,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 6.066071428571429,
+      "sample": 291171,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 5.871428571428572,
+      "sample": 281829,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 6.163392857142858,
+      "sample": 295843,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 5.968750000000001,
+      "sample": 286500,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 6.163392857142858,
+      "sample": 295843,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 6.260714285714286,
+      "sample": 300514,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 6.260714285714286,
+      "sample": 300514,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 6.260714285714286,
+      "sample": 300514,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 6.455357142857143,
+      "sample": 309857,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 6.455357142857143,
+      "sample": 309857,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 6.358035714285715,
+      "sample": 305186,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 6.552678571428572,
+      "sample": 314529,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 6.65,
+      "sample": 319200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 6.65,
+      "sample": 319200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 6.8446428571428575,
+      "sample": 328543,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 6.65,
+      "sample": 319200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 6.9419642857142865,
+      "sample": 333214,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 6.747321428571429,
+      "sample": 323871,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 6.9419642857142865,
+      "sample": 333214,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 7.039285714285715,
+      "sample": 337886,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 7.039285714285715,
+      "sample": 337886,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 7.039285714285715,
+      "sample": 337886,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 7.233928571428572,
+      "sample": 347229,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 7.233928571428572,
+      "sample": 347229,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 7.136607142857144,
+      "sample": 342557,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 7.331250000000001,
+      "sample": 351900,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 7.428571428571429,
+      "sample": 356571,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 7.428571428571429,
+      "sample": 356571,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 7.623214285714286,
+      "sample": 365914,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 7.428571428571429,
+      "sample": 356571,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 7.720535714285715,
+      "sample": 370586,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 7.525892857142858,
+      "sample": 361243,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 7.720535714285715,
+      "sample": 370586,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 7.817857142857143,
+      "sample": 375257,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 7.817857142857143,
+      "sample": 375257,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 7.817857142857143,
+      "sample": 375257,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 8.012500000000001,
+      "sample": 384600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 8.012500000000001,
+      "sample": 384600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 7.915178571428572,
+      "sample": 379929,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 8.10982142857143,
+      "sample": 389271,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 8.207142857142857,
+      "sample": 393943,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 8.207142857142857,
+      "sample": 393943,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 8.401785714285715,
+      "sample": 403286,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 8.207142857142857,
+      "sample": 393943,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 8.499107142857143,
+      "sample": 407957,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 8.304464285714285,
+      "sample": 398614,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 8.499107142857143,
+      "sample": 407957,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 8.596428571428572,
+      "sample": 412629,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 8.596428571428572,
+      "sample": 412629,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 8.596428571428572,
+      "sample": 412629,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 8.79107142857143,
+      "sample": 421971,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 8.79107142857143,
+      "sample": 421971,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 8.69375,
+      "sample": 417300,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 8.888392857142858,
+      "sample": 426643,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 8.985714285714286,
+      "sample": 431314,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 8.985714285714286,
+      "sample": 431314,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 9.180357142857144,
+      "sample": 440657,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 8.985714285714286,
+      "sample": 431314,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 9.277678571428572,
+      "sample": 445329,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 9.083035714285714,
+      "sample": 435986,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 9.277678571428572,
+      "sample": 445329,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 9.375,
+      "sample": 450000,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 9.375,
+      "sample": 450000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 9.375,
+      "sample": 450000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 9.569642857142858,
+      "sample": 459343,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 9.569642857142858,
+      "sample": 459343,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 9.472321428571428,
+      "sample": 454671,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 9.666964285714286,
+      "sample": 464014,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 9.764285714285714,
+      "sample": 468686,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 9.764285714285714,
+      "sample": 468686,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 9.958928571428572,
+      "sample": 478029,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 9.764285714285714,
+      "sample": 468686,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 10.05625,
+      "sample": 482700,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 9.861607142857142,
+      "sample": 473357,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 10.05625,
+      "sample": 482700,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 10.153571428571428,
+      "sample": 487371,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 10.153571428571428,
+      "sample": 487371,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 10.153571428571428,
+      "sample": 487371,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 10.348214285714286,
+      "sample": 496714,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 10.348214285714286,
+      "sample": 496714,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 10.250892857142857,
+      "sample": 492043,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 10.445535714285715,
+      "sample": 501386,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 10.542857142857143,
+      "sample": 506057,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 10.542857142857143,
+      "sample": 506057,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 10.7375,
+      "sample": 515400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 10.542857142857143,
+      "sample": 506057,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 10.834821428571429,
+      "sample": 520071,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 10.64017857142857,
+      "sample": 510729,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 10.834821428571429,
+      "sample": 520071,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 10.932142857142857,
+      "sample": 524743,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 10.932142857142857,
+      "sample": 524743,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 10.932142857142857,
+      "sample": 524743,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 11.126785714285715,
+      "sample": 534086,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 11.126785714285715,
+      "sample": 534086,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 11.029464285714285,
+      "sample": 529414,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 11.224107142857143,
+      "sample": 538757,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 11.321428571428571,
+      "sample": 543429,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 11.321428571428571,
+      "sample": 543429,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 11.51607142857143,
+      "sample": 552771,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 11.321428571428571,
+      "sample": 543429,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 11.613392857142857,
+      "sample": 557443,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 11.41875,
+      "sample": 548100,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 11.613392857142857,
+      "sample": 557443,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 11.710714285714285,
+      "sample": 562114,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 11.710714285714285,
+      "sample": 562114,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 11.710714285714285,
+      "sample": 562114,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 11.905357142857143,
+      "sample": 571457,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 11.905357142857143,
+      "sample": 571457,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 11.808035714285714,
+      "sample": 566786,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 12.002678571428572,
+      "sample": 576129,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 12.1,
+      "sample": 580800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 12.1,
+      "sample": 580800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 12.29375,
+      "sample": 590100,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 12.1,
+      "sample": 580800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 12.390625,
+      "sample": 594750,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 12.196875,
+      "sample": 585450,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 12.390625,
+      "sample": 594750,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 12.487499999999999,
+      "sample": 599400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 12.487499999999999,
+      "sample": 599400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 12.681249999999999,
+      "sample": 608700,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 12.681249999999999,
+      "sample": 608700,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 12.584375,
+      "sample": 604050,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 12.778125,
+      "sample": 613350,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 12.875,
+      "sample": 618000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 12.875,
+      "sample": 618000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 13.06875,
+      "sample": 627300,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 12.875,
+      "sample": 618000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 13.165625,
+      "sample": 631950,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 12.971875,
+      "sample": 622650,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 13.165625,
+      "sample": 631950,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 13.2625,
+      "sample": 636600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 13.2625,
+      "sample": 636600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 13.456249999999999,
+      "sample": 645900,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 13.456249999999999,
+      "sample": 645900,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 13.359375,
+      "sample": 641250,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 13.553125,
+      "sample": 650550,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 13.649999999999999,
+      "sample": 655200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 13.649999999999999,
+      "sample": 655200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 13.843749999999998,
+      "sample": 664500,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 13.649999999999999,
+      "sample": 655200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 13.940624999999999,
+      "sample": 669150,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 13.746875,
+      "sample": 659850,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 13.940624999999999,
+      "sample": 669150,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 14.0375,
+      "sample": 673800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 14.0375,
+      "sample": 673800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 14.23125,
+      "sample": 683100,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 14.23125,
+      "sample": 683100,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 14.134375,
+      "sample": 678450,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 14.328125,
+      "sample": 687750,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 14.424999999999999,
+      "sample": 692400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 14.424999999999999,
+      "sample": 692400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 14.618749999999999,
+      "sample": 701700,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 14.424999999999999,
+      "sample": 692400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 14.715625,
+      "sample": 706350,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 14.521875,
+      "sample": 697050,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 14.715625,
+      "sample": 706350,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 14.8125,
+      "sample": 711000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 14.8125,
+      "sample": 711000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 15.00625,
+      "sample": 720300,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 15.00625,
+      "sample": 720300,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 14.909375,
+      "sample": 715650,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 15.103125,
+      "sample": 724950,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 15.2,
+      "sample": 729600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 15.2,
+      "sample": 729600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 15.393749999999999,
+      "sample": 738900,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 15.2,
+      "sample": 729600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 15.490625,
+      "sample": 743550,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 15.296875,
+      "sample": 734250,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 15.490625,
+      "sample": 743550,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 15.587499999999999,
+      "sample": 748200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 15.587499999999999,
+      "sample": 748200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 15.781249999999998,
+      "sample": 757500,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 15.781249999999998,
+      "sample": 757500,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 15.684375,
+      "sample": 752850,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 15.878124999999999,
+      "sample": 762150,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 15.975,
+      "sample": 766800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 15.975,
+      "sample": 766800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 16.16875,
+      "sample": 776100,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 15.975,
+      "sample": 766800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 16.265625,
+      "sample": 780750,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 16.071875,
+      "sample": 771450,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 16.265625,
+      "sample": 780750,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 16.362499999999997,
+      "sample": 785400,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 16.362499999999997,
+      "sample": 785400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 16.362499999999997,
+      "sample": 785400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 16.55625,
+      "sample": 794700,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 16.55625,
+      "sample": 794700,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 16.459374999999998,
+      "sample": 790050,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 16.653124999999996,
+      "sample": 799350,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 16.75,
+      "sample": 804000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 16.75,
+      "sample": 804000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 16.94375,
+      "sample": 813300,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 16.75,
+      "sample": 804000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 17.040625,
+      "sample": 817950,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 16.846875,
+      "sample": 808650,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 17.040625,
+      "sample": 817950,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 17.1375,
+      "sample": 822600,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 17.1375,
+      "sample": 822600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 17.1375,
+      "sample": 822600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 17.33125,
+      "sample": 831900,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 17.33125,
+      "sample": 831900,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 17.234375,
+      "sample": 827250,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 17.428124999999998,
+      "sample": 836550,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 17.525,
+      "sample": 841200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 17.525,
+      "sample": 841200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 17.71875,
+      "sample": 850500,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 17.525,
+      "sample": 841200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 17.815624999999997,
+      "sample": 855150,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 17.621875,
+      "sample": 845850,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 17.815624999999997,
+      "sample": 855150,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 17.912499999999998,
+      "sample": 859800,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 17.912499999999998,
+      "sample": 859800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 17.912499999999998,
+      "sample": 859800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 18.10625,
+      "sample": 869100,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 18.10625,
+      "sample": 869100,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 18.009375,
+      "sample": 864450,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 18.203124999999996,
+      "sample": 873750,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 18.299999999999997,
+      "sample": 878400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 18.299999999999997,
+      "sample": 878400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 18.49375,
+      "sample": 887700,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 18.299999999999997,
+      "sample": 878400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 18.590624999999996,
+      "sample": 892350,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 18.396874999999998,
+      "sample": 883050,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 18.590624999999996,
+      "sample": 892350,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 18.6875,
+      "sample": 897000,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 18.6875,
+      "sample": 897000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 18.6875,
+      "sample": 897000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 18.88125,
+      "sample": 906300,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 18.88125,
+      "sample": 906300,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 18.784375,
+      "sample": 901650,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 18.978125,
+      "sample": 910950,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 19.075,
+      "sample": 915600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 19.075,
+      "sample": 915600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 19.26875,
+      "sample": 924900,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 19.075,
+      "sample": 915600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 19.365624999999998,
+      "sample": 929550,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 19.171875,
+      "sample": 920250,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 19.365624999999998,
+      "sample": 929550,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 19.4625,
+      "sample": 934200,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 19.4625,
+      "sample": 934200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 19.4625,
+      "sample": 934200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 19.65625,
+      "sample": 943500,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 19.65625,
+      "sample": 943500,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 19.559375,
+      "sample": 938850,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 19.753124999999997,
+      "sample": 948150,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 19.849999999999998,
+      "sample": 952800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 19.849999999999998,
+      "sample": 952800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 20.04375,
+      "sample": 962100,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 19.849999999999998,
+      "sample": 952800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 20.140624999999996,
+      "sample": 966750,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 19.946875,
+      "sample": 957450,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 20.140624999999996,
+      "sample": 966750,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 20.237499999999997,
+      "sample": 971400,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 20.237499999999997,
+      "sample": 971400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 20.237499999999997,
+      "sample": 971400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 20.43125,
+      "sample": 980700,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 20.43125,
+      "sample": 980700,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 20.334374999999998,
+      "sample": 976050,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 20.528124999999996,
+      "sample": 985350,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 20.625,
+      "sample": 990000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 20.625,
+      "sample": 990000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 20.81875,
+      "sample": 999300,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 20.625,
+      "sample": 990000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 20.915625,
+      "sample": 1003950,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 20.721875,
+      "sample": 994650,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 20.915625,
+      "sample": 1003950,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 21.0125,
+      "sample": 1008600,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 21.0125,
+      "sample": 1008600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 21.0125,
+      "sample": 1008600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 21.20625,
+      "sample": 1017900,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 21.20625,
+      "sample": 1017900,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 21.109375,
+      "sample": 1013250,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 21.303124999999998,
+      "sample": 1022550,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 21.4,
+      "sample": 1027200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 21.4,
+      "sample": 1027200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 21.604166666666664,
+      "sample": 1037000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 21.4,
+      "sample": 1027200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 21.706249999999997,
+      "sample": 1041900,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 21.50208333333333,
+      "sample": 1032100,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 21.706249999999997,
+      "sample": 1041900,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 21.808333333333334,
+      "sample": 1046800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 21.808333333333334,
+      "sample": 1046800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 22.0125,
+      "sample": 1056600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 22.0125,
+      "sample": 1056600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 21.910416666666666,
+      "sample": 1051700,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 22.114583333333332,
+      "sample": 1061500,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 22.216666666666665,
+      "sample": 1066400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 22.216666666666665,
+      "sample": 1066400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 22.42083333333333,
+      "sample": 1076200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 22.216666666666665,
+      "sample": 1066400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 22.522916666666664,
+      "sample": 1081100,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 22.318749999999998,
+      "sample": 1071300,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 22.522916666666664,
+      "sample": 1081100,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 22.625,
+      "sample": 1086000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 22.625,
+      "sample": 1086000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 22.829166666666666,
+      "sample": 1095800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 22.829166666666666,
+      "sample": 1095800,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 22.727083333333333,
+      "sample": 1090900,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 22.93125,
+      "sample": 1100700,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 23.03333333333333,
+      "sample": 1105600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 23.03333333333333,
+      "sample": 1105600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 23.237499999999997,
+      "sample": 1115400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 23.03333333333333,
+      "sample": 1105600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 23.33958333333333,
+      "sample": 1120300,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 23.135416666666664,
+      "sample": 1110500,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 23.33958333333333,
+      "sample": 1120300,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 23.441666666666666,
+      "sample": 1125200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 23.441666666666666,
+      "sample": 1125200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 23.645833333333332,
+      "sample": 1135000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 23.645833333333332,
+      "sample": 1135000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 23.54375,
+      "sample": 1130100,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 23.747916666666665,
+      "sample": 1139900,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 23.849999999999998,
+      "sample": 1144800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 23.849999999999998,
+      "sample": 1144800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 24.054166666666664,
+      "sample": 1154600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 23.849999999999998,
+      "sample": 1144800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 24.156249999999996,
+      "sample": 1159500,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 23.95208333333333,
+      "sample": 1149700,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 24.156249999999996,
+      "sample": 1159500,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 24.258333333333333,
+      "sample": 1164400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 24.258333333333333,
+      "sample": 1164400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 24.4625,
+      "sample": 1174200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 24.4625,
+      "sample": 1174200,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 24.360416666666666,
+      "sample": 1169300,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 24.56458333333333,
+      "sample": 1179100,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 24.666666666666664,
+      "sample": 1184000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 24.666666666666664,
+      "sample": 1184000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 24.87083333333333,
+      "sample": 1193800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 24.666666666666664,
+      "sample": 1184000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 24.972916666666663,
+      "sample": 1198700,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 24.768749999999997,
+      "sample": 1188900,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 24.972916666666663,
+      "sample": 1198700,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 25.075,
+      "sample": 1203600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 25.075,
+      "sample": 1203600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 25.279166666666665,
+      "sample": 1213400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 25.279166666666665,
+      "sample": 1213400,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 25.177083333333332,
+      "sample": 1208500,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 25.381249999999998,
+      "sample": 1218300,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 25.483333333333334,
+      "sample": 1223200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 25.483333333333334,
+      "sample": 1223200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 25.6875,
+      "sample": 1233000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 25.483333333333334,
+      "sample": 1223200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 25.789583333333333,
+      "sample": 1237900,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 25.585416666666667,
+      "sample": 1228100,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 25.789583333333333,
+      "sample": 1237900,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 25.891666666666666,
+      "sample": 1242800,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 25.891666666666666,
+      "sample": 1242800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 25.891666666666666,
+      "sample": 1242800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 26.09583333333333,
+      "sample": 1252600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 26.09583333333333,
+      "sample": 1252600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 25.99375,
+      "sample": 1247700,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 26.197916666666664,
+      "sample": 1257500,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 26.299999999999997,
+      "sample": 1262400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 26.299999999999997,
+      "sample": 1262400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 26.504166666666663,
+      "sample": 1272200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 26.299999999999997,
+      "sample": 1262400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 26.606249999999996,
+      "sample": 1277100,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 26.40208333333333,
+      "sample": 1267300,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 26.606249999999996,
+      "sample": 1277100,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 26.708333333333332,
+      "sample": 1282000,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 26.708333333333332,
+      "sample": 1282000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 26.708333333333332,
+      "sample": 1282000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 26.912499999999998,
+      "sample": 1291800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 26.912499999999998,
+      "sample": 1291800,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 26.810416666666665,
+      "sample": 1286900,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 27.01458333333333,
+      "sample": 1296700,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 27.116666666666667,
+      "sample": 1301600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 27.116666666666667,
+      "sample": 1301600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 27.320833333333333,
+      "sample": 1311400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 27.116666666666667,
+      "sample": 1301600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 27.422916666666666,
+      "sample": 1316300,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 27.21875,
+      "sample": 1306500,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 27.422916666666666,
+      "sample": 1316300,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 27.525,
+      "sample": 1321200,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 27.525,
+      "sample": 1321200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 27.525,
+      "sample": 1321200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 27.729166666666664,
+      "sample": 1331000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 27.729166666666664,
+      "sample": 1331000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 27.62708333333333,
+      "sample": 1326100,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 27.831249999999997,
+      "sample": 1335900,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 27.933333333333334,
+      "sample": 1340800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 27.933333333333334,
+      "sample": 1340800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 28.1375,
+      "sample": 1350600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 27.933333333333334,
+      "sample": 1340800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 28.239583333333332,
+      "sample": 1355500,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 28.035416666666666,
+      "sample": 1345700,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 28.239583333333332,
+      "sample": 1355500,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 28.341666666666665,
+      "sample": 1360400,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 28.341666666666665,
+      "sample": 1360400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 28.341666666666665,
+      "sample": 1360400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 28.54583333333333,
+      "sample": 1370200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 28.54583333333333,
+      "sample": 1370200,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 28.443749999999998,
+      "sample": 1365300,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 28.647916666666664,
+      "sample": 1375100,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 28.75,
+      "sample": 1380000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 28.75,
+      "sample": 1380000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 28.954166666666666,
+      "sample": 1389800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 28.75,
+      "sample": 1380000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 29.05625,
+      "sample": 1394700,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 28.852083333333333,
+      "sample": 1384900,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 29.05625,
+      "sample": 1394700,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 29.15833333333333,
+      "sample": 1399600,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 29.15833333333333,
+      "sample": 1399600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 29.15833333333333,
+      "sample": 1399600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 29.362499999999997,
+      "sample": 1409400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 29.362499999999997,
+      "sample": 1409400,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 29.260416666666664,
+      "sample": 1404500,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 29.46458333333333,
+      "sample": 1414300,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 29.566666666666666,
+      "sample": 1419200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 29.566666666666666,
+      "sample": 1419200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 29.770833333333332,
+      "sample": 1429000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 29.566666666666666,
+      "sample": 1419200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 29.872916666666665,
+      "sample": 1433900,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 29.66875,
+      "sample": 1424100,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 29.872916666666665,
+      "sample": 1433900,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 29.975,
+      "sample": 1438800,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 29.975,
+      "sample": 1438800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 29.975,
+      "sample": 1438800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 30.179166666666667,
+      "sample": 1448600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 30.179166666666667,
+      "sample": 1448600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 30.077083333333334,
+      "sample": 1443700,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 30.28125,
+      "sample": 1453500,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 30.383333333333333,
+      "sample": 1458400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 30.383333333333333,
+      "sample": 1458400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 30.5875,
+      "sample": 1468200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 30.383333333333333,
+      "sample": 1458400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 30.68958333333333,
+      "sample": 1473100,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 30.485416666666666,
+      "sample": 1463300,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 30.68958333333333,
+      "sample": 1473100,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 30.791666666666664,
+      "sample": 1478000,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 30.791666666666664,
+      "sample": 1478000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 30.791666666666664,
+      "sample": 1478000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 30.99583333333333,
+      "sample": 1487800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 30.99583333333333,
+      "sample": 1487800,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 30.893749999999997,
+      "sample": 1482900,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 31.097916666666663,
+      "sample": 1492700,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 31.2,
+      "sample": 1497600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 31.2,
+      "sample": 1497600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 31.409375,
+      "sample": 1507650,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 31.2,
+      "sample": 1497600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 31.514062499999998,
+      "sample": 1512675,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 31.3046875,
+      "sample": 1502625,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 31.514062499999998,
+      "sample": 1512675,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 31.61875,
+      "sample": 1517700,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 31.61875,
+      "sample": 1517700,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 31.61875,
+      "sample": 1517700,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 31.828125,
+      "sample": 1527750,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 31.828125,
+      "sample": 1527750,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 31.7234375,
+      "sample": 1522725,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 31.932812499999997,
+      "sample": 1532775,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 32.0375,
+      "sample": 1537800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 32.0375,
+      "sample": 1537800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 32.246875,
+      "sample": 1547850,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 32.0375,
+      "sample": 1537800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 32.3515625,
+      "sample": 1552875,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 32.1421875,
+      "sample": 1542825,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 32.3515625,
+      "sample": 1552875,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 32.45625,
+      "sample": 1557900,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 32.45625,
+      "sample": 1557900,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 32.45625,
+      "sample": 1557900,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 32.665625,
+      "sample": 1567950,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 32.665625,
+      "sample": 1567950,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 32.560937499999994,
+      "sample": 1562925,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 32.770312499999996,
+      "sample": 1572975,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 32.875,
+      "sample": 1578000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 32.875,
+      "sample": 1578000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 33.084375,
+      "sample": 1588050,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 32.875,
+      "sample": 1578000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 33.1890625,
+      "sample": 1593075,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 32.9796875,
+      "sample": 1583025,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 33.1890625,
+      "sample": 1593075,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 33.29375,
+      "sample": 1598100,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 33.29375,
+      "sample": 1598100,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 33.29375,
+      "sample": 1598100,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 33.503125000000004,
+      "sample": 1608150,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 33.503125000000004,
+      "sample": 1608150,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 33.3984375,
+      "sample": 1603125,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 33.6078125,
+      "sample": 1613175,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 33.7125,
+      "sample": 1618200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 33.7125,
+      "sample": 1618200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 33.921875,
+      "sample": 1628250,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 33.7125,
+      "sample": 1618200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 34.0265625,
+      "sample": 1633275,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 33.817187499999996,
+      "sample": 1623225,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 34.0265625,
+      "sample": 1633275,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 34.13125,
+      "sample": 1638300,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 34.13125,
+      "sample": 1638300,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 34.13125,
+      "sample": 1638300,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 34.340625,
+      "sample": 1648350,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 34.340625,
+      "sample": 1648350,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 34.2359375,
+      "sample": 1643325,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 34.4453125,
+      "sample": 1653375,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 34.55,
+      "sample": 1658400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 34.55,
+      "sample": 1658400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 34.759375,
+      "sample": 1668450,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 34.55,
+      "sample": 1658400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 34.864062499999996,
+      "sample": 1673475,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 34.654687499999994,
+      "sample": 1663425,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 34.864062499999996,
+      "sample": 1673475,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 34.96875,
+      "sample": 1678500,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 34.96875,
+      "sample": 1678500,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 34.96875,
+      "sample": 1678500,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 35.178125,
+      "sample": 1688550,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 35.178125,
+      "sample": 1688550,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 35.0734375,
+      "sample": 1683525,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 35.2828125,
+      "sample": 1693575,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 35.3875,
+      "sample": 1698600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 35.3875,
+      "sample": 1698600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 35.596875000000004,
+      "sample": 1708650,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 35.3875,
+      "sample": 1698600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 35.7015625,
+      "sample": 1713675,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 35.4921875,
+      "sample": 1703625,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 35.7015625,
+      "sample": 1713675,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 35.80625,
+      "sample": 1718700,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 35.80625,
+      "sample": 1718700,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 35.80625,
+      "sample": 1718700,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 36.015625,
+      "sample": 1728750,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 36.015625,
+      "sample": 1728750,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 35.910937499999996,
+      "sample": 1723725,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 36.1203125,
+      "sample": 1733775,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 36.225,
+      "sample": 1738800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 36.225,
+      "sample": 1738800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 36.434375,
+      "sample": 1748850,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 36.225,
+      "sample": 1738800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 36.5390625,
+      "sample": 1753875,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 36.3296875,
+      "sample": 1743825,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 36.5390625,
+      "sample": 1753875,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 36.64375,
+      "sample": 1758900,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 36.64375,
+      "sample": 1758900,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 36.64375,
+      "sample": 1758900,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 36.853125,
+      "sample": 1768950,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 36.853125,
+      "sample": 1768950,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 36.748437499999994,
+      "sample": 1763925,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 36.957812499999996,
+      "sample": 1773975,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 37.0625,
+      "sample": 1779000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 37.0625,
+      "sample": 1779000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 37.271875,
+      "sample": 1789050,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 37.0625,
+      "sample": 1779000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 37.3765625,
+      "sample": 1794075,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 37.1671875,
+      "sample": 1784025,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 37.3765625,
+      "sample": 1794075,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 37.481249999999996,
+      "sample": 1799100,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 37.481249999999996,
+      "sample": 1799100,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 37.481249999999996,
+      "sample": 1799100,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 37.690625,
+      "sample": 1809150,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 37.690625,
+      "sample": 1809150,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 37.58593749999999,
+      "sample": 1804125,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 37.795312499999994,
+      "sample": 1814175,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 37.9,
+      "sample": 1819200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 37.9,
+      "sample": 1819200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 38.1,
+      "sample": 1828800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 37.9,
+      "sample": 1819200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 38.199999999999996,
+      "sample": 1833600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 38.0,
+      "sample": 1824000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 38.199999999999996,
+      "sample": 1833600,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 38.3,
+      "sample": 1838400,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 38.3,
+      "sample": 1838400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 38.3,
+      "sample": 1838400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 38.5,
+      "sample": 1848000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 38.5,
+      "sample": 1848000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 38.4,
+      "sample": 1843200,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 38.599999999999994,
+      "sample": 1852800,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 38.699999999999996,
+      "sample": 1857600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 38.699999999999996,
+      "sample": 1857600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 38.9,
+      "sample": 1867200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 38.699999999999996,
+      "sample": 1857600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 38.99999999999999,
+      "sample": 1872000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 38.8,
+      "sample": 1862400,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 38.99999999999999,
+      "sample": 1872000,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 39.1,
+      "sample": 1876800,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 39.1,
+      "sample": 1876800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 39.1,
+      "sample": 1876800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 39.300000000000004,
+      "sample": 1886400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 39.300000000000004,
+      "sample": 1886400,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 39.2,
+      "sample": 1881600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 39.4,
+      "sample": 1891200,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 39.5,
+      "sample": 1896000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 39.5,
+      "sample": 1896000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 39.7,
+      "sample": 1905600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 39.5,
+      "sample": 1896000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 39.8,
+      "sample": 1910400,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 39.6,
+      "sample": 1900800,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 39.8,
+      "sample": 1910400,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 39.9,
+      "sample": 1915200,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 39.9,
+      "sample": 1915200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 39.9,
+      "sample": 1915200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 40.1,
+      "sample": 1924800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 40.1,
+      "sample": 1924800,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 40.0,
+      "sample": 1920000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 40.199999999999996,
+      "sample": 1929600,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 40.3,
+      "sample": 1934400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 40.3,
+      "sample": 1934400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 40.5,
+      "sample": 1944000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 40.3,
+      "sample": 1934400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 40.599999999999994,
+      "sample": 1948800,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 40.4,
+      "sample": 1939200,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 40.599999999999994,
+      "sample": 1948800,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 40.7,
+      "sample": 1953600,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 40.7,
+      "sample": 1953600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 40.7,
+      "sample": 1953600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 40.900000000000006,
+      "sample": 1963200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 40.900000000000006,
+      "sample": 1963200,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 40.800000000000004,
+      "sample": 1958400,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 41.0,
+      "sample": 1968000,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 41.1,
+      "sample": 1972800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 41.1,
+      "sample": 1972800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 41.300000000000004,
+      "sample": 1982400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 41.1,
+      "sample": 1972800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 41.4,
+      "sample": 1987200,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 41.2,
+      "sample": 1977600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 41.4,
+      "sample": 1987200,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 41.5,
+      "sample": 1992000,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 41.5,
+      "sample": 1992000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 41.5,
+      "sample": 1992000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 41.7,
+      "sample": 2001600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 41.7,
+      "sample": 2001600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 41.6,
+      "sample": 1996800,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 41.8,
+      "sample": 2006400,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 41.9,
+      "sample": 2011200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 41.9,
+      "sample": 2011200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 42.1,
+      "sample": 2020800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 41.9,
+      "sample": 2011200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 42.199999999999996,
+      "sample": 2025600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 42.0,
+      "sample": 2016000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 42.199999999999996,
+      "sample": 2025600,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 42.3,
+      "sample": 2030400,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 42.3,
+      "sample": 2030400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 42.3,
+      "sample": 2030400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 42.5,
+      "sample": 2040000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 42.5,
+      "sample": 2040000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 42.4,
+      "sample": 2035200,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 42.599999999999994,
+      "sample": 2044800,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 42.7,
+      "sample": 2049600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 42.7,
+      "sample": 2049600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 42.900000000000006,
+      "sample": 2059200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 42.7,
+      "sample": 2049600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 43.0,
+      "sample": 2064000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 42.800000000000004,
+      "sample": 2054400,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 43.0,
+      "sample": 2064000,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 43.1,
+      "sample": 2068800,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 43.1,
+      "sample": 2068800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 43.1,
+      "sample": 2068800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 43.300000000000004,
+      "sample": 2078400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 43.300000000000004,
+      "sample": 2078400,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 43.2,
+      "sample": 2073600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 43.4,
+      "sample": 2083200,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 43.5,
+      "sample": 2088000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 43.5,
+      "sample": 2088000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 43.7,
+      "sample": 2097600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 43.5,
+      "sample": 2088000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 43.8,
+      "sample": 2102400,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 43.6,
+      "sample": 2092800,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 43.8,
+      "sample": 2102400,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 43.9,
+      "sample": 2107200,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 43.9,
+      "sample": 2107200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 43.9,
+      "sample": 2107200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 44.1,
+      "sample": 2116800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 44.1,
+      "sample": 2116800,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 44.0,
+      "sample": 2112000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 44.199999999999996,
+      "sample": 2121600,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 44.3,
+      "sample": 2126400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 44.3,
+      "sample": 2126400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 44.5,
+      "sample": 2136000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 44.3,
+      "sample": 2126400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 44.599999999999994,
+      "sample": 2140800,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 44.4,
+      "sample": 2131200,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 44.599999999999994,
+      "sample": 2140800,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 44.7,
+      "sample": 2145600,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 44.7,
+      "sample": 2145600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 44.7,
+      "sample": 2145600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 44.900000000000006,
+      "sample": 2155200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 44.900000000000006,
+      "sample": 2155200,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 44.800000000000004,
+      "sample": 2150400,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 45.0,
+      "sample": 2160000,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 45.1,
+      "sample": 2164800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 45.1,
+      "sample": 2164800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 45.300000000000004,
+      "sample": 2174400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 45.1,
+      "sample": 2164800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 45.4,
+      "sample": 2179200,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 45.2,
+      "sample": 2169600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 45.4,
+      "sample": 2179200,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 45.5,
+      "sample": 2184000,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 45.5,
+      "sample": 2184000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 45.5,
+      "sample": 2184000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 45.7,
+      "sample": 2193600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 45.7,
+      "sample": 2193600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 45.6,
+      "sample": 2188800,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 45.8,
+      "sample": 2198400,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 45.9,
+      "sample": 2203200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 45.9,
+      "sample": 2203200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 46.1,
+      "sample": 2212800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 45.9,
+      "sample": 2203200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 46.199999999999996,
+      "sample": 2217600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 46.0,
+      "sample": 2208000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 46.199999999999996,
+      "sample": 2217600,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 46.3,
+      "sample": 2222400,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 46.3,
+      "sample": 2222400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 46.3,
+      "sample": 2222400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 46.5,
+      "sample": 2232000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 46.5,
+      "sample": 2232000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 46.4,
+      "sample": 2227200,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 46.599999999999994,
+      "sample": 2236800,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 46.7,
+      "sample": 2241600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 46.7,
+      "sample": 2241600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 46.900000000000006,
+      "sample": 2251200,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 46.7,
+      "sample": 2241600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 47.0,
+      "sample": 2256000,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 46.800000000000004,
+      "sample": 2246400,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 47.0,
+      "sample": 2256000,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 47.1,
+      "sample": 2260800,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 47.1,
+      "sample": 2260800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 47.1,
+      "sample": 2260800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 47.300000000000004,
+      "sample": 2270400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 47.300000000000004,
+      "sample": 2270400,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 47.2,
+      "sample": 2265600,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 47.4,
+      "sample": 2275200,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 47.5,
+      "sample": 2280000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 47.5,
+      "sample": 2280000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 47.68125,
+      "sample": 2288700,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 47.5,
+      "sample": 2280000,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 47.771875,
+      "sample": 2293050,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 47.590625,
+      "sample": 2284350,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 47.771875,
+      "sample": 2293050,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 47.8625,
+      "sample": 2297400,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 47.8625,
+      "sample": 2297400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 47.8625,
+      "sample": 2297400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 48.043749999999996,
+      "sample": 2306100,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 48.043749999999996,
+      "sample": 2306100,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 47.953125,
+      "sample": 2301750,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 48.134375,
+      "sample": 2310450,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 48.225,
+      "sample": 2314800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 48.225,
+      "sample": 2314800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 48.40625,
+      "sample": 2323500,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 48.225,
+      "sample": 2314800,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 48.496875,
+      "sample": 2327850,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 48.315625000000004,
+      "sample": 2319150,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 48.496875,
+      "sample": 2327850,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 48.5875,
+      "sample": 2332200,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 48.5875,
+      "sample": 2332200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 48.5875,
+      "sample": 2332200,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 48.76875,
+      "sample": 2340900,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 48.76875,
+      "sample": 2340900,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 48.678125,
+      "sample": 2336550,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 48.859375,
+      "sample": 2345250,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 48.95,
+      "sample": 2349600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 48.95,
+      "sample": 2349600,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 49.13125,
+      "sample": 2358300,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 48.95,
+      "sample": 2349600,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 49.221875000000004,
+      "sample": 2362650,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 49.040625000000006,
+      "sample": 2353950,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 49.221875000000004,
+      "sample": 2362650,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 49.3125,
+      "sample": 2367000,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 49.3125,
+      "sample": 2367000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 49.3125,
+      "sample": 2367000,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 49.49375,
+      "sample": 2375700,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 49.49375,
+      "sample": 2375700,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 49.403125,
+      "sample": 2371350,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 49.584375,
+      "sample": 2380050,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 49.675,
+      "sample": 2384400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 49.675,
+      "sample": 2384400,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 49.856249999999996,
+      "sample": 2393100,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 49.675,
+      "sample": 2384400,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 49.946875,
+      "sample": 2397450,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 49.765625,
+      "sample": 2388750,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 49.946875,
+      "sample": 2397450,
+      "event": null
+    },
+    {
+      "kind": "kick",
+      "at": 50.0375,
+      "sample": 2401800,
+      "event": null
+    },
+    {
+      "kind": "snare",
+      "at": 50.0375,
+      "sample": 2401800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 50.0375,
+      "sample": 2401800,
+      "event": null
+    },
+    {
+      "kind": "hat",
+      "at": 50.21875,
+      "sample": 2410500,
+      "event": null
+    },
+    {
+      "kind": "bass",
+      "at": 50.21875,
+      "sample": 2410500,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 50.128125000000004,
+      "sample": 2406150,
+      "event": null
+    },
+    {
+      "kind": "arp",
+      "at": 50.309375,
+      "sample": 2414850,
+      "event": null
+    },
+    {
+      "kind": "mechanical-tick",
+      "at": 0.2,
+      "sample": 9600,
+      "event": "entry-one"
+    },
+    {
+      "kind": "mechanical-tick",
+      "at": 0.36,
+      "sample": 17280,
+      "event": "entry-two"
+    },
+    {
+      "kind": "mechanical-tick",
+      "at": 0.52,
+      "sample": 24960,
+      "event": "entry-three"
+    },
+    {
+      "kind": "event-kick",
+      "at": 1.2,
+      "sample": 57600,
+      "event": "paper-enter"
+    },
+    {
+      "kind": "event-tone",
+      "at": 1.2,
+      "sample": 57600,
+      "event": "paper-enter"
+    },
+    {
+      "kind": "event-kick",
+      "at": 5.1,
+      "sample": 244800,
+      "event": "scan"
+    },
+    {
+      "kind": "event-tone",
+      "at": 5.1,
+      "sample": 244800,
+      "event": "scan"
+    },
+    {
+      "kind": "event-note",
+      "at": 12.1,
+      "sample": 580800,
+      "event": "expert-one"
+    },
+    {
+      "kind": "event-note",
+      "at": 12.5,
+      "sample": 600000,
+      "event": "expert-two"
+    },
+    {
+      "kind": "event-note",
+      "at": 12.9,
+      "sample": 619200,
+      "event": "expert-three"
+    },
+    {
+      "kind": "event-note",
+      "at": 14,
+      "sample": 672000,
+      "event": "opinion-one"
+    },
+    {
+      "kind": "event-note",
+      "at": 14.4,
+      "sample": 691200,
+      "event": "opinion-two"
+    },
+    {
+      "kind": "event-note",
+      "at": 14.8,
+      "sample": 710400,
+      "event": "opinion-three"
+    },
+    {
+      "kind": "rail-air",
+      "at": 16.3,
+      "sample": 782400,
+      "event": "archive-travel"
+    },
+    {
+      "kind": "event-kick",
+      "at": 21.4,
+      "sample": 1027200,
+      "event": "evidence-extract"
+    },
+    {
+      "kind": "event-tone",
+      "at": 21.4,
+      "sample": 1027200,
+      "event": "evidence-extract"
+    },
+    {
+      "kind": "mechanical-tick",
+      "at": 22.5,
+      "sample": 1080000,
+      "event": "gap-reveal"
+    },
+    {
+      "kind": "event-kick",
+      "at": 23.4,
+      "sample": 1123200,
+      "event": "evidence-result"
+    },
+    {
+      "kind": "event-tone",
+      "at": 23.4,
+      "sample": 1123200,
+      "event": "evidence-result"
+    },
+    {
+      "kind": "rail-air",
+      "at": 25.8,
+      "sample": 1238400,
+      "event": "output-travel"
+    },
+    {
+      "kind": "rail-air",
+      "at": 29.4,
+      "sample": 1411200,
+      "event": "slider-travel"
+    },
+    {
+      "kind": "event-kick",
+      "at": 31.2,
+      "sample": 1497600,
+      "event": "slider-lock"
+    },
+    {
+      "kind": "event-tone",
+      "at": 31.2,
+      "sample": 1497600,
+      "event": "slider-lock"
+    },
+    {
+      "kind": "event-air",
+      "at": 31.2,
+      "sample": 1497600,
+      "event": "slider-lock"
+    },
+    {
+      "kind": "event-note",
+      "at": 32.8,
+      "sample": 1574400,
+      "event": "output-one"
+    },
+    {
+      "kind": "event-note",
+      "at": 33,
+      "sample": 1584000,
+      "event": "output-two"
+    },
+    {
+      "kind": "event-note",
+      "at": 33.2,
+      "sample": 1593600,
+      "event": "output-three"
+    },
+    {
+      "kind": "event-kick",
+      "at": 37.9,
+      "sample": 1819200,
+      "event": "confirm-lock"
+    },
+    {
+      "kind": "event-tone",
+      "at": 37.9,
+      "sample": 1819200,
+      "event": "confirm-lock"
+    },
+    {
+      "kind": "event-air",
+      "at": 37.9,
+      "sample": 1819200,
+      "event": "confirm-lock"
+    },
+    {
+      "kind": "mechanical-tick",
+      "at": 38.3,
+      "sample": 1838400,
+      "event": "task-create"
+    },
+    {
+      "kind": "rail-air",
+      "at": 40.3,
+      "sample": 1934400,
+      "event": "feedback-travel"
+    },
+    {
+      "kind": "event-kick",
+      "at": 44,
+      "sample": 2112000,
+      "event": "machine-reveal"
+    },
+    {
+      "kind": "event-tone",
+      "at": 44,
+      "sample": 2112000,
+      "event": "machine-reveal"
+    },
+    {
+      "kind": "event-kick",
+      "at": 46.8,
+      "sample": 2246400,
+      "event": "brand-complete"
+    },
+    {
+      "kind": "event-tone",
+      "at": 46.8,
+      "sample": 2246400,
+      "event": "brand-complete"
+    },
+    {
+      "kind": "event-kick",
+      "at": 47.5,
+      "sample": 2280000,
+      "event": "pullback-complete"
+    },
+    {
+      "kind": "event-tone",
+      "at": 47.5,
+      "sample": 2280000,
+      "event": "pullback-complete"
+    },
+    {
+      "kind": "event-air",
+      "at": 47.5,
+      "sample": 2280000,
+      "event": "pullback-complete"
+    },
+    {
+      "kind": "final-chord",
+      "at": 50.4,
+      "sample": 2419200,
+      "event": "ending-hold"
+    },
+    {
+      "kind": "final-note",
+      "at": 50.4,
+      "sample": 2419200,
+      "event": "ending-hold"
+    },
+    {
+      "kind": "pickup",
+      "at": 11.5,
+      "sample": 552000,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 11.7,
+      "sample": 561600,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 11.9,
+      "sample": 571200,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 20.799999999999997,
+      "sample": 998400,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 21.0,
+      "sample": 1008000,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 21.2,
+      "sample": 1017600,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 30.599999999999998,
+      "sample": 1468800,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 30.8,
+      "sample": 1478400,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 31.0,
+      "sample": 1488000,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 37.3,
+      "sample": 1790400,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 37.5,
+      "sample": 1800000,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 37.699999999999996,
+      "sample": 1809600,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 46.9,
+      "sample": 2251200,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 47.1,
+      "sample": 2260800,
+      "event": null
+    },
+    {
+      "kind": "pickup",
+      "at": 47.3,
+      "sample": 2270400,
+      "event": null
+    }
+  ],
+  "listening_verified": false,
+  "mix_sha256": "cebeec7f086e3f0e1be2932f738c6b7f36835a3832437728da3a69ec95cd6dd8"
+}

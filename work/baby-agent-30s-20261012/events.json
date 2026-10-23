@@ -1,0 +1,111 @@
+{
+  "bpm": 256,
+  "duration": 30,
+  "stop_time": [
+    15.7,
+    16.4
+  ],
+  "scenes": [
+    0.0,
+    3.75,
+    7.5,
+    13.125,
+    16.875,
+    21.5625,
+    26.25,
+    30.0
+  ],
+  "foley": [
+    {
+      "t": 0.075,
+      "kind": "paper",
+      "gain": 0.7
+    },
+    {
+      "t": 1.5,
+      "kind": "slap",
+      "gain": 0.6
+    },
+    {
+      "t": 4.1,
+      "kind": "paper",
+      "gain": 0.7
+    },
+    {
+      "t": 5.4,
+      "kind": "tap",
+      "gain": 0.8
+    },
+    {
+      "t": 5.55,
+      "kind": "quack",
+      "gain": 0.7
+    },
+    {
+      "t": 7.5,
+      "kind": "paper",
+      "gain": 0.7
+    },
+    {
+      "t": 13.125,
+      "kind": "slap",
+      "gain": 0.6
+    },
+    {
+      "t": 16.4,
+      "kind": "quack",
+      "gain": 0.65
+    },
+    {
+      "t": 16.875,
+      "kind": "paper",
+      "gain": 0.7
+    },
+    {
+      "t": 18.275,
+      "kind": "tap",
+      "gain": 0.7
+    },
+    {
+      "t": 19.175,
+      "kind": "tap",
+      "gain": 0.7
+    },
+    {
+      "t": 20.075,
+      "kind": "tap",
+      "gain": 0.7
+    },
+    {
+      "t": 20.625,
+      "kind": "quack",
+      "gain": 0.6
+    },
+    {
+      "t": 22.7625,
+      "kind": "tap",
+      "gain": 0.6
+    },
+    {
+      "t": 24.55,
+      "kind": "paper",
+      "gain": 0.6
+    },
+    {
+      "t": 26.25,
+      "kind": "paper",
+      "gain": 0.6
+    },
+    {
+      "t": 27.45,
+      "kind": "slap",
+      "gain": 0.7
+    },
+    {
+      "t": 28.2,
+      "kind": "quack",
+      "gain": 0.4
+    }
+  ],
+  "audio_processing": "Original 60-second mix; FFmpeg atempo=2, pitch preserved."
+}

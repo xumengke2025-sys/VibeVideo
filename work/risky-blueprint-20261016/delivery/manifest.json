@@ -1,0 +1,498 @@
+{
+  "v3/film.js": {
+    "bytes": 21361,
+    "sha256": "6a3760215d9dd0e6c2da05315fbbf231dbf02a4af1c908ebce6b9c4a1c738269"
+  },
+  "v3/index.html": {
+    "bytes": 564,
+    "sha256": "10ed403311ec6327f20c7d3007071f4aa2fd7d623fed1f492c3f08deb537f2be"
+  },
+  "v3/make_audio.py": {
+    "bytes": 10194,
+    "sha256": "db7b73809d8b3cf5440a6726813620d2a0d84e2cca8e8fe0a40d15b8c398320b"
+  },
+  "v3/plan.json": {
+    "bytes": 9430,
+    "sha256": "888c4f9d930f68c9ddd559324cd9f5d8303b5c5cacaf2cfb1eda9cff24695e51"
+  },
+  "v3/primitives.js.txt": {
+    "bytes": 4518,
+    "sha256": "1f4da20e654af20c675e5fc5e6fe27b961e2868492c9780e9e40002758ef7ea6"
+  },
+  "v3/render.mjs": {
+    "bytes": 5669,
+    "sha256": "93e103ac1a500164e5bc88eeddbb417008d579ab8cc1728c75413a213fd8dccc"
+  },
+  "v3/scene-body.js": {
+    "bytes": 16842,
+    "sha256": "8dedc2c612da292fcdfb86c0e939ab8c4f4edcea71b7cc85ddee9b2456c9d731"
+  },
+  "v3/audio/foley.wav": {
+    "bytes": 15360044,
+    "sha256": "5bab5334b2de7b62b42f9a27fe2f3e4793da711c4d89d89095e14fc06accdff8"
+  },
+  "v3/audio/mix.wav": {
+    "bytes": 15360078,
+    "sha256": "63367eec5716cbc18f211e0a42821be09159a315b443560c88c302e349e84027"
+  },
+  "v3/audio/music.wav": {
+    "bytes": 15360044,
+    "sha256": "be8c51d80525ee06b475ba004d21534ccc31112dfd2b486c7be27e3af299c885"
+  },
+  "v3/audio/premix.wav": {
+    "bytes": 15360044,
+    "sha256": "be387bed252dc94e8a36ca51e45f16b3592999bfbcb6290d1dccf1f34f2907a2"
+  },
+  "v3/audio/timing.json": {
+    "bytes": 122556,
+    "sha256": "4fe6e94a4818902b5edf4ed25fb0a3933beec3c5f2329c78ac1ff01f7c6fcac2"
+  },
+  "v3/vendor/draw.js": {
+    "bytes": 14763,
+    "sha256": "b7ab31527c8709d7fae763754fcd467b827ad252948c3dbc6aea9b78aa19ad1c"
+  },
+  "v3/vendor/LICENSE-Lemo": {
+    "bytes": 1064,
+    "sha256": "14c9ff6f14bfb2391e74fedb01c256891d2a3bba1c2acf5789901bdf77e54e33"
+  },
+  "v3/vendor/paper.js": {
+    "bytes": 9235,
+    "sha256": "e1ceae18b42ba5fdaf2752f1676d1872b817b5fad8ecb5394b5c1813c21c8550"
+  },
+  "evidence/SOURCES.md": {
+    "bytes": 1548,
+    "sha256": "0e6cb8c8ed4b68d1e65121a6a7fed2c043ef76f4cadee0a8c33e2537d5b1b9bf"
+  },
+  "build-v3.mjs": {
+    "bytes": 2926,
+    "sha256": "dc45c94855cd3ce2b5166d3f0cc7a8cd7fbf4761fd14984eae5e11644cf6e588"
+  },
+  "README.md": {
+    "bytes": 3031,
+    "sha256": "913581cd99fa7575856fda04a024e75a090fb7457f5786d295e80b8383c10fb0"
+  },
+  "CHECKPOINT.md": {
+    "bytes": 4511,
+    "sha256": "2f1f13a76ee8683a736d6cc073e1adb64e41a9ba5a3bc990c63f1bf19db617d8"
+  },
+  "package_delivery.py": {
+    "bytes": 1666,
+    "sha256": "d4cf60cab2aceb4e3062e6a76427af93481772e62abeab9dba1bf11538d60cf7"
+  },
+  "out/video-v3-final/config.json": {
+    "bytes": 182,
+    "sha256": "350a37e77720a04e84646850e05d3147516a4b83f5d6fbb2c5a926d60f1a695a"
+  },
+  "out/video-v3-final/evidence.json": {
+    "bytes": 450,
+    "sha256": "a103f4ffb896fc5438c796faa525541407246ca9e42f1dd3939ffc846b951951"
+  },
+  "out/video-v3-final/ffprobe.json": {
+    "bytes": 3713,
+    "sha256": "a57a63be4d4a04ec34726307f14bc9273b15cabeb08b14e75b0934c79bb461d0"
+  },
+  "out/video-v3-final/progress.json": {
+    "bytes": 49,
+    "sha256": "757954c70fbfabcad90e534a64638575be30ba7f239de769469f563bd3c74b76"
+  },
+  "out/video-v3-final/video.mp4": {
+    "bytes": 80621258,
+    "sha256": "252bbff309228dba54b930cba776dc9a99da3fa2e9b1090d2a54ca3c117da88b"
+  },
+  "out/stills-v3-delivery-concept/60.png": {
+    "bytes": 3771156,
+    "sha256": "05712bff9339fc10d99c9825cbffb775e503e9bc2b031cf6b4bb394d3a737701"
+  },
+  "out/stills-v3-delivery-concept/checks.json": {
+    "bytes": 809,
+    "sha256": "6f39f5de1cea7dde8550bc9ee64e22d2fe6db8455f21600be9d01b2d57e5e033"
+  },
+  "qa/v3-final/av-consistency.json": {
+    "bytes": 386,
+    "sha256": "edea9ac90df553480876279702c1fa23db53e3e85dea64b5fa54cb9e25f38eb6"
+  },
+  "qa/v3-final/av-review.json": {
+    "bytes": 4890,
+    "sha256": "0fecaaf7d6d204c8e57cbcbe5ddb2fb77525c89da1948ff836cb8857dc2114e3"
+  },
+  "qa/v3-final/render-scope.json": {
+    "bytes": 204,
+    "sha256": "af40e937c179002a8411c09d1be30561c6e48d952a6305649b74b450076ab042"
+  },
+  "qa/v3-final/review.md": {
+    "bytes": 1487,
+    "sha256": "f819db5be64cb736b4ea77493837ce6bbe9d07bdc80106f33ba5d7274f57bd9f"
+  },
+  "qa/v3-full/av-consistency.json": {
+    "bytes": 310,
+    "sha256": "988fd873db452b004c0e72985c2f9fc6e37c33f7cd069bc5e1c3cebdcdce9696"
+  },
+  "qa/v3-full/av-review.json": {
+    "bytes": 29320,
+    "sha256": "7d3863f5e007820dac10388e3434b0cbb22239641e32e6fefaa0843f973e6a5f"
+  },
+  "qa/v3-full/blind-read.md": {
+    "bytes": 1271,
+    "sha256": "8af3f1d0ce5e6857db1d31ddaf1658e6515010fc4af5b7ca19e7a0c7c61b7375"
+  },
+  "qa/v3-full/review.md": {
+    "bytes": 2056,
+    "sha256": "cdf650e45f11847bcc2974f223d08c07d8c108c6507b406caeadbfdf7b74086e"
+  },
+  "qa/v3-final/frames-evidence/atlas-000.jpg": {
+    "bytes": 642704,
+    "sha256": "617b86a770e9934f6a1d73a20def9cdd920baefe30484d14725a1597f991a1c7"
+  },
+  "qa/v3-final/frames-evidence/atlas-001.jpg": {
+    "bytes": 637328,
+    "sha256": "d0bd944ba47990f33a7f0d4afb9d2fa39e39cb600a28fc9144ab781ef14a889d"
+  },
+  "qa/v3-final/frames-evidence/atlas-002.jpg": {
+    "bytes": 581853,
+    "sha256": "59eaeb64a3ab61b7d4d24d293193ff6a7fc4e75bdfbc079bfdab61a85b063bb9"
+  },
+  "qa/v3-final/frames-evidence/atlas-003.jpg": {
+    "bytes": 565330,
+    "sha256": "f58a31857962cfb0bc89801a463f5e89d06d6568d9b032659139fa4b63fe60ca"
+  },
+  "qa/v3-final/frames-evidence/atlas-004.jpg": {
+    "bytes": 541109,
+    "sha256": "ff1054abe6504030d61714db6af5d1095e277d4243c1f78b127084bc7b2b420f"
+  },
+  "qa/v3-final/frames-evidence/atlas-005.jpg": {
+    "bytes": 523886,
+    "sha256": "5784e7a855b8060fc9e7f5beeadc5131bb68c982510fa2f427de06bc5f2ddefc"
+  },
+  "qa/v3-final/frames-evidence/atlas-006.jpg": {
+    "bytes": 523279,
+    "sha256": "05068a7f3c8fcd3a98f4e7bb5062cea5842c249fe8a9e93fce737cc593566058"
+  },
+  "qa/v3-full/frames-evidence/atlas-000.jpg": {
+    "bytes": 513633,
+    "sha256": "0e22c8f0a37ef5ecdd87d5a859c05d063ed98b3a8ac4ad59cfc286042f57b118"
+  },
+  "qa/v3-full/frames-evidence/atlas-001.jpg": {
+    "bytes": 515106,
+    "sha256": "9027a7a00f2d80ccd2d87d9cd5c7cd62a0f7641148a70730f681c3ca79650f97"
+  },
+  "qa/v3-full/frames-evidence/atlas-002.jpg": {
+    "bytes": 516475,
+    "sha256": "dcf95d5775ae0aea4f5f51494b918449fedcf249ad2a72ef4f6f509037bf86c5"
+  },
+  "qa/v3-full/frames-evidence/atlas-003.jpg": {
+    "bytes": 516021,
+    "sha256": "b5869c5f727998a014a41199750d620873e8a3658113a529e3d3b5f9b09dc16c"
+  },
+  "qa/v3-full/frames-evidence/atlas-004.jpg": {
+    "bytes": 515775,
+    "sha256": "d9b4f317d26c3acc6267e5887a9beb9e272a42304e5865fa45340b017eae94b9"
+  },
+  "qa/v3-full/frames-evidence/atlas-005.jpg": {
+    "bytes": 500665,
+    "sha256": "84923ecf851e90a67babb36a5603f9d00272643803ae92f040ea69cdb5c25eea"
+  },
+  "qa/v3-full/frames-evidence/atlas-006.jpg": {
+    "bytes": 518317,
+    "sha256": "5134c2222d4ae697f79f244b7763f358cbb47d61d42cc66c2983107e8d823fa8"
+  },
+  "qa/v3-full/frames-evidence/atlas-007.jpg": {
+    "bytes": 527970,
+    "sha256": "e048afa6ab3c6c53114eb579ee074963cb899481114fd3f3a49ac92c5881fab0"
+  },
+  "qa/v3-full/frames-evidence/atlas-008.jpg": {
+    "bytes": 525292,
+    "sha256": "530ca0b3cbff0ca4fa8f6302f002f12139920ada174a0b53cffab5f36acf6be0"
+  },
+  "qa/v3-full/frames-evidence/atlas-009.jpg": {
+    "bytes": 532841,
+    "sha256": "272a8b1561b485d885207fbcb2777017c86b4e504c95f448d0c1b2b70bee8dcd"
+  },
+  "qa/v3-full/frames-evidence/atlas-010.jpg": {
+    "bytes": 536783,
+    "sha256": "f52e2d3b57a773e50d5f65040c2f0d807460fac89bf64d9bb081f79b03125f18"
+  },
+  "qa/v3-full/frames-evidence/atlas-011.jpg": {
+    "bytes": 536645,
+    "sha256": "2c455c33ae2fc954709886f6922abf6c6f64f6beca1dea0cd8a75b18415187f1"
+  },
+  "qa/v3-full/frames-evidence/atlas-012.jpg": {
+    "bytes": 537012,
+    "sha256": "72ed46153892b4ae60245d82f93ab674d604578a1cf5a40aee85b0d025eaf13a"
+  },
+  "qa/v3-full/frames-evidence/atlas-013.jpg": {
+    "bytes": 528935,
+    "sha256": "8116665c16a7744f116dcc39f52e9a96e837006d01c9ac0dcb573686a3fa7a6a"
+  },
+  "qa/v3-full/frames-evidence/atlas-014.jpg": {
+    "bytes": 478134,
+    "sha256": "d8f9308399c80d2a4c606ae79b11a2e1f7aebf34cfaf79ead1798825d8f428b9"
+  },
+  "qa/v3-full/frames-evidence/atlas-015.jpg": {
+    "bytes": 418581,
+    "sha256": "4ce173df384c4ae53d0eeec65c1beaadef75a4bff14de165b70c737f56ab9d72"
+  },
+  "qa/v3-full/frames-evidence/atlas-016.jpg": {
+    "bytes": 405854,
+    "sha256": "04b3a23656935771a8660bcaf529968f1825b91037550a19176c900ada64baa9"
+  },
+  "qa/v3-full/frames-evidence/atlas-017.jpg": {
+    "bytes": 404397,
+    "sha256": "02b4a58649f88747f40518b9fbdf191d75b8ac87d8f9e1cd7bc20ef6997142d1"
+  },
+  "qa/v3-full/frames-evidence/atlas-018.jpg": {
+    "bytes": 418688,
+    "sha256": "89273e846ed94e679d0478fc4ea97e09a675fdee166847d669d657e74f0aaf41"
+  },
+  "qa/v3-full/frames-evidence/atlas-019.jpg": {
+    "bytes": 458259,
+    "sha256": "269b67edb37383416b583ebc1e0ca8f01fffa26f1ba160d417c73b6b262b02e4"
+  },
+  "qa/v3-full/frames-evidence/atlas-020.jpg": {
+    "bytes": 470104,
+    "sha256": "84f9d0358068900bed02c339d7fd2b542349a378721b97a095f0869224dce521"
+  },
+  "qa/v3-full/frames-evidence/atlas-021.jpg": {
+    "bytes": 473949,
+    "sha256": "d36b0ad9fa49e825122d6f6d6cd61eb4933343afb78f72817ed2513d3e550952"
+  },
+  "qa/v3-full/frames-evidence/atlas-022.jpg": {
+    "bytes": 473998,
+    "sha256": "488258d0caa4df3cf9e85a0fe75641a30bfb32360b6009d41eee399b8ff3d91f"
+  },
+  "qa/v3-full/frames-evidence/atlas-023.jpg": {
+    "bytes": 474799,
+    "sha256": "c94b43a7b915393915db3694ae285b6ef85cd570b67e4a8f8393242aa040b7e0"
+  },
+  "qa/v3-full/frames-evidence/atlas-024.jpg": {
+    "bytes": 470615,
+    "sha256": "32fe9420d9f49373813a975b978bd7a68c1fd99fb0bdfd34da373344e6b0e213"
+  },
+  "qa/v3-full/frames-evidence/atlas-025.jpg": {
+    "bytes": 496226,
+    "sha256": "54d6675f88d593746f6bcb1da41a7b8f873d6b583387adf8edcc9adc4604e11a"
+  },
+  "qa/v3-full/frames-evidence/atlas-026.jpg": {
+    "bytes": 565197,
+    "sha256": "ea0768417224c539002525b5d2b7925f487b38a2086b6487b72697e183961a9b"
+  },
+  "qa/v3-full/frames-evidence/atlas-027.jpg": {
+    "bytes": 618300,
+    "sha256": "22493fac079e98c822e38282f12dbc57f0571c71e19c9bcf7f07914233f17045"
+  },
+  "qa/v3-full/frames-evidence/atlas-028.jpg": {
+    "bytes": 605474,
+    "sha256": "d811397d4c57557b6026eca0153c6156b88746e86f8956b8ebea06b7161089c2"
+  },
+  "qa/v3-full/frames-evidence/atlas-029.jpg": {
+    "bytes": 606830,
+    "sha256": "ac2c45a33ebfc9c496f33ea06fc90f8e2c5285ef29c9cd41925b463a233d073b"
+  },
+  "qa/v3-full/frames-evidence/atlas-030.jpg": {
+    "bytes": 607495,
+    "sha256": "821f6e03d81d7b68dfd54fe028717b80abc19270a926779764b6d90b092da8d0"
+  },
+  "qa/v3-full/frames-evidence/atlas-031.jpg": {
+    "bytes": 608738,
+    "sha256": "34d4dfd5fa99d41118d7bb6d800b1d1f865e3b0c0146f1a175fc57ed8c97decc"
+  },
+  "qa/v3-full/frames-evidence/atlas-032.jpg": {
+    "bytes": 619609,
+    "sha256": "56949bf913d8c4681dfeda8175a855aebc30a436d562548826e0095ccd822a28"
+  },
+  "qa/v3-full/frames-evidence/atlas-033.jpg": {
+    "bytes": 585310,
+    "sha256": "dd486e85d31c5f9803e06b9e97288b49a765095a1ca7d6a77a2a621a5f287c32"
+  },
+  "qa/v3-full/frames-evidence/atlas-034.jpg": {
+    "bytes": 558615,
+    "sha256": "8ac6c4678bd43b636d385bb774d71b2795dc362396bf9fc6ff1da86708a2e107"
+  },
+  "qa/v3-full/frames-evidence/atlas-035.jpg": {
+    "bytes": 554317,
+    "sha256": "356bdd9fbe33584159dba6f128955e607f1d5065469727064f68e839e1eafa0e"
+  },
+  "qa/v3-full/frames-evidence/atlas-036.jpg": {
+    "bytes": 554874,
+    "sha256": "13258c6d05add0ca61de10adaae75f783e5d539fb9d1a8ae726ec8ab3e1bddde"
+  },
+  "qa/v3-full/frames-evidence/atlas-037.jpg": {
+    "bytes": 670615,
+    "sha256": "697f16bfa38e7a29d0d67db493b295d554334893be6be04b50aedadb901ea413"
+  },
+  "qa/v3-full/frames-evidence/atlas-038.jpg": {
+    "bytes": 677458,
+    "sha256": "e3612abc09e239d9bfd1e7d7324928a8b535f29cadcf72906e74d219e295cab9"
+  },
+  "qa/v3-full/frames-evidence/atlas-039.jpg": {
+    "bytes": 609803,
+    "sha256": "1efd98f45bfdc99579cd9fd0930123935af4cf7f5d64efc0aa90467d00ddab93"
+  },
+  "qa/v3-full/frames-evidence/atlas-040.jpg": {
+    "bytes": 483050,
+    "sha256": "30b3be36560dab9bbf58efe98f61b35c029a728c117e56345cd6ece0218028cf"
+  },
+  "qa/v3-full/frames-evidence/atlas-041.jpg": {
+    "bytes": 539605,
+    "sha256": "facd2a2190bd972882a7c2a84400fbe9f4633f180ac0114475d2b63bd58f11b2"
+  },
+  "qa/v3-full/frames-evidence/atlas-042.jpg": {
+    "bytes": 574703,
+    "sha256": "dfd3c4703118b3c20f1964717674f2bb734a2fea30f715483f99d32e1e388b14"
+  },
+  "qa/v3-full/frames-evidence/atlas-043.jpg": {
+    "bytes": 575440,
+    "sha256": "743b6a12d0fc17d68cea78bdf5c5d53b9e8cc8ce7fa69cad4659f314b0cd45c0"
+  },
+  "qa/v3-full/frames-evidence/atlas-044.jpg": {
+    "bytes": 573306,
+    "sha256": "dcaf96080652258bf3bce74064e699cbb4c5829c0ba6de7be93f2224b15ef10b"
+  },
+  "qa/v3-full/frames-evidence/atlas-045.jpg": {
+    "bytes": 569551,
+    "sha256": "5a2ba4eec0b6b36d8c16de192475e25355a12129121a4580f50582a88f32c04c"
+  },
+  "qa/v3-full/frames-evidence/atlas-046.jpg": {
+    "bytes": 527512,
+    "sha256": "f713428a5a18f6194426ceb3949d3fe3bf8882c39d84d39d9a959836d3560dcd"
+  },
+  "qa/v3-full/frames-evidence/atlas-047.jpg": {
+    "bytes": 522875,
+    "sha256": "e769ab181fcf87f8f6f56fcf7f03560692ec115d62ae54d0847b3c4dcbe26cf6"
+  },
+  "qa/v3-full/frames-evidence/atlas-048.jpg": {
+    "bytes": 539827,
+    "sha256": "de4f1a6d220fbe7ae9cb851a3949e5af67c59b9a3761903d3d9212c38b2b8581"
+  },
+  "qa/v3-full/frames-evidence/atlas-049.jpg": {
+    "bytes": 605262,
+    "sha256": "066195f78162f9eafc290df22a324eb58084dbd78859789ac56f8b63de65103a"
+  },
+  "qa/v3-full/frames-evidence/atlas-050.jpg": {
+    "bytes": 599368,
+    "sha256": "dfcb408c5e7e4d4c97a86a4be386c9cb38eb947b921440809bf13832eee1ec00"
+  },
+  "qa/v3-full/frames-evidence/atlas-051.jpg": {
+    "bytes": 601890,
+    "sha256": "c60f0e922466c428705ea749d32c65f97a012b611d908272bdad4182193318db"
+  },
+  "qa/v3-full/frames-evidence/atlas-052.jpg": {
+    "bytes": 606023,
+    "sha256": "ea81519a95d97a146cb2eee6af43125d024ff574c3fde6dd0f1405918b3c3145"
+  },
+  "qa/v3-full/frames-evidence/atlas-053.jpg": {
+    "bytes": 606117,
+    "sha256": "74d5a79fa22e4afab548d8436da56f371c78f9031b66f5d0881f4623fe3b447d"
+  },
+  "qa/v3-full/frames-evidence/atlas-054.jpg": {
+    "bytes": 610518,
+    "sha256": "3376538b3003b64c68c482464eebc32047aed867b0b688cdd2e3b461855167d5"
+  },
+  "qa/v3-full/frames-evidence/atlas-055.jpg": {
+    "bytes": 627223,
+    "sha256": "f08a09e20afc0a4f3f375b4ac9bf6af5a67c5ef6af4b4051613af5935909f83e"
+  },
+  "qa/v3-full/frames-evidence/atlas-056.jpg": {
+    "bytes": 639046,
+    "sha256": "3c9f7d6de735555ec233344b3b491bc52590e3a4baa3d96f419445d660dcad73"
+  },
+  "qa/v3-full/frames-evidence/atlas-057.jpg": {
+    "bytes": 643020,
+    "sha256": "920c77aeb061d35c95ef5cbf9d5bc6cf156fbac1ecfa0272cdcd3bc45f2312da"
+  },
+  "qa/v3-full/frames-evidence/atlas-058.jpg": {
+    "bytes": 639988,
+    "sha256": "7d83520bcff082ed2936fdb4f93f7d3e0d4a830640a3e9392a410355658dcc8d"
+  },
+  "qa/v3-full/frames-evidence/atlas-059.jpg": {
+    "bytes": 639925,
+    "sha256": "5b867a733d2175fe41ae6ddd26ab9a088bd88bf1229a2924d58ee7122258f2df"
+  },
+  "qa/v3-full/frames-evidence/atlas-060.jpg": {
+    "bytes": 643523,
+    "sha256": "4069992bbaf496f2eb76df0c3eec814a8972503ab0c7aaef7180a7877ca6694e"
+  },
+  "qa/v3-full/frames-evidence/atlas-061.jpg": {
+    "bytes": 642736,
+    "sha256": "b348e9c4656b42a42659a51177cd9d43cf1db10ccba3e0ce98c0d1d05c6a780f"
+  },
+  "qa/v3-full/frames-evidence/atlas-062.jpg": {
+    "bytes": 647133,
+    "sha256": "ff2172e92febc3a6678270c54de887697dc13299a4f4a33795cc6557858180bb"
+  },
+  "qa/v3-full/frames-evidence/atlas-063.jpg": {
+    "bytes": 607626,
+    "sha256": "c8f70030840775a55f7a99290244a298fe279df7a82669c3e242de12852b0a9e"
+  },
+  "qa/v3-full/frames-evidence/atlas-064.jpg": {
+    "bytes": 590093,
+    "sha256": "fc25c35e9e1f76c5b53467756d6a78cc0c22c37a8a5fe98f06c9ad218f087ab3"
+  },
+  "qa/v3-full/frames-evidence/atlas-065.jpg": {
+    "bytes": 550709,
+    "sha256": "a79c67a6d4860797eeb08ce9ec9e5fb72db16734c8f783299018e646123dbc68"
+  },
+  "qa/v3-full/frames-evidence/atlas-066.jpg": {
+    "bytes": 523553,
+    "sha256": "9c5859ef9ec6c6eaec8ab7f5afa391aa003afb53fedd31c7d02625784ba3e26a"
+  },
+  "qa/v3-full/frames-evidence/atlas-067.jpg": {
+    "bytes": 523136,
+    "sha256": "1e898a6295c0e465cdbf757679f0cab8f81c72d47ee4e4820ad803df901ddc5f"
+  },
+  "qa/v3-full/frames-evidence/atlas-068.jpg": {
+    "bytes": 552269,
+    "sha256": "72afa639a2aa14bd5de876388eed1173b497eea115f89c251b421461cb1624fc"
+  },
+  "qa/v3-full/frames-evidence/atlas-069.jpg": {
+    "bytes": 564136,
+    "sha256": "1af74a3023ee9227d4aadd4f3249cbb278f6029a9ba80842d5f7278d859d5512"
+  },
+  "qa/v3-full/frames-evidence/atlas-070.jpg": {
+    "bytes": 475981,
+    "sha256": "66e12123bbe6ba116647e62a27727fcf9f67769eb6addf5f322d070b498bcab3"
+  },
+  "qa/v3-full/frames-evidence/atlas-071.jpg": {
+    "bytes": 556613,
+    "sha256": "8c2f8718f97bc24c6e02dfea2193f52a7ed668637d85a228e81c3a85001f0a45"
+  },
+  "qa/v3-full/frames-evidence/atlas-072.jpg": {
+    "bytes": 613744,
+    "sha256": "a5a48554af996ec593319476e869568eb127c51525bba7e848cd4171c6c586fa"
+  },
+  "qa/v3-full/frames-evidence/atlas-073.jpg": {
+    "bytes": 607789,
+    "sha256": "5430c90ed919ac217fd56f3f56eb050b727323f832267851450a0c45b51fed96"
+  },
+  "qa/v3-full/frames-evidence/atlas-074.jpg": {
+    "bytes": 597806,
+    "sha256": "487ec1653325ecf7276eb0989ddcda5217b270f5db02c903ed4fc0cea861a894"
+  },
+  "qa/v3-full/frames-evidence/atlas-075.jpg": {
+    "bytes": 592646,
+    "sha256": "d90d1fb63932a6e1af45e42b49ca400eafcacdfdc17ddaa0bb142ec95e385c96"
+  },
+  "qa/v3-full/frames-evidence/atlas-076.jpg": {
+    "bytes": 611186,
+    "sha256": "205bf05c536c8d8c61f2bafe665eb000b461dd7acb24795c143594339f4a608b"
+  },
+  "qa/v3-full/frames-evidence/atlas-077.jpg": {
+    "bytes": 628922,
+    "sha256": "e4277c81abb38134eeb9285b668e67e513bac0971f4bc1e74f5e5e3b1bb23c7d"
+  },
+  "qa/v3-full/frames-evidence/atlas-078.jpg": {
+    "bytes": 631225,
+    "sha256": "e8436bb6a218931dd26663defce84f28bc8da18e95ffaf74231398e8b3b710b5"
+  },
+  "qa/v3-full/frames-evidence/atlas-079.jpg": {
+    "bytes": 627822,
+    "sha256": "1f825427fd25a8725a844ddca01ac0aafea9b184f5cd8122cb3bba89475d71ba"
+  },
+  "qa/v3-final/frames-evidence/frame-audit.json": {
+    "bytes": 45606,
+    "sha256": "f92ae488a834b92ee33863309f1e8a3eb52dcdae021e94f8e7d12961b28e7662"
+  },
+  "qa/v3-full/frames-evidence/frame-audit.json": {
+    "bytes": 529171,
+    "sha256": "8115379ee395e03e046337b04f21852fdadb4f90eeaecf2eeea53affe15e70f9"
+  }
+}

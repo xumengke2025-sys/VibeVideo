@@ -1,0 +1,175 @@
+{
+  "version": "reference-v5",
+  "files": [
+    {
+      "file": "assets/bucket.png",
+      "bytes": 1565225,
+      "sha256": "4b68f5a3c82cb5d66e3b6b9bb29ebca91e3fd825770ba0a02314cbacd89ee5d4"
+    },
+    {
+      "file": "assets/chick.png",
+      "bytes": 1660258,
+      "sha256": "d9bc0a7819cdfd5db6942a2c3cc405e94c04d8b62a57e4d3e129c3b7863dbdc4"
+    },
+    {
+      "file": "assets/fish.png",
+      "bytes": 1842486,
+      "sha256": "f5cb769f76e5c1151a95dc7798281cb1539a11f4fd56f000ed7a74b710b10511"
+    },
+    {
+      "file": "assets/heron_contact-v2.png",
+      "bytes": 1353461,
+      "sha256": "8a75f45cce7cee4b0abc6f6111d9813b682455ad38324110e54e19cc830a3df5"
+    },
+    {
+      "file": "assets/heron_disguise.png",
+      "bytes": 1710704,
+      "sha256": "80a22fccf1a1dbbf6bb7051f741e7d49cfa9c52dbac1a106d9fb0d1a66efe54a"
+    },
+    {
+      "file": "assets/heron_idle.png",
+      "bytes": 1161607,
+      "sha256": "aa3be34d92fd1639fb9a71669cfefd2e9bbc61e8caa54818ad02608744842504"
+    },
+    {
+      "file": "assets/heron_neck-v2.png",
+      "bytes": 770739,
+      "sha256": "29fc2eb3fd7536f80c36a801ffd0d11d1509b75df6b680d3f31cc3aecfff6366"
+    },
+    {
+      "file": "assets/heron_walk.png",
+      "bytes": 2414518,
+      "sha256": "e44b2d12745af6e53d7158640a9357cb44f8dc5d9c882777baebf90b59ab2208"
+    },
+    {
+      "file": "assets/nest.png",
+      "bytes": 1825093,
+      "sha256": "8e30a1a63ca97d9246e8f3fa333f5699b27e0456c75b7aae7ed14cbd3918b8ec"
+    },
+    {
+      "file": "assets/penguin_react.png",
+      "bytes": 1365460,
+      "sha256": "5fb12dd6a8c714f395d49b65892b41d44806a923e44a3d72dd58cc0caedfca6d"
+    },
+    {
+      "file": "film/art.js",
+      "bytes": 4968,
+      "sha256": "a7f74e9d16d2e47490d4437c57be25dd7a357abac4c062145abb6e1dd6d127f8"
+    },
+    {
+      "file": "film/audio.mjs",
+      "bytes": 3071,
+      "sha256": "94056332cdde099f3654debb96cb07565a6dbf3b0b48dce7833805c43e3e28aa"
+    },
+    {
+      "file": "film/audio.wav",
+      "bytes": 9600044,
+      "sha256": "2f1182cc05ed5fa25664b24281823b7b90ee8fdc1658658a47914b51aaea64a2"
+    },
+    {
+      "file": "film/film.js",
+      "bytes": 16006,
+      "sha256": "0c8fa284c3a95641b8a19cab4f95eac8bf82ae6fa0a83bf3f5fc26db0949e00b"
+    },
+    {
+      "file": "film/frame-rig-1200.json",
+      "bytes": 1625427,
+      "sha256": "bc1aacb7527c215f8e2b2282bfaafa418a4145ef113af1eba725922662adb5fb"
+    },
+    {
+      "file": "film/index.html",
+      "bytes": 739,
+      "sha256": "a4f4665da2f5f0e81f271bb4c6b5a51ceb27b4bb9ba5e61e9678abd6e718c305"
+    },
+    {
+      "file": "film/production-brief.md",
+      "bytes": 2110,
+      "sha256": "772f671eac4ba2cada88d62950ac910049950e3b9f1e772456582eb1cf3a4be8"
+    },
+    {
+      "file": "film/render.mjs",
+      "bytes": 4812,
+      "sha256": "fbd36991efcdc38d97c8164dc5edd7b3b3fd7ff720153f6f4d83eabd1792324e"
+    },
+    {
+      "file": "film/server.mjs",
+      "bytes": 999,
+      "sha256": "65f1d53023ab63fd31005b8cd00ef311dd18484273b04f8d88305047247ee2d9"
+    },
+    {
+      "file": "film/sound-events.json",
+      "bytes": 8667,
+      "sha256": "a7331f97ffa33f46c11c82ba135f2ad60bcd548b9b5621b3893aabb1de9e2c2d"
+    },
+    {
+      "file": "film/vendor/carve.js",
+      "bytes": 10810,
+      "sha256": "a439554a32c75c8d65b7a8d7d25786abe274f565b28fbbb1d062c73b84097223"
+    },
+    {
+      "file": "film/vendor/gl.js",
+      "bytes": 8916,
+      "sha256": "e2ef60ce02e2eae389c3a8613980d67c2e4f786e9567d9dceb62eb97e4b5c6fa"
+    },
+    {
+      "file": "film/vendor/LICENSE",
+      "bytes": 1064,
+      "sha256": "14c9ff6f14bfb2391e74fedb01c256891d2a3bba1c2acf5789901bdf77e54e33"
+    },
+    {
+      "file": "film/vendor/NOTICE.md",
+      "bytes": 483,
+      "sha256": "9d9c32286c9dd53efd2922882569c34b38b1160a251d27cfac9eb9f5bba45d7c"
+    },
+    {
+      "file": "film/vendor/random.js",
+      "bytes": 142,
+      "sha256": "68664145b2f5e3613654d5a648f1f68c529e01ac6fc8abb8c015caa32f040407"
+    },
+    {
+      "file": "film/vendor/scenery.js",
+      "bytes": 13964,
+      "sha256": "46553bcc07136508fe6969c39ec06bba5940600374699d5b4fea0961244f2b45"
+    },
+    {
+      "file": "package.json",
+      "bytes": 368,
+      "sha256": "f5e587f86fb7212ceced1ebd74417a7a40a737aeaa3e2c19324a6c1ecb4d1945"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2955,
+      "sha256": "269b6280ea43ef3e53b45acf2ffea23983282022a1b22cd882fc6dae65480631"
+    },
+    {
+      "file": "review/blind-understanding.md",
+      "bytes": 1038,
+      "sha256": "819782c3ff2def43665955bac7d536f4597dea6d0b87c754dc05586987db38cd"
+    },
+    {
+      "file": "review/evidence-index.json",
+      "bytes": 14502,
+      "sha256": "fa2ec9a3cf6ac5c935c9388f4aa99d0b7b73f57d732474286e16873ebc659b59"
+    },
+    {
+      "file": "verification/config.json",
+      "bytes": 182,
+      "sha256": "2d4881ed9d54ea2424d09e35aa0bc399ac64fd8c0991d60b82ec92efb1217c27"
+    },
+    {
+      "file": "verification/evidence.json",
+      "bytes": 463,
+      "sha256": "1f5eae7d915adc39e677724149e490d65157fdb597758971b290ec739b134794"
+    },
+    {
+      "file": "verification/ffprobe.json",
+      "bytes": 3725,
+      "sha256": "3f13d00ca58a48d68c7626b896ad040707dee08fb8bd496983cc0f02663528af"
+    },
+    {
+      "file": "夜鹭的一天.mp4",
+      "bytes": 39736952,
+      "sha256": "82e52a0a7b02ae5f7e091ab51c1372309e1d3124b2f5fa2ec19b561c48e64da4"
+    }
+  ]
+}

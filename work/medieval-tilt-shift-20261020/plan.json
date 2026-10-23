@@ -1,0 +1,1226 @@
+{
+  "title": "暮河城 · 街巷与运河",
+  "version": "v13",
+  "status": "delivered",
+  "duration": 76,
+  "fps": 24,
+  "frame_count": 1824,
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "delivery_mode": "ai_review_once",
+  "startup_choices": {
+    "resolved": true,
+    "aspect_ratio": [
+      "16:9 / 1920×1080",
+      "9:16 / 1080×1920"
+    ],
+    "delivery_mode": [
+      "user_feedback",
+      "ai_review_once"
+    ],
+    "previously_asked": true
+  },
+  "user_requirements": [
+    "城市从地平线上渐渐冒出的开头",
+    "近东巴比伦风格",
+    "精细的移轴摄影效果",
+    "明确音乐计划",
+    "先做好模型",
+    "不要龙，城市街景即可",
+    "街道连贯",
+    "宏伟、一望无际的巨型巴比伦城市",
+    "修复屏幕闪动",
+    "祭司、巴比伦军队、埃及使团与不同社会活动",
+    "最终全景主干道全长繁华人群",
+    "细化彩绘船体、船员、纤夫及牵引关系",
+    "纤夫在河流两岸拉纤",
+    "士兵队形、脚步及持械协调"
+  ],
+  "intent": "以同一座巴比伦幻想巨城的街巷、河运、仪式与贸易生活，呈现宏伟而精细的移轴微缩城市。",
+  "revision": {
+    "previous_version": "history/v12/plan.json",
+    "reason": "纤夫分到运河两岸拉纤；士兵双列、持械、落脚和行进速度协调；修正周围居民避让。",
+    "duration_reason": "沿用76秒与用户原配乐节选。"
+  },
+  "audio": {
+    "voiceover": false,
+    "master_clock": "原曲29.5–105.5秒连续节选；摄影按已有候选能量起音编排，未实际听音。",
+    "planned_bpm": null,
+    "meter": null,
+    "planned_bars": null,
+    "sample_rate": 48000,
+    "loudness_candidate_lufs": [
+      -16,
+      -14
+    ],
+    "true_peak_ceiling_dbtp": -1,
+    "music": "Vangelis — Dream Of Babylon，Alexander电影原声；用户提供本地MP3",
+    "palette": [
+      "用户提供的电影原声成品"
+    ],
+    "optional_palette": [],
+    "motif": "使用原曲，不新增或重写旋律；连续节选，不作歌曲内部跳切。",
+    "source_status": "用户本地音乐；连续节选延长至76秒，低混环境声循环采用2秒交叉淡化。",
+    "stems": [
+      "user-provided-Dream-Of-Babylon.mp3",
+      "ambience.wav"
+    ],
+    "notes": "音乐能量候选仅为时序依据；实际听音不可用。",
+    "cues": [
+      {
+        "start": 0,
+        "end": 0.15,
+        "music": "原曲29.5秒起，0.15秒渐入"
+      },
+      {
+        "start": 0.15,
+        "end": 73,
+        "music": "连续电影原曲与低混环境声"
+      },
+      {
+        "start": 73,
+        "end": 76,
+        "music": "3秒渐出"
+      }
+    ],
+    "foley": [
+      "风",
+      "水流",
+      "船桨",
+      "远人群",
+      "棚布",
+      "足步"
+    ],
+    "source_excerpt_seconds": [
+      29.5,
+      105.5
+    ],
+    "fade_in_seconds": 0.15,
+    "fade_out_seconds": [
+      73,
+      76
+    ]
+  },
+  "assets_status": "model/babylon-city-v12.blend；8种角色模块、180名新增近景居民、8582名新增中远景居民、彩绘船只与两组纤夫。",
+  "world": {
+    "route": [
+      "城外地平线",
+      "蓝釉大道与国王雕像",
+      "市集驮畜",
+      "运河与码头",
+      "王宫台地花园",
+      "神像前庭",
+      "巨城全景"
+    ],
+    "landmarks": [
+      "gate-01",
+      "canal-01",
+      "temple-01",
+      "terrace-01"
+    ],
+    "materials": [
+      "独立倒角釉砖",
+      "有真实厚度的拱洞与浮雕",
+      "泥砖与磨损石材",
+      "深窗与木梁",
+      "织物棚布",
+      "陶罐",
+      "有反射的水面"
+    ],
+    "lighting": "固定的日落前侧向暖光与偏冷天空填充；初始太阳高度15–25度待试；固定曝光保持材料细节。",
+    "historical_scope": "现代近东奇幻艺术方向；不附未经查证的历史名称、文字或仪式说明。",
+    "extent_m": [
+      -650,
+      650,
+      -29,
+      1800
+    ],
+    "street_continuity_evidence": "model/out/model-v9-evidence.json；实体桥头引坡连接原横街，正式画面局部复核见qa/v9/。"
+  },
+  "clock_design": {
+    "camera": "24fps连续影片时间，每镜独立smoothstep路径；镜头之间为同城切镜。",
+    "world": "qt=floor(t*8)/8；居民与牲畜使用mt=qt*2.4；船用qt、水面用连续t。",
+    "hero": "城市生活为主体，无龙或复杂人物表演。",
+    "speed_curve": [
+      {
+        "start": 0,
+        "end": 56,
+        "actors": 2.4,
+        "boats": 1.0
+      }
+    ]
+  },
+  "shots": [
+    {
+      "id": "v12-shot-0",
+      "start": 0,
+      "end": 8,
+      "intent": "地平线显城",
+      "states": {
+        "establish": 1,
+        "action": 4.0,
+        "result": 7.4
+      },
+      "action": "相机越过前景沙坡逐渐抬高，固定城市从遮挡后显露。",
+      "camera": {
+        "mode": "共享三维世界中的平滑位置/看向点摄影",
+        "subjectId": "v12-shot-0",
+        "handoff": "同一城市的景别切换，保留地理关系。",
+        "path": [
+          [
+            -48,
+            -153,
+            6
+          ],
+          [
+            -60,
+            -89,
+            104
+          ],
+          [
+            15,
+            72,
+            8
+          ],
+          [
+            14,
+            61,
+            9
+          ],
+          45,
+          48
+        ]
+      },
+      "reads": [
+        {
+          "item": "地平线显城",
+          "appear": 0,
+          "readable": 1,
+          "leave": 8
+        }
+      ],
+      "risks": [
+        [
+          7.0,
+          7.96
+        ]
+      ]
+    },
+    {
+      "id": "v12-shot-1",
+      "start": 8,
+      "end": 16,
+      "intent": "蓝釉门楼与埃及使团",
+      "states": {
+        "establish": 9,
+        "action": 12.0,
+        "result": 15.4
+      },
+      "action": "持礼物和执扇的埃及使者在门楼外，由祭司和巴比伦守卫迎接；保留国王像。",
+      "camera": {
+        "mode": "共享三维世界中的平滑位置/看向点摄影",
+        "subjectId": "v12-shot-1",
+        "handoff": "同一城市的景别切换，保留地理关系。",
+        "path": [
+          [
+            15,
+            -36,
+            34
+          ],
+          [
+            14,
+            -25,
+            36
+          ],
+          [
+            -1.8,
+            -8.5,
+            2.8
+          ],
+          [
+            -1.8,
+            -8.5,
+            2.8
+          ],
+          46,
+          46
+        ]
+      },
+      "reads": [
+        {
+          "item": "蓝釉门楼与埃及使团",
+          "appear": 8,
+          "readable": 9,
+          "leave": 16
+        }
+      ],
+      "risks": [
+        [
+          15.0,
+          15.96
+        ]
+      ]
+    },
+    {
+      "id": "v12-shot-2",
+      "start": 16,
+      "end": 27,
+      "intent": "市集、居民与巴比伦巡逻军队",
+      "states": {
+        "establish": 17,
+        "action": 21.5,
+        "result": 26.4
+      },
+      "action": "持盾持矛巡逻队穿过市集，市民按散点路线活动，驮畜和山羊保持独立分布。",
+      "camera": {
+        "mode": "共享三维世界中的平滑位置/看向点摄影",
+        "subjectId": "v12-shot-2",
+        "handoff": "同一城市的景别切换，保留地理关系。",
+        "path": [
+          [
+            23,
+            9,
+            41
+          ],
+          [
+            22,
+            37,
+            42
+          ],
+          [
+            0,
+            29,
+            1
+          ],
+          [
+            0,
+            57,
+            1
+          ],
+          52,
+          52
+        ]
+      },
+      "reads": [
+        {
+          "item": "市集、居民与巴比伦巡逻军队",
+          "appear": 16,
+          "readable": 17,
+          "leave": 27
+        }
+      ],
+      "risks": [
+        [
+          26.0,
+          26.96
+        ]
+      ]
+    },
+    {
+      "id": "v12-shot-3",
+      "start": 27,
+      "end": 36.5,
+      "intent": "彩绘商船、船员与纤夫",
+      "states": {
+        "establish": 28,
+        "action": 31.75,
+        "result": 35.9
+      },
+      "action": "沿运河看彩绘货船、船工、货物和两组岸上纤夫；绳索连接实际船体和人物，纤道位于真实河岸高度。",
+      "camera": {
+        "mode": "共享三维世界中的平滑位置/看向点摄影",
+        "subjectId": "v12-shot-3",
+        "handoff": "同一城市的景别切换，保留地理关系。",
+        "path": [
+          [
+            56,
+            39,
+            50
+          ],
+          [
+            54,
+            34,
+            49
+          ],
+          [
+            27.5,
+            68,
+            0
+          ],
+          [
+            27.5,
+            62.5,
+            1
+          ],
+          45,
+          45
+        ]
+      },
+      "reads": [
+        {
+          "item": "彩绘商船、船员与纤夫",
+          "appear": 27,
+          "readable": 28,
+          "leave": 36.5
+        }
+      ],
+      "risks": [
+        [
+          35.5,
+          36.46
+        ]
+      ]
+    },
+    {
+      "id": "v12-shot-4",
+      "start": 36.5,
+      "end": 44.5,
+      "intent": "王宫台地花园",
+      "states": {
+        "establish": 37.5,
+        "action": 40.5,
+        "result": 43.9
+      },
+      "action": "从台地侧面读出实体楼梯、柱廊和层叠花园。",
+      "camera": {
+        "mode": "共享三维世界中的平滑位置/看向点摄影",
+        "subjectId": "v12-shot-4",
+        "handoff": "同一城市的景别切换，保留地理关系。",
+        "path": [
+          [
+            -8,
+            21,
+            78
+          ],
+          [
+            -9,
+            53,
+            70
+          ],
+          [
+            -48,
+            69,
+            9
+          ],
+          [
+            -49,
+            84,
+            12
+          ],
+          47,
+          47
+        ]
+      },
+      "reads": [
+        {
+          "item": "王宫台地花园",
+          "appear": 36.5,
+          "readable": 37.5,
+          "leave": 44.5
+        }
+      ],
+      "risks": [
+        [
+          43.5,
+          44.46
+        ]
+      ]
+    },
+    {
+      "id": "v12-shot-5",
+      "start": 44.5,
+      "end": 53.5,
+      "intent": "神像与祭司供奉",
+      "states": {
+        "establish": 45.5,
+        "action": 49.0,
+        "result": 52.9
+      },
+      "action": "白袍祭司与侍祭在神像供奉前庭活动，保留神像朝向和器物。",
+      "camera": {
+        "mode": "共享三维世界中的平滑位置/看向点摄影",
+        "subjectId": "v12-shot-5",
+        "handoff": "同一城市的景别切换，保留地理关系。",
+        "path": [
+          [
+            33,
+            24,
+            29
+          ],
+          [
+            34,
+            29,
+            29.5
+          ],
+          [
+            51.5,
+            48.7,
+            8.2
+          ],
+          [
+            51.5,
+            48.7,
+            8.2
+          ],
+          45,
+          47
+        ]
+      },
+      "reads": [
+        {
+          "item": "神像与祭司供奉",
+          "appear": 44.5,
+          "readable": 45.5,
+          "leave": 53.5
+        }
+      ],
+      "risks": [
+        [
+          52.5,
+          53.46
+        ]
+      ]
+    },
+    {
+      "id": "v12-shot-6",
+      "start": 53.5,
+      "end": 62.2,
+      "intent": "庭院神庙仪式",
+      "states": {
+        "establish": 54.5,
+        "action": 57.85,
+        "result": 61.6
+      },
+      "action": "庭院神庙有祭司和侍祭，通道和楼梯保持连通。",
+      "camera": {
+        "mode": "共享三维世界中的平滑位置/看向点摄影",
+        "subjectId": "v12-shot-6",
+        "handoff": "同一城市的景别切换，保留地理关系。",
+        "path": [
+          [
+            -40,
+            110,
+            46
+          ],
+          [
+            -42,
+            115,
+            43
+          ],
+          [
+            -47,
+            141,
+            6
+          ],
+          [
+            -47,
+            145,
+            6
+          ],
+          47,
+          47
+        ]
+      },
+      "reads": [
+        {
+          "item": "庭院神庙仪式",
+          "appear": 53.5,
+          "readable": 54.5,
+          "leave": 62.2
+        }
+      ],
+      "risks": [
+        [
+          61.2,
+          62.160000000000004
+        ]
+      ]
+    },
+    {
+      "id": "v12-shot-7",
+      "start": 62.2,
+      "end": 67.6,
+      "intent": "粮仓码头",
+      "states": {
+        "establish": 63.01,
+        "action": 64.9,
+        "result": 67.0
+      },
+      "action": "斜俯东岸粮仓和装卸院落，码头工人与牲畜占据真实开放空间。",
+      "camera": {
+        "mode": "共享三维世界中的平滑位置/看向点摄影",
+        "subjectId": "v12-shot-7",
+        "handoff": "同一城市的景别切换，保留地理关系。",
+        "path": [
+          [
+            22,
+            113,
+            40
+          ],
+          [
+            23,
+            121,
+            38
+          ],
+          [
+            56,
+            140,
+            3.8
+          ],
+          [
+            57,
+            142,
+            3.8
+          ],
+          47,
+          47
+        ]
+      },
+      "reads": [
+        {
+          "item": "粮仓码头",
+          "appear": 62.2,
+          "readable": 63.010000000000005,
+          "leave": 67.6
+        }
+      ],
+      "risks": [
+        [
+          66.6,
+          67.55999999999999
+        ]
+      ]
+    },
+    {
+      "id": "v12-shot-8",
+      "start": 67.6,
+      "end": 76,
+      "intent": "全长大道繁华巨城",
+      "states": {
+        "establish": 68.6,
+        "action": 71.8,
+        "result": 75.4
+      },
+      "action": "升高揭示巨城，主干道从近城一直延伸至城深处均有居民，并补充横街、桥梁与河岸人流。",
+      "camera": {
+        "mode": "共享三维世界中的平滑位置/看向点摄影",
+        "subjectId": "v12-shot-8",
+        "handoff": "同一城市的景别切换，保留地理关系。",
+        "path": [
+          [
+            -105,
+            -140,
+            180
+          ],
+          [
+            -151,
+            -197,
+            248
+          ],
+          [
+            10,
+            113,
+            5
+          ],
+          [
+            8,
+            140,
+            6
+          ],
+          43,
+          43
+        ]
+      },
+      "reads": [
+        {
+          "item": "全长大道繁华巨城",
+          "appear": 67.6,
+          "readable": 68.6,
+          "leave": 76
+        }
+      ],
+      "risks": [
+        [
+          75.0,
+          75.96
+        ]
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "time": 8,
+      "kind": "同一三维世界中的景别切换",
+      "anchor": "持续的主干道、运河与近东建筑材料",
+      "window": [
+        7.5,
+        8.5
+      ]
+    },
+    {
+      "time": 16,
+      "kind": "同一三维世界中的景别切换",
+      "anchor": "持续的主干道、运河与近东建筑材料",
+      "window": [
+        15.5,
+        16.5
+      ]
+    },
+    {
+      "time": 27,
+      "kind": "同一三维世界中的景别切换",
+      "anchor": "持续的主干道、运河与近东建筑材料",
+      "window": [
+        26.5,
+        27.5
+      ]
+    },
+    {
+      "time": 36.5,
+      "kind": "同一三维世界中的景别切换",
+      "anchor": "持续的主干道、运河与近东建筑材料",
+      "window": [
+        36.0,
+        37.0
+      ]
+    },
+    {
+      "time": 44.5,
+      "kind": "同一三维世界中的景别切换",
+      "anchor": "持续的主干道、运河与近东建筑材料",
+      "window": [
+        44.0,
+        45.0
+      ]
+    },
+    {
+      "time": 53.5,
+      "kind": "同一三维世界中的景别切换",
+      "anchor": "持续的主干道、运河与近东建筑材料",
+      "window": [
+        53.0,
+        54.0
+      ]
+    },
+    {
+      "time": 62.2,
+      "kind": "同一三维世界中的景别切换",
+      "anchor": "持续的主干道、运河与近东建筑材料",
+      "window": [
+        61.7,
+        62.7
+      ]
+    },
+    {
+      "time": 67.6,
+      "kind": "同一三维世界中的景别切换",
+      "anchor": "持续的主干道、运河与近东建筑材料",
+      "window": [
+        67.1,
+        68.1
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "v12-shot-0",
+      "start": 0,
+      "end": 8,
+      "name": "地平线显城",
+      "music_source_time": 29.5
+    },
+    {
+      "id": "v12-shot-1",
+      "start": 8,
+      "end": 16,
+      "name": "蓝釉门楼与埃及使团",
+      "music_source_time": 37.5
+    },
+    {
+      "id": "v12-shot-2",
+      "start": 16,
+      "end": 27,
+      "name": "市集、居民与巴比伦巡逻军队",
+      "music_source_time": 45.5
+    },
+    {
+      "id": "v12-shot-3",
+      "start": 27,
+      "end": 36.5,
+      "name": "彩绘商船、船员与纤夫",
+      "music_source_time": 56.5
+    },
+    {
+      "id": "v12-shot-4",
+      "start": 36.5,
+      "end": 44.5,
+      "name": "王宫台地花园",
+      "music_source_time": 66.0
+    },
+    {
+      "id": "v12-shot-5",
+      "start": 44.5,
+      "end": 53.5,
+      "name": "神像与祭司供奉",
+      "music_source_time": 74.0
+    },
+    {
+      "id": "v12-shot-6",
+      "start": 53.5,
+      "end": 62.2,
+      "name": "庭院神庙仪式",
+      "music_source_time": 83.0
+    },
+    {
+      "id": "v12-shot-7",
+      "start": 62.2,
+      "end": 67.6,
+      "name": "粮仓码头",
+      "music_source_time": 91.7
+    },
+    {
+      "id": "v12-shot-8",
+      "start": 67.6,
+      "end": 76,
+      "name": "全长大道繁华巨城",
+      "music_source_time": 97.1
+    }
+  ],
+  "quality_contract": {
+    "status": "full_render_decoded_source_freeze_verified_review_incomplete",
+    "asset_priority": [
+      "城门拱洞与蓝釉浮雕",
+      "门内街巷、屋顶与布棚",
+      "阶梯神庙",
+      "码头船只与水面",
+      "远景街区"
+    ],
+    "base_render": "关闭景深与辉光检查模型、材质和光照，再与开启效果比较；不能用模糊掩盖占位资产。",
+    "focus_depth": "Blender Z pass为相机到表面的距离，焦点使用相机到目标的距离；与屏幕清晰带幅值混合。不同于原Three参考的view-space z。",
+    "dof_risks": [
+      "有符号CoC抵消",
+      "棕榈和屋檐边缘漏色",
+      "水面深度",
+      "釉面高光过曝",
+      "焦点跳变"
+    ],
+    "final_sampling": "Cycles OptiX 24 samples，adaptive threshold .065，OpenImageDenoise GPU，GPU Defocus合成；1080×1920原生、无内部分块，真实持久缓存。关键图32 samples；未使用WebGL Gather或超采样。",
+    "motion_blur": "未开启全局运动模糊；保留8Hz微缩延时步进。",
+    "encoding": "对照无损源帧与MP4，重点检查砖缝、水面、植被和细小人物。",
+    "proof_times": [
+      0.5,
+      3,
+      7,
+      12,
+      21,
+      31,
+      40,
+      45,
+      48,
+      50.833,
+      54
+    ],
+    "material_motion_window": [
+      8,
+      12
+    ]
+  },
+  "concept": {
+    "status": "approved_direction_retained",
+    "paths": [
+      "concepts/city-overview-v1.png",
+      "concepts/city-reveal-early-v1.png"
+    ],
+    "user_feedback": "保留建筑视觉方向，删除龙；实际渲染需先提升模型质感。"
+  },
+  "pilot": {
+    "window": [
+      25.5,
+      28.5
+    ],
+    "frames": 72,
+    "status": "encoded_sample_engineering_passed",
+    "video": "delivery/移轴强化-v8-市集到运河-3秒样段.mp4",
+    "viewed": "18张间隔4帧联系表；非完整实时观看；未实际听音。"
+  },
+  "evidence": {
+    "status": "Current encoded film engineering checks and producer observations complete; see explicit coverage.",
+    "directory": "qa/v11",
+    "timeline": "v11-timeline.json",
+    "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\暮河城-巴比伦巨城-Dream-of-Babylon-v11.mp4",
+    "sha256": "ea895e3b1fa3dc6af62bc8aa7f24e92f2d4e243938c56668c4fe2f2ead6630e7",
+    "producer_observations": "qa/v11/producer-observations-v11.json"
+  },
+  "removed": [
+    "龙",
+    "送火",
+    "降落",
+    "火种接触",
+    "点燃仪式",
+    "由送火触发的灯链"
+  ],
+  "v8_revision": {
+    "music_master": {
+      "source": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\audio\\user-provided-Dream-Of-Babylon.mp3",
+      "duration": 160.77333333333334,
+      "analysis": "0.1s RMS, 2s smoothing, positive dB changes; energy/onset proxy only, no auditory verification",
+      "strong_entry_candidates": [
+        [
+          0.1298309999956843,
+          30.6
+        ],
+        [
+          0.12855486534261285,
+          39.8
+        ],
+        [
+          0.12143101966496811,
+          45.2
+        ],
+        [
+          0.12095780194560224,
+          55.7
+        ],
+        [
+          0.11365152584671388,
+          97.1
+        ],
+        [
+          0.11056856857603775,
+          24.9
+        ],
+        [
+          0.10979584445092398,
+          49.2
+        ],
+        [
+          0.1077628826616914,
+          34.5
+        ]
+      ],
+      "excerpt_start": 29.5,
+      "excerpt_end": 85.5,
+      "visual_cues_seconds": [
+        0.0,
+        8.0,
+        16.0,
+        26.6,
+        36.0,
+        44.4,
+        51.0
+      ],
+      "audio_perceived": false
+    },
+    "events": [
+      {
+        "id": "v8-shot-0",
+        "start": 0,
+        "end": 8,
+        "name": "地平线显城",
+        "camera": [
+          [
+            -48,
+            -153,
+            6
+          ],
+          [
+            -60,
+            -89,
+            104
+          ],
+          [
+            15,
+            72,
+            8
+          ],
+          [
+            14,
+            61,
+            9
+          ],
+          45,
+          48
+        ],
+        "music_source_time": 29.5
+      },
+      {
+        "id": "v8-shot-1",
+        "start": 8,
+        "end": 16,
+        "name": "蓝釉祭仪大道与国王雕像",
+        "camera": [
+          [
+            15,
+            -36,
+            34
+          ],
+          [
+            14,
+            -25,
+            36
+          ],
+          [
+            -4.8,
+            -12,
+            3.7
+          ],
+          [
+            -4.8,
+            -12,
+            3.7
+          ],
+          46,
+          46
+        ],
+        "music_source_time": 37.5
+      },
+      {
+        "id": "v8-shot-2",
+        "start": 16,
+        "end": 26.6,
+        "name": "繁华市集与驮畜队",
+        "camera": [
+          [
+            23,
+            9,
+            41
+          ],
+          [
+            22,
+            36,
+            42
+          ],
+          [
+            0,
+            29,
+            1
+          ],
+          [
+            0,
+            56,
+            1
+          ],
+          52,
+          52
+        ],
+        "music_source_time": 45.5
+      },
+      {
+        "id": "v8-shot-3",
+        "start": 26.6,
+        "end": 36,
+        "name": "运河商船与装卸码头",
+        "camera": [
+          [
+            6,
+            38,
+            47
+          ],
+          [
+            12,
+            63,
+            49
+          ],
+          [
+            33,
+            63,
+            0
+          ],
+          [
+            34,
+            85,
+            1
+          ],
+          52,
+          52
+        ],
+        "music_source_time": 56.1
+      },
+      {
+        "id": "v8-shot-4",
+        "start": 36,
+        "end": 44.4,
+        "name": "王宫和台地花园",
+        "camera": [
+          [
+            -8,
+            21,
+            78
+          ],
+          [
+            -9,
+            53,
+            70
+          ],
+          [
+            -48,
+            69,
+            9
+          ],
+          [
+            -49,
+            84,
+            12
+          ],
+          47,
+          47
+        ],
+        "music_source_time": 65.5
+      },
+      {
+        "id": "v8-shot-5",
+        "start": 44.4,
+        "end": 51,
+        "name": "神明雕像与蓝釉神庙",
+        "camera": [
+          [
+            27,
+            15,
+            51
+          ],
+          [
+            31,
+            25,
+            55
+          ],
+          [
+            52,
+            43,
+            7.5
+          ],
+          [
+            52,
+            43,
+            7.5
+          ],
+          42,
+          44
+        ],
+        "music_source_time": 73.9
+      },
+      {
+        "id": "v8-shot-6",
+        "start": 51,
+        "end": 56,
+        "name": "巨城全景",
+        "camera": [
+          [
+            -76,
+            -113,
+            153
+          ],
+          [
+            -128,
+            -171,
+            227
+          ],
+          [
+            8,
+            89,
+            6
+          ],
+          [
+            8,
+            120,
+            6
+          ],
+          43,
+          43
+        ],
+        "music_source_time": 80.5
+      }
+    ],
+    "tilt_shift": {
+      "focus_band_half_height": 0.075,
+      "blur_max_pixels": 38,
+      "world_motion": "8Hz，人物及牲畜2.4倍活动时间；相机连续。",
+      "haze_start_metres": 400,
+      "divine_band_half_height": 0.095,
+      "divine_band_tilt": -0.45,
+      "standard_band_tilt": 0.07
+    },
+    "historical_scope": "巴比伦风格幻想城邦；台地花园与王神雕像为解释性重构",
+    "sources": [
+      "https://www.metmuseum.org/essays/babylon",
+      "https://www.britishmuseum.org/blog/paradise-earth-gardens-ashurbanipal"
+    ],
+    "authoritative_timeline": "v8-timeline.json",
+    "frozen_manifest": "render/frozen-v8-manifest.json"
+  },
+  "v9_revision": {
+    "scope": [
+      "brick-pier timber bridges",
+      "legacy triangular sail boats converted to cargo barges"
+    ],
+    "preserved": [
+      "1080x1920 56s 24fps",
+      "v8 camera timeline",
+      "v8 38px depth+tilt band",
+      "v8 music excerpt 29.5–85.5s",
+      "8Hz world motion"
+    ],
+    "review": "qa/v9/av-review.json",
+    "authoritative_timeline": "v8-timeline.json",
+    "frozen_manifest": "render/frozen-v9-manifest.json",
+    "encoded_video": "delivery/暮河城-巴比伦巨城-Dream-of-Babylon-v9.mp4"
+  },
+  "v10_revision": {
+    "model": "model/babylon-city-v10.blend",
+    "renderer": "render_city_v10.py",
+    "authoritative_timeline": "v8-timeline.json",
+    "frozen_manifest": "render/frozen-v10-manifest.json",
+    "encoded_video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\暮河城-巴比伦巨城-Dream-of-Babylon-v10.mp4",
+    "review": "Producer inspection only; existing independent round exhausted."
+  },
+  "v11_revision": {
+    "traffic": "traffic-v11.npz，8Hz固定步长、独立路线、停顿、局部避让和间距回退约束。",
+    "new_buildings": [
+      "西侧庭院神庙",
+      "东岸粮仓和工作码头"
+    ],
+    "sculpture": "南向主像与向庭院侧像；不同材料、冠饰、伏狮、供桌和铭文石碑。",
+    "review": "用户反馈修订；既有独立审核预算未重置，当前版本由制作角色检查。"
+  },
+  "v12_revision": {
+    "revision_plan": "v12-修复计划.md",
+    "sample_evidence": "qa/v12/production-sample-observations.json",
+    "model_evidence": "qa/v12/model-evidence.json",
+    "frozen_manifest": "render/frozen-v12-manifest.json",
+    "final_renderer": "render_city_v12.py",
+    "postprocess": "GPU separable multi-level Gaussian with physical depth and tilted clear band; replaces Defocus",
+    "render_samples": 32,
+    "temporal_validation": "all source frames and all encoded frames; strong-green and isolated two-sided discontinuity candidates",
+    "independent_review": "No new round; historical one-round budget unchanged."
+  },
+  "current_delivery": {
+    "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\暮河城-巴比伦巨城-Dream-of-Babylon-v13.mp4",
+    "sha256": "4a14a94c43bc0a9eb87e6424b06279d7999d4a37d5de1144877551cfc968996d",
+    "engineering": "delivery/engineering-check-v13.json",
+    "producer_evidence": "qa/v13/producer-observations-v13.json",
+    "independent_review": false,
+    "audio_perceived": false
+  },
+  "v13_revision": {
+    "model": "model/babylon-city-v13.blend",
+    "renderer": "render_city_v13.py",
+    "traffic": "traffic-v13.npz",
+    "timeline": "v13-timeline.json",
+    "pipeline": "render_pipeline_v13.py",
+    "tow_banks": [
+      23.35,
+      40.5
+    ],
+    "patrol": {
+      "files": 2,
+      "actors": 10,
+      "speed_m_s": 1.05,
+      "poses": 12,
+      "update_hz": 24,
+      "stride_m": 0.9193548387096774
+    },
+    "canal_camera": "Higher oblique view keeps both towpaths visible; cargo vessel shifted 12m upstream to clear foreground palms.",
+    "all_shots_rendered": true,
+    "review": "Existing single independent-review budget used; this feedback revision receives producer verification."
+  }
+}

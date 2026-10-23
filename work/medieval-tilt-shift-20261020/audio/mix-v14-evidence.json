@@ -1,0 +1,271 @@
+{
+  "duration": 76,
+  "source_excerpt": [
+    29.5,
+    105.5
+  ],
+  "fade_in": 0.15,
+  "fade_out": [
+    73,
+    76
+  ],
+  "ambience": "original deterministic synthesis: scene-shaped wind, water, quiet stone footfalls and altar contact; no synthesized speech or claimed crowd recording",
+  "events": [
+    {
+      "time": 16.45,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.40565529626440633
+    },
+    {
+      "time": 17.147,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.7053550730300213
+    },
+    {
+      "time": 17.487,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.6749291515719267
+    },
+    {
+      "time": 17.896,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.4803984761199779
+    },
+    {
+      "time": 18.457,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.3467113970609522
+    },
+    {
+      "time": 19.136,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.7181495031021342
+    },
+    {
+      "time": 19.728,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.5388981947454958
+    },
+    {
+      "time": 20.379,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.3254571667738452
+    },
+    {
+      "time": 20.787,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.7613183944653009
+    },
+    {
+      "time": 21.272,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.6688431294327633
+    },
+    {
+      "time": 21.707,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.6693441678832185
+    },
+    {
+      "time": 22.308,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.6085791251322212
+    },
+    {
+      "time": 22.936,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.700383095421966
+    },
+    {
+      "time": 23.551,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.7543113492217896
+    },
+    {
+      "time": 23.89,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.25868899483295327
+    },
+    {
+      "time": 24.237,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.31553290312650034
+    },
+    {
+      "time": 24.739,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.2802953741879914
+    },
+    {
+      "time": 25.311,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.663461274556832
+    },
+    {
+      "time": 25.988,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.38088295327009686
+    },
+    {
+      "time": 26.32,
+      "kind": "market footfall texture",
+      "gain": 0.0022,
+      "pan": 0.5002077456189151
+    },
+    {
+      "time": 28.7,
+      "kind": "quay water lap",
+      "gain": 0.0017,
+      "pan": 0.7
+    },
+    {
+      "time": 30.1,
+      "kind": "quay water lap",
+      "gain": 0.0017,
+      "pan": 0.24
+    },
+    {
+      "time": 32.4,
+      "kind": "quay water lap",
+      "gain": 0.0017,
+      "pan": 0.65
+    },
+    {
+      "time": 34.8,
+      "kind": "quay water lap",
+      "gain": 0.0017,
+      "pan": 0.35
+    },
+    {
+      "time": 61.2,
+      "kind": "offering dish contacts altar",
+      "gain": 0.005,
+      "pan": 0.5
+    }
+  ],
+  "scene_levels": [
+    {
+      "scene": "opening",
+      "range": [
+        0,
+        8
+      ],
+      "music_rms": 0.14217984676361084,
+      "ambience_rms": 0.0009226700058206916,
+      "ambience_relative_db": -43.75583278080729
+    },
+    {
+      "scene": "gate",
+      "range": [
+        8,
+        16
+      ],
+      "music_rms": 0.15395952761173248,
+      "ambience_rms": 0.0010050018317997456,
+      "ambience_relative_db": -43.70479433113334
+    },
+    {
+      "scene": "market",
+      "range": [
+        16,
+        27
+      ],
+      "music_rms": 0.14311273396015167,
+      "ambience_rms": 0.0008832809398882091,
+      "ambience_relative_db": -44.191588387250945
+    },
+    {
+      "scene": "canal",
+      "range": [
+        27,
+        36.5
+      ],
+      "music_rms": 0.13206332921981812,
+      "ambience_rms": 0.0032692942768335342,
+      "ambience_relative_db": -32.12656454235387
+    },
+    {
+      "scene": "garden",
+      "range": [
+        36.5,
+        44.5
+      ],
+      "music_rms": 0.1102663204073906,
+      "ambience_rms": 0.0007727725896984339,
+      "ambience_relative_db": -43.08782346329483
+    },
+    {
+      "scene": "statue",
+      "range": [
+        44.5,
+        53.5
+      ],
+      "music_rms": 0.07057224959135056,
+      "ambience_rms": 0.0006263722898438573,
+      "ambience_relative_db": -41.03602849482459
+    },
+    {
+      "scene": "ritual",
+      "range": [
+        53.5,
+        62.2
+      ],
+      "music_rms": 0.10856496542692184,
+      "ambience_rms": 0.0005026934086345136,
+      "ambience_relative_db": -46.687730152873186
+    },
+    {
+      "scene": "return",
+      "range": [
+        62.2,
+        67.6
+      ],
+      "music_rms": 0.15632717311382294,
+      "ambience_rms": 0.0007191451732069254,
+      "ambience_relative_db": -46.74435809338587
+    },
+    {
+      "scene": "panorama",
+      "range": [
+        67.6,
+        76
+      ],
+      "music_rms": 0.1550869643688202,
+      "ambience_rms": 0.000720958923920989,
+      "ambience_relative_db": -46.653295469285325
+    }
+  ],
+  "loudness": {
+    "input_i": "-15.41",
+    "input_tp": "-0.92",
+    "input_lra": "8.40",
+    "input_thresh": "-25.56",
+    "output_i": "-17.30",
+    "output_tp": "-2.29",
+    "output_lra": "8.70",
+    "output_thresh": "-27.37",
+    "normalization_type": "dynamic",
+    "target_offset": "0.30"
+  },
+  "actual_listening": false,
+  "limitation": "Technical mix measurements only; no perceptual loudness, timbre or synchronization approval."
+}

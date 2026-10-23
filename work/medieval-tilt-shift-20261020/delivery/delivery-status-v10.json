@@ -1,0 +1,31 @@
+{
+  "version": "v10",
+  "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\暮河城-巴比伦巨城-Dream-of-Babylon-v10.mp4",
+  "sha256": "491df2b327a044b161d2c262e6368baa8e0ec8399e5936e1311270a1d7a1f3d8",
+  "engineering": "passed",
+  "source_freeze_verified": true,
+  "specification": {
+    "width": 1080,
+    "height": 1920,
+    "duration": 56,
+    "fps": 24,
+    "decoded_frames": 1344,
+    "audio": "48kHz stereo"
+  },
+  "producer_observations": "qa/v10/producer-observations-v10.json",
+  "review": "incomplete",
+  "new_independent_review_round": false,
+  "review_budget": {
+    "used": 1,
+    "maximum": 1,
+    "reviewer": "/root/babylon_av_review"
+  },
+  "historical_review_reference": "qa/v9/av-review.json (v9 hash; not a v10 pass)",
+  "actual_audio_listening": "unavailable",
+  "limits": [
+    "v10 only has producer inspection of the stated representative encoded frames.",
+    "Full independent visual coverage and actual listening were not completed.",
+    "Babylon-inspired fantasy reconstruction; not an archaeological reconstruction."
+  ],
+  "updated_at": "2026-10-21T09:16:55"
+}

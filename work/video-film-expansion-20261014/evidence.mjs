@@ -1,0 +1,12 @@
+import fs from 'node:fs';import path from 'node:path';import {execFile} from 'node:child_process';import {promisify} from 'node:util';import {fileURLToPath} from 'node:url';const work=path.dirname(fileURLToPath(import.meta.url)),run=promisify(execFile);
+const requests={
+'mikenevermiss/motionpromptgallery':['data/items.json','CONTENT-NOTICE.md'],
+'HiAPIAI/awesome-opus-5-5-video-styles':['data/cases.json'],
+'Li-Evan/awesome-opus-5.5-video-prompts':['site/data.json'],
+'adunext/adu-motion-video':['assets/demos/README.md','THIRD_PARTY.md','references/template-catalog.md','examples/gallery/index.html'],
+'crawfordxx/xiaoma-studio':['examples/paper-cloud/index.html','examples/launch-morph/index.html','examples/blueprint-switch/index.html'],
+'meabhisheksoni/devops-animation':['README.md']};
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));async function gh(a){return(await run('C:/Program Files/GitHub CLI/gh.exe',a,{encoding:'utf8',timeout:60000,maxBuffer:20*1024*1024,windowsHide:true})).stdout;}
+await Promise.all(Object.entries(requests).map(async([repo,files])=>{const dir=path.join(work,'discovery',repo.replace('/','--')),tree=read(path.join(dir,'tree.json'));for(const f of files){try{const s=await gh(['api',`repos/${repo}/contents/${f}?ref=${tree.sha}`,'-H','Accept: application/vnd.github.raw+json']);fs.mkdirSync(path.dirname(path.join(dir,f)),{recursive:true});fs.writeFileSync(path.join(dir,f),s);}catch(e){console.log('Missing '+repo+'/'+f);}}}));
+for(const repo of ['ledbetterljoshua/functional-emotions-video','arimanyus/hophopnopenope','beidou070/let-me-go-code-mv','JohnHeibel/PDoomVideo','dgreenheck/tidewater','thebuggeddev/endless-train']){const dir=path.join(work,'discovery',repo.replace('/','--'));try{const data=JSON.parse(await gh(['api',`repos/${repo}/releases`]));fs.writeFileSync(path.join(dir,'releases.json'),JSON.stringify(data,null,2));console.log(JSON.stringify({repo,releases:data.map(r=>({tag:r.tag_name,assets:r.assets.map(a=>({name:a.name,size:a.size,url:a.browser_download_url}))}))}));}catch(e){console.log(repo+' '+e.message.slice(0,100));}}
+for(const [repo,file] of [['mikenevermiss/motionpromptgallery','data/items.json'],['HiAPIAI/awesome-opus-5-5-video-styles','data/cases.json'],['Li-Evan/awesome-opus-5.5-video-prompts','site/data.json']]){const data=read(path.join(work,'discovery',repo.replace('/','--'),file));console.log(JSON.stringify({repo,type:typeof data,keys:Object.keys(data).slice(0,10),sample:Array.isArray(data)?data[0]:Object.values(data)[0]},null,2).slice(0,6000));}

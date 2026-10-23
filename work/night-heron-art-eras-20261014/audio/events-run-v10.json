@@ -1,0 +1,6436 @@
+{
+  "duration": 31,
+  "sampleRate": 48000,
+  "events": [
+    {
+      "type": "foot",
+      "time": 0,
+      "duration": 0.07,
+      "gain": 0.018
+    },
+    {
+      "type": "foot",
+      "time": 0.362442142665634,
+      "duration": 0.07,
+      "gain": 0.018
+    },
+    {
+      "type": "foot",
+      "time": 0.7225268630201299,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 0.7225268630201299,
+      "midi": 36,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 0.7225268630201299,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "mallet",
+      "time": 0.7225268630201299,
+      "midi": 76,
+      "duration": 0.18,
+      "gain": 0.09
+    },
+    {
+      "type": "foot",
+      "time": 1.0802995712398116,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 1.0802995712398116,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "chord",
+      "time": 1.3045291251067965,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 1.3045291251067965,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 1.3045291251067965,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 1.4358042380898497,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 1.4358042380898497,
+      "midi": 43,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 1.4358042380898497,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "mallet",
+      "time": 1.4358042380898497,
+      "midi": 72,
+      "duration": 0.18,
+      "gain": 0.09
+    },
+    {
+      "type": "foot",
+      "time": 1.789083458002733,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 1.789083458002733,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "chord",
+      "time": 2.010525344009943,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 2.010525344009943,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 2.010525344009943,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 2.1401785086466134,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 2.1401785086466134,
+      "midi": 36,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 2.1401785086466134,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "foot",
+      "time": 2.4891294072192407,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 2.4891294072192407,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "chord",
+      "time": 2.7078850764780666,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 2.7078850764780666,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 2.7078850764780666,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 2.835974963685021,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 2.835974963685021,
+      "midi": 36,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 2.835974963685021,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "mallet",
+      "time": 2.835974963685021,
+      "midi": 79,
+      "duration": 0.18,
+      "gain": 0.09
+    },
+    {
+      "type": "foot",
+      "time": 3.180752831155428,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 3.180752831155428,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "chord",
+      "time": 3.3969177268800763,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 3.3969177268800763,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 3.3969177268800763,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 3.5234995535981284,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 3.5234995535981284,
+      "midi": 36,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 3.5234995535981284,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "mallet",
+      "time": 3.5234995535981284,
+      "midi": 81,
+      "duration": 0.18,
+      "gain": 0.09
+    },
+    {
+      "type": "foot",
+      "time": 3.8642506110457475,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 3.8642506110457475,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "chord",
+      "time": 4.0779146551399545,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 4.0779146551399545,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 4.0779146551399545,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 4.203040462462741,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 4.203040462462741,
+      "midi": 43,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 4.203040462462741,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "mallet",
+      "time": 4.203040462462741,
+      "midi": 79,
+      "duration": 0.18,
+      "gain": 0.09
+    },
+    {
+      "type": "foot",
+      "time": 4.5399025864167815,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 4.5399025864167815,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "chord",
+      "time": 4.751150616536245,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 4.751150616536245,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 4.751150616536245,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 4.87486951969081,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 4.87486951969081,
+      "midi": 36,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 4.87486951969081,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "foot",
+      "time": 5.207972893961482,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 5.207972893961482,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "chord",
+      "time": 5.416885057076547,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 5.416885057076547,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 5.416885057076547,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 5.539243470661245,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 5.539243470661245,
+      "midi": 33,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 5.539243470661245,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 5.539243470661245,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "mallet",
+      "time": 5.539243470661245,
+      "midi": 76,
+      "duration": 0.18,
+      "gain": 0.09
+    },
+    {
+      "type": "hat",
+      "time": 5.704200843104752,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 5.868711174132807,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 5.868711174132807,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "hat",
+      "time": 5.868711174132807,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 6.032778078668514,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 6.075363281768534,
+      "midi": 60,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 6.075363281768534,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 6.075363281768534,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 6.196405123176964,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 6.196405123176964,
+      "midi": 33,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 6.196405123176964,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 6.196405123176964,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "mallet",
+      "time": 6.196405123176964,
+      "midi": 72,
+      "duration": 0.18,
+      "gain": 0.09
+    },
+    {
+      "type": "hat",
+      "time": 6.359595826569785,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 6.522353661088095,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 6.522353661088095,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "hat",
+      "time": 6.522353661088095,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 6.684682053164545,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 6.726817510705996,
+      "midi": 60,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 6.726817510705996,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 6.726817510705996,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 6.846584384264906,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 6.846584384264906,
+      "midi": 40,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 6.846584384264906,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 6.846584384264906,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "mallet",
+      "time": 6.846584384264906,
+      "midi": 69,
+      "duration": 0.18,
+      "gain": 0.09
+    },
+    {
+      "type": "hat",
+      "time": 7.00806399170998,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 7.169124169478209,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 7.169124169478209,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "hat",
+      "time": 7.169124169478209,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 7.329768168989688,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 7.371467835862257,
+      "midi": 60,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 7.371467835862257,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 7.371467835862257,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 7.489999199871977,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 7.489999199871977,
+      "midi": 33,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 7.489999199871977,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 7.489999199871977,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 7.649820430708337,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 7.8092349897688225,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 7.8092349897688225,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "hat",
+      "time": 7.8092349897688225,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 7.968245965724657,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 8.009523089767947,
+      "midi": 60,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 8.009523089767947,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 8.009523089767947,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 8.126856408346521,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 8.126856408346521,
+      "midi": 33,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 8.126856408346521,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 8.126856408346521,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "mallet",
+      "time": 8.126856408346521,
+      "midi": 76,
+      "duration": 0.18,
+      "gain": 0.09
+    },
+    {
+      "type": "hat",
+      "time": 8.285069329186957,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 8.442887702247607,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 8.442887702247607,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "hat",
+      "time": 8.442887702247607,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 8.600314464631378,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 8.641181635793032,
+      "midi": 60,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 8.641181635793032,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 8.641181635793032,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 8.757352517180323,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 8.757352517180323,
+      "midi": 33,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 8.757352517180323,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 8.757352517180323,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "mallet",
+      "time": 8.757352517180323,
+      "midi": 79,
+      "duration": 0.18,
+      "gain": 0.09
+    },
+    {
+      "type": "hat",
+      "time": 8.914004725099176,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 9.070273918565386,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 9.070273918565386,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "hat",
+      "time": 9.070273918565386,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 9.226162893325647,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 9.266632088510756,
+      "midi": 60,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 9.266632088510756,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 9.266632088510756,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 9.381674411279494,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 9.381674411279494,
+      "midi": 40,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 9.381674411279494,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 9.381674411279494,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "mallet",
+      "time": 9.381674411279494,
+      "midi": 76,
+      "duration": 0.18,
+      "gain": 0.09
+    },
+    {
+      "type": "hat",
+      "time": 9.536811201050217,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 9.691575958543478,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 9.691575958543478,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 9.691575958543478,
+      "midi": 45,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 9.691575958543478,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 9.8459713474939,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 9.886053971558477,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 9.886053971558477,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 9.886053971558477,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 10,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 10,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 10,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 10,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 10.153664517047696,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 10.306967469022776,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 10.306967469022776,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 10.306967469022776,
+      "midi": 45,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 10.306967469022776,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 10.459911396212567,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 10.499618319498632,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 10.499618319498632,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 10.499618319498632,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 10.612498809296994,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 10.612498809296994,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 10.612498809296994,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 10.612498809296994,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 10.612498809296994,
+      "midi": 81,
+      "duration": 0.18,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 10.764732189829521,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 10.916613990707992,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 10.916613990707992,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 10.916613990707992,
+      "midi": 45,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 10.916613990707992,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 11.06814663663572,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 11.10748822939804,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 11.10748822939804,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 11.10748822939804,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 11.219332524573213,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 11.219332524573213,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 11.219332524573213,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 11.219332524573213,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 11.219332524573213,
+      "midi": 77,
+      "duration": 0.18,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 11.370174024180471,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 11.520673478250353,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 11.520673478250353,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 11.520673478250353,
+      "midi": 38,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 11.520673478250353,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 11.670833203133133,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 11.70981936716663,
+      "midi": 59,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 11.70981936716663,
+      "midi": 62,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 11.70981936716663,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 11.820655489152454,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 11.820655489152454,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 11.820655489152454,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 11.820655489152454,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 11.820655489152454,
+      "midi": 67,
+      "duration": 0.18,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 11.970142601012878,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 12.119296778199338,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 12.119296778199338,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 12.119296778199338,
+      "midi": 38,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 12.119296778199338,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 12.268120235368553,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 12.306760433109536,
+      "midi": 59,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 12.306760433109536,
+      "midi": 62,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 12.306760433109536,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 12.416615162732693,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 12.416615162732693,
+      "midi": 31,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 12.416615162732693,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 12.416615162732693,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 12.564783726435474,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 12.712628068920788,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 12.712628068920788,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 12.712628068920788,
+      "midi": 38,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 12.712628068920788,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 12.860150309294193,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 12.898453590637837,
+      "midi": 59,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 12.898453590637837,
+      "midi": 62,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 12.898453590637837,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 13.00735254367721,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 13.00735254367721,
+      "midi": 31,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 13.00735254367721,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 13.00735254367721,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 13.00735254367721,
+      "midi": 74,
+      "duration": 0.18,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 13.154236845554953,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 13.300805266116743,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 13.300805266116743,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 13.300805266116743,
+      "midi": 38,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 13.300805266116743,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 13.447059834590414,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 13.485034861639667,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 13.485034861639667,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 13.485034861639667,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 13.593002558570072,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 13.593002558570072,
+      "midi": 36,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 13.593002558570072,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 13.593002558570072,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 13.593002558570072,
+      "midi": 81,
+      "duration": 0.18,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 13.738635424337598,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 13.88396039717809,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 13.88396039717809,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 13.88396039717809,
+      "midi": 43,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 13.88396039717809,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 14.028979421689268,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 14.066634491626996,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 14.066634491626996,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 14.066634491626996,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 14.173694422085044,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 14.173694422085044,
+      "midi": 43,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 14.173694422085044,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 14.173694422085044,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 14.173694422085044,
+      "midi": 79,
+      "duration": 0.18,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 14.318107302493479,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 14.462219947249025,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 14.462219947249025,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 14.462219947249025,
+      "midi": 43,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 14.462219947249025,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 14.606034221179414,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 14.643377287434873,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 14.643377287434873,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 14.643377287434873,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 14.74955196988724,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 14.74955196988724,
+      "midi": 36,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 14.74955196988724,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 14.74955196988724,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 14.892775020026216,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 15.035705179572517,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 15.035705179572517,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 15.035705179572517,
+      "midi": 43,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 15.035705179572517,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 15.178344238090995,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 15.215382929953467,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 15.215382929953467,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 15.215382929953467,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 15.320693966996657,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 15.320693966996657,
+      "midi": 28,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 15.320693966996657,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 15.320693966996657,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 15.320693966996657,
+      "midi": 71,
+      "duration": 0.18,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 15.462756119811264,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 15.604532432415407,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 15.604532432415407,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 15.604532432415407,
+      "midi": 35,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 15.604532432415407,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 15.746024623295977,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 15.782766264112627,
+      "midi": 56,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 15.782766264112627,
+      "midi": 59,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 15.782766264112627,
+      "midi": 62,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 15.887234393789129,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 15.887234393789129,
+      "midi": 28,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 15.887234393789129,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 15.887234393789129,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 15.887234393789129,
+      "midi": 68,
+      "duration": 0.18,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 16.028163428319054,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 16.168813394632345,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 16.168813394632345,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 16.168813394632345,
+      "midi": 35,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 16.168813394632345,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 16.309185944028275,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 16.345637568109236,
+      "midi": 56,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 16.345637568109236,
+      "midi": 59,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 16.345637568109236,
+      "midi": 62,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 16.44928271158501,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 16.44928271158501,
+      "midi": 35,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 16.44928271158501,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 16.44928271158501,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 16.44928271158501,
+      "midi": 64,
+      "duration": 0.18,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 16.58910531638177,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 16.728655361717188,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 16.728655361717188,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 16.728655361717188,
+      "midi": 35,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 16.728655361717188,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 16.867934435323797,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 16.90410280366483,
+      "midi": 56,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 16.90410280366483,
+      "midi": 59,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 16.90410280366483,
+      "midi": 62,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 17.00694410957876,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 17.00694410957876,
+      "midi": 28,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 17.00694410957876,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 17.00694410957876,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 17.14568594171103,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 17.284161474004804,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 17.284161474004804,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 17.284161474004804,
+      "midi": 40,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 17.284161474004804,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 17.422372233999624,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 17.458263848922023,
+      "midi": 60,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 17.458263848922023,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 17.458263848922023,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 17.56031973468695,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 17.56031973468695,
+      "midi": 33,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 17.56031973468695,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 17.56031973468695,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 17.56031973468695,
+      "midi": 76,
+      "duration": 0.18,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 17.698005474703358,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 17.835430938520574,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 17.835430938520574,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 17.835430938520574,
+      "midi": 40,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 17.835430938520574,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 17.972597596632124,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 18.008218715429564,
+      "midi": 60,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 18.008218715429564,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 18.008218715429564,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 18.109506905736954,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 18.109506905736954,
+      "midi": 33,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 18.109506905736954,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 18.109506905736954,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 18.109506905736954,
+      "midi": 79,
+      "duration": 0.17988049448959292,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 18.246160308919947,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 18.38255923582933,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 18.38255923582933,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 18.38255923582933,
+      "midi": 40,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 18.38255923582933,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 18.518705102851207,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 18.554061750524692,
+      "midi": 60,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 18.554061750524692,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 18.554061750524692,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 18.654599313281174,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 18.654599313281174,
+      "midi": 40,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 18.654599313281174,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 18.654599313281174,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 18.654599313281174,
+      "midi": 76,
+      "duration": 0.17855900466261176,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 18.790243257493056,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 18.925638313104876,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 18.925638313104876,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 18.925638313104876,
+      "midi": 45,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 18.925638313104876,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 19.060785845142096,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 19.095883826296312,
+      "midi": 66,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 19.095883826296312,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 19.095883826296312,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 19.19568720619818,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 19.19568720619818,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 19.19568720619818,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 19.19568720619818,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 19.33034373659252,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 19.464756764525863,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 19.464756764525863,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 19.464756764525863,
+      "midi": 45,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 19.464756764525863,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 19.598927606233055,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 19.633772516200736,
+      "midi": 66,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 19.633772516200736,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 19.633772516200736,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 19.73285756613352,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 19.73285756613352,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 19.73285756613352,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 19.73285756613352,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 19.73285756613352,
+      "midi": 81,
+      "duration": 0.17600111251843964,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 19.866547936979167,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 20,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 20,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 20,
+      "midi": 45,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 20,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 20.133215025047342,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 20.167812260301947,
+      "midi": 66,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 20.167812260301947,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 20.167812260301947,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 20.266194270734854,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 20.266194270734854,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 20.266194270734854,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 20.266194270734854,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 20.266194270734854,
+      "midi": 78,
+      "duration": 0.1747627120186021,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 20.398938984577228,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 20.53145040312678,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 20.53145040312678,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 20.53145040312678,
+      "midi": 45,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 20.53145040312678,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 20.66372975210778,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 20.698084520019393,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 20.698084520019393,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 20.698084520019393,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 20.7957782465488,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 20.7957782465488,
+      "midi": 45,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 20.7957782465488,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 20.7957782465488,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 20.7957782465488,
+      "midi": 74,
+      "duration": 0.17355009072057964,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 20.927597090912865,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 21.05918747922568,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 21.05918747922568,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 21.05918747922568,
+      "midi": 45,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 21.05918747922568,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 21.190550595201763,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 21.224667923186132,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 21.224667923186132,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 21.224667923186132,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 21.321687612368738,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 21.321687612368738,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 21.321687612368738,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 21.321687612368738,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 21.452599694189598,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 21.583287994183173,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 21.583287994183173,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 21.583287994183173,
+      "midi": 45,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 21.583287994183173,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 21.713753656042673,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 21.747638400148833,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 21.747638400148833,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 21.747638400148833,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 21.8439978137525,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 21.8439978137525,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 21.8439978137525,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 21.8439978137525,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 21.8439978137525,
+      "midi": 81,
+      "duration": 0.171198698752376,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 21.974021591703263,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 22.103826104804945,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 22.103826104804945,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 22.103826104804945,
+      "midi": 45,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 22.103826104804945,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 22.233412458598515,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 22.267069311576712,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 22.267069311576712,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 22.267069311576712,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 22.362781749365762,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 22.362781749365762,
+      "midi": 31,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 22.362781749365762,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 22.362781749365762,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 22.362781749365762,
+      "midi": 77,
+      "duration": 0.17005828632684655,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 22.491935064237488,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 22.620873481300123,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 22.620873481300123,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 22.620873481300123,
+      "midi": 38,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 22.620873481300123,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 22.749598069700653,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 22.783031568588274,
+      "midi": 59,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 22.783031568588274,
+      "midi": 62,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 22.783031568588274,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 22.878109889750146,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 22.878109889750146,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 22.878109889750146,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 22.878109889750146,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 22.878109889750146,
+      "midi": 74,
+      "duration": 0.16894036477358865,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 23.006409993025567,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 23.13449942247023,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 23.13449942247023,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 23.13449942247023,
+      "midi": 38,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 23.13449942247023,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 23.262379212492636,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 23.295593745753024,
+      "midi": 59,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 23.295593745753024,
+      "midi": 62,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 23.295593745753024,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 23.39005038906405,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 23.39005038906405,
+      "midi": 31,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 23.39005038906405,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 23.39005038906405,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 23.5175139698144,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 23.64477096412704,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 23.64477096412704,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 23.64477096412704,
+      "midi": 38,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 23.64477096412704,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 23.77182237323192,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 23.80482218747784,
+      "midi": 59,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 23.80482218747784,
+      "midi": 62,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 23.80482218747784,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 23.898669190297504,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 23.898669190297504,
+      "midi": 31,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 23.898669190297504,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 23.898669190297504,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 23.898669190297504,
+      "midi": 74,
+      "duration": 0.16676910826084,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 24.025312400521386,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 24.151752981219566,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 24.151752981219566,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 24.151752981219566,
+      "midi": 43,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 24.151752981219566,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 24.27799190191437,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 24.310781108245305,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 24.310781108245305,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 24.310781108245305,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 24.40403012442126,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 24.40403012442126,
+      "midi": 36,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 24.40403012442126,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 24.40403012442126,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 24.40403012442126,
+      "midi": 76,
+      "duration": 0.165714410225315,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 24.529868602934336,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 24.65550828411052,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 24.65550828411052,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 24.65550828411052,
+      "midi": 43,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 24.65550828411052,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 24.780950107152773,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 24.813532687132703,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 24.813532687132703,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 24.813532687132703,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 24.906195003891913,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 24.906195003891913,
+      "midi": 43,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 24.906195003891913,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 24.906195003891913,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 24.906195003891913,
+      "midi": 72,
+      "duration": 0.16467947331292304,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 25.031243898867398,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 25.156097709406982,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 25.156097709406982,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 25.156097709406982,
+      "midi": 43,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 25.156097709406982,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 25.280757345705204,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 25.313137157005645,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 25.313137157005645,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 25.313137157005645,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 25.40522371090077,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 25.40522371090077,
+      "midi": 36,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 25.40522371090077,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 25.40522371090077,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 25.529497701152955,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 25.653580205716842,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 25.653580205716842,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 25.653580205716842,
+      "midi": 40,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 25.653580205716842,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 25.77747210701756,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 25.80965288874838,
+      "midi": 61,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 25.80965288874838,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 25.80965288874838,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 25.901174280723513,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 25.901174280723513,
+      "midi": 33,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 25.901174280723513,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 25.901174280723513,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 25.901174280723513,
+      "midi": 76,
+      "duration": 0.16266647092575579,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 26.0246875958186,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 26.148012914673394,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 26.148012914673394,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 26.148012914673394,
+      "midi": 40,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 26.148012914673394,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 26.271151093115442,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 26.3031364708644,
+      "midi": 61,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 26.3031364708644,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 26.3031364708644,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 26.39410298049853,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 26.39410298049853,
+      "midi": 33,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 26.39410298049853,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 26.39410298049853,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 26.39410298049853,
+      "midi": 79,
+      "duration": 0.16168726306872364,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 26.516869419771023,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 26.63945124754331,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 26.63945124754331,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 26.63945124754331,
+      "midi": 40,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 26.63945124754331,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 26.761849294154295,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 26.793642784754365,
+      "midi": 61,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 26.793642784754365,
+      "midi": 64,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 26.793642784754365,
+      "midi": 67,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 26.884064383737087,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 26.884064383737087,
+      "midi": 40,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 26.884064383737087,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 26.884064383737087,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 26.884064383737087,
+      "midi": 76,
+      "duration": 0.16072552884539867,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 27.00609733428363,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 27.127948957708668,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 27.127948957708668,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 27.127948957708668,
+      "midi": 40,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 27.127948957708668,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 27.24962005991274,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 27.281225075955206,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 27.281225075955206,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 27.281225075955206,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 27.371111440844356,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 27.371111440844356,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 27.371111440844356,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 27.371111440844356,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 27.492423894561377,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 27.613558209291533,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 27.613558209291533,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 27.613558209291533,
+      "midi": 45,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 27.613558209291533,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 27.734515167492212,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 27.765935021601727,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 27.765935021601727,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 27.765935021601727,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 27.85529554590944,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 27.85529554590944,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 27.85529554590944,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 27.85529554590944,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 27.85529554590944,
+      "midi": 81,
+      "duration": 0.15885244785076374,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 27.975900115635987,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 28.096329642168918,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 28.096329642168918,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 28.096329642168918,
+      "midi": 45,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 28.096329642168918,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 28.216584885466194,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 28.24782279435301,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 28.24782279435301,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 28.24782279435301,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 28.336666600002662,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 28.336666600002662,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 28.336666600002662,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 28.336666600002662,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 28.336666600002662,
+      "midi": 77,
+      "duration": 0.15794013549546626,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 28.456575534825298,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 28.576312433607644,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 28.576312433607644,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 28.576312433607644,
+      "midi": 45,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 28.576312433607644,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 28.695878034703718,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 28.72693712300719,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 28.72693712300719,
+      "midi": 69,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 28.72693712300719,
+      "midi": 72,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 28.815273071201045,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 28.815273071201045,
+      "midi": 38,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 28.815273071201045,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 28.815273071201045,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 28.815273071201045,
+      "midi": 67,
+      "duration": 0.15704336351385623,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 28.934498270973176,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 29.0535543567314,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 29.0535543567314,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 29.0535543567314,
+      "midi": 38,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 29.0535543567314,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 29.172442046075865,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 29.203325350012154,
+      "midi": 59,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 29.203325350012154,
+      "midi": 62,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 29.203325350012154,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 29.291162051546063,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 29.291162051546063,
+      "midi": 31,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 29.291162051546063,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 29.291162051546063,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 29.40971508067066,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 29.52810183601664,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 29.52810183601664,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 29.52810183601664,
+      "midi": 38,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 29.52810183601664,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 29.646323015237943,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 29.677033486063976,
+      "midi": 59,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 29.677033486063976,
+      "midi": 62,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 29.677033486063976,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 29.764379311123378,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 29.764379311123378,
+      "midi": 31,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 29.764379311123378,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 29.764379311123378,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 29.764379311123378,
+      "midi": 74,
+      "duration": 0.1552947126445323,
+      "gain": 0.052
+    },
+    {
+      "type": "hat",
+      "time": 29.882271411644023,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "foot",
+      "time": 30,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "brush",
+      "time": 30,
+      "duration": 0.12,
+      "gain": 0.16
+    },
+    {
+      "type": "bass",
+      "time": 30,
+      "midi": 38,
+      "duration": 0.2,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 30,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "hat",
+      "time": 30.117565754666646,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "chord",
+      "time": 30.148106261971556,
+      "midi": 59,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 30.148106261971556,
+      "midi": 62,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "chord",
+      "time": 30.148106261971556,
+      "midi": 65,
+      "duration": 0.12,
+      "gain": 0.025
+    },
+    {
+      "type": "foot",
+      "time": 30.234969349440142,
+      "duration": 0.07,
+      "gain": 0.055
+    },
+    {
+      "type": "bass",
+      "time": 30.234969349440142,
+      "midi": 31,
+      "duration": 0.35,
+      "gain": 0.22
+    },
+    {
+      "type": "kick",
+      "time": 30.234969349440142,
+      "duration": 0.14,
+      "gain": 0.095
+    },
+    {
+      "type": "hat",
+      "time": 30.234969349440142,
+      "duration": 0.07,
+      "gain": 0.042
+    },
+    {
+      "type": "brass",
+      "time": 30.234969349440142,
+      "midi": 77,
+      "duration": 0.1544420112916463,
+      "gain": 0.052
+    },
+    {
+      "type": "mallet",
+      "time": 1.5,
+      "midi": 76,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 1.8333333333333333,
+      "midi": 79,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 1.8333333333333333,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 2.125,
+      "midi": 81,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 2.2083333333333335
+    },
+    {
+      "type": "mallet",
+      "time": 2.5,
+      "midi": 72,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 2.5,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 3.1,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 3.25,
+      "midi": 36,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 3.25,
+      "midi": 60,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 3.25,
+      "midi": 64,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 3.25,
+      "midi": 67,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 3.25,
+      "midi": 69,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 3.75,
+      "midi": 76,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 4.041666666666667,
+      "midi": 79,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 4.041666666666667,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 4.333333333333333,
+      "midi": 81,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 4.375
+    },
+    {
+      "type": "mallet",
+      "time": 4.708333333333333,
+      "midi": 72,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 4.708333333333333,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 5.266666666666667,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 5.416666666666667,
+      "midi": 33,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 5.416666666666667,
+      "midi": 57,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 5.416666666666667,
+      "midi": 60,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 5.416666666666667,
+      "midi": 64,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 5.416666666666667,
+      "midi": 67,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 5.875,
+      "midi": 72,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 6.166666666666667,
+      "midi": 76,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 6.166666666666667,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 6.458333333333333,
+      "midi": 79,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 6.5
+    },
+    {
+      "type": "mallet",
+      "time": 6.791666666666667,
+      "midi": 69,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 6.791666666666667,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 7.35,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 7.5,
+      "midi": 33,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 7.5,
+      "midi": 57,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 7.5,
+      "midi": 60,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 7.5,
+      "midi": 64,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 7.5,
+      "midi": 67,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 7.958333333333333,
+      "midi": 72,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 8.208333333333334,
+      "midi": 76,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 8.208333333333334,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 8.5,
+      "midi": 79,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 8.541666666666666
+    },
+    {
+      "type": "mallet",
+      "time": 8.833333333333334,
+      "midi": 69,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 8.833333333333334,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 9.35,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 9.5,
+      "midi": 38,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 9.5,
+      "midi": 62,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 9.5,
+      "midi": 65,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 9.5,
+      "midi": 69,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 9.5,
+      "midi": 72,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 9.916666666666666,
+      "midi": 77,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 10.208333333333334,
+      "midi": 81,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 10.208333333333334,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 10.5,
+      "midi": 84,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 10.541666666666666
+    },
+    {
+      "type": "mallet",
+      "time": 10.791666666666666,
+      "midi": 74,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 10.791666666666666,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 11.308333333333334,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 11.458333333333334,
+      "midi": 31,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 11.458333333333334,
+      "midi": 55,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 11.458333333333334,
+      "midi": 59,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 11.458333333333334,
+      "midi": 62,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 11.458333333333334,
+      "midi": 65,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 11.875,
+      "midi": 71,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 12.166666666666666,
+      "midi": 74,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 12.166666666666666,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 12.416666666666666,
+      "midi": 77,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 12.458333333333334
+    },
+    {
+      "type": "mallet",
+      "time": 12.75,
+      "midi": 67,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 12.75,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 13.225,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 13.375,
+      "midi": 36,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 13.375,
+      "midi": 60,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 13.375,
+      "midi": 64,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 13.375,
+      "midi": 67,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 13.375,
+      "midi": 69,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 13.791666666666666,
+      "midi": 76,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 14.041666666666666,
+      "midi": 79,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 14.041666666666666,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 14.333333333333334,
+      "midi": 81,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 14.375
+    },
+    {
+      "type": "mallet",
+      "time": 14.625,
+      "midi": 72,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 14.625,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 15.1,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 15.25,
+      "midi": 28,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 15.25,
+      "midi": 52,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 15.25,
+      "midi": 56,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 15.25,
+      "midi": 59,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 15.25,
+      "midi": 62,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 15.666666666666666,
+      "midi": 68,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 15.916666666666666,
+      "midi": 71,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 15.916666666666666,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 16.166666666666668,
+      "midi": 74,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 16.208333333333332
+    },
+    {
+      "type": "mallet",
+      "time": 16.458333333333332,
+      "midi": 64,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 16.458333333333332,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 16.933333333333334,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 17.083333333333332,
+      "midi": 33,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 17.083333333333332,
+      "midi": 57,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 17.083333333333332,
+      "midi": 60,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 17.083333333333332,
+      "midi": 64,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 17.083333333333332,
+      "midi": 67,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 17.5,
+      "midi": 72,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 17.75,
+      "midi": 76,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 17.75,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 18,
+      "midi": 79,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 18.041666666666668
+    },
+    {
+      "type": "mallet",
+      "time": 18.291666666666668,
+      "midi": 69,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 18.291666666666668,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 18.725,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 18.875,
+      "midi": 38,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 18.875,
+      "midi": 62,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 18.875,
+      "midi": 66,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 18.875,
+      "midi": 69,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 18.875,
+      "midi": 72,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 19.25,
+      "midi": 78,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 19.5,
+      "midi": 81,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 19.5,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 19.75,
+      "midi": 84,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 19.791666666666668
+    },
+    {
+      "type": "mallet",
+      "time": 20.041666666666668,
+      "midi": 74,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 20.041666666666668,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 20.475,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 20.625,
+      "midi": 38,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 20.625,
+      "midi": 62,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 20.625,
+      "midi": 65,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 20.625,
+      "midi": 69,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 20.625,
+      "midi": 72,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 21,
+      "midi": 77,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 21.25,
+      "midi": 81,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 21.25,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 21.5,
+      "midi": 84,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 21.541666666666668
+    },
+    {
+      "type": "mallet",
+      "time": 21.75,
+      "midi": 74,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 21.75,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 22.183333333333334,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 22.333333333333332,
+      "midi": 31,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 22.333333333333332,
+      "midi": 55,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 22.333333333333332,
+      "midi": 59,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 22.333333333333332,
+      "midi": 62,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 22.333333333333332,
+      "midi": 65,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 22.708333333333332,
+      "midi": 71,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 22.916666666666668,
+      "midi": 74,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 22.916666666666668,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 23.166666666666668,
+      "midi": 77,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 23.208333333333332
+    },
+    {
+      "type": "mallet",
+      "time": 23.458333333333332,
+      "midi": 67,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 23.458333333333332,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 23.85,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 24,
+      "midi": 36,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 24,
+      "midi": 60,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 24,
+      "midi": 64,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 24,
+      "midi": 67,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 24,
+      "midi": 69,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 24.375,
+      "midi": 76,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 24.583333333333332,
+      "midi": 79,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 24.583333333333332,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 24.833333333333332,
+      "midi": 81,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 24.875
+    },
+    {
+      "type": "mallet",
+      "time": 25.083333333333332,
+      "midi": 72,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 25.083333333333332,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 25.475,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 25.625,
+      "midi": 33,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 25.625,
+      "midi": 57,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 25.625,
+      "midi": 61,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 25.625,
+      "midi": 64,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 25.625,
+      "midi": 67,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 25.958333333333332,
+      "midi": 73,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 26.208333333333332,
+      "midi": 76,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 26.208333333333332,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 26.416666666666668,
+      "midi": 79,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 26.458333333333332
+    },
+    {
+      "type": "mallet",
+      "time": 26.666666666666668,
+      "midi": 69,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 26.666666666666668,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 27.058333333333334,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 27.208333333333332,
+      "midi": 38,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 27.208333333333332,
+      "midi": 62,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 27.208333333333332,
+      "midi": 65,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 27.208333333333332,
+      "midi": 69,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 27.208333333333332,
+      "midi": 72,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 27.541666666666668,
+      "midi": 77,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 27.75,
+      "midi": 81,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 27.75,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 28,
+      "midi": 84,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 28.041666666666668
+    },
+    {
+      "type": "mallet",
+      "time": 28.25,
+      "midi": 74,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 28.25,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "sweep",
+      "time": 28.6,
+      "duration": 0.16,
+      "gain": 0.038
+    },
+    {
+      "type": "bass",
+      "time": 28.75,
+      "midi": 31,
+      "duration": 0.3,
+      "gain": 0.11
+    },
+    {
+      "type": "chord",
+      "time": 28.75,
+      "midi": 55,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 28.75,
+      "midi": 59,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 28.75,
+      "midi": 62,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "chord",
+      "time": 28.75,
+      "midi": 65,
+      "duration": 0.17,
+      "gain": 0.03
+    },
+    {
+      "type": "mallet",
+      "time": 29.083333333333332,
+      "midi": 71,
+      "duration": 0.2,
+      "gain": 0.065
+    },
+    {
+      "type": "mallet",
+      "time": 29.291666666666668,
+      "midi": 74,
+      "duration": 0.25,
+      "gain": 0.14
+    },
+    {
+      "type": "brush",
+      "time": 29.291666666666668,
+      "duration": 0.12,
+      "gain": 0.075
+    },
+    {
+      "type": "brass",
+      "time": 29.5,
+      "midi": 77,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "gulp",
+      "time": 29.541666666666668
+    },
+    {
+      "type": "mallet",
+      "time": 29.75,
+      "midi": 67,
+      "duration": 0.22,
+      "gain": 0.115
+    },
+    {
+      "type": "kick",
+      "time": 29.75,
+      "duration": 0.14,
+      "gain": 0.055
+    },
+    {
+      "type": "mallet",
+      "time": 0.06,
+      "midi": 60,
+      "duration": 0.35,
+      "gain": 0.12
+    },
+    {
+      "type": "mallet",
+      "time": 0.19,
+      "midi": 64,
+      "duration": 0.35,
+      "gain": 0.12
+    },
+    {
+      "type": "mallet",
+      "time": 0.32,
+      "midi": 67,
+      "duration": 0.35,
+      "gain": 0.12
+    },
+    {
+      "type": "bass",
+      "time": 30.27,
+      "midi": 48,
+      "duration": 0.6,
+      "gain": 0.15
+    },
+    {
+      "type": "bass",
+      "time": 30.291999999999998,
+      "midi": 55,
+      "duration": 0.6,
+      "gain": 0.15
+    },
+    {
+      "type": "mallet",
+      "time": 30.314,
+      "midi": 60,
+      "duration": 0.6,
+      "gain": 0.095
+    },
+    {
+      "type": "mallet",
+      "time": 30.336,
+      "midi": 64,
+      "duration": 0.6,
+      "gain": 0.095
+    },
+    {
+      "type": "mallet",
+      "time": 30.358,
+      "midi": 67,
+      "duration": 0.6,
+      "gain": 0.095
+    },
+    {
+      "type": "mallet",
+      "time": 30.38,
+      "midi": 72,
+      "duration": 0.6,
+      "gain": 0.095
+    }
+  ],
+  "footfalls": [
+    {
+      "time": 0,
+      "leg": "near",
+      "distance": 0
+    },
+    {
+      "time": 0.362442142665634,
+      "leg": "far",
+      "distance": 200
+    },
+    {
+      "time": 0.7225268630201299,
+      "leg": "near",
+      "distance": 400
+    },
+    {
+      "time": 1.0802995712398116,
+      "leg": "far",
+      "distance": 600
+    },
+    {
+      "time": 1.4358042380898497,
+      "leg": "near",
+      "distance": 800
+    },
+    {
+      "time": 1.789083458002733,
+      "leg": "far",
+      "distance": 1000
+    },
+    {
+      "time": 2.1401785086466134,
+      "leg": "near",
+      "distance": 1200
+    },
+    {
+      "time": 2.4891294072192407,
+      "leg": "far",
+      "distance": 1400
+    },
+    {
+      "time": 2.835974963685021,
+      "leg": "near",
+      "distance": 1600
+    },
+    {
+      "time": 3.180752831155428,
+      "leg": "far",
+      "distance": 1800
+    },
+    {
+      "time": 3.5234995535981284,
+      "leg": "near",
+      "distance": 2000
+    },
+    {
+      "time": 3.8642506110457475,
+      "leg": "far",
+      "distance": 2200
+    },
+    {
+      "time": 4.203040462462741,
+      "leg": "near",
+      "distance": 2400
+    },
+    {
+      "time": 4.5399025864167815,
+      "leg": "far",
+      "distance": 2600
+    },
+    {
+      "time": 4.87486951969081,
+      "leg": "near",
+      "distance": 2800
+    },
+    {
+      "time": 5.207972893961482,
+      "leg": "far",
+      "distance": 3000
+    },
+    {
+      "time": 5.539243470661245,
+      "leg": "near",
+      "distance": 3200
+    },
+    {
+      "time": 5.868711174132807,
+      "leg": "far",
+      "distance": 3400
+    },
+    {
+      "time": 6.196405123176964,
+      "leg": "near",
+      "distance": 3600
+    },
+    {
+      "time": 6.522353661088095,
+      "leg": "far",
+      "distance": 3800
+    },
+    {
+      "time": 6.846584384264906,
+      "leg": "near",
+      "distance": 4000
+    },
+    {
+      "time": 7.169124169478209,
+      "leg": "far",
+      "distance": 4200
+    },
+    {
+      "time": 7.489999199871977,
+      "leg": "near",
+      "distance": 4400
+    },
+    {
+      "time": 7.8092349897688225,
+      "leg": "far",
+      "distance": 4600
+    },
+    {
+      "time": 8.126856408346521,
+      "leg": "near",
+      "distance": 4800
+    },
+    {
+      "time": 8.442887702247607,
+      "leg": "far",
+      "distance": 5000
+    },
+    {
+      "time": 8.757352517180323,
+      "leg": "near",
+      "distance": 5200
+    },
+    {
+      "time": 9.070273918565386,
+      "leg": "far",
+      "distance": 5400
+    },
+    {
+      "time": 9.381674411279494,
+      "leg": "near",
+      "distance": 5600
+    },
+    {
+      "time": 9.691575958543478,
+      "leg": "far",
+      "distance": 5800
+    },
+    {
+      "time": 10,
+      "leg": "near",
+      "distance": 6000
+    },
+    {
+      "time": 10.306967469022776,
+      "leg": "far",
+      "distance": 6200
+    },
+    {
+      "time": 10.612498809296994,
+      "leg": "near",
+      "distance": 6400
+    },
+    {
+      "time": 10.916613990707992,
+      "leg": "far",
+      "distance": 6600
+    },
+    {
+      "time": 11.219332524573213,
+      "leg": "near",
+      "distance": 6800
+    },
+    {
+      "time": 11.520673478250353,
+      "leg": "far",
+      "distance": 7000
+    },
+    {
+      "time": 11.820655489152454,
+      "leg": "near",
+      "distance": 7200
+    },
+    {
+      "time": 12.119296778199338,
+      "leg": "far",
+      "distance": 7400
+    },
+    {
+      "time": 12.416615162732693,
+      "leg": "near",
+      "distance": 7600
+    },
+    {
+      "time": 12.712628068920788,
+      "leg": "far",
+      "distance": 7800
+    },
+    {
+      "time": 13.00735254367721,
+      "leg": "near",
+      "distance": 8000
+    },
+    {
+      "time": 13.300805266116743,
+      "leg": "far",
+      "distance": 8200
+    },
+    {
+      "time": 13.593002558570072,
+      "leg": "near",
+      "distance": 8400
+    },
+    {
+      "time": 13.88396039717809,
+      "leg": "far",
+      "distance": 8600
+    },
+    {
+      "time": 14.173694422085044,
+      "leg": "near",
+      "distance": 8800
+    },
+    {
+      "time": 14.462219947249025,
+      "leg": "far",
+      "distance": 9000
+    },
+    {
+      "time": 14.74955196988724,
+      "leg": "near",
+      "distance": 9200
+    },
+    {
+      "time": 15.035705179572517,
+      "leg": "far",
+      "distance": 9400
+    },
+    {
+      "time": 15.320693966996657,
+      "leg": "near",
+      "distance": 9600
+    },
+    {
+      "time": 15.604532432415407,
+      "leg": "far",
+      "distance": 9800
+    },
+    {
+      "time": 15.887234393789129,
+      "leg": "near",
+      "distance": 10000
+    },
+    {
+      "time": 16.168813394632345,
+      "leg": "far",
+      "distance": 10200
+    },
+    {
+      "time": 16.44928271158501,
+      "leg": "near",
+      "distance": 10400
+    },
+    {
+      "time": 16.728655361717188,
+      "leg": "far",
+      "distance": 10600
+    },
+    {
+      "time": 17.00694410957876,
+      "leg": "near",
+      "distance": 10800
+    },
+    {
+      "time": 17.284161474004804,
+      "leg": "far",
+      "distance": 11000
+    },
+    {
+      "time": 17.56031973468695,
+      "leg": "near",
+      "distance": 11200
+    },
+    {
+      "time": 17.835430938520574,
+      "leg": "far",
+      "distance": 11400
+    },
+    {
+      "time": 18.109506905736954,
+      "leg": "near",
+      "distance": 11600
+    },
+    {
+      "time": 18.38255923582933,
+      "leg": "far",
+      "distance": 11800
+    },
+    {
+      "time": 18.654599313281174,
+      "leg": "near",
+      "distance": 12000
+    },
+    {
+      "time": 18.925638313104876,
+      "leg": "far",
+      "distance": 12200
+    },
+    {
+      "time": 19.19568720619818,
+      "leg": "near",
+      "distance": 12400
+    },
+    {
+      "time": 19.464756764525863,
+      "leg": "far",
+      "distance": 12600
+    },
+    {
+      "time": 19.73285756613352,
+      "leg": "near",
+      "distance": 12800
+    },
+    {
+      "time": 20,
+      "leg": "far",
+      "distance": 13000
+    },
+    {
+      "time": 20.266194270734854,
+      "leg": "near",
+      "distance": 13200
+    },
+    {
+      "time": 20.53145040312678,
+      "leg": "far",
+      "distance": 13400
+    },
+    {
+      "time": 20.7957782465488,
+      "leg": "near",
+      "distance": 13600
+    },
+    {
+      "time": 21.05918747922568,
+      "leg": "far",
+      "distance": 13800
+    },
+    {
+      "time": 21.321687612368738,
+      "leg": "near",
+      "distance": 14000
+    },
+    {
+      "time": 21.583287994183173,
+      "leg": "far",
+      "distance": 14200
+    },
+    {
+      "time": 21.8439978137525,
+      "leg": "near",
+      "distance": 14400
+    },
+    {
+      "time": 22.103826104804945,
+      "leg": "far",
+      "distance": 14600
+    },
+    {
+      "time": 22.362781749365762,
+      "leg": "near",
+      "distance": 14800
+    },
+    {
+      "time": 22.620873481300123,
+      "leg": "far",
+      "distance": 15000
+    },
+    {
+      "time": 22.878109889750146,
+      "leg": "near",
+      "distance": 15200
+    },
+    {
+      "time": 23.13449942247023,
+      "leg": "far",
+      "distance": 15400
+    },
+    {
+      "time": 23.39005038906405,
+      "leg": "near",
+      "distance": 15600
+    },
+    {
+      "time": 23.64477096412704,
+      "leg": "far",
+      "distance": 15800
+    },
+    {
+      "time": 23.898669190297504,
+      "leg": "near",
+      "distance": 16000
+    },
+    {
+      "time": 24.151752981219566,
+      "leg": "far",
+      "distance": 16200
+    },
+    {
+      "time": 24.40403012442126,
+      "leg": "near",
+      "distance": 16400
+    },
+    {
+      "time": 24.65550828411052,
+      "leg": "far",
+      "distance": 16600
+    },
+    {
+      "time": 24.906195003891913,
+      "leg": "near",
+      "distance": 16800
+    },
+    {
+      "time": 25.156097709406982,
+      "leg": "far",
+      "distance": 17000
+    },
+    {
+      "time": 25.40522371090077,
+      "leg": "near",
+      "distance": 17200
+    },
+    {
+      "time": 25.653580205716842,
+      "leg": "far",
+      "distance": 17400
+    },
+    {
+      "time": 25.901174280723513,
+      "leg": "near",
+      "distance": 17600
+    },
+    {
+      "time": 26.148012914673394,
+      "leg": "far",
+      "distance": 17800
+    },
+    {
+      "time": 26.39410298049853,
+      "leg": "near",
+      "distance": 18000
+    },
+    {
+      "time": 26.63945124754331,
+      "leg": "far",
+      "distance": 18200
+    },
+    {
+      "time": 26.884064383737087,
+      "leg": "near",
+      "distance": 18400
+    },
+    {
+      "time": 27.127948957708668,
+      "leg": "far",
+      "distance": 18600
+    },
+    {
+      "time": 27.371111440844356,
+      "leg": "near",
+      "distance": 18800
+    },
+    {
+      "time": 27.613558209291533,
+      "leg": "far",
+      "distance": 19000
+    },
+    {
+      "time": 27.85529554590944,
+      "leg": "near",
+      "distance": 19200
+    },
+    {
+      "time": 28.096329642168918,
+      "leg": "far",
+      "distance": 19400
+    },
+    {
+      "time": 28.336666600002662,
+      "leg": "near",
+      "distance": 19600
+    },
+    {
+      "time": 28.576312433607644,
+      "leg": "far",
+      "distance": 19800
+    },
+    {
+      "time": 28.815273071201045,
+      "leg": "near",
+      "distance": 20000
+    },
+    {
+      "time": 29.0535543567314,
+      "leg": "far",
+      "distance": 20200
+    },
+    {
+      "time": 29.291162051546063,
+      "leg": "near",
+      "distance": 20400
+    },
+    {
+      "time": 29.52810183601664,
+      "leg": "far",
+      "distance": 20600
+    },
+    {
+      "time": 29.764379311123378,
+      "leg": "near",
+      "distance": 20800
+    },
+    {
+      "time": 30,
+      "leg": "far",
+      "distance": 21000
+    },
+    {
+      "time": 30.234969349440142,
+      "leg": "near",
+      "distance": 21200
+    }
+  ],
+  "sync": [
+    {
+      "era": 1,
+      "cut": 1,
+      "grab": 1.8333333333333333,
+      "headUp": 2.125,
+      "gulp": 2.2083333333333335,
+      "gone": 2.5
+    },
+    {
+      "era": 2,
+      "cut": 3.25,
+      "grab": 4.041666666666667,
+      "headUp": 4.333333333333333,
+      "gulp": 4.375,
+      "gone": 4.708333333333333
+    },
+    {
+      "era": 3,
+      "cut": 5.416666666666667,
+      "grab": 6.166666666666667,
+      "headUp": 6.458333333333333,
+      "gulp": 6.5,
+      "gone": 6.791666666666667
+    },
+    {
+      "era": 4,
+      "cut": 7.5,
+      "grab": 8.208333333333334,
+      "headUp": 8.5,
+      "gulp": 8.541666666666666,
+      "gone": 8.833333333333334
+    },
+    {
+      "era": 5,
+      "cut": 9.5,
+      "grab": 10.208333333333334,
+      "headUp": 10.5,
+      "gulp": 10.541666666666666,
+      "gone": 10.791666666666666
+    },
+    {
+      "era": 6,
+      "cut": 11.458333333333334,
+      "grab": 12.166666666666666,
+      "headUp": 12.416666666666666,
+      "gulp": 12.458333333333334,
+      "gone": 12.75
+    },
+    {
+      "era": 7,
+      "cut": 13.375,
+      "grab": 14.041666666666666,
+      "headUp": 14.333333333333334,
+      "gulp": 14.375,
+      "gone": 14.625
+    },
+    {
+      "era": 8,
+      "cut": 15.25,
+      "grab": 15.916666666666666,
+      "headUp": 16.166666666666668,
+      "gulp": 16.208333333333332,
+      "gone": 16.458333333333332
+    },
+    {
+      "era": 9,
+      "cut": 17.083333333333332,
+      "grab": 17.75,
+      "headUp": 18,
+      "gulp": 18.041666666666668,
+      "gone": 18.291666666666668
+    },
+    {
+      "era": 10,
+      "cut": 18.875,
+      "grab": 19.5,
+      "headUp": 19.75,
+      "gulp": 19.791666666666668,
+      "gone": 20.041666666666668
+    },
+    {
+      "era": 11,
+      "cut": 20.625,
+      "grab": 21.25,
+      "headUp": 21.5,
+      "gulp": 21.541666666666668,
+      "gone": 21.75
+    },
+    {
+      "era": 12,
+      "cut": 22.333333333333332,
+      "grab": 22.916666666666668,
+      "headUp": 23.166666666666668,
+      "gulp": 23.208333333333332,
+      "gone": 23.458333333333332
+    },
+    {
+      "era": 13,
+      "cut": 24,
+      "grab": 24.583333333333332,
+      "headUp": 24.833333333333332,
+      "gulp": 24.875,
+      "gone": 25.083333333333332
+    },
+    {
+      "era": 14,
+      "cut": 25.625,
+      "grab": 26.208333333333332,
+      "headUp": 26.416666666666668,
+      "gulp": 26.458333333333332,
+      "gone": 26.666666666666668
+    },
+    {
+      "era": 15,
+      "cut": 27.208333333333332,
+      "grab": 27.75,
+      "headUp": 28,
+      "gulp": 28.041666666666668,
+      "gone": 28.25
+    },
+    {
+      "era": 16,
+      "cut": 28.75,
+      "grab": 29.291666666666668,
+      "headUp": 29.5,
+      "gulp": 29.541666666666668,
+      "gone": 29.75
+    }
+  ],
+  "statistics": {
+    "peak": 0.87,
+    "rms": 0.13732718356465795,
+    "clipped": false
+  },
+  "attribution": "Original deterministic procedural composition and Foley; no external recordings",
+  "perception": "not listened"
+}

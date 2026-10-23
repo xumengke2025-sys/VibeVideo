@@ -1,0 +1,15 @@
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath}from'node:url';import{spawn}from'node:child_process';import{createHash}from'node:crypto';
+const root=path.dirname(fileURLToPath(import.meta.url));
+const ff=process.env.FFMPEG_PATH||'D:/ai项目/ai动画/node_modules/@remotion/compositor-win32-x64-msvc/ffmpeg.exe',fp=process.env.FFPROBE_PATH||ff.replace('ffmpeg.exe','ffprobe.exe');
+const base='scenic-laugh-v9',version='soundstage-v10',src=path.join(root,'out','final-'+base,'video.mp4'),out=path.join(root,'out','final-'+version);fs.mkdirSync(out,{recursive:true});
+const hash=b=>createHash('sha256').update(b).digest('hex');
+const run=(exe,args)=>new Promise((resolve,reject)=>{const p=spawn(exe,args,{windowsHide:true});const chunks=[],err=[];p.stdout.on('data',x=>chunks.push(x));p.stderr.on('data',x=>err.push(x));p.on('error',reject);p.on('close',code=>code?reject(Error(Buffer.concat(err).toString().slice(-2000))):resolve(Buffer.concat(chunks)));});
+const video=path.join(out,'video.mp4');
+await run(ff,['-v','error','-y','-i',src,'-i',path.join(root,'audio.wav'),'-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','256k','-t','36','-metadata','comment=Night heron recording: Sharad Apte CC BY-SA 4.0; Jingju percussion: ajaysm, Mi Tian, Ying Wan CC BY 4.0. Audiovisual adaptation CC BY-SA 4.0. See audio-assets/ATTRIBUTION.md','-movflags','+faststart',video]);
+const probe=JSON.parse((await run(fp,['-v','error','-show_streams','-show_format','-of','json',video])).toString());fs.writeFileSync(path.join(out,'ffprobe.json'),JSON.stringify(probe,null,2));
+await run(ff,['-v','error','-i',video,'-map','0:v:0','-map','0:a:0','-c:v','rawvideo','-threads:v','1','-c:a','pcm_s16le','-f','null','-']);
+const v=probe.streams.find(x=>x.codec_type==='video'),a=probe.streams.find(x=>x.codec_type==='audio');if(v.width!==1080||v.height!==1920||+v.nb_frames!==864||v.avg_frame_rate!=='24/1'||!a||a.channels!==2||Math.abs(+probe.format.duration-36)>.05)throw Error('Media mismatch');
+const videoPacketHash=async p=>hash(await run(ff,['-v','error','-i',p,'-map','0:v:0','-c:v','copy','-an','-f','h264','-']));
+const before=await videoPacketHash(src),after=await videoPacketHash(video);if(before!==after)throw Error('Unexpected visual stream change');
+const config={...JSON.parse(fs.readFileSync(path.join(path.dirname(src),'config.json'))),signature:hash(Buffer.concat(['audio.mjs','audio.wav','sound-events.json'].map(f=>fs.readFileSync(path.join(root,f))))),method:'copy unchanged v9 H.264 video stream; replace soundtrack',visualSource:src,visualSourceSha256:hash(fs.readFileSync(src))};fs.writeFileSync(path.join(out,'config.json'),JSON.stringify(config,null,2));
+const evidence={...config,video,sha256:hash(fs.readFileSync(video)),decoded:true,frames:864,audio:true,audioChannels:2,visualPacketHash:after,visualStreamIdentical:true,actualListening:false,delivery_mode:'user_feedback',errors:[]};fs.writeFileSync(path.join(out,'evidence.json'),JSON.stringify(evidence,null,2));console.log(JSON.stringify(evidence));

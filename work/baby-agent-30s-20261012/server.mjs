@@ -1,0 +1,4 @@
+import http from 'node:http';import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const root=path.dirname(fileURLToPath(import.meta.url));
+export const createServer=()=>http.createServer((req,res)=>{try{const rel=decodeURIComponent(new URL(req.url,'http://localhost').pathname).slice(1)||'index.html';const f=path.resolve(root,rel);if(!f.startsWith(root+path.sep))throw Error();res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.mjs':'text/javascript','.json':'application/json','.png':'image/png','.wav':'audio/wav','.mp4':'video/mp4'})[path.extname(f)]||'application/octet-stream');res.end(fs.readFileSync(f))}catch{res.writeHead(404);res.end('missing')}});
+if(process.argv[1]===fileURLToPath(import.meta.url)){const port=Number(process.argv[2]||8768);createServer().listen(port,'127.0.0.1',()=>console.log('http://127.0.0.1:'+port));}

@@ -1,12 +1,16 @@
-# 夜鹭的一天 · 皮影动画素材交接
+# 夜鹭的一天 · 当前检查点
 
-- objective: 用户于2026-10-12改为由本角色完成50秒1080×1920皮影动画，完成一个可播放成片及一轮AI审核。
-- delivery_mode: ai_review_once（用户已明确选择；沿用后续修改，不再询问）。
-- review_budget: 首次审核0/1，修复0/1；待交付版本完成后启用同一独立审片角色，当前未派。
-- 当前约束：所有角色动作遵循皮影关节、分拍、停顿；夜鹭伪装前后保持身份一致；带鱼回巢喂幼鸟；动作不能用整图拉伸、溶解替代。
-- 已完成：10张正式RGBA PNG；6张角色动作图集共26姿态、原夜鹭设定1张、鱼/桶/巢3张。早期不一致伪装稿排除；伸颈/接触图集修正贴边后使用-v2，旧版进入history。
-- 计划：50秒10镜头、15类动作、600个12fps动作节拍、1200条24fps输出帧记录；鱼归属在第340/524动作节拍切换。幼鸟延迟3节拍。
-- 检查：正式PNG已解码，具有透明与可见像素，外边缘无强alpha像素。30个素材姿态/道具裁切框检查无强alpha贴边；全部帧引用可解析，时间线完整。证据见asset-verification.json、pose-bounds.json、plan-validation.json。
-- 文件：制作计划.md、DeepSeek接手说明.md、asset-manifest.json、action-library.json、shot-plan.json、pose-timeline.json、frame-plan-1200.json、pose-anchors.json、prompts-final.json、素材预览.html。
-- 当前下一步：本角色在film/实现统一刚性皮影关节、锁脚步态、嘴鱼接触；先完成27–32秒关键样段，再扩展成片和原创动作音轨。用户已授权继续制作，无需联系DeepSeek。
-- 限制：当前是关键姿态与逐帧结构，不是1200张独立原画，也不是成片。生成姿态仍有羽纹/体态漂移、步行前后相位较相似；锚点是估计。制作方需复用躯干、校准支撑脚/嘴鱼接触、必要关节中间帧，再检验连续播放。未渲染视频、未生成音频、未声称视听验收。
+- objective: 完成36秒1080×1920皮影动画；按用户要求优化真实鸟叫与皮影戏锣鼓沉浸感。
+- delivery_mode: user_feedback。用户已切换直接修改，不再二次审片。
+- current_version: soundstage-v10
+- completed: 两个Sharad Apte夜鹭短叫，成人保留原音高，幼鸟轻度升调；三组一家三口呼应共享嘴部动作时钟。录音室板鼓、小锣、大锣与钹采样为主体，原创梆子与空气水声底、短立体声反射；184个事件。
+- protected: v9的36秒节奏、皮影角色、景片与连续动作全保留，H.264画面流哈希相同。
+- final: film/out/final-soundstage-v10/video.mp4，36秒、1080×1920、24fps、864帧、H.264 + AAC双声道。
+- SHA256: 2a86462d091d75ea5be0c5a45c4e736a92319406a0a598637f72973f06c9748e
+- verification: 完整画面及音频解码通过；画幅、帧率、帧数、时长、双声道通过；画面流等同v9。PCM峰值0.79、RMS 0.0573，无削波。
+- listening: 工具无实际音频感知，未声称听音或视听审核通过；不另派审片。
+- sources: film/audio-assets/ATTRIBUTION.md和sources.json保存许可、作者、下载URL、裁切区间与SHA256。同步改编影片和音轨CC BY-SA 4.0；第三方源码保留MIT。
+- delivery: delivery/soundstage-v10/，包含所用录音、PCM素材、三个分轨、事件表、源码、透明PNG、864帧关节数据与成片。
+- history: CHECKPOINT-HISTORY-through-v9.md及旧候选保留。
+- package_verification: 包内audio.mjs重建音轨与交付PCM的SHA256一致；素材完整。工程ZIP已生成，成片已展示。
+- next: 等待用户听看反馈，不新增独立审片。

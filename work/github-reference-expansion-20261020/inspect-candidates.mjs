@@ -1,0 +1,8 @@
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';import{execFile}from'node:child_process';import{promisify}from'node:util';
+const work=path.dirname(fileURLToPath(import.meta.url)),run=promisify(execFile);
+for(const name of ['delexw--kiteva','lumian2015--opus-5-5-video-templates','Neeraj138--navratri-opus-5.5-anim']){
+ const dir=path.join(work,'research',name),j=JSON.parse(fs.readFileSync(path.join(dir,'research.json'))),b=j.tree.tree.filter(x=>x.type==='blob');
+ console.log(JSON.stringify({repo:j.repo,groups:b.reduce((o,x)=>{const k=x.path.split('/').slice(0,2).join('/');o[k]=(o[k]||0)+(x.size||0);return o},{}),otherFilms:b.filter(x=>/\.(mp4|webm)$/i.test(x.path)&&!x.path.startsWith('assets/style-previews/style-')).map(x=>({p:x.path,n:x.size})).slice(0,15),symlinks:b.filter(x=>x.mode==='120000').length}));
+ const wanted=name.startsWith('delexw')?['assets/catalog/video-style-catalog.json','assets/style-previews/sources/style-001/index.html','assets/style-previews/manifest.json','docs/intro-video.md','LICENSE']:name.startsWith('lumian')?['templates/01-launch-paper/template.json','templates/01-launch-paper/index.html','templates/01-launch-paper/meta.json']:['README.md'];
+ await Promise.all(wanted.map(async p=>{if(!b.some(x=>x.path===p))return;const text=(await run('gh',['api','repos/'+j.repo+'/contents/'+p+'?ref='+j.commit,'-H','Accept: application/vnd.github.raw+json'],{timeout:60000,maxBuffer:8*1024*1024})).stdout;const dest=path.join(dir,'selected',p);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,text);}));
+}

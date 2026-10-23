@@ -1,0 +1,30 @@
+{
+  "version": "v13",
+  "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\暮河城-巴比伦巨城-Dream-of-Babylon-v13.mp4",
+  "sha256": "4a14a94c43bc0a9eb87e6424b06279d7999d4a37d5de1144877551cfc968996d",
+  "engineering": {
+    "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\暮河城-巴比伦巨城-Dream-of-Babylon-v13.mp4",
+    "sha256": "4a14a94c43bc0a9eb87e6424b06279d7999d4a37d5de1144877551cfc968996d",
+    "width": 1080,
+    "height": 1920,
+    "frame_rate": "24/1",
+    "frames": 1824,
+    "duration": 76.0,
+    "sample_rate": "48000",
+    "channels": 2,
+    "decode_exit": 0,
+    "decode_errors": "",
+    "audio_perceived": false,
+    "independent_review": "single-round budget already used; producer verification only"
+  },
+  "observations": "qa/v13/producer-observations-v13.json",
+  "independent_review": false,
+  "audio_perceived": false,
+  "limits": [
+    "Producer visual checks cover only the stated representatives and consecutive windows; not all 1824 frames were visually reviewed.",
+    "No new independent review; historical review does not certify this revised output.",
+    "Actual audio listening unavailable. Audio decode and track specifications were checked, but subjective music synchronization was not verified.",
+    "All encoded frames passed strong-green and isolated temporal-discontinuity detectors; subtle temporal shimmer is not ruled out.",
+    "Stylized fantasy miniature interpretation of Babylon rather than an archaeological reconstruction."
+  ]
+}

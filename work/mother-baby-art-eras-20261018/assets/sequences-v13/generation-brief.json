@@ -1,0 +1,105 @@
+{
+  "common": "Use case: illustration-story. Production animation asset, NOT a poster or concept image.\nCreate ONE transparent sprite contact sheet: EXACTLY 12 equal rectangular panels in a strict 4 columns by 3 rows grid, read left-to-right then top-to-bottom. Landscape canvas, 3:2 aspect if possible. Absolutely no grid lines, text, numbers, background scene, flowers or table. Real alpha background.\nEvery panel contains the SAME COMPLETE mother and INFANT pair, unchanged scale, anchor positions, camera and clothing. Infant LEFT, mother RIGHT, both seated very close and oriented toward each other, both whole bodies including heads, feet, hands always inside each panel with 10% clear margin. Mother sits on a low simple stool. Infant about 8 months old sits on a small cushion on ground: big round head, fine sparse short hair, tiny round body and short plump limbs, relaxed baby legs pointing forward, not a walking toddler. Infant seated height around 52% of mother's seated height. Mother's full head and hairstyle visible.\nUse the attached ORIGINAL cartoon reference for the specific faces: East Asian loving mother with long brown shoulder-length hair and round wire glasses, original cheerful round-faced baby with fine short brown hair, round cheeks and tiny nose. KEEP the original reference's gentle 2D storybook finish, warm colors, detailed appealing clothing and complete natural body drawing. Mother looks down toward baby, baby looks up toward mother or at shared object. Outfit, hair treatment, outlines and texture must be matched to the requested historical art style.\nEach panel is a subsequent small natural hand-drawn animation step of ONE action, NOT twelve unrelated poses. Coordinate eyes, smile, shoulders, torso, elbows, wrists and fingers together. Adjacent poses must have small deliberate changes. Both mother and infant have EXACTLY TWO ARMS and TWO HANDS each, naturally attached; no vestigial extra resting hands. Hands must actually touch objects when grasping them; objects never pass through body. No code-like cylindrical limbs. No 3D shading. Hold the stool and cushion locations perfectly fixed across all panels.\nTime mapping: panels 1–2 attentive start, 3–5 mother initiates, 6–8 infant responds/contact, 9–10 happy result, 11–12 gentle settling. Final posture close to initial attentive pose so a historical style change can happen smoothly.\nOutput should be a coherent professional hand-drawn animation sprite sheet, with each cell isolated by clear alpha gutters.",
+  "scenes": [
+    [
+      "00-cave",
+      "Prehistoric cave mural: earthy ochre and russet, charcoal hand-drawn contours, subtle rock pigment grain; mother in simple brown hide tunic, infant soft cream hide wrap. Keep cute recognizable faces.",
+      "Mother shows a small ochre handprint slab low between them. Baby reaches with ONE hand, touches the ochre patch, lifts palm and leaves a tiny handprint beside mother's print; mother beams, baby giggles; both settle. Slab held with mother's near hand while her far hand stays visibly on lap, not behind infant."
+    ],
+    [
+      "01-egypt",
+      "Ancient Egyptian wall painting: warm gold, turquoise, lapis accents, flattened decorative profile forms, soft parchment pigment; mother long ivory linen dress and turquoise gold collar/headband, baby simple ivory linen romper with tiny turquoise bib.",
+      "Mother unfolds a small papyrus scroll between them, infant watches, points one little finger to a simple painted blue bird; mother tilts papyrus toward baby, baby laughs, scroll folds slightly back and both settle."
+    ],
+    [
+      "02-greek",
+      "Ancient Greek black-figure pottery: terracotta orange, deep brown-black silhouettes with fine ochre incised pattern details. Faces remain gentle and recognizable, warm flat 2D, mother simple black chiton and wreath, infant cream short wrap with terracotta edging.",
+      "Mother slowly turns a small amphora in both hands, showing its painted bird. Infant reaches one hand to trace the bird, mother gently tilts pot within baby's reach, baby touches and smiles, hands then relax."
+    ],
+    [
+      "03-mosaic",
+      "Roman mosaic art: small colored stone tessera texture, warm cream, brick red and olive, flat readable 2D storybook silhouettes. Mother rust-red stola and pale shawl, baby cream tunic, patterned low Roman stool.",
+      "Mother offers one large safe square mosaic toy tile toward infant. Baby reaches, touches it while mother still supports it, then mother helps infant set the tile into a little 2x2 pattern resting on cushion beside baby's knee. Both look at completed pattern and smile."
+    ],
+    [
+      "04-dunhuang",
+      "Tang dynasty Dunhuang mural: muted mineral red, malachite green, ochre gold, elegant curved ink outlines and gentle wall pigment texture. Mother in modest long hanfu with soft ribbon sash, infant in cream wrap and green bib, no ornate headgear obscuring face.",
+      "Mother gently lifts one end of a short silk ribbon while baby holds the other end. Ribbon forms a small soft wave between them, baby giggles and gives one small tug, mother playfully follows the tug, both bring ribbon low. Only two arms each."
+    ],
+    [
+      "05-puppet",
+      "Traditional Chinese shadow puppet art: flat translucent amber and burgundy shapes, delicate pierced decorative edges and ink contours, still cute storybook faces. Mother modest red traditional gown, baby cream traditional belly bib and soft pants.",
+      "Mother animates ONE small friendly bird shadow-puppet on a short thin stick in near hand. Puppet bobs once toward baby. Baby notices, raises one little palm to wave hello, mother inclines her face toward baby, puppet bows, baby laughs, both settle."
+    ],
+    [
+      "06-gothic",
+      "Medieval illuminated manuscript: warm parchment, lapis blue, burgundy, tiny gold accents, fine ornamental ink contours, charming flat 2D. Mother modest burgundy medieval gown and soft headband, infant cream smock with blue bib.",
+      "Mother opens a small illustrated book resting partly on her knees and angled toward infant. Baby leans slightly toward it, points to a painted golden star on page, mother turns one page, baby pats the star lightly and grins, mother smiles down; book stays low, never in front of their faces."
+    ],
+    [
+      "07-renaissance",
+      "Early Renaissance tempera illustration rendered as cute flat 2D: soft warm ivory, vermilion, sage, fine pencil contour, delicate cloth folds. Mother modest sage and red Renaissance dress, baby cream romper and red bib.",
+      "Mother presents a small painter's palette low between them. Baby reaches one fingertip to a red paint dab, looks at the colored finger with delight, mother smiles and gently steadies the palette, baby makes one tiny dot on a little cream card near knees, both relax. No extra hands."
+    ],
+    [
+      "08-ink",
+      "Chinese ink wash: fine soft brush contour, translucent charcoal and pale sage washes with small cinnabar accents, rice-paper-like paint within subjects. Mother simple sage hanfu, baby pale cream traditional wrap. Flat 2D warm restrained.",
+      "Mother holds a small paper card in far hand and a short soft brush in near hand, both hands visible. She draws one leaf low between them. Baby leans with curiosity and touches ONE corner of the paper with a tiny inked fingertip, making a dot. Mother chuckles, baby grins, both settle; all props below faces."
+    ],
+    [
+      "09-impression",
+      "Impressionist storybook watercolor/gouache: dappled peach, mint, lavender, warm broken painted color; keep gentle clear 2D character edges. Mother pale coral garden dress and cream cardigan, infant cream romper with mint bib.",
+      "A small orange butterfly rests on mother's extended open palm between them. Infant watches with wide eyes, reaches one little open hand nearby, butterfly flutters once from mother's palm onto baby's fingertips, baby laughs quietly, mother leans slightly closer smiling, butterfly rests and both settle."
+    ],
+    [
+      "10-postimp",
+      "Post-impressionist storybook: bold flowing brush marks, sun-yellow and cobalt accents, russet ochre clothing, warm swirling colored texture contained inside silhouettes. Recognizable original mother glasses and infant face, flat 2D.",
+      "Mother holds a small golden star toy by a short soft cord between them, turns it slowly once so it catches warm light. Baby follows with head and eyes, reaches one little hand and touches the star, mother lowers it to baby's level, both smile; toy remains safely close, no dangling long cords."
+    ],
+    [
+      "11-nouveau",
+      "Art Nouveau 1900 illustration: flowing graceful contour lines, muted sage, dusty rose, warm cream, fine floral ornament ON clothing only. Mother high-neck rose dress with sage trim, infant cream romper with tiny leaf bib. Flat 2D.",
+      "Mother shows a small butterfly-shaped paper ornament, holding the lower stem. Infant reaches one little finger toward a wing, mother tilts it invitingly, baby brushes wing and it unfolds a little, both share delighted eye contact, ornament returns low. No background decorations."
+    ],
+    [
+      "12-cubism",
+      "Gentle Cubism 1910: flat warm ochre, terracotta, blue-green geometric planes INSIDE coherent anatomically intact cute bodies, clear simple faces with glasses, no fragmented limbs. Mother geometric ochre dress, infant cream romper with small teal triangles.",
+      "Mother offers one large soft triangular toy block, baby reaches and both touch it during handoff. Baby lowers the triangle onto a big square toy base beside knees, making a little house; mother softly points to finished roof and baby looks up proudly. Only one triangle and one base."
+    ],
+    [
+      "13-bauhaus",
+      "Bauhaus 1925 illustration: crisp flat 2D shapes, primary red blue yellow accents, warm cream and dark brown contours, rounded appealing anatomy. Mother coral blouse/navy skirt, infant cream onesie with small colored circle pattern.",
+      "Mother rolls ONE small soft red ball from her near hand along the shared cushion toward baby, baby's two hands open and scoop the ball, baby lifts it to tummy and beams, mother holds open palm encouragingly, baby rests ball on lap. Ball follows a short low continuous path, no airborne jump."
+    ],
+    [
+      "14-rubber",
+      "1930s rubber-hose animation, vintage warm ivory black and muted ochre, slightly grainy ink, classic curved expressive hand-drawn motion but anatomically coherent, mother long hair and round glasses, baby tiny round proportions.",
+      "Mother bounces one friendly round toy gently in her near hand in front of baby. Baby looks on and gives ONE slow delighted clap: hands approach, make contact once, then separate to rest on tummy; mother mirrors a delighted smile and leans slightly toward baby. No repeated clapping loop."
+    ],
+    [
+      "15-cutout",
+      "1940s paper cutout animation: layered flat colored paper textures, cream, terracotta, muted teal, soft handmade edges; complete natural 2D silhouettes. Mother red paper dress, infant cream and teal romper.",
+      "Mother folds a small paper bird in her two hands low between them; infant watches, raises one open palm, mother gently sets paper bird onto baby's palm while supporting it until stable; baby smiles and wiggles the wrist a little, paper wings bob, mother smiles and withdraws her hand."
+    ],
+    [
+      "16-pop",
+      "1960s Pop Art illustration: warm clean flat red yellow blue shapes, sparse comic halftone texture within clothing, bold tidy outlines, no text or speech bubbles. Mother red cardigan and blue skirt, infant cream yellow romper.",
+      "Mother hides ONLY the lower part of her smiling face behind a small yellow paper fan in near hand while looking at baby. Baby leans forward curious, mother lowers fan once for peekaboo, baby opens both palms and laughs, mother's far hand stays on lap. Fan settles low; faces never hidden for more than two panels."
+    ],
+    [
+      "17-pixel",
+      "1980s pixel art sprite animation: genuinely pixelated deliberate square pixel edges, limited warm cream coral teal ochre palette, mother long brown hair and round glasses, infant round large head and very short limbs, complete seated bodies.",
+      "Mother offers a large soft red heart toy low between them. Baby reaches one hand and taps the heart, mother and baby then lightly touch it together; heart gets a tiny golden sparkle, baby giggles, mother's smile widens, both lower hands gently. Heart is a physical pixel toy, not a floating UI icon."
+    ],
+    [
+      "18-watercolor",
+      "Warm hand-painted watercolor storybook with pencil contours, mother original red cardigan, cream blouse, navy trousers, infant cream floral romper and mint bib.",
+      "Mother and baby gently lift their own coffee mug and feeding bottle, make one sip, lower them, then exchange a warm smile. Both baby hands always grasp same bottle."
+    ],
+    [
+      "19-modern",
+      "Modern flat 2D picture-book illustration: warm coral, mint, cream and navy, clean graceful linework, subtle paper grain, complete rounded expressive figures. Mother original red cardigan/cream blouse/navy trousers, infant cream floral romper and mint bib.",
+      "Mother notices baby raising one open palm, leans forward a little and slowly raises her near palm. Their palms approach, meet gently once at baby's shoulder height, eyes meet and both smile, fingers gently part and both settle. Mother's other hand stays on her own lap, baby's other hand rests on cushion, no duplicate hands. No impact burst or aggressive slap."
+    ]
+  ]
+}

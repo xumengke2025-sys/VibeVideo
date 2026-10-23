@@ -1,0 +1,1415 @@
+{
+  "stats": {
+    "peak": 0.4423876448310903,
+    "rms": 0.030732294761964925,
+    "seconds": 64,
+    "channels": 2,
+    "sampleRate": 48000
+  },
+  "cues": [
+    {
+      "id": "arcole",
+      "start": 1.2,
+      "end": 12.7,
+      "text": "一七九六年，年轻的波拿巴在意大利成名。格罗把他画成举旗的英雄，传奇由此开场。",
+      "duration": 9.209524,
+      "file": "narration/00.wav",
+      "voice": "Microsoft Huihui Desktop",
+      "synthetic": true
+    },
+    {
+      "id": "jaffa",
+      "start": 16.1,
+      "end": 27.8,
+      "text": "三年后，东方远征遭遇瘟疫与挫折。雅法这幅画，却把他塑造成敢于靠近病人的领袖。",
+      "duration": 9.167982,
+      "file": "narration/01.wav",
+      "voice": "Microsoft Huihui Desktop",
+      "synthetic": true
+    },
+    {
+      "id": "brumaire",
+      "start": 28.4,
+      "end": 34.6,
+      "text": "回到法国，他发动雾月政变，成为第一执政。",
+      "duration": 4.830748,
+      "file": "narration/02.wav",
+      "voice": "Microsoft Huihui Desktop",
+      "synthetic": true
+    },
+    {
+      "id": "alps",
+      "start": 35.1,
+      "end": 46.8,
+      "text": "一八〇〇年，他翻越阿尔卑斯，再入意大利。现实中骑的是骡，大卫却让他驾驭昂首的白马。",
+      "duration": 9.662268,
+      "file": "narration/03.wav",
+      "voice": "Microsoft Huihui Desktop",
+      "synthetic": true
+    },
+    {
+      "id": "coronation",
+      "start": 51.1,
+      "end": 62.7,
+      "text": "一八〇四年，他成为皇帝，并为约瑟芬加冕。从军旗到皇冠，八年之间，名画也塑造了他的帝国传奇。",
+      "duration": 11.198685,
+      "file": "narration/04.wav",
+      "voice": "Microsoft Huihui Desktop",
+      "synthetic": true
+    }
+  ],
+  "events": [
+    {
+      "t": 0.2,
+      "len": 0.18577083333333333,
+      "gain": 0.18,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 0.47000000000000003,
+      "len": 0.209,
+      "gain": 0.108,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 0.6185,
+      "len": 0.1,
+      "gain": 0.063,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 0.74,
+      "len": 0.18577083333333333,
+      "gain": 0.108,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 1.01,
+      "len": 0.209,
+      "gain": 0.108,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 1.1585,
+      "len": 0.1,
+      "gain": 0.063,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 2,
+      "len": 0.18577083333333333,
+      "gain": 0.085,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 2.79,
+      "len": 0.209,
+      "gain": 0.051000000000000004,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 3.2245,
+      "len": 0.1,
+      "gain": 0.02975,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 3.58,
+      "len": 0.18577083333333333,
+      "gain": 0.051000000000000004,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 4.37,
+      "len": 0.209,
+      "gain": 0.051000000000000004,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 4.8045,
+      "len": 0.1,
+      "gain": 0.02975,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 5.16,
+      "len": 0.18577083333333333,
+      "gain": 0.085,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 5.95,
+      "len": 0.209,
+      "gain": 0.051000000000000004,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 6.3845,
+      "len": 0.1,
+      "gain": 0.02975,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 6.74,
+      "len": 0.18577083333333333,
+      "gain": 0.051000000000000004,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 7.53,
+      "len": 0.209,
+      "gain": 0.051000000000000004,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 7.9645,
+      "len": 0.1,
+      "gain": 0.02975,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 8.32,
+      "len": 0.18577083333333333,
+      "gain": 0.085,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 9.11,
+      "len": 0.209,
+      "gain": 0.051000000000000004,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 9.5445,
+      "len": 0.1,
+      "gain": 0.02975,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 9.899999999999999,
+      "len": 0.18577083333333333,
+      "gain": 0.051000000000000004,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 10.689999999999998,
+      "len": 0.209,
+      "gain": 0.051000000000000004,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 11.124499999999998,
+      "len": 0.1,
+      "gain": 0.02975,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 11.479999999999997,
+      "len": 0.18577083333333333,
+      "gain": 0.085,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 12.7,
+      "len": 0.209,
+      "gain": 0.14,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 12.95,
+      "len": 0.18577083333333333,
+      "gain": 0.084,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.087499999999999,
+      "len": 0.1,
+      "gain": 0.049,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.2,
+      "len": 0.209,
+      "gain": 0.084,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.45,
+      "len": 0.18577083333333333,
+      "gain": 0.084,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.587499999999999,
+      "len": 0.1,
+      "gain": 0.049,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.7,
+      "len": 0.209,
+      "gain": 0.14,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.95,
+      "len": 0.18577083333333333,
+      "gain": 0.084,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.087499999999999,
+      "len": 0.1,
+      "gain": 0.049,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.2,
+      "len": 0.209,
+      "gain": 0.084,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.45,
+      "len": 0.18577083333333333,
+      "gain": 0.084,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.587499999999999,
+      "len": 0.1,
+      "gain": 0.049,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.7,
+      "len": 0.209,
+      "gain": 0.14,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 14.95,
+      "len": 0.18577083333333333,
+      "gain": 0.084,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 15.087499999999999,
+      "len": 0.1,
+      "gain": 0.049,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 15.2,
+      "len": 0.209,
+      "gain": 0.084,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 15.45,
+      "len": 0.18577083333333333,
+      "gain": 0.084,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 15.587499999999999,
+      "len": 0.1,
+      "gain": 0.049,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 15.7,
+      "len": 0.209,
+      "gain": 0.14,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 17,
+      "len": 0.18577083333333333,
+      "gain": 0.045,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 17.95,
+      "len": 0.209,
+      "gain": 0.027,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 18.4725,
+      "len": 0.1,
+      "gain": 0.01575,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 18.9,
+      "len": 0.18577083333333333,
+      "gain": 0.027,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 19.849999999999998,
+      "len": 0.209,
+      "gain": 0.027,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 20.3725,
+      "len": 0.1,
+      "gain": 0.01575,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 20.799999999999997,
+      "len": 0.18577083333333333,
+      "gain": 0.045,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 22.5,
+      "len": 0.209,
+      "gain": 0.05,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 23.29,
+      "len": 0.18577083333333333,
+      "gain": 0.03,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 23.7245,
+      "len": 0.1,
+      "gain": 0.017499999999999998,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 24.08,
+      "len": 0.209,
+      "gain": 0.03,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 24.869999999999997,
+      "len": 0.18577083333333333,
+      "gain": 0.03,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 25.304499999999997,
+      "len": 0.1,
+      "gain": 0.017499999999999998,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 25.659999999999997,
+      "len": 0.209,
+      "gain": 0.05,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 26.449999999999996,
+      "len": 0.18577083333333333,
+      "gain": 0.03,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 26.884499999999996,
+      "len": 0.1,
+      "gain": 0.017499999999999998,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 28.4,
+      "len": 0.209,
+      "gain": 0.08,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 28.959999999999997,
+      "len": 0.18577083333333333,
+      "gain": 0.048,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 29.267999999999997,
+      "len": 0.1,
+      "gain": 0.027999999999999997,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 29.519999999999996,
+      "len": 0.209,
+      "gain": 0.048,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 30.079999999999995,
+      "len": 0.18577083333333333,
+      "gain": 0.048,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 30.387999999999995,
+      "len": 0.1,
+      "gain": 0.027999999999999997,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 30.639999999999993,
+      "len": 0.209,
+      "gain": 0.08,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 31.199999999999992,
+      "len": 0.18577083333333333,
+      "gain": 0.048,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 31.507999999999992,
+      "len": 0.1,
+      "gain": 0.027999999999999997,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 31.75999999999999,
+      "len": 0.209,
+      "gain": 0.048,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 32.31999999999999,
+      "len": 0.18577083333333333,
+      "gain": 0.048,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 32.62799999999999,
+      "len": 0.1,
+      "gain": 0.027999999999999997,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 32.879999999999995,
+      "len": 0.209,
+      "gain": 0.08,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 33.44,
+      "len": 0.18577083333333333,
+      "gain": 0.048,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 33.748,
+      "len": 0.1,
+      "gain": 0.027999999999999997,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 34,
+      "len": 0.209,
+      "gain": 0.048,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 35.5,
+      "len": 0.18577083333333333,
+      "gain": 0.115,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 35.94,
+      "len": 0.209,
+      "gain": 0.069,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 36.181999999999995,
+      "len": 0.1,
+      "gain": 0.04025,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 36.379999999999995,
+      "len": 0.18577083333333333,
+      "gain": 0.069,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 36.81999999999999,
+      "len": 0.209,
+      "gain": 0.069,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 37.06199999999999,
+      "len": 0.1,
+      "gain": 0.04025,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 37.25999999999999,
+      "len": 0.18577083333333333,
+      "gain": 0.115,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 37.69999999999999,
+      "len": 0.209,
+      "gain": 0.069,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 37.941999999999986,
+      "len": 0.1,
+      "gain": 0.04025,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 38.139999999999986,
+      "len": 0.18577083333333333,
+      "gain": 0.069,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 38.579999999999984,
+      "len": 0.209,
+      "gain": 0.069,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 38.82199999999998,
+      "len": 0.1,
+      "gain": 0.04025,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 39.01999999999998,
+      "len": 0.18577083333333333,
+      "gain": 0.115,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 39.45999999999998,
+      "len": 0.209,
+      "gain": 0.069,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 39.70199999999998,
+      "len": 0.1,
+      "gain": 0.04025,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 39.89999999999998,
+      "len": 0.18577083333333333,
+      "gain": 0.069,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 40.339999999999975,
+      "len": 0.209,
+      "gain": 0.069,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 40.58199999999997,
+      "len": 0.1,
+      "gain": 0.04025,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 40.77999999999997,
+      "len": 0.18577083333333333,
+      "gain": 0.115,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 41.21999999999997,
+      "len": 0.209,
+      "gain": 0.069,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 41.46199999999997,
+      "len": 0.1,
+      "gain": 0.04025,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 41.65999999999997,
+      "len": 0.18577083333333333,
+      "gain": 0.069,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 43,
+      "len": 0.209,
+      "gain": 0.07,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 43.66,
+      "len": 0.18577083333333333,
+      "gain": 0.042,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 44.022999999999996,
+      "len": 0.1,
+      "gain": 0.0245,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 44.31999999999999,
+      "len": 0.209,
+      "gain": 0.042,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 44.97999999999999,
+      "len": 0.18577083333333333,
+      "gain": 0.042,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 45.34299999999999,
+      "len": 0.1,
+      "gain": 0.0245,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 45.639999999999986,
+      "len": 0.209,
+      "gain": 0.07,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 47,
+      "len": 0.18577083333333333,
+      "gain": 0.145,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 47.24,
+      "len": 0.209,
+      "gain": 0.087,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 47.372,
+      "len": 0.1,
+      "gain": 0.050749999999999997,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 47.480000000000004,
+      "len": 0.18577083333333333,
+      "gain": 0.087,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 47.720000000000006,
+      "len": 0.209,
+      "gain": 0.087,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 47.852000000000004,
+      "len": 0.1,
+      "gain": 0.050749999999999997,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 47.96000000000001,
+      "len": 0.18577083333333333,
+      "gain": 0.145,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 48.20000000000001,
+      "len": 0.209,
+      "gain": 0.087,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 48.33200000000001,
+      "len": 0.1,
+      "gain": 0.050749999999999997,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 48.44000000000001,
+      "len": 0.18577083333333333,
+      "gain": 0.087,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 48.680000000000014,
+      "len": 0.209,
+      "gain": 0.087,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 48.81200000000001,
+      "len": 0.1,
+      "gain": 0.050749999999999997,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 48.920000000000016,
+      "len": 0.18577083333333333,
+      "gain": 0.145,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 49.16000000000002,
+      "len": 0.209,
+      "gain": 0.087,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 49.292000000000016,
+      "len": 0.1,
+      "gain": 0.050749999999999997,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 49.40000000000002,
+      "len": 0.18577083333333333,
+      "gain": 0.087,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 49.64000000000002,
+      "len": 0.209,
+      "gain": 0.087,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 49.77200000000002,
+      "len": 0.1,
+      "gain": 0.050749999999999997,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 49.880000000000024,
+      "len": 0.18577083333333333,
+      "gain": 0.145,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 50.120000000000026,
+      "len": 0.209,
+      "gain": 0.087,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 50.252000000000024,
+      "len": 0.1,
+      "gain": 0.050749999999999997,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 50.36000000000003,
+      "len": 0.18577083333333333,
+      "gain": 0.087,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 50.60000000000003,
+      "len": 0.209,
+      "gain": 0.087,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 50.73200000000003,
+      "len": 0.1,
+      "gain": 0.050749999999999997,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 52,
+      "len": 0.18577083333333333,
+      "gain": 0.067,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 52.83,
+      "len": 0.209,
+      "gain": 0.0402,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 53.2865,
+      "len": 0.1,
+      "gain": 0.02345,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 53.66,
+      "len": 0.18577083333333333,
+      "gain": 0.0402,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 54.489999999999995,
+      "len": 0.209,
+      "gain": 0.0402,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 54.94649999999999,
+      "len": 0.1,
+      "gain": 0.02345,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 55.31999999999999,
+      "len": 0.18577083333333333,
+      "gain": 0.067,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 56.14999999999999,
+      "len": 0.209,
+      "gain": 0.0402,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 56.60649999999999,
+      "len": 0.1,
+      "gain": 0.02345,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 56.97999999999999,
+      "len": 0.18577083333333333,
+      "gain": 0.0402,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 57.80999999999999,
+      "len": 0.209,
+      "gain": 0.0402,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 58.266499999999986,
+      "len": 0.1,
+      "gain": 0.02345,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 58.639999999999986,
+      "len": 0.18577083333333333,
+      "gain": 0.067,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 59.2,
+      "len": 0.209,
+      "gain": 0.11,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 59.71,
+      "len": 0.18577083333333333,
+      "gain": 0.066,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 59.990500000000004,
+      "len": 0.1,
+      "gain": 0.0385,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 60.22,
+      "len": 0.209,
+      "gain": 0.066,
+      "pan": -0.14,
+      "type": "drumB",
+      "bus": "percussion"
+    },
+    {
+      "t": 60.73,
+      "len": 0.18577083333333333,
+      "gain": 0.066,
+      "pan": -0.14,
+      "type": "drumA",
+      "bus": "percussion"
+    },
+    {
+      "t": 61.0105,
+      "len": 0.1,
+      "gain": 0.0385,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 0.12,
+      "len": 1.0332916666666667,
+      "gain": 0.18,
+      "pan": 0,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 5,
+      "len": 0.8,
+      "gain": 0.09,
+      "pan": 0,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 13.9,
+      "len": 1.7,
+      "gain": 0.18,
+      "pan": 0,
+      "type": "bigGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 23,
+      "len": 1.0332916666666667,
+      "gain": 0.075,
+      "pan": 0,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 32.7,
+      "len": 0.882375,
+      "gain": 0.1,
+      "pan": 0,
+      "type": "cymbal",
+      "bus": "percussion"
+    },
+    {
+      "t": 36,
+      "len": 1.8,
+      "gain": 0.15,
+      "pan": 0,
+      "type": "bigGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 48.8,
+      "len": 0.882375,
+      "gain": 0.16,
+      "pan": 0,
+      "type": "cymbal",
+      "bus": "percussion"
+    },
+    {
+      "t": 50.2,
+      "len": 2.8,
+      "gain": 0.19,
+      "pan": 0,
+      "type": "bigGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 56,
+      "len": 1.0332916666666667,
+      "gain": 0.12,
+      "pan": 0,
+      "type": "smallGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 61,
+      "len": 2.8,
+      "gain": 0.14,
+      "pan": 0,
+      "type": "bigGong",
+      "bus": "percussion"
+    },
+    {
+      "t": 0,
+      "len": 64,
+      "gain": 0.06,
+      "pan": 0,
+      "type": "stage_air",
+      "bus": "foley"
+    },
+    {
+      "t": 12.4,
+      "len": 4.700000000000001,
+      "gain": 0.18,
+      "pan": 0.1,
+      "type": "leather_sweep",
+      "bus": "foley"
+    },
+    {
+      "t": 28.4,
+      "len": 6.600000000000001,
+      "gain": 0.18,
+      "pan": 0.1,
+      "type": "leather_sweep",
+      "bus": "foley"
+    },
+    {
+      "t": 46.8,
+      "len": 4.900000000000006,
+      "gain": 0.18,
+      "pan": 0.1,
+      "type": "leather_sweep",
+      "bus": "foley"
+    },
+    {
+      "t": 35.15,
+      "len": 0.1,
+      "gain": 0.055,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 45.85,
+      "len": 0.1,
+      "gain": 0.075,
+      "pan": 0.1,
+      "type": "wood_clapper",
+      "bus": "percussion"
+    },
+    {
+      "t": 1.2,
+      "len": 9.209541666666667,
+      "gain": 0.62,
+      "pan": 0,
+      "type": "synthetic_narration",
+      "bus": "voice"
+    },
+    {
+      "t": 16.1,
+      "len": 9.168,
+      "gain": 0.62,
+      "pan": 0,
+      "type": "synthetic_narration",
+      "bus": "voice"
+    },
+    {
+      "t": 28.4,
+      "len": 4.83075,
+      "gain": 0.62,
+      "pan": 0,
+      "type": "synthetic_narration",
+      "bus": "voice"
+    },
+    {
+      "t": 35.1,
+      "len": 9.662270833333332,
+      "gain": 0.62,
+      "pan": 0,
+      "type": "synthetic_narration",
+      "bus": "voice"
+    },
+    {
+      "t": 51.1,
+      "len": 11.1986875,
+      "gain": 0.62,
+      "pan": 0,
+      "type": "synthetic_narration",
+      "bus": "voice"
+    }
+  ]
+}

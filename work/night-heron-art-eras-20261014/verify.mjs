@@ -1,0 +1,13 @@
+import fs from 'node:fs';import path from 'node:path';import http from 'node:http';import{fileURLToPath}from'node:url';import{createHash}from'node:crypto';import{chromium}from'../sand-journey-20261010/node_modules/playwright-core/index.mjs';
+const root=path.dirname(fileURLToPath(import.meta.url));
+const server=http.createServer((req,res)=>{try{const f=path.join(root,decodeURIComponent(new URL(req.url,'http://localhost').pathname));const p=fs.statSync(f).isDirectory()?path.join(f,'index.html'):f;res.setHeader('Content-Type',p.endsWith('.js')?'text/javascript':'text/html');fs.createReadStream(p).pipe(res)}catch{res.writeHead(404).end()}});await new Promise(r=>server.listen(0,'127.0.0.1',r));
+const url=`http://127.0.0.1:${server.address().port}/?render`,hash=b=>createHash('sha256').update(b).digest('hex');let browser;
+try{browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
+const p=await browser.newPage();await p.goto(url);await p.waitForFunction(()=>window.__ready);const assertions=[];
+const states=await p.evaluate(()=>{const list=[];for(let i=0;i<16;i++)for(const u of[.1,.40,.47,.63,.7,.78,.95])list.push(window.stateAt(2+i*2.25+u*2.25));return list});
+for(let i=0;i<16;i++){const rows=states.slice(i*7,(i+1)*7);for(let j=0;j<7;j++){const a=rows[j],b=states[j];if(Math.abs(a.tip.x-b.tip.x)>1e-8||Math.abs(a.tip.y-b.tip.y)>1e-8||a.owner!==b.owner)throw Error('Pose identity mismatch');}if(rows[0].owner!=='opponent'||rows[2].owner!=='heron'||rows[5].owner!=='consumed'||Math.abs(rows[2].tip.x-rows[2].fish.x)>1e-8||Math.abs(rows[2].tip.y-rows[2].fish.y)>1e-8)throw Error('Fish ownership or attachment mismatch');assertions.push({era:i+1,sharedPose:true,ownership:true,beakAttachment:true})}
+const png=async(page,t)=>{await page.evaluate(t=>window.renderAt(t),t);return hash(await page.evaluate(()=>document.querySelector('canvas').toDataURL()))};
+const times=[3.04,4.30,12.04,25.54,37.29],seek=[];
+for(const t of times){const a=await png(p,t);await png(p,38.5);const b=await png(p,t);const n=await browser.newPage();await n.goto(url);await n.waitForFunction(()=>window.__ready);const c=await png(n,t);await n.close();seek.push({t,unorderedEqual:a===b,freshPageEqual:a===c});if(a!==b||a!==c)throw Error('Seek pixels mismatch')}
+fs.writeFileSync(path.join(root,'out','film-v1','mechanism-checks.json'),JSON.stringify({assertions,seek,scope:'State equality, fish ownership and actual rendered pixel determinism; not aesthetic review or audio listening.'},null,2));console.log('16 eras share pose and attachment; five unordered/fresh-page pixel matches');
+}finally{if(browser)await browser.close();await new Promise(r=>server.close(r))}

@@ -1,0 +1,137 @@
+[
+  {
+    "name": "crayon-book",
+    "source": "D:\\ai项目\\ai动画\\VibeVideo项目\\reference-sources\\upstream-videos\\lemo-opuscar\\crayon-book.mp4",
+    "sha256": "c9240e146b34b9c4955972c0cadea7601dce2252b5124b337d4553f9e37745e2",
+    "duration": 52.0,
+    "source_size": [
+      1920,
+      1080
+    ],
+    "sample_times": [
+      0.5,
+      5.136,
+      9.773,
+      14.409,
+      19.045,
+      23.682,
+      28.318,
+      32.955,
+      37.591,
+      42.227,
+      46.864,
+      51.5
+    ],
+    "decoded_sample_width": 480,
+    "sheet": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\baby-reference-selection-20261013\\crayon-book-overview.jpg",
+    "evidence": "12 sampled stills across source; no realtime playback or audio listening"
+  },
+  {
+    "name": "midcentury-toon",
+    "source": "D:\\ai项目\\ai动画\\VibeVideo项目\\reference-sources\\upstream-videos\\lemo-opuscar\\midcentury-toon.mp4",
+    "sha256": "a73905d12f82a935d75413ef3415e51e5400b0a41dd45a132c2be55f43420ed6",
+    "duration": 40.0,
+    "source_size": [
+      1920,
+      1080
+    ],
+    "sample_times": [
+      0.5,
+      4.045,
+      7.591,
+      11.136,
+      14.682,
+      18.227,
+      21.773,
+      25.318,
+      28.864,
+      32.409,
+      35.955,
+      39.5
+    ],
+    "decoded_sample_width": 480,
+    "sheet": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\baby-reference-selection-20261013\\midcentury-toon-overview.jpg",
+    "evidence": "12 sampled stills across source; no realtime playback or audio listening"
+  },
+  {
+    "name": "watercolor",
+    "source": "D:\\ai项目\\ai动画\\VibeVideo项目\\reference-sources\\upstream-videos\\lemo-opuscar\\watercolor.mp4",
+    "sha256": "0c47ec6c9058fa0a3a84bb725c69a7fe891d25121e4b8f10b15dea1d779a4765",
+    "duration": 113.6,
+    "source_size": [
+      1920,
+      1080
+    ],
+    "sample_times": [
+      0.5,
+      10.736,
+      20.973,
+      31.209,
+      41.445,
+      51.682,
+      61.918,
+      72.155,
+      82.391,
+      92.627,
+      102.864,
+      113.1
+    ],
+    "decoded_sample_width": 480,
+    "sheet": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\baby-reference-selection-20261013\\watercolor-overview.jpg",
+    "evidence": "12 sampled stills across source; no realtime playback or audio listening"
+  },
+  {
+    "name": "clawd-prose",
+    "source": "D:\\ai项目\\ai动画\\VibeVideo项目\\reference-sources\\github-expansion-20261013\\az9713--opus-5.5-musical-cartoon\\clawd-prose\\out\\clawd-prose.mp4",
+    "sha256": "c3a8ff48d47565286c87c87de6474e37ee40b391bed7ce09afe5dae6b9b1af61",
+    "duration": 15.0,
+    "source_size": [
+      1920,
+      1080
+    ],
+    "sample_times": [
+      0.5,
+      1.773,
+      3.045,
+      4.318,
+      5.591,
+      6.864,
+      8.136,
+      9.409,
+      10.682,
+      11.955,
+      13.227,
+      14.5
+    ],
+    "decoded_sample_width": 480,
+    "sheet": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\baby-reference-selection-20261013\\clawd-prose-overview.jpg",
+    "evidence": "12 sampled stills across source; no realtime playback or audio listening"
+  },
+  {
+    "name": "clawd-goes-to-sea",
+    "source": "D:\\ai项目\\ai动画\\VibeVideo项目\\reference-sources\\github-expansion-20261011\\az9713--opus-5.5-builds\\builds\\02-clawd-goes-to-sea\\out\\clawd-goes-to-sea.mp4",
+    "sha256": "44a1c8569514317719dc5fd8403c2015786249ffa512371291684a7f9c0c19c3",
+    "duration": 150.000998,
+    "source_size": [
+      1280,
+      720
+    ],
+    "sample_times": [
+      0.5,
+      14.046,
+      27.591,
+      41.137,
+      54.682,
+      68.228,
+      81.773,
+      95.319,
+      108.864,
+      122.41,
+      135.955,
+      149.501
+    ],
+    "decoded_sample_width": 480,
+    "sheet": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\baby-reference-selection-20261013\\clawd-goes-to-sea-overview.jpg",
+    "evidence": "12 sampled stills across source; no realtime playback or audio listening"
+  }
+]

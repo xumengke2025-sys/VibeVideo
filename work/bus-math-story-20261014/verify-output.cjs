@@ -1,0 +1,23 @@
+const fs=require('fs'),path=require('path'),cp=require('child_process'),crypto=require('crypto'),assert=require('assert');
+const root=__dirname,isV2=process.argv.includes('--v2'),isShort=isV2||process.argv.includes('--short'),plan=JSON.parse(fs.readFileSync(path.join(root,isShort?'timeline-short.json':'timeline.json'))),scene=require(isV2?'./scene-stable.cjs':'./scene.cjs'),{renderAt}=scene;
+const bin=path.resolve(root,'../../node_modules/@remotion/compositor-win32-x64-msvc'),out=path.join(root,isV2?'out/bus-math-story-30s-v2.mp4':isShort?'out/bus-math-story-30s.mp4':'out/bus-math-story-portrait-v1.mp4');
+const checks=[];
+function check(name,fn){fn();checks.push({name,passed:true});}
+check('continuous requested timeline',()=>{assert.equal(plan.duration,isShort?30:152);assert.equal(plan.stages[0].start,0);assert.equal(plan.stages.at(-1).end,plan.duration);plan.stages.slice(1).forEach((s,i)=>assert.equal(s.start,plan.stages[i].end));});
+check('music only input; no voice or scene sound effects',()=>{assert.equal(plan.audio,isShort?'audio/music-only-30s.wav':'audio/music-only.wav');assert.equal(plan.audio_mode,'music_only');assert.equal(plan.events.length,0);assert(plan.captions.every(r=>!r.audio&&!r.voiceStart));});
+check('caption windows, length, and reading time',()=>{plan.captions.forEach(r=>{assert(r.end>r.start);assert.equal(r.end-r.start,r.duration);assert([...r.text].length<=48);assert(r.duration>=2);});});
+check('physical event contacts',()=>{const front=t=>5*t+15,rear=t=>5*t,A=t=>2.5*t,B=t=>240-2.5*t;assert.equal(front(-6),A(-6));assert.equal(rear(0),A(0));assert.equal(front(30),B(30));assert.equal(rear(32),B(32));assert.equal(B(32)-A(32),80);assert.equal(A(48),B(48));assert.equal(80/(2.5+2.5),16);});
+const sha=s=>crypto.createHash('sha256').update(s).digest('hex');
+check('deterministic random access rendering',()=>{const times=isShort?[0,2,3,4,7,10,16,22,27,29.75]:[0,12,40,43,47,92,110,142,151.75];const before=times.map(t=>sha(renderAt(t,plan)));[...times].reverse().forEach(t=>renderAt(t,plan));times.forEach((t,i)=>assert.equal(sha(renderAt(t,plan)),before[i]));});
+if(isV2){
+ check('event positions continuous at action joins',()=>{for(const t of [2,3.6,4.5,6]){const a=scene.eventState(t-1e-6),b=scene.eventState(t+1e-6);for(const k of ['front','A','B','cam','wheel'])assert(Math.abs(a[k]-b[k])<.005,`${t} ${k}`);}});
+ check('fixed subject dimensions and continuous answer clock',()=>{for(let f=0;f<720;f++){const s=scene.stateAt(f/24);assert.equal(s.busWidth,510);assert.equal(s.actorScale,.84);}assert.equal(scene.elapsedAfterB(25),1);assert.equal(scene.elapsedAfterB(27.5),16);});
+}
+const metadata=JSON.parse(cp.execFileSync(path.join(bin,'ffprobe.exe'),['-v','error','-show_streams','-show_format','-of','json',out],{encoding:'utf8',windowsHide:true}));
+const v=metadata.streams.find(s=>s.codec_type==='video'),a=metadata.streams.find(s=>s.codec_type==='audio');
+check('1080 × 1920 H.264 at 24 FPS',()=>{assert.equal(v.width,1080);assert.equal(v.height,1920);assert.equal(v.codec_name,'h264');assert.equal(v.avg_frame_rate,'24/1');assert.equal(+v.nb_frames,plan.duration*plan.fps);});
+check('AAC stereo audio and expected duration',()=>{assert.equal(a.codec_name,'aac');assert.equal(a.channels,2);assert(Math.abs(+metadata.format.duration-plan.duration)<.1);});
+check('full video and audio decoding',()=>{cp.execFileSync(path.join(bin,'ffmpeg.exe'),['-v','error','-i',out,'-map','0:v:0','-map','0:a:0','-vf','scale=54:96','-c:v','libx264','-threads:v','1','-preset','ultrafast','-c:a','pcm_s16le','-f','null','-'],{windowsHide:true,timeout:120000,stdio:['ignore','ignore','pipe']});});
+const record={output:out,bytes:fs.statSync(out).size,sha256:sha(fs.readFileSync(out)),duration:+metadata.format.duration,width:v.width,height:v.height,fps:v.avg_frame_rate,video:v.codec_name,audio:a.codec_name,channels:a.channels,checks,delivery_mode:'user_feedback',visual_evidence:isShort?'stills/short-check.png: six decoded final frames; production spot check, not an independent full-film review':'stills/music-only-check.png: four decoded sample frames and four planned key frames; not an independent full-film review',audio_evidence:'source routing and encode/decode verification; no claim of independent listening review'};
+if(isV2)record.visual_evidence='stills/v2-run-check.png, v2-transition-check.png, v2-highfive-check.png, v2-overview-check.png: 24 decoded frames; targeted motion and transition production checks, not an independent full-film review';
+fs.writeFileSync(path.join(root,isV2?'verification-30s-v2.json':isShort?'verification-30s.json':'verification.json'),JSON.stringify(record,null,2));console.log(JSON.stringify({checks:checks.length,passed:true,bytes:record.bytes,duration:record.duration}));

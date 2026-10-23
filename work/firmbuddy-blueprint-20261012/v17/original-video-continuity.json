@@ -1,0 +1,20 @@
+{
+  "base": "v16",
+  "base_hashes": {
+    "helpers.js": "58e4356ac4f1d19446556bc545add2f4e4744d25871340227dd7c58bec680146",
+    "intro.js": "c78e0404f86b4518bcf9f6ea221780f2efec29d8c0b755b1c6ec02e8d620e86f",
+    "scene-body.js": "b13337cf2f097d519a7c9896f06e6b235d790b089358633e2a3589e9100d30af",
+    "story.js": "422fefe7f29655c19d29a5abf10d951d9e35163b840cc06aca92041cb9c76536",
+    "film.js": "d0c718b9a4832c63207e3fd4c6089e951164e508cf7c4ec43a01f8852d50a37f",
+    "plan.json": "20f97d755e6760e6c426db3536e705ae4ee0583c204615a521852ae5b63b46e2",
+    "audio/mix.wav": "c95b5f9425d001159a6c27f8824c2f05e2c62e3f4c8f4da3bedb0014d1dc78e2"
+  },
+  "protected": [
+    "existing post-entry machinery",
+    "A01 case",
+    "industry atlas",
+    "knowledge categories",
+    "no voiceover",
+    "1920x1080"
+  ]
+}

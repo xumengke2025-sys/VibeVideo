@@ -1,0 +1,202 @@
+{
+  "video": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\暮河城-巴比伦巨城-Dream-of-Babylon-v9.mp4",
+  "sha256": "186f7d288d6929583b9aeae2097dfb639ed73622cc82cf4be1a78b4b7efabb81",
+  "engineering": "passed",
+  "specification": {
+    "width": 1080,
+    "height": 1920,
+    "duration": 56,
+    "fps": 24,
+    "decoded_frames": 1344,
+    "audio": "48kHz stereo"
+  },
+  "review": "incomplete",
+  "review_scope": "same reviewer, necessary local recheck after the one repair",
+  "coverage": {
+    "decoded_frames": 1344,
+    "decoded_frames_source": "parent full-decode report and provided frame-audit metadata; reviewer did not repeat full decode",
+    "visual_ranges": [
+      {
+        "start_frame": 144,
+        "end_frame": 203,
+        "evidence": [
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/opening-bridge-gate/atlas-000.jpg",
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/opening-bridge-gate/atlas-001.jpg"
+        ],
+        "method": "visual_contact_sheet_continuous_frames",
+        "observation": "Flat timber bridge decks and pier supports remain stable throughout the opening. Detail frame 168 shows deck ends meeting bank-side approaches without a visible water gap at the readable ends; some ends are occluded or outside frame. Hard cut at 192 enters the gate close-up with no intervening blank frame. Blur remains strongest in foreground and distance.",
+        "source_video_sha256": "186f7d288d6929583b9aeae2097dfb639ed73622cc82cf4be1a78b4b7efabb81",
+        "evidence_sha256": {
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/opening-bridge-gate/atlas-000.jpg": "54a47073e52edf269e54447159a58ba825e6d157aa7d39c6d4fad8ccc93eb08b",
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/opening-bridge-gate/atlas-001.jpg": "11935e9116e7c6f7a22bfa426eb74a6ae5eca520e9c7fdfb29862619db83bd5d"
+        }
+      },
+      {
+        "start_frame": 624,
+        "end_frame": 659,
+        "evidence": [
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/market-canal-cut/atlas-000.jpg",
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/market-canal-cut/atlas-001.jpg"
+        ],
+        "method": "visual_contact_sheet_continuous_frames",
+        "observation": "Market shot cuts directly to the canal at frame 639. Two loaded unrigged barges are visible and separate from the sailboat and banks; no blank or corrupted frame appears in the inspected cut. Cargo is stable across this window.",
+        "source_video_sha256": "186f7d288d6929583b9aeae2097dfb639ed73622cc82cf4be1a78b4b7efabb81",
+        "evidence_sha256": {
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/market-canal-cut/atlas-000.jpg": "f3f98682168b1ad957c4d83f15e722687cd42e1aa3a5a4103f29d05d32b5f49b",
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/market-canal-cut/atlas-001.jpg": "2181541b2565fce4095fa5c3d05bd56ee6dd960659ee38488d378058bcb44efc"
+        }
+      },
+      {
+        "start_frame": 728,
+        "end_frame": 775,
+        "evidence": [
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/cargo-barges/atlas-000.jpg",
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/cargo-barges/atlas-001.jpg"
+        ],
+        "method": "visual_contact_sheet_continuous_frames",
+        "observation": "Two unrigged cargo barges remain visibly separate and move consistently through the consecutive images. Detail 744 shows tied pale cargo bundles and boatmen seated/standing within the hulls; no obvious hull intersection or displaced cargo. Detached parallel timber-like bars are also visible in the upper-left river area.",
+        "source_video_sha256": "186f7d288d6929583b9aeae2097dfb639ed73622cc82cf4be1a78b4b7efabb81",
+        "evidence_sha256": {
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/cargo-barges/atlas-000.jpg": "56b2e5088b27f71daf68a420989d6af52180ebd77f2880012732b51a41f94c91",
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/cargo-barges/atlas-001.jpg": "83ca34a9f5038367736c1ad2a5ebf66327a24bf386b71bb7bbfcdb7b6233efff"
+        }
+      },
+      {
+        "start_frame": 840,
+        "end_frame": 875,
+        "evidence": [
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/atlas-000.jpg",
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/atlas-001.jpg"
+        ],
+        "method": "visual_contact_sheet_continuous_frames",
+        "observation": "The canal shot retains separated square-sail boats. Seven parallel timber-like bars are visibly isolated in the water, clearest in detail 852, without visible ties, hull or bank connection. The hard cut at 864 leads to a stable stepped garden scene without a blank intermediate frame.",
+        "source_video_sha256": "186f7d288d6929583b9aeae2097dfb639ed73622cc82cf4be1a78b4b7efabb81",
+        "evidence_sha256": {
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/atlas-000.jpg": "08b01deebf6ccec7ad5004781ecfa66011694eda4253acad6b23cfe88c9ed618",
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/atlas-001.jpg": "9bc6c02537e023bc17f14e637a6ba1335b49bd2b0d369c67ec2ac79cc5ba55fb"
+        }
+      },
+      {
+        "start_frame": 1216,
+        "end_frame": 1247,
+        "evidence": [
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/city-ending-cut/atlas-000.jpg",
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/city-ending-cut/atlas-001.jpg"
+        ],
+        "method": "visual_contact_sheet_continuous_frames",
+        "observation": "At frame 1216 the timber bridge and its bank approach are partly blurred at the bottom, without a visible detached endpoint. Frame 1224 cuts directly from the terrace to the city overview; the inspected subsequent overview retains flat bridges, river and central building layout without an anomalous transitional frame.",
+        "source_video_sha256": "186f7d288d6929583b9aeae2097dfb639ed73622cc82cf4be1a78b4b7efabb81",
+        "evidence_sha256": {
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/city-ending-cut/atlas-000.jpg": "fa67b628309c258cdf14183ccf06680d7d57faf5a33c20cec0e31fbb2b1b97c2",
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/city-ending-cut/atlas-001.jpg": "1870ede2cb3063afeadb9d36530b1b65884ae2af28e23dd3b6673afb0ceb8ca5"
+        }
+      }
+    ],
+    "visual_frame_count": 212,
+    "detail_frames": [
+      {
+        "frame": 168,
+        "seconds": 7,
+        "path": "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/opening-bridge-gate/frames/frame-000168.jpg",
+        "sha256": "a4d86eb6ba88ab7f35fb5120d7798be7c5d948a5ec38af749e79338586d800f1",
+        "method": "original_resolution_still_visual_inspection"
+      },
+      {
+        "frame": 744,
+        "seconds": 31,
+        "path": "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/cargo-barges/frames/frame-000744.jpg",
+        "sha256": "786997b4e6a24802eb7b450dbf7c7e56cfbcb1da169428c0419b97be4875966e",
+        "method": "original_resolution_still_visual_inspection"
+      },
+      {
+        "frame": 852,
+        "seconds": 35.5,
+        "path": "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/frames/frame-000852.jpg",
+        "sha256": "8b382c4b28ce86d3ac80f178db24db3c40b63fdc1249ac94f56282b60707a518",
+        "method": "original_resolution_still_visual_inspection"
+      },
+      {
+        "frame": 1216,
+        "seconds": 50.666666666666664,
+        "path": "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/city-ending-cut/frames/frame-001216.jpg",
+        "sha256": "9ca0055672f165f844e75c3bd0d2cec0c4c8847d1a0133729310ecf3fcac71a1",
+        "method": "original_resolution_still_visual_inspection"
+      }
+    ],
+    "unreviewed_frame_ranges": [
+      [
+        0,
+        143
+      ],
+      [
+        204,
+        623
+      ],
+      [
+        660,
+        727
+      ],
+      [
+        776,
+        839
+      ],
+      [
+        876,
+        1215
+      ],
+      [
+        1248,
+        1343
+      ]
+    ],
+    "realtime_viewed_ranges_seconds": [],
+    "audio_listened_ranges_seconds": [],
+    "audio_status": "pending",
+    "audio_perception": {
+      "tool": "no usable perceptible audio playback in this review",
+      "status": "unavailable",
+      "note": "No audio heard. Encoded AAC equivalence is not listening evidence."
+    }
+  },
+  "actual_audio_listening": "unavailable",
+  "repair_rounds_used": 1,
+  "max_repair_rounds": 1,
+  "source_freeze_verified": true,
+  "updated_at": "2026-10-21T05:43:17",
+  "remaining_findings": [
+    {
+      "id": "V9-LOCAL-01",
+      "severity": "minor",
+      "frame_ranges": [
+        [
+          728,
+          775
+        ],
+        [
+          840,
+          863
+        ]
+      ],
+      "time_ranges_seconds": [
+        [
+          30.333333,
+          32.291667
+        ],
+        [
+          35,
+          35.958333
+        ]
+      ],
+      "evidence": [
+        "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/cargo-barges/frames/frame-000744.jpg",
+        "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/frames/frame-000852.jpg",
+        "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/atlas-000.jpg"
+      ],
+      "observation": "Seven regularly spaced parallel timber-like bars appear isolated over/in the river; frame 852 (35.500 s) shows no visible connector to the neighboring boats, no raft bindings, and no bank attachment. This is a visible geometry/meaning ambiguity; its production cause is not established by the image.",
+      "impact": "The bars can read as detached boat components or an unfinished raft in the otherwise coherent miniature scene.",
+      "proposed_fix": "If revisited after user feedback, identify the intended object; connect/bind it as that object or remove unintended orphan geometry. No further repair is requested within the exhausted single-round budget.",
+      "recheck_status": "remaining_visible_in_v9",
+      "confidence": "high_for_visible_disconnection;unknown_for_intended_semantics"
+    }
+  ]
+}

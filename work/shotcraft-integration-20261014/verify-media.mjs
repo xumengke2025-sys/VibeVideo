@@ -1,0 +1,33 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import {spawnSync} from 'node:child_process';
+const task=path.resolve('work/shotcraft-integration-20261014');
+const wb='D:/Codex/skills/video-shotcraft/workbench';
+const bin=wb+'/node_modules/@remotion/compositor-win32-x64-msvc/';
+const aspect=process.argv[2];
+if(!['landscape','portrait'].includes(aspect))throw Error('Choose landscape or portrait');
+const job=JSON.parse(fs.readFileSync(`${task}/verification/${aspect}-export-job.json`));
+if(job.status!=='done')throw Error('Export has not completed');
+const source=path.resolve(wb,job.output);
+if(!source.startsWith(path.resolve(wb,'exports')+path.sep))throw Error('Invalid export path');
+const out=`${task}/verification/${aspect}-edited.mp4`;
+fs.copyFileSync(source,out);
+const run=(binary,args)=>{const r=spawnSync(bin+binary,args,{windowsHide:true,encoding:'utf8',maxBuffer:4*1024*1024});if(r.status!==0)throw Error(r.stderr||String(r.error));return r;};
+const probe=JSON.parse(run('ffprobe.exe',['-v','error','-show_streams','-show_format','-of','json',out]).stdout);
+const video=probe.streams.find(s=>s.codec_type==='video'),audio=probe.streams.find(s=>s.codec_type==='audio');
+const [width,height]=aspect==='landscape'?[1920,1080]:[1080,1920];
+if(video.width!==width||video.height!==height||video.nb_frames!=='90'||video.r_frame_rate!=='30/1'||Math.abs(Number(video.duration)-3)>0.01||audio?.codec_name!=='aac'||audio.sample_rate!=='48000'||Math.abs(Number(probe.format.duration)-3)>0.1)throw Error('Unexpected media metadata');
+run('ffmpeg.exe',['-v','error','-threads','1','-filter_threads','1','-i',out,'-threads','1','-c:v','rawvideo','-c:a','pcm_s16le','-f','null','-']);
+run('ffmpeg.exe',['-v','error','-threads','1','-i',out,'-frames:v','1','-threads','1','-update','1','-y',`${task}/verification/${aspect}-edited-first.png`]);
+const decodedAudio=spawnSync(bin+'ffmpeg.exe',['-v','error','-threads','1','-i',out,'-vn','-c:a','pcm_s16le','-f','wav','pipe:1'],{windowsHide:true,maxBuffer:20*1024*1024});
+if(decodedAudio.status!==0)throw Error(decodedAudio.stderr?.toString());
+const wav=decodedAudio.stdout;let pcm;
+for(let offset=12;offset+8<=wav.length;){const chunk=wav.toString('ascii',offset,offset+4),len=wav.readUInt32LE(offset+4);if(chunk==='data'){pcm=wav.subarray(offset+8,Math.min(wav.length,offset+8+len));break;}offset+=8+len+(len%2);}
+if(!pcm?.length)throw Error('No decoded PCM audio');
+let squared=0,maximum=0;for(let i=0;i+1<pcm.length;i+=2){const value=pcm.readInt16LE(i)/32768;squared+=value*value;maximum=Math.max(maximum,Math.abs(value));}
+const mean=20*Math.log10(Math.sqrt(squared/(pcm.length/2))),peak=20*Math.log10(maximum);
+if(!Number.isFinite(mean)||!Number.isFinite(peak)||peak<-70)throw Error('Test audio is missing/silent');
+const report={aspect,path:out,sha256:crypto.createHash('sha256').update(fs.readFileSync(out)).digest('hex'),video:{width,height,frames:video.nb_frames,duration:video.duration,fps:video.r_frame_rate},audio:{codec:audio.codec_name,sample_rate:audio.sample_rate,meanDb:mean,peakDb:peak},containerDuration:probe.format.duration,fullDecodePassed:true,editedProps:JSON.parse(fs.readFileSync(`${task}/verification/${aspect}-edited-props.json`)),visualAudit:'First exported frame must be inspected separately; technical internal sample only.',audioAudit:'Not listened; technical synthetic tone check only.'};
+fs.writeFileSync(`${task}/verification/${aspect}-media.json`,JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify({aspect,width,height,frames:90,videoSeconds:video.duration,containerSeconds:probe.format.duration,fullDecodePassed:true,audioPeak:peak}));

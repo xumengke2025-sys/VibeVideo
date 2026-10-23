@@ -1,0 +1,11 @@
+{
+  "reference": "lemomo-ai/lemo-opuscar/styles/blueprint",
+  "commit": "e3cb16f63768c68693ff0e15171d6e755457cc32",
+  "read_evidence": "Prior V5 STYLE.md 6–119, demo/film.js 1–210, demo/machine.js 1–210; V6 planning reread film.js 1–42. Historical reference still 18s and 16–20s at 3fps; no claim of new full original-film playback.",
+  "kept": ["world-space cyanotype shader and technical line engine", "gear phase from pitch-circle ratio", "section reveal exposes existing internal drawers", "technical depth, shafts, bearings and trusses"],
+  "replaced": ["hard-cut camera sections replaced by one C2 quintic Hermite track", "socket grid replaced by stepped semicircular expert auditorium", "invented expert categories replaced by nine system business domains", "compressed central machine replaced by separated stations with connected rails"],
+  "concepts": "../concepts/v6-stages/production-handoff.json; final map 07-reveal-corrected.png",
+  "raster_concept_usage": "Visual reference only; every frame is generated from line geometry and procedural paper, not camera motion across generated images.",
+  "product_evidence": "../product-reassessment-20261013.json and web/js/expert-classification.mjs",
+  "license": "vendor/LICENSE-Lemo"
+}

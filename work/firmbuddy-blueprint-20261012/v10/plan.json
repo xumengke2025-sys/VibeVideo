@@ -1,0 +1,518 @@
+{
+  "duration": 52,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "world": [
+    8200,
+    4800
+  ],
+  "delivery_mode": "ai_review_once",
+  "review_budget": "already_used",
+  "source_categories": [
+    "投行业务",
+    "机构业务",
+    "财富业务",
+    "资管业务",
+    "国际业务",
+    "投资业务",
+    "期货与衍生品",
+    "行业研究",
+    "综合专家"
+  ],
+  "camera_rules": [
+    "One absolute-time world-space path; no per-shot camera resets.",
+    "C1 continuity at all joins, preferably C2 during travel; interpolate zoom in log domain.",
+    "Only planned reading holds reduce velocity to zero; no default stop/start at every phase.",
+    "Rounded paths with tangent continuity; no instantaneous 90-degree turns.",
+    "Track subject ahead into destination; shared anchor stays visible throughout handoff.",
+    "Keep paper texture in world coordinates; text projected from real anchors.",
+    "Concepts cannot certify motion smoothness; later validate critical 16–31s dynamic segment and every boundary."
+  ],
+  "revision": "V10 general opportunity opening",
+  "shots": [
+    {
+      "id": "01-input",
+      "name": "客户池与三种业务入口",
+      "start": 0,
+      "end": 5,
+      "action": "AI理解问题并调用专业工具；商机查询、业务问题答疑、客户拜访准备三个通用入口。后续以减持商机为业务示例。",
+      "camera": "先看三入口，沿查询载纸向右跟随，逐步靠近筛选器。",
+      "handoff": "请求载纸与向右主轨持续可见，下一镜复用相同位置与速度。",
+      "anchor": "有切角与圆孔的请求载纸",
+      "voiceover": "",
+      "establish": "Discover existing station in one continuous world",
+      "change": "AI理解问题并调用专业工具；商机查询、业务问题答疑、客户拜访准备三个通用入口。后续以减持商机为业务示例。",
+      "result": "请求载纸与向右主轨持续可见，下一镜复用相同位置与速度。",
+      "understanding": "AI理解问题并调用专业工具；商机查询、业务问题答疑、客户拜访准备三个通用入口。后续以减持商机为业务示例。"
+    },
+    {
+      "id": "02-signal",
+      "name": "减持商机示例：前置信号扫描",
+      "start": 5,
+      "end": 10,
+      "action": "确定性规则扫描上市公司和股东资料；AI 解读前置信号及原文依据，形成重点客户研判，保留触达、观察、暂缓三类业务动作。",
+      "camera": "沿主轨向右移动至扫描接触处，减速读状态，再沿出口离开。",
+      "handoff": "筛选输出沿同一水平轨道送向会场，轨道保持向右。",
+      "anchor": "同一请求载纸与筛选出口",
+      "voiceover": "",
+      "establish": "Discover existing station in one continuous world",
+      "change": "确定性规则扫描上市公司和股东资料；AI 解读前置信号及原文依据，形成重点客户研判，保留触达、观察、暂缓三类业务动作。",
+      "result": "筛选输出沿同一水平轨道送向会场，轨道保持向右。",
+      "understanding": "确定性规则扫描上市公司和股东资料；AI 解读前置信号及原文依据，形成重点客户研判，保留触达、观察、暂缓三类业务动作。"
+    },
+    {
+      "id": "03-experts",
+      "name": "专家协作与研判",
+      "start": 10,
+      "end": 18,
+      "action": "九业务分类的专业化AI专家团；知识装备、业务方法、培养试炼依次接入专家席位；股东增减持、解禁预警、拜访策略专家点亮，AI 汇总多专业研判。",
+      "camera": "顺着来轨进入会场，略退开见全席，再平顺推近中央会商处。",
+      "handoff": "中央核查点沿可见证据支路向左下进入知识库，镜头先保留会场弧边再向下移。",
+      "anchor": "请求载纸停入中央讨论席",
+      "voiceover": "",
+      "establish": "Discover existing station in one continuous world",
+      "change": "九业务分类的专业化AI专家团；知识装备、业务方法、培养试炼依次接入专家席位；股东增减持、解禁预警、拜访策略专家点亮，AI 汇总多专业研判。",
+      "result": "中央核查点沿可见证据支路向左下进入知识库，镜头先保留会场弧边再向下移。",
+      "understanding": "九业务分类的专业化AI专家团；知识装备、业务方法、培养试炼依次接入专家席位；股东增减持、解禁预警、拜访策略专家点亮，AI 汇总多专业研判。"
+    },
+    {
+      "id": "04-knowledge",
+      "name": "知识装备与客户分型",
+      "start": 18,
+      "end": 28,
+      "action": "六槽知识装备：核心规范、监管规则、产品能力、案例经验、研究资料、补充资料。AI 按专业范围检索，交叉查证历史执行和市场观察，辅助客户分型，引用可定位原文。",
+      "camera": "从会场弧边沿证据支路向左下移动，剖切开始后停稳；跟随资料抽出轻推。",
+      "handoff": "研判结果进入右侧长导轨，带镜头向右进入触达策略台。",
+      "anchor": "沿证据支路移动的引用前沿与既有资料页",
+      "voiceover": "",
+      "establish": "Discover existing station in one continuous world",
+      "change": "六槽知识装备：核心规范、监管规则、产品能力、案例经验、研究资料、补充资料。AI 按专业范围检索，交叉查证历史执行和市场观察，辅助客户分型，引用可定位原文。",
+      "result": "研判结果进入右侧长导轨，带镜头向右进入触达策略台。",
+      "understanding": "六槽知识装备：核心规范、监管规则、产品能力、案例经验、研究资料、补充资料。AI 按专业范围检索，交叉查证历史执行和市场观察，辅助客户分型，引用可定位原文。"
+    },
+    {
+      "id": "05-output",
+      "name": "生成触达策略",
+      "start": 28,
+      "end": 37,
+      "action": "AI 编排触达策略，生成联系时机、负责人建议、开场话术、沟通重点、合规要点和跟进节奏，按需形成可执行成果。",
+      "camera": "与滑块并行向右跟拍，接触页面时减速停稳，随后略拉开见成果出口。",
+      "handoff": "成果页右侧延伸同一机架，提前露出确认锁扣，镜头顺势继续向右。",
+      "anchor": "承载触达时机判断的导轨滑块",
+      "voiceover": "",
+      "establish": "Discover existing station in one continuous world",
+      "change": "AI 编排触达策略，生成联系时机、负责人建议、开场话术、沟通重点、合规要点和跟进节奏，按需形成可执行成果。",
+      "result": "成果页右侧延伸同一机架，提前露出确认锁扣，镜头顺势继续向右。",
+      "understanding": "AI 编排触达策略，生成联系时机、负责人建议、开场话术、沟通重点、合规要点和跟进节奏，按需形成可执行成果。"
+    },
+    {
+      "id": "06-feedback",
+      "name": "人工确认与商机中心",
+      "start": 37,
+      "end": 44,
+      "action": "人工审核将减持线索纳入商机中心；触达记录进入反馈回路，AI 辅助复评，业务人员沟通需求、匹配服务并推进合作。",
+      "camera": "从成果页平移到锁扣，确认后跟随记录沿圆弧下弯，平滑转向底部回路。",
+      "handoff": "圆弧提前变缓并逐渐拉远，原记录保持在画面中直到整机结构可辨。",
+      "anchor": "用户确认锁扣与新跟进记录",
+      "voiceover": "",
+      "establish": "Discover existing station in one continuous world",
+      "change": "人工审核将减持线索纳入商机中心；触达记录进入反馈回路，AI 辅助复评，业务人员沟通需求、匹配服务并推进合作。",
+      "result": "圆弧提前变缓并逐渐拉远，原记录保持在画面中直到整机结构可辨。",
+      "understanding": "人工审核将减持线索纳入商机中心；触达记录进入反馈回路，AI 辅助复评，业务人员沟通需求、匹配服务并推进合作。"
+    },
+    {
+      "id": "07-reveal",
+      "name": "同图全景与品牌",
+      "start": 44,
+      "end": 52,
+      "action": "连续拉远揭示专业专家团、知识装备库、工具与业务流程组成的一台整机；专业知识驱动，让AI贯穿客户经营。",
+      "camera": "从右下回路连续拉远并移向图纸中心；后段只小幅靠近标题栏，不再突然大倍率推进。",
+      "handoff": "末尾保持约1.8秒稳定品牌画面，音乐收束。",
+      "anchor": "外围反馈载纸与整机共同机架",
+      "voiceover": "",
+      "establish": "Discover existing station in one continuous world",
+      "change": "连续拉远揭示专业专家团、知识装备库、工具与业务流程组成的一台整机；专业知识驱动，让AI贯穿客户经营。",
+      "result": "末尾保持约1.8秒稳定品牌画面，音乐收束。",
+      "understanding": "连续拉远揭示专业专家团、知识装备库、工具与业务流程组成的一台整机；专业知识驱动，让AI贯穿客户经营。"
+    }
+  ],
+  "reading_windows": [
+    [
+      0.6,
+      2.9
+    ],
+    [
+      6.6,
+      8.25
+    ],
+    [
+      14,
+      16.1
+    ],
+    [
+      23.7,
+      25.6
+    ],
+    [
+      32.7,
+      34.7
+    ],
+    [
+      39.5,
+      40.1
+    ],
+    [
+      48.4,
+      51.9
+    ]
+  ],
+  "concepts": "concepts/v6-stages/production-handoff.json",
+  "source_reference": {
+    "repository": "lemomo-ai/lemo-opuscar",
+    "commit": "e3cb16f63768c68693ff0e15171d6e755457cc32"
+  },
+  "truth_limits": [
+    "Illustrative workflow, not live system execution",
+    "Nine business domains; individual selected experts are not domain names",
+    "Knowledge preconfigured; retrieval does not imply automatic training",
+    "Outputs are available by need, not all automatically generated",
+    "Precontact signal is not confirmed reduction demand or individual reduction probability",
+    "Contact/watch/hold depends on evidence, customer segment and counter-signals",
+    "Human confirmation to track a precursor candidate does not confirm a reduction intention",
+    "The displayed existing-holder/contact example is illustrative, not an actual scan or live opportunity"
+  ],
+  "soundtrack": {
+    "master_clock": "visual action events; musical phrases fit their anchor times",
+    "voiceover": false,
+    "narration_captions": false,
+    "sample_rate": 48000,
+    "style": "Original instrumental electronic groove, warm analog bass, precision percussion, D minor harmony",
+    "phrases": [
+      {
+        "start": 1.2,
+        "end": 12.1,
+        "beats": 28,
+        "name": "input to experts"
+      },
+      {
+        "start": 12.1,
+        "end": 21.4,
+        "beats": 24,
+        "name": "expert relay to evidence"
+      },
+      {
+        "start": 21.4,
+        "end": 31.2,
+        "beats": 24,
+        "name": "evidence to question"
+      },
+      {
+        "start": 31.2,
+        "end": 37.9,
+        "beats": 16,
+        "name": "outputs to confirmation"
+      },
+      {
+        "start": 37.9,
+        "end": 47.5,
+        "beats": 24,
+        "name": "feedback to whole machine"
+      },
+      {
+        "start": 47.5,
+        "end": 50.4,
+        "beats": 8,
+        "name": "brand resolution"
+      }
+    ],
+    "events": [
+      {
+        "id": "entry-one",
+        "at": 0.2,
+        "action": "商机入口描绘",
+        "sound": "tick"
+      },
+      {
+        "id": "entry-two",
+        "at": 0.36,
+        "action": "疑问入口描绘",
+        "sound": "tick"
+      },
+      {
+        "id": "entry-three",
+        "at": 0.52,
+        "action": "拜访入口描绘",
+        "sound": "tick"
+      },
+      {
+        "id": "paper-enter",
+        "at": 1.2,
+        "action": "示例客户信息载纸进入",
+        "sound": "downbeat"
+      },
+      {
+        "id": "scan",
+        "at": 5.1,
+        "action": "扫描减持前置信号",
+        "sound": "accent"
+      },
+      {
+        "id": "expert-one",
+        "at": 12.1,
+        "action": "股东增减持专家亮起",
+        "sound": "relay",
+        "note": 74
+      },
+      {
+        "id": "expert-two",
+        "at": 12.5,
+        "action": "解禁预警专家亮起",
+        "sound": "relay",
+        "note": 77
+      },
+      {
+        "id": "expert-three",
+        "at": 12.9,
+        "action": "拜访策略专家亮起",
+        "sound": "relay",
+        "note": 81
+      },
+      {
+        "id": "opinion-one",
+        "at": 14,
+        "action": "意见一汇入",
+        "sound": "relay",
+        "note": 69
+      },
+      {
+        "id": "opinion-two",
+        "at": 14.4,
+        "action": "意见二汇入",
+        "sound": "relay",
+        "note": 72
+      },
+      {
+        "id": "opinion-three",
+        "at": 14.8,
+        "action": "意见三汇入",
+        "sound": "relay",
+        "note": 77
+      },
+      {
+        "id": "archive-travel",
+        "at": 16.3,
+        "action": "沿支路进入知识库",
+        "sound": "travel"
+      },
+      {
+        "id": "evidence-extract",
+        "at": 21.4,
+        "action": "抽出信号解释卡",
+        "sound": "downbeat"
+      },
+      {
+        "id": "gap-reveal",
+        "at": 22.5,
+        "action": "历史执行与市场观察示例依据出现",
+        "sound": "tick"
+      },
+      {
+        "id": "evidence-result",
+        "at": 23.4,
+        "action": "客户分型与触达研判出现",
+        "sound": "accent"
+      },
+      {
+        "id": "output-travel",
+        "at": 25.8,
+        "action": "研判送向触达策略台",
+        "sound": "travel"
+      },
+      {
+        "id": "slider-travel",
+        "at": 29.4,
+        "action": "触达时机滑块移动",
+        "sound": "travel"
+      },
+      {
+        "id": "slider-lock",
+        "at": 31.2,
+        "action": "滑块落定成为联系时间与触达人",
+        "sound": "drop"
+      },
+      {
+        "id": "output-one",
+        "at": 32.8,
+        "action": "成果口一出现",
+        "sound": "relay",
+        "note": 74
+      },
+      {
+        "id": "output-two",
+        "at": 33,
+        "action": "成果口二出现",
+        "sound": "relay",
+        "note": 77
+      },
+      {
+        "id": "output-three",
+        "at": 33.2,
+        "action": "成果口三出现",
+        "sound": "relay",
+        "note": 81
+      },
+      {
+        "id": "confirm-lock",
+        "at": 37.9,
+        "action": "人工确认纳入商机中心",
+        "sound": "drop"
+      },
+      {
+        "id": "task-create",
+        "at": 38.3,
+        "action": "减持候选跟进出现",
+        "sound": "tick"
+      },
+      {
+        "id": "feedback-travel",
+        "at": 40.3,
+        "action": "触达记录沿轨道返回",
+        "sound": "travel"
+      },
+      {
+        "id": "machine-reveal",
+        "at": 44,
+        "action": "全景关系标注",
+        "sound": "accent"
+      },
+      {
+        "id": "brand-complete",
+        "at": 46.8,
+        "action": "品牌标题栏完成",
+        "sound": "accent"
+      },
+      {
+        "id": "pullback-complete",
+        "at": 47.5,
+        "action": "整机拉远完成",
+        "sound": "drop"
+      },
+      {
+        "id": "ending-hold",
+        "at": 50.4,
+        "action": "稳定结尾",
+        "sound": "resolve"
+      }
+    ],
+    "breaks": [
+      [
+        30.99,
+        31.2
+      ],
+      [
+        37.67,
+        37.9
+      ],
+      [
+        47.27,
+        47.5
+      ]
+    ],
+    "density": [
+      {
+        "start": 0,
+        "end": 1.2,
+        "gain": 0.2,
+        "name": "mechanical count-in"
+      },
+      {
+        "start": 1.2,
+        "end": 12.1,
+        "gain": 0.82,
+        "name": "forward groove"
+      },
+      {
+        "start": 12.1,
+        "end": 16.3,
+        "gain": 0.52,
+        "name": "expert relay foreground"
+      },
+      {
+        "start": 16.3,
+        "end": 21.4,
+        "gain": 0.95,
+        "name": "camera travel build"
+      },
+      {
+        "start": 21.4,
+        "end": 25.8,
+        "gain": 0.48,
+        "name": "evidence reading space"
+      },
+      {
+        "start": 25.8,
+        "end": 31.2,
+        "gain": 1,
+        "name": "output build"
+      },
+      {
+        "start": 31.2,
+        "end": 35,
+        "gain": 0.74,
+        "name": "outputs"
+      },
+      {
+        "start": 35,
+        "end": 37.9,
+        "gain": 1,
+        "name": "confirmation build"
+      },
+      {
+        "start": 37.9,
+        "end": 44,
+        "gain": 0.84,
+        "name": "feedback groove"
+      },
+      {
+        "start": 44,
+        "end": 47.5,
+        "gain": 1,
+        "name": "whole-machine lift"
+      },
+      {
+        "start": 47.5,
+        "end": 50.4,
+        "gain": 0.78,
+        "name": "brand cadence"
+      },
+      {
+        "start": 50.4,
+        "end": 52,
+        "gain": 0.18,
+        "name": "final decay"
+      }
+    ]
+  },
+  "professional_expert_basis": [
+    "专业角色与业务方法",
+    "版本化知识装备",
+    "材料驱动培养",
+    "试炼和人工发布"
+  ],
+  "ai_workflow": [
+    "理解问题和调用工具",
+    "解读扫描结果",
+    "专业专家协作研判",
+    "检索与交叉查证",
+    "辅助客户分型",
+    "生成行动成果",
+    "记录反馈与辅助复评"
+  ],
+  "facts": {
+    "training": "知识装备、专业工作协议与培养试炼；不宣称模型参数微调",
+    "scan": "确定性规则求值；AI负责解释和策略生成",
+    "feedback": "记录辅助复评；不宣称自动改模型或规则",
+    "display_policy": "业务状态采用正向动作，人工审核仍保留"
+  }
+}

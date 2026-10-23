@@ -1,0 +1,184 @@
+{
+  "objective": "完成优雅、精细的近东巴比伦巨型城市移轴短片；街道连贯、城区延伸到地平线，无龙；1080×1920、56秒、一次AI审核。",
+  "date": "2026-10-20",
+  "version": "v8",
+  "status": "v8_delivery_ready_review_incomplete",
+  "project_title": "暮河城 · 街巷与运河",
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "delivery_mode": "ai_review_once",
+  "duration": 56,
+  "fps": 24,
+  "frame_count": 1344,
+  "plan": "视频制作计划.md",
+  "structured_plan": "plan.json",
+  "history": "history/v1/",
+  "completed": [
+    "核对原计划对材质、曝光、低位角色摄影及最终品质证明的不足",
+    "将欧洲中世纪城镇替换为近东巴比伦幻想城邦，保留送火点灯主线",
+    "安排城市固定、镜头升高解除土坡遮挡的地平线开场；建议全片由48秒延至56秒",
+    "补充精细资产分层、侧向暖光、斜俯近景、景深边缘与视深对焦、采样及编码对照要求",
+    "补充90BPM、4/4、21小节的音乐设计、配器、分轨、现场声与关键事件响应；区分近东风格配乐与历史复原",
+    "同步镜头、阅读顺序、事件、配乐段落和关键样段的时间",
+    "保存4份v1历史文件并对v2重新运行本地shot_contract.py",
+    "保存v2历史，取消龙与送火链，重排六段城市街景",
+    "编写模型优先质量样板脚本model/build_city.py，尚未渲染",
+    "v1模型样板真实生成和渲染；制作检查发现不足后扩建v2城市模型",
+    "取消龙与送火，完成可编辑Blender城市模型v3及无景深实渲图",
+    "保存原样例代码来源和实际迁移范围source-adoption.json",
+    "v4完成12种细节院落变体、露台绿植、市集、66名居民与第四艘船；v5扩展10972座远景院落、1800米主轴大道与1900米运河及横纵路网",
+    "原创56秒配乐和环境音已生成；48kHz立体声，测得-15.91 LUFS、-1.83dBTP；实际听音尚未完成",
+    "定位原失败为GPU/shared host memory分配失败；没有终止无关进程或降低正式画幅",
+    "CUDA/CPU合成成功但较慢；OptiX 256px分块+GPU降噪/合成连续4帧通过，约8–10秒/帧",
+    "v6补齐远景西岸横街至桥头，保留v5模型及旧输出",
+    "采用独立frames-v6目录、原子PNG写入、32帧进程、断点续渲，避免不同降噪器样片混入成片",
+    "1344帧完整1080×1920 Cycles渲染完成，56秒24fps；v6原配乐影片保留",
+    "用户提供Alexander / Dream Of Babylon本地音频，v7已替换原配乐，画面流直接复制",
+    "v7技术检查通过：实际解码1344帧、完整音视频无解码错误、48kHz立体声",
+    "全帧审核证据已导出45页；启动唯一独立审片角色babylon_av_review",
+    "续接验证680张既有PNG与冻结源码一致，修复断点续渲进度记录初始化错误，恢复剩余帧渲染。",
+    "v8完成全部1344帧、56秒音画编码与完整解码检查；45页连续帧证据已导出，交同一审片角色续接。"
+  ],
+  "verification": {
+    "plan_structure": "v3: 6 shots, 18 representative states, 11 continuous windows, 0 errors",
+    "render": "v8全部1344帧完成；1080×1920、24fps、56秒；完整音视频解码成功，无解码错误。",
+    "assets": "model/babylon-city-v8.blend：保留10972座远景院落、连贯大道和运河，新增蓝釉长墙、王宫、台地花园、王神雕像、居民、驮畜与商船。",
+    "audio": "v8采用用户原曲29.5–85.5秒，0.15秒渐入、53–56秒渐出，低混环境声；能量/起音仅为候选定位，实际听音未完成。",
+    "limits": "结构检查不证明美术、动作、景深、音画或听感成立",
+    "independent_review": "v8未完成，实际覆盖以qa/v8/av-review.json中当前成片哈希记录为准；不沿用v7。"
+  },
+  "user_confirmed_requirements": [
+    "近东巴比伦风格",
+    "城市从地平线上渐渐冒出的开头",
+    "精细的移轴摄影效果",
+    "音乐要有完整计划",
+    "街道连贯；巴比伦为宏伟、一望无际的巨型城市"
+  ],
+  "unresolved": [
+    "新版独立审核未完成，报告只认可实际覆盖",
+    "实际听音工具不可用，音乐听感与完整声画节奏未验收"
+  ],
+  "concept_paths": [
+    "concepts/city-overview-v1.png",
+    "concepts/city-reveal-early-v1.png",
+    "concepts/city-reveal-late-v1.png"
+  ],
+  "concept_manifest": "concepts/manifest-v1.json",
+  "concept_verification": "三张概念图已实际查看并复制入项目，均为941×1672；未进行三维、动画、音频或成片审核。",
+  "feedback": [
+    "用户要求强化最终移轴与精细效果",
+    "用户指定地平线显城、近东巴比伦风格及音乐计划",
+    "用户认可概念图：很好，但注意参考样例视频的生成代码",
+    "用户指出实景渲染毫无质感，要求先做好模型",
+    "用户取消龙，城市街景即可",
+    "音乐强段开场并同步运镜",
+    "增建巴比伦奇观、蓝釉街区、王神雕像",
+    "增加居民、牲畜、商船表现繁荣",
+    "移轴感不明显：强化高位俯拍、窄清晰带与独立延时活动"
+  ],
+  "protected_items": [
+    "蓝釉门楼与土金泥砖",
+    "右后方阶梯神庙和纵深运河",
+    "暖侧光与可读材料",
+    "地平线由真实遮挡解除显露"
+  ],
+  "next_action": "向用户展示v8完整影片；保留同一审片者后续记录，后续按用户反馈针对性修改，不重开全面审片。",
+  "do_not_resume_other_projects": true,
+  "updated_at": "2026-10-21T01:08:25",
+  "render_session_id": null,
+  "review_budget": {
+    "reviewer_started": true,
+    "reviewer": "/root/babylon_av_review",
+    "repair_rounds_used": 0,
+    "max_repair_rounds": 1,
+    "note": "沿用唯一既有审片角色；v7结论不覆盖v8，不重置审核预算。实际音频感知不可用，不能声称听音通过。"
+  },
+  "final_candidate": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\暮河城-巴比伦巨城-Dream-of-Babylon-v8.mp4",
+  "final_candidate_sha256": "406a9042bb214885804a35cfdee06ca81f6d11411062819717b163e2178b966e",
+  "delivery_note": "v8完整可播放，工程检查通过；独立审核未完成、实际听音不可用。按本地无实质审核进展软边界交付，保留晚到结果。",
+  "v8_music": {
+    "source": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\audio\\user-provided-Dream-Of-Babylon.mp3",
+    "duration": 160.77333333333334,
+    "analysis": "0.1s RMS, 2s smoothing, positive dB changes; energy/onset proxy only, no auditory verification",
+    "strong_entry_candidates": [
+      [
+        0.1298309999956843,
+        30.6
+      ],
+      [
+        0.12855486534261285,
+        39.8
+      ],
+      [
+        0.12143101966496811,
+        45.2
+      ],
+      [
+        0.12095780194560224,
+        55.7
+      ],
+      [
+        0.11365152584671388,
+        97.1
+      ],
+      [
+        0.11056856857603775,
+        24.9
+      ],
+      [
+        0.10979584445092398,
+        49.2
+      ],
+      [
+        0.1077628826616914,
+        34.5
+      ]
+    ],
+    "excerpt_start": 29.5,
+    "excerpt_end": 85.5,
+    "visual_cues_seconds": [
+      0.0,
+      8.0,
+      16.0,
+      26.6,
+      36.0,
+      44.4,
+      51.0
+    ],
+    "audio_perceived": false
+  },
+  "v8_visual_validation": {
+    "actual_viewed": [
+      "7s overall city from earlier v8",
+      "12s royal forecourt after occlusion fix",
+      "21s market",
+      "31s canal",
+      "40s garden after supported stairs",
+      "48s divine forecourt",
+      "54s giant city"
+    ],
+    "current_proofs": "render/proof-v8-frozen/",
+    "pending": "整片独立画面检查进行中，实际听音不可用"
+  },
+  "v8_model": "model/babylon-city-v8.blend",
+  "v8_source_entry": "model/enrich_city_v8.py → model/finalize_city_v8.py → model/optimize_city_v8.py → render_city_v8.py",
+  "v8_runtime_note": "72帧连续OptiX + GPU OIDN + GPU合成通过，无分块；末帧约2.94秒。以32帧进程渲染完整片，复用同源码72帧样段。",
+  "v8_model_fixes": [
+    "国王移到门前空地，保留通行空间",
+    "花园采用实体支撑折返楼梯与平台连接",
+    "王冠封顶",
+    "神像镜头改为前庭，斜清晰带穿过两尊神像",
+    "人畜按8Hz更新、2.4倍活动时间；相机逐帧平滑"
+  ],
+  "v8_continuous_sample": "delivery/移轴强化-v8-市集到运河-3秒样段.mp4",
+  "v8_full_render_manifest": "render/frozen-v8-manifest.json",
+  "render_resume": {
+    "source_hashes_verified": true,
+    "existing_valid_frames": 680,
+    "current_completed_frames": 1344,
+    "total_frames": 1344,
+    "fix": "Initialize completed_frames before reporting skipped batches; visual sources unchanged."
+  },
+  "v8_frame_evidence": "qa/v8/full-film/frame-audit.json"
+}

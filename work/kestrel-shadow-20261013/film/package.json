@@ -1,0 +1,1 @@
+{"name":"kestrel-shadow","private":true,"type":"module","scripts":{"simulate":"node precompute.mjs","audio":"node audio.mjs","preview":"node server.mjs","render":"node render.mjs --mode=final --version=v1"},"devDependencies":{"playwright-core":"^1.55.0"}}

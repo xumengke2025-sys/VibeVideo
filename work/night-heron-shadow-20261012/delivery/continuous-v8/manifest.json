@@ -1,0 +1,170 @@
+{
+  "version": "continuous-v8",
+  "files": [
+    {
+      "file": "assets/bucket.png",
+      "bytes": 1565225,
+      "sha256": "4b68f5a3c82cb5d66e3b6b9bb29ebca91e3fd825770ba0a02314cbacd89ee5d4"
+    },
+    {
+      "file": "assets/chick.png",
+      "bytes": 1660258,
+      "sha256": "d9bc0a7819cdfd5db6942a2c3cc405e94c04d8b62a57e4d3e129c3b7863dbdc4"
+    },
+    {
+      "file": "assets/fish.png",
+      "bytes": 1842486,
+      "sha256": "f5cb769f76e5c1151a95dc7798281cb1539a11f4fd56f000ed7a74b710b10511"
+    },
+    {
+      "file": "assets/heron_contact-v2.png",
+      "bytes": 1353461,
+      "sha256": "8a75f45cce7cee4b0abc6f6111d9813b682455ad38324110e54e19cc830a3df5"
+    },
+    {
+      "file": "assets/heron_disguise.png",
+      "bytes": 1710704,
+      "sha256": "80a22fccf1a1dbbf6bb7051f741e7d49cfa9c52dbac1a106d9fb0d1a66efe54a"
+    },
+    {
+      "file": "assets/heron_idle.png",
+      "bytes": 1161607,
+      "sha256": "aa3be34d92fd1639fb9a71669cfefd2e9bbc61e8caa54818ad02608744842504"
+    },
+    {
+      "file": "assets/heron_neck-v2.png",
+      "bytes": 770739,
+      "sha256": "29fc2eb3fd7536f80c36a801ffd0d11d1509b75df6b680d3f31cc3aecfff6366"
+    },
+    {
+      "file": "assets/heron_walk.png",
+      "bytes": 2414518,
+      "sha256": "e44b2d12745af6e53d7158640a9357cb44f8dc5d9c882777baebf90b59ab2208"
+    },
+    {
+      "file": "assets/nest.png",
+      "bytes": 1825093,
+      "sha256": "8e30a1a63ca97d9246e8f3fa333f5699b27e0456c75b7aae7ed14cbd3918b8ec"
+    },
+    {
+      "file": "assets/penguin_react.png",
+      "bytes": 1365460,
+      "sha256": "5fb12dd6a8c714f395d49b65892b41d44806a923e44a3d72dd58cc0caedfca6d"
+    },
+    {
+      "file": "delivery-mode.json",
+      "bytes": 68,
+      "sha256": "6f6ec0c36634650f2df8866b061fc2cab508b1dbe05cee68d5dc57877025b1cb"
+    },
+    {
+      "file": "film/art.js",
+      "bytes": 4942,
+      "sha256": "1241f1cf7d89ae90a1fe7adf9661d9258ba2075ec4b61181aeed2e4de478bbe1"
+    },
+    {
+      "file": "film/audio.mjs",
+      "bytes": 3071,
+      "sha256": "94056332cdde099f3654debb96cb07565a6dbf3b0b48dce7833805c43e3e28aa"
+    },
+    {
+      "file": "film/audio.wav",
+      "bytes": 9600044,
+      "sha256": "2f1182cc05ed5fa25664b24281823b7b90ee8fdc1658658a47914b51aaea64a2"
+    },
+    {
+      "file": "film/film.js",
+      "bytes": 15988,
+      "sha256": "918ced6b2d70ddc124c23c9c63255c1d58563c88fcf5fbfa604184fa42591bdc"
+    },
+    {
+      "file": "film/frame-rig-1200.json",
+      "bytes": 1790380,
+      "sha256": "581f03c0eb7b1b98ff95d9000c19edf79be39905d8dc4398c1de72113ce435ca"
+    },
+    {
+      "file": "film/index.html",
+      "bytes": 739,
+      "sha256": "a4f4665da2f5f0e81f271bb4c6b5a51ceb27b4bb9ba5e61e9678abd6e718c305"
+    },
+    {
+      "file": "film/production-brief.md",
+      "bytes": 1947,
+      "sha256": "5941e255eacdb04a489f5792b41619646a09b72dd6d0bb305042f0275e36b6a7"
+    },
+    {
+      "file": "film/render.mjs",
+      "bytes": 4812,
+      "sha256": "fbd36991efcdc38d97c8164dc5edd7b3b3fd7ff720153f6f4d83eabd1792324e"
+    },
+    {
+      "file": "film/server.mjs",
+      "bytes": 999,
+      "sha256": "65f1d53023ab63fd31005b8cd00ef311dd18484273b04f8d88305047247ee2d9"
+    },
+    {
+      "file": "film/sound-events.json",
+      "bytes": 8667,
+      "sha256": "a7331f97ffa33f46c11c82ba135f2ad60bcd548b9b5621b3893aabb1de9e2c2d"
+    },
+    {
+      "file": "film/vendor/carve.js",
+      "bytes": 10810,
+      "sha256": "a439554a32c75c8d65b7a8d7d25786abe274f565b28fbbb1d062c73b84097223"
+    },
+    {
+      "file": "film/vendor/gl.js",
+      "bytes": 8916,
+      "sha256": "e2ef60ce02e2eae389c3a8613980d67c2e4f786e9567d9dceb62eb97e4b5c6fa"
+    },
+    {
+      "file": "film/vendor/LICENSE",
+      "bytes": 1064,
+      "sha256": "14c9ff6f14bfb2391e74fedb01c256891d2a3bba1c2acf5789901bdf77e54e33"
+    },
+    {
+      "file": "film/vendor/NOTICE.md",
+      "bytes": 483,
+      "sha256": "9d9c32286c9dd53efd2922882569c34b38b1160a251d27cfac9eb9f5bba45d7c"
+    },
+    {
+      "file": "film/vendor/random.js",
+      "bytes": 142,
+      "sha256": "68664145b2f5e3613654d5a648f1f68c529e01ac6fc8abb8c015caa32f040407"
+    },
+    {
+      "file": "film/vendor/scenery.js",
+      "bytes": 13964,
+      "sha256": "46553bcc07136508fe6969c39ec06bba5940600374699d5b4fea0961244f2b45"
+    },
+    {
+      "file": "package.json",
+      "bytes": 368,
+      "sha256": "f5e587f86fb7212ceced1ebd74417a7a40a737aeaa3e2c19324a6c1ecb4d1945"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2971,
+      "sha256": "89ae1370d0112ac4903e953e219e22de9028eb422b79d9185ca68b30b942c660"
+    },
+    {
+      "file": "verification/config.json",
+      "bytes": 182,
+      "sha256": "20d41bde26b71b1733a9f70972205f06b12e221e292b6b684437c236a419a8e6"
+    },
+    {
+      "file": "verification/evidence.json",
+      "bytes": 464,
+      "sha256": "46ebda4ba810c3ad254403b1f74eb3229f3febd2cb97ca8e0e6c545454562041"
+    },
+    {
+      "file": "verification/ffprobe.json",
+      "bytes": 3726,
+      "sha256": "b157c72e2fcedd63e8ed05e5b2e1621bbc970b1067e2bf602fba318ad91a4c0b"
+    },
+    {
+      "file": "夜鹭的一天.mp4",
+      "bytes": 41663888,
+      "sha256": "6171f5734501a3c062b06b89ea93a3db980dded6eefec37719bd94bccc940ad4"
+    }
+  ]
+}

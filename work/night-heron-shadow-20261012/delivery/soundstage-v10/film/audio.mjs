@@ -1,0 +1,32 @@
+import {DURATION, mediaAt, LAUGH_BEATS} from './timeline.js';
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const root=path.dirname(fileURLToPath(import.meta.url)),sr=48000,N=sr*DURATION;
+const buses=Object.fromEntries(['percussion','birds','foley'].map(k=>[k,[new Float64Array(N),new Float64Array(N)]]));
+const events=[];let seed=91;const noise=()=>{seed=(1664525*seed+1013904223)>>>0;return seed/2147483648-1};
+function wav(name){const b=fs.readFileSync(path.join(root,'audio-assets',name));let o=12;while(b.toString('ascii',o,o+4)!=='data')o+=8+b.readUInt32LE(o+4)+(b.readUInt32LE(o+4)%2);const n=b.readUInt32LE(o+4)/2,a=new Float64Array(n);for(let i=0;i<n;i++)a[i]=b.readInt16LE(o+8+i*2)/32768;return a;}
+function clean(a){let x=0,y=0;const out=new Float64Array(a.length);for(let i=0;i<a.length;i++){y=.987*(y+a[i]-x);x=a[i];out[i]=y;}return out;}
+const samples={drumA:wav('222184-48k.wav'),drumB:wav('222168-48k.wav'),smallGong:wav('205974-48k.wav'),bigGong:wav('222190-48k.wav').slice(Math.round(.075*sr)),cymbal:wav('222255-48k.wav')};
+const raw=wav('heron-Sangli-48k.wav');samples.callA=clean(raw.slice(Math.round(.342*sr),Math.round(.610*sr)));samples.callB=clean(raw.slice(Math.round(3.886*sr),Math.round(4.158*sr)));
+function add(t,len,fn,gain,pan,type,bus='percussion',room=.12,detail={}){
+ const start=Math.round(t*sr),n=Math.round(len*sr),[L,R]=buses[bus],pl=Math.cos((pan+1)*Math.PI/4),pr=Math.sin((pan+1)*Math.PI/4),taps=[[.023,.41],[.037,.33],[.061,.23],[.089,.16],[.127,.11],[.173,.07]];events.push({t,len,gain,pan,type,bus,...detail});
+ for(let j=0;j<n;j++){const idx=start+j;if(idx<0||idx>=N)continue;const z=fn(j/sr,j)*gain;L[idx]+=z*pl;R[idx]+=z*pr;for(let k=0;k<taps.length;k++){const [d,g]=taps[k],q=idx+Math.round(d*sr);if(q<N){L[q]+=z*room*g*(k%2?.8:1);R[q]+=z*room*g*(k%2?1:.8);}}}
+}
+function sample(t,name,gain,pan=0,rate=1,maxLen=Infinity,bus='percussion',room=.12,detail={}){const a=samples[name],len=Math.min(a.length/sr/rate,maxLen),norm=a.reduce((m,z)=>Math.max(m,Math.abs(z)),0);add(t,len,(u,j)=>{const p=j*rate,i=Math.floor(p),f=p-i,z=(a[i]||0)*(1-f)+(a[i+1]||0)*f,env=Math.min(1,u/.003,(len-u)/.022);return z/norm*Math.max(0,env);},gain,pan,name,bus,room,{playbackRate:rate,...detail});}
+let strokes=0;function drum(t,g=.25){sample(t,strokes++%2?'drumB':'drumA',g*(1+.035*Math.sin(strokes*2.3)),-.18,1+.012*Math.sin(strokes),.3);}
+function ban(t,g=.1){add(t,.12,u=>Math.exp(-u*43)*(Math.sin(2*Math.PI*920*u)+.23*Math.sin(2*Math.PI*1770*u)+.13*noise()),g,.22,'original_clapper');}
+function phrase(start,end,beat,level,metalEvery=4){let i=0;for(let t=start;t<end-.06;t+=beat,i++){drum(t,level*(i%4===0?1:.72));if(i%2===1)ban(t+beat*.48,level*.34);if(i%metalEvery===0)sample(t,'smallGong',level*.42,.16,1,1.03);if(i%8===6){drum(t+beat*.54,level*.38);drum(t+beat*.77,level*.5);}}}
+// Pulse follows each action phase rather than one uniform music loop.
+phrase(.28,5.70,.55,.24,8);phrase(6.05,8.80,.62,.19,4);phrase(9.18,16.70,.43,.20,8);phrase(17.03,18.04,.24,.24,4);phrase(19.25,21.10,.30,.27,4);phrase(21.65,26.70,.39,.28,4);phrase(27.22,29.62,.51,.22,4);phrase(30.10,31.73,.39,.21,4);
+for(const [source,kind,g]of[[10,'smallGong',.21],[16.4,'smallGong',.16],[28.333333,'cymbal',.28],[33.05,'bigGong',.28],[43.666666,'smallGong',.24]])sample(mediaAt(source),kind,g,.08,1,kind==='bigGong'?2:1);
+for(const source of[15.0,26.45,32.15,40.5]){const t=mediaAt(source);drum(t,.27);drum(t+.10,.14);drum(t+.20,.20);ban(t+.29,.10);}
+add(mediaAt(28.5),.4,u=>noise()*Math.exp(-u*13),.045,.36,'fish_bucket_splash','foley',.08);
+let air=0;add(0,DURATION,u=>{air=.995*air+.005*noise();return air*(.7+.3*Math.sin(u*.53));},.045,0,'original_air_water_bed','foley',0);
+for(const [source,pan]of[[.4,-.3],[7.8,-.2],[41.8,.3],[42.7,.55],[44.5,.4]])sample(mediaAt(source),'callB',source>40?.095:.07,pan,source>40?1.22:1,.22,'birds',.07,{sourceTime:source,role:source>40?'chick_response':'adult_murmur'});
+// Two complete recorded calls; chick voices are restrained pitch adaptations.
+// Onsets share the animation's jaw/neck event clock.
+LAUGH_BEATS.forEach((source,i)=>{const name=i%2?'callB':'callA';sample(mediaAt(source),name,[.30,.26,.28][i%3],-.32,[1,.97,1.025][i%3],.29,'birds',.08,{sourceTime:source,role:'adult'});sample(mediaAt(source+.045),i%2?'callA':'callB',[.15,.12,.145][i%3],.24,1.27+.025*(i%3),.23,'birds',.06,{sourceTime:source+.045,role:'chick_1',processed:true});sample(mediaAt(source+.09),name,[.12,.145,.11][i%3],.62,1.40-.018*(i%3),.21,'birds',.06,{sourceTime:source+.09,role:'chick_2',processed:true});});
+for(const source of[46.74,48.13]){drum(mediaAt(source),.085);ban(mediaAt(source)+.07,.035);}sample(35.55,'smallGong',.10,.08,.96,.45);drum(35.55,.11);
+const L=new Float64Array(N),R=new Float64Array(N);let peak=0,sq=0;for(let i=0;i<N;i++){const fade=Math.min(1,i/(sr*.07),(N-i)/(sr*.30));for(const [l,r]of Object.values(buses)){L[i]+=l[i];R[i]+=r[i];}L[i]*=fade;R[i]*=fade;peak=Math.max(peak,Math.abs(L[i]),Math.abs(R[i]));sq+=L[i]**2+R[i]**2;}const masterGain=.79/peak;
+function save(file,l,r,gain=1){const b=Buffer.alloc(44+N*4);b.write('RIFF');b.writeUInt32LE(b.length-8,4);b.write('WAVE',8);b.write('fmt ',12);b.writeUInt32LE(16,16);b.writeUInt16LE(1,20);b.writeUInt16LE(2,22);b.writeUInt32LE(sr,24);b.writeUInt32LE(sr*4,28);b.writeUInt16LE(4,32);b.writeUInt16LE(16,34);b.write('data',36);b.writeUInt32LE(N*4,40);for(let i=0;i<N;i++){b.writeInt16LE(Math.round(Math.max(-1,Math.min(1,l[i]*gain))*32767),44+i*4);b.writeInt16LE(Math.round(Math.max(-1,Math.min(1,r[i]*gain))*32767),46+i*4);}fs.writeFileSync(path.join(root,file),b);}
+save('audio.wav',L,R,masterGain);fs.mkdirSync(path.join(root,'audio-stems'),{recursive:true});for(const [name,[l,r]]of Object.entries(buses))save('audio-stems/'+name+'.wav',l,r,masterGain);
+const result={duration:DURATION,sampleRate:sr,channels:2,method:'Recorded night-heron calls and recorded Jingju percussion strokes; original action-driven arrangement and short stereo room reflections. Chick voices are processed adult calls, not juvenile field recordings.',license:'CC BY-SA 4.0 audiovisual adaptation; see audio-assets/ATTRIBUTION.md',peak:.79,rms:Math.sqrt(sq/N/2)*masterGain,masterGain,actualListening:false,events};fs.writeFileSync(path.join(root,'sound-events.json'),JSON.stringify(result,null,2));console.log(JSON.stringify({seconds:DURATION,events:events.length,peak:.79,rms:result.rms}));

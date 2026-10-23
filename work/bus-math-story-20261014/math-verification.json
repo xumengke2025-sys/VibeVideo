@@ -1,0 +1,53 @@
+{
+  "checks": {
+    "units": true,
+    "A": true,
+    "B": true,
+    "meet_B_front": true,
+    "pass_B_rear": true,
+    "gap": true,
+    "answer": true,
+    "meet_runners": true,
+    "pass_A_start": true,
+    "pass_A_end": true
+  },
+  "model": "x increases westward; rear=5t; front=5t+15; A=2.5t; B=240-2.5t",
+  "states": [
+    {
+      "t": -6,
+      "rear": -30,
+      "front": -15,
+      "A": -15,
+      "B": 255
+    },
+    {
+      "t": 0,
+      "rear": 0,
+      "front": 15,
+      "A": 0,
+      "B": 240
+    },
+    {
+      "t": 30,
+      "rear": 150,
+      "front": 165,
+      "A": 75,
+      "B": 165
+    },
+    {
+      "t": 32,
+      "rear": 160,
+      "front": 175,
+      "A": 80,
+      "B": 160
+    },
+    {
+      "t": 48,
+      "rear": 240,
+      "front": 255,
+      "A": 120,
+      "B": 120
+    }
+  ],
+  "answer": 16
+}

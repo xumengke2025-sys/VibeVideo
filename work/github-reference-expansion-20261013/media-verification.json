@@ -1,0 +1,564 @@
+{
+  "checked": "2026-10-13",
+  "scope": "新增原片与已有MG原片的完整音视频解码；未作重渲/审美/听音审核",
+  "items": [
+    {
+      "repo": "az9713/opus-5.5-musical-cartoon",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/az9713--opus-5.5-musical-cartoon/clawd-prose/out/clawd-prose.mp4",
+      "sha256": "c3a8ff48d47565286c87c87de6474e37ee40b391bed7ce09afe5dae6b9b1af61",
+      "bytes": 8693220,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 15,
+        "fps": 24,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 1
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/c3a8ff48d47565286c87.jpg"
+    },
+    {
+      "repo": "bilaldemirerr/opus-video-recipes",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/captioned-vertical-clip/out.mp4",
+      "sha256": "bb96e18ea746e61cf8df0ce28ba9cbc464ec6dd5ba23d50550c607fd70addbed",
+      "bytes": 1628073,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1080,
+        "height": 1920,
+        "duration": 15,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/bb96e18ea746e61cf8df.jpg"
+    },
+    {
+      "repo": "bilaldemirerr/opus-video-recipes",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/bilaldemirerr--opus-video-recipes/kinetic-typography-explainer/out.mp4",
+      "sha256": "aaf45dd150ae44b9f9e575dd00977bd1d206bf06ffed82f22bc22273b8f93af2",
+      "bytes": 2243719,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 16,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/aaf45dd150ae44b9f9e5.jpg"
+    },
+    {
+      "repo": "c5inco/motion-showreel",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/c5inco--motion-showreel/release-media/showreel.mp4",
+      "sha256": "e5685ba4bed74f89dca1df07d751c43545d39b2c33fdfb10caf84d2a5fe715d1",
+      "bytes": 51746983,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1080,
+        "height": 2400,
+        "duration": 15,
+        "fps": 60,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/e5685ba4bed74f89dca1.jpg"
+    },
+    {
+      "repo": "JakeB-5/motion-graphic-skill",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/pour-over/opus/pour-over.mp4",
+      "sha256": "998969633ec740a8d135c522b49a6b3e09dd0185759130638759ca3c9cc9d3f1",
+      "bytes": 10466445,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 30,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/998969633ec740a8d135.jpg"
+    },
+    {
+      "repo": "JakeB-5/motion-graphic-skill",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/skill-intro/opus/skill-intro.mp4",
+      "sha256": "35335d342315636acee082551e78fe86e02ab07f86143bad493d0ef57d16b60d",
+      "bytes": 5935232,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 30,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/35335d342315636acee0.jpg"
+    },
+    {
+      "repo": "JakeB-5/motion-graphic-skill",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/JakeB-5--motion-graphic-skill/samples/webb-telescope/opus/webb-telescope.mp4",
+      "sha256": "44a3b36f2e7f876156031bc4ec7d9787f2d5411875c1bafd3daa88e28ac2a15a",
+      "bytes": 10001956,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 45,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/44a3b36f2e7f87615603.jpg"
+    },
+    {
+      "repo": "toankhontech/pelican-test-opus55",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/toankhontech--pelican-test-opus55/pelican-bicycle.mp4",
+      "sha256": "bdbb6521db1a53934191025459359ca68e5a427646aaa030ac5b8a7191f98f9e",
+      "bytes": 4560570,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1600,
+        "height": 1200,
+        "duration": 7.2,
+        "fps": 60,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/bdbb6521db1a53934191.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/01-flat-vector.mp4",
+      "sha256": "31015b94762c221b3517e97ea3e3a5c870776e763e8a1b0cf14a038a9e0eaf4c",
+      "bytes": 4185753,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/31015b94762c221b3517.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/02-line-art.mp4",
+      "sha256": "b9ec31dc45a6883b156cb19c52301580024058f5dd90bdd9aad0f1b18d245576",
+      "bytes": 22093257,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/b9ec31dc45a6883b156c.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/03-isometric.mp4",
+      "sha256": "c5db2f47882df17f500622c7079313625b41200d4c5c485577d0b92c8dc50635",
+      "bytes": 37919056,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/c5db2f47882df17f5006.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/04-3d-render.mp4",
+      "sha256": "ad0756c4358e56a7e1a5b27772d66506f5b18c9131a73d5a93c932849e8110c0",
+      "bytes": 31050573,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 24,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/ad0756c4358e56a7e1a5.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/05-cel-boil.mp4",
+      "sha256": "4f4398983b231d75ceb90847af717cb4298c7f2d6e1c90cbdddef1919fbb2c9f",
+      "bytes": 36915642,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 24,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/4f4398983b231d75ceb9.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/06-collage.mp4",
+      "sha256": "a124a518b426f34f674c681b77f516b43290b2bc2065613ec3643e2c509fb3fc",
+      "bytes": 36608562,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/a124a518b426f34f674c.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/07-liquid.mp4",
+      "sha256": "01712cd0a22c91a61aeb7058c148c08bf487c3c87db3cc0fbe5d6d7003709151",
+      "bytes": 37947945,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/01712cd0a22c91a61aeb.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/08-morph.mp4",
+      "sha256": "1bff049b1f15ea4d0d06ab9363a97497648a57f644420264f30b08548e3561d5",
+      "bytes": 27357300,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/1bff049b1f15ea4d0d06.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/09-bauhaus.mp4",
+      "sha256": "7938c337896f5ec340a1e133e6ab74b9cac77be615defe6a2db228236465bb26",
+      "bytes": 28620968,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/7938c337896f5ec340a1.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/10-synthwave.mp4",
+      "sha256": "b8b3f6062a529b5941433b6095ff8be7e96c71c4f4a8efb62c1653165cf0c70f",
+      "bytes": 37700273,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/b8b3f6062a529b594143.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/12-aurora-glass.mp4",
+      "sha256": "d2575b46549b27f67c4823206caaccedae8cf397be0a351d0989db878c5fe364",
+      "bytes": 37821095,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/d2575b46549b27f67c48.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/18-hanazi.mp4",
+      "sha256": "8ee8cb5f34290058939f2712336dc2e7b0e9fbf1c291d54e1a9fee8bc1b58bd0",
+      "bytes": 36922572,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1080,
+        "height": 1920,
+        "duration": 10,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/8ee8cb5f34290058939f.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/19-paperclip.mp4",
+      "sha256": "615d1ef7810463861572093e4ab707a42bd996ef060b4f1b7ba85ebd4d77a905",
+      "bytes": 11705444,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/615d1ef7810463861572.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/20-pixel.mp4",
+      "sha256": "30768583c87795d57fd7d0d9a9ae7747d8cfe68b6c1af92a981a2c174798a6c8",
+      "bytes": 13204278,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/30768583c87795d57fd7.jpg"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/upstream-videos/mg-styles-15/22-hud.mp4",
+      "sha256": "9c0a78d0b9f3107a1a59acc3716bf4276692e4c1e883d690c76995d64df543f0",
+      "bytes": 37860923,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/9c0a78d0b9f3107a1a59.jpg"
+    },
+    {
+      "repo": "DDChen666/civilization-film",
+      "path": "D:/ai项目/ai动画/VibeVideo项目/reference-sources/github-expansion-20261013/DDChen666--civilization-film/release-media/civilization_zh-CN_1080p.mp4",
+      "sha256": "1e0271a24354a2f4e2a6f73322582f74f556d5167d8c557a78e18ef20060fb40",
+      "bytes": 302998736,
+      "decodePassed": true,
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 148.999979,
+        "fps": 30,
+        "codec": "h264",
+        "pixelFormat": "yuvj420p",
+        "audio": [
+          {
+            "codec": "aac",
+            "sampleRate": "48000",
+            "channels": 2
+          }
+        ],
+        "container": "mov,mp4,m4a,3gp,3g2,mj2"
+      },
+      "poster": "D:/ai项目/ai动画/VibeVideo项目/work/github-reference-expansion-20261013/posters/1e0271a24354a2f4e2a6.jpg"
+    }
+  ]
+}

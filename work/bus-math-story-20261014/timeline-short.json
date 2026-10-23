@@ -1,0 +1,159 @@
+{
+  "short": true,
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "duration": 30,
+  "audio_mode": "music_only",
+  "audio": "audio/music-only-30s.wav",
+  "stages": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "id": "mystery",
+      "start": 2,
+      "end": 6
+    },
+    {
+      "id": "units",
+      "start": 6,
+      "end": 8
+    },
+    {
+      "id": "solveA",
+      "start": 8,
+      "end": 11
+    },
+    {
+      "id": "solveB",
+      "start": 11,
+      "end": 14
+    },
+    {
+      "id": "flag",
+      "start": 14,
+      "end": 17
+    },
+    {
+      "id": "mapbus",
+      "start": 17,
+      "end": 19
+    },
+    {
+      "id": "mapA",
+      "start": 19,
+      "end": 21
+    },
+    {
+      "id": "gap",
+      "start": 21,
+      "end": 23
+    },
+    {
+      "id": "close",
+      "start": 23,
+      "end": 25
+    },
+    {
+      "id": "answer",
+      "start": 25,
+      "end": 28
+    },
+    {
+      "id": "ending",
+      "start": 28,
+      "end": 30
+    }
+  ],
+  "captions": [
+    {
+      "stage": "intro",
+      "text": "两位跑步伙伴，约好一起去生日会。",
+      "start": 0,
+      "end": 2,
+      "duration": 2
+    },
+    {
+      "stage": "mystery",
+      "text": "追上甲→6秒离开；再30秒遇乙→2秒离开。",
+      "start": 2,
+      "end": 6,
+      "duration": 4
+    },
+    {
+      "stage": "units",
+      "text": "18千米/小时＝5米/秒。",
+      "start": 6,
+      "end": 8,
+      "duration": 2
+    },
+    {
+      "stage": "solveA",
+      "text": "同向：先求速度差，再求小甲速度。",
+      "start": 8,
+      "end": 11,
+      "duration": 3
+    },
+    {
+      "stage": "solveB",
+      "text": "迎面：先求速度和，再求小乙速度。",
+      "start": 11,
+      "end": 14,
+      "duration": 3
+    },
+    {
+      "stage": "flag",
+      "text": "车尾离甲时插旗。到离乙，共32秒。",
+      "start": 14,
+      "end": 17,
+      "duration": 3
+    },
+    {
+      "stage": "mapbus",
+      "text": "车尾与乙齐平：小乙在160米处。",
+      "start": 17,
+      "end": 19,
+      "duration": 2
+    },
+    {
+      "stage": "mapA",
+      "text": "同样32秒：小甲在80米处。",
+      "start": 19,
+      "end": 21,
+      "duration": 2
+    },
+    {
+      "stage": "gap",
+      "text": "两人之间，还剩80米。",
+      "start": 21,
+      "end": 23,
+      "duration": 2
+    },
+    {
+      "stage": "close",
+      "text": "迎面跑，空隙每秒少5米。",
+      "start": 23,
+      "end": 25,
+      "duration": 2
+    },
+    {
+      "stage": "answer",
+      "text": "从车尾离开乙算起，再过16秒相遇！",
+      "start": 25,
+      "end": 28,
+      "duration": 3
+    },
+    {
+      "stage": "ending",
+      "text": "击掌！同向看差，迎面看和。",
+      "start": 28,
+      "end": 30,
+      "duration": 2
+    }
+  ],
+  "events": [],
+  "motion_note": "6秒、2秒、32秒、16秒动作均为加速示意；算式来自同一解析模型"
+}

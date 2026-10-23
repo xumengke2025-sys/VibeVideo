@@ -1,0 +1,170 @@
+{
+  "duration": 30,
+  "fps": 24,
+  "shots": [
+    {
+      "id": "briefing",
+      "start": 0.0,
+      "end": 3.75,
+      "intent": "认出宝宝",
+      "states": {
+        "establish": 0.25,
+        "action": 1.5,
+        "result": 3.0
+      },
+      "reads": "宝宝→小鸭纸片线索",
+      "action": "摄影从脸部拉开到宝宝纸片",
+      "camera": "从脸部特写拉开到档案纸片",
+      "sound": "原创配乐与拟音同步2倍速，保持音高"
+    },
+    {
+      "id": "touch",
+      "start": 3.75,
+      "end": 7.5,
+      "intent": "点中小鸭",
+      "states": {
+        "establish": 4.1,
+        "action": 5.4,
+        "result": 6.85
+      },
+      "reads": "手指→图案→鸭跃出",
+      "action": "保留原接触动作",
+      "camera": "桌面中景，接触时定机，离开后靠近图案",
+      "sound": "原创配乐与拟音同步2倍速，保持音高"
+    },
+    {
+      "id": "paper-world",
+      "start": 7.5,
+      "end": 13.125,
+      "intent": "爬行追鸭",
+      "states": {
+        "establish": 8.0,
+        "action": 9.5,
+        "result": 12.5
+      },
+      "reads": "纸路→小鸭→爬行宝宝",
+      "action": "沿几何纸片世界追鸭",
+      "camera": "伴随主体，保留鸭的行进空间",
+      "subjectId": "baby",
+      "subjectPath": "x=260+1150*ease(p),y=1460-355*ease(p)",
+      "cameraPath": "x=baby.x+140,y=baby.y-300,z=1",
+      "sound": "原创配乐与拟音同步2倍速，保持音高"
+    },
+    {
+      "id": "hide",
+      "start": 13.125,
+      "end": 16.875,
+      "intent": "洞口找鸭",
+      "states": {
+        "establish": 13.5,
+        "action": 15.0,
+        "result": 16.5
+      },
+      "reads": "不规则洞口→侧头宝宝→鸭出现",
+      "action": "探头、短停顿、鸭跳出",
+      "camera": "洞口近景，停时定机",
+      "sound": "原创配乐与拟音同步2倍速，保持音高"
+    },
+    {
+      "id": "connect",
+      "start": 16.875,
+      "end": 21.5625,
+      "intent": "循路线找鸭",
+      "states": {
+        "establish": 17.25,
+        "action": 18.5,
+        "result": 21.0
+      },
+      "reads": "三节点→指尖点亮→小鸭",
+      "action": "沿纸路爬行并点亮路线",
+      "camera": "先近景看点触，再拉开揭示完整路线",
+      "sound": "原创配乐与拟音同步2倍速，保持音高"
+    },
+    {
+      "id": "return",
+      "start": 21.5625,
+      "end": 26.25,
+      "intent": "抱回小鸭",
+      "states": {
+        "establish": 22.0,
+        "action": 23.2,
+        "result": 25.5
+      },
+      "reads": "手接近→抱鸭→打开的书",
+      "action": "平滑接到手部锚点并抱持",
+      "camera": "接触中景后拉远到书",
+      "sound": "原创配乐与拟音同步2倍速，保持音高"
+    },
+    {
+      "id": "ending",
+      "start": 26.25,
+      "end": 30.0,
+      "intent": "笑脸收尾",
+      "states": {
+        "establish": 26.5,
+        "action": 27.7,
+        "result": 29.1
+      },
+      "reads": "笑脸宝宝→书与鸭",
+      "action": "无标题、无印章，主体上移",
+      "camera": "稳定收尾，稳定笑脸收尾",
+      "sound": "原创配乐与拟音同步2倍速，保持音高"
+    }
+  ],
+  "connections": [
+    {
+      "time": 3.75,
+      "kind": "diagonal paper wipe",
+      "anchor": "斜向纸页边缘",
+      "window": [
+        3.4699999999999998,
+        4.03
+      ]
+    },
+    {
+      "time": 7.5,
+      "kind": "diagonal paper wipe",
+      "anchor": "斜向纸页边缘",
+      "window": [
+        7.22,
+        7.78
+      ]
+    },
+    {
+      "time": 13.125,
+      "kind": "diagonal paper wipe",
+      "anchor": "斜向纸页边缘",
+      "window": [
+        12.845,
+        13.405
+      ]
+    },
+    {
+      "time": 16.875,
+      "kind": "diagonal paper wipe",
+      "anchor": "斜向纸页边缘",
+      "window": [
+        16.595,
+        17.155
+      ]
+    },
+    {
+      "time": 21.5625,
+      "kind": "diagonal paper wipe",
+      "anchor": "斜向纸页边缘",
+      "window": [
+        21.2825,
+        21.8425
+      ]
+    },
+    {
+      "time": 26.25,
+      "kind": "diagonal paper wipe",
+      "anchor": "斜向纸页边缘",
+      "window": [
+        25.97,
+        26.53
+      ]
+    }
+  ]
+}

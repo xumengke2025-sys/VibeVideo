@@ -1,0 +1,74 @@
+{
+  "duration": 52,
+  "sample_rate": 48000,
+  "provider": "Windows SAPI offline",
+  "voice": "Microsoft Huihui Desktop",
+  "music": "Original synthesized plucked motif",
+  "peak": 0.6456696539892373,
+  "entries": [
+    {
+      "id": "three-inputs",
+      "text": "券商客户经营，查商机、问业务、备拜访，一句话启动。",
+      "spoken_text": "券商客户经营，查商机、问业务、备拜访，一句话启动。",
+      "start": 0.24,
+      "end": 4.741583333333334,
+      "original_duration": 5.224645833333334,
+      "speed": 1.1558950958702068
+    },
+    {
+      "id": "signal-filter",
+      "text": "查询和监测市场、客户名单，发现线索，保留来源，等待核实。",
+      "spoken_text": "查询和监测市场、客户名单，发现线索，保留来源，等待核实。",
+      "start": 5.24,
+      "end": 10.743354166666666,
+      "original_duration": 5.989625,
+      "speed": 1.0850769927536232
+    },
+    {
+      "id": "expert-transmission",
+      "text": "数十位人工智能专家，按议题分工。行业看逻辑，财务查资金，资本运作研判方向。",
+      "spoken_text": "数十位人工智能专家，按议题分工。行业看逻辑，财务查资金，资本运作研判方向。",
+      "start": 11.24,
+      "end": 18.739083333333333,
+      "original_duration": 7.815125,
+      "speed": 1.0392453457446809
+    },
+    {
+      "id": "knowledge-section",
+      "text": "有扩产计划，就有融资需求吗？专家从已装配的知识库查证。资料没给资金安排，就先核实来源和缺口。",
+      "spoken_text": "有扩产计划，就有融资需求吗？专家从已装配的知识库查证。资料没给资金安排，就先核实来源和缺口。",
+      "start": 19.24,
+      "end": 28.742083333333333,
+      "original_duration": 9.737958333333333,
+      "speed": 1.0228947829131652
+    },
+    {
+      "id": "visit-carriage",
+      "text": "准备拜访时，把待核实项变成具体提问，形成目标、问题和话术材料。",
+      "spoken_text": "准备拜访时，把待核实项变成具体提问，形成目标、问题和话术材料。",
+      "start": 29.24,
+      "end": 35.459583333333335,
+      "original_duration": 6.2195833333333335,
+      "speed": 1
+    },
+    {
+      "id": "confirmation-latch",
+      "text": "由你确认跟进。反馈再进入诊断、陪练和经营计划，推动下一步行动。",
+      "spoken_text": "由你确认跟进。反馈再进入诊断、陪练和经营计划，推动下一步行动。",
+      "start": 37.24,
+      "end": 43.67029166666667,
+      "original_duration": 6.430291666666666,
+      "speed": 1
+    },
+    {
+      "id": "whole-machine",
+      "text": "FirmBuddy，把业务问题，变成有依据的行动。",
+      "spoken_text": "FirmBuddy，把业务问题，变成有依据的行动。",
+      "start": 44.24,
+      "end": 47.73875,
+      "original_duration": 3.5336666666666665,
+      "speed": 1.0038825757575764
+    }
+  ],
+  "listening_verified": false
+}

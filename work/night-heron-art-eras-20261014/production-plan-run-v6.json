@@ -1,0 +1,1048 @@
+{
+  "title": "夜鹭跨时代狂奔偷鱼",
+  "version": "run-v6-redrawn-owner-reactions",
+  "date": "2026-10-15",
+  "status": "production",
+  "transitionContract": {
+    "path": "transitions-run-v4.json",
+    "count": 15,
+    "status": "implemented_15_occlusion_cuts_selected_frames_viewed",
+    "historyRule": "按年代递进，跨地域画风为并置，不暗示线性进化或师承",
+    "continuityRule": "同一夜鹭体型、跑向、绝对步态与岸线连续；全场媒介同时切换，保留各风格自身色盘和空间规则",
+    "protectedWindow": "鱼接触到仰头吞下及收颈期间不切；每场喙空后才遮挡换画风"
+  },
+  "brief": {
+    "aspect_ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 48,
+    "frames": 1488,
+    "duration": 31,
+    "eraCount": 16,
+    "delivery_mode": "ai_review_once",
+    "reviewBudget": "既有一轮已用；不新增审片角色、不启动第二轮全面审核",
+    "onscreenText": "仅时代与年份；60px，较v5增大50%；无片名、画风名、说明、计分",
+    "audio": "无旁白；奔跑、叼取、吞咽共用事件表，配乐节奏逐步加快",
+    "timelineUnits": "events and shot boundaries retained in 24fps reference units; evaluated continuously at 48fps"
+  },
+  "userLatest": [
+    "每阶段物种、体型合理",
+    "每场同一完整动作，边跑边仰头吃掉鱼",
+    "全要素同一时代画风",
+    "无对抗、无追逐，原持有动物反应相同",
+    "动作更顺畅",
+    "原持有动物统一惊愕、滑稽反应",
+    "16时代生图背景，媒介与动物一致",
+    "16场失鱼动物动作和表情全部重新绘制；取消口鼻与喙的网格变形",
+    "年代文字放大"
+  ],
+  "direction": {
+    "promise": "同一只紧凑夜鹭持续向右跑，跨16画风越跑越快；每场经过一个动物并偷吃其脚边的一条鱼",
+    "action": "缩颈跑→伸颈叼鱼→边跑边仰头吞鱼→尾部进入口腔→闭喙吞咽→收颈继续跑",
+    "ownerReaction": "每场九张独立重绘姿势：平静→察觉→后缩→低头找鱼→疑惑抬头→惊愕停顿；同一时序，各物种自然解剖；刚性放置序列图，不对口鼻/喙变形，不叠化重影",
+    "swallowRule": "不能在喙尖或抬头之前直接隐藏整条鱼；鱼沿口腔遮罩头先进入，鱼尾最后消失；下一时代不携鱼",
+    "conceptPaths": [
+      "concepts/run-v4/01-cave-bear.png",
+      "concepts/run-v4/03-black-figure-pelican.png",
+      "concepts/run-v4/09-ink-cormorant.png",
+      "concepts/run-v4/09-ink-swallow.png"
+    ]
+  },
+  "fauna": {
+    "measurementRule": "model*为成年代表体型的美术建模目标，非实测站高。资料中的鸟长不充当站立/奔跑高度，兽类头体长和尾长分开；同一地面以米统一投影。",
+    "models": {
+      "black_crowned_night_heron": {
+        "common": "黑冠夜鹭",
+        "scientific": "Nycticorax nycticorax",
+        "modelLengthM": 0.62,
+        "modelRunningHeightM": 0.4,
+        "measuredLengthRangeCm": [
+          58,
+          66
+        ],
+        "identity": "黑冠黑背、灰翼、淡腹、红眼、紧凑体型；保持鸟类跗跖与趾，翅膀折叠"
+      },
+      "brown_bear": {
+        "common": "棕熊",
+        "scientific": "Ursus arctos",
+        "modelHeadBodyLengthM": 1.65,
+        "modelShoulderHeightM": 1.05,
+        "pose": "四足低头，前爪与头可读；大躯干允许有意出画，不能压小"
+      },
+      "natural_cat": {
+        "common": "自然短毛家猫",
+        "scientific": "Felis catus",
+        "modelHeadBodyLengthM": 0.45,
+        "modelShoulderHeightM": 0.25,
+        "modelSeatedHeightM": 0.38,
+        "pose": "坐在岸边，鱼在前爪外侧；无现代品种或项圈"
+      },
+      "great_white_pelican": {
+        "common": "白鹈鹕",
+        "scientific": "Pelecanus onocrotalus",
+        "modelLengthM": 1.5,
+        "modelStandingHeightM": 0.95,
+        "measuredLengthRangeCm": [
+          140,
+          175
+        ],
+        "pose": "站立或低颈休息；长喙完整可见，喉囊与蹼足可辨"
+      },
+      "eurasian_otter": {
+        "common": "欧亚水獭",
+        "scientific": "Lutra lutra",
+        "modelHeadBodyLengthM": 0.65,
+        "modelTailLengthM": 0.4,
+        "modelShoulderHeightM": 0.24,
+        "pose": "岸边低伏或前身微抬，鱼在前爪旁；尾长不充当肩高"
+      },
+      "great_cormorant": {
+        "common": "普通鸬鹚",
+        "scientific": "Phalacrocorax carbo",
+        "modelLengthM": 0.85,
+        "modelStandingHeightM": 0.72,
+        "measuredLengthRangeCm": [
+          80,
+          100
+        ],
+        "pose": "直立，黑褐羽、淡颊与钩喙；不带绳索或渔具"
+      },
+      "grey_heron": {
+        "common": "苍鹭",
+        "scientific": "Ardea cinerea",
+        "modelLengthM": 0.94,
+        "modelStandingHeightM": 0.85,
+        "pose": "浅水岸边直立；长腿长颈，明确大于夜鹭，欧洲场景不用美洲大蓝鹭"
+      },
+      "common_kingfisher": {
+        "common": "普通翠鸟",
+        "scientific": "Alcedo atthis",
+        "modelLengthM": 0.165,
+        "modelPerchedHeightM": 0.11,
+        "measuredLengthRangeCm": [
+          16,
+          17
+        ],
+        "pose": "停在低矮岸石上；鱼在石面，不能放大成夜鹭同体型；鱼4厘米"
+      },
+      "raccoon": {
+        "common": "浣熊",
+        "scientific": "Procyon lotor",
+        "modelHeadBodyLengthM": 0.52,
+        "modelTailLengthM": 0.25,
+        "modelShoulderHeightM": 0.26,
+        "modelSeatedHeightM": 0.42,
+        "pose": "北美岸边前爪旁有鱼；可辨眼罩与环尾，不做洗鱼仪式"
+      },
+      "bald_eagle": {
+        "common": "白头海雕",
+        "scientific": "Haliaeetus leucocephalus",
+        "modelLengthM": 0.82,
+        "modelStandingHeightM": 0.65,
+        "pose": "北美湖岸折翼站立，鱼在脚边外侧；白头黄喙，无爪下夺鱼或攻击"
+      }
+    },
+    "groundRule": "脚、鱼、岸石共享地面或明确台阶高度；不按PNG外框统一缩放动物",
+    "bigAnimal": "为熊拉宽视野/有意裁去后躯，头、前爪、鱼必须完整；相机变焦对所有同平面物体生效",
+    "smallAnimal": "翠鸟约夜鹭全长的0.27倍；低岸石提高可读性，近景相机同时放大二者，不能单独放大翠鸟"
+  },
+  "camera": {
+    "subjectId": "night-heron",
+    "worldPath": "x(t)=integral v(t)dt，速度平滑递增，所有场景保持+x；速度为动画设计参数，不宣称自然奔跑实测",
+    "cameraPath": "C(t)=S(t)+平滑侧后偏移；大动物镜头提前变宽，取鱼到吞咽期间保持稳定",
+    "lookAt": "主体前方及即将经过的脚边鱼，叼到后注意回到仰起的头",
+    "screenRegion": {
+      "bodyX": [
+        0.28,
+        0.48
+      ],
+      "feetY": [
+        0.73,
+        0.8
+      ],
+      "headUpperLimit": 0.48,
+      "labelY": [
+        0.06,
+        0.12
+      ]
+    },
+    "parallax": "独立远景、中景河岸、近景芦苇/岩石；不把整张概念图横移当跟拍",
+    "stride": "连续绝对相位，脚着地时锁定世界接触点，摆动脚解锁；换画风不重置步态",
+    "cut": "短前景遮挡+同姿态材质切换；不在鱼接触/仰头吞咽时切，不做半秒双重风格叠化"
+  },
+  "rig": {
+    "legs": "每腿髋/膝/跗关节/趾，屈曲符合鸟类，左右步相差半周期",
+    "neck": "肩根、下颈、上颈、头部控制，连贯S形轮廓和蒙皮；伸缩靠曲率展开，避免拉长贴图或长颈鹿颈",
+    "head": "头、上下喙及口腔遮罩；仰头时鱼绑定喙局部坐标，逐步进入口腔",
+    "body": "小幅重心起伏与翅尾随动，不能为吞鱼完全停下"
+  },
+  "timeline": {
+    "opening": {
+      "startFrame": 0,
+      "endFrameExclusive": 24,
+      "action": "史前岸边已开始奔跑，无标题"
+    },
+    "shots": [
+      {
+        "id": "era_01",
+        "startFrame": 24,
+        "endFrameExclusive": 78,
+        "frames": 54,
+        "startSeconds": 1,
+        "endSeconds": 3.25,
+        "era": "史前",
+        "date": "约前16000年",
+        "location": "西欧河谷意象",
+        "style": "洞穴岩画",
+        "sourceScene": "01_cave",
+        "owner": "brown_bear",
+        "fishLengthM": 0.12,
+        "events": {
+          "reachStart": 12,
+          "grab": 20,
+          "raiseStart": 21,
+          "headUp": 27,
+          "swallowStart": 29,
+          "fishGone": 36,
+          "neckTucked": 45,
+          "safeCutStart": 48
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 19
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 12,
+            "to": 27
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 27,
+            "to": 37
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 37,
+            "to": 53
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_02",
+        "startFrame": 78,
+        "endFrameExclusive": 130,
+        "frames": 52,
+        "startSeconds": 3.25,
+        "endSeconds": 5.416666666666667,
+        "era": "古埃及",
+        "date": "约前1350年",
+        "location": "尼罗河谷",
+        "style": "新王国壁画",
+        "sourceScene": "02_egypt",
+        "owner": "natural_cat",
+        "fishLengthM": 0.08,
+        "events": {
+          "reachStart": 12,
+          "grab": 19,
+          "raiseStart": 20,
+          "headUp": 26,
+          "swallowStart": 27,
+          "fishGone": 35,
+          "neckTucked": 43,
+          "safeCutStart": 46
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 18
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 12,
+            "to": 26
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 26,
+            "to": 36
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 36,
+            "to": 51
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_03",
+        "startFrame": 130,
+        "endFrameExclusive": 180,
+        "frames": 50,
+        "startSeconds": 5.416666666666667,
+        "endSeconds": 7.5,
+        "era": "古希腊",
+        "date": "约前530年",
+        "location": "马其顿湿地意象",
+        "style": "阿提卡黑绘陶",
+        "sourceScene": "03_greek",
+        "owner": "great_white_pelican",
+        "fishLengthM": 0.12,
+        "events": {
+          "reachStart": 11,
+          "grab": 18,
+          "raiseStart": 19,
+          "headUp": 25,
+          "swallowStart": 26,
+          "fishGone": 33,
+          "neckTucked": 42,
+          "safeCutStart": 44
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 17
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 11,
+            "to": 25
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 25,
+            "to": 34
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 34,
+            "to": 49
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_04",
+        "startFrame": 180,
+        "endFrameExclusive": 228,
+        "frames": 48,
+        "startSeconds": 7.5,
+        "endSeconds": 9.5,
+        "era": "古罗马",
+        "date": "79年",
+        "location": "意大利河流意象",
+        "style": "石嵌马赛克",
+        "sourceScene": "04_roman",
+        "owner": "eurasian_otter",
+        "fishLengthM": 0.1,
+        "events": {
+          "reachStart": 11,
+          "grab": 17,
+          "raiseStart": 19,
+          "headUp": 24,
+          "swallowStart": 25,
+          "fishGone": 32,
+          "neckTucked": 40,
+          "safeCutStart": 43
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 16
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 11,
+            "to": 24
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 24,
+            "to": 33
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 33,
+            "to": 47
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_05",
+        "startFrame": 228,
+        "endFrameExclusive": 275,
+        "frames": 47,
+        "startSeconds": 9.5,
+        "endSeconds": 11.458333333333334,
+        "era": "北宋",
+        "date": "约1050年",
+        "location": "中国江南水岸意象",
+        "style": "皮影",
+        "sourceScene": "34_shadowpuppet",
+        "owner": "great_cormorant",
+        "fishLengthM": 0.1,
+        "events": {
+          "reachStart": 10,
+          "grab": 17,
+          "raiseStart": 18,
+          "headUp": 24,
+          "swallowStart": 25,
+          "fishGone": 31,
+          "neckTucked": 39,
+          "safeCutStart": 42
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 16
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 10,
+            "to": 24
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 24,
+            "to": 32
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 32,
+            "to": 46
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_06",
+        "startFrame": 275,
+        "endFrameExclusive": 321,
+        "frames": 46,
+        "startSeconds": 11.458333333333334,
+        "endSeconds": 13.375,
+        "era": "中世纪",
+        "date": "约1290年",
+        "location": "法国河流意象",
+        "style": "哥特泥金手抄本",
+        "sourceScene": "05_gothic",
+        "owner": "grey_heron",
+        "fishLengthM": 0.1,
+        "events": {
+          "reachStart": 10,
+          "grab": 17,
+          "raiseStart": 18,
+          "headUp": 23,
+          "swallowStart": 24,
+          "fishGone": 31,
+          "neckTucked": 38,
+          "safeCutStart": 41
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 16
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 10,
+            "to": 23
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 23,
+            "to": 32
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 32,
+            "to": 45
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_07",
+        "startFrame": 321,
+        "endFrameExclusive": 366,
+        "frames": 45,
+        "startSeconds": 13.375,
+        "endSeconds": 15.25,
+        "era": "文艺复兴",
+        "date": "1503年",
+        "location": "意大利河流意象",
+        "style": "晕涂油画",
+        "sourceScene": "06_renaissance",
+        "owner": "common_kingfisher",
+        "fishLengthM": 0.04,
+        "events": {
+          "reachStart": 10,
+          "grab": 16,
+          "raiseStart": 18,
+          "headUp": 23,
+          "swallowStart": 24,
+          "fishGone": 30,
+          "neckTucked": 38,
+          "safeCutStart": 40
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 15
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 10,
+            "to": 23
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 23,
+            "to": 31
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 31,
+            "to": 44
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_08",
+        "startFrame": 366,
+        "endFrameExclusive": 410,
+        "frames": 44,
+        "startSeconds": 15.25,
+        "endSeconds": 17.083333333333332,
+        "era": "17世纪",
+        "date": "1642年",
+        "location": "荷兰水道",
+        "style": "暖褐明暗油画",
+        "sourceScene": "32_rembrandt",
+        "owner": "eurasian_otter",
+        "fishLengthM": 0.1,
+        "events": {
+          "reachStart": 10,
+          "grab": 16,
+          "raiseStart": 17,
+          "headUp": 22,
+          "swallowStart": 23,
+          "fishGone": 29,
+          "neckTucked": 37,
+          "safeCutStart": 39
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 15
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 10,
+            "to": 22
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 22,
+            "to": 30
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 30,
+            "to": 43
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_09",
+        "startFrame": 410,
+        "endFrameExclusive": 453,
+        "frames": 43,
+        "startSeconds": 17.083333333333332,
+        "endSeconds": 18.875,
+        "era": "清初",
+        "date": "约1690年",
+        "location": "中国江南水岸意象",
+        "style": "干湿水墨",
+        "sourceScene": "17_ink",
+        "owner": "great_cormorant",
+        "fishLengthM": 0.1,
+        "events": {
+          "reachStart": 10,
+          "grab": 16,
+          "raiseStart": 17,
+          "headUp": 22,
+          "swallowStart": 23,
+          "fishGone": 29,
+          "neckTucked": 36,
+          "safeCutStart": 38
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 15
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 10,
+            "to": 22
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 22,
+            "to": 30
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 30,
+            "to": 42
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_10",
+        "startFrame": 453,
+        "endFrameExclusive": 495,
+        "frames": 42,
+        "startSeconds": 18.875,
+        "endSeconds": 20.625,
+        "era": "19世纪",
+        "date": "1874年",
+        "location": "法国河岸",
+        "style": "印象派",
+        "sourceScene": "08_impressionism",
+        "owner": "grey_heron",
+        "fishLengthM": 0.1,
+        "events": {
+          "reachStart": 9,
+          "grab": 15,
+          "raiseStart": 16,
+          "headUp": 21,
+          "swallowStart": 22,
+          "fishGone": 28,
+          "neckTucked": 35,
+          "safeCutStart": 37
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 14
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 9,
+            "to": 21
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 21,
+            "to": 29
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 29,
+            "to": 41
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_11",
+        "startFrame": 495,
+        "endFrameExclusive": 536,
+        "frames": 41,
+        "startSeconds": 20.625,
+        "endSeconds": 22.333333333333332,
+        "era": "19世纪",
+        "date": "1889年",
+        "location": "法国河岸",
+        "style": "后印象派",
+        "sourceScene": "09_postimp",
+        "owner": "eurasian_otter",
+        "fishLengthM": 0.1,
+        "events": {
+          "reachStart": 9,
+          "grab": 15,
+          "raiseStart": 16,
+          "headUp": 21,
+          "swallowStart": 22,
+          "fishGone": 27,
+          "neckTucked": 34,
+          "safeCutStart": 36
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 14
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 9,
+            "to": 21
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 21,
+            "to": 28
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 28,
+            "to": 40
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_12",
+        "startFrame": 536,
+        "endFrameExclusive": 576,
+        "frames": 40,
+        "startSeconds": 22.333333333333332,
+        "endSeconds": 24,
+        "era": "20世纪初",
+        "date": "1912年",
+        "location": "法国河岸",
+        "style": "分析立体主义",
+        "sourceScene": "11_cubism",
+        "owner": "natural_cat",
+        "fishLengthM": 0.08,
+        "events": {
+          "reachStart": 9,
+          "grab": 14,
+          "raiseStart": 16,
+          "headUp": 20,
+          "swallowStart": 21,
+          "fishGone": 27,
+          "neckTucked": 33,
+          "safeCutStart": 36
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 13
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 9,
+            "to": 20
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 20,
+            "to": 28
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 28,
+            "to": 39
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_13",
+        "startFrame": 576,
+        "endFrameExclusive": 615,
+        "frames": 39,
+        "startSeconds": 24,
+        "endSeconds": 25.625,
+        "era": "20世纪",
+        "date": "1930年",
+        "location": "北美淡水河岸",
+        "style": "黑白橡皮管动画",
+        "sourceScene": "33_rubberhose",
+        "owner": "raccoon",
+        "fishLengthM": 0.09,
+        "events": {
+          "reachStart": 9,
+          "grab": 14,
+          "raiseStart": 15,
+          "headUp": 20,
+          "swallowStart": 21,
+          "fishGone": 26,
+          "neckTucked": 33,
+          "safeCutStart": 35
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 13
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 9,
+            "to": 20
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 20,
+            "to": 27
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 27,
+            "to": 38
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_14",
+        "startFrame": 615,
+        "endFrameExclusive": 653,
+        "frames": 38,
+        "startSeconds": 25.625,
+        "endSeconds": 27.208333333333332,
+        "era": "20世纪",
+        "date": "1931年",
+        "location": "加泰罗尼亚水岸意象",
+        "style": "超现实主义",
+        "sourceScene": "23_dali",
+        "owner": "eurasian_otter",
+        "fishLengthM": 0.1,
+        "events": {
+          "reachStart": 8,
+          "grab": 14,
+          "raiseStart": 15,
+          "headUp": 19,
+          "swallowStart": 20,
+          "fishGone": 25,
+          "neckTucked": 32,
+          "safeCutStart": 34
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 13
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 8,
+            "to": 19
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 19,
+            "to": 26
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 26,
+            "to": 37
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_15",
+        "startFrame": 653,
+        "endFrameExclusive": 690,
+        "frames": 37,
+        "startSeconds": 27.208333333333332,
+        "endSeconds": 28.75,
+        "era": "20世纪",
+        "date": "1962年",
+        "location": "北美湖岸",
+        "style": "波普网点",
+        "sourceScene": "13_pop",
+        "owner": "bald_eagle",
+        "fishLengthM": 0.12,
+        "events": {
+          "reachStart": 8,
+          "grab": 13,
+          "raiseStart": 14,
+          "headUp": 19,
+          "swallowStart": 20,
+          "fishGone": 25,
+          "neckTucked": 31,
+          "safeCutStart": 33
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 12
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 8,
+            "to": 19
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 19,
+            "to": 26
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 26,
+            "to": 36
+          }
+        ],
+        "connectionToNext": "吞咽完成后、相同步态的前景遮挡处换画风；保持主体投影和世界运动，不叠化两套动物",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      },
+      {
+        "id": "era_16",
+        "startFrame": 690,
+        "endFrameExclusive": 726,
+        "frames": 36,
+        "startSeconds": 28.75,
+        "endSeconds": 30.25,
+        "era": "20世纪",
+        "date": "1985年",
+        "location": "日本河岸",
+        "style": "16色像素",
+        "sourceScene": "14_8bit",
+        "owner": "great_cormorant",
+        "fishLengthM": 0.1,
+        "events": {
+          "reachStart": 8,
+          "grab": 13,
+          "raiseStart": 14,
+          "headUp": 18,
+          "swallowStart": 19,
+          "fishGone": 24,
+          "neckTucked": 30,
+          "safeCutStart": 32
+        },
+        "reads": [
+          {
+            "what": "认出时代、原持有动物及脚边的一条鱼",
+            "from": 0,
+            "to": 12
+          },
+          {
+            "what": "伸颈与鱼接触，鱼随喙离开",
+            "from": 8,
+            "to": 18
+          },
+          {
+            "what": "仰头将鱼头先吞入，尾部最后消失",
+            "from": 18,
+            "to": 25
+          },
+          {
+            "what": "喙空、收颈继续跑；原持有动物查看空处",
+            "from": 25,
+            "to": 35
+          }
+        ],
+        "connectionToNext": "吞完最后一条鱼后继续向右跑入尾段",
+        "assetStatus": "generated_background_and_nine_redrawn_owner_poses_ready"
+      }
+    ],
+    "ending": {
+      "startFrame": 726,
+      "endFrameExclusive": 744,
+      "action": "最后一条已吞下，收颈继续向右，奔跑节奏自然落尾"
+    },
+    "referenceFps": 24
+  },
+  "styleContract": {
+    "allElements": "每时代的夜鹭、原持有动物、鱼、地面、水、植被统一轮廓、色盘、笔触尺寸、光照、纹理与动画抽帧规则；不能只换背景",
+    "artHistory": "仅借用对应时代可用机制；清初排除齐白石虾，1985用16色8位像素不称16位",
+    "backgrounds": "从花叔已移植材质提取与竖屏重排：保留原生岩壁/陶土/纸张/笔触等机制，重新布置为可横向行进的户外河岸，去掉室内窗桌、画框和第三只背景动物",
+    "coverage": "新版16时代每一组均需重做奔跑/仰头动作资产；旧v3静站素材不自动算完成"
+  },
+  "animationImageContract": {
+    "status": "planned_not_generated",
+    "purpose": "新增动画专用生图关键姿势，解决单张静图拆分摆动造成的不协调",
+    "runPoses": [
+      "左脚承重/右脚摆动",
+      "左脚蹬地",
+      "腾空过渡",
+      "右脚落地承重/左脚摆动",
+      "右脚蹬地",
+      "腾空回到左脚落地"
+    ],
+    "feedingPoses": [
+      "缩颈奔跑",
+      "伸颈接触鱼",
+      "叼起鱼",
+      "边跑边仰头吞入",
+      "闭喙收颈继续跑"
+    ],
+    "identityLocks": [
+      "同一夜鹭身份、成年体型、朝向、镜头、尺度",
+      "左右鸟腿及脚底锚点连续",
+      "头喙与鱼方向正确",
+      "每时代全部要素同一画风"
+    ],
+    "generation": "内置生图生成/编辑关键姿势，以夜鹭设定和相邻姿势为参考；按动画需要分层，保留透明度和变形空间",
+    "interpolation": "共享骨架、连续变形、落脚世界接触约束；不能将随机姿势直接快速切图当流畅跑动",
+    "coverage": "先验证共享动作，再为16时代分别重绘相应姿势；旧静态概念与站立资产不计作完成",
+    "sampleOrder": [
+      "水墨：完整跑动—叼鱼—仰头吞咽—收颈",
+      "熊→猫与鹈鹕→水獭：尺度差异及画风切换",
+      "验证后扩展16时代"
+    ],
+    "review": "制作观察，沿用既有一轮预算，不新增独立审片角色"
+  },
+  "samplePlan": {
+    "range": "先补动画专用生图关键姿势并制作水墨完整跑动吃鱼样段，再做熊→猫及鹈鹕→水獭的体型差异与相邻转场，验证后扩展16时代",
+    "deliverable": "1080×1920、24fps、实际素材和正式音效的连续样段；机械预演可以低清，但不能代替最终样段",
+    "acceptance": [
+      "同屏体型比合理且不靠单独缩小熊解决",
+      "脚底不滑，躯干向前，颈关节不露切口",
+      "仅一条鱼，鱼地面→喙→口腔→已吞下，状态闭合",
+      "仰头吞咽过程可辨，鱼不在喙外凭空消失",
+      "动物反应在鱼离地后发生",
+      "相邻剪口无双动物重影、不切掉完整动作",
+      "手机尺寸下物种及鱼可辨认，只有时代年份"
+    ]
+  },
+  "verification": {
+    "current": "已完成埃及→希腊4.25秒正式尺寸/48fps样段，解码通过；实际查看10个动物反应节点及完整画幅。其余生成与最终成片观察以CHECKPOINT和交付记录为准",
+    "later": "先样段再全16时代，检查全部媒体约束及当前版本实际观察范围；不继承旧成片审核通过"
+  },
+  "protected": [
+    "保留旧film-v3与旧production-plan.json",
+    "同一夜鹭形象",
+    "9:16及时代顺序",
+    "同动作同反应",
+    "无打架和追逐"
+  ],
+  "productionEvidence": {
+    "backgrounds": "assets/run-v5/background-01..16.png; built-in imagegen, prompts recorded",
+    "motion": "continuous articulated night-heron legs/neck retained; owners use nine genuinely redrawn poses per era, registered with uniform scale and rigid translation, no facial mesh or pose crossfade",
+    "ownerAssets": "assets/run-v6/owner-01..16-sheet.png and era-XX/pose-0..8.png; built-in imagegen; prompts/provenance recorded",
+    "review": "existing budget retained; no new independent reviewer"
+  }
+}

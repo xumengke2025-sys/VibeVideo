@@ -1,0 +1,53 @@
+{
+  "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\risky-brass-20261016\\v2\\Risky-黄铜机械-完整版.mp4",
+  "sha256": "fb8bafb07ad3ae862391e505499a1183e1cfb2b3660368408d171415888a9d38",
+  "source_sha256": "89a41a8af9c4f99a9db900e9d72bdd44d4791c675bf8a112ae69d2d1e7aa7740",
+  "duration": 80.0,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "decoded_frames": 2400,
+  "full_decode": "passed",
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "rate": 48000,
+    "original_synthesis": true,
+    "peak_linear": 0.16693115234375,
+    "rms_linear": 0.02500864649016888,
+    "listened": false
+  },
+  "not_engine_results": true,
+  "independent_review": "pending",
+  "stills_from_actual_mp4": [
+    1.2,
+    4.4,
+    12.5,
+    18.8,
+    26.8,
+    35.7,
+    44,
+    48.9,
+    52.8,
+    58,
+    63,
+    68.8,
+    73.8,
+    75.8,
+    78.3
+  ],
+  "source_addressability": [
+    {
+      "t": 73.8,
+      "identical": true
+    },
+    {
+      "t": 35.7,
+      "identical": true
+    },
+    {
+      "t": 3.3,
+      "identical": true
+    }
+  ]
+}

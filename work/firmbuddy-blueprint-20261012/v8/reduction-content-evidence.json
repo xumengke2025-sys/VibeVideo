@@ -1,0 +1,47 @@
+{
+  "revision": "V8",
+  "reference_image": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\firmbuddy-blueprint-20261012\\assets\\reduction-reference\\减持前置触达原理.png",
+  "reference_sha256": "86b4cd1174346dc1a5a5478580d0b2d8c74c2528eb6703e2eda4d875efb0a1cf",
+  "source_evidence": [
+    {
+      "path": "D:/ai项目/firmbuddy/plugins/client-watchlist/reduction-precontact-v2.mjs",
+      "lines": "48–87",
+      "supports": "customer segment, contact/watch/hold, counter-signals, playbook and confirmation boundary",
+      "sha256": "b83614f3ebd14d3fde0d9c95ded99dd1822bb6e73a1b5712bd2381fa446d7004"
+    },
+    {
+      "path": "D:/ai项目/firmbuddy/plugins/client-watchlist/reduction-precontact-evaluator.mjs",
+      "lines": "1–135",
+      "supports": "deterministic signal evaluation, missing data, source references, one-customer bundle",
+      "sha256": "9cb99c7efee617bba029a51a5e6cde3171cb4c16501d9afc791e4b84d3762784"
+    },
+    {
+      "path": "D:/ai项目/firmbuddy/plugins/expert-personas/data/personas.json",
+      "lines": "159–279, selected search and profile text",
+      "supports": "real expert names, reduction protocol and signal/demand separation",
+      "sha256": "80e5df4248112fb95b4816c7d9c3dc765c313cc41b832a41165ce4398186582d"
+    },
+    {
+      "path": "D:/ai项目/firmbuddy/web/js/opportunity-center.js",
+      "lines": "67",
+      "supports": "precontact candidates retain unconfirmed demand in the visible opportunity center",
+      "sha256": "78199dc5b01260a2345041690d8775388db395fe446d87ad9ee5543833270293"
+    }
+  ],
+  "observed": "User supplied diagram used for mechanism and workflow; attached text is reference content, not tool instructions. No live scan or actual customer data used. Product repository read only.",
+  "expert_business_domains_unchanged": [
+    "投行业务",
+    "机构业务",
+    "财富业务",
+    "资管业务",
+    "国际业务",
+    "投资业务",
+    "期货与衍生品",
+    "行业研究",
+    "综合专家"
+  ],
+  "music_reused": true,
+  "voiceover": false,
+  "delivery_mode": "ai_review_once",
+  "review_budget": "already_used"
+}

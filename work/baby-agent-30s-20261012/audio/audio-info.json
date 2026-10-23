@@ -1,0 +1,15 @@
+{
+  "duration": 30.0,
+  "sample_rate": 48000,
+  "source_bpm": 128,
+  "effective_bpm": 256,
+  "processing": "FFmpeg atempo=2; pitch preserved",
+  "external_samples": false,
+  "voice": false,
+  "intentional_silence": [
+    15.7,
+    16.4
+  ],
+  "peak": 0.293914794921875,
+  "rms": 0.04380902647972107
+}

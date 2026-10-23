@@ -8,4 +8,5 @@
 - 隔离目录验证：路径自动重定位通过；从原地址实际恢复Shotcraft样段、仓库影片、作者帖原片、Shotcraft库JSON四项，共7576505字节，均通过大小/SHA256检查。见 smoke-verification.json。
 - 发布范围：技能、目录、来源元数据、恢复清单与说明；未提交新增第三方媒体、未明确许可的源码正文或其他在制视频修改。凭据格式扫描未命中，git diff --cached --check通过。
 - 本机技能：本次改动已同步到 D:/Codex/skills/vibe-video。
-- 下一步：提交此发布包并推送 origin/main；远程提交以Git日志与最终响应为准。
+- 已发布：提交 f8f73d8 已推送 origin/main（2026-10-15），原仓库 https://github.com/xumengke2025-sys/VibeVideo 。本行是推送后的本地回执；公开提交包含此前完整验证记录。
+- 剩余工作：无；作者原地址的长期可用性及未实际重渲/听音的范围仍按发布说明。

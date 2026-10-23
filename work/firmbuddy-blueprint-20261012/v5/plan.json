@@ -1,0 +1,21 @@
+{
+  "revision": "V5-mechanical-blueprint",
+  "duration": 52,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "delivery_mode": "ai_review_once",
+  "review_budget": "previous_round_already_used",
+  "reference_commit": "e3cb16f63768c68693ff0e15171d6e755457cc32",
+  "facts": "../product-reassessment-20261013.json",
+  "shots": [
+    {"id":"three-inputs","start":0,"end":5,"voiceover":"券商客户经营，查商机、问业务、备拜访，一句话启动。","action":"三路输入联接同一台机械蓝图；定位先于特写。","camera":"品牌与入口中景，沿输入轴推到查询机构。"},
+    {"id":"signal-filter","start":5,"end":11,"voiceover":"查询和监测市场、客户名单，发现线索，保留来源，等待核实。","action":"双轨滚筒扫描，扩产披露示例进入候选槽。","camera":"沿扫描滑块跟拍，落定后短停读候选。"},
+    {"id":"expert-transmission","start":11,"end":19,"voiceover":"数十位人工智能专家，按议题分工。行业看逻辑，财务查资金，资本运作研判方向。","action":"多领域专家库选择三个专业齿轮，啮合传动到候选问题出口。","camera":"切齿轮2倍特写，沿三轮传动追踪，再退开看专业协作。"},
+    {"id":"knowledge-section","start":19,"end":29,"voiceover":"有扩产计划，就有融资需求吗？专家从已装配的知识库查证。资料没给资金安排，就先核实来源和缺口。","action":"新输入进入答疑机构，资料仓剖切，引用沿连杆送达结论；不是重新装配或训练。","camera":"沿立轴下行，剖切扫过资料仓，选中资料分层展开，跟引用前沿交接给结论。"},
+    {"id":"visit-carriage","start":29,"end":37,"voiceover":"准备拜访时，把待核实项变成具体提问，形成目标、问题和话术材料。","action":"独立拜访输入；缺项滑块沿导轨移入策略页，变成资金提问。","camera":"随滑块并行移动，接触时减速停读，拉开看完整策略包。"},
+    {"id":"confirmation-latch","start":37,"end":44,"voiceover":"由你确认跟进。反馈再进入诊断、陪练和经营计划，推动下一步行动。","action":"用户确认锁扣接通跟进任务；反馈回路进入诊断，显示补问资金计划。","camera":"确认锁扣近景，沿回路移动，退开揭示多个成果端口。"},
+    {"id":"whole-machine","start":44,"end":48,"voiceover":"FirmBuddy，把业务问题，变成有依据的行动。","action":"整台专家与知识协作机器显现，六类业务端口接通。","camera":"沿输出传动拉远为机器全貌。"},
+    {"id":"title-block","start":48,"end":52,"voiceover":"","action":"回到工程图标题栏，品牌与定位落定。没有上市前中后矩阵。","camera":"由全景快速推进标题栏，最后1.8秒稳定停读。"}
+  ]
+}

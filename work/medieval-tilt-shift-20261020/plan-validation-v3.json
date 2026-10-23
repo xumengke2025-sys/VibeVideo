@@ -1,0 +1,184 @@
+{
+  "duration": 56,
+  "fps": 24,
+  "representatives": [
+    {
+      "shot": "horizon-city",
+      "state": "establish",
+      "time": 1,
+      "frame": 24
+    },
+    {
+      "shot": "horizon-city",
+      "state": "action",
+      "time": 4.0,
+      "frame": 96
+    },
+    {
+      "shot": "horizon-city",
+      "state": "result",
+      "time": 7,
+      "frame": 168
+    },
+    {
+      "shot": "glazed-gate",
+      "state": "establish",
+      "time": 9,
+      "frame": 216
+    },
+    {
+      "shot": "glazed-gate",
+      "state": "action",
+      "time": 13.0,
+      "frame": 312
+    },
+    {
+      "shot": "glazed-gate",
+      "state": "result",
+      "time": 17,
+      "frame": 408
+    },
+    {
+      "shot": "market-street",
+      "state": "establish",
+      "time": 19,
+      "frame": 456
+    },
+    {
+      "shot": "market-street",
+      "state": "action",
+      "time": 23.0,
+      "frame": 552
+    },
+    {
+      "shot": "market-street",
+      "state": "result",
+      "time": 27,
+      "frame": 648
+    },
+    {
+      "shot": "canal-quay",
+      "state": "establish",
+      "time": 29,
+      "frame": 696
+    },
+    {
+      "shot": "canal-quay",
+      "state": "action",
+      "time": 33.0,
+      "frame": 792
+    },
+    {
+      "shot": "canal-quay",
+      "state": "result",
+      "time": 37,
+      "frame": 888
+    },
+    {
+      "shot": "terraced-temple",
+      "state": "establish",
+      "time": 39,
+      "frame": 936
+    },
+    {
+      "shot": "terraced-temple",
+      "state": "action",
+      "time": 43.0,
+      "frame": 1032
+    },
+    {
+      "shot": "terraced-temple",
+      "state": "result",
+      "time": 47,
+      "frame": 1128
+    },
+    {
+      "shot": "whole-city",
+      "state": "establish",
+      "time": 49,
+      "frame": 1176
+    },
+    {
+      "shot": "whole-city",
+      "state": "action",
+      "time": 52.0,
+      "frame": 1248
+    },
+    {
+      "shot": "whole-city",
+      "state": "result",
+      "time": 55,
+      "frame": 1320
+    }
+  ],
+  "continuous_windows": [
+    {
+      "shot": "horizon-city",
+      "reason": "risk",
+      "start_frame": 144,
+      "end_frame": 190
+    },
+    {
+      "shot": "glazed-gate",
+      "reason": "risk",
+      "start_frame": 384,
+      "end_frame": 430
+    },
+    {
+      "shot": "market-street",
+      "reason": "risk",
+      "start_frame": 624,
+      "end_frame": 670
+    },
+    {
+      "shot": "canal-quay",
+      "reason": "risk",
+      "start_frame": 864,
+      "end_frame": 910
+    },
+    {
+      "shot": "terraced-temple",
+      "reason": "risk",
+      "start_frame": 1104,
+      "end_frame": 1150
+    },
+    {
+      "shot": "whole-city",
+      "reason": "risk",
+      "start_frame": 1296,
+      "end_frame": 1342
+    },
+    {
+      "reason": "连续世界中的注意交接",
+      "anchor": "gate-01 + temple-01",
+      "start_frame": 156,
+      "end_frame": 228
+    },
+    {
+      "reason": "连续世界中的注意交接",
+      "anchor": "gate-01 + market-01",
+      "start_frame": 396,
+      "end_frame": 468
+    },
+    {
+      "reason": "连续世界中的注意交接",
+      "anchor": "market-01 + quay-01",
+      "start_frame": 636,
+      "end_frame": 708
+    },
+    {
+      "reason": "连续世界中的注意交接",
+      "anchor": "canal-01 + temple-01",
+      "start_frame": 876,
+      "end_frame": 948
+    },
+    {
+      "reason": "连续世界中的注意交接",
+      "anchor": "temple-01 + gate-01",
+      "start_frame": 1116,
+      "end_frame": 1188
+    }
+  ],
+  "errors": [],
+  "scope": "Plan/evidence consistency only; visual and sound judgments require actual observation."
+}

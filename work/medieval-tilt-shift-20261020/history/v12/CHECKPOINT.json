@@ -1,0 +1,687 @@
+{
+  "objective": "修复闪动，增加祭司、军队、埃及使团与互动；全程主干道人潮；细化彩绘船只、船员和纤夫，完成76秒竖屏v12。",
+  "date": "2026-10-20",
+  "version": "v12",
+  "status": "v12_delivered",
+  "project_title": "暮河城 · 街巷与运河",
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "delivery_mode": "ai_review_once",
+  "duration": 76,
+  "fps": 24,
+  "frame_count": 1824,
+  "plan": "视频制作计划.md",
+  "structured_plan": "plan.json",
+  "history": "history/v1/",
+  "completed": [
+    "核对原计划对材质、曝光、低位角色摄影及最终品质证明的不足",
+    "将欧洲中世纪城镇替换为近东巴比伦幻想城邦，保留送火点灯主线",
+    "安排城市固定、镜头升高解除土坡遮挡的地平线开场；建议全片由48秒延至56秒",
+    "补充精细资产分层、侧向暖光、斜俯近景、景深边缘与视深对焦、采样及编码对照要求",
+    "补充90BPM、4/4、21小节的音乐设计、配器、分轨、现场声与关键事件响应；区分近东风格配乐与历史复原",
+    "同步镜头、阅读顺序、事件、配乐段落和关键样段的时间",
+    "保存4份v1历史文件并对v2重新运行本地shot_contract.py",
+    "保存v2历史，取消龙与送火链，重排六段城市街景",
+    "编写模型优先质量样板脚本model/build_city.py，尚未渲染",
+    "v1模型样板真实生成和渲染；制作检查发现不足后扩建v2城市模型",
+    "取消龙与送火，完成可编辑Blender城市模型v3及无景深实渲图",
+    "保存原样例代码来源和实际迁移范围source-adoption.json",
+    "v4完成12种细节院落变体、露台绿植、市集、66名居民与第四艘船；v5扩展10972座远景院落、1800米主轴大道与1900米运河及横纵路网",
+    "原创56秒配乐和环境音已生成；48kHz立体声，测得-15.91 LUFS、-1.83dBTP；实际听音尚未完成",
+    "定位原失败为GPU/shared host memory分配失败；没有终止无关进程或降低正式画幅",
+    "CUDA/CPU合成成功但较慢；OptiX 256px分块+GPU降噪/合成连续4帧通过，约8–10秒/帧",
+    "v6补齐远景西岸横街至桥头，保留v5模型及旧输出",
+    "采用独立frames-v6目录、原子PNG写入、32帧进程、断点续渲，避免不同降噪器样片混入成片",
+    "1344帧完整1080×1920 Cycles渲染完成，56秒24fps；v6原配乐影片保留",
+    "用户提供Alexander / Dream Of Babylon本地音频，v7已替换原配乐，画面流直接复制",
+    "v7技术检查通过：实际解码1344帧、完整音视频无解码错误、48kHz立体声",
+    "全帧审核证据已导出45页；启动唯一独立审片角色babylon_av_review",
+    "续接验证680张既有PNG与冻结源码一致，修复断点续渲进度记录初始化错误，恢复剩余帧渲染。",
+    "v8完成全部1344帧、56秒音画编码与完整解码检查；45页连续帧证据已导出，交同一审片角色续接。",
+    "v9模型已实际生成：24处砖墩木梁桥、实体引坡和4艘载货驳船；正式尺寸24采样试帧完成，已查看7秒与31秒画面。",
+    "v9全部1344帧正式渲染、音乐编码及全片解码检查完成。",
+    "v10修复第四艘船坐板层级；正式尺寸744与852帧已实际查看，河中孤立木条消失，坐板回到船内。",
+    "v10全部1344帧正式尺寸渲染完成；56秒音画编码、解码及规格检查通过。",
+    "v10当前编码输出已完成制作角色代表画面核对、冻结源码核对与交付记录；没有新增独立审核轮次。",
+    "v11完成76秒整片、1824帧、连续街景样段和当前编码代表画面核对；修复列队人畜、神像及新增建筑场地冲突。",
+    "v12全部1824帧完成；76秒音乐合成、完整解码、源图及编码逐帧技术扫描通过；制作角色查看38张代表帧、6段连续窗及5张原尺寸成片帧。"
+  ],
+  "verification": {
+    "plan_structure": "v3: 6 shots, 18 representative states, 11 continuous windows, 0 errors",
+    "render": "v12全部1824帧、1080×1920、24fps、76秒；冻结输入核对及完整音视频解码通过。",
+    "assets": "祭司、军队、埃及使团、全长大道人流、彩绘船、船员及纤夫已在最终成片代表画面核对。",
+    "audio": "用户原曲29.5–105.5秒连续节选；48kHz立体声，0.15秒渐入、73–76秒渐出；实际听音未完成。",
+    "limits": "结构检查不证明美术、动作、景深、音画或听感成立",
+    "independent_review": "既有一轮预算已用；当前用户反馈修订仅有制作角色检查，非新增独立审核。",
+    "review_evidence_consistency": "v9报告为历史归档；v10制作检查绑定当前视频哈希，见qa/v10/producer-evidence-v10.json。",
+    "producer_evidence": "qa/v12/producer-evidence-v12.json 与 producer-observations-v12.json；绑定当前成片哈希。",
+    "temporal": "源PNG与编码后1824帧机械扫描均未检出强绿坏帧或阈值内孤立跳帧；不排除细微闪烁。"
+  },
+  "user_confirmed_requirements": [
+    "近东巴比伦风格",
+    "城市从地平线上渐渐冒出的开头",
+    "精细的移轴摄影效果",
+    "音乐要有完整计划",
+    "街道连贯；巴比伦为宏伟、一望无际的巨型城市"
+  ],
+  "unresolved": [
+    "Current revision has producer representative-frame and stated continuous-sample inspection only; no new independent full-film review.",
+    "Actual listening was unavailable; perceptual music synchronization is unverified.",
+    "Babylon-inspired fantasy city, not an archaeological reconstruction."
+  ],
+  "concept_paths": [
+    "concepts/city-overview-v1.png",
+    "concepts/city-reveal-early-v1.png",
+    "concepts/city-reveal-late-v1.png"
+  ],
+  "concept_manifest": "concepts/manifest-v1.json",
+  "concept_verification": "三张概念图已实际查看并复制入项目，均为941×1672；未进行三维、动画、音频或成片审核。",
+  "feedback": [
+    "用户要求强化最终移轴与精细效果",
+    "用户指定地平线显城、近东巴比伦风格及音乐计划",
+    "用户认可概念图：很好，但注意参考样例视频的生成代码",
+    "用户指出实景渲染毫无质感，要求先做好模型",
+    "用户取消龙，城市街景即可",
+    "音乐强段开场并同步运镜",
+    "增建巴比伦奇观、蓝釉街区、王神雕像",
+    "增加居民、牲畜、商船表现繁荣",
+    "移轴感不明显：强化高位俯拍、窄清晰带与独立延时活动",
+    "v11用户指出行人与牲畜过于整齐、神像朝向和丰富度不足；授权新增建筑并延长片长。"
+  ],
+  "protected_items": [
+    "蓝釉门楼与土金泥砖",
+    "右后方阶梯神庙和纵深运河",
+    "暖侧光与可读材料",
+    "地平线由真实遮挡解除显露"
+  ],
+  "next_action": "Current v12 delivered; await user feedback. No new render or independent review scheduled.",
+  "do_not_resume_other_projects": true,
+  "updated_at": "2026-10-22T02:17:14.720502+00:00",
+  "render_session_id": null,
+  "review_budget": {
+    "reviewer_started": true,
+    "reviewer": "/root/babylon_av_review",
+    "repair_rounds_used": 1,
+    "max_repair_rounds": 1,
+    "note": "沿用唯一既有审片角色；v7结论不覆盖v8，不重置审核预算。实际音频感知不可用，不能声称听音通过。"
+  },
+  "final_candidate": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\delivery\\暮河城-巴比伦巨城-Dream-of-Babylon-v12.mp4",
+  "final_candidate_sha256": "eb3690a4d3b997517b28de24df4da048f5a65c614abea552bbea40c3a65cdd2b",
+  "delivery_note": "76秒竖屏v12；四项修订已落实。工程与逐帧技术扫描通过，制作角色完成38张代表帧、6段连续窗及5张原尺寸帧检查；未新增独立审核，实际听音未完成。",
+  "v8_music": {
+    "source": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\audio\\user-provided-Dream-Of-Babylon.mp3",
+    "duration": 160.77333333333334,
+    "analysis": "0.1s RMS, 2s smoothing, positive dB changes; energy/onset proxy only, no auditory verification",
+    "strong_entry_candidates": [
+      [
+        0.1298309999956843,
+        30.6
+      ],
+      [
+        0.12855486534261285,
+        39.8
+      ],
+      [
+        0.12143101966496811,
+        45.2
+      ],
+      [
+        0.12095780194560224,
+        55.7
+      ],
+      [
+        0.11365152584671388,
+        97.1
+      ],
+      [
+        0.11056856857603775,
+        24.9
+      ],
+      [
+        0.10979584445092398,
+        49.2
+      ],
+      [
+        0.1077628826616914,
+        34.5
+      ]
+    ],
+    "excerpt_start": 29.5,
+    "excerpt_end": 85.5,
+    "visual_cues_seconds": [
+      0.0,
+      8.0,
+      16.0,
+      26.6,
+      36.0,
+      44.4,
+      51.0
+    ],
+    "audio_perceived": false
+  },
+  "v8_visual_validation": {
+    "actual_viewed": [
+      "7s overall city from earlier v8",
+      "12s royal forecourt after occlusion fix",
+      "21s market",
+      "31s canal",
+      "40s garden after supported stairs",
+      "48s divine forecourt",
+      "54s giant city"
+    ],
+    "current_proofs": "render/proof-v8-frozen/",
+    "pending": "整片独立画面检查进行中，实际听音不可用"
+  },
+  "v8_model": "model/babylon-city-v8.blend",
+  "v8_source_entry": "model/enrich_city_v8.py → model/finalize_city_v8.py → model/optimize_city_v8.py → render_city_v8.py",
+  "v8_runtime_note": "72帧连续OptiX + GPU OIDN + GPU合成通过，无分块；末帧约2.94秒。以32帧进程渲染完整片，复用同源码72帧样段。",
+  "v8_model_fixes": [
+    "国王移到门前空地，保留通行空间",
+    "花园采用实体支撑折返楼梯与平台连接",
+    "王冠封顶",
+    "神像镜头改为前庭，斜清晰带穿过两尊神像",
+    "人畜按8Hz更新、2.4倍活动时间；相机逐帧平滑"
+  ],
+  "v8_continuous_sample": "delivery/移轴强化-v8-市集到运河-3秒样段.mp4",
+  "v8_full_render_manifest": "render/frozen-v8-manifest.json",
+  "render_resume": {
+    "source_hashes_verified": true,
+    "existing_valid_frames": 680,
+    "current_completed_frames": 1344,
+    "total_frames": 1344,
+    "fix": "Initialize completed_frames before reporting skipped batches; visual sources unchanged."
+  },
+  "v8_frame_evidence": "qa/v8/full-film/frame-audit.json",
+  "v9_revision": {
+    "scope": [
+      "brick-pier timber bridges",
+      "legacy triangular sail boats converted to cargo barges"
+    ],
+    "preserved": [
+      "1080x1920 56s 24fps",
+      "v8 camera timeline",
+      "v8 38px depth+tilt band",
+      "v8 music excerpt 29.5–85.5s",
+      "8Hz world motion"
+    ],
+    "review": "本轮唯一审片者完成必要局部复核；实际范围及残留缺陷见 qa/v9/av-review.json，未完成全片与听音审核。"
+  },
+  "v9_model": "model/babylon-city-v9.blend",
+  "v9_render_manifest": "render/frozen-v9-manifest.json",
+  "v9_local_recheck": {
+    "report": "qa/v9/av-review.json",
+    "verdict": "incomplete",
+    "coverage": {
+      "decoded_frames": 1344,
+      "decoded_frames_source": "parent full-decode report and provided frame-audit metadata; reviewer did not repeat full decode",
+      "visual_ranges": [
+        {
+          "start_frame": 144,
+          "end_frame": 203,
+          "evidence": [
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/opening-bridge-gate/atlas-000.jpg",
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/opening-bridge-gate/atlas-001.jpg"
+          ],
+          "method": "visual_contact_sheet_continuous_frames",
+          "observation": "Flat timber bridge decks and pier supports remain stable throughout the opening. Detail frame 168 shows deck ends meeting bank-side approaches without a visible water gap at the readable ends; some ends are occluded or outside frame. Hard cut at 192 enters the gate close-up with no intervening blank frame. Blur remains strongest in foreground and distance.",
+          "source_video_sha256": "186f7d288d6929583b9aeae2097dfb639ed73622cc82cf4be1a78b4b7efabb81",
+          "evidence_sha256": {
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/opening-bridge-gate/atlas-000.jpg": "54a47073e52edf269e54447159a58ba825e6d157aa7d39c6d4fad8ccc93eb08b",
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/opening-bridge-gate/atlas-001.jpg": "11935e9116e7c6f7a22bfa426eb74a6ae5eca520e9c7fdfb29862619db83bd5d"
+          }
+        },
+        {
+          "start_frame": 624,
+          "end_frame": 659,
+          "evidence": [
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/market-canal-cut/atlas-000.jpg",
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/market-canal-cut/atlas-001.jpg"
+          ],
+          "method": "visual_contact_sheet_continuous_frames",
+          "observation": "Market shot cuts directly to the canal at frame 639. Two loaded unrigged barges are visible and separate from the sailboat and banks; no blank or corrupted frame appears in the inspected cut. Cargo is stable across this window.",
+          "source_video_sha256": "186f7d288d6929583b9aeae2097dfb639ed73622cc82cf4be1a78b4b7efabb81",
+          "evidence_sha256": {
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/market-canal-cut/atlas-000.jpg": "f3f98682168b1ad957c4d83f15e722687cd42e1aa3a5a4103f29d05d32b5f49b",
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/market-canal-cut/atlas-001.jpg": "2181541b2565fce4095fa5c3d05bd56ee6dd960659ee38488d378058bcb44efc"
+          }
+        },
+        {
+          "start_frame": 728,
+          "end_frame": 775,
+          "evidence": [
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/cargo-barges/atlas-000.jpg",
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/cargo-barges/atlas-001.jpg"
+          ],
+          "method": "visual_contact_sheet_continuous_frames",
+          "observation": "Two unrigged cargo barges remain visibly separate and move consistently through the consecutive images. Detail 744 shows tied pale cargo bundles and boatmen seated/standing within the hulls; no obvious hull intersection or displaced cargo. Detached parallel timber-like bars are also visible in the upper-left river area.",
+          "source_video_sha256": "186f7d288d6929583b9aeae2097dfb639ed73622cc82cf4be1a78b4b7efabb81",
+          "evidence_sha256": {
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/cargo-barges/atlas-000.jpg": "56b2e5088b27f71daf68a420989d6af52180ebd77f2880012732b51a41f94c91",
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/cargo-barges/atlas-001.jpg": "83ca34a9f5038367736c1ad2a5ebf66327a24bf386b71bb7bbfcdb7b6233efff"
+          }
+        },
+        {
+          "start_frame": 840,
+          "end_frame": 875,
+          "evidence": [
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/atlas-000.jpg",
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/atlas-001.jpg"
+          ],
+          "method": "visual_contact_sheet_continuous_frames",
+          "observation": "The canal shot retains separated square-sail boats. Seven parallel timber-like bars are visibly isolated in the water, clearest in detail 852, without visible ties, hull or bank connection. The hard cut at 864 leads to a stable stepped garden scene without a blank intermediate frame.",
+          "source_video_sha256": "186f7d288d6929583b9aeae2097dfb639ed73622cc82cf4be1a78b4b7efabb81",
+          "evidence_sha256": {
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/atlas-000.jpg": "08b01deebf6ccec7ad5004781ecfa66011694eda4253acad6b23cfe88c9ed618",
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/atlas-001.jpg": "9bc6c02537e023bc17f14e637a6ba1335b49bd2b0d369c67ec2ac79cc5ba55fb"
+          }
+        },
+        {
+          "start_frame": 1216,
+          "end_frame": 1247,
+          "evidence": [
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/city-ending-cut/atlas-000.jpg",
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/city-ending-cut/atlas-001.jpg"
+          ],
+          "method": "visual_contact_sheet_continuous_frames",
+          "observation": "At frame 1216 the timber bridge and its bank approach are partly blurred at the bottom, without a visible detached endpoint. Frame 1224 cuts directly from the terrace to the city overview; the inspected subsequent overview retains flat bridges, river and central building layout without an anomalous transitional frame.",
+          "source_video_sha256": "186f7d288d6929583b9aeae2097dfb639ed73622cc82cf4be1a78b4b7efabb81",
+          "evidence_sha256": {
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/city-ending-cut/atlas-000.jpg": "fa67b628309c258cdf14183ccf06680d7d57faf5a33c20cec0e31fbb2b1b97c2",
+            "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/city-ending-cut/atlas-001.jpg": "1870ede2cb3063afeadb9d36530b1b65884ae2af28e23dd3b6673afb0ceb8ca5"
+          }
+        }
+      ],
+      "visual_frame_count": 212,
+      "detail_frames": [
+        {
+          "frame": 168,
+          "seconds": 7,
+          "path": "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/opening-bridge-gate/frames/frame-000168.jpg",
+          "sha256": "a4d86eb6ba88ab7f35fb5120d7798be7c5d948a5ec38af749e79338586d800f1",
+          "method": "original_resolution_still_visual_inspection"
+        },
+        {
+          "frame": 744,
+          "seconds": 31,
+          "path": "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/cargo-barges/frames/frame-000744.jpg",
+          "sha256": "786997b4e6a24802eb7b450dbf7c7e56cfbcb1da169428c0419b97be4875966e",
+          "method": "original_resolution_still_visual_inspection"
+        },
+        {
+          "frame": 852,
+          "seconds": 35.5,
+          "path": "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/frames/frame-000852.jpg",
+          "sha256": "8b382c4b28ce86d3ac80f178db24db3c40b63fdc1249ac94f56282b60707a518",
+          "method": "original_resolution_still_visual_inspection"
+        },
+        {
+          "frame": 1216,
+          "seconds": 50.666666666666664,
+          "path": "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/city-ending-cut/frames/frame-001216.jpg",
+          "sha256": "9ca0055672f165f844e75c3bd0d2cec0c4c8847d1a0133729310ecf3fcac71a1",
+          "method": "original_resolution_still_visual_inspection"
+        }
+      ],
+      "unreviewed_frame_ranges": [
+        [
+          0,
+          143
+        ],
+        [
+          204,
+          623
+        ],
+        [
+          660,
+          727
+        ],
+        [
+          776,
+          839
+        ],
+        [
+          876,
+          1215
+        ],
+        [
+          1248,
+          1343
+        ]
+      ],
+      "realtime_viewed_ranges_seconds": [],
+      "audio_listened_ranges_seconds": [],
+      "audio_status": "pending",
+      "audio_perception": {
+        "tool": "no usable perceptible audio playback in this review",
+        "status": "unavailable",
+        "note": "No audio heard. Encoded AAC equivalence is not listening evidence."
+      }
+    },
+    "remaining_findings": [
+      {
+        "id": "V9-LOCAL-01",
+        "severity": "minor",
+        "frame_ranges": [
+          [
+            728,
+            775
+          ],
+          [
+            840,
+            863
+          ]
+        ],
+        "time_ranges_seconds": [
+          [
+            30.333333,
+            32.291667
+          ],
+          [
+            35,
+            35.958333
+          ]
+        ],
+        "evidence": [
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/cargo-barges/frames/frame-000744.jpg",
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/frames/frame-000852.jpg",
+          "D:/ai项目/ai动画/VibeVideo项目/work/medieval-tilt-shift-20261020/qa/v9/canal-garden-cut/atlas-000.jpg"
+        ],
+        "observation": "Seven regularly spaced parallel timber-like bars appear isolated over/in the river; frame 852 (35.500 s) shows no visible connector to the neighboring boats, no raft bindings, and no bank attachment. This is a visible geometry/meaning ambiguity; its production cause is not established by the image.",
+        "impact": "The bars can read as detached boat components or an unfinished raft in the otherwise coherent miniature scene.",
+        "proposed_fix": "If revisited after user feedback, identify the intended object; connect/bind it as that object or remove unintended orphan geometry. No further repair is requested within the exhausted single-round budget.",
+        "recheck_status": "remaining_visible_in_v9",
+        "confidence": "high_for_visible_disconnection;unknown_for_intended_semantics"
+      }
+    ]
+  },
+  "v10_resume": {
+    "resumed_on": "2026-10-21",
+    "active_pipeline_pid": null,
+    "launcher_pid": null,
+    "resume_reason": "Confirmed earlier renderer absent at 1302 saved frames; resumed frozen source sequence without duplicate renderer.",
+    "resume_stdout": "render/resume-v10-final.log",
+    "progress_file": "render/pipeline-status-v10.json",
+    "progress_at_check": "1344 of 1344 frames; encoded and decoded",
+    "producer_viewed_render_frames": [
+      168,
+      288
+    ],
+    "frozen_sources_preserved": true,
+    "prepared_post_render_tools": [
+      "prepare_delivery_v10.py",
+      "finalize_delivery_v10.py"
+    ],
+    "next_action": "Completed; show current film and await user feedback."
+  },
+  "v10_followup": {
+    "authorization": "Continued user goal: finish full film and confirm era appearance and tilt-shift features after v9 delivery.",
+    "scope": [
+      "attach legacy crossbenches to animated hull",
+      "era-specific source and output evidence",
+      "retain all established photography and audio"
+    ],
+    "review": "No new independent review round; prior budget remains 1/1. New output receives producer verification only."
+  },
+  "v10_model": "model/babylon-city-v10.blend",
+  "v10_render_manifest": "render/frozen-v10-manifest.json",
+  "v10_producer_verification": {
+    "video_sha256": "491df2b327a044b161d2c262e6368baa8e0ec8399e5936e1311270a1d7a1f3d8",
+    "reviewer": "production agent /root; non-independent producer verification",
+    "created_at": "2026-10-21T09:16:54",
+    "actual_viewed_encoded_frames": [
+      12,
+      48,
+      96,
+      168,
+      288,
+      504,
+      638,
+      639,
+      728,
+      744,
+      760,
+      840,
+      852,
+      863,
+      864,
+      960,
+      1152,
+      1296
+    ],
+    "method": "Actual visual inspection of three labeled contact sheets containing 18 representative encoded frames, plus full-resolution encoded stills 744, 852 and 1296. No realtime playback or full-frame independent review.",
+    "original_resolution_frames": [
+      744,
+      852,
+      1296
+    ],
+    "contact_sheets": [
+      {
+        "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\qa\\v10\\opening-gate-market.jpg",
+        "sha256": "293719162ae4fe67f9096f72949e166c48acf5ecd12fcb54a69b7d05fb4cce20"
+      },
+      {
+        "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\qa\\v10\\boat-correction.jpg",
+        "sha256": "d65afe06e755d627a13d87ad69a8d238b9dabe25dac15fee7d574a3ba60c70bd"
+      },
+      {
+        "path": "D:\\ai项目\\ai动画\\VibeVideo项目\\work\\medieval-tilt-shift-20261020\\qa\\v10\\connections-garden-statue-city.jpg",
+        "sha256": "9b496425c8857426717068e09b3780e74addd23f163787be3c7d72909117daf0"
+      }
+    ],
+    "actual_listened_ranges_seconds": [],
+    "audio_perceived": false,
+    "observations": [
+      {
+        "frames": [
+          12,
+          48,
+          96,
+          168
+        ],
+        "observation": "Early frames progress from the city behind a sandy foreground to an elevated view of the blue gate, avenue, temple and canal. Narrow middle focus and increasing foreground/distance blur are visible in the sampled later opening states. These separated frames do not prove all intermediate motion."
+      },
+      {
+        "frames": [
+          288,
+          504,
+          638
+        ],
+        "observation": "Blue glazed gate and processional wall panels, a royal statue, paved street, residents and pack animals are readable within the focus band. Buildings remain gold and sandy; blue is used at the gate and in street decoration."
+      },
+      {
+        "frames": [
+          639,
+          728,
+          744,
+          760,
+          840,
+          852,
+          863
+        ],
+        "observation": "Loaded barges and square-sail river boats are distinguishable. No isolated parallel crossbench bars are visible in the water in these samples. Full-resolution frames 744 and 852 show seats inside the visible hulls and a clear river surface where orphan bars previously appeared. Cargo and boatmen are legible at frame 744."
+      },
+      {
+        "frames": [
+          864,
+          960
+        ],
+        "observation": "Terraced garden retains steps, landing surfaces, palms and plantings. The sampled views show connected stair/terrace forms and a narrow focused region with progressive blur."
+      },
+      {
+        "frames": [
+          1152
+        ],
+        "observation": "Two gold-toned divine figures on blue plinths are visible on the stepped temple forecourt. This is an interpretive fantasy arrangement."
+      },
+      {
+        "frames": [
+          1296
+        ],
+        "observation": "Full-resolution view shows avenue, canal, timber bridge decks and bank approaches connected in the readable center. Low courtyard blocks extend toward the top and sides, becoming progressively blurred. The city reads as a miniature panorama."
+      },
+      {
+        "frames": [
+          638,
+          639,
+          863,
+          864
+        ],
+        "observation": "The sampled frames straddling two cuts contain complete market, canal and garden images without an intervening blank among these exact inspected frames. Other intermediate frames were not independently inspected."
+      }
+    ],
+    "verification_limits": [
+      "18 representative encoded frames inspected, not all 1344 frames.",
+      "Actual listening unavailable; music climax and subjective synchronization not verified.",
+      "No additional independent review round; historical v9 report remains tied to its own hash.",
+      "Babylon-inspired fantasy city rather than an archaeological reconstruction."
+    ]
+  },
+  "v10_style_check": "qa/v10/style-source-check-v10.json",
+  "v11_revision": {
+    "duration": 76,
+    "frame_count": 1824,
+    "source_model": "model/babylon-city-v10.blend",
+    "model": "model/babylon-city-v11.blend",
+    "traffic": "traffic-v11.npz",
+    "renderer": "render_city_v11.py",
+    "timeline": "v11-timeline.json",
+    "changes": [
+      "Independent obstacle-aware pedestrian routes, conversations and working pauses",
+      "Small scattered donkey groups and browsing goats with independent gait",
+      "Distinct statues oriented to the actual entrance, lower three-quarter photography, lions and offerings",
+      "Courtyard temple and grain exchange with connected cross street and quay"
+    ],
+    "review": "User feedback revision; existing independent review budget unchanged. Producer checks only; no claimed new independent pass.",
+    "traffic_clearance": "All 609 8Hz states passed radius checks before final static-site cleanup; see qa/v11/traffic-check.json.",
+    "additional_fixes": [
+      "Clear realised residential meshes from new civic sites.",
+      "Move grain visitors to open inner courtyard; separate dock workers.",
+      "Bake each shared stride collection into a single mesh.",
+      "Widen diagonal sculpture focus band for both figures."
+    ],
+    "render_optimization": "Stable per-actor mesh topology with exact baked-pose shape keys; 16 consecutive formal-size frames completed at 2.5–3.2 s after initialization. Old collection switching caused complete BVH rebuild and GPU allocation failure.",
+    "proof_observations": "qa/v11/producer-proof-observations.json",
+    "site_cleanup": "Local inherited enclosure removal including coping and core; final proof 1392 actually viewed without intervening wall.",
+    "frozen_manifest": "render/frozen-v11-manifest.json",
+    "render_configuration": {
+      "engine": "CYCLES",
+      "samples": 24,
+      "device": "OPTIX",
+      "denoiser": "OPENIMAGEDENOISE",
+      "denoising_gpu": true,
+      "compositor": "GPU",
+      "tiling": false,
+      "width": 1080,
+      "height": 1920,
+      "reason": "Retain established Cycles material and lighting. Stable shape-key actors completed consecutive final-size frames without graph rebuild."
+    },
+    "active_launcher_pid": null,
+    "pipeline_status": "render/pipeline-status-v11.json",
+    "stdout": "render/full-v11.stdout.log",
+    "stderr": "render/full-v11.stderr.log",
+    "continuous_sample": "delivery/v11-街景修复样段.mp4",
+    "sample_observations": "qa/v11/sample-encoded-evidence.json",
+    "tracked_exec_session": null,
+    "resume_log": "render/resume-v11-tracked.log",
+    "resume_reason": "Prior process tree absent at 1137 saved frames. Frozen manifest and PNG validation passed; resumed same source in tracked session.",
+    "final_candidate_sha256": "ea895e3b1fa3dc6af62bc8aa7f24e92f2d4e243938c56668c4fe2f2ead6630e7",
+    "engineering_check": "delivery/engineering-check-v11.json",
+    "producer_observations": "qa/v11/producer-observations-v11.json",
+    "completed_exec_session": 85835
+  },
+  "v12_revision": {
+    "requests": [
+      "屏幕闪动",
+      "祭司、巴比伦军队、埃及使团及互动",
+      "全长主干道人群",
+      "船只色彩、船员和纤夫"
+    ],
+    "preserved": [
+      "76s 1080x1920 24fps",
+      "music excerpt",
+      "horizon reveal",
+      "blue glaze and miniature focus",
+      "city and connected streets"
+    ],
+    "new_review_round": false,
+    "model": "model/babylon-city-v12.blend",
+    "renderer": "render_city_v12.py",
+    "pipeline": "render_pipeline_v12.py",
+    "timeline": "v12-timeline.json",
+    "traffic": "traffic-v12.npz",
+    "revision_plan": "v12-修复计划.md",
+    "model_evidence": "qa/v12/model-evidence.json",
+    "layout_evidence": "qa/v12/layout-evidence.json",
+    "frozen_manifest": "render/frozen-v12-manifest.json",
+    "screen_layout_checked": {
+      "patrol": {
+        "times": [
+          16.5,
+          22,
+          26.5
+        ],
+        "inside_frame": "10/10"
+      },
+      "tow_teams": {
+        "times": [
+          27.5,
+          31.5,
+          36
+        ],
+        "inside_frame": "8/8"
+      }
+    },
+    "completed": [
+      "v11 isolated green/bright frames 24 and 1115 diagnosed",
+      "Replaced unstable Defocus with multi-level Gaussian CoC; GPU compositing avoids CPU memory allocation failures in final-model samples",
+      "priest, acolyte, Babylonian guard/patrol, Egyptian envoy and attendant role meshes built",
+      "8582 additional solid street citizens including 936 independently moving mid-distance actors",
+      "180 additional nearby citizens with cached avoidance",
+      "4 painted square-sail merchant craft with 8 additional aboard crew; existing barges painted and cargo accented",
+      "2 tow teams with 8 modeled workers and animated connected ropes",
+      "layout projections place 10 patrol members and 8 tow workers within their shot windows",
+      "excluded livestock from human profession reassignment; rebuilt final model",
+      "raised continuous towpath with two passing lanes removes house occlusion; feet rest on real quay height",
+      "37 final-model formal-size sample frames rendered and passed strong-green corruption scan",
+      "producer viewed final-model canal frame 744: both teams and connected ropes clearly visible",
+      "1824/1824 formal-size frames rendered and assembled with unchanged music excerpt.",
+      "Whole source and encoded-frame technical scans found no strong-green or isolated temporal candidates.",
+      "Producer inspected 38 representative encoded frames, six 24-frame windows and five full-resolution encoded stills."
+    ],
+    "verification_limits": [
+      "Producer representative and stated continuous-window checks only; not all 1824 frames visually reviewed.",
+      "No new independent review round. Historical review is bound to its own historical video.",
+      "Actual audio listening unavailable; subjective music synchronization remains unverified.",
+      "Technical scan addresses strong colour faults and isolated jumps; subtle temporal shimmer is not ruled out.",
+      "Fantasy interpretation of Babylon; not an archaeological reconstruction."
+    ],
+    "next_action": "Current v12 delivered; await user feedback. No new render or independent review scheduled.",
+    "full_render_session": null,
+    "render_status": "render/pipeline-status-v12.json",
+    "source_still_observations": "qa/v12/final-source-still-observations.json",
+    "active_pipeline_pid": null,
+    "actual_viewed_final_source_stills": [
+      288,
+      528,
+      744,
+      1176,
+      1752
+    ],
+    "last_progress_snapshot": {
+      "saved_frames": 1824,
+      "total_frames": 1824,
+      "as_of": "2026-10-22T02:17:14.720502+00:00",
+      "stage": "delivered"
+    },
+    "render_recovery_note": "Automatic continuation after memory allocation failure at frame 1388; batch through 1439 completed and checked.",
+    "resume_stdout": "render/resume-v12-1829.stdout.log",
+    "resume_stderr": "render/resume-v12-1829.stderr.log",
+    "resume_note": "Session 71351 absent and no Blender/pipeline process found. Preserved 1501 PNGs, resumed same frozen pipeline in tracked session 19720; startup manifest verified unchanged.",
+    "final_candidate_sha256": "eb3690a4d3b997517b28de24df4da048f5a65c614abea552bbea40c3a65cdd2b",
+    "engineering_check": "delivery/engineering-check-v12.json",
+    "producer_observations": "qa/v12/producer-observations-v12.json",
+    "encoded_temporal_scan": "qa/v12/encoded-temporal-scan.json",
+    "completed_at": "2026-10-22T02:17:14.720502+00:00"
+  }
+}

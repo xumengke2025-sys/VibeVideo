@@ -1,0 +1,439 @@
+{
+  "revision": "V16 single-case blueprint continuation",
+  "duration": 104,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "aspect_ratio": "16:9",
+  "world": [
+    9800,
+    4800
+  ],
+  "delivery_mode": "ai_review_once",
+  "review_budget": "already_used",
+  "base": "v13 (V11 blueprint world and cards retained)",
+  "case": {
+    "id": "A01",
+    "label": "示例客户信息",
+    "industry": "半导体衬底企业（流程示意）",
+    "opportunity": "股东服务／减持线索",
+    "fictional": true
+  },
+  "shots": [
+    {
+      "start": 0,
+      "end": 10,
+      "id": "pain",
+      "name": "找商机耗时，信息分散",
+      "voiceover": "",
+      "reads": "找商机耗时，信息分散"
+    },
+    {
+      "start": 10,
+      "end": 18,
+      "id": "cards",
+      "name": "选择股东服务场景，同一半导体客户",
+      "voiceover": "",
+      "reads": "选择股东服务场景，同一半导体客户"
+    },
+    {
+      "start": 18,
+      "end": 32,
+      "id": "sources",
+      "name": "归集同主体、事件与时间",
+      "voiceover": "",
+      "reads": "归集同主体、事件与时间"
+    },
+    {
+      "start": 32,
+      "end": 46,
+      "id": "judgment",
+      "name": "线索怎样成为跟进判断",
+      "voiceover": "",
+      "reads": "线索怎样成为跟进判断"
+    },
+    {
+      "start": 46,
+      "end": 60,
+      "id": "experts",
+      "name": "专业会商，形成服务思路",
+      "voiceover": "",
+      "reads": "专业会商，形成服务思路"
+    },
+    {
+      "start": 60,
+      "end": 76,
+      "id": "industry",
+      "name": "深入理解同一客户的产业位置",
+      "voiceover": "",
+      "reads": "深入理解同一客户的产业位置"
+    },
+    {
+      "start": 76,
+      "end": 83,
+      "id": "knowledge",
+      "name": "研究与规则依据回接客户档案",
+      "voiceover": "",
+      "reads": "研究与规则依据回接客户档案"
+    },
+    {
+      "start": 83,
+      "end": 96,
+      "id": "preparation",
+      "name": "形成沟通材料，经人工审核",
+      "voiceover": "",
+      "reads": "形成沟通材料，经人工审核"
+    },
+    {
+      "start": 96,
+      "end": 104,
+      "id": "feedback",
+      "name": "记录回流，持续客户经营",
+      "voiceover": "",
+      "reads": "记录回流，持续客户经营"
+    }
+  ],
+  "business_messages": [
+    {
+      "start": 18,
+      "end": 23,
+      "pain": "痛点｜资料分散，搜集耗时",
+      "result": "同一家客户：公告、股东资料、解禁信息进入档案"
+    },
+    {
+      "start": 23,
+      "end": 31.5,
+      "pain": "先看清事实，再寻找业务切入点",
+      "result": "工具取数与规则筛选 · AI 辅助解读、归纳来源"
+    },
+    {
+      "start": 32,
+      "end": 37,
+      "pain": "痛点｜发现了信号，业务价值仍难判断",
+      "result": "以公司解禁信息为线索，梳理主体、时间与服务背景"
+    },
+    {
+      "start": 37,
+      "end": 45.5,
+      "pain": "研判｜为什么关注？联系谁？先谈什么？",
+      "result": "AI 辅助梳理条件与依据，形成跟进建议"
+    },
+    {
+      "start": 47,
+      "end": 53,
+      "pain": "痛点｜复杂业务问题，需要专业支持",
+      "result": "专业知识装备 + 业务方法 + 培养与试炼"
+    },
+    {
+      "start": 53,
+      "end": 59.5,
+      "pain": "会商｜股东服务判断，还要结合客户背景",
+      "result": "AI 专家协作：股份管理需求、联系时机、服务切入点"
+    },
+    {
+      "start": 60,
+      "end": 65,
+      "pain": "继续追问｜这家半导体企业，处在产业链哪里？",
+      "result": "同一份 A01 客户档案，进入产业研究台"
+    },
+    {
+      "start": 65,
+      "end": 71,
+      "pain": "产业研判｜先定位环节，再看技术与经营资料",
+      "result": "AI 辅助检索年报、专利与产业资料，关联来源"
+    },
+    {
+      "start": 71,
+      "end": 75.5,
+      "pain": "把行业理解，带回这家客户的沟通准备",
+      "result": "产业研究提供客户背景，股东服务专家研判服务方向"
+    },
+    {
+      "start": 76.5,
+      "end": 82.5,
+      "pain": "痛点｜建议要有专业依据支撑",
+      "result": "规则、案例与研究原文回接同一客户档案"
+    },
+    {
+      "start": 84,
+      "end": 90,
+      "pain": "痛点｜有了判断，怎样与客户展开沟通？",
+      "result": "AI 辅助整理：联系目的、客户背景、拜访问题"
+    },
+    {
+      "start": 90,
+      "end": 95.8,
+      "pain": "成果｜带着明确问题与服务思路开展沟通",
+      "result": "业务人员审阅材料，安排联系与后续跟进"
+    },
+    {
+      "start": 96,
+      "end": 100,
+      "pain": "把沟通记录留在同一份客户档案里",
+      "result": "AI 辅助梳理记录，支持下一次业务研判"
+    }
+  ],
+  "soundtrack": {
+    "sample_rate": 48000,
+    "phrases": [
+      {
+        "start": 0.0,
+        "end": 6.4,
+        "beats": 16
+      },
+      {
+        "start": 6.4,
+        "end": 12.8,
+        "beats": 16
+      },
+      {
+        "start": 12.8,
+        "end": 19.200000000000003,
+        "beats": 16
+      },
+      {
+        "start": 19.200000000000003,
+        "end": 25.6,
+        "beats": 16
+      },
+      {
+        "start": 25.6,
+        "end": 32.0,
+        "beats": 16
+      },
+      {
+        "start": 32.0,
+        "end": 38.4,
+        "beats": 16
+      },
+      {
+        "start": 38.400000000000006,
+        "end": 44.800000000000004,
+        "beats": 16
+      },
+      {
+        "start": 44.800000000000004,
+        "end": 51.2,
+        "beats": 16
+      },
+      {
+        "start": 51.2,
+        "end": 57.6,
+        "beats": 16
+      },
+      {
+        "start": 57.6,
+        "end": 64.0,
+        "beats": 16
+      },
+      {
+        "start": 64.0,
+        "end": 70.4,
+        "beats": 16
+      },
+      {
+        "start": 70.4,
+        "end": 76.80000000000001,
+        "beats": 16
+      },
+      {
+        "start": 76.80000000000001,
+        "end": 83.20000000000002,
+        "beats": 16
+      },
+      {
+        "start": 83.2,
+        "end": 89.60000000000001,
+        "beats": 16
+      },
+      {
+        "start": 89.60000000000001,
+        "end": 96.00000000000001,
+        "beats": 16
+      },
+      {
+        "start": 96.0,
+        "end": 102.4,
+        "beats": 16
+      },
+      {
+        "start": 102.4,
+        "end": 104,
+        "beats": 4
+      }
+    ],
+    "density": [
+      {
+        "start": 0,
+        "end": 10,
+        "gain": 0.58
+      },
+      {
+        "start": 10,
+        "end": 18,
+        "gain": 1
+      },
+      {
+        "start": 18,
+        "end": 46,
+        "gain": 0.7
+      },
+      {
+        "start": 46,
+        "end": 60,
+        "gain": 0.56
+      },
+      {
+        "start": 60,
+        "end": 65,
+        "gain": 0.95
+      },
+      {
+        "start": 65,
+        "end": 74,
+        "gain": 0.6
+      },
+      {
+        "start": 74,
+        "end": 84,
+        "gain": 0.8
+      },
+      {
+        "start": 84,
+        "end": 96,
+        "gain": 0.7
+      },
+      {
+        "start": 96,
+        "end": 101.6,
+        "gain": 1
+      },
+      {
+        "start": 101.6,
+        "end": 104,
+        "gain": 0.28
+      }
+    ],
+    "breaks": [
+      [
+        28.2,
+        28.4
+      ],
+      [
+        66.2,
+        66.4
+      ],
+      [
+        89,
+        89.2
+      ]
+    ],
+    "events": [
+      {
+        "at": 10.4,
+        "id": "cards-open",
+        "sound": "travel"
+      },
+      {
+        "at": 13.2,
+        "id": "card-selected",
+        "sound": "accent"
+      },
+      {
+        "at": 17.6,
+        "id": "archive-handoff",
+        "sound": "tick"
+      },
+      {
+        "at": 28.4,
+        "id": "sources-merge",
+        "sound": "drop"
+      },
+      {
+        "at": 33.2,
+        "id": "judgment-open",
+        "sound": "tick"
+      },
+      {
+        "at": 37.6,
+        "id": "criteria-connect",
+        "sound": "accent"
+      },
+      {
+        "at": 41.6,
+        "id": "judgment-result",
+        "sound": "drop"
+      },
+      {
+        "at": 50.4,
+        "id": "expert-1",
+        "sound": "tick"
+      },
+      {
+        "at": 51.6,
+        "id": "expert-2",
+        "sound": "tick"
+      },
+      {
+        "at": 52.8,
+        "id": "expert-3",
+        "sound": "accent"
+      },
+      {
+        "at": 60.4,
+        "id": "industry-travel",
+        "sound": "travel"
+      },
+      {
+        "at": 64.4,
+        "id": "atlas-open",
+        "sound": "accent"
+      },
+      {
+        "at": 66.4,
+        "id": "company-position",
+        "sound": "drop"
+      },
+      {
+        "at": 68.8,
+        "id": "evidence-connect",
+        "sound": "tick"
+      },
+      {
+        "at": 72.4,
+        "id": "research-result",
+        "sound": "accent"
+      },
+      {
+        "at": 74,
+        "id": "return-evidence",
+        "sound": "travel"
+      },
+      {
+        "at": 79.6,
+        "id": "knowledge-read",
+        "sound": "accent"
+      },
+      {
+        "at": 89.2,
+        "id": "preparation",
+        "sound": "drop"
+      },
+      {
+        "at": 94,
+        "id": "human-review",
+        "sound": "tick"
+      },
+      {
+        "at": 96.4,
+        "id": "feedback",
+        "sound": "travel"
+      },
+      {
+        "at": 101.6,
+        "id": "brand",
+        "sound": "resolve"
+      }
+    ]
+  }
+}

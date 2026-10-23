@@ -1,0 +1,86 @@
+{
+  "objective": "完成优雅、精细的近东巴比伦巨型城市移轴短片；街道连贯、城区延伸到地平线，无龙；1080×1920、56秒、一次AI审核。",
+  "date": "2026-10-20",
+  "version": "v6",
+  "status": "full_resolution_tiled_render_in_progress",
+  "project_title": "暮河城 · 街巷与运河",
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "delivery_mode": "ai_review_once",
+  "duration": 56,
+  "fps": 24,
+  "frame_count": 1344,
+  "plan": "视频制作计划.md",
+  "structured_plan": "plan.json",
+  "history": "history/v1/",
+  "completed": [
+    "核对原计划对材质、曝光、低位角色摄影及最终品质证明的不足",
+    "将欧洲中世纪城镇替换为近东巴比伦幻想城邦，保留送火点灯主线",
+    "安排城市固定、镜头升高解除土坡遮挡的地平线开场；建议全片由48秒延至56秒",
+    "补充精细资产分层、侧向暖光、斜俯近景、景深边缘与视深对焦、采样及编码对照要求",
+    "补充90BPM、4/4、21小节的音乐设计、配器、分轨、现场声与关键事件响应；区分近东风格配乐与历史复原",
+    "同步镜头、阅读顺序、事件、配乐段落和关键样段的时间",
+    "保存4份v1历史文件并对v2重新运行本地shot_contract.py",
+    "保存v2历史，取消龙与送火链，重排六段城市街景",
+    "编写模型优先质量样板脚本model/build_city.py，尚未渲染",
+    "v1模型样板真实生成和渲染；制作检查发现不足后扩建v2城市模型",
+    "取消龙与送火，完成可编辑Blender城市模型v3及无景深实渲图",
+    "保存原样例代码来源和实际迁移范围source-adoption.json",
+    "v4完成12种细节院落变体、露台绿植、市集、66名居民与第四艘船；v5扩展10972座远景院落、1800米主轴大道与1900米运河及横纵路网",
+    "原创56秒配乐和环境音已生成；48kHz立体声，测得-15.91 LUFS、-1.83dBTP；实际听音尚未完成",
+    "定位原失败为GPU/shared host memory分配失败；没有终止无关进程或降低正式画幅",
+    "CUDA/CPU合成成功但较慢；OptiX 256px分块+GPU降噪/合成连续4帧通过，约8–10秒/帧",
+    "v6补齐远景西岸横街至桥头，保留v5模型及旧输出",
+    "采用独立frames-v6目录、原子PNG写入、32帧进程、断点续渲，避免不同降噪器样片混入成片"
+  ],
+  "verification": {
+    "plan_structure": "v3: 6 shots, 18 representative states, 11 continuous windows, 0 errors",
+    "render": "v5巨城8张设定帧已经输出；本次实际查看4秒、26秒、52秒。v6补接西岸横街；OptiX 256px分块连续4帧成功，正在以32帧进程输出1344帧。完整成片未完成。",
+    "assets": "model/babylon-city-v6.blend 保留v5的10972座远景院落、原有精细核心区；横街从x=12延伸到x=23西岸桥头。结构见model/out/street-connections-v6.json；新版最终画面待检查。",
+    "audio": "原创56秒配乐和环境音已生成，48kHz立体声；已有测量约-15.91 LUFS、-1.83 dBTP。实际听音未完成，当前工具无音频感知通道。",
+    "limits": "结构检查不证明美术、动作、景深、音画或听感成立"
+  },
+  "user_confirmed_requirements": [
+    "近东巴比伦风格",
+    "城市从地平线上渐渐冒出的开头",
+    "精细的移轴摄影效果",
+    "音乐要有完整计划",
+    "街道连贯；巴比伦为宏伟、一望无际的巨型城市"
+  ],
+  "unresolved": [
+    "完整1344帧尚在渲染，完成后需合成、完整解码与画幅/音轨检查",
+    "待检查新版开场连续状态、街道连接及镜头切换",
+    "建筑仍有程序化重复，人物为简化微缩模型；不声称写实实拍或完美",
+    "一次独立审核尚未开始；实际听音工具受限，不能宣称完整视听通过"
+  ],
+  "concept_paths": [
+    "concepts/city-overview-v1.png",
+    "concepts/city-reveal-early-v1.png",
+    "concepts/city-reveal-late-v1.png"
+  ],
+  "concept_manifest": "concepts/manifest-v1.json",
+  "concept_verification": "三张概念图已实际查看并复制入项目，均为941×1672；未进行三维、动画、音频或成片审核。",
+  "feedback": [
+    "用户要求强化最终移轴与精细效果",
+    "用户指定地平线显城、近东巴比伦风格及音乐计划",
+    "用户认可概念图：很好，但注意参考样例视频的生成代码",
+    "用户指出实景渲染毫无质感，要求先做好模型",
+    "用户取消龙，城市街景即可"
+  ],
+  "protected_items": [
+    "蓝釉门楼与土金泥砖",
+    "右后方阶梯神庙和纵深运河",
+    "暖侧光与可读材料",
+    "地平线由真实遮挡解除显露"
+  ],
+  "next_action": "监控render/pipeline-status.json和batch-logs-v6，检查首段连续输出；候选片完成后一个独立审片角色实际审画面，按报告最多修复一次再交付；如听音不可感知，明确未完成。",
+  "do_not_resume_other_projects": true,
+  "updated_at": "2026-10-20T11:03:42",
+  "render_session_id": 82597,
+  "review_budget": {
+    "reviewer_started": false,
+    "repair_rounds_used": 0,
+    "max_repair_rounds": 1
+  }
+}

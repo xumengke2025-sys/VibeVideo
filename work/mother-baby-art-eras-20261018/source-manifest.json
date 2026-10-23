@@ -1,0 +1,70 @@
+{
+  "film/index.html": {
+    "sha256": "0959e63eab17a67865672e138a66dac6a1fcaf9d92c4ae3e3e000a7188a96163",
+    "bytes": 376
+  },
+  "film/film.js": {
+    "sha256": "c63f773e35298c831e2365202aaad01ca76f8244cdc161758844be8a392b63d6",
+    "bytes": 26974
+  },
+  "film/eras.js": {
+    "sha256": "23e260f6741c69c9a605af51de8e8ad031d481ef2482779dec714b41334d28fe",
+    "bytes": 3193
+  },
+  "render.mjs": {
+    "sha256": "1e73fac67e9b66fce8811aecde5deed383cf5d43edb88e0444b541dcbfbecaa6",
+    "bytes": 3734
+  },
+  "validate.mjs": {
+    "sha256": "e2417846e474e93eec42fb330c3ad1c151856c9216040e50670f4dedcf75046a",
+    "bytes": 2224
+  },
+  "prepare_evidence.py": {
+    "sha256": "458362793589364ccc674557bd09d1acdebf515453fcdf2e910f988d5a05392d",
+    "bytes": 1946
+  },
+  "package_source.py": {
+    "sha256": "9f14546b62952bacd12dc493614b3c1186e11031413fd249e6d39774b2272460",
+    "bytes": 1259
+  },
+  "README.md": {
+    "sha256": "23187de22a4e63f1413b69ea92d8ac8d1686ed5c1c4b8310c7f18d63c351aedf",
+    "bytes": 1475
+  },
+  "THIRD_PARTY_NOTICES.md": {
+    "sha256": "4a90b1624854e026a84d2aaf133d039faaf3da4235ea971f1c0cfc570adc8a18",
+    "bytes": 1175
+  },
+  "REFERENCE-LICENSE.txt": {
+    "sha256": "6d6a2a9caf2e6d2b76974050427053b2892d8aa4c33fd168ce63a537fcee9d96",
+    "bytes": 1086
+  },
+  "brief.json": {
+    "sha256": "1b59de48d934034955d59fe26f421f183ee421ef3eb2dbbcab7b0bc7edde9065",
+    "bytes": 4097
+  },
+  "CHECKPOINT.md": {
+    "sha256": "f1e4b092ea528869a54b8f803904eabbafe56ed3d7498759a464ba8495e8c60c",
+    "bytes": 5405
+  },
+  "research/REFERENCE-TRANSFER.md": {
+    "sha256": "b4ce57115018a95155536afc04d53ef75a0ed139b4aa9a7363d86af54b2a36b9",
+    "bytes": 3855
+  },
+  "out/mechanical-check.json": {
+    "sha256": "25810744dad6728708a7e0f0c0500349c23ae4b72ae6ac67be2a176594914356",
+    "bytes": 928
+  },
+  "out/determinism-and-reach.json": {
+    "sha256": "c113c4233845cd84baa1d48f0b5f7abb3d96eb110de10f043747469f87039913",
+    "bytes": 442
+  },
+  "qa/v1/engineering-check.json": {
+    "sha256": "2e072a7ff2e577dd74372506e16f7c42361b9a69bc9712225443f9c62ca8236a",
+    "bytes": 812
+  },
+  "qa/v1/blind-observation.md": {
+    "sha256": "7ee6480258c4e22a4e2159b7fbc9a29a57d9a76a57fd4f34dcd6fe1ef35dccaa",
+    "bytes": 1555
+  }
+}

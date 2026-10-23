@@ -1,0 +1,83 @@
+{
+  "duration": 68,
+  "sample_rate": 48000,
+  "provider": "Windows SAPI offline",
+  "voice": "Microsoft Huihui Desktop",
+  "music": "Original synthesized plucked motif",
+  "peak": 0.651816040025735,
+  "entries": [
+    {
+      "id": "position-and-input",
+      "text": "券商客户经营，查商机、问业务、备拜访，都能从一句问题开始。",
+      "spoken_text": "券商客户经营，查商机、问业务、备拜访，都能从一句问题开始。",
+      "start": 0.24,
+      "end": 5.76,
+      "original_duration": 5.982875,
+      "speed": 1.0838541666666668
+    },
+    {
+      "id": "candidate-signals",
+      "text": "主动查询，也能监测市场和客户名单，从变化中发现待核实的线索。",
+      "spoken_text": "主动查询，也能监测市场和客户名单，从变化中发现待核实的线索。",
+      "start": 6.24,
+      "end": 12.743166666666667,
+      "original_duration": 6.503166666666667,
+      "speed": 1
+    },
+    {
+      "id": "expert-work-branches",
+      "text": "数十位AI专家按专业分工，复杂问题协作研判，找出服务方向和待核实问题。",
+      "spoken_text": "数十位人工智能专家按专业分工，复杂问题协作研判，找出服务方向和待核实问题。",
+      "start": 15.24,
+      "end": 23.721916666666665,
+      "original_duration": 8.481916666666667,
+      "speed": 1
+    },
+    {
+      "id": "question-with-evidence",
+      "text": "有疑问，直接问。专家检索已配备的知识，带着依据回答：有扩产计划，还要确认资金来源与缺口。",
+      "spoken_text": "有疑问，直接问。专家检索已配备的知识，带着依据回答：有扩产计划，还要确认资金来源与缺口。",
+      "start": 24.24,
+      "end": 34.058375,
+      "original_duration": 9.818375,
+      "speed": 1
+    },
+    {
+      "id": "visit-preparation",
+      "text": "准备拜访，把信息缺口变成具体提问，再组织目标、话术和材料。",
+      "spoken_text": "准备拜访，把信息缺口变成具体提问，再组织目标、话术和材料。",
+      "start": 36.24,
+      "end": 42.616708333333335,
+      "original_duration": 6.376708333333333,
+      "speed": 1
+    },
+    {
+      "id": "followup-feedback",
+      "text": "确认后进入跟进。记录带回商机诊断，找出卡点，调整下一步。",
+      "spoken_text": "确认后进入跟进。记录带回商机诊断，找出卡点，调整下一步。",
+      "start": 46.24,
+      "end": 52.78027083333333,
+      "original_duration": 6.5402708333333335,
+      "speed": 1
+    },
+    {
+      "id": "capability-index",
+      "text": "从商机查询到诊断、陪练和经营计划，支持持续的客户经营。",
+      "spoken_text": "从商机查询到诊断、陪练和经营计划，支持持续的客户经营。",
+      "start": 55.24,
+      "end": 60.628083333333336,
+      "original_duration": 5.388083333333333,
+      "speed": 1
+    },
+    {
+      "id": "lifecycle-reveal",
+      "text": "覆盖企业全生命周期，把业务问题，变成有依据的行动。",
+      "spoken_text": "覆盖企业全生命周期，把业务问题，变成有依据的行动。",
+      "start": 61.24,
+      "end": 66.49154166666666,
+      "original_duration": 5.251541666666666,
+      "speed": 1
+    }
+  ],
+  "listening_verified": false
+}

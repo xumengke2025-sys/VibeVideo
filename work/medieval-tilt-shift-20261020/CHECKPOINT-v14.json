@@ -1,0 +1,60 @@
+{
+  "objective": "Execute the six approved Babylon v13 improvements and deliver a complete v14 film.",
+  "status": "production_samples_rendering",
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "duration": 76,
+  "delivery_mode": "ai_review_once",
+  "review_budget": "Existing single review round already used; this user-authorized revision uses producer verification without a new reviewer.",
+  "protected": [
+    "v13 files",
+    "continuous road network",
+    "blue glaze and warm stone",
+    "opposite-bank tow teams",
+    "coordinated patrol",
+    "populated final city"
+  ],
+  "scope": [
+    "water contact and wakes",
+    "offering interaction and crowd grouping",
+    "dynamic focus and camera composition",
+    "district and material details",
+    "scene-specific ambience",
+    "targeted temporal stability verification"
+  ],
+  "completed": [
+    "Built independent v14 Blender model; v13 preserved",
+    "119 grouped citizens have >1.10m placement clearance and reduced idle motion",
+    "New continuous offering handover and altar placement; sampled arm reach 0.469m",
+    "Added roof/garden props, subtle building variation and cedar sanctuary doors",
+    "Changed water noise to world scale and added 5 boat wake systems",
+    "Dynamic focus band follows patrol, boat and offering; final panorama opens focus",
+    "Created 76-second scene-specific original ambience mix with unchanged music excerpt",
+    "Viewed formal proof frames 756 and 1373 after water/door fixes"
+  ],
+  "verification": [
+    "Actual viewed final-model proof images: render/proof-v14-final/00756.png and 01373.png",
+    "Audio technical measurements: -17.30 LUFS, -2.29 dBTP, 48kHz stereo; not listened",
+    "Initial GPU memory/driver failures occurred under shared-machine pressure; final proof process completed successfully"
+  ],
+  "unresolved": [
+    "Continuous action and shimmer samples still rendering",
+    "Full 1824-frame render and encoded output checks pending",
+    "Actual listening unavailable"
+  ],
+  "next_action": "Finish 252-frame samples; inspect; render full 1824-frame v14 and encode. Release Mist Gold pause marker after Babylon is done.",
+  "updated_at": "2026-10-23T00:22:50.055345+00:00",
+  "resource_pause": {
+    "user_authorized": true,
+    "project": "work/mist-gold-city-20261022",
+    "marker": "render/PAUSED-FOR-BABYLON.json",
+    "pipeline_pid_stopped": 13700,
+    "blender_pid_stopped": 45128,
+    "preserved_frames": true,
+    "resume_version": "organic-final-v2",
+    "resume_mode": "sample",
+    "must_release_after_babylon": true
+  }
+}
